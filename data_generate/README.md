@@ -1,7 +1,7 @@
 # Function Call Data Generation Framework
 一个强大的Agent工具调用数据生成框架，专门用于生成高质量的多轮Agent规划与工具使用对话数据，有效提升大语言模型的Agent规划和工具调用能力。基于我们生成的8k高质量数据，通过LoRA微调结合ToolRL强化学习训练qwen-32b-instruct模型后，在BFCL榜单的multi-turn指标上实现了从22.25%到45.88%的显著提升，性能提升幅度达到**105.8%**。在同等数据规模下，我们的数据为模型带来的精度提升显著超越当前所有主流Agent开源数据集（包括ToolACE、xLAM、ToolBench等），展现了卓越的数据质量和训练效果。
 <div align="center">
-  <img src="https://gitlab.bj.sensetime.com/lm-toolchain/function_call_data/-/raw/guodongyu/data_generate/pipeline.png" width="100%" height="100%">
+  <img src="https://github.com/mocushile-gif/FunctionCallDataGenerate/blob/main/assets/pipeline.png?raw=true" width="100%" height="100%">
 </div>
 
 <br>
@@ -353,7 +353,7 @@ python pipeline.py \
 
 ```bash
 # 克隆项目
-git clone [<repository_url>](https://gitlab.bj.sensetime.com/lm-toolchain/function_call_data.git)
+git clone [<repository_url>]
 cd function_call_data
 
 # 安装依赖
@@ -363,7 +363,7 @@ pip install -e .
 
 如有问题或建议，请通过以下方式联系：
 
-- 邮件联系: qinxinyi@sensetime.com
-- 项目主页: [GitLab Repository](https://gitlab.bj.sensetime.com/lm-toolchain/function_call_data/-/tree/qinxinyi/data_generate?ref_type=heads)
+- 邮件联系: mocuishle439@gmail.com
+- 项目主页: [GitLab Repository](https://github.com/mocushile-gif/FunctionCallDataGenerate/tree/main/data_generate)
 
 ---
