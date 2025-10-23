@@ -1,0 +1,9 @@
+# === 忽略大文件 ===
+*.zip
+*.pkl
+*.sqlite
+*.db
+
+# === 忽略系统文件 ===
+.DS_Store
+Thumbs.db
