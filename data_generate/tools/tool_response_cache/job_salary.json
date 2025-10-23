@@ -1,0 +1,42 @@
+{
+    "{'job_title': 'software engineer', 'location': 'San Francisco, USA', 'radius': '50'}": {
+        "error": "",
+        "response": "The estimated salary for a Software Engineer in San Francisco, USA, within a 50-kilometer radius, typically ranges between $100,000 and $150,000 annually. This estimation is based on data aggregated from major publishers like Payscale, Glassdoor, and ZipRecruiter. Factors such as experience level, company size, and specific skills may influence the salary range."
+    },
+    "{'job_title': 'full-stack developer', 'location': 'San Francisco, USA'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '69b410d5-5d28-43d7-ab69-bcbfa30ed5c8', 'data': [{'location': 'San Francisco, CA', 'job_title': 'Full Stack Developer', 'min_salary': 136276.67, 'max_salary': 233321.5, 'median_salary': 176950.3, 'min_base_salary': 97004.01, 'max_base_salary': 160012.53, 'median_base_salary': 124586.75, 'min_additional_pay': 39272.66, 'max_additional_pay': 73308.97, 'median_additional_pay': 52363.55, 'salary_period': 'YEAR', 'salary_currency': 'USD', 'salary_count': 10114, 'salaries_updated_at': '2024-06-06T23:59:59.000Z', 'publisher_name': 'Glassdoor', 'publisher_link': 'https://www.glassdoor.com/Salaries/company-salaries.htm?suggestCount=0&suggestChosen=false&sc.keyword=Full%20Stack%20Developer&locT=C&locId=1147401', 'confidence': 'CONFIDENT'}]}"
+    },
+    "{'job_title': 'marketing analyst', 'location': 'Los Angeles, USA'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'bf5cd9e8-2c84-4448-b8fd-f9934d7c6e41', 'data': [{'location': 'Los Angeles, CA', 'job_title': 'Marketing Analyst', 'min_salary': 76174.81, 'max_salary': 128678.75, 'median_salary': 98464.81, 'min_base_salary': 60767.84, 'max_base_salary': 99919.07, 'median_base_salary': 77922.18, 'min_additional_pay': 15406.97, 'max_additional_pay': 28759.68, 'median_additional_pay': 20542.63, 'salary_period': 'YEAR', 'salary_currency': 'USD', 'salary_count': 6428, 'salaries_updated_at': '2025-04-10T23:59:59.000Z', 'publisher_name': 'Glassdoor', 'publisher_link': 'https://www.glassdoor.com/Salaries/company-salaries.htm?suggestCount=0&suggestChosen=false&sc.keyword=Marketing%20Analyst&locT=C&locId=1146821', 'confidence': 'CONFIDENT'}]}"
+    },
+    "{'job_title': 'IT support', 'location': 'United States', 'radius': '200'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'd5424dbf-0abd-4e9f-a8b3-386952ce43dd', 'data': [{'location': 'United States', 'job_title': 'IT Support', 'min_salary': 55978.12, 'max_salary': 97586.92, 'median_salary': 73520.83, 'min_base_salary': 44502.96, 'max_base_salary': 76166.61, 'median_base_salary': 58220.61, 'min_additional_pay': 11475.16, 'max_additional_pay': 21420.31, 'median_additional_pay': 15300.22, 'salary_period': 'YEAR', 'salary_currency': 'USD', 'salary_count': 7032, 'salaries_updated_at': '2025-04-10T23:59:59.000Z', 'publisher_name': 'Glassdoor', 'publisher_link': 'https://www.glassdoor.com/Salaries/company-salaries.htm?suggestCount=0&suggestChosen=false&sc.keyword=IT%20Support&locT=N&locId=1', 'confidence': 'CONFIDENT'}]}"
+    },
+    "{'job_title': 'IT support', 'location': 'Canada', 'radius': '200'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'ecfa53a8-33a0-44c0-bfcb-6c2055481939', 'data': [{'location': 'Canada', 'job_title': 'IT Support', 'min_salary': 43871.40064154315, 'max_salary': 70564.38193956103, 'median_salary': 54843.65194310785, 'min_base_salary': 42820.11627171569, 'max_base_salary': 63379.68875775169, 'median_base_salary': 52095.35144206323, 'min_additional_pay': 1051.2843698274608, 'max_additional_pay': 7184.693181809347, 'median_additional_pay': 2748.300501044618, 'salary_period': 'YEAR', 'salary_currency': 'CAD', 'salary_count': 791, 'salaries_updated_at': '2025-05-31T02:29:52.000Z', 'publisher_name': 'Glassdoor', 'publisher_link': 'https://www.glassdoor.com/Salaries/company-salaries.htm?suggestCount=0&suggestChosen=false&sc.keyword=IT%20Support&locT=N&locId=3', 'confidence': 'VERY_HIGH'}]}"
+    },
+    "{'job_title': 'IT support', 'location': 'Germany', 'radius': '200'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '96b705aa-7e3f-4efe-8339-35140a52fcbb', 'data': [{'location': 'Germany', 'job_title': 'IT Support', 'min_salary': 35400, 'max_salary': 54000, 'median_salary': 43500, 'min_base_salary': 35000, 'max_base_salary': 50000, 'median_base_salary': 42000, 'min_additional_pay': 400, 'max_additional_pay': 4000, 'median_additional_pay': 1500, 'salary_period': 'YEAR', 'salary_currency': 'EUR', 'salary_count': 402, 'salaries_updated_at': '2025-05-12T21:57:55.000Z', 'publisher_name': 'Glassdoor', 'publisher_link': 'https://www.glassdoor.com/Salaries/company-salaries.htm?suggestCount=0&suggestChosen=false&sc.keyword=IT%20Support&locT=N&locId=96', 'confidence': 'VERY_HIGH'}]}"
+    },
+    "{'job_title': 'senior financial analyst', 'location': 'Boston, Massachusetts'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '66f3e96c-a2b5-4fd0-8dfb-8762f30b9978', 'data': [{'location': 'Boston, MA', 'job_title': 'Senior Financial Analyst', 'min_salary': 111509.15, 'max_salary': 153837.52, 'median_salary': 130082.98, 'min_base_salary': 94368.42, 'max_base_salary': 121841.49, 'median_base_salary': 107228.67, 'min_additional_pay': 17140.73, 'max_additional_pay': 31996.03, 'median_additional_pay': 22854.31, 'salary_period': 'YEAR', 'salary_currency': 'USD', 'salary_count': 28824, 'salaries_updated_at': '2025-04-10T23:59:59.000Z', 'publisher_name': 'Glassdoor', 'publisher_link': 'https://www.glassdoor.com/Salaries/company-salaries.htm?suggestCount=0&suggestChosen=false&sc.keyword=Senior%20Financial%20Analyst&locT=C&locId=1154532', 'confidence': 'CONFIDENT'}]}"
+    },
+    "{'job_title': 'API test engineer', 'location': 'San Francisco, California'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '158e7257-b07d-41f3-b75d-2c51915e2700', 'data': []}"
+    },
+    "{'job_title': 'Java microservices developer', 'location': 'new york, usa'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '7be715f8-d80b-4575-95ac-4fd37534c073', 'data': [{'location': 'New York State', 'job_title': 'Java Microservices Developer', 'min_salary': 98250.355, 'max_salary': 179327.41, 'median_salary': 131000.47, 'min_base_salary': 75182.955, 'max_base_salary': 136268.27, 'median_base_salary': 100243.94, 'min_additional_pay': 23067.4, 'max_additional_pay': 43059.14, 'median_additional_pay': 30756.53, 'salary_period': 'YEAR', 'salary_currency': 'USD', 'salary_count': 31, 'salaries_updated_at': '2025-04-10T23:59:59.000Z', 'publisher_name': 'Glassdoor', 'publisher_link': 'https://www.glassdoor.com/Salaries/company-salaries.htm?suggestCount=0&suggestChosen=false&sc.keyword=Java%20Microservices%20Developer&locT=S&locId=428', 'confidence': 'CONFIDENT'}]}"
+    },
+    "{'job_title': 'eSports game developer', 'location': 'San Francisco, CA'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '09550fee-335f-49e6-a16e-f457a3bf6863', 'data': []}"
+    }
+}

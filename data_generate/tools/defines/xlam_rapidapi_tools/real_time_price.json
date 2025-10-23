@@ -1,0 +1,27 @@
+{
+    "name": "real_time_price",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: This endpoint is a lightweight method that allows retrieving only the real-time price of the selected instrument.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The instrument symbol, which can be any equity, index, ETF, forex, or cryptocurrency (e.g., `AAPL`, `EUR/USD`, `ETH/BTC`).",
+                "default": "AMZN"
+            },
+            "format": {
+                "type": "string",
+                "description": "The format of the response. Can be 'CSV' or 'JSON'. Default is 'JSON'.",
+                "default": "json"
+            },
+            "outputsize": {
+                "type": "number",
+                "description": "The number of data points to return. Default is 30.",
+                "default": 30
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

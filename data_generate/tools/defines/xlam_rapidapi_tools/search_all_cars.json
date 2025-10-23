@@ -1,0 +1,17 @@
+{
+    "name": "search_all_cars",
+    "description": "This is a sub-function API for tool all_cars_names_image_and_variants_info.\nTool description: Search All Cars Names, Image and Variants Info with this api ,search once and get list of all cars. use it for auto-suggestion\nAPI description: This API will fetch you all cars list, \nIf you need bike details change **vehicle_type** from \"car\" to \"bike\".",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vehicle_type": {
+                "type": "string",
+                "description": "Type of vehicle to fetch details for (e.g., 'car' or 'bike').",
+                "default": "car"
+            }
+        },
+        "required": [
+            "vehicle_type"
+        ]
+    }
+}

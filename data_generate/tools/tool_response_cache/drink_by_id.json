@@ -1,0 +1,18 @@
+{
+    "{'is_id': '63c67c9db06a3ed9f92b2368'}": {
+        "error": "",
+        "response": {
+            "message": "Drink not found"
+        }
+    },
+    "{'is_id': '63c67c9db06a3ed9f92b2369'}": {
+        "error": "",
+        "response": {
+            "message": "Drink not found"
+        }
+    },
+    "{'is_id': '63c67c9db06a3ed9f92b2367'}": {
+        "error": "",
+        "response": "{'message': 'Get local drink by id', 'drink': {'_id': '63c67c9db06a3ed9f92b2367', 'name': 'Sobolo(Bissap)', 'drinkImage': 'uploads\\\\2023-01-17T10_46_53.054Zsobolo.jpg', 'ingredient': 'Hibiscus petals, sugar, ginger, Aidan fruit(prekese), Negro pepper(hwentia)', 'preparation': 'In a large saucepan, add water. Pour in Hibiscus petals. Make sure to cover the petals with enough water\\n\\nUnder high heat, put Hibiscus petals on fire.\\n\\nWash and peel and ginger. Chop into chunks\\n\\nAdd the hwentia to Hibiscus leaves. Let it  boil for 20mins(Until water changes to purplish color)\\n\\nBlend ginger until smooth.\\n\\nDrain and separate the drink from the cooked leaves and peels using a sieve or a fine mash.\\n\\nAllow the drink to cool down completely before you add your sugar.\\n\\nStore in fridge/freezer or add ice to sobolo drink. Enjoy!!!', '__v': 0}, 'request': {'type': 'GET', 'url': 'https://ghrecipe.cyclic.app/drink/63c67c9db06a3ed9f92b2367'}}"
+    }
+}

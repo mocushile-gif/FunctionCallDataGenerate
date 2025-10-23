@@ -1,0 +1,17 @@
+{
+    "name": "price_forecasts",
+    "description": "This is a sub-function API for tool marketci_analytics.\nTool description: Stock Market Endpoint for Price Forecasts, Probability, Cash Flow Models , and Peer Comps \nAPI description: Fetches an AI-generated price forecast for a given stock symbol over the next 3 months using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which the price forecast is to be generated.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

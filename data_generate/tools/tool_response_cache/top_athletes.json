@@ -1,0 +1,42 @@
+{
+    "{'langid': 1, 'limit': 10, 'sporttype': 2, 'timezone': 'America/Chicago'}": {
+        "error": "",
+        "response": "The top 10 athletes in the sport type '2' (likely Rugby based on the supported sports list) have been fetched successfully. The data is tailored for the 'America/Chicago' timezone and presented in the language corresponding to 'langid' 1 (default language). These athletes are ranked based on their recent performance, stats, and overall impact in ongoing competitions. This information can be used to analyze player form, compare athletes, or enhance fan engagement."
+    },
+    "{'langid': 1, 'timezone': 'Europe/London', 'limit': 5, 'sporttype': 4}": {
+        "error": "",
+        "response": "{'lastUpdateId': 0, 'ttl': 0}"
+    },
+    "{'langid': 1, 'timezone': 'America/Chicago', 'limit': 5, 'sporttype': 4}": {
+        "error": "",
+        "response": "{'lastUpdateId': 0, 'ttl': 0}"
+    },
+    "{'langid': 1, 'timezone': 'America/Chicago', 'limit': 5, 'sporttype': 3}": {
+        "error": "",
+        "response": "{'lastUpdateId': 0, 'ttl': 0}"
+    },
+    "{'langid': 1, 'timezone': 'America/Chicago', 'limit': 5, 'sporttype': 1}": {
+        "error": "",
+        "response": "{'lastUpdateId': 0, 'ttl': 0, 'athletes': [{'age': 37, 'gender': 1, 'position': {'id': 4, 'name': 'Attacker'}, 'formationPosition': {'id': 14, 'name': 'Right Forward', 'order': 14}, 'status': 1, 'nationalityName': 'Argentina', 'nationalTeamStatsText': '', 'HasPenaltiesShots': False, 'id': 874, 'name': 'Lionel Messi', 'shortName': 'Messi', 'nameForURL': 'lionel-messi', 'sportId': 1, 'clubId': 54729, 'nationalityId': 10, 'nationalTeamId': 2378, 'imageVersion': 0}, {'age': 40, 'gender': 1, 'position': {'id': 4, 'name': 'Attacker'}, 'formationPosition': {'id': 12, 'name': 'Centre Forward', 'order': 12}, 'status': 1, 'nationalityName': 'Portugal', 'nationalTeamStatsText': '', 'HasPenaltiesShots': False, 'id': 817, 'name': 'Cristiano Ronaldo', 'shortName': 'Ronaldo', 'nameForURL': 'cristiano-ronaldo', 'sportId': 1, 'clubId': 7549, 'nationalityId': 11, 'nationalTeamId': 5028, 'imageVersion': 0}, {'age': 17, 'gender': 1, 'position': {'id': 4, 'name': 'Attacker'}, 'formationPosition': {'id': 14, 'name': 'Right Forward', 'order': 14}, 'status': 1, 'nationalityName': 'Spain', 'nationalTeamStatsText': '', 'HasPenaltiesShots': False, 'id': 131182, 'name': 'Lamine Yamal', 'nameForURL': 'lamine-yamal', 'sportId': 1, 'clubId': 132, 'nationalityId': 2, 'nationalTeamId': 5050, 'imageVersion': 0}, {'age': 28, 'gender': 1, 'position': {'id': 4, 'name': 'Attacker'}, 'formationPosition': {'id': 14, 'name': 'Right Forward', 'order': 14}, 'status': 1, 'nationalityName': 'Brazil', 'nationalTeamStatsText': '', 'HasPenaltiesShots': False, 'id': 39789, 'name': 'Raphinha', 'nameForURL': 'raphinha', 'sportId': 1, 'clubId': 132, 'nationalityId': 21, 'nationalTeamId': 2379, 'imageVersion': 0}, {'age': 24, 'gender': 1, 'position': {'id': 4, 'name': 'Attacker'}, 'formationPosition': {'id': 12, 'name': 'Centre Forward', 'order': 12}, 'status': 1, 'nationalityName': 'Norway', 'nationalTeamStatsText': '', 'HasPenaltiesShots': False, 'id': 65760, 'name': 'Erling Haaland', 'shortName': 'Haaland', 'nameForURL': 'erling-haaland', 'sportId': 1, 'clubId':"
+    },
+    "{'langid': 1, 'timezone': 'America/Chicago', 'limit': 10, 'sporttype': 4}": {
+        "error": "",
+        "response": "{'lastUpdateId': 0, 'ttl': 0}"
+    },
+    "{'langid': 1, 'timezone': 'UTC', 'limit': 10, 'sporttype': 2}": {
+        "error": "",
+        "response": "{'lastUpdateId': 0, 'ttl': 0, 'athletes': [{'age': 21, 'gender': 1, 'position': {'id': 8, 'name': 'Center', 'shortName': 'C'}, 'formationPosition': {'id': 22, 'name': 'Center', 'shortName': 'C', 'order': 22}, 'status': 1, 'nationalityName': 'France', 'nationalTeamStatsText': '', 'HasPenaltiesShots': False, 'id': 85798, 'name': 'Victor Wembanyama', 'shortName': 'V. Wembanyama', 'nameForURL': 'victor-wembanyama', 'sportId': 2, 'clubId': 1316, 'nationalityId': 5, 'nationalTeamId': 1730, 'imageVersion': 0}, {'age': 30, 'gender': 1, 'position': {'id': 8, 'name': 'Center', 'shortName': 'C'}, 'formationPosition': {'id': 22, 'name': 'Center', 'shortName': 'C', 'order': 22}, 'status': 1, 'nationalityName': 'Serbia', 'nationalTeamStatsText': '', 'HasPenaltiesShots': False, 'id': 53646, 'name': 'Nikola Jokic', 'shortName': 'N. Jokic', 'nameForURL': 'nikola-jokic', 'sportId': 2, 'clubId': 1323, 'nationalityId': 85, 'nationalTeamId': 1734, 'imageVersion': 0}, {'age': 26, 'gender': 1, 'position': {'id': 6, 'name': 'Guard', 'shortName': 'G'}, 'formationPosition': {'id': 18, 'name': 'Point Guard', 'shortName': 'PG', 'order': 18}, 'status': 1, 'nationalityName': 'Canada', 'nationalTeamStatsText': '', 'HasPenaltiesShots': False, 'id': 64164, 'name': 'Shai Gilgeous-Alexander', 'shortName': 'S. Gilgeous-Alexander', 'nameForURL': 'shai-gilgeous-alexander', 'sportId': 2, 'clubId': 1330, 'nationalityId': 66, 'nationalTeamId': 2354, 'imageVersion': 0}, {'age': 37, 'gender': 1, 'position': {'id': 6, "
+    },
+    "{'limit': 10, 'sporttype': 2, 'langid': 1, 'timezone': 'America/Chicago'}": {
+        "error": "",
+        "response": "{'lastUpdateId': 0, 'ttl': 0, 'athletes': [{'age': 21, 'gender': 1, 'position': {'id': 8, 'name': 'Center', 'shortName': 'C'}, 'formationPosition': {'id': 22, 'name': 'Center', 'shortName': 'C', 'order': 22}, 'status': 1, 'nationalityName': 'France', 'nationalTeamStatsText': '', 'HasPenaltiesShots': False, 'id': 85798, 'name': 'Victor Wembanyama', 'shortName': 'V. Wembanyama', 'nameForURL': 'victor-wembanyama', 'sportId': 2, 'clubId': 1316, 'nationalityId': 5, 'nationalTeamId': 1730, 'imageVersion': 0}, {'age': 30, 'gender': 1, 'position': {'id': 8, 'name': 'Center', 'shortName': 'C'}, 'formationPosition': {'id': 22, 'name': 'Center', 'shortName': 'C', 'order': 22}, 'status': 1, 'nationalityName': 'Serbia', 'nationalTeamStatsText': '', 'HasPenaltiesShots': False, 'id': 53646, 'name': 'Nikola Jokic', 'shortName': 'N. Jokic', 'nameForURL': 'nikola-jokic', 'sportId': 2, 'clubId': 1323, 'nationalityId': 85, 'nationalTeamId': 1734, 'imageVersion': 0}, {'age': 26, 'gender': 1, 'position': {'id': 6, 'name': 'Guard', 'shortName': 'G'}, 'formationPosition': {'id': 18, 'name': 'Point Guard', 'shortName': 'PG', 'order': 18}, 'status': 1, 'nationalityName': 'Canada', 'nationalTeamStatsText': '', 'HasPenaltiesShots': False, 'id': 64164, 'name': 'Shai Gilgeous-Alexander', 'shortName': 'S. Gilgeous-Alexander', 'nameForURL': 'shai-gilgeous-alexander', 'sportId': 2, 'clubId': 1330, 'nationalityId': 66, 'nationalTeamId': 2354, 'imageVersion': 0}, {'age': 37, 'gender': 1, 'position': {'id': 6, "
+    },
+    "{'langid': 1, 'timezone': 'America/Chicago', 'limit': 3, 'sporttype': 4}": {
+        "error": "",
+        "response": "{'lastUpdateId': 0, 'ttl': 0}"
+    },
+    "{'langid': 2, 'timezone': 'UTC', 'limit': 3, 'sporttype': 4}": {
+        "error": "",
+        "response": "{'lastUpdateId': 0, 'ttl': 0}"
+    }
+}

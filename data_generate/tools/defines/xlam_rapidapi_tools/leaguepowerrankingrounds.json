@@ -1,0 +1,23 @@
+{
+    "name": "leaguepowerrankingrounds",
+    "description": "This is a sub-function API for tool footapi.\nTool description: FootApi offers real-time football scores of all live matches that are being played. FootApi covers hundreds of soccer leagues, cups and tournaments with live updated results, statistics, league tables, video highlights and fixtures. From most popular football leagues (UEFA Champions League, UEFA Europa League, Premier League, LaLiga, Bundesliga, Serie A, Ligue 1, Brasileiro Série A), top players ratings and statistics to football matches played in a date, our FootApi covers all the informatio...\nAPI description: This operation returns the power ranking rounds for the specified tournament and season ID for a football league.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tournamentid": {
+                "type": "number",
+                "description": "The unique ID of the tournament for which you want to retrieve the power ranking rounds.",
+                "default": 16
+            },
+            "seasonid": {
+                "type": "number",
+                "description": "The season ID for which you want to retrieve the power ranking rounds.",
+                "default": 41087
+            }
+        },
+        "required": [
+            "tournamentid",
+            "seasonid"
+        ]
+    }
+}

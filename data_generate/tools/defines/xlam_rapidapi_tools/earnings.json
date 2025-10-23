@@ -1,0 +1,17 @@
+{
+    "name": "earnings",
+    "description": "This is a sub-function API for tool yahoo_finance.\nTool description: Access Yahoo Finance Realtime Stock Price |  Options | ESG | Trends | Statistics | Earnings | Balance Sheets | Analytics | Asset Profile and much more\nAPI description: A company's earnings are its after-tax net income. This is the company's bottom line or its profits. Earnings are perhaps the single most important and most closely studied number in a company's financial statements.\nThis API **also** returns **historical earnings**",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symb": {
+                "type": "string",
+                "description": "The stock symbol representing the company whose earnings data is to be fetched.",
+                "default": "tsla"
+            }
+        },
+        "required": [
+            "symb"
+        ]
+    }
+}

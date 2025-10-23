@@ -1,0 +1,38 @@
+{
+    "{'symbol': 'TCS', 'region': 'IN'}": {
+        "error": "",
+        "response": "{'TCS': {'maxAge': 1, 'quoteType': 'NONE', 'symbol': 'TCS', 'underlyingSymbol': 'TCS', 'uuid': 'b0b6fc80-d101-30a1-ac9c-78bb76ad1660'}}"
+    },
+    "{'symbol': 'MSFT', 'region': 'US'}": {
+        "error": "",
+        "response": "{'MSFT': {'exchange': 'NMS', 'firstTradeDateEpochUtc': 511108200, 'gmtOffSetMilliseconds': -14400000, 'longName': 'Microsoft Corporation', 'maxAge': 1, 'quoteType': 'EQUITY', 'shortName': 'Microsoft Corporation', 'symbol': 'MSFT', 'timeZoneFullName': 'America/New_York', 'timeZoneShortName': 'EDT', 'underlyingSymbol': 'MSFT', 'uuid': 'b004b3ec-de24-385e-b2c1-923f10d3fb62'}}"
+    },
+    "{'symbol': 'TSLA', 'region': 'US'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'symbol': 'AAPL', 'region': 'US'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'symbol': 'GOOGL', 'region': 'US'}": {
+        "error": "",
+        "response": "{'GOOGL': {'exchange': 'NMS', 'firstTradeDateEpochUtc': 1092922200, 'gmtOffSetMilliseconds': -14400000, 'longName': 'Alphabet Inc.', 'maxAge': 1, 'messageBoardId': 'finmb_29096', 'quoteType': 'EQUITY', 'shortName': 'Alphabet Inc.', 'symbol': 'GOOGL', 'timeZoneFullName': 'America/New_York', 'timeZoneShortName': 'EDT', 'underlyingSymbol': 'GOOGL', 'uuid': 'e15ce71f-f533-3912-9f11-a46c09e2412b'}}"
+    },
+    "{'symbol': 'MSFT', 'region': 'GB'}": {
+        "error": "",
+        "response": "{'MSFT': {'exchange': 'NMS', 'firstTradeDateEpochUtc': 511108200, 'gmtOffSetMilliseconds': -14400000, 'longName': 'Microsoft Corporation', 'maxAge': 1, 'messageBoardId': 'finmb_21835', 'quoteType': 'EQUITY', 'shortName': 'Microsoft Corporation', 'symbol': 'MSFT', 'timeZoneFullName': 'America/New_York', 'timeZoneShortName': 'EDT', 'underlyingSymbol': 'MSFT', 'uuid': 'b004b3ec-de24-385e-b2c1-923f10d3fb62'}}"
+    },
+    "{'region': 'US', 'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'AAPL': {'exchange': 'NMS', 'firstTradeDateEpochUtc': 345479400, 'gmtOffSetMilliseconds': -14400000, 'longName': 'Apple Inc.', 'maxAge': 1, 'messageBoardId': 'finmb_24937', 'quoteType': 'EQUITY', 'shortName': 'Apple Inc.', 'symbol': 'AAPL', 'timeZoneFullName': 'America/New_York', 'timeZoneShortName': 'EDT', 'underlyingSymbol': 'AAPL', 'uuid': '8b10e4ae-9eeb-3684-921a-9ab27e4d87aa'}}"
+    },
+    "{'region': 'DE', 'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'TSLA': {'exchange': 'NMS', 'firstTradeDateEpochUtc': 1277818200, 'gmtOffSetMilliseconds': -14400000, 'longName': 'Tesla, Inc.', 'maxAge': 1, 'messageBoardId': 'finmb_27444752', 'quoteType': 'EQUITY', 'shortName': 'Tesla, Inc.', 'symbol': 'TSLA', 'timeZoneFullName': 'America/New_York', 'timeZoneShortName': 'EDT', 'underlyingSymbol': 'TSLA', 'uuid': 'ec367bc4-f92c-397c-ac81-bf7b43cffaf7'}}"
+    },
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    }
+}

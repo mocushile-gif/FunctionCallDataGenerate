@@ -1,0 +1,78 @@
+{
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": {
+            "AAPL": {
+                "currency": "USD",
+                "currencySymbol": "$",
+                "exchange": "NMS",
+                "exchangeDataDelayedBy": 0,
+                "exchangeName": "NasdaqGS",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "longName": "Apple Inc.",
+                "marketCap": 2966039560192,
+                "marketState": "REGULAR",
+                "maxAge": 1,
+                "preMarketChange": -1.43999,
+                "preMarketChangePercent": -0.0075518503,
+                "preMarketPrice": 189.24,
+                "preMarketSource": "FREE_REALTIME",
+                "preMarketTime": "2023-07-10 17:29:59 UTC+0000",
+                "priceHint": 2,
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "quoteType": "EQUITY",
+                "regularMarketChange": -2.1049957,
+                "regularMarketChangePercent": -0.011039415,
+                "regularMarketDayHigh": 189.99,
+                "regularMarketDayLow": 187.035,
+                "regularMarketOpen": 189.26,
+                "regularMarketPreviousClose": 190.68,
+                "regularMarketPrice": 188.575,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketTime": "2023-07-10 22:24:01 UTC+0000",
+                "regularMarketVolume": 40292238,
+                "shortName": "Apple Inc.",
+                "symbol": "AAPL",
+                "toCurrency": null,
+                "underlyingSymbol": null
+            }
+        }
+    },
+    "{'region': 'US', 'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'TSLA': {'currency': 'USD', 'currencySymbol': '$', 'exchange': 'NMS', 'exchangeDataDelayedBy': 0, 'exchangeName': 'NasdaqGS', 'fromCurrency': None, 'lastMarket': None, 'longName': 'Tesla, Inc.', 'marketCap': 1115933769728, 'marketState': 'CLOSED', 'maxAge': 1, 'postMarketChange': -0.937988, 'postMarketChangePercent': -0.00270735, 'postMarketPrice': 345.522, 'postMarketSource': 'FREE_REALTIME', 'postMarketTime': '2025-05-31 03:59:59 UTC+0000', 'preMarketSource': 'FREE_REALTIME', 'priceHint': 2, 'quoteSourceName': 'Nasdaq Real Time Price', 'quoteType': 'EQUITY', 'regularMarketChange': -11.970001, 'regularMarketChangePercent': -0.033395648, 'regularMarketDayHigh': 363.68, 'regularMarketDayLow': 345.3, 'regularMarketOpen': 355.58, 'regularMarketPreviousClose': 358.43, 'regularMarketPrice': 346.46, 'regularMarketSource': 'DELAYED', 'regularMarketTime': '2025-05-31 00:00:01 UTC+0000', 'regularMarketVolume': 122775188, 'shortName': 'Tesla, Inc.', 'symbol': 'TSLA', 'toCurrency': None, 'underlyingSymbol': None}}"
+    },
+    "{'symbol': 'TSLA', 'region': 'US'}": {
+        "error": "",
+        "response": "{'TSLA': {'currency': 'USD', 'currencySymbol': '$', 'exchange': 'NMS', 'exchangeDataDelayedBy': 0, 'exchangeName': 'NasdaqGS', 'fromCurrency': None, 'lastMarket': None, 'longName': 'Tesla, Inc.', 'marketCap': 895447007232, 'marketState': 'PRE', 'maxAge': 1, 'postMarketChange': 3.9899, 'postMarketChangePercent': 0.014332, 'postMarketPrice': 282.38, 'postMarketSource': 'FREE_REALTIME', 'postMarketTime': '2025-03-25 03:59:59 UTC+0000', 'preMarketChange': 2.399994, 'preMarketChangePercent': 0.0086209765, 'preMarketPrice': 280.79, 'preMarketSource': 'DELAYED', 'preMarketTime': '2025-03-25 14:54:35 UTC+0000', 'priceHint': 2, 'quoteSourceName': 'Delayed Quote', 'quoteType': 'EQUITY', 'regularMarketChange': 29.680008, 'regularMarketChangePercent': 0.1193358, 'regularMarketDayHigh': 278.64, 'regularMarketDayLow': 256.33, 'regularMarketOpen': 258.075, 'regularMarketPreviousClose': 248.71, 'regularMarketPrice': 278.39, 'regularMarketSource': 'FREE_REALTIME', 'regularMarketTime': '2025-03-25 00:00:01 UTC+0000', 'regularMarketVolume': 160904652, 'shortName': 'Tesla, Inc.', 'symbol': 'TSLA', 'toCurrency': None, 'underlyingSymbol': None}}"
+    },
+    "{'symbol': 'AAPL', 'region': 'US'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'symbol': 'SPOT', 'region': 'US'}": {
+        "error": "",
+        "response": "{'SPOT': {'currency': 'USD', 'currencySymbol': '$', 'exchange': 'NYQ', 'exchangeDataDelayedBy': 0, 'exchangeName': 'NYSE', 'fromCurrency': None, 'lastMarket': None, 'longName': 'Spotify Technology S.A.', 'marketCap': 136390950912, 'marketState': 'CLOSED', 'maxAge': 1, 'postMarketChange': -1.1300049, 'postMarketChangePercent': -0.0016988978, 'postMarketPrice': 664.01, 'postMarketSource': 'DELAYED', 'postMarketTime': '2025-05-31 03:58:22 UTC+0000', 'preMarketSource': 'FREE_REALTIME', 'priceHint': 2, 'quoteSourceName': 'Delayed Quote', 'quoteType': 'EQUITY', 'regularMarketChange': 28.47, 'regularMarketChangePercent': 0.044717103, 'regularMarketDayHigh': 669.225, 'regularMarketDayLow': 637.2001, 'regularMarketOpen': 645.0, 'regularMarketPreviousClose': 636.67, 'regularMarketPrice': 665.14, 'regularMarketSource': 'FREE_REALTIME', 'regularMarketTime': '2025-05-31 00:00:02 UTC+0000', 'regularMarketVolume': 3163136, 'shortName': 'Spotify Technology S.A.', 'symbol': 'SPOT', 'toCurrency': None, 'underlyingSymbol': None}}"
+    },
+    "{'symbol': 'BA', 'region': 'US'}": {
+        "error": "",
+        "response": "{'BA': {'currency': 'USD', 'currencySymbol': '$', 'exchange': 'NYQ', 'exchangeDataDelayedBy': 0, 'exchangeName': 'NYSE', 'fromCurrency': None, 'lastMarket': None, 'longName': 'The Boeing Company', 'marketCap': 159449645056, 'marketState': 'PRE', 'maxAge': 1, 'postMarketChange': -0.0800018, 'postMarketChangePercent': -0.00037831298, 'postMarketPrice': 211.39, 'postMarketSource': 'FREE_REALTIME', 'postMarketTime': '2025-06-03 03:59:45 UTC+0000', 'preMarketChange': -0.11999512, 'preMarketChangePercent': -0.0005675675, 'preMarketPrice': 211.3, 'preMarketSource': 'FREE_REALTIME', 'preMarketTime': '2025-06-03 13:06:54 UTC+0000', 'priceHint': 2, 'quoteSourceName': 'Nasdaq Real Time Price', 'quoteType': 'EQUITY', 'regularMarketChange': 4.14999, 'regularMarketChangePercent': 0.0200173, 'regularMarketDayHigh': 212.3409, 'regularMarketDayLow': 207.91, 'regularMarketOpen': 210.98, 'regularMarketPreviousClose': 207.29, 'regularMarketPrice': 211.47, 'regularMarketSource': 'FREE_REALTIME', 'regularMarketTime': '2025-06-03 00:00:02 UTC+0000', 'regularMarketVolume': 7534901, 'shortName': 'Boeing Company (The)', 'symbol': 'BA', 'toCurrency': None, 'underlyingSymbol': None}}"
+    },
+    "{'symbol': 'IAG', 'region': 'GB'}": {
+        "error": "",
+        "response": "{'IAG': {'currency': 'USD', 'currencySymbol': '$', 'exchange': 'NYQ', 'exchangeDataDelayedBy': 0, 'exchangeName': 'NYSE', 'fromCurrency': None, 'lastMarket': None, 'longName': 'IAMGOLD Corporation', 'marketCap': 4295623168, 'marketState': 'PRE', 'maxAge': 1, 'postMarketChange': 0.06000042, 'postMarketChangePercent': 0.008032185, 'postMarketPrice': 7.53, 'postMarketSource': 'DELAYED', 'postMarketTime': '2025-06-03 03:59:23 UTC+0000', 'preMarketChange': -0.17999983, 'preMarketChangePercent': -0.024096362, 'preMarketPrice': 7.29, 'preMarketSource': 'DELAYED', 'preMarketTime': '2025-06-03 12:36:14 UTC+0000', 'priceHint': 2, 'quoteSourceName': 'Delayed Quote', 'quoteType': 'EQUITY', 'regularMarketChange': 0.61, 'regularMarketChangePercent': 0.088921204, 'regularMarketDayHigh': 7.56, 'regularMarketDayLow': 7.0206, 'regularMarketOpen': 7.07, 'regularMarketPreviousClose': 6.855, 'regularMarketPrice': 7.47, 'regularMarketSource': 'FREE_REALTIME', 'regularMarketTime': '2025-06-03 00:00:02 UTC+0000', 'regularMarketVolume': 23988338, 'shortName': 'Iamgold Corporation', 'symbol': 'IAG', 'toCurrency': None, 'underlyingSymbol': None}}"
+    },
+    "{'symbol': 'IAG.MC', 'region': 'ES'}": {
+        "error": "",
+        "response": "{'IAG.MC': {'currency': 'EUR', 'currencySymbol': '\u20ac', 'exchange': 'MCE', 'exchangeDataDelayedBy': 15, 'exchangeName': 'MCE', 'fromCurrency': None, 'lastMarket': None, 'longName': 'International Consolidated Airlines Group S.A.', 'marketCap': 18507196416, 'marketState': 'REGULAR', 'maxAge': 1, 'priceHint': 4, 'quoteSourceName': 'Delayed Quote', 'quoteType': 'EQUITY', 'regularMarketChange': -0.02699995, 'regularMarketChangePercent': -0.0067924405, 'regularMarketDayHigh': 3.993, 'regularMarketDayLow': 3.927, 'regularMarketOpen': 3.975, 'regularMarketPreviousClose': 3.975, 'regularMarketPrice': 3.948, 'regularMarketSource': 'DELAYED', 'regularMarketTime': '2025-06-03 12:58:29 UTC+0000', 'regularMarketVolume': 2006150, 'shortName': 'INTL CONSOLIDATED AIRLINES GROU', 'symbol': 'IAG.MC', 'toCurrency': None, 'underlyingSymbol': None}}"
+    },
+    "{'symbol': 'NVDA'}": {
+        "error": "",
+        "response": "{'NVDA': {'currency': 'USD', 'currencySymbol': '$', 'exchange': 'NMS', 'exchangeDataDelayedBy': 0, 'exchangeName': 'NasdaqGS', 'fromCurrency': None, 'lastMarket': None, 'longName': 'NVIDIA Corporation', 'marketCap': 3510839017472, 'marketState': 'POST', 'maxAge': 1, 'postMarketChange': 0.07998657, 'postMarketChangePercent': 0.0005556166, 'postMarketPrice': 144.04, 'postMarketSource': 'FREE_REALTIME', 'postMarketTime': '2025-06-11 00:04:38 UTC+0000', 'preMarketChange': 0.0399933, 'preMarketChangePercent': 0.000280399, 'preMarketPrice': 142.67, 'preMarketSource': 'FREE_REALTIME', 'preMarketTime': '2025-06-10 17:29:59 UTC+0000', 'priceHint': 2, 'quoteSourceName': 'Nasdaq Real Time Price', 'quoteType': 'EQUITY', 'regularMarketChange': 1.3300018, 'regularMarketChangePercent': 0.009324839, 'regularMarketDayHigh': 144.29, 'regularMarketDayLow': 141.525, 'regularMarketOpen': 142.67, 'regularMarketPreviousClose': 142.63, 'regularMarketPrice': 143.96, 'regularMarketSource': 'FREE_REALTIME', 'regularMarketTime': '2025-06-11 00:00:01 UTC+0000', 'regularMarketVolume': 144208160, 'shortName': 'NVIDIA Corporation', 'symbol': 'NVDA', 'toCurrency': None, 'underlyingSymbol': None}}"
+    },
+    "{'symbol': '7203.T', 'region': 'JP'}": {
+        "error": "",
+        "response": "{'7203.T': {'currency': 'JPY', 'currencySymbol': '\uffe5', 'exchange': 'JPX', 'exchangeDataDelayedBy': 20, 'exchangeName': 'Tokyo', 'fromCurrency': None, 'lastMarket': None, 'longName': 'Toyota Motor Corporation', 'marketCap': 34660465770496, 'marketState': 'REGULAR', 'maxAge': 1, 'priceHint': 2, 'quoteSourceName': 'Delayed Quote', 'quoteType': 'EQUITY', 'regularMarketChange': 2.0, 'regularMarketChangePercent': 0.00075258705, 'regularMarketDayHigh': 2678.0, 'regularMarketDayLow': 2652.5, 'regularMarketOpen': 2670.0, 'regularMarketPreviousClose': 2657.5, 'regularMarketPrice': 2659.5, 'regularMarketSource': 'DELAYED', 'regularMarketTime': '2025-06-11 05:46:46 UTC+0000', 'regularMarketVolume': 6259900, 'shortName': 'TOYOTA MOTOR CORP', 'symbol': '7203.T', 'toCurrency': None, 'underlyingSymbol': None}}"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "competitions_scorers",
+    "description": "This is a sub-function API for tool zeus_api.\nTool description: This API returns information on the 5 major European football leagues.\nGet standings, matches, scorers and more.\nAPI description: Fetches the list of current top scorers for a specified league and year.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The identifier for the league.",
+                "default": "BUN"
+            },
+            "year": {
+                "type": "string",
+                "description": "The year for which the top scorers are being requested. Defaults to '2021'.",
+                "default": "2021"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

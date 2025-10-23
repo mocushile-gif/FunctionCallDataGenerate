@@ -1,0 +1,17 @@
+{
+    "name": "municipio_por_c_digo_postal",
+    "description": "This is a sub-function API for tool c_digos_postales_de_espa_a.\nTool description: Es una API que permite a los usuarios encontrar el municipio correspondiente a un código postal específico en España. Simplemente ingresa el código postal y recibirás información detallada del municipio asociado. Es una herramienta fácil de usar e ideal para desarrolladores y aplicaciones que requieren información precisa de municipios basada en códigos postales españoles\nAPI description: Fetches the municipality corresponding to a given postal code using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "codigo_postal": {
+                "type": "string",
+                "description": "The postal code for which the municipality is to be retrieved.",
+                "default": "32500"
+            }
+        },
+        "required": [
+            "codigo_postal"
+        ]
+    }
+}

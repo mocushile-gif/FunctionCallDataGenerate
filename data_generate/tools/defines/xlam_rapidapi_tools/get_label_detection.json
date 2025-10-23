@@ -1,0 +1,17 @@
+{
+    "name": "get_label_detection",
+    "description": "This is a sub-function API for tool label_detection.\nTool description: Extract labels from image using (google vision label detection) \nAPI description: This function interacts with the RapidAPI Label Detection service to get label information for a given image URL. ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "image": {
+                "type": "string",
+                "description": "The URL of the image to be analyzed.",
+                "default": "https://m.media-amazon.com/images/I/71k6XnjuwkL._AC_SL1500_.jpg"
+            }
+        },
+        "required": [
+            "image"
+        ]
+    }
+}

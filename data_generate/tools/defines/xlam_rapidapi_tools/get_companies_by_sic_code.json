@@ -1,0 +1,17 @@
+{
+    "name": "get_companies_by_sic_code",
+    "description": "This is a sub-function API for tool get_companies_by_sic_code_api.\nTool description: The Get Companies By SIC Code API allows users to retrieve information on companies based on their Standard Industrial Classification (SIC) code. The SIC code is a numerical classification system that groups similar industries together and is used to classify businesses by the type of economic activity in which they engage.\nAPI description: Retrieve a list of the top 100 companies related to a specified SIC code using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sic_code": {
+                "type": "number",
+                "description": "The Standard Industrial Classification (SIC) code used to lookup companies.",
+                "default": 7374.0
+            }
+        },
+        "required": [
+            "sic_code"
+        ]
+    }
+}

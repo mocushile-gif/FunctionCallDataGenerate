@@ -1,0 +1,23 @@
+{
+    "name": "revise",
+    "description": "This is a sub-function API for tool ai_writer.\nTool description: Antherica A.I. Writer Is a set of powerful APIs to provide a comprehensive suite of tools for content creation, translation, text revision, newsletter writing, keyword and hashtag searching, and QR code generation. With the assistance of AI algorithms, users can streamline their content-related tasks and achieve professional-level results efficiently. \nAPI description: Revise and correct the given text using a specified content type and API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "content_type": {
+                "type": "string",
+                "description": "The content type of the text to be processed.",
+                "default": "application/json"
+            },
+            "text": {
+                "type": "string",
+                "description": "The text to be revised and corrected.",
+                "default": "I has two eye"
+            }
+        },
+        "required": [
+            "content_type",
+            "text"
+        ]
+    }
+}

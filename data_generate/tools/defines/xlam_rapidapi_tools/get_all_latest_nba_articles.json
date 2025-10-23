@@ -1,0 +1,26 @@
+{
+    "name": "get_all_latest_nba_articles",
+    "description": "This is a sub-function API for tool nba_latest_news.\nTool description: Nba api that returns latest news articles based on teams or players from espn, bleacher report, nba.com, yahoo, and slam\nAPI description: GET /articles\nReturns a list of all the latest nba articles.\n\nOptional params:\n\nsource returns articles based on chosen source\n\noptions: nba-canada, nba, bleacher-report, yahoo, espn, slam\n\nExample /articles?source=bleacher-report\n\nteam returns articles based on chosen team\n\nExample /articles?team=lakers\n\nlimit returns the maximum number of articles desired\n\nExample /articles?limit=5\n\nplayer returns articles based on chosen player\n\nUse dash to seperate names\n\nSearching by players full name seperated by dash",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of articles to retrieve. Default is `None`."
+            },
+            "player": {
+                "type": "string",
+                "description": "The player's name for which to filter articles, use a dash to separate names (e.g., 'kevin-durant'). Default is `None`."
+            },
+            "team": {
+                "type": "string",
+                "description": "The team name for which to filter articles (e.g., 'lakers'). Default is `None`."
+            },
+            "source": {
+                "type": "string",
+                "description": "The source of the articles (e.g., 'bleacher-report', 'nba', 'espn'). Default is `None`."
+            }
+        },
+        "required": []
+    }
+}

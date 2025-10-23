@@ -1,0 +1,62 @@
+{
+    "{'address': '0xe9e7cea3dedca5984780bafc599bd69add087d56', 'token': '0xe9e7cea3dedca5984780bafc599bd69add087d56'}": {
+        "error": "",
+        "response": {
+            "balance": 10451259358855101632722870,
+            "balance_decimal": 10451259.3588551
+        }
+    },
+    "{'address': '0xe9e7cea3dedca5984780bafc599bd69add087d56', 'token': 'ETH'}": {
+        "error": "",
+        "response": {
+            "balance": "token address not valid"
+        }
+    },
+    "{'address': '0xe9e7cea3dedca5984780bafc599bd69add087d56', 'token': 'BNB'}": {
+        "error": "",
+        "response": {
+            "balance": "token address not valid"
+        }
+    },
+    "{'address': '0xe9e7cea3dedca5984780bafc599bd69add087d56', 'token': 'ethereum'}": {
+        "error": "",
+        "response": {
+            "balance": "token address not valid"
+        }
+    },
+    "{'address': '0xe9e7cea3dedca5984780bafc599bd69add087d56', 'token': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c'}": {
+        "error": "",
+        "response": {
+            "balance": 2636789969722705889,
+            "balance_decimal": 2.636789969722706
+        }
+    },
+    "{'address': '0xe9e7cea3dedca5984780bafc599bd69add087d56', 'token': 'TOKEN_SYMBOL'}": {
+        "error": "",
+        "response": {
+            "balance": "token address not valid"
+        }
+    },
+    "{'address': '0x7DF25a44AB67C49Ad35A5686022791BB8aC0ce0d', 'token': 'NP'}": {
+        "error": "",
+        "response": {
+            "balance": "token address not valid"
+        }
+    },
+    "{'address': '0xe9e7cea3dedca5984780bafc599bd69add087d56', 'token': '0xe9e7cea3'}": {
+        "error": "",
+        "response": {
+            "balance": "token address not valid"
+        }
+    },
+    "{'address': '0xe9e7cea3dedca5984780bafc599bd69add087d56', 'token': 'DAO'}": {
+        "error": "",
+        "response": {
+            "balance": "token address not valid"
+        }
+    },
+    "{'address': '0x3F4A0B7D9B04462B5C3F224d9706087352fCEe17', 'token': '0x55d398326f99059fF775485246999027B3197955'}": {
+        "error": "",
+        "response": "\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <title>Bad Request (400)</title>\n</head>\n<body>\n  <h1>Bad Request (400)</h1><p></p>\n</body>\n</html>\n"
+    }
+}

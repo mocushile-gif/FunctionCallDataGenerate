@@ -1,0 +1,15 @@
+{
+    "name": "paragraph",
+    "description": "This is a sub-function API for tool lorem_ipsum_api.\nTool description: Generate Lorem Ipsum placeholder text for your applications.\nAPI description: Generates a specified amount of Lorem Ipsum paragraphs using the RapidAPI Lorem Ipsum API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "amount": {
+                "type": "number",
+                "description": "The number of Lorem Ipsum paragraphs to generate. Defaults to 2.",
+                "default": 2.0
+            }
+        },
+        "required": []
+    }
+}

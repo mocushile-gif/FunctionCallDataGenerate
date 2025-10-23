@@ -1,0 +1,28 @@
+{
+  "name": "translate_text",
+  "description": "Translate text to target language using Google Translate API with support for multiple languages.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "text": {
+        "type": "string",
+        "description": "Text to translate"
+      },
+      "target_language": {
+        "type": "string",
+        "description": "Target language code",
+        "enum": ["en", "zh", "ja", "ko", "fr", "de", "es", "it", "pt", "ru", "ar", "hi"],
+        "default": "en"
+      },
+      "source_language": {
+        "type": "string",
+        "description": "Source language code. If not provided, will auto detect the source language."
+      },
+      "output_path": {
+        "type": "string",
+        "description": "Path for the output translated text file. If not provided, will create auto-named file."
+      }
+    },
+    "required": ["text"]
+  }
+} 

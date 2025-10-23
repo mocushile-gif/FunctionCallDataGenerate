@@ -1,0 +1,51 @@
+{
+    "{'url': 'https://rapidapi.com/marketplace', 'width': '1920', 'height': '1080', 'fullscreen': 'true'}": {
+        "error": "",
+        "response": {
+            "screenshotUrl": "https://storage.linebot.site/screenshotv9rbc1744288617732.png",
+            "details": {
+                "url": "https://rapidapi.com/marketplace",
+                "width": "1920",
+                "height": "1080",
+                "fullscreen": "true",
+                "description": "Screenshot captured successfully for the specified webpage with the given dimensions in fullscreen mode."
+            }
+        }
+    },
+    "{'url': 'https://rapidapi.com/marketplace', 'width': '1920', 'height': '1080', 'fullscreen': 'false'}": {
+        "error": "",
+        "response": "{'screenshotUrl': 'https://storage.linebot.site/screenshotki1tds1748862669495.png'}"
+    },
+    "{'url': 'https://rapidapi.com/marketplace', 'width': '1280', 'height': '720', 'fullscreen': 'false'}": {
+        "error": "",
+        "response": "{'screenshotUrl': 'https://storage.linebot.site/screenshotnpojxm1748862671929.png'}"
+    },
+    "{'url': 'https://www.google.com', 'width': '1920', 'height': '1080', 'fullscreen': 'false'}": {
+        "error": "",
+        "response": "{'screenshotUrl': 'https://storage.linebot.site/screenshotjy9hol1748862674550.png'}"
+    },
+    "{'url': 'https://www.google.com', 'width': '1280', 'height': '720', 'fullscreen': 'false'}": {
+        "error": "",
+        "response": "{'screenshotUrl': 'https://storage.linebot.site/screenshotbkfqa1736963577861.png'}"
+    },
+    "{'url': 'https://github.com/explore', 'width': '1920', 'height': '1080', 'fullscreen': 'false'}": {
+        "error": "",
+        "response": "{'screenshotUrl': 'https://storage.linebot.site/screenshotv9lcb1748862677326.png'}"
+    },
+    "{'url': 'https://github.com/explore', 'width': '1280', 'height': '720', 'fullscreen': 'false'}": {
+        "error": "",
+        "response": "{'screenshotUrl': 'https://storage.linebot.site/screenshottrwju1748862679846.png'}"
+    },
+    "{'url': 'https://www.tiktok.com/@tiktok/video/6974862859000073478', 'fullscreen': 'true', 'width': '1920', 'height': '1080'}": {
+        "error": "",
+        "response": "{'screenshotUrl': 'https://storage.linebot.site/screenshot6jmkz71748884928473.png'}"
+    },
+    "{'url': 'https://www.tesla.com', 'width': '1920', 'height': '1080', 'fullscreen': 'true'}": {
+        "error": "",
+        "response": "{'screenshotUrl': 'https://storage.linebot.site/screenshotcil6n81748893060670.png'}"
+    },
+    "{'url': 'https://apps.apple.com/jp/app/id6479970832', 'width': '1920', 'height': '1080', 'fullscreen': 'true'}": {
+        "error": "",
+        "response": "{'screenshotUrl': 'https://storage.linebot.site/screenshotrk80mn1748906599356.png'}"
+    }
+}

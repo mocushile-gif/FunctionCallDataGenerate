@@ -1,0 +1,17 @@
+{
+    "name": "get_city_by_filter",
+    "description": "This is a sub-function API for tool ranked_crime_cities.\nTool description: Worlds Ranked Crime Cities\nAPI description: Fetches city data based on the given city ID through the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The city ID used to filter and retrieve city data.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

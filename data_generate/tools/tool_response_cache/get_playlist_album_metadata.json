@@ -1,0 +1,39 @@
+{
+    "{'playlist': 'https://soundcloud.com/vghc3eihbsdq/sets/almost-lover'}": {
+        "error": "",
+        "response": {
+            "playlist_url": "https://soundcloud.com/vghc3eihbsdq/sets/almost-lover",
+            "title": "Almost Lover",
+            "creator": "VGHC3EIHBSDQ",
+            "description": "A curated playlist featuring tracks with emotional and heartfelt themes.",
+            "track_count": 12,
+            "tracks": [
+                {
+                    "id": "123456789",
+                    "title": "Track 1 - Heartbreak Symphony",
+                    "duration": "3:45",
+                    "url": "https://soundcloud.com/vghc3eihbsdq/track1"
+                },
+                {
+                    "id": "987654321",
+                    "title": "Track 2 - Almost Lover",
+                    "duration": "4:12",
+                    "url": "https://soundcloud.com/vghc3eihbsdq/track2"
+                },
+                {
+                    "id": "456789123",
+                    "title": "Track 3 - Fading Memories",
+                    "duration": "5:01",
+                    "url": "https://soundcloud.com/vghc3eihbsdq/track3"
+                }
+            ],
+            "total_duration": "50:30",
+            "tags": [
+                "emotional",
+                "love",
+                "heartbreak",
+                "acoustic"
+            ]
+        }
+    }
+}

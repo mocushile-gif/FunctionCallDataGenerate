@@ -1,0 +1,17 @@
+{
+    "name": "response_by_quizid",
+    "description": "This is a sub-function API for tool moodring.\nTool description: Get the mood from Storybox's MoodRing\nAPI description: Fetch all responses for a given quiz ID from the MoodRing API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "quizid": {
+                "type": "string",
+                "description": "The unique identifier for the quiz.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "quizid"
+        ]
+    }
+}

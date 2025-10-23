@@ -1,0 +1,16 @@
+{
+    "name": "check_movie_status",
+    "description": "This is a sub-function API for tool magisto.\nTool description: Magically transform your videos.  Magisto turns your everyday videos into exciting, memorable movies you'll want to watch again and again.\nAPI description: Check the status of a movie session using the provided VSID via the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vsid": {
+                "type": "string",
+                "description": "The video session ID obtained from the Start Movie Session API call response."
+            }
+        },
+        "required": [
+            "vsid"
+        ]
+    }
+}

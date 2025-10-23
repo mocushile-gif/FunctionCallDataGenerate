@@ -1,0 +1,37 @@
+{
+    "name": "list_transactions",
+    "description": "This is a sub-function API for tool walletapi_cloud.\nTool description: Integrate a ledger layer enabling asset accounting or closed-loop payments between your users or IoT devices.\nAPI description: Retrieve a pageable list of transactions for a specified time period from a project.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_from": {
+                "type": "number",
+                "description": "The start date of the period to retrieve transactions for, in Unix timestamp format."
+            },
+            "to": {
+                "type": "string",
+                "description": "The end date of the period to retrieve transactions for, in Unix timestamp format."
+            },
+            "projectid": {
+                "type": "string",
+                "description": "The ID of the project to retrieve transactions from.",
+                "default": "['undefined']"
+            },
+            "pagesize": {
+                "type": "number",
+                "description": "The number of transactions to retrieve per page. Maximum value is 500."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve."
+            }
+        },
+        "required": [
+            "is_from",
+            "to",
+            "projectid",
+            "pagesize",
+            "page"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "youtube_topviews_year",
+    "description": "This is a sub-function API for tool musicdata_api.\nTool description: Data for Youtube, Spotify music videos, tracks, albums, artist & more\nAPI description: Top Youtube viewed videos all time / on a specific year (2007 - now). Leave {year} blank for all time results",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year for which to retrieve the top-viewed YouTube videos. Use an empty string to retrieve all-time top views."
+            }
+        },
+        "required": [
+            "year"
+        ]
+    }
+}

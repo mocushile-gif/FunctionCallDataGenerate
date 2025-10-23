@@ -1,0 +1,15 @@
+{
+    "name": "get_tournaments_for_league",
+    "description": "This is a sub-function API for tool league_of_legends_esports.\nTool description: This api gives you all of the lol esports leagues , vods, tournaments, match , game , event details with videos , scheadule , standings, teams and their players. And live game score.\nAPI description: This endpoint can gives you all of the tournaments for league id. You can get all league id from the Get Leagues endpoint . If you want you can get all tournaments data without filtering leagues.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "leagueid": {
+                "type": "string",
+                "description": "The ID of the league for which to retrieve tournaments. Defaults to '101097443346691685'.",
+                "default": "101097443346691685"
+            }
+        },
+        "required": []
+    }
+}

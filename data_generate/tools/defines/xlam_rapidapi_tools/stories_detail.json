@@ -1,0 +1,17 @@
+{
+    "name": "stories_detail",
+    "description": "This is a sub-function API for tool bb_finance.\nTool description: This API helps to query for all information about finance summary, stocks, quotes, movers, etc… to create a financial site/application such as bloomberg.com\nAPI description: Fetches full story information based on the given internal ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "internalid": {
+                "type": "string",
+                "description": "The internal ID of the story. This can be obtained from the /stories/list or /news/list or /news/list-by-region endpoints.",
+                "default": "QFY0Y6T0AFB501"
+            }
+        },
+        "required": [
+            "internalid"
+        ]
+    }
+}

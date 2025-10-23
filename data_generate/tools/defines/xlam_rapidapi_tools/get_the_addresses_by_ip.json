@@ -1,0 +1,15 @@
+{
+    "name": "get_the_addresses_by_ip",
+    "description": "This is a sub-function API for tool location.\nTool description: Get the locations using a REST API simple and free.\nAPI description: Fetches the address information for a given IP address using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IP address to lookup. Default is '54.72.54.234'.",
+                "default": "54.72.54.234"
+            }
+        },
+        "required": []
+    }
+}

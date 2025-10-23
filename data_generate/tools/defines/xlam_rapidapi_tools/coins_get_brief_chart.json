@@ -1,0 +1,32 @@
+{
+    "name": "coins_get_brief_chart",
+    "description": "This is a sub-function API for tool investing_cryptocurrency_markets.\nTool description: These APIs provide data of all cryptocurrencies, markets, ideal for tracking prices and exchange rates.\nAPI description: Fetches and returns a brief information chart for a specific cryptocurrency pair.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pair_id": {
+                "type": "number",
+                "description": "The ID of the cryptocurrency pair, typically obtained from endpoints like coins/list, coins/search, or coins/list-pairs.",
+                "default": 33.0
+            },
+            "lang_id": {
+                "type": "number",
+                "description": "The language ID for the response, usually obtained from the get-meta-data endpoint. Default is 1.",
+                "default": 1.0
+            },
+            "range": {
+                "type": "string",
+                "description": "The time range for the chart. Allowed values are 'd' for day, 'w' for week, '1m' for one month, '1y' for one year, '5y' for five years, and 'max' for the maximum available range. Default is 'p'.",
+                "default": "p"
+            },
+            "time_utc_offset": {
+                "type": "number",
+                "description": "The UTC offset in seconds. For example, utc+8 translates to 8 * 60 * 60 = 28800 seconds. Default is 28800.",
+                "default": 28800.0
+            }
+        },
+        "required": [
+            "pair_id"
+        ]
+    }
+}

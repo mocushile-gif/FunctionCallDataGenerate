@@ -1,0 +1,29 @@
+{
+    "name": "calculate_cell_density",
+    "description": "Calculates the cell density based on the optical density (OD) and dilution factor. The function takes into account a calibration factor for converting OD to cell density.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "od": {
+                "type": "number",
+                "description": "The optical density of the sample.",
+                "default": 1000000000.0
+            },
+            "dilution": {
+                "type": "integer",
+                "description": "The dilution factor applied to the sample.",
+                "default": 1000000000
+            },
+            "factor": {
+                "type": "number",
+                "description": "The calibration factor for converting OD to cell density.",
+                "default": 1000000000.0
+            }
+        },
+        "required": [
+            "od",
+            "dilution",
+            "factor"
+        ]
+    }
+}

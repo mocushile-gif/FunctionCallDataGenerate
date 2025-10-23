@@ -1,0 +1,17 @@
+{
+    "name": "get_item_by_id",
+    "description": "This is a sub-function API for tool rpg_items.\nTool description: An api of generated RPG items\nAPI description: Fetches an RPG item by its ID using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the RPG item to retrieve.",
+                "default": "6383989636a233ea35d1e566"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

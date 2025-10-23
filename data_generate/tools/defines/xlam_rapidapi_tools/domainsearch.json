@@ -1,0 +1,27 @@
+{
+    "name": "domainsearch",
+    "description": "This is a sub-function API for tool tomba.\nTool description: Search or verify lists of email addresses in seconds\nAPI description: You can use this endpoint to show different browser icons to your users. The code argument receives the browser code as it appears in your user /account/sessions endpoint. Use width, height and quality arguments to change the output settings.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "Domain name from which you want to find the email addresses. For example, \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"stripe.com\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+                "default": "stripe.com"
+            },
+            "department": {
+                "type": "string",
+                "description": "Get only email addresses for people working in the selected department. Default is 'pr'.",
+                "default": "pr"
+            },
+            "page": {
+                "type": "number",
+                "description": "Specifies the number of email addresses to skip by page number. Default is 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

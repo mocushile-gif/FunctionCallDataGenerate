@@ -1,0 +1,17 @@
+{
+    "name": "get_image",
+    "description": "This is a sub-function API for tool sendapic_api.\nTool description: https://sendapic.xyz/\n\n🔐 Send confidential images securely and safely with an expiring link.\n💣 Choose the duration of the expiry, and feel safe knowing it will be deleted after expiry.\nAPI description: Retrieve an image by its file ID using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fileid": {
+                "type": "string",
+                "description": "The ID of the image file to retrieve.",
+                "default": "639f7fda5ec4b33ef2e476b8"
+            }
+        },
+        "required": [
+            "fileid"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "group_profile",
+    "description": "This is a sub-function API for tool steam_community.\nTool description: Interface with elements on the SteamCommunity.\nAPI description: Fetches the profile information of a Steam community group using the provided group ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The identifier of the Steam community group.",
+                "default": "l4d"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "industries_list_best_performing",
+    "description": "This is a sub-function API for tool webull.\nTool description: Query public data for investment products including stocks, fractional shares, options, ETFs, and ADRs as on webull.com\nAPI description: Retrieves a list of the best performing industries for a given region.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "regionid": {
+                "type": "number",
+                "description": "The ID of the region for which to list best performing industries.",
+                "default": 6.0
+            },
+            "industrytype": {
+                "type": "string",
+                "description": "The time period for evaluating industry performance. One of 'today', '5d', '1m', or '3m'. Default is 'today'.",
+                "default": "today"
+            },
+            "pagesize": {
+                "type": "number",
+                "description": "The number of results per page. Maximum is 20. Default is 20.",
+                "default": 20.0
+            },
+            "pageindex": {
+                "type": "number",
+                "description": "The index of the page to retrieve. Default is 1.",
+                "default": 1.0
+            },
+            "direction": {
+                "type": "number",
+                "description": "The order direction of the results. Use -1 for descending and 1 for ascending. Default is -1.",
+                "default": -1.0
+            }
+        },
+        "required": [
+            "regionid"
+        ]
+    }
+}

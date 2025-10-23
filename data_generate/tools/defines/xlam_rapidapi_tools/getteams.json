@@ -1,0 +1,20 @@
+{
+    "name": "getteams",
+    "description": "This is a sub-function API for tool nhl_stats_and_live_data.\nTool description: Get live data and stats about any NHL game, teams, players, drafts and many more.\n\nAPI description: Fetches NHL team data for a given season with optional expanded information.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season": {
+                "type": "number",
+                "description": "The specific season to return team data for. Defaults to 20172018.",
+                "default": 20172018
+            },
+            "expand": {
+                "type": "string",
+                "description": "A parameter to expand the response with additional data, such as team rosters. Defaults to 'team.roster'.",
+                "default": "team.roster"
+            }
+        },
+        "required": []
+    }
+}

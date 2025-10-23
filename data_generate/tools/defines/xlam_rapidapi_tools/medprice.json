@@ -1,0 +1,33 @@
+{
+    "name": "medprice",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Fetches the median price (MEDPRICE) of a given financial instrument over a specified interval using the Twelve Data API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "interval": {
+                "type": "string",
+                "description": "Interval between two consecutive points in the time series. Supported values are `1min`, `5min`, `15min`, `30min`, `45min`, `1h`, `2h`, `4h`, `1day`, `1week`, `1month`.",
+                "default": "1min"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "Instrument symbol such as equity, index, ETF, forex, or cryptocurrency. Examples include `AAPL`, `EUR/USD`, `ETH/BTC`.",
+                "default": "AAPL"
+            },
+            "format": {
+                "type": "string",
+                "description": "Response format. Can be `CSV` or `JSON`. Defaults to `json`.",
+                "default": "json"
+            },
+            "outputsize": {
+                "type": "number",
+                "description": "Default `30` when no date parameters are set, otherwise set to maximum",
+                "default": 30
+            }
+        },
+        "required": [
+            "interval",
+            "symbol"
+        ]
+    }
+}

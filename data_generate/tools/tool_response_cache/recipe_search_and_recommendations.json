@@ -1,0 +1,49 @@
+{
+    "{'q': 'vegetarian'}": {
+        "error": "",
+        "response": {
+            "recipes": [
+                {
+                    "name": "Quinoa Stuffed Bell Peppers",
+                    "description": "Colorful vegetarian dish with quinoa, tomatoes, black beans, and cheese in roasted bell peppers.",
+                    "ingredients": [
+                        "quinoa",
+                        "bell peppers",
+                        "black beans",
+                        "tomatoes",
+                        "cheese"
+                    ],
+                    "diet_tags": [
+                        "vegetarian",
+                        "gluten-free"
+                    ],
+                    "nutrients": {
+                        "protein": "12g",
+                        "fiber": "6g",
+                        "calories": "280"
+                    }
+                },
+                {
+                    "name": "Chickpea Spinach Curry",
+                    "description": "Spicy Indian-inspired curry with chickpeas, spinach, and coconut milk served with rice.",
+                    "ingredients": [
+                        "chickpeas",
+                        "spinach",
+                        "coconut milk",
+                        "curry powder"
+                    ],
+                    "diet_tags": [
+                        "vegetarian",
+                        "vegan"
+                    ],
+                    "nutrients": {
+                        "protein": "15g",
+                        "iron": "18%",
+                        "calories": "320"
+                    }
+                }
+            ],
+            "note": "Filter further using 'r' parameter for dietary needs (e.g., vegan, low-sodium) or nutrients (e.g., high-fiber)."
+        }
+    }
+}

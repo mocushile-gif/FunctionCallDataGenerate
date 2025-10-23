@@ -1,0 +1,16 @@
+{
+    "name": "redeploy",
+    "description": "This is a sub-function API for tool maytapi_whatsapp.\nTool description: Send and receive messages from WhatsApp via Maytapi. It is a stable and reliable solution. See more:  https://maytapi.com/\nAPI description: Redeploys a Docker instance of the specified phone. This function can be used to reboot the instance if the phone is experiencing unexpected problems.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone_id": {
+                "type": "string",
+                "description": "The unique identifier of the phone whose Docker instance is to be redeployed."
+            }
+        },
+        "required": [
+            "phone_id"
+        ]
+    }
+}

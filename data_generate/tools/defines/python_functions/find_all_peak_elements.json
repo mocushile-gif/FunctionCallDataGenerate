@@ -1,0 +1,19 @@
+{
+    "name": "find_all_peak_elements",
+    "description": "Finds all peak elements in a list of integers. A peak element is an element that is greater than or equal to its neighbors.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nums": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                },
+                "description": "The list of integers to find peak elements in."
+            }
+        },
+        "required": [
+            "nums"
+        ]
+    }
+}

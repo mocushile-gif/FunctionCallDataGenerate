@@ -1,0 +1,41 @@
+{
+    "name": "api_v2_minimal_exchange_amount",
+    "description": "This is a sub-function API for tool changenow_crypto_exchange.\nTool description: Empower your business by letting your customers buy, sell, and exchange crypto. You will earn % on every transaction. 400+ cryptocurrencies and 75+ fiats are available. IMPORTANT: You should get your API key by creating a partner's account here: changenow.io/affiliate. Or email us: partners@changenow.io. \nAPI description: The API endpoint returns minimal payment amount required to make an exchange. If you try to exchange less, the transaction will most likely fail.\n\n<p>You can find <b>examples of errors</b> in the Example request block (use the drop-down list).</p>\n\n<h3>Request Parameters:</h3>",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "flow": {
+                "type": "string",
+                "description": "(Optional) Type of exchange flow. Enum: [\\\"standard\\\", \\\"fixed-rate\\\"]. Default value is standard",
+                "default": "standard"
+            },
+            "tocurrency": {
+                "type": "string",
+                "description": "(Required) Ticker of the currency you want to receive",
+                "default": "usdt"
+            },
+            "fromcurrency": {
+                "type": "string",
+                "description": "(Required) Ticker of the currency you want to exchange",
+                "default": "btc"
+            },
+            "fromnetwork": {
+                "type": "string",
+                "description": "(Optional) Network of the currency you want to exchange",
+                "default": "btc"
+            },
+            "tonetwork": {
+                "type": "string",
+                "description": "(Optional) Network of the currency you want to receive",
+                "default": "eth"
+            }
+        },
+        "required": [
+            "flow",
+            "tocurrency",
+            "fromcurrency",
+            "fromnetwork",
+            "tonetwork"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "rarity_tools",
+    "description": "This is a sub-function API for tool opensea_v2.\nTool description: Opensea / Blur / Looksrare / x2y2  API - 1,000+  requests/min\n\nSimple & high performance Opensea / Blur / Looksrare / x2y2  API, backed by rotating proxies & API keys\n\n- Crypto Payments Available\n\n- Lifetime Unlimited Requests Licenses Available\n\n- Private Plans with 16 / 32 / 64 / 128  requests/second Available\n\n- Ready made bots written in node.js already configured to work with RapidApi Available.\n\nJoin our Discord to inquire & find out the latest information and tools: \n\nhttps://discord.g...\nAPI description: Rarity Tools Collection Items Endpoint , to  use you need to understand the source code of the webpage and reconstruct.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The unique identifier for the collection to fetch data for.",
+                "default": "women-ape-yacht-club"
+            }
+        },
+        "required": [
+            "slug"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "write_to_file",
+  "description": "Write the given content to a specified file.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "file_path": {
+        "type": "string",
+        "description": "Path to the file where data will be written."
+      },
+      "data": {
+        "type": "string",
+        "description": "Content to be written to the file."
+      },
+      "mode": {
+        "type": "string",
+        "description": "File write mode ('w' for overwrite, 'a' for append). Default is 'w'.",
+        "default": "w"
+      },
+      "encoding": {
+        "type": "string",
+        "description": "Encoding format of the file. Default is 'utf-8'.",
+        "default": "utf-8"
+      }
+    },
+    "required": ["file_path", "data"]
+  }
+}

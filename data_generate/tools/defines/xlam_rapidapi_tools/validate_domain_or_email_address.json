@@ -1,0 +1,17 @@
+{
+    "name": "validate_domain_or_email_address",
+    "description": "This is a sub-function API for tool disposable_email_validation.\nTool description: Disposable Email Validation and Verification check against &gt;150K unique domains. Detect if an Email is from a Disposable Email Address Services.\nAPI description: Validates whether the given input is a disposable domain or email address using the RapidAPI Disposable Email Validation service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "validate": {
+                "type": "string",
+                "description": "The domain or email address to be validated.",
+                "default": "badactor@spam4.me"
+            }
+        },
+        "required": [
+            "validate"
+        ]
+    }
+}

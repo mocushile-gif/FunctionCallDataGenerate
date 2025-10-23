@@ -1,0 +1,17 @@
+{
+    "name": "get_all_users_paged_by_hundreds",
+    "description": "This is a sub-function API for tool waifu.\nTool description: Talk to cute waifu chatbot!\nAPI description: Fetches a list of users from a specified page, with each page containing up to one hundred users, using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve the users from.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "page"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "{'private': False}": {
+        "error": "",
+        "response": {
+            "characters": [
+                {
+                    "id": "chr_12345",
+                    "name": "Mystic Oracle",
+                    "description": "A wise, enigmatic character specializing in ancient lore and prophecy. Calm and introspective, with a focus on philosophical guidance.",
+                    "creator": "Community Curated",
+                    "created_at": "2023-09-15T14:23:17Z"
+                },
+                {
+                    "id": "chr_67890",
+                    "name": "Tech Guru",
+                    "description": "An energetic AI enthusiast who discusses cutting-edge technology, programming, and futurism. Analytical and fast-paced.",
+                    "creator": "User: techlover101",
+                    "created_at": "2023-08-20T09:45:03Z"
+                },
+                {
+                    "id": "chr_abcde",
+                    "name": "Fantasy Adventurer",
+                    "description": "A brave warrior from a medieval fantasy world, passionate about quests and tales of heroism. Bold and adventurous.",
+                    "creator": "User: fantasyfan99",
+                    "created_at": "2023-07-12T11:30:45Z"
+                }
+            ],
+            "total": 100,
+            "page": 1,
+            "page_size": 25
+        }
+    }
+}

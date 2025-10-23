@@ -1,0 +1,82 @@
+{
+    "name": "listpornstars",
+    "description": "This is a sub-function API for tool papi_pornstarsapi.\nTool description: Trying to be the most comprehensive and accurate source of data for pornstars and movies.\nAPI description: Fetch a list of pornstars based on various filtering criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "max_rank": {
+                "type": "string",
+                "description": "Maximum rank of the pornstar."
+            },
+            "min_rank": {
+                "type": "string",
+                "description": "Minimum rank of the pornstar."
+            },
+            "max_waist": {
+                "type": "string",
+                "description": "Maximum waist measurement of the pornstar."
+            },
+            "max_cup_size": {
+                "type": "string",
+                "description": "Maximum cup size of the pornstar."
+            },
+            "min_cup_size": {
+                "type": "string",
+                "description": "Minimum cup size of the pornstar."
+            },
+            "min_weight": {
+                "type": "string",
+                "description": "Minimum weight of the pornstar."
+            },
+            "max_weight": {
+                "type": "string",
+                "description": "Maximum weight of the pornstar."
+            },
+            "max_age": {
+                "type": "string",
+                "description": "Maximum age of the pornstar."
+            },
+            "ethnicity": {
+                "type": "string",
+                "description": "Ethnicity of the pornstar."
+            },
+            "min_age": {
+                "type": "string",
+                "description": "Minimum age of the pornstar."
+            },
+            "nationality": {
+                "type": "string",
+                "description": "Nationality of the pornstar."
+            },
+            "tattoos": {
+                "type": "string",
+                "description": "Tattoo status of the pornstar."
+            },
+            "eyes": {
+                "type": "string",
+                "description": "Eye color of the pornstar."
+            },
+            "hair": {
+                "type": "string",
+                "description": "Hair color of the pornstar."
+            },
+            "page": {
+                "type": "number",
+                "description": "A page number within the paginated result set."
+            },
+            "min_waist": {
+                "type": "string",
+                "description": "Minimum waist measurement of the pornstar."
+            },
+            "name": {
+                "type": "string",
+                "description": "Name of the pornstar."
+            },
+            "date_of_birth": {
+                "type": "string",
+                "description": "Date of birth of the pornstar."
+            }
+        },
+        "required": []
+    }
+}

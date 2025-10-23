@@ -1,0 +1,14 @@
+{
+    "name": "get_latest_current_block",
+    "description": "This is a sub-function API for tool webit_blockchain.\nTool description: Get blockchain data from Ethereum, Polygon, Binance, Solana mainnets, including Ropsten, Rinkey, Goerly, Kovan, Mumbai testnets.\nAPI description: Get latest (current) block being currently mined.\n\nSupported blockchains:\n- `ethereum`;\n- `binance`;\n- `polygon`;\n- `solana`;\n- `polygon-mumbai`.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chain": {
+                "type": "string",
+                "description": "Blockchain to get latest block currently being mined.\n\nSupported values:\n- `ethereum`;\n- `binance`;\n- `polygon`;\n- `solana`;\n- `polygon-mumbai`."
+            }
+        },
+        "required": []
+    }
+}

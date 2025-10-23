@@ -1,0 +1,489 @@
+{
+    "{'symbol': 'AAPL:NASDAQ', 'period': 'ANNUAL'}": {
+        "error": "",
+        "response": {
+            "status": "OK",
+            "request_id": "fe3ca57c-9cd7-4c41-9b71-6a77931867e3",
+            "data": {
+                "symbol": "AAPL:NASDAQ",
+                "type": "stock",
+                "income_statement": [
+                    {
+                        "year": 2022,
+                        "currency": "USD",
+                        "revenue": 394328000000,
+                        "operating_expense": 51345000000,
+                        "net_income": 99803000000,
+                        "net_profit_margin": 25.31,
+                        "earnings_per_share": 6.11,
+                        "EBITDA": 130541000000,
+                        "effective_task_rate_percent": 16.2
+                    },
+                    {
+                        "year": 2021,
+                        "currency": "USD",
+                        "revenue": 365817000000,
+                        "operating_expense": 43887000000,
+                        "net_income": 94680000000,
+                        "net_profit_margin": 25.88,
+                        "earnings_per_share": 5.61,
+                        "EBITDA": 120233000000,
+                        "effective_task_rate_percent": 13.3
+                    },
+                    {
+                        "year": 2020,
+                        "currency": "USD",
+                        "revenue": 274515000000,
+                        "operating_expense": 38668000000,
+                        "net_income": 57411000000,
+                        "net_profit_margin": 20.91,
+                        "earnings_per_share": 3.28,
+                        "EBITDA": 77344000000,
+                        "effective_task_rate_percent": 14.43
+                    },
+                    {
+                        "year": 2019,
+                        "currency": "USD",
+                        "revenue": 260174000000,
+                        "operating_expense": 34462000000,
+                        "net_income": 55256000000,
+                        "net_profit_margin": 21.24,
+                        "earnings_per_share": 2.97,
+                        "EBITDA": 76477000000,
+                        "effective_task_rate_percent": 15.94
+                    },
+                    {
+                        "year": 2018,
+                        "currency": "USD",
+                        "revenue": 265595000000,
+                        "operating_expense": 30941000000,
+                        "net_income": 59531000000,
+                        "net_profit_margin": 22.41,
+                        "earnings_per_share": 2.98,
+                        "EBITDA": 81801000000,
+                        "effective_task_rate_percent": 18.34
+                    },
+                    {
+                        "year": 2017,
+                        "currency": "USD",
+                        "revenue": 229234000000,
+                        "operating_expense": 26842000000,
+                        "net_income": 48351000000,
+                        "net_profit_margin": 21.09,
+                        "earnings_per_share": 2.3,
+                        "EBITDA": 71501000000,
+                        "effective_task_rate_percent": 24.56
+                    },
+                    {
+                        "year": 2016,
+                        "currency": "USD",
+                        "revenue": 215639000000,
+                        "operating_expense": 24239000000,
+                        "net_income": 45687000000,
+                        "net_profit_margin": 21.19,
+                        "earnings_per_share": 2.08,
+                        "EBITDA": 70529000000,
+                        "effective_task_rate_percent": 25.56
+                    },
+                    {
+                        "year": 2015,
+                        "currency": "USD",
+                        "revenue": 233715000000,
+                        "operating_expense": 22396000000,
+                        "net_income": 53394000000,
+                        "net_profit_margin": 22.85,
+                        "earnings_per_share": 2.31,
+                        "EBITDA": 82487000000,
+                        "effective_task_rate_percent": 26.37
+                    },
+                    {
+                        "year": 2014,
+                        "currency": "USD",
+                        "revenue": 182795000000,
+                        "operating_expense": 18034000000,
+                        "net_income": 39510000000,
+                        "net_profit_margin": 21.61,
+                        "earnings_per_share": 1.61,
+                        "EBITDA": 60449000000,
+                        "effective_task_rate_percent": 26.13
+                    },
+                    {
+                        "year": 2013,
+                        "currency": "USD",
+                        "revenue": 170910000000,
+                        "operating_expense": 15305000000,
+                        "net_income": 37037000000,
+                        "net_profit_margin": 21.67,
+                        "earnings_per_share": 1.42,
+                        "EBITDA": 55756000000,
+                        "effective_task_rate_percent": 26.15
+                    }
+                ],
+                "period": "ANNUAL"
+            }
+        }
+    },
+    "{'symbol': 'AAPL:NASDAQ', 'period': 'QUARTERLY'}": {
+        "error": "",
+        "response": {
+            "status": "OK",
+            "request_id": "69a00cb2-6855-46ee-a6c8-92bcacb1e1ed",
+            "data": {
+                "symbol": "AAPL:NASDAQ",
+                "type": "stock",
+                "income_statement": [
+                    {
+                        "year": 2023,
+                        "quarter": 2,
+                        "currency": "USD",
+                        "revenue": 94836000000,
+                        "operating_expense": 13658000000,
+                        "net_income": 24160000000,
+                        "net_profit_margin": 25.48,
+                        "earnings_per_share": 1.52,
+                        "EBITDA": 31216000000,
+                        "effective_task_rate_percent": 14.88
+                    },
+                    {
+                        "year": 2023,
+                        "quarter": 1,
+                        "currency": "USD",
+                        "revenue": 117154000000,
+                        "operating_expense": 14316000000,
+                        "net_income": 29998000000,
+                        "net_profit_margin": 25.61,
+                        "earnings_per_share": 1.88,
+                        "EBITDA": 38932000000,
+                        "effective_task_rate_percent": 15.79
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 4,
+                        "currency": "USD",
+                        "revenue": 90146000000,
+                        "operating_expense": 13201000000,
+                        "net_income": 20721000000,
+                        "net_profit_margin": 22.99,
+                        "earnings_per_share": 1.29,
+                        "EBITDA": 27759000000,
+                        "effective_task_rate_percent": 15.96
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 3,
+                        "currency": "USD",
+                        "revenue": 82959000000,
+                        "operating_expense": 12809000000,
+                        "net_income": 19442000000,
+                        "net_profit_margin": 23.44,
+                        "earnings_per_share": 1.2,
+                        "EBITDA": 25881000000,
+                        "effective_task_rate_percent": 15.71
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 2,
+                        "currency": "USD",
+                        "revenue": 97278000000,
+                        "operating_expense": 12580000000,
+                        "net_income": 25010000000,
+                        "net_profit_margin": 25.71,
+                        "earnings_per_share": 1.52,
+                        "EBITDA": 32716000000,
+                        "effective_task_rate_percent": 17.02
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 1,
+                        "currency": "USD",
+                        "revenue": 123945000000,
+                        "operating_expense": 12755000000,
+                        "net_income": 34630000000,
+                        "net_profit_margin": 27.94,
+                        "earnings_per_share": 2.1,
+                        "EBITDA": 44185000000,
+                        "effective_task_rate_percent": 16.03
+                    },
+                    {
+                        "year": 2021,
+                        "quarter": 4,
+                        "currency": "USD",
+                        "revenue": 83360000000,
+                        "operating_expense": 11388000000,
+                        "net_income": 20551000000,
+                        "net_profit_margin": 24.65,
+                        "earnings_per_share": 1.23,
+                        "EBITDA": 26775000000,
+                        "effective_task_rate_percent": 11.6
+                    },
+                    {
+                        "year": 2021,
+                        "quarter": 3,
+                        "currency": "USD",
+                        "revenue": 81434000000,
+                        "operating_expense": 11129000000,
+                        "net_income": 21744000000,
+                        "net_profit_margin": 26.7,
+                        "earnings_per_share": 1.3,
+                        "EBITDA": 26958000000,
+                        "effective_task_rate_percent": 10.77
+                    }
+                ],
+                "period": "QUARTERLY"
+            }
+        }
+    },
+    "{'period': 'QUARTERLY', 'symbol': 'AAPL'}": {
+        "error": "",
+        "response": {
+            "status": "OK",
+            "request_id": "bd42daa9-225f-48fc-b834-6346cfd36161",
+            "data": {
+                "symbol": "AAPL:NASDAQ",
+                "type": "stock",
+                "income_statement": [
+                    {
+                        "year": 2023,
+                        "quarter": 2,
+                        "currency": "USD",
+                        "revenue": 94836000000,
+                        "operating_expense": 13658000000,
+                        "net_income": 24160000000,
+                        "net_profit_margin": 25.48,
+                        "earnings_per_share": 1.52,
+                        "EBITDA": 31216000000,
+                        "effective_task_rate_percent": 14.88
+                    },
+                    {
+                        "year": 2023,
+                        "quarter": 1,
+                        "currency": "USD",
+                        "revenue": 117154000000,
+                        "operating_expense": 14316000000,
+                        "net_income": 29998000000,
+                        "net_profit_margin": 25.61,
+                        "earnings_per_share": 1.88,
+                        "EBITDA": 38932000000,
+                        "effective_task_rate_percent": 15.79
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 4,
+                        "currency": "USD",
+                        "revenue": 90146000000,
+                        "operating_expense": 13201000000,
+                        "net_income": 20721000000,
+                        "net_profit_margin": 22.99,
+                        "earnings_per_share": 1.29,
+                        "EBITDA": 27759000000,
+                        "effective_task_rate_percent": 15.96
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 3,
+                        "currency": "USD",
+                        "revenue": 82959000000,
+                        "operating_expense": 12809000000,
+                        "net_income": 19442000000,
+                        "net_profit_margin": 23.44,
+                        "earnings_per_share": 1.2,
+                        "EBITDA": 25881000000,
+                        "effective_task_rate_percent": 15.71
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 2,
+                        "currency": "USD",
+                        "revenue": 97278000000,
+                        "operating_expense": 12580000000,
+                        "net_income": 25010000000,
+                        "net_profit_margin": 25.71,
+                        "earnings_per_share": 1.52,
+                        "EBITDA": 32716000000,
+                        "effective_task_rate_percent": 17.02
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 1,
+                        "currency": "USD",
+                        "revenue": 123945000000,
+                        "operating_expense": 12755000000,
+                        "net_income": 34630000000,
+                        "net_profit_margin": 27.94,
+                        "earnings_per_share": 2.1,
+                        "EBITDA": 44185000000,
+                        "effective_task_rate_percent": 16.03
+                    },
+                    {
+                        "year": 2021,
+                        "quarter": 4,
+                        "currency": "USD",
+                        "revenue": 83360000000,
+                        "operating_expense": 11388000000,
+                        "net_income": 20551000000,
+                        "net_profit_margin": 24.65,
+                        "earnings_per_share": 1.23,
+                        "EBITDA": 26775000000,
+                        "effective_task_rate_percent": 11.6
+                    },
+                    {
+                        "year": 2021,
+                        "quarter": 3,
+                        "currency": "USD",
+                        "revenue": 81434000000,
+                        "operating_expense": 11129000000,
+                        "net_income": 21744000000,
+                        "net_profit_margin": 26.7,
+                        "earnings_per_share": 1.3,
+                        "EBITDA": 26958000000,
+                        "effective_task_rate_percent": 10.77
+                    }
+                ],
+                "period": "QUARTERLY"
+            }
+        }
+    },
+    "{'symbol': 'TRY', 'period': 'QUARTERLY', 'language': 'en'}": {
+        "error": "",
+        "response": {
+            "status": "OK",
+            "request_id": "792279b0-de3b-4c43-8f17-c8269c7540a5",
+            "data": {
+                "symbol": "TRY:LON",
+                "type": "stock",
+                "income_statement": [],
+                "period": "QUARTERLY"
+            }
+        }
+    },
+    "{'symbol': 'AAPL', 'period': 'QUARTERLY'}": {
+        "error": "",
+        "response": {
+            "status": "OK",
+            "request_id": "6b0615bb-c7f5-47f3-8b7b-4c7ad7dadbbf",
+            "data": {
+                "symbol": "AAPL:NASDAQ",
+                "type": "stock",
+                "income_statement": [
+                    {
+                        "year": 2023,
+                        "quarter": 2,
+                        "currency": "USD",
+                        "revenue": 94836000000,
+                        "operating_expense": 13658000000,
+                        "net_income": 24160000000,
+                        "net_profit_margin": 25.48,
+                        "earnings_per_share": 1.52,
+                        "EBITDA": 31216000000,
+                        "effective_task_rate_percent": 14.88
+                    },
+                    {
+                        "year": 2023,
+                        "quarter": 1,
+                        "currency": "USD",
+                        "revenue": 117154000000,
+                        "operating_expense": 14316000000,
+                        "net_income": 29998000000,
+                        "net_profit_margin": 25.61,
+                        "earnings_per_share": 1.88,
+                        "EBITDA": 38932000000,
+                        "effective_task_rate_percent": 15.79
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 4,
+                        "currency": "USD",
+                        "revenue": 90146000000,
+                        "operating_expense": 13201000000,
+                        "net_income": 20721000000,
+                        "net_profit_margin": 22.99,
+                        "earnings_per_share": 1.29,
+                        "EBITDA": 27759000000,
+                        "effective_task_rate_percent": 15.96
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 3,
+                        "currency": "USD",
+                        "revenue": 82959000000,
+                        "operating_expense": 12809000000,
+                        "net_income": 19442000000,
+                        "net_profit_margin": 23.44,
+                        "earnings_per_share": 1.2,
+                        "EBITDA": 25881000000,
+                        "effective_task_rate_percent": 15.71
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 2,
+                        "currency": "USD",
+                        "revenue": 97278000000,
+                        "operating_expense": 12580000000,
+                        "net_income": 25010000000,
+                        "net_profit_margin": 25.71,
+                        "earnings_per_share": 1.52,
+                        "EBITDA": 32716000000,
+                        "effective_task_rate_percent": 17.02
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 1,
+                        "currency": "USD",
+                        "revenue": 123945000000,
+                        "operating_expense": 12755000000,
+                        "net_income": 34630000000,
+                        "net_profit_margin": 27.94,
+                        "earnings_per_share": 2.1,
+                        "EBITDA": 44185000000,
+                        "effective_task_rate_percent": 16.03
+                    },
+                    {
+                        "year": 2021,
+                        "quarter": 4,
+                        "currency": "USD",
+                        "revenue": 83360000000,
+                        "operating_expense": 11388000000,
+                        "net_income": 20551000000,
+                        "net_profit_margin": 24.65,
+                        "earnings_per_share": 1.23,
+                        "EBITDA": 26775000000,
+                        "effective_task_rate_percent": 11.6
+                    },
+                    {
+                        "year": 2021,
+                        "quarter": 3,
+                        "currency": "USD",
+                        "revenue": 81434000000,
+                        "operating_expense": 11129000000,
+                        "net_income": 21744000000,
+                        "net_profit_margin": 26.7,
+                        "earnings_per_share": 1.3,
+                        "EBITDA": 26958000000,
+                        "effective_task_rate_percent": 10.77
+                    }
+                ],
+                "period": "QUARTERLY"
+            }
+        }
+    },
+    "{'symbol': 'JNJ', 'period': 'ANNUAL'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'b6877280-87a7-4f56-b69d-050068441318', 'data': {'symbol': 'JNJ:NYSE', 'type': 'stock', 'income_statement': [{'date': '2024-12-29', 'year': 2024, 'month': 12, 'day': 29, 'currency': 'USD', 'revenue': 88821000000, 'operating_expense': 39184000000, 'net_income': 14066000000, 'net_profit_margin': 15.84, 'earnings_per_share': 5.79, 'EBITDA': 29940000000, 'effective_task_rate_percent': 15.71}, {'date': '2023-12-31', 'year': 2023, 'month': 12, 'day': 31, 'currency': 'USD', 'revenue': 85159000000, 'operating_expense': 35251000000, 'net_income': 35153000000, 'net_profit_margin': 41.28, 'earnings_per_share': 13.72, 'EBITDA': 30967000000, 'effective_task_rate_percent': 11.53}, {'date': '2022-1-1', 'year': 2022, 'month': 1, 'day': 1, 'currency': 'USD', 'revenue': 79990000000, 'operating_expense': 33213000000, 'net_income': 17941000000, 'net_profit_margin': 22.43, 'earnings_per_share': 6.73, 'EBITDA': 28510000000, 'effective_task_rate_percent': 15.44}, {'date': '2021-1-2', 'year': 2021, 'month': 1, 'day': 2, 'currency': 'USD', 'revenue': 78740000000, 'operating_expense': 33783000000, 'net_income': 20878000000, 'net_profit_margin': 26.52, 'earnings_per_share': 7.81, 'EBITDA': 28206000000, 'effective_task_rate_percent': 7.18}, {'date': '2020-1-3', 'year': 2020, 'month': 1, 'day': 3, 'currency': 'USD', 'revenue': 82584000000, 'operating_expense': 33890000000, 'net_income': 14714000000, 'net_profit_margin': 17.82, 'earnings_per_share': 5.51, 'EBITDA': 274980000"
+    },
+    "{'symbol': 'MRNA', 'period': 'QUARTERLY'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '9189efc0-d5f1-420e-9241-155a8590385c', 'data': {'symbol': 'MRNA:NASDAQ', 'type': 'stock', 'income_statement': [{'date': '2025-3-31', 'year': 2025, 'month': 3, 'day': 31, 'quarter': 1, 'currency': 'USD', 'revenue': 108000000, 'operating_expense': 212000000, 'net_income': -971000000, 'net_profit_margin': -899.07, 'earnings_per_share': None, 'EBITDA': -1011000000, 'effective_task_rate_percent': -0.73}, {'date': '2024-12-31', 'year': 2024, 'month': 12, 'day': 31, 'quarter': 4, 'currency': 'USD', 'revenue': 966000000, 'operating_expense': 351000000, 'net_income': -1120000000, 'net_profit_margin': -115.94, 'earnings_per_share': -2.92, 'EBITDA': -1186000000, 'effective_task_rate_percent': 5.41}, {'date': '2024-9-30', 'year': 2024, 'month': 9, 'day': 30, 'quarter': 3, 'currency': 'USD', 'revenue': 1862000000, 'operating_expense': 281000000, 'net_income': 13000000, 'net_profit_margin': 0.7, 'earnings_per_share': 0.03, 'EBITDA': -18000000, 'effective_task_rate_percent': 38.1}, {'date': '2024-6-30', 'year': 2024, 'month': 6, 'day': 30, 'quarter': 2, 'currency': 'USD', 'revenue': 241000000, 'operating_expense': 268000000, 'net_income': -1279000000, 'net_profit_margin': -530.71, 'earnings_per_share': None, 'EBITDA': -1322000000, 'effective_task_rate_percent': None}, {'date': '2024-3-31', 'year': 2024, 'month': 3, 'day': 31, 'quarter': 1, 'currency': 'USD', 'revenue': 167000000, 'operating_expense': 274000000, 'net_income': -1175000000, 'net_profit_margin': "
+    },
+    "{'symbol': 'MRNA', 'period': 'ANNUAL'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'af028814-2de0-4665-a508-3ad5982fdc3d', 'data': {'symbol': 'MRNA:NASDAQ', 'type': 'stock', 'income_statement': [{'date': '2024-12-31', 'year': 2024, 'month': 12, 'day': 31, 'currency': 'USD', 'revenue': 3236000000, 'operating_expense': 1174000000, 'net_income': -3561000000, 'net_profit_margin': -110.04, 'earnings_per_share': -9.28, 'EBITDA': -3756000000, 'effective_task_rate_percent': 1.28}, {'date': '2023-12-31', 'year': 2023, 'month': 12, 'day': 31, 'currency': 'USD', 'revenue': 6848000000, 'operating_expense': 1549000000, 'net_income': -4714000000, 'net_profit_margin': -68.84, 'earnings_per_share': -12.33, 'EBITDA': -3618000000, 'effective_task_rate_percent': -19.58}, {'date': '2022-12-31', 'year': 2022, 'month': 12, 'day': 31, 'currency': 'USD', 'revenue': 19263000000, 'operating_expense': 1132000000, 'net_income': 8362000000, 'net_profit_margin': 43.41, 'earnings_per_share': 20.12, 'EBITDA': 9768000000, 'effective_task_rate_percent': 12.67}, {'date': '2021-12-31', 'year': 2021, 'month': 12, 'day': 31, 'currency': 'USD', 'revenue': 18471000000, 'operating_expense': 567000000, 'net_income': 12202000000, 'net_profit_margin': 66.06, 'earnings_per_share': 28.29, 'EBITDA': 13528000000, 'effective_task_rate_percent': 8.15}, {'date': '2020-12-31', 'year': 2020, 'month': 12, 'day': 31, 'currency': 'USD', 'revenue': 803000000, 'operating_expense': 188000000, 'net_income': -747000000, 'net_profit_margin': -93.03, 'earnings_per_share': -1.96, 'EBITDA':"
+    },
+    "{'symbol': 'JNJ', 'period': 'QUARTERLY'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '3c77f7b9-3241-4826-83cb-91b3eb878829', 'data': {'symbol': 'JNJ:NYSE', 'type': 'stock', 'income_statement': [{'date': '2025-3-30', 'year': 2025, 'month': 3, 'day': 30, 'quarter': 1, 'currency': 'USD', 'revenue': 21893000000, 'operating_expense': 8206000000, 'net_income': 10999000000, 'net_profit_margin': 50.24, 'earnings_per_share': 4.54, 'EBITDA': 8210000000, 'effective_task_rate_percent': 19.31}, {'date': '2024-12-29', 'year': 2024, 'month': 12, 'day': 29, 'quarter': 4, 'currency': 'USD', 'revenue': 22520000000, 'operating_expense': 11524000000, 'net_income': 3431000000, 'net_profit_margin': 15.24, 'earnings_per_share': 1.41, 'EBITDA': 5984000000, 'effective_task_rate_percent': 11.73}, {'date': '2024-9-29', 'year': 2024, 'month': 9, 'day': 29, 'quarter': 3, 'currency': 'USD', 'revenue': 22471000000, 'operating_expense': 10205000000, 'net_income': 2694000000, 'net_profit_margin': 11.99, 'earnings_per_share': 1.11, 'EBITDA': 7355000000, 'effective_task_rate_percent': 19.29}, {'date': '2024-6-30', 'year': 2024, 'month': 6, 'day': 30, 'quarter': 2, 'currency': 'USD', 'revenue': 22447000000, 'operating_expense': 8886000000, 'net_income': 4686000000, 'net_profit_margin': 20.88, 'earnings_per_share': 1.93, 'EBITDA': 8476000000, 'effective_task_rate_percent': 18.48}, {'date': '2024-3-31', 'year': 2024, 'month': 3, 'day': 31, 'quarter': 1, 'currency': 'USD', 'revenue': 21383000000, 'operating_expense': 8569000000, 'net_income': 3255000000, 'net_profit_"
+    },
+    "{'symbol': 'TSLA:NASDAQ', 'period': 'QUARTERLY'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '4e2f748c-f3c9-4b56-bedb-84972c49548e', 'data': {'symbol': 'TSLA:NASDAQ', 'type': 'stock', 'income_statement': [{'date': '2025-3-31', 'year': 2025, 'month': 3, 'day': 31, 'quarter': 1, 'currency': 'USD', 'revenue': 19335000000, 'operating_expense': 2660000000, 'net_income': 409000000, 'net_profit_margin': 2.12, 'earnings_per_share': 0.12, 'EBITDA': 1940000000, 'effective_task_rate_percent': 28.69}, {'date': '2024-12-31', 'year': 2024, 'month': 12, 'day': 31, 'quarter': 4, 'currency': 'USD', 'revenue': 25707000000, 'operating_expense': 2596000000, 'net_income': 2317000000, 'net_profit_margin': 9.01, 'earnings_per_share': 0.66, 'EBITDA': 3079000000, 'effective_task_rate_percent': 15.69}, {'date': '2024-9-30', 'year': 2024, 'month': 9, 'day': 30, 'quarter': 3, 'currency': 'USD', 'revenue': 25182000000, 'operating_expense': 2280000000, 'net_income': 2167000000, 'net_profit_margin': 8.61, 'earnings_per_share': 0.62, 'EBITDA': 4065000000, 'effective_task_rate_percent': 21.59}, {'date': '2024-6-30', 'year': 2024, 'month': 6, 'day': 30, 'quarter': 2, 'currency': 'USD', 'revenue': 25500000000, 'operating_expense': 2390000000, 'net_income': 1478000000, 'net_profit_margin': 5.8, 'earnings_per_share': 0.42, 'EBITDA': 3466000000, 'effective_task_rate_percent': 20.83}, {'date': '2024-3-31', 'year': 2024, 'month': 3, 'day': 31, 'quarter': 1, 'currency': 'USD', 'revenue': 21301000000, 'operating_expense': 2525000000, 'net_income': 1390000000, 'net_profit_margin"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "latest_exchange_rates",
+    "description": "This is a sub-function API for tool exchangeratespro.\nTool description: FREE real time currency conversion and exchange rates updated every minute. Histrocial exchange rates available back to 1990. Over 160 currencies supported.\nAPI description: Get up-to-date exchange rate data with the /latest endpoint. Choose from daily, hourly, or minute updates, based on your plan. Stay on top of the markets with real-time data, delivered with one simple request.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "resolution": {
+                "type": "string",
+                "description": "The frequency of updates for the exchange rates. Possible values are '1m' for minute, '1h' for hourly, and '1d' for daily updates."
+            },
+            "currencies": {
+                "type": "string",
+                "description": "A comma-separated list of currency codes (e.g., 'USD,EUR,AUD,GBP') to get exchange rates for. If not provided, rates for all available currencies are returned."
+            },
+            "base": {
+                "type": "string",
+                "description": "Change the base currency of the returned rates. USD by default.",
+                "default": "USD"
+            }
+        },
+        "required": []
+    }
+}

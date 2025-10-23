@@ -1,0 +1,17 @@
+{
+    "name": "schedule",
+    "description": "This is a sub-function API for tool flixbus.\nTool description: A service that provides flixbus travel search, available cities, stations, timetables and routes. Site: www.flixbus.com **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters\nAPI description: Fetches the schedule information for a given station using the flixbus API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "station_id": {
+                "type": "number",
+                "description": "The ID of the station for which to retrieve the schedule.",
+                "default": 66.0
+            }
+        },
+        "required": [
+            "station_id"
+        ]
+    }
+}

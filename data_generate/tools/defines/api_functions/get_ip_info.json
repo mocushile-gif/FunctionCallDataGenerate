@@ -1,0 +1,25 @@
+{
+    "name": "get_ip_info",
+    "description": "Get IP or domain information from ip-api.com API. This function allows you to query information about an IP address or domain, with options to specify the fields to include in the response, and the language of the response.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The IP address or domain name to query. If not provided, the current IP is used."
+            },
+            "fields": {
+                "type": "string",
+                "description": "A comma-separated string of fields to include in the response.",
+                "enum": ["status", "message", "query", "continent", "continentCode", "country", "countryCode", "region", "regionName", "city", "district", "zip", "lat", "lon", "timezone", "offset", "currency", "isp", "org", "as", "asname", "reverse", "mobile", "proxy", "hosting"]
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language of the response.",
+                "enum": ["en", "de", "es", "pt-BR", "fr", "ja", "zh-CN", "ru"],
+                "default": "en"
+            }
+        },
+        "required": []
+    }
+}

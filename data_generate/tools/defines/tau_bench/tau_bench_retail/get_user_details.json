@@ -1,0 +1,14 @@
+{
+    "name": "get_user_details",
+    "description": "Get the details of a user, including their orders.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The user id, such as 'sara_doe_496'."
+            }
+        },
+        "required": ["user_id"]
+    }
+}

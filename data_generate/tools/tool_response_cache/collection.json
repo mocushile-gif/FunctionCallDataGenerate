@@ -1,0 +1,31 @@
+{
+    "{'search': 'environmental monitoring satellites'}": {
+        "error": "",
+        "response": [
+            {
+                "name": "NOAA-20",
+                "tle": [
+                    "1 43718U 17091A   24123.5123  .0001501  00000-0  20000-3 0  9991",
+                    "2 43718  98.7010 123.4567 0001234 123.456 456.7890 13.9876543234"
+                ],
+                "description": "NOAA-20 (JPSS-1) provides weather and climate data for environmental monitoring."
+            },
+            {
+                "name": "Sentinel-3B",
+                "tle": [
+                    "1 42781U 18015A   24123.5123  .0000123  00000-0  20000-4 0  9992",
+                    "2 42781  99.1010  45.6789 0002345  45.678 345.6789 13.8765432123"
+                ],
+                "description": "Sentinel-3B monitors Earth's oceans, land, and atmosphere for environmental research."
+            },
+            {
+                "name": "Aqua",
+                "tle": [
+                    "1 27791U 02025A   24123.5123  .0000654  00000-0  20000-3 0  9993",
+                    "2 27791  98.4010 180.1234 0003456  67.890  12.3456 13.9678765432"
+                ],
+                "description": "Aqua satellite studies Earth's water cycle and climate processes."
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_all_brands",
+    "description": "This is a sub-function API for tool iherb_product_data_api.\nTool description: Query for products using many filters! Filter by price, review, discount percentage, if has stock, etc! Or export a .zip file with all updated products!\nAPI description: Fetches all available brands from the iHerb Product Data API for a given page number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve brands from.",
+                "default": 1
+            }
+        },
+        "required": [
+            "page"
+        ]
+    }
+}

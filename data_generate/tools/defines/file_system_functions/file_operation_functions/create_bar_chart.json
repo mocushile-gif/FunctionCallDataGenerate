@@ -1,0 +1,68 @@
+{
+  "name": "create_bar_chart",
+  "description": "Generate a customizable bar chart from manual input or a file (Excel, CSV, JSON, JSONL). Supports aggregation (sum, mean, count).",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "categories": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Categories for the x-axis if not loading from file"
+      },
+      "values": {
+        "type": "array",
+        "items": { "type": "number" },
+        "description": "Values corresponding to the categories if not loading from file"
+      },
+      "file_path": {
+        "type": "string",
+        "description": "Optional path to a CSV, Excel, JSON, or JSONL file to load chart data from"
+      },
+      "sheet_name": {
+        "type": ["string", "integer"],
+        "description": "Sheet name or index (for Excel files only)",
+        "default": 0
+      },
+      "category_col": {
+        "type": ["string", "integer"],
+        "description": "Column name or index for x-axis (category labels)"
+      },
+      "value_col": {
+        "type": ["string", "integer"],
+        "description": "Column name or index for y-axis (numeric values)"
+      },
+      "agg_method": {
+        "type": "string",
+        "enum": ["sum", "mean", "count"],
+        "default": "sum",
+        "description": "Aggregation method if duplicate categories exist"
+      },
+      "color": {
+        "type": "string",
+        "default": "blue",
+        "description": "Color of the bars"
+      },
+      "title": {
+        "type": "string",
+        "default": "Bar Chart",
+        "description": "Title of the chart"
+      },
+      "xlabel": {
+        "type": "string",
+        "default": "Categories",
+        "description": "Label for the x-axis"
+      },
+      "ylabel": {
+        "type": "string",
+        "default": "Values",
+        "description": "Label for the y-axis"
+      },
+      "save_path": {
+        "type": "string",
+        "description": "File path to save the generated bar chart image",
+        "default": "./bar_chart.png"
+      }
+    },
+    "required": []
+  }
+}

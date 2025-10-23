@@ -1,0 +1,17 @@
+{
+    "name": "lines_line",
+    "description": "This is a sub-function API for tool poetry_db.\nTool description: PoetryDB is the world's first API for Next Generation internet poets\nAPI description: Fetches all poems from Poetry DB that contain a specific line or part of the line.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "line": {
+                "type": "string",
+                "description": "The line or part of a line to search for in the poems.",
+                "default": "Shall I Compare Thee"
+            }
+        },
+        "required": [
+            "line"
+        ]
+    }
+}

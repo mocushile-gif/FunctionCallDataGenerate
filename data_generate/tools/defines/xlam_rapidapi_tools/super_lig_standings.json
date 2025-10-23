@@ -1,0 +1,14 @@
+{
+    "name": "super_lig_standings",
+    "description": "This is a sub-function API for tool super_lig_standings.\nTool description: Turkish Super Lig Standings\nAPI description: Fetches the standings of the Super Lig for a specific season using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season": {
+                "type": "string",
+                "description": "The season for which standings are required. Example: '2022'. If not provided, the current season's standings will be fetched."
+            }
+        },
+        "required": []
+    }
+}

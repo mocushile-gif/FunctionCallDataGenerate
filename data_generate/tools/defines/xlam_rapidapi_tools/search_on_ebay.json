@@ -1,0 +1,17 @@
+{
+    "name": "search_on_ebay",
+    "description": "This is a sub-function API for tool ebay_search_result.\nTool description: API Returns necessary information from Ebay search page results, such as the price, title, shipping cost and direct url to the product \nAPI description: Searches for items on eBay using the provided search query and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "searchquery": {
+                "type": "string",
+                "description": "The search term used to look for items on eBay.",
+                "default": "iphone"
+            }
+        },
+        "required": [
+            "searchquery"
+        ]
+    }
+}

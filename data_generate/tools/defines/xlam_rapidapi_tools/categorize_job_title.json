@@ -1,0 +1,17 @@
+{
+    "name": "categorize_job_title",
+    "description": "This is a sub-function API for tool job_title_categorization.\nTool description: Accurately classify any job title. Our machine-learning API sorts job titles into two categories:\ndepartment (sales, finance,...) and level (director, manager, intern...) so you can prioritize the ones you're interested in.\nAPI description: Categorizes a given job title using the Toolbench RapidAPI job title categorization service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string",
+                "description": "The job title to be categorized.",
+                "default": "Head of Finance"
+            }
+        },
+        "required": [
+            "title"
+        ]
+    }
+}

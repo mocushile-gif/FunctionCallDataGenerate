@@ -1,0 +1,23 @@
+{
+    "name": "get_tiktok_video_info",
+    "description": "This is a sub-function API for tool tiktok_download_video.\nTool description: Tiktok Best Spider. Fast. HD Quality. Without Watermark Download. Video Full Detail. Signature X-Argus,X-Ladon,X-Gorgon \nmail: nb429429@gmail.com\n\nAPI description: Get tiktok video full info. HD Quality, No Watermark. Fast.\nSupport Tiktok & Douyin.\nSupport Getting Image List.\nSupport Tiktok Stories.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hd": {
+                "type": "string",
+                "description": "Get HD Video(High bit rate). This increases the total request time a little.\nresponse: data.hdplay",
+                "default": "1"
+            },
+            "url": {
+                "type": "string",
+                "description": "The URL of the TikTok video. It can be in the format of a TikTok ID or a direct TikTok video link.",
+                "default": "https://www.tiktok.com/@tiktok/video/7106658991907802411"
+            }
+        },
+        "required": [
+            "hd",
+            "url"
+        ]
+    }
+}

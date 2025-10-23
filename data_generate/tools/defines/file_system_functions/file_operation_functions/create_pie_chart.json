@@ -1,0 +1,52 @@
+{
+  "name": "create_pie_chart",
+  "description": "Generate a customizable pie chart from direct input or a file (CSV, Excel, JSON, JSONL). Supports label-value aggregation.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "labels": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Labels for each slice (if not loading from file)"
+      },
+      "sizes": {
+        "type": "array",
+        "items": { "type": "number" },
+        "description": "Values corresponding to each label (if not loading from file)"
+      },
+      "file_path": {
+        "type": "string",
+        "description": "Optional file to load data from (.csv, .xlsx, .json, .jsonl)"
+      },
+      "sheet_name": {
+        "type": ["string", "integer"],
+        "description": "Sheet name or index (used only for Excel files)",
+        "default": 0
+      },
+      "category_col": {
+        "type": ["string", "integer"],
+        "description": "Column name or index to use as pie slice labels"
+      },
+      "value_col": {
+        "type": ["string", "integer"],
+        "description": "Column name or index to use as pie slice values"
+      },
+      "agg_method": {
+        "type": "string",
+        "enum": ["sum", "mean", "count"],
+        "default": "sum",
+        "description": "Aggregation method for duplicate labels if reading from file"
+      },
+      "title": {
+        "type": "string",
+        "default": "Pie Chart",
+        "description": "Title of the pie chart"
+      },
+      "save_path": {
+        "type": "string",
+        "description": "Path to save the generated pie chart image (e.g., ./output.png)"
+      }
+    },
+    "required": []
+  }
+}

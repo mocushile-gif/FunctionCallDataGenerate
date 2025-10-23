@@ -1,0 +1,17 @@
+{
+    "name": "find_by_udprn",
+    "description": "This is a sub-function API for tool find_by_udprn.\nTool description: “Find By UDPRN” API gets address for the specified UDPRN.\n\nUDPRN stands for ‘Unique Delivery Point Reference Number. A UDPRN is a unique numeric code (e.g. 64983) for any premise on the Postcode Address File.\n\nThis API uses the latest PAF and Multiple Residence data from Royal Mail.UDPRN are unique identifiers for every address in the UK that Royal Mail has in its database.\nAPI description: “Find By UDPRN” API gets address for the specified UDPRN.\n\nUDPRN stands for ‘Unique Delivery Point Reference Number. A UDPRN is a unique numeric code (e.g. 64983) for any premise on the Postcode Address File.\n\nThis API uses the latest PAF and Multiple Residence data from Royal Mail.UDPRN are unique identifiers for every address in the UK that Royal Mail has in its database.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "udprn": {
+                "type": "string",
+                "description": "The Unique Delivery Point Reference Number for which the address information is to be fetched.",
+                "default": "18911184"
+            }
+        },
+        "required": [
+            "udprn"
+        ]
+    }
+}

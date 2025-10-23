@@ -1,0 +1,17 @@
+{
+    "name": "single_contest",
+    "description": "This is a sub-function API for tool pageantdb.\nTool description: Metadata on publicly available information on various pageant contests. \nAPI description: Fetch details of a single pageant contest by its ID from the PageantDB API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the pageant contest to fetch details for.",
+                "default": 35.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

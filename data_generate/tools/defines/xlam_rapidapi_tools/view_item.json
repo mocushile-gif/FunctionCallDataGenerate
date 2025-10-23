@@ -1,0 +1,42 @@
+{
+    "name": "view_item",
+    "description": "This is a sub-function API for tool catalogapi.\nTool description: Catalog API is a service that ties your application to our catalog and order support department. With minimal integration, you can receive data feeds easily scoped to your demographics to provide exciting, up-to-date, and motivating catalogs. Your pa\nAPI description: Fetches an image and description of a catalog item based on provided credentials and identifiers.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "creds_datetime": {
+                "type": "string",
+                "description": "UTC iso8601 formatted datetime of the credentials."
+            },
+            "creds_uuid": {
+                "type": "string",
+                "description": "GUID representing the unique user identifier."
+            },
+            "creds_checksum": {
+                "type": "string",
+                "description": "Checksum of the credentials for validation."
+            },
+            "socket_id": {
+                "type": "string",
+                "description": "This is the socket that the item is in. You can find your available sockets by using the list_available_catalogs method."
+            },
+            "catalog_item_id": {
+                "type": "string",
+                "description": "Identifier of the catalog item to fetch details for."
+            },
+            "format": {
+                "type": "string",
+                "description": "Format of the request, can be either 'rest' or 'restx'.",
+                "default": "rest"
+            }
+        },
+        "required": [
+            "creds_datetime",
+            "creds_uuid",
+            "creds_checksum",
+            "socket_id",
+            "catalog_item_id",
+            "format"
+        ]
+    }
+}

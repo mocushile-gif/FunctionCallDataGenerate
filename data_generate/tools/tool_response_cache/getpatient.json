@@ -1,0 +1,23 @@
+{
+    "{'collection': 'Lung-Cancer'}": {
+        "error": "",
+        "response": [
+            {
+                "PatientID": "PAT001",
+                "Collection": "Lung-Cancer",
+                "Modality": "CT",
+                "BodyPartExamined": "Lung",
+                "StudyDescription": "Cancer Screening",
+                "SubmissionDate": "2023-05-15"
+            },
+            {
+                "PatientID": "PAT002",
+                "Collection": "Lung-Cancer",
+                "Modality": "PET",
+                "BodyPartExamined": "Lung",
+                "StudyDescription": "Metastasis Assessment",
+                "SubmissionDate": "2023-06-20"
+            }
+        ]
+    }
+}

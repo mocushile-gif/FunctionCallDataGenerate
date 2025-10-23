@@ -1,0 +1,51 @@
+{
+    "{'symbol': 'TLS', 'region': 'AU'}": {
+        "error": "",
+        "response": {
+            "symbol": "TLS.AX",
+            "region": "AU",
+            "yearly_high": {
+                "price": 50.45,
+                "currency": "AUD",
+                "date": "2023-07-15",
+                "exchange": "Australian Securities Exchange (ASX)"
+            }
+        }
+    },
+    "{'symbol': 'AAPL', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '237.49'}"
+    },
+    "{'symbol': 'TSLA', 'region': 'CA'}": {
+        "error": "",
+        "response": "{'value': '488.54'}"
+    },
+    "{'symbol': 'TSLA', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '488.54'}"
+    },
+    "{'symbol': 'AMZN', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '242.52'}"
+    },
+    "{'region': 'US', 'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'value': '488.54'}"
+    },
+    "{'symbol': 'GOOGL', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '207.05'}"
+    },
+    "{'symbol': 'META', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '740.91'}"
+    },
+    "{'region': 'DE', 'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'value': '488.54'}"
+    },
+    "{'region': 'IT', 'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'value': '488.54'}"
+    }
+}

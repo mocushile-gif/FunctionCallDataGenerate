@@ -1,0 +1,22 @@
+{
+    "name": "artists_get_top_songs",
+    "description": "This is a sub-function API for tool shazam.\nTool description: Identify any song. Discover, artists, lyrics, videos & playlists to create a song detector site/application such as shazam.com\nAPI description: Fetches the top songs of a specified artist using the Shazam API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The value of 'artist->adamid' field returned in .../search OR .../songs/v2/detect OR .../songs/get-details endpoint\nThe value of 'artists->id' field returned in .../shazam-songs/get-details OR .../albums/get-details OR .../albums/get-related-artist",
+                "default": "567072"
+            },
+            "l": {
+                "type": "string",
+                "description": "The language code for the response. Defaults to 'en-US'.",
+                "default": "en-US"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

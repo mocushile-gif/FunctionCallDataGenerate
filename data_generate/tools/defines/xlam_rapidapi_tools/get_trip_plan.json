@@ -1,0 +1,23 @@
+{
+    "name": "get_trip_plan",
+    "description": "This is a sub-function API for tool ai_trip_planner.\nTool description: The API generates personalized trip plans based on the user's specified number of days and location. Using AI, the system recommends popular tourist attractions, local experiences, and accommodations based on user preferences and past travel behavior. The generated trip plans can be customized and adjusted to suit the user's needs, making it a valuable tool for anyone planning a trip.\nAPI description: This endpoint is used to generate trip plan based on no. of days and destination.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "days": {
+                "type": "number",
+                "description": "The number of days for the trip.",
+                "default": 3.0
+            },
+            "destination": {
+                "type": "string",
+                "description": "The destination for the trip.",
+                "default": "London,UK"
+            }
+        },
+        "required": [
+            "days",
+            "destination"
+        ]
+    }
+}

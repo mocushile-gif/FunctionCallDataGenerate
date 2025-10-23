@@ -1,0 +1,46 @@
+{
+    "{'gameid': '9576185'}": {
+        "error": "",
+        "response": {
+            "game_id": "9576185",
+            "home_team": {
+                "name": "Manchester United",
+                "lineup": [
+                    {
+                        "player": "De Gea",
+                        "position": "Goalkeeper"
+                    },
+                    {
+                        "player": "Maguire",
+                        "position": "Defender"
+                    },
+                    {
+                        "player": "Rashford",
+                        "position": "Forward"
+                    }
+                ],
+                "status": "confirmed"
+            },
+            "away_team": {
+                "name": "Liverpool",
+                "lineup": [
+                    {
+                        "player": "Alisson",
+                        "position": "Goalkeeper"
+                    },
+                    {
+                        "player": "Van Dijk",
+                        "position": "Defender"
+                    },
+                    {
+                        "player": "Salah",
+                        "position": "Forward"
+                    }
+                ],
+                "status": "confirmed"
+            },
+            "match_time": "2023-10-05T15:00:00Z",
+            "forecast": "Lineups finalized; no injuries reported pre-match."
+        }
+    }
+}

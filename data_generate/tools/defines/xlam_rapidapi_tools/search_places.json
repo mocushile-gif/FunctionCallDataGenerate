@@ -1,0 +1,59 @@
+{
+    "name": "search_places",
+    "description": "This is a sub-function API for tool spott.\nTool description: Search cities, countries and administrative divisions by name, autocompletion or IP.\nAPI description: Fetches a list of places (either countries, cities, or administrative divisions) that match a query and can be filtered by various properties.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "Filters places by \\\"type\\\". It's possible to specify multiple values separating them with commas. Valid types are CITY, ADMIN_DIVISION_1, ADMIN_DIVISION_2 and COUNTRY.",
+                "default": "CITY"
+            },
+            "language": {
+                "type": "string",
+                "description": "Specifies the language (ISO 639-1) to get the localized name of the place. If translation is unavailable, the \"localizedName\" property will be null."
+            },
+            "skip": {
+                "type": "number",
+                "description": "Amount of places to ignore before beginning to return results. Used together with \\\"limit\\\" to paginate results. Defaults to 0.",
+                "default": 0.0
+            },
+            "country": {
+                "type": "string",
+                "description": "Filters places by their country \\\"id\\\". It's possible to specify multiple values separating them with commas (Ex. ?country=US,CA,MX).",
+                "default": "US,CA"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Maximum number of places to return. Used together with \\\"skip\\\" to paginate results. Defaults to 10, maximum is 100.",
+                "default": 10.0
+            },
+            "admindivision1": {
+                "type": "string",
+                "description": "Filters places by their adminDivision1 \\\"id\\\". It's possible to specify multiple values separating them with commas (Ex. ?country=US.CA,US.DE)."
+            },
+            "admindivision2": {
+                "type": "string",
+                "description": "Filters places by their adminDivision2 \\\"id\\\". It's possible to specify multiple values separating them with commas."
+            },
+            "accuracyradiuskm": {
+                "type": "number",
+                "description": "Maximum radius from the point specified by \\\"latitude\\\" and \\\"longitude\\\" to filter places located within the area. The value must be expressed in Kilometers. Defaults to 100km."
+            },
+            "latitude": {
+                "type": "number",
+                "description": "Latitude component of a coordinates set to filter places by their location. This parameter is ignored if \\\"longitude\\\" is not specified."
+            },
+            "q": {
+                "type": "string",
+                "description": "Query string to find places with a similar name. Default is 'New York'.",
+                "default": "New York"
+            },
+            "longitude": {
+                "type": "number",
+                "description": "Longitude component of a coordinates set to filter places by their location. This parameter is ignored if \\\"latitude\\\" is not specified."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "retrieve_proxy_information",
+    "description": "This is a sub-function API for tool proxy_checker.\nTool description: An easy tool to test proxy whether it's online, anonymous, is it HTTP, HTTPS or both, to get proxy performance timings.\nAPI description: For retrieving a proxy test result, you should make a request to this endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "**User Request ID** - received from the response of sending a proxy for checking.",
+                "default": "6416ab3d3c01efbe45e97675"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

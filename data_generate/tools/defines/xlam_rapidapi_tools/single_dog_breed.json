@@ -1,0 +1,17 @@
+{
+    "name": "single_dog_breed",
+    "description": "This is a sub-function API for tool dogbreeddb.\nTool description: Get the basic metadata on all breeds of dogs from around the world. Check out encurate.app to manage content on your mobile apps. Contact to feature your app on encurate.app website.\nAPI description: Fetches details of a single dog breed from the DogBreedDB API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the dog breed to fetch details for.",
+                "default": 47.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

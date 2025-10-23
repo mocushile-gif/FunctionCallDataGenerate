@@ -1,0 +1,20 @@
+{
+    "name": "qr_code_image",
+    "description": "This is a sub-function API for tool variable_size_qr_code_api.\nTool description: This api takes a URL and the desired size of the QR Code and returns the QR Code image.\nAPI description: this end point takes a 'GET' request with url / string and an size / integer as parameters and returns a QR Code image of the desired size.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "size": {
+                "type": "number",
+                "description": "The size of the QR code image. Default is 5.",
+                "default": 5.0
+            },
+            "url": {
+                "type": "string",
+                "description": "The URL to be encoded in the QR code. Default is 'www.google.com'.",
+                "default": "www.google.com"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "title_details",
+    "description": "This is a sub-function API for tool netflix_data.\nTool description: Netflix data API provides details, stats and information of TV shows, movies, series, documentaries and more.\nAPI description: Fetches the details of specified Netflix titles using the RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ids": {
+                "type": "string",
+                "description": "A comma-separated string of Netflix title IDs to fetch details for.",
+                "default": "80057281"
+            }
+        },
+        "required": [
+            "ids"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "air_quality_forecasts",
+    "description": "This is a sub-function API for tool air_quality_api.\nTool description: Retrieve current, forecasted, and extensive measurement data for any city in the world!\nAPI description: Fetches hourly air quality forecast for a specified city.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The country where the city is located.",
+                "default": "netherlands"
+            },
+            "city": {
+                "type": "string",
+                "description": "The city for which the air quality forecast is required.",
+                "default": "amsterdam"
+            },
+            "lat": {
+                "type": "string",
+                "description": "Latitude of the city. Defaults to '52.377956'.",
+                "default": "52.377956"
+            },
+            "lon": {
+                "type": "string",
+                "description": "Longitude of the city. Defaults to '4.897070'.",
+                "default": "4.897070"
+            }
+        },
+        "required": [
+            "country",
+            "city"
+        ]
+    }
+}

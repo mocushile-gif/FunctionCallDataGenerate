@@ -1,0 +1,23 @@
+{
+    "name": "search_patent",
+    "description": "This is a sub-function API for tool global_patent.\nTool description: Search global patents from world-wide countries with your keyword for freemium\nAPI description: Searches for patents using a keyword and data source, and returns a list of patents.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "Keyword used for searching patents.",
+                "default": "kettle"
+            },
+            "ds": {
+                "type": "string",
+                "description": "Data source to search for patents.",
+                "default": "all"
+            }
+        },
+        "required": [
+            "q",
+            "ds"
+        ]
+    }
+}

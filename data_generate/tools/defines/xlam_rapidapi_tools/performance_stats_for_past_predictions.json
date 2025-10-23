@@ -1,0 +1,19 @@
+{
+    "name": "performance_stats_for_past_predictions",
+    "description": "This is a sub-function API for tool football_prediction.\nTool description: The Football Prediction API provides predictions for upcoming football matches, average bookie odds, results for past matches and prediction performance statistics for past results.\nAPI description: Returns information about the accuracy of past predictions. (in the last day, 7 days, 14 days and 30 days) Can be additionally filtered by federation and market. If no market filter is provided it defaults to classic",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "federation": {
+                "type": "string",
+                "description": "Filter statistics by a specific federation. Defaults to None."
+            },
+            "market": {
+                "type": "string",
+                "description": "Show stats for a different prediction market. Defaults to \"classic\" if not provided",
+                "default": "classic"
+            }
+        },
+        "required": []
+    }
+}

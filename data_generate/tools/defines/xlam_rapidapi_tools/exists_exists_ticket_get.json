@@ -1,0 +1,16 @@
+{
+    "name": "exists_exists_ticket_get",
+    "description": "This is a sub-function API for tool ifc_bim_services.\nTool description: IFC models related BIM services\nGITHUB Repository : https://github.com/aminov-jp/BIMIFCServices\nAPI description: Checks if a ticket exists using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticket": {
+                "type": "string",
+                "description": "The ticket identifier to be checked."
+            }
+        },
+        "required": [
+            "ticket"
+        ]
+    }
+}

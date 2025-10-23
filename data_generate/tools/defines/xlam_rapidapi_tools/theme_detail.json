@@ -1,0 +1,16 @@
+{
+    "name": "theme_detail",
+    "description": "This is a sub-function API for tool sitedomain.\nTool description: site adm domain\nAPI description: Fetches the details of a theme using its ID from the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "dtid": {
+                "type": "number",
+                "description": "The ID of the theme to be fetched."
+            }
+        },
+        "required": [
+            "dtid"
+        ]
+    }
+}

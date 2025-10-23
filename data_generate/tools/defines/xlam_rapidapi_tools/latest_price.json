@@ -1,0 +1,23 @@
+{
+    "name": "latest_price",
+    "description": "This is a sub-function API for tool osrs_live_prices.\nTool description: Grand exchange data for old school runescape items. \nAPI description: Fetches the latest price for the given item ID and timestep from the OSRS Live Prices API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "timestep": {
+                "type": "string",
+                "description": "The timestep for which to retrieve the latest price.",
+                "default": "5m"
+            },
+            "itemid": {
+                "type": "number",
+                "description": "The ID of the item for which to fetch the latest price.",
+                "default": 314.0
+            }
+        },
+        "required": [
+            "timestep",
+            "itemid"
+        ]
+    }
+}

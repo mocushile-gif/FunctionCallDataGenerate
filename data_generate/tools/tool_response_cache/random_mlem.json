@@ -1,0 +1,34 @@
+{
+    "{'brightness': 'bright', 'orientation': 'portrait', 'tag': 'bright'}": {
+        "error": "",
+        "response": "Here is a bright, portrait-oriented image of an animal showcasing a mlem or blep, filtered by the tag 'bright'. The image is curated to match the specified brightness and orientation preferences, ensuring a visually appealing and relevant result. Enjoy the adorable display of animal behavior!"
+    },
+    "{'brightness': 'bright', 'orientation': 'square'}": {
+        "error": "",
+        "response": "{'id': 9022, 'url': 'https://mlemtech.com/mlems/1594257714407.jpg', 'width': 2448, 'height': 2448, 'orientation': 'square', 'brightness': 'bright', 'tags': ['Cat'], 'code': 200}"
+    },
+    "{}": {
+        "error": "",
+        "response": "{'id': 4, 'url': 'https://mlemtech.com/mlems/1575715253990.jpg', 'width': 700, 'height': 659, 'orientation': 'landscape', 'brightness': 'dark', 'tags': ['Bat-eared fox', 'Fox'], 'code': 200}"
+    },
+    "{'brightness': 'bright'}": {
+        "error": "",
+        "response": "{'id': 13733, 'url': 'https://mlemtech.com/mlems/1631930173760.jpg', 'width': 3024, 'height': 4032, 'orientation': 'portrait', 'brightness': 'bright', 'tags': ['Cat'], 'code': 200}"
+    },
+    "{'brightness': 'bright', 'orientation': 'landscape', 'minwidth': 1080}": {
+        "error": "",
+        "response": "{'id': 2382, 'url': 'https://mlemtech.com/mlems/1583742084328.jpg', 'width': 3088, 'height': 2316, 'orientation': 'landscape', 'brightness': 'bright', 'tags': ['Cat'], 'code': 200}"
+    },
+    "{'brightness': 'bright', 'orientation': 'portrait', 'minwidth': 800, 'minheight': 800}": {
+        "error": "",
+        "response": "{'id': 9133, 'url': 'https://mlemtech.com/mlems/1594658278102.jpg', 'width': 2036, 'height': 2380, 'orientation': 'portrait', 'brightness': 'bright', 'tags': ['Cat'], 'code': 200}"
+    },
+    "{'brightness': 'bright', 'tag': 'dog', 'minwidth': 1000}": {
+        "error": "",
+        "response": "{'id': 1967, 'url': 'https://mlemtech.com/mlems/1583283936310.jpg', 'width': 4032, 'height': 3024, 'orientation': 'landscape', 'brightness': 'bright', 'tags': ['Dog'], 'code': 200}"
+    },
+    "{'brightness': 'dark', 'tag': 'cat', 'minwidth': 1000}": {
+        "error": "",
+        "response": "{'id': 8188, 'url': 'https://mlemtech.com/mlems/1589936377838.jpg', 'width': 3024, 'height': 4032, 'orientation': 'portrait', 'brightness': 'dark', 'tags': ['Cat'], 'code': 200}"
+    }
+}

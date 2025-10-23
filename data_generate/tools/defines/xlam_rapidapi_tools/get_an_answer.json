@@ -1,0 +1,45 @@
+{
+    "name": "get_an_answer",
+    "description": "This is a sub-function API for tool english_talking.\nTool description: This API aims to provide users with the possibility of conducting dialogues in English where the conversations and answers are registered and evaluated by the users themselves.\n👽\nAPI description: Fetches an answer based on the given query parameters from a specific API endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number to fetch. Default is '1'.",
+                "default": "1"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The number of items per page. Default is '10'.",
+                "default": "10"
+            },
+            "status": {
+                "type": "string",
+                "description": "The status of the dialogue (e.g., 'approved' or 'analyzing'). Default is 'approved'.",
+                "default": "approved"
+            },
+            "answer": {
+                "type": "string",
+                "description": "The pre-defined response for the initial speech of the dialogue. Default is 'Hi, how are you?'.",
+                "default": "Hi, how are you?"
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the dialogue. Default is '5ec47b3d8958430d6a6d5898'.",
+                "default": "5ec47b3d8958430d6a6d5898"
+            },
+            "speech": {
+                "type": "string",
+                "description": "The initial speech input for which an answer is sought. Default is 'Hi'.",
+                "default": "Hi"
+            },
+            "user": {
+                "type": "string",
+                "description": "The unique identifier of the user who created the dialogue. Default is '5ec479048958430d6a6d5895'.",
+                "default": "5ec479048958430d6a6d5895"
+            }
+        },
+        "required": []
+    }
+}

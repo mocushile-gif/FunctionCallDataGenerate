@@ -1,0 +1,34 @@
+{
+    "name": "stock_get_daily_dividend_data",
+    "description": "This is a sub-function API for tool yh_finance_v2.\nTool description: \nAPI description: Fetch and return the daily dividend data for a given stock symbol within a specified date range.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "Ticker Symbol ( Ex. \\\\\\\\\"AAPL\\\\\\\\\" is Ticker symbol for Apple Inc. on the stock market )",
+                "default": "AAPL"
+            },
+            "end_date": {
+                "type": "string",
+                "description": "end_date should be entered in the 'YYYY-MM-DD' format and is the last day that data will be pulled for.\n",
+                "default": "2022-03-03"
+            },
+            "start_date": {
+                "type": "string",
+                "description": "start_date should be entered in the 'YYYY-MM-DD' format and is the first day that data will be pulled for.",
+                "default": "2022-03-02"
+            },
+            "region": {
+                "type": "string",
+                "description": "One of the following is allowed\nUS|BR|AU|CA|FR|DE|HK|IN|IT|ES|GB|S",
+                "default": "US"
+            }
+        },
+        "required": [
+            "symbol",
+            "end_date",
+            "start_date"
+        ]
+    }
+}

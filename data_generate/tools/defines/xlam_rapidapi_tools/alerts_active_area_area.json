@@ -1,0 +1,16 @@
+{
+    "name": "alerts_active_area_area",
+    "description": "This is a sub-function API for tool national_weather_service.\nTool description: National Weather Service API (api.weather.gov) NOAA (National Oceanic and Atmospheric Administration) provides national weather data as well as past data.\nAPI description: Retrieves a list of active weather alerts for a specified area using the National Weather Service API. The data is returned in CAP-ATOM format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "area": {
+                "type": "string",
+                "description": "A valid area for which to retrieve active alerts. Refer to the counts endpoint for a list of valid areas."
+            }
+        },
+        "required": [
+            "area"
+        ]
+    }
+}

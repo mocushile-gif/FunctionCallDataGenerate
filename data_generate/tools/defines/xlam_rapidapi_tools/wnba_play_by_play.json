@@ -1,0 +1,17 @@
+{
+    "name": "wnba_play_by_play",
+    "description": "This is a sub-function API for tool wnba_api.\nTool description: This API offer every basketball fan an easy way to stay on top of the latest data for all operations and players in the WNBA. It covers scores, stats, standings, and statistics.\nAPI description: Retrieves the WNBA game play-by-play data for a specific game using the provided game ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the game for which play-by-play data is to be retrieved.",
+                "default": "401244185"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

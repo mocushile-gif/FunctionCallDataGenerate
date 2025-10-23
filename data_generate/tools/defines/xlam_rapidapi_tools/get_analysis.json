@@ -1,0 +1,16 @@
+{
+    "name": "get_analysis",
+    "description": "This is a sub-function API for tool similar_web.\nTool description: This API helps you to query website traffic and key metrics for any website, including engagement rate, traffic ranking, keyword ranking and traffic source... to create a plugin like similarweb.com\nAPI description: Get website traffic, key metrics, including engagement rate, traffic ranking, keyword ranking and traffic source.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "Any site or domain that you are familiar with. Ex : amazon.com"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

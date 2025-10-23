@@ -1,0 +1,17 @@
+{
+    "name": "getgamelist",
+    "description": "This is a sub-function API for tool evosis_s_game_database.\nTool description: You can access technical and store information of more than 9100+ games. \nPlaystation (PS1:130,PS2:359,PS3:666,PS4:2399,PS5:527)\nPC (windows:6310, MacOS:2161, Linux:1370)\nXbox (Original:252,Xbox360:681,XOne:2080,XSeries521)\nNintendo Games (GameCube:130,Wii:161,WiiU:107,Switch:1908)\nAPI description: Fetches a list of games from the EvoSiss Game Database API, returning their IDs and series names in JSON format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve from the game list.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "page"
+        ]
+    }
+}

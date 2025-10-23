@@ -1,0 +1,27 @@
+{
+    "name": "product_groups_list",
+    "description": "This is a sub-function API for tool consumer_reports.\nTool description: This API helps to query trusted ratings and reviews for the products, cars and services used every day to create a review site such as : consumerreports.org\nAPI description: Fetches a list of product groups based on specified categories and types with optional pagination.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "size": {
+                "type": "number",
+                "description": "The number of items per response, for paging purpose. Maximum is 500.",
+                "default": 100.0
+            },
+            "productgrouptypeid": {
+                "type": "number",
+                "description": "The value of productGroupTypeId field returned right in this endpoint"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page index starting from 0 for pagination purposes."
+            },
+            "parentproductgroupid": {
+                "type": "number",
+                "description": "The ID of the parent product group to filter the results."
+            }
+        },
+        "required": []
+    }
+}

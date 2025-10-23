@@ -1,0 +1,16 @@
+{
+    "name": "is_valid_palindrome",
+    "description": "Checks if a string is a valid palindrome, considering only alphanumeric characters and ignoring case.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "s": {
+                "type": "string",
+                "description": "The input string to check."
+            }
+        },
+        "required": [
+            "s"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "code_intepreter",
+    "description": "Execute Python code inside a sandboxed Jupyter Kernel session. The session maintains state across executions, allowing access to variables and imports from previous runs.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "string",
+                "description": "Python code to be executed inside the sandboxed session."
+            }
+        },
+        "required": ["code"]
+    }
+}

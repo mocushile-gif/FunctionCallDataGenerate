@@ -1,0 +1,26 @@
+{
+    "name": "v2_user_affiliates",
+    "description": "This is a sub-function API for tool twitter_v4.\nTool description: Twitter public and private data API for search, Tweets, users, followers, images, media and more.\nAPI description: Fetches the user affiliates data from the Twitter API v2 endpoint using given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "User ID\n\nUse the `User By Screen Name` endpoint to find the ID from a username.",
+                "default": 34743251.0
+            },
+            "count": {
+                "type": "number",
+                "description": "Number of results to return. Default is 20.",
+                "default": 20.0
+            },
+            "cursor": {
+                "type": "string",
+                "description": "Cursor for pagination of results. Default is None."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

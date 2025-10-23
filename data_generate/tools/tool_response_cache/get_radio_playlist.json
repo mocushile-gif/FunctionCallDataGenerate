@@ -1,0 +1,56 @@
+{
+    "{\n  \"uri\": \"spotify:artist:2w9zwq3AktTeYYMuhMjju8\"\n}": {
+        "error": "",
+        "response": "{\"total\":1,\"mediaItems\":[{\"uri\":\"spotify:playlist:37i9dQZF1E4zUNZhVINYCS\"}]}"
+    },
+    "{'uri': 'spotify:artist:6eUKZXaKkcviH0Ku9w2n3V'}": {
+        "error": "",
+        "response": "{'total': 1, 'mediaItems': [{'uri': 'spotify:playlist:37i9dQZF1E4msk0TFgsyTF'}]}"
+    },
+    "{'uri': 'spotify:playlist:37i9dQZF1E4msk0TFgsyTF'}": {
+        "error": "",
+        "response": {
+            "total": 1,
+            "mediaItems": [
+                {
+                    "uri": "spotify:station:playlist:37i9dQZF1E4msk0TFgsyTF"
+                }
+            ]
+        }
+    },
+    "{'uri': 'spotify:station:playlist:37i9dQZF1E4msk0TFgsyTF'}": {
+        "error": "",
+        "response": {
+            "total": 1,
+            "mediaItems": [
+                {
+                    "uri": "spotify:station:playlist:37i9dQZF1E4msk0TFgsyTF"
+                }
+            ]
+        }
+    },
+    "{'uri': 'spotify:artist:2w9zwq3AktTeYYMuhMjju8'}": {
+        "error": "",
+        "response": "{'total': 1, 'mediaItems': [{'uri': 'spotify:playlist:37i9dQZF1E4zUNZhVINYCS'}]}"
+    },
+    "{'uri': 'spotify:artist:06HL4z0CvFAxyc27GXpf02'}": {
+        "error": "",
+        "response": "{'total': 1, 'mediaItems': [{'uri': 'spotify:playlist:37i9dQZF1E4AfEUiirXPyP'}]}"
+    },
+    "{'uri': 'spotify:artist:66CXWjxzNUsdJxJ2JdwvnR'}": {
+        "error": "",
+        "response": "{'total': 1, 'mediaItems': [{'uri': 'spotify:playlist:37i9dQZF1E4xstu1WxmJS4'}]}"
+    },
+    "{'uri': 'spotify:artist:3TVXtAsR1Inumwj472S9r4'}": {
+        "error": "",
+        "response": "{'total': 1, 'mediaItems': [{'uri': 'spotify:playlist:37i9dQZF1E4qQ00I1Jm1ay'}]}"
+    },
+    "{'uri': 'spotify:artist:0du5cEVh5yTK9QJze8zA0C'}": {
+        "error": "",
+        "response": "{'total': 1, 'mediaItems': [{'uri': 'spotify:playlist:37i9dQZF1E4vTHVDH1FT3Y'}]}"
+    },
+    "{'uri': 'spotify:artist:4gzpq5DPZkx6L0J5mZqWNB'}": {
+        "error": "",
+        "response": "{'total': 1, 'mediaItems': [{'uri': 'spotify:playlist:37i9dQZF1E4vfjyPUO3pqM'}]}"
+    }
+}

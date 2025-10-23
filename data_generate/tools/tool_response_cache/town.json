@@ -1,0 +1,95 @@
+{
+    "{'town': 'Kagiso'}": {
+        "error": "",
+        "response": [
+            {
+                "areaName": "Kagiso",
+                "supplier": "Mogale City"
+            },
+            {
+                "date": "Today - 4 July",
+                "times": [
+                    "18:00 - 20:30"
+                ]
+            },
+            {
+                "date": "Tomorrow - 5 July",
+                "times": [
+                    "16:00 - 18:30"
+                ]
+            },
+            {
+                "date": "Thursday - 6 July",
+                "times": [
+                    "No loadshedding."
+                ]
+            },
+            {
+                "date": "Friday - 7 July",
+                "times": [
+                    "16:00 - 18:30"
+                ]
+            },
+            {
+                "date": "Saturday - 8 July",
+                "times": [
+                    "16:00 - 18:30"
+                ]
+            },
+            {
+                "date": "Sunday - 9 July",
+                "times": [
+                    "22:00 - 00:30"
+                ]
+            },
+            {
+                "date": "Monday - 10 July",
+                "times": [
+                    "22:00 - 00:30"
+                ]
+            },
+            {
+                "date": "Tuesday - 11 July",
+                "times": [
+                    "No loadshedding."
+                ]
+            }
+        ]
+    },
+    "{'town': 'Johannesburg'}": {
+        "error": "",
+        "response": "[{'areaName': 'Johannesburg CBD', 'supplier': 'JHB City Power'}, {'date': 'Today - 11 July', 'times': ['04:00 - 06:30', '20:00 - 22:30']}, {'date': 'Tomorrow - 12 July', 'times': ['04:00 - 06:30', '12:00 - 14:30', '20:00 - 22:30']}, {'date': 'Thursday - 13 July', 'times': ['02:00 - 04:30', '10:00 - 12:30', '18:00 - 20:30']}, {'date': 'Friday - 14 July', 'times': ['02:00 - 04:30', '10:00 - 12:30', '18:00 - 20:30']}, {'date': 'Saturday - 15 July', 'times': ['02:00 - 04:30', '18:00 - 20:30']}, {'date': 'Sunday - 16 July', 'times': ['02:00 - 04:30', '10:00 - 12:30', '18:00 - 20:30']}, {'date': 'Monday - 17 July', 'times': ['00:00 - 02:30', '08:00 - 10:30', '16:00 - 18:30']}, {'date': 'Tuesday - 18 July', 'times': ['00:00 - 02:30', '08:00 - 10:30', '16:00 - 18:30']}]"
+    },
+    "{'town': 'Durban'}": {
+        "error": "",
+        "response": "[{'town': 'Durbanville', 'province': 'Western Cape', 'block': '6'}, {'town': 'Durban Cbd East', 'province': 'Kwazulu Natal', 'block': '12A'}, {'town': 'Durban Cbd North', 'province': 'Kwazulu Natal', 'block': '13B'}, {'town': 'Durban Cbd South', 'province': 'Kwazulu Natal', 'block': '9B'}, {'town': 'Durban Cbd West', 'province': 'Kwazulu Natal', 'block': '15A'}, {'town': 'Durban Beach Front', 'province': 'Kwazulu Natal', 'block': '9B'}, {'town': 'Durban Airport', 'province': 'Kwazulu Natal'}, {'town': 'Durban Str, King Williams Town', 'province': 'Eastern Cape', 'block': '1'}, {'town': 'Durban Rd', 'province': 'Kwazulu Natal', 'block': '2'}, {'town': 'Durban Roodepoort Deep Outlying', 'province': 'Gauteng', 'block': 5}, {'town': 'Durban', 'province': 'Limpopo', 'block': 8}, {'town': 'Ak', 'province': 'Kwazulu Natal', 'block': '12A'}, {'town': 'Beach', 'province': 'Kwazulu Natal', 'block': '13B'}, {'town': 'Beachwood', 'province': 'Kwazulu Natal', 'block': '9A'}, {'town': 'Bellair', 'province': 'Kwazulu Natal', 'block': '11B'}, {'town': 'Bonela', 'province': 'Kwazulu Natal', 'block': '13A'}, {'town': 'Briardene', 'province': 'Kwazulu Natal', 'block': '18'}, {'town': 'Broadway', 'province': 'Kwazulu Natal', 'block': '11A'}, {'town': 'Bulwer', 'province': 'Kwazulu Natal', 'block': '14A'}, {'town': 'Clairwood', 'province': 'Kwazulu Natal', 'block': '20'}, {'town': 'Coedmore', 'province': 'Kwazulu Natal', 'block': '11B'}, {'town': 'Esplanade', 'province': 'Kwazulu Natal', 'block': '15A'}, {'town': 'Gardenpark', 'province': 'Kwazulu Natal', 'block': '4B'}, {'town': 'Glenashley', 'province': 'Kwazulu Natal', 'block': '9A'}, {'town': 'Glenhills', 'province': 'Kwazulu Natal', 'block': '9A'}, {'town': 'Glenmore', 'province': 'Kwazulu Natal', 'block': '13A'}, {'town': 'Glenwood', 'province': 'Kwazulu Natal', 'block': '14A'}, {'town': 'Harbour', 'province': 'Kwazulu Natal', 'block': '15A'}, {'town': 'Hillary', 'province': 'Kwazulu Natal', 'block': '11B'}, {'town': 'Jacobs', 'province': 'Kwazulu Natal', 'block': '20'}, {'town"
+    },
+    "{'town': 'Cape Town'}": {
+        "error": "",
+        "response": "[{'town': 'Cape Point', 'province': 'Western Cape', 'block': '8'}, {'town': 'Cape Town Cbd', 'province': 'Western Cape', 'block': '7'}, {'town': 'Gill Cape', 'province': 'Western Cape', 'block': 2}, {'town': 'Elsiesriver', 'province': 'Western Cape', 'block': '13'}, {'town': 'Bakoven', 'province': 'Western Cape', 'block': '7'}, {'town': 'Philippi', 'province': 'Western Cape', 'block': '5'}, {'town': 'Ravensmead', 'province': 'Western Cape', 'block': '13'}, {'town': 'Khayelitsha', 'province': 'Western Cape', 'block': '5'}, {'town': 'Khayelitsha', 'province': 'Western Cape', 'block': '4'}, {'town': 'Makhaza', 'province': 'Western Cape', 'block': '4'}, {'town': 'Gaylee', 'province': 'Western Cape', 'block': '16'}, {'town': 'Vogelvlei', 'province': 'Western Cape', 'block': '16'}, {'town': 'Greenfield', 'province': 'Western Cape', 'block': '16'}, {'town': 'Delro', 'province': 'Western Cape', 'block': '16'}, {'town': 'Fairdale', 'province': 'Western Cape', 'block': '16'}, {'town': 'Highgate', 'province': 'Western Cape', 'block': '16'}, {'town': 'Rotterdam', 'province': 'Western Cape', 'block': '16'}, {'town': 'Silversands', 'province': 'Western Cape', 'block': '16'}, {'town': 'Wesbank', 'province': 'Western Cape', 'block': '16'}, {'town': 'Delft', 'province': 'Western Cape', 'block': '1'}, {'town': 'Mfuleni', 'province': 'Western Cape', 'block': '1'}, {'town': 'Mandalay', 'province': 'Western Cape', 'block': '1'}, {'town': 'Nyanga', 'province': 'Western Cape', 'block': '1'}, {'town': 'Athlone', 'province': 'Western Cape', 'block': '12'}, {'town': 'Atlantis', 'province': 'Western Cape', 'block': '14'}, {'town': 'Bergvliet', 'province': 'Western Cape', 'block': '11'}, {'town': 'Bishopscourt', 'province': 'Western Cape', 'block': '11'}, {'town': 'Bloubergstrand', 'province': 'Western Cape', 'block': '14'}, {'town': 'Bonteheuwel', 'province': 'Western Cape', 'block': '9'}, {'town': 'Brackenfell', 'province': 'Western Cape', 'block': '10'}, {'town': 'Bridgetown', 'province': 'Western Cape', 'block': '12'}, {'town': 'Brookly"
+    },
+    "{'town': 'kagiso'}": {
+        "error": "",
+        "response": "[{'town': 'Kagiso', 'province': 'Gauteng', 'block': 3}, {'town': 'Kagiso', 'province': 'Gauteng', 'block': 5}, {'town': 'Kagiso', 'province': 'Gauteng', 'block': 3}, {'town': 'Kagiso 2', 'province': 'Gauteng', 'block': '2'}, {'town': 'Kagiso Exts, Ext 12, 14', 'province': 'Gauteng', 'block': '5'}, {'town': 'Kagiso Ext 6, 8, 9', 'province': 'Gauteng', 'block': '2'}, {'town': 'Kagiso Outlying', 'province': 'Gauteng', 'block': '2'}]"
+    },
+    "{'town': 'Bellville'}": {
+        "error": "",
+        "response": "[{'town': 'Bellville A', 'province': 'Western Cape', 'block': '1'}, {'town': 'Bellville B', 'province': 'Western Cape', 'block': '6'}]"
+    },
+    "{'town': 'Durbanville'}": {
+        "error": "",
+        "response": "[{'town': 'Durbanville', 'province': 'Western Cape', 'block': '6'}]"
+    },
+    "{'town': 'Observatory'}": {
+        "error": "",
+        "response": "[{'town': 'Observatory', 'province': 'Western Cape', 'block': '15'}, {'town': 'Observatory', 'province': 'Gauteng', 'block': '7'}]"
+    },
+    "{'town': 'Berea'}": {
+        "error": "",
+        "response": "[{'town': 'Berea', 'province': 'Gauteng', 'block': '2'}, {'town': 'Berea West', 'province': 'Kwazulu Natal', 'block': '2A'}, {'town': 'Berea Terrace, Berea', 'province': 'Eastern Cape', 'block': '11'}, {'town': 'Anderson Rd, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': 'Ashlar Cl, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': 'Oakhampton Rd, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': 'Victoria Cres, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': 'Waterford Way, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': '3rd Ave, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': '4th Ave, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': '5th Ave, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': '5th Ave, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': 'Bayness Str, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': 'Castle Str, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': 'Derby Rd, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': 'Fitzmaurice Rd, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': 'Glaston Str, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': 'Goodenough Rd, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': 'Greenan Str, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': 'Greenwood Str, Berea', 'province': 'Eastern Cape', 'block': '10'}, {'town': 'Jarvis Rd, Berea', 'pr"
+    },
+    "{'town': 'Westville'}": {
+        "error": "",
+        "response": "[{'town': 'Westville', 'province': 'Kwazulu Natal', 'block': '4B'}, {'town': 'Dawncliffe', 'province': 'Kwazulu Natal', 'block': '4B'}, {'town': 'Grayleigh', 'province': 'Kwazulu Natal', 'block': '4B'}, {'town': 'Dawncrest', 'province': 'Kwazulu Natal'}, {'town': 'Berea West', 'province': 'Kwazulu Natal', 'block': '2A'}, {'town': 'Chiltern Hills', 'province': 'Kwazulu Natal', 'block': '4B'}, {'town': 'Dawncrest East', 'province': 'Kwazulu Natal', 'block': '10A'}, {'town': 'Dawncrest West', 'province': 'Kwazulu Natal', 'block': '4B'}, {'town': 'Rouken Glen', 'province': 'Kwazulu Natal', 'block': '4B'}, {'town': 'Atholl Heights', 'province': 'Kwazulu Natal'}, {'town': 'Atholl Heights North', 'province': 'Kwazulu Natal', 'block': '10A'}, {'town': 'Atholl Heights South', 'province': 'Kwazulu Natal', 'block': '4B'}, {'town': 'Beverley Hills North', 'province': 'Kwazulu Natal', 'block': '4B'}, {'town': 'Beverley Hills South', 'province': 'Kwazulu Natal', 'block': '2A'}, {'town': 'Erin Go Bragth', 'province': 'Kwazulu Natal', 'block': '4B'}]"
+    }
+}

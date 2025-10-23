@@ -1,0 +1,16 @@
+{
+    "name": "schoolname",
+    "description": "This is a sub-function API for tool dcps_project.\nTool description: Gets all DCPS Data\nAPI description: Fetches all data from a specific school by its name using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the school for which data is to be fetched."
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

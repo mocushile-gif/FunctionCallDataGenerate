@@ -1,0 +1,32 @@
+{
+    "name": "analyst_ratings_us_equities",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: This API endpoint returns complete information on ratings issued by analyst firms. Works only for US equities.\n\nAvailability: Mega plan\nData weighting: 200 API credits per symbol",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for the US equity."
+            },
+            "exchange": {
+                "type": "string",
+                "description": "Filter by exchange name or MIC code."
+            },
+            "country": {
+                "type": "string",
+                "description": "Filter by country name or alpha code."
+            },
+            "rating_change": {
+                "type": "string",
+                "description": "Filter by rating change action: `Maintains`, `Upgrade`, `Downgrade`, `Initiates`, or `Reiterates`."
+            },
+            "outputsize": {
+                "type": "string",
+                "description": "Number of records in the response; default is `30`."
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

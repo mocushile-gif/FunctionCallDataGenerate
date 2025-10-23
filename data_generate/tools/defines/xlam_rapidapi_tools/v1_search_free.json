@@ -1,0 +1,39 @@
+{
+    "name": "v1_search_free",
+    "description": "This is a sub-function API for tool newscatcher.\nTool description: API to find news articles by any topic, country, language, website, or keyword\nAPI description: **Up to 100 articles per 1 API call even with free Basic Plan.**\nFree search. Only the language filter is allowed.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "String to search for. Has to be [URL-encoded](https://en.wikipedia.org/wiki/Percent-encoding)",
+                "default": "Elon Musk"
+            },
+            "media": {
+                "type": "string",
+                "description": "If set to 'True', adds two more variables to the output: `media` and `media_content`. `media` contains the main image published with the article, and `media_content` is a comma-separated string of all images used in the article.",
+                "default": "True"
+            },
+            "page": {
+                "type": "string",
+                "description": "The number of the page. Use it to scroll through the results. Defaults to 1"
+            },
+            "ranked_only": {
+                "type": "string",
+                "description": "Limit the search only for the sources which are in top 1 million online websites. Defaults to `True` (`False` if you want to turn it off). Unranked sources are assigned a rank that equals to `999999`"
+            },
+            "page_size": {
+                "type": "string",
+                "description": "Specifies the number of articles to return per page. Defaults to 50, with a maximum of 100."
+            },
+            "lang": {
+                "type": "string",
+                "description": "Specifies the language of the search.  Allowed values are:\n`af`, `ar`, `bg`, `bn`, `ca`,`cn`, `cs`, `cy`, `da`, `de`, `el`, `en`, `es`, `et`, `fa`, `fi`, `fr`, `gu`, `he`, `hi`, `hr`, `hu`, `id`, `it`, `ja`, `kn`, `ko`, `lt`, `lv`, `mk`, `ml`, `mr`, `ne`, `nl`, `no`, `pa`, `pl`, `pt`, `ro`, `ru`, `sk`, `sl`, `so`, `sq`, `sv`, `sw`, `ta`, `te`, `th`, `tl`, `tr`,`tw`, `uk`, `ur`, `vi`. \nSpecifying the language will make your search more relevant",
+                "default": "en"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "{'year': '2023', 'round': '5'}": {
+        "error": "",
+        "response": "For the Formula 1 season in 2023, during round 5, the list of circuits includes all the tracks where the races were held for that specific round. This information provides details about the circuit's name, location, and other relevant attributes. For example, if round 5 corresponds to the Miami Grand Prix, the circuit would be the Miami International Autodrome. This data is useful for understanding the race's geographical and technical context within the season."
+    },
+    "{'round': 'Mexican Grand Prix', 'year': '2024'}": {
+        "error": "",
+        "response": "<html>\r\n  <head>\r\n    <title>Error</title>\r\n  </head>\r\n  <body>\r\n    <h3>Bad Request</h3>\r\n  </body>\r\n</html>\r\n"
+    },
+    "{'round': '18', 'year': '2024'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<?xml-stylesheet type=\"text/xsl\" href=\"/schemas/mrd-1.5.xsl\"?>\n<MRData xmlns=\"http://ergast.com/mrd/1.5\" series=\"f1\" url=\"http://ergast.com/api/f1/2024/18/circuits\" limit=\"30\" offset=\"0\" total=\"1\">\n\t<CircuitTable season=\"2024\" round=\"18\">\n\t\t<Circuit circuitId=\"marina_bay\" url=\"http://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit\">\n\t\t\t<CircuitName>Marina Bay Street Circuit</CircuitName>\n\t\t\t<Location lat=\"1.2914\" long=\"103.864\">\n\t\t\t\t<Locality>Marina Bay</Locality>\n\t\t\t\t<Country>Singapore</Country>\n\t\t\t</Location>\n\t\t</Circuit>\n\t</CircuitTable>\n</MRData>\n"
+    },
+    "{'round': '19', 'year': '2024'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<?xml-stylesheet type=\"text/xsl\" href=\"/schemas/mrd-1.5.xsl\"?>\n<MRData xmlns=\"http://ergast.com/mrd/1.5\" series=\"f1\" url=\"http://ergast.com/api/f1/2024/19/circuits\" limit=\"30\" offset=\"0\" total=\"1\">\n\t<CircuitTable season=\"2024\" round=\"19\">\n\t\t<Circuit circuitId=\"americas\" url=\"http://en.wikipedia.org/wiki/Circuit_of_the_Americas\">\n\t\t\t<CircuitName>Circuit of the Americas</CircuitName>\n\t\t\t<Location lat=\"30.1328\" long=\"-97.6411\">\n\t\t\t\t<Locality>Austin</Locality>\n\t\t\t\t<Country>USA</Country>\n\t\t\t</Location>\n\t\t</Circuit>\n\t</CircuitTable>\n</MRData>\n"
+    },
+    "{'round': 'Monaco', 'year': '2025'}": {
+        "error": "",
+        "response": "<html>\r\n  <head>\r\n    <title>Error</title>\r\n  </head>\r\n  <body>\r\n    <h3>Bad Request</h3>\r\n  </body>\r\n</html>\r\n"
+    },
+    "{'round': '5', 'year': '2025'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<?xml-stylesheet type=\"text/xsl\" href=\"/schemas/mrd-1.5.xsl\"?>\n<MRData xmlns=\"http://ergast.com/mrd/1.5\" series=\"f1\" url=\"http://ergast.com/api/f1/2025/5/circuits\" limit=\"30\" offset=\"0\" total=\"0\">\n\t<CircuitTable season=\"2025\" round=\"5\">\n\t</CircuitTable>\n</MRData>\n"
+    },
+    "{'round': '1', 'year': '2024'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<?xml-stylesheet type=\"text/xsl\" href=\"/schemas/mrd-1.5.xsl\"?>\n<MRData xmlns=\"http://ergast.com/mrd/1.5\" series=\"f1\" url=\"http://ergast.com/api/f1/2024/1/circuits\" limit=\"30\" offset=\"0\" total=\"1\">\n\t<CircuitTable season=\"2024\" round=\"1\">\n\t\t<Circuit circuitId=\"bahrain\" url=\"http://en.wikipedia.org/wiki/Bahrain_International_Circuit\">\n\t\t\t<CircuitName>Bahrain International Circuit</CircuitName>\n\t\t\t<Location lat=\"26.0325\" long=\"50.5106\">\n\t\t\t\t<Locality>Sakhir</Locality>\n\t\t\t\t<Country>Bahrain</Country>\n\t\t\t</Location>\n\t\t</Circuit>\n\t</CircuitTable>\n</MRData>\n"
+    }
+}

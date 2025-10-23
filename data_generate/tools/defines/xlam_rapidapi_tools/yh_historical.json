@@ -1,0 +1,26 @@
+{
+    "name": "yh_historical",
+    "description": "This is a sub-function API for tool yh_finance_complete.\nTool description: This API helps you to query stocks, quotes, movers and other financial summary.\nAPI description: Retrieves the historical data for a given stock ticker within specified date ranges.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The ticker symbol of the stock."
+            },
+            "sdate": {
+                "type": "string",
+                "description": "The start date for retrieving historical data in YYYY-MM-DD format."
+            },
+            "edate": {
+                "type": "string",
+                "description": "The end date for retrieving historical data in YYYY-MM-DD format."
+            }
+        },
+        "required": [
+            "ticker",
+            "sdate",
+            "edate"
+        ]
+    }
+}

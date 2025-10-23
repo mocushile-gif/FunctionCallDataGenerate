@@ -1,0 +1,28 @@
+{
+    "name": "leaguelastmatches",
+    "description": "This is a sub-function API for tool esportapi.\nTool description: ESportApi offers eSports results for League of Legends, Dota 2, Counter-Strike providing also eSports standings and tournament live scores.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Get the last matches for a specific E-Sports league by providing the tournament ID, season ID, and page number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The zero-based page number for pagination."
+            },
+            "seasonid": {
+                "type": "number",
+                "description": "The season ID for which you want to retrieve the league's last matches.",
+                "default": 47832
+            },
+            "tournamentid": {
+                "type": "number",
+                "description": "The unique tournament ID for which you want to retrieve the league's last matches.",
+                "default": 16026
+            }
+        },
+        "required": [
+            "page",
+            "seasonid",
+            "tournamentid"
+        ]
+    }
+}

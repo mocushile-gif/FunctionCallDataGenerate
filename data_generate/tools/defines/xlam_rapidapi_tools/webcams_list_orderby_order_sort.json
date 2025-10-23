@@ -1,0 +1,31 @@
+{
+    "name": "webcams_list_orderby_order_sort",
+    "description": "This is a sub-function API for tool webcams_travel.\nTool description: The World's Largest Landscape Webcam API ***** Get webcams by categories, country, region or just nearby your location ***** Get timelapse slideshows for every webcam ***** Get an uncluttered webcam layer for your map\nAPI description: This is a modifier. Returns the list of webcams ordered by {order}. The optional sorting direction is given by {sort}. Required {order}.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sort": {
+                "type": "string",
+                "description": "The sorting direction for the results. Possible values are \"asc\" (ascending) or \"desc\" (descending)."
+            },
+            "order": {
+                "type": "string",
+                "description": "Possible values are: \"popularity\" (default order: \"desc\"), \"hotness\" (default order: \"desc\"), \"new\" (default order: \"desc\"), \"recent\" (default order: \"desc\"), \"random\" (default order: \"asc\"), or \"distance\" (default order: \"asc\", only available if the modifier \"nearby\" has been applied)."
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language for localizing the results, if available. Default is \"en\".",
+                "default": "en"
+            },
+            "show": {
+                "type": "string",
+                "description": "Content to be listed in the response. Possible values are: \"webcams\", \"categories\", \"continents\", \"countries\", \"regions\", \"properties\". Default is \"webcams\".",
+                "default": "webcams:image,location"
+            }
+        },
+        "required": [
+            "sort",
+            "order"
+        ]
+    }
+}

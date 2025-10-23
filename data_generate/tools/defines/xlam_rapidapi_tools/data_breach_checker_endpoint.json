@@ -1,0 +1,17 @@
+{
+    "name": "data_breach_checker_endpoint",
+    "description": "This is a sub-function API for tool data_breach_checker.\nTool description: The Data Breach Checker API allows users to check if their data has been compromised in any known data breaches. By simply entering an email address, the API searches through a vast database of known data breaches using the reputable \"Have I Been Pwned\" backend. The API is easy to integrate into existing applications, making it an essential tool for companies and individuals seeking to enhance their cybersecurity posture. \nAPI description: The Data Breach Checker API provides a simple endpoint for users to check if their email has been compromised in any known data breaches.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to be checked for data breaches.",
+                "default": "example@xyz.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

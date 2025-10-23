@@ -1,0 +1,17 @@
+{
+    "name": "search_place_id_api",
+    "description": "This is a sub-function API for tool complete_study_bible.\nTool description: The most COMPLETE Bible study API available! Strongs, Locations, Dictionaries, and more! \nAPI description: Used in conjuction with Chapter and Verse API, Place Detail API. Receives a Place Unique ID, returns a list of all verses in the Bible that mention the place. Helpful for studying the Biblical history of a particular place.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "place_unique_id": {
+                "type": "string",
+                "description": "The unique identifier for the place to be searched in the API.",
+                "default": "2"
+            }
+        },
+        "required": [
+            "place_unique_id"
+        ]
+    }
+}

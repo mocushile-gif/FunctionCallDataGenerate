@@ -1,0 +1,17 @@
+{
+    "name": "get_pin_info",
+    "description": "This is a sub-function API for tool pinterest_scraper.\nTool description: Stable Pinterest API. I get full information about pins, download links in all qualities. Active work is underway to add new features\nAPI description: Fetches information about a Pinterest pin using its shortcode.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "shortcode": {
+                "type": "string",
+                "description": "The shortcode for the Pinterest pin.",
+                "default": "39Nfim2"
+            }
+        },
+        "required": [
+            "shortcode"
+        ]
+    }
+}

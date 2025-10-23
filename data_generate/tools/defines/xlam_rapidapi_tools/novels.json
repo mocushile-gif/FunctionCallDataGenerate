@@ -1,0 +1,20 @@
+{
+    "name": "novels",
+    "description": "This is a sub-function API for tool anime_manga_and_novels_api.\nTool description: Get the complete data of 14k Novels, 1k animes and 1k mangas.\nwe updated our data daily\n\nAPI description: Fetches information about novels from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pagesize": {
+                "type": "string",
+                "description": "The number of items to return per page. Defaults to '2'.",
+                "default": "2"
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number to retrieve. Defaults to '1'.",
+                "default": "1"
+            }
+        },
+        "required": []
+    }
+}

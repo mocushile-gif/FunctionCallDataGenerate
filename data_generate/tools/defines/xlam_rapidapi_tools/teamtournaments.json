@@ -1,0 +1,17 @@
+{
+    "name": "teamtournaments",
+    "description": "This is a sub-function API for tool baseballapi.\nTool description: Check baseball live scores on BaseballAPi every game in real time. BaseballApi covers all major leagues and offers information and odds for each. Follow most popular leagues such as MLB, LMB, Pro Yakyu - NPB and others.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Retrieves the unique tournaments in which an Ice Hockey team has participated.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the team for which you want to retrieve the tournaments.",
+                "default": 3633
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

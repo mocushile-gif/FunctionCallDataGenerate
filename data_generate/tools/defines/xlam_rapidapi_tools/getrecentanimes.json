@@ -1,0 +1,17 @@
+{
+    "name": "getrecentanimes",
+    "description": "This is a sub-function API for tool gogoanime_data_api.\nTool description: data from gogoanime website for anime website building and stuff.\nAPI description: Fetches the recent animes from the GoGoAnime API for a given page number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pagenumber": {
+                "type": "number",
+                "description": "The page number to fetch recent animes from.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "pagenumber"
+        ]
+    }
+}

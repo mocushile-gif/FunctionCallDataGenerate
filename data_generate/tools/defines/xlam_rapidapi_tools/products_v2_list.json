@@ -1,0 +1,104 @@
+{
+    "name": "products_v2_list",
+    "description": "This is a sub-function API for tool asos.\nTool description: Asos API helps to query for all information about categories, products, etc... as on the official website\nAPI description: Fetches a list of products from the ASOS store with various filtering and sorting options.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "store": {
+                "type": "string",
+                "description": "The store identifier obtained from the countries/list API.",
+                "default": "US"
+            },
+            "offset": {
+                "type": "number",
+                "description": "The offset to skip already viewed products.",
+                "default": 0.0
+            },
+            "categoryid": {
+                "type": "number",
+                "description": "The value of categoryId field from categories/list API",
+                "default": 4209.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of items per page.",
+                "default": 48.0
+            },
+            "attribute_1046": {
+                "type": "string",
+                "description": "Filter option by Style (separated by comma for multiple values), such as : ...&attribute_1046=8391,8392"
+            },
+            "pricemin": {
+                "type": "number",
+                "description": "Filter option by Min Price ( integer value )"
+            },
+            "country": {
+                "type": "string",
+                "description": "Country code; default is 'US'.",
+                "default": "US"
+            },
+            "attribute_10147": {
+                "type": "string",
+                "description": "Filter option by Leather / Non Leather (separated by comma for multiple values), such as : ...&attribute_10147=8391,8392"
+            },
+            "sort": {
+                "type": "string",
+                "description": "Sorting option, one of 'pricedesc', 'priceasc', or 'freshness'; default is 'freshness'.",
+                "default": "freshness"
+            },
+            "q": {
+                "type": "string",
+                "description": "Search for products by name (do not use this parameter with categoryId)"
+            },
+            "base_colour": {
+                "type": "string",
+                "description": "Filter option by Color, look for \"id\" of \"facetValues\" in the response of this API (separated by comma for multiple values), such as : ...&base_colour=8391,8392"
+            },
+            "range": {
+                "type": "string",
+                "description": "Filter option by Sale/New Season (separated by comma for multiple values), such as : ...&range=new_season"
+            },
+            "attribute_1047": {
+                "type": "string",
+                "description": "Filter option by Product Type (separated by comma for multiple values), such as : ...&attribute_1047=8391,8392"
+            },
+            "currency": {
+                "type": "string",
+                "description": "Currency code obtained from countries/list API; default is 'USD'.",
+                "default": "USD"
+            },
+            "attribute_10155": {
+                "type": "string",
+                "description": "Filter option by Range (separated by comma for multiple values), such as : ...&attribute_10155=8391,8392"
+            },
+            "pricemax": {
+                "type": "number",
+                "description": "Filter option by Max Price ( integer value )"
+            },
+            "sizeschema": {
+                "type": "string",
+                "description": "Size schema identifier obtained from countries/list API; default is 'US'.",
+                "default": "US"
+            },
+            "brand": {
+                "type": "string",
+                "description": "Filter option by Brand, look for \"id\" of \"facetValues\" in the response of this API (separated by comma for multiple values), such as : ...&brand=8391,8392"
+            },
+            "size": {
+                "type": "string",
+                "description": "Filter option by Size, look for \"id\" of \"facetValues\" in the response of this API (separated by comma for multiple values), such as : ...&size=8391,8392"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language code; default is 'en-US'.",
+                "default": "en-US"
+            }
+        },
+        "required": [
+            "store",
+            "offset",
+            "categoryid",
+            "limit"
+        ]
+    }
+}

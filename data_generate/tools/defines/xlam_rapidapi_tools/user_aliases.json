@@ -1,0 +1,17 @@
+{
+    "name": "user_aliases",
+    "description": "This is a sub-function API for tool steam_community.\nTool description: Interface with elements on the SteamCommunity.\nAPI description: Gets a list of user aliases and the timestamps when they were changed.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The Steam ID of the user for whom the aliases are retrieved.",
+                "default": "sindex"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

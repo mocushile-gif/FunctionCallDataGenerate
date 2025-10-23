@@ -1,0 +1,27 @@
+{
+    "name": "comment_list",
+    "description": "This is a sub-function API for tool tiktok_video_no_watermark_v2.\nTool description: The API helps you to download and get the video download link without the Tiktok logo quickly, completely and in detail. Contact me: phamvandienofficial@gmail.com if you are interested in the source code\n***\nIf you encounter any errors, please contact me so I can fix it quickly.\n***\nContact me: phamvandienofficial@gmail.com\nAPI description: Fetches a list of comments for a specified TikTok video using the given API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "aweme_id": {
+                "type": "number",
+                "description": "The ID of the TikTok video.",
+                "default": 7.178094165614464e+18
+            },
+            "cursor": {
+                "type": "number",
+                "description": "The cursor for pagination to get the next page of comments. Defaults to 0.",
+                "default": 0.0
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of comments to fetch. Maximum is 30. Defaults to 20.",
+                "default": 20.0
+            }
+        },
+        "required": [
+            "aweme_id"
+        ]
+    }
+}

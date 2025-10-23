@@ -1,0 +1,22 @@
+{
+    "{'matchid': '107458367237283414'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "event": null
+            }
+        }
+    },
+    "{'matchid': '107458367241084543'}": {
+        "error": "",
+        "response": "{'data': {'event': {'id': '107458367241084543', 'type': 'match', 'tournament': {'id': '107458367237283414'}, 'league': {'id': '98767991299243165', 'slug': 'lcs', 'image': 'http://static.lolesports.com/leagues/LCSNew-01-FullonDark.png', 'name': 'LCS'}, 'match': {'strategy': {'count': 1}, 'teams': [{'id': '98926509884398584', 'name': 'CLG', 'code': 'CLG', 'image': 'http://static.lolesports.com/teams/1592590248482_CounterLogicGamingCLG-01-FullonDark.png', 'result': {'gameWins': 0}}, {'id': '98926509892121852', 'name': 'FlyQuest', 'code': 'FLY', 'image': 'http://static.lolesports.com/teams/flyquest-new-on-dark.png', 'result': {'gameWins': 1}}], 'games': [{'number': 1, 'id': '107458367241084544', 'state': 'completed', 'teams': [{'id': '98926509884398584', 'side': 'blue'}, {'id': '98926509892121852', 'side': 'red'}], 'vods': [{'id': '107748212892221433', 'parameter': 'h4KdIXQzxkI', 'locale': 'en-US', 'mediaLocale': {'locale': 'en-US', 'englishName': 'English (North America)', 'translatedName': 'English (North America)'}, 'provider': 'youtube', 'offset': -1078435, 'firstFrameTime': '2022-02-05T22:28:00Z', 'startMillis': None, 'endMillis': None}, {'id': '107748892940550164', 'parameter': '1288232053', 'locale': 'en-US', 'mediaLocale': {'locale': 'en-US', 'englishName': 'English (North America)', 'translatedName': 'English (North America)'}, 'provider': 'twitch', 'offset': 0, 'firstFrameTime': None, 'startMillis': 10079000, 'endMillis': 12978000}]}]}, 'streams': []}}}"
+    },
+    "{'matchid': '123456789012345678'}": {
+        "error": "",
+        "response": "{'data': {'event': None}}"
+    },
+    "{'matchid': '987654321098765432'}": {
+        "error": "",
+        "response": "{'data': {'event': None}}"
+    }
+}

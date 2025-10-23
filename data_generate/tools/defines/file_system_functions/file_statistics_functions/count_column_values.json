@@ -1,0 +1,23 @@
+{
+    "name": "count_column_values",
+    "description": "Counts the occurrences of each unique value in a specified column of an Excel or CSV file.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "The full path of the Excel (.xlsx, .xls) or CSV (.csv) file to be analyzed."
+        },
+        "sheet_name": {
+          "type": ["string", "integer"],
+          "description": "The sheet name or index in the Excel file (ignored for CSV files).",
+          "default": 0
+        },
+        "column_name": {
+          "type": "string",
+          "description": "The column name whose values will be counted."
+        }
+      },
+      "required": ["file_path", "column_name"]
+    }
+}

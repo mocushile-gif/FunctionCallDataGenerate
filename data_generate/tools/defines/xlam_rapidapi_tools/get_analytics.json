@@ -1,0 +1,38 @@
+{
+    "name": "get_analytics",
+    "description": "This is a sub-function API for tool sms77io.\nTool description: Send SMS & text-to-speech messages, perform phone number lookups and much more via seven.io.\nAPI description: Retrieve detailed statistics for your account using the specified parameters through the API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "p": {
+                "type": "string",
+                "description": "The API Key to authenticate the API request."
+            },
+            "start": {
+                "type": "string",
+                "description": "The start date for the statistics in the format YYYY-MM-DD. Defaults to 30 days ago if not specified."
+            },
+            "label": {
+                "type": "string",
+                "description": "Filter data by a specific label. Allowed values: 'all' (default) or a specific label.",
+                "default": "all"
+            },
+            "end": {
+                "type": "string",
+                "description": "The end date for the statistics in the format YYYY-MM-DD. Defaults to the current date if not specified."
+            },
+            "subaccounts": {
+                "type": "string",
+                "description": "Receive the data only for the main account, all your (sub-)accounts or only for specific subaccounts. Allowed values: 'only_main', 'all' or subaccount ID.",
+                "default": "only_main"
+            },
+            "group_by": {
+                "type": "string",
+                "description": "Specifies the grouping of the data."
+            }
+        },
+        "required": [
+            "p"
+        ]
+    }
+}

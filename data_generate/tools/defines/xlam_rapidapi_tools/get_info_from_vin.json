@@ -1,0 +1,17 @@
+{
+    "name": "get_info_from_vin",
+    "description": "This is a sub-function API for tool vin_recognition_decoder.\nTool description: This API extract vin from a ID cards, labels, receipts, invoices, documents, barcodes, etc and returns the information such as the manufacturer, model, year, country of origin and much more.. \nAPI description: This endpoint returns the information of a vin such as country of origin, model, year, model, car seats, etc.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vin": {
+                "type": "string",
+                "description": "The Vehicle Identification Number to decode.",
+                "default": "19UYA42601A019296"
+            }
+        },
+        "required": [
+            "vin"
+        ]
+    }
+}

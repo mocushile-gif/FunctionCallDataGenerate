@@ -1,0 +1,14 @@
+{
+    "name": "jokes_random",
+    "description": "This is a sub-function API for tool chuck_norris.\nTool description: chucknorris.io is a free JSON API for hand curated Chuck Norris facts.\nAPI description: Retrieves a random Chuck Norris joke in JSON format from the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "Specifies the category of the random joke. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "recitations_by_chapter_number",
+    "description": "This is a sub-function API for tool quran_com.\nTool description: The default API of Quran.com website\nAPI description: Fetches a list of ayah recitations for a specific Surah (chapter) based on the given chapter number and recitation ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chapter_number": {
+                "type": "number",
+                "description": "The chapter (Surah) number for which to fetch the ayah recitations."
+            },
+            "recitation_id": {
+                "type": "number",
+                "description": "Recitation Id, you can get list of all ayah by ayah recitations using this endpoint #endpoint:HLbauN2sdGitPQPPL"
+            }
+        },
+        "required": [
+            "chapter_number",
+            "recitation_id"
+        ]
+    }
+}

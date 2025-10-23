@@ -1,0 +1,23 @@
+{
+    "name": "list_playlist_videos",
+    "description": "This is a sub-function API for tool youtube_media_downloader.\nTool description: A scraper API for YouTube search and download. Get videos, subtitles, comments without age or region limits (proxy URL supported).\nAPI description: This endpoint lists **available** videos of a YouTube playlist (unavailable ones won't be listed by YouTube). Pagination scraping is supported. Thumbnails won't be blurred by age safety.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nexttoken": {
+                "type": "string",
+                "description": "A string for getting the next page of data. If not specified, the first page of data will be returned. If specified, `playlistId` will be ignored."
+            },
+            "playlistid": {
+                "type": "string",
+                "description": "The ID of the YouTube playlist. Defaults to 'PLeCdlPO-XhWFzEVynMsmosfdRsIZXhZi0'.",
+                "default": "PLeCdlPO-XhWFzEVynMsmosfdRsIZXhZi0"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language code (ISO-639) for localized results. Default to be `en-US`. Unsupported code will **fallback** to `en-US`."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "build_word_ladders",
+    "description": "This is a sub-function API for tool word_ladder_builder.\nTool description: This word ladder builder API to find the shortest routes between words. Available on several datasets, this API version builds ladders for Collins Scabble Words dictionary of 2019 edition, for word lengths between 2 and 9 characters which cover more than 5 billion combinations.\n\nWord Ladders are also called doublets, word-links, change-the-word puzzles, paragrams, laddergrams and word golf. It is used for brain teaser and puzzle games globally including Wordle, Jotto and their variations. \nAPI description: Builds a word ladder between the given start word and end word using the specified dictionary.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "endword": {
+                "type": "string",
+                "description": "The word that the word ladder must end with."
+            },
+            "startword": {
+                "type": "string",
+                "description": "The word that the word ladder must start with."
+            },
+            "dictionary": {
+                "type": "string",
+                "description": "The dictionary edition to use for building the word ladder. Defaults to the 2019 edition of Collins Dictionary if not specified."
+            }
+        },
+        "required": [
+            "endword",
+            "startword"
+        ]
+    }
+}

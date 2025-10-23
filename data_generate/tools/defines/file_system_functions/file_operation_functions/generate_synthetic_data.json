@@ -1,0 +1,83 @@
+{
+    "name": "generate_synthetic_data",
+    "description": "Generate synthetic data from various probability distributions (e.g., normal, uniform, poisson, binomial, exponential). Supports multi-dimensional output and optional file saving.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "size": {
+          "type": "integer",
+          "description": "The number of samples to generate for each dimension."
+        },
+        "distribution_type": {
+          "type": "string",
+          "enum": ["normal", "uniform", "poisson", "binomial", "exponential"],
+          "default": "normal",
+          "description": "The distribution to sample from. Supported types: normal, uniform, poisson, binomial, exponential."
+        },
+        "dimensions": {
+          "type": "integer",
+          "default": 1,
+          "description": "Number of dimensions to generate. 1 = univariate, >1 = multivariate."
+        },
+        "seed": {
+          "type": "integer",
+          "default": null,
+          "description": "Optional random seed for reproducibility."
+        },
+        "return_type": {
+          "type": "string",
+          "enum": ["list", "numpy", "dict", "dataframe"],
+          "default": "list",
+          "description": "Format of the returned data."
+        },
+        "save_path": {
+          "type": "string",
+          "default": null,
+          "description": "Optional path to save the generated data as a CSV file. Directory will be created if it doesn't exist."
+        },
+  
+        "mean": {
+          "type": "number",
+          "default": 0,
+          "description": "For normal distribution: mean value."
+        },
+        "std_dev": {
+          "type": "number",
+          "default": 1,
+          "description": "For normal distribution: standard deviation."
+        },
+        "low": {
+          "type": "number",
+          "default": 0,
+          "description": "For uniform distribution: lower bound."
+        },
+        "high": {
+          "type": "number",
+          "default": 1,
+          "description": "For uniform distribution: upper bound."
+        },
+        "lam": {
+          "type": "number",
+          "default": 1,
+          "description": "For poisson distribution: lambda parameter (mean)."
+        },
+        "n": {
+          "type": "integer",
+          "default": 10,
+          "description": "For binomial distribution: number of trials."
+        },
+        "p": {
+          "type": "number",
+          "default": 0.5,
+          "description": "For binomial distribution: probability of success."
+        },
+        "scale": {
+          "type": "number",
+          "default": 1.0,
+          "description": "For exponential distribution: scale parameter (1/lambda)."
+        }
+      },
+      "required": ["size", "distribution_type"]
+    }
+  }
+  

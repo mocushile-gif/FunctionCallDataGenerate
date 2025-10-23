@@ -1,0 +1,20 @@
+{
+    "name": "getrandomword",
+    "description": "This is a sub-function API for tool random_chunk_api.\nTool description: A simple random picker for names, movies, TV shows, quotes, and numbers. A simple JSON object, user object, and array generator.\nAPI description: Fetches random words based on the specified type and count from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of words to fetch (e.g., 'adjective', 'noun'). Defaults to 'adjective'.",
+                "default": "adjective"
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of random words to fetch. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

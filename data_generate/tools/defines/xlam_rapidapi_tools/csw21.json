@@ -1,0 +1,17 @@
+{
+    "name": "csw21",
+    "description": "This is a sub-function API for tool word_tree.\nTool description: Given a set of letters, generate all the words that can be produced by adding at least one additional letter, arranged hierarchically.\nAPI description: Search for words using the Collins Scrabble Words 2021 lexicon via the Word Tree API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "input": {
+                "type": "string",
+                "description": "A series of at least 4 letters (a-z, case-insensitive). No other characters should be included or no meaningful results will be returned.",
+                "default": "ANAGRAMS"
+            }
+        },
+        "required": [
+            "input"
+        ]
+    }
+}

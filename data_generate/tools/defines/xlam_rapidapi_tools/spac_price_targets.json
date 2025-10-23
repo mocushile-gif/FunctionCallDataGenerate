@@ -1,0 +1,15 @@
+{
+    "name": "spac_price_targets",
+    "description": "This is a sub-function API for tool spachero_spac_database.\nTool description: Official spacHero  SPAC API  with live rankings, SPAC target names, merger meetings, warrant redemption deadlines, price targets, SEC filings, investor presentations and more.\nAPI description: Fetches the latest SPAC (Special Purpose Acquisition Company) price targets from analysts, filtered by a specific SPAC symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The SPAC symbol to filter the price targets by. Defaults to 'SOFI'.",
+                "default": "SOFI"
+            }
+        },
+        "required": []
+    }
+}

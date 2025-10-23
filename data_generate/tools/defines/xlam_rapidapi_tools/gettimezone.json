@@ -1,0 +1,23 @@
+{
+    "name": "gettimezone",
+    "description": "This is a sub-function API for tool reverse_geocoding_and_geolocation_service.\nTool description: Find nearest or largest city information or timezone for any given point location (latitude/longitude). The reverse geocode API back \"reverse\" codes any GPS location point into nearest or largest readable places with county, city, distance and population.\nAPI description: Finds the local timezone for any given geo-location point by lat and long and returns timezone information with Timezone name, Timezone id and current local time.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "longitude": {
+                "type": "number",
+                "description": "The geographic longitude coordinate of the location.",
+                "default": -74.40753570369408
+            },
+            "latitude": {
+                "type": "number",
+                "description": "The geographic latitude coordinate of the location.",
+                "default": 40.63380384389354
+            }
+        },
+        "required": [
+            "longitude",
+            "latitude"
+        ]
+    }
+}

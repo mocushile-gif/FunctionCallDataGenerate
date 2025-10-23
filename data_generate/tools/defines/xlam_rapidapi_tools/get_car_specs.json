@@ -1,0 +1,16 @@
+{
+    "name": "get_car_specs",
+    "description": "This is a sub-function API for tool car_specs.\nTool description: Fast, simple and reliable API to retrieve car data. Contains data on almost all car manufacturers and models, updated regularly.\nAPI description: Fetches detailed specifications for a car based on the given trim ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "trimid": {
+                "type": "number",
+                "description": "The trim ID of the car for which to retrieve specifications."
+            }
+        },
+        "required": [
+            "trimid"
+        ]
+    }
+}

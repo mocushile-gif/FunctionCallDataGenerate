@@ -1,0 +1,21 @@
+{
+    "name": "calculate_exercise_target_heart_rate",
+    "description": "Calculates the target heart rate for exercise based on the individual\"s age and the intensity percentage of the exercise. The target heart rate is calculated using the formula: (max_heart_rate - 60) * (intensity_percentage / 100) + 60, where max_heart_rate is 220 - age.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "age": {
+                "type": "integer",
+                "description": "The age of the individual in years."
+            },
+            "intensity_percentage": {
+                "type": "number",
+                "description": "The intensity of the exercise as a percentage, typically between 50% and 85%."
+            }
+        },
+        "required": [
+            "age",
+            "intensity_percentage"
+        ]
+    }
+}

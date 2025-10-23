@@ -1,0 +1,15 @@
+{
+    "name": "judget0",
+    "description": "This is a sub-function API for tool safe_exam.\nTool description: Web platform to take programming exams safely.\nAPI description: Compiles and executes code using the Safe Exam API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "string",
+                "description": "The code to be compiled and executed. Defaults to 'print(\"Hello World\")'.",
+                "default": "print(\"Hello World\")"
+            }
+        },
+        "required": []
+    }
+}

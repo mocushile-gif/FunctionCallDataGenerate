@@ -1,0 +1,10 @@
+{
+    "{'source': 'http://google.com'}": {
+        "error": "",
+        "response": "{'source': 'http://google.com', 'mode': 'md5', 'digest': '7d30ac0668c01d2bd01cce2d8122f091', 'timestamp': '2023-07-10T16:31:21.340326', 'request_id': '12002d77-b601-4e11-b771-e17d399afb92'}"
+    },
+    "{'source': 'https://storage.googleapis.com/company-assets/inventory/inventory_list_v2.1_2023-10-05.json'}": {
+        "error": "",
+        "response": "{'source': 'https://storage.googleapis.com/company-assets/inventory/inventory_list_v2.1_2023-10-05.json', 'mode': 'md5', 'digest': '03521198cf8663773273f486029cb090', 'timestamp': '2025-06-09T17:33:38.848369', 'request_id': '302e36e2-0bf5-4312-96f4-fc8ceda51552'}"
+    }
+}

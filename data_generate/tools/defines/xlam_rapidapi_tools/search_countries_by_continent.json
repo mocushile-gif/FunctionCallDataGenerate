@@ -1,0 +1,31 @@
+{
+    "name": "search_countries_by_continent",
+    "description": "This is a sub-function API for tool geography.\nTool description: Powerful APIs for getting information about Countries and Cities\nAPI description: Search for countries by their continent using the specified query parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "continent": {
+                "type": "string",
+                "description": "The continent of the countries to search for. This search is case insensitive and requires an exact match.",
+                "default": "North America"
+            },
+            "offset": {
+                "type": "number",
+                "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0",
+                "default": 0
+            },
+            "fields": {
+                "type": "string",
+                "description": "A comma-separated list of fields to filter the response. Defaults to None."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of records to return per page. Defaults to 10.",
+                "default": 10
+            }
+        },
+        "required": [
+            "continent"
+        ]
+    }
+}

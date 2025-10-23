@@ -1,0 +1,17 @@
+{
+    "name": "game_odds_by_site_schedule",
+    "description": "This is a sub-function API for tool sportsbook_odds.\nTool description: LIVE ODDS W/ PLAYER PROPS from Fanduel, DraftKings, Caesars, BetMGM, Bovada, BetOnline, WynnBet, PointsBet, Sugarhouse/BetRivers, SuperBook, FoxBet, BallyBet and more to come soon.\n\nLeagues: MLB, NBA, NFL, NHL, NCAA Football, NCAA Basketball.\nAPI description: This is a schedule that is separated by site. Upper and lower case doesn't matter as long as it has the correct letters for the request (DraftKings is same as draftkings)\n\nThe Sites:\n1. Fanduel\n2. DraftKings\n3. Caesars\n4. WynnBet\n5. PointsBet\n6. BetMGM\n7. SuperBook\n8. FoxBet\n9. Kambis    (SugarHouse/BetRivers/Barstool)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "site": {
+                "type": "string",
+                "description": "The name of the sports betting site to fetch the schedule from. Case-insensitive. Valid options include:",
+                "default": "draftkings"
+            }
+        },
+        "required": [
+            "site"
+        ]
+    }
+}

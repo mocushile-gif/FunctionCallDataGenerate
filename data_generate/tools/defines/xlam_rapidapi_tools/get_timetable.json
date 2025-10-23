@@ -1,0 +1,23 @@
+{
+    "name": "get_timetable",
+    "description": "This is a sub-function API for tool flixbus_v2.\nTool description: New Flixbus API that provides Flixbus travel search, timetables, stops, cities, routes and autocomplete. \nAPI description: Fetches the timetable for a given FlixBus station and date using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "station_id": {
+                "type": "string",
+                "description": "ID of the FlixBus station.",
+                "default": "dcbd21fc-9603-11e6-9066-549f350fcb0c"
+            },
+            "date": {
+                "type": "string",
+                "description": "Date for which to fetch the timetable, in the format DD.MM.YYYY.",
+                "default": "15.05.2022"
+            }
+        },
+        "required": [
+            "station_id",
+            "date"
+        ]
+    }
+}

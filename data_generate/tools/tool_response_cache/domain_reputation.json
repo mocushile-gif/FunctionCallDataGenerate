@@ -1,0 +1,23 @@
+{
+    "{'domainname': 'soundcloud.com', 'mode': 'full'}": {
+        "error": "",
+        "response": {
+            "domain": "soundcloud.com",
+            "mode": "full",
+            "risk_score": 12,
+            "risk_level": "low",
+            "analysis": {
+                "malware_activity": "no recent detections",
+                "phishing_status": "clean",
+                "spam_association": "minimal",
+                "blacklistings": 0
+            },
+            "detailed_insights": "Domain shows strong security posture with active SSL certification and no critical vulnerabilities detected. Full-mode analysis included DNS history, IP reputation, and behavioral checks.",
+            "last_updated": "2023-10-15T14:30:00Z"
+        }
+    },
+    "{'domainname': 'example.com', 'outputformat': 'JSON', 'mode': 'full'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check credits balance or enter the correct API key.'}"
+    }
+}

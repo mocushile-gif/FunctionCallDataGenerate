@@ -1,0 +1,17 @@
+{
+    "name": "trends",
+    "description": "This is a sub-function API for tool youtube_music_api_detailed.\nTool description: Detailed Youtube Music API. Lyrics, Trends, Albums, Artists, Songs, Users, Playlists, Songs etc.\nAPI description: Fetches the latest charts data from YouTube Music for a specified country. The charts include top songs, top videos, top artists, and top trending videos. For the US, it has an additional Genres section with some genre-specific charts.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "ISO 3166-1 alpha-2 country code to specify the region for which to fetch the trending charts.",
+                "default": "de"
+            }
+        },
+        "required": [
+            "country"
+        ]
+    }
+}

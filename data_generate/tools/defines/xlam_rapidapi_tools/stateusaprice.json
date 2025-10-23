@@ -1,0 +1,17 @@
+{
+    "name": "stateusaprice",
+    "description": "This is a sub-function API for tool gas_price.\nTool description: Reach gasoline and diesel prices in different fuel stations in different cities.\nAPI description: Fetches gas prices for a given state in the United States using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "state": {
+                "type": "string",
+                "description": "The two-letter abbreviation of the state for which to fetch gas prices.",
+                "default": "WA"
+            }
+        },
+        "required": [
+            "state"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "search_country",
+    "description": "This is a sub-function API for tool pageantdb.\nTool description: Metadata on publicly available information on various pageant contests. \nAPI description: Search for a country to see if they have an active pageant contest.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "search": {
+                "type": "string",
+                "description": "The search string to query for active pageant contests in a country.",
+                "default": "philippines"
+            }
+        },
+        "required": [
+            "search"
+        ]
+    }
+}

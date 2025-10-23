@@ -1,0 +1,27 @@
+{
+    "name": "calculate_wind_chill",
+    "description": "Calculates the wind chill index (perceived temperature) based on temperature and wind speed. The function raises a ValueError if the temperature is greater than 10°C or the wind speed is less than or equal to 4.8 km/h, as the wind chill formula is not valid under these conditions.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "temperature": {
+                "type": "number",
+                "description": "The actual air temperature in Celsius."
+            },
+            "wind_speed": {
+                "type": "number",
+                "description": "The wind speed in kilometers per hour."
+            },
+            "precision": {
+                "type": "integer",
+                "description": "The number of decimal places to round the result to. Defaults to 2.",
+                "default": 2,
+                "minimum": 0
+            }
+        },
+        "required": [
+            "temperature",
+            "wind_speed"
+        ]
+    }
+}

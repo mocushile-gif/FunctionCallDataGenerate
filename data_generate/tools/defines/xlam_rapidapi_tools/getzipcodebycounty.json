@@ -1,0 +1,17 @@
+{
+    "name": "getzipcodebycounty",
+    "description": "This is a sub-function API for tool zillow_base.\nTool description: [IMPROVED SEARCH API] These APIs provide a powerful and user-friendly real estate search feature. Users can enter an address, city, state, or ZIP code to search for apartments, houses, land, and homes for rent or sale in the United States. Additionally, they can customize their search results by using filters to specify price, square footage, property type, number of bedrooms and bathrooms, construction year, and various other criteria. Furthermore, users can view detailed information about e...\nAPI description: Fetches the ZIP code information for a given county using the Zillow API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "county": {
+                "type": "string",
+                "description": "The name of the county for which the ZIP code information is to be retrieved.",
+                "default": "Hampshire"
+            }
+        },
+        "required": [
+            "county"
+        ]
+    }
+}

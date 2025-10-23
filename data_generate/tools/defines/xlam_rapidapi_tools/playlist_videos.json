@@ -1,0 +1,29 @@
+{
+    "name": "playlist_videos",
+    "description": "This is a sub-function API for tool youtube.\nTool description: With the YouTube Data API, you can add various YouTube features to your app. Use the API for search, videos, playlists, channels and more.\nAPI description: Fetches videos from a specified YouTube playlist using the RapidAPI service. ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cursor": {
+                "type": "string",
+                "description": "The cursor token for paginated results (default is None)."
+            },
+            "hl": {
+                "type": "string",
+                "description": "The language code (default is 'en').",
+                "default": "en"
+            },
+            "gl": {
+                "type": "string",
+                "description": "The geolocation code (default is 'US').",
+                "default": "US"
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The playlist ID (default is 'PLcirGkCPmbmFeQ1sm4wFciF03D_EroIfr').",
+                "default": "PLcirGkCPmbmFeQ1sm4wFciF03D_EroIfr"
+            }
+        },
+        "required": []
+    }
+}

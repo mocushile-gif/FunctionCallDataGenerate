@@ -1,0 +1,17 @@
+{
+    "name": "get_biden_articles_from_specific_newspaper",
+    "description": "This is a sub-function API for tool pac_api.\nTool description: An API for collecting political articles for Biden and Trump\nAPI description: Fetches all articles related to Biden from a specified newspaper using a given API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "newspaper": {
+                "type": "string",
+                "description": "The name of the newspaper from which to fetch the articles.",
+                "default": "boston_globe,new_york_times,cnn,washington_post,los_angeles_times,chicago_tribute"
+            }
+        },
+        "required": [
+            "newspaper"
+        ]
+    }
+}

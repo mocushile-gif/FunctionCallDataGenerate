@@ -1,0 +1,41 @@
+{
+    "name": "tangga_lagu",
+    "description": "This is a sub-function API for tool kotak7.\nTool description: Api Musik Kotak7\nAPI description: Fetches the top tracks from the specified music chart.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "index": {
+                "type": "number",
+                "description": "The starting index of the track list.",
+                "default": 0.0
+            },
+            "num": {
+                "type": "number",
+                "description": "The number of tracks to retrieve.",
+                "default": 50.0
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language of the tracks.",
+                "default": "id"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country of the music chart.",
+                "default": "id"
+            },
+            "is_id": {
+                "type": "number",
+                "description": "The unique identifier for the specific music chart.",
+                "default": 33.0
+            }
+        },
+        "required": [
+            "index",
+            "num",
+            "lang",
+            "country",
+            "is_id"
+        ]
+    }
+}

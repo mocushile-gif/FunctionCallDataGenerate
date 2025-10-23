@@ -1,0 +1,39 @@
+{
+    "{'event_id': 10289011}": {
+        "error": "",
+        "response": {
+            "event_id": 10289011,
+            "esports_stats": {
+                "match_info": {
+                    "team1": "Team Liquid",
+                    "team2": "Natus Vincere",
+                    "game": "CS:GO",
+                    "score": "16-13",
+                    "map": "Ancient"
+                },
+                "key_stats": {
+                    "team1_kd": "1.23",
+                    "team2_kd": "0.98",
+                    "firstblood_count": 8,
+                    "map_rounds": 29
+                },
+                "player_highlights": [
+                    {
+                        "player": "device",
+                        "team": "Team Liquid",
+                        "kills": 42,
+                        "adr": "89"
+                    },
+                    {
+                        "player": "s1mple",
+                        "team": "Natus Vincere",
+                        "kills": 38,
+                        "adr": "87"
+                    }
+                ],
+                "heatmap_url": "https://sofascore.com/heatmaps/10289011",
+                "match_video": "https://sofascore.com/video/10289011"
+            }
+        }
+    }
+}

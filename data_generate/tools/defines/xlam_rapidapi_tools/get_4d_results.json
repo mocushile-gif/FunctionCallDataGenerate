@@ -1,0 +1,28 @@
+{
+    "name": "get_4d_results",
+    "description": "This is a sub-function API for tool get_4d_results.\nTool description: Live 4D results for Malaysia and Singapore.\nAPI description: Get 4D results by date and company.\nResults including 4D and jackpot.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "version": {
+                "type": "string",
+                "description": "The version of the 4D results API to use.",
+                "default": "v1"
+            },
+            "date": {
+                "type": "string",
+                "description": "The date for which the 4D results are to be fetched, in YYYY-MM-DD format.",
+                "default": "2020-01-29"
+            },
+            "company": {
+                "type": "string",
+                "description": "Magnum (MAGNUM), Sports Toto (TOTO), Damacai (DAMACAI), Cashsweep (CASHSWEEP), Sabah 88 (SABAH88), Sadakan (STC), Singapore (SG)"
+            }
+        },
+        "required": [
+            "version",
+            "date",
+            "company"
+        ]
+    }
+}

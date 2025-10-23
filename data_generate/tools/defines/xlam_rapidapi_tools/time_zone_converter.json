@@ -1,0 +1,27 @@
+{
+    "name": "time_zone_converter",
+    "description": "This is a sub-function API for tool date_calculator.\nTool description: This API helps to perform some computations on dates: accrual factors, maturity dates, contract dates,  and other due dates, datetime delta, time zones conversion, recurring dates, and much more. \nAPI description: Converts time from time zone to another taking into account Daylight Saving Time (DST) and accepts present, past, or future dates.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "datetime": {
+                "type": "string",
+                "description": "The date time in  [ISO 8601 format](https://www.w3.org/TR/NOTE-datetime)",
+                "default": "2021-03-21T20:10:00"
+            },
+            "from_tzname": {
+                "type": "string",
+                "description": "The source time zone name. Defaults to 'UTC'.",
+                "default": "UTC"
+            },
+            "to_tzname": {
+                "type": "string",
+                "description": "The target time zone name. Defaults to 'UTC'.",
+                "default": "UTC"
+            }
+        },
+        "required": [
+            "datetime"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "get_administrative_divisions",
+    "description": "This is a sub-function API for tool airbnb_listings.\nTool description: Join the over 300 users/customers and access all Airbnb data updated daily.\nGet Airbnb listings details, future prices and availability, reviews, and more using listing IDs, geo coordinates or \"market\". \nData analytics endpoints are also available to get detailed info around all airbnb accomodations.\nWe guarantee a 24-hour response time for all inquiries. If a feature you need is not there please contact us and we will evaluate if it is possible to fullfill your needs.\n\nWhile our data are not...\nAPI description: Retrieve geographical admin names to be used in Listing by georef endpoint. admin* parameters are optional but to use admin2, admin1 is required, to use admin 3, admin2 and admin1 are required and so on. Not respecting this requirement could give you unwanted results (ie cities with the same name but in different countries). Returns 50 results",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "countrycode": {
+                "type": "string",
+                "description": "The ISO country code.",
+                "default": "IT"
+            },
+            "admin2": {
+                "type": "string",
+                "description": "The second-level administrative division. Requires `admin1` to be properly specified. Defaults to 'RM'.",
+                "default": "RM"
+            },
+            "admin1": {
+                "type": "string",
+                "description": "The first-level administrative division. Defaults to '07'.",
+                "default": "07"
+            },
+            "admin4": {
+                "type": "string",
+                "description": "The fourth-level administrative division. Requires `admin3`, `admin2`, and `admin1` to be properly specified. Defaults to '05809101'.",
+                "default": "05809101"
+            },
+            "admin3": {
+                "type": "string",
+                "description": "The third-level administrative division. Requires `admin2` and `admin1` to be properly specified. Defaults to '058091'.",
+                "default": "058091"
+            }
+        },
+        "required": [
+            "countrycode"
+        ]
+    }
+}

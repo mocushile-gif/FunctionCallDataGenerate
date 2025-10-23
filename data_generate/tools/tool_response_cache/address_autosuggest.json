@@ -1,0 +1,51 @@
+{
+    "{'query': 'Bridge'}": {
+        "error": "",
+        "response": [
+            {
+                "address": "Bridge Street, London, SW1A 1AA",
+                "type": "Residential"
+            },
+            {
+                "address": "Bridge Road, Birmingham, B1 2AB",
+                "type": "Commercial"
+            },
+            {
+                "address": "Bridge Lane, Manchester, M1 3CD",
+                "type": "Residential"
+            },
+            {
+                "address": "Bridge Avenue, Bristol, BS1 4EF",
+                "type": "Residential"
+            },
+            {
+                "address": "Bridge Close, Leeds, LS1 5GH",
+                "type": "Commercial"
+            }
+        ]
+    },
+    "{'query': 'Bundaran HI, Jakarta'}": {
+        "error": "",
+        "response": "{'status': 402, 'message': 'Address Autosuggest API not avaialble with Free Trial Plan, Please upgrade your account.', 'upgrade-url': 'https://www.apitier.com/api/postcode/pricing'}"
+    },
+    "{'query': 'Oak Lane'}": {
+        "error": "",
+        "response": "{'status': 402, 'message': 'Address Autosuggest API not avaialble with Free Trial Plan, Please upgrade your account.', 'upgrade-url': 'https://www.apitier.com/api/postcode/pricing'}"
+    },
+    "{'query': 'Maple Drive'}": {
+        "error": "",
+        "response": "{'status': 402, 'message': 'Address Autosuggest API not avaialble with Free Trial Plan, Please upgrade your account.', 'upgrade-url': 'https://www.apitier.com/api/postcode/pricing'}"
+    },
+    "{'query': 'Main Street'}": {
+        "error": "",
+        "response": "{'status': 402, 'message': 'Address Autosuggest API not avaialble with Free Trial Plan, Please upgrade your account.', 'upgrade-url': 'https://www.apitier.com/api/postcode/pricing'}"
+    },
+    "{'query': \"Baker's Lane\"}": {
+        "error": "",
+        "response": "{'status': 402, 'message': 'Address Autosuggest API not avaialble with Free Trial Plan, Please upgrade your account.', 'upgrade-url': 'https://www.apitier.com/api/postcode/pricing'}"
+    },
+    "{'query': 'Civic Center'}": {
+        "error": "",
+        "response": "{'status': 402, 'message': 'Address Autosuggest API not avaialble with Free Trial Plan, Please upgrade your account.', 'upgrade-url': 'https://www.apitier.com/api/postcode/pricing'}"
+    }
+}

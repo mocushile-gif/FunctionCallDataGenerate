@@ -1,0 +1,22 @@
+{
+    "name": "heroes_data",
+    "description": "This is a sub-function API for tool dota2_heroes.\nTool description: This api can give you all dota2 heroes list ands bios images videos role talents and abilities with 20 language.\nAPI description: Fetches detailed data on Dota 2 heroes, including names, images, videos, roles, abilities, and talents, in the specified language.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "language": {
+                "type": "string",
+                "description": "The language code in which to retrieve hero data (supports up to 20 languages)."
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier for the specific hero.",
+                "default": "37"
+            }
+        },
+        "required": [
+            "language",
+            "is_id"
+        ]
+    }
+}

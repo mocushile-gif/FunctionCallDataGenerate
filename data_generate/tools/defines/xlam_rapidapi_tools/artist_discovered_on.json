@@ -1,0 +1,17 @@
+{
+    "name": "artist_discovered_on",
+    "description": "This is a sub-function API for tool spotify_data.\nTool description: Spotify Data\nAPI description: Fetches playlists where the specified artist was discovered using the Spotify API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The Spotify artist ID.",
+                "default": "2w9zwq3AktTeYYMuhMjju8"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

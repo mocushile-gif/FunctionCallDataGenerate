@@ -1,0 +1,17 @@
+{
+    "name": "billboard_global_excl_us",
+    "description": "This is a sub-function API for tool billboard.\nTool description: Billboard charts: Hot 100, Billboard 200, Billboard 200 Global, Artist 100 and more\nAPI description: Fetches the Billboard Global Excl. US chart for a specified date using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve the Billboard Global Excl. US chart, formatted as 'YYYY-MM-DD'. Available data starts from September 19, 2020.",
+                "default": "2020-09-19"
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "send_a_word_to_check",
+    "description": "This is a sub-function API for tool shimoneta.\nTool description: This api can check if the input word is risky or not on global. It supports Japanese and English.\nAPI description: Sends a word to an API to check if it is vulgar and returns information about the word.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "content_type": {
+                "type": "string",
+                "description": "The type of content to be specified in the query.",
+                "default": "application/json"
+            },
+            "word": {
+                "type": "string",
+                "description": "The word to be checked for vulgarity.",
+                "default": "chimpo"
+            }
+        },
+        "required": [
+            "content_type",
+            "word"
+        ]
+    }
+}

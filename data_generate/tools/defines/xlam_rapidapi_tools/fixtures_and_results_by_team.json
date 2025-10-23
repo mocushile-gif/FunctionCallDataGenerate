@@ -1,0 +1,17 @@
+{
+    "name": "fixtures_and_results_by_team",
+    "description": "This is a sub-function API for tool rugby_live_data.\nTool description: Rugby fixtures, results, standings and live match coverage from around the world.\nAPI description: Returns all fixtures and results for a given team by querying the \"rugby-live-data\" API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "team_id": {
+                "type": "number",
+                "description": "The ID of the team for which to retrieve fixtures and results.",
+                "default": 6167.0
+            }
+        },
+        "required": [
+            "team_id"
+        ]
+    }
+}

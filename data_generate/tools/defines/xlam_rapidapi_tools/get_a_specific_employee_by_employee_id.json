@@ -1,0 +1,17 @@
+{
+    "name": "get_a_specific_employee_by_employee_id",
+    "description": "This is a sub-function API for tool human_resources_api.\nTool description: API for supplying demo human resources data of employees and their bank cards.\nUp to 900 samples per table. You can query the employees' table or bank cards' table.\nWith Fast Response. and also paginate through each table, metadata for pagination is included in the response of the pagination route.\nAPI description: This endpoint gets one record by a specific employee ID that is unique for each employee in the employees table, up to 900 employees with their information.\nFor example:  employee ID , first name, email, and  etc...",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The unique ID of the employee whose details are to be fetched.",
+                "default": 715505.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

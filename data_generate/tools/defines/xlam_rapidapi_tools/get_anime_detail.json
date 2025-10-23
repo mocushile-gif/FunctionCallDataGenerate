@@ -1,0 +1,21 @@
+{
+    "name": "get_anime_detail",
+    "description": "This is a sub-function API for tool animes.\nTool description: Get all data from your favorite anime, and the chapter or tomo of the manga or  the light novel that the anime adapted\nAPI description: This endpoint will allow a user to get the data of a specific anime. It will take the anime's mal_id as a parameter and return the anime's data in JSON format. The data returned will include the anime's title, aired episodes, genre, and a brief synopsis.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The MyAnimeList ID of the anime.",
+                "default": "5114"
+            },
+            "fields": {
+                "type": "string",
+                "description": "Comma-separated list of specific fields to retrieve data for. Available fields include '*', 'id', 'title', 'main_picture', 'start_date', 'end_data', 'synopsis', 'mean', 'rank', 'popularity', 'num_list_users', 'num_scoring_users', 'status', 'genres', 'num_episodes', 'source', 'studios', 'volume', 'chapter', 'light_novel', 'media_type', 'mal_id', 'broadcast', 'statistics', 'related_manga', 'related_anime', 'season', 'year', 'title_english', 'title_japanese', and 'synonyms'. Defaults to None."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

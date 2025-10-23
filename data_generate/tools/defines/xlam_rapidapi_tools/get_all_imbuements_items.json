@@ -1,0 +1,17 @@
+{
+    "name": "get_all_imbuements_items",
+    "description": "This is a sub-function API for tool tibia_items.\nTool description: this API will helps you find tibia items princes around the worlds\n\nAll endpoints to get items values, this is all we try to get on day.\n\nDiscord Channel for talk.\nhttps://discord.gg/bwZGtaz56P\nAPI description: Fetch all imbuement items for a specified Tibia game world using the RapidAPI endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "world": {
+                "type": "string",
+                "description": "The name of the Tibia game world for which to fetch imbuement items.",
+                "default": "Bona"
+            }
+        },
+        "required": [
+            "world"
+        ]
+    }
+}

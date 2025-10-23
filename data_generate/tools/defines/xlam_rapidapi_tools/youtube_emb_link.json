@@ -1,0 +1,15 @@
+{
+    "name": "youtube_emb_link",
+    "description": "This is a sub-function API for tool football_highlight.\nTool description: Best Live\nAPI description: Fetches YouTube embed link information using the given URL and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the YouTube video to fetch information for. Defaults to 'https://www.youtube.com/embed/OA9zy0BLm9g'.",
+                "default": "https://www.youtube.com/embed/OA9zy0BLm9g"
+            }
+        },
+        "required": []
+    }
+}

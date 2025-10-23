@@ -1,0 +1,17 @@
+{
+    "name": "analysis",
+    "description": "This is a sub-function API for tool seo_fast_audit.\nTool description: One click onpage SEO audit API : Analyse the content from an URL the major SEO tags : title, description, H1, img, and links. insanely fast &lt; 200ms\nAPI description: Analyzes the content from a given URL using the SEO Fast Audit API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the website to be analyzed.",
+                "default": "https://docteurseo.fr/"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

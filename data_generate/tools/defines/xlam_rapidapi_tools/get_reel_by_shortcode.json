@@ -1,0 +1,17 @@
+{
+    "name": "get_reel_by_shortcode",
+    "description": "This is a sub-function API for tool instagram_api_2023.\nTool description: Best Instagram Scraper API 2023 \n● Launched in May 2023 \n● 100% real-time data, no cache, no-CORS media, advanced profile, get access to hidden insights & more. \nAPI description: Fetch information about an Instagram reel using its shortcode.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "shortcode": {
+                "type": "string",
+                "description": "**How to find shortcode?**\nwww.instagram.com/reel/CrgVBtHr3DP/ here **CrgVBtHr3DP** is shortcode.\nwww.instagram.com/reel/{shortcode}",
+                "default": "CrgVBtHr3DP"
+            }
+        },
+        "required": [
+            "shortcode"
+        ]
+    }
+}

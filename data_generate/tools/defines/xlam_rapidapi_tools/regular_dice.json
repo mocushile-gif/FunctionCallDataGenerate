@@ -1,0 +1,15 @@
+{
+    "name": "regular_dice",
+    "description": "This is a sub-function API for tool dice_roll_simulator.\nTool description: Roll as many dice of any size as many times you want with the ultimate dice rolling API.\nAPI description: Roll a specified number of regular dice using the RapidAPI Dice Roll Simulator.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "dice": {
+                "type": "number",
+                "description": "Number of dice to roll. Defaults to 3.",
+                "default": 3.0
+            }
+        },
+        "required": []
+    }
+}

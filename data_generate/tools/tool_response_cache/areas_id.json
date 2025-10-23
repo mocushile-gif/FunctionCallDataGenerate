@@ -1,0 +1,16 @@
+{
+    "{'is_id': '2001'}": {
+        "error": "",
+        "response": {
+            "message": "Not Found. \ud83d\ude14"
+        }
+    },
+    "{'is_id': 'ITA'}": {
+        "error": "",
+        "response": "{'id': 'ITA', 'name': 'Italy', 'flag': 'https://raw.githubusercontent.com/mzafram2001/zeus-src/main/static/flags/hlKvieGH.svg', 'parentAreaId': 'EUR', 'parentArea': 'Europe'}"
+    },
+    "{'is_id': 'ENG'}": {
+        "error": "",
+        "response": "{'id': 'ENG', 'name': 'England', 'flag': 'https://raw.githubusercontent.com/mzafram2001/zeus-src/main/static/flags/j9N9ZNFA.svg', 'parentAreaId': 'EUR', 'parentArea': 'Europe'}"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_all_social_spikes_by_coin_name",
+    "description": "This is a sub-function API for tool crowdsense.\nTool description: The most comprehensive real-time alpha-generating data feed API for cryptocurrencies, that analyzes social media sentiment, weighted sentiment, mentions, reach, top coins, spikes, influencer posts, and other chatter updates. Based on 100,000,000s of feeds per day from billions of unique sources across Twitter, Telegram, and Reddit for 1000+ cryptocurrencies. Start now for free...\nAPI description: Retrieve social media spikes in the last 24 hours by Coin Name. Results will contain Sentiment, Weighted Sentiment, Mentions and Followers spikes both positive and negative. \n\nThis brings all spikes including:\n\n- Predictive spikes (that went through another machine learning model to predict likelihood of market change within the next 24 hours). These spikes are colored as red and orange.\n- Other spikes in social media metrics that did not go through another layer of market moving prediction. These include s",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "coinname": {
+                "type": "string",
+                "description": "The name of the cryptocurrency for which to retrieve social media spikes.",
+                "default": "Bitcoin"
+            }
+        },
+        "required": [
+            "coinname"
+        ]
+    }
+}

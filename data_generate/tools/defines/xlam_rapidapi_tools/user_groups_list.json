@@ -1,0 +1,17 @@
+{
+    "name": "user_groups_list",
+    "description": "This is a sub-function API for tool steam_community.\nTool description: Interface with elements on the SteamCommunity.\nAPI description: Fetches a listing of all the public and private groups a user is a part of on the Steam Community platform.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the user on the Steam Community platform.",
+                "default": "sindex"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

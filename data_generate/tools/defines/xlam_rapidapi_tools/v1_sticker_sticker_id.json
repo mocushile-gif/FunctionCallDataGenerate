@@ -1,0 +1,17 @@
+{
+    "name": "v1_sticker_sticker_id",
+    "description": "This is a sub-function API for tool tokapi_mobile_version.\nTool description: Highly available tiktok **mobile** API. We are doing our best for make your life easy.Bigger API plans and **additional functionality** are available on request.  Feel free to contact us on Telegram: [https://t.me/somjik_tokapi](https://t.me/somjik_tokapi) #tiktok #tik #tok #tik-tok #video #music #user #feed #hashtag #challenge #trending #trend #comments #comment #image #photo #media #search #scrapper #grabber\nAPI description: Fetches the sticker information for a given sticker ID using the TokAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sticker_id": {
+                "type": "string",
+                "description": "The ID of the sticker to fetch information for.",
+                "default": "1108584"
+            }
+        },
+        "required": [
+            "sticker_id"
+        ]
+    }
+}

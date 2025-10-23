@@ -1,0 +1,43 @@
+{
+    "name": "create_pivot_table_from_file",
+    "description": "Create a multi-level pivot table with hierarchical grouping from an Excel or CSV file and optionally save it to a new file.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "Path to the input Excel (.xls, .xlsx) or CSV (.csv) file."
+        },
+        "sheet_name": {
+          "type": ["string", "integer"],
+          "description": "Sheet name or index to read from Excel file. Ignored for CSV files.",
+          "default": 0
+        },
+        "index": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of column names to group data by (rows)."
+        },
+        "columns": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of column names to pivot (columns in the pivot table)."
+        },
+        "values": {
+          "type": "string",
+          "description": "The column whose values will be aggregated."
+        },
+        "aggfunc": {
+          "type": "string",
+          "description": "Aggregation function applied to 'values'. Can be a built-in function or a custom lambda function. \nSupported built-in options: 'sum', 'mean', 'median', 'count', 'min', 'max', 'std', 'var', 'first', 'last'. \nCustom function example: 'lambda x: x.max() - x.min()'."
+        },
+        "save_path": {
+          "type": "string",
+          "description": "Optional. Path to save the resulting pivot table. Supported formats: .csv, .xls, .xlsx. If not provided, the pivot table is returned but not saved.",
+          "default": null
+        }
+      },
+      "required": ["file_path", "index", "columns", "values", "aggfunc"]
+    }
+  }
+  

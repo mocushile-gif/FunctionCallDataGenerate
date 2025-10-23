@@ -1,0 +1,33 @@
+{
+    "name": "reverse_string",
+    "description": "Reverses the characters in a string while optionally stripping spaces, preserving special characters' positions, and keeping specified substrings in their original places.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "The input string to be reversed."
+        },
+        "strip_spaces": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true, removes extra spaces from the string before reversing."
+        },
+        "preserve_special_chars": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true, preserves the positions of non-alphabetic characters while reversing only letters."
+        },
+        "keep_segments_in_place": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [],
+          "description": "A list of specific substrings that should remain in their original positions during reversal."
+        }
+      },
+      "required": ["text"]
+    }
+  }
+  

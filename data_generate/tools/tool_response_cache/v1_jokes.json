@@ -1,0 +1,35 @@
+{
+    "{}": {
+        "error": "",
+        "response": [
+            {
+                "joke": "Why Does Snoop Dogg need an umbrella? For drizzle, my nizzle."
+            }
+        ]
+    },
+    "{'limit': '2'}": {
+        "error": "",
+        "response": [
+            {
+                "joke": "Why don't skeletons fight each other? They don't have the guts."
+            },
+            {
+                "joke": "Why did the scarecrow win an award? Because he was outstanding in his field!"
+            }
+        ]
+    },
+    "{'limit': '3'}": {
+        "error": "",
+        "response": [
+            {
+                "joke": "Why don't scientists trust atoms? Because they make up everything!"
+            },
+            {
+                "joke": "Why did the bicycle fall over? It was two-tired."
+            },
+            {
+                "joke": "Why don't programmers like nature? It has too many bugs."
+            }
+        ]
+    }
+}

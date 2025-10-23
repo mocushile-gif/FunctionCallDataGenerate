@@ -1,0 +1,17 @@
+{
+    "name": "autocomplete_zipcodes_zip4",
+    "description": "This is a sub-function API for tool autocomplete_usa.\nTool description: USA Address, City, Zip code - Zip4, Zip code Autocomplete\nAPI description: Fetches autocomplete suggestions for USA Zip+4 zip codes using the provided zipcode and API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zipcode": {
+                "type": "string",
+                "description": "The base ZIP code for which to fetch autocomplete suggestions.",
+                "default": "110"
+            }
+        },
+        "required": [
+            "zipcode"
+        ]
+    }
+}

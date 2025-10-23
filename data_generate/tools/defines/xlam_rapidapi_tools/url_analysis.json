@@ -1,0 +1,17 @@
+{
+    "name": "url_analysis",
+    "description": "This is a sub-function API for tool url_analysis.\nTool description: Obtain information about web pages, the platform on which they are built, the language of the texts they contain, if it is an e-commerce or if it uses the opengraph standard.\nAPI description: Analyzes the given URL using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL to be analyzed.",
+                "default": "cleverbikes.myshopify.com"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

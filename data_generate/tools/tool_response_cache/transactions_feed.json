@@ -1,0 +1,42 @@
+{
+    "{'t_blockchain': 'bitcoin', 's_amount_usd': '>1000000'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'t_blockchain': 'bitcoin', 's_amount_usd': '>1000000', 'size': '100'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'t_blockchain': 'bitcoin', 's_amount_usd': 'desc', 'size': '20'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'t_blockchain': 'bitcoin', 's_amount_usd': 'desc', 'size': '50'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'t_blockchain': 'ethereum', 's_amount_usd': 'desc', 'size': '20'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'s_amount_usd': '>100000', 't_blockchain': 'ethereum', 'size': '20'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'s_amount_usd': '>50000', 't_blockchain': 'ethereum', 'size': '10'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'s_amount_usd': '>10000', 't_blockchain': 'ethereum', 'size': '10'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'s_amount_usd': '>amount_usd=50000', 't_blockchain': 'ethereum', 'size': '10'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'t_blockchain': 'ethereum', 'size': '10', 's_amount_usd': '>amount_usd=50000'}": {
+        "error": "",
+        "response": ""
+    }
+}

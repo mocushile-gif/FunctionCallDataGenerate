@@ -1,0 +1,17 @@
+{
+    "name": "team_roster",
+    "description": "This is a sub-function API for tool national_football_players.\nTool description: All active national football players, positions, teams, and numbers. Great for frontend player searches. \nAPI description: Returns roster of football team. Use team abbreviation when specifying team (i.e. BUF, NE, MIA, etc.). See /teams to get team names and abbreviations",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "team": {
+                "type": "string",
+                "description": "The abbreviation of the football team (e.g., BUF, NE, MIA).",
+                "default": "NE"
+            }
+        },
+        "required": [
+            "team"
+        ]
+    }
+}

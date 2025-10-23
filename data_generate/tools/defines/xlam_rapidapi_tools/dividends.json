@@ -1,0 +1,38 @@
+{
+    "name": "dividends",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Returns the amount of dividends paid out for the last 10+ years.\n\nAvailability: Pro plan\nData weighting: 20 API credits per symbol",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to retrieve dividend information.",
+                "default": "AAPL"
+            },
+            "start_date": {
+                "type": "string",
+                "description": "The start date for the dividend data in YYYY-MM-DD format. Defaults to None."
+            },
+            "end_date": {
+                "type": "string",
+                "description": "The end date for the dividend data in YYYY-MM-DD format. Defaults to None."
+            },
+            "country": {
+                "type": "string",
+                "description": "The country of the stock exchange. Defaults to None."
+            },
+            "range": {
+                "type": "string",
+                "description": "The range for the dividend data. Example: '6m' for six months. Defaults to '6m'.",
+                "default": "6m"
+            },
+            "exchange": {
+                "type": "string",
+                "description": "The stock exchange where the symbol is listed. Defaults to None."
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

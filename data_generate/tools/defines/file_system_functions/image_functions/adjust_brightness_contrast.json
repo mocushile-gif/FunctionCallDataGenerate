@@ -1,0 +1,32 @@
+{
+    "name": "adjust_brightness_contrast",
+    "description": "Adjust brightness and contrast of an image to improve visual quality.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the input image file"
+        },
+        "brightness_factor": {
+          "type": "number",
+          "description": "Brightness adjustment factor (0.1-5.0, 1.0 = no change)",
+          "default": 1.0,
+          "minimum": 0.1,
+          "maximum": 5.0
+        },
+        "contrast_factor": {
+          "type": "number",
+          "description": "Contrast adjustment factor (0.1-5.0, 1.0 = no change)",
+          "default": 1.0,
+          "minimum": 0.1,
+          "maximum": 5.0
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output image. If not provided, will create auto-named file."
+        }
+      },
+      "required": ["image_path"]
+    }
+  } 

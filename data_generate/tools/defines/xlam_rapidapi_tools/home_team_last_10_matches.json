@@ -1,0 +1,17 @@
+{
+    "name": "home_team_last_10_matches",
+    "description": "This is a sub-function API for tool football_prediction.\nTool description: The Football Prediction API provides predictions for upcoming football matches, average bookie odds, results for past matches and prediction performance statistics for past results.\nAPI description: Fetches the statistics and list of the last 10 matches played by the home team for a given team ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the home team for which to fetch the last 10 matches.",
+                "default": 81930.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

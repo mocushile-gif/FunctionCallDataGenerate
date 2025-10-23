@@ -1,0 +1,17 @@
+{
+    "name": "disposable_domain_and_suggest_domain",
+    "description": "This is a sub-function API for tool fast_email_verifier.\nTool description: APISOLUTION services provide a comprehensive API for fast email validation and verification for any developer to use on start-ups and staff projects.\nAPI description: Checks if the given domain is disposable and provides a suggested alternative domain.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain to be checked.",
+                "default": "domain.org"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "getmatchbywinner",
+    "description": "This is a sub-function API for tool ipl_api.\nTool description: It is api thats gives the data about IPL(2008-2020) matches data . \nAPI description: Retrieves all cricket matches won by the specified team from the IPL API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "winner": {
+                "type": "string",
+                "description": "The name of the team to filter matches by. Defaults to 'Kolkata Knight Riders'.",
+                "default": "Kolkata Knight Riders"
+            }
+        },
+        "required": []
+    }
+}

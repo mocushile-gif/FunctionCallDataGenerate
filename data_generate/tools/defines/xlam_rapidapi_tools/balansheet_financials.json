@@ -1,0 +1,16 @@
+{
+    "name": "balansheet_financials",
+    "description": "This is a sub-function API for tool yh_finance_complete.\nTool description: This API helps you to query stocks, quotes, movers and other financial summary.\nAPI description: Fetches and returns the financial data for a given company symbol using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock ticker symbol of the company for which financial data is requested."
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

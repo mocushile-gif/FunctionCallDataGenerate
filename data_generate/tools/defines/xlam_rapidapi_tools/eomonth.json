@@ -1,0 +1,23 @@
+{
+    "name": "eomonth",
+    "description": "This is a sub-function API for tool date_calculator.\nTool description: This API helps to perform some computations on dates: accrual factors, maturity dates, contract dates,  and other due dates, datetime delta, time zones conversion, recurring dates, and much more. \nAPI description: Computes and returns a date on the last day of the month in the future or past. This resource behave exactly as Excel EOMONTH function.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "months": {
+                "type": "number",
+                "description": "The number of months before or after the start date. A positive value results in a future date, while a negative value results in a past date.",
+                "default": 1
+            },
+            "start_date": {
+                "type": "string",
+                "description": "The start date w/ or w/o the time part in  [ISO 8601 format](https://www.w3.org/TR/NOTE-datetime)",
+                "default": "2021-09-21"
+            }
+        },
+        "required": [
+            "months",
+            "start_date"
+        ]
+    }
+}

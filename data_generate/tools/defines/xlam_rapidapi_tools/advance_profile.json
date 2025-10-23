@@ -1,0 +1,28 @@
+{
+    "name": "advance_profile",
+    "description": "This is a sub-function API for tool instagram_pro.\nTool description: Insatgram API Pro Version\nAPI description: Retrieves an advanced profile from Instagram, optionally with email or phone if available.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ig": {
+                "type": "string",
+                "description": "The Instagram handle of the user whose profile is to be retrieved.",
+                "default": "therock"
+            },
+            "response_type": {
+                "type": "string",
+                "description": "Specifies the type of response desired.",
+                "default": "info"
+            },
+            "corsenabled": {
+                "type": "string",
+                "description": "Specifies if CORS is enabled. Default is 'false'.",
+                "default": "false"
+            }
+        },
+        "required": [
+            "ig",
+            "response_type"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "{}": {
+        "error": "",
+        "response": []
+    },
+    "{'url': 'blockchain.info', 'matchtype': 'exact', 'filter': 'statuscode:200'}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'url': 'blockchain.info/tx/cd8ec77174e426070d0a50779232bba7312b712e2c6843d82d963d7076c61366', 'matchtype': 'prefix', 'filter': 'statuscode:200'}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'url': 'moldstud.com', 'filter': 'statuscode:200', 'fl': 'timestamp:4,original,urlkey', 'matchtype': 'prefix', 'collapse': 'urlkey', 'limit': 100000}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'url': 'https://moldstud.com', 'filter': 'statuscode:200', 'fl': 'timestamp:4,original,urlkey', 'matchtype': 'prefix', 'collapse': 'urlkey', 'limit': 100000}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'url': '200oksolutions.com', 'filter': 'statuscode:200', 'fl': 'timestamp:4,original,urlkey', 'matchtype': 'prefix', 'collapse': 'urlkey', 'limit': 100000}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'url': 'shopgadgets.com', 'matchtype': 'prefix', 'filter': 'statuscode:200 AND timestamp:[2025-03-04 TO 2025-06-03]', 'fl': 'timestamp:4,original,urlkey', 'limit': 100000}": {
+        "error": "",
+        "response": ""
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "ip_locator",
+    "description": "This is a sub-function API for tool ip_geolocation_metadata.\nTool description: Get all metadata from an IP address\nAPI description: Fetches geolocation information for a given IP address using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip_address": {
+                "type": "string",
+                "description": "The IP address for which geolocation information is to be retrieved.",
+                "default": "92.223.89.73"
+            },
+            "format": {
+                "type": "string",
+                "description": "Specify the desired format as part of the request uri and the response will be formatted accordingly.",
+                "default": "json"
+            }
+        },
+        "required": [
+            "ip_address",
+            "format"
+        ]
+    }
+}

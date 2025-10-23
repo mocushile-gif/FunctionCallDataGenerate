@@ -1,0 +1,17 @@
+{
+    "name": "baseball_league_rankings",
+    "description": "This is a sub-function API for tool sports_live_scores.\nTool description: We support different Sports. Bettings odds, livescores, rankings and match details included. Sports include Football, Tennis, Basketball, Crikcet, Futsal, Handball, Baseball, Table Tennis, Esports. Try it out and always feel free tor reach out to the team to add more endpoints!  \nAPI description: Returns the standings for a given league ID. You can retrieve League IDs from the Baseball Live Matches endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "league_id": {
+                "type": "string",
+                "description": "The ID of the baseball league for which rankings are to be fetched. League IDs can be retrieved from the Baseball Live Matches endpoint.",
+                "default": "41276"
+            }
+        },
+        "required": [
+            "league_id"
+        ]
+    }
+}

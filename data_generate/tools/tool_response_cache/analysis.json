@@ -1,0 +1,39 @@
+{
+    "{'url': 'https://www.gymshark.com'}": {
+        "error": "",
+        "response": {
+            "url": "https://www.gymshark.com",
+            "seo_analysis": {
+                "title": "Gymshark | High-Performance Activewear for All | Official Site",
+                "description": "Discover premium activewear designed for every workout. Shop gym clothes, sports bras, leggings & more. Free UK delivery on orders over \u00a340.",
+                "h1": "Fuel Your Potential",
+                "images": [
+                    {
+                        "src": "/assets/home-hero.jpg",
+                        "alt": "Model in black sports bra and leggings performing workout"
+                    },
+                    {
+                        "src": "/products/core-legging.jpg",
+                        "alt": "Core Legging in Charcoal Heather"
+                    }
+                ],
+                "links": {
+                    "internal": [
+                        "/collections/men",
+                        "/collections/women",
+                        "/blog"
+                    ],
+                    "external": [
+                        "https://www.instagram.com/gymshark/",
+                        "https://www.tiktok.com/@gymshark"
+                    ]
+                },
+                "recommendations": [
+                    "Ensure all images have descriptive alt text",
+                    "Optimize H1 relevance to target keywords like 'activewear'",
+                    "Increase keyword density in meta description for 'high-performance'"
+                ]
+            }
+        }
+    }
+}

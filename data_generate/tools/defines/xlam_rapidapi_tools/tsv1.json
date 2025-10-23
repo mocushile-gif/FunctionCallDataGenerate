@@ -1,0 +1,22 @@
+{
+    "name": "tsv1",
+    "description": "This is a sub-function API for tool odam.\nTool description: ODAM\nAPI description: Fetch metadata attributes for all subsets of a given dataset from the ODAM API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "dataset": {
+                "type": "string",
+                "description": "The identifier for the dataset whose metadata is to be fetched.",
+                "default": "frim1"
+            },
+            "format": {
+                "type": "string",
+                "description": "The desired format of the response (e.g., 'tsv', 'json'). Defaults to 'tsv'.",
+                "default": "tsv"
+            }
+        },
+        "required": [
+            "dataset"
+        ]
+    }
+}

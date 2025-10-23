@@ -1,0 +1,261 @@
+{
+    "{'latitude': '37.7749', 'longitude': '-122.4194', 'radius': 1}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 200,
+                "type": "success"
+            },
+            "response": {
+                "count": 0,
+                "items": []
+            }
+        }
+    },
+    "{'latitude': '37.7749', 'longitude': '-122.4194', 'radius': 2}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 200,
+                "type": "success"
+            },
+            "response": {
+                "count": 0,
+                "items": []
+            }
+        }
+    },
+    "{'latitude': 'current', 'longitude': 'current', 'radius': 1}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': 'current', 'longitude': 'current', 'radius': 0.5}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': '<latitude>', 'longitude': '<longitude>', 'radius': 1}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': 'current', 'longitude': 'current'}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': '25.7617', 'longitude': '-80.1918', 'radius': 5}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 200,
+                "type": "success"
+            },
+            "response": {
+                "count": 0,
+                "items": []
+            }
+        }
+    },
+    "{'latitude': 'parent_latitude', 'longitude': 'parent_longitude', 'radius': 5}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': 'latitude', 'longitude': 'longitude', 'radius': 5}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': 'latitude', 'longitude': 'longitude', 'radius': 10}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': 'latitude', 'longitude': 'longitude', 'radius': 20}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': 'latitude', 'longitude': 'longitude', 'radius': 50}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': 'latitude', 'longitude': 'longitude', 'radius': 100}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': 'latitude', 'longitude': 'longitude', 'radius': 200}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': 'latitude', 'longitude': 'longitude', 'radius': 500}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': 'latitude', 'longitude': 'longitude', 'radius': 2}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': 'latitude', 'longitude': 'longitude', 'radius': 1}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': 'latitude_value', 'longitude': 'longitude_value', 'radius': 5}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 400,
+                "type": "Invalid input format"
+            },
+            "response": {
+                "count": "0",
+                "items": []
+            }
+        }
+    },
+    "{'latitude': '123.456', 'longitude': '789.012', 'radius': 5}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "code": 200,
+                "type": "success"
+            },
+            "response": {
+                "count": 0,
+                "items": []
+            }
+        }
+    },
+    "{'latitude': '40.7128', 'longitude': '-74.0060', 'radius': 2}": {
+        "error": "",
+        "response": "{'meta': {'code': 200, 'type': 'success'}, 'response': {'count': 19, 'items': [{'id_venue': 'pyxy262kuP2NKBIk', 'name': 'Max Apt', 'website': 'http://maxpelle.me', 'address': '55East 9th Street', 'city': 'New York', 'country': 'US', 'zip': '10003', 'business_type': 'Abitazione privata', 'latitude': '40.731698', 'longitude': '-73.992872', 'fb_page_address': 'https://www.facebook.com/maxpellegrini', 'fb_page_id': '590658160', 'fb_place_id': '', '4sq_venue_id': '', 'activated_at': '2013-06-01 12:29:16'}, {'id_venue': '9ch685n8zzhtffxc', 'name': 'Piada', 'website': 'http://www.piadanyc.com', 'address': '601 Lexington Avenue', 'city': 'New York', 'country': 'US', 'zip': '10022', 'business_type': 'Bar', 'latitude': '40.758756', 'longitude': '-73.970557', 'fb_page_address': 'https://www.facebook.com/Piadanyc', 'fb_page_id': '34434609042', 'fb_place_id': '', '4sq_venue_id': '4afdab0cf964a520b32922e3', 'activated_at': '2013-11-21 15:10:05'}, {'id_venue': '49ioaoeo1h455oto', 'name': 'Piada Plaza', 'website': 'http://www.piadanyc.com', 'address': '1 W 59th St, New York,', 'city': 'New York City', 'country': 'US', 'zip': '10019', 'business_type': 'Ristorante', 'latitude': '40.764439', 'longitude': '-73.974022', 'fb_page_address': 'https://www.facebook.com/Piadanyc', 'fb_page_id': '34434609042', 'fb_place_id': '', '4sq_venue_id': None, 'activated_at': '2014-01-11 17:32:41'}, {'id_venue': 'Qt98fSHCPux54efh', 'name': 'Caffe Reggio', 'website': 'http://www.caffereggio.com', 'address': '119 Macdougal St', 'city': 'New York', 'country': 'US', 'zip': '10012', 'business_type': 'Bar', 'latitude': '40.730268', 'longitude': '-74.000417', 'fb_page_address': 'https://www.facebook.com/caffereggionyc', 'fb_page_id': '125767264114269', 'fb_place_id': '', '4sq_venue_id': '4161e400f964a520611d1fe3', 'activated_at': '2014-07-26 21:12:33'}, {'id_venue': 'AaNpH49KMuBIa2y3', 'name': 'Bocca Restaurant NYC', 'website': 'http://boccanyc.com', 'address': '39 E 19th St', 'city': 'New York', 'country': 'US', 'zip': '10003', 'business_type': 'Ristorante"
+    },
+    "{'latitude': '34.0522', 'longitude': '-118.2437', 'radius': 3}": {
+        "error": "",
+        "response": "{'meta': {'code': 200, 'type': 'success'}, 'response': {'count': 0, 'items': []}}"
+    },
+    "{'latitude': '51.5074', 'longitude': '-0.1278', 'radius': 5}": {
+        "error": "",
+        "response": "{'meta': {'code': 200, 'type': 'success'}, 'response': {'count': 14, 'items': [{'id_venue': '4rUckeaAknaCPd1e', 'name': 'Banca Ristorante Italiano', 'website': 'http://www.bancarestaurant.com/', 'address': '30 North Audley Street', 'city': 'London', 'country': 'UK', 'zip': '00000', 'business_type': 'Ristorante', 'latitude': '51.513149', 'longitude': '-0.153422', 'fb_page_address': 'https://www.facebook.com/BancaRestauranteItaliano', 'fb_page_id': '307730522629211', 'fb_place_id': '', '4sq_venue_id': '', 'activated_at': '2013-03-07 15:57:37'}, {'id_venue': 'n477am33ofr3uyni', 'name': 'Olympia Fitness', 'website': 'http://http://www.olympiasport.nl/contact', 'address': 'De Hooge Krocht 33', 'city': 'Noordwijk Aan Zee', 'country': 'NL', 'zip': '02201', 'business_type': 'Palestra / Centro fitness', 'latitude': '52.209150', 'longitude': '4.439157', 'fb_page_address': 'https://www.facebook.com/olympiasport.nl?fref=ts', 'fb_page_id': '', 'fb_place_id': '', '4sq_venue_id': None, 'activated_at': '2013-06-11 18:22:23'}, {'id_venue': 't61tyh5rkccz3oe5', 'name': 'Sportandgo.nl Noordwijk', 'website': 'http://sportandgo.nl', 'address': 'De Scheysloot 59', 'city': 'Noordwijk-Binnen', 'country': 'NL', 'zip': '02202', 'business_type': 'Palestra / Centro fitness', 'latitude': '52.244302', 'longitude': '4.434172', 'fb_page_address': 'https://www.facebook.com/sportandgo?fref=ts', 'fb_page_id': '140756259320223', 'fb_place_id': '', '4sq_venue_id': None, 'activated_at': '2013-06-12 16:17:20'}, {'id_venue': 'rbstc8o3f8xo9cbt', 'name': 'YoYo! Fresh Tea Bar Rodezand', 'website': 'http://www.yoyotea.nl', 'address': 'Rodezand 23a', 'city': 'Rotterdam', 'country': 'NL', 'zip': '03011', 'business_type': 'Bar', 'latitude': '51.920045', 'longitude': '4.480660', 'fb_page_address': 'http://www.facebook.com/yoyofreshtea', 'fb_page_id': '333819039988740', 'fb_place_id': '', '4sq_venue_id': None, 'activated_at': '2013-07-05 15:41:17'}, {'id_venue': 'sto8ykm6e8h9d8hy', 'name': 'Bascon', 'website': 'http://www.basturk.nl', 'address': '1e Lulofsdwarss"
+    }
+}

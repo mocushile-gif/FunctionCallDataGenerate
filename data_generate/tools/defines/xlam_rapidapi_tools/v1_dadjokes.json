@@ -1,0 +1,14 @@
+{
+    "name": "v1_dadjokes",
+    "description": "This is a sub-function API for tool dad_jokes_by_api_ninjas.\nTool description: Thousands of hilarious dad jokes for your entertainment apps. See more info at https://api-ninjas.com/api/dadjokes\nAPI description: Fetch one or more random dad jokes from the API Ninjas Dad Jokes API endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "The number of jokes to return. Must be a string representing a number between 1 and 10. Default is None."
+            }
+        },
+        "required": []
+    }
+}

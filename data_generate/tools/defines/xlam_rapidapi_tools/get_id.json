@@ -1,0 +1,17 @@
+{
+    "name": "get_id",
+    "description": "This is a sub-function API for tool similar_movies.\nTool description: Find similar movies and series\nAPI description: Fetches the ID of a movie based on the given search query from the RapidAPI similar movies service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search string for the movie title.",
+                "default": "titanic"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

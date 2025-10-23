@@ -1,0 +1,29 @@
+{
+    "name": "listing_availability",
+    "description": "This is a sub-function API for tool airbnb_listings.\nTool description: Join the over 300 users/customers and access all Airbnb data updated daily.\nGet Airbnb listings details, future prices and availability, reviews, and more using listing IDs, geo coordinates or \"market\". \nData analytics endpoints are also available to get detailed info around all airbnb accomodations.\nWe guarantee a 24-hour response time for all inquiries. If a feature you need is not there please contact us and we will evaluate if it is possible to fullfill your needs.\n\nWhile our data are not...\nAPI description: Retrieve listing availability and stay length rules for the requested month.\n**Note**: The fact the available field is true does not means that the listing can be booked. It only tells indicates that it is not taken. To confirm if it is really available for stay you must verify all previous and following day rules for stay length are respected.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "number",
+                "description": "The year for which to retrieve listing availability.",
+                "default": 2024.0
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier for the listing.",
+                "default": "619966061834034729"
+            },
+            "month": {
+                "type": "number",
+                "description": "The month for which to retrieve listing availability.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "year",
+            "is_id",
+            "month"
+        ]
+    }
+}

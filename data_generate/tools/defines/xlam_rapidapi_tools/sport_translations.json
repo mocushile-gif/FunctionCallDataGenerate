@@ -1,0 +1,23 @@
+{
+    "name": "sport_translations",
+    "description": "This is a sub-function API for tool pinaculo.\nTool description: Pinaculo API provides over 15 different sports odds. \nBelow is a list of top sports you’d find there. The list on the API varies with respect to the active seasons, so you can check from the sports endpoint.\nFootball; eSports; Volleyball; Aussie rules; Formula 1; Boxing; Baseball; Basketball; MMA; Rugby; Golf; Soccer; Tennis; Crossfit;\n\nFor custom plans please contact us.\nAPI description: Fetch sport translations for a given sport ID and language using the Pinaculo API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the sport for which translations are to be retrieved.",
+                "default": 4
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code in which translations should be fetched.",
+                "default": "pt-PT"
+            }
+        },
+        "required": [
+            "is_id",
+            "lang"
+        ]
+    }
+}

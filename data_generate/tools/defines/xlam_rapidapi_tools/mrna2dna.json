@@ -1,0 +1,17 @@
+{
+    "name": "mrna2dna",
+    "description": "This is a sub-function API for tool dna2protein.\nTool description: A set of simple end-points to convert DNA and mRNA sequences to amino-acids\nAPI description: Transforms an mRNA sequence to its DNA sequence equivalent using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mrna": {
+                "type": "string",
+                "description": "The mRNA sequence as a string of letters.",
+                "default": "UACGUACG"
+            }
+        },
+        "required": [
+            "mrna"
+        ]
+    }
+}

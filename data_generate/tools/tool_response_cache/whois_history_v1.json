@@ -1,0 +1,42 @@
+{
+    "{'domainname': 'example.com', 'updateddateto': '2020-01-01', 'mode': 'preview', 'outputformat': 'JSON'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the DRS credits balance or enter the correct API key.'}"
+    },
+    "{'domainname': 'example.com', 'mode': 'purchase'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the DRS credits balance or enter the correct API key.'}"
+    },
+    "{'domainname': 'signlanguage.org', 'sincedate': '2020-01-01'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the DRS credits balance or enter the correct API key.'}"
+    },
+    "{'domainname': 'example.com', 'sincedate': '2024-01-01', 'outputformat': 'JSON'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the DRS credits balance or enter the correct API key.'}"
+    },
+    "{'domainname': 'secureapi.net', 'sincedate': '2024-01-01', 'outputformat': 'JSON'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the DRS credits balance or enter the correct API key.'}"
+    },
+    "{'domainname': 'example.com', 'sincedate': '2024-01-01', 'outputformat': 'JSON', 'mode': 'purchase'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the DRS credits balance or enter the correct API key.'}"
+    },
+    "{'domainname': 'secureapi.net', 'sincedate': '2024-01-01', 'outputformat': 'JSON', 'mode': 'purchase'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the DRS credits balance or enter the correct API key.'}"
+    },
+    "{'domainname': 'google.com', 'sincedate': '2023-01-01', 'outputformat': 'JSON', 'mode': 'purchase'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the DRS credits balance or enter the correct API key.'}"
+    },
+    "{'domainname': 'shopmax.com', 'createddateto': '2023-01-01', 'mode': 'preview'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the DRS credits balance or enter the correct API key.'}"
+    },
+    "{'domainname': 'cloudretail.net', 'createddateto': '2023-01-01', 'mode': 'preview'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the DRS credits balance or enter the correct API key.'}"
+    }
+}

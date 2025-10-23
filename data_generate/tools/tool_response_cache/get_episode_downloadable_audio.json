@@ -1,0 +1,41 @@
+{
+    "{'episodeid': '123456'}": {
+        "error": "",
+        "response": {
+            "status": false,
+            "reason": "Episode not found."
+        }
+    },
+    "{'episodeid': '1234567890'}": {
+        "error": "",
+        "response": {
+            "status": false,
+            "reason": "Episode not found."
+        }
+    },
+    "{'episodeid': 'episode_id'}": {
+        "error": "",
+        "response": {
+            "status": false,
+            "reason": "Episode not found."
+        }
+    },
+    "{'episodeid': '123456789'}": {
+        "error": "",
+        "response": {
+            "status": false,
+            "reason": "Episode not found."
+        }
+    },
+    "{'episodeid': '12345'}": {
+        "error": "",
+        "response": {
+            "status": false,
+            "reason": "Episode not found."
+        }
+    },
+    "{'episodeid': '3LEK1k9KaFRLAmPwMbj3o9'}": {
+        "error": "",
+        "response": "{'status': True, 'type': 'episode', 'id': '3LEK1k9KaFRLAmPwMbj3o9', 'name': 'Episode 223 - The Anchoress', 'shareUrl': 'https://open.spotify.com/episode/3LEK1k9KaFRLAmPwMbj3o9', 'date': '2022-03-09T12:50:00Z', 'description': \"Catherine Anne Davies aka The Anchoress talks about the expanded edition of her critically acclaimed record\\xa0The Art of Losing, her approach to songwriting and production, and why there's no such thing as great inspiration.\", 'htmlDescription': '<p>Catherine Anne Davies aka The Anchoress talks about the expanded edition of her critically acclaimed record\\xa0The Art of Losing, her approach to songwriting and production, and why there&#39;s no such thing as great inspiration.</p>', 'durationMs': 3812398, 'durationText': '01:03:32', 'paywallContent': False, 'audio': {'url': None, 'previewUrl': 'https://podz-content.spotifycdn.com/audio/clips/0zQHKtWfrMMOnLHJwmGJMY/clip_1618100_1675100.mp3'}, 'cover': [{'url': 'https://i.scdn.co/image/ab6765630000f68dbf25f11e1724f2156519d6c2', 'width': 64, 'height': 64}, {'url': 'https://i.scdn.co/image/ab67656300005f1fbf25f11e1724f2156519d6c2', 'width': 300, 'height': 300}, {'url': 'https://i.scdn.co/image/ab6765630000ba8abf25f11e1724f2156519d6c2', 'width': 640, 'height': 640}], 'podcast': {'type': 'show', 'id': '4oTBzqC3DHbaKNFq2YXpQw', 'name': 'Sodajerker On Songwriting', 'shareUrl': 'https://open.spotify.com/show/4oTBzqC3DHbaKNFq2YXpQw', 'cover': [{'url': 'https://i.scdn.co/image/59c06a4620f9895f830afe8cc334b4407135d401', 'width': 64, 'height': 64}, {'url': 'https://i.scdn.co/image/8c48d03be227faa65ee5b317649b94f652e0505d', 'width': 300, 'height': 300}, {'url': 'https://i.scdn.co/image/b459769a5aed57b3293ec4db90c58e51cb4055c0', 'width': 640, 'height': 640}]}}"
+    }
+}

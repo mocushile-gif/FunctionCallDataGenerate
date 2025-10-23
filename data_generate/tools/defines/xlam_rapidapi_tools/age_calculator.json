@@ -1,0 +1,22 @@
+{
+    "name": "age_calculator",
+    "description": "This is a sub-function API for tool age_calculator.\nTool description: Returns Age calculation based on requested date. \nAPI description: Calculates age based on the requested date. Accepts different formats and Time Zones.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "This endpoint will accept to following parameters formats:\nYYYYMMDD\nYYY-MM-DD\nMMDDYYYY\nMM-DD-YYYY",
+                "default": "19870630"
+            },
+            "timezone": {
+                "type": "string",
+                "description": "Optional: Default time zone is US/Eastern. To get the correct age based on your local time you can select your timezone. Use the /timezone service to see all available time zones. \nExample: US/Eastern, US/Pacific, Europe/London",
+                "default": "US/Eastern"
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

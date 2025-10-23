@@ -1,0 +1,14 @@
+{
+    "name": "getlenscreators",
+    "description": "This is a sub-function API for tool snapchat.\nTool description: Snapchat API\nAPI description: Fetches Lens creators from the Snapchat API using the provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cursor": {
+                "type": "string",
+                "description": "A cursor indicating the starting point for fetching Lens creators. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

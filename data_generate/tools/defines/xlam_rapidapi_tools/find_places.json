@@ -1,0 +1,22 @@
+{
+    "name": "find_places",
+    "description": "This is a sub-function API for tool ai_weather_by_meteosource.\nTool description: Accurate hyper-local weather forecasts, powered by our cutting-edge machine learning (ML) models. Historical weather, current weather, weather statistics , and hour-by-hour forecast - all weather data updated in real-time!\nAPI description: **Search places by name** to get **place_id** for the `Weather Forecast Endpoints` and detailed **geographical information** (country, region, elevation, timezone, etc.) for a given location.\n\nThe response can contain multiple places, sorted by relevance. You can then identify the one you want by coordinates, country, region, or type.\n\nUnlike the *find\\_places\\_prefix* endpoint, complete words are required here. You can search for cities, mountains, lakes, countries, etc.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "Name of the place to search.",
+                "default": "fishermans wharf"
+            },
+            "language": {
+                "type": "string",
+                "description": "The language the place names. Available languages are:\n\n- `en`: English\n- `es`: Spanish\n- `fr`: French\n- `de`: German\n- `pl`: Polish\n- `cs`: Czech\n",
+                "default": "en"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "{'symbol': 'ETHUSDT', 'limit': 10}": {
+        "error": "",
+        "response": [
+            {
+                "trade_id": "123456789",
+                "price": "1850.45",
+                "quantity": "1.2",
+                "timestamp": "2023-09-15T14:30:45.123Z",
+                "buyer_maker": false
+            },
+            {
+                "trade_id": "123456790",
+                "price": "1851.20",
+                "quantity": "0.8",
+                "timestamp": "2023-09-15T14:30:46.456Z",
+                "buyer_maker": true
+            },
+            {
+                "trade_id": "123456791",
+                "price": "1850.90",
+                "quantity": "2.5",
+                "timestamp": "2023-09-15T14:30:47.789Z",
+                "buyer_maker": false
+            },
+            {
+                "trade_id": "123456792",
+                "price": "1849.80",
+                "quantity": "0.5",
+                "timestamp": "2023-09-15T14:30:48.102Z",
+                "buyer_maker": true
+            },
+            {
+                "trade_id": "123456793",
+                "price": "1850.15",
+                "quantity": "1.7",
+                "timestamp": "2023-09-15T14:30:49.321Z",
+                "buyer_maker": false
+            },
+            {
+                "trade_id": "123456794",
+                "price": "1850.75",
+                "quantity": "3.0",
+                "timestamp": "2023-09-15T14:30:50.543Z",
+                "buyer_maker": true
+            },
+            {
+                "trade_id": "123456795",
+                "price": "1851.00",
+                "quantity": "0.9",
+                "timestamp": "2023-09-15T14:30:51.765Z",
+                "buyer_maker": false
+            },
+            {
+                "trade_id": "123456796",
+                "price": "1850.60",
+                "quantity": "2.2",
+                "timestamp": "2023-09-15T14:30:52.987Z",
+                "buyer_maker": true
+            },
+            {
+                "trade_id": "123456797",
+                "price": "1850.30",
+                "quantity": "1.4",
+                "timestamp": "2023-09-15T14:30:54.209Z",
+                "buyer_maker": false
+            },
+            {
+                "trade_id": "123456798",
+                "price": "1850.85",
+                "quantity": "0.6",
+                "timestamp": "2023-09-15T14:30:55.431Z",
+                "buyer_maker": true
+            }
+        ]
+    },
+    "{'symbol': 'ETHUSDT'}": {
+        "error": "",
+        "response": "[{'id': 1706306406, 'price': '2638.46000000', 'qty': '0.00230000', 'quoteQty': '6.06845800', 'time': 1730894812016, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1706306407, 'price': '2638.46000000', 'qty': '0.00230000', 'quoteQty': '6.06845800', 'time': 1730894812016, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1706306408, 'price': '2638.46000000', 'qty': '0.00230000', 'quoteQty': '6.06845800', 'time': 1730894812016, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1706306409, 'price': '2638.45000000', 'qty': '0.00570000', 'quoteQty': '15.03916500', 'time': 1730894812029, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1706306410, 'price': '2638.45000000', 'qty': '0.00570000', 'quoteQty': '15.03916500', 'time': 1730894812029, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1706306411, 'price': '2638.45000000', 'qty': '0.00490000', 'quoteQty': '12.92840500', 'time': 1730894812041, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1706306412, 'price': '2638.45000000', 'qty': '0.00570000', 'quoteQty': '15.03916500', 'time': 1730894812060, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1706306413, 'price': '2638.45000000', 'qty': '0.00540000', 'quoteQty': '14.24763000', 'time': 1730894812065, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1706306414, 'price': '2638.46000000', 'qty': '4.99960000', 'quoteQty': '13191.24461600', 'time': 1730894812070, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1706306415, 'price': '2638.46000000', 'qty': '0.60040000', 'quoteQty': '1584.13138400', 'time': 1730894812070, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1706306416, 'price': '2638.46000000', 'qty': '4.66460000', 'quoteQty': '12307.36051600', 'time': 1730894812070, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1706306417, 'price': '2638.46000000', 'qty': '1.33540000', 'quoteQty': '3523.39948400', 'time': 1730894812070, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1706306418, 'price': '2638.45000000', 'qty': '0.00610000', 'quoteQty': '16.09454500', 'time': 1730894812075, "
+    },
+    "{'symbol': 'BTCUSDT', 'limit': 1000}": {
+        "error": "",
+        "response": "[{'id': 4172540870, 'price': '96094.63000000', 'qty': '0.00008000', 'quoteQty': '7.68757040', 'time': 1732864737521, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4172540871, 'price': '96094.63000000', 'qty': '0.00006000', 'quoteQty': '5.76567780', 'time': 1732864737521, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4172540872, 'price': '96094.63000000', 'qty': '0.00008000', 'quoteQty': '7.68757040', 'time': 1732864737521, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4172540873, 'price': '96094.63000000', 'qty': '0.00006000', 'quoteQty': '5.76567780', 'time': 1732864737521, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4172540874, 'price': '96094.63000000', 'qty': '0.00008000', 'quoteQty': '7.68757040', 'time': 1732864737521, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4172540875, 'price': '96094.63000000', 'qty': '0.00006000', 'quoteQty': '5.76567780', 'time': 1732864737521, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4172540876, 'price': '96094.63000000', 'qty': '0.00005000', 'quoteQty': '4.80473150', 'time': 1732864737521, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4172540877, 'price': '96094.63000000', 'qty': '0.00003000', 'quoteQty': '2.88283890', 'time': 1732864737521, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4172540878, 'price': '96094.63000000', 'qty': '0.00006000', 'quoteQty': '5.76567780', 'time': 1732864737521, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4172540879, 'price': '96094.63000000', 'qty': '0.00008000', 'quoteQty': '7.68757040', 'time': 1732864737521, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4172540880, 'price': '96094.63000000', 'qty': '0.00006000', 'quoteQty': '5.76567780', 'time': 1732864737521, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4172540881, 'price': '96094.63000000', 'qty': '0.00002000', 'quoteQty': '1.92189260', 'time': 1732864737521, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4172540882, 'price': '96094.63000000', 'qty': '0.00006000', 'quoteQty': '5.76567780', 'time': 1732864737521,"
+    },
+    "{'symbol': 'BTCUSDT'}": {
+        "error": "",
+        "response": "[{'id': 3193795765, 'price': '26871.13000000', 'qty': '0.00488000', 'quoteQty': '131.13111440', 'time': 1692314081765, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 3193795766, 'price': '26871.12000000', 'qty': '0.00476000', 'quoteQty': '127.90653120', 'time': 1692314081799, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3193795767, 'price': '26871.12000000', 'qty': '0.00656000', 'quoteQty': '176.27454720', 'time': 1692314081799, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3193795768, 'price': '26871.12000000', 'qty': '0.00383000', 'quoteQty': '102.91638960', 'time': 1692314081799, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3193795769, 'price': '26871.12000000', 'qty': '0.00061000', 'quoteQty': '16.39138320', 'time': 1692314081880, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3193795770, 'price': '26871.12000000', 'qty': '0.00297000', 'quoteQty': '79.80722640', 'time': 1692314081909, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3193795771, 'price': '26871.12000000', 'qty': '0.00017000', 'quoteQty': '4.56809040', 'time': 1692314081911, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3193795772, 'price': '26871.12000000', 'qty': '0.00057000', 'quoteQty': '15.31653840', 'time': 1692314081911, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3193795773, 'price': '26871.12000000', 'qty': '0.00354000', 'quoteQty': '95.12376480', 'time': 1692314081912, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3193795774, 'price': '26871.12000000', 'qty': '0.00530000', 'quoteQty': '142.41693600', 'time': 1692314081918, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3193795775, 'price': '26871.13000000', 'qty': '0.00186000', 'quoteQty': '49.98030180', 'time': 1692314081953, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 3193795776, 'price': '26871.13000000', 'qty': '0.16700000', 'quoteQty': '4487.47871000', 'time': 1692314081981, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 3193795777, 'price': '26871.12000000', 'qty': '0.00110000', 'quoteQty': '29.55823200', 'time': 1692"
+    },
+    "{'symbol': 'BTCUSDT', 'limit': 200}": {
+        "error": "",
+        "response": "[{'id': 4187591408, 'price': '95554.71000000', 'qty': '0.00006000', 'quoteQty': '5.73328260', 'time': 1733149062918, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4187591409, 'price': '95554.71000000', 'qty': '0.00006000', 'quoteQty': '5.73328260', 'time': 1733149062918, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4187591410, 'price': '95554.71000000', 'qty': '0.00006000', 'quoteQty': '5.73328260', 'time': 1733149062918, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4187591411, 'price': '95554.71000000', 'qty': '0.00002000', 'quoteQty': '1.91109420', 'time': 1733149062918, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4187591412, 'price': '95554.71000000', 'qty': '0.00004000', 'quoteQty': '3.82218840', 'time': 1733149062918, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4187591413, 'price': '95554.71000000', 'qty': '0.00006000', 'quoteQty': '5.73328260', 'time': 1733149062918, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4187591414, 'price': '95554.72000000', 'qty': '0.00015000', 'quoteQty': '14.33320800', 'time': 1733149062918, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4187591415, 'price': '95554.72000000', 'qty': '0.00005000', 'quoteQty': '4.77773600', 'time': 1733149062918, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4187591416, 'price': '95555.98000000', 'qty': '0.00008000', 'quoteQty': '7.64447840', 'time': 1733149062918, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4187591417, 'price': '95555.98000000', 'qty': '0.00008000', 'quoteQty': '7.64447840', 'time': 1733149062918, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4187591418, 'price': '95555.98000000', 'qty': '0.00004000', 'quoteQty': '3.82223920', 'time': 1733149062918, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4187591419, 'price': '95555.98000000', 'qty': '0.00004000', 'quoteQty': '3.82223920', 'time': 1733149062918, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 4187591420, 'price': '95555.98000000', 'qty': '0.00008000', 'quoteQty': '7.64447840', 'time': 1733149062918"
+    },
+    "{'symbol': 'BTCUSDT', 'limit': 100}": {
+        "error": "",
+        "response": "[{'id': 3926436663, 'price': '66288.83000000', 'qty': '0.00008000', 'quoteQty': '5.30310640', 'time': 1729006647212, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3926436664, 'price': '66288.83000000', 'qty': '0.00008000', 'quoteQty': '5.30310640', 'time': 1729006647212, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3926436665, 'price': '66288.83000000', 'qty': '0.00008000', 'quoteQty': '5.30310640', 'time': 1729006647212, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3926436666, 'price': '66288.83000000', 'qty': '0.00008000', 'quoteQty': '5.30310640', 'time': 1729006647212, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3926436667, 'price': '66288.83000000', 'qty': '0.00008000', 'quoteQty': '5.30310640', 'time': 1729006647212, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3926436668, 'price': '66288.83000000', 'qty': '0.00008000', 'quoteQty': '5.30310640', 'time': 1729006647212, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3926436669, 'price': '66288.83000000', 'qty': '0.00008000', 'quoteQty': '5.30310640', 'time': 1729006647212, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3926436670, 'price': '66288.82000000', 'qty': '0.10179000', 'quoteQty': '6747.53898780', 'time': 1729006647212, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3926436671, 'price': '66288.82000000', 'qty': '0.00010000', 'quoteQty': '6.62888200', 'time': 1729006647212, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3926436672, 'price': '66288.82000000', 'qty': '0.00010000', 'quoteQty': '6.62888200', 'time': 1729006647212, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3926436673, 'price': '66288.54000000', 'qty': '0.00008000', 'quoteQty': '5.30308320', 'time': 1729006647212, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3926436674, 'price': '66288.50000000', 'qty': '0.00017000', 'quoteQty': '11.26904500', 'time': 1729006647212, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 3926436675, 'price': '66288.01000000', 'qty': '0.00010000', 'quoteQty': '6.62880100', 'time': 1729006647212, 'isBuye"
+    },
+    "{'symbol': 'ETHUSDT', 'limit': 500}": {
+        "error": "",
+        "response": "[{'id': 1867737233, 'price': '3619.23000000', 'qty': '0.00150000', 'quoteQty': '5.42884500', 'time': 1733149058816, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1867737234, 'price': '3619.23000000', 'qty': '0.00140000', 'quoteQty': '5.06692200', 'time': 1733149058816, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1867737235, 'price': '3619.23000000', 'qty': '0.00230000', 'quoteQty': '8.32422900', 'time': 1733149058816, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1867737236, 'price': '3619.23000000', 'qty': '0.00150000', 'quoteQty': '5.42884500', 'time': 1733149058816, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1867737237, 'price': '3619.23000000', 'qty': '0.00140000', 'quoteQty': '5.06692200', 'time': 1733149058816, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1867737238, 'price': '3619.23000000', 'qty': '0.00230000', 'quoteQty': '8.32422900', 'time': 1733149058816, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1867737239, 'price': '3619.23000000', 'qty': '0.00150000', 'quoteQty': '5.42884500', 'time': 1733149058816, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1867737240, 'price': '3619.23000000', 'qty': '0.00140000', 'quoteQty': '5.06692200', 'time': 1733149058816, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1867737241, 'price': '3619.23000000', 'qty': '0.00230000', 'quoteQty': '8.32422900', 'time': 1733149058816, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1867737242, 'price': '3619.23000000', 'qty': '0.00150000', 'quoteQty': '5.42884500', 'time': 1733149058816, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1867737243, 'price': '3619.23000000', 'qty': '0.00140000', 'quoteQty': '5.06692200', 'time': 1733149058816, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1867737244, 'price': '3619.23000000', 'qty': '0.00230000', 'quoteQty': '8.32422900', 'time': 1733149058816, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 1867737245, 'price': '3619.23000000', 'qty': '0.00150000', 'quoteQty': '5.42884500', 'time': 1733149058816, 'isBuyerMake"
+    },
+    "{'symbol': 'ETHUSDT', 'limit': 100}": {
+        "error": "",
+        "response": "[{'id': 1852326895, 'price': '3545.41000000', 'qty': '0.00180000', 'quoteQty': '6.38173800', 'time': 1732864764672, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1852326896, 'price': '3545.41000000', 'qty': '0.00120000', 'quoteQty': '4.25449200', 'time': 1732864764672, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1852326897, 'price': '3545.41000000', 'qty': '0.00060000', 'quoteQty': '2.12724600', 'time': 1732864764672, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1852326898, 'price': '3545.41000000', 'qty': '0.00170000', 'quoteQty': '6.02719700', 'time': 1732864764672, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1852326899, 'price': '3545.41000000', 'qty': '0.00010000', 'quoteQty': '0.35454100', 'time': 1732864764672, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1852326900, 'price': '3545.41000000', 'qty': '0.00180000', 'quoteQty': '6.38173800', 'time': 1732864764672, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1852326901, 'price': '3545.41000000', 'qty': '0.00110000', 'quoteQty': '3.89995100', 'time': 1732864764672, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1852326902, 'price': '3545.41000000', 'qty': '0.00070000', 'quoteQty': '2.48178700', 'time': 1732864764672, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1852326903, 'price': '3545.41000000', 'qty': '0.00160000', 'quoteQty': '5.67265600', 'time': 1732864764672, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1852326904, 'price': '3545.41000000', 'qty': '0.00020000', 'quoteQty': '0.70908200', 'time': 1732864764672, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1852326905, 'price': '3545.41000000', 'qty': '0.00180000', 'quoteQty': '6.38173800', 'time': 1732864764672, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1852326906, 'price': '3545.41000000', 'qty': '0.00030000', 'quoteQty': '1.06362300', 'time': 1732864764672, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 1852326907, 'price': '3545.41000000', 'qty': '0.00150000', 'quoteQty': '5.31811500', 'time': 1732864764672, 'isBuyerMaker': True, 'i"
+    },
+    "{'symbol': 'BTCUSDT', 'limit': 50}": {
+        "error": "",
+        "response": "[{'id': 4172542019, 'price': '96069.09000000', 'qty': '0.00006000', 'quoteQty': '5.76414540', 'time': 1732864760766, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 4172542020, 'price': '96069.09000000', 'qty': '0.00006000', 'quoteQty': '5.76414540', 'time': 1732864760766, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 4172542021, 'price': '96069.09000000', 'qty': '0.00006000', 'quoteQty': '5.76414540', 'time': 1732864760766, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 4172542022, 'price': '96069.09000000', 'qty': '0.00006000', 'quoteQty': '5.76414540', 'time': 1732864760766, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 4172542023, 'price': '96069.09000000', 'qty': '0.00006000', 'quoteQty': '5.76414540', 'time': 1732864760766, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 4172542024, 'price': '96069.09000000', 'qty': '0.00006000', 'quoteQty': '5.76414540', 'time': 1732864760766, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 4172542025, 'price': '96069.09000000', 'qty': '0.00006000', 'quoteQty': '5.76414540', 'time': 1732864760766, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 4172542026, 'price': '96069.08000000', 'qty': '0.00006000', 'quoteQty': '5.76414480', 'time': 1732864760768, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 4172542027, 'price': '96069.08000000', 'qty': '0.00008000', 'quoteQty': '7.68552640', 'time': 1732864760768, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 4172542028, 'price': '96069.08000000', 'qty': '0.00167000', 'quoteQty': '160.43536360', 'time': 1732864760768, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 4172542029, 'price': '96069.08000000', 'qty': '0.00008000', 'quoteQty': '7.68552640', 'time': 1732864760826, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 4172542030, 'price': '96069.08000000', 'qty': '0.07977000', 'quoteQty': '7663.43051160', 'time': 1732864760826, 'isBuyerMaker': True, 'isBestMatch': True}, {'id': 4172542031, 'price': '96069.09000000', 'qty': '0.00011000', 'quoteQty': '10.56759990', 'time': 1732864760878, 'isBu"
+    },
+    "{'symbol': 'ETHUSDT', 'limit': 50}": {
+        "error": "",
+        "response": "[{'id': 2019547327, 'price': '3672.08000000', 'qty': '0.00200000', 'quoteQty': '7.34416000', 'time': 1736140684520, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 2019547328, 'price': '3672.09000000', 'qty': '0.00280000', 'quoteQty': '10.28185200', 'time': 1736140684520, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 2019547329, 'price': '3672.09000000', 'qty': '0.00200000', 'quoteQty': '7.34418000', 'time': 1736140684520, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 2019547330, 'price': '3672.09000000', 'qty': '0.00150000', 'quoteQty': '5.50813500', 'time': 1736140684520, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 2019547331, 'price': '3672.14000000', 'qty': '0.01180000', 'quoteQty': '43.33125200', 'time': 1736140684520, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 2019547332, 'price': '3672.14000000', 'qty': '0.00200000', 'quoteQty': '7.34428000', 'time': 1736140684574, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 2019547333, 'price': '3672.14000000', 'qty': '0.00200000', 'quoteQty': '7.34428000', 'time': 1736140684574, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 2019547334, 'price': '3672.15000000', 'qty': '0.00200000', 'quoteQty': '7.34430000', 'time': 1736140684592, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 2019547335, 'price': '3672.16000000', 'qty': '0.00200000', 'quoteQty': '7.34432000', 'time': 1736140684592, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 2019547336, 'price': '3672.17000000', 'qty': '0.00140000', 'quoteQty': '5.14103800', 'time': 1736140684592, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 2019547337, 'price': '3672.17000000', 'qty': '0.00010000', 'quoteQty': '0.36721700', 'time': 1736140684595, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 2019547338, 'price': '3672.17000000', 'qty': '0.00190000', 'quoteQty': '6.97712300', 'time': 1736140684595, 'isBuyerMaker': False, 'isBestMatch': True}, {'id': 2019547339, 'price': '3672.17000000', 'qty': '0.00010000', 'quoteQty': '0.36721700', 'time': 1736140684597, 'isBuyerMa"
+    }
+}

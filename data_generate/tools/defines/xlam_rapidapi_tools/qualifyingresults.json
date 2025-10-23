@@ -1,0 +1,23 @@
+{
+    "name": "qualifyingresults",
+    "description": "This is a sub-function API for tool formula_1_fixed.\nTool description: F1\nAPI description: Fetches the qualifying results for a specific year and round of the Formula 1 season.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year of the Formula 1 season.",
+                "default": "year"
+            },
+            "round": {
+                "type": "string",
+                "description": "The round of the Formula 1 season.",
+                "default": "round"
+            }
+        },
+        "required": [
+            "year",
+            "round"
+        ]
+    }
+}

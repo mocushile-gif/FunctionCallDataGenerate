@@ -1,0 +1,40 @@
+{
+    "name": "equity_intraday",
+    "description": "This is a sub-function API for tool quotient.\nTool description: Market data API for intraday (1-minutes) data, end-of-day data, options data, crypto, forex, live prices, fundamental data, trading signal, and much more, on various assets (Stocks, ETFs, Funds, Indices, Forex, Cryptocurrencies, etc), on worldwide stock exchanges (us, canada, australia, uk and europe).\nAPI description: Retrieve intraday time series data (Date, Open, High, Low, Close, Volume) for a specific symbol based on given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "interval": {
+                "type": "number",
+                "description": "The time interval in minutes for the data points, such as `1` (1 min) or `5` (5 min).",
+                "default": 1.0
+            },
+            "to": {
+                "type": "string",
+                "description": "The query end date (supported formats are : **YYYY-mm-dd HH:MM**, **YYYY-mm-dd**), e.g., `2020-04-21 10:30` or simply `2020-04-22`.",
+                "default": "2020-04-21 10:30"
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The query start date (supported formats are : **YYYY-mm-dd HH:MM**, **YYYY-mm-dd**), e.g., `2020-04-21 10:00` or simply `2020-04-21`.",
+                "default": "2020-04-21 10:00"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for the queried asset, e.g., `AAPL` for Apple Inc or `MSFT` for Microsoft.",
+                "default": "AAPL"
+            },
+            "adjust": {
+                "type": "boolean",
+                "description": "Indicates if the price data should be adjusted. Defaults to None.",
+                "default": true
+            }
+        },
+        "required": [
+            "interval",
+            "to",
+            "is_from",
+            "symbol"
+        ]
+    }
+}

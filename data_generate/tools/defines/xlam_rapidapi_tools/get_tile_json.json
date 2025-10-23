@@ -1,0 +1,17 @@
+{
+    "name": "get_tile_json",
+    "description": "This is a sub-function API for tool mapilion_vector_and_raster_map_tiles.\nTool description: Mapilion provides you with vector and raster map tiles at scale. Based on OpenStreetMap and OpenMapTiles.\nAPI description: Returns the tile json for the give style. Currently there are three different types:\n- `v3` the OpenMapTiles compatible vector tiles\n- `hillshading-v1` Hillshading tiles Version 1\n- `hillshading-v2` Hillshading tiles Version 2",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "Style type for the tile JSON to be retrieved.",
+                "default": "v3"
+            }
+        },
+        "required": [
+            "type"
+        ]
+    }
+}

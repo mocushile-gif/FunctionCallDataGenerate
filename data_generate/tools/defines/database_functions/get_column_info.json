@@ -1,0 +1,23 @@
+{
+    "name": "get_column_info",
+    "description": "Retrieve detailed information about a specific column in a database table. Returns statistics based on the column's data type, such as min, max, and avg for integer columns or distinct values for other types.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "The path to the database."
+        },
+        "table_name": {
+          "type": "string",
+          "description": "The name of the table containing the column."
+        },
+        "column_name": {
+          "type": "string",
+          "description": "The name of the column to retrieve information about."
+        }
+      },
+      "required": ["database_path", "table_name", "column_name"]
+    }
+  }
+  

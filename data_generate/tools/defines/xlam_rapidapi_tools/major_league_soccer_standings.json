@@ -1,0 +1,14 @@
+{
+    "name": "major_league_soccer_standings",
+    "description": "This is a sub-function API for tool major_league_soccer_standings.\nTool description: Major League Soccer (MLS) Standings & Table\nAPI description: Fetches the Major League Soccer standings for a given season using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season": {
+                "type": "string",
+                "description": "The season year for which to retrieve standings. Defaults to None, in which case the latest season's standings are fetched."
+            }
+        },
+        "required": []
+    }
+}

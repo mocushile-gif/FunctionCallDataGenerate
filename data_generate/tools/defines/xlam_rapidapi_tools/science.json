@@ -1,0 +1,17 @@
+{
+    "name": "science",
+    "description": "This is a sub-function API for tool google_news.\nTool description: Provide real-time news and articles sourced from Google News.\nAPI description: Fetches science news from Google News using the provided language region and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lr": {
+                "type": "string",
+                "description": "The language region code (e.g., 'en-US') to filter the news articles.",
+                "default": "en-US"
+            }
+        },
+        "required": [
+            "lr"
+        ]
+    }
+}

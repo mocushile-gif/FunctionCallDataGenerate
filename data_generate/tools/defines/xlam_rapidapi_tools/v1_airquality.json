@@ -1,0 +1,35 @@
+{
+    "name": "v1_airquality",
+    "description": "This is a sub-function API for tool air_quality_by_api_ninjas.\nTool description: Get current air quality data for any region. See more info at See more info at https://api-ninjas.com/api/airquality.\nAPI description: Fetches air quality data from the API Ninjas Air Quality API based on provided location parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zip": {
+                "type": "string",
+                "description": "ZIP code of the desired location."
+            },
+            "country": {
+                "type": "string",
+                "description": "Name of the country."
+            },
+            "city": {
+                "type": "string",
+                "description": "Name of the city. Defaults to 'Seattle'.",
+                "default": "Seattle"
+            },
+            "lon": {
+                "type": "number",
+                "description": "Longitude of desired location. If used, the **lat** parameter must also be supplied."
+            },
+            "state": {
+                "type": "string",
+                "description": "US state (United States only)."
+            },
+            "lat": {
+                "type": "number",
+                "description": "Latitude of desired location. If used, the **lon** parameter must also be supplied."
+            }
+        },
+        "required": []
+    }
+}

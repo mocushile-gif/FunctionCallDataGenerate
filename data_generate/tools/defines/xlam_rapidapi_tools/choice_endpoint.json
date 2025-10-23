@@ -1,0 +1,17 @@
+{
+    "name": "choice_endpoint",
+    "description": "This is a sub-function API for tool vadym_rock_paper_scissors_api.\nTool description: Rock Paper Scissors game!\nAPI description: Sends a GET request to the Rock-Paper-Scissors API with the user's choice and returns the API's response.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "choice": {
+                "type": "string",
+                "description": "The user's selection, either \"rock\", \"paper\", or \"scissors\".",
+                "default": "rock"
+            }
+        },
+        "required": [
+            "choice"
+        ]
+    }
+}

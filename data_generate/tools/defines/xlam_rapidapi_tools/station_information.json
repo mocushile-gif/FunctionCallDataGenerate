@@ -1,0 +1,17 @@
+{
+    "name": "station_information",
+    "description": "This is a sub-function API for tool bart.\nTool description: The BART API gives you access to pretty much all of the BART service and station data available on the BART website.\nAPI description: Retrieves station information from the BART (Bay Area Rapid Transit) API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cmd": {
+                "type": "string",
+                "description": "A command code that specifies the type of station information to retrieve. See examples at http://api.bart.gov/docs/overview/examples.aspx.",
+                "default": "stns"
+            }
+        },
+        "required": [
+            "cmd"
+        ]
+    }
+}

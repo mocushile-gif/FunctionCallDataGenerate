@@ -1,0 +1,30 @@
+{
+    "{'dataset': 'frim1', 'subset': 'factor', 'format': 'tsv'}": {
+        "error": "",
+        "response": "ERROR: factor is not a valid data subset"
+    },
+    "{'dataset': 'inventory2025', 'subset': 'products', 'limit': 15, 'debug': 0}": {
+        "error": "",
+        "response": "ERROR: the dataset directory named inventory2025 is not available"
+    },
+    "{'dataset': 'frim1', 'subset': 'products', 'limit': 15, 'debug': 0}": {
+        "error": "",
+        "response": "ERROR: products is not a valid data subset"
+    },
+    "{'subset': 'samples', 'dataset': 'electronic sales database', 'limit': 10}": {
+        "error": "",
+        "response": "ERROR: the dataset directory named electronic sales database is not available"
+    },
+    "{'subset': 'samples', 'dataset': 'frim1', 'limit': 10}": {
+        "error": "",
+        "response": "SampleID\tPlantID\tTruss\tDevStage\tFruitAge\tHarvestDate\tHarvestHour\tFruitPosition\tFruitDiameter\tFruitHeight\tFruitFW\tFruitDW\tDW\n1\tA26\tT5\tFF.01\t08DPA\t40379\t0.5\t2\t\t\t0.72\t0.090216\t\n1\tC2\tT5\tFF.01\t08DPA\t40379\t0.5\t3\t\t\t0.56\t0.070168\t\n1\tD15\tT5\tFF.01\t08DPA\t40379\t0.5\t4\t\t\t0.78\t0.097734\t\n1\tE19\tT5\tFF.01\t08DPA\t40379\t0.5\t4\t\t\t0.66\t0.082698\t\n1\tE34\tT5\tFF.01\t08DPA\t40379\t0.5\t3\t\t\t0.7\t0.08771\t\n1\tE38\tT5\tFF.01\t08DPA\t40379\t0.5\t3\t\t\t0.7\t0.08771\t\n1\tH29\tT5\tFF.01\t08DPA\t40379\t0.5\t5\t\t\t1.24\t0.155372\t\n1\tH34\tT5\tFF.01\t08DPA\t40379\t0.5\t4\t\t\t0.86\t0.107758\t\n1\tH52\tT5\tFF.01\t08DPA\t40379\t0.5\t5\t\t\t0.77\t0.096481\t\n1\tH61\tT5\tFF.01\t08DPA\t40379\t0.5\t5\t\t\t0.56\t0.070168\t\n"
+    },
+    "{'subset': 'controls', 'dataset': 'frim1', 'limit': 0}": {
+        "error": "",
+        "response": "ERROR: controls is not a valid data subset"
+    },
+    "{'subset': 'control', 'dataset': 'frim1', 'limit': 0}": {
+        "error": "",
+        "response": "ERROR: control is not a valid data subset"
+    }
+}

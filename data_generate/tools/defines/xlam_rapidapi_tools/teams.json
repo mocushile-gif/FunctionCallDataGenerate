@@ -1,0 +1,27 @@
+{
+    "name": "teams",
+    "description": "This is a sub-function API for tool metrx_factory.\nTool description: Predictive football analytics API. Get expected scores from quantitative models and statistically fair odds for upcoming and historical matches. Find discrepancies by comparing ratings to final results and market prices. Quantify team performance and trends using the Metrx Index algorithm. \nAPI description: Returns a list of teams that match the given parameters.\nAt least one of the request parameters is required.\n\nFor free subscriptions the following limits apply:\n\n`Max. requests per hour: 20`\n`Min. time between requests: 30 seconds`\n`Max. teams returned: 5`",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "estimatebill": {
+                "type": "boolean",
+                "description": "Flag whether a cost estimate should be returned for the above parameters instead of the result.\n**Default**: false"
+            },
+            "competitionstageid": {
+                "type": "string",
+                "description": "The identifier of the competition stage in which teams compete. Use the 'Get Competitions' operation to find valid identifiers. Defaults to None."
+            },
+            "countryid": {
+                "type": "string",
+                "description": "The identifier of the country from which the teams originate. Use the 'Get Countries' operation to find valid identifiers. Defaults to None."
+            },
+            "namelike": {
+                "type": "string",
+                "description": "A full or partial name of a team (case-insensitive). Minimum length is 4 characters. Defaults to 'liverp'.",
+                "default": "liverp"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "news_list_flash",
+    "description": "This is a sub-function API for tool webull.\nTool description: Query public data for investment products including stocks, fractional shares, options, ETFs, and ADRs as on webull.com\nAPI description: Fetches a list of flash news articles using the Webull API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "currentnewsid": {
+                "type": "number",
+                "description": "For paging purposes, this is the ID of the last news returned by this endpoint. Pass 0 for the first query. Defaults to 0.",
+                "default": 0.0
+            },
+            "pagesize": {
+                "type": "number",
+                "description": "For paging purposes, this parameter specifies the maximum number of news articles to return. The maximum value is 20. Defaults to 20.",
+                "default": 20.0
+            }
+        },
+        "required": []
+    }
+}

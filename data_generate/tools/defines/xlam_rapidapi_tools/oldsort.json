@@ -1,0 +1,20 @@
+{
+    "name": "oldsort",
+    "description": "This is a sub-function API for tool betsports.\nTool description: BetSports Api\nAPI description: Fetches and sorts data from the oldsort endpoint using the given RapidAPI host and key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "host": {
+                "type": "string",
+                "description": "The host to be used in the request header. Defaults to 'www.mozzartbet.com.co'.",
+                "default": "www.mozzartbet.com.co"
+            },
+            "referer": {
+                "type": "string",
+                "description": "The referer to be used in the request header. Defaults to 'https://www.mozzartbet.com.co/es'.",
+                "default": "https://www.mozzartbet.com.co/es"
+            }
+        },
+        "required": []
+    }
+}

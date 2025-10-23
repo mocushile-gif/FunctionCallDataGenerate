@@ -1,0 +1,16 @@
+{
+    "name": "get_trims_by_generation_id",
+    "description": "This is a sub-function API for tool car_specs.\nTool description: Fast, simple and reliable API to retrieve car data. Contains data on almost all car manufacturers and models, updated regularly.\nAPI description: Returns a list of all trims (engine types) available for a given generation of a car model.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "generationid": {
+                "type": "number",
+                "description": "The ID of the generation for which to retrieve trims."
+            }
+        },
+        "required": [
+            "generationid"
+        ]
+    }
+}

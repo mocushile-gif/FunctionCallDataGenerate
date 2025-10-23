@@ -1,0 +1,36 @@
+{
+    "{'is_id': 'bitcoin'}": {
+        "error": "",
+        "response": {
+            "asset_id": "bitcoin",
+            "markets": [
+                {
+                    "exchange": "binance",
+                    "pair": "BTC/USDT",
+                    "price": 68345.75,
+                    "24h_volume": 1200000000.0,
+                    "liquidity_score": 98.5,
+                    "last_updated": "2023-09-15T14:32:00Z"
+                },
+                {
+                    "exchange": "coinbase",
+                    "pair": "BTC/USD",
+                    "price": 68410.3,
+                    "24h_volume": 890000000.0,
+                    "liquidity_score": 96.7,
+                    "last_updated": "2023-09-15T14:35:00Z"
+                },
+                {
+                    "exchange": "kraken",
+                    "pair": "BTC/EUR",
+                    "price": 62345.1,
+                    "24h_volume": 345000000.0,
+                    "liquidity_score": 94.1,
+                    "last_updated": "2023-09-15T14:30:00Z"
+                }
+            ],
+            "total_markets": 35,
+            "avg_liquidity": 96.4
+        }
+    }
+}

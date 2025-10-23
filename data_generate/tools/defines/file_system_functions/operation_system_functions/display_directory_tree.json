@@ -1,0 +1,23 @@
+{
+    "name": "display_directory_tree",
+    "description": "Display the directory structure in a tree-like format with depth control.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "description": "The root directory path to display. Default is './'."
+        },
+        "indent": {
+          "type": "integer",
+          "description": "The current indentation level (used internally for recursion). Default is 0."
+        },
+        "depth": {
+          "type": "integer",
+          "description": "The maximum depth to traverse. Default is 2."
+        }
+      },
+      "required": ["path"]
+    }
+  }
+  

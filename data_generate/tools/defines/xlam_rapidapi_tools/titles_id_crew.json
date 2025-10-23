@@ -1,0 +1,16 @@
+{
+    "name": "titles_id_crew",
+    "description": "This is a sub-function API for tool moviesdatabase.\nTool description: MoviesDatabase provides complete and updated data for over 9 million titles ( movies, series and episodes) and 11 million actors / crew and cast members\nAPI description: Fetches the crew details of a movie or a TV show from the Movies Database API using the provided IMDb ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "IMDb ID of the title (e.g., 'tt0000002')."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "clubs",
+    "description": "This is a sub-function API for tool premier_league_upcoming_matches.\nTool description: This API will provide you information about future matches of different clubs in Premier League\nAPI description: This API will supply client info about all clubs that are playing the First Premier League Competition",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "abbr": {
+                "type": "string",
+                "description": "The abbreviation of the club. Default is 'ARS'.",
+                "default": "ARS"
+            },
+            "name": {
+                "type": "string",
+                "description": "The name of the club. Default is 'Arsenal'.",
+                "default": "Arsenal"
+            }
+        },
+        "required": []
+    }
+}

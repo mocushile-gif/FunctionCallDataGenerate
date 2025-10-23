@@ -1,0 +1,17 @@
+{
+    "name": "tag_search",
+    "description": "This is a sub-function API for tool india_today_unofficial.\nTool description: The India Today Unofficial API is a third-party web service that provides access to news content from the India Today platform. It allows developers to retrieve articles, videos, images, and other information related to various topics. Please note that it is not an official API provided by India Today.\nAPI description: Fetches news articles based on the provided tag from the India Today API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tag": {
+                "type": "string",
+                "description": "The tag or keyword to search for in the news articles.",
+                "default": "India"
+            }
+        },
+        "required": [
+            "tag"
+        ]
+    }
+}

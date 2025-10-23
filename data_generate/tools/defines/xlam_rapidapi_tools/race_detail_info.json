@@ -1,0 +1,17 @@
+{
+    "name": "race_detail_info",
+    "description": "This is a sub-function API for tool greyhound_racing_uk.\nTool description: Greyhound Racing API - UK. In realtime! Daily races, race detail, historical data and more.\nAPI description: **Get race detailed info by ID {id_race}.**\n\nYou can get the \"id_race\" from Results or Racecards endpoints",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "id_race": {
+                "type": "string",
+                "description": "The unique identifier of the race to get details for.",
+                "default": "53128"
+            }
+        },
+        "required": [
+            "id_race"
+        ]
+    }
+}

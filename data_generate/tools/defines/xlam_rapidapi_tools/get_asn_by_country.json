@@ -1,0 +1,17 @@
+{
+    "name": "get_asn_by_country",
+    "description": "This is a sub-function API for tool asn_details.\nTool description: Get details about Autonomous System Numbers (ASN), find ASN of IPs/CIDRs, find ASNs of each country etc\nAPI description: Enter country code (ISO 2 letter code such as US, GB etc) to get all the ASNs associated with that country.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country_code": {
+                "type": "string",
+                "description": "The ISO 3166-1 alpha-2 country code (e.g., 'US', 'GB') to retrieve all ASNs for.",
+                "default": "sm"
+            }
+        },
+        "required": [
+            "country_code"
+        ]
+    }
+}

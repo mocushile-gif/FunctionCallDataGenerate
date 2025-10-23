@@ -1,0 +1,17 @@
+{
+    "name": "instagram",
+    "description": "This is a sub-function API for tool username_available.\nTool description: Check if your username idea is available across famous social media platforms like Youtube, Twitter, Instagram, Twitch , Tiktok e Facebook\nVerifique se o nome de usuário está disponível nas maiores redes sociais como Youtube, Twitter, Instagram, Twitch, Tiktok e Facebook\nAPI description: Checks the availability of a given Instagram username using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username to be checked.",
+                "default": "apple"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

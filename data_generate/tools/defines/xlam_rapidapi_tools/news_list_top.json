@@ -1,0 +1,14 @@
+{
+    "name": "news_list_top",
+    "description": "This is a sub-function API for tool fidelity_investments.\nTool description: Query for quote data, market movers, international markets,  sector performance, orders, chart, and news\nAPI description: Fetches the top news from all supported areas.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The symbol of the quote, market, etc., such as 'IMRN'. Only one is allowed at a time. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

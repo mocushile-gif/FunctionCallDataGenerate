@@ -1,0 +1,57 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "location": {
+                "capital": "Ottawa",
+                "currencies": [
+                    "Canadian dollar"
+                ],
+                "languages": [
+                    "English",
+                    "French"
+                ],
+                "name": "Canada",
+                "population": 38005238,
+                "region": "Americas",
+                "subregion": "Northern America"
+            }
+        }
+    },
+    "{'country': 'Germany'}": {
+        "error": "",
+        "response": "{'location': {'capital': 'Berlin', 'currencies': ['Euro'], 'languages': ['German'], 'name': 'Germany', 'population': 83240525, 'region': 'Europe', 'subregion': 'Western Europe'}}"
+    },
+    "{'country': 'France'}": {
+        "error": "",
+        "response": "{'location': {'capital': 'Paris', 'currencies': ['Euro'], 'languages': ['French'], 'name': 'France', 'population': 67391582, 'region': 'Europe', 'subregion': 'Western Europe'}}"
+    },
+    "{'country': 'Iraq'}": {
+        "error": "",
+        "response": "{'location': {'capital': 'Baghdad', 'currencies': ['Iraqi dinar'], 'languages': ['Arabic', 'Aramaic', 'Sorani'], 'name': 'Iraq', 'population': 40222503, 'region': 'Asia', 'subregion': 'Western Asia'}}"
+    },
+    "{'country': 'Canada'}": {
+        "error": "",
+        "response": "{'location': {'capital': 'Ottawa', 'currencies': ['Canadian dollar'], 'languages': ['English', 'French'], 'name': 'Canada', 'population': 38005238, 'region': 'Americas', 'subregion': 'North America'}}"
+    },
+    "{'country': 'Australia'}": {
+        "error": "",
+        "response": "{'location': {'capital': 'Canberra', 'currencies': ['Australian dollar'], 'languages': ['English'], 'name': 'Australia', 'population': 25687041, 'region': 'Oceania', 'subregion': 'Australia and New Zealand'}}"
+    },
+    "{'country': 'Brazil'}": {
+        "error": "",
+        "response": "{'location': {'capital': 'Bras\u00edlia', 'currencies': ['Brazilian real'], 'languages': ['Portuguese'], 'name': 'Brazil', 'population': 212559409, 'region': 'Americas', 'subregion': 'South America'}}"
+    },
+    "{'country': 'canada'}": {
+        "error": "",
+        "response": "{'location': {'capital': 'Ottawa', 'currencies': ['Canadian dollar'], 'languages': ['English', 'French'], 'name': 'Canada', 'population': 38005238, 'region': 'Americas', 'subregion': 'North America'}}"
+    },
+    "{'country': 'Japan'}": {
+        "error": "",
+        "response": "{'location': {'capital': 'Tokyo', 'currencies': ['Japanese yen'], 'languages': ['Japanese'], 'name': 'Japan', 'population': 125836021, 'region': 'Asia', 'subregion': 'Eastern Asia'}}"
+    },
+    "{'country': 'United States'}": {
+        "error": "",
+        "response": "{'location': {'capital': 'Washington DC', 'currencies': ['United States dollar'], 'languages': ['English'], 'name': 'United States Minor Outlying Islands', 'population': 300, 'region': 'Americas', 'subregion': 'North America'}}"
+    }
+}

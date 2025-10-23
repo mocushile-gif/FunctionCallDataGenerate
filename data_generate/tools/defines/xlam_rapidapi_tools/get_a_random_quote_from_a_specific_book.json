@@ -1,0 +1,17 @@
+{
+    "name": "get_a_random_quote_from_a_specific_book",
+    "description": "This is a sub-function API for tool self_help_quotes.\nTool description: Hand-picked quotes from the best self-help books around. Get a random quote every day, filter by tags, books, and more...\nAPI description: Get a random self-help quote from a specific book by passing the book_id",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "book_id": {
+                "type": "string",
+                "description": "The identifier for the specific book from which to fetch a random quote.",
+                "default": "quiet"
+            }
+        },
+        "required": [
+            "book_id"
+        ]
+    }
+}

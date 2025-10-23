@@ -1,0 +1,31 @@
+{
+    "name": "calculate_area_under_function_curve",
+    "description": "Calculate the area under a curve for a specified function between two x values.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+          "function": {
+            "description": "The function to integrate, represented as a string. For example, 'x^3'.",
+            "type": "string"
+          },
+          "start_x": {
+            "description": "The starting x-value to integrate over.",
+            "type": "integer",
+            "default": 0
+          },
+          "end_x": {
+            "description": "The ending x-value to integrate over.",
+            "type": "integer",
+            "default": 10
+          },
+          "method": {
+            "description": "The method of numerical integration to use. Choices are 'trapezoid' or 'simpson'.",
+            "type": "string",
+            "enum": ["trapezoid","simpson"],
+            "default": "trapezoid"
+          }
+        },
+        "required": ["function","start_x","end_x"]
+      }
+  }
+  

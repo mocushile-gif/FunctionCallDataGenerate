@@ -1,0 +1,38 @@
+{
+    "{'player_id': '98765432', 'year': '2022'}": {
+        "error": "",
+        "response": {
+            "player_code": "98765432",
+            "player_data": [
+                {
+                    "Text": "Specify a valid player ID!"
+                }
+            ],
+            "year": "2022"
+        }
+    },
+    "{'player_id': '100055', 'year': '2024'}": {
+        "error": "",
+        "response": "{'player_code': '100055', 'player_data': [{'Text': 'Specify a valid player ID!'}], 'year': '2024'}"
+    },
+    "{'player_id': '102537', 'year': '2024'}": {
+        "error": "",
+        "response": "{'player_code': '102537', 'player_data': [{'Text': 'Specify a valid player ID!'}], 'year': '2024'}"
+    },
+    "{'player_id': '104723', 'year': '2023'}": {
+        "error": "",
+        "response": "{'player_code': '104723', 'player_data': [{'Text': 'Specify a valid player ID!'}], 'year': '2023'}"
+    },
+    "{'player_id': '105273', 'year': '2023'}": {
+        "error": "",
+        "response": "{'player_code': '105273', 'player_data': [{'Text': 'Specify a valid player ID!'}], 'year': '2023'}"
+    },
+    "{'player_id': '326408', 'year': '2023'}": {
+        "error": "",
+        "response": "{'player_code': '326408', 'player_data': [{'Aces': 127, 'Break_Point_Chances': 647, 'Break_Points_Converted': 360, 'Break_Points_Faced': 311, 'Break_Points_Lost': 146, 'Current_Rank': 1, 'Double_Faults': 124, 'First_Name': 'IGA', 'First_Return_Won': 1157, 'First_Serve_Return_Chances': 2845, 'First_Serves_Played': 2947, 'First_Serves_Won': 2062, 'Last_Name': 'SWIATEK', 'MatchCount': 79, 'Nationality': 'POL', 'PlayerNbr': '326408', 'Return_Games_Played': 719, 'Second_Return_Chances': 1886, 'Second_Return_Won': 1205, 'Second_Serves_Played': 1553, 'Second_Serves_Won': 847, 'Service_Games_Played': 744, 'Year_End_Rank': 1, 'breakpoint_converted_percent': 55.6, 'breakpoint_saved_percent': 53.1, 'countryCode': 'POL', 'dateOfBirth': '2001-05-31', 'firstName': 'Iga', 'first_return_percent': 40.7, 'first_serve_percent': 65.5, 'first_serve_won_percent': 70.0, 'fullName': 'Iga Swiatek', 'id': 326408, 'lastName': 'Swiatek', 'metadata': None, 'return_games_won_percent': 50.1, 'return_points_won_percent': 49.9, 'second_return_percent': 63.9, 'second_serve_won_percent': 54.5, 'service_games_won_percent': 80.4, 'service_points_won_percent': 64.6, 'total_points_won_percent': 57.1, 'tourn_year': '2023'}], 'year': '2023'}"
+    },
+    "{'player_id': '326408', 'year': '2022'}": {
+        "error": "",
+        "response": "{'player_code': '326408', 'player_data': [{'Aces': 137, 'Break_Point_Chances': 626, 'Break_Points_Converted': 322, 'Break_Points_Faced': 430, 'Break_Points_Lost': 162, 'Current_Rank': 1, 'Double_Faults': 152, 'First_Name': 'IGA', 'First_Return_Won': 1165, 'First_Serve_Return_Chances': 2730, 'First_Serves_Played': 2860, 'First_Serves_Won': 1895, 'Last_Name': 'SWIATEK', 'MatchCount': 74, 'Nationality': 'POL', 'PlayerNbr': '326408', 'Return_Games_Played': 650, 'Second_Return_Chances': 1661, 'Second_Return_Won': 1014, 'Second_Serves_Played': 1520, 'Second_Serves_Won': 770, 'Service_Games_Played': 666, 'Year_End_Rank': 1, 'breakpoint_converted_percent': 51.4, 'breakpoint_saved_percent': 62.3, 'countryCode': 'POL', 'dateOfBirth': '2001-05-31', 'firstName': 'Iga', 'first_return_percent': 42.7, 'first_serve_percent': 65.3, 'first_serve_won_percent': 66.3, 'fullName': 'Iga Swiatek', 'id': 326408, 'lastName': 'Swiatek', 'metadata': None, 'return_games_won_percent': 49.5, 'return_points_won_percent': 49.6, 'second_return_percent': 61.0, 'second_serve_won_percent': 50.7, 'service_games_won_percent': 75.7, 'service_points_won_percent': 60.8, 'total_points_won_percent': 55.2, 'tourn_year': '2022'}], 'year': '2022'}"
+    }
+}

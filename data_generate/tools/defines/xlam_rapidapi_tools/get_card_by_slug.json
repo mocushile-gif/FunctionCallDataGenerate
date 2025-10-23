@@ -1,0 +1,17 @@
+{
+    "name": "get_card_by_slug",
+    "description": "This is a sub-function API for tool hearthstone.\nTool description: This API provides cards information for Hearthstone\nAPI description: Fetches card information by slug from the Hearthstone API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The slug identifier for the card.",
+                "default": "a-light-in-the-darkness"
+            }
+        },
+        "required": [
+            "slug"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "checker",
+    "description": "This is a sub-function API for tool url_checker_and_parser.\nTool description: Check if URL is live or parse and extract site meta data from any website using our free API\nAPI description: Checks URL for their status - returns status code and message. API can detect broken links. API can be used to check if a web server is up or down",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the domain to be checked."
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

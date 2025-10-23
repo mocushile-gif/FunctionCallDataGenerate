@@ -1,0 +1,23 @@
+{
+    "name": "getlearningresources_topic",
+    "description": "This is a sub-function API for tool power_bi_smartable.\nTool description: The Power BI API offers the Microsoft Power BI news, learning resources, events, samples and other information.\nAPI description: Fetch Power BI learning resources based on a specific topic and page number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "topic": {
+                "type": "string",
+                "description": "The topic for which to fetch learning resources.",
+                "default": "dax"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of the results to retrieve.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "topic",
+            "page"
+        ]
+    }
+}

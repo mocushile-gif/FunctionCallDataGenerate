@@ -1,0 +1,20 @@
+{
+    "name": "food_item_recognition",
+    "description": "Identify food items in an image, supports both local file paths and image URLs. Uploads local files if needed and returns detected food items.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image": {
+          "type": "string",
+          "description": "Local image file path or remote image URL"
+        },
+        "save_result": {
+          "type": "string",
+          "description": "Optional path to save the JSON result file",
+          "nullable": true
+        }
+      },
+      "required": ["image"]
+    }
+  }
+  

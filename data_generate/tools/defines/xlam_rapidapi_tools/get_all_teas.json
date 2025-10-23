@@ -1,0 +1,14 @@
+{
+    "name": "get_all_teas",
+    "description": "This is a sub-function API for tool teas.\nTool description: Managements about teas .\nAPI description: Fetches all types of teas from the RapidAPI endpoint, optionally limited to a specified number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of tea types to retrieve. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "events_detail",
+    "description": "This is a sub-function API for tool art_openings_italy.\nTool description: Introducing the ultimate art event API for Italy - your one-stop destination for discovering and experiencing the best art events happening across the country. With our API, you have access to a comprehensive list of cities where art events take place, as well as a list of ongoing events happening in each city.\nAPI description: This service returns all data related to a specific id. The id field in the example you provided is a unique identifier for the event. It is a string of characters that follows the format of a universally unique identifier (UUID), which is a standardized way of generating a 128-bit identifier that is guaranteed to be unique across all devices and all time.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier for the event, following the format of a universally unique identifier (UUID).",
+                "default": "55daa408-d224-4b68-8b70-8800424d3e88"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

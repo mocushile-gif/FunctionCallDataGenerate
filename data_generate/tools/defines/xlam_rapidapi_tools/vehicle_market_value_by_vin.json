@@ -1,0 +1,25 @@
+{
+    "name": "vehicle_market_value_by_vin",
+    "description": "This is a sub-function API for tool vehicle_market_value.\nTool description: Query millions of historical vehicle sales in all 50 states of the United States based on license plate number or VIN to obtain market value assessments of new and used vehicles. Data is updated monthly.\n[View documents](https://rapidapi.com/dominonet-lTpEE6zONeS/api/vehicle-market-value/details)\nAPI description: Fetches the market value of a vehicle based on its VIN (Vehicle Identification Number) using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vin": {
+                "type": "string",
+                "description": "The vehicle identification number to query.",
+                "default": "5UXKR0C58JL074657"
+            },
+            "mileage": {
+                "type": "string",
+                "description": "The current mileage of the vehicle, or if not specified, the average mileage is used.For example: 50000"
+            },
+            "period": {
+                "type": "string",
+                "description": "Number of days to look back for sales data, with a maximum value of 365 days. Default is None."
+            }
+        },
+        "required": [
+            "vin"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_random_joke_by_category",
+    "description": "This is a sub-function API for tool world_of_jokes.\nTool description: Get over 10 millions jokes from around the world falling under 60+ categories.\nAPI description: Get the random joke by category from a collection of most rated and most popular jokes.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "The category of joke to fetch, based on the categories available in the jokes API.",
+                "default": "Political"
+            }
+        },
+        "required": [
+            "category"
+        ]
+    }
+}

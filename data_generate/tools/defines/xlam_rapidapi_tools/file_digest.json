@@ -1,0 +1,21 @@
+{
+    "name": "file_digest",
+    "description": "This is a sub-function API for tool pragmavantapi.\nTool description: Practical API for streamlined business and cloud applications.\nAPI description: Calculates the digest/checksum for a given file by making a request to the pragmavantapi via RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "source": {
+                "type": "string",
+                "description": "The URL of the file for which the digest/checksum is to be calculated.",
+                "default": "http://google.com"
+            },
+            "cache_key": {
+                "type": "string",
+                "description": "An optional cache key for quicker lookup. Defaults to None."
+            }
+        },
+        "required": [
+            "source"
+        ]
+    }
+}

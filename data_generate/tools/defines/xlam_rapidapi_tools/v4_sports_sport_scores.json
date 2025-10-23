@@ -1,0 +1,22 @@
+{
+    "name": "v4_sports_sport_scores",
+    "description": "This is a sub-function API for tool live_sports_odds.\nTool description: Odds data API for NFL, NBA, MLB, EPL, AFL and loads more, from US, UK, EU and Aussie bookmakers. Get started for free!\nAPI description: Returns list of live and upcoming games for a given sport, and optionally recently completed games. Live and completed games will contain scores. **Currently in beta** and only available for selected sports. For more info, see the [list of available sports](https://the-odds-api.com/sports-odds-data/sports-apis.html)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sport": {
+                "type": "string",
+                "description": "The sport for which to return games and scores.",
+                "default": "americanfootball_nfl"
+            },
+            "daysfrom": {
+                "type": "number",
+                "description": "The number of days in the past from which to return completed games. Valid values are integers from `1` to `3`. If this field is missing, only live and upcoming games are returned.",
+                "default": 3
+            }
+        },
+        "required": [
+            "sport"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "get_role_ids",
+    "description": "This is a sub-function API for tool signnow.\nTool description: Deliver a seamless eSignature experience from your website, CRM, or custom app by integrating the signNow REST API. Simplify the signing and management of documents online, make your teams more productive, and delight customers with intuitive and easy-to-use electronic signatures. Create branded eSignature workflows within your application. eSign and send documents for signature, create reusable templates, share documents and templates via signing links, track the signing status, and more.  T...\nAPI description: This endpoint returns details of specific document\n\nThe Document object contains:\n\n- Metadata: file name, size, extension, ID;\n- Fields, elements (texts, checks and signatures),\n- Invites, status of the invites,\n- Roles,\n- Timestamps (date created, date updated)\n\nDocument is a fundamental object of every e-signature operation. It’s impossible to send an invite without selecting or [uploading a document](https://docs.signnow.com/docs/signnow/reference/operations/create-a-document) first. In signNow you can a",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "document_id": {
+                "type": "string",
+                "description": "The unique identifier for the document."
+            }
+        },
+        "required": [
+            "document_id"
+        ]
+    }
+}

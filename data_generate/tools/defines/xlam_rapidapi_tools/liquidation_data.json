@@ -1,0 +1,18 @@
+{
+    "name": "liquidation_data",
+    "description": "This is a sub-function API for tool liquidation_report.\nTool description: Crypto liquidation tracking and reporting system. Aggregate data from exchange like Binance, Bybit & OKX\nAPI description: Get the summary liquidation data for all coin. Data include total liquidation value, total liquidation amount, mean & median liquidation value.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "coin": {
+                "type": "string",
+                "description": "Name of the cryptocurrency to get detail data for. Necessary if `type` is set to 'detail'."
+            },
+            "type": {
+                "type": "string",
+                "description": "Choose type of data. If type equal to **detail**, it will show only 1 coin data. type need to be use with coin"
+            }
+        },
+        "required": []
+    }
+}

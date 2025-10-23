@@ -1,0 +1,16 @@
+{
+    "name": "getstatus",
+    "description": "This is a sub-function API for tool maytapi_whatsapp.\nTool description: Send and receive messages from WhatsApp via Maytapi. It is a stable and reliable solution. See more:  https://maytapi.com/\nAPI description: Fetches the status of the current session for a given phone ID from the Maytapi WhatsApp API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone_id": {
+                "type": "string",
+                "description": "The unique identifier for the phone whose session status is to be queried."
+            }
+        },
+        "required": [
+            "phone_id"
+        ]
+    }
+}

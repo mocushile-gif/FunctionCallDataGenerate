@@ -1,0 +1,25 @@
+{
+    "name": "live_giveaways_by_platform_type_sorted",
+    "description": "This is a sub-function API for tool gamerpower.\nTool description: Find all free games, loot and giveaways with this giveaway tracker API powered by GamerPower.com! Access programmatically the best giveaways in gaming!\nAPI description: Fetches all live giveaways filtered by platform and type, and sorts them based on the specified criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "platform": {
+                "type": "string",
+                "description": "Platform for which to fetch giveaways (default is 'steam').",
+                "default": "steam"
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "Criteria to sort the giveaways by (default is 'popularity').",
+                "default": "popularity"
+            },
+            "type": {
+                "type": "string",
+                "description": "Type of giveaways to filter (default is 'loot').",
+                "default": "loot"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "feed_hot",
+    "description": "This is a sub-function API for tool kwai.\nTool description: Kwai Private API (TikTok like mobile app), Best Kwai Scraping API, non-blocking API, contact us if you want a custom plan. http://t.me/aimadnet\nAPI description: Fetches hot feed data from the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "kapi_proxy": {
+                "type": "string",
+                "description": "Proxy for the kapi endpoint. Default is None."
+            },
+            "country": {
+                "type": "string",
+                "description": "Country code for the feed. Default is 'ma'.",
+                "default": "ma"
+            },
+            "count": {
+                "type": "string",
+                "description": "Number of items to fetch. Default is '30'.",
+                "default": "30"
+            },
+            "language": {
+                "type": "string",
+                "description": "Language code for the feed. Default is 'en'.",
+                "default": "en"
+            },
+            "pcursor": {
+                "type": "string",
+                "description": "Cursor for pagination. Default is None."
+            }
+        },
+        "required": []
+    }
+}

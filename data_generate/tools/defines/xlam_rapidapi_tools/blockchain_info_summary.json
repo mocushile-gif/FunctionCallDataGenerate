@@ -1,0 +1,17 @@
+{
+    "name": "blockchain_info_summary",
+    "description": "This is a sub-function API for tool chain49.\nTool description: Kickstart your next crypto project - extended trezor/blockbook API with 10+ blockchains available instantly and 50+ possible on request running on the finest hardware in Germany's best datacenters at Hetzner\n\nWebsocket only via api.chain49.com endpoint possible (RapidAPI does not support it yet)\nAPI description: Fetches a basic summary of information related to the specified blockchain from the Chain49 API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "blockchain": {
+                "type": "string",
+                "description": "The name of the blockchain to get information about.",
+                "default": "bitcoin"
+            }
+        },
+        "required": [
+            "blockchain"
+        ]
+    }
+}

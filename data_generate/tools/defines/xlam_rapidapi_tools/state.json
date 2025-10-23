@@ -1,0 +1,39 @@
+{
+    "name": "state",
+    "description": "This is a sub-function API for tool referential.\nTool description: The fastest API to access countries, states, cities, continents, dial and zip codes in up to 20 languages. A collection of data APIs to support forms, signups, search and lookup. Our endpoints are optimized for speed and size. Our data is regularly maintained and comes from International Standardization bodies, the United Nations, government surveys and GIS datasets. We do not scrape WikiPedia etc\nAPI description: Fetch a list of sub-regions/states/provinces/departments of the world's countries based on specified filters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "Maximum number of records to return. Default is 250.",
+                "default": 250.0
+            },
+            "iso_a2": {
+                "type": "string",
+                "description": "Two-letter country code to filter results. Default is 'us'.",
+                "default": "us"
+            },
+            "iso_3166_2": {
+                "type": "string",
+                "description": "Subregion's ISO-3166-2 letter code to filter results."
+            },
+            "fields": {
+                "type": "string",
+                "description": "Comma-separated list of fields to include in the result. Default is 'iso_a2'.",
+                "default": "iso_a2"
+            },
+            "name": {
+                "type": "string",
+                "description": "Partial name filter for states in the specified language. Default is 'tex'.",
+                "default": "tex"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language selection ISO 639-2 letter code. Overrides Accept-Language header. Defaults to browser value. Default: en",
+                "default": "en"
+            }
+        },
+        "required": []
+    }
+}

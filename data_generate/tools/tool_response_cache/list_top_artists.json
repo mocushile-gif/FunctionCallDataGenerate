@@ -1,0 +1,45 @@
+{
+    "{'type': 'weekly', 'region': 'JP'}": {
+        "error": "",
+        "response": {
+            "chart": {
+                "type": "weekly",
+                "region": "JP",
+                "date": "2023-10-05",
+                "time_span": "2023-09-25 to 2023-10-01"
+            },
+            "artists": [
+                {
+                    "rank": 1,
+                    "name": "BTS",
+                    "streams": 1500000,
+                    "spotify_id": "3Nrfpe0tUJi4K4DXYWgMUX"
+                },
+                {
+                    "rank": 2,
+                    "name": "Taylor Swift",
+                    "streams": 1200000,
+                    "spotify_id": "06HL4z0CVf9kRUM1KHFdJL"
+                },
+                {
+                    "rank": 3,
+                    "name": " Kenshi Yonezu",
+                    "streams": 1100000,
+                    "spotify_id": "6mateHqY2v5ZB3UQ705hT7"
+                },
+                {
+                    "rank": 4,
+                    "name": "Ed Sheeran",
+                    "streams": 1050000,
+                    "spotify_id": "6eUKZXaKkcviH0Ku9w2n3V"
+                },
+                {
+                    "rank": 5,
+                    "name": "Imagine Dragons",
+                    "streams": 980000,
+                    "spotify_id": "3hpLzR15Gx5bar0D7Tnjkc"
+                }
+            ]
+        }
+    }
+}

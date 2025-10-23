@@ -1,0 +1,17 @@
+{
+    "name": "zip_code",
+    "description": "This is a sub-function API for tool us_zip_code_lookup.\nTool description: Find city, county, state, FIPS code, Time Zone and other information from a US Zip code.\nAPI description: Retrieves income-related data for a given US ZIP code using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zip": {
+                "type": "string",
+                "description": "The ZIP code for which to retrieve income-related data.",
+                "default": "02110"
+            }
+        },
+        "required": [
+            "zip"
+        ]
+    }
+}

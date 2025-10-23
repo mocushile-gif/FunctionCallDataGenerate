@@ -1,0 +1,38 @@
+{
+    "{\n\"code_com\": \"98810\"\n}": {
+        "error": "",
+        "response": "{\"province\":\"province Nord\",\"nom\":\"KAALA-GOMEN\",\"nomMinus\":\"Kaala-Gomen\",\"codeCom\":98810,\"codePost\":98817}"
+    },
+    "{'code_com': '98818'}": {
+        "error": "",
+        "response": {
+            "province": "province Sud",
+            "nom": "NOUMEA",
+            "nomMinus": "Noum\u00e9a",
+            "codeCom": 98818,
+            "codePost": 98800
+        }
+    },
+    "{'code_com': '98810'}": {
+        "error": "",
+        "response": "{'province': 'province Nord', 'nom': 'KAALA-GOMEN', 'nomMinus': 'Kaala-Gomen', 'codeCom': 98810, 'codePost': 98817}"
+    },
+    "{'code_com': '98826'}": {
+        "error": "",
+        "response": {
+            "province": "province Nord",
+            "nom": "POUM",
+            "nomMinus": "Poum",
+            "codeCom": 98826,
+            "codePost": 98826
+        }
+    },
+    "{'code_com': '98802'}": {
+        "error": "",
+        "response": "{'province': 'province Sud', 'nom': 'BOULOUPARIS', 'nomMinus': 'Boulouparis', 'codeCom': 98802, 'codePost': 98812}"
+    },
+    "{'code_com': '98800'}": {
+        "error": "",
+        "response": ""
+    }
+}

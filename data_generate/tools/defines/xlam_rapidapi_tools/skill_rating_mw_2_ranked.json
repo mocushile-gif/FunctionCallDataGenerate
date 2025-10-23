@@ -1,0 +1,15 @@
+{
+    "name": "skill_rating_mw_2_ranked",
+    "description": "This is a sub-function API for tool cod_api_2_0.\nTool description: Provides an easy access to the COD api leaderboard endpoints.\nAPI description: Fetches the Skill Ratings of the top players ranked in Modern Warfare 2 (MW 2) leaderboard.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "Maximum number of top-ranked players to retrieve, defaults to '250'. Must be a number between 1 and 250.",
+                "default": "250"
+            }
+        },
+        "required": []
+    }
+}

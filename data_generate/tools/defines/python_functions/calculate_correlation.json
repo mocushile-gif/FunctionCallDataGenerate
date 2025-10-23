@@ -1,0 +1,27 @@
+{
+    "name": "calculate_correlation",
+    "description": "Calculate the Pearson correlation coefficient between two datasets.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "The first dataset."
+            },
+            "y": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "The second dataset."
+            }
+        },
+        "required": [
+            "x",
+            "y"
+        ]
+    }
+}

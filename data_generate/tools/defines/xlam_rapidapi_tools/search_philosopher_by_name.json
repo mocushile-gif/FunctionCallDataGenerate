@@ -1,0 +1,15 @@
+{
+    "name": "search_philosopher_by_name",
+    "description": "This is a sub-function API for tool list_of_philosophers.\nTool description: With the Philosophers API, you can learn about philosophers such as Socrates, Plato, and Aristotle, as well as lesser-known but equally important thinkers. You can access information on the philosophies of these thinkers, as well as the historical context in which they lived.  This API is perfect for anyone looking to build applications centered around philosophy, history, or culture. Whether you're developing a website, a mobile app, or a game, the Philosophers API by Pizza API will provide ...\nAPI description: Searches for a philosopher by their name using the specified API key and returns the result.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the philosopher to search for. Defaults to 'Friedrich Nietzsche'.",
+                "default": "Friedrich Nietzsche"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "{'lon': -75.33299748, 'lat': 40.11043326}": {
+        "error": "",
+        "response": "{'coord': {'lon': -75.333, 'lat': 40.1104}, 'weather': [{'id': 802, 'main': 'Clouds', 'description': 'scattered clouds', 'icon': '03d'}], 'base': 'stations', 'main': {'temp': 283.87, 'feels_like': 283.03, 'temp_min': 282.69, 'temp_max': 285.01, 'pressure': 1007, 'humidity': 78, 'sea_level': 1007, 'grnd_level': 996}, 'visibility': 10000, 'wind': {'speed': 3.09, 'deg': 240}, 'clouds': {'all': 40}, 'dt': 1748775414, 'sys': {'type': 2, 'id': 2045972, 'country': 'US', 'sunrise': 1748770460, 'sunset': 1748823866}, 'timezone': -14400, 'id': 5181624, 'name': 'Bridgeport', 'cod': 200}"
+    },
+    "{'lat': -35.2809, 'lon': 149.13, 'units': 'metric'}": {
+        "error": "",
+        "response": "{'coord': {'lon': 149.13, 'lat': -35.2809}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 3.87, 'feels_like': 3.87, 'temp_min': 2.48, 'temp_max': 4.69, 'pressure': 1023, 'humidity': 94, 'sea_level': 1023, 'grnd_level': 945}, 'visibility': 10000, 'wind': {'speed': 0.1, 'deg': 29, 'gust': 0.18}, 'clouds': {'all': 100}, 'dt': 1748790302, 'sys': {'type': 2, 'id': 2084607, 'country': 'AU', 'sunrise': 1748811840, 'sunset': 1748847551}, 'timezone': 36000, 'id': 2172517, 'name': 'Canberra', 'cod': 200}"
+    },
+    "{'lat': 35.68, 'lon': 139.77, 'units': 'metric', 'lang': 'en'}": {
+        "error": "",
+        "response": "{'coord': {'lon': 139.77, 'lat': 35.68}, 'weather': [{'id': 502, 'main': 'Rain', 'description': 'heavy intensity rain', 'icon': '10d'}, {'id': 701, 'main': 'Mist', 'description': 'mist', 'icon': '50d'}], 'base': 'stations', 'main': {'temp': 18.25, 'feels_like': 18.59, 'temp_min': 17.24, 'temp_max': 18.83, 'pressure': 1000, 'humidity': 94, 'sea_level': 1000, 'grnd_level': 998}, 'visibility': 3500, 'wind': {'speed': 4.63, 'deg': 120}, 'rain': {'1h': 4.86}, 'clouds': {'all': 75}, 'dt': 1748930717, 'sys': {'type': 2, 'id': 268395, 'country': 'JP', 'sunrise': 1748892365, 'sunset': 1748944338}, 'timezone': 32400, 'id': 1857654, 'name': 'Marunouchi', 'cod': 200}"
+    },
+    "{'lat': 40.7128, 'lon': -74.006, 'units': 'metric'}": {
+        "error": "",
+        "response": "{'coord': {'lon': -74.006, 'lat': 40.7128}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 5.1, 'feels_like': 0.39, 'temp_min': 3.31, 'temp_max': 5.98, 'pressure': 1011, 'humidity': 68, 'sea_level': 1011, 'grnd_level': 1009}, 'visibility': 10000, 'wind': {'speed': 7.72, 'deg': 300, 'gust': 11.32}, 'clouds': {'all': 0}, 'dt': 1732863393, 'sys': {'type': 1, 'id': 4610, 'country': 'US', 'sunrise': 1732881560, 'sunset': 1732915807}, 'timezone': -18000, 'id': 5128581, 'name': 'New York', 'cod': 200}"
+    },
+    "{'lat': 34.0522, 'lon': -118.2437, 'units': 'metric'}": {
+        "error": "",
+        "response": "{'coord': {'lon': -118.2437, 'lat': 34.0522}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 16.16, 'feels_like': 16.13, 'temp_min': 15, 'temp_max': 17.97, 'pressure': 1013, 'humidity': 88, 'sea_level': 1013, 'grnd_level': 994}, 'visibility': 10000, 'wind': {'speed': 2.57, 'deg': 250}, 'clouds': {'all': 100}, 'dt': 1749535866, 'sys': {'type': 2, 'id': 2007097, 'country': 'US', 'sunrise': 1749472876, 'sunset': 1749524614}, 'timezone': -25200, 'id': 5368361, 'name': 'Los Angeles', 'cod': 200}"
+    },
+    "{'lat': 40.7128, 'lon': -74.006, 'units': 'imperial'}": {
+        "error": "",
+        "response": "{'coord': {'lon': -74.006, 'lat': 40.7128}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 69.12, 'feels_like': 69.73, 'temp_min': 65.37, 'temp_max': 71.35, 'pressure': 1013, 'humidity': 85, 'sea_level': 1013, 'grnd_level': 1013}, 'visibility': 10000, 'wind': {'speed': 5.01, 'deg': 165, 'gust': 8.99}, 'clouds': {'all': 0}, 'dt': 1749612279, 'sys': {'type': 2, 'id': 2008776, 'country': 'US', 'sunrise': 1749547477, 'sunset': 1749601599}, 'timezone': -14400, 'id': 5128581, 'name': 'New York', 'cod': 200}"
+    },
+    "{'lat': 34.0522, 'lon': -118.2437, 'units': 'imperial'}": {
+        "error": "",
+        "response": "{'coord': {'lon': -118.2437, 'lat': 34.0522}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 65.21, 'feels_like': 65.19, 'temp_min': 61.02, 'temp_max': 71.33, 'pressure': 1013, 'humidity': 80, 'sea_level': 1013, 'grnd_level': 993}, 'visibility': 10000, 'wind': {'speed': 11.5, 'deg': 230}, 'clouds': {'all': 100}, 'dt': 1749612365, 'sys': {'type': 2, 'id': 2034962, 'country': 'US', 'sunrise': 1749559272, 'sunset': 1749611041}, 'timezone': -25200, 'id': 5368361, 'name': 'Los Angeles', 'cod': 200}"
+    },
+    "{'lat': 35.6895, 'lon': 139.6917, 'units': 'metric', 'lang': 'en'}": {
+        "error": "",
+        "response": "{'coord': {'lon': 139.6899, 'lat': 35.6893}, 'weather': [{'id': 520, 'main': 'Rain', 'description': 'light intensity shower rain', 'icon': '09d'}], 'base': 'stations', 'main': {'temp': 20.37, 'feels_like': 20.89, 'temp_min': 19.77, 'temp_max': 21.45, 'pressure': 1009, 'humidity': 93, 'sea_level': 1009, 'grnd_level': 1007}, 'visibility': 8000, 'wind': {'speed': 4.63, 'deg': 50}, 'rain': {'1h': 0.87}, 'clouds': {'all': 75}, 'dt': 1749632103, 'sys': {'type': 2, 'id': 268395, 'country': 'JP', 'sunrise': 1749583499, 'sunset': 1749635812}, 'timezone': 32400, 'id': 1850144, 'name': 'Tokyo', 'cod': 200}"
+    },
+    "{'lon': 139.77, 'lat': 35.68, 'units': 'metric'}": {
+        "error": "",
+        "response": "{'coord': {'lon': 139.7666, 'lat': 35.6783}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': 22.67, 'feels_like': 23.06, 'temp_min': 21.66, 'temp_max': 23.28, 'pressure': 1017, 'humidity': 79, 'sea_level': 1017, 'grnd_level': 1015}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 170}, 'clouds': {'all': 75}, 'dt': 1749852718, 'sys': {'type': 2, 'id': 268395, 'country': 'JP', 'sunrise': 1749842678, 'sunset': 1749895067}, 'timezone': 32400, 'id': 1857654, 'name': 'Marunouchi', 'cod': 200}"
+    },
+    "{'lat': 40.7128, 'lon': -74.006, 'lang': 'en', 'units': 'metric'}": {
+        "error": "",
+        "response": "{'coord': {'lon': -74.006, 'lat': 40.7128}, 'weather': [{'id': 701, 'main': 'Mist', 'description': 'mist', 'icon': '50d'}], 'base': 'stations', 'main': {'temp': 16.92, 'feels_like': 16.97, 'temp_min': 16.08, 'temp_max': 18.03, 'pressure': 1018, 'humidity': 88, 'sea_level': 1018, 'grnd_level': 1017}, 'visibility': 8047, 'wind': {'speed': 6.26, 'deg': 60, 'gust': 10.28}, 'clouds': {'all': 100}, 'dt': 1749937348, 'sys': {'type': 2, 'id': 2008776, 'country': 'US', 'sunrise': 1749893060, 'sunset': 1749947310}, 'timezone': -14400, 'id': 5128581, 'name': 'New York', 'cod': 200}"
+    }
+}

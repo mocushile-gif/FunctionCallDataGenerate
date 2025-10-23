@@ -1,0 +1,35 @@
+{
+    "name": "get_cities_in_a_country",
+    "description": "This is a sub-function API for tool geoapi.\nTool description: APIs to get data based on city and countries name.\n- Get Country Details : Get country deatils with country name. Use prefix = true for prefix match.\n- Get Cities in a Country :  Get cities in a country wiht population minimum and maximum filter. \n- Get City Detail :  Get city details with city name.\nAPI description: Fetches a list of cities in a specified country filtered by population range, with options for pagination.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country_iso2": {
+                "type": "string",
+                "description": "The ISO 3166-1 alpha-2 code of the country."
+            },
+            "page_size": {
+                "type": "number",
+                "description": "The number of cities to return per page. Default is 20.",
+                "default": 20
+            },
+            "population_min": {
+                "type": "number",
+                "description": "The minimum population of the cities to include. Default is 0.",
+                "default": 0
+            },
+            "next_token": {
+                "type": "string",
+                "description": "Token for pagination to fetch the next set of cities. Default is None."
+            },
+            "population_max": {
+                "type": "number",
+                "description": "The maximum population of the cities to include. Default is 100,000,000.",
+                "default": 100000000
+            }
+        },
+        "required": [
+            "country_iso2"
+        ]
+    }
+}

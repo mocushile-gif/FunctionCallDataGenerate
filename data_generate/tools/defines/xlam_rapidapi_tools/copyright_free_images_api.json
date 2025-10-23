@@ -1,0 +1,17 @@
+{
+    "name": "copyright_free_images_api",
+    "description": "This is a sub-function API for tool free_images_api.\nTool description: this API provides copyright free images\nAPI description: in this API we  gathered best sources of free to use images, and we keep adding more sources.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "search": {
+                "type": "string",
+                "description": "The search term to query for free images.",
+                "default": "wallpaper"
+            }
+        },
+        "required": [
+            "search"
+        ]
+    }
+}

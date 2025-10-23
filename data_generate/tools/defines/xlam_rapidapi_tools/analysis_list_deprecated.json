@@ -1,0 +1,26 @@
+{
+    "name": "analysis_list_deprecated",
+    "description": "This is a sub-function API for tool seeking_alpha.\nTool description: Query for news, market moving, price quotes, chart, indices, analysis from investors and experts, etc...\nAPI description: Fetches a list of analyses for a specified financial symbol using the Seeking Alpha API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The symbol to query for data. Only one symbol is allowed at a time.",
+                "default": "aapl"
+            },
+            "size": {
+                "type": "number",
+                "description": "The number of items per response. Defaults to 20.",
+                "default": 20.0
+            },
+            "until": {
+                "type": "number",
+                "description": "The value used to load the next page of data. This corresponds to the value of meta/page/minmaxPublishOn/min in the JSON response."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

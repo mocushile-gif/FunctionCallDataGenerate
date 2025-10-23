@@ -1,0 +1,17 @@
+{
+    "name": "tirto_detail",
+    "description": "This is a sub-function API for tool indonesia_news.\nTool description: We are focused on delivering data from major news websites in Indonesia.\nAPI description: Fetch detailed information about a specific Tirto news article using its ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the Tirto news article to fetch details for.",
+                "default": 1253421.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

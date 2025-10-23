@@ -1,0 +1,16 @@
+{
+    "name": "vehicles_models",
+    "description": "This is a sub-function API for tool carbonsutra.\nTool description: Carbon Emission Estimations for Organizations.\nAPI description: List of Vehicle Models for a Make. A list of every make and model used by this API is at https://www.carbonsutra.com/data-vehicle-make-model.html",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vehicle_make": {
+                "type": "string",
+                "description": "The make of the vehicle to retrieve models for."
+            }
+        },
+        "required": [
+            "vehicle_make"
+        ]
+    }
+}

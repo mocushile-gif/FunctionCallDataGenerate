@@ -1,0 +1,20 @@
+{
+    "name": "getrandomarray",
+    "description": "This is a sub-function API for tool random_chunk_api.\nTool description: A simple random picker for names, movies, TV shows, quotes, and numbers. A simple JSON object, user object, and array generator.\nAPI description: Generate a random array with specified data type and size using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "data_type": {
+                "type": "string",
+                "description": "The type of data to include in the array. Options are 'string', 'number', 'mixed', etc. Default is 'string'.",
+                "default": "string"
+            },
+            "size": {
+                "type": "number",
+                "description": "The number of elements in the array. Default is 5.",
+                "default": 5.0
+            }
+        },
+        "required": []
+    }
+}

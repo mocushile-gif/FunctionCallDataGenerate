@@ -1,0 +1,26 @@
+{
+    "name": "availability",
+    "description": "This is a sub-function API for tool wayback_machine.\nTool description: The Internet Archive Wayback Machine supports a number of different APIs to make it easier for developers to retrieve information about Wayback capture data.\nAPI description: This simple API for Wayback is a test to see if a given url is archived and currenlty accessible in the Wayback Machine. This API is useful for providing a 404 or other error handler which checks Wayback to see if it has an archived copy ready to display. The API can be used as follows:",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL to check for availability in the Wayback Machine.",
+                "default": "http://mashape.com"
+            },
+            "timestamp": {
+                "type": "string",
+                "description": "The timestamp to look up in Wayback. If not specified, the most recent available capture is returned. The format of the timestamp is 1-14 digits (YYYYMMDDhhmmss). Defaults to '20090101'.",
+                "default": "20090101"
+            },
+            "callback": {
+                "type": "string",
+                "description": "callback is an optional callback which may be specified to produce a JSONP response."
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

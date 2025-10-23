@@ -1,0 +1,17 @@
+{
+    "name": "gettotalactivedays",
+    "description": "This is a sub-function API for tool leetcodeapi.\nTool description: The API fetches basic information of a LeetCode profile based on the provided username.\nAPI description: Fetch the total active days of the user in the current year from the LeetCode API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The username of the user whose active days are to be fetched.",
+                "default": "mujtabah258"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

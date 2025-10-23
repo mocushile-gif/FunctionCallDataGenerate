@@ -1,0 +1,17 @@
+{
+    "name": "random_skin_from_class",
+    "description": "This is a sub-function API for tool cs_skin_api.\nTool description: retrieve image, price, weapon, class for every released Skin in CS:GO or CS2\nAPI description: retrieve name, price, icon, class and weapon for a random counterstrike skin from a specific class \n(prices for field tested condition in USD)\n\n(replace class_name)\n\nExample: /api/randomclass/Rifle",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "class_name": {
+                "type": "string",
+                "description": "The class of Counter-Strike skin to retrieve, e.g., \"Rifle\".",
+                "default": "Knife"
+            }
+        },
+        "required": [
+            "class_name"
+        ]
+    }
+}

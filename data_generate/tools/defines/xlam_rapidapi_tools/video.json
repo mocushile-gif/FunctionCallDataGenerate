@@ -1,0 +1,17 @@
+{
+    "name": "video",
+    "description": "This is a sub-function API for tool simple_youtube_search.\nTool description: Simple api to make easy youtube searches for free.\nAPI description: Searches for a particular video on YouTube through the Simple YouTube Search API and returns the results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "search": {
+                "type": "string",
+                "description": "The search query string to find the video.",
+                "default": "https://www.youtube.com/watch?v=fBNz5xF-Kx4"
+            }
+        },
+        "required": [
+            "search"
+        ]
+    }
+}

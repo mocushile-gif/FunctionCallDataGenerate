@@ -1,0 +1,17 @@
+{
+    "name": "get_currency_by_name",
+    "description": "This is a sub-function API for tool cion_prices_api.\nTool description: An api showing current prices of coins \nAPI description: Fetches various states of a specific currency's prices from a given API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "coinid": {
+                "type": "string",
+                "description": "The identifier of the currency to fetch prices for.",
+                "default": "Bitcoin"
+            }
+        },
+        "required": [
+            "coinid"
+        ]
+    }
+}

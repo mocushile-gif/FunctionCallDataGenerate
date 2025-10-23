@@ -1,0 +1,28 @@
+{
+    "name": "originals_episodes_get_info",
+    "description": "This is a sub-function API for tool webtoon.\nTool description: This API provides the largest webcomics data in the world to create a comic site/application such as webtoons.com\nAPI description: Get episode and photo links\n*To load images, please check the tutorial at https://rapidapi.com/apidojo/api/webtoon/tutorials/how-to-load-images",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "episodeno": {
+                "type": "number",
+                "description": "The episode number. It corresponds to the `episodeNo` field returned by the `/originals/episodes/list` endpoint.",
+                "default": 1.0
+            },
+            "titleno": {
+                "type": "number",
+                "description": "The title number. It corresponds to the `titleNo` field returned by the `/originals/titles/list` or `/originals/titles/list-by-rank` endpoint.",
+                "default": 2113.0
+            },
+            "language": {
+                "type": "string",
+                "description": "The language code for the response. Defaults to 'en'. Accepted values are 'en', 'zh-hant', 'de', 'fr', 'es', 'th', 'id'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "episodeno",
+            "titleno"
+        ]
+    }
+}

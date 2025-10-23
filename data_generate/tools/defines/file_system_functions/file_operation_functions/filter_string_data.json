@@ -1,0 +1,46 @@
+{
+  "name": "filter_string_data",
+  "description": "Filter rows from an Excel or CSV file based on one or more string-matching conditions applied to a string column.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "file_path": {
+        "type": "string",
+        "description": "Path to the Excel or CSV file."
+      },
+      "sheet_name": {
+        "type": ["string", "integer"],
+        "description": "Name or index of the Excel sheet to read. Ignored for CSV files.",
+        "default": 0
+      },
+      "column_name": {
+        "type": "string",
+        "description": "The string column on which to apply the filtering conditions."
+      },
+      "thresholds": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "List of threshold values to match against the column."
+      },
+      "conditions": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": ["equal_to", "not_equal_to", "contains", "starts_with", "ends_with"]
+        },
+        "description": "List of conditions to apply to each threshold. Must match the length of thresholds."
+      },
+      "logical_operator": {
+        "type": "string",
+        "enum": ["and", "or"],
+        "description": "Logical operator used to combine multiple filter conditions.",
+        "default": "or"
+      },
+      "save_as": {
+        "type": "string",
+        "description": "Optional path to save the filtered results as a .csv or .xlsx file."
+      }
+    },
+    "required": ["file_path", "column_name", "thresholds"]
+  }
+}

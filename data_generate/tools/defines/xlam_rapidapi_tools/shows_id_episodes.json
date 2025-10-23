@@ -1,0 +1,48 @@
+{
+    "name": "shows_id_episodes",
+    "description": "This is a sub-function API for tool streamlinewatch_streaming_guide.\nTool description: StreamlineWatch's streaming guide APIs for Movies and Shows\nAPI description: Retrieve a list of episodes for a specific show from the given platform.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "platform": {
+                "type": "string",
+                "description": "Retrieve sources from the specified platform.\n*required, possible values: ios, android, androidtv, web*",
+                "default": "ios"
+            },
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the show.",
+                "default": 82856.0
+            },
+            "offset": {
+                "type": "number",
+                "description": "The number of records to skip in the results. Default is 0.",
+                "default": 0.0
+            },
+            "region": {
+                "type": "string",
+                "description": "The region to filter the episodes by (e.g., 'US', 'FR'). Default is 'US'.",
+                "default": "US"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of records to return per request, with a maximum of 100. Default is 25.",
+                "default": 25.0
+            },
+            "sort": {
+                "type": "string",
+                "description": "Sort the records in regular order or reverse order to get most recent episodes first.\n*optional, default: regular*\n*possible values: regular, reverse*",
+                "default": "regular"
+            },
+            "season": {
+                "type": "number",
+                "description": "The specific season for which to retrieve episodes. If not specified, episodes from all seasons will be retrieved. Default is 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "platform",
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "get_other_position",
+    "description": "This is a sub-function API for tool binance_futures_leaderboard.\nTool description: Binance Futures Leaderboard API is an API for querying the leaderboard of the Binance Futures Exchange.\n\nAny questions or issues please contact me on Telegram:  [@DevNullZer0](https://t.me/devnullzer0) or via [devnullzer0@proton.me](mailto:devnullzer0@proton.me)\nAPI description: Retrieves the open positions for a trader from the Binance futures leaderboard.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "encrypteduid": {
+                "type": "string",
+                "description": "The encrypted UID of the trader whose open positions are to be retrieved."
+            },
+            "tradetype": {
+                "type": "string",
+                "description": "The type of trade to search for. Options are \"PERPETUAL\" (USDⓈ-M) and \"DELIVERY\" (COIN-M). Defaults to None.",
+                "enum": [
+                    "PERPETUAL",
+                    "DELIVERY"
+                ]
+            }
+        },
+        "required": [
+            "encrypteduid"
+        ]
+    }
+}

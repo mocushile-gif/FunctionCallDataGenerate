@@ -1,0 +1,17 @@
+{
+    "name": "rapidapigethourlyforecastbylocationname",
+    "description": "This is a sub-function API for tool forecast.\nTool description: Get 16 days weather forecast data - worldwide - geographical coordinates...\nAPI description: Fetches the hourly weather forecast for a given location using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "locationname": {
+                "type": "string",
+                "description": "The name of the location for which to retrieve the hourly weather forecast.",
+                "default": "Berlin"
+            }
+        },
+        "required": [
+            "locationname"
+        ]
+    }
+}

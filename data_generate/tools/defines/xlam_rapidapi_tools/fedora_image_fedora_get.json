@@ -1,0 +1,16 @@
+{
+    "name": "fedora_image_fedora_get",
+    "description": "This is a sub-function API for tool image.\nTool description: a powerful and fast Image manipulation. Perfect for discord bots or web apps. https://dagpi.xyz\nAPI description: Fetches data from the Fedora image API using the given URL and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the image to be fetched."
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

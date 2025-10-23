@@ -1,0 +1,15 @@
+{
+    "name": "search_manga",
+    "description": "This is a sub-function API for tool mangaverse_api.\nTool description: Unleash the World of Manga with MangaVerse API!  Discover a captivating universe of manga from Japan, Korea, and China, all conveniently translated into English. \nAPI description: Fetch manga base on the text, text will be include from title and sub title",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to search for in manga titles and subtitles. Defaults to 'isekai'.",
+                "default": "isekai"
+            }
+        },
+        "required": []
+    }
+}

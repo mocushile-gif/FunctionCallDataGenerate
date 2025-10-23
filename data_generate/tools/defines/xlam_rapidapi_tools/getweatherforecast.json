@@ -1,0 +1,22 @@
+{
+    "name": "getweatherforecast",
+    "description": "This is a sub-function API for tool apjoy_weather_forecast.\nTool description: APJOY-Weather Forecast is a comprehensive and reliable weather forecasting API tailored for your location. Access real-time data, including temperature, humidity, wind speed, and precipitation, as well as short-term and long-term forecasts. Plan your day effortlessly with hourly updates and stay ahead with our 7-day and 14-day predictions. Ideal for developers and businesses in sectors like travel, agriculture, event planning, and more. Enhance your applications and services with accurate, lo...\nAPI description: This endpoint provides weather forecast information based on the user's location. It returns the current weather conditions, daily forecasts, and additional weather data, such as temperature, humidity, and wind speed. The data is sourced from OpenWeatherMap, ensuring accurate and reliable information.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The name of the city or location for which to retrieve the weather forecast.",
+                "default": "London"
+            },
+            "days": {
+                "type": "number",
+                "description": "The number of days of forecast data to retrieve. Defaults to 3. The range of days is from 1 to 16.",
+                "default": 3.0
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

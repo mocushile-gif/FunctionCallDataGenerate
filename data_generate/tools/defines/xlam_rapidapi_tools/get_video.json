@@ -1,0 +1,16 @@
+{
+    "name": "get_video",
+    "description": "This is a sub-function API for tool playphrase_me.\nTool description: Playphrase.me API is a powerful tool that allows developers to integrate an extensive database of movie and TV show quotes into their applications. With a simple REST API interface, developers can access thousands of popular quotes and phrases from movies and TV shows, making it easy to add humor, context, or references to their applications. Playphrase.me API is perfect for developers looking to add a touch of pop culture to their applications.\nAPI description: Fetches video data using a query string from the Playphrase API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search query string."
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

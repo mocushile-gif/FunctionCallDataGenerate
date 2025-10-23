@@ -1,0 +1,117 @@
+{
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'trends': {'current_month': {'strong_buy': 11, 'buy': 21, 'hold': 6, 'sell': 0, 'strong_sell': 0}, 'previous_month': {'strong_buy': 10, 'buy': 24, 'hold': 7, 'sell': 1, 'strong_sell': 0}, '2_months_ago': {'strong_buy': 10, 'buy': 24, 'hold': 7, 'sell': 1, 'strong_sell': 0}, '3_months_ago': {'strong_buy': 10, 'buy': 24, 'hold': 7, 'sell': 1, 'strong_sell': 0}}, 'rating': 8, 'status': 'ok'}"
+    },
+    "{'symbol': 'AAPL', 'exchange': 'NASDAQ', 'country': 'US'}": {
+        "error": "",
+        "response": {
+            "trends": {
+                "current_month": {
+                    "strong_buy": 11,
+                    "buy": 21,
+                    "hold": 6,
+                    "sell": 0,
+                    "strong_sell": 0
+                },
+                "previous_month": {
+                    "strong_buy": 10,
+                    "buy": 20,
+                    "hold": 10,
+                    "sell": 1,
+                    "strong_sell": 0
+                },
+                "2_months_ago": {
+                    "strong_buy": 10,
+                    "buy": 20,
+                    "hold": 10,
+                    "sell": 1,
+                    "strong_sell": 0
+                },
+                "3_months_ago": {
+                    "strong_buy": 10,
+                    "buy": 24,
+                    "hold": 7,
+                    "sell": 1,
+                    "strong_sell": 0
+                }
+            },
+            "rating": 8,
+            "status": "ok"
+        }
+    },
+    "{'symbol': 'AAPL', 'exchange': 'NASDAQ'}": {
+        "error": "",
+        "response": {
+            "trends": {
+                "current_month": {
+                    "strong_buy": 11,
+                    "buy": 21,
+                    "hold": 6,
+                    "sell": 0,
+                    "strong_sell": 0
+                },
+                "previous_month": {
+                    "strong_buy": 10,
+                    "buy": 20,
+                    "hold": 10,
+                    "sell": 1,
+                    "strong_sell": 0
+                },
+                "2_months_ago": {
+                    "strong_buy": 10,
+                    "buy": 20,
+                    "hold": 10,
+                    "sell": 1,
+                    "strong_sell": 0
+                },
+                "3_months_ago": {
+                    "strong_buy": 10,
+                    "buy": 24,
+                    "hold": 7,
+                    "sell": 1,
+                    "strong_sell": 0
+                }
+            },
+            "rating": 8,
+            "status": "ok"
+        }
+    },
+    "{'symbol': 'TSLA'}": {
+        "error": "",
+        "response": {
+            "trends": {
+                "current_month": {
+                    "strong_buy": 15,
+                    "buy": 18,
+                    "hold": 8,
+                    "sell": 2,
+                    "strong_sell": 1
+                },
+                "previous_month": {
+                    "strong_buy": 14,
+                    "buy": 20,
+                    "hold": 7,
+                    "sell": 3,
+                    "strong_sell": 1
+                },
+                "2_months_ago": {
+                    "strong_buy": 13,
+                    "buy": 19,
+                    "hold": 9,
+                    "sell": 2,
+                    "strong_sell": 1
+                },
+                "3_months_ago": {
+                    "strong_buy": 12,
+                    "buy": 22,
+                    "hold": 6,
+                    "sell": 3,
+                    "strong_sell": 1
+                }
+            },
+            "rating": 7.5,
+            "status": "ok"
+        }
+    }
+}

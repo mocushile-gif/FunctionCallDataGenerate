@@ -1,0 +1,16 @@
+{
+    "name": "double_name_medium",
+    "description": "This is a sub-function API for tool nameforge.\nTool description: Unleash your imagination and create any name you can dream up. Generate unique names for children, companies, characters, and usernames, literally anything using descriptive queries. The possibilities are endless - see where your creativity takes you!\nAPI description: Generates a medium double name based on the provided query string.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The query string for generating the double name. Maximum length is 50 characters."
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

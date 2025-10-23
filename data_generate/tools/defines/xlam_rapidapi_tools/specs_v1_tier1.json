@@ -1,0 +1,42 @@
+{
+    "name": "specs_v1_tier1",
+    "description": "This is a sub-function API for tool datamo.\nTool description: Datamo is a RESTful API that provides extensive electric and combustion vehicle specification data.\nAPI description: Pull requested vehicle data for specific field parameters. Tier 1 allows the following to be queried by:  \n1. make\n2. model\n\nAt least one query parameter is required for a successful call.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "make": {
+                "type": "string",
+                "description": "At least 1 query parameter is required to make a successful call. For purpose of testing through the RapidAPI interface, this is required. Normally, only one of any additional query parameters is required. i.e. make, model, engineType, ...",
+                "default": "Tesla"
+            },
+            "sortby": {
+                "type": "string",
+                "description": "The field you would like to sort by."
+            },
+            "order": {
+                "type": "string",
+                "description": "The sort order of the specified field."
+            },
+            "model": {
+                "type": "string",
+                "description": "At least 1 query parameter is required to make a successful call.",
+                "default": "Model 3"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page of data returned, starting with index 1 (Default 1)"
+            },
+            "per_page": {
+                "type": "number",
+                "description": "The number of entries returned per query. The default is 10 per page. The max per page is 250. "
+            },
+            "fields": {
+                "type": "string",
+                "description": "Over 100+ returnable fields including: make, model, engineType, bodyType, msrp, etc. See the Datamo website for a full list. Leave blank to return all fields."
+            }
+        },
+        "required": [
+            "make"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_exercise_by_id",
+    "description": "This is a sub-function API for tool musclewiki.\nTool description: The API provides information about exercises from MuscleWiki, including the name, category, target muscles,instructions for performing the exercise and a short video demonstration.\nAPI description: Fetches an exercise from the MuscleWiki API using the provided exercise ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the exercise to fetch.",
+                "default": "20"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

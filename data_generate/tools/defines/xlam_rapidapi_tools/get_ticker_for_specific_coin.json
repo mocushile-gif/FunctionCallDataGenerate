@@ -1,0 +1,17 @@
+{
+    "name": "get_ticker_for_specific_coin",
+    "description": "This is a sub-function API for tool coinlore_cryptocurrency.\nTool description: Provides cryptocurrency prices,exchanges,markets api\nAPI description: Retrieves the ticker information for a specific cryptocurrency coin using the Coinlore API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the specific cryptocurrency coin for which the ticker information is to be retrieved.",
+                "default": 90.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

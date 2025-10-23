@@ -1,0 +1,36 @@
+{
+    "{'interval': '5m', 'symbol': 'BTCUSDT', 'starttime': '2025-05-31T00:00:00Z', 'endtime': '2025-06-01T00:00:00Z'}": {
+        "error": "",
+        "response": {
+            "symbol": "BTCUSDT",
+            "interval": "5m",
+            "data": [
+                {
+                    "open_time": 1717123200000,
+                    "open": "61000.5",
+                    "high": "61200.3",
+                    "low": "60900.1",
+                    "close": "61150.7",
+                    "volume": "12.45",
+                    "close_time": 1717123500000,
+                    "quote_volume": "762,345.89"
+                },
+                {
+                    "open_time": 1717123500000,
+                    "open": "61150.7",
+                    "high": "61350.2",
+                    "low": "61050.4",
+                    "close": "61280.9",
+                    "volume": "9.87",
+                    "close_time": 1717123800000,
+                    "quote_volume": "605,432.10"
+                }
+            ],
+            "time_range": {
+                "start": "2025-05-31T00:00:00Z",
+                "end": "2025-06-01T00:00:00Z"
+            },
+            "total_candles": 288
+        }
+    }
+}

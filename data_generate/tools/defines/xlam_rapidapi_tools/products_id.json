@@ -1,0 +1,63 @@
+{
+    "name": "products_id",
+    "description": "This is a sub-function API for tool aliexpress_unofficial.\nTool description: DEPRECATED. Will deleted after 2023-03-01\nAPI description: Fetches product information from AliExpress using the given product ID and various optional filters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The unique identifier for the product on AliExpress.",
+                "default": 200000783.0
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for paginated results. Default is 1.",
+                "default": 1
+            },
+            "currency": {
+                "type": "string",
+                "description": "The currency code to use for the prices."
+            },
+            "sort": {
+                "type": "string",
+                "description": "The sorting order for the search results."
+            },
+            "pricemax": {
+                "type": "number",
+                "description": "The maximum price limit for filtering. Default is 100.",
+                "default": 100
+            },
+            "country": {
+                "type": "string",
+                "description": "The country code for filtering the products based on shipping."
+            },
+            "pricemin": {
+                "type": "number",
+                "description": "The minimum price limit for filtering. Default is 20.",
+                "default": 20
+            },
+            "issale": {
+                "type": "boolean",
+                "description": "Filter to show only products on sale.",
+                "default": false
+            },
+            "locale": {
+                "type": "string",
+                "description": "The locale code for the results."
+            },
+            "isfreeship": {
+                "type": "boolean",
+                "description": "Filter to show only products with free shipping.",
+                "default": false
+            },
+            "isfavorite": {
+                "type": "boolean",
+                "description": "Filter to show only favorite products.",
+                "default": false
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

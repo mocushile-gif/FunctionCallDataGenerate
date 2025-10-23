@@ -1,0 +1,17 @@
+{
+    "name": "all_keto_recipes_by_category",
+    "description": "This is a sub-function API for tool keto_diet.\nTool description: Dataset of over 450 Ketogenic diet recipes in over 10 categories from Breakfast to Dinner.  Check out encurate.app to manage content on your mobile apps. Contact to feature your app on encurate.app website.\nAPI description: Fetches all keto recipes by category ID from the Keto Diet API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "number",
+                "description": "The ID of the recipe category to fetch.",
+                "default": 2.0
+            }
+        },
+        "required": [
+            "category"
+        ]
+    }
+}

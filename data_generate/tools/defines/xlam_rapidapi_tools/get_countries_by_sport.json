@@ -1,0 +1,17 @@
+{
+    "name": "get_countries_by_sport",
+    "description": "This is a sub-function API for tool viperscore.\nTool description: ViperScore is the cheapest sports API for all hobby and business projects with over 25 endpoints, 20+ sports and 5100+ leagues! We serve comprehensive data blazing fast with a clear structure and a well thought out scheme. You get the best live results and fast information for every game and we constantly develop the API further and include more data.\nAPI description: With \"Get countries by sport\" you'll receive all countries with specific sport ids which ever supports the sport you've searched.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sport": {
+                "type": "string",
+                "description": "The name or ID of the sport for which to retrieve supporting countries.",
+                "default": "ice-hockey"
+            }
+        },
+        "required": [
+            "sport"
+        ]
+    }
+}

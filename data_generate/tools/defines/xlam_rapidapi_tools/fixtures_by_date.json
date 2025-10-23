@@ -1,0 +1,17 @@
+{
+    "name": "fixtures_by_date",
+    "description": "This is a sub-function API for tool football_pro.\nTool description: -SportMonks API- Looking for better and reliable Football Data? More Leagues(1.000+)? Faster Livescores (>15 faster)? And more available Odds and Stats? Check https://sportmonks.com/football-api  With this SportMonks Football Pro API we offer 900+ Leagues and the fastest real-time Livescores in the market with a rich set of other features like (live)Odds, Statistics, Line-ups, Standings and many more features. For example our Livescores are often faster than TV and often >15 seconds(!!) faste...\nAPI description: The Fixture endpoint provides information about Games in particular Leagues. With this endpoint you can get the fixtures by Date. | Popular includes: localTeam,visitorTeam,events",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve fixtures and results, in the format 'YYYY-MM-DD'. Defaults to '2023-02-04' if not provided.",
+                "default": "2020-1-12"
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

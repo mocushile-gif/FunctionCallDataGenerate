@@ -1,0 +1,31 @@
+{
+    "name": "calculate_bernoulli_pressure",
+    "description": "Calculates the pressure of a fluid using Bernoulli\"s equation, which relates the pressure, velocity, and height of a fluid in a streamline.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "velocity": {
+                "type": "number",
+                "description": "The velocity of the fluid (m/s)."
+            },
+            "height": {
+                "type": "number",
+                "description": "The height of the fluid (m)."
+            },
+            "density": {
+                "type": "number",
+                "description": "The density of the fluid (kg/m³)."
+            },
+            "pressure_1": {
+                "type": "number",
+                "description": "The pressure at the first point (Pascal, optional, defaults to standard atmospheric pressure).",
+                "default": 101325
+            }
+        },
+        "required": [
+            "velocity",
+            "height",
+            "density"
+        ]
+    }
+}

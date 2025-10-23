@@ -1,0 +1,262 @@
+{
+    "{}": {
+        "error": "",
+        "response": [
+            {
+                "Collection": "LIDC-IDRI"
+            },
+            {
+                "Collection": "BREAST-DIAGNOSIS"
+            },
+            {
+                "Collection": "PROSTATE-MRI"
+            },
+            {
+                "Collection": "PROSTATE-DIAGNOSIS"
+            },
+            {
+                "Collection": "NaF PROSTATE"
+            },
+            {
+                "Collection": "CT COLONOGRAPHY"
+            },
+            {
+                "Collection": "RIDER Breast MRI"
+            },
+            {
+                "Collection": "RIDER Lung CT"
+            },
+            {
+                "Collection": "RIDER PHANTOM MRI"
+            },
+            {
+                "Collection": "RIDER PHANTOM PET-CT"
+            },
+            {
+                "Collection": "RIDER Lung PET-CT"
+            },
+            {
+                "Collection": "QIBA CT-1C"
+            },
+            {
+                "Collection": "Phantom FDA"
+            },
+            {
+                "Collection": "TCGA-BRCA"
+            },
+            {
+                "Collection": "QIN-BREAST"
+            },
+            {
+                "Collection": "TCGA-KIRC"
+            },
+            {
+                "Collection": "TCGA-LUAD"
+            },
+            {
+                "Collection": "Prostate-3T"
+            },
+            {
+                "Collection": "TCGA-PRAD"
+            },
+            {
+                "Collection": "NSCLC Radiogenomics"
+            },
+            {
+                "Collection": "TCGA-LIHC"
+            },
+            {
+                "Collection": "TCGA-KIRP"
+            },
+            {
+                "Collection": "TCGA-OV"
+            },
+            {
+                "Collection": "TCGA-KICH"
+            },
+            {
+                "Collection": "TCGA-BLCA"
+            },
+            {
+                "Collection": "TCGA-LUSC"
+            },
+            {
+                "Collection": "TCGA-COAD"
+            },
+            {
+                "Collection": "TCGA-THCA"
+            },
+            {
+                "Collection": "TCGA-READ"
+            },
+            {
+                "Collection": "NSCLC-Radiomics-Genomics"
+            },
+            {
+                "Collection": "Lung Phantom"
+            },
+            {
+                "Collection": "NSCLC-Radiomics"
+            },
+            {
+                "Collection": "QIN Breast DCE-MRI"
+            },
+            {
+                "Collection": "QIN PET Phantom"
+            },
+            {
+                "Collection": "ISPY1"
+            },
+            {
+                "Collection": "TCGA-UCEC"
+            },
+            {
+                "Collection": "SPIE-AAPM Lung CT Challenge"
+            },
+            {
+                "Collection": "TCGA-ESCA"
+            },
+            {
+                "Collection": "TCGA-STAD"
+            },
+            {
+                "Collection": "TCGA-CESC"
+            },
+            {
+                "Collection": "QIN LUNG CT"
+            },
+            {
+                "Collection": "TCGA-SARC"
+            },
+            {
+                "Collection": "LungCT-Diagnosis"
+            },
+            {
+                "Collection": "CT Lymph Nodes"
+            },
+            {
+                "Collection": "Mouse-Astrocytoma"
+            },
+            {
+                "Collection": "Mouse-Mammary"
+            },
+            {
+                "Collection": "Prostate Fused-MRI-Pathology"
+            },
+            {
+                "Collection": "Soft-tissue-Sarcoma"
+            },
+            {
+                "Collection": "4D-Lung"
+            },
+            {
+                "Collection": "Breast-MRI-NACT-Pilot"
+            },
+            {
+                "Collection": "Pancreas-CT"
+            },
+            {
+                "Collection": "CBIS-DDSM"
+            },
+            {
+                "Collection": "PROSTATEx"
+            },
+            {
+                "Collection": "LCTSC"
+            },
+            {
+                "Collection": "CC-Radiomics-Phantom"
+            },
+            {
+                "Collection": "ACRIN-FLT-Breast"
+            },
+            {
+                "Collection": "CPTAC-PDA"
+            },
+            {
+                "Collection": "CPTAC-UCEC"
+            },
+            {
+                "Collection": "CPTAC-CCRCC"
+            },
+            {
+                "Collection": "CPTAC-LUAD"
+            },
+            {
+                "Collection": "CPTAC-LSCC"
+            },
+            {
+                "Collection": "CPTAC-CM"
+            },
+            {
+                "Collection": "QIN-PROSTATE-Repeatability"
+            },
+            {
+                "Collection": "APOLLO"
+            },
+            {
+                "Collection": "Lung-Fused-CT-Pathology"
+            },
+            {
+                "Collection": "Anti-PD-1_Lung"
+            },
+            {
+                "Collection": "ACRIN-NSCLC-FDG-PET"
+            },
+            {
+                "Collection": "CC-Radiomics-Phantom-2"
+            },
+            {
+                "Collection": "VICTRE"
+            },
+            {
+                "Collection": "CC-Radiomics-Phantom-3"
+            },
+            {
+                "Collection": "NSCLC-Radiomics-Interobserver1"
+            },
+            {
+                "Collection": "CPTAC-SAR"
+            },
+            {
+                "Collection": "C4KC-KiTS"
+            },
+            {
+                "Collection": "Lung-PET-CT-Dx"
+            },
+            {
+                "Collection": "PDMR-BL0293-F563"
+            },
+            {
+                "Collection": "Pelvic-Reference-Data"
+            },
+            {
+                "Collection": "PDMR-292921-168-R"
+            },
+            {
+                "Collection": "GBM-DSC-MRI-DRO"
+            },
+            {
+                "Collection": "Prostate-MRI-US-Biopsy"
+            },
+            {
+                "Collection": "DRO-Toolkit"
+            },
+            {
+                "Collection": "COVID-19-AR"
+            }
+        ]
+    },
+    "{'format': 'JSON'}": {
+        "error": "",
+        "response": "[{'Collection': 'LIDC-IDRI'}, {'Collection': 'BREAST-DIAGNOSIS'}, {'Collection': 'PROSTATE-MRI'}, {'Collection': 'QIN-BREAST'}, {'Collection': 'PROSTATE-DIAGNOSIS'}, {'Collection': 'NaF PROSTATE'}, {'Collection': 'TCGA-BRCA'}, {'Collection': 'Phantom FDA'}, {'Collection': 'CT COLONOGRAPHY'}, {'Collection': 'RIDER Breast MRI'}, {'Collection': 'RIDER Lung CT'}, {'Collection': 'RIDER Lung PET-CT'}, {'Collection': 'RIDER PHANTOM MRI'}, {'Collection': 'RIDER PHANTOM PET-CT'}, {'Collection': 'QIBA CT-1C'}, {'Collection': 'TCGA-KIRC'}, {'Collection': 'TCGA-LUAD'}, {'Collection': 'TCGA-PRAD'}, {'Collection': 'Prostate-3T'}, {'Collection': 'NSCLC Radiogenomics'}, {'Collection': 'TCGA-OV'}, {'Collection': 'TCGA-LIHC'}, {'Collection': 'TCGA-KIRP'}, {'Collection': 'ISPY1'}, {'Collection': 'TCGA-KICH'}, {'Collection': 'TCGA-LUSC'}, {'Collection': 'TCGA-BLCA'}, {'Collection': 'TCGA-COAD'}, {'Collection': 'TCGA-READ'}, {'Collection': 'TCGA-THCA'}, {'Collection': 'TCGA-UCEC'}, {'Collection': 'TCGA-SARC'}, {'Collection': 'NSCLC-Radiomics-Genomics'}, {'Collection': 'Lung Phantom'}, {'Collection': 'NSCLC-Radiomics'}, {'Collection': 'QIN Breast DCE-MRI'}, {'Collection': 'TCGA-STAD'}, {'Collection': 'TCGA-ESCA'}, {'Collection': 'QIN PET Phantom'}, {'Collection': 'SPIE-AAPM Lung CT Challenge'}, {'Collection': 'TCGA-CESC'}, {'Collection': 'QIN LUNG CT'}, {'Collection': 'LungCT-Diagnosis'}, {'Collection': 'CT Lymph Nodes'}, {'Collection': 'Mouse-Astrocytoma'}, {'Collection': 'Mouse-Mammary'}, {'Collection': 'Prostate Fused-MRI-Pathology'}, {'Collection': 'Soft-tissue-Sarcoma'}, {'Collection': '4D-Lung'}, {'Collection': 'Breast-MRI-NACT-Pilot'}, {'Collection': 'Pancreas-CT'}, {'Collection': 'CBIS-DDSM'}, {'Collection': 'PROSTATEx'}, {'Collection': 'CC-Radiomics-Phantom'}, {'Collection': 'CPTAC-UCEC'}, {'Collection': 'CPTAC-CCRCC'}, {'Collection': 'CPTAC-LUAD'}, {'Collection': 'LCTSC'}, {'Collection': 'ACRIN-FLT-Breast'}, {'Collection': 'CPTAC-CM'}, {'Collection': 'CPTAC-LSCC'}, {'Collection': 'CPTAC-PDA'}, {'Collection': 'CPTAC-SAR'}, {'"
+    },
+    "{'format': 'XML'}": {
+        "error": "",
+        "response": "<Results>\n<Row>\n<Collection type='VARCHAR' >LIDC-IDRI</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >BREAST-DIAGNOSIS</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >PROSTATE-MRI</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >PROSTATE-DIAGNOSIS</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >NaF PROSTATE</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >CT COLONOGRAPHY</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >RIDER Breast MRI</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >RIDER Lung CT</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >RIDER PHANTOM MRI</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >RIDER PHANTOM PET-CT</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >RIDER Lung PET-CT</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >QIBA CT-1C</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >Phantom FDA</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >TCGA-BRCA</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >QIN-BREAST</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >TCGA-KIRC</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >TCGA-LUAD</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >Prostate-3T</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >TCGA-PRAD</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >NSCLC Radiogenomics</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >TCGA-LIHC</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >TCGA-KIRP</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >TCGA-OV</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >TCGA-KICH</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >TCGA-BLCA</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >TCGA-LUSC</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >TCGA-COAD</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >TCGA-THCA</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >TCGA-READ</Collection>\n</Row>\n<Row>\n<Collection type='VARCHAR' >NSCLC-Radiomics-Genomics</Collection>\n</Row>\n<Row>\n<Collection type="
+    },
+    "{'format': 'CSV'}": {
+        "error": "",
+        "response": "Collection\n\"LIDC-IDRI\"\n\"BREAST-DIAGNOSIS\"\n\"PROSTATE-MRI\"\n\"QIN-BREAST\"\n\"PROSTATE-DIAGNOSIS\"\n\"NaF PROSTATE\"\n\"TCGA-BRCA\"\n\"Phantom FDA\"\n\"CT COLONOGRAPHY\"\n\"RIDER Breast MRI\"\n\"RIDER Lung CT\"\n\"RIDER Lung PET-CT\"\n\"RIDER PHANTOM MRI\"\n\"RIDER PHANTOM PET-CT\"\n\"QIBA CT-1C\"\n\"TCGA-KIRC\"\n\"TCGA-LUAD\"\n\"TCGA-PRAD\"\n\"Prostate-3T\"\n\"NSCLC Radiogenomics\"\n\"TCGA-OV\"\n\"TCGA-LIHC\"\n\"TCGA-KIRP\"\n\"ISPY1\"\n\"TCGA-KICH\"\n\"TCGA-LUSC\"\n\"TCGA-BLCA\"\n\"TCGA-COAD\"\n\"TCGA-READ\"\n\"TCGA-THCA\"\n\"TCGA-UCEC\"\n\"TCGA-SARC\"\n\"NSCLC-Radiomics-Genomics\"\n\"Lung Phantom\"\n\"NSCLC-Radiomics\"\n\"QIN Breast DCE-MRI\"\n\"TCGA-STAD\"\n\"TCGA-ESCA\"\n\"QIN PET Phantom\"\n\"SPIE-AAPM Lung CT Challenge\"\n\"TCGA-CESC\"\n\"QIN LUNG CT\"\n\"LungCT-Diagnosis\"\n\"CT Lymph Nodes\"\n\"Mouse-Astrocytoma\"\n\"Mouse-Mammary\"\n\"Prostate Fused-MRI-Pathology\"\n\"Soft-tissue-Sarcoma\"\n\"4D-Lung\"\n\"Breast-MRI-NACT-Pilot\"\n\"Pancreas-CT\"\n\"CBIS-DDSM\"\n\"PROSTATEx\"\n\"CC-Radiomics-Phantom\"\n\"CPTAC-UCEC\"\n\"CPTAC-CCRCC\"\n\"CPTAC-LUAD\"\n\"LCTSC\"\n\"ACRIN-FLT-Breast\"\n\"CPTAC-CM\"\n\"CPTAC-LSCC\"\n\"CPTAC-PDA\"\n\"CPTAC-SAR\"\n\"QIN-PROSTATE-Repeatability\"\n\"APOLLO\"\n\"Lung-Fused-CT-Pathology\"\n\"Anti-PD-1_Lung\"\n\"ACRIN-NSCLC-FDG-PET\"\n\"CC-Radiomics-Phantom-2\"\n\"CC-Radiomics-Phantom-3\"\n\"VICTRE\"\n\"NSCLC-Radiomics-Interobserver1\"\n\"C4KC-KiTS\"\n\"Lung-PET-CT-Dx\"\n\"Pelvic-Reference-Data\"\n\"PDMR-BL0293-F563\"\n\"GBM-DSC-MRI-DRO\"\n\"PDMR-292921-168-R\"\n\"Prostate-MRI-US-Biopsy\"\n\"DRO-Toolkit\"\n\"COVID-19-AR\"\n\"EA1141\""
+    }
+}

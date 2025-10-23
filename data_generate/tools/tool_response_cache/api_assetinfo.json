@@ -1,0 +1,57 @@
+{
+    "{'symbol': 'EUR'}": {
+        "error": "",
+        "response": {
+            "success": 200,
+            "0": {
+                "symbol": "EUR",
+                "AssetType": "forex",
+                "price": "0.917274",
+                "ChartSymbol": "EURusd",
+                "LastUpdate": "2023-07-02 01:25:31"
+            }
+        }
+    },
+    "{'symbol': 'IQD'}": {
+        "error": "",
+        "response": {
+            "success": 200,
+            "0": {
+                "symbol": "IQD",
+                "AssetType": "forex",
+                "price": "1472.5",
+                "ChartSymbol": "USDIQD",
+                "LastUpdate": "2023-07-02 16:42:19"
+            }
+        }
+    },
+    "{'symbol': 'TRY'}": {
+        "error": "",
+        "response": {
+            "success": 200,
+            "0": {
+                "symbol": "TRY",
+                "AssetType": "forex",
+                "price": "26.238",
+                "ChartSymbol": "TRYusd",
+                "LastUpdate": "2023-07-03 13:53:33"
+            }
+        }
+    },
+    "{'symbol': 'eur'}": {
+        "error": "",
+        "response": "{'success': 200, '0': {'symbol': 'EUR', 'AssetType': 'forex', 'price': '0.897804', 'ChartSymbol': 'EURusd', 'LastUpdate': '2024-08-22 00:45:32'}}"
+    },
+    "{'symbol': 'gbp'}": {
+        "error": "",
+        "response": "{'success': 200, '0': {'symbol': 'GBP', 'AssetType': 'forex', 'price': '0.742528', 'ChartSymbol': 'GBPusd', 'LastUpdate': '2025-06-01 01:05:31'}}"
+    },
+    "{'symbol': 'jpy'}": {
+        "error": "",
+        "response": "{'success': 200, '0': {'symbol': 'JPY', 'AssetType': 'forex', 'price': '157.544784', 'ChartSymbol': 'JPYusd', 'LastUpdate': '2025-01-07 00:55:32'}}"
+    },
+    "{'symbol': 'BTC'}": {
+        "error": "",
+        "response": "{'success': 200, '0': {'symbol': 'btc', 'AssetType': 'crypto', 'price': '66207.99000000', 'ChartSymbol': 'btcusdt', 'LastUpdate': '2024-10-15 15:36:01'}}"
+    }
+}

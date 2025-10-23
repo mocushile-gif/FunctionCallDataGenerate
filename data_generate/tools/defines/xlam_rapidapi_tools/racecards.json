@@ -1,0 +1,15 @@
+{
+    "name": "racecards",
+    "description": "This is a sub-function API for tool horse_racing_usa.\nTool description: Horse Racing API - USA races\nAPI description: Fetches the list of races for a given date from the Greyhound Racing UK API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to fetch the racecards in 'YYYY-MM-DD' format. Defaults to '2021-06-05' if not provided.",
+                "default": "2021-03-18"
+            }
+        },
+        "required": []
+    }
+}

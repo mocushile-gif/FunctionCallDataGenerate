@@ -1,0 +1,17 @@
+{
+    "name": "getpostcode",
+    "description": "This is a sub-function API for tool uk_postcode.\nTool description: Integrate this API with your website's address form to quickly and accurately auto-fill UK postal addresses or find locations of addresses. This API contains a database of almost 1.7 million UK postcodes, along with address and location information.\n\nFor a simple demo, visit https://tomwimmenhove.com/ukpostcode/\nAPI description: Retrieve details for a given UK postcode using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "postcode": {
+                "type": "string",
+                "description": "An exact match for the post code to be queried",
+                "default": "SW1A2AA"
+            }
+        },
+        "required": [
+            "postcode"
+        ]
+    }
+}

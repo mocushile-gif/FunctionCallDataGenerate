@@ -1,0 +1,17 @@
+{
+    "name": "get_book_information_by_book_id",
+    "description": "This is a sub-function API for tool hapi_books.\nTool description: HAPI Books is an API about books. It gives information about thousands of books from all around the world. Search by name, by genre, get the best books by year, and more!\nAPI description: Giving its Id, this endpoint returns a lot of information about that book, such as Name, Published Date, Authors, Synopsis, and many more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "book_id": {
+                "type": "string",
+                "description": "The unique identifier for the book to retrieve information about.",
+                "default": "56597885"
+            }
+        },
+        "required": [
+            "book_id"
+        ]
+    }
+}

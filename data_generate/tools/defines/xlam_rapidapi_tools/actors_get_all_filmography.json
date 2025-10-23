@@ -1,0 +1,17 @@
+{
+    "name": "actors_get_all_filmography",
+    "description": "This is a sub-function API for tool online_movie_database.\nTool description: This API helps to query for all information about films, actors, characters,etc... to create a movie/series/streaming content site/application\nAPI description: Retrieves the complete filmography of a specified actor or actress using their unique identifier (nconst).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nconst": {
+                "type": "string",
+                "description": "Unique identifier for the actor or actress. This value starts with \"nm\" and can be obtained from endpoints such as .../actors/list-born-today or .../actors/list-most-popular-celebs.",
+                "default": "nm0001667"
+            }
+        },
+        "required": [
+            "nconst"
+        ]
+    }
+}

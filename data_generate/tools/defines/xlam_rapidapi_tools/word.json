@@ -1,0 +1,17 @@
+{
+    "name": "word",
+    "description": "This is a sub-function API for tool lorem_ipsum_api.\nTool description: Generate Lorem Ipsum placeholder text for your applications.\nAPI description: Generates lorem ipsum text by requesting a specified number of words from the RapidAPI lorem ipsum service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "amount": {
+                "type": "number",
+                "description": "The number of lorem ipsum words to generate.",
+                "default": 5.0
+            }
+        },
+        "required": [
+            "amount"
+        ]
+    }
+}

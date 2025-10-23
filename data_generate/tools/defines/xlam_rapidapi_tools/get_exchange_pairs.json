@@ -1,0 +1,17 @@
+{
+    "name": "get_exchange_pairs",
+    "description": "This is a sub-function API for tool coinlore_cryptocurrency.\nTool description: Provides cryptocurrency prices,exchanges,markets api\nAPI description: Retrieves the top 100 exchange pairs for a given exchange ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the exchange for which to retrieve pairs.",
+                "default": 5.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

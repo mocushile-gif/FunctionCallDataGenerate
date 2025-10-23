@@ -1,0 +1,16 @@
+{
+    "name": "get_specific_event_information",
+    "description": "This is a sub-function API for tool sagenda_v3.\nTool description: We are now hosted on PostMan : https://documenter.getpostman.com/view/3283093/SW7aXT2M?version=latest\nAPI description: Fetch and return information for a specific event using the event identifier.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "eventidentifier": {
+                "type": "string",
+                "description": "Unique identifier for the event to retrieve booking information."
+            }
+        },
+        "required": [
+            "eventidentifier"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "tirto_search",
+    "description": "This is a sub-function API for tool indonesia_news.\nTool description: We are focused on delivering data from major news websites in Indonesia.\nAPI description: Searches Tirto news data using the RapidAPI interface.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of search results to return.",
+                "default": "10"
+            },
+            "q": {
+                "type": "string",
+                "description": "The query string to search for in Tirto news articles.",
+                "default": "banjir"
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number for paginated results.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "limit",
+            "q",
+            "page"
+        ]
+    }
+}

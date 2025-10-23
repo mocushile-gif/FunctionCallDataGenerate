@@ -1,0 +1,14 @@
+{
+    "{'count': '20', 'user_id': '107955'}": {
+        "error": "",
+        "response": "The API will fetch the list of up to 20 followings for the TikTok user with the unique ID '107955'. This allows you to retrieve information about the accounts that this user follows, which can be useful for analyzing their interests, connections, or engagement patterns. If pagination is required to fetch additional followings, a cursor can be used in subsequent requests."
+    },
+    "{'user_id': '[REPLACE_WITH_USER_ID_FROM_PREVIOUS_RESPONSE]'}": {
+        "error": "",
+        "response": "{}"
+    },
+    "{'user_id': '107955'}": {
+        "error": "",
+        "response": "{'extra': {'fatal_item_ids': [], 'logid': '20230710181536E9B6E6C2B02DF927DD2E', 'now': 1689012938000}, 'followings': [{'accept_private_policy': False, 'account_labels': None, 'account_region': '', 'ad_cover_url': None, 'advance_feature_item_order': None, 'advanced_feature_info': None, 'apple_account': 0, 'authority_status': 0, 'avatar_168x168': {'height': 720, 'uri': 'tos-maliva-avt-0068/3bb29309c233ef3a3b99877fe3f0aa68', 'url_list': ['https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3bb29309c233ef3a3b99877fe3f0aa68~c5_168x168.webp?x-expires=1689098400&x-signature=vfvIvJSBhwYBt3yCEQo06Kv6q7k%3D', 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3bb29309c233ef3a3b99877fe3f0aa68~c5_168x168.jpeg?x-expires=1689098400&x-signature=83RLQ7c0zFwoQR5NfSxoO8DZEmo%3D'], 'width': 720}, 'avatar_300x300': {'height': 720, 'uri': 'tos-maliva-avt-0068/3bb29309c233ef3a3b99877fe3f0aa68', 'url_list': ['https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3bb29309c233ef3a3b99877fe3f0aa68~c5_300x300.webp?x-expires=1689098400&x-signature=oi%2F7kqjOTn23WKaDm8gdknZfjBI%3D', 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3bb29309c233ef3a3b99877fe3f0aa68~c5_300x300.jpeg?x-expires=1689098400&x-signature=9DP2HbUYZXBQMVkHmvgCqXXvVcc%3D'], 'width': 720}, 'avatar_larger': {'height': 720, 'uri': 'tos-maliva-avt-0068/3bb29309c233ef3a3b99877fe3f0aa68', 'url_list': ['https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3bb29309c233ef3a3b99877fe3f0aa68~c5_1080x1080.webp?x-expires=1689098400&x-signature=hRxQ9cIz6n9rFtM7R%2Bqkcnohgog%3D', 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3bb29309c233ef3a3b99877fe3f0aa68~c5_1080x1080.jpeg?x-expires=1689098400&x-signature=l%2BT5W%2B6RTvFd9h0FLc0IUuMDO2U%3D'], 'width': 720}, 'avatar_medium': {'height': 720, 'uri': 'tos-maliva-avt-0068/3bb29309c233ef3a3b99877fe3f0aa68', 'url_list': ['https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3bb29309c233ef3a3b99877fe3f0aa68~c5_720x720.webp?x-expires=1689098400&x-signature=tEVJfXFwN%2FlbhOqGnMTU865p62o%3D', 'https://p16-sign-va.tiktokcd"
+    }
+}

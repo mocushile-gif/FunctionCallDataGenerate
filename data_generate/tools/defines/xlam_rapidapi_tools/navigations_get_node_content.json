@@ -1,0 +1,38 @@
+{
+    "name": "navigations_get_node_content",
+    "description": "This is a sub-function API for tool unofficial_shein.\nTool description: This API helps to query for almost everything that you see PUBLICLY on SHEIN's sites\nAPI description: Fetches the content of a node in a navigation hierarchy.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The 'id' field value returned from the /navigations/get-root endpoint.",
+                "default": 26066300130.0
+            },
+            "cat_id": {
+                "type": "number",
+                "description": "The 'cat_id' field value returned from the /navigations/get-tabs endpoint.",
+                "default": 2026.0
+            },
+            "language": {
+                "type": "string",
+                "description": "The 2-letter language code (default is 'en').",
+                "default": "en"
+            },
+            "currency": {
+                "type": "string",
+                "description": "The 3-letter currency code (default is 'USD').",
+                "default": "USD"
+            },
+            "country": {
+                "type": "string",
+                "description": "The 2-letter country code (default is 'US').",
+                "default": "US"
+            }
+        },
+        "required": [
+            "is_id",
+            "cat_id"
+        ]
+    }
+}

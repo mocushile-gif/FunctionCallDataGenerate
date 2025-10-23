@@ -1,0 +1,27 @@
+{
+    "{'newspaperid': 'thetimes'}": {
+        "error": "",
+        "response": {
+            "articles": [
+                {
+                    "title": "Climate Policy Reforms Highlight LGBTQ+ Community Resilience",
+                    "summary": "The Times reports on recent climate resilience initiatives in coastal cities prioritizing support for marginalized groups, including LGBTQ+ communities displaced by environmental disasters. The article highlights policy changes in California mandating inclusive disaster relief strategies.",
+                    "source": "thetimes",
+                    "url": "https://example.com/climate-lgbtq-california",
+                    "timestamp": "2023-11-15T14:30:00Z"
+                },
+                {
+                    "title": "Global LGBTQ+ Activists Amplify Climate Justice Demands",
+                    "summary": "International climate summit in Glasgow features prominent LGBTQ+ activists urging governments to address intersecting crises of environmental degradation and social inequality. The piece includes quotes from advocates stressing the disproportionate impact of climate change on vulnerable populations.",
+                    "source": "thetimes",
+                    "url": "https://example.com/climate-justice-glasgow",
+                    "timestamp": "2023-11-14T09:15:00Z"
+                }
+            ],
+            "query_params": {
+                "newspaperid": "thetimes",
+                "topic_filter": "LGBTQ+ climate issues"
+            }
+        }
+    }
+}

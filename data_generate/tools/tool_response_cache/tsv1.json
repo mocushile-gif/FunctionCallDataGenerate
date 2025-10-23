@@ -1,0 +1,42 @@
+{
+    "{'dataset': 'recipes', 'format': 'csv'}": {
+        "error": "",
+        "response": "ERROR: the dataset directory named recipes is not available"
+    },
+    "{'dataset': 'food-recipes', 'format': 'csv'}": {
+        "error": "",
+        "response": "ERROR: the dataset directory named food-recipes is not available"
+    },
+    "{'dataset': 'recipe-dataset', 'format': 'csv'}": {
+        "error": "",
+        "response": "ERROR: the dataset directory named recipe-dataset is not available"
+    },
+    "{'dataset': 'recipe', 'format': 'json'}": {
+        "error": "",
+        "response": "ERROR: the dataset directory named recipe is not available"
+    },
+    "{'dataset': 'grocery_stores'}": {
+        "error": "",
+        "response": "ERROR: the dataset directory named grocery_stores is not available"
+    },
+    "{'dataset': 'liquor_stores'}": {
+        "error": "",
+        "response": "ERROR: the dataset directory named liquor_stores is not available"
+    },
+    "{'dataset': 'recipes'}": {
+        "error": "",
+        "response": "ERROR: the dataset directory named recipes is not available"
+    },
+    "{'dataset': 'frim1', 'format': 'tsv'}": {
+        "error": "",
+        "response": "subset\tattribute\tentry\tcategory\ttype\tdescription\tCV_term_id\tCV_term_name\r\nplants\tPlantID\tplant\tidentifier\tstring\tPlant identifier\thttp://edamontology.org/data_0842\tidentifier\r\nplants\tRank\trow\tqualitative\tstring\tRow of the invidual plant on the table\thttp://purl.obolibrary.org/obo/AGRO_00000155\tRow\r\nplants\tPlantNum\tplantnum\t\tnumeric\tCode identifier of the individual plant\t\t\r\nplants\tTreatment\ttreatment\tfactor\tstring\tTreatment applied on plants\thttp://www.ebi.ac.uk/efo/EFO_0000469\tenvironmental factor\r\nsamples\tSampleID\tsample\tidentifier\tnumeric\tPool of several harvests\thttp://edamontology.org/data_0842\tidentifier\r\nsamples\tPlantID\t\t\tstring\tPlant identifier\thttp://edamontology.org/data_0842\tidentifier\r\nsamples\tTruss\ttruss\tqualitative\tstring\tPosition on the stem of the truss\thttp://purl.obolibrary.org/obo/PO_0020141\tstem node\r\nsamples\tDevStage\tstage\tfactor\tstring\tfruit development stage\thttp://purl.obolibrary.org/obo/PO_0001002\tfruit development stage\r\nsamples\tFruitAge\tage\tfactor\tstring\tfruit age (dpa)\thttp://purl.obolibrary.org/obo/PO_0001002\tfruit development stage\r\nsamples\tHarvestDate\t\t\tstring\tHarvest date\thttp://aims.fao.org/aos/agrovoc/c_29464\tharvesting date\r\nsamples\tHarvestHour\t\t\tstring\tHarvest hour\thttp://aims.fao.org/aos/agrovoc/c_29464\tharvesting date\r\nsamples\tFruitPosition\tposition\t\tstring\tPoistion on the truss of the fruit\thttp://purl.obolibrary.org/obo/TO_1000011\tFruit position\r\nsamples\tFruitDiameter\tdiameter\tquantitative\tnumeric\tFruit diameter (mm)\thttp://aims.fao.org/aos/agrovoc/c_16072\tDiameter\r\nsamples\tFruitHeight\theight\tquantitative\tnumeric\tFruit height (mm)\thttp://aims.fao.org/aos/agrovoc/c_3536\tHeight\r\nsamples\tFruitFW\tweightfw\tquantitative\tnumeric\tFruit Fresh Weight(g)\thttp://aims.fao.org/aos/agrovoc/c_8349\tWeight\r\nsamples\tFruitDW\tweightdw\tquantitative\tnumeric\tFruit Dry Weight(g)\thttp://aims.fao.org/aos/agrovoc/c_8349\tWeight\r\nsamples\tDW\t\tquantitative\tnumeric\tPercentage of dry matter (% DW), measured after lyophilisation\t\t\r\naliquots\tSampleID\tsample\t\tnumeric\tSample identifier\thttp://edamontology.org/d"
+    },
+    "{'dataset': 'frim1'}": {
+        "error": "",
+        "response": "subset\tattribute\tentry\tcategory\ttype\tdescription\tCV_term_id\tCV_term_name\r\nplants\tPlantID\tplant\tidentifier\tstring\tPlant identifier\thttp://edamontology.org/data_0842\tidentifier\r\nplants\tRank\trow\tqualitative\tstring\tRow of the invidual plant on the table\thttp://purl.obolibrary.org/obo/AGRO_00000155\tRow\r\nplants\tPlantNum\tplantnum\t\tnumeric\tCode identifier of the individual plant\t\t\r\nplants\tTreatment\ttreatment\tfactor\tstring\tTreatment applied on plants\thttp://www.ebi.ac.uk/efo/EFO_0000469\tenvironmental factor\r\nsamples\tSampleID\tsample\tidentifier\tnumeric\tPool of several harvests\thttp://edamontology.org/data_0842\tidentifier\r\nsamples\tPlantID\t\t\tstring\tPlant identifier\thttp://edamontology.org/data_0842\tidentifier\r\nsamples\tTruss\ttruss\tqualitative\tstring\tPosition on the stem of the truss\thttp://purl.obolibrary.org/obo/PO_0020141\tstem node\r\nsamples\tDevStage\tstage\tfactor\tstring\tfruit development stage\thttp://purl.obolibrary.org/obo/PO_0001002\tfruit development stage\r\nsamples\tFruitAge\tage\tfactor\tstring\tfruit age (dpa)\thttp://purl.obolibrary.org/obo/PO_0001002\tfruit development stage\r\nsamples\tHarvestDate\t\t\tstring\tHarvest date\thttp://aims.fao.org/aos/agrovoc/c_29464\tharvesting date\r\nsamples\tHarvestHour\t\t\tstring\tHarvest hour\thttp://aims.fao.org/aos/agrovoc/c_29464\tharvesting date\r\nsamples\tFruitPosition\tposition\t\tstring\tPoistion on the truss of the fruit\thttp://purl.obolibrary.org/obo/TO_1000011\tFruit position\r\nsamples\tFruitDiameter\tdiameter\tquantitative\tnumeric\tFruit diameter (mm)\thttp://aims.fao.org/aos/agrovoc/c_16072\tDiameter\r\nsamples\tFruitHeight\theight\tquantitative\tnumeric\tFruit height (mm)\thttp://aims.fao.org/aos/agrovoc/c_3536\tHeight\r\nsamples\tFruitFW\tweightfw\tquantitative\tnumeric\tFruit Fresh Weight(g)\thttp://aims.fao.org/aos/agrovoc/c_8349\tWeight\r\nsamples\tFruitDW\tweightdw\tquantitative\tnumeric\tFruit Dry Weight(g)\thttp://aims.fao.org/aos/agrovoc/c_8349\tWeight\r\nsamples\tDW\t\tquantitative\tnumeric\tPercentage of dry matter (% DW), measured after lyophilisation\t\t\r\naliquots\tSampleID\tsample\t\tnumeric\tSample identifier\thttp://edamontology.org/d"
+    },
+    "{'dataset': 'fifa_world_cup_qualifiers_2024_v2'}": {
+        "error": "",
+        "response": "ERROR: the dataset directory named fifa_world_cup_qualifiers_2024_v2 is not available"
+    }
+}

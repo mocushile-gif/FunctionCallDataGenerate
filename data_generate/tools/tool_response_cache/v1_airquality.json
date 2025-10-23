@@ -1,0 +1,68 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "CO": {
+                "concentration": 195.27,
+                "aqi": 2
+            },
+            "NO2": {
+                "concentration": 6.94,
+                "aqi": 8
+            },
+            "O3": {
+                "concentration": 55.79,
+                "aqi": 47
+            },
+            "SO2": {
+                "concentration": 2.21,
+                "aqi": 3
+            },
+            "PM2.5": {
+                "concentration": 4.18,
+                "aqi": 13
+            },
+            "PM10": {
+                "concentration": 6.11,
+                "aqi": 5
+            },
+            "overall_aqi": 47
+        }
+    },
+    "{'city': 'Berlin', 'country': 'Germany'}": {
+        "error": "",
+        "response": "{'CO': {'concentration': 357.15, 'aqi': 4}, 'NO2': {'concentration': 18.17, 'aqi': 22}, 'O3': {'concentration': 45.42, 'aqi': 38}, 'SO2': {'concentration': 3.43, 'aqi': 5}, 'PM2.5': {'concentration': 5.39, 'aqi': 17}, 'PM10': {'concentration': 5.95, 'aqi': 5}, 'overall_aqi': 38}"
+    },
+    "{'city': 'Paris', 'country': 'France'}": {
+        "error": "",
+        "response": "{'CO': {'concentration': 367.17, 'aqi': 4}, 'NO2': {'concentration': 15.59, 'aqi': 19}, 'O3': {'concentration': 55.79, 'aqi': 47}, 'SO2': {'concentration': 2.68, 'aqi': 3}, 'PM2.5': {'concentration': 6.78, 'aqi': 22}, 'PM10': {'concentration': 9.14, 'aqi': 8}, 'overall_aqi': 47}"
+    },
+    "{'city': 'Madrid', 'country': 'Spain'}": {
+        "error": "",
+        "response": "{'CO': {'concentration': 667.57, 'aqi': 7}, 'NO2': {'concentration': 39.07, 'aqi': 48}, 'O3': {'concentration': 0.01, 'aqi': 0}, 'SO2': {'concentration': 2.68, 'aqi': 3}, 'PM2.5': {'concentration': 15.93, 'aqi': 51}, 'PM10': {'concentration': 17.96, 'aqi': 16}, 'overall_aqi': 51}"
+    },
+    "{'city': 'Rome', 'country': 'Italy'}": {
+        "error": "",
+        "response": "{'CO': {'concentration': 1628.88, 'aqi': 18}, 'NO2': {'concentration': 37.36, 'aqi': 46}, 'O3': {'concentration': 0.65, 'aqi': 0}, 'SO2': {'concentration': 2.86, 'aqi': 4}, 'PM2.5': {'concentration': 70.4, 'aqi': 152}, 'PM10': {'concentration': 85.15, 'aqi': 65}, 'overall_aqi': 152}"
+    },
+    "{'city': 'Amsterdam', 'country': 'Netherlands'}": {
+        "error": "",
+        "response": "{'CO': {'concentration': 263.69, 'aqi': 2}, 'NO2': {'concentration': 20.39, 'aqi': 25}, 'O3': {'concentration': 51.5, 'aqi': 43}, 'SO2': {'concentration': 1.64, 'aqi': 2}, 'PM2.5': {'concentration': 1.52, 'aqi': 4}, 'PM10': {'concentration': 2.1, 'aqi': 1}, 'overall_aqi': 43}"
+    },
+    "{'city': 'New York', 'country': 'US'}": {
+        "error": "",
+        "response": "{'CO': {'concentration': 149.32, 'aqi': 1}, 'NO2': {'concentration': 2.16, 'aqi': 2}, 'O3': {'concentration': 92.68, 'aqi': 144}, 'SO2': {'concentration': 1.79, 'aqi': 2}, 'PM2.5': {'concentration': 2.96, 'aqi': 9}, 'PM10': {'concentration': 3.44, 'aqi': 3}, 'overall_aqi': 144}"
+    },
+    "{'city': 'Sydney', 'country': 'Australia'}": {
+        "error": "",
+        "response": "{'CO': {'concentration': 97.08, 'aqi': 1}, 'NO2': {'concentration': 3.71, 'aqi': 4}, 'O3': {'concentration': 22.89, 'aqi': 19}, 'SO2': {'concentration': 0.84, 'aqi': 1}, 'PM2.5': {'concentration': 8.85, 'aqi': 28}, 'PM10': {'concentration': 10.12, 'aqi': 9}, 'overall_aqi': 28}"
+    },
+    "{'city': 'Austin', 'state': 'Texas', 'country': 'US'}": {
+        "error": "",
+        "response": "{'CO': {'concentration': 123.66, 'aqi': 1}, 'NO2': {'concentration': 1.89, 'aqi': 2}, 'O3': {'concentration': 68.17, 'aqi': 78}, 'SO2': {'concentration': 1.11, 'aqi': 1}, 'PM2.5': {'concentration': 5.16, 'aqi': 16}, 'PM10': {'concentration': 6.62, 'aqi': 6}, 'overall_aqi': 78}"
+    },
+    "{'city': 'Tampa', 'country': 'United States'}": {
+        "error": "",
+        "response": "{'CO': {'concentration': 122.9, 'aqi': 1}, 'NO2': {'concentration': 0.23, 'aqi': 0}, 'O3': {'concentration': 63.64, 'aqi': 64}, 'SO2': {'concentration': 0.1, 'aqi': 0}, 'PM2.5': {'concentration': 2.09, 'aqi': 6}, 'PM10': {'concentration': 3.1, 'aqi': 2}, 'overall_aqi': 64}"
+    }
+}

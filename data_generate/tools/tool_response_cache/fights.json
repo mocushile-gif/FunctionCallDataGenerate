@@ -1,0 +1,52 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "fights": [],
+            "meta": {
+                "total": 0,
+                "page": "1",
+                "pageSize": 10,
+                "totalPages": 0,
+                "nextPage": null,
+                "prevPage": null
+            }
+        }
+    },
+    "{'type': 'upcoming', 'sport': 'MMA', 'category': 'lightweight'}": {
+        "error": "",
+        "response": "{'fights': [], 'meta': {'total': 0, 'page': '1', 'pageSize': 10, 'totalPages': 0, 'nextPage': None, 'prevPage': None}}"
+    },
+    "{'type': 'previous', 'sport': 'boxing', 'category': 'welterweight'}": {
+        "error": "",
+        "response": "{'fights': [{'id': 1609, 'slug': 'jesus-resendiz-vs-rosekie-cristobal', 'title': 'Jesus Resendiz vs. Rosekie Cristobal', 'sport': 'boxing', 'category': 'welterweight', 'startTime': '2024-01-20T04:20:00.000Z', 'endTime': '2024-01-20T04:40:00.000Z', 'event': 175, 'level': 'pro', 'scheduledRounds': 6, 'scheduledMinutesPerRound': 4, 'scheduledWeight': 147, 'titleBout': '0', 'redCorner': {'id': 2493, 'name': 'Jesus Resendiz'}, 'blueCorner': {'id': 2492, 'name': 'Rosekie Cristobal'}, 'redWeighIn': '146.40', 'blueWeighIn': '148.80', 'winner': 2493, 'outcome': 'TKO', 'method': 'Corner stoppage after round 3', 'roundLength': 3, 'timeOfFinish': '00:03:00', 'odds': [{'fightId': 1609, 'redWin': '-180.00', 'blueWin': '150.00', 'over': '-110.00', 'under': '-110.00', 'overUnderRounds': '4.50', 'redKoTko': None, 'blueKoTko': None, 'redSubmission': None, 'blueSubmission': None, 'redDecision': None, 'blueDecision': None}]}, {'id': 1614, 'slug': 'andres-rosales-vs-rolando-villa', 'title': 'Andres Rosales vs. Rolando Villa', 'sport': 'boxing', 'category': 'welterweight', 'startTime': '2024-01-20T03:15:00.000Z', 'endTime': '2024-01-20T03:25:00.000Z', 'event': 175, 'level': 'pro', 'scheduledRounds': 3, 'scheduledMinutesPerRound': 2, 'scheduledWeight': 140, 'titleBout': '0', 'redCorner': {'id': 2497, 'name': 'Andres Rosales'}, 'blueCorner': {'id': 2496, 'name': 'Rolando Villa'}, 'redWeighIn': '139.60', 'blueWeighIn': '140.80', 'winner': 2497, 'outcome': 'Decision_Split', 'method': '29-28, 28-29, 30"
+    },
+    "{'event': 175, 'type': 'previous'}": {
+        "error": "",
+        "response": "{'fights': [{'id': 1606, 'slug': 'cris-cyborg-vs-kelsey-wickstrum', 'title': 'Cris Cyborg vs. Kelsey Wickstrum', 'sport': 'boxing', 'category': 'super-welterweight', 'startTime': '2024-01-20T05:15:00.000Z', 'endTime': '2024-01-20T05:35:00.000Z', 'event': 175, 'level': 'pro', 'scheduledRounds': 6, 'scheduledMinutesPerRound': 3, 'scheduledWeight': 154, 'titleBout': '0', 'redCorner': {'id': 2487, 'name': 'Cris Cyborg'}, 'blueCorner': {'id': 2486, 'name': 'Kelsey Wickstrum'}, 'redWeighIn': '154.80', 'blueWeighIn': '152.80', 'winner': 2487, 'outcome': 'KO', 'method': '1:21', 'roundLength': 1, 'timeOfFinish': '00:01:21', 'odds': [{'fightId': 1606, 'redWin': '-200.00', 'blueWin': '180.00', 'over': '-110.00', 'under': '-110.00', 'overUnderRounds': '5.50', 'redKoTko': '120.00', 'blueKoTko': '1200.00', 'redSubmission': None, 'blueSubmission': None, 'redDecision': '250.00', 'blueDecision': '300.00'}]}, {'id': 1608, 'slug': 'angel-munoz-vs-keith-carson', 'title': 'Angel Munoz vs. Keith Carson', 'sport': 'boxing', 'category': 'super-welterweight', 'startTime': '2024-01-20T04:55:00.000Z', 'endTime': '2024-01-20T05:15:00.000Z', 'event': 175, 'level': 'pro', 'scheduledRounds': 4, 'scheduledMinutesPerRound': 6, 'scheduledWeight': 154, 'titleBout': '0', 'redCorner': {'id': 2491, 'name': 'Angel Munoz'}, 'blueCorner': {'id': 2490, 'name': 'Keith Carson'}, 'redWeighIn': '154.20', 'blueWeighIn': '151.80', 'winner': 2491, 'outcome': 'KO', 'method': '0:55', 'roundLength': 4, 'timeOfFinish': '00:00:5"
+    },
+    "{'sport': 'MMA', 'type': 'upcoming'}": {
+        "error": "",
+        "response": "{'fights': [], 'meta': {'total': 0, 'page': '1', 'pageSize': 10, 'totalPages': 0, 'nextPage': None, 'prevPage': None}}"
+    },
+    "{'sport': 'mixed martial arts', 'type': 'upcoming'}": {
+        "error": "",
+        "response": "{'fights': [], 'meta': {'total': 0, 'page': '1', 'pageSize': 10, 'totalPages': 0, 'nextPage': None, 'prevPage': None}}"
+    },
+    "{'category': 'UFC', 'type': 'upcoming', 'sport': 'MMA'}": {
+        "error": "",
+        "response": "{'fights': [], 'meta': {'total': 0, 'page': '1', 'pageSize': 10, 'totalPages': 0, 'nextPage': None, 'prevPage': None}}"
+    },
+    "{'category': 'UFC Fight Night', 'type': 'upcoming', 'sport': 'Mixed Martial Arts'}": {
+        "error": "",
+        "response": "{'fights': [], 'meta': {'total': 0, 'page': '1', 'pageSize': 10, 'totalPages': 0, 'nextPage': None, 'prevPage': None}}"
+    },
+    "{'sport': 'MMA', 'category': 'UFC', 'type': 'upcoming'}": {
+        "error": "",
+        "response": "{'fights': [], 'meta': {'total': 0, 'page': '1', 'pageSize': 10, 'totalPages': 0, 'nextPage': None, 'prevPage': None}}"
+    },
+    "{'sport': 'MMA', 'category': 'Bellator', 'type': 'upcoming'}": {
+        "error": "",
+        "response": "{'fights': [], 'meta': {'total': 0, 'page': '1', 'pageSize': 10, 'totalPages': 0, 'nextPage': None, 'prevPage': None}}"
+    }
+}

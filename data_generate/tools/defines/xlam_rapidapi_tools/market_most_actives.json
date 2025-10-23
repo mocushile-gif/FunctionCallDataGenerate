@@ -1,0 +1,15 @@
+{
+    "name": "market_most_actives",
+    "description": "This is a sub-function API for tool mboum_finance.\nTool description: Mboum Finance Official API for stocks, options, ETFs, mutual funds, SEC Data, news, screeners and more! \nAPI description: Fetches the most active stocks ordered by intraday trade volume using the Yahoo Finance API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start": {
+                "type": "number",
+                "description": "The start index for the request. Defaults to 0.",
+                "default": 0.0
+            }
+        },
+        "required": []
+    }
+}

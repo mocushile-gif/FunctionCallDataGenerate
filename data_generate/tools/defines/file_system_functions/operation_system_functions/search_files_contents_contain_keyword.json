@@ -1,0 +1,28 @@
+{
+    "name": "search_files_contents_contain_keyword",
+    "description": "Search for files in a directory that contain a specific keyword, optionally filtering by file extension and file size.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "directory": {
+                "type": "string",
+                "description": "The directory to search in. Default to './'"
+            },
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to search for."
+            },
+            "file_extension": {
+                "type": "string",
+                "description": "The file extension to filter by (e.g., '.txt'). Defaults to None (all files).",
+                "default": null
+            },
+            "max_size_mb": {
+                "type": "integer",
+                "description": "The maximum file size in MB to search. Defaults to 1 MB.",
+                "default": 1
+            }
+        },
+        "required": ["directory", "keyword"]
+    }
+}

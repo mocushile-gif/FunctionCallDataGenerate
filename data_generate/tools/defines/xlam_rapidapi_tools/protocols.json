@@ -1,0 +1,19 @@
+{
+    "name": "protocols",
+    "description": "This is a sub-function API for tool all_in_one_crypto_swiss_knife.\nTool description: Coins, NFTS, Portfolio tracker, Whales, airdrops, news, tweets, YT videos, reddit posts, DeFi protocols,, games, podcasts, events, gas price and more!\nAPI description: Get protocols.\nYou can search by adding 'q' query param.\n\nSupported chains:  \"eth, bsc, matic, avax, okt, hmy, heco, klay, op, arb, ftm, xdai, cro, mobm, celo, aurora, fuse, evmos, cfx, kava\";",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "Search parameter to filter the protocols. Defaults to None."
+            },
+            "chain_id": {
+                "type": "string",
+                "description": "Chain identifier to filter the protocols. Supported chains: \"eth\", \"bsc\", \"matic\", \"avax\", \"okt\", \"hmy\", \"heco\", \"klay\", \"op\", \"arb\", \"ftm\", \"xdai\", \"cro\", \"mobm\", \"celo\", \"aurora\", \"fuse\", \"evmos\", \"cfx\", \"kava\". Defaults to 'fuse'.",
+                "default": "fuse"
+            }
+        },
+        "required": []
+    }
+}

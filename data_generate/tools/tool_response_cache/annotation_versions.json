@@ -1,0 +1,23 @@
+{
+    "{'is_id': '9234498', 'text_format': 'plain'}": {
+        "error": "",
+        "response": {
+            "annotation_id": "9234498",
+            "versions": [
+                {
+                    "version_id": "v1",
+                    "author": "GeniusEditor",
+                    "timestamp": "2023-04-15T14:30:00Z",
+                    "content": "Original annotation: Lyrics reference... [plain text content]"
+                },
+                {
+                    "version_id": "v2",
+                    "author": "Contributor123",
+                    "timestamp": "2023-04-16T09:45:00Z",
+                    "content": "Updated annotation: Added context about... [plain text content]"
+                }
+            ],
+            "text_format": "plain"
+        }
+    }
+}

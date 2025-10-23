@@ -1,0 +1,29 @@
+{
+    "name": "get_fare",
+    "description": "This is a sub-function API for tool irctc.\nTool description: An API with various functionalities for Indian railways IRCTC API. We are not affiliated with Indian railways IRCTC in any form, and this is not an official API, but all the results are real-time and accurate. You can get in touch with us at https://t.me/rapidapisupport. For payment related inquiries, APIs and customised plans.\nAPI description: Retrieves the fare details for a specified train number and route using the IRCTC RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "trainno": {
+                "type": "number",
+                "description": "The train number for which the fare is to be retrieved.",
+                "default": 19038.0
+            },
+            "tostationcode": {
+                "type": "string",
+                "description": "The station code of the destination.",
+                "default": "BVI"
+            },
+            "fromstationcode": {
+                "type": "string",
+                "description": "The station code of the starting station.",
+                "default": "ST"
+            }
+        },
+        "required": [
+            "trainno",
+            "tostationcode",
+            "fromstationcode"
+        ]
+    }
+}

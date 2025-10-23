@@ -1,0 +1,23 @@
+{
+    "name": "players_185_225_233_110_30015",
+    "description": "This is a sub-function API for tool vrising_server_query_api.\nTool description: This API is designed to query any VRising game server for information, more unique and custom features coming soon!\nAPI description: Retrieves the list of players currently online from the specified V Rising game server.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IP address of the game server.",
+                "default": "185.225.233.110"
+            },
+            "port": {
+                "type": "string",
+                "description": "The port number of the game server.",
+                "default": "30015"
+            }
+        },
+        "required": [
+            "ip",
+            "port"
+        ]
+    }
+}

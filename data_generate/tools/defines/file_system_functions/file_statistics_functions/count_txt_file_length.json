@@ -1,0 +1,23 @@
+{
+    "name": "count_txt_file_length",
+    "description": "Calculate the length of a .txt file in units of Chinese characters and English words, with optional exclusion of punctuation and numbers.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "Relative path to the .txt file to be analyzed."
+        },
+        "include_punctuation": {
+          "type": "boolean",
+          "description": "Whether to include punctuation characters in the count. Default is true."
+        },
+        "include_numbers": {
+          "type": "boolean",
+          "description": "Whether to include numeric characters in the count. Default is true."
+        }
+      },
+      "required": ["file_path"]
+    }
+  }
+  

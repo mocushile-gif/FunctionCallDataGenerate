@@ -1,0 +1,17 @@
+{
+    "name": "getcommunities",
+    "description": "This is a sub-function API for tool dei.\nTool description: The Diversity, Equity, and Inclusion (DEI) API offers the learning resources, conferences, stories and other information.\nAPI description: Fetches Power BI communities data for a given page using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number of communities to retrieve.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "page"
+        ]
+    }
+}

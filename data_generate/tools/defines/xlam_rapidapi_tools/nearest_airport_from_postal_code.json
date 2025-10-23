@@ -1,0 +1,21 @@
+{
+    "name": "nearest_airport_from_postal_code",
+    "description": "This is a sub-function API for tool carbonsutra.\nTool description: Carbon Emission Estimations for Organizations.\nAPI description: This is an advanced algorithm which takes a postal code and country code as input and returns the nearest airport its lat-long value. It is important to note that the straight line distance between the lat-long of postal code and airport is measured. The returned value is in kilometers. The source of 1.5 million postal code data is taken as it is from https://public.opendatasoft.com/explore/dataset/geonames-postal-code/. For airports, the publicly available database of IATA codes and airport names is used.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "postal_code": {
+                "type": "string",
+                "description": "The postal code for which to find the nearest airport."
+            },
+            "country_code": {
+                "type": "string",
+                "description": "The two-digit country code corresponding to the postal code."
+            }
+        },
+        "required": [
+            "postal_code",
+            "country_code"
+        ]
+    }
+}

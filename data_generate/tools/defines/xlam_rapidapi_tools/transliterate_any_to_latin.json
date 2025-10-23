@@ -1,0 +1,17 @@
+{
+    "name": "transliterate_any_to_latin",
+    "description": "This is a sub-function API for tool webit_language.\nTool description: A.I. Text Paraphrase (Rewrite), Dictionary (Lookup, Examples, Bilingual, Synonyms, Antonyms), Key Phrases, Sentences Breaker.\nAPI description: Transliteration endpoint provides you with transliteration of text from any language to Latin. Transliterate \"こんにちは\" to \"kon'nichiha\" with ease.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to be transliterated to Latin script.",
+                "default": "こんにちは。"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

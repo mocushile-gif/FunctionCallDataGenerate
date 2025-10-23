@@ -1,0 +1,15 @@
+{
+    "name": "qr_code_image_copy",
+    "description": "This is a sub-function API for tool qr.\nTool description: This API take URL string and returns the QR code image\nAPI description: This end point 'GET' request with url or string as a parameter. The API will return an image of the QR code, which can be downloaded by the client.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL to be encoded as a QR code.",
+                "default": "www.google.com"
+            }
+        },
+        "required": []
+    }
+}

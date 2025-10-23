@@ -1,0 +1,17 @@
+{
+    "name": "get_airplane_details",
+    "description": "This is a sub-function API for tool travel_hacking_tool.\nTool description: Complete and up-to-date database with detailed information about IATA airports, IATA airlines, countries, alliances and more.\nAPI description: This endpoint returns a list of airplanes and other means of transportation to match GDS responses.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "string",
+                "description": "The unique identifier of the airplane to fetch details for.",
+                "default": "777"
+            }
+        },
+        "required": [
+            "code"
+        ]
+    }
+}

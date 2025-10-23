@@ -1,0 +1,17 @@
+{
+    "name": "object_detection",
+    "description": "This is a sub-function API for tool real_time_lens_data.\nTool description: Cutting-edge visual image search and reverse image search, highly-detailed OCR, comprehensive text recognition, product information, QR Code reading, and rich knowledge graph insights, all in one API, powered by Google Lens.\nAPI description: Detect landmarks, places, plants, animals, products, and other objects in an image, including bounding boxes, labels / types and confidence score.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "URL of an image to perform Google Lens object detection.",
+                "default": "https://thumbs.dreamstime.com/b/giraffe-zebra-1533191.jpg"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

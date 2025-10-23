@@ -1,0 +1,17 @@
+{
+    "name": "search_zip_codes_in_mexico",
+    "description": "This is a sub-function API for tool be_zips.\nTool description: Zip code data for north america.\nAPI description: Performs a text search for zip codes in Mexico using the provided query string.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search query string to look up zip codes.",
+                "default": "cerrada san mibuel"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

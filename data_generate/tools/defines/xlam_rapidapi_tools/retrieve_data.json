@@ -1,0 +1,22 @@
+{
+    "name": "retrieve_data",
+    "description": "This is a sub-function API for tool instant_cameroon_news.\nTool description: Instantly provide the latest news and the latest information on Cameroon. It is the easier way to  get latest news about Cameroon.\nAPI description: Endpoint, which you use to retrieve the data you need. This endpoint can accept some parameters like page, search key and data range",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "rank": {
+                "type": "string",
+                "description": "The ranking criteria for the news data. Default is None."
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number to retrieve for the data. Default is None."
+            },
+            "search": {
+                "type": "string",
+                "description": "A search key to filter the news data. Default is None."
+            }
+        },
+        "required": []
+    }
+}

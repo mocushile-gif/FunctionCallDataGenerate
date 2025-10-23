@@ -1,0 +1,54 @@
+{
+    "name": "get_all_players",
+    "description": "This is a sub-function API for tool valorant_esports_v2.\nTool description: The Valorant Esports is a user-friendly tool that allows you to extract data from the website vlr.gg. \nAPI description: Fetches the id, name, and country of all players from the Valorant esports API based on the provided filtering criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "minrounds": {
+                "type": "string",
+                "description": "Minimum rounds a player has to have played."
+            },
+            "timespan": {
+                "type": "string",
+                "description": "Time span to filter players."
+            },
+            "map": {
+                "type": "string",
+                "description": "Map to filter players."
+            },
+            "event": {
+                "type": "string",
+                "description": "Event to filter players."
+            },
+            "agent": {
+                "type": "string",
+                "description": "Agent to filter players."
+            },
+            "minrating": {
+                "type": "string",
+                "description": "Minimum rating to filter players."
+            },
+            "region": {
+                "type": "string",
+                "description": "Region to filter players."
+            },
+            "country": {
+                "type": "string",
+                "description": "Country to filter players."
+            },
+            "event_series": {
+                "type": "string",
+                "description": "Event series to filter players."
+            },
+            "limit": {
+                "type": "string",
+                "description": "Limit the number of players returned."
+            },
+            "page": {
+                "type": "string",
+                "description": "Page number for paginated results."
+            }
+        },
+        "required": []
+    }
+}

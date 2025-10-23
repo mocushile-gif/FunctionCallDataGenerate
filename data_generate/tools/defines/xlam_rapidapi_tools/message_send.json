@@ -1,0 +1,50 @@
+{
+    "name": "message_send",
+    "description": "This is a sub-function API for tool sendsms.\nTool description: SMS Service Provider\nAPI description: Sends an SMS message using the SensSMS API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "password": {
+                "type": "string",
+                "description": "Your SensSMS API key."
+            },
+            "to": {
+                "type": "number",
+                "description": "Destination phone number."
+            },
+            "text": {
+                "type": "string",
+                "description": "Content of the SMS message."
+            },
+            "action": {
+                "type": "string",
+                "description": "The action type for the API call.",
+                "default": "message_send"
+            },
+            "username": {
+                "type": "string",
+                "description": "Your SensSMS username."
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The sender of the message. Defaults to None."
+            },
+            "report_mask": {
+                "type": "number",
+                "description": "The report mask for SMS status updates. Defaults to 19.",
+                "default": 19.0
+            },
+            "report_url": {
+                "type": "string",
+                "description": "URL for receiving SMS status reports. Defaults to None."
+            }
+        },
+        "required": [
+            "password",
+            "to",
+            "text",
+            "action",
+            "username"
+        ]
+    }
+}

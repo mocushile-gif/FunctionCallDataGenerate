@@ -1,0 +1,29 @@
+{
+    "name": "advance",
+    "description": "This is a sub-function API for tool cleantalk.\nTool description: CleanTalk API is a content validation service that helps you filter out profanity and obscenity in your user-generated content. \nAPI description: This function makes a GET request to the cleantalk1.p.rapidapi.com service with specified parameters and returns the response.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fill_char": {
+                "type": "string",
+                "description": "A character to fill within the text.",
+                "default": "_"
+            },
+            "text": {
+                "type": "string",
+                "description": "The text to be processed.",
+                "default": "How about you?"
+            },
+            "add": {
+                "type": "string",
+                "description": "Additional text or parameters to be included.",
+                "default": "about"
+            }
+        },
+        "required": [
+            "fill_char",
+            "text",
+            "add"
+        ]
+    }
+}

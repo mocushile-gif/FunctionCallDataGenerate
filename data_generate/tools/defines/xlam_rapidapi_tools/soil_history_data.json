@@ -1,0 +1,35 @@
+{
+    "name": "soil_history_data",
+    "description": "This is a sub-function API for tool ambee_soil_data.\nTool description: Global real-time soil API. Integrate soil API for global real-time soil information. Test an API call. Get accurate & actionable data insights. \nAPI description: Fetches historical soil data for a given location and date range using the Ambee API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lng": {
+                "type": "number",
+                "description": "Longitude of the location.",
+                "default": 78.96
+            },
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the location.",
+                "default": 20.59
+            },
+            "startdate": {
+                "type": "string",
+                "description": "The start date for the soil data in 'YYYY-MM-DD' format.",
+                "default": "'YYYY-MM-DD hh:mm:ss'"
+            },
+            "enddate": {
+                "type": "string",
+                "description": "The end date for the soil data in 'YYYY-MM-DD' format.",
+                "default": "YYYY-MM-DD hh:mm:ss''"
+            }
+        },
+        "required": [
+            "lng",
+            "lat",
+            "startdate",
+            "enddate"
+        ]
+    }
+}

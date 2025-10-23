@@ -1,0 +1,23 @@
+{
+    "name": "daily_horoscope",
+    "description": "This is a sub-function API for tool horoscope_astrology.\nTool description: The Horoscope API Server provides daily horoscope predictions for all zodiac signs. Users can access the API to retrieve daily astrological forecasts for their specific sun sign, as well as general horoscope information for the entire zodiac. The API is designed to be simple and easy to use, allowing developers to integrate horoscope content into their own applications and websites. The predictions are generated using algorithms that consider the position of the planets and other astrological...\nAPI description: A daily horoscope is a personalized astrological prediction for an individual based on their birth date and zodiac sign. It provides insight and guidance on various aspects of life such as love, career, finances, and personal growth. The predictions take into account the current positions of the planets and other celestial bodies, offering a unique perspective on the individual's current astrological influences. Daily horoscopes are meant to be used as a tool for reflection and can provide helpful insights ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sunsign": {
+                "type": "string",
+                "description": "The zodiac sign for which to fetch the horoscope. Possible values include 'aries', 'taurus', 'gemini', 'cancer', 'leo', 'virgo', 'libra', 'scorpio', 'sagittarius', 'capricorn', 'aquarius', 'pisces'.",
+                "default": "libra"
+            },
+            "day": {
+                "type": "string",
+                "description": "The day for which to fetch the horoscope. Possible values include 'Today', 'Yesterday', 'Tomorrow', 'Week', 'Month', 'Year'.",
+                "default": "today"
+            }
+        },
+        "required": [
+            "sunsign",
+            "day"
+        ]
+    }
+}

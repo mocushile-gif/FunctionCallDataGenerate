@@ -1,0 +1,23 @@
+{
+    "name": "license_plate_to_vin",
+    "description": "This is a sub-function API for tool license_plate_to_vin.\nTool description: Lookup VIN by US license plate and state.\nAPI description: Converts a vehicle's license plate number to its corresponding VIN (Vehicle Identification Number).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "state_code": {
+                "type": "string",
+                "description": "State Code\nAL,AK,AZ,AR,CA,CO,CT,DE,DC,FL,GA,HI,ID,IL,IN,IA,KS,KY,LA,ME,MD,MA,MI,MN,MS,MO,MT,NE,NV,NH,NJ,NM,NY,NC,ND,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VT,VA,WA,WV,WI,WY",
+                "default": "AL"
+            },
+            "license_plate": {
+                "type": "string",
+                "description": "The license plate number of the vehicle.",
+                "default": "S8TAN"
+            }
+        },
+        "required": [
+            "state_code",
+            "license_plate"
+        ]
+    }
+}

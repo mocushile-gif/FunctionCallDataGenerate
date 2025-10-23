@@ -1,0 +1,28 @@
+{
+    "{'is_id': '[USER_PROVIDED_CHANNEL_ID]'}": {
+        "error": "",
+        "response": {
+            "channel_id": "[USER_PROVIDED_CHANNEL_ID]",
+            "title": "Sample Channel Name",
+            "description": "This is a sample YouTube channel description providing insights into the creator's content focus and community engagement.",
+            "subscriber_count": "1.2M",
+            "total_views": "25.6M",
+            "custom_url": "youtube.com/c/SampleChannel",
+            "created_date": "2010-05-17",
+            "avatar_url": "https://example.com/avatar.jpg",
+            "banner_url": "https://example.com/banner.png",
+            "verified": true,
+            "hidden_subscriber_count": false,
+            "keywords": [
+                "vlogs",
+                "tutorials",
+                "tech reviews"
+            ],
+            "country": "US",
+            "related_playlists": {
+                "uploads": "UU...",
+                "likes": "LD..."
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "getcountriesbycontinent",
+    "description": "This is a sub-function API for tool world_population.\nTool description: Get interesting information about countries' population\nAPI description: Fetch data about countries in a specified continent from the RapidAPI world population service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "continent": {
+                "type": "string",
+                "description": "The name of the continent for which to fetch countries' data.",
+                "default": "Europe"
+            },
+            "rank": {
+                "type": "number",
+                "description": "Order the countries according to the rank. Can take two values:\n\n- 1 = ascending order\n\n-  -1 = descending order",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "continent"
+        ]
+    }
+}

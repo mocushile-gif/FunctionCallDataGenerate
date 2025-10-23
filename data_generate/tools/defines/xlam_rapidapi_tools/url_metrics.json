@@ -1,0 +1,17 @@
+{
+    "name": "url_metrics",
+    "description": "This is a sub-function API for tool domain_da_pa_check.\nTool description: Domain authority score & page authority score, spam score, backlink count information.\nAPI description: Fetches and returns various metrics for a given target URL, such as Domain Authority Score, Page Authority Score, Spam Score, and Total Backlinks, using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "target": {
+                "type": "string",
+                "description": "The target URL, page, or domain for which to fetch the metrics.",
+                "default": "www.google.com"
+            }
+        },
+        "required": [
+            "target"
+        ]
+    }
+}

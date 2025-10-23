@@ -1,0 +1,28 @@
+{
+    "name": "get_stations_within_1_km",
+    "description": "This is a sub-function API for tool ev_charging_stations.\nTool description: Electric vehicle charging stations full information.\nAPI description: Fetch the nearest EV charging stations within a 1 km radius from a given latitude and longitude.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "region": {
+                "type": "string",
+                "description": "The region code (us for United States, ca for Canada, uk for United Kingdom, nz for New Zealand, hk for Hong Kong)."
+            },
+            "latitude": {
+                "type": "number",
+                "description": "The latitude of the location for which to find nearby charging stations.",
+                "default": 40.733
+            },
+            "longitude": {
+                "type": "number",
+                "description": "The longitude of the location for which to find nearby charging stations.",
+                "default": -74.202
+            }
+        },
+        "required": [
+            "region",
+            "latitude",
+            "longitude"
+        ]
+    }
+}

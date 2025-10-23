@@ -1,0 +1,17 @@
+{
+    "name": "gamebans",
+    "description": "This is a sub-function API for tool esportapi.\nTool description: ESportApi offers eSports results for League of Legends, Dota 2, Counter-Strike providing also eSports standings and tournament live scores.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Fetches game bans for a specified E-Sports game using the provided game ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the E-Sports game for which you want to retrieve the ban details.",
+                "default": 359554
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

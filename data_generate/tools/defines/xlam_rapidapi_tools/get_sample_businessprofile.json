@@ -1,0 +1,20 @@
+{
+    "name": "get_sample_businessprofile",
+    "description": "This is a sub-function API for tool mocking_rock.\nTool description: An APIs collection for getting sample profiles and city Data for testings for frontend or mock testings.    \nAPI description: Use this API to get fake-generated Business Profile sample data.\nBy default, it will generate \"en\"  locale for a single count.\nIf count query is greater than 1 it will randomize the generated profiles \nto a different locale. \nTo set a default locale pass it as the query.List of the locale you can get from locale API.\nIn case of the wrong locale is given it will return the result based on default settings as mentioned above.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "locale": {
+                "type": "string",
+                "description": "Pass locale to set language and regional details of profile generated. For single count by default its \\\\\\\"en\\\\\\\" . ",
+                "default": "en"
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of profiles to generate. The maximum count is 1000. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

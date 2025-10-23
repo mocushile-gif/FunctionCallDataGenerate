@@ -1,0 +1,28 @@
+{
+    "{'code': '747'}": {
+        "error": "",
+        "response": "{'name': 'Boeing 747 (All Series) [B747/H] [Jet] [244-569 PAX]', 'code': '747'}"
+    },
+    "{'code': '777'}": {
+        "error": "",
+        "response": {
+            "name": "Boeing 777 (All Series) [B777/H] [Jet] [281-440 PAX]",
+            "code": "777"
+        }
+    },
+    "{'code': '737'}": {
+        "error": "",
+        "response": {
+            "name": "Boeing 737 (All Series-Stage 3) [B737/M] [Jet] [104-189 PAX]",
+            "code": "737"
+        }
+    },
+    "{'code': 'A320'}": {
+        "error": "",
+        "response": "{'detail': 'Not found.'}"
+    },
+    "{'code': '320'}": {
+        "error": "",
+        "response": "{'name': 'Airbus Industrie A320 (All Series) [A320/M] [Jet] [124-180 PAX]', 'code': '320'}"
+    }
+}

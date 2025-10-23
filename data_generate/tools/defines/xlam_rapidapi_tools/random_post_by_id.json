@@ -1,0 +1,17 @@
+{
+    "name": "random_post_by_id",
+    "description": "This is a sub-function API for tool fake_data_generator.\nTool description: With this API you can generate fake random data with different predefined layouts or define your own layout.\nAPI description: Retrieves a fake post by its ID from the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the fake post to retrieve.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

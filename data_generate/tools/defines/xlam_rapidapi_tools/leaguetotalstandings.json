@@ -1,0 +1,23 @@
+{
+    "name": "leaguetotalstandings",
+    "description": "This is a sub-function API for tool esportapi.\nTool description: ESportApi offers eSports results for League of Legends, Dota 2, Counter-Strike providing also eSports standings and tournament live scores.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Get the total standings for a specific E-Sports league by providing the tournament ID and season ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "seasonid": {
+                "type": "number",
+                "description": "The season ID for which you want to retrieve the league's total standings.",
+                "default": 47832
+            },
+            "tournamentid": {
+                "type": "number",
+                "description": "The unique tournament ID for which you want to retrieve the league's total standings.",
+                "default": 16026
+            }
+        },
+        "required": [
+            "seasonid",
+            "tournamentid"
+        ]
+    }
+}

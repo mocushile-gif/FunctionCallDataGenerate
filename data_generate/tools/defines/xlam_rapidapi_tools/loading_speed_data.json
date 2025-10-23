@@ -1,0 +1,17 @@
+{
+    "name": "loading_speed_data",
+    "description": "This is a sub-function API for tool website_analyze_and_seo_audit_pro.\nTool description: Analyze website and get seo audit report and speed report , onpage and offpage reports, informations about domain , hosting and more\nAPI description: Retrieves the loading speed data of a specified website using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "website": {
+                "type": "string",
+                "description": "The URL of the website for which the loading speed data is being requested.",
+                "default": "getecz.com"
+            }
+        },
+        "required": [
+            "website"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "sar",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Fetches the Parabolic SAR (SAR) data for a specified financial instrument using the Twelve Data API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The instrument symbol, which can be any equity, index, ETF, forex, or cryptocurrency (e.g., `AAPL`, `EUR/USD`, `ETH/BTC`).",
+                "default": "AAPL"
+            },
+            "interval": {
+                "type": "string",
+                "description": "The interval between two consecutive points in the time series. Supported values: `1min`, `5min`, `15min`, `30min`, `45min`, `1h`, `2h`, `4h`, `1day`, `1week`, `1month`.",
+                "default": "1min"
+            },
+            "maximum": {
+                "type": "number",
+                "description": "Maximum number of data points to retrieve.",
+                "default": 0.2
+            },
+            "outputsize": {
+                "type": "number",
+                "description": "Default `30` when no date parameters are set, otherwise set to maximum",
+                "default": 30
+            },
+            "format": {
+                "type": "string",
+                "description": "The format of the returned data. Options are `csv` or `json`. Default is `json`.",
+                "default": "json"
+            },
+            "acceleration": {
+                "type": "number",
+                "description": "The acceleration factor used in the SAR calculation.",
+                "default": 0.02
+            }
+        },
+        "required": [
+            "symbol",
+            "interval"
+        ]
+    }
+}

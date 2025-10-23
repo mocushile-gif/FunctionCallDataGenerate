@@ -1,0 +1,34 @@
+{
+    "{'lat': '44.351488', 'lon': '2.4379392', 'language': 'en'}": {
+        "error": "",
+        "response": "The reverse geocoding process has identified the location corresponding to the provided coordinates (latitude: 44.351488, longitude: 2.4379392). Based on the input, the location details are retrieved in English ('en'). This area is likely situated in the region of Aveyron, France, near Rodez. The reverse geocoding API provides detailed information such as the name of the locality, administrative divisions, postal code, and nearby landmarks. This data can be used for mapping, navigation, or location-based services."
+    },
+    "{'lat': '41.702', 'lon': '-70.3008', 'language': 'en'}": {
+        "error": "",
+        "response": "{'place_id': 345896252, 'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_type': 'way', 'osm_id': 211866154, 'lat': '41.7017869', 'lon': '-70.30009328008092', 'display_name': 'Millway, 35, Barnstable, United States', 'address': {'house_number': '35', 'road': 'Millway', 'hamlet': 'Cobbs Village', 'village': 'Barnstable', 'county': 'Barnstable County', 'state': 'Massachusetts', 'ISO3166-2-lvl4': 'US-MA', 'postcode': '02630', 'country': 'United States', 'country_code': 'us'}, 'boundingbox': ['41.7015372', '41.7018825', '-70.300187', '-70.3000091'], 'category': 'address'}"
+    },
+    "{'lon': '16.3738', 'lat': '48.2082', 'language': 'de'}": {
+        "error": "",
+        "response": "{'place_id': 180373025, 'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_type': 'relation', 'osm_id': 20567, 'lat': '48.2077402', 'lon': '16.3731916711183', 'display_name': 'Stephansplatz, Wien, \u00d6sterreich', 'address': {'building': 'Deutschordenshaus', 'road': 'Stephansplatz', 'neighbourhood': 'Stubenviertel', 'suburb': 'Innere Stadt', 'city': 'Wien', 'ISO3166-2-lvl4': 'AT-9', 'postcode': '1010', 'country': '\u00d6sterreich', 'country_code': 'at'}, 'boundingbox': ['48.2073392', '48.2081475', '16.3730035', '16.3744873'], 'category': 'address'}"
+    },
+    "{'lon': '-122.3317', 'lat': '47.6062', 'language': 'fr'}": {
+        "error": "",
+        "response": "{'place_id': 310745335, 'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_type': 'way', 'osm_id': 357335123, 'lat': '47.6061255', 'lon': '-122.33212676584881', 'display_name': \"5th Avenue, 909, Seattle, \u00c9tats-Unis d'Am\u00e9rique\", 'address': {'building': '5th and Madison Condos', 'house_number': '909', 'road': '5th Avenue', 'neighbourhood': 'Central Business District', 'suburb': 'First Hill', 'city': 'Seattle', 'county': 'King County', 'state': 'Washington', 'ISO3166-2-lvl4': 'US-WA', 'postcode': '98164', 'country': \"\u00c9tats-Unis d'Am\u00e9rique\", 'country_code': 'us'}, 'boundingbox': ['47.6058349', '47.6064316', '-122.3326523', '-122.3315973'], 'category': 'address'}"
+    },
+    "{'lat': '48.8566', 'lon': '2.3522'}": {
+        "error": "",
+        "response": "{'place_id': 89943023, 'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_type': 'relation', 'osm_id': 284089, 'lat': '48.856426299999995', 'lon': '2.3525275780116073', 'display_name': \"Place de l'H\u00f4tel de Ville, Paris, Frankreich\", 'address': {'amenity': 'H\u00f4tel de Ville', 'road': \"Place de l'H\u00f4tel de Ville\", 'city_block': 'Quartier Saint-Merri', 'suburb': 'Paris 4e Arrondissement', 'city_district': 'Paris', 'city': 'Paris', 'ISO3166-2-lvl6': 'FR-75C', 'state': '\u00cele-de-France', 'ISO3166-2-lvl4': 'FR-IDF', 'region': 'Metropolitanes Frankreich', 'postcode': '75004', 'country': 'Frankreich', 'country_code': 'fr'}, 'boundingbox': ['48.8556923', '48.8571608', '2.3516686', '2.3533854'], 'category': 'address'}"
+    },
+    "{'lat': '40.7128', 'lon': '-74.0060'}": {
+        "error": "",
+        "response": "{'place_id': 341666637, 'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_type': 'way', 'osm_id': 575213527, 'lat': '40.71273945', 'lon': '-74.00593904130275', 'display_name': 'Broadway, 260, New York, Vereinigte Staaten von Amerika', 'address': {'amenity': 'New York City Hall', 'house_number': '260', 'road': 'Broadway', 'quarter': 'Lower Manhattan', 'neighbourhood': 'Civic Center', 'suburb': 'Manhattan', 'county': 'New York County', 'city': 'New York', 'state': 'New York (Bundesland/-staat)', 'ISO3166-2-lvl4': 'US-NY', 'postcode': '10000', 'country': 'Vereinigte Staaten von Amerika', 'country_code': 'us'}, 'boundingbox': ['40.712445', '40.7130254', '-74.0064455', '-74.0055687'], 'category': 'address'}"
+    },
+    "{'lat': '40.712776', 'lon': '-74.005974'}": {
+        "error": "",
+        "response": "{'place_id': 341666637, 'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_type': 'way', 'osm_id': 575213527, 'lat': '40.71273945', 'lon': '-74.00593904130275', 'display_name': 'Broadway, 260, New York, Vereinigte Staaten von Amerika', 'address': {'amenity': 'New York City Hall', 'house_number': '260', 'road': 'Broadway', 'quarter': 'Lower Manhattan', 'neighbourhood': 'Civic Center', 'suburb': 'Manhattan', 'county': 'New York County', 'city': 'New York', 'state': 'New York (Bundesland/-staat)', 'ISO3166-2-lvl4': 'US-NY', 'postcode': '10000', 'country': 'Vereinigte Staaten von Amerika', 'country_code': 'us'}, 'boundingbox': ['40.712445', '40.7130254', '-74.0064455', '-74.0055687'], 'category': 'address'}"
+    },
+    "{'lat': '35.664159', 'lon': '139.718117', 'language': 'en'}": {
+        "error": "",
+        "response": "{'place_id': 248090384, 'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_type': 'way', 'osm_id': 140349267, 'lat': '35.6640838', 'lon': '139.71777923283753', 'display_name': '\u8d64\u5742\u6749\u4e26\u7dda, Minato, Japan', 'address': {'building': 'Oji Green Hill Apartments', 'road': '\u8d64\u5742\u6749\u4e26\u7dda', 'neighbourhood': 'Nishi-Azabu 2-chome', 'suburb': 'Azabu', 'city': 'Minato', 'postcode': '107-0062', 'country': 'Japan', 'country_code': 'jp'}, 'boundingbox': ['35.6639594', '35.6644422', '139.7174254', '139.7181356'], 'category': 'address'}"
+    }
+}

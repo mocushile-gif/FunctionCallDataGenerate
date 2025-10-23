@@ -1,0 +1,17 @@
+{
+    "name": "get_individual_quotes_by_quote_id",
+    "description": "This is a sub-function API for tool movie_and_tv_shows_quotes.\nTool description: This API helps query for Famous Movies and TV shows quotes.\nAPI description: This endpoint will return back individual quotes based on the given ID",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the quote to be retrieved.",
+                "default": 4.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

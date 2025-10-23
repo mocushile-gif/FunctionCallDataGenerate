@@ -1,0 +1,17 @@
+{
+    "name": "matches_get_leanback",
+    "description": "This is a sub-function API for tool cricbuzz_cricket.\nTool description: This API helps to query for live cricket scores, commentary, latest cricket news and editorials, schedules of upcoming matches, rankings, stats, records, etc\nAPI description: Fetches leanback information for a given cricket match using the match ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "matchid": {
+                "type": "number",
+                "description": "The value of matchId field returned in …/matches/list, …/schedules/list, …/series/get-matches, …/teams/get-schedules, …/teams/get-results, …/venues/get-matches endpoints.",
+                "default": 40381.0
+            }
+        },
+        "required": [
+            "matchid"
+        ]
+    }
+}

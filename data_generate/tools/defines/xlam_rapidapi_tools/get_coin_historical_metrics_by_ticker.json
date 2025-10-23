@@ -1,0 +1,28 @@
+{
+    "name": "get_coin_historical_metrics_by_ticker",
+    "description": "This is a sub-function API for tool crowdsense.\nTool description: The most comprehensive real-time alpha-generating data feed API for cryptocurrencies, that analyzes social media sentiment, weighted sentiment, mentions, reach, top coins, spikes, influencer posts, and other chatter updates. Based on 100,000,000s of feeds per day from billions of unique sources across Twitter, Telegram, and Reddit for 1000+ cryptocurrencies. Start now for free...\nAPI description: Retrieve  coin´s historical social media metrics by Coin ticker\nIn the case you want to retrieve real time data check \"Get Coin Metrics by Name\" or \"Get Coin Metrics by Ticker\"\n\n**Input:** \n-  Date (MM/DD/YYYY HH:HH AM/PM) (Required)\n- Security Ticker: Coin Ticker (Required)\n- TimeFrame: 1d, 1h, 8h (Optional)\n\n**Output:**\n\n- Sentiment\n- Sentiment change\n- Weighted sentiment\n- Weighted sentiment change\n- Followers\n- Followers change\n- Mentions\n- Mentions change\n- Security ticker\n- Security name\n- TimeFrame\n-",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "securityticker": {
+                "type": "string",
+                "description": "Ticker symbol of the cryptocurrency.",
+                "default": "btc"
+            },
+            "date": {
+                "type": "string",
+                "description": "Date and time in the format 'MM/DD/YYYY HH:MM AM/PM' for which to retrieve the metrics.",
+                "default": "04/26/2022 06:00 PM"
+            },
+            "timeframe": {
+                "type": "string",
+                "description": "Timeframe for the metrics. Default is '1D'. Other options include '1h' and '8h'.",
+                "default": "1D"
+            }
+        },
+        "required": [
+            "securityticker",
+            "date"
+        ]
+    }
+}

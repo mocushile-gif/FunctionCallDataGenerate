@@ -1,0 +1,37 @@
+{
+    "name": "search_web",
+    "description": "This is a sub-function API for tool google_search_json.\nTool description: Provides Google search results in JSON format. Its features include web search, image search, autocomplete, and trending search.\nAPI description: This endpoint is used to perform text search on the web using the Google Search JSON API. You can send a request with various parameters such as **q** (search query), **num** (desired number of results), **start** (starting index of results),  and more. The request will return search results in JSON format containing information such as titles, URLs, and descriptions of the search results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search query.",
+                "default": "facebook"
+            },
+            "num": {
+                "type": "number",
+                "description": "The number of search results to return. Valid values range from 1 to 20, inclusive. Defaults to 10.",
+                "default": 10.0
+            },
+            "start": {
+                "type": "number",
+                "description": "The index of the first result to return. Defaults to 0.",
+                "default": 0.0
+            },
+            "gl": {
+                "type": "string",
+                "description": "The **gl** parameter value is a two-letter country code. The **gl** parameter boosts search results whose country of origin matches the parameter value.\n\n",
+                "default": "US"
+            },
+            "lr": {
+                "type": "string",
+                "description": "Restricts the search to documents written in a particular language. Defaults to 'lang_en'.",
+                "default": "lang_en"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

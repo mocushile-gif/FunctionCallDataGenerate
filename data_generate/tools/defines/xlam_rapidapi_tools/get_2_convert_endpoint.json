@@ -1,0 +1,33 @@
+{
+    "name": "get_2_convert_endpoint",
+    "description": "This is a sub-function API for tool currenciesexchangerateapi.\nTool description: CurrenciesRatesAPI is a RESTful API that provides currency conversion and exchange rate information.This API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses.\nAPI description: Endpoint URL: /convert?to=USD&from=EUR&amount=100&date=2023-02-01\nHTTP Method: GET\nRequest Parameters:\n'to': The target currency symbol. (Required)\n'from': The source currency symbol. (Required)\n'amount': The amount to be converted. (Required)\n'date': \nResponse: This endpoint returns the converted amount and the exchange rate used for the conversion in JSON format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "amount": {
+                "type": "number",
+                "description": "The amount of currency to be converted.",
+                "default": 100.0
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The source currency symbol.",
+                "default": "EUR"
+            },
+            "to": {
+                "type": "string",
+                "description": "The target currency symbol.",
+                "default": "USD"
+            },
+            "date": {
+                "type": "string",
+                "description": "The date for the historical exchange rate. Defaults to None."
+            }
+        },
+        "required": [
+            "amount",
+            "is_from",
+            "to"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "format_number",
+    "description": "This is a sub-function API for tool phone_validator_api.\nTool description: Verify phone numbers are valid on your apps.\nAPI description: Formats a given phone number using the Phone Validator API and returns the standardized format of the phone number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone": {
+                "type": "number",
+                "description": "The phone number to be formatted.",
+                "default": 34913353535.0
+            }
+        },
+        "required": [
+            "phone"
+        ]
+    }
+}

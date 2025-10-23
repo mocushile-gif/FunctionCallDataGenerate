@@ -1,0 +1,27 @@
+{
+    "name": "prematch",
+    "description": "This is a sub-function API for tool sports_betting_api.\nTool description: Get up and running in less than 5 minutes with our comprehensive developer documentation. Get Start - https://bet365soft.com/docs\nAPI description: Fetches the prematch list from the Sports Betting API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sp": {
+                "type": "number",
+                "description": "The sport ID."
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code.",
+                "default": "en"
+            },
+            "lid": {
+                "type": "number",
+                "description": "The league ID."
+            }
+        },
+        "required": [
+            "sp",
+            "lang",
+            "lid"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "get_ip_data",
+    "description": "This is a sub-function API for tool ip_to_location_apiip.\nTool description: Apiip.net is an API service allowing customers to automate IP address validation and geolocation lookup in websites, applications, and back-office systems.\nAPI description: Fetch location-related data for a given IP address using the APIIP.net service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "callback": {
+                "type": "string",
+                "description": "Specify a JSONP callback function name according to the [JSONP Callbacks](https://apiip.net/documentation) section.",
+                "default": "FUNCTION_NAME"
+            },
+            "ip": {
+                "type": "string",
+                "description": "An IPv4 or IPv6 address of your choice. or a comma-separated list of IPv4 or IPv6 addresses of your choice. (Limit: 50 values)",
+                "default": "67.250.186.196"
+            },
+            "language": {
+                "type": "string",
+                "description": "Set to a 2-letter language code according to the [Specify Response Language](https://apiip.net/documentation) section.",
+                "default": "es"
+            },
+            "fields": {
+                "type": "string",
+                "description": "Comma-separated list of response fields to retrieve specific data according to the APIIP.net documentation. Default is 'city,capital'.",
+                "default": "city,capital"
+            },
+            "output": {
+                "type": "string",
+                "description": "Format of the API response, either 'json' or 'xml'. Default is 'xml'.",
+                "default": "xml"
+            }
+        },
+        "required": []
+    }
+}

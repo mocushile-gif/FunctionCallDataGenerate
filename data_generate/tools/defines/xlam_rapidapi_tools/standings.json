@@ -1,0 +1,23 @@
+{
+    "name": "standings",
+    "description": "This is a sub-function API for tool rugby_live_data.\nTool description: Rugby fixtures, results, standings and live match coverage from around the world.\nAPI description: Fetches and returns the standings for a specified season and competition.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season_id": {
+                "type": "number",
+                "description": "The ID of the season for which the standings are to be fetched.",
+                "default": 2020.0
+            },
+            "comp_id": {
+                "type": "number",
+                "description": "The ID of the competition for which the standings are to be fetched.",
+                "default": 1236.0
+            }
+        },
+        "required": [
+            "season_id",
+            "comp_id"
+        ]
+    }
+}

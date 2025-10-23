@@ -1,0 +1,23 @@
+{
+    "name": "filter_fats",
+    "description": "This is a sub-function API for tool keto_diet.\nTool description: Dataset of over 450 Ketogenic diet recipes in over 10 categories from Breakfast to Dinner.  Check out encurate.app to manage content on your mobile apps. Contact to feature your app on encurate.app website.\nAPI description: Gives keto recipes within given range of fat content.\nfat_in_grams__lt = Less than\nfat_in_grams__gt = Greater than",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fat_in_grams_lt": {
+                "type": "number",
+                "description": "The upper limit for the fat content in grams.",
+                "default": 25.0
+            },
+            "fat_in_grams_gt": {
+                "type": "number",
+                "description": "The lower limit for the fat content in grams.",
+                "default": 5.0
+            }
+        },
+        "required": [
+            "fat_in_grams_lt",
+            "fat_in_grams_gt"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "getgroups",
+    "description": "This is a sub-function API for tool maytapi_whatsapp.\nTool description: Send and receive messages from WhatsApp via Maytapi. It is a stable and reliable solution. See more:  https://maytapi.com/\nAPI description: Fetches the WhatsApp groups associated with the provided phone ID using the Maytapi API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone_id": {
+                "type": "string",
+                "description": "The ID of the phone whose WhatsApp groups are to be fetched.",
+                "default": "12"
+            }
+        },
+        "required": [
+            "phone_id"
+        ]
+    }
+}

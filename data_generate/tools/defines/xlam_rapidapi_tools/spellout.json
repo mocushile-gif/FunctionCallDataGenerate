@@ -1,0 +1,29 @@
+{
+    "name": "spellout",
+    "description": "This is a sub-function API for tool spellout.\nTool description: This API allows converting numbers to spelled-out format in any language, e.g.: 1234 -> “one thousand two hundred thirty-four”.\nAPI description: Spells out a given number in the specified language using the provided rule set.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "data": {
+                "type": "number",
+                "description": "The number to be spelled out.",
+                "default": 123
+            },
+            "lang": {
+                "type": "string",
+                "description": "The 2-letter ISO 639 language code specifying the language in which the number will be spelled out. Use the `/v1/languages` endpoint to list all supported languages.",
+                "default": "en"
+            },
+            "ruleset": {
+                "type": "string",
+                "description": "Rule Set name. Specifiles rule set accoring to which number will be spelled out. Use /v1/rulesets to list all supported rule sets for any given language.",
+                "default": "spellout-cardinal"
+            }
+        },
+        "required": [
+            "data",
+            "lang",
+            "ruleset"
+        ]
+    }
+}

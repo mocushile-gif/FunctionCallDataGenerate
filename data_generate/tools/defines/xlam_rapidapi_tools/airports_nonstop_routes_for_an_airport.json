@@ -1,0 +1,16 @@
+{
+    "name": "airports_nonstop_routes_for_an_airport",
+    "description": "This is a sub-function API for tool timetable_lookup.\nTool description: Access Worldwide Flight Schedules with connection building.\nAPI description: Fetches a list of nonstop routes for a specified airport using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "airportiatacode": {
+                "type": "string",
+                "description": "The IATA code for the airport."
+            }
+        },
+        "required": [
+            "airportiatacode"
+        ]
+    }
+}

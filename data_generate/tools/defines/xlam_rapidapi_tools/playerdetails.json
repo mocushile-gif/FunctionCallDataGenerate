@@ -1,0 +1,17 @@
+{
+    "name": "playerdetails",
+    "description": "This is a sub-function API for tool esportapi.\nTool description: ESportApi offers eSports results for League of Legends, Dota 2, Counter-Strike providing also eSports standings and tournament live scores.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Fetches the details of a specific E-Sports player by their player ID using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the player for which you want to retrieve the details.",
+                "default": 1078255
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

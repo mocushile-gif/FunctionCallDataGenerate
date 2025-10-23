@@ -1,0 +1,35 @@
+{
+    "name": "distance",
+    "description": "This is a sub-function API for tool geowide.\nTool description: GeoWide API efficiently calculates distances between geographic points, enabling accurate measurements for various applications. With minimal latency, it returns the distance in kilometers, miles, or other units, empowering developers to incorporate precise geographic calculations into their projects effortlessly.\nAPI description: This API endpoint takes latitude and longitude coordinates for two points and calculates the geodesic and great circle distances between them. It returns a json object with formatted coordinate information for each point, along with the distances in miles, kilometres, meters, feet, and nautical miles for both geodesic and great circle measurements.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start_longitude": {
+                "type": "number",
+                "description": "Longitude of the starting point.",
+                "default": 12.482778
+            },
+            "start_latitude": {
+                "type": "number",
+                "description": "Latitude of the starting point.",
+                "default": 41.893333
+            },
+            "end_latitude": {
+                "type": "number",
+                "description": "Latitude of the ending point.",
+                "default": 40.416944
+            },
+            "end_longitude": {
+                "type": "number",
+                "description": "Longitude of the ending point.",
+                "default": -3.703333
+            }
+        },
+        "required": [
+            "start_longitude",
+            "start_latitude",
+            "end_latitude",
+            "end_longitude"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "remove_image_background",
+    "description": "Remove background from an image using various methods.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "input_path": {
+                "type": "string",
+                "description": "Path to input image file"
+            },
+            "output_path": {
+                "type": "string",
+                "description": "Path for output file (optional, auto-generated if not provided)"
+            },
+            "method": {
+                "type": "string",
+                "description": "Background removal method",
+                "enum": ["auto", "color", "edge", "ai"],
+                "default": "auto"
+            },
+            "threshold": {
+                "type": "number",
+                "description": "Threshold for background detection (0.0-1.0)",
+                "default": 0.5,
+                "minimum": 0.0,
+                "maximum": 1.0
+            },
+            "output_format": {
+                "type": "string",
+                "description": "Output image format",
+                "enum": ["png", "jpg", "webp"],
+                "default": "png"
+            }
+        },
+        "required": ["input_path"]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "teams_standings_short",
+    "description": "This is a sub-function API for tool livescore_sports.\nTool description: LiveScore Sports | The number one destination for real time scores for Football, Cricket, Tennis, Basketball, Hockey and more. Support: tipsters@rapi.one / t.me/api_tipsters You can make a website like: soccerway.com, aiscore.com, tipsscore.com, livescore.com \nAPI description: Fetch the team standings based on the given team ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "timezone": {
+                "type": "number",
+                "description": "Timezone, offsets from UTC",
+                "default": 0.0
+            },
+            "locale": {
+                "type": "string",
+                "description": "The locale code to localize the response.",
+                "default": "EN"
+            },
+            "team_id": {
+                "type": "number",
+                "description": "The unique identifier for the team.",
+                "default": 12633.0
+            }
+        },
+        "required": [
+            "timezone",
+            "locale",
+            "team_id"
+        ]
+    }
+}

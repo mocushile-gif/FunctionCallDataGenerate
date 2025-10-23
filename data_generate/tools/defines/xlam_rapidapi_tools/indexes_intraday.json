@@ -1,0 +1,40 @@
+{
+    "name": "indexes_intraday",
+    "description": "This is a sub-function API for tool quotient.\nTool description: Market data API for intraday (1-minutes) data, end-of-day data, options data, crypto, forex, live prices, fundamental data, trading signal, and much more, on various assets (Stocks, ETFs, Funds, Indices, Forex, Cryptocurrencies, etc), on worldwide stock exchanges (us, canada, australia, uk and europe).\nAPI description: Fetches intraday time series data (Date, Open, High, Low, Close, Volume) for a specified index symbol within a given time interval.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "interval": {
+                "type": "number",
+                "description": "Time interval in minutes, e.g., `1` for 1-minute intervals, `5` for 5-minute intervals.",
+                "default": 1.0
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The start date and time for the query. Supported formats include **YYYY-mm-dd HH:MM** and **YYYY-mm-dd**, e.g., '2020-04-21 10:00' or '2020-04-21'.",
+                "default": "2020-04-21 10:00"
+            },
+            "to": {
+                "type": "string",
+                "description": "The end date and time for the query. Supported formats include **YYYY-mm-dd HH:MM** and **YYYY-mm-dd**, e.g., '2020-04-21 10:30' or '2020-04-22'.",
+                "default": "2020-04-21 10:30"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The symbol of the index to look for, e.g., `^GSPC` (S&P 500 index) or with suffix notation `SPX:INDEX` (S&P 500 index), `^GSPTSE` (TSX Composite Index) or with suffix notation `TXCX:INDEXCA` (TSX Composite Index). Valid suffixes are :\n\n  - `:INDEX`: for world indices, e.g., `SPX:INDEX` (S&P 500 index) or `^GSPC`\n  - `:INDEXUS`: for us specific indices, e.g., `SREN:INDEXUS` (S&P 500 Energy (Sector)) or `^GSPE`\n  - `:INDEXCA`: for canadian specific indices, e.g., `TXCX:INDEXCA` (TSX Composite Index) or `^GSPT",
+                "default": "^GSPC"
+            },
+            "adjust": {
+                "type": "boolean",
+                "description": "Whether the price should be adjusted. Defaults to None.",
+                "default": true
+            }
+        },
+        "required": [
+            "interval",
+            "is_from",
+            "to",
+            "symbol"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "stock_institution_ownership",
+    "description": "This is a sub-function API for tool yahoo_finance_v2.\nTool description: Yahoo Finance API for stocks, options, ETFs, mutual funds and news. Moved to: https://rapidapi.com/sparior/api/mboum-finance\nAPI description: Retrieves the institutional ownership information for a given stock symbol using the Yahoo Finance API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to fetch institutional ownership data.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

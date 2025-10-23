@@ -1,0 +1,144 @@
+{
+  "success": true,
+  "image_url": "https://cdn2.thedogapi.com/images/rbPXSCiYx.jpg",
+  "result": [
+    {
+      "id": "564f9bf0c7091af282a9b864a864eff6",
+      "region_info": {
+        "bounding_box": {
+          "top_row": 0.05235748,
+          "left_col": 0.0542009,
+          "bottom_row": 0.91749305,
+          "right_col": 0.9880248
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_KSdPnfpL",
+            "name": "Dog",
+            "value": 0.8179087,
+            "app_id": "main",
+            "user_id": "clarifai"
+          }
+        ]
+      },
+      "value": 0.8179087
+    },
+    {
+      "id": "83d704c375d7df738c486455720b705f",
+      "region_info": {
+        "bounding_box": {
+          "top_row": 0.53949493,
+          "left_col": 0.03517228,
+          "bottom_row": 0.6687059,
+          "right_col": 0.13051936
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_M5wzhtLg",
+            "name": "Plant",
+            "value": 0.4312206,
+            "app_id": "main",
+            "user_id": "clarifai"
+          }
+        ]
+      },
+      "value": 0.4312206
+    },
+    {
+      "id": "b7e51a83a6dc6074a63503232079e38e",
+      "region_info": {
+        "bounding_box": {
+          "top_row": 0.7913701,
+          "left_col": 0.34820184,
+          "bottom_row": 0.9000533,
+          "right_col": 0.42733774
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_M5wzhtLg",
+            "name": "Plant",
+            "value": 0.42121845,
+            "app_id": "main",
+            "user_id": "clarifai"
+          }
+        ]
+      },
+      "value": 0.42121845
+    },
+    {
+      "id": "9a3402c3f32f7f70ae0ab2f8006ead89",
+      "region_info": {
+        "bounding_box": {
+          "top_row": 0.0054351576,
+          "left_col": 0.8568898,
+          "bottom_row": 0.2451208,
+          "right_col": 0.99875003
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_M5wzhtLg",
+            "name": "Plant",
+            "value": 0.40699992,
+            "app_id": "main",
+            "user_id": "clarifai"
+          }
+        ]
+      },
+      "value": 0.40699992
+    },
+    {
+      "id": "b94aee171a76d36fdd1c8133bdd59e9e",
+      "region_info": {
+        "bounding_box": {
+          "top_row": 0.31973457,
+          "left_col": 0.9394037,
+          "bottom_row": 0.65884364,
+          "right_col": 0.99875003
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_M5wzhtLg",
+            "name": "Plant",
+            "value": 0.38655645,
+            "app_id": "main",
+            "user_id": "clarifai"
+          }
+        ]
+      },
+      "value": 0.38655645
+    },
+    {
+      "id": "cdcc2142fccb437af48fdb120efe8504",
+      "region_info": {
+        "bounding_box": {
+          "top_row": 0.27207494,
+          "left_col": 0,
+          "bottom_row": 0.42280087,
+          "right_col": 0.08300898
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_M5wzhtLg",
+            "name": "Plant",
+            "value": 0.360584,
+            "app_id": "main",
+            "user_id": "clarifai"
+          }
+        ]
+      },
+      "value": 0.360584
+    }
+  ]
+}

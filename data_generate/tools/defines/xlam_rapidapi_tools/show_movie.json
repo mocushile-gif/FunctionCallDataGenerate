@@ -1,0 +1,21 @@
+{
+    "name": "show_movie",
+    "description": "This is a sub-function API for tool vod_app.\nTool description: API for video on demand app\nAPI description: Retrieves information about a specific movie show using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "show_slug": {
+                "type": "string",
+                "description": "The slug identifier for the show."
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the specific video of the show."
+            }
+        },
+        "required": [
+            "show_slug",
+            "is_id"
+        ]
+    }
+}

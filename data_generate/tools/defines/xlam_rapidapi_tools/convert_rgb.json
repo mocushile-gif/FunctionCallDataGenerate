@@ -1,0 +1,29 @@
+{
+    "name": "convert_rgb",
+    "description": "This is a sub-function API for tool convexity.\nTool description: Convexity is an Color-convertor API that offers endpoints for converting between different color representations, including RGB, HSL, and CMYK\nAPI description: Converts an RGB color code to other color codes such as Hex, HSL, and CMYK using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "r": {
+                "type": "number",
+                "description": "The red component of the RGB color.",
+                "default": 127.0
+            },
+            "g": {
+                "type": "number",
+                "description": "The green component of the RGB color.",
+                "default": 255.0
+            },
+            "b": {
+                "type": "number",
+                "description": "The blue component of the RGB color.",
+                "default": 212.0
+            }
+        },
+        "required": [
+            "r",
+            "g",
+            "b"
+        ]
+    }
+}

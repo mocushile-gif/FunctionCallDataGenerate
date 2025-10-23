@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "image_url": "https://cdn2.thedogapi.com/images/-ipH6e7hG.jpg",
+  "result": [
+    {
+      "id": "d4b2dd14ef01b03ed5103a3a83dfd334",
+      "region_info": {
+        "bounding_box": {
+          "top_row": 0.04225301,
+          "left_col": 0.07500729,
+          "bottom_row": 0.98523915,
+          "right_col": 0.9817181
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_KSdPnfpL",
+            "name": "Dog",
+            "value": 0.939335,
+            "app_id": "main",
+            "user_id": "clarifai"
+          }
+        ]
+      },
+      "value": 0.939335
+    }
+  ]
+}

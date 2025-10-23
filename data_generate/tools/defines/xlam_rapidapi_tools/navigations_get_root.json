@@ -1,0 +1,32 @@
+{
+    "name": "navigations_get_root",
+    "description": "This is a sub-function API for tool unofficial_shein.\nTool description: This API helps to query for almost everything that you see PUBLICLY on SHEIN's sites\nAPI description: Fetches the root categories related to a specified tab from the navigations endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "channeltype": {
+                "type": "number",
+                "description": "The value of the 'id' field returned in the /navigations/get-tabs endpoint.",
+                "default": 2.0
+            },
+            "currency": {
+                "type": "string",
+                "description": "The 3-letter currency code. Defaults to 'USD'.",
+                "default": "USD"
+            },
+            "country": {
+                "type": "string",
+                "description": "The 2-letter country code. Defaults to 'US'.",
+                "default": "US"
+            },
+            "language": {
+                "type": "string",
+                "description": "The 2-letter language code. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "channeltype"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "verify_pan_card",
+    "description": "This is a sub-function API for tool pan_card_verification_at_lowest_price.\nTool description: Instant PAN Card Verification using government database check. (Made in India).\n\nPAN Card Verification API instantly verifies details of a PAN Card by confirming them from the Government database.\n\nThis makes your onboarding process faster, safer and smarter. With our PAN verification, you can be confident that the individuals or merchants you onboard hold a valid PAN card and have provided you with the right identity proof.\nAPI description: Instant PAN Card Verification using government database check.\n\nThis PAN Card Verification API instantly verifies details of a PAN Card by confirming them from the Government database.\n\nThis makes your onboarding process faster, safer and smarter. With our PAN verification, you can be confident that the individuals or merchants you onboard hold a valid PAN card and have provided you with the right identity proof.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x_rapid_api": {
+                "type": "string",
+                "description": "The X-RapidAPI host value required for the API query.",
+                "default": "rapid-api-database"
+            },
+            "pannumber": {
+                "type": "string",
+                "description": "The PAN Card number to be verified.",
+                "default": "FNLPM8635N"
+            }
+        },
+        "required": [
+            "x_rapid_api",
+            "pannumber"
+        ]
+    }
+}

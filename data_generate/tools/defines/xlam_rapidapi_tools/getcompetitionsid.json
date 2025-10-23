@@ -1,0 +1,16 @@
+{
+    "name": "getcompetitionsid",
+    "description": "This is a sub-function API for tool wosti_futbol_tv_peru.\nTool description: Guía de partidos de fútbol televisados en Perú. Horarios y canales (TV&streaming legales). Futbolenvivoperu.com Support: info@wosti.com\nAPI description: Obtener competición por identificador único del listado de competiciones de partidos de fútbol televisados en Perú.\n\n> Este endpoints requiere de un parámetro denominado Id.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "Unique identifier of the competition to be fetched."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

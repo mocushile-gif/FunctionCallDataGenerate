@@ -1,0 +1,42 @@
+{
+    "{'q': 'Foxborough,US'}": {
+        "error": "",
+        "response": "<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander?q=Foxborough%2CUS\"}</script></head></html>"
+    },
+    "{'q': 'foxborough,us'}": {
+        "error": "",
+        "response": "<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander?q=foxborough%2Cus\"}</script></head></html>"
+    },
+    "{'q': 'toronto,ca'}": {
+        "error": "",
+        "response": "<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander?q=toronto%2Cca\"}</script></head></html>"
+    },
+    "{'q': 'chicago,us'}": {
+        "error": "",
+        "response": "<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander?q=chicago%2Cus\"}</script></head></html>"
+    },
+    "{'q': 'New York City,us'}": {
+        "error": "",
+        "response": "<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander?q=New%20York%20City%2Cus\"}</script></head></html>"
+    },
+    "{'q': 'New+York,us'}": {
+        "error": "",
+        "response": "<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander?q=New%2BYork%2Cus\"}</script></head></html>"
+    },
+    "{'q': 'New York,us'}": {
+        "error": "",
+        "response": "<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander?q=New%20York%2Cus\"}</script></head></html>"
+    },
+    "{'q': 'San Francisco,us'}": {
+        "error": "",
+        "response": "<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander?q=San%20Francisco%2Cus\"}</script></head></html>"
+    },
+    "{'q': 'miami,us'}": {
+        "error": "",
+        "response": "<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander?q=miami%2Cus\"}</script></head></html>"
+    },
+    "{'q': 'paris,fr'}": {
+        "error": "",
+        "response": "<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander?q=paris%2Cfr\"}</script></head></html>"
+    }
+}

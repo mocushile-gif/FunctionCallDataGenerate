@@ -1,0 +1,15 @@
+{
+    "name": "commune_par_nom",
+    "description": "This is a sub-function API for tool bps.\nTool description: Les boîtes postales (BPs), codes postaux, localités,communes, codes cedex de Nouvelle-Calédonie.\nAPI description: Récupérer une ou plusieurs communes grâce à son nom. Perfect match ou partiel.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nom": {
+                "type": "string",
+                "description": "The name of the commune to search for. Defaults to 'poum'.",
+                "default": "poum"
+            }
+        },
+        "required": []
+    }
+}

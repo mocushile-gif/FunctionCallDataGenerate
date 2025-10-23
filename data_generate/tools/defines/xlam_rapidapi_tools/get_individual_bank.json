@@ -1,0 +1,17 @@
+{
+    "name": "get_individual_bank",
+    "description": "This is a sub-function API for tool exchange_rates_live.\nTool description: An API showing all the latest currencies from official banks.\nAPI description: Get rates from Central banks using prefixed. \nDenmark National Bank (dkk), \nNational Bank Of Poland (pln),\nEuropean Central Bank  (eur),\nEuropean Central Bank  - calculated for USD base(usd), \nSwedish Central Bank  (sek)\nFeel free to contact me If you wish to add new currency rates/ banks.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "bankid": {
+                "type": "string",
+                "description": "The identifier for the desired central bank (e.g., 'dkk' for Denmark National Bank, 'pln' for National Bank Of Poland, 'eur' for European Central Bank, 'usd' for USD base rate by the European Central Bank, 'sek' for Swedish Central Bank).",
+                "default": "eur"
+            }
+        },
+        "required": [
+            "bankid"
+        ]
+    }
+}

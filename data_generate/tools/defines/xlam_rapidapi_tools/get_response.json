@@ -1,0 +1,29 @@
+{
+    "name": "get_response",
+    "description": "This is a sub-function API for tool automatic_custom_response_creator.\nTool description: send a customer review, you will receive a personalized response proposal automatically\nAPI description: There are 3 params necessary : \n\n- First - Add a review \"avis\" (ex. \"Merci pour votre accueil, c'était parfait\")\n- Then - Add a \"business_type\" (ex. \"Restaurant\")\n- Finaly - Add a \"business_brand\" (ex. \"Fuzi\")",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "business_type": {
+                "type": "string",
+                "description": "The type of the business (e.g., \"Restaurant\").",
+                "default": "Restaurant"
+            },
+            "business_brand": {
+                "type": "string",
+                "description": "The brand of the business (e.g., \"Fuzi\").",
+                "default": "Fuzi"
+            },
+            "avis": {
+                "type": "string",
+                "description": "The review text (e.g., \"Merci pour votre accueil, c'était parfait\").",
+                "default": "C'était excellent"
+            }
+        },
+        "required": [
+            "business_type",
+            "business_brand",
+            "avis"
+        ]
+    }
+}

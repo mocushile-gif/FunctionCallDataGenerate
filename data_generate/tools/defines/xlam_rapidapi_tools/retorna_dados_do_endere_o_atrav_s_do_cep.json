@@ -1,0 +1,17 @@
+{
+    "name": "retorna_dados_do_endere_o_atrav_s_do_cep",
+    "description": "This is a sub-function API for tool cep_brazil.\nTool description: API gratuita que retorna os dados Correios através de CEP\nAPI description: Retrieves address information based on a given Brazilian postal code (CEP) using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cepnumber": {
+                "type": "string",
+                "description": "The Brazilian postal code (CEP) for which to retrieve address information.",
+                "default": "75094080"
+            }
+        },
+        "required": [
+            "cepnumber"
+        ]
+    }
+}

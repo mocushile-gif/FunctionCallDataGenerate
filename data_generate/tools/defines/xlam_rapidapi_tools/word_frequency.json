@@ -1,0 +1,17 @@
+{
+    "name": "word_frequency",
+    "description": "This is a sub-function API for tool linguist.\nTool description: Linguist packs all features you need to process text including Counters,  Article Parser, Part of Speech (POS) Tagger, Tokenizer, Stemmer, Bad Words Remover, Stop Words Remover, Sentence Segmentation, Spellchecker, Text Summarizer, Definition and Synonyms, Word Frequency, Lemmatize, Pluralize, Singularize, Rhymes, Sounds Like, Spells Like, and Writing Suggestions.\nAPI description: Count how many times unique word appear on a text.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The input text.",
+                "default": "This is just a sample text to show text text text"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

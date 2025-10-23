@@ -1,0 +1,46 @@
+{
+    "name": "sentences",
+    "description": "This is a sub-function API for tool jibber_jabber.\nTool description: Dummy Text Generator\nAPI description: Fetches random sentences based on the specified constraints using the Jibber-Jabber API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "maximumnumberofsentences": {
+                "type": "number",
+                "description": "The maximum number of sentences to retrieve. Defaults to None."
+            },
+            "minimumwordlength": {
+                "type": "number",
+                "description": "The minimum length of words in the sentences. Defaults to None."
+            },
+            "minimumnumberofsentences": {
+                "type": "number",
+                "description": "The minimum number of sentences to retrieve. Defaults to None."
+            },
+            "numberofsentences": {
+                "type": "number",
+                "description": "The maximum number of sentences to retrieve. Defaults to None."
+            },
+            "maximumnumberofwords": {
+                "type": "number",
+                "description": "The maximum number of words per sentence. Defaults to None."
+            },
+            "minimumnumberofwords": {
+                "type": "number",
+                "description": "The minimum number of words per sentence. Defaults to None."
+            },
+            "numberofwords": {
+                "type": "number",
+                "description": "The maximum number of words per sentence. Defaults to None."
+            },
+            "wordlength": {
+                "type": "number",
+                "description": "The minimum length of words in the sentences. Defaults to None."
+            },
+            "maximumwordlength": {
+                "type": "number",
+                "description": "The maximum length of words in the sentences. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

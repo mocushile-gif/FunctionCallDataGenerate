@@ -1,0 +1,81 @@
+{
+    "name": "places_near_place",
+    "description": "This is a sub-function API for tool geodb_cities.\nTool description: Get global city, region, and country data. Filter and display results in multiple languages.\nAPI description: Retrieve places near a specified place, with optional filtering criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "placeid": {
+                "type": "string",
+                "description": "The ID of the place from which to find nearby places."
+            },
+            "radius": {
+                "type": "number",
+                "description": "The location radius within which to find places"
+            },
+            "asciimode": {
+                "type": "boolean",
+                "description": "Whether to display results using ASCII characters."
+            },
+            "languagecode": {
+                "type": "string",
+                "description": "The language in which to display results."
+            },
+            "includedeleted": {
+                "type": "string",
+                "description": "Whether to include places marked as deleted. Options: 'ALL', 'SINCE_YESTERDAY', 'SINCE_LAST_WEEK', 'NONE'."
+            },
+            "minpopulation": {
+                "type": "number",
+                "description": "Minimum population of the places to be included in the results."
+            },
+            "distanceunit": {
+                "type": "string",
+                "description": "The unit of distance to use ('MI' for miles, 'KM' for kilometers)."
+            },
+            "sort": {
+                "type": "string",
+                "description": "The sorting criteria for results. Format: ±SORT_FIELD, where SORT_FIELD could be 'countryCode', 'elevation', 'name', 'population'."
+            },
+            "hateoasmode": {
+                "type": "boolean",
+                "description": "Whether to include HATEOAS-style links in the results."
+            },
+            "nameprefixdefaultlangresults": {
+                "type": "boolean",
+                "description": "When name-prefix matching, whether or not to match on names in the default language if a non-default language is requested"
+            },
+            "nameprefix": {
+                "type": "string",
+                "description": "Only places whose names start with this prefix. If languageCode is set, the prefix will be matched on the name as it appears in that language."
+            },
+            "types": {
+                "type": "string",
+                "description": "Filter places by these types (comma-separated values such as 'ADM2', 'CITY', 'ISLAND')."
+            },
+            "countryids": {
+                "type": "string",
+                "description": "Only include places in these countries (comma-separated country codes or WikiData IDs)."
+            },
+            "timezoneids": {
+                "type": "string",
+                "description": "Only include places in these time zones."
+            },
+            "excludedcountryids": {
+                "type": "string",
+                "description": "Exclude places in these countries (comma-separated country codes or WikiData IDs)."
+            },
+            "offset": {
+                "type": "number",
+                "description": "The offset into the results set for pagination."
+            },
+            "maxpopulation": {
+                "type": "number",
+                "description": "Maximum population of the places to be included in the results."
+            }
+        },
+        "required": [
+            "placeid",
+            "radius"
+        ]
+    }
+}

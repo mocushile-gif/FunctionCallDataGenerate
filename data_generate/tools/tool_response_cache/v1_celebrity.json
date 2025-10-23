@@ -1,0 +1,48 @@
+{
+    "{}": {
+        "error": "",
+        "response": [
+            {
+                "name": "michael jordan",
+                "net_worth": 2200000000,
+                "gender": "male",
+                "nationality": "us",
+                "occupation": [
+                    "basketball_player",
+                    "athlete",
+                    "spokesperson",
+                    "entrepreneur",
+                    "actor"
+                ],
+                "height": 1.98,
+                "birthday": "1963-02-17",
+                "age": 60,
+                "is_alive": true
+            }
+        ]
+    },
+    "{'name': 'Donald Trump'}": {
+        "error": "",
+        "response": "[{'name': 'donald trump', 'net_worth': 2000000000, 'gender': 'male', 'nationality': 'us', 'occupation': ['entrepreneur', 'businessperson', 'writer', 'investor', 'tv_personality', 'television_producer', 'film_producer', 'actor', 'economist', 'real_estate_entrepreneur'], 'height': 1.91, 'birthday': '1946-06-14', 'age': 78, 'is_alive': True}, {'name': 'donald trump jr.', 'net_worth': 300000000, 'gender': 'male', 'nationality': 'us', 'occupation': ['businessperson'], 'height': 1.85, 'birthday': '1977-12-31', 'age': 47, 'is_alive': True}]"
+    },
+    "{'min_net_worth': 250000000, 'min_height': '1.80'}": {
+        "error": "",
+        "response": "[{'name': 'michael jordan', 'net_worth': 2200000000, 'gender': 'male', 'nationality': 'us', 'occupation': ['basketball_player', 'athlete', 'spokesperson', 'entrepreneur', 'actor'], 'height': 1.98, 'birthday': '1963-02-17', 'age': 62, 'is_alive': True}]"
+    },
+    "{'name': 'Leonardo DiCaprio'}": {
+        "error": "",
+        "response": "[{'name': 'leonardo dicaprio', 'net_worth': 260000000, 'gender': 'male', 'nationality': 'us', 'occupation': ['actor', 'film_producer', 'television_producer'], 'height': 1.83, 'birthday': '1974-11-11', 'age': 50, 'is_alive': True}]"
+    },
+    "{'nationality': 'US', 'min_net_worth': 1000000000}": {
+        "error": "",
+        "response": "[{'name': 'michael jordan', 'net_worth': 2200000000, 'gender': 'male', 'nationality': 'us', 'occupation': ['basketball_player', 'athlete', 'spokesperson', 'entrepreneur', 'actor'], 'height': 1.98, 'birthday': '1963-02-17', 'age': 62, 'is_alive': True}]"
+    },
+    "{'name': '', 'min_net_worth': 100000000}": {
+        "error": "",
+        "response": "[{'name': 'larry the cable guy', 'net_worth': 100000000, 'gender': 'male', 'nationality': 'us', 'occupation': ['comedian', 'actor', 'film_producer', 'voice_actor', 'radio_personality', 'television_producer', 'screenwriter'], 'height': 1.78, 'birthday': '1963-02-17', 'age': 62, 'is_alive': True}, {'name': 'walter afanasieff', 'net_worth': 100000000, 'gender': 'male', 'nationality': 'us', 'occupation': ['songwriter', 'composer', 'record_producer', 'writer'], 'birthday': '1958-02-10', 'age': 67, 'is_alive': True}, {'name': 'barbara broccoli', 'net_worth': 300000000, 'gender': 'female', 'nationality': 'us', 'occupation': ['film_producer', 'theatrical_producer'], 'birthday': '1960-06-18', 'age': 64, 'is_alive': True}, {'name': 'jason chang', 'net_worth': 2900000000, 'gender': 'male', 'nationality': 'gb', 'occupation': ['actor'], 'birthday': '1979-07-16', 'age': 45, 'is_alive': True}, {'name': 'amancio ortega gaona', 'net_worth': 70000000000, 'gender': 'male', 'nationality': 'es', 'occupation': ['entrepreneur', 'businessperson'], 'birthday': '1936-03-28', 'age': 89, 'is_alive': True}, {'name': 'dave grohl', 'net_worth': 320000000, 'gender': 'male', 'nationality': 'us', 'occupation': ['songwriter', 'singer', 'musician', 'drummer', 'guitarist', 'multi-instrumentalist', 'actor', 'film_director', 'singer-songwriter'], 'height': 1.83, 'birthday': '1969-01-14', 'age': 56, 'is_alive': True}, {'name': 'guy berryman', 'net_worth': 100000000, 'gender': 'male', 'nationality': 'gb', 'occupatio"
+    },
+    "{'min_net_worth': 100000000, 'min_height': '1.75'}": {
+        "error": "",
+        "response": "[{'name': 'michael jordan', 'net_worth': 2200000000, 'gender': 'male', 'nationality': 'us', 'occupation': ['basketball_player', 'athlete', 'spokesperson', 'entrepreneur', 'actor'], 'height': 1.98, 'birthday': '1963-02-17', 'age': 62, 'is_alive': True}]"
+    }
+}

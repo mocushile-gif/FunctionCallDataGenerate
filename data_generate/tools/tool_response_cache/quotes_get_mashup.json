@@ -1,0 +1,491 @@
+{
+    "{'symbol': 'ETF'}": {
+        "error": "",
+        "response": {
+            "mashup": {
+                "financialMetric": {
+                    "financialMetricDetails": {
+                        "financialMetricDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: ETF, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "FinancialMetric"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "valuation": {
+                    "valuationDetails": {
+                        "valuationDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: ETF, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "Valuation"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "analystOpinion": {
+                    "analystOpinionDetails": {
+                        "analystOpinionDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: ETF, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "AnalystOpinion"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "ownership": {
+                    "ownershipDetails": {
+                        "ownershipDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: ETF, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "Ownership"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "returnsPerformance": {
+                    "returnsPerfDetails": {
+                        "returnsPerformanceDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: ETF, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "ReturnsPerformance"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "basicFact": {
+                    "basicFactDetails": {
+                        "basicFactDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: ETF, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "BasicFacts"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "dividend": {
+                    "dividendDetails": {
+                        "dividendDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: ETF, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "Dividend"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "distributions": {
+                    "sysMsgs": {
+                        "sysMsg": [
+                            {
+                                "type": "Warning",
+                                "code": 2999,
+                                "message": "Other",
+                                "detail": "Requested: ETF, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                "source": "Distributions"
+                            }
+                        ]
+                    },
+                    "distributionDetails": {}
+                },
+                "portfolioComposition": {
+                    "portfolioCompositionDetails": {
+                        "portfolioCompositionDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: ETF, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "PortfolioComposition"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "earning": {
+                    "earningDetails": {
+                        "earningDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: ETF, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "Earning"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "sysMsgs": {
+                    "sysMsg": [
+                        {
+                            "message": "Error calling domain D_Research-MarketSentiment_v1",
+                            "detail": "LWC_MASHUP_VIP_DIRECT_EP_v1.0.1 failed and fallback disabled.",
+                            "code": "4000",
+                            "type": "ProcessingException"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "{'symbol': 'your_etf_symbol'}": {
+        "error": "",
+        "response": {
+            "mashup": {
+                "financialMetric": {
+                    "financialMetricDetails": {
+                        "financialMetricDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: YOUR_ETF_SYMBOL, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "FinancialMetric"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "valuation": {
+                    "valuationDetails": {
+                        "valuationDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: YOUR_ETF_SYMBOL, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "Valuation"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "analystOpinion": {
+                    "analystOpinionDetails": {
+                        "analystOpinionDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: YOUR_ETF_SYMBOL, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "AnalystOpinion"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "ownership": {
+                    "ownershipDetails": {
+                        "ownershipDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: YOUR_ETF_SYMBOL, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "Ownership"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "returnsPerformance": {
+                    "returnsPerfDetails": {
+                        "returnsPerformanceDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: YOUR_ETF_SYMBOL, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "ReturnsPerformance"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "basicFact": {
+                    "basicFactDetails": {
+                        "basicFactDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: YOUR_ETF_SYMBOL, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "BasicFacts"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "dividend": {
+                    "dividendDetails": {
+                        "dividendDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: YOUR_ETF_SYMBOL, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "Dividend"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "distributions": {
+                    "sysMsgs": {
+                        "sysMsg": [
+                            {
+                                "type": "Warning",
+                                "code": 2999,
+                                "message": "Other",
+                                "detail": "Requested: YOUR_ETF_SYMBOL, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                "source": "Distributions"
+                            }
+                        ]
+                    },
+                    "distributionDetails": {}
+                },
+                "portfolioComposition": {
+                    "portfolioCompositionDetails": {
+                        "portfolioCompositionDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: YOUR_ETF_SYMBOL, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "PortfolioComposition"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "earning": {
+                    "earningDetails": {
+                        "earningDetail": [
+                            {
+                                "sysMsgs": {
+                                    "sysMsg": [
+                                        {
+                                            "type": "Warning",
+                                            "code": 2999,
+                                            "message": "Other",
+                                            "detail": "Requested: YOUR_ETF_SYMBOL, Message: Error_04 - Not a Valid Symbol/CUSIP",
+                                            "source": "Earning"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "sysMsgs": {
+                    "sysMsg": [
+                        {
+                            "message": "Error calling domain D_Research-MarketSentiment_v1",
+                            "detail": "LWC_MASHUP_VIP_DIRECT_EP_v1.0.1 failed and fallback disabled.",
+                            "code": "4000",
+                            "type": "ProcessingException"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "{'symbol': '<ETF Symbol>'}": {
+        "error": "",
+        "response": {
+            "mashup": {
+                "sysMsgs": {
+                    "sysMsg": [
+                        {
+                            "message": "Error calling domain D_Research-ReturnsPerformance_v1",
+                            "detail": "LWC_MASHUP_VIP_DIRECT_EP_v1.0.1 failed and fallback disabled.",
+                            "code": "4000",
+                            "type": "ProcessingException"
+                        },
+                        {
+                            "message": "Error calling domain D_Research-Distributions_v1",
+                            "detail": "LWC_MASHUP_VIP_DIRECT_EP_v1.0.1 failed and fallback disabled.",
+                            "code": "4000",
+                            "type": "ProcessingException"
+                        },
+                        {
+                            "message": "Error calling domain D_Research-PortfolioComposition_v1",
+                            "detail": "LWC_MASHUP_VIP_DIRECT_EP_v1.0.1 failed and fallback disabled.",
+                            "code": "4000",
+                            "type": "ProcessingException"
+                        },
+                        {
+                            "message": "Error calling domain D_Research-AnalystOpinion_v1",
+                            "detail": "LWC_MASHUP_VIP_DIRECT_EP_v1.0.1 failed and fallback disabled.",
+                            "code": "4000",
+                            "type": "ProcessingException"
+                        },
+                        {
+                            "message": "Error calling domain D_Research-BasicFact_v1",
+                            "detail": "LWC_MASHUP_VIP_DIRECT_EP_v1.0.1 failed and fallback disabled.",
+                            "code": "4000",
+                            "type": "ProcessingException"
+                        },
+                        {
+                            "message": "Error calling domain D_Research-Valuation_v1",
+                            "detail": "LWC_MASHUP_VIP_DIRECT_EP_v1.0.1 failed and fallback disabled.",
+                            "code": "4000",
+                            "type": "ProcessingException"
+                        },
+                        {
+                            "message": "Error calling domain D_Research-Ownership_v1",
+                            "detail": "LWC_MASHUP_VIP_DIRECT_EP_v1.0.1 failed and fallback disabled.",
+                            "code": "4000",
+                            "type": "ProcessingException"
+                        },
+                        {
+                            "message": "Error calling domain D_Research-Dividend_v1",
+                            "detail": "LWC_MASHUP_VIP_DIRECT_EP_v1.0.1 failed and fallback disabled.",
+                            "code": "4000",
+                            "type": "ProcessingException"
+                        },
+                        {
+                            "message": "Error calling domain D_Research-Earning_v1",
+                            "detail": "LWC_MASHUP_VIP_DIRECT_EP_v1.0.1 failed and fallback disabled.",
+                            "code": "4000",
+                            "type": "ProcessingException"
+                        },
+                        {
+                            "message": "Error calling domain D_Research-FinancialMetric_v1",
+                            "detail": "LWC_MASHUP_VIP_DIRECT_EP_v1.0.1 failed and fallback disabled.",
+                            "code": "4000",
+                            "type": "ProcessingException"
+                        },
+                        {
+                            "message": "Error calling domain D_Research-MarketSentiment_v1",
+                            "detail": "LWC_MASHUP_VIP_DIRECT_EP_v1.0.1 failed and fallback disabled.",
+                            "code": "4000",
+                            "type": "ProcessingException"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "{'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'mashup': {'financialMetric': {'financialMetricDetails': {'financialMetricDetail': [{'secDetail': {'requested': 'TSLA', 'classification': 'Common Stock', 'classificationType': 'Common Stock', 'symbol': 'TSLA', 'CUSIP': '88160R101'}, 'currentRatioTTM': 1.50259, 'debtToTotCapTTM': 10.31554, 'intCoverageMRQ': 91.86207, 'longTermDebtToEquityTTM': 14.12019, 'profitMargin': 10.772}]}}, 'marketSentiment': {'sentimentDetails': [{'symbol': 'TSLA', 'shortTermDirection': 'Bearish', 'shortTermScore': -3, 'intermediateTermDirection': 'Bullish', 'intermediateTermScore': 12, 'longTermDirection': 'Bullish', 'longTermScore': 9, 'addlInfoLink': 'https://research2relay.fidelity.wallst.com/fidelity/research/reports/release2/Research/Recognia.asp', 'timestamp': 1688184000}]}, 'valuation': {'valuationDetails': {'valuationDetail': [{'secDetail': {'requested': 'TSLA', 'classification': 'Common Stock', 'classificationType': 'Common Stock', 'symbol': 'TSLA', 'CUSIP': '88160R101'}, 'equityDetail': {'priceToBookTTM': 19.54, 'priceToEarningsTTM': 76.99118, 'peCurrYrEst': 74.46501, 'peGTTM': 7.79263, 'peNextYrEst': 52.87474, 'priceToSalesTTM': 9.59484}}]}}, 'analystOpinion': {'analystOpinionDetails': {'analystOpinionDetail': [{'secDetail': {'requested': 'TSLA', 'classification': 'Common Stock', 'classificationType': 'Common Stock', 'symbol': 'TSLA', 'CUSIP': '88160R101'}, 'equitySummDetail': {'score': 0.4, 'scoreDate': '07/01/23', 'scoreNumFirms': 8, 'rating': 'Very Bearish', 'ratingFirmDistribDetail': {'buy': 2, 'neutral': 3, 'outperform': 1, 'sell': 2, 'underperform': 0}, 'consensusHistDetails': {'consensusHistDetail': [{'numAnalysts': 5, 'rating': 2, 'ratingText': 'Buy', 'startDate': '09/16/10'}, {'numAnalysts': 6, 'rating': 3, 'ratingText': 'Hold', 'startDate': '12/23/10'}, {'numAnalysts': 8, 'rating': 2, 'ratingText': 'Buy', 'startDate': '08/08/11'}, {'numAnalysts': 19, 'rating': 3, 'ratingText': 'Hold', 'startDate': '08/20/15'}, {'numAnalysts': 20, 'rating': 2, 'ratingText': 'Buy', 'startDate': '09/09/15'}, {'numAnalysts': 20, 'rating'"
+    },
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'mashup': {'financialMetric': {'financialMetricDetails': {'financialMetricDetail': [{'secDetail': {'requested': 'AAPL', 'classification': 'Common Stock', 'classificationType': 'Common Stock', 'symbol': 'AAPL', 'CUSIP': '037833100'}, 'currentRatioTTM': 0.90424, 'debtToTotCapTTM': 63.81387, 'intCoverageMRQ': 30.44946, 'longTermDebtToEquityTTM': 207.71664, 'profitMargin': 25.47556}]}}, 'marketSentiment': {'sentimentDetails': [{'symbol': 'AAPL', 'shortTermDirection': 'Bullish', 'shortTermScore': 5, 'intermediateTermDirection': 'Bullish', 'intermediateTermScore': 5, 'longTermDirection': 'Bullish', 'longTermScore': 4, 'addlInfoLink': 'https://research2relay.fidelity.wallst.com/fidelity/research/reports/release2/Research/Recognia.asp', 'timestamp': 1688443200}]}, 'valuation': {'valuationDetails': {'valuationDetail': [{'secDetail': {'requested': 'AAPL', 'classification': 'Common Stock', 'classificationType': 'Common Stock', 'symbol': 'AAPL', 'CUSIP': '037833100'}, 'equityDetail': {'priceToBookTTM': 53.76936, 'priceToEarningsTTM': 32.67572, 'peCurrYrEst': 32.17319, 'peGTTM': 4.10551, 'peNextYrEst': 29.25813, 'priceToSalesTTM': 7.94696}}]}}, 'analystOpinion': {'analystOpinionDetails': {'analystOpinionDetail': [{'secDetail': {'requested': 'AAPL', 'classification': 'Common Stock', 'classificationType': 'Common Stock', 'symbol': 'AAPL', 'CUSIP': '037833100'}, 'equitySummDetail': {'score': 5.2, 'scoreDate': '07/04/23', 'scoreNumFirms': 8, 'rating': 'Neutral', 'ratingFirmDistribDetail': {'buy': 4, 'neutral': 3, 'outperform': 0, 'sell': 0, 'underperform': 1}, 'consensusHistDetails': {'consensusHistDetail': [{'numAnalysts': 22, 'rating': 2, 'ratingText': 'Buy', 'startDate': '01/06/05'}]}, 'priorScoreHistDetails': {'priorScoreHistDetail': [{'timePeriod': '1 Week', 'rating': 'Neutral', 'score': 5.4, 'scoreDate': '06/27/23'}, {'timePeriod': '1 Month', 'rating': 'Neutral', 'score': 5.3, 'scoreDate': '06/03/23'}, {'timePeriod': '3 Month', 'rating': 'Neutral', 'score': 4.5, 'scoreDate': '04/04/23'}, {'timePeriod': '1 Year', 'rating': "
+    }
+}

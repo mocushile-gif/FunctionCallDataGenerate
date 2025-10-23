@@ -1,0 +1,21 @@
+{
+    "name": "nhl_standings",
+    "description": "This is a sub-function API for tool nhl_api.\nTool description: This API provides instant access to the latest data for all operations and players in the NHL. It features scores, odds, bookmakers' stats, standings, and historical data.\nAPI description: This API endpoint will return the standings for the NHL.\n\nParameters:\n->year\n-> group  //acceptable group names: 'league', 'conference', 'division'. if not described, default: 'league'",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year for which the NHL standings are to be retrieved.",
+                "default": "2022"
+            },
+            "group": {
+                "type": "string",
+                "description": "The group by which to filter the standings. Acceptable values are 'league', 'conference', and 'division'. Defaults to 'league' if not specified."
+            }
+        },
+        "required": [
+            "year"
+        ]
+    }
+}

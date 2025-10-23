@@ -1,0 +1,17 @@
+{
+    "name": "is_holyday",
+    "description": "This is a sub-function API for tool enoch_calendar.\nTool description: Access the Biblical Holydays and Sabbaths using the Enoch Calendar\nAPI description: Get the Holyday, corresponding Scritpures and if this Holyday is also a Sabbath from the supplied date string or today's date. Or false in for all returned properties",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "datestring": {
+                "type": "string",
+                "description": "The date string to check for holyday status.",
+                "default": "2021-03-30"
+            }
+        },
+        "required": [
+            "datestring"
+        ]
+    }
+}

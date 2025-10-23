@@ -1,0 +1,19 @@
+{
+    "name": "calculate_percentiles",
+    "description": "Calculate the median, lower quartile (Q1), upper quartile (Q3), and interquartile range (IQR) of a dataset.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "data": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "A list of numerical values for which to calculate the percentiles."
+            }
+        },
+        "required": [
+            "data"
+        ]
+    }
+}

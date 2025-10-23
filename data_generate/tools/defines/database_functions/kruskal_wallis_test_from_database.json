@@ -1,0 +1,43 @@
+{
+    "name": "kruskal_wallis_test_from_database",
+    "description": "Perform Kruskal–Wallis H-test from a SQLite database using one categorical and one numeric column.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file."
+        },
+        "from_clause": {
+          "type": "string",
+          "description": "SQL FROM clause (table name or JOIN expression)."
+        },
+        "category_col": {
+          "type": "string",
+          "description": "Categorical column used for grouping; will be cast to string even if numeric."
+        },
+        "value_col": {
+          "type": "string",
+          "description": "Numeric column to be tested across groups."
+        },
+        "where_clause": {
+          "type": "string",
+          "description": "Optional SQL WHERE clause (excluding the 'WHERE' keyword)."
+        },
+        "where_params": {
+          "type": "array",
+          "description": "Optional list of parameters to inject into the WHERE clause.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "dropna": {
+          "type": "boolean",
+          "description": "Whether to drop rows with nulls in category or value columns.",
+          "default": true
+        }
+      },
+      "required": ["database_path", "from_clause", "category_col", "value_col"]
+    }
+  }
+  

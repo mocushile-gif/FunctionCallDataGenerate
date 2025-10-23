@@ -1,0 +1,17 @@
+{
+    "name": "brands_detail",
+    "description": "This is a sub-function API for tool consumer_reports.\nTool description: This API helps to query trusted ratings and reviews for the products, cars and services used every day to create a review site such as : consumerreports.org\nAPI description: Fetch detailed information about a brand using the provided brand ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the brand to fetch details for. This value should be obtained from the brands `id` field returned in the `/search` endpoint or the `brandId` field returned in the `/products/list` or `/products/detail` endpoints.",
+                "default": 158155.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

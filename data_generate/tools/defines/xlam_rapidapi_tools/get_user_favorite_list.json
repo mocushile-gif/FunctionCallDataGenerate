@@ -1,0 +1,17 @@
+{
+    "name": "get_user_favorite_list",
+    "description": "This is a sub-function API for tool tiktok_video_no_watermark_v2.\nTool description: The API helps you to download and get the video download link without the Tiktok logo quickly, completely and in detail. Contact me: phamvandienofficial@gmail.com if you are interested in the source code\n***\nIf you encounter any errors, please contact me so I can fix it quickly.\n***\nContact me: phamvandienofficial@gmail.com\nAPI description: Retrieve the favorite video list for a TikTok user using their unique identifier.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sec_uid": {
+                "type": "string",
+                "description": "The unique identifier of the TikTok user whose favorite list is to be retrieved.",
+                "default": "MS4wLjABAAAAv7iSuuXDJGDvJkmH_vz1qkDZYo1apxgzaxdBSeIuPiM"
+            }
+        },
+        "required": [
+            "sec_uid"
+        ]
+    }
+}

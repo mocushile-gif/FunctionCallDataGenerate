@@ -1,0 +1,17 @@
+{
+    "name": "tag_news",
+    "description": "This is a sub-function API for tool biztoc.\nTool description: Official BizToc.com API — The Web's most comprehensive hub for business & finance news.\nAPI description: Get the latest news stories for the respective `{tag}` in chronological order.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tag": {
+                "type": "string",
+                "description": "The tag for which to fetch the latest news stories.",
+                "default": "apple"
+            }
+        },
+        "required": [
+            "tag"
+        ]
+    }
+}

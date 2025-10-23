@@ -1,0 +1,17 @@
+{
+    "name": "get_district_capital_by_name",
+    "description": "This is a sub-function API for tool district_capitals_in_ghana.\nTool description: This API contains all district capitals in Ghana.\nAPI description: Retrieves the capital of a district in Ghana given the district name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the district whose capital is to be retrieved.",
+                "default": "accra"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

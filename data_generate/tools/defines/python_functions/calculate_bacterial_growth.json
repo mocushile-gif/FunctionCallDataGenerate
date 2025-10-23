@@ -1,0 +1,38 @@
+{
+    "name": "calculate_bacterial_growth",
+    "description": "Calculates the bacterial population after a given time based on initial population, growth rate, and other factors.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "initial_population": {
+                "description": "The initial bacterial population.",
+                "type": "integer"
+            },
+            "time": {
+                "description": "The time units elapsed.",
+                "type": "number"
+            },
+            "growth_rate": {
+                "description": "The growth rate (in percentage) per time unit. Defaults to 20.",
+                "type": "number",
+                "default": 20
+            },
+            "doubling_time": {
+                "description": "The time units required for the bacterial population to double. If provided, it overrides growth_rate.",
+                "type": "number",
+                "default": null
+            },
+            "environment_factor": {
+                "description": "A multiplier to simulate environmental factors (e.g., 0.8 for adverse conditions). Default is 1.0.",
+                "type": "number",
+                "default": 1.0
+            },
+            "max_population": {
+                "description": "The maximum population limit (e.g., carrying capacity). If provided, it limits the result.",
+                "type": "integer",
+                "default": null
+            }
+        },
+        "required": ["initial_population","time"]
+    }
+}

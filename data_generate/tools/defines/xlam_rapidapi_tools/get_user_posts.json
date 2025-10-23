@@ -1,0 +1,25 @@
+{
+    "name": "get_user_posts",
+    "description": "This is a sub-function API for tool get_9gag_api_detailed.\nTool description: Detailed 9GAG API. Scraping posts, categories, users. Includes download videos/photos.\nAPI description: Fetches posts for a specified user from the 9gag API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The username of the 9gag user whose posts are to be fetched.",
+                "default": "kleido007"
+            },
+            "counter": {
+                "type": "string",
+                "description": "leave blank for first request. For subsequent requests, send the counter and after parameter you got from the previous request."
+            },
+            "after": {
+                "type": "string",
+                "description": "leave blank for first request. For subsequent requests, send the counter and after parameter you got from the previous request."
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

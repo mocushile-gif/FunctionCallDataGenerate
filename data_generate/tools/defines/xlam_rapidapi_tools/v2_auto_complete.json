@@ -1,0 +1,35 @@
+{
+    "name": "v2_auto_complete",
+    "description": "This is a sub-function API for tool trading_view.\nTool description: This API helps you to query for data which is obtained by professional providers who have direct and extensive access to stock quotes, futures, popular indices, Forex, Bitcoin and CFDs to create a financial community site/application, such as : tradingview.com\nAPI description: Fetches auto-complete suggestions for a given text or phrase from the Trading View API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The term or phrase for which to get suggestions.",
+                "default": "tesla"
+            },
+            "start": {
+                "type": "string",
+                "description": "The offset of records to ignore for pagination purposes. Default is '0'.",
+                "default": "0"
+            },
+            "search_type": {
+                "type": "string",
+                "description": "The type of search to perform. Options include 'stock', 'futures', 'forex', 'index', 'bond', 'economic', 'bitcoin', and 'crypto'. Multiple options can be separated by commas."
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the results. Default is 'en'.",
+                "default": "en"
+            },
+            "exchange": {
+                "type": "string",
+                "description": "The value of \\\"value\\\" field returned in .../exchanges/list endpoint"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

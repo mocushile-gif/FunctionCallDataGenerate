@@ -1,0 +1,39 @@
+{
+    "{'regionid': 223}": {
+        "error": "",
+        "response": {
+            "status": "filing",
+            "items": [],
+            "bannerIpos": [],
+            "applyBuyItems": []
+        }
+    },
+    "{'regionid': 6, 'status': 'pricing'}": {
+        "error": "",
+        "response": "{'status': 'pricing', 'items': [{'tickerId': 951002887, 'listDate': '2025-01-23', 'issueUpLimit': '10.00', 'issuePrice': '10.00', 'issuePriceStr': '10.00', 'offerAmount': '60000000', 'issueDownLimit': '10.00', 'issueShares': '6000000', 'issueCurrencyId': 247, 'prospectusPublishDate': '2024-11-15', 'purchaseStartDate': '2025-01-21', 'purchaseEndDate': '2025-01-22', 'prospectus': 'https://www.sec.gov/Archives/edgar/data/2028201/000121390024112516/ea0207942-07.htm', 'ipoStatus': 'pricing', 'closeDays': 0, 'offeringType': 'IPO', 'currencyId': 247, 'webullUnderwriting': 0, 'name': 'Columbus Acquisition Corp', 'disSymbol': 'COLAU', 'disExchangeCode': 'NASDAQ', 'tickerTuple': {'tickerId': 951002887, 'exchangeId': 95, 'type': 2, 'secType': [63], 'regionId': 6, 'regionCode': 'US', 'currencyId': 247, 'name': 'Columbus Acquisition Corp', 'symbol': 'COLAU', 'disSymbol': 'COLAU', 'disExchangeCode': 'NASDAQ', 'exchangeCode': 'NMS', 'listStatus': 1, 'template': 'stock', 'isAdr': 0, 'issuerRegionId': 13, 'shariahFlag': 0, 'tradeTime': '2025-01-24T14:30:00.000+0000', 'status': 'T', 'close': '10.01', 'change': '0.01', 'changeRatio': '0.0010', 'marketValue': '62405242.90', 'volume': '1', 'yield': '0.0000', 'preClose': '10.00'}}, {'tickerId': 951002112, 'listDate': '2025-01-23', 'issueUpLimit': '4.00', 'issuePrice': '4.00', 'issuePriceStr': '4.00', 'offerAmount': '6900000', 'issueDownLimit': '4.00', 'issueShares': '1500000', 'issueCurrencyId': 247, 'prospectusPublishDate': '2024-12-11', 'purchaseEndDate': '2025-01-22', 'prospectus': 'https://www.sec.gov/Archives/edgar/data/2031009/000121390024110071/ea0209851-08.htm', 'ipoStatus': 'pricing', 'closeDays': 0, 'offeringType': 'IPO', 'currencyId': 247, 'webullUnderwriting': 0, 'name': 'Skyline Builders Group Holding', 'disSymbol': 'SKBL', 'disExchangeCode': 'NASDAQ', 'tickerTuple': {'tickerId': 951002112, 'exchangeId': 10, 'type': 2, 'secType': [61], 'regionId': 6, 'regionCode': 'US', 'currencyId': 247, 'name': 'Skyline Builders Group Holding', 'symbol': 'SKBL', 'disSymbol': 'SKBL', 'di"
+    },
+    "{'regionid': 6.0, 'status': 'buying'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'regionid': 6.0, 'status': 'pricing'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'regionid': 6.0, 'status': 'filing'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'regionid': 6, 'status': 'buying'}": {
+        "error": "",
+        "response": "{'status': 'buying', 'items': [], 'bannerIpos': [], 'applyBuyItems': [{'tickerId': 951004146, 'listDate': '2025-03-18', 'issueUpLimit': '10.00', 'issuePrice': '10.00', 'issuePriceStr': '10.00~10.00', 'issueDownLimit': '10.00', 'issueCurrencyId': 247, 'purchaseStartDate': '2025-03-17', 'purchaseEndDate': '2025-03-17', 'prospectus': 'https://www.sec.gov/Archives/edgar/data/2047455/000182912625001750/quartzsea_s1a2.htm', 'ipoStatus': 'upcoming', 'supportApplyBuy': True, 'closeDays': 1, 'offeringType': 'IPO', 'source': ['WebullIPO'], 'currencyId': 247, 'webullUnderwriting': 0, 'name': 'Quartzsea Acquisition Corporation', 'disSymbol': 'QSEAU', 'disExchangeCode': 'NASDAQ', 'tickerTuple': {'tickerId': 951004146, 'exchangeId': 95, 'type': 2, 'secType': [63], 'regionId': 6, 'regionCode': 'US', 'currencyId': 247, 'name': 'Quartzsea Acquisition Corporation', 'symbol': 'QSEAU', 'disSymbol': 'QSEAU', 'disExchangeCode': 'NASDAQ', 'exchangeCode': 'NMS', 'listStatus': 4, 'template': 'preIpo', 'status': 'T', 'change': '0.00', 'changeRatio': '0.0000', 'volume': '0'}}, {'tickerId': 951003101, 'listDate': '2025-03-19', 'issueUpLimit': '5.00', 'issuePriceStr': '4.00~5.00', 'issueDownLimit': '4.00', 'issueShares': '1250000', 'issueCurrencyId': 247, 'prospectusPublishDate': '2021-09-21', 'purchaseEndDate': '2025-03-18', 'prospectus': 'https://www.sec.gov/Archives/edgar/data/1883437/000121390025012076/ea0230436-f1a9_epsium.htm', 'ipoStatus': 'upcoming', 'supportApplyBuy': True, 'closeDays': 2, 'offeringType': 'IPO', 'source': ['WebullIPO'], 'currencyId': 247, 'webullUnderwriting': 0, 'name': 'Epsium Enterprise Ltd.', 'disSymbol': 'EPSM', 'disExchangeCode': 'NASDAQ', 'tickerTuple': {'tickerId': 951003101, 'exchangeId': 10, 'type': 2, 'secType': [61], 'regionId': 6, 'regionCode': 'US', 'currencyId': 247, 'name': 'Epsium Enterprise Ltd.', 'symbol': 'EPSM', 'disSymbol': 'EPSM', 'disExchangeCode': 'NASDAQ', 'exchangeCode': 'NAS', 'listStatus': 4, 'template': 'preIpo', 'isPTP': 0, 'shariahFlag': 0, 'status': 'T', 'change': '0.00', 'changeRati"
+    },
+    "{'regionid': 6, 'status': 'filing'}": {
+        "error": "",
+        "response": "{'status': 'filing', 'items': [{'tickerId': 950990668, 'listDate': '2024-01-24', 'issueUpLimit': '4.00', 'issuePrice': '4.00', 'issuePriceStr': '4.00', 'issueDownLimit': '4.00', 'issueShares': '3750000', 'issueCurrencyId': 247, 'prospectusPublishDate': '2024-12-31', 'purchaseStartDate': '2024-01-04', 'purchaseEndDate': '2024-01-23', 'prospectus': 'https://www.sec.gov/Archives/edgar/data/1980262/000121390023096188/ff12023a1_hwelectrocoltd.htm', 'ipoStatus': 'filing', 'closeDays': 0, 'offeringType': 'IPO', 'currencyId': 247, 'webullUnderwriting': 1, 'name': 'HW Electro Co. Ltd.', 'disSymbol': 'HWEP', 'disExchangeCode': 'NASDAQ', 'tickerTuple': {'tickerId': 950990668, 'exchangeId': 10, 'type': 2, 'secType': [61], 'regionId': 6, 'regionCode': 'US', 'currencyId': 247, 'name': 'HW Electro Co. Ltd.', 'symbol': 'HWEP', 'disSymbol': 'HWEP', 'disExchangeCode': 'NASDAQ', 'exchangeCode': 'NAS', 'listStatus': 1, 'template': 'stock', 'issuerRegionId': 5, 'shariahFlag': 0, 'status': 'D', 'close': '4.000', 'change': '0.00', 'changeRatio': '0.0000', 'marketValue': '167299552.00', 'volume': '0', 'yield': '0.0000', 'preClose': '4.000'}}, {'tickerId': 951002112, 'listDate': '2024-12-30', 'issueUpLimit': '4.00', 'issuePriceStr': '4.00~4.00', 'issueDownLimit': '4.00', 'issueShares': '1500000', 'issueCurrencyId': 247, 'prospectusPublishDate': '2024-12-11', 'purchaseEndDate': '2024-12-29', 'prospectus': 'https://bulletin.webull.com/qbd/announcement/20241129/951002112/a489912fcbb92a170cdb654f6570c6f5.htm', 'ipoStatus': 'filing', 'closeDays': 0, 'offeringType': 'IPO', 'currencyId': 247, 'name': 'Skyline Builders Group Holding', 'disSymbol': 'SKBL', 'disExchangeCode': 'NASDAQ', 'tickerTuple': {'tickerId': 951002112, 'exchangeId': 10, 'type': 2, 'secType': [61], 'regionId': 6, 'regionCode': 'US', 'currencyId': 247, 'name': 'Skyline Builders Group Holding', 'symbol': 'SKBL', 'disSymbol': 'SKBL', 'disExchangeCode': 'NASDAQ', 'exchangeCode': 'NAS', 'listStatus': 1, 'template': 'stock', 'isPTP': 0, 'shariahFlag': 0, 'status': 'D', 'change': '0."
+    },
+    "{'regionid': 12345, 'status': 'filing'}": {
+        "error": "",
+        "response": "{'status': 'filing', 'items': [], 'bannerIpos': [], 'applyBuyItems': []}"
+    }
+}

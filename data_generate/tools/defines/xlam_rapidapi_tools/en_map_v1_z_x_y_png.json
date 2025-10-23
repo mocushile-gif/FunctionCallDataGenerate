@@ -1,0 +1,29 @@
+{
+    "name": "en_map_v1_z_x_y_png",
+    "description": "This is a sub-function API for tool offline_maptiles.\nTool description: Download map tiles for offline use (intranet, offline devices).  You can store those downloaded tiles as long as you want.\nAPI description: Download an English map tile as a PNG image from the RapidAPI offline-maptiles service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "z": {
+                "type": "number",
+                "description": "Zoom factor, between 0 and 19.",
+                "default": 3.0
+            },
+            "y": {
+                "type": "number",
+                "description": "Y tile number.",
+                "default": 3.0
+            },
+            "x": {
+                "type": "number",
+                "description": "X tile number.",
+                "default": 6.0
+            }
+        },
+        "required": [
+            "z",
+            "y",
+            "x"
+        ]
+    }
+}

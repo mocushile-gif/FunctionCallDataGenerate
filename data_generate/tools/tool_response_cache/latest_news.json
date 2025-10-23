@@ -1,0 +1,29 @@
+{
+    "{'limit': 3.0}": {
+        "error": "",
+        "response": {
+            "news_items": [
+                {
+                    "title": "Philippine Government Announces New Infrastructure Plan",
+                    "source": "Philippine Daily Inquirer",
+                    "summary": "The national government unveiled a \u20b1500 billion infrastructure initiative focusing on rural development and transportation upgrades.",
+                    "url": "https://example.com/infrastructure-plan"
+                },
+                {
+                    "title": "Typhoon Karding Approaches Northern Philippines",
+                    "source": "GMA News Online",
+                    "summary": "Authorities issue alerts as Typhoon Karding brings heavy rains and possible flooding to Luzon regions.",
+                    "url": "https://example.com/typhoon-karding"
+                },
+                {
+                    "title": "Manila Hosts ASEAN Business Summit 2024",
+                    "source": "Rappler",
+                    "summary": "Leaders gather to discuss economic cooperation and digital innovation during the annual ASEAN Business Summit in Metro Manila.",
+                    "url": "https://example.com/asean-summit"
+                }
+            ],
+            "total_results": 3,
+            "timestamp": "2024-03-15T14:30:00Z"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "gamesdata",
+    "description": "This is a sub-function API for tool steamgames_special_offers.\nTool description: Get Steam Games List and Data that are on Special Discounted Offers. \nContact me at: vuesdata@gmail.com or visit https://www.vuesdata.com for building custom spiders or custom requests.\nAPI description: This endpoint will give you the Games Data if you provide the APP_ID.\nYou can use the GamesList endpoint to get the list of APP_IDs and Feed it to this Endpoint to get the Games Data. Sample Details are given below:\n`{\n    \"discount\": \"-40%\",\n    \"original_price\": \"$49.99\",\n    \"price\": \"$29.99\",\n    \"title\": \"God of War\",\n    \"url\": \"https://store.steampowered.com/app/1593500/\"\n}`",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "app_id": {
+                "type": "number",
+                "description": "The unique identifier for the game whose data is to be fetched.",
+                "default": 1581770.0
+            }
+        },
+        "required": [
+            "app_id"
+        ]
+    }
+}

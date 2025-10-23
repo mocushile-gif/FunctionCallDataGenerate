@@ -1,0 +1,25 @@
+{
+    "name": "v1_category",
+    "description": "This is a sub-function API for tool tokapi_mobile_version.\nTool description: Highly available tiktok **mobile** API. We are doing our best for make your life easy.Bigger API plans and **additional functionality** are available on request.  Feel free to contact us on Telegram: [https://t.me/somjik_tokapi](https://t.me/somjik_tokapi) #tiktok #tik #tok #tik-tok #video #music #user #feed #hashtag #challenge #trending #trend #comments #comment #image #photo #media #search #scrapper #grabber\nAPI description: Fetches a list of trending categories from the Tokapi Mobile API using specified query parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "count": {
+                "type": "number",
+                "description": "Number of categories to fetch. Defaults to 10.",
+                "default": 10
+            },
+            "offset": {
+                "type": "number",
+                "description": "If in a response you get parameter hasMore equal to 1 then you also have cursor value for a next set",
+                "default": 0
+            },
+            "region": {
+                "type": "string",
+                "description": "Region code for filtering categories. Defaults to 'US'.",
+                "default": "US"
+            }
+        },
+        "required": []
+    }
+}

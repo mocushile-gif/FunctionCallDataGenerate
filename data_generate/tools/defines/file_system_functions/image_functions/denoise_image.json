@@ -1,0 +1,42 @@
+{
+    "name": "denoise_image",
+    "description": "Remove noise from images using various denoising methods.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "input_path": {
+                "type": "string",
+                "description": "Path to input image file"
+            },
+            "output_path": {
+                "type": "string",
+                "description": "Path for output file (optional, auto-generated if not provided)"
+            },
+            "method": {
+                "type": "string",
+                "description": "Denoising method",
+                "enum": ["bilateral", "gaussian", "median", "nlm"],
+                "default": "bilateral"
+            },
+            "strength": {
+                "type": "number",
+                "description": "Denoising strength (0.0-1.0)",
+                "default": 0.5,
+                "minimum": 0.0,
+                "maximum": 1.0
+            },
+            "preserve_edges": {
+                "type": "boolean",
+                "description": "Whether to preserve edges during denoising",
+                "default": true
+            },
+            "output_format": {
+                "type": "string",
+                "description": "Output image format",
+                "enum": ["jpg", "png", "tiff"],
+                "default": "jpg"
+            }
+        },
+        "required": ["input_path"]
+    }
+}

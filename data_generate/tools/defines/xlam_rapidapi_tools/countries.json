@@ -1,0 +1,46 @@
+{
+    "name": "countries",
+    "description": "This is a sub-function API for tool geodb_cities.\nTool description: Get global city, region, and country data. Filter and display results in multiple languages.\nAPI description: Fetches a list of countries, filtered by the provided optional criteria. If no criteria are set, all known countries are returned.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "asciimode": {
+                "type": "boolean",
+                "description": "Display results using ASCII characters."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to retrieve."
+            },
+            "hateoasmode": {
+                "type": "boolean",
+                "description": "Include HATEOAS-style links in results."
+            },
+            "offset": {
+                "type": "number",
+                "description": "The zero-based offset index into the results."
+            },
+            "currencycode": {
+                "type": "string",
+                "description": "Only countries supporting this currency."
+            },
+            "languagecode": {
+                "type": "string",
+                "description": "Display results in this language."
+            },
+            "sort": {
+                "type": "string",
+                "description": "How to sort the results. Format: ±SORT_FIELD where SORT_FIELD = code | name."
+            },
+            "nameprefixdefaultlangresults": {
+                "type": "boolean",
+                "description": "When name-prefix matching, whether or not to match on names in the default language if a non-default language is requested"
+            },
+            "nameprefix": {
+                "type": "string",
+                "description": "Only countries whose names start with this prefix. If languagecode is set, the prefix will be matched on the name as it appears in that language."
+            }
+        },
+        "required": []
+    }
+}

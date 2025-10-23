@@ -1,0 +1,35 @@
+{
+    "name": "calculate_order_total",
+    "description": "Calculates the total cost of an order based on the items, quantities, and prices.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "items": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                },
+                "description": "A list of item names."
+            },
+            "quantities": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                },
+                "description": "A list of corresponding quantities for each item."
+            },
+            "prices": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "A list of corresponding prices for each item."
+            }
+        },
+        "required": [
+            "items",
+            "quantities",
+            "prices"
+        ]
+    }
+}

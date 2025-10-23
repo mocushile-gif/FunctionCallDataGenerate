@@ -1,0 +1,16 @@
+{
+    "name": "validate_email",
+    "description": "This is a sub-function API for tool certer_org.\nTool description: The API with 40+ awesome and uncommon features related to colors, hashing, encoding, bytes, ip, numbers, random and data validation.\nAPI description: Validate an email address using the \"Validate Email\" API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "Email address (example: john.doe@example.com)"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

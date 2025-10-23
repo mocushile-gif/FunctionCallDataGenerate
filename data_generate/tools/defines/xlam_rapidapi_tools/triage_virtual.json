@@ -1,0 +1,17 @@
+{
+    "name": "triage_virtual",
+    "description": "This is a sub-function API for tool selector_tipo_consultas.\nTool description: decide el tipo de consulta\nAPI description: Determines if a patient should be attended via virtual consultation or in-person consultation based on their ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the patient.",
+                "default": "me duele la cabeza"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

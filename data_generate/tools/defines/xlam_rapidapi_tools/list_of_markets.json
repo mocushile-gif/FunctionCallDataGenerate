@@ -1,0 +1,38 @@
+{
+    "name": "list_of_markets",
+    "description": "This is a sub-function API for tool pinnacle_odds.\nTool description: Pinnacle Sport API is a RESTful service for getting pre-match and live odds. Historical odds, score and results. Updates without delay. Sports: Soccer, tennis, basketball, hockey, american football, MMA, baseball. **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters **Other sports api:** https://rapi.one\nAPI description: Get a list of markets. Always first issue a snapshot call and continue with the delta calls. Calls return changes since the provided `since` value.  You must always use the `since` parameter, after starting your program cycle. You can make request without a `since` parameter no more than 15 times in 5 minutes. Please note that `prematch` and `live` events are different",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sport_id": {
+                "type": "number",
+                "description": "The ID of the sport for which markets data is requested.",
+                "default": 1
+            },
+            "league_ids": {
+                "type": "number",
+                "description": "The ID of the league to filter the markets. Defaults to None."
+            },
+            "event_type": {
+                "type": "string",
+                "description": "Status: `prematch`, `live`  Please note that prematch and live events are different"
+            },
+            "event_ids": {
+                "type": "number",
+                "description": "The ID of the event to filter the markets. Defaults to None."
+            },
+            "is_have_odds": {
+                "type": "boolean",
+                "description": "`1` or `0`. You can only get matches for which there are already open odds, or matches that will be given odds in the future",
+                "default": true
+            },
+            "since": {
+                "type": "number",
+                "description": "The UTC timestamp since when to fetch changes. Calls return changes since the provided `since` value. Defaults to None."
+            }
+        },
+        "required": [
+            "sport_id"
+        ]
+    }
+}

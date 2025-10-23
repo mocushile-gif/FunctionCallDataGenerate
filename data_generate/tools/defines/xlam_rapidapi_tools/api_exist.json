@@ -1,0 +1,17 @@
+{
+    "name": "api_exist",
+    "description": "This is a sub-function API for tool tiktok_private_api.\nTool description: Get and analyze TikTok users and videos data.\nAPI description: Checks if a TikTok user exists given a username.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The TikTok username to check for existence.",
+                "default": "charlidamelio"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

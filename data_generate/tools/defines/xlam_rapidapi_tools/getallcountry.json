@@ -1,0 +1,25 @@
+{
+    "name": "getallcountry",
+    "description": "This is a sub-function API for tool radio_world_75_000_worldwide_fm_radio_stations.\nTool description: This is one of the largest collection of FM Radios API from around the world. Listen Updated 79,000+ Radio stations. All the Stations are Updating Daily & Weekly basis, New stations are Adding As soon as possible. At least 100+ Stations Are adding and 1000+ Stations are fixing to this API Weekly (This is minium ratio).\nAPI description: Fetches the list of country names via an API based on the provided query parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "Item limitation per page. (default is length.value of countries array. here is 500 max)",
+                "default": 500.0
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve. Default is 1.",
+                "default": 1.0
+            },
+            "order": {
+                "type": "string",
+                "description": "The order in which to sort results. Accepts 'ASC' for ascending or 'DESC' for descending. Default is 'ASC'.",
+                "default": "ASC"
+            }
+        },
+        "required": []
+    }
+}

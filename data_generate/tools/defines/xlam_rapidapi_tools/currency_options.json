@@ -1,0 +1,17 @@
+{
+    "name": "currency_options",
+    "description": "This is a sub-function API for tool investing_financial_stocks.\nTool description: get all investing.com stocks realtime data in multi language and filters\nAPI description: Fetches currency options data for a specified stock using the Investing Financial Stocks API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The stock identifier slug to specify the stock for which currency options are to be retrieved.",
+                "default": "usd-jpy"
+            }
+        },
+        "required": [
+            "slug"
+        ]
+    }
+}

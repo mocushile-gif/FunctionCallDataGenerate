@@ -1,0 +1,56 @@
+{
+    "name": "search_nearby",
+    "description": "This is a sub-function API for tool local_business_data.\nTool description: Extremely comprehensive and up-to-date local business search - get business reviews and rating, photos, phone, address / location, website, opening hours, emails / social profiles and 30+ additional fields.\nAPI description: Search businesses near by specific geographic coordinates. To see it in action, right click on a specific point in the map on Google Maps and select \"Search nearby\", enter a query and search.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "Search query / keyword.\n\n**e.g.** `Bars and pubs`\n**e.g.** `Plumbers`",
+                "default": "plumbers"
+            },
+            "lng": {
+                "type": "number",
+                "description": "Longitude of the geographic coordinates to search near by.",
+                "default": -121.925337
+            },
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the geographic coordinates to search near by.",
+                "default": 37.359428
+            },
+            "x_user_agent": {
+                "type": "string",
+                "description": "Device type for the search. Default is 'desktop'."
+            },
+            "language": {
+                "type": "string",
+                "description": "Set the language of the results. For a list of supported language codes see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes .\n\n**Default**: *`en`*",
+                "default": "en"
+            },
+            "subtypes": {
+                "type": "string",
+                "description": "Find businesses with specific subtypes, specified as a comma separated list of types (business categories). For the complete list of types, see https://daltonluka.com/blog/google-my-business-categories.\n\n**e.g.** `Plumber,Carpenter,Electrician`\n**e.g.** `Night club,Dance club,Bar,Pub`"
+            },
+            "fields": {
+                "type": "string",
+                "description": "A comma separated list of business fields to include in the response (field projection). By default all fields are returned.\n\n**e.g.** `business_id,type,phone_number,full_address`"
+            },
+            "limit": {
+                "type": "string",
+                "description": "Maximum number of businesses to return (1-500).\n\n**Default**: *`20`*",
+                "default": "20"
+            },
+            "region": {
+                "type": "string",
+                "description": "Query Google Maps from a particular region or country. For a list of supported region/country codes see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes (Alpha-2 code).\n\n**Default:** *`us`*",
+                "default": "us"
+            }
+        },
+        "required": [
+            "query",
+            "lng",
+            "lat"
+        ]
+    }
+}

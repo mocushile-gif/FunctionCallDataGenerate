@@ -1,0 +1,17 @@
+{
+    "name": "dns",
+    "description": "This is a sub-function API for tool domain_checker.\nTool description: The Domain Checker API allows users to quickly and easily check the validity, availability, expiration, and DNS settings of a given domain name. With features such as keyword search and validation, it's an efficient tool for developers, businesses, and individuals looking to manage or purchase domain names.\nAPI description: Fetches DNS records for a given domain using the RapidAPI domain checker service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain for which DNS records are to be retrieved.",
+                "default": "rapidapi.com"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "getcountrycode",
+    "description": "This is a sub-function API for tool asktheworld.\nTool description: This API lets you get all the questions beeing asked on search plattforms like google.\nAPI description: Gets all Country Codes which you can use to search for a specific country.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "getcountrycodes": {
+                "type": "string",
+                "description": "A flag to specify whether to retrieve country codes. Defaults to 'true'.",
+                "default": "true"
+            }
+        },
+        "required": []
+    }
+}

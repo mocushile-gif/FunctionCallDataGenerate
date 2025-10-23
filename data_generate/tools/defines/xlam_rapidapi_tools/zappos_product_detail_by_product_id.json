@@ -1,0 +1,17 @@
+{
+    "name": "zappos_product_detail_by_product_id",
+    "description": "This is a sub-function API for tool zappos_realtime_data.\nTool description: Zappos Realtime Data\nAPI description: Fetches real-time product information from Zappos by product ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "product_id": {
+                "type": "number",
+                "description": "The ID of the product to be fetched.",
+                "default": 9098084.0
+            }
+        },
+        "required": [
+            "product_id"
+        ]
+    }
+}

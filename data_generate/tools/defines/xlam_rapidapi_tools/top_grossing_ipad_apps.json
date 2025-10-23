@@ -1,0 +1,30 @@
+{
+    "name": "top_grossing_ipad_apps",
+    "description": "This is a sub-function API for tool app_store.\nTool description: Unofficial Apple App Store Api\nAPI description: Fetch a list of the top-grossing iPad apps from the RapidAPI App Store.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The country code (e.g., 'us' for the United States). Default is 'us'.",
+                "default": "us"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code (e.g., 'en' for English). Default is 'en'.",
+                "default": "en"
+            },
+            "category": {
+                "type": "string",
+                "description": "The category ID for the apps. Default is '6016'.",
+                "default": "6016"
+            },
+            "num": {
+                "type": "number",
+                "description": "The number of top-grossing apps to retrieve. Default is 100.",
+                "default": 100.0
+            }
+        },
+        "required": []
+    }
+}

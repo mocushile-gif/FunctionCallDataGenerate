@@ -1,0 +1,31 @@
+{
+    "name": "v1_historicalevents",
+    "description": "This is a sub-function API for tool historical_events_by_api_ninjas.\nTool description: Search through the most famous events in history. See more info at https://api-ninjas.com/api/historicalevents.\nAPI description: API Ninjas Historical Events API endpoint. Returns a list of up to 10 events that match the search parameters. At least one of the following parameters is required: text, year, month, day.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "Query text to search events by. Use keywords or short phrases for best match results. Defaults to 'roman empire'.",
+                "default": "roman empire"
+            },
+            "month": {
+                "type": "number",
+                "description": "Integer representing the month (e.g., 3 for March). Defaults to None."
+            },
+            "day": {
+                "type": "number",
+                "description": "Calendar day of the month. Defaults to None."
+            },
+            "year": {
+                "type": "number",
+                "description": "4-digit year (e.g., 1776). For BC/BCE years, use a negative integer (e.g., -351 for 351 BC). Defaults to None."
+            },
+            "offset": {
+                "type": "number",
+                "description": "Number of results to offset (for pagination). Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

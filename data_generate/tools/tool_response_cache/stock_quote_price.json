@@ -1,0 +1,55 @@
+{
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "[{'symbol': 'AAPL', 'name': 'Apple Inc.', 'price': 190.68, 'changesPercentage': -0.5891, 'change': -1.13, 'dayLow': 190.245, 'dayHigh': 192.67, 'yearHigh': 194.48, 'yearLow': 124.17, 'marketCap': 2999148595323, 'priceAvg50': 178.7156, 'priceAvg200': 155.34105, 'exchange': 'NASDAQ', 'volume': 44665545, 'avgVolume': 56646141, 'open': 191.41, 'previousClose': 191.81, 'eps': 5.97, 'pe': 31.94, 'earningsAnnouncement': '2023-08-03T20:00:00.000+0000', 'sharesOutstanding': 15728700416, 'timestamp': 1688760005}]"
+    },
+    "{'symbol': 'XYZ', 'apikey': ''}": {
+        "error": "",
+        "response": []
+    },
+    "{'symbol': 'XYZ'}": {
+        "error": "",
+        "response": []
+    },
+    "{'symbol': 'AAPL', 'apikey': 'Your_API_Key'}": {
+        "error": "",
+        "response": [
+            {
+                "symbol": "AAPL",
+                "name": "Apple Inc.",
+                "price": 192.75,
+                "changesPercentage": 0.422,
+                "change": 0.81,
+                "dayLow": 192.29,
+                "dayHigh": 194.91,
+                "yearHigh": 198.23,
+                "yearLow": 124.17,
+                "marketCap": 3031707005184,
+                "priceAvg50": 183.186,
+                "priceAvg200": 157.4725,
+                "exchange": "NASDAQ",
+                "volume": 44776111,
+                "avgVolume": 57671127,
+                "open": 193.41,
+                "previousClose": 191.94,
+                "eps": 5.89,
+                "pe": 32.72,
+                "earningsAnnouncement": "2023-08-03T20:00:00.000+0000",
+                "sharesOutstanding": 15728700416,
+                "timestamp": 1690228801
+            }
+        ]
+    },
+    "{'symbol': 'TSLA', 'apikey': 'rapidapi'}": {
+        "error": "",
+        "response": "[{'symbol': 'TSLA', 'name': 'Tesla, Inc.', 'price': 379.28, 'changesPercentage': -6.0816, 'change': -24.56, 'dayLow': 373.05, 'dayHigh': 392.7299, 'yearHigh': 488.54, 'yearLow': 138.8, 'marketCap': 1217511556800, 'priceAvg50': 346.183, 'priceAvg200': 238.8373, 'exchange': 'NASDAQ', 'volume': 108079676, 'avgVolume': 92333969, 'open': 390.1, 'previousClose': 403.84, 'eps': 3.63, 'pe': 104.48, 'earningsAnnouncement': '2025-01-24T21:00:00.000+0000', 'sharesOutstanding': 3210060000, 'timestamp': 1735851600}]"
+    },
+    "{'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "[{'symbol': 'TSLA', 'name': 'Tesla, Inc.', 'price': 426.5, 'changesPercentage': 3.0641, 'change': 12.68, 'dayLow': 419.7701, 'dayHigh': 439.74, 'yearHigh': 488.54, 'yearLow': 138.8, 'marketCap': 1369090590000, 'priceAvg50': 377.5424, 'priceAvg200': 250.24205, 'exchange': 'NASDAQ', 'volume': 93672601, 'avgVolume': 93351940, 'open': 421.5, 'previousClose': 413.82, 'eps': 3.64, 'pe': 117.17, 'earningsAnnouncement': '2025-01-29T21:00:00.000+0000', 'sharesOutstanding': 3210060000, 'timestamp': 1737147600}]"
+    },
+    "{'symbol': 'AMZN'}": {
+        "error": "",
+        "response": "[{'symbol': 'AMZN', 'name': 'Amazon.com, Inc.', 'price': 220.22, 'changesPercentage': 0.3783, 'change': 0.83, 'dayLow': 218.19, 'dayHigh': 225.15, 'yearHigh': 233, 'yearLow': 144.05, 'marketCap': 2315613300000, 'priceAvg50': 209.8452, 'priceAvg200': 189.7388, 'exchange': 'NASDAQ', 'volume': 33730434, 'avgVolume': 37757398, 'open': 222.03, 'previousClose': 219.39, 'eps': 4.67, 'pe': 47.16, 'earningsAnnouncement': '2025-01-30T10:59:00.000+0000', 'sharesOutstanding': 10515000000, 'timestamp': 1735851601}]"
+    }
+}

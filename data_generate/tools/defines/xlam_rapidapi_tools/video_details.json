@@ -1,0 +1,21 @@
+{
+    "name": "video_details",
+    "description": "This is a sub-function API for tool youtube_v3_alternative.\nTool description: Get data similar to YouTube Data API v3 from this API. Check latest version: [YT-API](https://rapidapi.com/ytjar/api/yt-api)\nAPI description: Retrieve details of a YouTube video using its ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the YouTube video to retrieve details for.",
+                "default": "dQw4w9WgXcQ"
+            },
+            "x_cachebypass": {
+                "type": "string",
+                "description": "The cache bypass parameter; if provided, it must be set to '1'. Defaults to None."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

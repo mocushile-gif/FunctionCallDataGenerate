@@ -1,0 +1,26 @@
+{
+    "{'filter': 'all_collections', 'is_id': 'UCJ5v_MCY6GNUBTO8-D3XoAg'}": {
+        "error": "",
+        "response": "{'collections': []}"
+    },
+    "{'filter': 'subscriptions', 'is_id': 'UCJ5v_MCY6GNUBTO8-D3XoAg'}": {
+        "error": "",
+        "response": "{'contents': [], 'cursorNext': None}"
+    },
+    "{'is_id': 'UCJ5v_MCY6GNUBTO8-D3XoAg', 'filter': 'all_collections'}": {
+        "error": "",
+        "response": "{'collections': []}"
+    },
+    "{'filter': 'all_collections', 'hl': 'en', 'gl': 'CA'}": {
+        "error": "",
+        "response": "{'collections': []}"
+    },
+    "{'filter': 'gaming', 'gl': 'US', 'hl': 'en'}": {
+        "error": "",
+        "response": "{'contents': [], 'cursorNext': None}"
+    },
+    "{'filter': 'all_collections', 'gl': 'US', 'hl': 'en'}": {
+        "error": "",
+        "response": "{'collections': []}"
+    }
+}

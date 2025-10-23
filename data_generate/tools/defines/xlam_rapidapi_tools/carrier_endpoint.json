@@ -1,0 +1,16 @@
+{
+    "name": "carrier_endpoint",
+    "description": "This is a sub-function API for tool free_phone_carrier_lookup.\nTool description: FREEEEE !!! , Phone carrier lookups are a great way to obtain more information about leads and user data. If a number is not associated with a phone carrier, then it's likely that phone number is not currently active. The phone number carrier provides useful information about location, user type (personal or business number), line type, and much more. Some carriers are frequently associated with fraudulent behavior, \nAPI description: The phone number carrier provides useful information about location. Please any Bug contact me at @ta9ra9pa9 on Telegram",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phonenumber": {
+                "type": "string",
+                "description": "The phone number for which to look up carrier information."
+            }
+        },
+        "required": [
+            "phonenumber"
+        ]
+    }
+}

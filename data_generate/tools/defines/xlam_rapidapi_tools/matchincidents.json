@@ -1,0 +1,17 @@
+{
+    "name": "matchincidents",
+    "description": "This is a sub-function API for tool icehockeyapi.\nTool description: IceHockeyApi offers you real time hockey livescore, tables, statistics, fixtures and results for more than 70 ice hockey leagues, cups and tournaments.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: This operation returns incidents for a specific ice hockey match, including red cards, yellow cards, and other relevant data.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the match for which you want to retrieve incidents.",
+                "default": 10745680
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "success": true,
+            "data": [],
+            "paging": {
+                "records": 0,
+                "total": 0,
+                "page": 1,
+                "limit": 20
+            },
+            "message": "Category retrieved successfully"
+        }
+    },
+    "{'pattern': 'namespace collision', 'limit': 20, 'page': 1, 'order': 'id', 'dir': 'asc'}": {
+        "error": "",
+        "response": "{'success': True, 'data': [], 'paging': {'records': 0, 'total': 0, 'page': 1, 'limit': 20}, 'message': 'Category retrieved successfully'}"
+    },
+    "{'pattern': 'module scoping', 'limit': 20, 'page': 1, 'order': 'id', 'dir': 'asc'}": {
+        "error": "",
+        "response": "{'success': True, 'data': [], 'paging': {'records': 0, 'total': 0, 'page': 1, 'limit': 20}, 'message': 'Category retrieved successfully'}"
+    }
+}

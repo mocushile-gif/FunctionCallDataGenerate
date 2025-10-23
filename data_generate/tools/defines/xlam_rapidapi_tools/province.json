@@ -1,0 +1,16 @@
+{
+    "name": "province",
+    "description": "This is a sub-function API for tool canadian_gas_prices.\nTool description: Provides current gas prices in Canada. Try the `/locations-list` endpoint to view all supported locations.\nAPI description: Fetches the average price of gas in a specific province in Canada using the Canadian Gas Prices API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "province": {
+                "type": "string",
+                "description": "A valid province name in Canada. Options include Ontario, Quebec, Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Prince Edward Island, Saskatchewan."
+            }
+        },
+        "required": [
+            "province"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "web_search",
+    "description": "Perform a DuckDuckGo web search for a given query and return search results, optionally saving them to a file.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "The search query string to look up."
+        },
+        "num_results": {
+          "type": "integer",
+          "description": "Maximum number of search results to return. Default is 5.",
+          "default": 5
+        },
+        "timeout_seconds": {
+          "type": "integer",
+          "description": "Maximum time allowed for search request in seconds. Default is 20.",
+          "default": 20
+        },
+        "save_path": {
+          "type": "string",
+          "description": "Optional path to save the result as a JSON file."
+        }
+      },
+      "required": ["query"]
+    }
+  }
+  

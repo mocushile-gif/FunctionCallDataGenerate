@@ -1,0 +1,42 @@
+{
+    "{'page': 1.0}": {
+        "error": "",
+        "response": {
+            "page": 1,
+            "total_results": 15,
+            "stocks": [
+                {
+                    "symbol": "AAPL",
+                    "price": 185.4,
+                    "pattern_confirmation": "Strong",
+                    "last_signal_date": "2023-10-05"
+                },
+                {
+                    "symbol": "TSLA",
+                    "price": 250.75,
+                    "pattern_confirmation": "Moderate",
+                    "last_signal_date": "2023-10-04"
+                },
+                {
+                    "symbol": "AMZN",
+                    "price": 128.3,
+                    "pattern_confirmation": "Weak",
+                    "last_signal_date": "2023-10-03"
+                },
+                {
+                    "symbol": "NVDA",
+                    "price": 380.9,
+                    "pattern_confirmation": "Strong",
+                    "last_signal_date": "2023-10-05"
+                },
+                {
+                    "symbol": "GOOGL",
+                    "price": 115.2,
+                    "pattern_confirmation": "Moderate",
+                    "last_signal_date": "2023-10-04"
+                }
+            ],
+            "next_page_available": true
+        }
+    }
+}

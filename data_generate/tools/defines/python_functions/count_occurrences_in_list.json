@@ -1,0 +1,17 @@
+{
+    "name": "count_occurrences_in_list",
+    "description": "Counts the occurrences of each element in a list and returns a dictionary with the counts.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lst": {
+                "type": "array",
+                "items": {},
+                "description": "The input list containing elements to count."
+            }
+        },
+        "required": [
+            "lst"
+        ]
+    }
+}

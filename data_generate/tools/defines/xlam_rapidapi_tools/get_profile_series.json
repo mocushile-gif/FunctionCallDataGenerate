@@ -1,0 +1,17 @@
+{
+    "name": "get_profile_series",
+    "description": "This is a sub-function API for tool outsystems_community_api.\nTool description: Get information about the OutSystems community. This is not an official OutSystems API.\nAPI description: Fetches time series snapshots of a profile from the OutSystems Community API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "profile_id": {
+                "type": "string",
+                "description": "The unique identifier of the profile for which the time series snapshots are to be fetched.",
+                "default": "yjjslxnjng"
+            }
+        },
+        "required": [
+            "profile_id"
+        ]
+    }
+}

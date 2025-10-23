@@ -1,0 +1,25 @@
+{
+    "name": "graffiti_tags",
+    "description": "This is a sub-function API for tool jet_set_radio_api.\nTool description: A data provider for all things Jet Set Radio in JSON format!\nAPI description: Fetches and returns a list of graffiti tags based on provided sorting and limiting parameters from the Jet Set Radio API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "orderby": {
+                "type": "string",
+                "description": "Determines the order of the returned tags. Possible values are 'asc' for ascending and 'desc' for descending. Default is 'asc'.",
+                "default": "asc"
+            },
+            "limit": {
+                "type": "string",
+                "description": "Limits the number of items returned in the response. Default is '5'.",
+                "default": "5"
+            },
+            "sortby": {
+                "type": "string",
+                "description": "Specifies the field by which the tags will be sorted. Examples include 'name' and 'stats'. Default is 'name'.",
+                "default": "name"
+            }
+        },
+        "required": []
+    }
+}

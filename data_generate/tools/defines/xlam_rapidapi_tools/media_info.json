@@ -1,0 +1,23 @@
+{
+    "name": "media_info",
+    "description": "This is a sub-function API for tool get_100_success_instagram_api_scalable_robust.\nTool description: 750 requests a minute, 100% success rate Instagram API, any scale is supported. Need help/ custom plan? contact us on Telegram: https://t.me/apimaster10 Join the channel for updates: https://t.me/socialdataapis\nAPI description: Retrieves information about a media item from the Instagram API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "media_id": {
+                "type": "string",
+                "description": "The ID of the media item to retrieve information for, used as a query parameter.",
+                "default": "2489189987845943833_7593209169"
+            },
+            "mediaid": {
+                "type": "string",
+                "description": "The ID of the media item to retrieve information for, included in the URL path.",
+                "default": "2489189987845943833_7593209169"
+            }
+        },
+        "required": [
+            "media_id",
+            "mediaid"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "items",
+    "description": "This is a sub-function API for tool hacker_news.\nTool description: This is the first iteration of YCombinator's Hacker News API which provides read only access to Hacker News data near real-time, including stories, comments, user data, top stories, etc.\nAPI description: Stories, comments, Ask HNs and polls are considered items identified by ids (unique integers)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The item ID for which details are to be fetched.",
+                "default": 8863.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

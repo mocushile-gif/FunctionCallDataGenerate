@@ -1,0 +1,29 @@
+{
+    "name": "prediction",
+    "description": "This is a sub-function API for tool timeseries_prediction_model.\nTool description: Basic Machine Learning Model wich can predict all sorts of timeseries data in a daily timeframe\nAPI description: Predict the next periods of a time series using given dates and values.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "periods": {
+                "type": "number",
+                "description": "Number of future periods to predict.",
+                "default": 1.0
+            },
+            "values": {
+                "type": "string",
+                "description": "Historical values of the time series data in a comma-separated string.",
+                "default": "[281.5,244.8,382.1]"
+            },
+            "dates": {
+                "type": "string",
+                "description": "Corresponding dates of the historical values in a comma-separated string.",
+                "default": "['2023-01-01', '2023-01-02', '2023-01-03'] "
+            }
+        },
+        "required": [
+            "periods",
+            "values",
+            "dates"
+        ]
+    }
+}

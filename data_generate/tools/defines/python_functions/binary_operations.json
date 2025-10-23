@@ -1,0 +1,27 @@
+{
+    "name": "binary_operations",
+    "description": "Performs various binary operations (addition, subtraction, multiplication, division) on two binary numbers and returns the result as a binary string.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "a": {
+                "type": "string",
+                "description": "The first binary number as a string."
+            },
+            "b": {
+                "type": "string",
+                "description": "The second binary number as a string."
+            },
+            "operation": {
+                "type": "string",
+                "description": "The operation to perform. One of \"add\", \"subtract\", \"multiply\", \"divide\".",
+                "enum":["add","substract","multiply","divide"]
+            }
+        },
+        "required": [
+            "a",
+            "b",
+            "operation"
+        ]
+    }
+}

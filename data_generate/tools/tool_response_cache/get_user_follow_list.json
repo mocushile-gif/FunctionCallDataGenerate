@@ -1,0 +1,25 @@
+{
+    "{'sec_uid': 'MS4wLjABAAAAv7iSuuXDJGDvJkmH_vz1qkDZYo1apxgzaxdBSeIuPiM', 'type': 'followers', 'maxcursor': 0, 'count': 50, 'mincursor': 0}": {
+        "error": "",
+        "response": {
+            "followers": [
+                {
+                    "user_id": "123456789",
+                    "username": "example_follower1",
+                    "nickname": "Follower One",
+                    "photo": "https://example.com/photo1.jpg",
+                    "following": false
+                },
+                {
+                    "user_id": "987654321",
+                    "username": "example_follower2",
+                    "nickname": "Follower Two",
+                    "photo": "https://example.com/photo2.jpg",
+                    "following": false
+                }
+            ],
+            "next_max_cursor": 50,
+            "has_more": true
+        }
+    }
+}

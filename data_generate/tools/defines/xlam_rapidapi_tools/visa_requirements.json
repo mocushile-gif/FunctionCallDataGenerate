@@ -1,0 +1,23 @@
+{
+    "name": "visa_requirements",
+    "description": "This is a sub-function API for tool visa_requirements.\nTool description: Up-to-date and accurate information on visa requirements for any country, enabling efficient access to visa information for businesses, travel agencies, and individuals\nAPI description: Fetches visa requirements for a given passport and destination using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "passport": {
+                "type": "string",
+                "description": "The passport country code.",
+                "default": "US"
+            },
+            "destination": {
+                "type": "string",
+                "description": "The destination country code.",
+                "default": "US"
+            }
+        },
+        "required": [
+            "passport",
+            "destination"
+        ]
+    }
+}

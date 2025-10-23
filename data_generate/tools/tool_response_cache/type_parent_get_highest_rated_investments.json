@@ -1,0 +1,39 @@
+{
+    "{'type': 'etf', 'securityid': 'F00000O2CG'}": {
+        "error": "",
+        "response": {
+            "investments": [
+                {
+                    "investmentName": "iShares Core S&P 500 ETF",
+                    "MorningstarRating": 5,
+                    "price": 450.75,
+                    "1YReturn": "18.2%",
+                    "expenseRatio": "0.03%",
+                    "category": "US Large-Cap Blend"
+                },
+                {
+                    "investmentName": "Vanguard Total Stock Market ETF",
+                    "MorningstarRating": 4,
+                    "price": 230.4,
+                    "1YReturn": "16.8%",
+                    "expenseRatio": "0.03%",
+                    "category": "US Broad Market"
+                }
+            ],
+            "asOfDate": "2023-10-05",
+            "ratingDescription": "Morningstar Rating based on risk-adjusted returns (3 years)"
+        }
+    },
+    "{'type': 'etf', 'securityid': 'F00000N9LY'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'type': 'etf', 'securityid': 'F0000002CG'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'type': 'etf', 'securityid': '74393T101'}": {
+        "error": "",
+        "response": ""
+    }
+}

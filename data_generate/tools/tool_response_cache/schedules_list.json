@@ -1,0 +1,1742 @@
+{
+    "{'type': 'international'}": {
+        "error": "",
+        "response": "{'matchScheduleMap': [{'scheduleAdWrapper': {'date': 'TUE, JUL 11 2023', 'matchScheduleList': [{'seriesName': 'Afghanistan tour of Bangladesh, 2023', 'matchInfo': [{'matchId': 71010, 'seriesId': 6351, 'matchDesc': '3rd ODI', 'matchFormat': 'ODI', 'startDate': '1689062400000', 'endDate': '1689119999000', 'team1': {'teamId': 6, 'teamName': 'Bangladesh', 'teamSName': 'BAN', 'isFullMember': True, 'imageId': 172120}, 'team2': {'teamId': 96, 'teamName': 'Afghanistan', 'teamSName': 'AFG', 'isFullMember': True, 'imageId': 172188}, 'venueInfo': {'ground': 'Zahur Ahmed Chowdhury Stadium', 'city': 'Chattogram', 'country': 'Bangladesh', 'timezone': '+06:00'}}], 'seriesId': 6351, 'seriesHomeCountry': 1, 'seriesCategory': 'International'}, {'seriesName': 'Mdina Cup 2023', 'matchInfo': [{'matchId': 76150, 'seriesId': 6759, 'matchDesc': '3rd Match', 'matchFormat': 'T20', 'startDate': '1689057000000', 'endDate': '1689119999000', 'team1': {'teamId': 522, 'teamName': 'Malta', 'teamSName': 'Malta', 'imageId': 172572}, 'team2': {'teamId': 537, 'teamName': 'Luxembourg', 'teamSName': 'LUX', 'imageId': 172588}, 'venueInfo': {'ground': 'Marsa Sports Club', 'city': 'Marsa', 'country': 'Malta', 'timezone': '+02:00'}}, {'matchId': 76157, 'seriesId': 6759, 'matchDesc': '4th Match', 'matchFormat': 'T20', 'startDate': '1689070500000', 'endDate': '1689119999000', 'team1': {'teamId': 539, 'teamName': 'France', 'teamSName': 'FRA', 'imageId': 172590}, 'team2': {'teamId': 537, 'teamName': 'Luxembourg', 'teamSName': 'LUX', 'imageId': 172588}, 'venueInfo': {'ground': 'Marsa Sports Club', 'city': 'Marsa', 'country': 'Malta', 'timezone': '+02:00'}}], 'seriesId': 6759, 'seriesCategory': 'International'}, {'seriesName': 'Pakistan tour of Sri Lanka, 2023', 'matchInfo': [{'matchId': 73642, 'seriesId': 6652, 'matchDesc': '2-day Practice Match, Day 1', 'matchFormat': 'TEST', 'startDate': '1689049800000', 'endDate': '1689206399000', 'team1': {'teamId': 154, 'teamName': 'Sri Lanka Cricket Presidents XI', 'teamSName': 'SLCPXI', 'imageId': 172221}, 'team2': {'te"
+    },
+    "{'type': 'international', 'lasttime': 1648838400000}": {
+        "error": "",
+        "response": {
+            "matchScheduleMap": [
+                {
+                    "scheduleAdWrapper": {
+                        "date": "WED, JUL 12 2023",
+                        "matchScheduleList": [
+                            {
+                                "seriesName": "Valletta Cup 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 76045,
+                                        "seriesId": 6752,
+                                        "matchDesc": "1st Match",
+                                        "matchFormat": "T20",
+                                        "startDate": "1689170400000",
+                                        "endDate": "1689206399000",
+                                        "team1": {
+                                            "teamId": 522,
+                                            "teamName": "Malta",
+                                            "teamSName": "Malta",
+                                            "imageId": 172572
+                                        },
+                                        "team2": {
+                                            "teamId": 539,
+                                            "teamName": "France",
+                                            "teamSName": "FRA",
+                                            "imageId": 172590
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Marsa Sports Club",
+                                            "city": "Marsa",
+                                            "country": "Malta",
+                                            "timezone": "+02:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6752,
+                                "seriesCategory": "International"
+                            },
+                            {
+                                "seriesName": "Mdina Cup 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 76164,
+                                        "seriesId": 6759,
+                                        "matchDesc": "5th Match",
+                                        "matchFormat": "T20",
+                                        "startDate": "1689143400000",
+                                        "endDate": "1689206399000",
+                                        "team1": {
+                                            "teamId": 522,
+                                            "teamName": "Malta",
+                                            "teamSName": "Malta",
+                                            "imageId": 172572
+                                        },
+                                        "team2": {
+                                            "teamId": 537,
+                                            "teamName": "Luxembourg",
+                                            "teamSName": "LUX",
+                                            "imageId": 172588
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Marsa Sports Club",
+                                            "city": "Marsa",
+                                            "country": "Malta",
+                                            "timezone": "+02:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 76171,
+                                        "seriesId": 6759,
+                                        "matchDesc": "6th Match",
+                                        "matchFormat": "T20",
+                                        "startDate": "1689156900000",
+                                        "endDate": "1689206399000",
+                                        "team1": {
+                                            "teamId": 539,
+                                            "teamName": "France",
+                                            "teamSName": "FRA",
+                                            "imageId": 172590
+                                        },
+                                        "team2": {
+                                            "teamId": 537,
+                                            "teamName": "Luxembourg",
+                                            "teamSName": "LUX",
+                                            "imageId": 172588
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Marsa Sports Club",
+                                            "city": "Marsa",
+                                            "country": "Malta",
+                                            "timezone": "+02:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6759,
+                                "seriesCategory": "International"
+                            },
+                            {
+                                "seriesName": "Pakistan tour of Sri Lanka, 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 73642,
+                                        "seriesId": 6652,
+                                        "matchDesc": "2-day Practice Match, Day 2",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689136200000",
+                                        "endDate": "1689206399000",
+                                        "team1": {
+                                            "teamId": 154,
+                                            "teamName": "Sri Lanka Cricket Presidents XI",
+                                            "teamSName": "SLCPXI",
+                                            "imageId": 172221
+                                        },
+                                        "team2": {
+                                            "teamId": 3,
+                                            "teamName": "Pakistan",
+                                            "teamSName": "PAK",
+                                            "isFullMember": true,
+                                            "imageId": 172116
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Mahinda Rajapaksa International Stadium",
+                                            "city": "Hambantota",
+                                            "country": "Sri Lanka",
+                                            "timezone": "+05:30"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6652,
+                                "seriesHomeCountry": 1,
+                                "seriesCategory": "International"
+                            },
+                            {
+                                "seriesName": "India tour of West Indies, 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 72819,
+                                        "seriesId": 6582,
+                                        "matchDesc": "1st Test, Day 1",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689170400000",
+                                        "endDate": "1689551999000",
+                                        "team1": {
+                                            "teamId": 10,
+                                            "teamName": "West Indies",
+                                            "teamSName": "WI",
+                                            "isFullMember": true,
+                                            "imageId": 172124
+                                        },
+                                        "team2": {
+                                            "teamId": 2,
+                                            "teamName": "India",
+                                            "teamSName": "IND",
+                                            "isFullMember": true,
+                                            "imageId": 172115
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Windsor Park",
+                                            "city": "Roseau, Dominica",
+                                            "country": "West Indies",
+                                            "timezone": "-04:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6582,
+                                "seriesHomeCountry": 1,
+                                "seriesCategory": "International"
+                            }
+                        ],
+                        "longDate": "1689120000000"
+                    }
+                },
+                {
+                    "adDetail": {
+                        "name": "native_news_index_random_1",
+                        "layout": "native_large",
+                        "position": 1
+                    }
+                },
+                {
+                    "scheduleAdWrapper": {
+                        "date": "THU, JUL 13 2023",
+                        "matchScheduleList": [
+                            {
+                                "seriesName": "Valletta Cup 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 76052,
+                                        "seriesId": 6752,
+                                        "matchDesc": "2nd Match",
+                                        "matchFormat": "T20",
+                                        "startDate": "1689229800000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 522,
+                                            "teamName": "Malta",
+                                            "teamSName": "Malta",
+                                            "imageId": 172572
+                                        },
+                                        "team2": {
+                                            "teamId": 537,
+                                            "teamName": "Luxembourg",
+                                            "teamSName": "LUX",
+                                            "imageId": 172588
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Marsa Sports Club",
+                                            "city": "Marsa",
+                                            "country": "Malta",
+                                            "timezone": "+02:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 76059,
+                                        "seriesId": 6752,
+                                        "matchDesc": "3rd Match",
+                                        "matchFormat": "T20",
+                                        "startDate": "1689243300000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 1041,
+                                            "teamName": "Romania",
+                                            "teamSName": "ROM",
+                                            "imageId": 247204
+                                        },
+                                        "team2": {
+                                            "teamId": 1062,
+                                            "teamName": "Switzerland",
+                                            "teamSName": "SUI",
+                                            "imageId": 247207
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Marsa Sports Club",
+                                            "city": "Marsa",
+                                            "country": "Malta",
+                                            "timezone": "+02:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 76066,
+                                        "seriesId": 6752,
+                                        "matchDesc": "4th Match",
+                                        "matchFormat": "T20",
+                                        "startDate": "1689256800000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 539,
+                                            "teamName": "France",
+                                            "teamSName": "FRA",
+                                            "imageId": 172590
+                                        },
+                                        "team2": {
+                                            "teamId": 1041,
+                                            "teamName": "Romania",
+                                            "teamSName": "ROM",
+                                            "imageId": 247204
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Marsa Sports Club",
+                                            "city": "Marsa",
+                                            "country": "Malta",
+                                            "timezone": "+02:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6752,
+                                "seriesCategory": "International"
+                            },
+                            {
+                                "seriesName": "India tour of West Indies, 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 72819,
+                                        "seriesId": 6582,
+                                        "matchDesc": "1st Test, Day 2",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689256800000",
+                                        "endDate": "1689551999000",
+                                        "team1": {
+                                            "teamId": 10,
+                                            "teamName": "West Indies",
+                                            "teamSName": "WI",
+                                            "isFullMember": true,
+                                            "imageId": 172124
+                                        },
+                                        "team2": {
+                                            "teamId": 2,
+                                            "teamName": "India",
+                                            "teamSName": "IND",
+                                            "isFullMember": true,
+                                            "imageId": 172115
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Windsor Park",
+                                            "city": "Roseau, Dominica",
+                                            "country": "West Indies",
+                                            "timezone": "-04:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6582,
+                                "seriesHomeCountry": 1,
+                                "seriesCategory": "International"
+                            }
+                        ],
+                        "longDate": "1689206400000"
+                    }
+                },
+                {
+                    "scheduleAdWrapper": {
+                        "date": "FRI, JUL 14 2023",
+                        "matchScheduleList": [
+                            {
+                                "seriesName": "Afghanistan tour of Bangladesh, 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 71017,
+                                        "seriesId": 6351,
+                                        "matchDesc": "1st T20I",
+                                        "matchFormat": "T20",
+                                        "startDate": "1689336000000",
+                                        "endDate": "1689379199000",
+                                        "team1": {
+                                            "teamId": 6,
+                                            "teamName": "Bangladesh",
+                                            "teamSName": "BAN",
+                                            "isFullMember": true,
+                                            "imageId": 172120
+                                        },
+                                        "team2": {
+                                            "teamId": 96,
+                                            "teamName": "Afghanistan",
+                                            "teamSName": "AFG",
+                                            "isFullMember": true,
+                                            "imageId": 172188
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Sylhet International Cricket Stadium",
+                                            "city": "Sylhet",
+                                            "country": "Bangladesh",
+                                            "timezone": "+06:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6351,
+                                "seriesHomeCountry": 1,
+                                "seriesCategory": "International"
+                            },
+                            {
+                                "seriesName": "Valletta Cup 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 76073,
+                                        "seriesId": 6752,
+                                        "matchDesc": "5th Match",
+                                        "matchFormat": "T20",
+                                        "startDate": "1689316200000",
+                                        "endDate": "1689379199000",
+                                        "team1": {
+                                            "teamId": 537,
+                                            "teamName": "Luxembourg",
+                                            "teamSName": "LUX",
+                                            "imageId": 172588
+                                        },
+                                        "team2": {
+                                            "teamId": 1062,
+                                            "teamName": "Switzerland",
+                                            "teamSName": "SUI",
+                                            "imageId": 247207
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Marsa Sports Club",
+                                            "city": "Marsa",
+                                            "country": "Malta",
+                                            "timezone": "+02:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 76080,
+                                        "seriesId": 6752,
+                                        "matchDesc": "6th Match",
+                                        "matchFormat": "T20",
+                                        "startDate": "1689329700000",
+                                        "endDate": "1689379199000",
+                                        "team1": {
+                                            "teamId": 522,
+                                            "teamName": "Malta",
+                                            "teamSName": "Malta",
+                                            "imageId": 172572
+                                        },
+                                        "team2": {
+                                            "teamId": 1041,
+                                            "teamName": "Romania",
+                                            "teamSName": "ROM",
+                                            "imageId": 247204
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Marsa Sports Club",
+                                            "city": "Marsa",
+                                            "country": "Malta",
+                                            "timezone": "+02:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 76087,
+                                        "seriesId": 6752,
+                                        "matchDesc": "7th Match",
+                                        "matchFormat": "T20",
+                                        "startDate": "1689343200000",
+                                        "endDate": "1689379199000",
+                                        "team1": {
+                                            "teamId": 539,
+                                            "teamName": "France",
+                                            "teamSName": "FRA",
+                                            "imageId": 172590
+                                        },
+                                        "team2": {
+                                            "teamId": 1062,
+                                            "teamName": "Switzerland",
+                                            "teamSName": "SUI",
+                                            "imageId": 247207
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Marsa Sports Club",
+                                            "city": "Marsa",
+                                            "country": "Malta",
+                                            "timezone": "+02:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6752,
+                                "seriesCategory": "International"
+                            },
+                            {
+                                "seriesName": "India tour of West Indies, 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 72819,
+                                        "seriesId": 6582,
+                                        "matchDesc": "1st Test, Day 3",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689343200000",
+                                        "endDate": "1689551999000",
+                                        "team1": {
+                                            "teamId": 10,
+                                            "teamName": "West Indies",
+                                            "teamSName": "WI",
+                                            "isFullMember": true,
+                                            "imageId": 172124
+                                        },
+                                        "team2": {
+                                            "teamId": 2,
+                                            "teamName": "India",
+                                            "teamSName": "IND",
+                                            "isFullMember": true,
+                                            "imageId": 172115
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Windsor Park",
+                                            "city": "Roseau, Dominica",
+                                            "country": "West Indies",
+                                            "timezone": "-04:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6582,
+                                "seriesHomeCountry": 1,
+                                "seriesCategory": "International"
+                            }
+                        ],
+                        "longDate": "1689292800000"
+                    }
+                },
+                {
+                    "scheduleAdWrapper": {
+                        "date": "SAT, JUL 15 2023",
+                        "matchScheduleList": [
+                            {
+                                "seriesName": "Valletta Cup 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 76094,
+                                        "seriesId": 6752,
+                                        "matchDesc": "8th Match",
+                                        "matchFormat": "T20",
+                                        "startDate": "1689402600000",
+                                        "endDate": "1689465599000",
+                                        "team1": {
+                                            "teamId": 537,
+                                            "teamName": "Luxembourg",
+                                            "teamSName": "LUX",
+                                            "imageId": 172588
+                                        },
+                                        "team2": {
+                                            "teamId": 1041,
+                                            "teamName": "Romania",
+                                            "teamSName": "ROM",
+                                            "imageId": 247204
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Marsa Sports Club",
+                                            "city": "Marsa",
+                                            "country": "Malta",
+                                            "timezone": "+02:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 76101,
+                                        "seriesId": 6752,
+                                        "matchDesc": "9th Match",
+                                        "matchFormat": "T20",
+                                        "startDate": "1689416100000",
+                                        "endDate": "1689465599000",
+                                        "team1": {
+                                            "teamId": 522,
+                                            "teamName": "Malta",
+                                            "teamSName": "Malta",
+                                            "imageId": 172572
+                                        },
+                                        "team2": {
+                                            "teamId": 1062,
+                                            "teamName": "Switzerland",
+                                            "teamSName": "SUI",
+                                            "imageId": 247207
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Marsa Sports Club",
+                                            "city": "Marsa",
+                                            "country": "Malta",
+                                            "timezone": "+02:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 76108,
+                                        "seriesId": 6752,
+                                        "matchDesc": "10th Match",
+                                        "matchFormat": "T20",
+                                        "startDate": "1689429600000",
+                                        "endDate": "1689465599000",
+                                        "team1": {
+                                            "teamId": 539,
+                                            "teamName": "France",
+                                            "teamSName": "FRA",
+                                            "imageId": 172590
+                                        },
+                                        "team2": {
+                                            "teamId": 537,
+                                            "teamName": "Luxembourg",
+                                            "teamSName": "LUX",
+                                            "imageId": 172588
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Marsa Sports Club",
+                                            "city": "Marsa",
+                                            "country": "Malta",
+                                            "timezone": "+02:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6752,
+                                "seriesCategory": "International"
+                            },
+                            {
+                                "seriesName": "India tour of West Indies, 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 72819,
+                                        "seriesId": 6582,
+                                        "matchDesc": "1st Test, Day 4",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689429600000",
+                                        "endDate": "1689551999000",
+                                        "team1": {
+                                            "teamId": 10,
+                                            "teamName": "West Indies",
+                                            "teamSName": "WI",
+                                            "isFullMember": true,
+                                            "imageId": 172124
+                                        },
+                                        "team2": {
+                                            "teamId": 2,
+                                            "teamName": "India",
+                                            "teamSName": "IND",
+                                            "isFullMember": true,
+                                            "imageId": 172115
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Windsor Park",
+                                            "city": "Roseau, Dominica",
+                                            "country": "West Indies",
+                                            "timezone": "-04:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6582,
+                                "seriesHomeCountry": 1,
+                                "seriesCategory": "International"
+                            }
+                        ],
+                        "longDate": "1689379200000"
+                    }
+                },
+                {
+                    "adDetail": {
+                        "name": "native_news_index_random_2",
+                        "layout": "native_large",
+                        "position": 4
+                    }
+                }
+            ],
+            "appIndex": {
+                "seoTitle": "Cricket Schedule - International, domestic and T20 matches - Cricbuzz",
+                "webURL": "www.cricbuzz.com/cricket-schedule/series"
+            }
+        }
+    },
+    "{'type': 'domestic', 'lasttime': 1644280800000}": {
+        "error": "",
+        "response": {
+            "matchScheduleMap": [
+                {
+                    "scheduleAdWrapper": {
+                        "date": "TUE, JUL 11 2023",
+                        "matchScheduleList": [
+                            {
+                                "seriesName": "County Championship Division One 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 59440,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 2",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689069600000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 74,
+                                            "teamName": "Middlesex",
+                                            "teamSName": "MDX",
+                                            "imageId": 172170
+                                        },
+                                        "team2": {
+                                            "teamId": 142,
+                                            "teamName": "Northamptonshire",
+                                            "teamSName": "NHNTS",
+                                            "imageId": 172209
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Merchant Taylors' School Ground",
+                                            "city": "Northwood",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59442,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 2",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689069600000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 150,
+                                            "teamName": "Kent",
+                                            "teamSName": "KENT",
+                                            "imageId": 172217
+                                        },
+                                        "team2": {
+                                            "teamId": 140,
+                                            "teamName": "Warwickshire",
+                                            "teamSName": "WARKS",
+                                            "imageId": 172207
+                                        },
+                                        "venueInfo": {
+                                            "ground": "St Lawrence Ground",
+                                            "city": "Canterbury",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59449,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 2",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689069600000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 119,
+                                            "teamName": "Somerset",
+                                            "teamSName": "SOM",
+                                            "imageId": 172199
+                                        },
+                                        "team2": {
+                                            "teamId": 153,
+                                            "teamName": "Hampshire",
+                                            "teamSName": "HAM",
+                                            "imageId": 172220
+                                        },
+                                        "venueInfo": {
+                                            "ground": "The Cooper Associates County Ground",
+                                            "city": "Taunton",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59454,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 2",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689069600000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 143,
+                                            "teamName": "Lancashire",
+                                            "teamSName": "LANCS",
+                                            "imageId": 172210
+                                        },
+                                        "team2": {
+                                            "teamId": 152,
+                                            "teamName": "Essex",
+                                            "teamSName": "ESS",
+                                            "imageId": 172219
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Stanley Park",
+                                            "city": "Blackpool",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59433,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 2",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689069600000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 148,
+                                            "teamName": "Surrey",
+                                            "teamSName": "SUR",
+                                            "imageId": 172215
+                                        },
+                                        "team2": {
+                                            "teamId": 139,
+                                            "teamName": "Nottinghamshire",
+                                            "teamSName": "NOTTS",
+                                            "imageId": 172206
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Kennington Oval",
+                                            "city": "London",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 5127,
+                                "seriesHomeCountry": 9,
+                                "seriesCategory": "Domestic"
+                            },
+                            {
+                                "seriesName": "County Championship Division Two 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 59762,
+                                        "seriesId": 5129,
+                                        "matchDesc": "County Div 2, Day 2",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689069600000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 41,
+                                            "teamName": "Sussex",
+                                            "teamSName": "SUS",
+                                            "imageId": 172148
+                                        },
+                                        "team2": {
+                                            "teamId": 144,
+                                            "teamName": "Derbyshire",
+                                            "teamSName": "DERBY",
+                                            "imageId": 172211
+                                        },
+                                        "venueInfo": {
+                                            "ground": "County Ground",
+                                            "city": "Hove",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59769,
+                                        "seriesId": 5129,
+                                        "matchDesc": "County Div 2, Day 2",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689069600000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 147,
+                                            "teamName": "Worcestershire",
+                                            "teamSName": "WORCS",
+                                            "imageId": 172214
+                                        },
+                                        "team2": {
+                                            "teamId": 146,
+                                            "teamName": "Yorkshire",
+                                            "teamSName": "YORKS",
+                                            "imageId": 172213
+                                        },
+                                        "venueInfo": {
+                                            "ground": "New Road",
+                                            "city": "Worcester",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59771,
+                                        "seriesId": 5129,
+                                        "matchDesc": "County Div 2, Day 2",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689069600000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 141,
+                                            "teamName": "Durham",
+                                            "teamSName": "DUR",
+                                            "imageId": 172208
+                                        },
+                                        "team2": {
+                                            "teamId": 151,
+                                            "teamName": "Gloucestershire",
+                                            "teamSName": "GLOUCS",
+                                            "imageId": 172218
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Riverside Ground",
+                                            "city": "Chester-le-Street",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59776,
+                                        "seriesId": 5129,
+                                        "matchDesc": "County Div 2, Day 2",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689069600000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 149,
+                                            "teamName": "Glamorgan",
+                                            "teamSName": "GLAM",
+                                            "imageId": 172216
+                                        },
+                                        "team2": {
+                                            "teamId": 145,
+                                            "teamName": "Leicestershire",
+                                            "teamSName": "LEIC",
+                                            "imageId": 172212
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Sophia Gardens",
+                                            "city": "Cardiff",
+                                            "country": "Wales",
+                                            "timezone": "+01:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 5129,
+                                "seriesHomeCountry": 9,
+                                "seriesCategory": "Domestic"
+                            },
+                            {
+                                "seriesName": "Uganda tour of Namibia, 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 76029,
+                                        "seriesId": 6746,
+                                        "matchDesc": "1st unofficial ODI",
+                                        "matchFormat": "ODI",
+                                        "startDate": "1689060600000",
+                                        "endDate": "1689119999000",
+                                        "team1": {
+                                            "teamId": 161,
+                                            "teamName": "Namibia",
+                                            "teamSName": "NAM",
+                                            "imageId": 172229
+                                        },
+                                        "team2": {
+                                            "teamId": 44,
+                                            "teamName": "Uganda",
+                                            "teamSName": "UGA",
+                                            "imageId": 172151
+                                        },
+                                        "venueInfo": {
+                                            "ground": "United Cricket Club Ground",
+                                            "city": "Windhoek",
+                                            "country": "Namibia",
+                                            "timezone": "+02:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6746,
+                                "seriesHomeCountry": 1,
+                                "seriesCategory": "Domestic"
+                            }
+                        ],
+                        "longDate": "1689033600000"
+                    }
+                },
+                {
+                    "adDetail": {
+                        "name": "native_news_index_random_1",
+                        "layout": "native_large",
+                        "position": 1
+                    }
+                },
+                {
+                    "scheduleAdWrapper": {
+                        "date": "WED, JUL 12 2023",
+                        "matchScheduleList": [
+                            {
+                                "seriesName": "County Championship Division One 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 59433,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 3",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689156000000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 148,
+                                            "teamName": "Surrey",
+                                            "teamSName": "SUR",
+                                            "imageId": 172215
+                                        },
+                                        "team2": {
+                                            "teamId": 139,
+                                            "teamName": "Nottinghamshire",
+                                            "teamSName": "NOTTS",
+                                            "imageId": 172206
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Kennington Oval",
+                                            "city": "London",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59440,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 3",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689156000000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 74,
+                                            "teamName": "Middlesex",
+                                            "teamSName": "MDX",
+                                            "imageId": 172170
+                                        },
+                                        "team2": {
+                                            "teamId": 142,
+                                            "teamName": "Northamptonshire",
+                                            "teamSName": "NHNTS",
+                                            "imageId": 172209
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Merchant Taylors' School Ground",
+                                            "city": "Northwood",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59442,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 3",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689156000000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 150,
+                                            "teamName": "Kent",
+                                            "teamSName": "KENT",
+                                            "imageId": 172217
+                                        },
+                                        "team2": {
+                                            "teamId": 140,
+                                            "teamName": "Warwickshire",
+                                            "teamSName": "WARKS",
+                                            "imageId": 172207
+                                        },
+                                        "venueInfo": {
+                                            "ground": "St Lawrence Ground",
+                                            "city": "Canterbury",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59449,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 3",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689156000000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 119,
+                                            "teamName": "Somerset",
+                                            "teamSName": "SOM",
+                                            "imageId": 172199
+                                        },
+                                        "team2": {
+                                            "teamId": 153,
+                                            "teamName": "Hampshire",
+                                            "teamSName": "HAM",
+                                            "imageId": 172220
+                                        },
+                                        "venueInfo": {
+                                            "ground": "The Cooper Associates County Ground",
+                                            "city": "Taunton",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59454,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 3",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689156000000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 143,
+                                            "teamName": "Lancashire",
+                                            "teamSName": "LANCS",
+                                            "imageId": 172210
+                                        },
+                                        "team2": {
+                                            "teamId": 152,
+                                            "teamName": "Essex",
+                                            "teamSName": "ESS",
+                                            "imageId": 172219
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Stanley Park",
+                                            "city": "Blackpool",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 5127,
+                                "seriesHomeCountry": 9,
+                                "seriesCategory": "Domestic"
+                            },
+                            {
+                                "seriesName": "County Championship Division Two 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 59762,
+                                        "seriesId": 5129,
+                                        "matchDesc": "County Div 2, Day 3",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689156000000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 41,
+                                            "teamName": "Sussex",
+                                            "teamSName": "SUS",
+                                            "imageId": 172148
+                                        },
+                                        "team2": {
+                                            "teamId": 144,
+                                            "teamName": "Derbyshire",
+                                            "teamSName": "DERBY",
+                                            "imageId": 172211
+                                        },
+                                        "venueInfo": {
+                                            "ground": "County Ground",
+                                            "city": "Hove",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59769,
+                                        "seriesId": 5129,
+                                        "matchDesc": "County Div 2, Day 3",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689156000000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 147,
+                                            "teamName": "Worcestershire",
+                                            "teamSName": "WORCS",
+                                            "imageId": 172214
+                                        },
+                                        "team2": {
+                                            "teamId": 146,
+                                            "teamName": "Yorkshire",
+                                            "teamSName": "YORKS",
+                                            "imageId": 172213
+                                        },
+                                        "venueInfo": {
+                                            "ground": "New Road",
+                                            "city": "Worcester",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59771,
+                                        "seriesId": 5129,
+                                        "matchDesc": "County Div 2, Day 3",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689156000000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 141,
+                                            "teamName": "Durham",
+                                            "teamSName": "DUR",
+                                            "imageId": 172208
+                                        },
+                                        "team2": {
+                                            "teamId": 151,
+                                            "teamName": "Gloucestershire",
+                                            "teamSName": "GLOUCS",
+                                            "imageId": 172218
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Riverside Ground",
+                                            "city": "Chester-le-Street",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59776,
+                                        "seriesId": 5129,
+                                        "matchDesc": "County Div 2, Day 3",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689156000000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 149,
+                                            "teamName": "Glamorgan",
+                                            "teamSName": "GLAM",
+                                            "imageId": 172216
+                                        },
+                                        "team2": {
+                                            "teamId": 145,
+                                            "teamName": "Leicestershire",
+                                            "teamSName": "LEIC",
+                                            "imageId": 172212
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Sophia Gardens",
+                                            "city": "Cardiff",
+                                            "country": "Wales",
+                                            "timezone": "+01:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 5129,
+                                "seriesHomeCountry": 9,
+                                "seriesCategory": "Domestic"
+                            },
+                            {
+                                "seriesName": "Duleep Trophy 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 73449,
+                                        "seriesId": 6641,
+                                        "matchDesc": "Final, Day 1",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689134400000",
+                                        "endDate": "1689551999000",
+                                        "team1": {
+                                            "teamId": 234,
+                                            "teamName": "West Zone",
+                                            "teamSName": "WZONE",
+                                            "imageId": 172287
+                                        },
+                                        "team2": {
+                                            "teamId": 236,
+                                            "teamName": "South Zone",
+                                            "teamSName": "SZONE",
+                                            "imageId": 172289
+                                        },
+                                        "venueInfo": {
+                                            "ground": "M.Chinnaswamy Stadium",
+                                            "city": "Bengaluru",
+                                            "country": "India",
+                                            "timezone": "+05:30"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6641,
+                                "seriesHomeCountry": 2,
+                                "seriesCategory": "Domestic"
+                            }
+                        ],
+                        "longDate": "1689120000000"
+                    }
+                },
+                {
+                    "scheduleAdWrapper": {
+                        "date": "THU, JUL 13 2023",
+                        "matchScheduleList": [
+                            {
+                                "seriesName": "ACC Mens Emerging Teams Asia Cup 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 76988,
+                                        "seriesId": 6815,
+                                        "matchDesc": "1st Match, Group A",
+                                        "matchFormat": "ODI",
+                                        "startDate": "1689222600000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 43,
+                                            "teamName": "Sri Lanka A",
+                                            "teamSName": "SLA",
+                                            "imageId": 172150
+                                        },
+                                        "team2": {
+                                            "teamId": 288,
+                                            "teamName": "Bangladesh A",
+                                            "teamSName": "BANA",
+                                            "imageId": 172337
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Sinhalese Sports Club",
+                                            "city": "Colombo",
+                                            "country": "Sri Lanka",
+                                            "timezone": "+05:30"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 76991,
+                                        "seriesId": 6815,
+                                        "matchDesc": "2nd Match, Group A",
+                                        "matchFormat": "ODI",
+                                        "startDate": "1689222600000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 341,
+                                            "teamName": "Afghanistan A",
+                                            "teamSName": "AFGA",
+                                            "imageId": 172389
+                                        },
+                                        "team2": {
+                                            "teamId": 304,
+                                            "teamName": "Oman",
+                                            "teamSName": "OMAN",
+                                            "imageId": 172353
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Colombo Cricket Club Ground",
+                                            "city": "Colombo",
+                                            "country": "Sri Lanka",
+                                            "timezone": "+05:30"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6815,
+                                "seriesHomeCountry": 1,
+                                "seriesCategory": "Domestic"
+                            },
+                            {
+                                "seriesName": "Duleep Trophy 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 73449,
+                                        "seriesId": 6641,
+                                        "matchDesc": "Final, Day 2",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689220800000",
+                                        "endDate": "1689551999000",
+                                        "team1": {
+                                            "teamId": 234,
+                                            "teamName": "West Zone",
+                                            "teamSName": "WZONE",
+                                            "imageId": 172287
+                                        },
+                                        "team2": {
+                                            "teamId": 236,
+                                            "teamName": "South Zone",
+                                            "teamSName": "SZONE",
+                                            "imageId": 172289
+                                        },
+                                        "venueInfo": {
+                                            "ground": "M.Chinnaswamy Stadium",
+                                            "city": "Bengaluru",
+                                            "country": "India",
+                                            "timezone": "+05:30"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6641,
+                                "seriesHomeCountry": 2,
+                                "seriesCategory": "Domestic"
+                            },
+                            {
+                                "seriesName": "Uganda tour of Namibia, 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 76039,
+                                        "seriesId": 6746,
+                                        "matchDesc": "2nd unofficial ODI",
+                                        "matchFormat": "ODI",
+                                        "startDate": "1689233400000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 161,
+                                            "teamName": "Namibia",
+                                            "teamSName": "NAM",
+                                            "imageId": 172229
+                                        },
+                                        "team2": {
+                                            "teamId": 44,
+                                            "teamName": "Uganda",
+                                            "teamSName": "UGA",
+                                            "imageId": 172151
+                                        },
+                                        "venueInfo": {
+                                            "ground": "United Cricket Club Ground",
+                                            "city": "Windhoek",
+                                            "country": "Namibia",
+                                            "timezone": "+02:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6746,
+                                "seriesHomeCountry": 1,
+                                "seriesCategory": "Domestic"
+                            },
+                            {
+                                "seriesName": "County Championship Division Two 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 59762,
+                                        "seriesId": 5129,
+                                        "matchDesc": "County Div 2, Day 4",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689242400000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 41,
+                                            "teamName": "Sussex",
+                                            "teamSName": "SUS",
+                                            "imageId": 172148
+                                        },
+                                        "team2": {
+                                            "teamId": 144,
+                                            "teamName": "Derbyshire",
+                                            "teamSName": "DERBY",
+                                            "imageId": 172211
+                                        },
+                                        "venueInfo": {
+                                            "ground": "County Ground",
+                                            "city": "Hove",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59769,
+                                        "seriesId": 5129,
+                                        "matchDesc": "County Div 2, Day 4",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689242400000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 147,
+                                            "teamName": "Worcestershire",
+                                            "teamSName": "WORCS",
+                                            "imageId": 172214
+                                        },
+                                        "team2": {
+                                            "teamId": 146,
+                                            "teamName": "Yorkshire",
+                                            "teamSName": "YORKS",
+                                            "imageId": 172213
+                                        },
+                                        "venueInfo": {
+                                            "ground": "New Road",
+                                            "city": "Worcester",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59771,
+                                        "seriesId": 5129,
+                                        "matchDesc": "County Div 2, Day 4",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689242400000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 141,
+                                            "teamName": "Durham",
+                                            "teamSName": "DUR",
+                                            "imageId": 172208
+                                        },
+                                        "team2": {
+                                            "teamId": 151,
+                                            "teamName": "Gloucestershire",
+                                            "teamSName": "GLOUCS",
+                                            "imageId": 172218
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Riverside Ground",
+                                            "city": "Chester-le-Street",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59776,
+                                        "seriesId": 5129,
+                                        "matchDesc": "County Div 2, Day 4",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689242400000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 149,
+                                            "teamName": "Glamorgan",
+                                            "teamSName": "GLAM",
+                                            "imageId": 172216
+                                        },
+                                        "team2": {
+                                            "teamId": 145,
+                                            "teamName": "Leicestershire",
+                                            "teamSName": "LEIC",
+                                            "imageId": 172212
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Sophia Gardens",
+                                            "city": "Cardiff",
+                                            "country": "Wales",
+                                            "timezone": "+01:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 5129,
+                                "seriesHomeCountry": 9,
+                                "seriesCategory": "Domestic"
+                            },
+                            {
+                                "seriesName": "County Championship Division One 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 59440,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 4",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689242400000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 74,
+                                            "teamName": "Middlesex",
+                                            "teamSName": "MDX",
+                                            "imageId": 172170
+                                        },
+                                        "team2": {
+                                            "teamId": 142,
+                                            "teamName": "Northamptonshire",
+                                            "teamSName": "NHNTS",
+                                            "imageId": 172209
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Merchant Taylors' School Ground",
+                                            "city": "Northwood",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59442,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 4",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689242400000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 150,
+                                            "teamName": "Kent",
+                                            "teamSName": "KENT",
+                                            "imageId": 172217
+                                        },
+                                        "team2": {
+                                            "teamId": 140,
+                                            "teamName": "Warwickshire",
+                                            "teamSName": "WARKS",
+                                            "imageId": 172207
+                                        },
+                                        "venueInfo": {
+                                            "ground": "St Lawrence Ground",
+                                            "city": "Canterbury",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59449,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 4",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689242400000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 119,
+                                            "teamName": "Somerset",
+                                            "teamSName": "SOM",
+                                            "imageId": 172199
+                                        },
+                                        "team2": {
+                                            "teamId": 153,
+                                            "teamName": "Hampshire",
+                                            "teamSName": "HAM",
+                                            "imageId": 172220
+                                        },
+                                        "venueInfo": {
+                                            "ground": "The Cooper Associates County Ground",
+                                            "city": "Taunton",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59454,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 4",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689242400000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 143,
+                                            "teamName": "Lancashire",
+                                            "teamSName": "LANCS",
+                                            "imageId": 172210
+                                        },
+                                        "team2": {
+                                            "teamId": 152,
+                                            "teamName": "Essex",
+                                            "teamSName": "ESS",
+                                            "imageId": 172219
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Stanley Park",
+                                            "city": "Blackpool",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 59433,
+                                        "seriesId": 5127,
+                                        "matchDesc": "County Div 1, Day 4",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689242400000",
+                                        "endDate": "1689292799000",
+                                        "team1": {
+                                            "teamId": 148,
+                                            "teamName": "Surrey",
+                                            "teamSName": "SUR",
+                                            "imageId": 172215
+                                        },
+                                        "team2": {
+                                            "teamId": 139,
+                                            "teamName": "Nottinghamshire",
+                                            "teamSName": "NOTTS",
+                                            "imageId": 172206
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Kennington Oval",
+                                            "city": "London",
+                                            "country": "England",
+                                            "timezone": "+01:00"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 5127,
+                                "seriesHomeCountry": 9,
+                                "seriesCategory": "Domestic"
+                            }
+                        ],
+                        "longDate": "1689206400000"
+                    }
+                },
+                {
+                    "scheduleAdWrapper": {
+                        "date": "FRI, JUL 14 2023",
+                        "matchScheduleList": [
+                            {
+                                "seriesName": "ACC Mens Emerging Teams Asia Cup 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 77005,
+                                        "seriesId": 6815,
+                                        "matchDesc": "4th Match, Group B",
+                                        "matchFormat": "ODI",
+                                        "startDate": "1689309000000",
+                                        "endDate": "1689379199000",
+                                        "team1": {
+                                            "teamId": 325,
+                                            "teamName": "Pakistan A",
+                                            "teamSName": "PAKA",
+                                            "imageId": 172375
+                                        },
+                                        "team2": {
+                                            "teamId": 72,
+                                            "teamName": "Nepal",
+                                            "teamSName": "NEP",
+                                            "imageId": 172169
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Colombo Cricket Club Ground",
+                                            "city": "Colombo",
+                                            "country": "Sri Lanka",
+                                            "timezone": "+05:30"
+                                        }
+                                    },
+                                    {
+                                        "matchId": 76998,
+                                        "seriesId": 6815,
+                                        "matchDesc": "3rd Match, Group B",
+                                        "matchFormat": "ODI",
+                                        "startDate": "1689309000000",
+                                        "endDate": "1689379199000",
+                                        "team1": {
+                                            "teamId": 78,
+                                            "teamName": "India A",
+                                            "teamSName": "INDA",
+                                            "imageId": 172172
+                                        },
+                                        "team2": {
+                                            "teamId": 7,
+                                            "teamName": "United Arab Emirates",
+                                            "teamSName": "UAE",
+                                            "imageId": 172121
+                                        },
+                                        "venueInfo": {
+                                            "ground": "Sinhalese Sports Club",
+                                            "city": "Colombo",
+                                            "country": "Sri Lanka",
+                                            "timezone": "+05:30"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6815,
+                                "seriesHomeCountry": 1,
+                                "seriesCategory": "Domestic"
+                            },
+                            {
+                                "seriesName": "Duleep Trophy 2023",
+                                "matchInfo": [
+                                    {
+                                        "matchId": 73449,
+                                        "seriesId": 6641,
+                                        "matchDesc": "Final, Day 3",
+                                        "matchFormat": "TEST",
+                                        "startDate": "1689307200000",
+                                        "endDate": "1689551999000",
+                                        "team1": {
+                                            "teamId": 234,
+                                            "teamName": "West Zone",
+                                            "teamSName": "WZONE",
+                                            "imageId": 172287
+                                        },
+                                        "team2": {
+                                            "teamId": 236,
+                                            "teamName": "South Zone",
+                                            "teamSName": "SZONE",
+                                            "imageId": 172289
+                                        },
+                                        "venueInfo": {
+                                            "ground": "M.Chinnaswamy Stadium",
+                                            "city": "Bengaluru",
+                                            "country": "India",
+                                            "timezone": "+05:30"
+                                        }
+                                    }
+                                ],
+                                "seriesId": 6641,
+                                "seriesHomeCountry": 2,
+                                "seriesCategory": "Domestic"
+                            }
+                        ],
+                        "longDate": "1689292800000"
+                    }
+                },
+                {
+                    "adDetail": {
+                        "name": "native_news_index_random_2",
+                        "layout": "native_large",
+                        "position": 4
+                    }
+                }
+            ],
+            "appIndex": {
+                "seoTitle": "Cricket Schedule - International, domestic and T20 matches - Cricbuzz",
+                "webURL": "www.cricbuzz.com/cricket-schedule/series"
+            }
+        }
+    },
+    "{'type': 'international', 'lasttime': 1689119999000}": {
+        "error": "",
+        "response": "{'matchScheduleMap': [{'scheduleAdWrapper': {'date': 'TUE, SEP 10 2024', 'matchScheduleList': [{'seriesName': 'Afghanistan v New Zealand in India, 2024', 'matchInfo': [{'matchId': 103285, 'seriesId': 8625, 'matchDesc': 'Only Test, Day 2', 'matchFormat': 'TEST', 'startDate': '1725942600000', 'endDate': '1726271999000', 'team1': {'teamId': 96, 'teamName': 'Afghanistan', 'teamSName': 'AFG', 'isFullMember': True, 'imageId': 172188}, 'team2': {'teamId': 13, 'teamName': 'New Zealand', 'teamSName': 'NZ', 'isFullMember': True, 'imageId': 172128}, 'venueInfo': {'ground': 'Greater Noida Sports Complex Ground', 'city': 'Greater Noida', 'country': 'India', 'timezone': '+05:30'}}], 'seriesId': 8625, 'seriesHomeCountry': 1, 'seriesCategory': 'International'}], 'longDate': '1725926400000'}}, {'adDetail': {'name': 'native_news_index_random_1', 'layout': 'native_large', 'position': 1}}, {'scheduleAdWrapper': {'date': 'WED, SEP 11 2024', 'matchScheduleList': [{'seriesName': 'Afghanistan v New Zealand in India, 2024', 'matchInfo': [{'matchId': 103285, 'seriesId': 8625, 'matchDesc': 'Only Test, Day 3', 'matchFormat': 'TEST', 'startDate': '1726029000000', 'endDate': '1726271999000', 'team1': {'teamId': 96, 'teamName': 'Afghanistan', 'teamSName': 'AFG', 'isFullMember': True, 'imageId': 172188}, 'team2': {'teamId': 13, 'teamName': 'New Zealand', 'teamSName': 'NZ', 'isFullMember': True, 'imageId': 172128}, 'venueInfo': {'ground': 'Greater Noida Sports Complex Ground', 'city': 'Greater Noida', 'count"
+    },
+    "{'type': 'international', 'lasttime': 1726271999000}": {
+        "error": "",
+        "response": "{'matchScheduleMap': [{'scheduleAdWrapper': {'date': 'SUN, JUN 01 2025', 'matchScheduleList': [{'seriesName': 'Switzerland tour of Austria, 2025', 'matchInfo': [{'matchId': 119774, 'seriesId': 9920, 'matchDesc': '4th Match', 'matchFormat': 'T20', 'startDate': '1748764800000', 'endDate': '1748822399000', 'team1': {'teamId': 532, 'teamName': 'Austria', 'teamSName': 'AUT', 'imageId': 172583}, 'team2': {'teamId': 1062, 'teamName': 'Switzerland', 'teamSName': 'SUI', 'imageId': 247207}, 'venueInfo': {'ground': 'Velden Cricket Ground', 'city': 'Latschach', 'country': 'Austria', 'timezone': '+02:00'}}], 'seriesId': 9920, 'seriesCategory': 'International'}, {'seriesName': 'Mdina Cup 2025', 'matchInfo': [{'matchId': 118682, 'seriesId': 9818, 'matchDesc': 'Final', 'matchFormat': 'T20', 'startDate': '1748764800000', 'endDate': '1748822399000', 'team1': {'teamId': 596, 'teamName': 'Portugal', 'teamSName': 'PORT', 'imageId': 248442}, 'team2': {'teamId': 541, 'teamName': 'Belgium', 'teamSName': 'BEL', 'imageId': 172592}, 'venueInfo': {'ground': 'Stars Arena Hofstade', 'city': 'Zemst', 'country': 'Belgium', 'timezone': '+02:00'}}], 'seriesId': 9818, 'seriesCategory': 'International'}, {'seriesName': 'West Indies tour of England, 2025', 'matchInfo': [{'matchId': 105820, 'seriesId': 8796, 'matchDesc': '2nd ODI', 'matchFormat': 'ODI', 'startDate': '1748772000000', 'endDate': '1748822399000', 'team1': {'teamId': 9, 'teamName': 'England', 'teamSName': 'ENG', 'isFullMember': True, 'imageId': 17212"
+    },
+    "{'type': 'international', 'lasttime': 1748822399000}": {
+        "error": "",
+        "response": "{'matchScheduleMap': [{'scheduleAdWrapper': {'date': 'MON, JUN 02 2025', 'matchScheduleList': [{'seriesName': 'ICC Cricket World Cup League Two 2023-27', 'matchInfo': [{'matchId': 118964, 'seriesId': 7572, 'matchDesc': '74th Match', 'matchFormat': 'ODI', 'startDate': '1748858400000', 'endDate': '1748908799000', 'team1': {'teamId': 23, 'teamName': 'Scotland', 'teamSName': 'SCO', 'imageId': 172137}, 'team2': {'teamId': 72, 'teamName': 'Nepal', 'teamSName': 'NEP', 'imageId': 172169}, 'venueInfo': {'ground': 'Forthill', 'city': 'Dundee', 'country': 'Scotland', 'timezone': '+01:00'}}], 'seriesId': 7572, 'seriesHomeCountry': 1, 'seriesCategory': 'International'}], 'longDate': '1748822400000'}}, {'adDetail': {'name': 'native_news_index_random_1', 'layout': 'native_large', 'position': 1}}, {'scheduleAdWrapper': {'date': 'TUE, JUN 03 2025', 'matchScheduleList': [{'seriesName': 'West Indies tour of England, 2025', 'matchInfo': [{'matchId': 105826, 'seriesId': 8796, 'matchDesc': '3rd ODI', 'matchFormat': 'ODI', 'startDate': '1748952000000', 'endDate': '1748995199000', 'team1': {'teamId': 9, 'teamName': 'England', 'teamSName': 'ENG', 'isFullMember': True, 'imageId': 172123}, 'team2': {'teamId': 10, 'teamName': 'West Indies', 'teamSName': 'WI', 'isFullMember': True, 'imageId': 172124}, 'venueInfo': {'ground': 'Kennington Oval', 'city': 'London', 'country': 'England', 'timezone': '+01:00'}}], 'seriesId': 8796, 'seriesCategory': 'International'}], 'longDate': '1748908800000'}}, {'scheduleAd"
+    },
+    "{'type': 'domestic'}": {
+        "error": "",
+        "response": "{'matchScheduleMap': [{'scheduleAdWrapper': {'date': 'WED, AUG 16 2023', 'matchScheduleList': [{'seriesName': 'England Domestic One-Day Cup 2023', 'matchInfo': [{'matchId': 68567, 'seriesId': 5241, 'matchDesc': 'Group B', 'matchFormat': 'ODI', 'startDate': '1692180000000', 'endDate': '1692230399000', 'team1': {'teamId': 149, 'teamName': 'Glamorgan', 'teamSName': 'GLAM', 'imageId': 172216}, 'team2': {'teamId': 151, 'teamName': 'Gloucestershire', 'teamSName': 'GLOUCS', 'imageId': 172218}, 'venueInfo': {'ground': 'Sophia Gardens', 'city': 'Cardiff', 'country': 'Wales', 'timezone': '+01:00'}}, {'matchId': 68574, 'seriesId': 5241, 'matchDesc': 'Group B', 'matchFormat': 'ODI', 'startDate': '1692180000000', 'endDate': '1692230399000', 'team1': {'teamId': 142, 'teamName': 'Northamptonshire', 'teamSName': 'NHNTS', 'imageId': 172209}, 'team2': {'teamId': 147, 'teamName': 'Worcestershire', 'teamSName': 'WORCS', 'imageId': 172214}, 'venueInfo': {'ground': 'County Ground', 'city': 'Northampton', 'country': 'England', 'timezone': '+01:00'}}], 'seriesId': 5241, 'seriesHomeCountry': 9, 'seriesCategory': 'Domestic'}], 'longDate': '1692144000000'}}, {'adDetail': {'name': 'native_news_index_random_1', 'layout': 'native_large', 'position': 1}}, {'scheduleAdWrapper': {'date': 'THU, AUG 17 2023', 'matchScheduleList': [{'seriesName': 'England Domestic One-Day Cup 2023', 'matchInfo': [{'matchId': 68595, 'seriesId': 5241, 'matchDesc': 'Group A', 'matchFormat': 'ODI', 'startDate': '1692266400000', 'endDate': '1692316799000', 'team1': {'teamId': 146, 'teamName': 'Yorkshire', 'teamSName': 'YORKS', 'imageId': 172213}, 'team2': {'teamId': 153, 'teamName': 'Hampshire', 'teamSName': 'HAM', 'imageId': 172220}, 'venueInfo': {'ground': 'York Cricket Club', 'city': 'York', 'country': 'England', 'timezone': '+01:00'}}, {'matchId': 68581, 'seriesId': 5241, 'matchDesc': 'Group A', 'matchFormat': 'ODI', 'startDate': '1692266400000', 'endDate': '1692316799000', 'team1': {'teamId': 148, 'teamName': 'Surrey', 'teamSName': 'SUR', 'imageId': 172215}, 'team2"
+    },
+    "{'type': 'women'}": {
+        "error": "",
+        "response": "{'matchScheduleMap': [{'scheduleAdWrapper': {'date': 'THU, OCT 31 2024', 'matchScheduleList': [{'seriesName': 'Kenya Women tour of Rwanda 2024', 'matchInfo': [{'matchId': 109292, 'seriesId': 9164, 'matchDesc': '3rd T20I', 'matchFormat': 'T20', 'startDate': '1730363400000', 'endDate': '1730419199000', 'team1': {'teamId': 720, 'teamName': 'Rwanda Women', 'teamSName': 'RWAW', 'imageId': 248448}, 'team2': {'teamId': 501, 'teamName': 'Kenya Women', 'teamSName': 'KENW', 'imageId': 172550}, 'venueInfo': {'ground': 'Gahanga B Ground', 'city': 'Kigali City', 'country': 'Rwanda', 'timezone': '+02:00'}}], 'seriesId': 9164, 'seriesCategory': 'Women'}, {'seriesName': 'Womens Big Bash League 2024', 'matchInfo': [{'matchId': 101286, 'seriesId': 8525, 'matchDesc': '7th Match', 'matchFormat': 'T20', 'startDate': '1730362500000', 'endDate': '1730419199000', 'team1': {'teamId': 362, 'teamName': 'Sydney Thunder Women', 'teamSName': 'SYTW', 'imageId': 172408}, 'team2': {'teamId': 357, 'teamName': 'Hobart Hurricanes Women', 'teamSName': 'HBHW', 'imageId': 172403}, 'venueInfo': {'ground': 'North Sydney Oval', 'city': 'Sydney', 'country': 'Australia', 'timezone': '+11:00'}, 'isLiveStreamEnabled': True}], 'seriesId': 8525, 'seriesCategory': 'Women', 'isLiveStreamEnabled': True}], 'longDate': '1730332800000'}}, {'adDetail': {'name': 'native_news_index_random_1', 'layout': 'native_large', 'position': 1}}, {'scheduleAdWrapper': {'date': 'FRI, NOV 01 2024', 'matchScheduleList': [{'seriesName': 'Womens Big Bash League 2024', 'matchInfo': [{'matchId': 101288, 'seriesId': 8525, 'matchDesc': '8th Match', 'matchFormat': 'T20', 'startDate': '1730436300000', 'endDate': '1730505599000', 'team1': {'teamId': 355, 'teamName': 'Adelaide Strikers Women', 'teamSName': 'ADSW', 'imageId': 172401}, 'team2': {'teamId': 362, 'teamName': 'Sydney Thunder Women', 'teamSName': 'SYTW', 'imageId': 172408}, 'venueInfo': {'ground': 'North Sydney Oval', 'city': 'Sydney', 'country': 'Australia', 'timezone': '+11:00'}, 'isLiveStreamEnabled': True}, {'matchId': 101294, 's"
+    }
+}

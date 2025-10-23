@@ -1,0 +1,27 @@
+{
+    "name": "image_search",
+    "description": "This is a sub-function API for tool real_time_lens_data.\nTool description: Cutting-edge visual image search and reverse image search, highly-detailed OCR, comprehensive text recognition, product information, QR Code reading, and rich knowledge graph insights, all in one API, powered by Google Lens.\nAPI description: Search image by url and get visual matches, knowledge graph, products and prices, text and object detections. See it in on [Google Lens](https://lens.google.com/uploadbyurl?url=https%3A%2F%2Fi.imgur.com%2FHBrB8p0.png).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "URL of an image to perform Google Lens search.",
+                "default": "https://i.imgur.com/HBrB8p0.png"
+            },
+            "country": {
+                "type": "string",
+                "description": "Set the country for the search.\n\n**Allowed values:** 2-letter country code, see [ISO 3166](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes).\n**Default:** us.",
+                "default": "us"
+            },
+            "language": {
+                "type": "string",
+                "description": "Set the language of the results (Google's **hl** parameter).\n\n**Allowed values:** 2-letter language code, see [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).\n**Default:** en.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

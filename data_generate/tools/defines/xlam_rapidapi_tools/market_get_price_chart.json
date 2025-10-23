@@ -1,0 +1,23 @@
+{
+    "name": "market_get_price_chart",
+    "description": "This is a sub-function API for tool bb_finance.\nTool description: This API helps to query for all information about finance summary, stocks, quotes, movers, etc… to create a financial site/application such as bloomberg.com\nAPI description: Fetches data to draw a price chart based on the given interval and market ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "interval": {
+                "type": "string",
+                "description": "The time interval for the price chart. Options include: 'd1', 'd3', 'ytd', 'm1', 'm3', 'm6', 'y1', 'y5'.",
+                "default": "y1"
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The value of id field returned in .../market/auto-complete endpoint.",
+                "default": "inmex:ind"
+            }
+        },
+        "required": [
+            "interval",
+            "is_id"
+        ]
+    }
+}

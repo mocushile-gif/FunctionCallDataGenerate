@@ -1,0 +1,17 @@
+{
+    "name": "search_pins",
+    "description": "This is a sub-function API for tool pinterest_scraper.\nTool description: Stable Pinterest API. I get full information about pins, download links in all qualities. Active work is underway to add new features\nAPI description: Search for Pinterest pins based on a given keyword using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The search term used to find relevant Pinterest pins.",
+                "default": "nasa"
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

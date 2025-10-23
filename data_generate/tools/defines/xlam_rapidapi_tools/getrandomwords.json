@@ -1,0 +1,49 @@
+{
+    "name": "getrandomwords",
+    "description": "This is a sub-function API for tool random_ukrainian_word.\nTool description: Get multiple or single Ukrainian words from a list of 150.000+ words.\nAPI description: Fetch random Ukrainian words based on specified criteria from an API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "length": {
+                "type": "number",
+                "description": "Exact length of the word. Defaults to None."
+            },
+            "maxlength": {
+                "type": "number",
+                "description": "Maximum length of the word. Defaults to 6.",
+                "default": 6.0
+            },
+            "excludes": {
+                "type": "string",
+                "description": "Letters that the word should not include. Defaults to 'кли'.",
+                "default": "кли"
+            },
+            "minlength": {
+                "type": "number",
+                "description": "Minimum length of the word. Defaults to 2.",
+                "default": 2.0
+            },
+            "startswith": {
+                "type": "string",
+                "description": "Letters that the word should start with. Defaults to 'во'.",
+                "default": "во"
+            },
+            "endswith": {
+                "type": "string",
+                "description": "Letters that the word should end with. Defaults to 'я'.",
+                "default": "я"
+            },
+            "amount": {
+                "type": "number",
+                "description": "Number of requested words. Defaults to 1.",
+                "default": 1.0
+            },
+            "includes": {
+                "type": "string",
+                "description": "Letters that the word should include. Defaults to 'ол'.",
+                "default": "ол"
+            }
+        },
+        "required": []
+    }
+}

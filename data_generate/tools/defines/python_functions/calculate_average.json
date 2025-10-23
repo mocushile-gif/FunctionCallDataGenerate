@@ -1,0 +1,35 @@
+{
+    "name": "calculate_average",
+    "description": "Calculates the arithmetic mean of a list of numbers with optional features such as weighted average, outlier exclusion, and result rounding.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "numbers": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "The list of numbers to calculate the average for."
+            },
+            "weights": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "Optional weights for each number to calculate a weighted average. Must match the length of 'numbers'."
+            },
+            "exclude_outliers": {
+                "type": "boolean",
+                "description": "Whether to exclude statistical outliers from the list of numbers before calculating the average. Defaults to false.",
+                "default": false
+            },
+            "rounding": {
+                "type": "integer",
+                "description": "The number of decimal places to round the result to. Defaults to 2.",
+                "default": 2,
+                "minimum": 0
+            }
+        },
+        "required": ["numbers"]
+    }
+}

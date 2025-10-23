@@ -1,0 +1,17 @@
+{
+    "name": "get_channel_goals",
+    "description": "This is a sub-function API for tool twitch_api.\nTool description: Detailed API for twitch. Stream data, streamer data, chat data, streamer cards data etc.\nfor twitch.\nAPI description: Fetches the goals for a specified Twitch channel using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "channel": {
+                "type": "string",
+                "description": "The name of the Twitch channel for which to retrieve goals.",
+                "default": "shadoune666"
+            }
+        },
+        "required": [
+            "channel"
+        ]
+    }
+}

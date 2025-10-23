@@ -1,0 +1,30 @@
+{
+    "{'username': 'creativeguru'}": {
+        "error": "",
+        "response": {
+            "success": true,
+            "username": "creativeguru",
+            "available": true
+        }
+    },
+    "{'username': 'parentwatch'}": {
+        "error": "",
+        "response": {
+            "success": true,
+            "username": "parentwatch",
+            "available": true
+        }
+    },
+    "{'username': 'naturelover'}": {
+        "error": "",
+        "response": {
+            "success": true,
+            "username": "naturelover",
+            "available": false
+        }
+    },
+    "{'username': 'CreativeVisionary'}": {
+        "error": "",
+        "response": "{'success': False, 'message': 'Server problem!'}"
+    }
+}

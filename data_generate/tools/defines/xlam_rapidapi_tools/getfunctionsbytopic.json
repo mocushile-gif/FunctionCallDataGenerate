@@ -1,0 +1,23 @@
+{
+    "name": "getfunctionsbytopic",
+    "description": "This is a sub-function API for tool powerbi.\nTool description: The Power BI API offers the Microsoft Power BI news, learning resources, events, samples and other information.\nAPI description: Fetch Power BI DAX functions by topic for a specific page using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number of the results to retrieve.",
+                "default": 1.0
+            },
+            "topic": {
+                "type": "string",
+                "description": "The topic for which to retrieve DAX functions.",
+                "default": "dax"
+            }
+        },
+        "required": [
+            "page",
+            "topic"
+        ]
+    }
+}

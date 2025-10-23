@@ -1,0 +1,17 @@
+{
+    "name": "getgamecontent",
+    "description": "This is a sub-function API for tool nhl_stats_and_live_data.\nTool description: Get live data and stats about any NHL game, teams, players, drafts and many more.\n\nAPI description: Fetches the content of a specific NHL game using its game ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the game. The first 4 digits identify the season of the game (e.g., 2017 for the 2017-2018 season). The next 2 digits indicate the type of game (01 = preseason, 02 = regular season, 03 = playoffs, 04 = all-star). The final 4 digits identify the specific game number. For regular season and preseason games, this ranges from 0001 to the number of games played. For playoff games, the 2nd digit of the specific number gives the round of the playoffs, the 3rd digit specifies the matchup, and the 4th digit specifies the game (out of 7).",
+                "default": 2017020851
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

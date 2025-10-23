@@ -1,0 +1,26 @@
+{
+    "name": "continents",
+    "description": "This is a sub-function API for tool referential.\nTool description: The fastest API to access countries, states, cities, continents, dial and zip codes in up to 20 languages. A collection of data APIs to support forms, signups, search and lookup. Our endpoints are optimized for speed and size. Our data is regularly maintained and comes from International Standardization bodies, the United Nations, government surveys and GIS datasets. We do not scrape WikiPedia etc\nAPI description: Fetches and returns a list of continents of the world localized to the requested language, with various filtering options.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fields": {
+                "type": "string",
+                "description": "Specifies the fields to return for each continent. Options include 'iso_a2', 'iso_a3', 'continent_code', 'dial_code', 'currency_code', 'currency_num_code', 'currency'."
+            },
+            "continent_code": {
+                "type": "string",
+                "description": "Filters the results based on the 2-letter continent code."
+            },
+            "lang": {
+                "type": "string",
+                "description": "Two letter iso 639-2 language code (i.e. en, sv, pl etc). Lookup /v1/lang."
+            },
+            "name": {
+                "type": "string",
+                "description": "Filter results to contain the given continent name in the chosen language."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "news_v2_list_by_symbol",
+    "description": "This is a sub-function API for tool cnbc.\nTool description: This API helps to query for business news and live market data to create a financial site such as cnbc.com\nAPI description: Fetches the latest news articles associated with a given stock symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to retrieve news. This is typically obtained from the auto-complete or other relevant endpoints.",
+                "default": "AAPL"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for paginated results. Defaults to 1.",
+                "default": 1.0
+            },
+            "pagesize": {
+                "type": "number",
+                "description": "The number of news articles to return per page. Defaults to 30.",
+                "default": 30.0
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

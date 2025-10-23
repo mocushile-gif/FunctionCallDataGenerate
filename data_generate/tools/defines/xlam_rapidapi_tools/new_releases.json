@@ -1,0 +1,17 @@
+{
+    "name": "new_releases",
+    "description": "This is a sub-function API for tool spotify_v2.\nTool description: Get Spotify Tracks & Playlist Details\nAPI description: Retrieves new music releases from Spotify based on the given country code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The country code to fetch new releases for. Example values include 'US', 'CA', 'SE', 'IN', 'UK'.",
+                "default": "us"
+            }
+        },
+        "required": [
+            "country"
+        ]
+    }
+}

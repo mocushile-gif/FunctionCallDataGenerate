@@ -1,0 +1,17 @@
+{
+    "name": "teams_get_transfers",
+    "description": "This is a sub-function API for tool divanscore.\nTool description: The most powerful sports API for live scores and football scores, results and stats. And not just football – choose from more than 20+ sports, 5000+ leagues and tournaments, millions of events and many esports competitions. Analyze almost any live score and statistics on the planet ... This API helps to create a sporting site/application\nAPI description: Fetches the transfer details for a specific team using the provided team ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "teamid": {
+                "type": "number",
+                "description": "The value of id field returned in …/teams/search endpoint or …/matches/detail or …/tournaments/get-featured-events or …/tournaments/get-scheduled-events or …/tournaments/get-top-teams, etc…",
+                "default": 38.0
+            }
+        },
+        "required": [
+            "teamid"
+        ]
+    }
+}

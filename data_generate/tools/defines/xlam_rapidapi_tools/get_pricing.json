@@ -1,0 +1,24 @@
+{
+    "name": "get_pricing",
+    "description": "This is a sub-function API for tool sms77io.\nTool description: Send SMS & text-to-speech messages, perform phone number lookups and much more via seven.io.\nAPI description: Retrieves pricing information for a specified country or all countries.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "p": {
+                "type": "string",
+                "description": "API Key from [Sms77.io](https://sms77.io)."
+            },
+            "country": {
+                "type": "string",
+                "description": "An ISO Code of the country you wish to retrieve the pricing for.\n*Examples*:\n\n-  \\\"de\\\" for Germany \n- \\\"uk\\\" for Great Britain\n- \\\"fr\\\" for France\n\nIf this parameter is *not* specified, the prices of *all* countries are getting returned."
+            },
+            "format": {
+                "type": "string",
+                "description": "Whether to return the response as *JSON* or *CSV*. The **default** is *JSON*."
+            }
+        },
+        "required": [
+            "p"
+        ]
+    }
+}

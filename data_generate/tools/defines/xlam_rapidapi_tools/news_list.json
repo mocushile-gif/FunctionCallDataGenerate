@@ -1,0 +1,17 @@
+{
+    "name": "news_list",
+    "description": "This is a sub-function API for tool bb_finance.\nTool description: This API helps to query for all information about finance summary, stocks, quotes, movers, etc… to create a financial site/application such as bloomberg.com\nAPI description: Fetches a list of news articles based on the specified category.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The category of news to fetch, allowable values include markets, technology, view, pursuits, politics, green, citylab, businessweek, fixed-income, hyperdrive, cryptocurrencies, wealth, latest, personalFinance, quickTake, world, industries, stocks, currencies, brexit.",
+                "default": "markets"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

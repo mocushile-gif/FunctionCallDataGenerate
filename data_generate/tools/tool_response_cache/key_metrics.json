@@ -1,0 +1,41 @@
+{
+    "{'symbol': 'AAPL', 'period': 'annual'}": {
+        "error": "",
+        "response": {
+            "symbol": "AAPL",
+            "period": "annual",
+            "key_metrics": {
+                "marketCap": "2.5T",
+                "peRatio": 28.4,
+                "revenue": "383.0B",
+                "netIncome": "94.7B",
+                "eps": 6.13,
+                "debtToEquity": 0.5,
+                "operatingCashFlow": "114.1B",
+                "returnOnEquity": 0.82
+            },
+            "last_updated": "2023-12-31",
+            "currency": "USD"
+        }
+    },
+    "{'symbol': 'MSFT', 'period': 'annual'}": {
+        "error": "",
+        "response": "[{'symbol': 'MSFT', 'date': '2024-06-30', 'period': 'FY', 'operatingCashFlowPerShare': 15.953169156237385, 'freeCashFlowPerShare': 9.967837437760732, 'cashPerShare': 10.165926524020993, 'priceToSalesRatio': 13.846005784874471, 'dividendYield': 0.006414629506176681, 'payoutRatio': 0.24701597531088318, 'revenuePerShare': 32.986408289597634, 'netIncomePerShare': 11.860584039833132, 'bookValuePerShare': 36.12932310590769, 'tangibleBookValuePerShare': 16.37195532229848, 'shareholdersEquityPerShare': 36.12932310590769, 'interestDebtPerShare': 8.140761674068093, 'marketCap': 3393960630000, 'enterpriseValue': 3473497630000, 'peRatio': 38.508221725515114, 'pocfratio': 28.629421247089788, 'pfcfRatio': 45.82037005035709, 'pbratio': 12.641532161041727, 'ptbRatio': 12.641532161041727, 'evToSales': 14.170485023784074, 'enterpriseValueOverEBITDA': 26.37031301245065, 'evToOperatingCashFlow': 29.300347791611838, 'earningsYield': 0.025968480370970007, 'freeCashFlowYield': 0.021824354515273207, 'debtToEquity': 0.21439080442644995, 'debtToAssets': 0.11238414332936975, 'netDebtToEBITDA': 0.6038338900698451, 'currentRatio': 1.2749549031815206, 'interestCoverage': 37.285519591141394, 'incomeQuality': 1.345057638195516, 'salesGeneralAndAdministrativeToRevenue': 0.031041685364838735, 'researchAndDevelopmentToRevenue': None, 'intangiblesToTotalAssets': 0.2866606920062558, 'capexToOperatingCashFlow': 0.3751813611364173, 'capexToRevenue': 0.18144842160230415, 'capexToDepreciation': 1.9956476869924171, 'stockBasedCompensationToRevenue': 0.04379043904667879, 'grahamNumber': 98.19157113773981, 'roic': 0.27445408594204246, 'returnOnTangibleAssets': 0.24123981102844974, 'grahamNetNet': -16.79814291481631, 'workingCapital': 34448000000, 'tangibleAssetValue': 121660000000, 'netCurrentAssetValue': -83952000000, 'investedCapital': 335817000000, 'averageReceivables': 52806000000, 'averagePayables': 20045500000, 'averageInventory': 1873000000, 'daysSalesOutstanding': 84.76293437553545, 'daysPayablesOutstanding': 108.32690179992983, 'daysOfInventoryOnH"
+    },
+    "{'period': 'quarterly', 'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'period': 'quarterly', 'symbol': 'MSFT'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'period': 'annual', 'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'period': 'quarterly', 'symbol': 'AMZN'}": {
+        "error": "",
+        "response": "[{'symbol': 'AMZN', 'date': '2023-12-31', 'period': 'FY', 'operatingCashFlowPerShare': 8.243982919254659, 'freeCashFlowPerShare': 3.1266498447204967, 'cashPerShare': 8.42197204968944, 'priceToSalesRatio': 2.7237832580878067, 'dividendYield': 0, 'payoutRatio': 0, 'revenuePerShare': 55.782705745341616, 'netIncomePerShare': 2.952736801242236, 'bookValuePerShare': 19.591906055900623, 'tangibleBookValuePerShare': 16.634219720496894, 'shareholdersEquityPerShare': 19.591906055900623, 'interestDebtPerShare': 13.469817546583851, 'marketCap': 1565589760000, 'enterpriseValue': 1627813760000, 'peRatio': 51.45734626129828, 'pocfratio': 18.430411791020177, 'pfcfRatio': 48.59514417853928, 'pbratio': 7.755243393188854, 'ptbRatio': 7.755243393188854, 'evToSales': 2.83203938864097, 'enterpriseValueOverEBITDA': 18.207800272924544, 'evToOperatingCashFlow': 19.162924210675016, 'earningsYield': 0.019433571154681032, 'freeCashFlowYield': 0.020578187736741457, 'debtToEquity': 0.6717572755417957, 'debtToAssets': 0.25691005467420913, 'netDebtToEBITDA': 0.6960023265698754, 'currentRatio': 1.0450772206625152, 'interestCoverage': 11.581395348837209, 'incomeQuality': 2.7919802793755135, 'salesGeneralAndAdministrativeToRevenue': 0.020557251841993092, 'researchAndDevelopmentToRevenue': None, 'intangiblesToTotalAssets': 0.05773566175495497, 'capexToOperatingCashFlow': 0.6207355260989335, 'capexToRevenue': 0.09173691032299033, 'capexToDepreciation': 1.0835542403879745, 'stockBasedCompensationToRevenue': 0.04179475803996277, 'grahamNumber': 36.07795996725859, 'roic': 0.0822888072796974, 'returnOnTangibleAssets': 0.06117077956805488, 'grahamNetNet': -17.794084821428573, 'workingCapital': 7434000000, 'tangibleAssetValue': 171399000000, 'netCurrentAssetValue': -153628000000, 'investedCapital': 314600000000, 'averageReceivables': 47306500000, 'averagePayables': 82290500000, 'averageInventory': 33861500000, 'daysSalesOutstanding': 33.18170272362709, 'daysPayablesOutstanding': 101.78567561093263, 'daysOfInventoryOnHand': 39.906510161154294, 'receivables"
+    }
+}

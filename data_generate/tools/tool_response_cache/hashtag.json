@@ -1,0 +1,29 @@
+{
+    "{'hashtag': 'stresscycle'}": {
+        "error": "",
+        "response": {
+            "hashtag": "stresscycle",
+            "post_count": 452,
+            "top_posts": [
+                {
+                    "post_id": "IG_78910_xyz",
+                    "username": "wellness_journey",
+                    "caption": "Finding balance during #stresscycle \u2013 mindfulness tips that work! \ud83e\uddd8\u2642\ufe0f",
+                    "likes": 1582,
+                    "timestamp": "2023-09-20T14:30:00Z"
+                },
+                {
+                    "post_id": "IG_12345_abc",
+                    "username": "health_mindset",
+                    "caption": "Breaking the #stresscycle with daily walks and journaling. Small steps, big impact! \ud83c\udf31",
+                    "likes": 987,
+                    "timestamp": "2023-09-19T09:15:00Z"
+                }
+            ],
+            "metadata": {
+                "total_posts_fetched": 10,
+                "next_page_token": "next_123"
+            }
+        }
+    }
+}

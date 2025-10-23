@@ -1,0 +1,30 @@
+{
+    "name": "get_random_word",
+    "description": "This is a sub-function API for tool dicolink.\nTool description: Dicolink API lets you retrieve information about French words, including definitions, synonyms, antonyms, quotes, expressions, lexical field, scrabble score, and much more...\nAPI description: Fetches a random word based on specified criteria from the Dicolink API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "verbeconjugue": {
+                "type": "boolean",
+                "description": "Whether to fetch a conjugated verb. Defaults to None.",
+                "default": true
+            },
+            "minlong": {
+                "type": "string",
+                "description": "Minimum length of the word. Defaults to '5'.",
+                "default": "5"
+            },
+            "maxlong": {
+                "type": "string",
+                "description": "Maximum length of the word. Defaults to '-1' for no maximum.",
+                "default": "-1"
+            },
+            "avecdef": {
+                "type": "boolean",
+                "description": "Whether to include the definition of the word. Defaults to None.",
+                "default": true
+            }
+        },
+        "required": []
+    }
+}

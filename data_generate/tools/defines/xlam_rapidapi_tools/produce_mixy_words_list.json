@@ -1,0 +1,20 @@
+{
+    "name": "produce_mixy_words_list",
+    "description": "This is a sub-function API for tool mixy_word_guess_api.\nTool description: \nAPI description: It produces random words in a requested amount and varios difficulty levels such as; \"easy\", \"medium\", \"hard\". In the query, \"amount\" and \"difficulty\" are optional parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "amount": {
+                "type": "number",
+                "description": "The number of words to generate. Valid values are integers between 1 and 100. Default is 10.",
+                "default": 10.0
+            },
+            "difficulty": {
+                "type": "string",
+                "description": "The difficulty level of the words. Valid values are \"easy\", \"medium\", and \"hard\". Default is 'easy'.",
+                "default": "easy"
+            }
+        },
+        "required": []
+    }
+}

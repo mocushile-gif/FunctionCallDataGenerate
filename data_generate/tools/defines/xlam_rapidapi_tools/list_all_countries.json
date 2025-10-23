@@ -1,0 +1,17 @@
+{
+    "name": "list_all_countries",
+    "description": "This is a sub-function API for tool world_bank_gdp.\nTool description: Sourced from World Bank at https://datahelpdesk.worldbank.org/knowledgebase/articles/898581-api-basic-call-structures\nAPI description: Sourced from Developer Information issued by The World Bank Group at https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information\n\nExternal Doc URL available at http://api.worldbank.org/v2/country\n\nOutput format available at http://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "iso2code": {
+                "type": "string",
+                "description": "ISO 3166-1 alpha-2 code of the country for which information is to be fetched.",
+                "default": "br"
+            }
+        },
+        "required": [
+            "iso2code"
+        ]
+    }
+}

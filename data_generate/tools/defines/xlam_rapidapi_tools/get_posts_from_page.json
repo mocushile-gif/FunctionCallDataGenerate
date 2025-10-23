@@ -1,0 +1,25 @@
+{
+    "name": "get_posts_from_page",
+    "description": "This is a sub-function API for tool get_9gag_api_detailed.\nTool description: Detailed 9GAG API. Scraping posts, categories, users. Includes download videos/photos.\nAPI description: Fetches posts from a specified category on a 9gag page.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "The category of posts to fetch, as supported by the /get_pages endpoint.",
+                "default": "trending"
+            },
+            "counter": {
+                "type": "string",
+                "description": "Counter for pagination; leave blank for the first request. For subsequent requests, provide the counter value from the previous response."
+            },
+            "after": {
+                "type": "string",
+                "description": "Pagination parameter to fetch posts after a certain point; leave blank for the first request. For subsequent requests, provide the after value from the previous response."
+            }
+        },
+        "required": [
+            "category"
+        ]
+    }
+}

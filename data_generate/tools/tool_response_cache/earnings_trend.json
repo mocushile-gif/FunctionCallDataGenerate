@@ -1,0 +1,63 @@
+{
+    "{'ticker': 'AAPL'}": {
+        "error": "",
+        "response": "{'Current qtr. (Jun 2023)': {'30 days ago': 1.19, '60 days ago': 1.22, '7 days ago': 1.19, '90 days ago': 1.24, 'Current estimate': 1.19}, 'Current year (2023)': {'30 days ago': 5.97, '60 days ago': 5.95, '7 days ago': 5.98, '90 days ago': 5.96, 'Current estimate': 5.98}, 'Next qtr. (Sep 2023)': {'30 days ago': 1.36, '60 days ago': 1.4, '7 days ago': 1.36, '90 days ago': 1.41, 'Current estimate': 1.36}, 'Next year (2024)': {'30 days ago': 6.56, '60 days ago': 6.59, '7 days ago': 6.57, '90 days ago': 6.59, 'Current estimate': 6.58}}"
+    },
+    "{'ticker': 'GOOG'}": {
+        "error": "",
+        "response": {
+            "Current qtr. (Jun 2023)": {
+                "30 days ago": 1.34,
+                "60 days ago": 1.34,
+                "7 days ago": 1.34,
+                "90 days ago": 1.27,
+                "Current estimate": 1.34
+            },
+            "Current year (2023)": {
+                "30 days ago": 5.33,
+                "60 days ago": 5.32,
+                "7 days ago": 5.31,
+                "90 days ago": 5.01,
+                "Current estimate": 5.32
+            },
+            "Next qtr. (Sep 2023)": {
+                "30 days ago": 1.34,
+                "60 days ago": 1.34,
+                "7 days ago": 1.34,
+                "90 days ago": 1.29,
+                "Current estimate": 1.34
+            },
+            "Next year (2024)": {
+                "30 days ago": 6.25,
+                "60 days ago": 6.24,
+                "7 days ago": 6.22,
+                "90 days ago": 6.04,
+                "Current estimate": 6.23
+            }
+        }
+    },
+    "{'ticker': 'MSFT'}": {
+        "error": "",
+        "response": "{'Current qtr. (Jun 2023)': {'30 days ago': 2.56, '60 days ago': 2.56, '7 days ago': 2.55, '90 days ago': 2.47, 'Current estimate': 2.55}, 'Current year (2023)': {'30 days ago': 9.65, '60 days ago': 9.67, '7 days ago': 9.65, '90 days ago': 9.35, 'Current estimate': 9.65}, 'Next qtr. (Sep 2023)': {'30 days ago': 2.6, '60 days ago': 2.6, '7 days ago': 2.6, '90 days ago': 2.57, 'Current estimate': 2.6}, 'Next year (2024)': {'30 days ago': 10.95, '60 days ago': 10.92, '7 days ago': 10.95, '90 days ago': 10.75, 'Current estimate': 10.96}}"
+    },
+    "{'ticker': 'TSLA'}": {
+        "error": "",
+        "response": "{'eps_trend': [{'current_qtr_mar_2025': '0.47', 'current_year_2025': '2.67', 'metric': 'Current estimate', 'next_qtr_jun_2025': '0.63', 'next_year_2026': '3.61'}, {'current_qtr_mar_2025': '0.49', 'current_year_2025': '2.71', 'metric': '7 days ago', 'next_qtr_jun_2025': '0.64', 'next_year_2026': '3.64'}, {'current_qtr_mar_2025': '0.52', 'current_year_2025': '2.84', 'metric': '30 days ago', 'next_qtr_jun_2025': '0.68', 'next_year_2026': '3.74'}, {'current_qtr_mar_2025': '0.71', 'current_year_2025': '3.26', 'metric': '60 days ago', 'next_qtr_jun_2025': '0.8', 'next_year_2026': '4.12'}, {'current_qtr_mar_2025': '0.71', 'current_year_2025': '3.26', 'metric': '90 days ago', 'next_qtr_jun_2025': '0.81', 'next_year_2026': '4.0'}]}"
+    },
+    "{'ticker': 'AMZN'}": {
+        "error": "",
+        "response": "{'eps_trend': [{'current_qtr_mar_2025': '1.36', 'current_year_2025': '6.26', 'metric': 'Current estimate', 'next_qtr_jun_2025': '1.41', 'next_year_2026': '7.52'}, {'current_qtr_mar_2025': '1.36', 'current_year_2025': '6.32', 'metric': '7 days ago', 'next_qtr_jun_2025': '1.42', 'next_year_2026': '7.59'}, {'current_qtr_mar_2025': '1.36', 'current_year_2025': '6.34', 'metric': '30 days ago', 'next_qtr_jun_2025': '1.42', 'next_year_2026': '7.6'}, {'current_qtr_mar_2025': '1.36', 'current_year_2025': '6.34', 'metric': '60 days ago', 'next_qtr_jun_2025': '1.42', 'next_year_2026': '7.6'}, {'current_qtr_mar_2025': '1.39', 'current_year_2025': '6.2', 'metric': '90 days ago', 'next_qtr_jun_2025': '1.42', 'next_year_2026': '7.58'}]}"
+    },
+    "{'ticker': 'WMT'}": {
+        "error": "",
+        "response": "{'eps_trend': [{'current_qtr_jul_2025': '0.72', 'current_year_2026': '2.62', 'metric': 'Current estimate', 'next_qtr_oct_2025': '0.58', 'next_year_2027': '2.93'}, {'current_qtr_jul_2025': '0.72', 'current_year_2026': '2.62', 'metric': '7 days ago', 'next_qtr_oct_2025': '0.58', 'next_year_2027': '2.93'}, {'current_qtr_jul_2025': '0.7', 'current_year_2026': '2.62', 'metric': '30 days ago', 'next_qtr_oct_2025': '0.61', 'next_year_2027': '2.94'}, {'current_qtr_jul_2025': '0.71', 'current_year_2026': '2.64', 'metric': '60 days ago', 'next_qtr_oct_2025': '0.61', 'next_year_2027': '2.95'}, {'current_qtr_jul_2025': '0.71', 'current_year_2026': '2.64', 'metric': '90 days ago', 'next_qtr_oct_2025': '0.61', 'next_year_2027': '2.96'}]}"
+    },
+    "{'ticker': 'EBAY'}": {
+        "error": "",
+        "response": "{'eps_trend': [{'current_qtr_jun_2025': '1.29', 'current_year_2025': '5.34', 'metric': 'Current estimate', 'next_qtr_sept_2025': '1.3', 'next_year_2026': '5.78'}, {'current_qtr_jun_2025': '1.29', 'current_year_2025': '5.33', 'metric': '7 days ago', 'next_qtr_sept_2025': '1.3', 'next_year_2026': '5.78'}, {'current_qtr_jun_2025': '1.29', 'current_year_2025': '5.28', 'metric': '30 days ago', 'next_qtr_sept_2025': '1.31', 'next_year_2026': '5.7'}, {'current_qtr_jun_2025': '1.29', 'current_year_2025': '5.3', 'metric': '60 days ago', 'next_qtr_sept_2025': '1.31', 'next_year_2026': '5.72'}, {'current_qtr_jun_2025': '1.28', 'current_year_2025': '5.21', 'metric': '90 days ago', 'next_qtr_sept_2025': '1.31', 'next_year_2026': '5.68'}]}"
+    },
+    "{'ticker': 'NVDA'}": {
+        "error": "",
+        "response": "{'eps_trend': [{'current_qtr_apr_2025': '0.92', 'current_year_2026': '4.44', 'metric': 'Current estimate', 'next_qtr_jul_2025': '1.02', 'next_year_2027': '5.69'}, {'current_qtr_apr_2025': '0.93', 'current_year_2026': '4.53', 'metric': '7 days ago', 'next_qtr_jul_2025': '1.04', 'next_year_2027': '5.72'}, {'current_qtr_apr_2025': '0.93', 'current_year_2026': '4.53', 'metric': '30 days ago', 'next_qtr_jul_2025': '1.04', 'next_year_2027': '5.76'}, {'current_qtr_apr_2025': '0.91', 'current_year_2026': '4.45', 'metric': '60 days ago', 'next_qtr_jul_2025': '1.02', 'next_year_2027': '5.62'}, {'current_qtr_apr_2025': '0.92', 'current_year_2026': '4.46', 'metric': '90 days ago', 'next_qtr_jul_2025': '1.02', 'next_year_2027': '5.64'}]}"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "whois",
+    "description": "This is a sub-function API for tool viewdns.\nTool description: Your one source for DNS related tools! dns, info, reverse ip, pagerank, portscan, port scan, lookup, records, whois, ipwhois, dnstools, web hosting, hosting, traceroute, dns report, dnsreport, ip location, ip location finder, spam, spam database, dnsbl, propagation, dns propagation checker, checker, china, chinese, firewall, great firewall, is my site down, is site down, site down, down, dns propagate\nAPI description: Displays owner/contact information for a domain name. Can also be used to determine if a domain name is registered or not.  This tool is not available to free API key users. Access is restricted to paid API keys only.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain name for which WhoIS information is to be retrieved."
+            },
+            "output": {
+                "type": "string",
+                "description": "the output format required ('xml' or 'json')"
+            }
+        },
+        "required": [
+            "domain",
+            "output"
+        ]
+    }
+}

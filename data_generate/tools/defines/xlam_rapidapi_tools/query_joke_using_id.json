@@ -1,0 +1,17 @@
+{
+    "name": "query_joke_using_id",
+    "description": "This is a sub-function API for tool anime_jokes.\nTool description: The Anime Jokes API provides access to a collection of jokes related to anime. \nAPI description: Fetches an anime joke using the provided joke ID from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the joke to be fetched.",
+                "default": 4.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

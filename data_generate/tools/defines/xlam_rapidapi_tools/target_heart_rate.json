@@ -1,0 +1,23 @@
+{
+    "name": "target_heart_rate",
+    "description": "This is a sub-function API for tool health_calculator_api.\nTool description: Welcome to the Health Calculator API (HCA). This API provides endpoints for calculating A Body Shape Index (ABSI), Adjusted Body Weight (AjBW), Basal Energy Expenditure (BEE) and Total Energy Expenditure (TEE) , Body Adiposity Index (BAI), Body Frame Size Index (BFSI), Body Mass Index (BMI), Body Fat Percentage, Basal Metabolic Rate (BMR), Daily Caloric Needs (DCN), Daily Water Intake (DWI), Estimated Average Glucose(eAG), Estimated Energy Requirement (EER), The FFMI (Fat-Free Mass Index), Ta...\nAPI description: This endpoint calculates the target heart rate range for cardiovascular exercise based on the user's age and fitness level. It uses the Karvonen method to determine the target heart rate zone.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "age": {
+                "type": "number",
+                "description": "The age of the user in years.",
+                "default": 27.0
+            },
+            "fitness_level": {
+                "type": "string",
+                "description": "The fitness level of the user.\n\nThe fitness_level parameter accepts the following values:\n**beginner** - Beginner fitness level.\n**intermediate** - Intermediate fitness level.\n**advanced** - Advanced fitness level.",
+                "default": "beginner"
+            }
+        },
+        "required": [
+            "age",
+            "fitness_level"
+        ]
+    }
+}

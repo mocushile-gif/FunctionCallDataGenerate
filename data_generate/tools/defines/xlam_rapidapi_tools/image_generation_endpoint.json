@@ -1,0 +1,25 @@
+{
+    "name": "image_generation_endpoint",
+    "description": "This is a sub-function API for tool bruzu.\nTool description: Image Generation API\nAPI description: Generates an image using the Bruzu API with the specified width, height, and background image URL. The API key for the Toolbench RapidAPI is also required to authenticate the request.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "width": {
+                "type": "number",
+                "description": "The width of the generated image. Defaults to 500.",
+                "default": 500.0
+            },
+            "backgroundimage": {
+                "type": "string",
+                "description": "The URL of the background image. Defaults to 'https://source.unsplash.com/500x500/'.",
+                "default": "https://source.unsplash.com/500x500/"
+            },
+            "height": {
+                "type": "number",
+                "description": "The height of the generated image. Defaults to 500.",
+                "default": 500.0
+            }
+        },
+        "required": []
+    }
+}

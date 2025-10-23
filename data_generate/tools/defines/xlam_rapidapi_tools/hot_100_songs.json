@@ -1,0 +1,15 @@
+{
+    "name": "hot_100_songs",
+    "description": "This is a sub-function API for tool billboard_api.\nTool description: Providing the Billboard chart rankings and information on titles, artists, lyrics, images, and more. \nAPI description: Provide the YEAR-END Hot 100 Songs chart information\n\nIf `year` is not supplied, will default to last year.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year for which to retrieve the chart, in YYYY format. Defaults to '2022'.",
+                "default": "2022"
+            }
+        },
+        "required": []
+    }
+}

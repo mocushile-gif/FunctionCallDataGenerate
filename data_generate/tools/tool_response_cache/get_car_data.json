@@ -1,0 +1,20 @@
+{
+    "{'model': 'Chiron', 'year': '', 'maker': 'Bugatti'}": {
+        "error": "",
+        "response": {
+            "maker": "bugatti",
+            "model": "chiron",
+            "years": [
+                "2021"
+            ]
+        }
+    },
+    "{'model': 'chiron', 'year': '2021', 'maker': 'bugatti'}": {
+        "error": "",
+        "response": "{'data': {'maker': 'bugatti', 'model': 'chiron', 'year': 2021, 'specifications': [{'name': 'Engine Name', 'value': 'N/A'}, {'name': 'Trim', 'value': 'Base Coupe'}, {'name': 'Horsepower', 'value': 'N/A'}, {'name': 'Body Style', 'value': 'Coupe'}, {'name': 'Fuel', 'value': 'N/A'}, {'name': 'Transmission', 'value': 'N/A'}, {'name': 'Class', 'value': None}, {'name': 'Standard MPG', 'value': 'N/A'}, {'name': 'Drivetrain', 'value': 'N/A'}, {'name': 'Seating', 'value': 'N/A'}, {'name': 'Width', 'value': 'N/A'}, {'name': 'Length', 'value': 'N/A'}, {'name': 'Height', 'value': 'N/A'}, {'name': 'Wheelbase', 'value': 'N/A'}, {'name': 'Front Headroom', 'value': 'N/A'}, {'name': 'Rear Headroom', 'value': 'N/A'}, {'name': 'Front Shoulder Room', 'value': 'N/A'}, {'name': 'Rear Shoulder Room', 'value': 'N/A'}, {'name': 'Front Legroom', 'value': 'N/A'}, {'name': 'Rear Legroom', 'value': 'N/A'}, {'name': 'Ground Clearance', 'value': 'N/A'}, {'name': 'Curb Weight', 'value': 'N/A'}, {'name': 'Cargo Capacity', 'value': 'N/A'}, {'name': 'GVWR', 'value': 'N/A'}, {'name': 'Tonnage', 'value': 'N/A'}, {'name': 'Payload Capacity', 'value': 'N/A'}, {'name': 'Driving Range', 'value': 'N/A'}, {'name': 'Towing Capacity', 'value': 'N/A'}, {'name': 'Fuel Capacity', 'value': None}, {'name': 'Engine Type', 'value': 'N/A'}, {'name': 'Engine Size', 'value': 'N/A'}, {'name': 'Torque', 'value': 'N/A'}, {'name': 'Cylinder Configuration', 'value': None}, {'name': 'Number Of Cylinders', 'value': 'N/A'}, {'name': 'Transmission Type', 'value': 'N/A'}, {'name': 'Transmission Speeds', 'value': None}, {'name': 'Hero Label1', 'value': 'MPG'}, {'name': 'Hero Value1', 'value': 'N/A'}, {'name': 'Std Mpg With Units', 'value': 'N/A'}], 'specs': [{'name': 'Length', 'value': 'N/A'}, {'name': 'Width', 'value': 'N/A'}, {'name': 'Height', 'value': 'N/A'}, {'name': 'Wheelbase', 'value': 'N/A'}, {'name': 'Seating', 'value': 'N/A'}, {'name': 'Cargo Capacity', 'value': 'N/A'}, {'name': 'Front Headroom', 'value': 'N/A'}, {'name': 'Rear Headroom', 'value': 'N/A'}, {'name': 'Fr"
+    },
+    "{'maker': 'bugatti', 'model': 'chiron', 'year': '2021'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    }
+}

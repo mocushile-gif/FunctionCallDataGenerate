@@ -1,0 +1,20 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "success": true,
+            "data": [],
+            "paging": {
+                "records": 0,
+                "total": 0,
+                "page": 1,
+                "limit": 20
+            },
+            "message": "Conversation Turns retrieved successfully"
+        }
+    },
+    "{'input': 'API error', 'order': 'id', 'dir': 'desc'}": {
+        "error": "",
+        "response": "{'success': True, 'data': [], 'paging': {'records': 0, 'total': 0, 'page': 1, 'limit': 20}, 'message': 'Conversation Turns retrieved successfully'}"
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "name": "create_line_chart_from_database",
+    "description": "Generate a line chart from two columns of an SQLite database table or JOIN query.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file."
+        },
+        "from_clause": {
+          "type": "string",
+          "description": "Table name or JOIN clause to query data from."
+        },
+        "x_column": {
+          "type": "string",
+          "description": "Column to use as x-axis values."
+        },
+        "y_column": {
+          "type": "string",
+          "description": "Column to use as y-axis values."
+        },
+        "where_clause": {
+          "type": "string",
+          "description": "Optional WHERE clause (excluding the 'WHERE' keyword)."
+        },
+        "where_params": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Parameters to bind into the WHERE clause."
+        },
+        "line_style": {
+          "type": "string",
+          "default": "-",
+          "description": "Style of the line (e.g., '-', '--', ':')."
+        },
+        "line_color": {
+          "type": "string",
+          "default": "blue",
+          "description": "Color of the line."
+        },
+        "marker": {
+          "type": "string",
+          "default": "o",
+          "description": "Marker style for data points."
+        },
+        "title": {
+          "type": "string",
+          "default": "Line Chart",
+          "description": "Title of the chart."
+        },
+        "xlabel": {
+          "type": "string",
+          "default": "X-axis",
+          "description": "Label for the x-axis."
+        },
+        "ylabel": {
+          "type": "string",
+          "default": "Y-axis",
+          "description": "Label for the y-axis."
+        },
+        "legend_label": {
+          "type": "string",
+          "description": "Optional label for the chart legend."
+        },
+        "save_path": {
+          "type": "string",
+          "default": "./line_chart.png",
+          "description": "Path to save the chart image."
+        }
+      },
+      "required": ["database_path", "from_clause", "x_column", "y_column"]
+    }
+  }
+  

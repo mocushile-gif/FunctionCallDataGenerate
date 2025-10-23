@@ -1,0 +1,15 @@
+{
+    "name": "upc_api",
+    "description": "This is a sub-function API for tool dietagram.\nTool description: Find nutrition facts by food name or by UPC (barcode). API supports English, Russian, Polish, Spanish, Bulgarian, Ukrainian\nAPI description: Fetches food information based on a given UPC (barcode) using the Dietagram API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The UPC (barcode) of the food item to search for. Default is '4019300005154'.",
+                "default": "4019300005154"
+            }
+        },
+        "required": []
+    }
+}

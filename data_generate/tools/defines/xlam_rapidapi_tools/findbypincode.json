@@ -1,0 +1,17 @@
+{
+    "name": "findbypincode",
+    "description": "This is a sub-function API for tool india_pincode_api.\nTool description: # 100% FREE \n\n## Allows developers to get accurate and comprehensive India PinCode & Places data from India Post Office\nAPI description: Fetches information for a given Indian pincode using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pincode": {
+                "type": "number",
+                "description": "The pincode for which information needs to be fetched.",
+                "default": 518345
+            }
+        },
+        "required": [
+            "pincode"
+        ]
+    }
+}

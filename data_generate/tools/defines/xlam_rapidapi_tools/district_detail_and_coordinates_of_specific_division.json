@@ -1,0 +1,16 @@
+{
+    "name": "district_detail_and_coordinates_of_specific_division",
+    "description": "This is a sub-function API for tool bdapi.\nTool description: BD API is a RestAPI service. Divisions, Districts, Upazilla, Coordinates, etc of Bangladesh are available in Bangla and English within endpoints. Main Documentation website: https://bdapis.com/\nAPI description: `/v1.1/division/{division_name}`\nGet all Districts, Coordinates, and Upazila of any Division.\n\n**Response:**\n```\nstatus: object,\ndata: [\n  _id: string:district,\n  district: string,\n  coordinates: string\n  upazilla: array\n]\n```",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "division_name": {
+                "type": "string",
+                "description": "The name of the division for which to fetch details."
+            }
+        },
+        "required": [
+            "division_name"
+        ]
+    }
+}

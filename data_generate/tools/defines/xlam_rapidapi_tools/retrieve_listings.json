@@ -1,0 +1,31 @@
+{
+    "name": "retrieve_listings",
+    "description": "This is a sub-function API for tool openblur.\nTool description: Unofficial Listings API for blur.io\n\n- For Blur V1 endpoints use this API: https://rapidapi.com/openseatools/api/opensea15\n\n- Crypto Payments Available\n\n- Lifetime Unlimited Requests Licenses Available\n\n- Private Plans with 16 / 32 / 64 / 128  requests/second Available\n\n- Ready made bots written in node.js already configured to work with RapidApi Available.\n\nJoin our Discord to inquire & find out the latest information and tools: \n\nhttps://discord.gg/Yezs2VDhBV\nAPI description: Fetches a list of listings from the Blur API based on provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pagesize": {
+                "type": "number",
+                "description": "Number of listings to retrieve per page.",
+                "default": 20.0
+            },
+            "pagenumber": {
+                "type": "number",
+                "description": "Page number to retrieve. Defaults to 1.",
+                "default": 1.0
+            },
+            "orderby": {
+                "type": "string",
+                "description": "Order by which the listings should be sorted, either 'ASC' for ascending or 'DESC' for descending. Defaults to 'ASC'.",
+                "default": "ASC"
+            },
+            "contractaddress": {
+                "type": "string",
+                "description": "Specific contract address to filter listings by. Defaults to None."
+            }
+        },
+        "required": [
+            "pagesize"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_scrabble_score",
+    "description": "This is a sub-function API for tool dicolink.\nTool description: Dicolink API lets you retrieve information about French words, including definitions, synonyms, antonyms, quotes, expressions, lexical field, scrabble score, and much more...\nAPI description: Fetches the Scrabble score for a given word using the Dicolink API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mot": {
+                "type": "string",
+                "description": "The word for which the Scrabble score is to be retrieved.",
+                "default": "cheval"
+            }
+        },
+        "required": [
+            "mot"
+        ]
+    }
+}

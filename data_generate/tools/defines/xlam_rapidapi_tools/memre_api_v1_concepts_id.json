@@ -1,0 +1,16 @@
+{
+    "name": "memre_api_v1_concepts_id",
+    "description": "This is a sub-function API for tool learning_engine.\nTool description: Easily integrate Memre adaptive learning software with your internal systems to optimize memory retention, build lasting knowledge, and create expertise.\nAPI description: Retrieve the details of a specific concept by its ID using the MEMRE API v1.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The unique identifier of the concept to retrieve."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

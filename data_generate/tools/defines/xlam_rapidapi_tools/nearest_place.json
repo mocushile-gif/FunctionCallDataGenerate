@@ -1,0 +1,28 @@
+{
+    "name": "nearest_place",
+    "description": "This is a sub-function API for tool ai_weather_by_meteosource.\nTool description: Accurate hyper-local weather forecasts, powered by our cutting-edge machine learning (ML) models. Historical weather, current weather, weather statistics , and hour-by-hour forecast - all weather data updated in real-time!\nAPI description: Use this endpoint to search for the **nearest named place** (village/town/city) from a given GPS coordinates. You will get **place_id** for the `Weather Forecast Endpoints` and detailed **geographical information**.\n\n*Note: If you specify coordinates of a secluded place (e.g. middle of the ocean), the nearest point can be very far from the coordinates.*",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lon": {
+                "type": "string",
+                "description": "Longitude in formats like \"12E\", \"12.3E\", \"12.3\", \"13W\", \"13.2W\", or \"-13.4\".",
+                "default": "-122.42282"
+            },
+            "lat": {
+                "type": "string",
+                "description": "Latitude in formats like \"12N\", \"12.3N\", \"12.3\", \"13S\", \"13.2S\", or \"-13.4\".",
+                "default": "37.81021"
+            },
+            "language": {
+                "type": "string",
+                "description": "The language the place names. Available languages are:\n\n- `en`: English\n- `es`: Spanish\n- `fr`: French\n- `de`: German\n- `pl`: Polish\n- `cs`: Czech\n\n",
+                "default": "en"
+            }
+        },
+        "required": [
+            "lon",
+            "lat"
+        ]
+    }
+}

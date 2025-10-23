@@ -1,0 +1,17 @@
+{
+    "name": "get_campaign_lead_from_id",
+    "description": "This is a sub-function API for tool fomoapi.\nTool description: The #1 Social Proof API, Boost Your Conversions\nAPI description: Retrieve lead information from a campaign using its ID via the Fomo API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the campaign to retrieve the lead information from.",
+                "default": "Lead"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

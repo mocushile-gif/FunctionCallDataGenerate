@@ -1,0 +1,22 @@
+{
+    "name": "have_a_chat_with_our_bot",
+    "description": "This is a sub-function API for tool islam_ai_api.\nTool description: Islam & AI API for Islamic ChatBot.\n\nThe Best AI for Islam! \nAPI description: Have a conversation with our Islam&AI Bot in which it remembers your previous conversation! (upto 30 texts)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "question": {
+                "type": "string",
+                "description": "The question to pose to the Islam&AI Bot.",
+                "default": "What is Islam?"
+            },
+            "chathistory": {
+                "type": "string",
+                "description": "The chat history to be included in the conversation. Defaults to a predefined string about a dua.",
+                "default": "What is Dua to recite when you see a miraculous thing like Islam & AI? | There is no specific dua (supplication) mentioned in the Quran or Hadith that is to be recited when witnessing a miracle. However, Muslims are encouraged to constantly remember Allah and express their gratitude to Him for the blessings and miracles they witness in their lives. In general, it is recommended to say 'Subhan Allah' (Glory be to Allah) when witnessing something amazing or miraculous"
+            }
+        },
+        "required": [
+            "question"
+        ]
+    }
+}

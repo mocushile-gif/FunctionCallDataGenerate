@@ -1,0 +1,29 @@
+{
+    "name": "top_ranking",
+    "description": "This is a sub-function API for tool top_nft_collections.\nTool description: Provides up-to-date information on the top NFT collections across various networks, including Ethereum, BNB Chain, Polygon, Arbitrum, Optimism, and Solana.\nAPI description: Fetches the top NFT collections from OpenSea based on specified criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sortby": {
+                "type": "string",
+                "description": "Criteria to sort the NFT collections. Default is 'ONE_HOUR_VOLUME'.",
+                "default": "ONE_HOUR_VOLUME"
+            },
+            "time": {
+                "type": "string",
+                "description": "Time period for ranking the collections. Default is 'ONE_HOUR'.",
+                "default": "ONE_HOUR"
+            },
+            "chain": {
+                "type": "string",
+                "description": "Blockchain chain to filter the collections. Default is None."
+            },
+            "count": {
+                "type": "number",
+                "description": "Number of collections to retrieve. Default is 100.",
+                "default": 100.0
+            }
+        },
+        "required": []
+    }
+}

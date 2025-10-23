@@ -1,0 +1,16 @@
+{
+    "name": "get_by_id",
+    "description": "This is a sub-function API for tool manatee_jokes.\nTool description: A CORS-enabled collection of manatee jokes\nAPI description: Fetches information about a flower specified by its ID from the Flower API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the flower to retrieve information about."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

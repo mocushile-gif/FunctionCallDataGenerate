@@ -1,0 +1,24 @@
+{
+    "name": "commonports",
+    "description": "This is a sub-function API for tool commonportnumbers.\nTool description: Get registered service names and transport protocols port numbers.\nAPI description: Fetches registered service names and transport protocol port numbers based on given parameters using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "port": {
+                "type": "string",
+                "description": "The port number to query for (default is '53').",
+                "default": "53"
+            },
+            "protocol": {
+                "type": "string",
+                "description": "The transport protocol to query for (default is 'tcp').",
+                "default": "tcp"
+            },
+            "service": {
+                "type": "string",
+                "description": "The service name to query for (default is None)."
+            }
+        },
+        "required": []
+    }
+}

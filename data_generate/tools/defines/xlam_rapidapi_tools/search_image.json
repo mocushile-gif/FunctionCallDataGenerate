@@ -1,0 +1,37 @@
+{
+    "name": "search_image",
+    "description": "This is a sub-function API for tool google_search_json.\nTool description: Provides Google search results in JSON format. Its features include web search, image search, autocomplete, and trending search.\nAPI description: This endpoint is used to perform image search using the Google Search JSON API. You can send a request with parameters like **q** (search query), **num** (desired number of images), **start** (starting index of results), and others. The request will generate a JSON response containing information about images that match the search query",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search query for finding images.",
+                "default": "Newyork City"
+            },
+            "num": {
+                "type": "number",
+                "description": "Number of search results to return. Valid values are between 1 and 20, inclusive. Default is 10.",
+                "default": 10.0
+            },
+            "lr": {
+                "type": "string",
+                "description": "Restricts the search to documents written in a particular language. Default is 'lang_en'.",
+                "default": "lang_en"
+            },
+            "start": {
+                "type": "number",
+                "description": "The index of the first result to return. Default is 0.",
+                "default": 0.0
+            },
+            "gl": {
+                "type": "string",
+                "description": "The **gl** parameter value is a two-letter country code. The **gl** parameter boosts search results whose country of origin matches the parameter value.\n\n",
+                "default": "US"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

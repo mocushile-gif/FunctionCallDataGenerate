@@ -1,0 +1,27 @@
+{
+    "name": "location_search",
+    "description": "This is a sub-function API for tool foreca_weather.\nTool description: Everything you need to build a weather app\nAPI description: Search for locations by name using the Foreca Weather API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The name of the location to search for.",
+                "default": "mumbai"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language for the results. Defaults to 'en'.",
+                "default": "en"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country code to filter the search results. Defaults to 'in'.",
+                "default": "in"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

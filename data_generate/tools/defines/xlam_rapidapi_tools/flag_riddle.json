@@ -1,0 +1,22 @@
+{
+    "name": "flag_riddle",
+    "description": "This is a sub-function API for tool riddlie.\nTool description: API that provides access to a collection of thousands of riddles (and growing). Fetch a random riddle or a riddle of the day. You can build a perfect app to entertain kids and families for dinner times. You can also pull riddles by their ID, difficulty level and keyword of your interest. API also collects feedback such as upvotes, and flags to fine-tune the library of riddles. I will constantly be adding more riddles to the API as I come across them. \nThe Basic plan is completely FREE with a ...\nAPI description: With this endpoint, you can flag a riddle. This helps the API developer to finetune the API for better service in the future.  You can only use four flags sending the number corresponding to the flag type as below:\n\n0: for flagging the riddle as \"Duplicate\"\n1: for flagging the riddle as \"Inappropriate\"\n2: for flagging the riddle as \"Not a Riddle\"\n3: for flagging the riddle as \"Missing Information\"",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the riddle to be flagged.",
+                "default": "63bdef027183b71946b64ee6"
+            },
+            "flag": {
+                "type": "number",
+                "description": "The type of flag to be applied to the riddle (default is 0).",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

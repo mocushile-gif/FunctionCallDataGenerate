@@ -1,0 +1,48 @@
+{
+    "name": "get_1_3_analyse",
+    "description": "This is a sub-function API for tool working_days.\nTool description: The API returns the number of days,  hours, working days, working hours, wages, weekend days, and the list of public holidays of the requested date period and country. You can also add any number of working days or working hours to a given date. 50 countries and over 230 regional calendars are supported and we work hard to keep our database up to date by following government announcements regarding public holidays changes. All the calendars can be fully customized from our friendly working da...\nAPI description: Analyse a period (you provide a start_date and an end_date over a given calendar, we respond with the period analysis)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start_date": {
+                "type": "string",
+                "description": "The start date in YYYY-MM-DD format.",
+                "default": "2013-01-01"
+            },
+            "end_date": {
+                "type": "string",
+                "description": "The end date in YYYY-MM-DD format.",
+                "default": "2013-12-31"
+            },
+            "country_code": {
+                "type": "string",
+                "description": "The ISO country code (2 letters).  See <a href=https://api.workingdays.org/api-countries >available countries & configurations</a>",
+                "default": "US"
+            },
+            "end_time": {
+                "type": "string",
+                "description": "The end date's time (24 hours format, like 09:00 or 15:00, but not 3pm).If omitted, default value is 23:59.",
+                "default": "18:15"
+            },
+            "start_time": {
+                "type": "string",
+                "description": "The start date's time (24 hours format, like 09:00 or 15:00, but not 3pm).If omitted, default value is 00:00",
+                "default": "09:14"
+            },
+            "profile_id": {
+                "type": "string",
+                "description": "An identifier for a specific profile configuration. Defaults to None."
+            },
+            "configuration": {
+                "type": "string",
+                "description": "The name of the preset configuration to be used. See <a href=https://api.workingdays.org/api-countries >available countries & configurations</a>",
+                "default": "Federal holidays"
+            }
+        },
+        "required": [
+            "start_date",
+            "end_date",
+            "country_code"
+        ]
+    }
+}

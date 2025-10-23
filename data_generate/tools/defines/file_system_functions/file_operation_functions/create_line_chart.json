@@ -1,0 +1,76 @@
+{
+  "name": "create_line_chart",
+  "description": "Generate a customizable line chart from direct data or a file (CSV, Excel, JSON, JSONL). Supports flexible x/y-axis sources, styles, and image export.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "x_data": {
+        "type": "array",
+        "items": { "type": "number" },
+        "description": "List of numeric values for the x-axis (used if file_path is not provided)"
+      },
+      "y_data": {
+        "type": "array",
+        "items": { "type": "number" },
+        "description": "List of numeric values for the y-axis (used if file_path is not provided)"
+      },
+      "file_path": {
+        "type": "string",
+        "description": "Optional path to a .csv, .xlsx, .json, or .jsonl file to load data from"
+      },
+      "sheet_name": {
+        "type": ["string", "integer"],
+        "description": "Sheet name or index (used only for Excel files)",
+        "default": 0
+      },
+      "x_source": {
+        "type": ["string", "integer"],
+        "description": "Column name or row index to be used as x-axis from file"
+      },
+      "y_source": {
+        "type": ["string", "integer"],
+        "description": "Column name or row index to be used as y-axis from file"
+      },
+      "line_style": {
+        "type": "string",
+        "default": "-",
+        "description": "Line style for the plot (e.g. '-', '--', ':')"
+      },
+      "line_color": {
+        "type": "string",
+        "default": "blue",
+        "description": "Color of the line"
+      },
+      "marker": {
+        "type": "string",
+        "default": "o",
+        "description": "Marker style for points on the line"
+      },
+      "title": {
+        "type": "string",
+        "default": "Line Chart",
+        "description": "Title of the chart"
+      },
+      "xlabel": {
+        "type": "string",
+        "default": "X-axis",
+        "description": "Label for the x-axis"
+      },
+      "ylabel": {
+        "type": "string",
+        "default": "Y-axis",
+        "description": "Label for the y-axis"
+      },
+      "legend_label": {
+        "type": "string",
+        "description": "Label for the legend (optional)"
+      },
+      "save_path": {
+        "type": "string",
+        "default": "./line_chart.png",
+        "description": "Where to save the output chart image"
+      }
+    },
+    "required": []
+  }
+}

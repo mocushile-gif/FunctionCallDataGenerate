@@ -1,0 +1,17 @@
+{
+    "name": "parse",
+    "description": "This is a sub-function API for tool gs1parser.\nTool description: Parse and validate GS1 barcode data\nAPI description: Parses a US address string and returns the result in JSON format using the RapidAPI US Address Parser service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The US address string to be parsed. Defaults to '2025 N HOPE ST PHILADELPHIA PA 19122'.",
+                "default": "(01)12345678901231(10)ABCD-123(30)27(11)211015"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

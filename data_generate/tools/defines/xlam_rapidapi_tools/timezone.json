@@ -1,0 +1,16 @@
+{
+    "name": "timezone",
+    "description": "This is a sub-function API for tool services.\nTool description: Timezone by sity\nAPI description: Retrieve the timezone information for a specified city using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "city": {
+                "type": "string",
+                "description": "The name of the city for which to retrieve timezone information."
+            }
+        },
+        "required": [
+            "city"
+        ]
+    }
+}

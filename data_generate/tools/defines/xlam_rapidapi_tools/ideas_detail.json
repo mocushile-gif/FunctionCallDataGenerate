@@ -1,0 +1,22 @@
+{
+    "name": "ideas_detail",
+    "description": "This is a sub-function API for tool trading_view.\nTool description: This API helps you to query for data which is obtained by professional providers who have direct and extensive access to stock quotes, futures, popular indices, Forex, Bitcoin and CFDs to create a financial community site/application, such as : tradingview.com\nAPI description: Fetches detailed information about an ideal post based on the given UUID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "uuid": {
+                "type": "string",
+                "description": "The UUID of the specific post. This value is obtained from the `image_url` field returned in the `/ideas/list` endpoint.",
+                "default": "CRK6Iv51"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the response. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "uuid"
+        ]
+    }
+}

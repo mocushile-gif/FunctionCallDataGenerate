@@ -1,0 +1,34 @@
+{
+    "{'page': '1', 'lang': 'en'}": {
+        "error": "",
+        "response": {
+            "page": "1",
+            "lang": "en",
+            "data": [
+                {
+                    "currency_name": "Bitcoin",
+                    "symbol": "BTC",
+                    "price": "$29,500.45",
+                    "change_24h": "+2.3%",
+                    "volume_24h": "$12.4B"
+                },
+                {
+                    "currency_name": "Ethereum",
+                    "symbol": "ETH",
+                    "price": "$1,850.20",
+                    "change_24h": "-0.8%",
+                    "volume_24h": "$4.2B"
+                },
+                {
+                    "currency_name": "Cardano",
+                    "symbol": "ADA",
+                    "price": "$0.4521",
+                    "change_24h": "+5.1%",
+                    "volume_24h": "$875M"
+                }
+            ],
+            "total_pages": "50",
+            "timestamp": "2023-09-15T14:30:00Z"
+        }
+    }
+}

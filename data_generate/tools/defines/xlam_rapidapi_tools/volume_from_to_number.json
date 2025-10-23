@@ -1,0 +1,29 @@
+{
+    "name": "volume_from_to_number",
+    "description": "This is a sub-function API for tool unitconversion.\nTool description: App to easily convert units\nAPI description: Converts a given volume from one unit to another using the RapidAPI Unit Conversion API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "to": {
+                "type": "string",
+                "description": "The unit to convert the volume to.",
+                "default": "cubic kilometer"
+            },
+            "number": {
+                "type": "number",
+                "description": "The numerical value of the volume to be converted.",
+                "default": 60.0
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The unit of the volume to be converted from.",
+                "default": "cubic meter"
+            }
+        },
+        "required": [
+            "to",
+            "number",
+            "is_from"
+        ]
+    }
+}

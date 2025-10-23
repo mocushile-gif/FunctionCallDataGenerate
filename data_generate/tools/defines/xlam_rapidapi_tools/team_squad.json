@@ -1,0 +1,21 @@
+{
+    "name": "team_squad",
+    "description": "This is a sub-function API for tool soccer_data.\nTool description: Broadage Soccer API brings a wide range of data for Soccer in fixtures, livescores, standings and many more. Team, tournament or match, retrieve real time data for any perspective you need. Our Soccer Coverage includes 350+ tournaments from all around the world with in-depth coverage, giving the chance to present the best sports data from users located anywhere. <br>This is a limited version in RapidApi. <a href=\"https://www.broadage.com/signup/api/free?utm_source=rapidapi&utm_medium=click&utm_campaign=soccer_api\" target=”_blank”>Please, click here to start your Free Trial and try the endpoints with live data now!</a>\nAPI description: Fetch the list of players in a specified basketball team. Optionally, provide a tournament ID for national teams.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "teamid": {
+                "type": "number",
+                "description": "The ID of the basketball team.",
+                "default": 803.0
+            },
+            "tournamentid": {
+                "type": "number",
+                "description": "The id of the tournament. Tournament id is optional for club teams. However, it is required for national teams.\n"
+            }
+        },
+        "required": [
+            "teamid"
+        ]
+    }
+}

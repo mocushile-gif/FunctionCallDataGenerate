@@ -1,0 +1,62 @@
+{
+    "name": "searchentries",
+    "description": "This is a sub-function API for tool lexicala.\nTool description: Lexicala API is a REST interface offering access to dictionary and lexical data from our monolingual, bilingual, multilingual and learner’s dictionaries in JSON format.\nAPI description: Search for entries with various filters in the query.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sample": {
+                "type": "number",
+                "description": "Number of randomly-sampled results to return."
+            },
+            "source": {
+                "type": "string",
+                "description": "The resource to search within. The default value is 'global', i.e. the Global series"
+            },
+            "language": {
+                "type": "string",
+                "description": "The language code of the entry’s language. For an extensive list of language codes, see GET /languages"
+            },
+            "analyzed": {
+                "type": "boolean",
+                "description": "Whether to search using the language analyzer or to get exact matches only. The default value is 'false'"
+            },
+            "subcategorization": {
+                "type": "string",
+                "description": "The subcategorization (e.g. countable, transitive, …) to search for"
+            },
+            "polysemous": {
+                "type": "boolean",
+                "description": "Whether to only return polysemous entries."
+            },
+            "pos": {
+                "type": "string",
+                "description": "The part of speech (POS) to search for."
+            },
+            "gender": {
+                "type": "string",
+                "description": "The grammatical gender to search for."
+            },
+            "monosemous": {
+                "type": "boolean",
+                "description": "Whether to only return monosemous entries."
+            },
+            "morph": {
+                "type": "boolean",
+                "description": "Whether to search in headword inflections if exist. The default value is 'false'"
+            },
+            "text": {
+                "type": "string",
+                "description": "The headword text to search for."
+            },
+            "number": {
+                "type": "string",
+                "description": "The grammatical number to search for."
+            },
+            "page": {
+                "type": "number",
+                "description": "Page number of results to return (1-indexed). The default value is 1"
+            }
+        },
+        "required": []
+    }
+}

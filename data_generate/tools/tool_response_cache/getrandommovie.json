@@ -1,0 +1,50 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "success": true,
+            "data": [
+                {
+                    "id": "8-896",
+                    "name": "The Iron Giant",
+                    "year": "1999",
+                    "cert": "U",
+                    "runtime": "86 min",
+                    "genre": "Animation, Action, Adventure",
+                    "rating": "8.1",
+                    "desc": "A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.",
+                    "director": "Brad Bird",
+                    "stars": "Eli Marienthal, Harry Connick Jr., Jennifer Aniston, Vin Diesel"
+                },
+                {
+                    "id": "0-9",
+                    "name": "Boogie Nights",
+                    "year": "1997",
+                    "cert": "18",
+                    "runtime": "155 min",
+                    "genre": "Drama",
+                    "rating": "7.9",
+                    "desc": "Back when sex was safe, pleasure was a business and business was booming, an idealistic porn producer aspires to elevate his craft to an art when he discovers a hot young talent.",
+                    "director": "Paul Thomas Anderson",
+                    "stars": "Mark Wahlberg, Julianne Moore, Burt Reynolds, Luis Guzm\u00e1n"
+                }
+            ]
+        }
+    },
+    "{'count': 3}": {
+        "error": "",
+        "response": "{'success': True, 'data': [{'id': '7-755', 'name': 'Pacific Rim', 'year': '2013', 'cert': 'UA', 'runtime': '131 min', 'genre': 'Action, Adventure, Sci-Fi', 'rating': '6.9', 'desc': 'As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.', 'director': 'Guillermo del Toro', 'stars': 'Idris Elba, Charlie Hunnam, Rinko Kikuchi, Charlie Day'}, {'id': '9-950', 'name': 'Jungle Fever', 'year': '1991', 'cert': 'R', 'runtime': '132 min', 'genre': 'Drama, Romance', 'rating': '6.6', 'desc': 'Friends and family of a married black architect react in different ways to his affair with an Italian secretary.', 'director': 'Spike Lee', 'stars': 'Wesley Snipes, Annabella Sciorra, Spike Lee, Ossie Davis'}, {'id': '5-554', 'name': 'The Wild Bunch', 'year': '1969', 'cert': 'A', 'runtime': '145 min', 'genre': 'Action, Adventure, Western', 'rating': '7.9', 'desc': 'An aging group of outlaws look for one last big score as the \"traditional\" American West is disappearing around them.', 'director': 'Sam Peckinpah', 'stars': \"William Holden, Ernest Borgnine, Robert Ryan, Edmond O'Brien\"}]}"
+    },
+    "{'count': 5}": {
+        "error": "",
+        "response": "{'success': True, 'data': [{'id': '0-88', 'name': 'Django Unchained', 'year': '2012', 'cert': 'A', 'runtime': '165 min', 'genre': 'Drama, Western', 'rating': '8.4', 'desc': 'With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.', 'director': 'Quentin Tarantino', 'stars': 'Jamie Foxx, Christoph Waltz, Leonardo DiCaprio, Kerry Washington'}, {'id': '4-443', 'name': 'The Searchers', 'year': '1956', 'cert': 'U', 'runtime': '119 min', 'genre': 'Adventure, Drama, Western', 'rating': '7.9', 'desc': \"An American Civil War veteran embarks on a years-long journey to rescue his niece from the Comanches after the rest of his brother's family is massacred in a raid on their Texas farm.\", 'director': 'John Ford', 'stars': 'John Wayne, Jeffrey Hunter, Vera Miles, Ward Bond'}, {'id': '2-254', 'name': 'La piel que habito', 'year': '2011', 'cert': 'R', 'runtime': '120 min', 'genre': 'Drama, Horror, Mystery', 'rating': '7.6', 'desc': 'A brilliant plastic surgeon, haunted by past tragedies, creates a type of synthetic skin that withstands any kind of damage. His guinea pig: a mysterious and volatile woman who holds the key to his obsession.', 'director': 'Pedro Almod\u00f3var', 'stars': 'Antonio Banderas, Elena Anaya, Jan Cornet, Marisa Paredes'}, {'id': '4-494', 'name': 'Lat sau san taam', 'year': '1992', 'cert': 'A', 'runtime': '128 min', 'genre': 'Action, Crime, Thriller', 'rating': '7.7', 'desc': 'A tough-as-nails cop teams up with an undercover agent to shut down a sinister mobster and his crew.', 'director': 'John Woo', 'stars': 'Chow Yun-Fat, Tony Leung Chiu-wai, Teresa Mo, Philip Chan'}, {'id': '3-314', 'name': '2001: A Space Odyssey', 'year': '1968', 'cert': 'U', 'runtime': '149 min', 'genre': 'Adventure, Sci-Fi', 'rating': '8.3', 'desc': 'After uncovering a mysterious artifact buried beneath the Lunar surface, a spacecraft is sent to Jupiter to find its origins - a spacecraft manned by two men and the supercomputer H.A.L. 9000.', 'director': 'Stanley Kub"
+    },
+    "{'count': 1}": {
+        "error": "",
+        "response": "{'success': True, 'data': [{'id': '4-448', 'name': 'Trois couleurs: Bleu', 'year': '1993', 'cert': 'U', 'runtime': '94 min', 'genre': 'Drama, Music, Mystery', 'rating': '7.9', 'desc': 'A woman struggles to find a way to live her life after the death of her husband and child.', 'director': 'Krzysztof Kieslowski', 'stars': 'Juliette Binoche, Zbigniew Zamachowski, Julie Delpy, Beno\u00eet R\u00e9gent'}]}"
+    },
+    "{'count': 2}": {
+        "error": "",
+        "response": "{'success': True, 'data': [{'id': '4-423', 'name': 'Dip huet seung hung', 'year': '1989', 'cert': 'R', 'runtime': '111 min', 'genre': 'Action, Crime, Drama', 'rating': '7.8', 'desc': 'A disillusioned assassin accepts one last hit in hopes of using his earnings to restore vision to a singer he accidentally blinded.', 'director': 'John Woo', 'stars': 'Chow Yun-Fat, Danny Lee, Sally Yeh, Kong Chu'}, {'id': '1-111', 'name': 'In the Name of the Father', 'year': '1993', 'cert': 'UA', 'runtime': '133 min', 'genre': 'Biography, Crime, Drama', 'rating': '8.1', 'desc': \"A man's coerced confession to an I.R.A. bombing he did not commit results in the imprisonment of his father as well. An English lawyer fights to free them.\", 'director': 'Jim Sheridan', 'stars': 'Daniel Day-Lewis, Pete Postlethwaite, Alison Crosbie, Philip King'}]}"
+    }
+}

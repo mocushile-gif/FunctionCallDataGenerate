@@ -1,0 +1,34 @@
+{
+    "{'engine_icontains': 'jet'}": {
+        "error": "",
+        "response": []
+    },
+    "{'engine_icontains': 'turboprop'}": {
+        "error": "",
+        "response": []
+    },
+    "{'engine_icontains': 'taekwondo'}": {
+        "error": "",
+        "response": []
+    },
+    "{'engine_icontains': 'Turboprop'}": {
+        "error": "",
+        "response": []
+    },
+    "{'engine_icontains': 'Boeing 737-800 CFMI'}": {
+        "error": "",
+        "response": []
+    },
+    "{'engine_icontains': 'Airbus'}": {
+        "error": "",
+        "response": []
+    },
+    "{'engine_icontains': 'Rolls-Royce'}": {
+        "error": "",
+        "response": "[{'id': 11, 'plane': 'A330-200F (Freight)', 'brand': 'Airbus', 'passenger_capacity': 4, 'priceUSD': 232200000.0, 'fuel_capacity_litres': 139090.0, 'max_takeoff_weight_kg': 227000.0, 'max_landing_weight_kg': 180000.0, 'empty_weight_kg': 109000.0, 'range_km': 7400.0, 'length_ft': 192.98, 'wingspan_ft': 197.83, 'height_ft': 55.44, 'engine': 'Pratt & Whitney\\xa0PW4000, Rolls-Royce Trent 700', 'cruise_speed_kmph': 1061.0, 'ceiling_ft': 42651.0, 'imgThumb': 'https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A330-200F.jpg', 'img_attribution': 'https://commons.wikimedia.org/wiki/File:South_African_Airways_Ai', 'img_creative_commons': True}, {'id': 22, 'plane': 'A380-800', 'brand': 'Airbus', 'passenger_capacity': 555, 'priceUSD': 374300000.0, 'fuel_capacity_litres': 320000.0, 'max_takeoff_weight_kg': 560000.0, 'max_landing_weight_kg': 386000.0, 'empty_weight_kg': 361000.0, 'range_km': 15000.0, 'length_ft': 239.6, 'wingspan_ft': 261.1, 'height_ft': 79.0, 'engine': 'Rolls-Royce Trent 900', 'cruise_speed_kmph': 1099.0, 'ceiling_ft': 43000.0, 'imgThumb': 'https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/A380-800.jpg', 'img_attribution': 'https://commons.wikimedia.org/wiki/File:Singapore_Airlines_A380-', 'img_creative_commons': True}, {'id': 58, 'plane': '747 100', 'brand': 'Boeing', 'passenger_capacity': 452, 'priceUSD': 146700000.0, 'fuel_capacity_litres': 183380.0, 'max_takeoff_weight_kg': 333400.0, 'max_landing_weight_kg': 265350.0, 'empty_weight_kg': 238816.0, 'range_km': 9800.0, 'length_ft': 231.1, 'wingspan_ft': 195.8, 'height_ft': 63.5, 'engine': '4x Pratt & Whitney JT9D-7 or Rolls-Royce RB211-5', 'cruise_speed_kmph': 895.0, 'ceiling_ft': 45100.0, 'imgThumb': 'https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/747_100.jpg', 'img_attribution': 'https://commons.wikimedia.org/wiki/File:Boeing_747_-_100_Cargo_I', 'img_creative_commons': True}, {'id': 61, 'plane': '747 300', 'brand': 'Boeing', 'passenger_capacity': 496, 'priceUSD': 83000000.0, 'fuel_capacity_litres': 199158.0, 'm"
+    },
+    "{'engine_icontains': 'turbofan'}": {
+        "error": "",
+        "response": "[{'id': 88, 'plane': 'CRJ 700', 'brand': 'Bombardier', 'passenger_capacity': 78, 'priceUSD': 24390000.0, 'fuel_capacity_litres': 11728.0, 'max_takeoff_weight_kg': 34019.0, 'max_landing_weight_kg': 0.0, 'empty_weight_kg': 20069.0, 'range_km': 2553.0, 'length_ft': 106.1, 'wingspan_ft': 76.3, 'height_ft': 24.1, 'engine': '2 X General Electric CF34-8C5 turbofans', 'cruise_speed_kmph': 829.0, 'ceiling_ft': 41000.0, 'imgThumb': 'https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/CRJ_700.jpg', 'img_attribution': 'https://commons.wikimedia.org/wiki/File:Bombardier_CRJ-700_%E2%8', 'img_creative_commons': True}, {'id': 89, 'plane': 'CRJ 900', 'brand': 'Bombardier', 'passenger_capacity': 90, 'priceUSD': 46500000.0, 'fuel_capacity_litres': 11728.0, 'max_takeoff_weight_kg': 38330.0, 'max_landing_weight_kg': 0.0, 'empty_weight_kg': 21845.0, 'range_km': 2876.0, 'length_ft': 118.11, 'wingspan_ft': 81.7, 'height_ft': 24.7, 'engine': '2 X General Electric CF34-8C5 turbofans', 'cruise_speed_kmph': 829.0, 'ceiling_ft': 41000.0, 'imgThumb': 'https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/CRJ_900.jpg', 'img_attribution': 'https://commons.wikimedia.org/wiki/File:Bombardier_CRJ-900_%E2%8', 'img_creative_commons': True}, {'id': 104, 'plane': 'DC 8-10', 'brand': 'Douglas', 'passenger_capacity': 177, 'priceUSD': 150000000.0, 'fuel_capacity_litres': 66245.0, 'max_takeoff_weight_kg': 123800.0, 'max_landing_weight_kg': 0.0, 'empty_weight_kg': 54300.0, 'range_km': 6960.0, 'length_ft': 150.8, 'wingspan_ft': 142.5, 'height_ft': None, 'engine': '4 X Pratt & Whitney JT3D-7 turbofans', 'cruise_speed_kmph': 895.0, 'ceiling_ft': 35000.0, 'imgThumb': 'https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_8-10.jpg', 'img_attribution': 'https://en.wikipedia.org/wiki/Douglas_DC-8#/media/File:Douglas_D', 'img_creative_commons': True}, {'id': 119, 'plane': 'Fokker 70', 'brand': 'Fokker', 'passenger_capacity': 85, 'priceUSD': 20000000.0, 'fuel_capacity_litres': 13366.0, 'max_takeoff_weight_kg': 41730.0, 'max_lan"
+    }
+}

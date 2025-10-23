@@ -1,0 +1,48 @@
+{
+    "{'countrycode': 'DE', 'languagecode': 'EN'}": {
+        "error": "",
+        "response": {
+            "deals": [
+                {
+                    "title": "Wireless Noise-Canceling Headphones",
+                    "price": "\u20ac129.99",
+                    "discount": "20%",
+                    "link": "https://amazon.de/headphones",
+                    "category": "Electronics"
+                },
+                {
+                    "title": "Smart Wi-Fi Enabled Thermostat",
+                    "price": "\u20ac89.95",
+                    "discount": "15%",
+                    "link": "https://amazon.de/thermostat",
+                    "category": "Home & Kitchen"
+                },
+                {
+                    "title": "Bestselling Mystery Novel",
+                    "price": "\u20ac7.49",
+                    "discount": "30%",
+                    "link": "https://amazon.de/novel",
+                    "category": "Books"
+                }
+            ],
+            "categories": [
+                {
+                    "id": "ELECTRONICS",
+                    "name": "Electronics"
+                },
+                {
+                    "id": "HOME",
+                    "name": "Home & Kitchen"
+                },
+                {
+                    "id": "BOOKS",
+                    "name": "Books"
+                }
+            ],
+            "filters": {
+                "country": "Germany (DE)",
+                "language": "English (EN)"
+            }
+        }
+    }
+}

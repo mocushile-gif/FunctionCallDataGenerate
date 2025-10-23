@@ -1,0 +1,21 @@
+{
+    "name": "distance_between_airports",
+    "description": "This is a sub-function API for tool carbonsutra.\nTool description: Carbon Emission Estimations for Organizations.\nAPI description: Calculates the distance between two airports given their IATA codes using the Toolbench API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "iata_airport_to": {
+                "type": "string",
+                "description": "The IATA code of the destination airport."
+            },
+            "iata_airport_from": {
+                "type": "string",
+                "description": "The IATA code of the departure airport."
+            }
+        },
+        "required": [
+            "iata_airport_to",
+            "iata_airport_from"
+        ]
+    }
+}

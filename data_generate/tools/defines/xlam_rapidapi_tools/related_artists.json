@@ -1,0 +1,17 @@
+{
+    "name": "related_artists",
+    "description": "This is a sub-function API for tool spotify_v2.\nTool description: Get Spotify Tracks & Playlist Details\nAPI description: Fetches related artists for a given artist ID using the Spotify RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "artist_id": {
+                "type": "string",
+                "description": "The Spotify ID of the artist to find related artists for.",
+                "default": "0EmeFodog0BfCgMzAIvKQp"
+            }
+        },
+        "required": [
+            "artist_id"
+        ]
+    }
+}

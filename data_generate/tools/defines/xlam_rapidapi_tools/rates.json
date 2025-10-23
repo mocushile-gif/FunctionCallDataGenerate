@@ -1,0 +1,20 @@
+{
+    "name": "rates",
+    "description": "This is a sub-function API for tool currencyapi_net.\nTool description: Real-time currency conversion on 152 currencies and cryptos\nAPI description: Fetches live currency conversion rates based on the specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "output": {
+                "type": "string",
+                "description": "The output format of the response. Can be either 'JSON' or 'XML'. Default is 'JSON'.",
+                "default": "JSON"
+            },
+            "base": {
+                "type": "string",
+                "description": "The base currency for conversion rates. Examples include 'USD', 'GBP', or 'BTC'. Default is 'USD'.",
+                "default": "USD"
+            }
+        },
+        "required": []
+    }
+}

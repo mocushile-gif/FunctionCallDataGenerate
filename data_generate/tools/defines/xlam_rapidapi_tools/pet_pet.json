@@ -1,0 +1,17 @@
+{
+    "name": "pet_pet",
+    "description": "This is a sub-function API for tool memeados.\nTool description: Generate custom image, gif and video memes.\nAPI description: Generates a 'Pet Pet' meme GIF from a given image URL using the Memeados API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "image": {
+                "type": "string",
+                "description": "The URL of the image to be used for generating the meme.",
+                "default": "https://i.pravatar.cc/300"
+            }
+        },
+        "required": [
+            "image"
+        ]
+    }
+}

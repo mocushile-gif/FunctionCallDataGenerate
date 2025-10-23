@@ -1,0 +1,17 @@
+{
+    "name": "title_get_sound_tracks",
+    "description": "This is a sub-function API for tool online_movie_database.\nTool description: This API helps to query for all information about films, actors, characters,etc... to create a movie/series/streaming content site/application\nAPI description: Fetches the sound tracks for a specific title from the online movie database.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tconst": {
+                "type": "string",
+                "description": "The title identifier, which should start with 'tt' (e.g., 'tt0944947'), typically obtained from the /title/auto-complete or /title/find endpoints.",
+                "default": "tt0944947"
+            }
+        },
+        "required": [
+            "tconst"
+        ]
+    }
+}

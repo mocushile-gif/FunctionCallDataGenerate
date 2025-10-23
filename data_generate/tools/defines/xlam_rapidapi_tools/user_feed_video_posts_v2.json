@@ -1,0 +1,27 @@
+{
+    "name": "user_feed_video_posts_v2",
+    "description": "This is a sub-function API for tool social_media_data_tt.\nTool description: Social Media Data API in Real-Time.  -Get very useful and unique information.  -I'm on Telegram https://t.me/logicBuilder News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Get user feed V2\n\nV2 - returns more data then older version of the endpoint",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "Limit the number of records returned. Defaults to 30, with a maximum of 30."
+            },
+            "max_cursor": {
+                "type": "number",
+                "description": "Pagination cursor for getting additional videos. Use the value of `max_cursor` from the previous request response to fetch more videos."
+            },
+            "username": {
+                "type": "string",
+                "description": "The username of the TikTok influencer. For example, `'charlidamelio'`. Defaults to `'tiktok'`.",
+                "default": "tiktok"
+            },
+            "sec_uid": {
+                "type": "string",
+                "description": "**NOTE:** By using **sec_uid**, request will be executed faster then if you will use username\n\n**NOTE:** **sec_uid** can be obtained from the **User Information** endpoint\n\n**NOTE:** **sec_uid** example: MS4wLjABAAAAv7iSuuXDJGDvJkmH_vz1qkDZYo1apxgzaxdBSeIuPiM"
+            }
+        },
+        "required": []
+    }
+}

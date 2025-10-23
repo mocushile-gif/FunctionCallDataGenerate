@@ -1,0 +1,48 @@
+{
+    "name": "search_by_coordinates_point",
+    "description": "This is a sub-function API for tool ev_charge_finder.\nTool description: Extremely Fast and Simple real-time searches for EV charging stations, anywhere in the world.\nAPI description: Search for EV charging stations near specific geographic coordinates point.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lng": {
+                "type": "string",
+                "description": "Longitude of the geographic coordinates point to search near by.",
+                "default": "-121.925337"
+            },
+            "lat": {
+                "type": "string",
+                "description": "Latitude of the geographic coordinates point to search near by.",
+                "default": "37.359428"
+            },
+            "query": {
+                "type": "string",
+                "description": "Return EV charging stations matching a specific query or keyword.\n\n**e.g.** *`evgo`*\n**e.g.** *`tesla`*\n**e.g.** *`chargepoint`*"
+            },
+            "min_kw": {
+                "type": "string",
+                "description": "Restrict the result to the availability for connectors with a specific minimal value of power in kilowatts (closed interval - with that value)."
+            },
+            "max_kw": {
+                "type": "string",
+                "description": "Restrict the result to the availability for connectors with a specific maximal value of power in kilowatts (closed interval - with that value)."
+            },
+            "limit": {
+                "type": "string",
+                "description": "Maximum number of results to return.\n\n**Allowed values:** *1-500*.\n**Default:** *20*.",
+                "default": "20"
+            },
+            "available": {
+                "type": "string",
+                "description": "Filter to find EV charging stations with an available connector."
+            },
+            "type": {
+                "type": "string",
+                "description": "Return EV charging stations with connectors of one or more types, specified as a comma (,) delimited list of connector types to match.\n\n**e.g.** *`CHAdeMO`*\n**e.g.** *`J1772,CCS`*"
+            }
+        },
+        "required": [
+            "lng",
+            "lat"
+        ]
+    }
+}

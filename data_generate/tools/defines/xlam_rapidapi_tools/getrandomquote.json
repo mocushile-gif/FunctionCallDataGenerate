@@ -1,0 +1,20 @@
+{
+    "name": "getrandomquote",
+    "description": "This is a sub-function API for tool random_chunk_api.\nTool description: A simple random picker for names, movies, TV shows, quotes, and numbers. A simple JSON object, user object, and array generator.\nAPI description: Fetches a random quote from the specified category using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "The category of the quote to fetch. Defaults to 'life'.",
+                "default": "life"
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of quotes to fetch. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

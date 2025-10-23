@@ -1,0 +1,18 @@
+{
+  "name": "convert_json_to_csv",
+  "description": "Convert between JSON, JSONL, and CSV file formats.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "input_path": {
+        "type": "string",
+        "description": "The path to the input file. Supported formats: .json, .jsonl, .csv"
+      },
+      "output_path": {
+        "type": "string",
+        "description": "The path to the output file. Supported formats: .csv, .json, .jsonl"
+      }
+    },
+    "required": ["input_path", "output_path"]
+  }
+}

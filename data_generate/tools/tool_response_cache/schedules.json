@@ -1,0 +1,334 @@
+{
+    "{'orgid': '2', 'year': '2022'}": {
+        "error": "",
+        "response": {
+            "_id": {
+                "$oid": "62e09c902e98b24dfe4f0c3d"
+            },
+            "orgId": "2",
+            "year": "2022",
+            "schedule": [
+                {
+                    "name": "London",
+                    "tournId": "1",
+                    "timeZone": "Europe/London",
+                    "date": {
+                        "weekNum": {
+                            "$numberInt": "23"
+                        },
+                        "start": {
+                            "$date": {
+                                "$numberLong": "1654732800000"
+                            }
+                        },
+                        "end": {
+                            "$date": {
+                                "$numberLong": "1654905600000"
+                            }
+                        }
+                    },
+                    "courses": [
+                        {
+                            "courseId": "1",
+                            "courseName": "Centurion Club",
+                            "location": {
+                                "country": "England",
+                                "state": "",
+                                "city": "London"
+                            },
+                            "host": "Yes"
+                        }
+                    ],
+                    "winnersShare": {
+                        "$numberInt": "0"
+                    },
+                    "purse": {
+                        "$numberInt": "20000000"
+                    }
+                },
+                {
+                    "name": "Portland",
+                    "tournId": "2",
+                    "timeZone": "America/Los_Angeles",
+                    "date": {
+                        "weekNum": {
+                            "$numberInt": "26"
+                        },
+                        "start": {
+                            "$date": {
+                                "$numberLong": "1656547200000"
+                            }
+                        },
+                        "end": {
+                            "$date": {
+                                "$numberLong": "1656720000000"
+                            }
+                        }
+                    },
+                    "courses": [
+                        {
+                            "courseId": "1",
+                            "courseName": "Pumpkin Ridge Golf Club",
+                            "location": {
+                                "country": "USA",
+                                "state": "OR",
+                                "city": "Portland"
+                            },
+                            "host": "Yes"
+                        }
+                    ],
+                    "winnersShare": {
+                        "$numberInt": "0"
+                    },
+                    "purse": {
+                        "$numberInt": "20000000"
+                    }
+                },
+                {
+                    "name": "Bedminster",
+                    "tournId": "3",
+                    "timeZone": "America/New_York",
+                    "date": {
+                        "weekNum": {
+                            "$numberInt": "30"
+                        },
+                        "start": {
+                            "$date": {
+                                "$numberLong": "1659052800000"
+                            }
+                        },
+                        "end": {
+                            "$date": {
+                                "$numberLong": "1659225600000"
+                            }
+                        }
+                    },
+                    "courses": [
+                        {
+                            "courseId": "1",
+                            "courseName": "Trump National Golf Club Bedminster",
+                            "location": {
+                                "country": "USA",
+                                "state": "NJ",
+                                "city": "Bedminster"
+                            },
+                            "host": "Yes"
+                        }
+                    ],
+                    "winnersShare": {
+                        "$numberInt": "0"
+                    },
+                    "purse": {
+                        "$numberInt": "20000000"
+                    }
+                },
+                {
+                    "name": "Boston",
+                    "tournId": "4",
+                    "timeZone": "America/New_York",
+                    "date": {
+                        "weekNum": {
+                            "$numberInt": "35"
+                        },
+                        "start": {
+                            "$date": {
+                                "$numberLong": "1662076800000"
+                            }
+                        },
+                        "end": {
+                            "$date": {
+                                "$numberLong": "1662249600000"
+                            }
+                        }
+                    },
+                    "courses": [
+                        {
+                            "courseId": "1",
+                            "courseName": "The International",
+                            "location": {
+                                "country": "USA",
+                                "state": "MA",
+                                "city": "Boston"
+                            },
+                            "host": "Yes"
+                        }
+                    ],
+                    "winnersShare": {
+                        "$numberInt": "0"
+                    },
+                    "purse": {
+                        "$numberInt": "25000000"
+                    }
+                },
+                {
+                    "name": "Chicago",
+                    "tournId": "5",
+                    "timeZone": "America/Chicago",
+                    "date": {
+                        "weekNum": {
+                            "$numberInt": "37"
+                        },
+                        "start": {
+                            "$date": {
+                                "$numberLong": "1663286400000"
+                            }
+                        },
+                        "end": {
+                            "$date": {
+                                "$numberLong": "1663459200000"
+                            }
+                        }
+                    },
+                    "courses": [
+                        {
+                            "courseId": "1",
+                            "courseName": "Rich Harvest Farms",
+                            "location": {
+                                "country": "USA",
+                                "state": "IL",
+                                "city": "Chicago"
+                            },
+                            "host": "Yes"
+                        }
+                    ],
+                    "winnersShare": {
+                        "$numberInt": "0"
+                    },
+                    "purse": {
+                        "$numberInt": "25000000"
+                    }
+                },
+                {
+                    "name": "Bangkok",
+                    "tournId": "6",
+                    "timeZone": "Asia/Bangkok",
+                    "date": {
+                        "weekNum": {
+                            "$numberInt": "40"
+                        },
+                        "start": {
+                            "$date": {
+                                "$numberLong": "1665100800000"
+                            }
+                        },
+                        "end": {
+                            "$date": {
+                                "$numberLong": "1665273600000"
+                            }
+                        }
+                    },
+                    "courses": [
+                        {
+                            "courseId": "1",
+                            "courseName": "Stonehill",
+                            "location": {
+                                "country": "Thailand",
+                                "state": "",
+                                "city": "Bangkok"
+                            },
+                            "host": "Yes"
+                        }
+                    ],
+                    "winnersShare": {
+                        "$numberInt": "0"
+                    },
+                    "purse": {
+                        "$numberInt": "25000000"
+                    }
+                },
+                {
+                    "name": "Jeddah",
+                    "tournId": "7",
+                    "timeZone": "Asia/Riyadh",
+                    "date": {
+                        "weekNum": {
+                            "$numberInt": "41"
+                        },
+                        "start": {
+                            "$date": {
+                                "$numberLong": "1665705600000"
+                            }
+                        },
+                        "end": {
+                            "$date": {
+                                "$numberLong": "1665878400000"
+                            }
+                        }
+                    },
+                    "courses": [
+                        {
+                            "courseId": "1",
+                            "courseName": "Royal Greens Golf Club",
+                            "location": {
+                                "country": "Saudi Arabia",
+                                "state": "",
+                                "city": "Jeddah"
+                            },
+                            "host": "Yes"
+                        }
+                    ],
+                    "winnersShare": {
+                        "$numberInt": "0"
+                    },
+                    "purse": {
+                        "$numberInt": "25000000"
+                    }
+                },
+                {
+                    "name": "Miami",
+                    "tournId": "8",
+                    "timeZone": null,
+                    "date": {
+                        "weekNum": {
+                            "$numberInt": "43"
+                        },
+                        "start": {
+                            "$date": {
+                                "$numberLong": "1666915200000"
+                            }
+                        },
+                        "end": {
+                            "$date": {
+                                "$numberLong": "1667088000000"
+                            }
+                        }
+                    },
+                    "courses": [
+                        {
+                            "courseId": "",
+                            "courseName": "",
+                            "location": {
+                                "country": "",
+                                "state": "",
+                                "city": ""
+                            }
+                        }
+                    ],
+                    "winnersShare": {
+                        "$numberInt": "0"
+                    },
+                    "purse": {
+                        "$numberInt": "0"
+                    }
+                }
+            ],
+            "timestamp": {
+                "$date": {
+                    "$numberLong": "1665825152855"
+                }
+            }
+        }
+    },
+    "{'orgid': '1', 'year': '2023'}": {
+        "error": "",
+        "response": "{'_id': {'$oid': '6346b02601a3c2111621c8e4'}, 'orgId': '1', 'year': '2023', 'schedule': [{'tournId': '464', 'name': 'Fortinet Championship', 'date': {'start': {'$date': {'$numberLong': '1663200000000'}}, 'end': {'$date': {'$numberLong': '1663459200000'}}, 'weekNumber': '37'}, 'format': 'stroke', 'purse': {'$numberInt': '8000000'}, 'winnersShare': {'$numberInt': '1440000'}, 'fedexCupPoints': {'$numberInt': '500'}}, {'tournId': '500', 'name': 'Presidents Cup', 'date': {'start': {'$date': {'$numberLong': '1663804800000'}}, 'end': {'$date': {'$numberLong': '1664064000000'}}, 'weekNumber': '38'}, 'format': 'team match', 'purse': {'$numberInt': '0'}}, {'tournId': '054', 'name': 'Sanderson Farms Championship', 'date': {'start': {'$date': {'$numberLong': '1664409600000'}}, 'end': {'$date': {'$numberLong': '1664668800000'}}, 'weekNumber': '39'}, 'format': 'stroke', 'purse': {'$numberInt': '7900000'}, 'winnersShare': {'$numberInt': '1422000'}, 'fedexCupPoints': {'$numberInt': '500'}}, {'tournId': '047', 'name': \"Shriners Children's Open\", 'date': {'start': {'$date': {'$numberLong': '1665014400000'}}, 'end': {'$date': {'$numberLong': '1665273600000'}}, 'weekNumber': '40'}, 'format': 'stroke', 'purse': {'$numberInt': '8000000'}, 'winnersShare': {'$numberInt': '1440000'}, 'fedexCupPoints': {'$numberInt': '500'}}, {'tournId': '527', 'name': 'ZOZO CHAMPIONSHIP', 'date': {'start': {'$date': {'$numberLong': '1665619200000'}}, 'end': {'$date': {'$numberLong': '1665878400000'}}, 'weekNumber': '41'}, 'format': 'stroke', 'purse': {'$numberInt': '11000000'}, 'winnersShare': {'$numberInt': '1980000'}, 'fedexCupPoints': {'$numberInt': '500'}}, {'tournId': '521', 'name': 'THE CJ CUP in South Carolina', 'date': {'start': {'$date': {'$numberLong': '1666224000000'}}, 'end': {'$date': {'$numberLong': '1666483200000'}}, 'weekNumber': '42'}, 'format': 'stroke', 'purse': {'$numberInt': '10500000'}, 'winnersShare': {'$numberInt': '1890000'}, 'fedexCupPoints': {'$numberInt': '500'}}, {'tournId': '528', 'name': 'Butterfield Bermuda Championship', "
+    },
+    "{'orgid': '2', 'year': '2025'}": {
+        "error": "",
+        "response": "{'_id': {'$oid': '67747a1cf135d026a7a026b5'}, 'orgId': '2', 'year': '2025', 'schedule': [{'name': 'Riyadh', 'tournId': '39', 'date': {'weekNum': {'$numberInt': '6'}, 'start': {'$date': {'$numberLong': '1738854900000'}}, 'end': {'$date': {'$numberLong': '1739045700000'}}}}, {'name': 'Adelaide', 'tournId': '40', 'date': {'weekNum': {'$numberInt': '7'}, 'start': {'$date': {'$numberLong': '1739499300000'}}, 'end': {'$date': {'$numberLong': '1739694600000'}}}}, {'name': 'Hong Kong', 'tournId': '41', 'date': {'weekNum': {'$numberInt': '10'}, 'start': {'$date': {'$numberLong': '1741320900000'}}, 'end': {'$date': {'$numberLong': '1741512600000'}}}}, {'name': 'Singapore', 'tournId': '42', 'date': {'weekNum': {'$numberInt': '11'}, 'start': {'$date': {'$numberLong': '1741914900000'}}, 'end': {'$date': {'$numberLong': '1742119200000'}}}}, {'name': 'Miami', 'tournId': '43', 'date': {'weekNum': {'$numberInt': '14'}, 'start': {'$date': {'$numberLong': '1743786900000'}}, 'end': {'$date': {'$numberLong': '1743976800000'}}}}, {'name': 'Mexico City', 'tournId': '44', 'date': {'weekNum': {'$numberInt': '17'}, 'start': {'$date': {'$numberLong': '1745608500000'}}, 'end': {'$date': {'$numberLong': '1745798400000'}}}}, {'name': 'Korea', 'tournId': '45', 'date': {'weekNum': {'$numberInt': '18'}, 'start': {'$date': {'$numberLong': '1746152100000'}}, 'end': {'$date': {'$numberLong': '1746353700000'}}}}, {'name': 'DC', 'tournId': '46', 'date': {'weekNum': {'$numberInt': '23'}, 'start': {'$date': {'$numberLong': '1749230100000'}}, 'end': {'$date': {'$numberLong': '1749420000000'}}}}, {'name': 'Dallas', 'tournId': '47', 'date': {'weekNum': {'$numberInt': '26'}, 'start': {'$date': {'$numberLong': '1751044500000'}}, 'end': {'$date': {'$numberLong': '1751236200000'}}}}, {'name': 'Andaluc\u00eda', 'tournId': '48', 'date': {'weekNum': {'$numberInt': '28'}, 'start': {'$date': {'$numberLong': '1752232500000'}}, 'end': {'$date': {'$numberLong': '1752423300000'}}}}, {'name': 'United Kingdom', 'tournId': '49', 'date': {'weekNum': {'$numberInt': '30'}, 'star"
+    },
+    "{'orgid': '2', 'year': '2024'}": {
+        "error": "",
+        "response": "{'_id': {'$oid': '6573c6bee6290898f6222ea4'}, 'orgId': '2', 'year': '2024', 'schedule': [{'name': 'Mayakoba', 'tournId': '24', 'date': {'weekNum': {'$numberInt': '5'}, 'start': {'$date': {'$numberLong': '1706897700000'}}, 'end': {'$date': {'$numberLong': '1707087600000'}}}}, {'name': 'Las Vegas', 'tournId': '25', 'date': {'weekNum': {'$numberInt': '6'}, 'start': {'$date': {'$numberLong': '1707416100000'}}, 'end': {'$date': {'$numberLong': '1707608400000'}}}}, {'name': 'Jeddah', 'tournId': '26', 'date': {'weekNum': {'$numberInt': '9'}, 'start': {'$date': {'$numberLong': '1709280900000'}}, 'end': {'$date': {'$numberLong': '1709470800000'}}}}, {'name': 'Hong Kong', 'tournId': '27', 'date': {'weekNum': {'$numberInt': '10'}, 'start': {'$date': {'$numberLong': '1709871300000'}}, 'end': {'$date': {'$numberLong': '1710063000000'}}}}, {'name': 'Miami', 'tournId': '28', 'date': {'weekNum': {'$numberInt': '14'}, 'start': {'$date': {'$numberLong': '1712337300000'}}, 'end': {'$date': {'$numberLong': '1712527200000'}}}}, {'name': 'Adelaide', 'tournId': '29', 'date': {'weekNum': {'$numberInt': '17'}, 'start': {'$date': {'$numberLong': '1714095900000'}}, 'end': {'$date': {'$numberLong': '1714287600000'}}}}, {'name': 'Singapore', 'tournId': '30', 'date': {'weekNum': {'$numberInt': '18'}, 'start': {'$date': {'$numberLong': '1714698900000'}}, 'end': {'$date': {'$numberLong': '1714886100000'}}}}, {'name': 'Houston', 'tournId': '31', 'date': {'weekNum': {'$numberInt': '23'}, 'start': {'$date': {'$numberLong': '1717780500000'}}, 'end': {'$date': {'$numberLong': '1717974000000'}}}}, {'name': 'Nashville', 'tournId': '32', 'date': {'weekNum': {'$numberInt': '25'}, 'start': {'$date': {'$numberLong': '1718990100000'}}, 'end': {'$date': {'$numberLong': '1719181800000'}}}}, {'name': 'Andaluc\u00eda', 'tournId': '33', 'date': {'weekNum': {'$numberInt': '28'}, 'start': {'$date': {'$numberLong': '1720782900000'}}, 'end': {'$date': {'$numberLong': '1720973700000'}}}}, {'name': 'United Kingdom', 'tournId': '34', 'date': {'weekNum': {'$numberInt': '30'"
+    }
+}

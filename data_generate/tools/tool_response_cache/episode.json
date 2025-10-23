@@ -1,0 +1,6 @@
+{
+    "{'episodehousenumber': '456789'}": {
+        "error": "",
+        "response": "{'id': '123456784', 'type': 'episode', 'houseNumber': 'VOD123456784', 'title': 'Series 1 Charlie Teo', 'seriesTitle': \"Anh's Brush With Fame\", 'description': \"Anh Do has been delving deep into his subjects' minds to capture their essence on canvas. Now he has a challenge with the much-admired surgeon Dr Charlie Teo, who has literally been inside thousands of brains.\", 'categories': [{'id': '1', 'title': 'Drama', 'href': '/category/drama'}], 'duration': 1687, 'displayDuration': '28m', 'displayDurationAccessible': '28 minutes', 'classification': 'M', 'images': {'thumbnail': 'https://codingsafari.com/cdn/VOD123456784/VOD123456784_thumbnail.jpg', 'portrait': 'https://codingsafari.com/cdn/VOD123456784/VOD123456784_portrait.jpg', 'square': 'https://codingsafari.com/cdn/VOD123456784/VOD123456784_square.jpg'}, 'playlist': [{'type': 'program', 'stream-labels': {'sd': 'SD'}, 'streams': {'mpegdash': {'sd': '/do1/VOD1523H003S0MA1D1/20210303134013/mpegdash/master.mpd', 'protected': True}, 'hls': {'sd': '/do1/VOD1523H003S0MA1D1_20210303134013_,1500000,1000000,650000,500000,220000,.mp4.csmil/master.m3u8?subtitle_file_pattern=identifier_langcode&subtitle_identifier=anhdosbrushwithfame_01_03&subtitle_location=%2Fplayback%2Fcaptions%2Fprod%2Fan', 'protected': False}}}]}"
+    }
+}

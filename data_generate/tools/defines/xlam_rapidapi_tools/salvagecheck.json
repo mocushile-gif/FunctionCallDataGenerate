@@ -1,0 +1,17 @@
+{
+    "name": "salvagecheck",
+    "description": "This is a sub-function API for tool simple_salvage_vin_check.\nTool description: Provided by vinalert.com, this simple api will return true or false for any VIN depending on the salvage records that are found. Database has 19.2 million VINs as of April 2020 and adding more daily.\nAPI description: Returns true if the VIN was in a salvage database in the past. False otherwise. Must be a valid 17 digit vin from North America.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vin": {
+                "type": "string",
+                "description": "A 17-character VIN from North America.",
+                "default": "1G1JC5SHXC4134208"
+            }
+        },
+        "required": [
+            "vin"
+        ]
+    }
+}

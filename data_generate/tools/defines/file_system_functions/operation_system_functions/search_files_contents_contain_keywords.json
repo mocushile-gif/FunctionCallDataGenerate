@@ -1,0 +1,31 @@
+{
+    "name": "search_files_contents_contain_keywords",
+    "description": "Search for files in a directory that contain all specified keywords.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "directory": {
+                "type": "string",
+                "description": "The path to the directory where the search will be performed. Defaults to the current directory if not specified."
+            },
+            "keywords": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                },
+                "description": "A list of keywords to search for. Only files containing all these keywords will be returned."
+            },
+            "file_extension": {
+                "type": "string",
+                "description": "The file extension to filter files by (e.g., '.txt'). If not specified, all file types will be considered.",
+                "default": null
+            },
+            "max_size_mb": {
+                "type": "integer",
+                "description": "The maximum file size in MB to include in the search. Files larger than this size will be skipped. Defaults to 1 MB.",
+                "default": 1
+            }
+        },
+        "required": ["keywords"]
+    }
+}

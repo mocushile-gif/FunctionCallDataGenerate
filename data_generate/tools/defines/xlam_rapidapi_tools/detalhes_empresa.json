@@ -1,0 +1,17 @@
+{
+    "name": "detalhes_empresa",
+    "description": "This is a sub-function API for tool lista_de_empresas_por_segmento.\nTool description: Lista de empresas segmentadas | Leads segmentadas\nAPI description: Detalhes da empresa utilizando o CNPJ. Dados retornados:\nCNPJ\nRazão social\nNome fantasia\nData criação\nStatus empresa\nNatureza jurídica\nCNAE principal\nCNAEs secundários\nPorte empresa\nEndereço\nTelefone\nE-mail\nQuadro de sócios e administradores\nParticipações em outras empresas",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cnpj": {
+                "type": "string",
+                "description": "The CNPJ of the company.",
+                "default": "45973106000100"
+            }
+        },
+        "required": [
+            "cnpj"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "check",
+    "description": "This is a sub-function API for tool bank_card_bin_num_check.\nTool description: A bank card bin number verification service is a system that can help verify the authenticity of a bank card by validating the first six digits, known as the Bank Identification Number (BIN) of the card. The BIN number, also known as the issuer identification number (IIN), is used to identify the institution that issued the card and can provide important information such as the card type, country of issuance, and card network.\nAPI description: Checks the details of a bank card BIN (Bank Identification Number) using the provided BIN number and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "binnum": {
+                "type": "number",
+                "description": "The bank card BIN number to check.",
+                "default": 535177
+            }
+        },
+        "required": [
+            "binnum"
+        ]
+    }
+}

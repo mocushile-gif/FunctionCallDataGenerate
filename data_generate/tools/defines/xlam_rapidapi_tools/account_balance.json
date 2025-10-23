@@ -1,0 +1,21 @@
+{
+    "name": "account_balance",
+    "description": "This is a sub-function API for tool binance_smart_chain.\nTool description: All-In-One access to the BSC blockchain data!\n\nMore features are coming soon!\n\nFeedback and feature requests should be sent to:\nangleitnerchristoph123@gmail.com\nAPI description: Fetch the Binance Coin (BNB) balance for a given address on the Binance Smart Chain.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "type": "string",
+                "description": "The address for which you want to fetch the BNB balance.",
+                "default": "0x0000000000000000000000000000000000000123"
+            },
+            "network": {
+                "type": "string",
+                "description": "The network to use, either 'mainnet' or 'testnet'. Defaults to None."
+            }
+        },
+        "required": [
+            "address"
+        ]
+    }
+}

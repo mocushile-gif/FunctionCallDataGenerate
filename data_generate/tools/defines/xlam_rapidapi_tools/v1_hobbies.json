@@ -1,0 +1,15 @@
+{
+    "name": "v1_hobbies",
+    "description": "This is a sub-function API for tool hobbies_by_api_ninjas.\nTool description: Access thousands of awesome hobby ideas. See more info at https://api-ninjas.com/api/hobbies.\nAPI description: Fetches a random hobby and a Wikipedia link detailing the hobby from the Hobbies by API Ninjas API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "hobby category. Possible values are:\n\ngeneral\nsports_and_outdoors\neducation\ncollection\ncompetition\nobservation",
+                "default": "general"
+            }
+        },
+        "required": []
+    }
+}

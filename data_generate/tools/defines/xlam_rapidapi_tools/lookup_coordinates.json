@@ -1,0 +1,23 @@
+{
+    "name": "lookup_coordinates",
+    "description": "This is a sub-function API for tool reverse_geocode_locator_u_s.\nTool description: Convert latitude and longitude coordinates into meaningful location information within the United States. With this API, you can easily integrate reverse geocoding capabilities into your applications, platforms, or services, enabling you to retrieve accurate address details based on geographic coordinates.\nAPI description: Converts US latitude and longitude coordinates into local city information by querying the Reverse Geocode Locator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "The latitude coordinate.",
+                "default": 40.785091
+            },
+            "long": {
+                "type": "string",
+                "description": "The longitude coordinate.",
+                "default": "-73.968285"
+            }
+        },
+        "required": [
+            "lat",
+            "long"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "music_info",
+    "description": "This is a sub-function API for tool tiktok_v3.\nTool description: TikTok API\nAPI description: Retrieve music information using a given music ID from the TikTok API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "music_id": {
+                "type": "string",
+                "description": "The ID of the music track to retrieve information for.",
+                "default": "6761543137128089601"
+            }
+        },
+        "required": [
+            "music_id"
+        ]
+    }
+}

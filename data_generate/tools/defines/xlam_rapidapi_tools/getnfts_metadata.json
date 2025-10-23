@@ -1,0 +1,23 @@
+{
+    "name": "getnfts_metadata",
+    "description": "This is a sub-function API for tool nfts_by_address.\nTool description: Get all NFTs owned by an address at scale\nAPI description: Fetches the metadata, attributes, and enclosed media of a specific NFT.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "contractaddress": {
+                "type": "string",
+                "description": "Address of the NFT contract (e.g., \"0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb\" for Bored Apes).",
+                "default": "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D"
+            },
+            "tokenid": {
+                "type": "number",
+                "description": "The ID of the NFT token.",
+                "default": 4671.0
+            }
+        },
+        "required": [
+            "contractaddress",
+            "tokenid"
+        ]
+    }
+}

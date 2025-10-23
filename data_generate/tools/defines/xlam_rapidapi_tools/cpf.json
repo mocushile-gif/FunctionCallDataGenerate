@@ -1,0 +1,21 @@
+{
+    "name": "cpf",
+    "description": "This is a sub-function API for tool quadro_de_s_cios_cpf_cnpj.\nTool description: Consultar Quadro de Sócios e Administradores registrados na Receita Federal\nAPI description: Fetches information of a partner or administrator based on their CPF (Cadastro de Pessoas Físicas).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cpf": {
+                "type": "string",
+                "description": "The CPF number of the partner or administrator.",
+                "default": "09336443291"
+            },
+            "nome": {
+                "type": "string",
+                "description": "The name of the partner or administrator. Providing the name can improve the chances of finding the data."
+            }
+        },
+        "required": [
+            "cpf"
+        ]
+    }
+}

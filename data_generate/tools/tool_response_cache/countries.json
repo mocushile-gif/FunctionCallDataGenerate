@@ -1,0 +1,103 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "code": "AF",
+                    "currencyCodes": [
+                        "AFN"
+                    ],
+                    "name": "Afghanistan",
+                    "wikiDataId": "Q889"
+                },
+                {
+                    "code": "AL",
+                    "currencyCodes": [
+                        "ALL"
+                    ],
+                    "name": "Albania",
+                    "wikiDataId": "Q222"
+                },
+                {
+                    "code": "DZ",
+                    "currencyCodes": [
+                        "DZD"
+                    ],
+                    "name": "Algeria",
+                    "wikiDataId": "Q262"
+                },
+                {
+                    "code": "AD",
+                    "currencyCodes": [
+                        "EUR"
+                    ],
+                    "name": "Andorra",
+                    "wikiDataId": "Q228"
+                },
+                {
+                    "code": "AO",
+                    "currencyCodes": [
+                        "AOA"
+                    ],
+                    "name": "Angola",
+                    "wikiDataId": "Q916"
+                }
+            ],
+            "links": [
+                {
+                    "rel": "first",
+                    "href": "/v1/geo/countries?offset=0&limit=5"
+                },
+                {
+                    "rel": "next",
+                    "href": "/v1/geo/countries?offset=5&limit=5"
+                },
+                {
+                    "rel": "last",
+                    "href": "/v1/geo/countries?offset=195&limit=5"
+                }
+            ],
+            "metadata": {
+                "currentOffset": 0,
+                "totalCount": 198
+            }
+        }
+    },
+    "{'currencycode': 'EUR'}": {
+        "error": "",
+        "response": "{'links': [{'rel': 'first', 'href': '/v1/geo/countries?offset=0&limit=5&currencyCode=EUR'}, {'rel': 'next', 'href': '/v1/geo/countries?offset=5&limit=5&currencyCode=EUR'}, {'rel': 'last', 'href': '/v1/geo/countries?offset=20&limit=5&currencyCode=EUR'}], 'data': [{'code': 'AD', 'currencyCodes': ['EUR'], 'name': 'Andorra', 'wikiDataId': 'Q228'}, {'code': 'AT', 'currencyCodes': ['EUR'], 'name': 'Austria', 'wikiDataId': 'Q40'}, {'code': 'BE', 'currencyCodes': ['EUR'], 'name': 'Belgium', 'wikiDataId': 'Q31'}, {'code': 'CY', 'currencyCodes': ['EUR'], 'name': 'Cyprus', 'wikiDataId': 'Q229'}, {'code': 'EE', 'currencyCodes': ['EUR'], 'name': 'Estonia', 'wikiDataId': 'Q191'}], 'metadata': {'currentOffset': 0, 'totalCount': 25}}"
+    },
+    "{'currencycode': 'USD'}": {
+        "error": "",
+        "response": "{'links': [{'rel': 'first', 'href': '/v1/geo/countries?offset=0&limit=5&currencyCode=USD'}, {'rel': 'next', 'href': '/v1/geo/countries?offset=5&limit=5&currencyCode=USD'}, {'rel': 'last', 'href': '/v1/geo/countries?offset=5&limit=5&currencyCode=USD'}], 'data': [{'code': 'EC', 'currencyCodes': ['USD'], 'name': 'Ecuador', 'wikiDataId': 'Q736'}, {'code': 'SV', 'currencyCodes': ['USD', 'XBT'], 'name': 'El Salvador', 'wikiDataId': 'Q792'}, {'code': 'FM', 'currencyCodes': ['USD'], 'name': 'Federated States of Micronesia', 'wikiDataId': 'Q702'}, {'code': 'LR', 'currencyCodes': ['USD', 'LRD'], 'name': 'Liberia', 'wikiDataId': 'Q1014'}, {'code': 'MH', 'currencyCodes': ['USD'], 'name': 'Marshall Islands', 'wikiDataId': 'Q709'}], 'metadata': {'currentOffset': 0, 'totalCount': 10}}"
+    },
+    "{'currencycode': 'USD', 'offset': 5, 'limit': 5}": {
+        "error": "",
+        "response": "{'links': [{'rel': 'first', 'href': '/v1/geo/countries?offset=0&limit=5&currencyCode=USD'}, {'rel': 'prev', 'href': '/v1/geo/countries?offset=0&limit=5&currencyCode=USD'}, {'rel': 'last', 'href': '/v1/geo/countries?offset=5&limit=5&currencyCode=USD'}], 'data': [{'code': 'PW', 'currencyCodes': ['USD'], 'name': 'Palau', 'wikiDataId': 'Q695'}, {'code': 'PA', 'currencyCodes': ['PAB', 'USD'], 'name': 'Panama', 'wikiDataId': 'Q804'}, {'code': 'TL', 'currencyCodes': ['USD', 'TLD'], 'name': 'Timor-Leste', 'wikiDataId': 'Q574'}, {'code': 'US', 'currencyCodes': ['USD'], 'name': 'United States of America', 'wikiDataId': 'Q30'}, {'code': 'ZW', 'currencyCodes': ['USD'], 'name': 'Zimbabwe', 'wikiDataId': 'Q954'}], 'metadata': {'currentOffset': 5, 'totalCount': 10}}"
+    },
+    "{'currencycode': 'EUR', 'offset': 5, 'limit': 5}": {
+        "error": "",
+        "response": "{'links': [{'rel': 'first', 'href': '/v1/geo/countries?offset=0&limit=5&currencyCode=EUR'}, {'rel': 'prev', 'href': '/v1/geo/countries?offset=0&limit=5&currencyCode=EUR'}, {'rel': 'next', 'href': '/v1/geo/countries?offset=10&limit=5&currencyCode=EUR'}, {'rel': 'last', 'href': '/v1/geo/countries?offset=20&limit=5&currencyCode=EUR'}], 'data': [{'code': 'FI', 'currencyCodes': ['EUR'], 'name': 'Finland', 'wikiDataId': 'Q33'}, {'code': 'FR', 'currencyCodes': ['EUR'], 'name': 'France', 'wikiDataId': 'Q142'}, {'code': 'DE', 'currencyCodes': ['EUR'], 'name': 'Germany', 'wikiDataId': 'Q183'}, {'code': 'GR', 'currencyCodes': ['EUR'], 'name': 'Greece', 'wikiDataId': 'Q41'}, {'code': 'IE', 'currencyCodes': ['EUR'], 'name': 'Ireland', 'wikiDataId': 'Q27'}], 'metadata': {'currentOffset': 5, 'totalCount': 25}}"
+    },
+    "{'currencycode': 'EUR', 'offset': 5}": {
+        "error": "",
+        "response": "{'links': [{'rel': 'first', 'href': '/v1/geo/countries?offset=0&limit=5&currencyCode=EUR'}, {'rel': 'prev', 'href': '/v1/geo/countries?offset=0&limit=5&currencyCode=EUR'}, {'rel': 'next', 'href': '/v1/geo/countries?offset=10&limit=5&currencyCode=EUR'}, {'rel': 'last', 'href': '/v1/geo/countries?offset=20&limit=5&currencyCode=EUR'}], 'data': [{'code': 'FI', 'currencyCodes': ['EUR'], 'name': 'Finland', 'wikiDataId': 'Q33'}, {'code': 'FR', 'currencyCodes': ['EUR'], 'name': 'France', 'wikiDataId': 'Q142'}, {'code': 'DE', 'currencyCodes': ['EUR'], 'name': 'Germany', 'wikiDataId': 'Q183'}, {'code': 'GR', 'currencyCodes': ['EUR'], 'name': 'Greece', 'wikiDataId': 'Q41'}, {'code': 'IE', 'currencyCodes': ['EUR'], 'name': 'Ireland', 'wikiDataId': 'Q27'}], 'metadata': {'currentOffset': 5, 'totalCount': 25}}"
+    },
+    "{'currencycode': 'EUR', 'offset': 10}": {
+        "error": "",
+        "response": "{'links': [{'rel': 'first', 'href': '/v1/geo/countries?offset=0&limit=5&currencyCode=EUR'}, {'rel': 'prev', 'href': '/v1/geo/countries?offset=5&limit=5&currencyCode=EUR'}, {'rel': 'next', 'href': '/v1/geo/countries?offset=15&limit=5&currencyCode=EUR'}, {'rel': 'last', 'href': '/v1/geo/countries?offset=20&limit=5&currencyCode=EUR'}], 'data': [{'code': 'IT', 'currencyCodes': ['EUR'], 'name': 'Italy', 'wikiDataId': 'Q38'}, {'code': 'XK', 'currencyCodes': ['EUR'], 'name': 'Kosovo', 'wikiDataId': 'Q1246'}, {'code': 'LV', 'currencyCodes': ['EUR'], 'name': 'Latvia', 'wikiDataId': 'Q211'}, {'code': 'LT', 'currencyCodes': ['EUR'], 'name': 'Lithuania', 'wikiDataId': 'Q37'}, {'code': 'LU', 'currencyCodes': ['EUR'], 'name': 'Luxembourg', 'wikiDataId': 'Q32'}], 'metadata': {'currentOffset': 10, 'totalCount': 25}}"
+    },
+    "{'currencycode': 'EUR', 'offset': 15}": {
+        "error": "",
+        "response": "{'links': [{'rel': 'first', 'href': '/v1/geo/countries?offset=0&limit=5&currencyCode=EUR'}, {'rel': 'prev', 'href': '/v1/geo/countries?offset=10&limit=5&currencyCode=EUR'}, {'rel': 'next', 'href': '/v1/geo/countries?offset=20&limit=5&currencyCode=EUR'}, {'rel': 'last', 'href': '/v1/geo/countries?offset=20&limit=5&currencyCode=EUR'}], 'data': [{'code': 'MT', 'currencyCodes': ['EUR'], 'name': 'Malta', 'wikiDataId': 'Q233'}, {'code': 'MC', 'currencyCodes': ['EUR'], 'name': 'Monaco', 'wikiDataId': 'Q235'}, {'code': 'ME', 'currencyCodes': ['EUR'], 'name': 'Montenegro', 'wikiDataId': 'Q236'}, {'code': 'NL', 'currencyCodes': ['EUR'], 'name': 'Netherlands', 'wikiDataId': 'Q55'}, {'code': 'PT', 'currencyCodes': ['EUR'], 'name': 'Portugal', 'wikiDataId': 'Q45'}], 'metadata': {'currentOffset': 15, 'totalCount': 25}}"
+    },
+    "{'currencycode': 'EUR', 'offset': 20}": {
+        "error": "",
+        "response": "{'links': [{'rel': 'first', 'href': '/v1/geo/countries?offset=0&limit=5&currencyCode=EUR'}, {'rel': 'prev', 'href': '/v1/geo/countries?offset=15&limit=5&currencyCode=EUR'}, {'rel': 'last', 'href': '/v1/geo/countries?offset=20&limit=5&currencyCode=EUR'}], 'data': [{'code': 'SM', 'currencyCodes': ['EUR'], 'name': 'San Marino', 'wikiDataId': 'Q238'}, {'code': 'SK', 'currencyCodes': ['EUR'], 'name': 'Slovakia', 'wikiDataId': 'Q214'}, {'code': 'SI', 'currencyCodes': ['EUR'], 'name': 'Slovenia', 'wikiDataId': 'Q215'}, {'code': 'ES', 'currencyCodes': ['EUR'], 'name': 'Spain', 'wikiDataId': 'Q29'}, {'code': 'VA', 'currencyCodes': ['EUR'], 'name': 'Vatican City', 'wikiDataId': 'Q237'}], 'metadata': {'currentOffset': 20, 'totalCount': 25}}"
+    },
+    "{'currencycode': 'EUR', 'sort': '+name'}": {
+        "error": "",
+        "response": "{'links': [{'rel': 'first', 'href': '/v1/geo/countries?offset=0&limit=5&currencyCode=EUR&sort=+name'}, {'rel': 'next', 'href': '/v1/geo/countries?offset=5&limit=5&currencyCode=EUR&sort=+name'}, {'rel': 'last', 'href': '/v1/geo/countries?offset=20&limit=5&currencyCode=EUR&sort=+name'}], 'data': [{'code': 'AD', 'currencyCodes': ['EUR'], 'name': 'Andorra', 'wikiDataId': 'Q228'}, {'code': 'AT', 'currencyCodes': ['EUR'], 'name': 'Austria', 'wikiDataId': 'Q40'}, {'code': 'BE', 'currencyCodes': ['EUR'], 'name': 'Belgium', 'wikiDataId': 'Q31'}, {'code': 'CY', 'currencyCodes': ['EUR'], 'name': 'Cyprus', 'wikiDataId': 'Q229'}, {'code': 'EE', 'currencyCodes': ['EUR'], 'name': 'Estonia', 'wikiDataId': 'Q191'}], 'metadata': {'currentOffset': 0, 'totalCount': 25}}"
+    }
+}

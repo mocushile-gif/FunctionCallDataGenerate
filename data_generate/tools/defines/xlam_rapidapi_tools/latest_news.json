@@ -1,0 +1,15 @@
+{
+    "name": "latest_news",
+    "description": "This is a sub-function API for tool philippine_news.\nTool description: An unofficial API to find the latest and top Philippine stories and news.\nAPI description: Fetches the latest news and stories from different sources.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of news items to be returned. Default is 5.",
+                "default": 5.0
+            }
+        },
+        "required": []
+    }
+}

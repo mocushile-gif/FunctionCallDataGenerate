@@ -1,0 +1,15 @@
+{
+    "name": "get_countries",
+    "description": "This is a sub-function API for tool get_60k_radio_stations.\nTool description: More than 68,000 radio stations from different countries and various genres\nAPI description: Fetches a list of countries from the 50k Radio Stations API, optionally filtering by a keyword.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "Optional parameter to filter countries by a specific keyword. Default is 'Indonesia'.",
+                "default": "Aus"
+            }
+        },
+        "required": []
+    }
+}

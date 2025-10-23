@@ -1,0 +1,15 @@
+{
+    "name": "love_quote",
+    "description": "This is a sub-function API for tool olato_quotes.\nTool description: Olato Quote APIs gives you random quotes about motivation, sucess and love quotes.\nAPI description: Fetches and returns love quotes from the olato-quotes API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "quotes": {
+                "type": "string",
+                "description": "Specific quotes to search for. Defaults to 'random quotes'.",
+                "default": "random quotes"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "{'domain_name': 'globalhealthalliance.org'}": {
+        "error": "",
+        "response": {
+            "domain_name": "globalhealthalliance.org",
+            "registrar": "PublicDomainRegistry, Inc.",
+            "registration_date": "2015-03-12T00:00:00Z",
+            "expiration_date": "2025-03-12T23:59:59Z",
+            "updated_date": "2023-11-15T14:22:01Z",
+            "registrant": {
+                "organization": "Global Health Alliance",
+                "name": "Admin Contact",
+                "address": "123 Health Lane, Geneva, CH-1211",
+                "country": "Switzerland"
+            },
+            "admin_contact": {
+                "email": "admin@globalhealthalliance.org",
+                "phone": "+41 22 791 3210"
+            },
+            "status": "active",
+            "nameservers": [
+                "ns1.healthdns.org",
+                "ns2.healthdns.org"
+            ]
+        }
+    },
+    "{'domain_name': 'example.com'}": {
+        "error": "",
+        "response": "{'domain': 'example.com', 'text': '   Domain Name: EXAMPLE.COM\\r\\n   Registry Domain ID: 2336799_DOMAIN_COM-VRSN\\r\\n   Registrar WHOIS Server: whois.iana.org\\r\\n   Registrar URL: http://res-dom.iana.org\\r\\n   Updated Date: 2023-05-12T15:13:35Z\\r\\n   Creation Date: 1995-08-14T04:00:00Z\\r\\n   Registry Expiry Date: 2023-08-13T04:00:00Z\\r\\n   Registrar: RESERVED-Internet Assigned Numbers Authority\\r\\n   Registrar IANA ID: 376\\r\\n   Registrar Abuse Contact Email:\\r\\n   Registrar Abuse Contact Phone:\\r\\n   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited\\r\\n   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\\r\\n   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited\\r\\n   Name Server: A.IANA-SERVERS.NET\\r\\n   Name Server: B.IANA-SERVERS.NET\\r\\n   DNSSEC: signedDelegation\\r\\n   DNSSEC DS Data: 370 13 2 BE74359954660069D5C63D200C39F5603827D7DD02B56F120EE9F3A86764247C\\r\\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\\r\\n>>> Last update of whois database: 2023-07-04T14:16:59Z <<<\\r\\n\\r\\nFor more information on Whois status codes, please visit https://icann.org/epp\\r\\n\\r\\nNOTICE: The expiration date displayed in this record is the date the\\r\\nregistrar\\'s sponsorship of the domain name registration in the registry is\\r\\ncurrently set to expire. This date does not necessarily reflect the expiration\\r\\ndate of the domain name registrant\\'s agreement with the sponsoring\\r\\nregistrar.  Users may consult the sponsoring registrar\\'s Whois database to\\r\\nview the registrar\\'s reported date of expiration for this registration.\\r\\n\\r\\nTERMS OF USE: You are not authorized to access or query our Whois\\r\\ndatabase through the use of electronic processes that are high-volume and\\r\\nautomated except as reasonably necessary to register domain names or\\r\\nmodify existing registrations; the Data in VeriSign Global Registry\\r\\nServices\\' (\"VeriSign\") Whois database is provided by VeriSign for\\r\\ninformation "
+    },
+    "{'domain_name': 'google.com'}": {
+        "error": "",
+        "response": "{'domain': 'google.com', 'text': '   Domain Name: GOOGLE.COM\\r\\n   Registry Domain ID: 2138514_DOMAIN_COM-VRSN\\r\\n   Registrar WHOIS Server: whois.markmonitor.com\\r\\n   Registrar URL: http://www.markmonitor.com\\r\\n   Updated Date: 2019-09-09T15:39:04Z\\r\\n   Creation Date: 1997-09-15T04:00:00Z\\r\\n   Registry Expiry Date: 2028-09-14T04:00:00Z\\r\\n   Registrar: MarkMonitor Inc.\\r\\n   Registrar IANA ID: 292\\r\\n   Registrar Abuse Contact Email: abusecomplaints@markmonitor.com\\r\\n   Registrar Abuse Contact Phone: +1.2086851750\\r\\n   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited\\r\\n   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\\r\\n   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited\\r\\n   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited\\r\\n   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited\\r\\n   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited\\r\\n   Name Server: NS1.GOOGLE.COM\\r\\n   Name Server: NS2.GOOGLE.COM\\r\\n   Name Server: NS3.GOOGLE.COM\\r\\n   Name Server: NS4.GOOGLE.COM\\r\\n   DNSSEC: unsigned\\r\\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\\r\\n>>> Last update of whois database: 2023-07-03T13:43:10Z <<<\\r\\n\\r\\nFor more information on Whois status codes, please visit https://icann.org/epp\\r\\n\\r\\nNOTICE: The expiration date displayed in this record is the date the\\r\\nregistrar\\'s sponsorship of the domain name registration in the registry is\\r\\ncurrently set to expire. This date does not necessarily reflect the expiration\\r\\ndate of the domain name registrant\\'s agreement with the sponsoring\\r\\nregistrar.  Users may consult the sponsoring registrar\\'s Whois database to\\r\\nview the registrar\\'s reported date of expiration for this registration.\\r\\n\\r\\nTERMS OF USE: You are not authorized to access or query our Whois\\r\\ndatabase through the use of electronic processes "
+    }
+}

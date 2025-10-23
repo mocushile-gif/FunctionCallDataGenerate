@@ -1,0 +1,32 @@
+{
+    "name": "offers",
+    "description": "This is a sub-function API for tool price_comparison.\nTool description: Amazon, Ebay, Target, Walmart, Google - price & product data from all marketplaces via one API. The Price Comparison API provides price & product data incl. product title, manufacturer, sellers, reviews, prices, size selection etc.\nAPI description: This function retrieves a list of offers for a product identified by the `is_id` parameter from a price comparison API. Latitude, longitude, country, and the API key can be optionally provided to refine the search.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "An identifier for the product, which can be any of the following: UPC, EAN, ISBN, GTIN, or Amazon ASIN.",
+                "default": "611247373064"
+            },
+            "latitude": {
+                "type": "string",
+                "description": "The latitude for the location filter. Defaults to '37.777805'.",
+                "default": "37.777805"
+            },
+            "longitude": {
+                "type": "string",
+                "description": "The longitude for the location filter. Defaults to '-122.49493'.",
+                "default": "-122.49493"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country code for the location filter. Defaults to 'US'.",
+                "default": "US"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

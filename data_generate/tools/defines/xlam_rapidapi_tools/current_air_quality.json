@@ -1,0 +1,23 @@
+{
+    "name": "current_air_quality",
+    "description": "This is a sub-function API for tool air_quality.\nTool description: Retrieve current, forecasted, and historical air quality for any point in the world.\nAPI description: Fetches the current air quality conditions for a given location specified by its longitude and latitude.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lon": {
+                "type": "string",
+                "description": "Longitude of the location for which to retrieve air quality data.",
+                "default": "-73.00597"
+            },
+            "lat": {
+                "type": "string",
+                "description": "Latitude of the location for which to retrieve air quality data.",
+                "default": "40.71427"
+            }
+        },
+        "required": [
+            "lon",
+            "lat"
+        ]
+    }
+}

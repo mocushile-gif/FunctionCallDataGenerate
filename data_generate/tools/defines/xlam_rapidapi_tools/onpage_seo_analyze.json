@@ -1,0 +1,17 @@
+{
+    "name": "onpage_seo_analyze",
+    "description": "This is a sub-function API for tool website_analyze_and_seo_audit_pro.\nTool description: Analyze website and get seo audit report and speed report , onpage and offpage reports, informations about domain , hosting and more\nAPI description: Analyzes on-page SEO for a given website using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "website": {
+                "type": "string",
+                "description": "The URL of the website to be analyzed.",
+                "default": "getecz.com"
+            }
+        },
+        "required": [
+            "website"
+        ]
+    }
+}

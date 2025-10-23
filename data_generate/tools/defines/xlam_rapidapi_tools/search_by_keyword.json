@@ -1,0 +1,23 @@
+{
+    "name": "search_by_keyword",
+    "description": "This is a sub-function API for tool taobao_tmall_product_detail.\nTool description: \nAPI description: Searches for products using a specified keyword on the 1688 platform through the Taobao-Tmall Product Detail API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The search keyword to look for products.",
+                "default": "海久水瓶"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for paginated results.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "keyword",
+            "page"
+        ]
+    }
+}

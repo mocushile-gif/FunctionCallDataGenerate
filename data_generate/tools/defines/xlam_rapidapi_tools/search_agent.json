@@ -1,0 +1,23 @@
+{
+    "name": "search_agent",
+    "description": "This is a sub-function API for tool zillow.\nTool description: Fast and highly available API. For-sale, rental listings and agens real-time data from Zillow.\nAPI description: Search for an agent's information using the Zillow API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number of the search results to retrieve. Defaults to None."
+            },
+            "locationtext": {
+                "type": "string",
+                "description": "The location to search for agents, which can be a city name (e.g., 'Newport Beach') or a zip code (e.g., '90278'). Defaults to 'Newport Beach'.",
+                "default": "Newport Beach"
+            },
+            "name": {
+                "type": "string",
+                "description": "The name of the agent to search for. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "street_level_outcomes",
+    "description": "This is a sub-function API for tool data_police_uk.\nTool description: This is the unofficial documentation for the Data.Police.UK API.\nAPI description: Fetches street-level outcomes such as crime data for a given location, either at a specific point, within a 1-mile radius, or within a custom area for a specified date.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to fetch outcomes, formatted as 'YYYY-MM'.",
+                "default": "2013-01"
+            },
+            "lat": {
+                "type": "string",
+                "description": "The latitude of the specific location.",
+                "default": "52.629729"
+            },
+            "lng": {
+                "type": "string",
+                "description": "The longitude of the specific location.",
+                "default": "-1.131592"
+            }
+        },
+        "required": [
+            "date",
+            "lat",
+            "lng"
+        ]
+    }
+}

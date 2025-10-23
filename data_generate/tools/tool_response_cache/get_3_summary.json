@@ -1,0 +1,30 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{\"lastPrice\":\"123.02\",\"prevClose\":\"123.87\",\"change\":\"-0.85\",\"changePercent\":\"-0.69\",\"currentTimeStamp\":\"2023-06-25 10:04:38\",\"timestamp\":\"2023-06-23 20:00:00\",\"marketStatus\":true,\"highPrice\":\"123.44\",\"lowPrice\":\"121.86\",\"volume\":\"29573123.00\",\"openPrice\":\"122.04\"}"
+    },
+    "{'keyword': 'TSLA'}": {
+        "error": "",
+        "response": "{'lastPrice': '219.43', 'prevClose': '219.16', 'change': '0.27', 'changePercent': '0.12', 'currentTimeStamp': '2024-10-15 15:42:14', 'timestamp': '2024-10-15 15:42:13', 'marketStatus': False, 'highPrice': '224.26', 'lowPrice': '217.15', 'midPrice': '218.82', 'volume': '358844.00', 'bidPrice': '218.28', 'bidSize': '100.00', 'askPrice': '219.37', 'askSize': '100.00', 'openPrice': '219.44'}"
+    },
+    "{'keyword': 'AAPL'}": {
+        "error": "",
+        "response": "{'lastPrice': '219.78', 'prevClose': '220.11', 'change': '-0.33', 'changePercent': '-0.15', 'currentTimeStamp': '2024-09-11 16:00:42', 'timestamp': '2024-09-11 16:00:41', 'marketStatus': False, 'highPrice': '223.07', 'lowPrice': '217.91', 'midPrice': '218.40', 'volume': '334716.00', 'bidPrice': '217.00', 'bidSize': '2602.00', 'askPrice': '219.80', 'askSize': '100.00', 'openPrice': '219.71'}"
+    },
+    "{'keyword': 'MSFT'}": {
+        "error": "",
+        "response": "{'lastPrice': '413.80', 'prevClose': '414.20', 'change': '-0.40', 'changePercent': '-0.10', 'currentTimeStamp': '2024-09-11 16:00:55', 'timestamp': '2024-09-11 16:00:54', 'marketStatus': False, 'highPrice': '417.00', 'lowPrice': '409.66', 'midPrice': '419.39', 'volume': '162303.00', 'bidPrice': '413.79', 'bidSize': '100.00', 'askPrice': '425.00', 'askSize': '105.00', 'openPrice': '415.17'}"
+    },
+    "{'keyword': 'AMZN'}": {
+        "error": "",
+        "response": "{'lastPrice': '205.74', 'prevClose': '207.86', 'change': '-2.12', 'changePercent': '-1.02', 'currentTimeStamp': '2024-11-29 07:27:44', 'timestamp': '2024-11-27 21:00:00', 'marketStatus': True, 'highPrice': '207.64', 'lowPrice': '205.05', 'volume': '28061638.00', 'openPrice': '206.98'}"
+    },
+    "{'keyword': 'GOOG'}": {
+        "error": "",
+        "response": "{'lastPrice': '149.76', 'prevClose': '150.01', 'change': '-0.25', 'changePercent': '-0.17', 'currentTimeStamp': '2024-09-11 16:00:46', 'timestamp': '2024-09-11 16:00:46', 'marketStatus': False, 'highPrice': '151.72', 'lowPrice': '148.72', 'midPrice': '149.81', 'volume': '157516.00', 'bidPrice': '149.76', 'bidSize': '100.00', 'askPrice': '149.87', 'askSize': '101.00', 'openPrice': '151.14'}"
+    },
+    "{'keyword': 'GOOGL'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    }
+}

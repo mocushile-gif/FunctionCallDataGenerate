@@ -1,0 +1,17 @@
+{
+    "name": "get_video_urls",
+    "description": "This is a sub-function API for tool youtube_video_stream_download.\nTool description: Get Download Youtube Audio/Video/Captions/shorts Link & stream\nAPI description: Retrieves video or shorts URLs from YouTube using a provided video ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The YouTube video ID for which the URLs are to be fetched.",
+                "default": "ppCIVJE3my4"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

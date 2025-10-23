@@ -1,0 +1,16 @@
+{
+    "name": "filter_china_news_by_newspaper_company",
+    "description": "This is a sub-function API for tool east_china_news.\nTool description: Api that filters through notable news networks for China, Japan, and Korea news\nAPI description: Fetches news articles from a specified Chinese newspaper company using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "newspaperid": {
+                "type": "string",
+                "description": "The ID of the newspaper company from which to fetch news articles."
+            }
+        },
+        "required": [
+            "newspaperid"
+        ]
+    }
+}

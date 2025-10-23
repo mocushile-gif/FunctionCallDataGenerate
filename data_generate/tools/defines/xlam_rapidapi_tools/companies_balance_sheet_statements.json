@@ -1,0 +1,23 @@
+{
+    "name": "companies_balance_sheet_statements",
+    "description": "This is a sub-function API for tool financial_modeling_prep.\nTool description: Extensive Financial Data API covering more than 70,000 Stocks, ETFs, Mutual Funds and indexes! Real-time & Historical Data\nAPI description: Fetches the balance sheet statements of a company using the given symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The symbol name of the company for which the balance sheet statements are to be fetched.",
+                "default": "AAPL"
+            },
+            "apikey": {
+                "type": "string",
+                "description": "The API key required for accessing the Financial Modeling Prep service.",
+                "default": "rapid_api"
+            }
+        },
+        "required": [
+            "symbol",
+            "apikey"
+        ]
+    }
+}

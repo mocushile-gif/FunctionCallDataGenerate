@@ -1,0 +1,21 @@
+{
+    "name": "get_holidays_by_year_and_country",
+    "description": "Retrieves the list of public holidays for a given year and country using the Nager.Date API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "integer",
+                "description": "The year for which to retrieve the holidays."
+            },
+            "country_code": {
+                "type": "string",
+                "description": "The two-letter ISO 3166-1 alpha-2 country code."
+            }
+        },
+        "required": [
+            "year",
+            "country_code"
+        ]
+    }
+}

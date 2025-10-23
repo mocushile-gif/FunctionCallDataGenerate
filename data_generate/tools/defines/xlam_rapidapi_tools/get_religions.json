@@ -1,0 +1,17 @@
+{
+    "name": "get_religions",
+    "description": "This is a sub-function API for tool matrimony_profiles.\nTool description: Get Matrimony Profiles based on Religion, Caste, Marrital Status, Education, Age, Height, etc filters.\nAPI description: Retrieves a list of religions using the specified method through the Matrimony Profiles API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "method": {
+                "type": "string",
+                "description": "The method parameter to be used in the API request.",
+                "default": "get_all_religions"
+            }
+        },
+        "required": [
+            "method"
+        ]
+    }
+}

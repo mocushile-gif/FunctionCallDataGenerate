@@ -1,0 +1,22 @@
+{
+    "name": "music_videos",
+    "description": "This is a sub-function API for tool tiktok_scraper_v2.\nTool description: Get basic tiktok user info and medias. Cheap and stable. Telegram https://t.me/JoTucker2022\nAPI description: Fetches videos associated with a specific music ID from the TikTok Scraper API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "music_id": {
+                "type": "string",
+                "description": "The unique identifier of the music for which to fetch videos.",
+                "default": "6862966224016377857"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "The pagination cursor for fetching the next set of results. Default is '0'.",
+                "default": "0"
+            }
+        },
+        "required": [
+            "music_id"
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "verse_verse",
+    "description": "This is a sub-function API for tool uncovered_treasure.\nTool description: The Uncovered Treasure API has more than 25,000 revealed truths from every Book and chapter in the Bible as recorded by Phil Largent over the last 25 years.\nAPI description: Fetches a biblical verse from the Uncovered Treasure API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "verse": {
+                "type": "string",
+                "description": "Use common English name with chapter number and optionally verse, such as \"1 Corinthians 1\", \"1 Corinthians 1:5\" or \"James 3\". Does NOT support ranged searches, such as \"James 3:1-4\".",
+                "default": "Acts 21:8"
+            },
+            "callback": {
+                "type": "string",
+                "description": "An optional JSONP callback function name for the API response. Default is None."
+            }
+        },
+        "required": [
+            "verse"
+        ]
+    }
+}

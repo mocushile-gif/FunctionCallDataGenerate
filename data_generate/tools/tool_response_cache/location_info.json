@@ -1,0 +1,53 @@
+{
+    "{'location': '102643743'}": {
+        "error": "",
+        "response": {
+            "id": 102643743,
+            "name": "London",
+            "country": "United Kingdom",
+            "timezone": "Europe/London",
+            "language": "en",
+            "adminArea": "England",
+            "adminArea2": "Greater London",
+            "adminArea3": null,
+            "lon": -0.1257,
+            "lat": 51.5085
+        }
+    },
+    "{'location': '18996'}": {
+        "error": "",
+        "response": "Invalid location"
+    },
+    "{'location': '101275339'}": {
+        "error": "",
+        "response": "{'id': 101275339, 'name': 'Mumbai', 'country': 'India', 'timezone': 'Asia/Kolkata', 'language': 'en', 'adminArea': 'Maharashtra', 'adminArea2': None, 'adminArea3': None, 'lon': 72.8826, 'lat': 19.0728}"
+    },
+    "{'location': '54321'}": {
+        "error": "",
+        "response": "Invalid location"
+    },
+    "{'location': '987654321'}": {
+        "error": "",
+        "response": "Invalid location"
+    },
+    "{'location': 'Tokyo'}": {
+        "error": "",
+        "response": "could not parse location: Tokyo"
+    },
+    "{'location': 'New York City'}": {
+        "error": "",
+        "response": "could not parse location: New York City"
+    },
+    "{'location': 'Tokyo, Japan'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'location': 'New York, USA'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'location': 'New York'}": {
+        "error": "",
+        "response": "could not parse location: New York"
+    }
+}

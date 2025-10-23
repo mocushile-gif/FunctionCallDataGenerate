@@ -1,0 +1,17 @@
+{
+    "name": "get_post_by_id",
+    "description": "This is a sub-function API for tool thefluentme.\nTool description: The AI-powered language pronunciation API with ChatGPT\nAPI description: Returns a post by `post_id`. You can get the `post_id` from the `Get all posts` endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "post_id": {
+                "type": "string",
+                "description": "The unique identifier of the post to retrieve.",
+                "default": "P36288"
+            }
+        },
+        "required": [
+            "post_id"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "pressure_from_to_number",
+    "description": "This is a sub-function API for tool unitconversion.\nTool description: App to easily convert units\nAPI description: This function converts a given pressure value from one unit to another using the RapidAPI Unit Conversion service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_from": {
+                "type": "string",
+                "description": "The unit of the pressure value to be converted from.",
+                "default": "pascal"
+            },
+            "number": {
+                "type": "number",
+                "description": "The pressure value to be converted.",
+                "default": 100.0
+            },
+            "to": {
+                "type": "string",
+                "description": "The unit of the pressure value to be converted to.",
+                "default": "decibar"
+            }
+        },
+        "required": [
+            "is_from",
+            "number",
+            "to"
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "{'performanceid': '0P0000OQN8'}": {
+        "error": "",
+        "response": {
+            "company": {
+                "name": "Microsoft Corporation",
+                "ticker": "MSFT",
+                "industry": "Software\u2014Infrastructure",
+                "sector": "Technology",
+                "market_cap": "$2.8T",
+                "employees": 221000,
+                "description": "Global leader in software, cloud services (Azure), and devices (Surface, Xbox).",
+                "website": "https://www.microsoft.com",
+                "ceo": "Satya Nadella"
+            },
+            "stock": {
+                "price": "$330.45",
+                "currency": "USD",
+                "exchange": "NASDAQ"
+            },
+            "key_metrics": {
+                "pe_ratio": 30.2,
+                "dividend_yield": "0.75%",
+                "beta": 0.85
+            },
+            "note": "Real-time price data requires `/get-quote` API. PerformanceID '0P0000OQN8' links to Microsoft's historical data endpoints."
+        }
+    },
+    "{'performanceid': 'US_AAPL_EQ0'}": {
+        "error": "",
+        "response": "{'performanceId': None, 'dataMap': None, 'title': 'Company Profile', 'sections': {'businessDescription': None, 'contact': None, 'sector': None, 'industry': None, 'mostRecentEarnings': None, 'fiscalYearEnds': None, 'totalEmployees': None, 'stockType': None}}"
+    },
+    "{'performanceid': '0P0000TSLA1'}": {
+        "error": "",
+        "response": "{'performanceId': None, 'dataMap': None, 'title': 'Company Profile', 'sections': {'businessDescription': None, 'contact': None, 'sector': None, 'industry': None, 'mostRecentEarnings': None, 'fiscalYearEnds': None, 'totalEmployees': None, 'stockType': None}}"
+    },
+    "{'performanceid': 'US88160R1011'}": {
+        "error": "",
+        "response": "{'performanceId': None, 'dataMap': None, 'title': 'Company Profile', 'sections': {'businessDescription': None, 'contact': None, 'sector': None, 'industry': None, 'mostRecentEarnings': None, 'fiscalYearEnds': None, 'totalEmployees': None, 'stockType': None}}"
+    },
+    "{'performanceid': '12345XYZ'}": {
+        "error": "",
+        "response": "{'performanceId': None, 'dataMap': None, 'title': 'Company Profile', 'sections': {'businessDescription': None, 'contact': None, 'sector': None, 'industry': None, 'mostRecentEarnings': None, 'fiscalYearEnds': None, 'totalEmployees': None, 'stockType': None}}"
+    }
+}

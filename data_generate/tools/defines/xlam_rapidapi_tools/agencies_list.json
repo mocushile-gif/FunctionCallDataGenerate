@@ -1,0 +1,30 @@
+{
+    "name": "agencies_list",
+    "description": "This is a sub-function API for tool bayut.\nTool description: This API helps to query real estate in UAE to create a real estate site/application\nAPI description: Fetches a list of agencies or searches for agencies by name using the specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number for paging purposes. Defaults to 0.",
+                "default": 0.0
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language for the response, either 'en' for English or 'ar' for Arabic. Defaults to 'en'.",
+                "default": "en"
+            },
+            "hitsperpage": {
+                "type": "number",
+                "description": "Number of hits per page for paging purposes. Defaults to 25.",
+                "default": 25.0
+            },
+            "query": {
+                "type": "string",
+                "description": "Search term or phrase for filtering the agencies by name. Defaults to 'patriot'.",
+                "default": "patriot"
+            }
+        },
+        "required": []
+    }
+}

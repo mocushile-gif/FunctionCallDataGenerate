@@ -1,0 +1,17 @@
+{
+    "name": "categorize_website",
+    "description": "This is a sub-function API for tool website_categorization_api.\nTool description: Identifies the top 3 categories for any website or text\nAPI description: Fetches and returns the top categories for a given website using the Website Categorization API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the website to be categorized.",
+                "default": "vercel.com"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

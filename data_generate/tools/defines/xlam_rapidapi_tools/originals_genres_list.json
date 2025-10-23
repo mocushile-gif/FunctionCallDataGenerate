@@ -1,0 +1,15 @@
+{
+    "name": "originals_genres_list",
+    "description": "This is a sub-function API for tool webtoon.\nTool description: This API provides the largest webcomics data in the world to create a comic site/application such as webtoons.com\nAPI description: Retrieves a list of genres in the originals category from the Webtoon API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "language": {
+                "type": "string",
+                "description": "The language of the genre names to be retrieved. Must be one of the following: 'en', 'zh-hant', 'de', 'fr', 'es', 'th', 'id'. Default is 'en'.",
+                "default": "en"
+            }
+        },
+        "required": []
+    }
+}

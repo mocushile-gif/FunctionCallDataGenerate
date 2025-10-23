@@ -1,0 +1,15 @@
+{
+    "name": "get_all_foreign_keys",
+    "description": "Retrieve all foreign key constraints from all tables in a SQLite database.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file (e.g., 'database/chinook.db')."
+        }
+      },
+      "required": ["database_path"]
+    }
+  }
+  

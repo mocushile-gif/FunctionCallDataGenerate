@@ -1,0 +1,17 @@
+{
+    "name": "swift_code",
+    "description": "This is a sub-function API for tool bank_swift_codes.\nTool description: Lookup country banks and their SWIFT codes\nAPI description: Fetches and returns the details of a specified SWIFT code using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "swift_code": {
+                "type": "string",
+                "description": "The SWIFT code for which the details are to be retrieved.",
+                "default": "NATAAU33033"
+            }
+        },
+        "required": [
+            "swift_code"
+        ]
+    }
+}

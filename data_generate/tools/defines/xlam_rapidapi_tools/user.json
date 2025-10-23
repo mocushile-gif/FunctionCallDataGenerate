@@ -1,0 +1,17 @@
+{
+    "name": "user",
+    "description": "This is a sub-function API for tool moodring.\nTool description: Get the mood from Storybox's MoodRing\nAPI description: Retrieves a user profile from the Moodring API using the provided user ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "userid": {
+                "type": "string",
+                "description": "The unique identifier of the user to be retrieved.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "userid"
+        ]
+    }
+}

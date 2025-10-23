@@ -1,0 +1,15 @@
+{
+    "name": "user_details",
+    "description": "This is a sub-function API for tool twitter.\nTool description: Twitter API\nAPI description: Fetches the details of a specified Spotify user using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The ID of the Spotify user whose details are to be fetched.",
+                "default": "96479162"
+            }
+        },
+        "required": []
+    }
+}

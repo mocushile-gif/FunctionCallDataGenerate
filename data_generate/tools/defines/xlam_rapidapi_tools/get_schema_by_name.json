@@ -1,0 +1,17 @@
+{
+    "name": "get_schema_by_name",
+    "description": "This is a sub-function API for tool mongodb_wix.\nTool description: Adapter for MongoDb Atlas\nAPI description: Fetches and returns the schema details for a given schema name from the MongoDB Wix API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "schemaname": {
+                "type": "string",
+                "description": "The name of the schema for which details are to be fetched.",
+                "default": "car"
+            }
+        },
+        "required": [
+            "schemaname"
+        ]
+    }
+}

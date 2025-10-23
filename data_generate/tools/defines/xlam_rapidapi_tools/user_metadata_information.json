@@ -1,0 +1,22 @@
+{
+    "name": "user_metadata_information",
+    "description": "This is a sub-function API for tool tiktok_data.\nTool description: Social Media Data API in Real-Time.   -Get very useful and unique information.  -I'm on Telegram https://t.me/logicBuilder News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Fetch and return metadata information for a specified TikTok user, such as number of followers, followings, avatar URL, description, and more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The TikTok username to fetch metadata for (e.g., \"amazon\").",
+                "default": "tiktok"
+            },
+            "fresh": {
+                "type": "string",
+                "description": "By setting this query value to **1** you can force the API to return fresh data(not cached)",
+                "default": "0"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

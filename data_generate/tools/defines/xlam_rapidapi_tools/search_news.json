@@ -1,0 +1,22 @@
+{
+    "name": "search_news",
+    "description": "This is a sub-function API for tool news_network.\nTool description: Global network of news.\nAPI description: Search news by given keyword.\nVisit our [demo site](https://core-api.net/news/news.html)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to search for in news articles.",
+                "default": "Joe Biden"
+            },
+            "language": {
+                "type": "string",
+                "description": "\nar: arabic\nde: german\nen: english\nes: Spanish\nfr: French\nhe: hebrew\nit: italian\nnl: dutch\nno: norwegian\npt: portuguese\nru: russian\nse: swedish\nzh: chinese"
+            }
+        },
+        "required": [
+            "keyword",
+            "language"
+        ]
+    }
+}

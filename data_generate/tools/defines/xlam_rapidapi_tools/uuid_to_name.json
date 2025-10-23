@@ -1,0 +1,17 @@
+{
+    "name": "uuid_to_name",
+    "description": "This is a sub-function API for tool minecraft_uuid_converter.\nTool description: Converts your Mojang Minecraft username into a UUID.\nAPI description: Convert a Minecraft UUID to a player name using the Toolbench API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "uuid": {
+                "type": "string",
+                "description": "The Minecraft UUID you want to convert to a player name.",
+                "default": "069a79f444e94726a5befca90e38aaf5"
+            }
+        },
+        "required": [
+            "uuid"
+        ]
+    }
+}

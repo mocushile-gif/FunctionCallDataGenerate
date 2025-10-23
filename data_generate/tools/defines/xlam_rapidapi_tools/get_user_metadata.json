@@ -1,0 +1,17 @@
+{
+    "name": "get_user_metadata",
+    "description": "This is a sub-function API for tool waifu.\nTool description: Talk to cute waifu chatbot!\nAPI description: Fetches metadata for a specified user from the Waifu API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The unique identifier of the user whose metadata is to be fetched.",
+                "default": "sample_user_id"
+            }
+        },
+        "required": [
+            "user_id"
+        ]
+    }
+}

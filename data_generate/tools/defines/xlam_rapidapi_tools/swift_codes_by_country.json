@@ -1,0 +1,17 @@
+{
+    "name": "swift_codes_by_country",
+    "description": "This is a sub-function API for tool bank_swift_codes.\nTool description: Lookup country banks and their SWIFT codes\nAPI description: Fetches and returns a list of SWIFT codes for a specified country using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country_code": {
+                "type": "string",
+                "description": "Two-letter ISO country code to get the SWIFT codes for.",
+                "default": "AU"
+            }
+        },
+        "required": [
+            "country_code"
+        ]
+    }
+}

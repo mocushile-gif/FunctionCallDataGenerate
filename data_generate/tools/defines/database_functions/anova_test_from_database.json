@@ -1,0 +1,53 @@
+{
+    "name": "anova_test_from_database",
+    "description": "Perform a one-way ANOVA test using data from an SQLite database.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file."
+        },
+        "from_clause": {
+          "type": "string",
+          "description": "SQL FROM clause (table name or JOIN statement)."
+        },
+        "category_col": {
+          "type": "string",
+          "description": "Categorical column used for grouping. Even if this is an int column, it will be cast to string."
+        },
+        "value_col": {
+          "type": "string",
+          "description": "Numeric column to test across groups."
+        },
+        "where_clause": {
+          "type": "string",
+          "description": "Optional SQL WHERE clause (without the 'WHERE' keyword)."
+        },
+        "where_params": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Optional parameters for the WHERE clause."
+        },
+        "show_summary_stats": {
+          "type": "boolean",
+          "description": "Whether to include count, mean, and std for each group.",
+          "default": false
+        },
+        "show_interpretation": {
+          "type": "boolean",
+          "description": "Whether to include a human-readable interpretation of the result.",
+          "default": false
+        },
+        "drop_empty_groups": {
+          "type": "boolean",
+          "description": "If true, drop empty groups. Otherwise, raise an error when any group is empty.",
+          "default": true
+        }
+      },
+      "required": ["database_path", "from_clause", "category_col", "value_col"]
+    }
+  }
+  

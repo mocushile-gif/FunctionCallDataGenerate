@@ -1,0 +1,17 @@
+{
+    "name": "get_user",
+    "description": "This is a sub-function API for tool instagram_media_downloader.\nTool description: \nAPI description: Retrieve valuable user information including username, name, alternate name, description, profile image, post count, and follower count.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user": {
+                "type": "string",
+                "description": "The username of the Instagram user to retrieve information for.",
+                "default": "cristiano"
+            }
+        },
+        "required": [
+            "user"
+        ]
+    }
+}

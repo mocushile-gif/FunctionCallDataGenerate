@@ -1,0 +1,32 @@
+{
+    "name": "get_1_3_get_info_day",
+    "description": "This is a sub-function API for tool working_days.\nTool description: The API returns the number of days,  hours, working days, working hours, wages, weekend days, and the list of public holidays of the requested date period and country. You can also add any number of working days or working hours to a given date. 50 countries and over 230 regional calendars are supported and we work hard to keep our database up to date by following government announcements regarding public holidays changes. All the calendars can be fully customized from our friendly working da...\nAPI description: Fetch detailed information about a specific day for a given country, using provided configuration and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country_code": {
+                "type": "string",
+                "description": "The ISO country code (2 letters).  See <a href=https://api.workingdays.org/1.2/api-countries.php>available countries & configurations</a>",
+                "default": "US"
+            },
+            "date": {
+                "type": "string",
+                "description": "The date to analyze, in the format YYYY-MM-DD.",
+                "default": "2013-12-31"
+            },
+            "configuration": {
+                "type": "string",
+                "description": "The name of the preset configuration to be used. See <a href=https://api.workingdays.org/1.2/api-countries.php>available countries & configurations</a>",
+                "default": "Federal holidays"
+            },
+            "profile_id": {
+                "type": "string",
+                "description": "The profile ID for the query."
+            }
+        },
+        "required": [
+            "country_code",
+            "date"
+        ]
+    }
+}

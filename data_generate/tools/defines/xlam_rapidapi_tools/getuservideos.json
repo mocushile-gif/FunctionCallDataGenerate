@@ -1,0 +1,27 @@
+{
+    "name": "getuservideos",
+    "description": "This is a sub-function API for tool helioviewer_v1.\nTool description: Helioviewer is an open-source project for the visualization of solar and heliospheric data, funded by ESA and NASA.\nAPI description: Get a listing (in descending time order) of the most recently user-generated movies that have been publicly shared to YouTube.  Result set is limited to the value requested or default value of the `num` parameter (unless truncated when the date value of the `since` parameter is reached).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "num": {
+                "type": "number",
+                "description": "Number of shared user-generated movies to include in the response.  Default is 10.",
+                "default": 10.0
+            },
+            "since": {
+                "type": "string",
+                "description": "Optionally truncate result set if this date/time is reached.  ISO 8601 combined UTC date and time UTC format."
+            },
+            "force": {
+                "type": "boolean",
+                "description": "Optionally bypass cache to retrieve the most up-to-date data."
+            },
+            "callback": {
+                "type": "string",
+                "description": "Wrap the response object in a function call of your choosing."
+            }
+        },
+        "required": []
+    }
+}

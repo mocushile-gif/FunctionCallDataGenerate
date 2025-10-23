@@ -1,0 +1,17 @@
+{
+    "name": "locations_search",
+    "description": "This is a sub-function API for tool seloger.\nTool description: This API helps to query properties for sale or rent in France to create a real estate site/application such as seloger.com\nAPI description: Searches for locations based on a given term or phrase using the SeLoger API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "searchterm": {
+                "type": "string",
+                "description": "Any term or phrase that you are familiar with",
+                "default": "paris"
+            }
+        },
+        "required": [
+            "searchterm"
+        ]
+    }
+}

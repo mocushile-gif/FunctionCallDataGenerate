@@ -1,0 +1,23 @@
+{
+    "name": "filter_cook_time_in_minutes",
+    "description": "This is a sub-function API for tool keto_diet.\nTool description: Dataset of over 450 Ketogenic diet recipes in over 10 categories from Breakfast to Dinner.  Check out encurate.app to manage content on your mobile apps. Contact to feature your app on encurate.app website.\nAPI description: Gives keto recipes within given range of cooking time.\ncook_time_in_minutes__lt = Less than\ncook_time_in_minutes__gt = Greater than",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cook_time_in_minutes_tg": {
+                "type": "number",
+                "description": "Minimum cooking time in minutes (greater than or equal to this value).",
+                "default": 10.0
+            },
+            "cook_time_in_minutes_lt": {
+                "type": "number",
+                "description": "Maximum cooking time in minutes (less than this value).",
+                "default": 50.0
+            }
+        },
+        "required": [
+            "cook_time_in_minutes_tg",
+            "cook_time_in_minutes_lt"
+        ]
+    }
+}

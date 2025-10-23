@@ -1,0 +1,23 @@
+{
+    "name": "events",
+    "description": "This is a sub-function API for tool economic_events_calendar.\nTool description: Get complete list of all economic events. Filter by countries & dates\nAPI description: Get all economic events \nFilter by countries symbols like: US, JP, GB and so on. You can add multiple separating by comma or remove to get all events.\nFilter by date: from & to using date in format 2023-05-09",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "to": {
+                "type": "string",
+                "description": "End date for filtering events, in the format 'YYYY-MM-DD'. Defaults to None."
+            },
+            "is_from": {
+                "type": "string",
+                "description": "Start date for filtering events, in the format 'YYYY-MM-DD'. Defaults to None."
+            },
+            "countries": {
+                "type": "string",
+                "description": "Comma-separated list of country codes to filter the events. Defaults to 'US,GB'.",
+                "default": "US,GB"
+            }
+        },
+        "required": []
+    }
+}

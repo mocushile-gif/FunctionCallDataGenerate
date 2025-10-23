@@ -1,0 +1,16 @@
+{
+    "name": "category",
+    "description": "This is a sub-function API for tool vod_app.\nTool description: API for video on demand app\nAPI description: Retrieves information about a specific category from the VOD app API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the category to retrieve information for."
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

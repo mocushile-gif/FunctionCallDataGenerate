@@ -1,0 +1,17 @@
+{
+    "name": "eventlineups",
+    "description": "This is a sub-function API for tool esportapi.\nTool description: ESportApi offers eSports results for League of Legends, Dota 2, Counter-Strike providing also eSports standings and tournament live scores.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Fetches the lineups for a specific E-Sports event using the provided event ID and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the E-Sports event for which the lineups are to be retrieved.",
+                "default": 10945127
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "autocomplete_localities",
+    "description": "This is a sub-function API for tool autocomplete_india.\nTool description: Autocomplete Indian pincodes, localities, cities, states.\nAPI description: Sends a GET request to the RapidAPI Autocomplete India service to fetch autocomplete suggestions for a given locality.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "locality": {
+                "type": "string",
+                "description": "The locality name to get autocomplete suggestions for.",
+                "default": "rashtra"
+            }
+        },
+        "required": [
+            "locality"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "software_assets",
+    "description": "This is a sub-function API for tool saas_softwares_and_features_api.\nTool description: This API allows you to query SaaS software, products and tools and their meta data such as description, logo, video url, and the features they offer. You can use the name of the feature(s) to query. For example you can answer questions like, \"Get all Email Markeitng software\".\nAPI description: This endpoint allows you to fetch SaaS/Software tools that offer a given list of features (feature tags) or just details of any particular software. The details will include it's website, it's description, etc.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "Query string representing the list of feature tags or the name of the software for which details are to be fetched.",
+                "default": "email-marketing, landing-pages"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "listing_details",
+    "description": "This is a sub-function API for tool airbnb_listings.\nTool description: Join the over 300 users/customers and access all Airbnb data updated daily.\nGet Airbnb listings details, future prices and availability, reviews, and more using listing IDs, geo coordinates or \"market\". \nData analytics endpoints are also available to get detailed info around all airbnb accomodations.\nWe guarantee a 24-hour response time for all inquiries. If a feature you need is not there please contact us and we will evaluate if it is possible to fullfill your needs.\n\nWhile our data are not...\nAPI description: Retrieve listing details from Airbnb using the specified listing ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The listing ID to retrieve the details for.",
+                "default": "619966061834034729"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

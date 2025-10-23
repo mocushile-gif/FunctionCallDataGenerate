@@ -1,0 +1,17 @@
+{
+    "name": "business_units_search_by_domain",
+    "description": "This is a sub-function API for tool unofficial_trust_pilot.\nTool description: This API helps to query data relating to reviews and consumer reports to create a reviewing platform, such as : trustpilot.com\nAPI description: Searches for a business unit by its domain name using the Unofficial Trust Pilot API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The domain name to search for.",
+                "default": "google.com"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "name": "get_3_fluctuation_endpoint",
+    "description": "This is a sub-function API for tool currenciesexchangerateapi.\nTool description: CurrenciesRatesAPI is a RESTful API that provides currency conversion and exchange rate information.This API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses.\nAPI description: Request Parameters:\n'start_date': \n'end_date': \n'base': \n'symbols': \nResponse: This endpoint returns the percentage change in the exchange rates of the specified currencies over the specified time period in JSON format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "end_date": {
+                "type": "string",
+                "description": "The end date for the time period of the fluctuation data.",
+                "default": "2023-02-28"
+            },
+            "base": {
+                "type": "string",
+                "description": "The base currency for which the fluctuation data is to be retrieved.",
+                "default": "eur"
+            },
+            "start_date": {
+                "type": "string",
+                "description": "The start date for the time period of the fluctuation data.",
+                "default": "2023-01-01"
+            },
+            "symbols": {
+                "type": "string",
+                "description": "Specific currencies for which the fluctuation data is to be retrieved. Defaults to 'usd'.",
+                "default": "usd"
+            }
+        },
+        "required": [
+            "end_date",
+            "base",
+            "start_date"
+        ]
+    }
+}

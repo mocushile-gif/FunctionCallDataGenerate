@@ -1,0 +1,29 @@
+{
+    "name": "searchjobs",
+    "description": "This is a sub-function API for tool indeed_jobs_api_finland.\nTool description: Indeed Jobs Search API - Finland\nGet the Jobs List as JSON by giving Keyword, Location (Finland Only) and offset value.\nContact me at: vuesdata@gmail.com or visit https://www.vuesdata.com for building custom spiders or custom requests.\nAPI description: offset = 0 (starting of the page, it must be increased by 10 to achieve pagination)\nkeyword = python (it can be any search keyword for ex: job title or skill title)\nlocation = Helsinki (For now this API gets data for Finland Indeed. You can enter a specific city or state.)\nThis will provide you with a list of 15 jobs in the page, by default a single page can have a max of 15 jobs posting only. In order to get all the data using pagination you need to keep increasing the count of offset by 10.\n\nYou will get ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The city or state within Sweden to search for jobs.",
+                "default": "Helsinki"
+            },
+            "keyword": {
+                "type": "string",
+                "description": "The search keyword (e.g., job title or skill).",
+                "default": "python developer"
+            },
+            "offset": {
+                "type": "number",
+                "description": "The starting point for pagination; must be increased by 10 to retrieve subsequent pages.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "location",
+            "keyword",
+            "offset"
+        ]
+    }
+}

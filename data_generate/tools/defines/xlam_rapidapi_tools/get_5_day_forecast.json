@@ -1,0 +1,27 @@
+{
+    "name": "get_5_day_forecast",
+    "description": "This is a sub-function API for tool ski_resort_forecast.\nTool description: Forecast and current snow conditions for nearly every ski resort.  Perfect spelling of resort names is NOT required in most cases.\nAPI description: Fetches the 5-day weather forecast for a specified ski resort.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "resort": {
+                "type": "string",
+                "description": "The name of the ski resort for which to fetch the forecast.",
+                "default": "Jackson Hole"
+            },
+            "units": {
+                "type": "string",
+                "description": "Specify desired units. Accepted values are 'i' (imperial) and 'm' (metric). Using this parameter improves response time.",
+                "default": "i"
+            },
+            "el": {
+                "type": "string",
+                "description": "The elevation level of the mountain for which to fetch the forecast. Accepted values are 'top', 'mid', and 'bot'. Defaults to 'top'.",
+                "default": "top"
+            }
+        },
+        "required": [
+            "resort"
+        ]
+    }
+}

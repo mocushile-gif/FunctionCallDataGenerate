@@ -1,0 +1,17 @@
+{
+    "name": "gender_from_name",
+    "description": "This is a sub-function API for tool person_app.\nTool description: Gender API. Create personalised experiences by inferring gender from a name.\nAPI description: Infers the gender of a person given their name using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the person whose gender is to be inferred.",
+                "default": "Kate"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

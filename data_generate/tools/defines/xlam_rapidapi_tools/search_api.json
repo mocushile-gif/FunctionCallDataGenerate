@@ -1,0 +1,21 @@
+{
+    "name": "search_api",
+    "description": "This is a sub-function API for tool world_weather_online_api.\nTool description: Free Weather API and Geo API for worldwide locations, hourly weather, 14-day weather, historical weather, and Marine and Ski weather API for developers and businesses in XML and JSON format.\nAPI description: The Location search API method takes a query value and returns information about the location, including area name, country, latitude/longitude, population, and a URL for the weather information.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The query value for the location search.",
+                "default": "london"
+            },
+            "format": {
+                "type": "string",
+                "description": "The format of the response. Defaults to None."
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

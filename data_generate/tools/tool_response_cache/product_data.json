@@ -1,0 +1,34 @@
+{
+    "{'product': 'smartphones', 'page': 1}": {
+        "error": "",
+        "response": {
+            "product": "smartphones",
+            "page": 1,
+            "results": [
+                {
+                    "product_id": "SP001",
+                    "name": "Smartphone X Pro",
+                    "description": "Flagship smartphone with 6.7\" AMOLED display, 128GB storage, and 50MP triple camera system.",
+                    "price": 899.99,
+                    "images": [
+                        "https://example.com/smartphone-x-pro.jpg"
+                    ],
+                    "availability": "In stock",
+                    "rating": 4.7
+                },
+                {
+                    "product_id": "SP002",
+                    "name": "Smartphone Lite",
+                    "description": "Budget-friendly option with 6.5\" HD+ display, 64GB storage, and 48MP main camera.",
+                    "price": 299.99,
+                    "images": [
+                        "https://example.com/smartphone-lite.jpg"
+                    ],
+                    "availability": "In stock",
+                    "rating": 4.3
+                }
+            ],
+            "total_pages": 3
+        }
+    }
+}

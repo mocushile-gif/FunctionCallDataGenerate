@@ -1,0 +1,15 @@
+{
+    "name": "get_by_common_name",
+    "description": "This is a sub-function API for tool house_plants.\nTool description: This API provides a database of house plants, along with their description and information how to best take care of them (ideal temperature, light, etc.).\n\nAll proceeds go to charity (donated at the end of each month).\nAPI description: Retrieves all plants that match a given common plant name using the House Plants API on RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "common_name": {
+                "type": "string",
+                "description": "Common name of the plant to search for. Default is 'coralberry'.",
+                "default": "coralberry"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_daily_domains",
+    "description": "This is a sub-function API for tool opensquat.\nTool description: The openSquat is an open-source project for phishing domain and domain squatting detection by searching daily newly registered domains impersonating legit domains.\nAPI description: Get the daily list of domains that have been registered in the past day that have a similar word to {keyword} - the keyword should not contain any domain, e.g: Google",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The keyword used to search for newly registered domains. The keyword should not contain any domain name.",
+                "default": "Google"
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

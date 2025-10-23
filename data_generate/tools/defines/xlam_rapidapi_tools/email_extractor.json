@@ -1,0 +1,17 @@
+{
+    "name": "email_extractor",
+    "description": "This is a sub-function API for tool email_scraper.\nTool description: AI-powered email scraper for business lead generation. Ideal for marketers and individuals looking for contact emails from thousands of websites\nAPI description: Extracts emails from the provided URL using the RapidAPI email scraper service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL from which to extract emails.",
+                "default": "https://en.wikipedia.org/wiki/Email"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

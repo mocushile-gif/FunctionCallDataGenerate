@@ -1,0 +1,27 @@
+{
+    "name": "calculate_pearson_correlation",
+    "description": "Calculates the Pearson correlation coefficient between two sets of data. The Pearson correlation coefficient measures the linear dependence between two variables.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "The first dataset."
+            },
+            "y": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "The second dataset."
+            }
+        },
+        "required": [
+            "x",
+            "y"
+        ]
+    }
+}

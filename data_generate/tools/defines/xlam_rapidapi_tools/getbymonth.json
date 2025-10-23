@@ -1,0 +1,23 @@
+{
+    "name": "getbymonth",
+    "description": "This is a sub-function API for tool earningsdata.\nTool description: Get upcoming and historic earnings data for stocks! Contains historical data from 2020-05.\nAPI description: Fetches earning data for a specific month and year using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "month": {
+                "type": "string",
+                "description": "The month for which to fetch earnings data.",
+                "default": "05"
+            },
+            "year": {
+                "type": "string",
+                "description": "The year for which to fetch earnings data.",
+                "default": "2022"
+            }
+        },
+        "required": [
+            "month",
+            "year"
+        ]
+    }
+}

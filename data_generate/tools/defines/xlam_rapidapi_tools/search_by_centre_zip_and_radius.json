@@ -1,0 +1,23 @@
+{
+    "name": "search_by_centre_zip_and_radius",
+    "description": "This is a sub-function API for tool usa_zip_codes_inside_radius.\nTool description: Returns a list of all US ZIP codes that fall within a defined radius\nAPI description: Perform a single radius search with a defined radius and then a location in the form of a ZIP code OR a latitude/longitude.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zip": {
+                "type": "string",
+                "description": "The ZIP code around which to search for locations.",
+                "default": "90210"
+            },
+            "radius": {
+                "type": "number",
+                "description": "The radius (in miles) within which to search for locations around the given ZIP code.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "zip",
+            "radius"
+        ]
+    }
+}

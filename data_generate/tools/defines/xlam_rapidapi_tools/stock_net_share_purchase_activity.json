@@ -1,0 +1,17 @@
+{
+    "name": "stock_net_share_purchase_activity",
+    "description": "This is a sub-function API for tool yahoo_finance_v2.\nTool description: Yahoo Finance API for stocks, options, ETFs, mutual funds and news. Moved to: https://rapidapi.com/sparior/api/mboum-finance\nAPI description: Fetches net share purchase activity information for a particular stock symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to retrieve net share purchase activity information.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

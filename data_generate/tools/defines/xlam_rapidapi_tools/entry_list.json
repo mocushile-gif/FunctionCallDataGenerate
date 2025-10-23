@@ -1,0 +1,17 @@
+{
+    "name": "entry_list",
+    "description": "This is a sub-function API for tool golf_leaderboard_data.\nTool description: Major golf tours, fixtures, results and up to the minute leaderboard data to enhance your applications.\nAPI description: Fetches the entry list for a given golf tournament using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tournament_id": {
+                "type": "number",
+                "description": "The ID of the tournament for which to fetch the entry list.",
+                "default": 219.0
+            }
+        },
+        "required": [
+            "tournament_id"
+        ]
+    }
+}

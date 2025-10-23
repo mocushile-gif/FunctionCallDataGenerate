@@ -1,0 +1,17 @@
+{
+    "name": "entertainment",
+    "description": "This is a sub-function API for tool google_news.\nTool description: Provide real-time news and articles sourced from Google News.\nAPI description: Fetches entertainment news from Google News using the provided language region.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lr": {
+                "type": "string",
+                "description": "Language region code in the format 'en-US'.",
+                "default": "en-US"
+            }
+        },
+        "required": [
+            "lr"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "get_all_images_of_an_collection",
+    "description": "This is a sub-function API for tool pulsar.\nTool description: Teste Pulsar\nAPI description: Fetches all images from a specified collection using the Pulsar6 API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the collection to retrieve images from."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

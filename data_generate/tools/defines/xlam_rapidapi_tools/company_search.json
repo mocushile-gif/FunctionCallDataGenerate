@@ -1,0 +1,21 @@
+{
+    "name": "company_search",
+    "description": "This is a sub-function API for tool indeed.\nTool description: Get company and job information from indeed\nAPI description: Search for companies by name using the Indeed API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "company_name": {
+                "type": "string",
+                "description": "The name of the company to search for.",
+                "default": "Microsoft"
+            },
+            "locality": {
+                "type": "string",
+                "description": "Select the Indeed's country. Each value correspond to a specific indeed subdomain. Default value if missing is 'us'"
+            }
+        },
+        "required": [
+            "company_name"
+        ]
+    }
+}

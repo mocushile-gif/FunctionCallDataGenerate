@@ -1,0 +1,15 @@
+{
+    "name": "countries_list",
+    "description": "This is a sub-function API for tool asos.\nTool description: Asos API helps to query for all information about categories, products, etc... as on the official website\nAPI description: Returns a list of countries where Asos supports selling products.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lang": {
+                "type": "string",
+                "description": "The language code for the country names. Defaults to 'en-US'.",
+                "default": "en-US"
+            }
+        },
+        "required": []
+    }
+}

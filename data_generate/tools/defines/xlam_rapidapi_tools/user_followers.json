@@ -1,0 +1,17 @@
+{
+    "name": "user_followers",
+    "description": "This is a sub-function API for tool twitter_data.\nTool description: Twitter public and private data API for search, Tweets, users, followers, images, media and more.\nAPI description: Fetches the follower count for a given Spotify user using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "User ID\n\nUse the User By Screen Name endpoint to find the ID from a username.",
+                "default": "44196397"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

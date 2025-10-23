@@ -1,0 +1,17 @@
+{
+    "name": "getbarcode",
+    "description": "This is a sub-function API for tool price_tracker_south_africa.\nTool description: Get prices of products at a number of South African retailers by searching the barcodes, product ID's  / Product Sku's or product page URL's\nAPI description: Retrieves price information based on a barcode from the South Africa Price Tracker API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "barcode": {
+                "type": "string",
+                "description": "The barcode of the product to look up.",
+                "default": "6009175611701"
+            }
+        },
+        "required": [
+            "barcode"
+        ]
+    }
+}

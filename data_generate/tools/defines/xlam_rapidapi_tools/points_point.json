@@ -1,0 +1,16 @@
+{
+    "name": "points_point",
+    "description": "This is a sub-function API for tool national_weather_service.\nTool description: National Weather Service API (api.weather.gov) NOAA (National Oceanic and Atmospheric Administration) provides national weather data as well as past data.\nAPI description: Metadata about a point. This is the primary endpoint for forecast information for a location. It contains linked data for the forecast, the hourly forecast, observation and other information. Example: /points/39.0693,-94.6716",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "point": {
+                "type": "string",
+                "description": "Latitude and longitude in the format 'EPSG:4326 latitude, EPSG:4326 longitude'."
+            }
+        },
+        "required": [
+            "point"
+        ]
+    }
+}

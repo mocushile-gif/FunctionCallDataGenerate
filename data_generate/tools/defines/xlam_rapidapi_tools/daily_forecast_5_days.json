@@ -1,0 +1,23 @@
+{
+    "name": "daily_forecast_5_days",
+    "description": "This is a sub-function API for tool easy_weather.\nTool description: Detailed current conditions, hourly forecasts, daily forecasts, and weather alerts by latitude and longitude in JSON format.\nAPI description: Fetch a 5-day daily weather forecast for the specified geographic coordinates.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "longitude": {
+                "type": "string",
+                "description": "The longitude of the location for which the forecast is to be retrieved.",
+                "default": "103.86"
+            },
+            "latitude": {
+                "type": "string",
+                "description": "The latitude of the location for which the forecast is to be retrieved.",
+                "default": "1.28"
+            }
+        },
+        "required": [
+            "longitude",
+            "latitude"
+        ]
+    }
+}

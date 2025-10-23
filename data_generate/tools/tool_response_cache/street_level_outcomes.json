@@ -1,0 +1,42 @@
+{
+    "{'date': '2022-07', 'lat': '25.7617', 'lng': '-80.1918'}": {
+        "error": "",
+        "response": []
+    },
+    "{'date': '2022-10', 'lat': '25.7617', 'lng': '-80.1918'}": {
+        "error": "",
+        "response": []
+    },
+    "{'date': '2022-07', 'lat': '55.9533', 'lng': '-3.1883'}": {
+        "error": "",
+        "response": []
+    },
+    "{'date': '2023-04', 'lat': '55.9533', 'lng': '-3.1883'}": {
+        "error": "",
+        "response": []
+    },
+    "{'date': '2025-06', 'lat': '51.5074', 'lng': '-0.1278'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'date': '2025-05', 'lat': '51.5074', 'lng': '-0.1278'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'date': '2023-06', 'lat': '51.5072', 'lng': '-0.1276'}": {
+        "error": "",
+        "response": "[{'category': {'code': 'no-further-action', 'name': 'Investigation complete; no suspect identified'}, 'date': '2023-06', 'person_id': None, 'crime': {'category': 'shoplifting', 'location_type': 'Force', 'location': {'latitude': '51.508911', 'street': {'id': 1676459, 'name': 'On or near Old Bond Street'}, 'longitude': '-0.140877'}, 'context': '', 'persistent_id': '2021ac6bc16ab565e078b725f06b7d615c770d25c2654368a9ce060e2e2ca70b', 'id': 109601717, 'location_subtype': 'ROAD', 'month': '2023-04'}}, {'category': {'code': 'no-further-action', 'name': 'Investigation complete; no suspect identified'}, 'date': '2023-06', 'person_id': None, 'crime': {'category': 'theft-from-the-person', 'location_type': 'Force', 'location': {'latitude': '51.509251', 'street': {'id': 1677545, 'name': \"On or near St James's Market\"}, 'longitude': '-0.133398'}, 'context': '', 'persistent_id': 'eea7482f975ed25a4dae3af1f90eebb0354539e4ac0f46c80c33b2afc6e8e5b0', 'id': 110537351, 'location_subtype': 'ROAD', 'month': '2023-05'}}, {'category': {'code': 'no-further-action', 'name': 'Investigation complete; no suspect identified'}, 'date': '2023-06', 'person_id': None, 'crime': {'category': 'other-theft', 'location_type': 'Force', 'location': {'latitude': '51.516618', 'street': {'id': 1676725, 'name': 'On or near Shopping Area'}, 'longitude': '-0.139226'}, 'context': '', 'persistent_id': 'a4b628f9f3cf47ba179849120f1d5cbe401e688920ba83e4fe0fa796f70056a9', 'id': 110514157, 'location_subtype': 'DEPARTMENT STORES', '"
+    },
+    "{'date': '2025-05', 'lat': '53.4808', 'lng': '-2.2426'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'date': '2025-04', 'lat': '51.5284', 'lng': '-0.1346'}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'date': '2025-04', 'lat': '53.4792', 'lng': '-2.2250'}": {
+        "error": "",
+        "response": "[]"
+    }
+}

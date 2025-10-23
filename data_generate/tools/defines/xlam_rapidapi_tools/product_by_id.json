@@ -1,0 +1,17 @@
+{
+    "name": "product_by_id",
+    "description": "This is a sub-function API for tool aliexpress_true_api.\nTool description: Fetching data from AliExpress instantly using an powerful oracle server. If there will be high demand, I will set up multiple servers in different regions with a load balancer to ensure fast and reliable service. Rest assured, the service will be fast and reliable with no down times.\nAPI description: Get entirely a single product and all possible values comes from it including images, videos and all product data.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "product_id": {
+                "type": "number",
+                "description": "The unique identifier for the product on AliExpress.",
+                "default": 32841070485.0
+            }
+        },
+        "required": [
+            "product_id"
+        ]
+    }
+}

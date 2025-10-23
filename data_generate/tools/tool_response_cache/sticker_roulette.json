@@ -1,0 +1,24 @@
+{
+    "{'tag': 'birthday-celebration'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "id": "xyz123",
+                "title": "Happy Birthday Celebration Sticker",
+                "url": "https://media.giphy.com/media/birthday-sticker-id/giphy.gif",
+                "rating": "G",
+                "tag": "birthday-celebration",
+                "description": "A vibrant birthday sticker with confetti and balloons"
+            },
+            "meta": {
+                "status": 200,
+                "msg": "OK",
+                "response_id": "random-uuid"
+            }
+        }
+    },
+    "{'tag': 'success'}": {
+        "error": "",
+        "response": "{'data': [], 'meta': {'status': 401, 'msg': 'No API key found in request.', 'response_id': ''}}"
+    }
+}

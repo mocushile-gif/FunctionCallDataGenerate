@@ -1,0 +1,17 @@
+{
+    "name": "get_specific_dog_breed",
+    "description": "This is a sub-function API for tool dogbreeds.\nTool description: An API showing all dog breeds and your characteristics\nAPI description: Fetch detailed information about a specific dog breed.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The identifier for the specific dog breed.",
+                "default": "shiba-inu"
+            }
+        },
+        "required": [
+            "slug"
+        ]
+    }
+}

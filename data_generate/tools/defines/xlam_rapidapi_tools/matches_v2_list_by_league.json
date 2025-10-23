@@ -1,0 +1,33 @@
+{
+    "name": "matches_v2_list_by_league",
+    "description": "This is a sub-function API for tool livescore_v2.\nTool description: This API helps to query for football, cricket, basketball, tennis, hockey matches, leagues, news, etc... to create a sporting site/application such as livescore.com\nAPI description: List all matches by specific league and table\n* Base for Img field is https://lsm-static-prod.livescore.com/medium . Ex : https://lsm-static-prod.livescore.com/medium/enet/9906.png",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "The category of the sport. One of the following: 'soccer', 'cricket', 'basketball', 'tennis', 'hockey'.",
+                "default": "soccer"
+            },
+            "ccd": {
+                "type": "string",
+                "description": "The value of Ccd field that responded in .../leagues/v2/list or .../matches/v2/list-by-date endpoints.",
+                "default": "champions-league"
+            },
+            "scd": {
+                "type": "string",
+                "description": "The SCD value that is responded in .../leagues/v2/list or .../matches/v2/list-by-date endpoints. Default is 'group-b'.",
+                "default": "group-b"
+            },
+            "timezone": {
+                "type": "number",
+                "description": "The timezone offset. One of the following: -11, -10, -9.5, -9, -8.5, -8, -7, -6, -5, -4.5, -4, -3.5, -3, -2.5, -2, -1, 0, 1, 2, 3, 3.5, 4, 4.5, 5, 5.5, 5.75, 6, 6.5, 6.75, 7, 7.5, 8, 8.5, 8.75, 9, 9.5, 9.75, 10, 10.5, 11, 11.5, 12, 12.5, 12.75, 13, 13.75, 14. Default is -7.",
+                "default": -7.0
+            }
+        },
+        "required": [
+            "category",
+            "ccd"
+        ]
+    }
+}

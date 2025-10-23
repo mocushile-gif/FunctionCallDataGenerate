@@ -1,0 +1,23 @@
+{
+    "name": "getgamesbytopic",
+    "description": "This is a sub-function API for tool diablo4_smartable.\nTool description: The Diablo 4 API offers the Diablo IV news, gameplays, guides, top players, and other information.\nAPI description: Fetches game information by topic and page from the Diablo 4 Smartable API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "topic": {
+                "type": "string",
+                "description": "The topic to search for within the Diablo 4 games.",
+                "default": "druid"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of the results to retrieve.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "topic",
+            "page"
+        ]
+    }
+}

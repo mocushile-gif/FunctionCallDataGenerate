@@ -1,0 +1,72 @@
+{
+    "{'year_equal': 2023, 'status': 'currently_airing', 'fields': 'id,title,title_english,start_date,synopsis,genres,media_type', 'limit': 5}": {
+        "error": "",
+        "response": [
+            {
+                "id": 12345,
+                "title": "\u9032\u6483\u306e\u5de8\u4eba \u6700\u7d42\u7ae0 \u7b2c\u4e8c\u90e8",
+                "title_english": "Attack on Titan: Final Chapter - Part 2",
+                "start_date": "2023-04-23",
+                "synopsis": "The final arc concludes Eren Yeager's battle against the remaining Titans and the militaristic Marley government.",
+                "genres": [
+                    "Action",
+                    "Drama",
+                    "Fantasy"
+                ],
+                "media_type": "TV"
+            },
+            {
+                "id": 12346,
+                "title": "\u94fe\u952f\u4eba",
+                "title_english": "Chainsaw Man",
+                "start_date": "2023-01-12",
+                "synopsis": "A demon slayer with a chainsaw for a weapon navigates the dangerous world of demons and humans.",
+                "genres": [
+                    "Action",
+                    "Supernatural",
+                    "Dark Fantasy"
+                ],
+                "media_type": "TV"
+            },
+            {
+                "id": 12347,
+                "title": "Spy\u00d7Family",
+                "title_english": "Spy\u00d7Family",
+                "start_date": "2023-04-10",
+                "synopsis": "A spy starts a family to infiltrate an enemy nation, unaware his wife is a master spy and his son has telepathic powers.",
+                "genres": [
+                    "Comedy",
+                    "Supernatural",
+                    "Slice of Life"
+                ],
+                "media_type": "TV"
+            },
+            {
+                "id": 12348,
+                "title": "\u9b3c\u6ec5\u306e\u5203 \u7acb\u5fd7\u7de8",
+                "title_english": "Demon Slayer: Hashira! Path of Fireflies",
+                "start_date": "2023-06-25",
+                "synopsis": "A prequel focusing on the early days of the Hashira warriors' training and battles against demons.",
+                "genres": [
+                    "Action",
+                    "Adventure",
+                    "Historical"
+                ],
+                "media_type": "Movie"
+            },
+            {
+                "id": 12349,
+                "title": "\u6587\u8c6a\u30b9\u30c8\u30ec\u30a4\u30c9\u30c3\u30b0\u30b9 Jack the Ripper",
+                "title_english": "Great Writers' Stray Dogs: Jack the Ripper",
+                "start_date": "2023-07-01",
+                "synopsis": "A special task force confronts a mysterious serial killer linked to the fictional 'Jack the Ripper' in a supernatural thriller.",
+                "genres": [
+                    "Mystery",
+                    "Supernatural",
+                    "Action"
+                ],
+                "media_type": "TV"
+            }
+        ]
+    }
+}

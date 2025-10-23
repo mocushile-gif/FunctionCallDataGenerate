@@ -1,0 +1,16 @@
+{
+    "name": "generatequiz",
+    "description": "This is a sub-function API for tool quizy_api.\nTool description: The Quizy API is a powerful tool that allows developers to create and customize quizzes programmatically. With this API, you can generate a wide variety of quizzes on different topics, ranging from educational quizzes for students to fun quizzes for entertainment purposes.\n\nThe API provides a simple and intuitive interface to generate quizzes based on parameters such as the number of questions, difficulty level, topic, and format. It leverages a vast repository of questions and answers, ensur...\nAPI description: This endpoint will return you the 5 questions, options, correct answer and explaination for the quiz topic you provide.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "topic": {
+                "type": "string",
+                "description": "The topic for which the quiz needs to be generated."
+            }
+        },
+        "required": [
+            "topic"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "user_profile",
+    "description": "This is a sub-function API for tool spotify_data.\nTool description: Spotify Data\nAPI description: Fetches and returns the user profile data from the Spotify API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The user's unique Spotify ID.",
+                "default": "nocopyrightsounds"
+            },
+            "playlistlimit": {
+                "type": "number",
+                "description": "The maximum number of playlists to retrieve. Defaults to 10.",
+                "default": 10.0
+            },
+            "artistlimit": {
+                "type": "number",
+                "description": "The maximum number of artists to retrieve. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

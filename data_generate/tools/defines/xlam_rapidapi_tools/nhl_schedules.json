@@ -1,0 +1,29 @@
+{
+    "name": "nhl_schedules",
+    "description": "This is a sub-function API for tool nhl_api.\nTool description: This API provides instant access to the latest data for all operations and players in the NHL. It features scores, odds, bookmakers' stats, standings, and historical data.\nAPI description: This endpoint will get NHL schedule data for a specified date when available.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "day": {
+                "type": "string",
+                "description": "The day of the desired schedule in 'DD' format.",
+                "default": "11"
+            },
+            "month": {
+                "type": "string",
+                "description": "The month of the desired schedule in 'MM' format.",
+                "default": "05"
+            },
+            "year": {
+                "type": "string",
+                "description": "The year of the desired schedule in 'YYYY' format.",
+                "default": "2022"
+            }
+        },
+        "required": [
+            "day",
+            "month",
+            "year"
+        ]
+    }
+}

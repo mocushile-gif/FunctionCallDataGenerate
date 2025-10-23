@@ -1,0 +1,17 @@
+{
+    "name": "get_qoute",
+    "description": "This is a sub-function API for tool quotsy.\nTool description: api for quots\nAPI description: Fetch a quote by its ID using the Quotsy API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the quote to be retrieved.",
+                "default": "00667985-3375-4b1b-abb0-60bcfa70a80f"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

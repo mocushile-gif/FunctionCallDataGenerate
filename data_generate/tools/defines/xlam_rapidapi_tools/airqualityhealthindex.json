@@ -1,0 +1,29 @@
+{
+    "name": "airqualityhealthindex",
+    "description": "This is a sub-function API for tool carbonfootprint.\nTool description: Calculate the carbon footprint in various situations, such as travel and hydro usage.\nAPI description: Return the official air quality health index (1 to 10) bases on key parameters.The national AQHI is based on three-hour average concentrations of ground-level ozone (O3), nitrogen dioxide (NO2), and fine particulate matter (PM2.5). O3 and NO2 are measured in parts per billion (ppb) while PM2.5 is \t measured in micrograms per cubic metre (ug/m3)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "o3": {
+                "type": "string",
+                "description": "The ground-level ozone (O3) concentration in parts per billion (ppb).",
+                "default": "10"
+            },
+            "no2": {
+                "type": "string",
+                "description": "The nitrogen dioxide (NO2) concentration in parts per billion (ppb).",
+                "default": "10"
+            },
+            "pm": {
+                "type": "string",
+                "description": "The fine particulate matter (PM2.5), PM2.5 is \t * measured in micrograms per cubic metre (ug/m3).",
+                "default": "10"
+            }
+        },
+        "required": [
+            "o3",
+            "no2",
+            "pm"
+        ]
+    }
+}

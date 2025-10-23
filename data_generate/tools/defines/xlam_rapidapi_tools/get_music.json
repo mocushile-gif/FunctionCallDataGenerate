@@ -1,0 +1,16 @@
+{
+    "name": "get_music",
+    "description": "This is a sub-function API for tool tiktok_private.\nTool description: Fastest,  Highly Maintained TikTok API,  Build For Massive TikTok Scraping. Get TikTok User Profile, Post, Feed, Trends, Hashtags, Music and Download Video Without Watermark.\nAPI description: Fetches music data from the TikTok API using the given music ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "music_id": {
+                "type": "string",
+                "description": "The identifier for the music track to fetch from TikTok."
+            }
+        },
+        "required": [
+            "music_id"
+        ]
+    }
+}

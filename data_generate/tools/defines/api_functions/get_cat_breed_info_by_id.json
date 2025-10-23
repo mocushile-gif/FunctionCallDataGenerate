@@ -1,0 +1,18 @@
+{
+    "name": "get_cat_breed_info_by_id",
+    "description": "Get specific cat breed information by ID from the Cat API.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "breed_id": {
+          "type": "string",
+          "description": "Breed ID to retrieve information for"
+        },
+        "save_to": {
+          "type": "string",
+          "description": "File path to save the result as JSON"
+        }
+      },
+      "required": ["breed_id"]
+    }
+  } 

@@ -1,0 +1,16 @@
+{
+    "name": "alerts_active_zone_zoneid",
+    "description": "This is a sub-function API for tool national_weather_service.\nTool description: National Weather Service API (api.weather.gov) NOAA (National Oceanic and Atmospheric Administration) provides national weather data as well as past data.\nAPI description: A list of active alerts by zone id. The ATOM format returns items in CAP-ATOM. Example: /alerts/active/zone/ILZ081",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zoneid": {
+                "type": "string",
+                "description": "A valid zone ID for which to fetch the active alerts. Example: 'ILZ081'."
+            }
+        },
+        "required": [
+            "zoneid"
+        ]
+    }
+}

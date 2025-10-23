@@ -1,0 +1,16 @@
+{
+    "name": "get_vessel_photo",
+    "description": "This is a sub-function API for tool vessel_data.\nTool description: Global live on board vessels information.\nAPI description: Image of vessel based on given ship id.\n*Image might not be display correctly here due to base64 issue of Test Endpoint, but it work indeed.*",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "shipid": {
+                "type": "string",
+                "description": "The ID of the ship for which to fetch the image."
+            }
+        },
+        "required": [
+            "shipid"
+        ]
+    }
+}

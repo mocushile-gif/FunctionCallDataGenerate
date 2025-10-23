@@ -1,0 +1,54 @@
+{
+    "{'season_id': 2024.0, 'team_id': 6167.0}": {
+        "error": "",
+        "response": [
+            {
+                "match_id": 12345,
+                "date": "2024-07-20T19:30:00Z",
+                "competition": "The Rugby Championship",
+                "home_team": "New Zealand All Blacks",
+                "away_team": "Australia",
+                "venue": "Eden Park, Auckland",
+                "status": "Upcoming",
+                "score": {
+                    "home_points": null,
+                    "away_points": null
+                }
+            },
+            {
+                "match_id": 12346,
+                "date": "2024-08-10T16:00:00Z",
+                "competition": "Test Series",
+                "home_team": "South Africa",
+                "away_team": "New Zealand All Blacks",
+                "venue": "Ellis Park, Johannesburg",
+                "status": "Completed",
+                "score": {
+                    "home_points": 24,
+                    "away_points": 34
+                }
+            },
+            {
+                "match_id": 12347,
+                "date": "2024-09-05T22:00:00Z",
+                "competition": "The Rugby Championship",
+                "home_team": "New Zealand All Blacks",
+                "away_team": "Argentina",
+                "venue": "Sky Stadium, Wellington",
+                "status": "Scheduled",
+                "score": {
+                    "home_points": null,
+                    "away_points": null
+                }
+            }
+        ]
+    },
+    "{'season_id': 2023, 'team_id': 6167}": {
+        "error": "",
+        "response": "{'meta': {'title': 'Live Rugby API -  Fixtures & Results for Castres during 2023 season.', 'description': 'All fixtures and results for given team during given season across all competitions.', 'fields': {'id': 'Integer - unique fixture id, use to query match endpoint', 'comp_id': 'Integer', 'comp_name': 'String', 'season': 'Integer', 'date': 'Timestamp - ISO 8601 - always UTC', 'game_week': 'Integer', 'home': 'String', 'away': 'String', 'home_id': 'Integer', 'away_id': 'Integer', 'status': 'String - Not Started, First Half, Half Time, Second Half, Full Time, Postponed, Cancelled, Result', 'venue': 'String', 'home_score': 'Integer', 'away_score': 'Integer', 'updated': 'Timestamp - IS0 8601 - always UTC'}}, 'results': [{'id': 8387701, 'comp_id': 1230, 'comp_name': 'TOP 14', 'season': '2023', 'date': '2022-09-03T13:00:00+00:00', 'game_week': 1, 'home': 'Racing 92', 'away': 'Castres Olympique', 'home_id': 140, 'away_id': 6167, 'status': 'Result', 'venue': 'Paris La Defense Arena', 'home_score': 25, 'away_score': 19, 'home_tries': 3, 'away_tries': 1, 'updated': '2023-07-03T01:00:05+00:00'}, {'id': 8387773, 'comp_id': 1230, 'comp_name': 'TOP 14', 'season': '2023', 'date': '2022-09-10T15:00:00+00:00', 'game_week': 2, 'home': 'Castres Olympique', 'away': 'Stade Francais Paris', 'home_id': 6167, 'away_id': 4817, 'status': 'Result', 'venue': 'Stade Pierre Fabre', 'home_score': 30, 'away_score': 20, 'home_tries': 3, 'away_tries': 2, 'updated': '2023-07-03T01:00:05+00:00'}, {'id': 8387872, 'comp_id': 1230, 'comp_name': 'TOP 14', 'season': '2023', 'date': '2022-09-17T13:00:00+00:00', 'game_week': 3, 'home': 'Union Bordeaux-Begles', 'away': 'Castres Olympique', 'home_id': 131, 'away_id': 6167, 'status': 'Result', 'venue': 'Stade Chaban-Delmas', 'home_score': 33, 'away_score': 12, 'home_tries': 2, 'away_tries': 0, 'updated': '2023-07-03T01:00:05+00:00'}, {'id': 8387899, 'comp_id': 1230, 'comp_name': 'TOP 14', 'season': '2023', 'date': '2022-09-24T15:00:00+00:00', 'game_week': 4, 'home': 'Castres Olympique', 'away': 'CA Brive',"
+    },
+    "{'season_id': 2022, 'team_id': 6167}": {
+        "error": "",
+        "response": "{'meta': {'title': 'Live Rugby API -  Fixtures & Results for Castres during 2022 season.', 'description': 'All fixtures and results for given team during given season across all competitions.', 'fields': {'id': 'Integer - unique fixture id, use to query match endpoint', 'comp_id': 'Integer', 'comp_name': 'String', 'season': 'Integer', 'date': 'Timestamp - ISO 8601 - always UTC', 'game_week': 'Integer', 'home': 'String', 'away': 'String', 'home_id': 'Integer', 'away_id': 'Integer', 'status': 'String - Not Started, First Half, Half Time, Second Half, Full Time, Postponed, Cancelled, Result', 'venue': 'String', 'home_score': 'Integer', 'away_score': 'Integer', 'updated': 'Timestamp - IS0 8601 - always UTC'}}, 'results': [{'id': 2891653, 'comp_id': 1230, 'comp_name': 'TOP 14', 'season': '2022', 'date': '2021-09-04T14:05:00+00:00', 'game_week': 1, 'home': 'Castres Olympique', 'away': 'Section Paloise', 'home_id': 6167, 'away_id': 10367, 'status': 'Result', 'venue': 'Stade Pierre Fabre', 'home_score': 16, 'away_score': 12, 'home_tries': 1, 'away_tries': 0, 'round_id': 1, 'stage': 'Regular Season', 'updated': '2024-02-09T16:05:52+00:00'}, {'id': 2891698, 'comp_id': 1230, 'comp_name': 'TOP 14', 'season': '2022', 'date': '2021-09-11T13:05:00+00:00', 'game_week': 2, 'home': 'ASM Clermont Auvergne', 'away': 'Castres Olympique', 'home_id': 6767, 'away_id': 6167, 'status': 'Result', 'venue': 'Stade Marcel Michelin', 'home_score': 30, 'away_score': 34, 'home_tries': 3, 'away_tries': 3, 'ro"
+    }
+}

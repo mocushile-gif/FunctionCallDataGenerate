@@ -1,0 +1,34 @@
+{
+    "{'clientid': '[YOUR_CLIENT_ID]', 'apikey': '[YOUR_API_KEY]'}": {
+        "error": "",
+        "response": [
+            {
+                "sender_id": "InfoAlert",
+                "status": "Active",
+                "type": "Alphanumeric"
+            },
+            {
+                "sender_id": "12345",
+                "status": "Active",
+                "type": "Numeric"
+            },
+            {
+                "sender_id": "PromoCode",
+                "status": "Pending Approval",
+                "type": "Alphanumeric"
+            }
+        ]
+    },
+    "{'apikey': 'apikey', 'clientid': 'clientid'}": {
+        "error": "",
+        "response": "<!doctype html>\n<html data-adblockkey=\"MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_ltr3P0WPDnzpjkaVh0cXb2wSLLyMTCkQ7Lj4Ip6aq/rRE3YcQud7VWg1/BP/vhq5b7SpNo1t/sbvG1jorfRnSw==\" lang=\"en\" style=\"background: #2B2B2B;\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC\">\n    <link rel=\"preconnect\" href=\"https://www.google.com\" crossorigin>\n</head>\n<body>\n<div id=\"target\" style=\"opacity: 0\"></div>\n<script>window.park = \"eyJ1dWlkIjoiNWNlZmJiNmQtZGY0Ni00MDc1LWFlNzEtZjk2YzY2MzEwZjdlIiwicGFnZV90aW1lIjoxNzQxOTQ3MDQwLCJwYWdlX3VybCI6Imh0dHBzOi8vYXBwLnJpdmV0LnNvbHV0aW9ucy9hcGkvdjIvU2VuZGVySWQ/QXBpS2V5PWFwaWtleVx1MDAyNkNsaWVudElkPWNsaWVudGlkIiwicGFnZV9tZXRob2QiOiJHRVQiLCJwYWdlX3JlcXVlc3QiOnsiQXBpS2V5IjoiYXBpa2V5IiwiQ2xpZW50SWQiOiJjbGllbnRpZCJ9LCJwYWdlX2hlYWRlcnMiOnt9LCJob3N0IjoiYXBwLnJpdmV0LnNvbHV0aW9ucyIsImlwIjoiOC4xMzAuMzIuMTQ5In0K\";</script>\n<script src=\"/bJDyHGSML.js\"></script>\n</body>\n</html>\n"
+    },
+    "{'apikey': 'f9d8a7e2-341b-45b7-9e12-c45f8d6a23b1', 'clientid': '4739201'}": {
+        "error": "",
+        "response": "<!doctype html>\n<html data-adblockkey=\"MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_mOJEIu4lK594s/mLLtaIV+6PiSnInORTH0hQN3C7xpLz3ycT1pcP96cUskeOs5gnI7ElZEhQXO2FgWydZCb0jQ==\" lang=\"en\" style=\"background: #2B2B2B;\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC\">\n    <link rel=\"preconnect\" href=\"https://www.google.com\" crossorigin>\n</head>\n<body>\n<div id=\"target\" style=\"opacity: 0\"></div>\n<script>window.park = \"eyJ1dWlkIjoiZDAxY2UwN2QtMTQ2OS00NTE4LTlhNDItZTc2MGFlNjI4Y2E2IiwicGFnZV90aW1lIjoxNzQ5NDg0NjIzLCJwYWdlX3VybCI6Imh0dHA6Ly93dzI1LmFwcC5yaXZldC5zb2x1dGlvbnMvYXBpL3YyL1NlbmRlcklkP0FwaUtleT1mOWQ4YTdlMi0zNDFiLTQ1YjctOWUxMi1jNDVmOGQ2YTIzYjFcdTAwMjZDbGllbnRJZD00NzM5MjAxXHUwMDI2c3ViaWQxPTIwMjUwNjEwLTAxNTctMDFhMy1hNWYzLTUzZTdmZWM3OWYzOSIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7IkFwaUtleSI6ImY5ZDhhN2UyLTM0MWItNDViNy05ZTEyLWM0NWY4ZDZhMjNiMSIsIkNsaWVudElkIjoiNDczOTIwMSIsInN1YmlkMSI6IjIwMjUwNjEwLTAxNTctMDFhMy1hNWYzLTUzZTdmZWM3OWYzOSJ9LCJwYWdlX2hlYWRlcnMiOnt9LCJob3N0Ijoid3cyNS5hcHAucml2ZXQuc29sdXRpb25zIiwiaXAiOiI4LjEzMC4zMi4xNDkifQo=\";</script>\n<script src=\"/bJUSvLxqF.js\"></script>\n</body>\n</html>\n"
+    },
+    "{'clientid': 'client_123e4567-e89b-12d3-a456-426614174000', 'apikey': 'sk_5plKmHqNvRtY7u8iLjJhGcDfEaB9zXcV7wU6rT2qP1oI0lKmHnMaYbUvRt6'}": {
+        "error": "",
+        "response": "<!doctype html>\n<html data-adblockkey=\"MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_xrh75PA1hWA2Yccss/trlUWzDZ46HelZjIYNY45eJGA+cYNHMH4kDxy/z4ICCGU9467pV3d3nJydK5mYscrB6w==\" lang=\"en\" style=\"background: #2B2B2B;\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC\">\n    <link rel=\"preconnect\" href=\"https://www.google.com\" crossorigin>\n</head>\n<body>\n<div id=\"target\" style=\"opacity: 0\"></div>\n<script>window.park = \"eyJ1dWlkIjoiZmQxYjczOWItMGNmMi00MTU0LThlYTktOGNiMThjN2Q3YzU1IiwicGFnZV90aW1lIjoxNzQ5NTQyNjczLCJwYWdlX3VybCI6Imh0dHA6Ly93dzI1LmFwcC5yaXZldC5zb2x1dGlvbnMvYXBpL3YyL1NlbmRlcklkP0FwaUtleT1za181cGxLbUhxTnZSdFk3dThpTGpKaEdjRGZFYUI5elhjVjd3VTZyVDJxUDFvSTBsS21Ibk1hWWJVdlJ0Nlx1MDAyNkNsaWVudElkPWNsaWVudF8xMjNlNDU2Ny1lODliLTEyZDMtYTQ1Ni00MjY2MTQxNzQwMDBcdTAwMjZzdWJpZDE9MjAyNTA2MTAtMTgwNC0zMTk1LWFiZWYtNDI5MTBlMjQ3YTY2IiwicGFnZV9tZXRob2QiOiJHRVQiLCJwYWdlX3JlcXVlc3QiOnsiQXBpS2V5Ijoic2tfNXBsS21IcU52UnRZN3U4aUxqSmhHY0RmRWFCOXpYY1Y3d1U2clQycVAxb0kwbEttSG5NYVliVXZSdDYiLCJDbGllbnRJZCI6ImNsaWVudF8xMjNlNDU2Ny1lODliLTEyZDMtYTQ1Ni00MjY2MTQxNzQwMDAiLCJzdWJpZDEiOiIyMDI1MDYxMC0xODA0LTMxOTUtYWJlZi00MjkxMGUyNDdhNjYifSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6Ind3MjUuYXBwLnJpdmV0LnNvbHV0aW9ucyIsImlwIjoiOC4xMzAuMzIuMTQ5In0K\";</"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "pluses_and_minuses_of_the_car",
+    "description": "This is a sub-function API for tool pluses_and_minuses_of_the_car.\nTool description: The Car Pluses and Minuses API is a comprehensive endpoint designed to provide detailed insights into the pros and cons of various car makes, models, and years. It offers potential buyers, car enthusiasts, and businesses a valuable tool to evaluate vehicles more effectively.\n\nBy using this API, you can access a wealth of information related to the car's performance, reliability, safety, comfort, and overall satisfaction. The data is sourced from real-world user experiences, expert reviews, an...\nAPI description: Fetches the list of pluses and minuses for a specific car model using the ToolBench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year of manufacture of the car.",
+                "default": "2012"
+            },
+            "make": {
+                "type": "string",
+                "description": "The make (manufacturer) of the car.",
+                "default": "bmw"
+            },
+            "model": {
+                "type": "string",
+                "description": "The model of the car.",
+                "default": "5 series"
+            }
+        },
+        "required": [
+            "year",
+            "make",
+            "model"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "query_for_city_boundary_by_city_name",
+    "description": "This is a sub-function API for tool ca_boundaries_io.\nTool description: CA Postal Code(ex. T6H, or A0A0A1 ), FSA and LDU, Boundaries API: A simple & very fast API that will allow you to integrate multiple GeoJson CA FSA and LDU level boundaries result into your apps and systems. This API is designed to be used programatically for optimal performance. When using the MashApe UI for queries expect significant latency issues on large result sets!\nAPI description: Queries the boundary information for a given city name from a specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the city for which the boundary information is to be queried.",
+                "default": "toronto"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

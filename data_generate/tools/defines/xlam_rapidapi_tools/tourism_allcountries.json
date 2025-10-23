@@ -1,0 +1,17 @@
+{
+    "name": "tourism_allcountries",
+    "description": "This is a sub-function API for tool africa_api.\nTool description: Africa-Api is a comprehensive project that provides a vast range of data about Africa, including countries, languages, tourism destinations, colonial history, and much more. This project offers a user-friendly interface that enables users to easily access and retrieve data about different African countries and their respective histories, languages, and cultures.  The Africa-Api project is an invaluable resource for individuals or organizations looking to learn more about the African continent...\nAPI description: This function retrieves tourism locations and categories for a given country in Africa using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country_name": {
+                "type": "string",
+                "description": "The name of the country in Africa for which to retrieve tourism information.",
+                "default": "all"
+            }
+        },
+        "required": [
+            "country_name"
+        ]
+    }
+}

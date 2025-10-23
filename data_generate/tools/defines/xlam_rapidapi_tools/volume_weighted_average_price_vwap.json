@@ -1,0 +1,45 @@
+{
+    "name": "volume_weighted_average_price_vwap",
+    "description": "This is a sub-function API for tool qvantana.\nTool description: Our free API provides real-time and historical crypto trading data from 4 major exchanges, enriched with over 30 customizable trading indicators. It offers up to 5000 rows of data in a single request, ensuring comprehensive market analysis. The API is user-friendly and offers improved data fetching capabilities compared to standard exchange documentation, making it an essential tool for traders and developers alike.\nAPI description: Returns the Volume Weighted Average Price (VWAP) indicator for a given financial instrument.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "exchange": {
+                "type": "string",
+                "description": "The exchange on which the symbol is traded.",
+                "default": "binance"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The symbol for which the VWAP is to be calculated.",
+                "default": "btcusdt"
+            },
+            "interval": {
+                "type": "string",
+                "description": "The interval for the VWAP calculation (e.g., \"1m\", \"5m\", \"1h\").",
+                "default": "1m"
+            },
+            "market": {
+                "type": "string",
+                "description": "The type of market. Available options are 'spot', 'usdt-perpetual', 'inverse-perpetual'.",
+                "default": "spot"
+            },
+            "backtracks": {
+                "type": "number",
+                "description": "The number of periods to include in the calculation for historical data. Defaults to 1.",
+                "default": 1.0
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The starting timestamp for the data retrieval. Defaults to '1683895800'.",
+                "default": "1683895800"
+            }
+        },
+        "required": [
+            "exchange",
+            "symbol",
+            "interval",
+            "market"
+        ]
+    }
+}

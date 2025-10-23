@@ -1,0 +1,17 @@
+{
+    "name": "stock_key_statistics_stock",
+    "description": "This is a sub-function API for tool mboum_finance.\nTool description: Mboum Finance Official API for stocks, options, ETFs, mutual funds, SEC Data, news, screeners and more! \nAPI description: Fetches key statistics data for a given stock symbol from the MBOUM Finance API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to retrieve key statistics data.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

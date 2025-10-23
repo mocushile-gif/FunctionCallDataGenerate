@@ -1,0 +1,23 @@
+{
+    "name": "get_all_kfc_locations_by_state",
+    "description": "This is a sub-function API for tool kfc_locations.\nTool description: Our KFC Locations API is a comprehensive and accurate data source of all KFC restaurant locations in the United States. This API allows users to retrieve detailed information about each location, including address, phone number, hours of operation, and more. This data can be easily integrated into a wide range of use cases, such as delivery services, marketing, retail analysis, navigation, and research and development.\nAPI description: Fetches all KFC locations in a specified state using the given RapidAPI key and returns the results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number for paginated results.",
+                "default": 0.0
+            },
+            "state": {
+                "type": "string",
+                "description": "The two-letter state code for which to fetch KFC locations.",
+                "default": "AZ"
+            }
+        },
+        "required": [
+            "page",
+            "state"
+        ]
+    }
+}

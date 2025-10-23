@@ -1,0 +1,17 @@
+{
+    "name": "search_a_place",
+    "description": "This is a sub-function API for tool busy_and_popular_times.\nTool description: The goal of this API  is to provide an option to use Google popular times data, until it is available via Google's API.\nAPI description: Search for a place using the Busy and Popular Times API, similar to how a location is searched on Google, returning the popular times graph if available.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search term for the location.",
+                "default": "Walmart+8400+Coral+Way+Miami+FL+33155"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

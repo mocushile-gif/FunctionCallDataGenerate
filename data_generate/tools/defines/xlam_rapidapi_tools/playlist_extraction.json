@@ -1,0 +1,17 @@
+{
+    "name": "playlist_extraction",
+    "description": "This is a sub-function API for tool miza.\nTool description: A multipurpose API that includes many image, video, and audio operations. Please see https://ko-fi.com/mizabot if you'd like premium features on the Discord bot itself!\nAPI description: Produces information on all songs in a playlist (YouTube, Spotify, SoundCloud, etc), with much faster response time than most other available tools. Currently O(1) for YouTube, O(log n) for Spotify, and O(log n) for SoundCloud. See [this article](http://i.mizabot.xyz/f/Bc9AUlCRkA) for the algorithm behind the YouTube playlists specifically.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "search": {
+                "type": "string",
+                "description": "The search query for the playlist.",
+                "default": "https://www.youtube.com/playlist?list=PLXFwTY00FRUUZzL_Vjhy-bE8WIao3eyOi"
+            }
+        },
+        "required": [
+            "search"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "calculate_net_present_value",
+    "description": "Calculates the Net Present Value (NPV) of a series of cash flows using a specified discount rate.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cash_flows": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "A list of cash flows, where negative values represent outflows and positive values represent inflows."
+            },
+            "discount_rate": {
+                "type": "number",
+                "description": "The discount rate as a decimal (e.g., 0.1 for 10%)."
+            }
+        },
+        "required": [
+            "cash_flows",
+            "discount_rate"
+        ]
+    }
+}

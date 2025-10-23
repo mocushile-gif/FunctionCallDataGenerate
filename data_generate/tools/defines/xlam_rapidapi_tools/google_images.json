@@ -1,0 +1,69 @@
+{
+    "name": "google_images",
+    "description": "This is a sub-function API for tool google_search_2.\nTool description: Serpdog(https://serpdog.io) is a Google Search API that allows you to access Google Search Results in real time. It solves the problem of proxies and captchas for a smooth scraping journey. Serpdog supports results in both HTML and JSON format.\n\nGet your free trial by registering at https://api.serpdog.io\n\nIf you want to buy our plan, I recommend you to please visit https://serpdog.io/pricing for more information. \nAPI description: Fetches JSON data of image results from Google Images based on a query and various optional parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query for the images.",
+                "default": "football"
+            },
+            "gl": {
+                "type": "string",
+                "description": "The country to use for the search. Defaults to 'us'.",
+                "default": "us"
+            },
+            "hl": {
+                "type": "string",
+                "description": "The language to use for the search. Defaults to 'en_us'.",
+                "default": "en_us"
+            },
+            "duration": {
+                "type": "string",
+                "description": "The time duration for the search (e.g., 'd' for day, 'w' for week)."
+            },
+            "chips": {
+                "type": "string",
+                "description": "Additional search filters."
+            },
+            "lr": {
+                "type": "string",
+                "description": "The language restriction for the search."
+            },
+            "ijn": {
+                "type": "string",
+                "description": "Index of the search results page. Defaults to '0'.",
+                "default": "0"
+            },
+            "html": {
+                "type": "string",
+                "description": "If True, returns HTML content."
+            },
+            "uule": {
+                "type": "string",
+                "description": "Encoded location parameters."
+            },
+            "device": {
+                "type": "string",
+                "description": "The device to use for the search (e.g., 'desktop', 'mobile'). Defaults to 'desktop'.",
+                "default": "desktop"
+            },
+            "safe": {
+                "type": "string",
+                "description": "Safe search setting."
+            },
+            "nfpr": {
+                "type": "string",
+                "description": "Filter option for non-personal results."
+            },
+            "tbs": {
+                "type": "string",
+                "description": "Additional search parameters."
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

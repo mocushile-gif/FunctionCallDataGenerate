@@ -1,0 +1,16 @@
+{
+    "name": "get_language_by_id",
+    "description": "This is a sub-function API for tool thefluentme.\nTool description: The AI-powered language pronunciation API with ChatGPT\nAPI description: Fetches language details from the FluentMe API using a given language ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "language_id": {
+                "type": "number",
+                "description": "The unique identifier for the language to be fetched."
+            }
+        },
+        "required": [
+            "language_id"
+        ]
+    }
+}

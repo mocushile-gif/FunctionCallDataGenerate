@@ -1,0 +1,17 @@
+{
+    "name": "locationsuggestions",
+    "description": "This is a sub-function API for tool zillow_base.\nTool description: [IMPROVED SEARCH API] These APIs provide a powerful and user-friendly real estate search feature. Users can enter an address, city, state, or ZIP code to search for apartments, houses, land, and homes for rent or sale in the United States. Additionally, they can customize their search results by using filters to specify price, square footage, property type, number of bedrooms and bathrooms, construction year, and various other criteria. Furthermore, users can view detailed information about e...\nAPI description: Fetches location suggestions using the Zillow API based on the provided location query.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The location query string. This can be a state, county, neighborhood, city, street name, or zip code.",
+                "default": "Brownsville, TX"
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

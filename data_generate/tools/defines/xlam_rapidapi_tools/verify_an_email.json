@@ -1,0 +1,28 @@
+{
+    "name": "verify_an_email",
+    "description": "This is a sub-function API for tool blaze_verify.\nTool description: Email Verification by Emailable is astonishingly easy and low-cost. Simple, reliable, and affordable list cleaning shouldn’t be hard to find. Emailable helps marketers and developers build powerful and effective marketing campaigns.<br><a href=\"https://emailable.com/docs/api?utm_source=rapid_api&utm_medium=web&utm_campaign=short_description\" style='font-weight:bold;'>View API Docs</a> | <a href=\"https://app.emailable.com/signup?utm_source=rapid_api&utm_medium=web&utm_campaign=short_description\" style='font-weight:bold;'>Click Here to Sign Up for an API Key</a>\nAPI description: Verify a single email. If a verification request takes longer than the timeout, you may retry this request for up to 5 minutes. After 5 minutes, further requests will count against your usage. The verification result will be returned when it is available.<br><br>",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to be verified."
+            },
+            "accept_all": {
+                "type": "boolean",
+                "description": "Whether to perform an accept-all check, which can increase response time. Default is False."
+            },
+            "smtp": {
+                "type": "boolean",
+                "description": "The SMTP step takes up a majority of the API's response time. If you would like to speed up your response times, you can disable this step. Default: true"
+            },
+            "timeout": {
+                "type": "number",
+                "description": "The timeout in seconds to wait for a response. Minimum is 2, and maximum is 30. Default is 5."
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

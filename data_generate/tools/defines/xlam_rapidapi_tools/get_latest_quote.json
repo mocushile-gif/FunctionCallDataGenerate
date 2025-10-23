@@ -1,0 +1,17 @@
+{
+    "name": "get_latest_quote",
+    "description": "This is a sub-function API for tool stockseyes.\nTool description: stocksEyes is a comprehensive API that provides real-time candlestick data (OHLCV - open, high, low, close, volume) for stocks and other securities. With stocksEyes, you have access to live prices and last traded prices, as well as a wealth of historical data. This powerful tool is ideal for traders and investors looking to stay up-to-date on the latest market trends and make informed investment decisions. With its user-friendly interface and reliable data sources, stocksEyes is the go-to sol...\nAPI description: The /getLatestQuote API returns latest realtime quote for for given trading symbol. The tradingSymbol parameter lets you select any valid trading symbol of stocks that are part of the Nifty 500 or the top 500 stocks, giving you access to the data you need for the stocks you're interested in.\nSee the list of trading symbols [here](https://stockseyes.com/group/all).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tradingsymbol": {
+                "type": "string",
+                "description": "Check the list of all supported tradingSymbols at [https://stockseyes.com/group/all](https://stockseyes.com/group/all) , you can download as csv also. Mainly, all major stocks which are part of nifty500, nifty 50, nifty next 50, nifty midcap50, nifty sector indices, nifty bank are supported. For exact details check the link.\n",
+                "default": "RELIANCE"
+            }
+        },
+        "required": [
+            "tradingsymbol"
+        ]
+    }
+}

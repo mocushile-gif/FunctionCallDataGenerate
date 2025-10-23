@@ -1,0 +1,31 @@
+{
+    "name": "list_of_districts",
+    "description": "This is a sub-function API for tool booking_com.\nTool description: Find all hotels, view prices, photos of the hotels, reviews. Find car rental deals. **Site:** booking.com **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters\nAPI description: Fetches a list of districts from Booking.com where hotels are available, based on various optional filters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the district."
+            },
+            "country": {
+                "type": "string",
+                "description": "The country associated with the district."
+            },
+            "city_id": {
+                "type": "string",
+                "description": "The city ID associated with the district."
+            },
+            "district_id": {
+                "type": "string",
+                "description": "The district ID."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for pagination purposes.",
+                "default": 0.0
+            }
+        },
+        "required": []
+    }
+}

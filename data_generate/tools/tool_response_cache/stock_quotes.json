@@ -1,0 +1,86 @@
+{
+    "{'symbols': 'MSFT'}": {
+        "error": "",
+        "response": [
+            {
+                "symbol": "MSFT",
+                "price": 337.99,
+                "volume": 12508692
+            }
+        ]
+    },
+    "{'symbols': 'EURUSD'}": {
+        "error": "",
+        "response": [
+            {
+                "symbol": "EURUSD",
+                "price": 1.09708,
+                "volume": 91577
+            }
+        ]
+    },
+    "{'symbols': 'USD,EUR,JPY,GBP'}": {
+        "error": "",
+        "response": [
+            {
+                "symbol": "USD",
+                "price": 41.84,
+                "volume": 65743
+            },
+            {
+                "symbol": "JPY",
+                "price": 134.521,
+                "volume": 0
+            },
+            {
+                "symbol": "GBP",
+                "price": 0.81345,
+                "volume": 0
+            }
+        ]
+    },
+    "{'symbols': 'AAPL,TSLA,GOOGL'}": {
+        "error": "",
+        "response": [
+            {
+                "symbol": "AAPL",
+                "price": 188.61,
+                "volume": 59832710
+            },
+            {
+                "symbol": "TSLA",
+                "price": 269.61,
+                "volume": 118746990
+            },
+            {
+                "symbol": "GOOGL",
+                "price": 116.45,
+                "volume": 35261842
+            }
+        ]
+    },
+    "{'symbols': 'TSLA'}": {
+        "error": "",
+        "response": "[{'symbol': 'TSLA', 'price': 383.68, 'volume': 90836396}]"
+    },
+    "{'symbols': 'AAPL,AMZN,NVDA'}": {
+        "error": "",
+        "response": "[{'symbol': 'AAPL', 'price': 200.85, 'volume': 69799163}, {'symbol': 'AMZN', 'price': 205.01, 'volume': 50837119}, {'symbol': 'NVDA', 'price': 135.13, 'volume': 323313507}]"
+    },
+    "{'symbols': 'PLTR,TSLA'}": {
+        "error": "",
+        "response": "[{'symbol': 'PLTR', 'price': 131.78, 'volume': 185897579}, {'symbol': 'TSLA', 'price': 346.46, 'volume': 123474938}]"
+    },
+    "{'symbols': 'AAPL,AMZN,TSLA,NFLX,GOOGL,MSFT,BRK.B,V,JNJ,NVDA'}": {
+        "error": "",
+        "response": "[{'symbol': 'AAPL', 'price': 200.7411, 'volume': 20899125}, {'symbol': 'AMZN', 'price': 205.575, 'volume': 17309674}, {'symbol': 'TSLA', 'price': 339.016, 'volume': 62222424}, {'symbol': 'NFLX', 'price': 1212.78, 'volume': 1431319}, {'symbol': 'GOOGL', 'price': 168.51, 'volume': 22505316}, {'symbol': 'MSFT', 'price': 460.54, 'volume': 8698696}, {'symbol': 'V', 'price': 363.27, 'volume': 2377622}, {'symbol': 'JNJ', 'price': 154.69, 'volume': 3500782}, {'symbol': 'NVDA', 'price': 137.3592, 'volume': 125184973}]"
+    },
+    "{'symbols': 'BRK.B'}": {
+        "error": "",
+        "response": "No data found - please ensure to provide a correct path and valid request parameters - If you are looking for historical or time related data, please note that there is no trading on bank holidays and weekends "
+    },
+    "{'symbols': 'AAPL,AMZN'}": {
+        "error": "",
+        "response": "[{'symbol': 'AAPL', 'price': 201.7, 'volume': 35314257}, {'symbol': 'AMZN', 'price': 206.65, 'volume': 28597264}]"
+    }
+}

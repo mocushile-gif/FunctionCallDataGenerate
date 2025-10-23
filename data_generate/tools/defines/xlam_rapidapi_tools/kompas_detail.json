@@ -1,0 +1,17 @@
+{
+    "name": "kompas_detail",
+    "description": "This is a sub-function API for tool indonesia_news.\nTool description: We are focused on delivering data from major news websites in Indonesia.\nAPI description: Fetches detailed information from the Kompas news API using a specified GUID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "guid": {
+                "type": "string",
+                "description": "The unique identifier for the news article to fetch details for.",
+                "default": ".xml.2023.06.20.114935178"
+            }
+        },
+        "required": [
+            "guid"
+        ]
+    }
+}

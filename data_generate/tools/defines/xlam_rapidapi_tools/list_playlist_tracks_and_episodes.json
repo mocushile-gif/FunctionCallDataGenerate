@@ -1,0 +1,25 @@
+{
+    "name": "list_playlist_tracks_and_episodes",
+    "description": "This is a sub-function API for tool spotify_scraper.\nTool description: An all-in-one scraper for scraping everything on Spotify, and a highly available download solution for tracks, lyrics and episode previews.\nAPI description: Lists tracks and episodes in a specified Spotify playlist.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "playlistid": {
+                "type": "string",
+                "description": "The ID of the playlist to list contents from.",
+                "default": "5782GLkrpvN8zbJQRjMaSW"
+            },
+            "offset": {
+                "type": "number",
+                "description": "The number of items to skip before starting to collect results. Defaults to `0`."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The max number of items returned per request. Defaults to `100`."
+            }
+        },
+        "required": [
+            "playlistid"
+        ]
+    }
+}

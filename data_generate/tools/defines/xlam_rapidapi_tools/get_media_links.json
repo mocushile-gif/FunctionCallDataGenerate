@@ -1,0 +1,16 @@
+{
+    "name": "get_media_links",
+    "description": "This is a sub-function API for tool watch_database.\nTool description: Our Watch Models API is a comprehensive and accurate data source of more than 20,000 watch models. This API allows users to retrieve detailed information about each model, including brand, model name, release date, features, and more. This data can be easily integrated into a wide range of use cases, such as e-commerce, watch retailers, watch collectors, research and development and watch repair.  Our API is constantly updated and maintained to ensure that the data provided is accurate and co...\nAPI description: Fetches media links associated with a given watch ID from the Watch Database API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "watchid": {
+                "type": "string",
+                "description": "The unique identifier for the watch whose media links are to be fetched."
+            }
+        },
+        "required": [
+            "watchid"
+        ]
+    }
+}

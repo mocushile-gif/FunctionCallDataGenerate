@@ -1,0 +1,17 @@
+{
+    "name": "symbols_get_peers",
+    "description": "This is a sub-function API for tool seeking_alpha.\nTool description: Query for news, market moving, price quotes, chart, indices, analysis from investors and experts, etc...\nAPI description: Fetches the peer symbols of a given stock symbol using the Seeking Alpha API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol to query for peers. Multiple symbols can be queried by separating them with a comma (e.g. 'aapl,tsla').",
+                "default": "aapl"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

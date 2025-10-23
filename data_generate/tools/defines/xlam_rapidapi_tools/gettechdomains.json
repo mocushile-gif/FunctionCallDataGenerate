@@ -1,0 +1,17 @@
+{
+    "name": "gettechdomains",
+    "description": "This is a sub-function API for tool runs_tech.\nTool description: Find the technologies that powers a company\nAPI description: Retrieve the domains that use a specific technology.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tech": {
+                "type": "string",
+                "description": "The name of the technology to search for.",
+                "default": "g-suite"
+            }
+        },
+        "required": [
+            "tech"
+        ]
+    }
+}

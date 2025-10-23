@@ -1,0 +1,17 @@
+{
+    "name": "v1_dictionary",
+    "description": "This is a sub-function API for tool dictionary_by_api_ninjas.\nTool description: Look up any word in the English dictionary. See more info at https://api-ninjas.com/api/dictionary.\nAPI description: Fetches the definition of a given word using the API Ninjas Dictionary API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "word": {
+                "type": "string",
+                "description": "The word to look up.",
+                "default": "bright"
+            }
+        },
+        "required": [
+            "word"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "get_financial_time_series_daily",
+    "description": "This is a sub-function API for tool synthetic_financial_data.\nTool description: Provides synthetic financial datasets that can be used in the development of algorithmic trading models.\nAPI description: Returns synthetic financial time series (Date, Price Return) for the specified symbol. \n\nParameters:\nasset_class = [equity, bond, commodity, mixed]\nsymbol = [0000...0999] \nsize = [compact, full]  (size = compact returns the most recent 252 data points)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The symbol identifying the financial instrument (e.g., '0001').",
+                "default": "0008"
+            },
+            "asset_class": {
+                "type": "string",
+                "description": "The category of the financial instrument (e.g., equity, bond, commodity, mixed).",
+                "default": "equity"
+            },
+            "size": {
+                "type": "string",
+                "description": "The size of the data set to return. Options are 'compact' for the most recent 252 data points, or 'full' for all available data. Defaults to 'full'.",
+                "default": "full"
+            }
+        },
+        "required": [
+            "symbol",
+            "asset_class"
+        ]
+    }
+}

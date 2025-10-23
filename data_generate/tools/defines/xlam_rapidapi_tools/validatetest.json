@@ -1,0 +1,21 @@
+{
+    "name": "validatetest",
+    "description": "This is a sub-function API for tool phonenumbervalidate.\nTool description: Validate any phone number in any country\nAPI description: Validate any phone number from any country using the given RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "number": {
+                "type": "string",
+                "description": "1_ Option: local format (without prefix):\nExample: 94887799\n\n2_ Option: format E 164:\nRecommended: starting with symbol + followed by country prefix and number, without blank spaces\nRemark: the + symbol in a url is escaped for the text %2B leaving %2B59894887799\nExample: +59894887799 \n\n1_ Opción: formato local (sin prefijo):\nEjemplo: 94887799\n\n2_ Opción: formato E 164:\nRecomendado: comenzando con símbolo + seguido de prefijo país y número, sin espacios en blanco\nObservación: el símbolo + en una url se escap",
+                "default": "+59894887766"
+            },
+            "country": {
+                "type": "string",
+                "description": "Format: ISO 3166-1 alpha-2 code\nRemark: in capital letters.\nOptional if the number parameter starts with the + symbol \n\nFormato: ISO 3166-1 alpha-2 code\nObservación: en mayúsculas.\nOpcional si el parametro number comienza con el símbolo +"
+            }
+        },
+        "required": [
+            "number"
+        ]
+    }
+}

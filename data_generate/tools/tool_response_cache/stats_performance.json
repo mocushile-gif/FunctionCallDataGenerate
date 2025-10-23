@@ -1,0 +1,42 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{\"date\":\"2022-08-13\",\"featured\":{\"classic\":{\"profit_loss\":6.94,\"winning_percentage\":58.33,\"count\":24,\"count_won\":14,\"count_lost\":10,\"avg_prob\":48.63,\"avg_odd\":2.28},\"ou25\":{\"profit_loss\":2.63,\"winning_percentage\":66.67,\"count\":24,\"count_won\":16,\"count_lost\":8,\"avg_prob\":58.83,\"avg_odd\":1.72},\"both\":{\"profit_loss\":6.27,\"winning_percentage\":70.83,\"count\":24,\"count_won\":17,\"count_lost\":7,\"avg_prob\":62.88,\"avg_odd\":1.85}},\"all\":{\"classic\":{\"profit_loss\":-71.56,\"winning_percentage\":44.31,\"count\":817,\"count_won\":362,\"count_lost\":455,\"avg_prob\":47.3,\"avg_odd\":2.46},\"ou25\":{\"profit_loss\":-44.11,\"winning_percentage\":54.35,\"count\":817,\"count_won\":444,\"count_lost\":373,\"avg_prob\":63.37,\"avg_odd\":1.79},\"both\":{\"profit_loss\":-41.6,\"winning_percentage\":49.94,\"count\":817,\"count_won\":408,\"count_lost\":409,\"avg_prob\":62.3,\"avg_odd\":1.84}}}"
+    },
+    "{'date': '2025-06-02'}": {
+        "error": "",
+        "response": "{'date': '2025-06-02', 'featured': {'classic': {'profit_loss': -2, 'winning_percentage': 0, 'count': 2, 'count_won': 0, 'count_lost': 2, 'avg_prob': 39.5, 'avg_odd': 2.98}, 'ou25': {'profit_loss': -2, 'winning_percentage': 0, 'count': 2, 'count_won': 0, 'count_lost': 2, 'avg_prob': 58, 'avg_odd': 1.65}, 'both': {'profit_loss': 1.85, 'winning_percentage': 100, 'count': 2, 'count_won': 2, 'count_lost': 0, 'avg_prob': 53.5, 'avg_odd': 1.92}}, 'all': {'classic': {'profit_loss': -6.82, 'winning_percentage': 22.22, 'count': 9, 'count_won': 2, 'count_lost': 7, 'avg_prob': 45.33, 'avg_odd': 3.22}, 'ou25': {'profit_loss': -8, 'winning_percentage': 11.11, 'count': 9, 'count_won': 1, 'count_lost': 8, 'avg_prob': 57.89, 'avg_odd': 1.87}, 'both': {'profit_loss': 0.9, 'winning_percentage': 55.56, 'count': 9, 'count_won': 5, 'count_lost': 4, 'avg_prob': 61.56, 'avg_odd': 1.89}}}"
+    },
+    "{'date': '2025-06-03'}": {
+        "error": "",
+        "response": "{'date': '2025-06-03', 'featured': {'classic': {'profit_loss': -1.67, 'winning_percentage': 40, 'count': 5, 'count_won': 2, 'count_lost': 3, 'avg_prob': 48.4, 'avg_odd': 2.19}, 'ou25': {'profit_loss': -0.49, 'winning_percentage': 60, 'count': 5, 'count_won': 3, 'count_lost': 2, 'avg_prob': 69.8, 'avg_odd': 1.53}, 'both': {'profit_loss': -0.1, 'winning_percentage': 60, 'count': 5, 'count_won': 3, 'count_lost': 2, 'avg_prob': 59.2, 'avg_odd': 1.81}}, 'all': {'classic': {'profit_loss': -4.52, 'winning_percentage': 38.46, 'count': 13, 'count_won': 5, 'count_lost': 8, 'avg_prob': 50, 'avg_odd': 2.76}, 'ou25': {'profit_loss': -5.49, 'winning_percentage': 38.46, 'count': 13, 'count_won': 5, 'count_lost': 8, 'avg_prob': 66.08, 'avg_odd': 1.61}, 'both': {'profit_loss': 0.62, 'winning_percentage': 61.54, 'count': 13, 'count_won': 8, 'count_lost': 5, 'avg_prob': 59, 'avg_odd': 1.82}}}"
+    },
+    "{'date': '2025-06-10'}": {
+        "error": "",
+        "response": "{'date': '2025-06-10', 'featured': {'classic': {}, 'ou25': {}, 'both': {}}, 'all': {'classic': {}, 'ou25': {}, 'both': {}}}"
+    },
+    "{'date': '2022-08-13'}": {
+        "error": "",
+        "response": "{'date': '2022-08-13', 'featured': {'classic': {'profit_loss': 6.94, 'winning_percentage': 58.33, 'count': 24, 'count_won': 14, 'count_lost': 10, 'avg_prob': 48.63, 'avg_odd': 2.28}, 'ou25': {'profit_loss': 2.63, 'winning_percentage': 66.67, 'count': 24, 'count_won': 16, 'count_lost': 8, 'avg_prob': 58.83, 'avg_odd': 1.72}, 'both': {'profit_loss': 6.27, 'winning_percentage': 70.83, 'count': 24, 'count_won': 17, 'count_lost': 7, 'avg_prob': 62.88, 'avg_odd': 1.85}}, 'all': {'classic': {'profit_loss': -71.56, 'winning_percentage': 44.31, 'count': 817, 'count_won': 362, 'count_lost': 455, 'avg_prob': 47.3, 'avg_odd': 2.46}, 'ou25': {'profit_loss': -44.11, 'winning_percentage': 54.35, 'count': 817, 'count_won': 444, 'count_lost': 373, 'avg_prob': 63.37, 'avg_odd': 1.79}, 'both': {'profit_loss': -41.6, 'winning_percentage': 49.94, 'count': 817, 'count_won': 408, 'count_lost': 409, 'avg_prob': 62.3, 'avg_odd': 1.84}}}"
+    },
+    "{'date': '2022-08-20'}": {
+        "error": "",
+        "response": "{'date': '2022-08-20', 'featured': {'classic': {}, 'ou25': {}, 'both': {}}, 'all': {'classic': {'profit_loss': 0.59, 'winning_percentage': 40, 'count': 10, 'count_won': 4, 'count_lost': 6, 'avg_prob': 45.4, 'avg_odd': 2.39}, 'ou25': {'profit_loss': 0.97, 'winning_percentage': 70, 'count': 10, 'count_won': 7, 'count_lost': 3, 'avg_prob': 58.9, 'avg_odd': 1.77}, 'both': {'profit_loss': 0.38, 'winning_percentage': 60, 'count': 10, 'count_won': 6, 'count_lost': 4, 'avg_prob': 57.7, 'avg_odd': 2.44}}}"
+    },
+    "{'date': '2025-06-14'}": {
+        "error": "",
+        "response": "{'date': '2025-06-14', 'featured': {'classic': {}, 'ou25': {}, 'both': {}}, 'all': {'classic': {}, 'ou25': {}, 'both': {}}}"
+    },
+    "{'date': '2025-06-13'}": {
+        "error": "",
+        "response": "{'date': '2025-06-13', 'featured': {'classic': {'profit_loss': -0.9, 'winning_percentage': 25, 'count': 4, 'count_won': 1, 'count_lost': 3, 'avg_prob': 47.5, 'avg_odd': 2.46}, 'ou25': {'profit_loss': -2.56, 'winning_percentage': 25, 'count': 4, 'count_won': 1, 'count_lost': 3, 'avg_prob': 57.5, 'avg_odd': 1.78}, 'both': {'profit_loss': 1.67, 'winning_percentage': 75, 'count': 4, 'count_won': 3, 'count_lost': 1, 'avg_prob': 53, 'avg_odd': 1.85}}, 'all': {'classic': {'profit_loss': -0.9, 'winning_percentage': 20, 'count': 5, 'count_won': 1, 'count_lost': 4, 'avg_prob': 46.4, 'avg_odd': 2.46}, 'ou25': {'profit_loss': -2.56, 'winning_percentage': 20, 'count': 5, 'count_won': 1, 'count_lost': 4, 'avg_prob': 57.6, 'avg_odd': 1.78}, 'both': {'profit_loss': 1.67, 'winning_percentage': 80, 'count': 5, 'count_won': 4, 'count_lost': 1, 'avg_prob': 53.2, 'avg_odd': 1.85}}}"
+    },
+    "{'date': '2023-01-01'}": {
+        "error": "",
+        "response": "{'date': '2023-01-01', 'featured': {'classic': {}, 'ou25': {}, 'both': {}}, 'all': {'classic': {}, 'ou25': {}, 'both': {}}}"
+    },
+    "{'date': '2023-01-06'}": {
+        "error": "",
+        "response": "{'date': '2023-01-06', 'featured': {'classic': {}, 'ou25': {}, 'both': {}}, 'all': {'classic': {}, 'ou25': {}, 'both': {}}}"
+    }
+}

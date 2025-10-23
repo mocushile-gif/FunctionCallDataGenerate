@@ -1,0 +1,30 @@
+{
+    "name": "list_comments",
+    "description": "This is a sub-function API for tool tiktok_private.\nTool description: Fastest,  Highly Maintained TikTok API,  Build For Massive TikTok Scraping. Get TikTok User Profile, Post, Feed, Trends, Hashtags, Music and Download Video Without Watermark.\nAPI description: Fetches comments for the specified TikTok post using the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "aweme_id": {
+                "type": "string",
+                "description": "The ID of the TikTok post for which to retrieve comments."
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of comments to retrieve. Defaults to 10.",
+                "default": 10.0
+            },
+            "cursor": {
+                "type": "number",
+                "description": "The position from where to start retrieving comments. Defaults to 0.",
+                "default": 0.0
+            },
+            "proxy": {
+                "type": "string",
+                "description": "The proxy server to use for the request. Defaults to None."
+            }
+        },
+        "required": [
+            "aweme_id"
+        ]
+    }
+}

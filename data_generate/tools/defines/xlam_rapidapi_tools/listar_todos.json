@@ -1,0 +1,17 @@
+{
+    "name": "listar_todos",
+    "description": "This is a sub-function API for tool dataestado.\nTool description: Un esfuerzo por recopilar información de las instituciones públicas de la Administración Central del Estado chileno.\nAPI description: Fetch a list of all ministries and subsecretariats using the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "todos": {
+                "type": "string",
+                "description": "The endpoint to retrieve the list of ministries and subsecretariats.",
+                "default": "ministerios"
+            }
+        },
+        "required": [
+            "todos"
+        ]
+    }
+}

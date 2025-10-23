@@ -1,0 +1,15 @@
+{
+    "name": "generate_litecoin_wallet",
+    "description": "This is a sub-function API for tool litecoin_wallet.\nTool description: litecoin blockchain wallet that support creating wallets & addresses, sending and receiving Litecoins and many more!\nAPI description: Litecoin wallet API supports BIP44 HD wallets. It is very convenient and secure, since it can generate 2^31 addresses from 1 mnemonic phrase. Mnemonic phrase consists of 24 special words in defined order and can restore access to all generated addresses and private keys.\nEach address is identified by 3 main values:\n\nPrivate Key - your secret value, which should never be revealed\nPublic Key - public address to be published\nDerivation index - index of generated address\nIt follows BIP44 specification and gener",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mnemonic": {
+                "type": "string",
+                "description": "string <= 500 characters ( 24 words )\nOPTIONAL\nMnemonic to use for generation of extended public and private keys.\nexample :\n'next one hip dutch manage shock glide gospel arch vacuum ski biology hood tip wall invite flame cycle file clinic head among device autumn'",
+                "default": "next one hip dutch manage shock glide gospel arch vacuum ski biology hood tip wall invite flame cycle file clinic head among device autumn"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "type_portfolio_get_asset_allocation",
+    "description": "This is a sub-function API for tool ms_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc... to create a site/application such as morningstar.com\nAPI description: Retrieves the asset allocation for a specified security as displayed in the Portfolio tab.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of asset to retrieve information for. Must be either 'etf' or 'fund'.",
+                "default": "etf"
+            },
+            "securityid": {
+                "type": "string",
+                "description": "The value of securityId field returned in …/market/v2/get-returns",
+                "default": "F00000O2CG"
+            }
+        },
+        "required": [
+            "type",
+            "securityid"
+        ]
+    }
+}

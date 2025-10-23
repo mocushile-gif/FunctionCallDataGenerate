@@ -1,0 +1,17 @@
+{
+    "name": "get_user_id_by_username",
+    "description": "This is a sub-function API for tool instagram_looter.\nTool description: Access Instagram Data with Precision and Speed! Utilize Intelligent Request Filtering for Guaranteed 99.99% Response.\nAPI description: Fetch the Instagram user ID associated with a given username.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username for which the user ID needs to be retrieved.",
+                "default": "abdallhdev"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

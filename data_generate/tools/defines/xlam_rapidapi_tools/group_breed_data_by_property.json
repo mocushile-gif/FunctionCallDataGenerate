@@ -1,0 +1,23 @@
+{
+    "name": "group_breed_data_by_property",
+    "description": "This is a sub-function API for tool dog_breeds.\nTool description: The API is scraping the Wikipedia pages for dogs in order to collect data\nAPI description: This endpoint will group the available data by the given property and the property value. The property can be any property of the JSON response object including the properties of the meta object. \n\nThe API will return all dog breeds that are matching the property value that is given.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "property": {
+                "type": "string",
+                "description": "The property by which to group the cat breed data.",
+                "default": "breed_status"
+            },
+            "property_value": {
+                "type": "string",
+                "description": "The value of the property to group the cat breed data.",
+                "default": "extinct"
+            }
+        },
+        "required": [
+            "property",
+            "property_value"
+        ]
+    }
+}

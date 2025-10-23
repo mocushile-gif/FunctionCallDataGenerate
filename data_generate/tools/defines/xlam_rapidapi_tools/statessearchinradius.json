@@ -1,0 +1,26 @@
+{
+    "name": "statessearchinradius",
+    "description": "This is a sub-function API for tool mapreflex.\nTool description: US Zip Codes, Cities, States and Counties boundaries API, which provides info in common GeoJson format for instant integration with existing maps like Google, etc., or with your custom application.\nAPI description: Get States boundaries in circle with given radius (in GeoJSON format). For a quick view, copy and paste results: http://geojsonlint.com",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "latitude": {
+                "type": "number",
+                "description": "Latitude of the central point around which to search for state boundaries."
+            },
+            "radius": {
+                "type": "number",
+                "description": "Radius in miles around the central point within which to search. Minimum value is 1 mile, and maximum value is 50 miles."
+            },
+            "longitude": {
+                "type": "number",
+                "description": "Longitude of the central point around which to search for state boundaries."
+            }
+        },
+        "required": [
+            "latitude",
+            "radius",
+            "longitude"
+        ]
+    }
+}

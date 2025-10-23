@@ -1,0 +1,17 @@
+{
+    "name": "discounted_cash_flow_models_dcf_s",
+    "description": "This is a sub-function API for tool marketci_analytics.\nTool description: Stock Market Endpoint for Price Forecasts, Probability, Cash Flow Models , and Peer Comps \nAPI description: Fetches the Discounted Cash Flow (DCF) model for a given stock symbol using MarketCI Analytics API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to fetch the DCF model.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

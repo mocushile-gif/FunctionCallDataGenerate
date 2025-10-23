@@ -1,0 +1,22 @@
+{
+    "name": "billboard_hot_100",
+    "description": "This is a sub-function API for tool billboard_v2.\nTool description: Billboard API: Billboard Hot 100, Billboard 200, Artist 100, Billboard Global 200, Top Artists, Year-End Hot 100 Songs, Year-End Billboard Global 200, Year-End Billboard 200 Albums, Year-End Top Artists, Greatest of All Time Artists, Greatest of All Time Songs of the Summer, Greatest of All Time Hot 100 Songs and much more!\nAPI description: Fetch the Billboard Hot 100 chart data for a given date and range.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to fetch the chart data in 'YYYY-MM-DD' format.",
+                "default": "2022-07-07"
+            },
+            "range": {
+                "type": "string",
+                "description": "The range of chart positions to return, specified in the format 'start-end'. Default is '1-10'.",
+                "default": "1-10"
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

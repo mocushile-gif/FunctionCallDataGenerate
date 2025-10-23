@@ -1,0 +1,23 @@
+{
+    "name": "products_v2_list_recommended",
+    "description": "This is a sub-function API for tool target.\nTool description: Query for stores, categories, products, etc ... as on official websites\nAPI description: This function retrieves a list of recommended products from the Target API based on a given store ID and TCINs.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "store_id": {
+                "type": "number",
+                "description": "The ID of the store for which to get recommendations. This value should match the location ID returned from a previous call to the stores/list endpoint.",
+                "default": 911.0
+            },
+            "tcins": {
+                "type": "number",
+                "description": "The TCINs (Target.com Item Numbers) for which to get product recommendations. This value should come from a previous call to the products/list endpoint.",
+                "default": 54191097.0
+            }
+        },
+        "required": [
+            "store_id",
+            "tcins"
+        ]
+    }
+}

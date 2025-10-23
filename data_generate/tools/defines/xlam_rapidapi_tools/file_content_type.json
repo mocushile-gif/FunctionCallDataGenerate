@@ -1,0 +1,22 @@
+{
+    "name": "file_content_type",
+    "description": "This is a sub-function API for tool pragmavantapi.\nTool description: Practical API for streamlined business and cloud applications.\nAPI description: Determines the content type of a file from a given URL source using the Pragmavant API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "source": {
+                "type": "string",
+                "description": "The URL of the file for which the content type needs to be determined.",
+                "default": "http://google.com"
+            },
+            "cache_key": {
+                "type": "string",
+                "description": "A cache key to use for caching the request. Defaults to 'c7b920f57e553df2bb68272f61570210'.",
+                "default": "c7b920f57e553df2bb68272f61570210"
+            }
+        },
+        "required": [
+            "source"
+        ]
+    }
+}

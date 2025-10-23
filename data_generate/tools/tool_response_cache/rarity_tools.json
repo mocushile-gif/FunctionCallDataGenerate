@@ -1,0 +1,35 @@
+{
+    "{'slug': 'Tenerife'}": {
+        "error": "",
+        "response": {
+            "collection": "Tenerife",
+            "total_items": 5000,
+            "rarity_breakdown": {
+                "common_traits": [
+                    {
+                        "trait_type": "Background",
+                        "rarest": "Neon_Gradient (0.3%)"
+                    },
+                    {
+                        "trait_type": "Eyes",
+                        "rarest": "Holographic (1.2%)"
+                    }
+                ],
+                "average_rarity_score": 85.4,
+                "rarest_item": {
+                    "token_id": 1122,
+                    "rarity_rank": 1,
+                    "traits": [
+                        "Unique_Glow",
+                        "Limited_Edition"
+                    ]
+                }
+            },
+            "last_updated": "2023-09-20T14:30:00Z"
+        }
+    },
+    "{'slug': 'women-ape-yacht-club'}": {
+        "error": "",
+        "response": "{'basePropDefs': [{'name': 'id', 'type': 'primaryKey'}, {'name': 'legendary', 'type': 'category', 'pvs': [[None, 9992, 0], ['Legendary #1', 1, 0], ['Legendary #2', 1, 0], ['Legendary #3', 1, 0], ['Legendary #4', 1, 0], ['Legendary #5', 1, 0], ['Legendary #6', 1, 0], ['Legendary #7', 1, 0], ['Legendary #8', 1, 0]]}, {'name': 'Trait Count', 'type': 'category', 'pvs': [[1, 8, 0], [6, 5202, 0], [7, 4790, 0]]}, {'name': 'Background', 'type': 'category', 'pvs': [[None, 8, 0], ['Android Green', 641, 0], ['Broken Celeste', 603, 0], ['Broken Orchid', 656, 0], ['Caribbean Lines', 653, 0], ['Claret Rolls', 678, 0], ['Cream brown', 680, 0], ['Green Blue', 673, 0], ['Grey', 619, 0], ['Light Blue', 683, 0], ['Light Khaki', 668, 0], ['Light Purple', 665, 0], ['Light Violet', 672, 0], ['Orange', 669, 0], ['Rust Brown', 646, 0], ['Rust Haze', 680, 0], ['Shopping Bags #1', 51, 0], ['Shopping Bags #2', 55, 0]]}, {'name': 'Fur', 'type': 'category', 'pvs': [[None, 8, 0], ['Blue', 1212, 0], ['Brown', 1084, 0], ['Dark Brown', 580, 0], ['Dark Grey', 688, 0], ['Gold', 814, 0], ['Grey', 925, 0], ['Light Brown', 1023, 0], ['Light Yellow', 698, 0], ['Pink', 969, 0], ['Red', 1165, 0], ['White', 834, 0]]}, {'name': 'Hair', 'type': 'category', 'pvs': [[None, 8, 0], ['Blonde Hair', 1248, 0], ['Blonde Lights Hair', 877, 0], ['Blue Wavy Hair', 565, 0], ['Brown Short Hair', 732, 0], ['Brown Wavy Hair', 1182, 0], ['Captain Marvel Hair Cut', 74, 0], ['Curly Hair', 1243, 0], ['Egypt Hair', 843, 0], ['Japanese Hair', 517, 0], ['Maroon Short Hair', 744, 0], ['Punk Hair', 870, 0], ['Super Woman Hair', 81, 0], ['Two Braided Hair', 935, 0], ['Wonder Woman Hair', 81, 0]]}, {'name': 'Outfit', 'type': 'category', 'pvs': [[None, 8, 0], ['Black Party Dress', 1204, 0], ['Black Paterns', 612, 0], ['Blue Blouse', 864, 0], ['Bridal Dress', 1121, 0], ['Captain Marvel', 84, 0], ['Classic', 611, 0], ['Hawai T-Shirt', 710, 0], ['Party Dress', 852, 0], ['Punk Dress', 945, 0], ['Red Bikini', 600, 0], ['Sleeveless Shirt', 1041, 0], ['Super Woman', 76, 0], ['Wonder Woman'"
+    }
+}

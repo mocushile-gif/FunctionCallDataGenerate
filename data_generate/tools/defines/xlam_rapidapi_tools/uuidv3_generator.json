@@ -1,0 +1,23 @@
+{
+    "name": "uuidv3_generator",
+    "description": "This is a sub-function API for tool uuid_generator.\nTool description: UUID generator\nAPI description: Generates a UUIDv3 based on the provided namespace and name using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "namespace": {
+                "type": "string",
+                "description": "The namespace to use for generating the UUIDv3. Allowed values are 'dns', 'url', 'oid', 'x500', and 'nil'.",
+                "default": "nil"
+            },
+            "name": {
+                "type": "string",
+                "description": "The name to use for generating the UUIDv3.",
+                "default": "test"
+            }
+        },
+        "required": [
+            "namespace",
+            "name"
+        ]
+    }
+}

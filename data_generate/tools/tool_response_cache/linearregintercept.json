@@ -1,0 +1,298 @@
+{
+    "{'symbol': 'AAPL', 'interval': '1min'}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "symbol": "AAPL",
+                "interval": "1min",
+                "currency": "USD",
+                "exchange_timezone": "America/New_York",
+                "exchange": "NASDAQ",
+                "mic_code": "XNGS",
+                "type": "Common Stock",
+                "indicator": {
+                    "name": "LINEARREGINTERCEPT - Linear Regression Intercept",
+                    "series_type": "close",
+                    "time_period": 9
+                }
+            },
+            "values": [
+                {
+                    "datetime": "2023-07-11 14:01:00",
+                    "linearregintercept": "187.38744"
+                },
+                {
+                    "datetime": "2023-07-11 14:00:00",
+                    "linearregintercept": "187.34989"
+                },
+                {
+                    "datetime": "2023-07-11 13:59:00",
+                    "linearregintercept": "187.30221"
+                },
+                {
+                    "datetime": "2023-07-11 13:58:00",
+                    "linearregintercept": "187.25494"
+                },
+                {
+                    "datetime": "2023-07-11 13:57:00",
+                    "linearregintercept": "187.24022"
+                },
+                {
+                    "datetime": "2023-07-11 13:56:00",
+                    "linearregintercept": "187.23567"
+                },
+                {
+                    "datetime": "2023-07-11 13:55:00",
+                    "linearregintercept": "187.20812"
+                },
+                {
+                    "datetime": "2023-07-11 13:54:00",
+                    "linearregintercept": "187.21301"
+                },
+                {
+                    "datetime": "2023-07-11 13:53:00",
+                    "linearregintercept": "187.23568"
+                },
+                {
+                    "datetime": "2023-07-11 13:52:00",
+                    "linearregintercept": "187.27899"
+                },
+                {
+                    "datetime": "2023-07-11 13:51:00",
+                    "linearregintercept": "187.32396"
+                },
+                {
+                    "datetime": "2023-07-11 13:50:00",
+                    "linearregintercept": "187.36085"
+                },
+                {
+                    "datetime": "2023-07-11 13:49:00",
+                    "linearregintercept": "187.38687"
+                },
+                {
+                    "datetime": "2023-07-11 13:48:00",
+                    "linearregintercept": "187.41178"
+                },
+                {
+                    "datetime": "2023-07-11 13:47:00",
+                    "linearregintercept": "187.45203"
+                },
+                {
+                    "datetime": "2023-07-11 13:46:00",
+                    "linearregintercept": "187.45810"
+                },
+                {
+                    "datetime": "2023-07-11 13:45:00",
+                    "linearregintercept": "187.45629"
+                },
+                {
+                    "datetime": "2023-07-11 13:44:00",
+                    "linearregintercept": "187.45429"
+                },
+                {
+                    "datetime": "2023-07-11 13:43:00",
+                    "linearregintercept": "187.46307"
+                },
+                {
+                    "datetime": "2023-07-11 13:42:00",
+                    "linearregintercept": "187.46575"
+                },
+                {
+                    "datetime": "2023-07-11 13:41:00",
+                    "linearregintercept": "187.47158"
+                },
+                {
+                    "datetime": "2023-07-11 13:40:00",
+                    "linearregintercept": "187.47061"
+                },
+                {
+                    "datetime": "2023-07-11 13:39:00",
+                    "linearregintercept": "187.45521"
+                },
+                {
+                    "datetime": "2023-07-11 13:38:00",
+                    "linearregintercept": "187.44592"
+                },
+                {
+                    "datetime": "2023-07-11 13:37:00",
+                    "linearregintercept": "187.43330"
+                },
+                {
+                    "datetime": "2023-07-11 13:36:00",
+                    "linearregintercept": "187.40908"
+                },
+                {
+                    "datetime": "2023-07-11 13:35:00",
+                    "linearregintercept": "187.40035"
+                },
+                {
+                    "datetime": "2023-07-11 13:34:00",
+                    "linearregintercept": "187.40959"
+                },
+                {
+                    "datetime": "2023-07-11 13:33:00",
+                    "linearregintercept": "187.42243"
+                },
+                {
+                    "datetime": "2023-07-11 13:32:00",
+                    "linearregintercept": "187.44063"
+                }
+            ],
+            "status": "ok"
+        }
+    },
+    "{'symbol': 'AAPL', 'interval': '1min', 'outputsize': 30}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "symbol": "AAPL",
+                "interval": "1min",
+                "currency": "USD",
+                "exchange_timezone": "America/New_York",
+                "exchange": "NASDAQ",
+                "mic_code": "XNGS",
+                "type": "Common Stock",
+                "indicator": {
+                    "name": "LINEARREGINTERCEPT - Linear Regression Intercept",
+                    "series_type": "close",
+                    "time_period": 9
+                }
+            },
+            "values": [
+                {
+                    "datetime": "2023-07-14 15:59:00",
+                    "linearregintercept": "190.39975"
+                },
+                {
+                    "datetime": "2023-07-14 15:58:00",
+                    "linearregintercept": "190.45411"
+                },
+                {
+                    "datetime": "2023-07-14 15:57:00",
+                    "linearregintercept": "190.42351"
+                },
+                {
+                    "datetime": "2023-07-14 15:56:00",
+                    "linearregintercept": "190.41124"
+                },
+                {
+                    "datetime": "2023-07-14 15:55:00",
+                    "linearregintercept": "190.38531"
+                },
+                {
+                    "datetime": "2023-07-14 15:54:00",
+                    "linearregintercept": "190.41241"
+                },
+                {
+                    "datetime": "2023-07-14 15:53:00",
+                    "linearregintercept": "190.44681"
+                },
+                {
+                    "datetime": "2023-07-14 15:52:00",
+                    "linearregintercept": "190.43688"
+                },
+                {
+                    "datetime": "2023-07-14 15:51:00",
+                    "linearregintercept": "190.44571"
+                },
+                {
+                    "datetime": "2023-07-14 15:50:00",
+                    "linearregintercept": "190.47133"
+                },
+                {
+                    "datetime": "2023-07-14 15:49:00",
+                    "linearregintercept": "190.46824"
+                },
+                {
+                    "datetime": "2023-07-14 15:48:00",
+                    "linearregintercept": "190.43861"
+                },
+                {
+                    "datetime": "2023-07-14 15:47:00",
+                    "linearregintercept": "190.39398"
+                },
+                {
+                    "datetime": "2023-07-14 15:46:00",
+                    "linearregintercept": "190.29191"
+                },
+                {
+                    "datetime": "2023-07-14 15:45:00",
+                    "linearregintercept": "190.25035"
+                },
+                {
+                    "datetime": "2023-07-14 15:44:00",
+                    "linearregintercept": "190.23861"
+                },
+                {
+                    "datetime": "2023-07-14 15:43:00",
+                    "linearregintercept": "190.22053"
+                },
+                {
+                    "datetime": "2023-07-14 15:42:00",
+                    "linearregintercept": "190.24648"
+                },
+                {
+                    "datetime": "2023-07-14 15:41:00",
+                    "linearregintercept": "190.23386"
+                },
+                {
+                    "datetime": "2023-07-14 15:40:00",
+                    "linearregintercept": "190.25380"
+                },
+                {
+                    "datetime": "2023-07-14 15:39:00",
+                    "linearregintercept": "190.24897"
+                },
+                {
+                    "datetime": "2023-07-14 15:38:00",
+                    "linearregintercept": "190.23824"
+                },
+                {
+                    "datetime": "2023-07-14 15:37:00",
+                    "linearregintercept": "190.23674"
+                },
+                {
+                    "datetime": "2023-07-14 15:36:00",
+                    "linearregintercept": "190.26319"
+                },
+                {
+                    "datetime": "2023-07-14 15:35:00",
+                    "linearregintercept": "190.30465"
+                },
+                {
+                    "datetime": "2023-07-14 15:34:00",
+                    "linearregintercept": "190.32510"
+                },
+                {
+                    "datetime": "2023-07-14 15:33:00",
+                    "linearregintercept": "190.37693"
+                },
+                {
+                    "datetime": "2023-07-14 15:32:00",
+                    "linearregintercept": "190.38115"
+                },
+                {
+                    "datetime": "2023-07-14 15:31:00",
+                    "linearregintercept": "190.39836"
+                },
+                {
+                    "datetime": "2023-07-14 15:30:00",
+                    "linearregintercept": "190.37797"
+                }
+            ],
+            "status": "ok"
+        }
+    },
+    "{'symbol': 'AAPL', 'interval': '1h', 'series_type': 'close'}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'AAPL', 'interval': '1h', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'LINEARREGINTERCEPT - Linear Regression Intercept', 'series_type': 'close', 'time_period': 9}}, 'values': [{'datetime': '2025-06-06 15:30:00', 'linearregintercept': '201.19333'}, {'datetime': '2025-06-06 14:30:00', 'linearregintercept': '201.047708'}, {'datetime': '2025-06-06 13:30:00', 'linearregintercept': '201.33505'}, {'datetime': '2025-06-06 12:30:00', 'linearregintercept': '202.029685'}, {'datetime': '2025-06-06 11:30:00', 'linearregintercept': '203.067639'}, {'datetime': '2025-06-06 10:30:00', 'linearregintercept': '203.036575'}, {'datetime': '2025-06-06 09:30:00', 'linearregintercept': '203.27448'}, {'datetime': '2025-06-05 15:30:00', 'linearregintercept': '203.77485'}, {'datetime': '2025-06-05 14:30:00', 'linearregintercept': '203.58898'}, {'datetime': '2025-06-05 13:30:00', 'linearregintercept': '203.38323'}, {'datetime': '2025-06-05 12:30:00', 'linearregintercept': '203.10645'}, {'datetime': '2025-06-05 11:30:00', 'linearregintercept': '203.35097'}, {'datetime': '2025-06-05 10:30:00', 'linearregintercept': '204.012808'}, {'datetime': '2025-06-05 09:30:00', 'linearregintercept': '204.17326'}, {'datetime': '2025-06-04 15:30:00', 'linearregintercept': '203.88824'}, {'datetime': '2025-06-04 14:30:00', 'linearregintercept': '203.61831'}, {'datetime': '2025-06-04 13:30:00', 'linea"
+    },
+    "{'symbol': 'TSLA', 'interval': '1day', 'time_period': 30, 'series_type': 'close'}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'TSLA', 'interval': '1day', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'LINEARREGINTERCEPT - Linear Regression Intercept', 'series_type': 'close', 'time_period': 30}}, 'values': [{'datetime': '2025-06-06', 'linearregintercept': '286.10183'}, {'datetime': '2025-06-05', 'linearregintercept': '277.12407'}, {'datetime': '2025-06-04', 'linearregintercept': '266.56743'}, {'datetime': '2025-06-03', 'linearregintercept': '257.76626'}, {'datetime': '2025-06-02', 'linearregintercept': '249.058284'}, {'datetime': '2025-05-30', 'linearregintercept': '242.75818'}, {'datetime': '2025-05-29', 'linearregintercept': '237.38592'}, {'datetime': '2025-05-28', 'linearregintercept': '235.082131'}, {'datetime': '2025-05-27', 'linearregintercept': '233.12607'}, {'datetime': '2025-05-23', 'linearregintercept': '232.23878'}, {'datetime': '2025-05-22', 'linearregintercept': '230.50632'}, {'datetime': '2025-05-21', 'linearregintercept': '231.96037'}, {'datetime': '2025-05-20', 'linearregintercept': '227.043313'}, {'datetime': '2025-05-19', 'linearregintercept': '224.91733'}, {'datetime': '2025-05-16', 'linearregintercept': '224.16817'}, {'datetime': '2025-05-15', 'linearregintercept': '228.14099'}, {'datetime': '2025-05-14', 'linearregintercept': '234.13415'}, {'datetime': '2025-05-13', 'linearregintercept': '239.024385'}, {'datetime': '2025-05-12', 'linearregintercept': '242.33839'}, {'datetime': '2025-05-09', 'linearregintercept': '245.64669'}, {'datetime': '2025-05-08', 'linearregintercept': '249.18292'}, {'datetime': '2025-05-07', 'linearregintercept': '251.84953'}, {'datetime': '2025-05-06', 'linearregintercept': '256.065376'}, {'datetime': '2025-05-05', 'linearregintercept': '258.90923'}, {'datetime': '2025-05-02', 'linearregintercept': '258.29495'}, {'datetime': '2025-05-01', 'linearregintercept': '256.76787'}, {'datetime': '2025-04-30', 'linearregintercept': '255.072754'}, {'datetime': '2025-04-29', 'linearreg"
+    },
+    "{'symbol': 'TSLA', 'interval': '1day', 'outputsize': 30, 'series_type': 'close', 'format': 'json'}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'TSLA', 'interval': '1day', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'LINEARREGINTERCEPT - Linear Regression Intercept', 'series_type': 'close', 'time_period': 9}}, 'values': [{'datetime': '2025-06-09', 'linearregintercept': '365.80688'}, {'datetime': '2025-06-06', 'linearregintercept': '372.11777'}, {'datetime': '2025-06-05', 'linearregintercept': '364.33089'}, {'datetime': '2025-06-04', 'linearregintercept': '351.91956'}, {'datetime': '2025-06-03', 'linearregintercept': '343.84911'}, {'datetime': '2025-06-02', 'linearregintercept': '341.79845'}, {'datetime': '2025-05-30', 'linearregintercept': '338.77311'}, {'datetime': '2025-05-29', 'linearregintercept': '339.60623'}, {'datetime': '2025-05-28', 'linearregintercept': '340.15978'}, {'datetime': '2025-05-27', 'linearregintercept': '343.25000'}, {'datetime': '2025-05-23', 'linearregintercept': '343.14445'}, {'datetime': '2025-05-22', 'linearregintercept': '333.79956'}, {'datetime': '2025-05-21', 'linearregintercept': '318.62890'}, {'datetime': '2025-05-20', 'linearregintercept': '299.80623'}, {'datetime': '2025-05-19', 'linearregintercept': '283.099117'}, {'datetime': '2025-05-16', 'linearregintercept': '270.18556'}, {'datetime': '2025-05-15', 'linearregintercept': '265.32956'}, {'datetime': '2025-05-14', 'linearregintercept': '266.15600'}, {'datetime': '2025-05-13', 'linearregintercept': '269.24244'},"
+    }
+}

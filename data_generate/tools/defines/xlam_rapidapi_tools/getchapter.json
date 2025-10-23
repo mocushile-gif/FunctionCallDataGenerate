@@ -1,0 +1,23 @@
+{
+    "name": "getchapter",
+    "description": "This is a sub-function API for tool holy_bible.\nTool description: The Best Bible API out there.\n\nThe Bible API is an easy-to-use web service that allows you to retrieve The Old Testament and The New Testament based on a chapter or selected verse. The API provides access to the King James Version (KJV) of the Bible, which is widely considered to be one of the most accurate and widely-used translations of the Bible in the English language.\nAPI description: Fetches a specific chapter from a specified book of the Bible using the Ajith Holy Bible API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "book": {
+                "type": "string",
+                "description": "The name of the book from the Bible.",
+                "default": "Luke"
+            },
+            "chapter": {
+                "type": "number",
+                "description": "The chapter number from the specified book.",
+                "default": 8.0
+            }
+        },
+        "required": [
+            "book",
+            "chapter"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "{}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'country': 'Australia'}": {
+        "error": "",
+        "response": []
+    },
+    "{'country': 'Australia', 'anonymity': 'high'}": {
+        "error": "",
+        "response": []
+    },
+    "{'type': 'SOCKS4', 'country': 'France', 'anonymity': 'high'}": {
+        "error": "",
+        "response": []
+    },
+    "{'type': 'SOCKS5', 'country': 'France', 'anonymity': 'high'}": {
+        "error": "",
+        "response": []
+    },
+    "{'anonymity': 'high', 'country': 'United Kingdom'}": {
+        "error": "",
+        "response": []
+    },
+    "{'type': 'https', 'country': 'CA', 'anonymity': 'high'}": {
+        "error": "",
+        "response": "[{'ip': '135.181.76.180', 'port': '60372', 'country': 'CA', 'types': [{'name': 'HTTPS', 'anonymity': 'unknown'}, {'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '1.4', 'checkedAt': '2024-11-27T04:00:39.833808'}, {'ip': '67.43.236.21', 'port': '8307', 'country': 'CA', 'types': [{'name': 'HTTPS', 'anonymity': 'unknown'}, {'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '0.51', 'checkedAt': '2024-11-27T11:00:15.561398'}, {'ip': '24.57.145.7', 'port': '8080', 'country': 'CA', 'types': [{'name': 'HTTPS', 'anonymity': 'unknown'}, {'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '0.26', 'checkedAt': '2024-11-28T21:00:15.346806'}, {'ip': '135.181.76.180', 'port': '60433', 'country': 'CA', 'types': [{'name': 'HTTPS', 'anonymity': 'unknown'}, {'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '1.09', 'checkedAt': '2024-11-29T04:00:35.721621'}]"
+    },
+    "{'type': 'http', 'country': ''}": {
+        "error": "",
+        "response": "[{'ip': '190.103.177.131', 'port': '80', 'country': 'AR', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '0.31', 'checkedAt': '2025-06-02T04:00:18.231660'}, {'ip': '47.56.110.204', 'port': '8989', 'country': 'US', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '0.31', 'checkedAt': '2025-06-02T04:00:17.928287'}, {'ip': '198.74.51.79', 'port': '8888', 'country': 'US', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '0.12', 'checkedAt': '2025-06-01T07:00:14.185707'}, {'ip': '154.65.39.7', 'port': '80', 'country': 'SN', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '2.44', 'checkedAt': '2025-06-02T02:00:35.826467'}, {'ip': '8.219.97.248', 'port': '80', 'country': 'US', 'types': [{'name': 'HTTPS', 'anonymity': 'unknown'}, {'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '0.94', 'checkedAt': '2025-06-02T02:00:44.448678'}, {'ip': '38.54.71.67', 'port': '80', 'country': 'US', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '1.68', 'checkedAt': '2025-06-02T04:00:25.468527'}, {'ip': '192.73.244.36', 'port': '80', 'country': 'US', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '1.7', 'checkedAt': '2025-06-02T04:00:21.849357'}, {'ip': '45.22.209.157', 'port': '8888', 'country': 'US', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '0.66', 'checkedAt': '2025-06-01T01:00:51.854280'}, {'ip': '147.182.180.242', 'port': '80', 'country': 'US', 'types': [{'na"
+    },
+    "{'anonymity': 'high', 'country': 'US', 'type': 'http'}": {
+        "error": "",
+        "response": "[{'ip': '47.56.110.204', 'port': '8989', 'country': 'US', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '0.32', 'checkedAt': '2025-06-09T10:00:14.900470'}, {'ip': '198.74.51.79', 'port': '8888', 'country': 'US', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '0.14', 'checkedAt': '2025-06-09T00:00:14.234073'}, {'ip': '8.219.97.248', 'port': '80', 'country': 'US', 'types': [{'name': 'HTTPS', 'anonymity': 'unknown'}, {'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '1.56', 'checkedAt': '2025-06-09T10:00:44.640920'}, {'ip': '38.54.71.67', 'port': '80', 'country': 'US', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '1.64', 'checkedAt': '2025-06-09T10:00:30.511498'}, {'ip': '192.73.244.36', 'port': '80', 'country': 'US', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '2.56', 'checkedAt': '2025-06-09T10:00:54.373679'}, {'ip': '147.182.180.242', 'port': '80', 'country': 'US', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '1.29', 'checkedAt': '2025-06-09T00:00:20.600948'}, {'ip': '162.214.165.203', 'port': '80', 'country': 'US', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '4.52', 'checkedAt': '2025-06-09T04:00:49.282568'}, {'ip': '35.209.198.222', 'port': '80', 'country': 'US', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '2.03', 'checkedAt': '2025-06-09T08:00:20.695228'}, {'ip': '138.68.235.51', 'port': '80', 'country': 'US', 'types': [{'"
+    },
+    "{'anonymity': 'high', 'country': 'CA', 'type': 'http'}": {
+        "error": "",
+        "response": "[{'ip': '159.203.61.169', 'port': '3128', 'country': 'CA', 'types': [{'name': 'HTTPS', 'anonymity': 'unknown'}, {'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '0.09', 'checkedAt': '2025-06-09T10:00:12.972296'}, {'ip': '158.69.118.135', 'port': '38080', 'country': 'CA', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '1.06', 'checkedAt': '2025-06-08T03:00:16.671115'}, {'ip': '67.43.236.18', 'port': '3927', 'country': 'CA', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '1.21', 'checkedAt': '2025-05-28T12:00:39.385550'}, {'ip': '66.70.235.23', 'port': '5454', 'country': 'CA', 'types': [{'name': 'HTTPS', 'anonymity': 'unknown'}, {'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '1.83', 'checkedAt': '2025-05-29T19:00:39.931185'}, {'ip': '35.182.228.53', 'port': '3128', 'country': 'CA', 'types': [{'name': 'HTTPS', 'anonymity': 'unknown'}, {'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '2.22', 'checkedAt': '2025-06-01T15:00:24.237223'}, {'ip': '142.93.117.200', 'port': '3129', 'country': 'CA', 'types': [{'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '0.51', 'checkedAt': '2025-06-01T23:00:45.056036'}, {'ip': '35.180.124.30', 'port': '8888', 'country': 'CA', 'types': [{'name': 'HTTPS', 'anonymity': 'unknown'}, {'name': 'HTTP', 'anonymity': 'high'}], 'responseTime': '2.09', 'checkedAt': '2025-06-04T11:00:44.477027'}, {'ip': '135.181.30.127', 'port': '3128', 'country': 'CA', 'types': [{'name': 'HTTP', 'anonymity': 'h"
+    }
+}

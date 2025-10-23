@@ -1,0 +1,33 @@
+{
+    "name": "gs1code128",
+    "description": "This is a sub-function API for tool gs1_code128_generator.\nTool description: This API returns a GS1-Code128 Barcode in PNG format based on company prefix, code, quantity and lot\nAPI description: Generates a GS1-128 barcode based on provided data and company prefix, with optional lot and quantity information.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "data": {
+                "type": "string",
+                "description": "The input data to encode into the barcode.",
+                "default": "0123456789"
+            },
+            "company_prefix": {
+                "type": "string",
+                "description": "The company prefix required for generating the barcode.",
+                "default": "0123456"
+            },
+            "lot": {
+                "type": "string",
+                "description": "The lot number to include in the barcode. Defaults to 'AB123'.",
+                "default": "AB123"
+            },
+            "qty": {
+                "type": "string",
+                "description": "The quantity to include in the barcode. Defaults to '100'.",
+                "default": "100"
+            }
+        },
+        "required": [
+            "data",
+            "company_prefix"
+        ]
+    }
+}

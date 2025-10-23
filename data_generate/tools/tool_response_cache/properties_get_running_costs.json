@@ -1,0 +1,62 @@
+{
+    "{'listing_id': 12345}": {
+        "error": "",
+        "response": {
+            "running_costs": {
+                "show": 0,
+                "reason": "invalid property type"
+            },
+            "area_name": "",
+            "street": "",
+            "county": "",
+            "town": "",
+            "postcode": ""
+        }
+    },
+    "{'listing_id': 27175510}": {
+        "error": "",
+        "response": {
+            "running_costs": {
+                "show": 0,
+                "reason": "invalid property type"
+            },
+            "area_name": "",
+            "street": "",
+            "county": "",
+            "town": "",
+            "postcode": ""
+        }
+    },
+    "{'listing_id': 56354192.0}": {
+        "error": "",
+        "response": ""
+    },
+    "{'listing_id': 56354192.0, 'category': 'commercial', 'section': 'for-sale'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'category': 'residential', 'listing_id': 56354192, 'section': 'to-rent'}": {
+        "error": "",
+        "response": "{'running_costs': {'energy': {'source': 'need', 'usage_group': '23300_5600', 'fuel_type': 'dual_fuel', 'dual_fuel': {'costs': {'gas': {'annual': '649.5', 'monthly': '54.125'}, 'electricity': {'annual': '877.93', 'monthly': '73.1608333333333'}, 'total': {'annual': '1527.43', 'monthly': '127.285833333333'}}, 'annual_saving': '325.22', 'discounts': {'gas': [], 'electricity': []}, 'featured_deals': [{'supplier_name': 'Avro Energy', 'tariff': {'tariff_ends_on': 12, 'tariff_type': 'Fixed price'}, 'costs': {'gas': {'annual': '649.5', 'monthly': '54.125'}, 'electricity': {'annual': '877.93', 'monthly': '73.1608333333333'}, 'total': {'annual': '1527.43', 'monthly': '127.285833333333'}}, 'saving': '325.22', 'supplier': 'avro-energy', 'discounts': {'gas': [], 'electricity': []}, 'name': 'Simple and UConnect12M'}, {'supplier_name': 'OVO Energy', 'tariff': {'tariff_ends_on': 12, 'tariff_type': 'Fixed price'}, 'costs': {'gas': {'annual': '653.99', 'monthly': '54.4991666666667'}, 'electricity': {'annual': '880.63', 'monthly': '73.3858333333333'}, 'total': {'annual': '1534.62', 'monthly': '127.885'}}, 'saving': '318.03', 'supplier': 'ovo', 'discounts': {'gas': [], 'electricity': []}, 'name': 'Better Smart'}, {'supplier_name': 'Green Network Energy', 'tariff': {'tariff_ends_on': 12, 'tariff_type': 'Fixed price'}, 'costs': {'gas': {'annual': '652.98', 'monthly': '54.415'}, 'electricity': {'annual': '891.94', 'monthly': '74.3283333333333'}, 'total': {'annual': '1544.92', 'monthly': '128.7433333"
+    },
+    "{'listing_id': 56354192, 'category': 'residential'}": {
+        "error": "",
+        "response": "{'running_costs': {'energy': {'source': 'need', 'usage_group': '23300_5600', 'fuel_type': 'dual_fuel', 'dual_fuel': {'costs': {'gas': {'annual': '649.5', 'monthly': '54.125'}, 'electricity': {'annual': '877.93', 'monthly': '73.1608333333333'}, 'total': {'annual': '1527.43', 'monthly': '127.285833333333'}}, 'annual_saving': '325.22', 'discounts': {'gas': [], 'electricity': []}, 'featured_deals': [{'supplier_name': 'Avro Energy', 'tariff': {'tariff_ends_on': 12, 'tariff_type': 'Fixed price'}, 'costs': {'gas': {'annual': '649.5', 'monthly': '54.125'}, 'electricity': {'annual': '877.93', 'monthly': '73.1608333333333'}, 'total': {'annual': '1527.43', 'monthly': '127.285833333333'}}, 'saving': '325.22', 'supplier': 'avro-energy', 'discounts': {'gas': [], 'electricity': []}, 'name': 'Simple and UConnect12M'}, {'supplier_name': 'OVO Energy', 'tariff': {'tariff_ends_on': 12, 'tariff_type': 'Fixed price'}, 'costs': {'gas': {'annual': '653.99', 'monthly': '54.4991666666667'}, 'electricity': {'annual': '880.63', 'monthly': '73.3858333333333'}, 'total': {'annual': '1534.62', 'monthly': '127.885'}}, 'saving': '318.03', 'supplier': 'ovo', 'discounts': {'gas': [], 'electricity': []}, 'name': 'Better Smart'}, {'supplier_name': 'Green Network Energy', 'tariff': {'tariff_ends_on': 12, 'tariff_type': 'Fixed price'}, 'costs': {'gas': {'annual': '652.98', 'monthly': '54.415'}, 'electricity': {'annual': '891.94', 'monthly': '74.3283333333333'}, 'total': {'annual': '1544.92', 'monthly': '128.743333333333'}}, 'saving': '307.73', 'supplier': 'green-network-energy', 'discounts': {'gas': [{'value': '7.14', 'reason': '&pound;7.50 per fuel for dual fuel  customers.'}], 'electricity': [{'value': '7.14', 'reason': '&pound;7.50 per fuel for dual fuel  customers.'}]}, 'name': 'GNE Summer Sizzler V8'}], 'incumbent_supplier': {'regional_brand': [10, 12, 19, 20, 22], 'extended_plan_types': {}, 'name': 'SSE Southern Electric', 'fulfillable': '1', 'big_six': '1', 'key': 'southern-electric', 'retainable': '', 'group': 'SSE', 'warm_home_discount': '1', "
+    },
+    "{'listing_id': 45267, 'category': 'residential', 'section': 'for-sale'}": {
+        "error": "",
+        "response": "{'running_costs': {'energy': {'source': 'need', 'usage_group': '17200_4000', 'fuel_type': 'dual_fuel', 'dual_fuel': {'costs': {'gas': {'annual': '463.1', 'monthly': '38.5916666666667'}, 'electricity': {'annual': '674.3', 'monthly': '56.1916666666667'}, 'total': {'annual': '1137.4', 'monthly': '94.7833333333333'}}, 'discounts': {'gas': [{'value': '7.14', 'reason': '&pound;7.50 per fuel for dual fuel  customers.'}], 'electricity': [{'value': '7.14', 'reason': '&pound;7.50 per fuel for dual fuel  customers.'}]}, 'featured_deals': [], 'incumbent_supplier': {'regional_brand': [], 'extended_plan_types': {'23': [{'fuel': 'Gas', 'variant': 'standard', 'payment-method': 'Variable Direct Debit'}, {'fuel': 'Electricity', 'variant': 'standard', 'payment-method': 'Monthly Direct Debit'}, {'fuel': 'dual_fuel', 'variant': 'standard', 'payment-method': 'Prepayment'}, {'fuel': 'Gas', 'variant': 'standard', 'payment-method': 'Prepayment'}, {'fuel': 'Electricity', 'variant': 'economy_7', 'payment-method': 'Monthly Direct Debit'}, {'fuel': 'Electricity', 'variant': 'standard', 'payment-method': 'Variable Direct Debit'}, {'fuel': 'Electricity', 'variant': 'economy_7', 'payment-method': 'Variable Direct Debit'}, {'fuel': 'dual_fuel', 'variant': 'economy_7', 'payment-method': 'Variable Direct Debit'}, {'fuel': 'dual_fuel', 'variant': 'standard', 'payment-method': 'Pay on Receipt of Bill'}, {'fuel': 'Gas', 'variant': 'standard', 'payment-method': 'Pay on Receipt of Bill'}, {'fuel': 'dual_fuel', 'var"
+    },
+    "{'listing_id': 4589231, 'category': 'residential'}": {
+        "error": "",
+        "response": "{'running_costs': {'energy': {'source': 'need', 'usage_group': '9500_2800', 'fuel_type': 'dual_fuel', 'dual_fuel': {'costs': {'gas': {'annual': '306.28', 'monthly': '25.5233333333333'}, 'electricity': {'annual': '468.2', 'monthly': '39.0166666666667'}, 'total': {'annual': '774.48', 'monthly': '64.54'}}, 'annual_saving': '176.89', 'discounts': {'gas': [], 'electricity': []}, 'featured_deals': [{'supplier_name': 'OVO Energy', 'tariff': {'tariff_ends_on': 12, 'tariff_type': 'Fixed price'}, 'costs': {'gas': {'annual': '306.28', 'monthly': '25.5233333333333'}, 'electricity': {'annual': '468.2', 'monthly': '39.0166666666667'}, 'total': {'annual': '774.48', 'monthly': '64.54'}}, 'saving': '176.89', 'supplier': 'ovo', 'discounts': {'gas': [], 'electricity': []}, 'name': 'Better Smart'}, {'supplier_name': 'Green Network Energy', 'tariff': {'tariff_ends_on': 12, 'tariff_type': 'Fixed price'}, 'costs': {'gas': {'annual': '303.26', 'monthly': '25.2716666666667'}, 'electricity': {'annual': '478.12', 'monthly': '39.8433333333333'}, 'total': {'annual': '781.38', 'monthly': '65.115'}}, 'saving': '169.99', 'supplier': 'green-network-energy', 'discounts': {'gas': [{'value': '7.14', 'reason': '&pound;7.50 per fuel for dual fuel  customers.'}], 'electricity': [{'value': '7.14', 'reason': '&pound;7.50 per fuel for dual fuel  customers.'}]}, 'name': 'GNE Summer Sizzler V8'}, {'supplier_name': 'Avro Energy', 'tariff': {'tariff_ends_on': 12, 'tariff_type': 'Fixed price'}, 'costs': {'gas': {'annual': '311.56', 'monthly': '25.9633333333333'}, 'electricity': {'annual': '473.55', 'monthly': '39.4625'}, 'total': {'annual': '785.11', 'monthly': '65.4258333333333'}}, 'saving': '166.26', 'supplier': 'avro-energy', 'discounts': {'gas': [], 'electricity': []}, 'name': 'Simple and UConnect12M'}], 'incumbent_supplier': {'regional_brand': [], 'extended_plan_types': {'23': [{'fuel': 'dual_fuel', 'variant': 'standard', 'payment-method': 'Prepayment'}, {'fuel': 'Gas', 'variant': 'standard', 'payment-method': 'Prepayment'}, {'fuel': 'Electricity', 'vari"
+    },
+    "{'listing_id': 5623410, 'category': 'residential'}": {
+        "error": "",
+        "response": "{'running_costs': {'energy': {'source': 'need', 'usage_group': '10700_3200', 'fuel_type': 'dual_fuel', 'dual_fuel': {'costs': {'gas': {'annual': '334.03', 'monthly': '27.8358333333333'}, 'electricity': {'annual': '523.06', 'monthly': '43.5883333333333'}, 'total': {'annual': '857.09', 'monthly': '71.4241666666667'}}, 'discounts': {'gas': [], 'electricity': []}, 'featured_deals': [], 'incumbent_supplier': {'regional_brand': [], 'extended_plan_types': {'23': [{'fuel': 'Gas', 'variant': 'standard', 'payment-method': 'Variable Direct Debit'}, {'fuel': 'Electricity', 'variant': 'standard', 'payment-method': 'Monthly Direct Debit'}, {'fuel': 'dual_fuel', 'variant': 'standard', 'payment-method': 'Prepayment'}, {'fuel': 'Gas', 'variant': 'standard', 'payment-method': 'Prepayment'}, {'fuel': 'Electricity', 'variant': 'economy_7', 'payment-method': 'Monthly Direct Debit'}, {'fuel': 'Electricity', 'variant': 'standard', 'payment-method': 'Variable Direct Debit'}, {'fuel': 'Electricity', 'variant': 'economy_7', 'payment-method': 'Variable Direct Debit'}, {'fuel': 'dual_fuel', 'variant': 'economy_7', 'payment-method': 'Variable Direct Debit'}, {'fuel': 'dual_fuel', 'variant': 'standard', 'payment-method': 'Pay on Receipt of Bill'}, {'fuel': 'Gas', 'variant': 'standard', 'payment-method': 'Pay on Receipt of Bill'}, {'fuel': 'dual_fuel', 'variant': 'standard', 'payment-method': 'Variable Direct Debit'}, {'fuel': 'Electricity', 'variant': 'standard', 'payment-method': 'Pay on Receipt of Bill'"
+    },
+    "{'listing_id': 56354192, 'category': 'residential', 'section': 'to-rent'}": {
+        "error": "",
+        "response": "{'running_costs': {'energy': {'source': 'need', 'usage_group': '23300_5600', 'fuel_type': 'dual_fuel', 'dual_fuel': {'costs': {'gas': {'annual': '649.5', 'monthly': '54.125'}, 'electricity': {'annual': '877.93', 'monthly': '73.1608333333333'}, 'total': {'annual': '1527.43', 'monthly': '127.285833333333'}}, 'annual_saving': '325.22', 'discounts': {'gas': [], 'electricity': []}, 'featured_deals': [{'supplier_name': 'Avro Energy', 'tariff': {'tariff_ends_on': 12, 'tariff_type': 'Fixed price'}, 'costs': {'gas': {'annual': '649.5', 'monthly': '54.125'}, 'electricity': {'annual': '877.93', 'monthly': '73.1608333333333'}, 'total': {'annual': '1527.43', 'monthly': '127.285833333333'}}, 'saving': '325.22', 'supplier': 'avro-energy', 'discounts': {'gas': [], 'electricity': []}, 'name': 'Simple and UConnect12M'}, {'supplier_name': 'OVO Energy', 'tariff': {'tariff_ends_on': 12, 'tariff_type': 'Fixed price'}, 'costs': {'gas': {'annual': '653.99', 'monthly': '54.4991666666667'}, 'electricity': {'annual': '880.63', 'monthly': '73.3858333333333'}, 'total': {'annual': '1534.62', 'monthly': '127.885'}}, 'saving': '318.03', 'supplier': 'ovo', 'discounts': {'gas': [], 'electricity': []}, 'name': 'Better Smart'}, {'supplier_name': 'Green Network Energy', 'tariff': {'tariff_ends_on': 12, 'tariff_type': 'Fixed price'}, 'costs': {'gas': {'annual': '652.98', 'monthly': '54.415'}, 'electricity': {'annual': '891.94', 'monthly': '74.3283333333333'}, 'total': {'annual': '1544.92', 'monthly': '128.743333333333'}}, 'saving': '307.73', 'supplier': 'green-network-energy', 'discounts': {'gas': [{'value': '7.14', 'reason': '&pound;7.50 per fuel for dual fuel  customers.'}], 'electricity': [{'value': '7.14', 'reason': '&pound;7.50 per fuel for dual fuel  customers.'}]}, 'name': 'GNE Summer Sizzler V8'}], 'incumbent_supplier': {'regional_brand': [10, 12, 19, 20, 22], 'extended_plan_types': {}, 'name': 'SSE Southern Electric', 'fulfillable': '1', 'big_six': '1', 'key': 'southern-electric', 'retainable': '', 'group': 'SSE', 'warm_home_discount': '1', "
+    }
+}

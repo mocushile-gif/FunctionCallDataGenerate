@@ -1,0 +1,25 @@
+{
+    "name": "analyze",
+    "description": "This is a sub-function API for tool seo_checker.\nTool description: SEO Website Checker, Extraction and Analyze/Analytic Tools Report\nI'm on telegram chat me if there a problem/request\nhttps://t.me/iiyann25\nAPI description: Analyzes the page speed of a given URL using the specified strategy and category.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the page to be analyzed.",
+                "default": "https://google.com"
+            },
+            "strategy": {
+                "type": "string",
+                "description": "The strategy to use, either 'desktop' or 'mobile'. Default is None."
+            },
+            "category": {
+                "type": "string",
+                "description": "The category for which to analyze, options include 'accessibility', 'best-practices', 'performance', 'seo', and 'pwa'. Default is 'performance'."
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

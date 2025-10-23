@@ -1,0 +1,22 @@
+{
+    "name": "albums_get_related_artist",
+    "description": "This is a sub-function API for tool shazam.\nTool description: Identify any song. Discover, artists, lyrics, videos & playlists to create a song detector site/application such as shazam.com\nAPI description: Fetches related artist information for a given album using the Shazam API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The value of 'albums->id' field returned in .../shazam-songs/get-details OR .../artists/get-albums OR .../artists/get-summary\nThe value of 'id' field returned in .../artists/get-albums OR .../artists/get-latest-release endpoint\nThe value of 'albumadamid' field returned in .../songs/v2/detect OR .../songs/detect endpoint",
+                "default": "850569437"
+            },
+            "l": {
+                "type": "string",
+                "description": "The language code to return results in. Defaults to 'en-US'.",
+                "default": "en-US"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

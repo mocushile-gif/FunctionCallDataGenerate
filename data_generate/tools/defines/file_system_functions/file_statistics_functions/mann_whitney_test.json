@@ -1,0 +1,33 @@
+{
+    "name": "mann_whitney_test",
+    "description": "Perform Mann–Whitney U test between two groups on a numeric column.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "Path to the data file (CSV, Excel, JSON, or JSONL format)."
+        },
+        "category_col": {
+          "type": "string",
+          "description": "Name of the categorical column containing group labels."
+        },
+        "value_col": {
+          "type": "string",
+          "description": "Name of the numeric column to compare between groups."
+        },
+        "group_names": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "A list containing exactly two group names to compare."
+        },
+        "sheet_name": {
+          "type": ["string", "integer"],
+          "description": "Sheet name or index if the input file is Excel.",
+          "default": 0
+        }
+      },
+      "required": ["file_path", "category_col", "value_col", "group_names"]
+    }
+  }
+  

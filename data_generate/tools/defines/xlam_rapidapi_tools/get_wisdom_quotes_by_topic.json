@@ -1,0 +1,17 @@
+{
+    "name": "get_wisdom_quotes_by_topic",
+    "description": "This is a sub-function API for tool wisdom_quotes.\nTool description: Last update: February 11, 2023.\nAn API providing a lot of different wisdom quotes.  You will love it!\nAPI description: Fetches wisdom quotes related to a specific topic using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "topic": {
+                "type": "string",
+                "description": "The topic to retrieve wisdom quotes about.",
+                "default": "Anger"
+            }
+        },
+        "required": [
+            "topic"
+        ]
+    }
+}

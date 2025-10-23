@@ -1,0 +1,28 @@
+{
+    "name": "type_performance_get_trailing_returns",
+    "description": "This is a sub-function API for tool ms_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc... to create a site/application such as morningstar.com\nAPI description: Fetches the trailing returns in the Performance tab for a specified ETF or FUND.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "securityid": {
+                "type": "string",
+                "description": "The security ID obtained from the .../market/v2/get-returns endpoint.",
+                "default": "F00000O2CG"
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of security. Must be one of 'etf' or 'fund'.",
+                "default": "etf"
+            },
+            "duration": {
+                "type": "string",
+                "description": "The time duration for the returns. Must be one of 'daily', 'monthly', or 'quarterly'. Defaults to 'daily'.",
+                "default": "daily"
+            }
+        },
+        "required": [
+            "securityid",
+            "type"
+        ]
+    }
+}

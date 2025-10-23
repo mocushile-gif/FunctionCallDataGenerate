@@ -1,0 +1,39 @@
+{
+    "name": "get_host_list_version_hosts_get",
+    "description": "This is a sub-function API for tool ecoindex.\nTool description: This API provides an easy way to analyze websites with Ecoindex. You have the ability to:\n\n- Make a page analysis\n- Define screen resolution\n- Save results to a DB\n- Retrieve results\n- Limit the number of request per day for a given host\n\nThis API is built on top of ecoindex-python with FastAPI\nAPI description: Fetch a list of hosts that ran an EcoIndex analysis, ordered by the number of requests made.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "version": {
+                "type": "string",
+                "description": "Engine version used to run the analysis (v0 or v1).",
+                "default": "v1"
+            },
+            "q": {
+                "type": "string",
+                "description": "Filter for partial host name. Defaults to None."
+            },
+            "date_from": {
+                "type": "string",
+                "description": "Start date for filtering elements (format: YYYY-MM-DD). Defaults to None."
+            },
+            "size": {
+                "type": "number",
+                "description": "Number of elements per page. Defaults to 50.",
+                "default": 50
+            },
+            "date_to": {
+                "type": "string",
+                "description": "End date for filtering elements (format: YYYY-MM-DD). Defaults to None."
+            },
+            "page": {
+                "type": "number",
+                "description": "Page number to retrieve. Defaults to 1.",
+                "default": 1
+            }
+        },
+        "required": [
+            "version"
+        ]
+    }
+}

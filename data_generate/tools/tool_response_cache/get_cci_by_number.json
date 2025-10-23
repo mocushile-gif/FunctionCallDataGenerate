@@ -1,0 +1,27 @@
+{
+    "{'cci': 'AC-1'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": []
+        }
+    },
+    "{'cci': 'CCI-123456'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": []
+        }
+    },
+    "{'cci': 'CCI-654321'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": []
+        }
+    },
+    "{'cci': '000001'}": {
+        "error": "",
+        "response": "{'status': 'success', 'data': [{'CCINumber': 'CCI-000001', 'Definition': 'The organization develops an access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance.', 'Contributor': 'DISA FSO', 'Note': 'The policy will address purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance.', 'Parameter': 'Access Control Policy Document', 'PublishDate': '2009-05-13T00:00:00.000Z', 'Location': 'http://csrc.nist.gov/publications/PubsSPs.html', 'Title': 'NIST SP 800-53', 'Version': '3', 'Status': 'draft', 'Type': 'Policy'}]}"
+    }
+}

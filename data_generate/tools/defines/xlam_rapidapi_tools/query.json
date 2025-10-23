@@ -1,0 +1,14 @@
+{
+    "name": "query",
+    "description": "This is a sub-function API for tool netdetective.\nTool description: NetDetective is an easy-to-use API that provides information about an IP address, including, but not limited to, whether it's known for spam, brute-force attacks, bot-nets, VPN endpoints, data center endpoints, and more. With DetectiveIP, you can quickly and easily gather information about any IP address to help filter requests and avoid potential attacks.\nAPI description: Queries information about an IP address using the NetDetective API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ipaddress": {
+                "type": "string",
+                "description": "The IP address to use for the query. Defaults to None, which uses the IP address of the connecting client."
+            }
+        },
+        "required": []
+    }
+}

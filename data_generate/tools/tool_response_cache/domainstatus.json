@@ -1,0 +1,42 @@
+{
+    "{'domain': 'example.com'}": {
+        "error": "",
+        "response": {
+            "domain": "example.com",
+            "webmail": false,
+            "disposable": true
+        }
+    },
+    "{'domain': 'singaporeair.com'}": {
+        "error": "",
+        "response": "{'disposable': False, 'domain': 'singaporeair.com', 'webmail': False}"
+    },
+    "{'domain': 'theguardian.com'}": {
+        "error": "",
+        "response": "{'disposable': False, 'domain': 'theguardian.com', 'webmail': False}"
+    },
+    "{'email': 'support@open-source.org'}": {
+        "error": "",
+        "response": "{'disposable': False, 'email': 'support@open-source.org', 'webmail': False}"
+    },
+    "{'domain': 'solar-research.org'}": {
+        "error": "",
+        "response": "{'disposable': False, 'domain': 'solar-research.org', 'webmail': False}"
+    },
+    "{'domain': 'motorola.com'}": {
+        "error": "",
+        "response": "{'disposable': False, 'domain': 'motorola.com', 'webmail': False}"
+    },
+    "{'domain': 'example.com', 'email': 'john.doe@example.com'}": {
+        "error": "",
+        "response": "{'disposable': True, 'domain': 'example.com', 'webmail': False}"
+    },
+    "{'domain': 'temporarymail.com', 'email': 'jane.doe@temporarymail.com'}": {
+        "error": "",
+        "response": "{'disposable': True, 'domain': 'temporarymail.com', 'webmail': False}"
+    },
+    "{'domain': 'webmailprovider.com', 'email': 'michael.smith@webmailprovider.com'}": {
+        "error": "",
+        "response": "{'disposable': False, 'domain': 'webmailprovider.com', 'webmail': False}"
+    }
+}

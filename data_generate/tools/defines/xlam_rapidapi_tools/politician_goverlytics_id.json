@@ -1,0 +1,17 @@
+{
+    "name": "politician_goverlytics_id",
+    "description": "This is a sub-function API for tool goverlytics.\nTool description: The Goverlytics API.\nAPI description: Retrieves information about a politician by their 'goverlytics_id' from the Goverlytics API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "goverlytics_id": {
+                "type": "string",
+                "description": "The unique identifier for a politician in the Goverlytics system.",
+                "default": "437c7e15-c66a-4b46-af9b-07e9b1317190"
+            }
+        },
+        "required": [
+            "goverlytics_id"
+        ]
+    }
+}

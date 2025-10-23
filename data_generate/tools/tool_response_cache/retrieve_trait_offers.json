@@ -1,0 +1,33 @@
+{
+    "{'slug': 'bored-ape-yacht-club', 'type': 'background', 'value': 'space'}": {
+        "error": "",
+        "response": [
+            {
+                "offer_id": "0x3aB7c5dE2F1a4b8C9d0eF67890ABCDef12345678",
+                "collection": "bored-ape-yacht-club",
+                "trait": {
+                    "type": "background",
+                    "value": "space"
+                },
+                "price": "4.5",
+                "currency": "ETH",
+                "buyer_address": "0x4b8c9D0eF67890aBcDeF1234567890aBcDeF1234",
+                "expires_at": "2023-10-15T14:30:00Z",
+                "status": "active"
+            },
+            {
+                "offer_id": "0x90aBcDeF1234567890aBcDeF1234567890aBcDeF",
+                "collection": "bored-ape-yacht-club",
+                "trait": {
+                    "type": "background",
+                    "value": "space"
+                },
+                "price": "5.2",
+                "currency": "USDC",
+                "buyer_address": "0x1234567890aBcDeF67890aBcDeF1234567890aBc",
+                "expires_at": "2023-10-16T09:15:00Z",
+                "status": "pending"
+            }
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "time_series",
+    "description": "This is a sub-function API for tool metals_prices_rates_api.\nTool description: The Metals Prices Rates API provides real-time and historical metal prices and exchange rates for gold, silver, platinum, and other metals. It allows developers to access and integrate the data into their own applications and systems. The API can be used for financial and commodity market analysis, currency conversion, and more.\nAPI description: Fetch the daily historical rates for a given base and target currency or metal between specified start and end dates from the TimeSeries API. The function is limited to a maximum range of 365 days and can query only one symbol per request.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "base": {
+                "type": "string",
+                "description": "Enter the three-letter currency code or metal code of your preferred base currency.",
+                "default": "USD"
+            },
+            "symbols": {
+                "type": "string",
+                "description": "Enter the three-letter currency code or metal code of your preferred base currency.",
+                "default": "XAU"
+            },
+            "end_date": {
+                "type": "string",
+                "description": "The end date of the timeframe in 'YYYY-MM-DD' format.",
+                "default": "2023-01-10"
+            },
+            "start_date": {
+                "type": "string",
+                "description": "The start date of the timeframe in 'YYYY-MM-DD' format.",
+                "default": "2022-12-20"
+            }
+        },
+        "required": [
+            "base",
+            "symbols",
+            "end_date",
+            "start_date"
+        ]
+    }
+}

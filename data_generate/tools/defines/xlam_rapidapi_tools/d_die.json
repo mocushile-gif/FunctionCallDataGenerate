@@ -1,0 +1,16 @@
+{
+    "name": "d_die",
+    "description": "This is a sub-function API for tool utile_space.\nTool description: Misc useful API for software engineers and others.\nAPI description: Rolls a die with a given number of faces by making a request to an API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "die": {
+                "type": "number",
+                "description": "The number of faces on the die. Must be between 2 and 100."
+            }
+        },
+        "required": [
+            "die"
+        ]
+    }
+}

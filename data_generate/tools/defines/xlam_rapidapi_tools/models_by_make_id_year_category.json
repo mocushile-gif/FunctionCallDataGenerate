@@ -1,0 +1,29 @@
+{
+    "name": "models_by_make_id_year_category",
+    "description": "This is a sub-function API for tool motorcycle_specs_database.\nTool description: --- DEMO http://api-motorcycle.makingdatameaningful.com/ ----\n\nThe complete Motorcycle Database with specifications for all Makes & Models [year 1900 to 2023].  Full specs & images included. Real-Time updated.\nWe provide a motorcycle database delivered through API. There are more than 35,000 moto models available along with 20+ technical information fields. One image per model is also included.  Our fast API is delivered through several endpoints in order to satisfy different request types.  ...\nAPI description: get model by make ID, year and category:\n\nex: /api/v1/model/make-id/55/2010/Sport",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "number",
+                "description": "The year of the motorcycle models to retrieve.",
+                "default": 2015.0
+            },
+            "category": {
+                "type": "string",
+                "description": "The category of the motorcycle models to retrieve.",
+                "default": "Sport"
+            },
+            "make": {
+                "type": "number",
+                "description": "The make ID of the motorcycle models to retrieve.",
+                "default": 100.0
+            }
+        },
+        "required": [
+            "year",
+            "category",
+            "make"
+        ]
+    }
+}

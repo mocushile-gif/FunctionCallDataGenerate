@@ -1,0 +1,17 @@
+{
+    "name": "get_a_specific_item",
+    "description": "This is a sub-function API for tool lost_ark.\nTool description: An API to get information for the game Lost Ark\nAPI description: Fetches a specific item from the Lost Ark API using the provided item name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the item to retrieve from the Lost Ark API.",
+                "default": "Hollowfruit"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "{'tournament_id': 212}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "title": "Golf Entry List - Safeway Open",
+                "description": "Golf Entry List for given tournament",
+                "fields": {
+                    "tournament_object": {
+                        "id": "Integer",
+                        "type": "String - Stroke Play or Match Play - determines how to display leaderboard results.",
+                        "tour_id": "Integer",
+                        "name": "String",
+                        "country": "String",
+                        "course": "String",
+                        "start_date": "String",
+                        "end_date": "String",
+                        "timezone": "String",
+                        "prize_fund": "String",
+                        "fund_currency": "String",
+                        "live_details": {
+                            "status": "String - pre, inprogress, endofday, completed",
+                            "current_round": "Integer",
+                            "total_rounds": "Integer - total number of rounds in competition",
+                            "players": "Integer - number of active players",
+                            "updated": "Timestamp - ISO UTC 2020-08-13T05:45:03+00:00"
+                        }
+                    },
+                    "entry_list_array": {
+                        "player_id": "Integer - unique player_id",
+                        "first_name": "String",
+                        "last_name": "String",
+                        "country": "String"
+                    }
+                }
+            },
+            "results": {
+                "tournament": {
+                    "id": 212,
+                    "type": "Stroke Play",
+                    "tour_id": 2,
+                    "name": "Safeway Open",
+                    "country": "Napa, USA",
+                    "course": "Silverado Resort and Spa North",
+                    "start_date": "2020-09-10 00:00:00",
+                    "end_date": "2020-09-13 00:00:00",
+                    "timezone": "America/Los_Angeles",
+                    "prize_fund": "6600000",
+                    "fund_currency": "USD"
+                },
+                "entry_list": []
+            }
+        }
+    },
+    "{'tournament_id': 25}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "title": "Golf Entry List - PGA Championship",
+                "description": "Golf Entry List for given tournament",
+                "fields": {
+                    "tournament_object": {
+                        "id": "Integer",
+                        "type": "String - Stroke Play or Match Play - determines how to display leaderboard results.",
+                        "tour_id": "Integer",
+                        "name": "String",
+                        "country": "String",
+                        "course": "String",
+                        "start_date": "String",
+                        "end_date": "String",
+                        "timezone": "String",
+                        "prize_fund": "String",
+                        "fund_currency": "String",
+                        "live_details": {
+                            "status": "String - pre, inprogress, endofday, completed",
+                            "current_round": "Integer",
+                            "total_rounds": "Integer - total number of rounds in competition",
+                            "players": "Integer - number of active players",
+                            "updated": "Timestamp - ISO UTC 2020-08-13T05:45:03+00:00"
+                        }
+                    },
+                    "entry_list_array": {
+                        "player_id": "Integer - unique player_id",
+                        "first_name": "String",
+                        "last_name": "String",
+                        "country": "String"
+                    }
+                }
+            },
+            "results": {
+                "tournament": {
+                    "id": 25,
+                    "type": "Stroke Play",
+                    "tour_id": 2,
+                    "name": "PGA Championship",
+                    "country": "San Francisco, USA",
+                    "course": "TPC Harding Park",
+                    "start_date": "2020-08-06 00:00:00",
+                    "end_date": "2020-08-09 00:00:00",
+                    "timezone": "GMT-07:00",
+                    "prize_fund": "11000000",
+                    "fund_currency": "USD"
+                },
+                "entry_list": []
+            }
+        }
+    },
+    "{'tournament_id': 219.0}": {
+        "error": "",
+        "response": "{'meta': {'title': 'Golf Entry List - Bermuda Championship', 'description': 'Golf Entry List for given tournament', 'fields': {'tournament_object': {'id': 'Integer', 'type': 'String - Stroke Play or Match Play - determines how to display leaderboard results.', 'tour_id': 'Integer', 'name': 'String', 'country': 'String', 'course': 'String', 'start_date': 'String', 'end_date': 'String', 'timezone': 'String', 'prize_fund': 'String', 'fund_currency': 'String', 'live_details': {'status': 'String - pre, inprogress, endofday, completed', 'current_round': 'Integer', 'total_rounds': 'Integer - total number of rounds in competition', 'players': 'Integer - number of active players', 'updated': 'Timestamp - ISO UTC 2020-08-13T05:45:03+00:00'}}, 'entry_list_array': {'player_id': 'Integer - unique player_id', 'first_name': 'String', 'last_name': 'String', 'country': 'String'}}}, 'results': {'tournament': {'id': 219, 'type': 'Stroke Play', 'tour_id': 2, 'name': 'Bermuda Championship', 'country': 'Southampton, BER', 'course': 'Port Royal Golf Course', 'start_date': '2020-10-29 00:00:00', 'end_date': '2020-11-01 00:00:00', 'timezone': 'Atlantic/Bermuda', 'prize_fund': '4000000', 'fund_currency': 'USD'}, 'entry_list': [{'player_id': 99376, 'first_name': 'Mark', 'last_name': 'Anderson', 'country': 'USA'}, {'player_id': 92950, 'first_name': 'Kiradech', 'last_name': 'Aphibarnrat', 'country': 'THA'}, {'player_id': 59425, 'first_name': 'Ryan', 'last_name': 'Armour', 'country': 'USA'}, {'player_id':"
+    },
+    "{'tournament_id': 219}": {
+        "error": "",
+        "response": "{'meta': {'title': 'Golf Entry List - Bermuda Championship', 'description': 'Golf Entry List for given tournament', 'fields': {'tournament_object': {'id': 'Integer', 'type': 'String - Stroke Play or Match Play - determines how to display leaderboard results.', 'tour_id': 'Integer', 'name': 'String', 'country': 'String', 'course': 'String', 'start_date': 'String', 'end_date': 'String', 'timezone': 'String', 'prize_fund': 'String', 'fund_currency': 'String', 'live_details': {'status': 'String - pre, inprogress, endofday, completed', 'current_round': 'Integer', 'total_rounds': 'Integer - total number of rounds in competition', 'players': 'Integer - number of active players', 'updated': 'Timestamp - ISO UTC 2020-08-13T05:45:03+00:00'}}, 'entry_list_array': {'player_id': 'Integer - unique player_id', 'first_name': 'String', 'last_name': 'String', 'country': 'String'}}}, 'results': {'tournament': {'id': 219, 'type': 'Stroke Play', 'tour_id': 2, 'name': 'Bermuda Championship', 'country': 'Southampton, BER', 'course': 'Port Royal Golf Course', 'start_date': '2020-10-29 00:00:00', 'end_date': '2020-11-01 00:00:00', 'timezone': 'Atlantic/Bermuda', 'prize_fund': '4000000', 'fund_currency': 'USD'}, 'entry_list': [{'player_id': 99376, 'first_name': 'Mark', 'last_name': 'Anderson', 'country': 'USA'}, {'player_id': 92950, 'first_name': 'Kiradech', 'last_name': 'Aphibarnrat', 'country': 'THA'}, {'player_id': 59425, 'first_name': 'Ryan', 'last_name': 'Armour', 'country': 'USA'}, {'player_id': 64237, 'first_name': 'Arjun', 'last_name': 'Atwal', 'country': 'IND'}, {'player_id': 67129, 'first_name': 'Aaron', 'last_name': 'Baddeley', 'country': 'AUS'}, {'player_id': 84793, 'first_name': 'Sangmoon', 'last_name': 'Bae', 'country': 'KOR'}, {'player_id': 100228, 'first_name': 'Chris', 'last_name': 'Baker', 'country': 'USA'}, {'player_id': 74554, 'first_name': 'Ricky', 'last_name': 'Barnes', 'country': 'USA'}, {'player_id': 101425, 'first_name': 'Lucas', 'last_name': 'Bjerregaard', 'country': 'DEN'}, {'player_id': 83890, 'first_name': 'Ry"
+    },
+    "{'tournament_id': 220}": {
+        "error": "",
+        "response": "{'meta': {'title': 'Golf Entry List - Vivint Houston Open', 'description': 'Golf Entry List for given tournament', 'fields': {'tournament_object': {'id': 'Integer', 'type': 'String - Stroke Play or Match Play - determines how to display leaderboard results.', 'tour_id': 'Integer', 'name': 'String', 'country': 'String', 'course': 'String', 'start_date': 'String', 'end_date': 'String', 'timezone': 'String', 'prize_fund': 'String', 'fund_currency': 'String', 'live_details': {'status': 'String - pre, inprogress, endofday, completed', 'current_round': 'Integer', 'total_rounds': 'Integer - total number of rounds in competition', 'players': 'Integer - number of active players', 'updated': 'Timestamp - ISO UTC 2020-08-13T05:45:03+00:00'}}, 'entry_list_array': {'player_id': 'Integer - unique player_id', 'first_name': 'String', 'last_name': 'String', 'country': 'String'}}}, 'results': {'tournament': {'id': 220, 'type': 'Stroke Play', 'tour_id': 2, 'name': 'Vivint Houston Open', 'country': 'Houston, USA', 'course': 'Memorial Park Golf Course', 'start_date': '2020-11-05 00:00:00', 'end_date': '2020-11-08 00:00:00', 'timezone': 'America/Chicago', 'prize_fund': '7000000', 'fund_currency': 'USD'}, 'entry_list': [{'player_id': 59425, 'first_name': 'Ryan', 'last_name': 'Armour', 'country': 'USA'}, {'player_id': 103138, 'first_name': 'Erik', 'last_name': 'Barnes', 'country': ''}, {'player_id': 99439, 'first_name': 'Keegan', 'last_name': 'Bradley', 'country': 'USA'}, {'player_id': 88453, 'first_name': 'Scott', 'last_name': 'Brown', 'country': 'USA'}, {'player_id': 87820, 'first_name': 'Bronson', 'last_name': 'Burgoon', 'country': 'USA'}, {'player_id': 142528, 'first_name': 'Sam', 'last_name': 'Burns', 'country': 'USA'}, {'player_id': 61795, 'first_name': 'Greg', 'last_name': 'Chalmers', 'country': 'AUS'}, {'player_id': 97114, 'first_name': 'Kevin', 'last_name': 'Chappell', 'country': 'USA'}, {'player_id': 60703, 'first_name': 'Stewart', 'last_name': 'Cink', 'country': 'USA'}, {'player_id': 155314, 'first_name': 'Wyndham', 'last_nam"
+    }
+}

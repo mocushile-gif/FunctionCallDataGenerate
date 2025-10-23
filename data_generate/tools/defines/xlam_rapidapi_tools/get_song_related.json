@@ -1,0 +1,17 @@
+{
+    "name": "get_song_related",
+    "description": "This is a sub-function API for tool youtube_music_api_detailed.\nTool description: Detailed Youtube Music API. Lyrics, Trends, Albums, Artists, Songs, Users, Playlists, Songs etc.\nAPI description: Gets related content for a song. Equivalent to the content shown in the “Related” tab of the watch panel.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "browse_id": {
+                "type": "string",
+                "description": "The unique identifier for the song being queried.",
+                "default": "MPTRt_ZXONnvFeQpN"
+            }
+        },
+        "required": [
+            "browse_id"
+        ]
+    }
+}

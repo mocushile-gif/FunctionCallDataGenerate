@@ -1,0 +1,20 @@
+{
+    "name": "historical_rates",
+    "description": "This is a sub-function API for tool exchanger_currency_rates_provider.\nTool description: Get hourly updated rates for more than 150 currencies since 1999\nAPI description: Gets historical currency exchange rates for a given date and base currency.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to request the exchange rates, formatted as 'YYYY-MM-DD'. Defaults to '2020-01-01'.",
+                "default": "2020-01-01"
+            },
+            "base": {
+                "type": "string",
+                "description": "The base currency code for the exchange rates. Defaults to 'eur'.",
+                "default": "eur"
+            }
+        },
+        "required": []
+    }
+}

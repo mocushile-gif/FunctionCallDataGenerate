@@ -1,0 +1,35 @@
+{
+    "name": "kline_candlestick_data",
+    "description": "This is a sub-function API for tool crypto_markets.\nTool description: Get all crypto markets data live\nAPI description: Fetch Kline/Candlestick data from the RapidAPI crypto markets endpoint for the specified cryptocurrency symbol and interval.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "interval": {
+                "type": "string",
+                "description": "The interval for each candlestick (e.g., '1m', '5m', '1h')."
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The symbol of the cryptocurrency (e.g., 'BTCUSDT').",
+                "default": "BTCUSDT"
+            },
+            "starttime": {
+                "type": "string",
+                "description": "The start time for the data in ISO 8601 format. Defaults to None."
+            },
+            "endtime": {
+                "type": "string",
+                "description": "The end time for the data in ISO 8601 format. Defaults to None."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of data points to retrieve. Defaults to 500 and maximum allowed is 1000.",
+                "default": 500.0
+            }
+        },
+        "required": [
+            "interval",
+            "symbol"
+        ]
+    }
+}

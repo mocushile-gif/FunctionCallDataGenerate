@@ -1,0 +1,18 @@
+{
+    "name": "list_of_room_facility_types",
+    "description": "This is a sub-function API for tool booking_com.\nTool description: Find all hotels, view prices, photos of the hotels, reviews. Find car rental deals. **Site:** booking.com **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters\nAPI description: Fetches a list of room facility types from the Booking.com API based on given criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "room_facility_type_id": {
+                "type": "string",
+                "description": "ID of the specific room facility type to filter."
+            },
+            "facility_type_id": {
+                "type": "string",
+                "description": "ID of the specific room facility type to filter."
+            }
+        },
+        "required": []
+    }
+}

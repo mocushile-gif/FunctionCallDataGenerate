@@ -1,0 +1,14 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{\"schemaVersion\":1,\"label\":\"views\",\"message\":\"8\",\"color\":\"red\",\"labelColor\":\"blue\"}"
+    },
+    "{'clabel': 'new'}": {
+        "error": "",
+        "response": "{'schemaVersion': 1, 'label': 'views', 'message': '13', 'color': 'red', 'labelColor': 'new'}"
+    },
+    "{'clabel': 'critical'}": {
+        "error": "",
+        "response": "{'schemaVersion': 1, 'label': 'views', 'message': '13', 'color': 'red', 'labelColor': 'critical'}"
+    }
+}

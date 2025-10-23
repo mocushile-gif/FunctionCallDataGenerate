@@ -1,0 +1,180 @@
+{
+    "{'symbol': 'ETH', 'interval': '1day'}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "symbol": "ETH",
+                "interval": "1day",
+                "currency": "USD",
+                "exchange_timezone": "America/New_York",
+                "exchange": "NYSE",
+                "mic_code": "XNYS",
+                "type": "Common Stock",
+                "indicator": {
+                    "name": "SAR - Parabolic SAR",
+                    "acceleration": 0.02,
+                    "maximum": 0.2
+                }
+            },
+            "values": [
+                {
+                    "datetime": "2022-06-22",
+                    "sar": "22.60862"
+                },
+                {
+                    "datetime": "2022-06-21",
+                    "sar": "22.84502"
+                },
+                {
+                    "datetime": "2022-06-17",
+                    "sar": "23.10198"
+                },
+                {
+                    "datetime": "2022-06-16",
+                    "sar": "23.29487"
+                },
+                {
+                    "datetime": "2022-06-15",
+                    "sar": "23.42590"
+                },
+                {
+                    "datetime": "2022-06-14",
+                    "sar": "23.56240"
+                },
+                {
+                    "datetime": "2022-06-13",
+                    "sar": "23.61000"
+                },
+                {
+                    "datetime": "2022-06-10",
+                    "sar": "21.31719"
+                },
+                {
+                    "datetime": "2022-06-09",
+                    "sar": "21.27040"
+                },
+                {
+                    "datetime": "2022-06-08",
+                    "sar": "21.22266"
+                },
+                {
+                    "datetime": "2022-06-07",
+                    "sar": "21.17393"
+                },
+                {
+                    "datetime": "2022-06-06",
+                    "sar": "21.12422"
+                },
+                {
+                    "datetime": "2022-06-03",
+                    "sar": "21.07349"
+                },
+                {
+                    "datetime": "2022-06-02",
+                    "sar": "21.02172"
+                },
+                {
+                    "datetime": "2022-06-01",
+                    "sar": "20.96890"
+                },
+                {
+                    "datetime": "2022-05-31",
+                    "sar": "20.91500"
+                },
+                {
+                    "datetime": "2022-05-27",
+                    "sar": "20.86000"
+                },
+                {
+                    "datetime": "2022-05-26",
+                    "sar": "23.65012"
+                },
+                {
+                    "datetime": "2022-05-25",
+                    "sar": "23.96014"
+                },
+                {
+                    "datetime": "2022-05-24",
+                    "sar": "24.30460"
+                },
+                {
+                    "datetime": "2022-05-23",
+                    "sar": "24.68733"
+                },
+                {
+                    "datetime": "2022-05-22",
+                    "sar": "25.00275"
+                },
+                {
+                    "datetime": "2022-05-20",
+                    "sar": "25.34560"
+                },
+                {
+                    "datetime": "2022-05-19",
+                    "sar": "25.71826"
+                },
+                {
+                    "datetime": "2022-05-18",
+                    "sar": "25.94921"
+                },
+                {
+                    "datetime": "2022-05-17",
+                    "sar": "26.07897"
+                },
+                {
+                    "datetime": "2022-05-16",
+                    "sar": "26.13854"
+                },
+                {
+                    "datetime": "2022-05-15",
+                    "sar": "26.19933"
+                },
+                {
+                    "datetime": "2022-05-13",
+                    "sar": "26.26136"
+                },
+                {
+                    "datetime": "2022-05-12",
+                    "sar": "26.32465"
+                }
+            ],
+            "status": "ok"
+        }
+    },
+    "{'symbol': 'AAPL', 'interval': '15min', 'outputsize': 500}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'AAPL', 'interval': '15min', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'SAR - Parabolic SAR', 'acceleration': 0.02, 'maximum': 0.2}}, 'values': [{'datetime': '2025-05-30 15:45:00', 'sar': '197.93158'}, {'datetime': '2025-05-30 15:30:00', 'sar': '197.58544'}, {'datetime': '2025-05-30 15:15:00', 'sar': '197.29160'}, {'datetime': '2025-05-30 15:00:00', 'sar': '197.071734'}, {'datetime': '2025-05-30 14:45:00', 'sar': '196.92567'}, {'datetime': '2025-05-30 14:30:00', 'sar': '196.82800'}, {'datetime': '2025-05-30 14:15:00', 'sar': '196.78000'}, {'datetime': '2025-05-30 14:00:00', 'sar': '198.86675'}, {'datetime': '2025-05-30 13:45:00', 'sar': '198.95370'}, {'datetime': '2025-05-30 13:30:00', 'sar': '199.044273'}, {'datetime': '2025-05-30 13:15:00', 'sar': '199.13862'}, {'datetime': '2025-05-30 13:00:00', 'sar': '199.23689'}, {'datetime': '2025-05-30 12:45:00', 'sar': '199.33926'}, {'datetime': '2025-05-30 12:30:00', 'sar': '199.44590'}, {'datetime': '2025-05-30 12:15:00', 'sar': '199.48500'}, {'datetime': '2025-05-30 12:00:00', 'sar': '198.11556'}, {'datetime': '2025-05-30 11:45:00', 'sar': '198.087612'}, {'datetime': '2025-05-30 11:30:00', 'sar': '198.059094'}, {'datetime': '2025-05-30 11:15:00', 'sar': '198.029994'}, {'datetime': '2025-05-30 11:00:00', 'sar': '198.00030001'}, {'datetime': '2025-05-30 10:45:00', 'sar': '197.97'}, {'datetime': '2025-05-30 10"
+    },
+    "{'symbol': 'TSLA', 'interval': '1h', 'outputsize': 50}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'TSLA', 'interval': '1h', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'SAR - Parabolic SAR', 'acceleration': 0.02, 'maximum': 0.2}}, 'values': [{'datetime': '2025-05-30 15:30:00', 'sar': '360.82731'}, {'datetime': '2025-05-30 14:30:00', 'sar': '362.17838'}, {'datetime': '2025-05-30 13:30:00', 'sar': '363.64693'}, {'datetime': '2025-05-30 12:30:00', 'sar': '365.24318'}, {'datetime': '2025-05-30 11:30:00', 'sar': '365.98636'}, {'datetime': '2025-05-30 10:30:00', 'sar': '366.49330'}, {'datetime': '2025-05-30 09:30:00', 'sar': '367.021350'}, {'datetime': '2025-05-29 15:30:00', 'sar': '367.24628'}, {'datetime': '2025-05-29 14:30:00', 'sar': '367.47579'}, {'datetime': '2025-05-29 13:30:00', 'sar': '367.70999'}, {'datetime': '2025-05-29 12:30:00', 'sar': '356.37728'}, {'datetime': '2025-05-29 11:30:00', 'sar': '356.14600'}, {'datetime': '2025-05-29 10:30:00', 'sar': '355.91000'}, {'datetime': '2025-05-29 09:30:00', 'sar': '355.91000'}, {'datetime': '2025-05-28 15:30:00', 'sar': '364.84720'}, {'datetime': '2025-05-28 14:30:00', 'sar': '365'}, {'datetime': '2025-05-28 13:30:00', 'sar': '356.33385'}, {'datetime': '2025-05-28 12:30:00', 'sar': '354.92308'}, {'datetime': '2025-05-28 11:30:00', 'sar': '353.28266'}, {'datetime': '2025-05-28 10:30:00', 'sar': '351.37518'}, {'datetime': '2025-05-28 09:30:00', 'sar': '349.15719'}, {'datetime': '2025-05-27 15:30:00', 'sar"
+    },
+    "{'symbol': 'TSLA', 'interval': '1h', 'outputsize': 50, 'maximum': 50}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'TSLA', 'interval': '1h', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'SAR - Parabolic SAR', 'acceleration': 0.02, 'maximum': 50}}, 'values': [{'datetime': '2025-05-30 15:30:00', 'sar': '360.82731'}, {'datetime': '2025-05-30 14:30:00', 'sar': '362.17838'}, {'datetime': '2025-05-30 13:30:00', 'sar': '363.64693'}, {'datetime': '2025-05-30 12:30:00', 'sar': '365.24318'}, {'datetime': '2025-05-30 11:30:00', 'sar': '365.98636'}, {'datetime': '2025-05-30 10:30:00', 'sar': '366.49330'}, {'datetime': '2025-05-30 09:30:00', 'sar': '367.021350'}, {'datetime': '2025-05-29 15:30:00', 'sar': '367.24628'}, {'datetime': '2025-05-29 14:30:00', 'sar': '367.47579'}, {'datetime': '2025-05-29 13:30:00', 'sar': '367.70999'}, {'datetime': '2025-05-29 12:30:00', 'sar': '356.37728'}, {'datetime': '2025-05-29 11:30:00', 'sar': '356.14600'}, {'datetime': '2025-05-29 10:30:00', 'sar': '355.91000'}, {'datetime': '2025-05-29 09:30:00', 'sar': '355.91000'}, {'datetime': '2025-05-28 15:30:00', 'sar': '364.84720'}, {'datetime': '2025-05-28 14:30:00', 'sar': '365'}, {'datetime': '2025-05-28 13:30:00', 'sar': '356.33385'}, {'datetime': '2025-05-28 12:30:00', 'sar': '354.92308'}, {'datetime': '2025-05-28 11:30:00', 'sar': '353.28266'}, {'datetime': '2025-05-28 10:30:00', 'sar': '351.37518'}, {'datetime': '2025-05-28 09:30:00', 'sar': '349.15719'}, {'datetime': '2025-05-27 15:30:00', 'sar'"
+    },
+    "{'symbol': 'AAPL', 'interval': '1h', 'outputsize': 30}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'AAPL', 'interval': '1h', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'SAR - Parabolic SAR', 'acceleration': 0.02, 'maximum': 0.2}}, 'values': [{'datetime': '2025-05-30 15:30:00', 'sar': '203.36834'}, {'datetime': '2025-05-30 14:30:00', 'sar': '203.50280'}, {'datetime': '2025-05-30 13:30:00', 'sar': '203.64000'}, {'datetime': '2025-05-30 12:30:00', 'sar': '203.78000'}, {'datetime': '2025-05-30 11:30:00', 'sar': '197.47966'}, {'datetime': '2025-05-30 10:30:00', 'sar': '197.21714'}, {'datetime': '2025-05-30 09:30:00', 'sar': '196.94369'}, {'datetime': '2025-05-29 15:30:00', 'sar': '196.65885'}, {'datetime': '2025-05-29 14:30:00', 'sar': '196.36213'}, {'datetime': '2025-05-29 13:30:00', 'sar': '196.053054'}, {'datetime': '2025-05-29 12:30:00', 'sar': '195.73110'}, {'datetime': '2025-05-29 11:30:00', 'sar': '195.39573'}, {'datetime': '2025-05-29 10:30:00', 'sar': '195.046382'}, {'datetime': '2025-05-29 09:30:00', 'sar': '194.68248'}, {'datetime': '2025-05-28 15:30:00', 'sar': '194.51825'}, {'datetime': '2025-05-28 14:30:00', 'sar': '194.35066'}, {'datetime': '2025-05-28 13:30:00', 'sar': '194.17965'}, {'datetime': '2025-05-28 12:30:00', 'sar': '194.0051562'}, {'datetime': '2025-05-28 11:30:00', 'sar': '193.82710'}, {'datetime': '2025-05-28 10:30:00', 'sar': '193.64541'}, {'datetime': '2025-05-28 09:30:00', 'sar': '193.46001'}, {'datetime': '2025-05-27 15:30:"
+    },
+    "{'symbol': 'TSLA', 'interval': '1h', 'outputsize': 30}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'TSLA', 'interval': '1h', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'SAR - Parabolic SAR', 'acceleration': 0.02, 'maximum': 0.2}}, 'values': [{'datetime': '2025-05-30 15:30:00', 'sar': '360.82731'}, {'datetime': '2025-05-30 14:30:00', 'sar': '362.17838'}, {'datetime': '2025-05-30 13:30:00', 'sar': '363.64693'}, {'datetime': '2025-05-30 12:30:00', 'sar': '365.24318'}, {'datetime': '2025-05-30 11:30:00', 'sar': '365.98636'}, {'datetime': '2025-05-30 10:30:00', 'sar': '366.49330'}, {'datetime': '2025-05-30 09:30:00', 'sar': '367.021350'}, {'datetime': '2025-05-29 15:30:00', 'sar': '367.24628'}, {'datetime': '2025-05-29 14:30:00', 'sar': '367.47579'}, {'datetime': '2025-05-29 13:30:00', 'sar': '367.70999'}, {'datetime': '2025-05-29 12:30:00', 'sar': '356.37728'}, {'datetime': '2025-05-29 11:30:00', 'sar': '356.14600'}, {'datetime': '2025-05-29 10:30:00', 'sar': '355.91000'}, {'datetime': '2025-05-29 09:30:00', 'sar': '355.91000'}, {'datetime': '2025-05-28 15:30:00', 'sar': '364.84720'}, {'datetime': '2025-05-28 14:30:00', 'sar': '365'}, {'datetime': '2025-05-28 13:30:00', 'sar': '356.33385'}, {'datetime': '2025-05-28 12:30:00', 'sar': '354.92308'}, {'datetime': '2025-05-28 11:30:00', 'sar': '353.28266'}, {'datetime': '2025-05-28 10:30:00', 'sar': '351.37518'}, {'datetime': '2025-05-28 09:30:00', 'sar': '349.15719'}, {'datetime': '2025-05-27 15:30:00', 'sar"
+    },
+    "{'symbol': 'AAPL', 'interval': '15min', 'outputsize': 2880}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'AAPL', 'interval': '15min', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'SAR - Parabolic SAR', 'acceleration': 0.02, 'maximum': 0.2}}, 'values': [{'datetime': '2025-05-30 15:45:00', 'sar': '197.93158'}, {'datetime': '2025-05-30 15:30:00', 'sar': '197.58544'}, {'datetime': '2025-05-30 15:15:00', 'sar': '197.29160'}, {'datetime': '2025-05-30 15:00:00', 'sar': '197.071734'}, {'datetime': '2025-05-30 14:45:00', 'sar': '196.92567'}, {'datetime': '2025-05-30 14:30:00', 'sar': '196.82800'}, {'datetime': '2025-05-30 14:15:00', 'sar': '196.78000'}, {'datetime': '2025-05-30 14:00:00', 'sar': '198.86675'}, {'datetime': '2025-05-30 13:45:00', 'sar': '198.95370'}, {'datetime': '2025-05-30 13:30:00', 'sar': '199.044273'}, {'datetime': '2025-05-30 13:15:00', 'sar': '199.13862'}, {'datetime': '2025-05-30 13:00:00', 'sar': '199.23689'}, {'datetime': '2025-05-30 12:45:00', 'sar': '199.33926'}, {'datetime': '2025-05-30 12:30:00', 'sar': '199.44590'}, {'datetime': '2025-05-30 12:15:00', 'sar': '199.48500'}, {'datetime': '2025-05-30 12:00:00', 'sar': '198.11556'}, {'datetime': '2025-05-30 11:45:00', 'sar': '198.087612'}, {'datetime': '2025-05-30 11:30:00', 'sar': '198.059094'}, {'datetime': '2025-05-30 11:15:00', 'sar': '198.029994'}, {'datetime': '2025-05-30 11:00:00', 'sar': '198.00030001'}, {'datetime': '2025-05-30 10:45:00', 'sar': '197.97'}, {'datetime': '2025-05-30 10"
+    },
+    "{'symbol': 'TSLA', 'interval': '4h', 'outputsize': 180}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'TSLA', 'interval': '4h', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'SAR - Parabolic SAR', 'acceleration': 0.02, 'maximum': 0.2}}, 'values': [{'datetime': '2025-05-30 13:30:00', 'sar': '343.78374'}, {'datetime': '2025-05-30 09:30:00', 'sar': '341.70320'}, {'datetime': '2025-05-29 13:30:00', 'sar': '339.44174'}, {'datetime': '2025-05-29 09:30:00', 'sar': '336.98363'}, {'datetime': '2025-05-28 13:30:00', 'sar': '335.19535'}, {'datetime': '2025-05-28 09:30:00', 'sar': '333.29293'}, {'datetime': '2025-05-27 13:30:00', 'sar': '332.022214'}, {'datetime': '2025-05-27 09:30:00', 'sar': '331.39001'}, {'datetime': '2025-05-23 13:30:00', 'sar': '350.22698'}, {'datetime': '2025-05-23 09:30:00', 'sar': '351.42934'}, {'datetime': '2025-05-22 13:30:00', 'sar': '352.70844'}, {'datetime': '2025-05-22 09:30:00', 'sar': '354.069192'}, {'datetime': '2025-05-21 13:30:00', 'sar': '354.98041'}, {'datetime': '2025-05-21 09:30:00', 'sar': '354.98041'}, {'datetime': '2025-05-20 13:30:00', 'sar': '334.78000'}, {'datetime': '2025-05-20 09:30:00', 'sar': '333.38000'}, {'datetime': '2025-05-19 13:30:00', 'sar': '330.41426'}, {'datetime': '2025-05-19 09:30:00', 'sar': '326.37508'}, {'datetime': '2025-05-16 13:30:00', 'sar': '321.56652'}, {'datetime': '2025-05-16 09:30:00', 'sar': '315.84205'}, {'datetime': '2025-05-15 13:30:00', 'sar': '310.28145'}, {'datetime': '2025-05-15 09:30:00"
+    },
+    "{'symbol': 'AAPL', 'interval': '1month', 'outputsize': 1, 'acceleration': 0.02}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'AAPL', 'interval': '1month', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'SAR - Parabolic SAR', 'acceleration': 0.02, 'maximum': 0.2}}, 'values': [{'datetime': '2025-05-01', 'sar': '258.28221'}], 'status': 'ok'}"
+    },
+    "{'symbol': 'AAPL', 'interval': '1week', 'outputsize': 2, 'acceleration': 0.02}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'AAPL', 'interval': '1week', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'SAR - Parabolic SAR', 'acceleration': 0.02, 'maximum': 0.2}}, 'values': [{'datetime': '2025-05-26', 'sar': '213.94000'}, {'datetime': '2025-05-19', 'sar': '213.94000'}], 'status': 'ok'}"
+    }
+}

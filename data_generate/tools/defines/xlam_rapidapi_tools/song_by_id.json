@@ -1,0 +1,17 @@
+{
+    "name": "song_by_id",
+    "description": "This is a sub-function API for tool halsey_lyric_snippets.\nTool description: An API that allows users to view short excerpts of Halsey's songs.\nAPI description: Fetches a song's details by its unique identifier from the Halsey Lyrics Snippets API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the song to be retrieved.",
+                "default": "63b7b10efac0fba0d5e1d187"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

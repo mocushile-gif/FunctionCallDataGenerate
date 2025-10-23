@@ -1,0 +1,14 @@
+{
+    "name": "ligue_1_standings",
+    "description": "This is a sub-function API for tool ligue_1_standings.\nTool description: French Ligue 1 Standings & Table\nAPI description: Fetches the Ligue 1 standings for a given season using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season": {
+                "type": "string",
+                "description": "The season for which to fetch the standings (e.g., '2022'). Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

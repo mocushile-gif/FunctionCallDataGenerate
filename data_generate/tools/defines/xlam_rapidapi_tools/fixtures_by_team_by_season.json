@@ -1,0 +1,23 @@
+{
+    "name": "fixtures_by_team_by_season",
+    "description": "This is a sub-function API for tool rugby_live_data.\nTool description: Rugby fixtures, results, standings and live match coverage from around the world.\nAPI description: Retrieves fixtures and results for a given team within a specified season across all competitions they play in.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season_id": {
+                "type": "number",
+                "description": "The ID of the season to retrieve fixtures and results for.",
+                "default": 2023.0
+            },
+            "team_id": {
+                "type": "number",
+                "description": "The ID of the team to retrieve fixtures and results for.",
+                "default": 6167.0
+            }
+        },
+        "required": [
+            "season_id",
+            "team_id"
+        ]
+    }
+}

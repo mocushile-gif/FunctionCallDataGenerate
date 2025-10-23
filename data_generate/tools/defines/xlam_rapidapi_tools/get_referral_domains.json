@@ -1,0 +1,17 @@
+{
+    "name": "get_referral_domains",
+    "description": "This is a sub-function API for tool referral_domain_checker_api.\nTool description: Get Referral Domains of a website, backlink counts , ranks etc \nAPI description: Retrieves a list of referral domains for a given domain using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain to retrieve referral domains for.",
+                "default": "getecz.com"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

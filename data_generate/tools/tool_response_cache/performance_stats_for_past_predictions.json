@@ -1,0 +1,14 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{'data': {'market': 'classic', 'accuracy': {'last_30_days': 0.6458015267175573, 'yesterday': 0.5789473684210527, 'last_7_days': 0.6447876447876448, 'last_14_days': 0.6442048517520216}, 'details': {'last_30_days': {'total': 1330, 'won': 846, 'lost': 464, 'postponed': 20, 'pending': 0}, 'yesterday': {'total': 19, 'won': 11, 'lost': 8, 'postponed': 0, 'pending': 0}, 'last_7_days': {'total': 261, 'won': 167, 'lost': 92, 'postponed': 2, 'pending': 0}, 'last_14_days': {'total': 379, 'won': 239, 'lost': 132, 'postponed': 8, 'pending': 0}}}}"
+    },
+    "{'federation': 'CONMEBOL', 'market': 'classic'}": {
+        "error": "",
+        "response": "{'data': {'market': 'classic', 'accuracy': {'last_14_days': 0.6931818181818182, 'yesterday': 0.6060606060606061, 'last_7_days': 0.6699029126213593, 'last_30_days': 0.7142857142857143}, 'details': {'last_14_days': {'total': 177, 'won': 122, 'lost': 54, 'postponed': 1, 'pending': 0}, 'yesterday': {'total': 33, 'won': 20, 'lost': 13, 'postponed': 0, 'pending': 0}, 'last_7_days': {'total': 103, 'won': 69, 'lost': 34, 'postponed': 0, 'pending': 0}, 'last_30_days': {'total': 375, 'won': 260, 'lost': 104, 'postponed': 11, 'pending': 0}}}}"
+    },
+    "{'federation': 'AFC', 'market': 'classic'}": {
+        "error": "",
+        "response": "{'data': {'market': 'classic', 'accuracy': {'last_14_days': 0.6904761904761905, 'yesterday': 1.0, 'last_7_days': 0.71875, 'last_30_days': 0.6695156695156695}, 'details': {'last_14_days': {'total': 127, 'won': 87, 'lost': 39, 'postponed': 1, 'pending': 0}, 'yesterday': {'total': 6, 'won': 6, 'lost': 0, 'postponed': 0, 'pending': 0}, 'last_7_days': {'total': 64, 'won': 46, 'lost': 18, 'postponed': 0, 'pending': 0}, 'last_30_days': {'total': 353, 'won': 235, 'lost': 116, 'postponed': 2, 'pending': 0}}}}"
+    }
+}

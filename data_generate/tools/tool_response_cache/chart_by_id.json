@@ -1,0 +1,43 @@
+{
+    "{'is_id': 'tvmeter'}": {
+        "error": "",
+        "response": [
+            {
+                "rank": 1,
+                "title": "Stranger Things",
+                "year": 2023,
+                "rating": 8.9,
+                "votes": 245000,
+                "cover": "https://example.com/stranger-things.jpg"
+            },
+            {
+                "rank": 2,
+                "title": "The Crown",
+                "year": 2022,
+                "rating": 8.7,
+                "votes": 189000,
+                "cover": "https://example.com/the-crown.jpg"
+            },
+            {
+                "rank": 3,
+                "title": "Game of Thrones",
+                "year": 2019,
+                "rating": 8.5,
+                "votes": 172000,
+                "cover": "https://example.com/game-of-thrones.jpg"
+            }
+        ]
+    },
+    "{'is_id': 'top'}": {
+        "error": "",
+        "response": "{'results': [{'rank': 1, 'rating': 9.236296774671278, 'votes': 2760450, 'url': 'https://www.imdb.com/title/tt0111161/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=1a264172-ae11-42e4-8ef7-7fed1973bb8f&pf_rd_r=33XAQ9RVT8VSVEDZKT88&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_1', 'img': 'https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_UX45_CR0,0,45,67_AL_.jpg', 'crew': 'Frank Darabont (dir.), Tim Robbins, Morgan Freeman', 'title': 'The Shawshank Redemption', 'release': 1994}, {'rank': 2, 'rating': 9.155661334276168, 'votes': 1920984, 'url': 'https://www.imdb.com/title/tt0068646/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=1a264172-ae11-42e4-8ef7-7fed1973bb8f&pf_rd_r=33XAQ9RVT8VSVEDZKT88&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_2', 'img': 'https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY67_CR1,0,45,67_AL_.jpg', 'crew': 'Francis Ford Coppola (dir.), Marlon Brando, Al Pacino', 'title': 'The Godfather', 'release': 1972}, {'rank': 3, 'rating': 8.993634441380093, 'votes': 2733439, 'url': 'https://www.imdb.com/title/tt0468569/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=1a264172-ae11-42e4-8ef7-7fed1973bb8f&pf_rd_r=33XAQ9RVT8VSVEDZKT88&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_3', 'img': 'https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UY67_CR0,0,45,67_AL_.jpg', 'crew': 'Christopher Nolan (dir.), Christian Bale, Heath Ledger', 'title': 'The Dark Knight', 'release': 2008}, {'rank': 4, 'rating': 8.984028626692929, 'votes': 1307306, 'url': 'https://www.imdb.com/title/tt0071562/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=1a264172-ae11-42e4-8ef7-7fed1973bb8f&pf_rd_r=33XAQ9RVT8VSVEDZKT88&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_4', 'img': 'https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY67_CR1,0,45,67_AL_.jpg', 'crew': 'Francis Ford Coppola (dir.), Al Pacino, Robe"
+    },
+    "{'is_id': 'moviemeter'}": {
+        "error": "",
+        "response": "{'results': [{'rank': 1, 'rating': 6.9, 'votes': 37614, 'url': 'https://www.imdb.com/title/tt1462764/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e9101d6a-9cbe-4310-a9f9-38e3776597d5&pf_rd_r=EYA6MFQW357E5QPK8X68&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_1', 'img': 'https://m.media-amazon.com/images/M/MV5BZDQxMTY3NTAtMzYwYi00Y2U3LThkYmQtOTljY2I4ZmJiZGIzXkEyXkFqcGdeQXVyMTU1NzY5NTky._V1_UY67_CR1,0,45,67_AL_.jpg', 'crew': 'James Mangold (dir.), Harrison Ford, Phoebe Waller-Bridge', 'title': 'Indiana Jones and the Dial of Destiny', 'release': 2023, 'velocity': 10}, {'rank': 2, 'rating': 6.8, 'votes': 13444, 'url': 'https://www.imdb.com/title/tt15671028/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e9101d6a-9cbe-4310-a9f9-38e3776597d5&pf_rd_r=EYA6MFQW357E5QPK8X68&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_2', 'img': 'https://m.media-amazon.com/images/M/MV5BMjg3N2M3OWUtZGQ3NC00OGI1LTllZDUtMTdiYWQxMTk0YTg2XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UY67_CR0,0,45,67_AL_.jpg', 'crew': 'Gene Stupnitsky (dir.), Jennifer Lawrence, Andrew Barth Feldman', 'title': 'No Hard Feelings', 'release': 2023, 'velocity': 2}, {'rank': 3, 'rating': 7.1, 'votes': 23596, 'url': 'https://www.imdb.com/title/tt14230388/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e9101d6a-9cbe-4310-a9f9-38e3776597d5&pf_rd_r=EYA6MFQW357E5QPK8X68&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_3', 'img': 'https://m.media-amazon.com/images/M/MV5BNDJmMzY0ZGUtYWE1My00OWViLTg1NTctOWMwZWJlNDQzNGRiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_UY67_CR0,0,45,67_AL_.jpg', 'crew': 'Wes Anderson (dir.), Jason Schwartzman, Scarlett Johansson', 'title': 'Asteroid City', 'release': 2023, 'velocity': 2}, {'rank': 4, 'rating': 7.2, 'votes': 80147, 'url': 'https://www.imdb.com/title/tt0439572/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e9101d6a-9cbe-4310-a9f9-38e3776597d5&pf_rd_r=EYA6MFQW357E5QPK8X68&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_4', 'img': 'https://m.media-amazon.com/images/M/MV5BZWE2ZWE5MDQtMTJlZi00MTVjLTkxOTgtNmNiYjg2NDIxN2NhXkEyXkFqcGdeQXVyMTUzMTg2ODkz._"
+    },
+    "{'is_id': 'boxoffice'}": {
+        "error": "",
+        "response": "{'results': [{'rank': 1, 'url': 'https://www.imdb.com/title/tt13405778?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=f9f31d04-fc22-4d12-86b4-f46e25aa2f6f&pf_rd_r=ZMXHKB35D07HQ60DJTDC&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=boxoffice&ref_=cht_bo_1', 'img': 'https://m.media-amazon.com/images/M/MV5BMjdlZjI4YTEtNjgzZi00NTA1LWIwZWYtMDc0MzhjOWNlYjcxXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_UY67_CR4,0,45,67_AL_.jpg', 'crew': 'Patrick Wilson (dir.), Ty Simpkins, Patrick Wilson', 'title': 'Insidious: The Red Door', 'gross': '$32.7M', 'weekend': '$32.7M', 'weeks': 1}, {'rank': 2, 'url': 'https://www.imdb.com/title/tt1462764?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=f9f31d04-fc22-4d12-86b4-f46e25aa2f6f&pf_rd_r=ZMXHKB35D07HQ60DJTDC&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=boxoffice&ref_=cht_bo_2', 'img': 'https://m.media-amazon.com/images/M/MV5BZDQxMTY3NTAtMzYwYi00Y2U3LThkYmQtOTljY2I4ZmJiZGIzXkEyXkFqcGdeQXVyMTU1NzY5NTky._V1_UY67_CR1,0,45,67_AL_.jpg', 'crew': 'James Mangold (dir.), Harrison Ford, Phoebe Waller-Bridge', 'title': 'Indiana Jones and the Dial of Destiny', 'gross': '$121.2M', 'weekend': '$26.5M', 'weeks': 2}, {'rank': 3, 'url': 'https://www.imdb.com/title/tt7599146?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=f9f31d04-fc22-4d12-86b4-f46e25aa2f6f&pf_rd_r=ZMXHKB35D07HQ60DJTDC&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=boxoffice&ref_=cht_bo_3', 'img': 'https://m.media-amazon.com/images/M/MV5BNTAwNWQ1ZjQtZDFmMC00YjNlLWFlNjItMjJlYzZkMjJlNzkyXkEyXkFqcGdeQXVyNzc0MTgzMzU@._V1_UY67_CR0,0,45,67_AL_.jpg', 'crew': 'Alejandro Monteverde (dir.), Jim Caviezel, Bill Camp', 'title': 'Sound of Freedom', 'gross': '$40.2M', 'weekend': '$18.2M', 'weeks': 1}, {'rank': 4, 'url': 'https://www.imdb.com/title/tt15789038?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=f9f31d04-fc22-4d12-86b4-f46e25aa2f6f&pf_rd_r=ZMXHKB35D07HQ60DJTDC&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=boxoffice&ref_=cht_bo_4', 'img': 'https://m.media-amazon.com/images/M/MV5BZjYxYWVjMDMtZGRjZS00ZDE4LTk0OWUtMjUyOTI4MmYxNjgwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_UY67_CR0,0,45,67_AL_.jpg', 'crew': 'Peter Sohn (dir.), Leah Lewis, Mamoudou Athie', 'title"
+    }
+}

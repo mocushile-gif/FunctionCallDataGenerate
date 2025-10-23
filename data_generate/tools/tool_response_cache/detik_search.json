@@ -1,0 +1,66 @@
+{
+    "{'page': 1, 'limit': 5, 'keyword': 'travel restrictions in Bali'}": {
+        "error": "",
+        "response": {
+            "item": [],
+            "metadata": {
+                "limit": 5,
+                "page": 1,
+                "total": 0,
+                "total_page": 0
+            }
+        }
+    },
+    "{'page': 1, 'limit': 5, 'keyword': 'current events in Indonesia'}": {
+        "error": "",
+        "response": {
+            "item": [],
+            "metadata": {
+                "limit": 5,
+                "page": 1,
+                "total": 0,
+                "total_page": 0
+            }
+        }
+    },
+    "{'page': 1, 'limit': 5, 'keyword': 'latest movie releases'}": {
+        "error": "",
+        "response": {
+            "item": [],
+            "metadata": {
+                "limit": 5,
+                "page": 1,
+                "total": 0,
+                "total_page": 0
+            }
+        }
+    },
+    "{'page': 1.0, 'limit': 10.0, 'keyword': 'Jakarta'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'page': 1, 'limit': 10, 'keyword': 'praktik bisnis berkelanjutan'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'page': 1, 'limit': 10, 'keyword': 'Tesla market performance'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'keyword': 'gaming', 'limit': 10, 'page': 1}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'keyword': 'gaming', 'limit': 10, 'page': 2}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'page': 1, 'limit': 8, 'keyword': 'climate change policies'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'page': 1, 'limit': 8, 'keyword': 'tech startup funding'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    }
+}

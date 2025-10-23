@@ -1,0 +1,32 @@
+{
+    "name": "companies_id_events",
+    "description": "This is a sub-function API for tool german_company_data_v2.\nTool description: Enrich your CRM / MAS / ERP system with credible data about all incorporated companies from  Germany.\nAPI description: This endpoint returns the latest events about the company with the given identifier since the given timestamp. This timestamp is optional and is specified via a query parameter. Events come with a type (companies' register event, blog article, press release, etc.), a category (change in management, finances, merger/acquisition, etc.), a text (the content of the event), a source, and a timestamp.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the company.",
+                "default": "DEVFCLQFW054"
+            },
+            "category": {
+                "type": "string",
+                "description": "The category of events to filter by (default is 'MANAGEMENT_AND_TEAM,FINANCES_AND_CAPITAL,NEWS_AND_EVENTS').",
+                "default": "MANAGEMENT_AND_TEAM,FINANCES_AND_CAPITAL,NEWS_AND_EVENTS"
+            },
+            "since": {
+                "type": "string",
+                "description": "The start date for fetching events in YYYY-MM-DD format (default is '2017-01-01').",
+                "default": "2017-01-01"
+            },
+            "size": {
+                "type": "number",
+                "description": "The number of events to retrieve (default is 100).",
+                "default": 100.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

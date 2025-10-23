@@ -1,0 +1,41 @@
+{
+    "name": "fetchallassociationsbelongingtoamatch",
+    "description": "This is a sub-function API for tool cleardil.\nTool description: The End-to-End KYC compliance solution An integrated platform to effortlessly meet all your Anti-Money Laundering and KYC requirements - on the back of a modern Web Portal and a developer-friendly API.\nAPI description: Fetch all associations belonging to a specific match for a given customer and screening ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "authorization": {
+                "type": "string",
+                "description": "The authorization token for accessing the API.",
+                "default": "Bearer {{accessTokenUser}}"
+            },
+            "content_type": {
+                "type": "string",
+                "description": "The MIME type of the request.",
+                "default": "application/json"
+            },
+            "customer_a_id": {
+                "type": "string",
+                "description": "The ID of the customer.",
+                "default": "customer_a_id"
+            },
+            "screening_a_id": {
+                "type": "string",
+                "description": "The ID of the screening.",
+                "default": "screening_a_id"
+            },
+            "match_id": {
+                "type": "string",
+                "description": "The ID of the match.",
+                "default": "match_id"
+            }
+        },
+        "required": [
+            "authorization",
+            "content_type",
+            "customer_a_id",
+            "screening_a_id",
+            "match_id"
+        ]
+    }
+}

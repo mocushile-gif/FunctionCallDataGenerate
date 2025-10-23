@@ -1,0 +1,23 @@
+{
+    "name": "historical_prices",
+    "description": "This is a sub-function API for tool osrs_live_prices.\nTool description: Grand exchange data for old school runescape items. \nAPI description: Fetches a list of the high and low prices for the specified item at the given time interval.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "timestep": {
+                "type": "string",
+                "description": "The interval at which to fetch price data (e.g., 'daily', 'hourly').",
+                "default": "5m"
+            },
+            "itemid": {
+                "type": "number",
+                "description": "The unique identifier for the item.",
+                "default": 565.0
+            }
+        },
+        "required": [
+            "timestep",
+            "itemid"
+        ]
+    }
+}

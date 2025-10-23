@@ -1,0 +1,38 @@
+{
+    "name": "random_mlem",
+    "description": "This is a sub-function API for tool mlemapi.\nTool description: A free public service API which provides pictures of animals with mlems/bleps.\nAPI description: Fetches one random mlem image in JSON format based on the given optional parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "brightness": {
+                "type": "string",
+                "description": "Image brightness, can be 'dark' or 'bright'."
+            },
+            "maxheight": {
+                "type": "number",
+                "description": "Maximum height of the image."
+            },
+            "minwidth": {
+                "type": "number",
+                "description": "Minimum width of the image."
+            },
+            "minheight": {
+                "type": "number",
+                "description": "Minimum height of the image."
+            },
+            "tag": {
+                "type": "string",
+                "description": "Tag to filter the mlem images."
+            },
+            "maxwidth": {
+                "type": "number",
+                "description": "Maximum width of the image."
+            },
+            "orientation": {
+                "type": "string",
+                "description": "Orientation of the image, can be 'square', 'landscape', or 'portrait'."
+            }
+        },
+        "required": []
+    }
+}

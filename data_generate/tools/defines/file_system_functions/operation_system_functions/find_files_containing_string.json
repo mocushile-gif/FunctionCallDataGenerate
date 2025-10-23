@@ -1,0 +1,23 @@
+{
+    "name": "find_files_containing_string",
+    "description": "Find all files in a directory containing a specific string.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "directory": {
+                "type": "string",
+                "description": "The directory to search in. Default to './'"
+            },
+            "search_string": {
+                "type": "string",
+                "description": "The string to search for within files."
+            },
+            "file_extension": {
+                "type": "string",
+                "description": "The file extension to filter by (default is '.txt').",
+                "default": ".txt"
+            }
+        },
+        "required": ["directory", "search_string"]
+    }
+}

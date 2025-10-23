@@ -1,0 +1,17 @@
+{
+    "name": "zipcode",
+    "description": "This is a sub-function API for tool ap_sample.\nTool description: AR sample\nAPI description: Fetches location information based on a given ZIP code using the ToolBench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zipcode": {
+                "type": "string",
+                "description": "The ZIP code for which to fetch location information.",
+                "default": "95124"
+            }
+        },
+        "required": [
+            "zipcode"
+        ]
+    }
+}

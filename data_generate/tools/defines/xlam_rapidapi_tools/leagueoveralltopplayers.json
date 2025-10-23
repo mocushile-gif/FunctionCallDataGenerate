@@ -1,0 +1,23 @@
+{
+    "name": "leagueoveralltopplayers",
+    "description": "This is a sub-function API for tool icehockeyapi.\nTool description: IceHockeyApi offers you real time hockey livescore, tables, statistics, fixtures and results for more than 70 ice hockey leagues, cups and tournaments.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Get the top players for a specific Ice Hockey league by providing the tournament ID and season ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "seasonid": {
+                "type": "number",
+                "description": "The ID of the season for which the top players are to be retrieved.",
+                "default": 39146
+            },
+            "tournamentid": {
+                "type": "number",
+                "description": "The unique ID of the handball tournament for which the top players are to be retrieved.",
+                "default": 3
+            }
+        },
+        "required": [
+            "seasonid",
+            "tournamentid"
+        ]
+    }
+}

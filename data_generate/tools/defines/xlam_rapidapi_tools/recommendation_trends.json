@@ -1,0 +1,16 @@
+{
+    "name": "recommendation_trends",
+    "description": "This is a sub-function API for tool yh_finance_complete.\nTool description: This API helps you to query stocks, quotes, movers and other financial summary.\nAPI description: Fetches recommendation trends for a given stock symbol using the Yahoo Finance API on RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock ticker symbol for which to retrieve recommendation trends."
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

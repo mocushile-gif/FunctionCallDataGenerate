@@ -1,0 +1,15 @@
+{
+    "name": "food_names_and_ids",
+    "description": "This is a sub-function API for tool fitness_calculator.\nTool description: Find \"body fat percentage\",  \"ideal weight\", \"BMI\", \"daily calory requirement\" and some macro nutrients with this api.\nAPI description: Fetches food table IDs for a specified sub-table in the food database using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "subtablename": {
+                "type": "string",
+                "description": "The name of the sub-table whose IDs need to be fetched. Defaults to 'Fo1_2'.",
+                "default": "Fo1_2"
+            }
+        },
+        "required": []
+    }
+}

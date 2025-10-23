@@ -1,0 +1,17 @@
+{
+    "name": "validate_username",
+    "description": "This is a sub-function API for tool instagram_bulk_profile_scrapper.\nTool description: Highly maintained and Stable Instagram Api. Scrap up to 200k Instagram profile per day. It's capable to handle high volume. Contact me for custom plans or requirements\nAPI description: **Contact me for Custom package or requirements**\n\nThis API will be usefull for Instagram username validation or finding similar usernames to pick correct one.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username to be validated.",
+                "default": "therock"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

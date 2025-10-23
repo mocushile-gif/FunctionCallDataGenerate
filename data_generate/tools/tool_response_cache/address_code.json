@@ -1,0 +1,575 @@
+{
+    "{'code': '13101001'}": {
+        "error": "",
+        "response": {
+            "items": [
+                {
+                    "code": "13101001000",
+                    "name": "東京都千代田区飯田橋",
+                    "postal_code": "1020072",
+                    "coord": {
+                        "lat": 35.699651,
+                        "lon": 139.748228
+                    },
+                    "details": [
+                        {
+                            "code": "13",
+                            "name": "東京都",
+                            "ruby": "とうきょうと",
+                            "level": "1"
+                        },
+                        {
+                            "code": "13101",
+                            "name": "千代田区",
+                            "ruby": "ちよだく",
+                            "level": "2"
+                        },
+                        {
+                            "code": "13101001",
+                            "name": "飯田橋",
+                            "ruby": "いいだばし",
+                            "level": "3"
+                        }
+                    ]
+                }
+            ],
+            "unit": {
+                "datum": "wgs84",
+                "coord_unit": "degree"
+            }
+        }
+    },
+    "{'code': '13113031000'}": {
+        "error": "",
+        "response": {
+            "items": [
+                {
+                    "code": "13113031000",
+                    "name": "東京都渋谷区代々木",
+                    "postal_code": "1510053",
+                    "coord": {
+                        "lat": 35.678038,
+                        "lon": 139.692123
+                    },
+                    "details": [
+                        {
+                            "code": "13",
+                            "name": "東京都",
+                            "ruby": "とうきょうと",
+                            "level": "1"
+                        },
+                        {
+                            "code": "13113",
+                            "name": "渋谷区",
+                            "ruby": "しぶやく",
+                            "level": "2"
+                        },
+                        {
+                            "code": "13113031",
+                            "name": "代々木",
+                            "ruby": "よよぎ",
+                            "level": "3"
+                        }
+                    ]
+                }
+            ],
+            "unit": {
+                "datum": "wgs84",
+                "coord_unit": "degree"
+            }
+        }
+    },
+    "{'code': '12345'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': '13113031', 'coord_unit': 'degree'}": {
+        "error": "",
+        "response": {
+            "items": [
+                {
+                    "code": "13113031000",
+                    "name": "東京都渋谷区代々木",
+                    "postal_code": "1510053",
+                    "coord": {
+                        "lat": 35.678038,
+                        "lon": 139.692123
+                    },
+                    "details": [
+                        {
+                            "code": "13",
+                            "name": "東京都",
+                            "ruby": "とうきょうと",
+                            "level": "1"
+                        },
+                        {
+                            "code": "13113",
+                            "name": "渋谷区",
+                            "ruby": "しぶやく",
+                            "level": "2"
+                        },
+                        {
+                            "code": "13113031",
+                            "name": "代々木",
+                            "ruby": "よよぎ",
+                            "level": "3"
+                        }
+                    ]
+                }
+            ],
+            "unit": {
+                "datum": "wgs84",
+                "coord_unit": "degree"
+            }
+        }
+    },
+    "{'code': '13113031001'}": {
+        "error": "",
+        "response": {
+            "items": [
+                {
+                    "code": "13113031001",
+                    "name": "東京都渋谷区代々木1丁目",
+                    "postal_code": "1510053",
+                    "coord": {
+                        "lat": 35.682662,
+                        "lon": 139.699252
+                    },
+                    "details": [
+                        {
+                            "code": "13",
+                            "name": "東京都",
+                            "ruby": "とうきょうと",
+                            "level": "1"
+                        },
+                        {
+                            "code": "13113",
+                            "name": "渋谷区",
+                            "ruby": "しぶやく",
+                            "level": "2"
+                        },
+                        {
+                            "code": "13113031",
+                            "name": "代々木",
+                            "ruby": "よよぎ",
+                            "level": "3"
+                        },
+                        {
+                            "code": "13113031001",
+                            "name": "1丁目",
+                            "ruby": "1ちょうめ",
+                            "level": "4"
+                        }
+                    ]
+                }
+            ],
+            "unit": {
+                "datum": "wgs84",
+                "coord_unit": "degree"
+            }
+        }
+    },
+    "{'code': '12227016001'}": {
+        "error": "",
+        "response": {
+            "items": [
+                {
+                    "code": "12227016001",
+                    "name": "千葉県浦安市堀江1丁目",
+                    "postal_code": "2790041",
+                    "coord": {
+                        "lat": 35.654179,
+                        "lon": 139.898675
+                    },
+                    "details": [
+                        {
+                            "code": "12",
+                            "name": "千葉県",
+                            "ruby": "ちばけん",
+                            "level": "1"
+                        },
+                        {
+                            "code": "12227",
+                            "name": "浦安市",
+                            "ruby": "うらやすし",
+                            "level": "2"
+                        },
+                        {
+                            "code": "12227016",
+                            "name": "堀江",
+                            "ruby": "ほりえ",
+                            "level": "3"
+                        },
+                        {
+                            "code": "12227016001",
+                            "name": "1丁目",
+                            "ruby": "1ちょうめ",
+                            "level": "4"
+                        }
+                    ]
+                }
+            ],
+            "unit": {
+                "datum": "wgs84",
+                "coord_unit": "degree"
+            }
+        }
+    },
+    "{'code': 'bakeries'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': '13'}": {
+        "error": "",
+        "response": {
+            "items": [
+                {
+                    "code": "13",
+                    "name": "東京都",
+                    "coord": {
+                        "lat": 35.689553,
+                        "lon": 139.691819
+                    },
+                    "details": [
+                        {
+                            "code": "13",
+                            "name": "東京都",
+                            "ruby": "とうきょうと",
+                            "level": "1"
+                        }
+                    ]
+                }
+            ],
+            "unit": {
+                "datum": "wgs84",
+                "coord_unit": "degree"
+            }
+        }
+    },
+    "{'code': '90210'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': '89101'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': '90001'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': 'Paris'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': 'bakeries', 'coord_unit': 'degree', 'datum': 'wgs84'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': '10001'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': '44'}": {
+        "error": "",
+        "response": {
+            "items": [
+                {
+                    "code": "44",
+                    "name": "大分県",
+                    "coord": {
+                        "lat": 33.238548,
+                        "lon": 131.612409
+                    },
+                    "details": [
+                        {
+                            "code": "44",
+                            "name": "大分県",
+                            "ruby": "おおいたけん",
+                            "level": "1"
+                        }
+                    ]
+                }
+            ],
+            "unit": {
+                "datum": "wgs84",
+                "coord_unit": "degree"
+            }
+        }
+    },
+    "{'code': '12.37'}": {
+        "error": "",
+        "response": {
+            "items": [
+                {
+                    "code": "12",
+                    "name": "千葉県",
+                    "coord": {
+                        "lat": 35.605063,
+                        "lon": 140.123322
+                    },
+                    "details": [
+                        {
+                            "code": "12",
+                            "name": "千葉県",
+                            "ruby": "ちばけん",
+                            "level": "1"
+                        }
+                    ]
+                },
+                {
+                    "code": "37",
+                    "name": "香川県",
+                    "coord": {
+                        "lat": 34.34009,
+                        "lon": 134.043449
+                    },
+                    "details": [
+                        {
+                            "code": "37",
+                            "name": "香川県",
+                            "ruby": "かがわけん",
+                            "level": "1"
+                        }
+                    ]
+                }
+            ],
+            "unit": {
+                "datum": "wgs84",
+                "coord_unit": "degree"
+            }
+        }
+    },
+    "{'code': '12237'}": {
+        "error": "",
+        "response": {
+            "items": [
+                {
+                    "code": "12237",
+                    "name": "千葉県山武市",
+                    "coord": {
+                        "lat": 35.602988,
+                        "lon": 140.413531
+                    },
+                    "details": [
+                        {
+                            "code": "12",
+                            "name": "千葉県",
+                            "ruby": "ちばけん",
+                            "level": "1"
+                        },
+                        {
+                            "code": "12237",
+                            "name": "山武市",
+                            "ruby": "さんむし",
+                            "level": "2"
+                        }
+                    ]
+                }
+            ],
+            "unit": {
+                "datum": "wgs84",
+                "coord_unit": "degree"
+            }
+        }
+    },
+    "{'code': 'US.CA'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': 'CA'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': '13111027000'}": {
+        "error": "",
+        "response": {
+            "items": [
+                {
+                    "code": "13111027000",
+                    "name": "東京都大田区田園調布",
+                    "postal_code": "1450071",
+                    "coord": {
+                        "lat": 35.589542,
+                        "lon": 139.673636
+                    },
+                    "details": [
+                        {
+                            "code": "13",
+                            "name": "東京都",
+                            "ruby": "とうきょうと",
+                            "level": "1"
+                        },
+                        {
+                            "code": "13111",
+                            "name": "大田区",
+                            "ruby": "おおたく",
+                            "level": "2"
+                        },
+                        {
+                            "code": "13111027",
+                            "name": "田園調布",
+                            "ruby": "でんえんちょうふ",
+                            "level": "3"
+                        }
+                    ]
+                }
+            ],
+            "unit": {
+                "datum": "wgs84",
+                "coord_unit": "degree"
+            }
+        }
+    },
+    "{'code': '75000'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': '10785'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': 'beach'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': '94102'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': 'mountain'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    },
+    "{'code': '07212078110'}": {
+        "error": "",
+        "response": {
+            "items": [
+                {
+                    "code": "07212078110",
+                    "name": "福島県南相馬市原町区泉根渡",
+                    "postal_code": "9750023",
+                    "coord": {
+                        "lat": 37.654733,
+                        "lon": 140.996357
+                    },
+                    "details": [
+                        {
+                            "code": "07",
+                            "name": "福島県",
+                            "ruby": "ふくしまけん",
+                            "level": "1"
+                        },
+                        {
+                            "code": "07212",
+                            "name": "南相馬市",
+                            "ruby": "みなみそうまし",
+                            "level": "2"
+                        },
+                        {
+                            "code": "07212078",
+                            "name": "原町区泉",
+                            "ruby": "はらまちくいずみ",
+                            "level": "3"
+                        },
+                        {
+                            "code": "07212078110",
+                            "name": "根渡",
+                            "ruby": "ねわたり",
+                            "level": "4"
+                        }
+                    ]
+                }
+            ],
+            "unit": {
+                "datum": "wgs84",
+                "coord_unit": "degree"
+            }
+        }
+    },
+    "{'code': '15217'}": {
+        "error": "",
+        "response": {
+            "items": [
+                {
+                    "code": "15217",
+                    "name": "新潟県妙高市",
+                    "coord": {
+                        "lat": 37.025435,
+                        "lon": 138.253458
+                    },
+                    "details": [
+                        {
+                            "code": "15",
+                            "name": "新潟県",
+                            "ruby": "にいがたけん",
+                            "level": "1"
+                        },
+                        {
+                            "code": "15217",
+                            "name": "妙高市",
+                            "ruby": "みょうこうし",
+                            "level": "2"
+                        }
+                    ]
+                }
+            ],
+            "unit": {
+                "datum": "wgs84",
+                "coord_unit": "degree"
+            }
+        }
+    },
+    "{'code': 'GB'}": {
+        "error": "",
+        "response": {
+            "items": [],
+            "unit": {}
+        }
+    }
+}

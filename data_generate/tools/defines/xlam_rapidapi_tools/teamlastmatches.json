@@ -1,0 +1,22 @@
+{
+    "name": "teamlastmatches",
+    "description": "This is a sub-function API for tool esportapi.\nTool description: ESportApi offers eSports results for League of Legends, Dota 2, Counter-Strike providing also eSports standings and tournament live scores.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Get the last matches for a specific E-Sports team by providing the team ID and the page number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number (starting from 0) of the last matches you want to retrieve."
+            },
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the cricket team for which you want to retrieve the last matches.",
+                "default": 459469
+            }
+        },
+        "required": [
+            "page",
+            "is_id"
+        ]
+    }
+}

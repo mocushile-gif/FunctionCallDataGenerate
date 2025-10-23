@@ -1,0 +1,49 @@
+{
+    "name": "get_calculate_investment",
+    "description": "This is a sub-function API for tool calcx_investment_api.\nTool description: This API calculates the simple interest, compound interest, investment returns, return on investment, capital gains tax, and annual percentage yield of an investment based on the input parameters.\nAPI description: This endpoint performs multiple investment calculations in a single request. It accepts a list of investment parameters, such as principal amount, rate of return, time period, and compounding frequency, and returns a list of investment results, including the simple interest, compound interest, investment returns, return on investment, capital gains tax, and annual percentage yield of each investment.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "rate": {
+                "type": "number",
+                "description": "The annual interest rate of the investment in percentage.",
+                "default": 6.5
+            },
+            "principal": {
+                "type": "number",
+                "description": "The initial amount of money invested.",
+                "default": 50000.0
+            },
+            "time": {
+                "type": "number",
+                "description": "The duration of the investment in months.",
+                "default": 36.0
+            },
+            "compounding": {
+                "type": "string",
+                "description": "The frequency of compounding interest. Valid options are **yearly**, **semi-annually**, **quarterly**, and **monthly**. Default is **yearly**",
+                "default": "yearly"
+            },
+            "in_currency": {
+                "type": "string",
+                "description": "The currency of the investment. Default is USD\n\nCurrencies currently supported include:\nCurrency\tCode\tName\nNOK\tkr\tNorwegian Krone\nEUR\t€\tEuro\nHKD\t$\tHong Kong Dollar\nCZK\tKč\tCzech Koruna\nTHB\t฿\tThai Baht\nCHF\tCHF\tSwiss Franc\nUSD\t$\tUS Dollar\nISK\tkr\tIcelandic Króna\nGBP\t£\tBritish Pound Sterling\nJPY\t¥\tJapanese Yen\nBGN\tлв\tBulgarian Lev\nCNY\t¥\tChinese Yuan\nIDR\tRp\tIndonesian Rupiah\nTRY\t₺\tTurkish Lira\nNZD\t$\tNew Zealand Dollar\nSGD\t$\tSingapore Dollar\nDKK\tkr\tDanish Krone\nAUD\t$\tAustralian Dollar\nBRL\tR$\tBrazilian Real\nILS\t₪\tI",
+                "default": "USD"
+            },
+            "format": {
+                "type": "string",
+                "description": "Whether to format the result. Valid options are **yes** and **no**. Default is **yes**",
+                "default": "yes"
+            },
+            "to_currency": {
+                "type": "string",
+                "description": "The currency to convert the result to. Default is USD\n\nCurrencies currently supported include:\nCurrency\tCode\tName\nNOK\tkr\tNorwegian Krone\nEUR\t€\tEuro\nHKD\t$\tHong Kong Dollar\nCZK\tKč\tCzech Koruna\nTHB\t฿\tThai Baht\nCHF\tCHF\tSwiss Franc\nUSD\t$\tUS Dollar\nISK\tkr\tIcelandic Króna\nGBP\t£\tBritish Pound Sterling\nJPY\t¥\tJapanese Yen\nBGN\tлв\tBulgarian Lev\nCNY\t¥\tChinese Yuan\nIDR\tRp\tIndonesian Rupiah\nTRY\t₺\tTurkish Lira\nNZD\t$\tNew Zealand Dollar\nSGD\t$\tSingapore Dollar\nDKK\tkr\tDanish Krone\nAUD\t$\tAustralian Dollar\nBRL\tR$\tBrazilian Real\n",
+                "default": "USD"
+            }
+        },
+        "required": [
+            "rate",
+            "principal",
+            "time"
+        ]
+    }
+}

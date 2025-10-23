@@ -1,0 +1,43 @@
+{
+    "name": "linearregintercept",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Calculates the linear regression intercept for the specified symbol and interval using the specified parameters and the Twelve Data API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "Instrument symbol, can be any equity, index, ETF, forex or cryptocurrency\nE.g. `AAPL`, `EUR/USD`, `ETH/BTC`, ...",
+                "default": "AAPL"
+            },
+            "interval": {
+                "type": "string",
+                "description": "Interval between two consecutive points in time series\nSupports: `1min`, `5min`, `15min`, `30min`, `45min`, `1h`, `2h`, `4h`, `1day`, `1week`, `1month`",
+                "default": "1min"
+            },
+            "series_type": {
+                "type": "string",
+                "description": "The type of series to consider (e.g., `open`, `high`, `low`, `close`). Default is `close`.",
+                "default": "close"
+            },
+            "time_period": {
+                "type": "number",
+                "description": "The period of time over which to calculate the intercept. Default is 9.",
+                "default": 9
+            },
+            "format": {
+                "type": "string",
+                "description": "The format of the returned data (`csv` or `json`). Default is `json`.",
+                "default": "json"
+            },
+            "outputsize": {
+                "type": "number",
+                "description": "Default `30` when no date parameters are set, otherwise set to maximum",
+                "default": 30
+            }
+        },
+        "required": [
+            "symbol",
+            "interval"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "name": "reverse",
+    "description": "This is a sub-function API for tool maptoolkit.\nTool description: A toolkit for maps: Map tiles, address search (geocoding), routing, static maps & elevation\nAPI description: Performs reverse geocoding to obtain location details from longitude and latitude coordinates.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lon": {
+                "type": "string",
+                "description": "The longitude of the location to be reverse geocoded.",
+                "default": "16.3523667"
+            },
+            "lat": {
+                "type": "string",
+                "description": "The latitude of the location to be reverse geocoded.",
+                "default": "48.200702"
+            },
+            "polygon": {
+                "type": "string",
+                "description": "Language for the given instructions. Must be a valid ISO 639-1 language code. Default value is `de`."
+            },
+            "language": {
+                "type": "string",
+                "description": "Language for the given instructions. Must be a valid ISO 639-1 language code. Default value is `de`."
+            }
+        },
+        "required": [
+            "lon",
+            "lat"
+        ]
+    }
+}

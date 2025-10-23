@@ -1,0 +1,17 @@
+{
+    "name": "get_device_asset_by_identifier_copy",
+    "description": "This is a sub-function API for tool basic_info_vikkon_assets.\nTool description: Get information from vikkon platform.\nAPI description: Fetches device asset information by identifier using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "identifier": {
+                "type": "string",
+                "description": "The unique identifier for the device asset.",
+                "default": "71491234-A"
+            }
+        },
+        "required": [
+            "identifier"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "search_for_a_champion",
+    "description": "This is a sub-function API for tool league_of_legends_galore.\nTool description: Get Details aboat players, champions, and more!\n\nCheck the About page for details on every API!\nAPI description: This will go through the list of champions and return a single champion or a list of champions depending on YOUR request!",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "releasedate": {
+                "type": "string",
+                "description": "Release date of the champion."
+            },
+            "name": {
+                "type": "string",
+                "description": "Name of the champion. Default is 'zed'.",
+                "default": "zed"
+            },
+            "resource": {
+                "type": "string",
+                "description": "Resource type of the champion."
+            },
+            "rp": {
+                "type": "string",
+                "description": "Riot Points cost of the champion."
+            },
+            "blueessence": {
+                "type": "string",
+                "description": "Blue Essence cost of the champion."
+            },
+            "attribute": {
+                "type": "string",
+                "description": "Attribute of the champion."
+            }
+        },
+        "required": []
+    }
+}

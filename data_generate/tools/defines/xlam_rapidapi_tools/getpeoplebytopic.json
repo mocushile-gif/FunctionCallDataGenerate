@@ -1,0 +1,23 @@
+{
+    "name": "getpeoplebytopic",
+    "description": "This is a sub-function API for tool dei.\nTool description: The Diversity, Equity, and Inclusion (DEI) API offers the learning resources, conferences, stories and other information.\nAPI description: Fetches Azure influencers by topic from the specified page using the RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "topic": {
+                "type": "string",
+                "description": "The topic to search for Azure influencers.",
+                "default": "allyship"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of search results to retrieve.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "topic",
+            "page"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "success": true,
+            "has_next": false,
+            "total": 2,
+            "data": [
+                {
+                    "id": 8,
+                    "name": "Australia"
+                },
+                {
+                    "id": 83,
+                    "name": "Austria"
+                }
+            ]
+        }
+    },
+    "{'keyword': 'radio'}": {
+        "error": "",
+        "response": "{'success': True, 'has_next': False, 'total': 0, 'data': []}"
+    },
+    "{'keyword': 'Europe'}": {
+        "error": "",
+        "response": "{'success': True, 'has_next': False, 'total': 0, 'data': []}"
+    },
+    "{'keyword': ''}": {
+        "error": "",
+        "response": "{'success': True, 'has_next': True, 'total': 30, 'data': [{'id': 1, 'name': 'Saint Kitts and Nevis'}, {'id': 2, 'name': 'United Arab Emirates'}, {'id': 3, 'name': 'Belgium'}, {'id': 4, 'name': 'United States'}, {'id': 5, 'name': 'Cayman Islands'}, {'id': 6, 'name': 'France'}, {'id': 7, 'name': 'Haiti'}, {'id': 8, 'name': 'Australia'}, {'id': 9, 'name': 'Italy'}, {'id': 10, 'name': 'Mexico'}, {'id': 11, 'name': 'Spain'}, {'id': 12, 'name': 'Brazil'}, {'id': 13, 'name': 'Morocco'}, {'id': 14, 'name': 'Greece'}, {'id': 15, 'name': 'Ukraine'}, {'id': 16, 'name': 'Russia'}, {'id': 17, 'name': 'Germany'}, {'id': 18, 'name': 'Philippines'}, {'id': 19, 'name': 'Netherlands'}, {'id': 20, 'name': 'Poland'}, {'id': 21, 'name': 'Algeria'}, {'id': 22, 'name': 'South Africa'}, {'id': 23, 'name': 'Serbia'}, {'id': 24, 'name': 'Zimbabwe'}, {'id': 25, 'name': 'Czech Republic'}, {'id': 26, 'name': 'Switzerland'}, {'id': 27, 'name': 'Georgia'}, {'id': 28, 'name': 'Romania'}, {'id': 29, 'name': 'Uruguay'}, {'id': 30, 'name': 'Lesser Antilles, France'}]}"
+    },
+    "{'keyword': 'Japan'}": {
+        "error": "",
+        "response": "{'success': True, 'has_next': False, 'total': 1, 'data': [{'id': 64, 'name': 'Japan'}]}"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "{'startdate': '2025-05-02', 'enddate': '2025-06-02', 'tokens': '3375,3306', 'limit': '1000'}": {
+        "error": "",
+        "response": [
+            {
+                "date": "2025-05-05",
+                "token_id": 3375,
+                "grade": "A",
+                "score": 85,
+                "sentiment": "Positive",
+                "risk_level": "Low"
+            },
+            {
+                "date": "2025-05-15",
+                "token_id": 3375,
+                "grade": "B+",
+                "score": 78,
+                "sentiment": "Neutral",
+                "risk_level": "Medium"
+            },
+            {
+                "date": "2025-05-25",
+                "token_id": 3375,
+                "grade": "A-",
+                "score": 82,
+                "sentiment": "Positive",
+                "risk_level": "Low"
+            },
+            {
+                "date": "2025-05-10",
+                "token_id": 3306,
+                "grade": "B",
+                "score": 74,
+                "sentiment": "Neutral",
+                "risk_level": "Medium"
+            },
+            {
+                "date": "2025-05-20",
+                "token_id": 3306,
+                "grade": "C+",
+                "score": 68,
+                "sentiment": "Negative",
+                "risk_level": "High"
+            },
+            {
+                "date": "2025-05-30",
+                "token_id": 3306,
+                "grade": "B",
+                "score": 72,
+                "sentiment": "Neutral",
+                "risk_level": "Medium"
+            }
+        ]
+    }
+}

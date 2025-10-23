@@ -1,0 +1,75 @@
+{
+    "name": "country_region_cities",
+    "description": "This is a sub-function API for tool geodb_cities.\nTool description: Get global city, region, and country data. Filter and display results in multiple languages.\nAPI description: Fetches a list of cities within a specified region of a given country from the GeoDB API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "countryid": {
+                "type": "string",
+                "description": "An ISO-3166 country code or WikiData ID.",
+                "default": "US"
+            },
+            "regioncode": {
+                "type": "string",
+                "description": "An ISO-3166 or FIPS region code.",
+                "default": "CA"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to retrieve. Defaults to None."
+            },
+            "hateoasmode": {
+                "type": "boolean",
+                "description": "Include HATEOAS-style links in results. Defaults to None."
+            },
+            "asciimode": {
+                "type": "boolean",
+                "description": "Display results using ASCII characters. Defaults to None."
+            },
+            "nameprefixdefaultlangresults": {
+                "type": "boolean",
+                "description": "When name-prefix matching, whether or not to match on names in the default language if a non-default language is requested"
+            },
+            "timezoneids": {
+                "type": "string",
+                "description": "Only include cities in these time zones. Comma-separated values. Defaults to None."
+            },
+            "nameprefix": {
+                "type": "string",
+                "description": "Only include cities whose names start with this prefix. If languagecode is set, the prefix will be matched on the name as it appears in that language. Defaults to None."
+            },
+            "types": {
+                "type": "string",
+                "description": "Only include cities of these types (comma-separated): CITY, ADM2. Defaults to None."
+            },
+            "minpopulation": {
+                "type": "number",
+                "description": "Only include cities with at least this population. Defaults to None."
+            },
+            "languagecode": {
+                "type": "string",
+                "description": "Display results in this language. Defaults to None."
+            },
+            "offset": {
+                "type": "number",
+                "description": "The zero-based offset into the results. Defaults to None."
+            },
+            "maxpopulation": {
+                "type": "number",
+                "description": "Only include cities with no more than this population. Defaults to None."
+            },
+            "includedeleted": {
+                "type": "string",
+                "description": "Whether to include any cities marked deleted. Options are: ALL, SINCE_YESTERDAY, SINCE_LAST_WEEK, NONE. Defaults to None."
+            },
+            "sort": {
+                "type": "string",
+                "description": "How to sort the results. Format: ±SORT_FIELD,±SORT_FIELD where SORT_FIELD = elevation, name, population. Defaults to None."
+            }
+        },
+        "required": [
+            "countryid",
+            "regioncode"
+        ]
+    }
+}

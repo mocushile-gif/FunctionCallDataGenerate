@@ -1,0 +1,27 @@
+{
+    "{'collection': 'azuki'}": {
+        "error": "",
+        "response": {
+            "success": true,
+            "serverTimeMs": 1689706040598,
+            "liens": [],
+            "latestBlock": {
+                "height": 17721983,
+                "timestamp": "2023-07-18T18:47:11.000Z",
+                "fetchedAt": "2023-07-18T18:47:14.122Z"
+            }
+        }
+    },
+    "{'collection': '0xed5af388653567af2f388e6224dc7c4b3241c544'}": {
+        "error": "",
+        "response": "{'success': True, 'serverTimeMs': 1689703781924, 'liens': [{'lien': {'contractAddress': '0xed5af388653567af2f388e6224dc7c4b3241c544', 'tokenId': '6472', 'lienId': '3207', 'lender': {'address': '0xd044db927cde54a93f24b3fa1e4b86e7b1f7c0ff'}, 'borrower': {'address': '0x5ecc70186589306fc6d92538b9fc5684c9c81994'}, 'interestRateBips': '9458', 'principal': {'amount': '5.00265935689113795', 'unit': 'ETH'}, 'auctionDurationBlocks': 9000, 'auctionStartBlockHeight': None, 'createdAt': '2023-07-03T23:38:23.000Z', 'auctionStartedAt': None, 'repaidAt': None, 'defaultedAt': None}, 'nft': {'contractAddress': '0xed5af388653567af2f388e6224dc7c4b3241c544', 'tokenId': '6472', 'name': 'Azuki #6472', 'imageUrl': 'https://images.blur.io/_blur-prod/0xed5af388653567af2f388e6224dc7c4b3241c544/6472-90230dee474a34fd', 'traits': {'Eyes': 'Bored', 'Face': 'Eye Scar', 'Hair': 'Blue Samurai', 'Type': 'Human', 'Mouth': 'Pout', 'Offhand': 'Monkey King Staff', 'Clothing': 'Suit with Turtleneck', 'Background': 'Red'}, 'rarityScore': 84.47162, 'rarityRank': 6432, 'price': {'amount': '16.8', 'unit': 'ETH'}, 'highestBid': None, 'lastSale': {'amount': '16.5', 'unit': 'ETH'}, 'lastCostBasis': {'amount': '0', 'unit': 'ETH'}, 'owner': {'address': '0x5ecc70186589306fc6d92538b9fc5684c9c81994'}}}, {'lien': {'contractAddress': '0xed5af388653567af2f388e6224dc7c4b3241c544', 'tokenId': '1337', 'lienId': '9035', 'lender': {'address': '0x09a5667b8be712be466f3840923a0055cb677046'}, 'borrower': {'address': '0x222523fd07f312c7176b1b2ed5edac13a60d2b27'}, 'interestRateBips': '4085', 'principal': {'amount': '10.461374069326921468', 'unit': 'ETH'}, 'auctionDurationBlocks': 9000, 'auctionStartBlockHeight': None, 'createdAt': '2023-06-30T12:37:47.000Z', 'auctionStartedAt': None, 'repaidAt': None, 'defaultedAt': None}, 'nft': {'contractAddress': '0xed5af388653567af2f388e6224dc7c4b3241c544', 'tokenId': '1337', 'name': 'Azuki #1337', 'imageUrl': 'https://images.blur.io/_blur-prod/0xed5af388653567af2f388e6224dc7c4b3241c544/1337-74c43a2323644183', 'traits': {'Eyes': 'Joyful', '"
+    },
+    "{'collection': '0x34dA2a9091b0dE2c3F61B929a8925Ab67D412d41'}": {
+        "error": "",
+        "response": "{'success': True, 'serverTimeMs': 1748954073235, 'liens': [], 'latestBlock': {'height': 22624158, 'timestamp': '2025-06-03T12:34:11.000Z', 'fetchedAt': '2025-06-03T12:34:22.440Z'}}"
+    },
+    "{'collection': '0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d'}": {
+        "error": "",
+        "response": "{'success': True, 'serverTimeMs': 1750027999347, 'liens': [{'lien': {'contractAddress': '0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d', 'tokenId': '3885', 'lienId': '30979', 'lender': {'address': '0x9ac49d2ff6d3cafb8811d3de84cfe065b55cdfff'}, 'borrower': {'address': '0x8bc25fb0b16bba927976554f03653d7865801620'}, 'interestRateBips': '1347', 'principal': {'amount': '7.475019584092947567', 'unit': 'ETH'}, 'auctionDurationBlocks': 9000, 'auctionStartBlockHeight': None, 'createdAt': '2024-10-11T11:24:35.000Z', 'auctionStartedAt': None, 'repaidAt': None, 'defaultedAt': None}, 'nft': {'contractAddress': '0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d', 'tokenId': '3885', 'name': None, 'imageUrl': 'https://images.blur.io/_blur-prod/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/3885-080338e5788e8ac1', 'traits': {'Fur': 'Dmt', 'Eyes': 'Wide Eyed', 'Mouth': 'Dumbfounded', 'Clothes': 'Striped Tee', 'Earring': 'Silver Stud', 'Background': 'Aquamarine'}, 'rarityScore': 106.99442, 'rarityRank': 4293, 'price': None, 'highestBid': None, 'lastSale': {'amount': '45.3', 'unit': 'ETH'}, 'lastCostBasis': {'amount': '0', 'unit': 'ETH'}, 'owner': {'address': '0x8bc25fb0b16bba927976554f03653d7865801620'}}}, {'lien': {'contractAddress': '0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d', 'tokenId': '6395', 'lienId': '119664', 'lender': {'address': '0x28f71db77cc91f0a7d912c9e08e2a3a58f19152b'}, 'borrower': {'address': '0x24ce338baf5659bacb1bb92aa3a0ce9dd36f31b0'}, 'interestRateBips': '15155', 'principal': {'amount': "
+    }
+}

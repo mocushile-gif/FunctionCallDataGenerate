@@ -1,0 +1,22 @@
+{
+    "name": "article_page",
+    "description": "This is a sub-function API for tool climate_news_feed.\nTool description: Climate Change news from the most trusted sources. Nasa, UN, and more. Flexible, reliable, and fast with low latency. Includes thumbnails, filtering, and pagination\nAPI description: Fetches a page of articles based on the provided page ID, with an optional limit on the number of articles returned and a specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the page to fetch articles from.",
+                "default": 1.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of articles to retrieve. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

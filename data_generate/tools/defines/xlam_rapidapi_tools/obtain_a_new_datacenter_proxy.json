@@ -1,0 +1,18 @@
+{
+    "name": "obtain_a_new_datacenter_proxy",
+    "description": "This is a sub-function API for tool ephemeral_proxies.\nTool description: An API service to obtain **datacenter and residential proxies.**\n\n###### Features:\n* This service contains pools of **stable and high-quality proxies** that automatically rotate to ensure that you get a new different proxy with each API call.\n* Each request to this API service will provide you with a new proxy available for 30 mins.\n* Proxies are constantly monitored to ensure their health.\n* You can extend the allocation time of a datacenter proxy by making successive calls to the API, with ...\nAPI description: The connection proxy details are `proxy.host` and `proxy.port` from the response fields.\nThe proxy will allow connections from the same source IP as the one making this API call. Make use of the `whitelist_ip` parameter to allow an additional ip.\nCountries can be selected by using the `countries` parameter, otherwise the country is randomly selected. A list of countries is available on *Service Status* endpoint.\nThe proxy is available for 30 mins.\n",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "whitelist_ip": {
+                "type": "string",
+                "description": "The proxy that this endpoint returns will allow connections from the source ip that is making this API call.\nAdditionally, you can allow an extra ip to connect to the proxy by setting this parameter to the ip that you would like to whitelist.\nThe list of ips that the proxy has whitelisted is returned in the API response.\n"
+            },
+            "countries": {
+                "type": "string",
+                "description": "A comma-separated list of country codes from which the proxy should be obtained. If not specified, the country is selected randomly."
+            }
+        },
+        "required": []
+    }
+}

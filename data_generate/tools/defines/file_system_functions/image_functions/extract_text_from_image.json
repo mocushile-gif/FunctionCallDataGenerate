@@ -1,0 +1,24 @@
+{
+  "name": "extract_text_from_image",
+  "description": "Extract text from image using OCR (Optical Character Recognition) with support for multiple languages.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "image_path": {
+        "type": "string",
+        "description": "Path to the input image file"
+      },
+      "language": {
+        "type": "string",
+        "description": "Language code for OCR",
+        "enum": ["eng", "chi_sim", "chi_tra", "jpn", "kor", "fra", "deu", "spa", "rus", "ara"],
+        "default": "eng"
+      },
+      "output_path": {
+        "type": "string",
+        "description": "Path for the output text file. If not provided, will create auto-named file."
+      }
+    },
+    "required": ["image_path"]
+  }
+} 

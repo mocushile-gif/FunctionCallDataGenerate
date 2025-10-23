@@ -1,0 +1,14 @@
+{
+    "name": "bundesliga_standings",
+    "description": "This is a sub-function API for tool bundesliga_standings.\nTool description: German Bundesliga Standings & Table\nAPI description: Fetches the Bundesliga standings for a given season using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season": {
+                "type": "string",
+                "description": "The specific season to fetch standings for (e.g., '2022'). If not provided, the current season standings will be fetched."
+            }
+        },
+        "required": []
+    }
+}

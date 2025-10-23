@@ -1,0 +1,66 @@
+{
+    "{'name': 'coffee', 'lon': -70.65, 'radius': 5000.0, 'lang': 'en', 'lat': -33.437, 'kinds': 'cafe'}": {
+        "error": "",
+        "response": [
+            {
+                "xid": "abc123",
+                "name": "Java House",
+                "kinds": [
+                    "cafe"
+                ],
+                "osm": "way/123456",
+                "wikidata": "Q123456"
+            },
+            {
+                "xid": "def456",
+                "name": "Brew & Bean",
+                "kinds": [
+                    "cafe"
+                ],
+                "osm": "way/234567",
+                "wikidata": "Q234567"
+            },
+            {
+                "xid": "ghi789",
+                "name": "Caf\u00e9 Mocha",
+                "kinds": [
+                    "cafe"
+                ],
+                "osm": "way/345678",
+                "wikidata": "Q345678"
+            }
+        ]
+    },
+    "{'name': 'food', 'lon': -111.47506945435978, 'radius': 5000.0, 'lang': 'en', 'lat': 62.301545854189925, 'kinds': 'foods', 'limit': 10}": {
+        "error": "",
+        "response": "{'type': 'FeatureCollection', 'features': []}"
+    },
+    "{'name': 'food', 'lon': 106.67482429343966, 'radius': 5000.0, 'lang': 'en', 'lat': -21.611614380025586, 'kinds': 'foods', 'limit': 10}": {
+        "error": "",
+        "response": "{'type': 'FeatureCollection', 'features': []}"
+    },
+    "{'format': 'json', 'kinds': 'foods', 'lang': 'en', 'lat': -33.437, 'lon': -70.65, 'radius': 5000, 'rate': '3', 'name': 'food'}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'name': 'restaurant', 'lat': 35.6762, 'lon': 139.6503, 'radius': 5000, 'kinds': 'foods', 'rate': '3', 'limit': 5, 'lang': 'en'}": {
+        "error": "",
+        "response": "{'type': 'FeatureCollection', 'features': []}"
+    },
+    "{'name': 'restaurant', 'lat': -33.45, 'lon': -70.667, 'radius': 5000, 'lang': 'en', 'kinds': 'foods', 'rate': '3', 'src_attr': 'osm,wikidata', 'format': 'json', 'limit': 10}": {
+        "error": "",
+        "response": "[{'xid': 'N3823225762', 'name': 'Bar Restaurant Los Heroes', 'highlighted_name': 'Bar <b>Restaurant</b> Los Heroes', 'dist': 880.56690029, 'rate': 3, 'osm': 'node/3823225762', 'wikidata': 'Q6682858', 'kinds': 'foods,restaurants,tourist_facilities', 'point': {'lon': -70.65863800048828, 'lat': -33.44627380371094}}, {'xid': 'N3058103604', 'name': 'Los Heroes Bar-restaurante', 'highlighted_name': 'Los Heroes Bar-<b>restaurant</b>e', 'dist': 877.25909647, 'rate': 3, 'osm': 'node/3058103604', 'wikidata': 'Q6682858', 'kinds': 'foods,restaurants,tourist_facilities', 'point': {'lon': -70.6586685180664, 'lat': -33.44628143310547}}]"
+    },
+    "{'name': 'food', 'lat': -33.437, 'lon': -70.65, 'radius': 5000.0, 'lang': 'en', 'kinds': 'foods'}": {
+        "error": "",
+        "response": "{'type': 'FeatureCollection', 'features': [{'type': 'Feature', 'id': '8710281', 'geometry': {'type': 'Point', 'coordinates': [-70.6493301, -33.4376907]}, 'properties': {'xid': 'N3726697926', 'name': 'Halal Foods', 'highlighted_name': 'Halal <b>Food</b>s', 'dist': 98.74132946, 'rate': 1, 'osm': 'node/3726697926', 'kinds': 'foods,restaurants,tourist_facilities'}}, {'type': 'Feature', 'id': '8710031', 'geometry': {'type': 'Point', 'coordinates': [-70.6509323, -33.4494972]}, 'properties': {'xid': 'N4473782555', 'name': 'Diana Food & Play', 'highlighted_name': 'Diana <b>Food</b> & Play', 'dist': 1388.68271502, 'rate': 1, 'osm': 'node/4473782555', 'kinds': 'foods,restaurants,tourist_facilities'}}, {'type': 'Feature', 'id': '10155341', 'geometry': {'type': 'Point', 'coordinates': [-70.6684036, -33.4390068]}, 'properties': {'xid': 'N5262482165', 'name': 'Empanadas Pao Food', 'highlighted_name': 'Empanadas Pao <b>Food</b>', 'dist': 1725.87728047, 'rate': 1, 'osm': 'node/5262482165', 'kinds': 'foods,fast_food,tourist_facilities'}}, {'type': 'Feature', 'id': '10156603', 'geometry': {'type': 'Point', 'coordinates': [-70.6629944, -33.4500923]}, 'properties': {'xid': 'N4462355570', 'name': 'Happy Food', 'highlighted_name': 'Happy <b>Food</b>', 'dist': 1888.95149981, 'rate': 1, 'osm': 'node/4462355570', 'kinds': 'foods,fast_food,tourist_facilities'}}, {'type': 'Feature', 'id': '8710105', 'geometry': {'type': 'Point', 'coordinates': [-70.6304855, -33.4525185]}, 'properties': {'xid': 'N445656"
+    },
+    "{'name': 'sushi', 'lon': 139.7455, 'radius': 2000, 'lang': 'en', 'lat': 35.6585, 'kinds': 'foods', 'rate': '3'}": {
+        "error": "",
+        "response": "{'type': 'FeatureCollection', 'features': [{'type': 'Feature', 'id': '15156695', 'geometry': {'type': 'Point', 'coordinates': [139.7393951, 35.6657982]}, 'properties': {'xid': 'Q7648919', 'name': 'Sushi Saito', 'highlighted_name': '<b>Sushi</b> Saito', 'dist': 980.35757212, 'rate': 3, 'wikidata': 'Q7648919', 'kinds': 'restaurants,foods,tourist_facilities'}}]}"
+    },
+    "{'kinds': 'cultural', 'lang': 'en', 'lat': 40.748817, 'lon': -73.985428, 'radius': 5000, 'rate': '3h', 'name': 'cultural'}": {
+        "error": "",
+        "response": "{'type': 'FeatureCollection', 'features': []}"
+    }
+}

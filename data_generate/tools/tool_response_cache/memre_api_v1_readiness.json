@@ -1,0 +1,14 @@
+{
+    "{'user_id': '456', 'item_id': 'user_456_onboarding_20231015_1456_789'}": {
+        "error": "",
+        "response": {
+            "user_id": "456",
+            "item_id": "user_456_onboarding_20231015_1456_789",
+            "readiness_score": 0.85,
+            "status": "Ready for review",
+            "next_optimal_review": "2023-10-17T09:30:00Z",
+            "last_interaction": "2023-10-16T14:22:00Z",
+            "recommended_action": "Present spaced repetition quiz"
+        }
+    }
+}

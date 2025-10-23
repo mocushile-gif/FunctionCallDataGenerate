@@ -1,0 +1,25 @@
+{
+    "name": "get_gas_fee_funding_wallets",
+    "description": "This is a sub-function API for tool token_forwarding.\nTool description: Automatic token forwarding once funds are received. Support BNB, BEP20, ETH and ERC20 tokens.\nAPI description: Fetches gas fee funding wallet information from the RapidAPI Token Forwarding service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The identifier used to fetch specific wallet information. Default is 'dfe02338-43ae-453f-bd51-6f0ea98e4df9'.",
+                "default": "dfe02338-43ae-453f-bd51-6f0ea98e4df9"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of records to retrieve. Default is 100.",
+                "default": 100.0
+            },
+            "offset": {
+                "type": "number",
+                "description": "The number of records to skip before starting to return records. Default is 0.",
+                "default": 0.0
+            }
+        },
+        "required": []
+    }
+}

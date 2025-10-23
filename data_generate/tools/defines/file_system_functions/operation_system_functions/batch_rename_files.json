@@ -1,0 +1,34 @@
+{
+  "name": "batch_rename_files",
+  "description": "Batch rename files in a directory using pattern matching and customizable naming patterns.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "directory": {
+        "type": "string",
+        "description": "Directory containing files to rename"
+      },
+      "pattern": {
+        "type": "string",
+        "description": "File pattern to match (e.g., '*.jpg', 'image*')",
+        "default": "*"
+      },
+      "new_name_pattern": {
+        "type": "string",
+        "description": "New name pattern with {n} for number placeholder",
+        "default": "file_{n}"
+      },
+      "start_number": {
+        "type": "integer",
+        "description": "Starting number for renaming",
+        "default": 1,
+        "minimum": 0
+      },
+      "extension": {
+        "type": "string",
+        "description": "Keep specific extension, if null keeps original"
+      }
+    },
+    "required": ["directory"]
+  }
+} 

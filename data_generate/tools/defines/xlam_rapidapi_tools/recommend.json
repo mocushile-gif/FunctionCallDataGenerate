@@ -1,0 +1,17 @@
+{
+    "name": "recommend",
+    "description": "This is a sub-function API for tool optlog_co_optimize_anything.\nTool description: OptLog is a software suite for a black-box global optimization engine for real-world metric optimization. The main advantage of OptLog is scalability, simplicity and continuity of serving. A function can be optimised at any time with any parameters without worrying about the optimizer state - OptLog does it for you!\nAPI description: Fetches a recommendation for a given experiment ID using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "experiment_id": {
+                "type": "number",
+                "description": "The ID of the experiment for which to fetch recommendations.",
+                "default": 12234.0
+            }
+        },
+        "required": [
+            "experiment_id"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "wnba_team_info",
+    "description": "This is a sub-function API for tool wnba_api.\nTool description: This API offer every basketball fan an easy way to stay on top of the latest data for all operations and players in the WNBA. It covers scores, stats, standings, and statistics.\nAPI description: Retrieve information for a specific WNBA team using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "teamid": {
+                "type": "string",
+                "description": "The ID of the WNBA team for which information is being requested.",
+                "default": "18"
+            }
+        },
+        "required": [
+            "teamid"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_offers_by_watch_id",
+    "description": "This is a sub-function API for tool watchsignals.\nTool description: Watchsignals is a data-driven platform for luxury watches (new &amp; pre owned) and services, empowering customers with an AI driven valuation tool. We help customers to enjoy a high value shopping experience, without overpaying for their goods. A unique feature will be our value prediction model, based on Artificial Intelligence / Machine Learning algorithms. We will initially focus on jewelry, watches, clothes, shoes, bags and eventually yachts, cars and jets.\nAPI description: Retrieves offers for a specific watch identified by `watch_id` from the Watch Signals API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "watch_id": {
+                "type": "string",
+                "description": "The ID of the watch for which to retrieve offers.",
+                "default": "5"
+            }
+        },
+        "required": [
+            "watch_id"
+        ]
+    }
+}

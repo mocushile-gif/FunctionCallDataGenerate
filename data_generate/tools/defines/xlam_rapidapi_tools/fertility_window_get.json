@@ -1,0 +1,23 @@
+{
+    "name": "fertility_window_get",
+    "description": "This is a sub-function API for tool pregnancy_calculator_api.\nTool description: Welcome to the Pregnancy Calculator API. This API provides endpoints for calculating Fertility Window, Pregnancy Due Date, Pregnancy Week, and Pregnancy Weight Recommendation. With this API, you can easily integrate these calculations into your applications, websites, or any other projects.\n\nError Handling\n\nThe API uses standard HTTP status codes to indicate the success or failure of a request. In case of an error, the response will contain an error message in JSON format. The HTTP status cod...\nAPI description: Calculates the fertility window based on the first day of the last menstrual period and the cycle length by making a GET request to the pregnancy calculator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "menstrual_date": {
+                "type": "string",
+                "description": "The date of the first day of the last menstrual period in the format '**YYYY-MM-DD**'.",
+                "default": "2023-06-01"
+            },
+            "cycle_length": {
+                "type": "number",
+                "description": "The length of the menstrual cycle in days.",
+                "default": 28.0
+            }
+        },
+        "required": [
+            "menstrual_date",
+            "cycle_length"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "get_all_organizations_environment_admin",
+    "description": "This is a sub-function API for tool aaaa.\nTool description: aaa\nAPI description: Get Organization information for all of the Organizations in your Enterprise Hub.Organization information includes the associated `email`, the number of `seats`, the Organization `name`, the `status`, and more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of organizations to return. Defaults to None."
+            },
+            "offset": {
+                "type": "string",
+                "description": "The number of organizations to skip. Defaults to None."
+            },
+            "status": {
+                "type": "string",
+                "description": "The status of organizations to return (e.g., 'ACTIVE'). Defaults to 'ACTIVE'.",
+                "default": "ACTIVE"
+            }
+        },
+        "required": []
+    }
+}

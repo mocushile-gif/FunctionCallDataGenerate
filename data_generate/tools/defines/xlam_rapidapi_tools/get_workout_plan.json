@@ -1,0 +1,35 @@
+{
+    "name": "get_workout_plan",
+    "description": "This is a sub-function API for tool workout_planner.\nTool description: Get workout plans based on time duration, target muscle, fitness level, fitness goals, and equipment available.\nAPI description: Get Workout Plans\n\nThis api request can be used to get Workout plan based on:\n\n- Time duration\n- Target Muscle\n- Location\n- Equipment\n\nHence api call takes 4 query parameters:\n\n- time\n- muscle\n- location\n- equipment",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "time": {
+                "type": "string",
+                "description": "The duration of the workout.",
+                "default": "30"
+            },
+            "equipment": {
+                "type": "string",
+                "description": "The type of equipment available.",
+                "default": "dumbbells"
+            },
+            "muscle": {
+                "type": "string",
+                "description": "The target muscle group for the workout.",
+                "default": "biceps"
+            },
+            "location": {
+                "type": "string",
+                "description": "The location for the workout (e.g., gym, home).",
+                "default": "gym"
+            }
+        },
+        "required": [
+            "time",
+            "equipment",
+            "muscle",
+            "location"
+        ]
+    }
+}

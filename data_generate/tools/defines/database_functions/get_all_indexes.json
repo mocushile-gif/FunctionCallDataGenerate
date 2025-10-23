@@ -1,0 +1,15 @@
+{
+    "name": "get_all_indexes",
+    "description": "Retrieve index information for all tables in a SQLite database.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file (e.g., 'database/uw_courses.db')."
+        }
+      },
+      "required": ["database_path"]
+    }
+  }
+  

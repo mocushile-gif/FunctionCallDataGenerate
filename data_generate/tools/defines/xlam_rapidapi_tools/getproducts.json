@@ -1,0 +1,42 @@
+{
+    "name": "getproducts",
+    "description": "This is a sub-function API for tool get_and_compate_products_allover_the_web.\nTool description: With our eCommerce products API you can easily search for products by name and retrieve newly added items from the last X days, among other features.\nAPI description: Search for products by name and retrieve newly added items from the last X days, among other features.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query for the products.",
+                "default": "ipone 14 256Gb"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve.",
+                "default": 1.0
+            },
+            "country": {
+                "type": "string",
+                "description": "The country code to filter the search results. Defaults to 'countryUS'.",
+                "default": "countryUS"
+            },
+            "location": {
+                "type": "string",
+                "description": "The location to filter the search results. Defaults to 'us'.",
+                "default": "us"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code to filter the search results. Defaults to 'en'.",
+                "default": "en"
+            },
+            "period": {
+                "type": "number",
+                "description": "The period in days to filter newly added items. Defaults to None."
+            }
+        },
+        "required": [
+            "query",
+            "page"
+        ]
+    }
+}

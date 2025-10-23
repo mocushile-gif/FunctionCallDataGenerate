@@ -1,0 +1,23 @@
+{
+    "name": "series_get_players",
+    "description": "This is a sub-function API for tool cricbuzz_cricket.\nTool description: This API helps to query for live cricket scores, commentary, latest cricket news and editorials, schedules of upcoming matches, rankings, stats, records, etc\nAPI description: Fetches the list of players in a given squad for a specified series.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "squadid": {
+                "type": "number",
+                "description": "The ID of the squad. This value is obtained from the endpoint /series/get-squads.",
+                "default": 15826.0
+            },
+            "seriesid": {
+                "type": "number",
+                "description": "The ID of the series. This value is obtained from the endpoints /series/list or /series/list-archives.",
+                "default": 3718.0
+            }
+        },
+        "required": [
+            "squadid",
+            "seriesid"
+        ]
+    }
+}

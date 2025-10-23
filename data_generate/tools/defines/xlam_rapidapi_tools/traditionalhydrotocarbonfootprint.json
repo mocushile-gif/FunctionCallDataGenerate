@@ -1,0 +1,23 @@
+{
+    "name": "traditionalhydrotocarbonfootprint",
+    "description": "This is a sub-function API for tool carbonfootprint.\nTool description: Calculate the carbon footprint in various situations, such as travel and hydro usage.\nAPI description: Calculates the CO2 equivalent (CO2e) emissions from the use of traditional hydroelectric power based on consumption and location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "consumption": {
+                "type": "string",
+                "description": "The KWH usage of hydroelectric power.",
+                "default": "500"
+            },
+            "location": {
+                "type": "string",
+                "description": "The country or continent providing the hydroelectric power. Can be one of \"USA\", \"Canada\", \"UK\", \"Europe\", \"Africa\", \"LatinAmerica\", \"MiddleEast\", or \"OtherCountry\".",
+                "default": "UK"
+            }
+        },
+        "required": [
+            "consumption",
+            "location"
+        ]
+    }
+}

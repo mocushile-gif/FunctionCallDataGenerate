@@ -1,0 +1,22 @@
+{
+    "name": "shakespeare",
+    "description": "This is a sub-function API for tool shakespeare_translator.\nTool description: Convert your modern day English phrases into Shakespeare style old English. Thou shalt try this API!\nAPI description: Translates the given text to Shakespearean style English using the FunTranslations API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x_funtranslations_api_secret": {
+                "type": "string",
+                "description": "API key for the FunTranslations service. Obtain one at http://funtranslations.com/api/shakespeare."
+            },
+            "text": {
+                "type": "string",
+                "description": "The text to convert to Shakespearean style English.",
+                "default": "You asked Mr. Weasely to do magic!"
+            }
+        },
+        "required": [
+            "x_funtranslations_api_secret",
+            "text"
+        ]
+    }
+}

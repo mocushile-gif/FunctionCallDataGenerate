@@ -1,0 +1,23 @@
+{
+    "name": "get_amazon_search_results",
+    "description": "This is a sub-function API for tool yo_amazon_data_scraper.\nTool description: Access all public amazon data like the name of the product, price, reviews,...... Also, search for anything on Amazon, just like the amazon search bar\nAPI description: Fetches Amazon search results for a given query using the Toolbench RapidAPI Key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "searchquery": {
+                "type": "string",
+                "description": "The search term to query on Amazon.",
+                "default": "macbook"
+            },
+            "api_key": {
+                "type": "string",
+                "description": "",
+                "default": "1d49c40d06763a29a8b3a63516dfa008"
+            }
+        },
+        "required": [
+            "searchquery",
+            "api_key"
+        ]
+    }
+}

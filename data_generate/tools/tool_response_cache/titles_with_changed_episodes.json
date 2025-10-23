@@ -1,0 +1,42 @@
+{
+    "{'start_date': '20250501', 'end_date': '20250601'}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': '20250503', 'end_date': '20250602', 'limit': 50}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': '20250525', 'end_date': '20250601'}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': '20250526', 'end_date': '20250602'}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': '20250501', 'end_date': '20250531'}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': '20250527', 'end_date': '20250603', 'page': 1.0, 'limit': 50.0}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': '20250527', 'end_date': '20250602'}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': '20250520', 'end_date': '20250526'}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': '20250527', 'end_date': '20250603', 'limit': 50}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': '20250528', 'end_date': '20250603'}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    }
+}

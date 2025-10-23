@@ -1,0 +1,29 @@
+{
+    "name": "getmaptilewithenglishlabels",
+    "description": "This is a sub-function API for tool maptiles.\nTool description: Map Tiles for interactive online maps based on data by OpenStreetMap contributors with labels in English, French or Spanish. \nAPI description: Raster Map Tiles with English Labels. Please see our [tutorials page](https://rapidapi.com/MapTilesApi/api/maptiles/tutorials) on how to use this.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x": {
+                "type": "number",
+                "description": "X-number of tile (see documentation)",
+                "default": 6.0
+            },
+            "z": {
+                "type": "number",
+                "description": "Zoom level (ranging from 0 to 19).",
+                "default": 3.0
+            },
+            "y": {
+                "type": "number",
+                "description": "Y-number of tile (see documentation)",
+                "default": 3.0
+            }
+        },
+        "required": [
+            "x",
+            "z",
+            "y"
+        ]
+    }
+}

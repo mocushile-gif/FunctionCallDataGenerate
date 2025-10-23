@@ -1,0 +1,26 @@
+{
+    "name": "calculate_cagr",
+    "description": "Calculates the Compound Annual Growth Rate (CAGR) of an investment.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start_value": {
+                "type": "number",
+                "description": "The initial value of the investment."
+            },
+            "end_value": {
+                "type": "number",
+                "description": "The final value of the investment."
+            },
+            "years": {
+                "type": "integer",
+                "description": "The number of years between the initial and final values."
+            }
+        },
+        "required": [
+            "start_value",
+            "end_value",
+            "years"
+        ]
+    }
+}

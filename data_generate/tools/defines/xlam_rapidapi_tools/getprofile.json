@@ -1,0 +1,17 @@
+{
+    "name": "getprofile",
+    "description": "This is a sub-function API for tool snapchat.\nTool description: Snapchat API\nAPI description: Retrieve the profile information of a specified Snapchat user using the RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Snapchat username of the profile to retrieve.",
+                "default": "brentrivera"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

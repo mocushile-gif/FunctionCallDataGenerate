@@ -1,0 +1,17 @@
+{
+    "name": "get_realtime_rates",
+    "description": "This is a sub-function API for tool realtime_crypto_prices.\nTool description: Get the Fastest and Realtime Crypto Rates and more...\nAPI description: Gets the real-time price of a specified cryptocurrency coin using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The symbol of the cryptocurrency coin (e.g., 'BTC' for Bitcoin).",
+                "default": "BTC"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

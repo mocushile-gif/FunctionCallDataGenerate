@@ -1,0 +1,17 @@
+{
+    "name": "get_episode_downloadable_audio",
+    "description": "This is a sub-function API for tool spotify_scraper.\nTool description: An all-in-one scraper for scraping everything on Spotify, and a highly available download solution for tracks, lyrics and episode previews.\nAPI description: This endpoint fetches full details of an episode. Downloadable URL of full audio is available for **some** of the episodes.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "episodeid": {
+                "type": "string",
+                "description": "The unique identifier for the podcast episode.",
+                "default": "3LEK1k9KaFRLAmPwMbj3o9"
+            }
+        },
+        "required": [
+            "episodeid"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "random_quote",
+    "description": "This is a sub-function API for tool semantic_quotes.\nTool description: Semantic search for quotes. Wondering which celebrities have said something similar? Look no more, this API gives you the power to search for quotes semantically from over 1M+ quotes. The Artificial Intelligence (NLP) engine behind the scene seeks to understand the meaning of your query rather than simply matching keywords. We allows user to flexibly filter the results by the length of the quote, and/or by a large variety of tags.\nAPI description: Get random quotes by length and/or tags.  **NOTE:** up to 10 results can be returned, they may have similar meanings. If you want want absolute random, just pick the first result (or set `limit` to 1) and call this API again to get another quote.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "max_length": {
+                "type": "number",
+                "description": "Maximum length of the quotes. Defaults to 4000.",
+                "default": 4000
+            },
+            "tags": {
+                "type": "string",
+                "description": "Comma seperated tags for filtering, for example, \n                `faith`,\n                `god`,\n                `humor`, \n                `hope`,\n                `inspirational`, \n                `love`, \n                `life`,\n                `motivational`,\n                `philosophy`,\n                `religion`,\n                `science`,\n                `spirituality`,\n                `success`,\n                `truth`,\n                `wisdom`,\n                `poetry`,\n                and much mor",
+                "default": "inspirational,motivational"
+            },
+            "min_length": {
+                "type": "number",
+                "description": "Minimum length of the quotes. Defaults to 0.",
+                "default": 0.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "Number of quotes to return. Defaults to 3.",
+                "default": 3
+            }
+        },
+        "required": []
+    }
+}

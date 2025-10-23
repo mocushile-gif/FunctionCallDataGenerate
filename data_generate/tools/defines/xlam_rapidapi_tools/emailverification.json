@@ -1,0 +1,15 @@
+{
+    "name": "emailverification",
+    "description": "This is a sub-function API for tool fast_email_verifier.\nTool description: APISOLUTION services provide a comprehensive API for fast email validation and verification for any developer to use on start-ups and staff projects.\nAPI description: Basic usage\nIt is a simple way to verify an email address with different dimensions.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "emailsimple": {
+                "type": "string",
+                "description": "The email address to be verified. Defaults to 'mbavazijoshua@gmail.com'.",
+                "default": "mbavazijoshua@gmail.com"
+            }
+        },
+        "required": []
+    }
+}

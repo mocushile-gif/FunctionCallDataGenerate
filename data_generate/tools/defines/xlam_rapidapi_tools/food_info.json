@@ -1,0 +1,17 @@
+{
+    "name": "food_info",
+    "description": "This is a sub-function API for tool fitness_calculator.\nTool description: Find \"body fat percentage\",  \"ideal weight\", \"BMI\", \"daily calory requirement\" and some macro nutrients with this api.\nAPI description: Retrieves information about a specific food item from the food database using its food ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "foodid": {
+                "type": "string",
+                "description": "The unique identifier for the food item.",
+                "default": "SR25_1_1"
+            }
+        },
+        "required": [
+            "foodid"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "tournamentnextmainevents",
+    "description": "This is a sub-function API for tool mmaapi.\nTool description: MMAAPI is your ultimate source for the latest updates, scores, and results from the world of mixed martial arts. Our API covers all major MMA organizations, including UFC, Bellator, KSW, PFL, and many more.Our live scoring and real-time statistics provide a comprehensive view of every fight, making MMAAPI the go-to API to get MMA scores worldwide.\nAPI description: This function retrieves the next main events for a specified MMA tournament using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "Zero-based page number to retrieve."
+            },
+            "tournamentid": {
+                "type": "number",
+                "description": "This operation allows you to retrieve the next main events for a specified MMA tournament.",
+                "default": 19906
+            }
+        },
+        "required": [
+            "page",
+            "tournamentid"
+        ]
+    }
+}

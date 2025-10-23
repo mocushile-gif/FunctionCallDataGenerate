@@ -1,0 +1,17 @@
+{
+    "name": "fetch_company_details",
+    "description": "This is a sub-function API for tool comany_details_search_online.\nTool description: Comany Details Search Online\nAPI description: Fetch company details by company name using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The company name to search for.",
+                "default": "saharsh"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

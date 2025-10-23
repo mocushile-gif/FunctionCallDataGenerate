@@ -1,0 +1,20 @@
+{
+    "name": "get_all_scores",
+    "description": "This is a sub-function API for tool thefluentme.\nTool description: The AI-powered language pronunciation API with ChatGPT\nAPI description: Get a paginated list of all scores.\n\nPlease provide the following parameters in the query string\n- **page**: The page number. If no value is provided, the default value of `1` will be applied.\n- **per_page**: Scores per page. If no value is provided, the default value of `10` will be applied.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve. Defaults to 1.",
+                "default": 1.0
+            },
+            "per_page": {
+                "type": "number",
+                "description": "The number of scores per page. Defaults to 3.",
+                "default": 3.0
+            }
+        },
+        "required": []
+    }
+}

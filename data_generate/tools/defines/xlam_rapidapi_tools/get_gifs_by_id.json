@@ -1,0 +1,17 @@
+{
+    "name": "get_gifs_by_id",
+    "description": "This is a sub-function API for tool giphy.\nTool description: Giphy is an animated GIF search engine.\r\n\r\nThe Giphy API implements a REST-like interface. Connections can be made with any HTTP enabled programming language. The Giphy API also implements CORS, allowing you to connect to Giphy from JavaScript / Web browsers on your own domain.\nAPI description: A multiget version of the get GIF by ID endpoint. In this case the IDs are feqkVgjJpYtjy and 7rzbxdu0ZEXLy",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ids": {
+                "type": "string",
+                "description": "A comma-separated string of GIF IDs.",
+                "default": "feqkVgjJpYtjy,7rzbxdu0ZEXLy"
+            }
+        },
+        "required": [
+            "ids"
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "name": "bodyfat",
+    "description": "This is a sub-function API for tool health_calculator_api.\nTool description: Welcome to the Health Calculator API (HCA). This API provides endpoints for calculating A Body Shape Index (ABSI), Adjusted Body Weight (AjBW), Basal Energy Expenditure (BEE) and Total Energy Expenditure (TEE) , Body Adiposity Index (BAI), Body Frame Size Index (BFSI), Body Mass Index (BMI), Body Fat Percentage, Basal Metabolic Rate (BMR), Daily Caloric Needs (DCN), Daily Water Intake (DWI), Estimated Average Glucose(eAG), Estimated Energy Requirement (EER), The FFMI (Fat-Free Mass Index), Ta...\nAPI description: Calculates the body fat percentage based on age, gender, weight, and height using the provided Toolbench RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "age": {
+                "type": "number",
+                "description": "The age of the person in years. Required.",
+                "default": 27.0
+            },
+            "gender": {
+                "type": "string",
+                "description": "The gender of the person. Possible values are **male** or **female**. Required.",
+                "default": "female"
+            },
+            "weight": {
+                "type": "number",
+                "description": "The weight of the person. Expected to be in kilograms if unit is 'metric', otherwise in pounds.",
+                "default": 78.0
+            },
+            "height": {
+                "type": "number",
+                "description": "The height of the person. Expected to be in centimeters if unit is 'metric', otherwise in inches.",
+                "default": 165.0
+            },
+            "unit": {
+                "type": "string",
+                "description": "The desired units of measurement to implement in the JSON Response. Possible values are **metric** (default) or **imperial**. (Optional).",
+                "default": "metric"
+            }
+        },
+        "required": [
+            "age",
+            "gender",
+            "weight",
+            "height"
+        ]
+    }
+}

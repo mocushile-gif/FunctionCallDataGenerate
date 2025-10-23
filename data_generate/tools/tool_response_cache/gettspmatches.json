@@ -1,0 +1,6 @@
+{
+    "{'cookie': 'i18next=es;', 'host': 'www.mozzartbet.com.co', 'referer': 'https://www.mozzartbet.com.co/es'}": {
+        "error": "",
+        "response": "The API retrieves TSP match data from the Betsports platform using the provided request headers. Based on the input parameters, the cookie ('i18next=es;') ensures language preference is set to Spanish, the host ('www.mozzartbet.com.co') specifies the domain for the request, and the referer ('https://www.mozzartbet.com.co/es') indicates the originating page for the request. This setup is likely used to fetch match details, including schedules, teams, odds, and other betting-related information from the specified platform. The response would typically include a list of matches, their details, and associated betting options."
+    }
+}

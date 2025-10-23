@@ -1,0 +1,17 @@
+{
+    "name": "getprojects",
+    "description": "This is a sub-function API for tool a_i_smartable.\nTool description: The A.I. Smartable API offers the artificial intelligence news, learning resources, companies, influencers, events and other information.\nAPI description: Fetches artificial intelligence projects from the specified page using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number of the projects to retrieve.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "page"
+        ]
+    }
+}

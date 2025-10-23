@@ -1,0 +1,17 @@
+{
+    "name": "nal_query",
+    "description": "This is a sub-function API for tool n_meros_a_letras.\nTool description: API para convertir números a letras en español.\nAPI description: Converts a given number to its corresponding word representation in Spanish using the Numeros-a-Letras API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "num": {
+                "type": "string",
+                "description": "The number to be converted to words.",
+                "default": "0"
+            }
+        },
+        "required": [
+            "num"
+        ]
+    }
+}

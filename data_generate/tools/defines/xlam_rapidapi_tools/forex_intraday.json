@@ -1,0 +1,35 @@
+{
+    "name": "forex_intraday",
+    "description": "This is a sub-function API for tool quotient.\nTool description: Market data API for intraday (1-minutes) data, end-of-day data, options data, crypto, forex, live prices, fundamental data, trading signal, and much more, on various assets (Stocks, ETFs, Funds, Indices, Forex, Cryptocurrencies, etc), on worldwide stock exchanges (us, canada, australia, uk and europe).\nAPI description: Fetches intraday time series data (Date, Open, High, Low, Close, Volume) for a given currency pair.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "interval": {
+                "type": "number",
+                "description": "Time interval for the data points, e.g., `1` for 1-minute interval, `5` for 5-minute interval.",
+                "default": 1.0
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The symbol of the currency pair to look for, e.g., `EUR/USD` or `EUR-USD` or `EURUSD`.",
+                "default": "EUR/USD"
+            },
+            "to": {
+                "type": "string",
+                "description": "The query end date (supported formats are : **YYYY-mm-dd HH:MM**, **YYYY-mm-dd**), e.g., `2020-04-21 10:30` or simply `2020-04-22`.",
+                "default": "2020-04-21 10:30"
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The query start date (supported formats are : **YYYY-mm-dd HH:MM**, **YYYY-mm-dd**), e.g., `2020-04-21 10:00` or simply `2020-04-21`.",
+                "default": "2020-04-21 10:00"
+            }
+        },
+        "required": [
+            "interval",
+            "symbol",
+            "to",
+            "is_from"
+        ]
+    }
+}

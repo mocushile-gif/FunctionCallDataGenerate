@@ -1,0 +1,17 @@
+{
+    "name": "detailed_food_recipe_by_id",
+    "description": "This is a sub-function API for tool chinese_food_db.\nTool description: Chinese food recipes with high-quality images stored on AWS S3 for fast accessibility. Easy to use!\nCategory: Food\nAPI description: Fetches a detailed food recipe using the given recipe ID from The Vegan Recipes DB API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the food recipe to fetch.",
+                "default": "5"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

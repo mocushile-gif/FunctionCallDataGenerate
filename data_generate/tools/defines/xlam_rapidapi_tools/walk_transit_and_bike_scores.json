@@ -1,0 +1,15 @@
+{
+    "name": "walk_transit_and_bike_scores",
+    "description": "This is a sub-function API for tool zillow.\nTool description: Fast and highly available API. For-sale, rental listings and agens real-time data from Zillow.\nAPI description: Fetches Walk, Transit, and Bike Scores for a property using the given ZPID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zpid": {
+                "type": "string",
+                "description": "The Zillow Property ID for which the scores are to be fetched. Default is '20485700'.",
+                "default": "20485700"
+            }
+        },
+        "required": []
+    }
+}

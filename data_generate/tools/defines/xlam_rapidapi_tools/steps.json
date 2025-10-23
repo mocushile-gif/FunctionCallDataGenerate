@@ -1,0 +1,17 @@
+{
+    "name": "steps",
+    "description": "This is a sub-function API for tool wikihow.\nTool description: Retrieve random out-of-context text and images from WikiHow articles\nAPI description: Fetches a random selection of WikiHow steps.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "count": {
+                "type": "number",
+                "description": "The number of step strings to retrieve (maximum 100).",
+                "default": 3.0
+            }
+        },
+        "required": [
+            "count"
+        ]
+    }
+}

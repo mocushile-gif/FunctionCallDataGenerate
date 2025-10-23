@@ -1,0 +1,23 @@
+{
+    "name": "get_block_hash_v2",
+    "description": "This is a sub-function API for tool chain49.\nTool description: Kickstart your next crypto project - extended trezor/blockbook API with 10+ blockchains available instantly and 50+ possible on request running on the finest hardware in Germany's best datacenters at Hetzner\n\nWebsocket only via api.chain49.com endpoint possible (RapidAPI does not support it yet)\nAPI description: Get block hash by its height\n\nNote: Blockbook always follows the main chain of the backend it is attached to.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "blockheight": {
+                "type": "number",
+                "description": "The height or index of the block for which the hash is to be retrieved.",
+                "default": 15
+            },
+            "blockchain": {
+                "type": "string",
+                "description": "The name of the blockchain from which to retrieve the block hash.",
+                "default": "bitcoin"
+            }
+        },
+        "required": [
+            "blockheight",
+            "blockchain"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_breed_information",
+    "description": "This is a sub-function API for tool dog_breeds.\nTool description: The API is scraping the Wikipedia pages for dogs in order to collect data\nAPI description: Retrieve information for a specific dog breed from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "breed": {
+                "type": "string",
+                "description": "The name of the dog breed to get information about.",
+                "default": "Cretan Hound"
+            }
+        },
+        "required": [
+            "breed"
+        ]
+    }
+}

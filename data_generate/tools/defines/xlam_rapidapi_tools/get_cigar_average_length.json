@@ -1,0 +1,45 @@
+{
+    "name": "get_cigar_average_length",
+    "description": "This is a sub-function API for tool cigars.\nTool description: Data about Cigar brands, Cigars, and country data\nAPI description: Fetches the average length of cigars based on specified filters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "wrapper": {
+                "type": "string",
+                "description": "The wrapper type of the cigar. Default is 'Connecticut Shade, Ecuador'.",
+                "default": "Connecticut Shade, Ecuador"
+            },
+            "name": {
+                "type": "string",
+                "description": "The name of the cigar. Default is 'Torpedo'.",
+                "default": "Torpedo"
+            },
+            "filler": {
+                "type": "string",
+                "description": "The filler type of the cigar. Default is 'Nicaragua'.",
+                "default": "Nicaragua"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country where the cigar is made. Default is 'Nicaragua'.",
+                "default": "Nicaragua"
+            },
+            "color": {
+                "type": "string",
+                "description": "The color of the cigar. Default is 'Colorado Claro'.",
+                "default": "Colorado Claro"
+            },
+            "strength": {
+                "type": "string",
+                "description": "The strength of the cigar. Default is 'Mild-Medium'.",
+                "default": "Mild-Medium"
+            },
+            "brandid": {
+                "type": "number",
+                "description": "The brand ID of the cigar. Default is 13711.",
+                "default": 13711.0
+            }
+        },
+        "required": []
+    }
+}

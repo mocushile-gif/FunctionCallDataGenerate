@@ -1,0 +1,134 @@
+{
+    "{'continent': 'Asia', 'limit': 10, 'fields': 'population,languages'}": {
+        "error": "",
+        "response": [
+            {
+                "href": "/apis/geography/v1/country/AFG",
+                "languages": [
+                    {
+                        "code": "prs",
+                        "name": "Dari"
+                    },
+                    {
+                        "code": "pus",
+                        "name": "Pashto"
+                    },
+                    {
+                        "code": "tuk",
+                        "name": "Turkmen"
+                    }
+                ],
+                "population": 40218234
+            },
+            {
+                "href": "/apis/geography/v1/country/ARE",
+                "languages": [
+                    {
+                        "code": "ara",
+                        "name": "Arabic"
+                    }
+                ],
+                "population": 9890400
+            },
+            {
+                "href": "/apis/geography/v1/country/ARM",
+                "languages": [
+                    {
+                        "code": "hye",
+                        "name": "Armenian"
+                    }
+                ],
+                "population": 2963234
+            },
+            {
+                "href": "/apis/geography/v1/country/AZE",
+                "languages": [
+                    {
+                        "code": "aze",
+                        "name": "Azerbaijani"
+                    },
+                    {
+                        "code": "rus",
+                        "name": "Russian"
+                    }
+                ],
+                "population": 10110116
+            },
+            {
+                "href": "/apis/geography/v1/country/BGD",
+                "languages": [
+                    {
+                        "code": "ben",
+                        "name": "Bengali"
+                    }
+                ],
+                "population": 164689383
+            },
+            {
+                "href": "/apis/geography/v1/country/BHR",
+                "languages": [
+                    {
+                        "code": "ara",
+                        "name": "Arabic"
+                    }
+                ],
+                "population": 1701583
+            },
+            {
+                "href": "/apis/geography/v1/country/BRN",
+                "languages": [
+                    {
+                        "code": "msa",
+                        "name": "Malay"
+                    }
+                ],
+                "population": 437483
+            },
+            {
+                "href": "/apis/geography/v1/country/BTN",
+                "languages": [
+                    {
+                        "code": "dzo",
+                        "name": "Dzongkha"
+                    }
+                ],
+                "population": 771612
+            },
+            {
+                "href": "/apis/geography/v1/country/CCK",
+                "languages": [
+                    {
+                        "code": "eng",
+                        "name": "English"
+                    }
+                ],
+                "population": 544
+            },
+            {
+                "href": "/apis/geography/v1/country/CHN",
+                "languages": [
+                    {
+                        "code": "zho",
+                        "name": "Chinese"
+                    }
+                ],
+                "population": 1402112000
+            }
+        ]
+    },
+    "{'continent': 'Asia', 'fields': 'capital cities,official languages,regions'}": {
+        "error": "",
+        "response": {
+            "status": "INTERNAL_SERVER_ERROR",
+            "message": "com.fasterxml.jackson.databind.JsonMappingException: line 1:7 mismatched input ' ' expecting {<EOF>, ',', '-', IDENTIFIER} (through reference chain: java.util.ArrayList[0]->com.mmplabs.geography.rest.countries.model.Country[\"href\"])"
+        }
+    },
+    "{'continent': 'Africa', 'limit': 5}": {
+        "error": "",
+        "response": "[{'href': '/apis/geography/v1/country/AGO', 'name': {'common': 'Angola', 'official': 'Republic of Angola', 'nativeName': [{'lang': 'por', 'official': 'Republica de Angola', 'common': 'Angola'}], 'translations': [{'lang': 'ara', 'official': '\u0627\u0654\u0646\u063a\u0648\u0644\u0627', 'common': '\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0627\u0654\u0646\u063a\u0648\u0644\u0627'}, {'lang': 'bre', 'official': 'Republik Angola', 'common': 'Angola'}, {'lang': 'ces', 'official': 'Angolska republika', 'common': 'Angola'}, {'lang': 'cym', 'official': 'Gweriniaeth Angola', 'common': 'Angola'}, {'lang': 'deu', 'official': 'Republik Angola', 'common': 'Angola'}, {'lang': 'est', 'official': 'Angola Vabariik', 'common': 'Angola'}, {'lang': 'fin', 'official': 'Angolan tasavalta', 'common': 'Angola'}, {'lang': 'fra', 'official': \"Republique d'Angola\", 'common': 'Angola'}, {'lang': 'hrv', 'official': 'Republika Angola', 'common': 'Angola'}, {'lang': 'hun', 'official': 'Angola', 'common': 'Angola'}, {'lang': 'ita', 'official': \"Repubblica dell'Angola\", 'common': 'Angola'}, {'lang': 'jpn', 'official': '\u30a2\u30f3\u30b3\u3099\u30e9\u5171\u548c\u56fd', 'common': '\u30a2\u30f3\u30b3\u3099\u30e9'}, {'lang': 'kor', 'official': '\u110b\u1161\u11bc\u1100\u1169\u11af\u1105\u1161 \u1100\u1169\u11bc\u1112\u116a\u1100\u116e\u11a8', 'common': '\u110b\u1161\u11bc\u1100\u1169\u11af\u1105\u1161'}, {'lang': 'nld', 'official': 'Republiek Angola', 'common': 'Angola'}, {'lang': 'per', 'official': '\u062c\u0645\u0647\u0648\u0631\u06cc \u0627\u0653\u0646\u06af\u0648\u0644\u0627', 'common': '\u0627\u0653\u0646\u06af\u0648\u0644\u0627'}, {'lang': 'pol', 'official': 'Republika Angoli', 'common': 'Angola'}, {'lang': 'por', 'official': 'Republica de Angola', 'common': 'Angola'}, {'lang': 'rus', 'official': '\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0410\u043d\u0433\u043e\u043b\u0430', 'common': '\u0410\u043d\u0433\u043e\u043b\u0430'}, {'lang': 'slk', 'official': 'Angolska republika', 'common': 'Angola'}, {'lang': 'spa', 'official': 'Republica de Angola', 'common': 'Angola'}, {'lang': 'srp', 'official': '\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0410\u043d\u0433\u043e\u043b\u0430', 'common': '\u0410\u043d\u0433\u043e\u043b\u0430'}, {'lang': 'swe', 'official': 'Republiken Angola', 'common': 'Angola'}, {'lang': 'tur', 'official': 'Angola Cumhuriyeti', 'common': 'Angola'}, {'lang': 'urd', 'official': '\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u0646\u06af\u0648\u0644\u06c1', 'common': '\u0627\u0646\u06af\u0648\u0644\u06c1'}, {'lang': 'zho', 'official': '\u5b89\u54e5\u62c9\u5171\u548c\u56fd', 'common': '\u5b89\u54e5\u62c9'}]}, 'tld': ['.ao'], 'cca2': 'AO', 'ccn3': '024', 'cca3': 'AGO', 'cioc': 'ANG', 'fifa': 'ANG', 'independent': True, 'status"
+    },
+    "{'continent': 'South America'}": {
+        "error": "",
+        "response": "[{'href': '/apis/geography/v1/country/ABW', 'name': {'common': 'Aruba', 'official': 'Aruba', 'nativeName': [{'lang': 'nld', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'pap', 'official': 'Aruba', 'common': 'Aruba'}], 'translations': [{'lang': 'ara', 'official': '\u0627\u0654\u0631\u0648\u0628\u0627', 'common': '\u0627\u0654\u0631\u0648\u0628\u0627'}, {'lang': 'bre', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'ces', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'cym', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'deu', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'est', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'fin', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'fra', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'hrv', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'hun', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'ita', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'jpn', 'official': '\u30a2\u30eb\u30cf\u3099', 'common': '\u30a2\u30eb\u30cf\u3099'}, {'lang': 'kor', 'official': '\u110b\u1161\u1105\u116e\u1107\u1161', 'common': '\u110b\u1161\u1105\u116e\u1107\u1161'}, {'lang': 'nld', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'per', 'official': '\u0627\u0653\u0631\u0648\u0628\u0627', 'common': '\u0627\u0653\u0631\u0648\u0628\u0627'}, {'lang': 'pol', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'por', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'rus', 'official': '\u0410\u0440\u0443\u0431\u0430', 'common': '\u0410\u0440\u0443\u0431\u0430'}, {'lang': 'slk', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'spa', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'srp', 'official': '\u0410\u0440\u0443\u0431\u0430', 'common': '\u0410\u0440\u0443\u0431\u0430'}, {'lang': 'swe', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'tur', 'official': 'Aruba', 'common': 'Aruba'}, {'lang': 'urd', 'official': '\u0627\u0631\u0648\u0628\u0627', 'common': '\u0627\u0631\u0648\u0628\u0627'}, {'lang': 'zho', 'official': '\u963f\u9c81\u5df4', 'common': '\u963f\u9c81\u5df4'}]}, 'tld': ['.aw'], 'cca2': 'AW', 'ccn3': '533', 'cca3': 'ABW', 'cioc': 'ARU', 'fifa': 'ARU', 'independent': False, 'status': 'officially-assigned', 'unMember': False, 'currencies': [{'name': 'Aruban florin', 'alphaCode': 'AWG', 'symbol': '\u0192'}], 'idd': {'root': '+2', 'suffixes': ['97']}, 'capital': [{'name': 'Oranjestad', 'latLng': {'lat': 12.5083705, 'lng': -70.0544394}}], 'altSpel"
+    }
+}

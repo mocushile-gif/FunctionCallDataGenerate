@@ -1,0 +1,17 @@
+{
+    "name": "multiple_guids",
+    "description": "This is a sub-function API for tool guid_generator_tool.\nTool description: Efficient Guid generator, fast and flexible.\nAPI description: Endpoint to retrieve a multiple GUIDs, returned as a a string array.\nRequired query string parameter: *number* - needs to be between 0 and 1000.\nGET only query.\nReturn content-type is text/json.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "number": {
+                "type": "string",
+                "description": "The number of GUIDs to generate (must be between 0 and 1000).",
+                "default": "10"
+            }
+        },
+        "required": [
+            "number"
+        ]
+    }
+}

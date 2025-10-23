@@ -1,0 +1,17 @@
+{
+    "name": "yearly_income_statements",
+    "description": "This is a sub-function API for tool freedom_finance.\nTool description: Financial data for over 75,000 stocks on over 75 exchanges. Download conveniently formatted financial statements, dividends, end of day prices and more. Need higher usage, custom integration or additional features? Contact us for custom pricing.\nAPI description: Fetches the annual income statements for a given stock symbol using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which the annual income statements are to be fetched.",
+                "default": "MSFT"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

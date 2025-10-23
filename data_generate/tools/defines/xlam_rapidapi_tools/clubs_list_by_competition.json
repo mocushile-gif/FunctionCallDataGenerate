@@ -1,0 +1,22 @@
+{
+    "name": "clubs_list_by_competition",
+    "description": "This is a sub-function API for tool transfermarket.\nTool description: This API helps to query for transfer news, latest or record transfers, rumors, player market value, etc... to create a sporting site/application such as transfermarkt.com\nAPI description: Fetches the list of clubs in a specific competition using the specified competition ID and domain.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the competition to fetch the list of clubs for. This value is returned from the .../search or .../competitions/list endpoints.",
+                "default": "IT1"
+            },
+            "domain": {
+                "type": "string",
+                "description": "The domain to use for the request. It should be one of the following: 'com', 'de', 'be', 'es', 'it', 'nl', 'pl', 'pt', 'com.tr', 'world'. Defaults to 'de'.",
+                "default": "de"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_individual_news_from_source",
+    "description": "This is a sub-function API for tool climate_change_news.\nTool description: It is showing all the latest climate  around the world\nAPI description: Fetch LGBTQ+ related news from a specific newspaper using the newspaper's ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "newspaperid": {
+                "type": "string",
+                "description": "The unique identifier of the newspaper from which to retrieve news.",
+                "default": "thetimes"
+            }
+        },
+        "required": [
+            "newspaperid"
+        ]
+    }
+}

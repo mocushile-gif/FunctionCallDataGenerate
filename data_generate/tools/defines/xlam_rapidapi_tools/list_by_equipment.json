@@ -1,0 +1,16 @@
+{
+    "name": "list_by_equipment",
+    "description": "This is a sub-function API for tool exercisedb.\nTool description: The ExerciseDB gives you access to over 1300 exercises with individual exercise data and animated demonstrations.\nAPI description: Fetch a list of exercises by the type of equipment.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The equipment type to filter exercises by."
+            }
+        },
+        "required": [
+            "type"
+        ]
+    }
+}

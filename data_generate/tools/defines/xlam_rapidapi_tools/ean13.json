@@ -1,0 +1,17 @@
+{
+    "name": "ean13",
+    "description": "This is a sub-function API for tool ean13_code_generator_api.\nTool description: This API return a EAN13 Barcode in PNG format, based on input of a 12 or 13 lenght code\nAPI description: Generates an EAN13 barcode as a PNG or returns an error based on a given 12-13 length code. For a 12-digit code, the check digit is automatically calculated; for a 13-digit code, the check digit is verified.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "string",
+                "description": "A 12 or 13 character string representing the barcode.",
+                "default": "9788804660243"
+            }
+        },
+        "required": [
+            "code"
+        ]
+    }
+}

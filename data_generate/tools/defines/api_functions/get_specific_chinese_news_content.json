@@ -1,0 +1,15 @@
+{
+    "name": "get_specific_chinese_news_content",
+    "description": "Fetches the content of a specific Chinese news article using the uniquekey obtained from the get_chinese_news function.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "uniquekey": {
+          "type": "string",
+          "description": "The unique key (ID) for a specific news article."
+        }
+      },
+      "required": ["uniquekey"]
+    }
+  }
+  

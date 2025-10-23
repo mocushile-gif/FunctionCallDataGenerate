@@ -1,0 +1,17 @@
+{
+    "name": "cnpj",
+    "description": "This is a sub-function API for tool dados_cnpj.\nTool description: Busca os dados de um CNPJ diretamente na base de dados da Receita Federal.\nAPI description: Fetch company data by CNPJ (Cadastro Nacional da Pessoa Jurídica) using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cnpj": {
+                "type": "string",
+                "description": "The CNPJ number of the company to fetch data for.",
+                "default": "22543331000100"
+            }
+        },
+        "required": [
+            "cnpj"
+        ]
+    }
+}

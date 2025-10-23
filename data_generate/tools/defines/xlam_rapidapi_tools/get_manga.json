@@ -1,0 +1,15 @@
+{
+    "name": "get_manga",
+    "description": "This is a sub-function API for tool mangaverse_api.\nTool description: Unleash the World of Manga with MangaVerse API!  Discover a captivating universe of manga from Japan, Korea, and China, all conveniently translated into English. \nAPI description: Retrieves manga details using the MangaVerse API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the manga to retrieve. Default is '647fed35c71c2c9122b318f8'.",
+                "default": "647fed35c71c2c9122b318f8"
+            }
+        },
+        "required": []
+    }
+}

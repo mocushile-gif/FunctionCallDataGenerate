@@ -1,0 +1,15 @@
+{
+    "name": "get_all_teams",
+    "description": "This is a sub-function API for tool free_nba.\nTool description: Unofficial NBA API for Historical NBA Data\nAPI description: Retrieves all NBA teams for the current season from the free-nba API, with optional pagination.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number for pagination. Defaults to '0'.",
+                "default": "0"
+            }
+        },
+        "required": []
+    }
+}

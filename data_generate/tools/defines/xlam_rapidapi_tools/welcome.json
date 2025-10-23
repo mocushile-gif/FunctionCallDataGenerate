@@ -1,0 +1,14 @@
+{
+    "name": "welcome",
+    "description": "This is a sub-function API for tool nft_api_news.\nTool description: This NFT API will keep you up to date on the NFT space. Built for effeciency.\nAPI description: Fetches NFT-related data from the specified API using optional parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nft": {
+                "type": "string",
+                "description": "An optional string parameter to specify the NFT data to fetch. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

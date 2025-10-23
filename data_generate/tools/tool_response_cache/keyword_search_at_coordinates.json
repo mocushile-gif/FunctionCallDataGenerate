@@ -1,0 +1,28 @@
+{
+    "{'query': 'web design', 'lng': -121.94, 'lat': 37.34, 'zoom': 13.0}": {
+        "error": "",
+        "response": {
+            "query": "web design",
+            "coordinates": {
+                "latitude": 37.34,
+                "longitude": -121.94,
+                "zoom_level": 13.0
+            },
+            "results": [
+                {
+                    "position": 1,
+                    "business_name": "TechCraft Web Solutions",
+                    "place_id": "ChIJ...1234",
+                    "distance": "0.2 miles",
+                    "local_pack": true,
+                    "competitors": [
+                        "Pixel Perfect Designs (pos 2)",
+                        "CodeNest Studios (pos 3)"
+                    ]
+                }
+            ],
+            "timestamp": "2023-09-25T14:30:00Z",
+            "tracking_id": "GLRT_78910"
+        }
+    }
+}

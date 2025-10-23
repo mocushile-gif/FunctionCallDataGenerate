@@ -1,0 +1,17 @@
+{
+    "name": "consumers_detail",
+    "description": "This is a sub-function API for tool unofficial_trust_pilot.\nTool description: This API helps to query data relating to reviews and consumer reports to create a reviewing platform, such as : trustpilot.com\nAPI description: Get detailed information of a consumer using the RapidAPI TrustPilot endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the consumer, as returned from the `/business-units/get-reviews` endpoint.",
+                "default": "5f9c424654404f0019fb19fc"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

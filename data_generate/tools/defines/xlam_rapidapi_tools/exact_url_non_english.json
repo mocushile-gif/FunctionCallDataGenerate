@@ -1,0 +1,17 @@
+{
+    "name": "exact_url_non_english",
+    "description": "This is a sub-function API for tool best_backlink_checker_api.\nTool description: Best Backlink checker, You can check Top backlinks, New backlinks, Poor Backlinks, etc\nAPI description: Retrieves the backlinks of a specific non-English URL using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain of the non-English URL for which to retrieve backlinks.",
+                "default": "https://codeconia.com/2021/05/28/html-form-to-email-with-attachment-using-php/"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

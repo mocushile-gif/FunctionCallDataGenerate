@@ -1,0 +1,21 @@
+{
+    "{'channel': 'xQc'}": {
+        "error": "",
+        "response": {
+            "user": {
+                "__typename": "User",
+                "id": "71092938",
+                "login": "xqc",
+                "stream": null
+            }
+        }
+    },
+    "{'channel': 'xqc'}": {
+        "error": "",
+        "response": "{'user': {'__typename': 'User', 'id': '71092938', 'login': 'xqc', 'stream': None}}"
+    },
+    "{'channel': 'karol_g'}": {
+        "error": "",
+        "response": "{'user': {'__typename': 'User', 'id': '456453483', 'login': 'karol_g', 'stream': None}}"
+    }
+}

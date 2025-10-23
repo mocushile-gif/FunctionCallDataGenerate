@@ -1,0 +1,2162 @@
+{
+    "Travel": {
+        "Private Transportation": [
+            "涉及私人交通工具的API，如租车、出租车和共享出行服务。",
+            28
+        ],
+        "Local Services": [
+            "包括与本地服务相关的API，如商店、餐馆、警察局和医院等。",
+            16
+        ],
+        "Public Transportation": [
+            "涵盖所有与公共交通相关的API，包括公共汽车、火车和地铁等。",
+            62
+        ],
+        "Travel Information and Management": [
+            "提供与旅行相关的信息、法规、规划和管理服务的API，例如行李限制、签证信息、旅行顾问和活动偏好收集等。",
+            72
+        ],
+        "Airport Services": [
+            "专注于机场相关的API，包括机场设施、航班信息和机场交通等。",
+            108
+        ],
+        "Booking and Reservation Management": [
+            "专注于预订和管理的API，包括酒店、航班和活动的预订和取消。",
+            47
+        ],
+        "Accommodation": [
+            "涉及住宿相关的API，包括酒店预订、搜索、评论和物业管理等。",
+            124
+        ],
+        "Transportation Infrastructure": [
+            "涵盖与交通基础设施相关的API，例如机场、火车站、港口等设施的信息和管理。",
+            8
+        ],
+        "Location and Geographical Services": [
+            "提供地理位置和地理信息相关的服务，包括地理编码、地址验证、地点搜索和区域信息等。",
+            331
+        ],
+        "Others": [
+            "",
+            81
+        ],
+        "Navigation and Routing": [
+            "提供路线计算和导航相关的服务，包括驾驶方向、路线优化和距离计算等。",
+            41
+        ],
+        "Geospatial Analysis": [
+            "涉及地理空间分析的API，包括距离计算、地理空间数据处理和分析等。",
+            30
+        ],
+        "Time and Calendar Services": [
+            "涉及时间和日历相关的API，例如根据时区搜索国家。",
+            38
+        ],
+        "Weather and Environment": [
+            "提供天气和环境相关的信息，包括天气预报、气候条件和环境风险等。",
+            22
+        ],
+        "Financial and Currency Services": [
+            "涉及金融和货币服务的API，包括货币兑换、支付和财务信息等。",
+            2
+        ],
+        "Event and Activity Information": [
+            "提供节假日、活动和目的地活动相关的信息API，帮助用户了解目的地的特殊日期和活动。",
+            19
+        ],
+        "Cultural and Language Services": [
+            "提供与文化和语言相关的API，包括语言翻译、当地语言信息和文化习俗等。",
+            6
+        ],
+        "Digital Experience and User Content": [
+            "涉及数字体验和用户生成内容的API，包括增强现实、虚拟旅游体验和社交媒体内容。",
+            3
+        ],
+        "Analytics and Insights": [
+            "涉及数据收集、分析和报告的API，帮助旅行公司优化运营和决策。",
+            4
+        ],
+        "Insurance Services": [
+            "涉及保险相关的API，包括旅行保险报价和保险信息管理等。",
+            2
+        ]
+    },
+    "Lifestyle": {
+        "Food & Nutrition": [
+            "涉及饮食、营养、餐厅推荐和烹饪的API。",
+            2
+        ],
+        "Lifestyle & Activity Management": [
+            "涉及日常生活管理、时间管理、活动策划和日程安排的API。",
+            28
+        ],
+        "Home & Family": [
+            "与家庭生活、家居设计、育儿和家庭关系相关的API。",
+            16
+        ],
+        "Mental & Emotional Well-being": [
+            "涵盖心理健康、冥想、情感支持和个人成长相关的API。",
+            15
+        ],
+        "Information & Media": [
+            "提供新闻、媒体、信息资源和教育资源的API。",
+            5
+        ],
+        "Social & Community Interaction": [
+            "与社交媒体、在线互动、社区服务和社群建设相关的API。",
+            19
+        ],
+        "Health & Fitness": [
+            "包括与身体健康、健身、运动计划和健身房相关的API。",
+            18
+        ],
+        "Hobbies & Leisure": [
+            "涉及休闲活动、爱好、DIY项目、户外活动和旅行探险的API。",
+            14
+        ],
+        "Others": [
+            "",
+            16
+        ],
+        "Spirituality & Religion": [
+            "与精神修养、宗教实践相关的API。",
+            12
+        ],
+        "Technology & Digital Tools": [
+            "涵盖与技术产品、数字工具、应用程序推荐和使用相关的API。",
+            2
+        ],
+        "Finance & Resource Management": [
+            "涉及个人财务、预算、支出管理和资源优化的API。",
+            2
+        ],
+        "Culture & Heritage": [
+            "涉及文化活动、传统、文化身份和遗产的API。",
+            3
+        ],
+        "Fashion & Personal Care": [
+            "涵盖与时尚、服装搭配、美容和个人护理相关的API。",
+            28
+        ],
+        "Information & Media, Fashion & Personal Care": [
+            "",
+            1
+        ],
+        "Career & Professional Development": [
+            "涉及工作与生活平衡、职业规划和相关策略的API。",
+            4
+        ],
+        "Design & Sustainability": [
+            "与室内设计、环境设计和可持续发展相关的API。",
+            4
+        ]
+    },
+    "Medical": {
+        "Healthcare Infrastructure and Resource Management": [
+            "涉及医疗设施、设备和提供者信息的获取及管理的API。",
+            2
+        ],
+        "Patient Monitoring and Vital Signs": [
+            "专注于从医疗设备中检索和分析患者监测数据的API。",
+            1
+        ],
+        "Diagnosis and Treatment Planning": [
+            "用于诊断患者病情和制定治疗方案的API，包括症状分析、病理诊断和治疗计划生成。",
+            4
+        ],
+        "Wilderness and Remote Medicine": [
+            "专注于野外和偏远地区的急救和医疗支持的API。",
+            2
+        ],
+        "Rehabilitation and Long-term Care": [
+            "涉及康复护理评估和长期护理计划的API。",
+            1
+        ],
+        "Communication and Language Services": [
+            "提供语言翻译和字典服务的API，帮助在医疗环境中进行有效沟通。",
+            1
+        ],
+        "System Management and Technical Support": [
+            "涉及系统健康检查、会话初始化和技术支持的API，确保医疗服务的稳定性和可靠性。",
+            2
+        ],
+        "Biometrics, Forensics, and Pathology": [
+            "涵盖通过生物特征数据进行身份识别、认证、法医分析以及病理分析的API。",
+            4
+        ],
+        "Emergency and Patient Care": [
+            "包括急救、紧急响应服务、患者护理、康复计划生成以及远程医疗服务的API。",
+            2
+        ],
+        "Others": [
+            "",
+            1
+        ],
+        "Clinical Calculations and Biomarkers": [
+            "涉及计算临床指标和标记的API，用于评估患者的健康状况。",
+            1
+        ],
+        "Medical Imaging and Analysis": [
+            "涉及医学影像的获取、分析和处理的API，用于诊断和治疗规划。",
+            4
+        ],
+        "Medical Knowledge and Information Management": [
+            "涉及从各种医疗数据库和资源中检索、管理和更新信息的API，例如医疗指南、临床试验更新等。",
+            4
+        ],
+        "Medical Records and Data Management": [
+            "涉及医疗记录的创建、转录、管理和患者信息处理的API。",
+            2
+        ],
+        "Medication and Prescription Management": [
+            "包括药物剂量验证、处方创建、药物相互作用检查和药物计划优化的API，确保药物使用的安全性和有效性。",
+            4
+        ]
+    },
+    "Commerce": {
+        "Financial Services": [
+            "涵盖金融市场、银行服务、投资和保险相关的API，例如获取股票数据、货币转换和金融产品信息。",
+            710
+        ],
+        "Real Estate": [
+            "与房地产相关的API，例如搜索待售房产和安排房产参观。",
+            100
+        ],
+        "Payment and Billing": [
+            "涉及支付处理、账单管理和金融交易的API，例如支付请求和账单支付。",
+            88
+        ],
+        "Others": [
+            "",
+            355
+        ],
+        "E-commerce": [
+            "涉及在线购物平台和市场的API，例如获取产品信息、库存管理和订单处理。",
+            354
+        ],
+        "Corporate Information": [
+            "涉及公司信息和企业数据的API，例如获取公司基本信息和企业分析。",
+            131
+        ],
+        "Retail and Merchandising": [
+            "涉及零售和商品销售的API，例如商店管理和商品展示。",
+            143
+        ],
+        "Marketing and Advertising": [
+            "涉及市场营销、广告活动和品牌推广的API，例如管理广告活动和获取市场分析。",
+            112
+        ],
+        "Cryptocurrency and Fintech": [
+            "与加密货币交易、金融科技创新、新闻和市场分析相关的API，例如获取加密货币价格和金融科技服务。",
+            346
+        ],
+        "Human Resources and Recruitment": [
+            "与招聘、员工管理和薪酬相关的API，例如获取职位详情和估算薪资。",
+            114
+        ],
+        "General Utilities": [
+            "涉及通用工具和服务的API，例如生成条形码和验证电子邮件。",
+            85
+        ],
+        "Customer Engagement": [
+            "与客户服务、满意度和互动相关的API，例如客户反馈、支持和电子邮件验证。",
+            83
+        ],
+        "Automotive": [
+            "涉及汽车制造、销售和服务的API，例如搜索汽车品牌和型号。",
+            40
+        ],
+        "App Store and Application Management": [
+            "涉及应用商店和应用程序管理的API，例如获取应用信息和管理应用程序。",
+            30
+        ],
+        "Sports and Entertainment": [
+            "涉及体育管理、赛事和娱乐内容的API，例如获取体育赛事信息和娱乐内容推荐。",
+            21
+        ],
+        "Hospitality and Tourism": [
+            "涉及酒店、餐饮和旅游服务的API，例如预订管理和旅游推荐。",
+            14
+        ],
+        "Technology and Developer Tools": [
+            "涉及技术基础设施、工具支持和开发者服务的API，例如解析数据和开发工具支持。",
+            41
+        ],
+        "Legal Services": [
+            "涉及法律咨询、合规性检查和法律文件管理的API，例如法律策略准备和商标注册。",
+            19
+        ],
+        "Supply Chain and Logistics": [
+            "涉及供应链管理、物流和运输的API，例如获取供应链信息和物流跟踪。",
+            13
+        ],
+        "Social Media and Community": [
+            "与社交媒体、社区互动和用户生成内容相关的API，例如获取社交媒体帖子和社区讨论。",
+            29
+        ],
+        "Media and Content": [
+            "与媒体发布、内容管理和数字出版相关的API，例如获取新闻文章和管理数字内容。",
+            21
+        ],
+        "Business Strategy and Planning": [
+            "涉及商业规划、战略制定和企业管理的API，例如创建商业计划和项目管理。",
+            37
+        ],
+        "Data Analytics and Insights": [
+            "涉及数据分析、商业智能和洞察的API，例如获取市场分析和数据可视化。",
+            40
+        ],
+        "Subscription and Membership": [
+            "与订阅服务和会员管理相关的API，例如管理订阅和会员资格。",
+            24
+        ],
+        "Education and Training": [
+            "涉及教育资源、课程管理和培训服务的API，例如获取教育内容和管理培训计划。",
+            1
+        ],
+        "Financial Services, Media and Content": [
+            "",
+            1
+        ]
+    },
+    "Food": {
+        "Dining and Restaurant Services": [
+            "涉及餐厅和食品相关场所的信息、菜单、预订、评价、位置搜索、食品订购和送餐服务的API。",
+            93
+        ],
+        "Beverages": [
+            "专注于非酒精饮料的信息和服务，例如咖啡、茶、果汁等。",
+            12
+        ],
+        "Recipes and Cooking": [
+            "涉及获取食谱、烹饪指导、食材替代、类似食谱的API，以及与食谱创建和管理相关的功能。",
+            105
+        ],
+        "Alcoholic Drinks": [
+            "专注于酒精饮料的信息和服务，例如酒类、啤酒、鸡尾酒等。",
+            15
+        ],
+        "Food Information and Categorization": [
+            "包括获取特定食物信息、食物ID、食物成分、食物相关的图像、媒体资源、标签和分类的API。",
+            50
+        ],
+        "Meal Planning and Dietary Management": [
+            "涉及膳食计划和饮食管理的API，例如根据饮食偏好提供食谱建议，以及营养成分过滤。",
+            8
+        ],
+        "Food Reviews and Recommendations": [
+            "涉及食品和餐厅的评论、推荐和用户反馈的API。",
+            11
+        ],
+        "Others": [
+            "",
+            23
+        ],
+        "Agriculture and Food Production": [
+            "与农业、牲畜和食品生产相关的信息，包括肥料推荐、作物管理和天气影响。",
+            20
+        ],
+        "Grocery and Ingredients": [
+            "涉及杂货产品和食材信息的API，包括生成购物清单的功能。",
+            5
+        ],
+        "Food Cost and Pricing": [
+            "涉及食物成本计算和定价策略的API，例如计算披萨成本。",
+            1
+        ],
+        "Food Events and Festivals": [
+            "涉及食品节日和活动的信息，例如日期、特色菜肴和参与供应商。",
+            3
+        ],
+        "User Activity and Content Management": [
+            "涉及用户在食品领域的活动数据和内容发布的API。",
+            3
+        ],
+        "Gardening and Planting Guides": [
+            "提供与园艺和植物种植相关的指导和信息，例如蔬菜种植指南。",
+            2
+        ],
+        "Food Processing and Quality Control": [
+            "涉及食品加工过程中的混合、一致性验证和质量控制的API。",
+            3
+        ],
+        "Community and Social Food Services": [
+            "涉及食品储藏室、社区食品服务、食品浪费管理和减少的API。",
+            2
+        ],
+        "Food Safety and Regulations": [
+            "与食品安全、食品保质期、农业政策和食品法规相关的API。",
+            10
+        ],
+        "Food Inventory and Optimization": [
+            "涉及食品库存管理、优化和过期提醒的API。",
+            2
+        ]
+    },
+    "Entertainment": {
+        "Music & Audio": [
+            "涉及音乐和音频相关的API，包括音乐信息检索、音乐流媒体、音乐排行榜、音频编辑等。",
+            642
+        ],
+        "Video, Film & Television": [
+            "涵盖视频、电影和电视节目相关的API，包括内容创建、编辑、检索和推荐。",
+            781
+        ],
+        "Others": [
+            "",
+            262
+        ],
+        "Anime, Manga & Animation": [
+            "涉及动漫、漫画和动画相关的API，包括信息检索、内容详情等。",
+            135
+        ],
+        "Sports & E-Sports": [
+            "涵盖所有与传统体育和电子竞技相关的API，包括比赛信息、战队数据、运动员信息等。",
+            1652
+        ],
+        "Social Media & Influencers": [
+            "包括与社交媒体平台和影响者相关的API，用于获取用户生成内容、互动和趋势分析。",
+            495
+        ],
+        "Digital & Physical Games": [
+            "包括所有与数字和实体游戏相关的API，包括移动应用、桌面游戏、在线游戏平台、实体棋类游戏、益智游戏等。",
+            98
+        ],
+        "Gambling & Betting": [
+            "涉及彩票、赌博和体育博彩相关的API。",
+            132
+        ],
+        "Humor, Memes & Quizzes": [
+            "涉及幽默、笑话、网络迷因、测验和其他互动内容的API。",
+            145
+        ],
+        "Pet & Animal Entertainment": [
+            "涉及宠物和动物相关的娱乐内容API。",
+            14
+        ],
+        "Astrology & Horoscopes": [
+            "涉及占星术和星座运势相关的API。",
+            42
+        ],
+        "Literature, Publications & Visual Novels": [
+            "涉及书籍、文学、出版物和视觉小说相关的API，包括书籍检索、图书馆信息等。",
+            71
+        ],
+        "Immersive & Interactive Media": [
+            "涵盖虚拟现实、增强现实、互动媒体、直播平台和其他沉浸式体验技术的API。",
+            97
+        ]
+    },
+    "Health": {
+        "Others": [
+            "",
+            160
+        ],
+        "Diabetes and Endocrine Health": [
+            "涉及糖尿病和内分泌系统健康的评估和管理。",
+            11
+        ],
+        "Exercise and Fitness": [
+            "涉及运动建议、健身计划和身体活动相关的健康信息。",
+            74
+        ],
+        "Weight Management and Nutrition": [
+            "涉及体重管理和营养相关的健康信息。",
+            46
+        ],
+        "Infectious Diseases and Pandemic Management": [
+            "涵盖传染病的信息获取、疫情数据分析和公共健康政策。",
+            67
+        ],
+        "Reproductive and Maternal Health": [
+            "涵盖生殖健康、孕期管理和相关健康信息。",
+            21
+        ],
+        "Telemedicine and Remote Health Services": [
+            "涉及远程医疗和健康服务的提供和分析。",
+            5
+        ],
+        "Public Health and Health Policy": [
+            "涉及公共健康政策的制定和健康促进活动。",
+            7
+        ],
+        "Dermatology and Skin Health": [
+            "涉及皮肤健康的评估、治疗和护理建议。",
+            5
+        ],
+        "Oral and Dental Health": [
+            "涉及牙齿和口腔健康的评估、治疗计划和症状分析。",
+            13
+        ],
+        "Vision and Eye Health": [
+            "涵盖眼科健康评估和治疗建议。",
+            7
+        ],
+        "Cardiovascular Health": [
+            "涉及心血管系统的健康评估、监测和管理。",
+            8
+        ],
+        "Mental Health and Mood Disorders": [
+            "涉及精神健康和情绪障碍的评估和治疗信息。",
+            14
+        ],
+        "Social and Psychosocial Support": [
+            "提供社会支持服务和心理社会健康相关的信息和资源。",
+            7
+        ],
+        "Pain Management": [
+            "涉及疼痛评估、管理和治疗建议。",
+            6
+        ],
+        "Respiratory Health": [
+            "涉及呼吸系统健康的评估、监测和管理。",
+            7
+        ],
+        "Pharmaceutical Regulation and Approval": [
+            "涉及药品的监管和批准状态。",
+            8
+        ],
+        "Digestive Health": [
+            "涉及消化系统健康和相关的益生菌信息。",
+            5
+        ],
+        "Genetic and Gene Therapy": [
+            "涉及基因治疗和遗传健康相关的信息。",
+            13
+        ],
+        "Child Protection and Welfare": [
+            "涉及儿童保护服务和相关福利信息。",
+            9
+        ],
+        "Allergy and Emergency Response": [
+            "提供过敏反应的紧急处理建议。",
+            5
+        ],
+        "Neurological Health": [
+            "涉及神经健康的评估、治疗和研究。",
+            9
+        ],
+        "Occupational Health and Safety": [
+            "涉及职业健康和安全标准的制定和遵循。",
+            4
+        ],
+        "Toxicology and Substance Use": [
+            "涉及药物和物质的毒理学报告和使用分析。",
+            4
+        ],
+        "Nanomedicine": [
+            "涉及纳米医学药物的递送和应用。",
+            2
+        ],
+        "Virtual Health Records and Management": [
+            "涉及虚拟健康档案的创建和管理。",
+            4
+        ],
+        "Bone Health": [
+            "涉及骨骼健康的评估和测试，如骨密度测试。",
+            7
+        ],
+        "Renal and Urinary Health": [
+            "涉及肾脏功能评估和尿液健康相关的信息。",
+            5
+        ],
+        "Exercise and Fitness, Cardiovascular Health": [
+            "",
+            1
+        ],
+        "Reproductive and Maternal Health, Weight Management and Nutrition": [
+            "",
+            1
+        ],
+        "Health Education and Promotion": [
+            "提供健康教育材料和健康促进活动的信息。",
+            1
+        ]
+    },
+    "Environment": {
+        "Weather, Climate, and Atmospheric Conditions": [
+            "包括天气监测、预报、气候变化数据、气候新闻、空气质量和污染管理等API，提供与大气条件相关的信息和服务。",
+            228
+        ],
+        "Natural Resource and Land Management": [
+            "包括土地利用、森林管理、农业用水估算、农业生产和病虫害管理等API，用于可持续管理自然资源和土地。",
+            32
+        ],
+        "Water Resources and Management": [
+            "涵盖水质监测、水污染分析、废水处理、海洋和沿海管理等API，用于监测和改善水资源的质量和管理。",
+            39
+        ],
+        "Energy Management and Renewable Resources": [
+            "涵盖能源消耗监测、碳足迹计算、可再生能源管理等API，支持能源效率和可持续能源使用。",
+            9
+        ],
+        "Others": [
+            "",
+            15
+        ],
+        "Biodiversity and Ecosystem Management": [
+            "涉及物种分布、生态系统健康、生物多样性分析、生态旅游等API，用于管理和保护生态系统和自然栖息地。",
+            62
+        ],
+        "Environmental Governance and Justice": [
+            "包括企业社会责任、环境治理、环境影响与社会公平的交集等API，帮助企业和个人理解和应用环境伦理和责任。",
+            7
+        ],
+        "Sustainability and Environmental Policy": [
+            "结合可持续发展、保护措施、碳排放管理、环境法律和合规信息等API，支持环境保护和政策遵循。",
+            39
+        ],
+        "Soil and Land Health Monitoring": [
+            "专注于土壤健康、土壤数据监测和土地质量评估的API，支持农业和生态系统管理。",
+            9
+        ],
+        "Urban Environmental Management": [
+            "关注城市生物多样性监测、城市生态系统健康评估、城市设计评分等API，帮助理解城市化对自然的影响。",
+            5
+        ],
+        "Water Resources and Management, Natural Resource and Land Management": [
+            "",
+            1
+        ],
+        "Environmental Education and Awareness": [
+            "涵盖气候变化教育、环境教育、资源分配和意识提升的API，帮助提高公众对环境问题的理解和响应能力。",
+            3
+        ],
+        "Urban Planning and Infrastructure": [
+            "涉及城市规划、绿色基础设施项目、景观建筑、废物管理和资源回收等API，支持城市可持续发展和基础设施建设。",
+            15
+        ],
+        "Disaster Preparedness and Safety": [
+            "包括灾害恢复、韧性规划、疏散计划、环境健康和安全等API，帮助用户应对自然灾害和保障环境健康。",
+            16
+        ]
+    },
+    "Events": {
+        "Others": [
+            "",
+            60
+        ],
+        "Ticketing and Access Control": [
+            "涵盖与事件票务和访问控制相关的API，用于事件的票务管理和参与者的访问控制。",
+            4
+        ],
+        "Event Management and Planning": [
+            "涵盖所有与事件创建、更新、删除、日程安排和后勤管理相关的API，用于管理各种类型的事件。",
+            26
+        ],
+        "Sports and Competitions": [
+            "包括与体育赛事和各种比赛相关的API，如获取历史对决事件、获取最佳球员、获取体育赛事的媒体内容、航海事件状态和比赛安排等。",
+            41
+        ],
+        "Exhibitions, Art, and Entertainment Events": [
+            "专注于展览、艺术活动、音乐会、戏剧和其他娱乐活动的API，用于管理和促进这些领域的活动。",
+            2
+        ],
+        "Educational and Library Events": [
+            "涉及教育和图书馆活动的API，用于促进和管理教育和图书馆内的活动。",
+            3
+        ],
+        "Business and Professional Networking": [
+            "包括与商业活动、会议和专业网络活动相关的API，用于安排和管理商业会议、活动和专业网络。",
+            3
+        ],
+        "Cultural, Community, and Social Events": [
+            "涉及文化活动、节日、宗教活动、社区活动和志愿者活动的API，用于促进文化交流和社区参与。",
+            15
+        ],
+        "Media, Public Relations, and Marketing": [
+            "整合媒体、新闻、公关活动相关的API，用于管理媒体活动、组织新闻发布会、评估媒体事件的影响。",
+            7
+        ],
+        "Feedback, Analytics, and Engagement": [
+            "专注于收集和分析事件参与者反馈的API，以及用于增强事件参与度的工具API，如反馈收集、邀请生成等。",
+            8
+        ],
+        "Virtual and Technology Events": [
+            "专注于虚拟活动、网络研讨会以及技术和创新相关活动的API，用于管理和促进在线活动和技术领域的活动。",
+            2
+        ]
+    },
+    "Psychology": {
+        "Therapeutic Services and Counseling": [
+            "APIs related to initiating and managing therapy sessions, counseling, and healing initiatives, focusing on practical applications in clinical psychology.",
+            4
+        ],
+        "Family, Relationship, and Social Dynamics": [
+            "APIs analyzing and supporting family dynamics, romantic and interpersonal relationships, conflict resolution, and social interactions.",
+            10
+        ],
+        "Psychological Assessment and Testing": [
+            "APIs focused on assessing psychological states through standardized tests and questionnaires.",
+            14
+        ],
+        "Self-Help and Personal Development": [
+            "APIs providing self-help resources, such as quotes and personalized stress reduction plans, to support personal growth and mental well-being.",
+            8
+        ],
+        "Emotional and Behavioral Analysis": [
+            "APIs evaluating emotional states and behavioral cues, including emotional intelligence and personality traits.",
+            8
+        ],
+        "Career, Organizational, and Economic Psychology": [
+            "APIs providing insights into personality traits related to career aptitude, leadership approaches, team dynamics, organizational behavior, and economic decision-making.",
+            5
+        ],
+        "Cognitive Function and Decision-Making Analysis": [
+            "APIs specifically focused on evaluating cognitive functions, decision-making processes, and psychomotor skills.",
+            4
+        ],
+        "Cultural Psychology": [
+            "APIs providing information on cultural adaptation and the influence of culture on psychological processes.",
+            1
+        ],
+        "Ethical Psychology": [
+            "APIs providing information on ethics in counseling and psychological practice.",
+            1
+        ],
+        "Psychological Research and Experimentation": [
+            "APIs designed for conducting research, scheduling experiments, and gathering insights through various tests and questionnaires.",
+            3
+        ],
+        "Mental Health Monitoring and Management": [
+            "APIs designed to track, analyze, and manage mental health indicators, such as mood logs, stress levels, and disorder management.",
+            9
+        ],
+        "Others": [
+            "",
+            1
+        ],
+        "Communication and Nonverbal Analysis": [
+            "APIs analyzing nonverbal cues, such as gestures and facial expressions, as well as verbal communication to understand emotional states and engagement.",
+            8
+        ],
+        "Sports and Performance Psychology": [
+            "APIs related to the psychological aspects of sports performance, including psychomotor skills and mental resilience.",
+            2
+        ],
+        "Consumer and Market Psychology": [
+            "APIs providing insights into consumer behavior, fashion psychology, and market trends influenced by psychological factors.",
+            1
+        ],
+        "Demographic-Focused Psychology": [
+            "APIs providing information and support for specific demographic groups, including youth, elderly, and other vulnerable populations.",
+            1
+        ],
+        "Positive Psychology and Mindfulness": [
+            "APIs providing resources and insights related to positive psychology practices and mindfulness techniques.",
+            2
+        ],
+        "Art and Creative Therapies": [
+            "APIs related to the use of art and creativity in therapeutic settings to improve mental health and emotional well-being.",
+            2
+        ],
+        "Psychological Education, Training, and Professional Development": [
+            "APIs focused on educational resources, training modules for psychological first aid, therapy techniques, mental health awareness, and professional development in psychology.",
+            2
+        ]
+    },
+    "Communication": {
+        "Messaging and Notification Services": [
+            "涵盖即时通讯、短信、推送通知等消息服务的API，例如发送消息、消息广播、推送通知管理等。这些API用于各种消息服务的管理和操作。",
+            106
+        ],
+        "Social Media Interaction and Management": [
+            "专注于社交媒体平台的管理、用户互动和内容发布的API，例如获取关注列表、发布内容、分析用户互动等。这些API用于社交网络的用户交互和内容管理。",
+            146
+        ],
+        "Others": [
+            "",
+            58
+        ],
+        "Miscellaneous Communication Utilities": [
+            "其他不属于上述类别的API，例如生成二维码、检查回调URL可用性、基础设施配置管理等。这些API提供了各种实用功能。",
+            8
+        ],
+        "Media and News Services": [
+            "涉及新闻和媒体获取的API，例如从新闻网站获取新闻文章、社交媒体新闻等。这些API用于获取和管理新闻内容。",
+            55
+        ],
+        "Email Services and Analysis": [
+            "涉及电子邮件服务和交流分析的API，例如验证电子邮件地址、解析电子邮件、互动交流分析等。这些API用于电子邮件管理和交流效果分析。",
+            107
+        ],
+        "WhatsApp Services": [
+            "专门针对WhatsApp平台的API，例如获取WhatsApp联系人、验证WhatsApp账户、获取WhatsApp状态等。这些API用于WhatsApp相关的操作和管理。",
+            30
+        ],
+        "Telecom and Connectivity Services": [
+            "包括电信服务和网络连接相关的API，例如激活SIM卡、获取手机运营商信息、网络性能分析等。这些API用于电信服务的管理和网络基础设施的优化。",
+            80
+        ],
+        "Audio and Speech Processing": [
+            "涉及音频合成、语音识别和处理的API，例如文本转语音、语音分析等。这些API用于音频和语音相关的应用。",
+            9
+        ],
+        "Language and Cultural Exchange": [
+            "涉及语言处理和文化背景分析的API，例如文本翻译、文化交流分析等。这些API用于促进不同语言和文化背景下的交流。",
+            23
+        ],
+        "Content Moderation and Security": [
+            "涉及内容过滤、安全验证的API，例如文本粗俗过滤器、身份验证等。这些API用于确保交流环境的健康和用户身份的安全。",
+            4
+        ],
+        "Networking and Infrastructure Management": [
+            "包括网络基础设施的管理和优化相关的API，例如访问点信息获取、DNS健康检查、网络测试和诊断等。这些API用于网络管理和性能优化。",
+            28
+        ],
+        "Enterprise Communication and Collaboration": [
+            "包括企业内部和外部的沟通与协作API，例如团队沟通、会议管理、企业社交网络等。这些API用于提升企业内部的沟通效率和协作能力。",
+            21
+        ],
+        "Technical Communication Protocols": [
+            "涵盖技术通信协议相关的API，例如WebSocket连接初始化、HTTP请求发送等。这些API用于支持底层通信技术的实现。",
+            9
+        ]
+    },
+    "Devices": {
+        "Others": [
+            "",
+            11
+        ],
+        "Security and Surveillance": [
+            "涉及安全和监控设备的管理，如视频监控提要获取、报警系统配置等。",
+            6
+        ],
+        "Automotive and Transportation": [
+            "结合车辆信息获取和车辆控制功能，包括车辆规格、VIN码解码、车锁控制、HVAC系统控制、无人机管理等。",
+            117
+        ],
+        "Network and Connectivity": [
+            "包括与网络连接相关的功能，如WiFi连接管理、设备连接选项获取等。",
+            4
+        ],
+        "Mobile Devices and Wearables": [
+            "专注于移动设备和可穿戴设备的管理和信息获取，如手机、智能手表、智能眼镜等。",
+            17
+        ],
+        "General Device Management": [
+            "包括通用设备管理功能，如设备设置管理、设备诊断和监控、固件更新等。",
+            34
+        ],
+        "Consumer Electronics": [
+            "包括消费电子设备的信息获取和管理，如手机信息、应用程序部署和测试、打印机管理、耳机信息检索等。",
+            9
+        ],
+        "Computing Devices and Peripherals": [
+            "专注于计算机系统及其外围设备的管理和信息获取，如系统信息检索、键盘快捷键管理等。",
+            9
+        ],
+        "Energy and Power Management": [
+            "涉及电源和能源管理的功能，如电源插座的开关控制、电力消耗计算、电池容量预测等。",
+            5
+        ],
+        "Robotics and Automation": [
+            "涉及机器人和自动化设备的控制和管理功能，如机器人运动控制、自动化流程优化等。",
+            20
+        ],
+        "Industrial and Manufacturing Equipment": [
+            "涉及工业设备的管理和维护，包括设备状态监控、故障预测、传感器配置、机器人和自动化设备的管理等。",
+            24
+        ],
+        "Camera and Imaging Devices": [
+            "专注于摄像头和成像设备的管理和信息获取，如网络摄像头列表检索等。",
+            5
+        ],
+        "Smart Home and IoT Devices": [
+            "涵盖智能家居设备和IoT设备的管理和控制功能，如温控、设备优化、灯光控制等。",
+            17
+        ],
+        "Embedded Systems": [
+            "涉及嵌入式系统的设备状态切换、GPIO配置等功能。",
+            5
+        ],
+        "Augmented Reality Devices": [
+            "专注于增强现实设备的信息获取和控制，如AR设备详情等。",
+            1
+        ],
+        "Aviation and Marine Equipment": [
+            "专门针对航空和海洋设备的信息获取和管理，如飞机的高度和速度监控、船舶设备库存更新等。",
+            5
+        ],
+        "Health and Fitness Devices": [
+            "涉及健身追踪设备和健康监控设备的管理和功能比较等。",
+            2
+        ],
+        "Gadget Analysis and Tracking": [
+            "涉及对电子产品的分析和发布跟踪功能，如评论分析、发布日期跟踪等。",
+            3
+        ]
+    },
+    "Education": {
+        "Others": [
+            "",
+            48
+        ],
+        "STEM and Innovation": [
+            "涉及科学、技术、工程和数学教育的API，包括实验、课程和科学教育资源。",
+            10
+        ],
+        "Student and Academic Management": [
+            "涵盖学生信息管理、表现评估、课程安排和学术支持，帮助管理和提升学生的整体学术表现。",
+            50
+        ],
+        "Content and Resource Management": [
+            "提供和管理学习资源、课程信息、考试准备材料等，帮助学生和教师获取和管理所需的教育资源。",
+            53
+        ],
+        "Educational Technology": [
+            "涉及教育技术和工具的API，包括学习管理系统、教育软件和硬件的使用和管理。",
+            9
+        ],
+        "Language and Cultural Exchange": [
+            "涉及语言学习、语言测试、词汇和文化交流的API，促进跨文化学习和活动。",
+            52
+        ],
+        "Data Analysis and Reporting": [
+            "涉及教育数据分析、统计和报告的API，帮助教育机构进行数据驱动的决策。",
+            17
+        ],
+        "Library and Information Services": [
+            "涉及图书馆和信息素养的管理，包括资源获取、用户体验和信息传播。",
+            30
+        ],
+        "Curriculum and Instructional Design": [
+            "分析和优化课程的内容和方法，以提高教育的有效性。",
+            17
+        ],
+        "Career and Skill Development": [
+            "涉及职业发展机会、职业培训和技能发展的API，帮助用户获取职业技能和认证。",
+            16
+        ],
+        "Community and Social Engagement": [
+            "涉及社交媒体和社区参与的API，帮助教育机构和用户进行社交互动和信息分享。",
+            2
+        ],
+        "Physical and Health Education": [
+            "涉及体育教育和身体素质发展的API，帮助管理和跟踪体育活动和健康项目。",
+            12
+        ],
+        "Specialized Education Programs": [
+            "涵盖特定领域的教育项目和计划，如经济教育、和平教育等，提供特定主题的教育资源和支持。",
+            4
+        ],
+        "Support and Advocacy Services": [
+            "涉及教育支持、倡导组织和教育伦理，帮助连接用户与相关的教育支持机构。",
+            5
+        ],
+        "Cultural Competency and Inclusion": [
+            "涉及促进文化多样性和包容性的API，帮助教育机构在多元文化环境中运作。",
+            1
+        ],
+        "Online and Distance Learning": [
+            "涉及在线学习平台和远程教育服务的API，支持远程学习和教学活动。",
+            6
+        ],
+        "Professional Development": [
+            "涉及职业道德和领导力发展的API，帮助提升教育工作者和管理者的专业素养。",
+            4
+        ],
+        "Interactive and Gamified Learning": [
+            "涉及在教育中使用互动和游戏化技术的API，帮助提高学生的参与度和学习效果。",
+            4
+        ],
+        "Governance and Ethical Leadership": [
+            "涉及提升教育管理者和领导者的伦理领导力和治理能力的API，帮助在教育机构中推广良好的治理实践。",
+            1
+        ],
+        "Financial and Administrative Management": [
+            "涉及教育领域的财务规划、预算管理和行政管理。",
+            4
+        ]
+    },
+    "Data": {
+        "General Data Retrieval": [
+            "涉及通用数据检索的API，例如获取国家列表和人口数据。",
+            1381
+        ],
+        "Others": [
+            "",
+            189
+        ],
+        "Data Processing and Algorithms": [
+            "涉及数据处理、排序、转换和算法相关的API，例如列表排序和嵌套列表扁平化。",
+            288
+        ],
+        "Geolocation and Mapping": [
+            "涉及地理位置和地图相关的API，例如获取IP地理位置。",
+            161
+        ],
+        "Mathematical Operations": [
+            "涉及基本数学运算的API，例如执行除法操作并返回结果和余数。",
+            51
+        ],
+        "Financial Data and Reporting": [
+            "涉及金融数据获取和报告的API，例如证券报告和财务报表数据。",
+            57
+        ],
+        "String and Text Processing": [
+            "涉及字符串和文本处理的API，例如语言检测和关键词搜索。",
+            218
+        ],
+        "News and Content Aggregation": [
+            "涉及新闻和内容聚合的API，例如从Google News获取文章。",
+            80
+        ],
+        "Education Data": [
+            "涉及教育和学习相关的数据API，例如获取课程信息。",
+            9
+        ],
+        "Surveys and Polls": [
+            "涉及调查结果获取的API，例如获取调查结果。",
+            14
+        ],
+        "Web Performance and Monitoring": [
+            "涉及网站性能和应用监控的API，例如获取页面加载速度和监控应用性能。",
+            25
+        ],
+        "Sports and Statistics": [
+            "涉及体育数据和统计的API，例如获取球队统计数据。",
+            61
+        ],
+        "Email and Communication": [
+            "涉及电子邮件和通信相关的API，例如检查临时电子邮件域。",
+            81
+        ],
+        "Blockchain and Cryptocurrency": [
+            "涉及区块链网络和加密货币相关的API，例如获取当前区块号。",
+            123
+        ],
+        "Image and Media Processing": [
+            "涉及图像和媒体文件处理的API，例如修改TIFF图像和获取图像处理支持的语言。",
+            108
+        ],
+        "Content Analysis": [
+            "涉及内容分析的API，例如分析文章内容。",
+            64
+        ],
+        "Document and File Management": [
+            "涉及文档和文件处理的API，例如PDF签名字段提取和文件元数据提取。",
+            185
+        ],
+        "Job and Task Management": [
+            "涉及工作和任务管理的API，例如获取工作和计划。",
+            33
+        ],
+        "Social Media Analysis": [
+            "涉及社交媒体数据分析的API，例如获取推文的点赞数。",
+            79
+        ],
+        "Social Media Analysis, Blockchain and Cryptocurrency": [
+            "",
+            1
+        ],
+        "Traffic and Transportation": [
+            "涉及交通和运输相关的信息获取API，例如交通摄像头和交通事件。",
+            20
+        ],
+        "Code Management and Development": [
+            "涉及代码片段管理和开发环境的API，例如添加代码片段和运行R脚本。",
+            54
+        ],
+        "Lottery and Gaming": [
+            "涉及彩票和游戏数据的API，例如获取彩票中奖号码。",
+            10
+        ],
+        "Security and Privacy": [
+            "涉及安全和隐私相关的API，例如生成和检索用户令牌。",
+            31
+        ],
+        "Data Warehousing and Management": [
+            "涉及数据仓库状态和管理的API，例如获取数据仓库状态。",
+            91
+        ],
+        "User Interface and Experience": [
+            "涉及用户界面设计和用户体验相关的API，例如获取用户界面信息。",
+            11
+        ],
+        "Fashion and Visual Recognition": [
+            "涉及时尚和视觉识别服务的API，例如获取时尚视觉识别服务版本。",
+            3
+        ],
+        "Customer Analytics": [
+            "涉及客户分析和细分的API，例如基于人口统计和行为数据的客户细分。",
+            4
+        ],
+        "Health Data": [
+            "涉及健康和医疗数据的API，例如获取健康指标。",
+            1
+        ],
+        "Data Processing and Algorithms, General Data Retrieval": [
+            "",
+            1
+        ],
+        "Image and Media Processing, Content Analysis": [
+            "",
+            1
+        ]
+    },
+    "Others": {
+        "Others": [
+            "",
+            109
+        ],
+        "Time Management": [
+            "涉及时间管理和计时的API，例如定时器和提醒功能。",
+            17
+        ],
+        "Mathematics and Conversion": [
+            "与数学计算、单位转换和日期转换相关的API。",
+            46
+        ],
+        "Language and Text Processing": [
+            "涉及语言处理、翻译、文本分析和语言保存的API。",
+            112
+        ],
+        "Sports and Fitness": [
+            "涉及体育、运动队信息和比赛安排的API。",
+            55
+        ],
+        "Information and Media": [
+            "涵盖新闻、媒体、图像和视频处理相关的API。",
+            136
+        ],
+        "Security and Authentication": [
+            "涉及安全和身份验证的API。",
+            14
+        ],
+        "Random and Miscellaneous": [
+            "涵盖随机性和其他未分类的API，例如随机颜色、随机单词和随机名言等。",
+            45
+        ],
+        "Religion and Philosophy": [
+            "与宗教和哲学相关的API，包括经文和宗教实践。",
+            106
+        ],
+        "Legal and Case Management": [
+            "涉及法律领域的API，如法庭案件信息搜索、法律文件分析和案件结果预测。",
+            29
+        ],
+        "Technology and System Management": [
+            "涵盖技术、工具、系统和应用程序管理相关的API。",
+            57
+        ],
+        "Ethics and Values": [
+            "涉及伦理和价值观的API，例如获取宗教或哲学的伦理原则。",
+            5
+        ],
+        "Transportation and Vehicle Information": [
+            "涉及交通工具信息和管理的API，如车辆识别号查询。",
+            4
+        ],
+        "Esoteric and Symbolism": [
+            "涉及神秘学和符号学的API。",
+            3
+        ],
+        "Social and Cultural": [
+            "涵盖社会、文化、论坛和社区互动相关的API。",
+            5
+        ],
+        "Entertainment and Leisure": [
+            "涉及娱乐、休闲、体育和博彩相关的API。",
+            6
+        ],
+        "Project and Content Management": [
+            "涉及项目管理、内容创建和管理的API。",
+            10
+        ],
+        "Polling and Surveys": [
+            "涉及投票和调查的API。",
+            2
+        ],
+        "Productivity and Organization": [
+            "涉及生产力、绩效评估、笔记和组织管理的API。",
+            12
+        ],
+        "Note and Document Management": [
+            "涉及笔记创建、编辑和管理的API。",
+            12
+        ],
+        "Recommendation Systems": [
+            "涉及推荐系统的API。",
+            2
+        ],
+        "Development Tools and Software Engineering": [
+            "涉及软件开发、调试和开发工具的API。",
+            19
+        ],
+        "Library and Collection Management": [
+            "涉及图书馆和收藏管理的API。",
+            7
+        ],
+        "Human Resources and Employee Management": [
+            "涉及人力资源管理、员工状态和职责管理的API。",
+            3
+        ],
+        "Social Impact and Non-Profit": [
+            "涉及社会影响评估、非营利组织信息和慈善捐赠的API。",
+            21
+        ],
+        "Education and Learning": [
+            "涉及教育和学习的API，如获取书籍信息、学习资源等。",
+            1
+        ],
+        "Resume and Career Development": [
+            "涉及简历评审和职业发展建议的API。",
+            2
+        ]
+    },
+    "Logistics": {
+        "Others": [
+            "",
+            12
+        ],
+        "Location and Mapping Services": [
+            "APIs related to geolocation, address validation, postal code information, and mapping services, which are critical for accurate delivery and logistics planning.",
+            42
+        ],
+        "Transportation Infrastructure Management": [
+            "APIs related to managing public transport, railway, aviation, maritime, and urban vehicle logistics, focusing on schedules, routes, and vehicle tracking.",
+            29
+        ],
+        "Supply Chain Visibility and Management": [
+            "APIs that provide visibility into the supply chain, such as tracking packages, detecting carriers, and managing supply chain processes.",
+            22
+        ],
+        "E-commerce and Retail Logistics": [
+            "APIs that facilitate logistics operations specific to e-commerce platforms, such as retrieving shipping information and order details from online marketplaces.",
+            9
+        ],
+        "Financial and Cost Management in Logistics": [
+            "APIs related to the financial aspects of logistics, such as cost calculation, pricing models, and financial transactions related to logistics operations.",
+            9
+        ],
+        "Transportation and Delivery Management": [
+            "APIs related to managing and optimizing the transportation of goods and people, covering shipment details, delivery time estimation, shipping cost calculation, package status updates, and last-mile delivery.",
+            22
+        ],
+        "Environmental and Sustainability Logistics": [
+            "APIs focused on reducing the environmental impact of logistics operations, including carbon footprint tracking, sustainable transportation methods, and resource-efficient practices.",
+            1
+        ],
+        "Returns and Reverse Logistics": [
+            "APIs that manage the process of returning goods, including creating return labels and handling reverse logistics operations.",
+            2
+        ],
+        "Customs and International Shipping": [
+            "APIs that manage customs declarations, compliance checks for international shipments, and other cross-border logistics operations.",
+            1
+        ],
+        "Inventory and Warehouse Management": [
+            "APIs focused on managing inventory levels and warehouse operations, including checking stock levels, retrieving material inventories from various locations, managing stock locations, and scheduling deliveries.",
+            10
+        ],
+        "Disaster Response and Humanitarian Logistics": [
+            "APIs that support logistics operations in disaster response and humanitarian aid, such as tracking resources and scheduling deliveries to affected areas.",
+            7
+        ],
+        "Operations and Technology Optimization": [
+            "APIs dedicated to optimizing operational processes and integrating technological innovations to improve efficiency and reduce costs, including automation, robotics, building optimization models, and coordinating operations.",
+            7
+        ]
+    },
+    "Automation": {
+        "Timer Management Automation": [
+            "专注于定时器的创建、更新、暂停和恢复等操作，适用于需要时间管理的自动化任务。",
+            4
+        ],
+        "API Invocation Automation": [
+            "涉及通过API进行的自动化操作，包括函数调用和数据传递。",
+            2
+        ],
+        "Task Automation": [
+            "涵盖任务的安排、调度、执行、管理以及脚本和命令的执行，包括定时器的创建、更新、暂停和恢复等操作。",
+            8
+        ],
+        "Others": [
+            "",
+            1
+        ],
+        "Vehicle and Transportation Automation": [
+            "涉及车辆系统的自动化操作和管理，包括自动驾驶、导航和车辆状态监控。",
+            3
+        ],
+        "Home and Industrial Automation": [
+            "涉及家庭和工业环境中的自动化控制和状态管理，包括智能家居设备、工业传感器和控制系统。",
+            1
+        ],
+        "User Interface and Interaction Automation": [
+            "涉及用户界面的自动化操作，如模拟用户交互、点击、输入等操作，通常用于自动化测试和用户体验优化。",
+            3
+        ],
+        "Software Development and Testing Automation": [
+            "涉及软件应用的开发、测试和部署过程的自动化，确保软件质量和功能的正确性，包括自动化测试的执行和管理。",
+            2
+        ],
+        "Maintenance and Support Automation": [
+            "涵盖设备和系统的维护计划、错误跟踪和支持流程的自动化。",
+            1
+        ],
+        "Robotics and Machine Automation": [
+            "涉及机器人和机器系统的自动化操作和管理，包括导航、位置获取、自动化等级设置和错误跟踪等。",
+            4
+        ],
+        "Security and Monitoring Automation": [
+            "涉及安全系统和监控系统的自动化管理，包括智能锁、入侵检测系统、监控摄像头和状态监控。",
+            1
+        ]
+    },
+    "Science": {
+        "Biological and Environmental Sciences": [
+            "包括生物学、生态学、进化、生物信息学、神经科学、气象观测、天气数据和环境科学的API。",
+            221
+        ],
+        "Astronomy and Space Sciences": [
+            "提供天文学和空间科学信息的API，如天文事件、行星检索、航天器信息和火星天气。",
+            73
+        ],
+        "Mathematics and Computational Sciences": [
+            "涉及数学、统计和计算科学的API，如方程求解、优化算法、统计分析、数学问题解决和算法实现。",
+            150
+        ],
+        "Physical Sciences": [
+            "涵盖物理和化学的API，如物理常数、化学分析、地震信息、地质年代估算和材料特性分析。",
+            149
+        ],
+        "Others": [
+            "",
+            37
+        ],
+        "Oceanography and Marine Science": [
+            "涉及海洋学和海洋科学的API，如海洋数据收集、海洋环境监测和海洋生物研究。",
+            14
+        ],
+        "Geospatial Sciences": [
+            "涉及地理空间数据和地图服务的API，如地形图生成和空间数据分析。",
+            17
+        ],
+        "Social Sciences and Humanities": [
+            "涉及社会科学和人文学科的API，如语言学研究、文化研究数据收集、民族志数据检索和体育社会学。",
+            39
+        ],
+        "Ethics and Philosophy": [
+            "涉及伦理审查和哲学的API，如研究伦理和哲学理论信息检索。",
+            18
+        ],
+        "Computer Science and Technology": [
+            "涉及计算机科学、技术框架和量子计算的API。",
+            30
+        ],
+        "Robotics and Automation": [
+            "涉及机器人技术和自动化的API，如机器人步态、自动化控制和工业自动化。",
+            4
+        ],
+        "Interdisciplinary Sciences": [
+            "涵盖跨学科的科学研究和应用的API，如结合生物学和计算机科学的生物信息学工具，或结合物理学和化学的材料科学研究。",
+            16
+        ],
+        "Architecture and Design": [
+            "涉及建筑学和设计的API，如建筑理论、设计原则和建筑材料分析。",
+            1
+        ],
+        "Applied Sciences": [
+            "涉及其他应用科学领域的API，如法医学和地质分析。",
+            15
+        ],
+        "Biological and Environmental Sciences, Applied Sciences": [
+            "",
+            1
+        ],
+        "Research Management": [
+            "涉及学术出版、研究管理的API，如编辑反馈收集和研究管理工具。",
+            31
+        ],
+        "Physical Sciences, Applied Sciences": [
+            "",
+            1
+        ]
+    },
+    "Gaming": {
+        "Gaming Events and Promotions": [
+            "涵盖与游戏相关的活动、会议、促销和折扣信息的API。",
+            24
+        ],
+        "Game Content and Features": [
+            "涉及游戏内容和功能的API，涵盖特定游戏的独特元素、游戏类型信息和游戏机制。",
+            201
+        ],
+        "Competitive Gaming and E-Sports": [
+            "涵盖电子竞技和竞争性游戏的API，包括赛事信息、选手数据、战绩和比赛安排。",
+            69
+        ],
+        "Others": [
+            "",
+            38
+        ],
+        "Online Gaming Platforms": [
+            "涵盖与在线游戏平台相关的API，包括平台特定的游戏、新闻、更新和社区功能。",
+            37
+        ],
+        "Player Data and Statistics": [
+            "包括获取和分析玩家数据的API，涵盖玩家统计、表现和参与度分析。",
+            116
+        ],
+        "Game Server Management": [
+            "涉及游戏服务器的管理和操作的API，包括服务器启动、监控和性能优化。",
+            10
+        ],
+        "Betting and Gambling": [
+            "涉及博彩和赌博相关的API，涵盖游戏赛事的投注信息和赔率分析。",
+            12
+        ],
+        "Game Economy and Transactions": [
+            "涉及游戏内经济和交易的API，包括虚拟货币管理、库存和购买操作。",
+            18
+        ],
+        "Game Market Analysis and Trends": [
+            "涉及游戏市场分析和趋势的API，涵盖市场数据分析、流行游戏类型和玩家行为趋势。",
+            5
+        ],
+        "Game Modding and Customization": [
+            "涉及游戏模组和自定义内容的API，涵盖模组开发、安装和游戏内容的个性化设置。",
+            15
+        ],
+        "Game Security and Anti-Cheat": [
+            "涉及游戏安全和反作弊的API，涵盖游戏中的安全措施、作弊检测和防护策略。",
+            3
+        ],
+        "Game Reviews and Community Feedback": [
+            "包括游戏评论、分析和玩家社区反馈的API，涵盖游戏体验评估和社交互动。",
+            9
+        ],
+        "Game Achievements and Progress Tracking": [
+            "涉及游戏成就和进度追踪的API，涵盖玩家成就、任务完成和游戏进度的记录。",
+            5
+        ],
+        "VR and AR Gaming": [
+            "涉及虚拟现实和增强现实游戏的API，涵盖VR/AR游戏体验的个性化设置和环境定制。",
+            8
+        ],
+        "Game Design Tools": [
+            "涉及游戏设计工具的API，涵盖游戏设计理念、关卡设计和用户体验优化。",
+            10
+        ],
+        "Game Localization": [
+            "涉及游戏本地化的API，涵盖翻译管理、文化适应和版本发布准备。",
+            4
+        ],
+        "Game Social Interaction and Marketing": [
+            "涉及游戏社交互动和市场营销的API，涵盖社交媒体集成、直播平台功能、市场推广策略和多平台分发。",
+            4
+        ],
+        "Gaming Hardware and Accessories": [
+            "涉及游戏硬件和配件的API，包括耳机、控制器和其他设备的功能和兼容性。",
+            4
+        ],
+        "Game Audio and Soundtracks": [
+            "涉及游戏音频和音乐的API，涵盖游戏音效、背景音乐和个性化播放列表的生成。",
+            6
+        ],
+        "Game Development Tools": [
+            "涉及游戏开发工具的API，涵盖游戏设计工具、物理引擎和模拟。",
+            6
+        ],
+        "Resource Management and Strategy": [
+            "涉及游戏中资源管理和战略规划的API，涵盖资源分配、优化和策略模拟。",
+            4
+        ],
+        "Game Updates and Patch Management": [
+            "涉及游戏更新和补丁管理的API，涵盖游戏版本控制、更新发布和补丁说明。",
+            2
+        ],
+        "Game Merchandise and Products": [
+            "涉及游戏相关商品和产品的API，包括游戏海报、服装和其他周边产品的管理和销售。",
+            2
+        ],
+        "Game Asset Management and Generation": [
+            "涉及游戏资产的管理和生成的API，包括3D模型、纹理和其他游戏资源的创建和优化。",
+            4
+        ]
+    },
+    "Economics": {
+        "Market and Investment Data": [
+            "APIs related to the retrieval, analysis, and application of market data, including stocks, forex, indices, cryptocurrencies, technical analysis, investment opportunities, and financial statements.",
+            560
+        ],
+        "Investment and Portfolio Management": [
+            "APIs that assist in managing investment portfolios, projecting investment growth, and analyzing portfolio performance.",
+            55
+        ],
+        "Personal Finance and Taxation": [
+            "APIs providing financial advice, educational tools, personal finance management, budgeting, retirement planning, taxation, and tax credits.",
+            61
+        ],
+        "Real Estate and Property Data": [
+            "APIs that provide data on real estate prices, property values, and mortgage rates.",
+            10
+        ],
+        "News and Sentiment Analysis": [
+            "APIs providing news articles and sentiment analysis related to economic and financial markets, including social media trends.",
+            88
+        ],
+        "Socioeconomic Data": [
+            "APIs that provide data on labor market trends, cost of living, public finance, and socioeconomic statistics like poverty rates.",
+            27
+        ],
+        "Sector and Industry Analysis": [
+            "APIs that provide data and analysis on specific sectors and industries.",
+            25
+        ],
+        "Exchange Rates and Currency Data": [
+            "APIs that provide current and historical exchange rates and currency-related data.",
+            94
+        ],
+        "Others": [
+            "",
+            72
+        ],
+        "Fintech and Technological Innovations": [
+            "APIs that focus on financial technology innovations, including blockchain, AI in finance, digital banking solutions, and other technological applications in finance.",
+            5
+        ],
+        "Macroeconomic Indicators": [
+            "APIs that provide data on macroeconomic indicators such as GDP, inflation rates, and unemployment rates.",
+            33
+        ],
+        "Risk Management": [
+            "APIs that provide tools and data for assessing and managing financial risks, including credit risk, market risk, and operational risk.",
+            28
+        ],
+        "Sustainability and ESG": [
+            "APIs that provide Environmental, Social, and Governance (ESG) data, Corporate Social Responsibility (CSR) analysis, and sustainability metrics.",
+            6
+        ],
+        "Exchange Rates and Currency Data, Market and Investment Data": [
+            "",
+            1
+        ],
+        "Investment and Portfolio Management, Risk Management": [
+            "",
+            1
+        ]
+    },
+    "Construction": {
+        "Geotechnical and Structural Analysis": [
+            "涉及土木工程项目中的地质和结构分析的API。这些API用于支持地基、隧道、桥梁等的设计和施工。",
+            4
+        ],
+        "Finishing and Interior Design": [
+            "涉及建筑物内部和外部装修的API，包括油漆、地板、墙面处理等。这些API用于支持建筑物的美观和功能性完成。",
+            3
+        ],
+        "Regulatory and Compliance": [
+            "与建筑法规、法律、标准、设计原则相关的API，以及建筑检查和合规性验证的API。这些API用于确保施工项目符合当地的建筑法规和法律要求。",
+            6
+        ],
+        "Project Management": [
+            "涉及到项目计划、资源分配、预算跟踪和项目成员管理等方面的API。这些API帮助管理和优化施工项目的各个阶段，以确保项目按时、按预算完成。",
+            9
+        ],
+        "Resource and Material Management": [
+            "涉及资源分配、优化和施工材料的采购、使用和管理的API。这些API用于优化材料和劳动力使用，以提高效率和减少浪费。",
+            4
+        ],
+        "Architectural Theory and Principles": [
+            "涉及建筑理论和设计原则的API。这些API用于获取和评估建筑设计的理论基础和原则。",
+            2
+        ],
+        "Building Information Management": [
+            "提供建筑物信息和数据的API。这些API用于获取和管理建筑物的各种信息，如布局、湿度等。",
+            4
+        ],
+        "Design and Engineering": [
+            "包括建筑设计、制图、蓝图生成以及土木和结构工程的API。这些API用于支持建筑设计过程和工程项目的技术需求。",
+            6
+        ],
+        "Construction Operations and Safety": [
+            "涉及具体施工操作、技术和安全管理的API。这些API支持实际的建筑施工过程和施工现场安全管理。",
+            3
+        ],
+        "Cost Estimation and Budgeting": [
+            "涉及建筑项目中材料、劳动力和其他资源成本估算的API。这些API帮助用户估算和管理项目预算。",
+            12
+        ],
+        "Home Improvement and Renovation": [
+            "涉及家庭改善和装修项目的API，包括估算、设计和施工管理。这些API支持家庭项目的规划和执行。",
+            2
+        ],
+        "Community Engagement and Social Responsibility": [
+            "涉及社区反馈、灾后重建和社会责任的API。这些API用于支持社区建设和社会责任项目。",
+            2
+        ],
+        "Construction and Demolition": [
+            "涵盖建筑物的施工、拆除和解构过程的API。这些API用于管理和执行建筑施工和拆除过程。",
+            2
+        ],
+        "Smart Building and Facility Management": [
+            "涉及智能建筑系统的管理和优化的API，包括楼宇自动化、环境监测和能源管理。这些API用于提升建筑物的智能化水平。",
+            1
+        ],
+        "Others": [
+            "",
+            2
+        ],
+        "Infrastructure and Public Works": [
+            "与公共基础设施建设、维护和公共工程相关的API。这些API用于获取和管理与公共工程相关的信息。",
+            2
+        ]
+    },
+    "Animal Welfare": {
+        "Animal Identification, Breeding, and Genetics": [
+            "Encompasses APIs providing breed-specific data, characteristics, classification, genetic data, and breeding practices.",
+            34
+        ],
+        "Animal Care and Management": [
+            "Covers APIs related to the general care, management, and tracking of animals, including companion animals and livestock.",
+            6
+        ],
+        "Others": [
+            "",
+            3
+        ],
+        "Animal Behavior, Training, and Mental Health": [
+            "Focuses on APIs that provide advice, management, and scheduling for animal behavior, training, therapy programs, and mental health support.",
+            6
+        ],
+        "Pet Adoption and Matching": [
+            "Covers APIs that facilitate the adoption process and match pets with potential adopters based on preferences and characteristics.",
+            2
+        ],
+        "Animal Welfare Advocacy and Ethics": [
+            "Includes APIs addressing ethical considerations, advocacy, donations, and funding for animal welfare causes.",
+            6
+        ],
+        "Animal Health and Medical Procedures": [
+            "Includes APIs related to veterinary care, surgeries, emergency care, health metrics for animals, and disease monitoring and prevention.",
+            18
+        ],
+        "Animal Image and Language Support": [
+            "Includes APIs that provide animal-related images and support for multiple languages, enhancing accessibility and user engagement.",
+            4
+        ],
+        "Laboratory and Research Animal Welfare": [
+            "Covers APIs providing information about housing and welfare conditions for laboratory animals.",
+            1
+        ],
+        "Wildlife Conservation and Monitoring": [
+            "Covers APIs related to wildlife conservation, species tracking, habitat monitoring, and funding for conservation projects.",
+            3
+        ]
+    },
+    "Artificial Intelligence": {
+        "Others": [
+            "",
+            36
+        ],
+        "Business and Industry Applications": [
+            "",
+            3
+        ],
+        "Literature and Textual Arts": [
+            "",
+            36
+        ],
+        "Computer Vision and Generative Art": [
+            "",
+            44
+        ],
+        "General Art Technology": [
+            "",
+            32
+        ],
+        "Visual Arts and Design": [
+            "",
+            4
+        ],
+        "Music and Audio Arts": [
+            "",
+            10
+        ]
+    },
+    "Art": {
+        "Visual Arts and Design": [
+            "包括传统视觉艺术、数字设计、图像处理和AI在艺术中的应用，如图标设计、颜色转换、画布创建、图像分析和数字艺术创作工具。",
+            106
+        ],
+        "Literature and Textual Arts": [
+            "涵盖文学、诗歌、写作和语言处理相关的API，如诗歌生成、文学分析、翻译工具和文本分析。",
+            56
+        ],
+        "Computer Vision and Generative Art": [
+            "涉及计算机视觉和生成艺术的API，如面部生成、图像生成和视觉识别技术。",
+            13
+        ],
+        "Others": [
+            "",
+            25
+        ],
+        "Art Events and Curation": [
+            "提供艺术活动、展览布局和艺术风格信息的API。",
+            15
+        ],
+        "General Art Technology": [
+            "包括不直接属于艺术领域但可能用于艺术创作和管理的技术工具API，如对象检测、模型训练和机器学习技术。",
+            1
+        ],
+        "Fashion and Textile Arts": [
+            "专注于时尚设计和纺织艺术的API，如时尚插画和趋势预测。",
+            8
+        ],
+        "Performing Arts": [
+            "包括舞蹈、戏剧和其他表演艺术的信息检索和课程信息的API。",
+            12
+        ],
+        "Music and Audio Arts": [
+            "涵盖音乐创作、声音设计、音频处理和相关技术的API，如和弦进程创作、节奏模式生成和音频识别。这些API主要面向音乐家、作曲家、音频工程师和音乐爱好者。",
+            13
+        ],
+        "Business and Industry Applications": [
+            "涉及艺术相关商业和行业应用的API，如公司信息检索和技术优化工具。",
+            2
+        ],
+        "Crafts and Handmade Arts": [
+            "涉及手工艺和工艺技术的API，如陶艺技术和手工艺设计。",
+            8
+        ],
+        "Cultural Heritage and Preservation": [
+            "涉及文化遗产和历史文物的信息检索和分析的API。",
+            4
+        ],
+        "Architecture and Spatial Design": [
+            "涉及建筑艺术、建筑评论和空间设计的API。",
+            2
+        ],
+        "Intellectual Property and Rights Management": [
+            "涉及知识产权注册和管理的API。",
+            1
+        ],
+        "Virtual and Augmented Reality Arts": [
+            "涉及虚拟现实和增强现实技术在艺术领域应用的API。",
+            2
+        ]
+    },
+    "Engineering": {
+        "Electrical and Electronics Engineering": [
+            "涉及电路设计、电气设备和电子器件的API。",
+            14
+        ],
+        "Aerospace and Defense Engineering": [
+            "与航空航天和国防相关的API，包括飞行模拟、推进剂质量检索、航空器性能分析和卫星操作。",
+            27
+        ],
+        "Engineering Calculations and Simulations": [
+            "涉及通用工程计算和仿真的API。",
+            27
+        ],
+        "Automotive and Transportation Engineering": [
+            "与汽车工程及其他交通工具相关的API，包括铁路和船舶。",
+            12
+        ],
+        "Software Development": [
+            "涉及软件开发过程、架构设计、编译、版本控制的API。",
+            37
+        ],
+        "Building Information Modeling (BIM)": [
+            "涉及建筑信息建模的API，包括建筑设计、施工和运营管理。",
+            1
+        ],
+        "Industrial and Manufacturing Engineering": [
+            "涵盖与工业设备操作、维护、优化以及制造过程相关的API。",
+            53
+        ],
+        "Robotics and Automation": [
+            "与机器人配置、控制、传感器数据和自动化系统相关的API。",
+            17
+        ],
+        "User Interface and Experience Design": [
+            "涉及用户界面设计、交互设计和用户体验优化的API。",
+            8
+        ],
+        "Thermal, Fluid, and HVAC Engineering": [
+            "涉及热效率计算、热力学过程、流体动力学和暖通空调系统的API。",
+            15
+        ],
+        "3D Modeling, Printing, and CAD": [
+            "涉及3D建模、打印过程优化和计算机辅助设计的API。",
+            8
+        ],
+        "Civil, Structural, and Architectural Engineering": [
+            "涉及土木、结构和建筑设计的API。",
+            14
+        ],
+        "IT Operations and Cloud Management": [
+            "涉及IT运营、云计算资源管理、配置和IT基础设施的API。",
+            9
+        ],
+        "Safety, Compliance, and Quality Control": [
+            "涉及工业安全、合规检查和质量控制的API。",
+            9
+        ],
+        "Material and Chemical Engineering": [
+            "涉及材料选择、化学过程和优化的API。",
+            5
+        ],
+        "Computer and Semiconductor Engineering": [
+            "合并计算机工程和半导体工程，涉及计算机架构、设计、硬件模拟、半导体制造和设计的API。",
+            12
+        ],
+        "Maintenance Management": [
+            "专注于工业设备的维护管理，包括调度、跟踪和报告的API。",
+            19
+        ],
+        "Management, Operations, and Ergonomics": [
+            "涉及项目管理、任务调度、资源分配和人体工程学分析的API。",
+            4
+        ],
+        "Others": [
+            "",
+            6
+        ],
+        "Test and Verification Engineering": [
+            "涉及软件和硬件的测试和验证过程的API。",
+            4
+        ],
+        "Environmental Engineering": [
+            "涉及环境监测、污染控制和可持续发展的API。",
+            1
+        ],
+        "Smart Building and Home Automation": [
+            "涉及智能建筑和家居自动化系统的API。",
+            2
+        ],
+        "Urban Planning and Spatial Analysis": [
+            "涉及城市规划和空间数据分析的API。",
+            2
+        ],
+        "Marine Engineering": [
+            "与船舶和海洋工程相关的API。",
+            1
+        ],
+        "Network, IoT, and Data Communication Engineering": [
+            "涉及网络安全、物联网设备连接、数据传输和管理的API。",
+            1
+        ]
+    },
+    "Nutrition": {
+        "Personalized Nutrition and Meal Planning": [
+            "涵盖膳食计划、营养需求评估和个性化饮食建议，帮助用户根据其健康目标和饮食偏好制定饮食计划。",
+            15
+        ],
+        "Hydration and Electrolyte Balance": [
+            "专注于水合水平和电解质平衡的评估和建议，帮助用户维持适当的水合状态。",
+            5
+        ],
+        "Nutritional Information and Education": [
+            "提供食物、食谱和营养产品的详细营养信息，以及营养教育计划的信息，帮助用户做出知情的饮食选择。",
+            10
+        ],
+        "Nutritional Tracking and Analysis": [
+            "包括卡路里和营养素的摄入跟踪、饮食习惯分析、水合水平评估，以及营养平衡的建议，专注于帮助用户监控和优化其饮食习惯。",
+            14
+        ],
+        "Others": [
+            "",
+            3
+        ],
+        "Nutritional Supplement and Product Information": [
+            "提供关于营养补充剂和相关产品的信息，包括成分、用途和推荐使用方法。",
+            3
+        ],
+        "Fitness and Performance Nutrition": [
+            "专注于为运动员和健身爱好者提供营养建议和计划，以支持其训练和表现目标。",
+            4
+        ],
+        "Specialized Nutrition and Supplementation": [
+            "专注于特定饮食类型和人群，如运动员、素食者、无麸质饮食者等，提供相应的营养建议和补充剂选择。",
+            1
+        ],
+        "Health Condition Specific Nutrition": [
+            "提供针对特定健康状况的营养建议和饮食计划，例如心脏健康、免疫增强等。",
+            4
+        ],
+        "Health Condition Specific Nutrition, Nutritional Tracking and Analysis": [
+            "",
+            1
+        ],
+        "Dietary Restrictions and Sustainability": [
+            "涉及食物过敏原检测、饮食限制管理和可持续饮食建议，帮助用户避免过敏反应和遵循特定饮食限制，同时做出更环保的选择。",
+            3
+        ],
+        "Dietary Pattern Analysis": [
+            "分析不同饮食模式对健康的影响，帮助用户理解和优化其饮食习惯。",
+            1
+        ],
+        "Pet Nutrition Management": [
+            "专注于宠物的营养需求和食物管理，提供宠物食品信息和建议。",
+            1
+        ]
+    },
+    "Politics": {
+        "Political Communication and Media": [
+            "涵盖与政治人物、媒体报道、国家象征和相关事件的信息。这一类别关注政治交流和媒体在政治中的作用。",
+            16
+        ],
+        "Others": [
+            "",
+            6
+        ],
+        "Elections and Democratic Processes": [
+            "涵盖选举过程、民主指数、选民投票率、选举结果、候选人信息及相关活动。这一类别关注民主制度的运作和选举的具体细节。",
+            19
+        ],
+        "Government Structure and Public Administration": [
+            "涉及政府结构分析、官僚体制、公共行政及其政策影响的信息。这一类别关注政府的组织和运作机制。",
+            10
+        ],
+        "Laws, Regulations, and Legal Frameworks": [
+            "包括与法律框架、法规及相关政策的信息。这一类别关注法律和政策对社会和政治的影响。",
+            12
+        ],
+        "Public Engagement and Social Movements": [
+            "涉及公民反馈、倡导活动、志愿者活动及社会运动的信息。这一类别关注公民参与和公共事务的倡导活动。",
+            6
+        ],
+        "Social Welfare and Public Services": [
+            "涵盖与社会福利政策、公共服务、社会保障和社会公平相关的信息。这一类别关注社会福利制度和公共服务的提供。",
+            2
+        ],
+        "National Identity and Nationalism": [
+            "涉及国家象征、民族主义运动和国家认同的信息。这一类别关注国家象征和民族认同的动态。",
+            2
+        ],
+        "Leadership and Policy Evaluation": [
+            "涉及公共部门领导力、治理效果的信息，以及政策的评估和分析。这一类别关注领导力的有效性、治理的质量和政策的影响。",
+            10
+        ],
+        "Judicial Processes and Legal Systems": [
+            "涵盖与司法程序、法院系统、案件结果预测和法律改革的信息。这一类别关注司法系统的运作和法律改革的影响。",
+            5
+        ],
+        "Peacebuilding and Humanitarian Law": [
+            "涵盖与和平建设项目、国际人道法及相关活动的信息。这一类别关注和平建设和人道主义法律框架。",
+            4
+        ],
+        "Ethics and Human Rights": [
+            "包括民主中的伦理、人权报告、社会公正政策及其影响的信息。这一类别关注伦理问题、人权保护和社会公正问题。",
+            5
+        ],
+        "Digital Rights and Cybersecurity": [
+            "涉及数字权利、网络中立性、网络安全和相关政策的信息。这一类别关注数字时代的权利保护和安全问题。",
+            2
+        ],
+        "International Relations and Global Governance": [
+            "涉及国际关系、区域事务及全球治理的信息。这一类别关注国家之间的外交和全球治理机制。",
+            5
+        ],
+        "Law Enforcement and Public Safety": [
+            "涉及警察、犯罪、公共安全和执法相关的信息。这一类别关注执法机构的运作和公共安全问题。",
+            2
+        ],
+        "Advocacy and Civic Participation": [
+            "专注于倡导活动、政策影响和公民参与的策略。这一类别关注如何通过倡导和参与来影响公共政策。",
+            6
+        ],
+        "Security and Conflict Resolution": [
+            "涉及国家安全、恐怖主义、冲突解决策略及和平建设的信息。这一类别关注国家安全、冲突管理和和平建设的过程。",
+            4
+        ],
+        "Cultural Governance": [
+            "涉及国家治理类型、文化影响和国家政策的信息。这一类别关注不同国家的治理结构和文化因素。",
+            1
+        ],
+        "Digital Policy and Technology": [
+            "专注于数字权利、媒体法律及相关政策的信息。这一类别关注数字化时代的法律框架和媒体法规。",
+            1
+        ]
+    },
+    "Cybersecurity": {
+        "Identity and Access Management": [
+            "APIs that handle identity verification, user authentication, and access control, including two-factor authentication, password management, and biometric authentication.",
+            52
+        ],
+        "Reputation and Trust Assessment": [
+            "APIs that evaluate the reputation and trustworthiness of domains, IP addresses, and other entities to prevent malicious activities.",
+            8
+        ],
+        "Advisory and Threat Intelligence": [
+            "APIs that provide timely information about current security issues, vulnerabilities, and exploits from various sources.",
+            6
+        ],
+        "Threat Detection and Response": [
+            "APIs that focus on detecting, preventing, and responding to cybersecurity threats, including intrusion detection, malware detection, threat intelligence, and incident response.",
+            16
+        ],
+        "Data Security and Encryption": [
+            "APIs concerned with securing data through cryptographic methods, including managing digital certificates, encrypting and decrypting messages or data, and ensuring secure communication.",
+            27
+        ],
+        "Phishing and Social Engineering Prevention": [
+            "APIs that specifically target the detection and prevention of phishing attempts and social engineering attacks, including domain analysis and threat intelligence.",
+            7
+        ],
+        "Privacy Management and Enhancement": [
+            "APIs designed to manage and enhance privacy, including content filtering, data sanitization, phishing detection, and evaluating privacy-enhancing technologies.",
+            5
+        ],
+        "Others": [
+            "",
+            14
+        ],
+        "Bot Management and Human Verification": [
+            "APIs that provide CAPTCHA generation and verification, as well as other methods to distinguish between human users and bots.",
+            10
+        ],
+        "Network Security and Monitoring": [
+            "APIs that monitor network activity or system status, such as scanning for open ports, monitoring IoT network traffic, detecting proxy servers, and testing firewall configurations.",
+            17
+        ],
+        "Security Testing and Evaluation": [
+            "APIs that test and evaluate the security of systems and networks, including network security testing, firewall testing, website security checks, and ethical hacking.",
+            9
+        ],
+        "Application Security": [
+            "APIs that focus on securing applications, including SQL injection prevention, XSS attack detection, and input validation.",
+            5
+        ],
+        "Security Compliance and Reporting": [
+            "APIs that provide information and reports on security compliance, including incident reporting, compliance checks, and auditing.",
+            6
+        ],
+        "Vulnerability and Risk Management": [
+            "APIs that deal with identifying, assessing, and mitigating vulnerabilities in systems or applications, as well as evaluating risk levels.",
+            12
+        ],
+        "Fraud Detection and Prevention": [
+            "APIs that detect and prevent fraudulent activities by analyzing user behavior and patterns.",
+            2
+        ]
+    },
+    "Energy": {
+        "Energy Pricing": [
+            "专注于能源价格信息，包括不同地区的燃料价格和能源价格新闻。",
+            27
+        ],
+        "Fossil Fuels": [
+            "涵盖化石燃料的生产、运输、价格等相关信息。",
+            14
+        ],
+        "Transportation and Alternative Fuels": [
+            "涵盖交通运输中的能源使用，包括替代燃料、车辆能耗和电动汽车充电站。",
+            10
+        ],
+        "Electric Infrastructure and Smart Grids": [
+            "涵盖与电力基础设施和智能电网相关的信息，如电网基础设施、电动汽车充电站、电网稳定性和智能电网数据。",
+            14
+        ],
+        "Others": [
+            "",
+            8
+        ],
+        "Renewable Energy": [
+            "涵盖与可再生能源相关的API，如风能、太阳能、水能、地热能、潮汐能和波浪能等。",
+            33
+        ],
+        "Energy Management and Efficiency": [
+            "涉及能源需求和供应的管理、预测、调度，以及能效评估和优化，包括建筑物的能源管理。",
+            25
+        ],
+        "Carbon Management and Environmental Impact": [
+            "涉及碳排放管理、碳足迹计算和环境影响评估的API。",
+            1
+        ],
+        "Fossil Fuels, Energy Pricing": [
+            "",
+            1
+        ],
+        "Energy Storage": [
+            "专注于能源存储系统的信息，如电池健康监测和储能技术。",
+            3
+        ],
+        "Energy Policy and Regulation": [
+            "涉及国家或地区的能源政策和法规的信息。",
+            1
+        ],
+        "Nuclear Energy": [
+            "涉及与核能相关的信息和数据。",
+            1
+        ]
+    },
+    "History": {
+        "Historical Events and Timelines": [
+            "涵盖历史事件和时间线的信息，如古代战役、神话事件时间线等。这些API提供了关于历史事件的详细信息和预测分析。",
+            11
+        ],
+        "Intellectual and Philosophical History": [
+            "涉及语言演变、符号起源、哲学思想和宗教发展的历史。这些API帮助用户理解语言、符号、思想和文化的历史背景和发展。",
+            8
+        ],
+        "Mythology and Religious Studies": [
+            "涉及神话和宗教的历史与研究。这些API帮助用户理解不同文化中的神话和宗教信仰及其历史背景。",
+            8
+        ],
+        "Historical Figures and Biographies": [
+            "包括与历史人物相关的信息，如领导者、重要人物、历史人物比较等。这类API提供了关于历史人物的详细信息和分析。",
+            7
+        ],
+        "Others": [
+            "",
+            4
+        ],
+        "Empires, Civilizations, and Political Movements": [
+            "专注于特定帝国或文明的信息，以及社会和政治运动的分析。这些API帮助用户理解和分析特定历史时期、地区和社会运动对社会的影响。",
+            3
+        ],
+        "Legal and Political History": [
+            "涉及法律制度演变和政治历史的信息。这些API提供了关于法律和政治历史的详细信息。",
+            1
+        ],
+        "Cultural Heritage and Social Impact": [
+            "涵盖文化遗产、考古学、文化交流、符号起源以及媒体和事件对文化发展的影响。这些API帮助用户了解和保护文化遗产以及理解文化交流和社会影响的历史背景和影响。",
+            8
+        ],
+        "Archaeological and Artifact Studies": [
+            "专注于考古发现和文物研究的信息。这些API提供关于考古学和文物的详细分析和历史背景。",
+            8
+        ],
+        "Military and Conflict History": [
+            "涉及军事冲突、战役、军事战略的历史信息。这些API提供了关于军事历史的详细信息。",
+            4
+        ],
+        "Linguistic and Literary History": [
+            "涉及语言起源、演变以及文学作品的历史。这些API帮助用户理解语言和文学的历史发展。",
+            3
+        ],
+        "Science, Technology, and Exploration": [
+            "涵盖科学、技术和探索的历史，包括太空探索、技术发展等。这些API提供了关于技术和科学进步的历史信息。",
+            1
+        ],
+        "Cultural Heritage and Social Impact, Historical Events and Timelines": [
+            "",
+            1
+        ],
+        "Colonial and Independence History": [
+            "专注于国家独立、殖民历史及其影响。这些API提供关于国家独立过程、殖民者及其影响的详细信息。",
+            2
+        ],
+        "Migration, Population, and Economic History": [
+            "涉及人口迁移、人口统计和经济活动的历史信息。这些API帮助用户理解人口动态和经济发展的历史背景。",
+            1
+        ],
+        "Time, Calendars, and Chronology": [
+            "与时间和日历相关的信息，如希伯来历法、时间概念分析等。这些API帮助用户理解和使用不同的时间和日历系统。",
+            1
+        ],
+        "Anthropological History": [
+            "涉及人类学的历史数据和分析，帮助用户理解人类社会和文化的演变。",
+            1
+        ],
+        "Interdisciplinary Historical Studies": [
+            "涉及跨学科的历史研究，结合多个领域的视角进行历史分析。",
+            1
+        ]
+    }
+}

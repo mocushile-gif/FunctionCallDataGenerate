@@ -1,0 +1,17 @@
+{
+    "name": "whois_lookup",
+    "description": "This is a sub-function API for tool whois_lookup_v2.\nTool description: Whois Lookup API in JSON\nAPI description: Performs a WHOIS lookup for the given domain using the Toolbench RapidAPI service and returns the data in JSON format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain name to be looked up.",
+                "default": "facebook.com"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

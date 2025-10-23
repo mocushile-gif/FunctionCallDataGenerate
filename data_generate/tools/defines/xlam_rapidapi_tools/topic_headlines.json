@@ -1,0 +1,27 @@
+{
+    "name": "topic_headlines",
+    "description": "This is a sub-function API for tool real_time_news_data.\nTool description: Exceptionally Fast and Simple API to get top news globally or per topic and search for news by query and geographic area in real-time.\nAPI description: Fetches the latest news headlines for a specified topic.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "topic": {
+                "type": "string",
+                "description": "Topic for which to get news headlines.\n\n**Available topic**\n- WORLD\n- NATIONAL\n- BUSINESS\n- TECHNOLOGY\n- ENTERTAINMENT\n- SPORTS\n- SCIENCE\n- HEALTH\n\nIn addition, topic IDs are also accepted and can be taken from a News topic URL as it appears after the *topics/* path part (e.g. Elon Musk Topic - `/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNRE51ZW1ZeEVnSmxiaWdBUAE`) ",
+                "default": "WORLD"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language to use for the results, specified as a 2-letter language code - see [ISO 639-1 alpha-2](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).\n**Default**: `en`.",
+                "default": "en"
+            },
+            "country": {
+                "type": "string",
+                "description": "Country code. See [all available country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n**Default:** `US`.",
+                "default": "US"
+            }
+        },
+        "required": [
+            "topic"
+        ]
+    }
+}

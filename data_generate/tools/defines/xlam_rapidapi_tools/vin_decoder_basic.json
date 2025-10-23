@@ -1,0 +1,17 @@
+{
+    "name": "vin_decoder_basic",
+    "description": "This is a sub-function API for tool vin_decoder.\nTool description: This VIN decoder covers up to 168 fields for the USA and Canada. It also includes VIN lookup by US license plate and state. The database is updated regularly. \n[View documents](https://rapidapi.com/dominonet-lTpEE6zONeS/api/vin-decoder19/details)\nAPI description: Decodes basic information from a Vehicle Identification Number (VIN) using the RapidAPI VIN decoder service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vin": {
+                "type": "string",
+                "description": "The Vehicle Identification Number (VIN) to be decoded. Must be 17 characters long.",
+                "default": "5YJ3E1EA6PF384836"
+            }
+        },
+        "required": [
+            "vin"
+        ]
+    }
+}

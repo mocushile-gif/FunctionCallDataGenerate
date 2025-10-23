@@ -1,0 +1,17 @@
+{
+    "name": "tennis_match_statistics",
+    "description": "This is a sub-function API for tool sports_live_scores.\nTool description: We support different Sports. Bettings odds, livescores, rankings and match details included. Sports include Football, Tennis, Basketball, Crikcet, Futsal, Handball, Baseball, Table Tennis, Esports. Try it out and always feel free tor reach out to the team to add more endpoints!  \nAPI description: Returns Statistics about a given match_id. The match does not have to be necessarily live but also finished. You can retrieve Match IDs from the Tennis Live Matches endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "match_id": {
+                "type": "string",
+                "description": "You can retrieve Match IDs from the Tennis Live Matches endpoint.",
+                "default": "10319698"
+            }
+        },
+        "required": [
+            "match_id"
+        ]
+    }
+}

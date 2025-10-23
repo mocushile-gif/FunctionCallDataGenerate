@@ -1,0 +1,38 @@
+{
+    "name": "streams_symbol",
+    "description": "This is a sub-function API for tool stocktwits.\nTool description: StockTwits provides a social communications platform and social graph for anyone interested in the markets and investing.\nAPI description: Fetches the most recent messages for a specified stock symbol from the StockTwits API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "Ticker symbol, Stock ID, or RIC code of the symbol.",
+                "default": "AAPL"
+            },
+            "since": {
+                "type": "number",
+                "description": "Returns results with an ID greater than (more recent than) the specified ID."
+            },
+            "max": {
+                "type": "number",
+                "description": "Returns results with an ID less than (older than) or equal to the specified ID."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of messages to retrieve, with a default of 20. The maximum allowed value is 30.",
+                "default": 20.0
+            },
+            "callback": {
+                "type": "string",
+                "description": "Define your own callback function name, add this parameter as the value."
+            },
+            "filter": {
+                "type": "string",
+                "description": "Filter messages by links, charts, videos, or top."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

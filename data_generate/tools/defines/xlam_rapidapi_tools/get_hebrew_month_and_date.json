@@ -1,0 +1,17 @@
+{
+    "name": "get_hebrew_month_and_date",
+    "description": "This is a sub-function API for tool enoch_calendar.\nTool description: Access the Biblical Holydays and Sabbaths using the Enoch Calendar\nAPI description: Get Hebrew Month, Date and holydays from supplied date string or today's date",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "datestring": {
+                "type": "string",
+                "description": "The Gregorian date in string format for which to get the Hebrew date and related information.",
+                "default": "2021-03-30"
+            }
+        },
+        "required": [
+            "datestring"
+        ]
+    }
+}

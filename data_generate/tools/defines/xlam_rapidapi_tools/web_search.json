@@ -1,0 +1,26 @@
+{
+    "name": "web_search",
+    "description": "This is a sub-function API for tool web_search_v2.\nTool description: Web Search API. Search the web pages from billions of results. Related keywords, knowledge panel and more.\nAPI description: Performs a web search using the specified query and optional parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "Search query. You can use web search parameters.\n\ne.g. `ronaldo site:instagram.com`\ne.g. `twitter filetype:pdf`\ne.g. `inurl:market`",
+                "default": "Leo Messi"
+            },
+            "related_keywords": {
+                "type": "string",
+                "description": "If specified, includes related keywords in the search results. This may increase API latency. Default is None."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of search results to return. The maximum recommended value is 300. Default is 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

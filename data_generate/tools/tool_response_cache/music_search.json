@@ -1,0 +1,22 @@
+{
+    "{'query': 'dark gothic music'}": {
+        "error": "",
+        "response": "{'status_code': 0, 'music': [], 'has_more': 0, 'cursor': 40, 'qc': '', 'ad_info': {}, 'music_info_list': [], 'extra': {'now': 1748735305000, 'logid': '202505312348254442DF8D418C0A61FB25', 'fatal_item_ids': [], 'search_request_id': '', 'server_stream_time': 123, 'api_debug_info': None}, 'log_pb': {'impr_id': '202505312348254442DF8D418C0A61FB25'}, 'search_nil_info': {'search_nil_type': '', 'is_load_more': 'is_load_more', 'search_nil_item': 'hit_shark', 'text_type': 10}, 'global_doodle_config': {'keyword': 'dark gothic music', 'display_filter_bar': 1, 'new_source': '', 'search_channel': 'musically_music', 'tns_search_result': 'Pass', 'hide_results': False, 'enable_music_mix_rank': 0, 'feedback_survey': None, 'hit_shark': True, 'hit_dolphin': False}, 'feedback_type': 'music', 'total': 0}"
+    },
+    "{'query': 'Harry Potter'}": {
+        "error": "",
+        "response": "{'status_code': 0, 'music': [], 'has_more': 0, 'cursor': 40, 'qc': '', 'ad_info': {}, 'music_info_list': [], 'extra': {'now': 1737156708000, 'logid': '20250117233148116CF4C44F18C7035CE9', 'fatal_item_ids': [], 'search_request_id': '', 'server_stream_time': 115, 'api_debug_info': None}, 'log_pb': {'impr_id': '20250117233148116CF4C44F18C7035CE9'}, 'search_nil_info': {'search_nil_type': '', 'is_load_more': 'is_load_more', 'search_nil_item': 'hit_shark', 'text_type': 10}, 'global_doodle_config': {'keyword': 'Harry Potter', 'display_filter_bar': 1, 'new_source': '', 'search_channel': 'musically_music', 'tns_search_result': 'Pass', 'hide_results': False, 'enable_music_mix_rank': 0, 'feedback_survey': None, 'hit_shark': True, 'hit_dolphin': False}, 'feedback_type': 'music', 'total': 0}"
+    },
+    "{'query': 'Harry Potter Theme Music'}": {
+        "error": "",
+        "response": "{'status_code': 0, 'music': [], 'has_more': 0, 'cursor': 40, 'qc': '', 'ad_info': {}, 'music_info_list': [], 'extra': {'now': 1749497941000, 'logid': '2025060919390164B0AC53CD5D0305F890', 'fatal_item_ids': [], 'search_request_id': '', 'server_stream_time': 204, 'api_debug_info': None}, 'log_pb': {'impr_id': '2025060919390164B0AC53CD5D0305F890'}, 'search_nil_info': {'search_nil_type': '', 'is_load_more': 'is_load_more', 'search_nil_item': 'hit_shark', 'text_type': 10}, 'global_doodle_config': {'keyword': 'Harry Potter Theme Music', 'display_filter_bar': 1, 'new_source': '', 'search_channel': 'musically_music', 'tns_search_result': 'Pass', 'hide_results': False, 'enable_music_mix_rank': 0, 'feedback_survey': None, 'hit_shark': True, 'hit_dolphin': False}, 'feedback_type': 'music', 'total': 0}"
+    },
+    "{'query': 'Taylor Swift latest album'}": {
+        "error": "",
+        "response": "{'status_msg': 'Please login your account first', 'log_pb': {'impr_id': '20250610092203D534338D92CE71002621'}, 'status_code': 2483}"
+    },
+    "{'query': 'Taylor Swift new album'}": {
+        "error": "",
+        "response": "{'status_code': 0, 'music': [], 'has_more': 0, 'cursor': 40, 'qc': '', 'ad_info': {}, 'music_info_list': [], 'extra': {'now': 1749547339000, 'logid': '202506100922198469004AEAC9EC00243B', 'fatal_item_ids': [], 'search_request_id': '', 'server_stream_time': 102, 'api_debug_info': None}, 'log_pb': {'impr_id': '202506100922198469004AEAC9EC00243B'}, 'search_nil_info': {'search_nil_type': '', 'is_load_more': 'is_load_more', 'search_nil_item': 'hit_shark', 'text_type': 10}, 'global_doodle_config': {'keyword': 'Taylor Swift new album', 'display_filter_bar': 1, 'new_source': '', 'search_channel': 'musically_music', 'tns_search_result': 'Pass', 'hide_results': False, 'enable_music_mix_rank': 0, 'feedback_survey': None, 'hit_shark': True, 'hit_dolphin': False}, 'feedback_type': 'music', 'total': 0}"
+    }
+}

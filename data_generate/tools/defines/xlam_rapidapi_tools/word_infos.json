@@ -1,0 +1,17 @@
+{
+    "name": "word_infos",
+    "description": "This is a sub-function API for tool master_dictionary.\nTool description: A dictionary rich information for a word with definitions, meanings, phonetics, synonyms and much more.\nAPI description: Fetch detailed information about a word from the Master Dictionary API using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "word": {
+                "type": "string",
+                "description": "The word to fetch information for.",
+                "default": "hello"
+            }
+        },
+        "required": [
+            "word"
+        ]
+    }
+}

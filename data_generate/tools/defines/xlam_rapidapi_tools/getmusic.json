@@ -1,0 +1,17 @@
+{
+    "name": "getmusic",
+    "description": "This is a sub-function API for tool tiktok_info.\nTool description: Get TikTok Video data along with detailed information about Author, User Feed, Music .\nAPI description: Fetches all TikTok videos that are using a specific music track along with information about the original music.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "getmusic": {
+                "type": "string",
+                "description": "The identifier or name of the music track to search for on TikTok.",
+                "default": "6818239458366753542"
+            }
+        },
+        "required": [
+            "getmusic"
+        ]
+    }
+}

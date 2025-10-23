@@ -1,0 +1,42 @@
+{
+    "{'team': 'Los Angeles Lakers'}": {
+        "error": "",
+        "response": []
+    },
+    "{'team': 'Brooklyn Nets'}": {
+        "error": "",
+        "response": []
+    },
+    "{'team': 'lakers'}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'team': 'warriors'}": {
+        "error": "",
+        "response": "[{'title': \"Steph Slams 'Twitter Fingers'\", 'url': 'https://bleacherreport.com/articles/10151058-steph-curry-slams-twitter-fingers-for-warriors-trade-talk-amid-nba-deadline-rumors', 'source': 'bleacher_report'}]"
+    },
+    "{'team': 'los-angeles', 'limit': '5'}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Service Suspended</title>\n</head>\n<body>\nThis service has been suspended.\n</body>\n</html>\n"
+    },
+    "{'limit': '5', 'team': 'lakers', 'source': 'espn'}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'limit': '5', 'team': 'los-angeles-lakers', 'source': 'espn'}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'team': 'golden-state-warriors', 'limit': '5'}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'team': 'golden state warriors', 'limit': '5'}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'team': 'lakers', 'source': 'espn'}": {
+        "error": "",
+        "response": "[{'title': \"Lakers left feeling 'devastation' of late collapse\", 'url': 'https://www.espn.com/nba/story/_/id/44438274/late-miscues-haunt-lakers-frustrating-ending-vs-bulls', 'source': 'espn'}, {'title': \"'Special moment': Giddey's 47-footer stuns Lakers\", 'url': 'https://www.espn.com/nba/story/_/id/44437104/giddey-47-foot-buzzer-beater-lifts-red-hot-bulls-wild-win-lakers', 'source': 'espn'}]"
+    }
+}

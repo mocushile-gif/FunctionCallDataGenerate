@@ -1,0 +1,15 @@
+{
+    "name": "get_currency",
+    "description": "This is a sub-function API for tool airbnb_search.\nTool description: Real-time data, unofficial airbnb API, get airbnb listings data, place to stay at an amazing price.\n\nAirbnb com is a well-known and widely used online marketplace for short-term accommodation rentals around the world.\nAPI description: Fetches the currency information from the Airbnb Search API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "language_code": {
+                "type": "string",
+                "description": "The language code to use for retrieving the currency information from the API. Defaults to 'en-US'.",
+                "default": "en-US"
+            }
+        },
+        "required": []
+    }
+}

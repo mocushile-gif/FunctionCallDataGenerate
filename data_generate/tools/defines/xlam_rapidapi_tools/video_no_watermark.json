@@ -1,0 +1,17 @@
+{
+    "name": "video_no_watermark",
+    "description": "This is a sub-function API for tool tiktok_no_watermark.\nTool description: get tiktok no watermark video\nAPI description: Retrieves a video without a watermark from a given URL using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "video_url": {
+                "type": "string",
+                "description": "The URL of the video to be retrieved without watermark.",
+                "default": "https://www.tiktok.com/@tiktok/video/7173042191730740523"
+            }
+        },
+        "required": [
+            "video_url"
+        ]
+    }
+}

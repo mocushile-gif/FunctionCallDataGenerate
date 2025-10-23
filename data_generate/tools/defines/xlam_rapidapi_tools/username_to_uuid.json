@@ -1,0 +1,16 @@
+{
+    "name": "username_to_uuid",
+    "description": "This is a sub-function API for tool teamriverbubbles_random_utilities.\nTool description: random utilities you may use\nAPI description: Converts a Minecraft username to a UUID by making an API request.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Minecraft username to convert to a UUID."
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

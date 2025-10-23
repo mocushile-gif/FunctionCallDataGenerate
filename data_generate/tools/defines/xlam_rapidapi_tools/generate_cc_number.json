@@ -1,0 +1,14 @@
+{
+    "name": "generate_cc_number",
+    "description": "This is a sub-function API for tool fake_credit_card_generator.\nTool description: Select the kind of card you want to generate and let the API generate a new Test Card for you. Using industry standard algorithms, the cards generated will be unique and tied to real instututions, providing a close to real testing number\nAPI description: Generates a fake credit card number using the specified brand and API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "brand": {
+                "type": "string",
+                "description": "The desired card brand (e.g., 'Visa', 'MasterCard'). Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

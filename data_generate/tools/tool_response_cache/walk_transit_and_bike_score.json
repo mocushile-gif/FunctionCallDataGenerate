@@ -1,0 +1,31 @@
+{
+    "{'zpid': 987654321012}": {
+        "error": "",
+        "response": {
+            "walk_score": 85,
+            "walk_description": "Very Walkable. Most errands can be accomplished on foot.",
+            "transit_score": 70,
+            "transit_description": "Exemplary Transit. World-class transit available.",
+            "bike_score": 90,
+            "bike_description": "Bicycling is the preferred way to get around.",
+            "zpid": 987654321012,
+            "last_updated": "2023-10-15"
+        }
+    },
+    "{'zpid': 234567890}": {
+        "error": "",
+        "response": "{'data': {'property': {'bikeScore': {'bikescore': 25, 'description': 'Somewhat Bikeable'}, 'id': 'UHJvcGVydHk6MjM0NTY3ODkw', 'transitScore': None, 'walkScore': {'description': 'Car-Dependent', 'walkscore': 0, 'ws_link': 'https://www.walkscore.com/score/loc/lat=34.732567/lng=-79.95757/?utm_source=zillow2.com&utm_medium=ws_api&utm_campaign=ws_api'}}}}"
+    },
+    "{'zpid': 345678901}": {
+        "error": "",
+        "response": "{'data': {'property': {'bikeScore': {'bikescore': 23, 'description': 'Somewhat Bikeable'}, 'id': 'UHJvcGVydHk6MzQ1Njc4OTAx', 'transitScore': {'description': 'No Nearby Transit', 'transit_score': 0, 'ws_link': 'https://www.walkscore.com/score/loc/lat=40.6076/lng=-112.0516/?utm_source=zillow2.com&utm_medium=ts_api&utm_campaign=ts_api'}, 'walkScore': {'description': 'Car-Dependent', 'walkscore': 3, 'ws_link': 'https://www.walkscore.com/score/loc/lat=40.607616/lng=-112.05156/?utm_source=zillow2.com&utm_medium=ws_api&utm_campaign=ws_api'}}}}"
+    },
+    "{'zpid': 12345678}": {
+        "error": "",
+        "response": "Internal Server Error"
+    },
+    "{'zpid': 20485700}": {
+        "error": "",
+        "response": "Internal Server Error"
+    }
+}

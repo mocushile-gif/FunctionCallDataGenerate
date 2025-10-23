@@ -1,0 +1,51 @@
+{
+    "{'start': 0, 'limit': 1}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "id": "90",
+                    "symbol": "BTC",
+                    "name": "Bitcoin",
+                    "nameid": "bitcoin",
+                    "rank": 1,
+                    "price_usd": "28690.09",
+                    "percent_change_24h": "-1.63",
+                    "percent_change_1h": "0.17",
+                    "percent_change_7d": "-2.90",
+                    "price_btc": "1.00",
+                    "market_cap_usd": "557808230323.34",
+                    "volume24": 12267901463.427076,
+                    "volume24a": 9736819193.388985,
+                    "csupply": "19442540.00",
+                    "tsupply": "19442540",
+                    "msupply": "21000000"
+                }
+            ],
+            "info": {
+                "coins_num": 11344,
+                "time": 1692254282
+            }
+        }
+    },
+    "{'limit': 50, 'start': 0}": {
+        "error": "",
+        "response": "{'data': [{'id': '90', 'symbol': 'BTC', 'name': 'Bitcoin', 'nameid': 'bitcoin', 'rank': 1, 'price_usd': '104612.07', 'percent_change_24h': '0.58', 'percent_change_1h': '-0.01', 'percent_change_7d': '-4.20', 'price_btc': '1.00', 'market_cap_usd': '2078283665378.20', 'volume24': 23528503982.93271, 'volume24a': 35928721194.77667, 'csupply': '19866577.00', 'tsupply': '19866577', 'msupply': '21000000'}, {'id': '80', 'symbol': 'ETH', 'name': 'Ethereum', 'nameid': 'ethereum', 'rank': 2, 'price_usd': '2529.03', 'percent_change_24h': '-0.10', 'percent_change_1h': '-0.12', 'percent_change_7d': '-1.32', 'price_btc': '0.024110', 'market_cap_usd': '304680364241.85', 'volume24': 12772419047.51262, 'volume24a': 19712223421.775806, 'csupply': '120473321.71', 'tsupply': '122375302', 'msupply': ''}, {'id': '518', 'symbol': 'USDT', 'name': 'Tether', 'nameid': 'tether', 'rank': 3, 'price_usd': '1.00', 'percent_change_24h': '-0.05', 'percent_change_1h': '0.03', 'percent_change_7d': '-0.12', 'price_btc': '0.000010', 'market_cap_usd': '139663679331.81', 'volume24': 51708113531.76515, 'volume24a': 78188272224.0014, 'csupply': '139329876218.60', 'tsupply': '141572991338.46', 'msupply': ''}, {'id': '58', 'symbol': 'XRP', 'name': 'XRP', 'nameid': 'ripple', 'rank': 4, 'price_usd': '2.17', 'percent_change_24h': '1.62', 'percent_change_1h': '-0.22', 'percent_change_7d': '-7.57', 'price_btc': '0.000021', 'market_cap_usd': '125310187707.54', 'volume24': 2110178164.0792258, 'volume24a': 3018529647.0057034, '"
+    },
+    "{'limit': 20, 'start': 10}": {
+        "error": "",
+        "response": "{'data': [{'id': '2713', 'symbol': 'TRX', 'name': 'TRON', 'nameid': 'tron', 'rank': 11, 'price_usd': '0.265590', 'percent_change_24h': '-0.50', 'percent_change_1h': '0.13', 'percent_change_7d': '-2.44', 'price_btc': '0.000003', 'market_cap_usd': '22876531302.06', 'volume24': 888803138.1427695, 'volume24a': 1062006340.9795331, 'csupply': '86134911300.38', 'tsupply': '100000000000', 'msupply': ''}, {'id': '33422', 'symbol': 'WBTC', 'name': 'Wrapped Bitcoin', 'nameid': 'wrapped-bitcoin', 'rank': 12, 'price_usd': '104717.85', 'percent_change_24h': '0.62', 'percent_change_1h': '0.08', 'percent_change_7d': '-3.94', 'price_btc': '0.998346', 'market_cap_usd': '13876580814.51', 'volume24': 48281344.565356985, 'volume24a': 66854139.08166492, 'csupply': '132514.78', 'tsupply': '132514.77886692', 'msupply': ''}, {'id': '148109', 'symbol': 'HYPE', 'name': 'Hyperliquid', 'nameid': 'hyperliquid', 'rank': 13, 'price_usd': '32.72', 'percent_change_24h': '-0.93', 'percent_change_1h': '-0.81', 'percent_change_7d': '-6.42', 'price_btc': '0.000312', 'market_cap_usd': '10925680764.41', 'volume24': 92721749.469844, 'volume24a': 140244987.6360833, 'csupply': '333928180.00', 'tsupply': '999993930', 'msupply': '1000000000'}, {'id': '93845', 'symbol': 'SUI', 'name': 'Sui', 'nameid': 'sui', 'rank': 14, 'price_usd': '3.24', 'percent_change_24h': '1.78', 'percent_change_1h': '-0.23', 'percent_change_7d': '-11.02', 'price_btc': '0.000031', 'market_cap_usd': '9758909642.86', 'volume24': 939552940.660256, 'v"
+    },
+    "{'start': 0, 'limit': 10}": {
+        "error": "",
+        "response": "{'data': [{'id': '90', 'symbol': 'BTC', 'name': 'Bitcoin', 'nameid': 'bitcoin', 'rank': 1, 'price_usd': '104331.69', 'percent_change_24h': '4.46', 'percent_change_1h': '-0.51', 'percent_change_7d': '11.00', 'price_btc': '1.00', 'market_cap_usd': '2066444192613.20', 'volume24': 52717461970.23505, 'volume24a': 44280837518.32392, 'csupply': '19806487.00', 'tsupply': '19806487', 'msupply': '21000000'}, {'id': '80', 'symbol': 'ETH', 'name': 'Ethereum', 'nameid': 'ethereum', 'rank': 2, 'price_usd': '3415.79', 'percent_change_24h': '2.15', 'percent_change_1h': '-0.69', 'percent_change_7d': '4.57', 'price_btc': '0.032755', 'market_cap_usd': '411511553325.88', 'volume24': 17279871055.495, 'volume24a': 18197026971.910004, 'csupply': '120473321.00', 'tsupply': '122375302', 'msupply': ''}, {'id': '58', 'symbol': 'XRP', 'name': 'XRP', 'nameid': 'ripple', 'rank': 3, 'price_usd': '3.19', 'percent_change_24h': '-4.70', 'percent_change_1h': '-1.74', 'percent_change_7d': '39.03', 'price_btc': '0.000031', 'market_cap_usd': '183377534914.09', 'volume24': 10464655783.123667, 'volume24a': 20699456588.783585, 'csupply': '57410227039.00', 'tsupply': '99986740020', 'msupply': '100000000000'}, {'id': '518', 'symbol': 'USDT', 'name': 'Tether', 'nameid': 'tether', 'rank': 4, 'price_usd': '1.00', 'percent_change_24h': '0.09', 'percent_change_1h': '0.03', 'percent_change_7d': '-0.04', 'price_btc': '0.000010', 'market_cap_usd': '137329947890.96', 'volume24': 91523574570.11021, 'volume24a': 92546650935.47105, 'csupply': '137271150956.00', 'tsupply': '141437091599.9', 'msupply': ''}, {'id': '2710', 'symbol': 'BNB', 'name': 'Binance Coin', 'nameid': 'binance-coin', 'rank': 5, 'price_usd': '722.93', 'percent_change_24h': '1.19', 'percent_change_1h': '-0.36', 'percent_change_7d': '4.59', 'price_btc': '0.006932', 'market_cap_usd': '120584983153.66', 'volume24': 954488483.9516188, 'volume24a': 1061317914.3578979, 'csupply': '166801148.00', 'tsupply': '192443301', 'msupply': '200000000'}, {'id': '48543', 'symbol': 'SOL', 'name': 'Solana', 'nameid': 's"
+    },
+    "{'start': 0, 'limit': 5}": {
+        "error": "",
+        "response": "{'data': [{'id': '90', 'symbol': 'BTC', 'name': 'Bitcoin', 'nameid': 'bitcoin', 'rank': 1, 'price_usd': '104424.41', 'percent_change_24h': '2.97', 'percent_change_1h': '-0.30', 'percent_change_7d': '10.08', 'price_btc': '1.00', 'market_cap_usd': '2068280765178.50', 'volume24': 56644524777.84033, 'volume24a': 45556844312.9096, 'csupply': '19806487.00', 'tsupply': '19806487', 'msupply': '21000000'}, {'id': '80', 'symbol': 'ETH', 'name': 'Ethereum', 'nameid': 'ethereum', 'rank': 2, 'price_usd': '3481.22', 'percent_change_24h': '3.47', 'percent_change_1h': '-0.71', 'percent_change_7d': '5.34', 'price_btc': '0.033335', 'market_cap_usd': '419393925830.07', 'volume24': 19129190402.582542, 'volume24a': 18314903028.176517, 'csupply': '120473321.00', 'tsupply': '122375302', 'msupply': ''}, {'id': '58', 'symbol': 'XRP', 'name': 'XRP', 'nameid': 'ripple', 'rank': 3, 'price_usd': '3.28', 'percent_change_24h': '-1.43', 'percent_change_1h': '0.19', 'percent_change_7d': '41.67', 'price_btc': '0.000031', 'market_cap_usd': '188293762385.80', 'volume24': 9988965094.067461, 'volume24a': 18802331624.93338, 'csupply': '57410227039.00', 'tsupply': '99986740020', 'msupply': '100000000000'}, {'id': '518', 'symbol': 'USDT', 'name': 'Tether', 'nameid': 'tether', 'rank': 4, 'price_usd': '1.00', 'percent_change_24h': '-0.26', 'percent_change_1h': '0.04', 'percent_change_7d': '-0.06', 'price_btc': '0.000010', 'market_cap_usd': '137329712113.98', 'volume24': 97105056951.25331, 'volume24a': 92038774683.31738, 'csupply': '137271150956.00', 'tsupply': '141437091599.9', 'msupply': ''}, {'id': '2710', 'symbol': 'BNB', 'name': 'Binance Coin', 'nameid': 'binance-coin', 'rank': 5, 'price_usd': '724.53', 'percent_change_24h': '1.02', 'percent_change_1h': '-0.06', 'percent_change_7d': '3.94', 'price_btc': '0.006938', 'market_cap_usd': '120851961900.80', 'volume24': 986811880.390301, 'volume24a': 1009139477.3715582, 'csupply': '166801148.00', 'tsupply': '192443301', 'msupply': '200000000'}], 'info': {'coins_num': 13686, 'time': 1737152522}}"
+    },
+    "{'start': 0, 'limit': 17}": {
+        "error": "",
+        "response": "{'data': [{'id': '90', 'symbol': 'BTC', 'name': 'Bitcoin', 'nameid': 'bitcoin', 'rank': 1, 'price_usd': '104775.90', 'percent_change_24h': '0.13', 'percent_change_1h': '-0.29', 'percent_change_7d': '-2.29', 'price_btc': '1.00', 'market_cap_usd': '2081538495368.70', 'volume24': 22854495209.91862, 'volume24a': 21259403727.169964, 'csupply': '19866577.00', 'tsupply': '19866577', 'msupply': '21000000'}, {'id': '80', 'symbol': 'ETH', 'name': 'Ethereum', 'nameid': 'ethereum', 'rank': 2, 'price_usd': '2490.17', 'percent_change_24h': '-1.24', 'percent_change_1h': '-0.41', 'percent_change_7d': '-0.88', 'price_btc': '0.023713', 'market_cap_usd': '299999531664.86', 'volume24': 12003111371.403547, 'volume24a': 11170883695.93978, 'csupply': '120473321.71', 'tsupply': '122375302', 'msupply': ''}, {'id': '518', 'symbol': 'USDT', 'name': 'Tether', 'nameid': 'tether', 'rank': 3, 'price_usd': '1.00', 'percent_change_24h': '-0.17', 'percent_change_1h': '-0.04', 'percent_change_7d': '-0.23', 'price_btc': '0.000010', 'market_cap_usd': '139460734717.63', 'volume24': 42836493645.39982, 'volume24a': 43638151306.16139, 'csupply': '139329876218.60', 'tsupply': '141572991338.46', 'msupply': ''}, {'id': '58', 'symbol': 'XRP', 'name': 'XRP', 'nameid': 'ripple', 'rank': 4, 'price_usd': '2.17', 'percent_change_24h': '-0.09', 'percent_change_1h': '0.22', 'percent_change_7d': '-5.14', 'price_btc': '0.000021', 'market_cap_usd': '125246852248.83', 'volume24': 1515646177.0997844, 'volume24a': 1541673666.077219,"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "getquestionsbyexam",
+    "description": "This is a sub-function API for tool tech_exams.\nTool description: Tech Exams offers flexible, affordable and the most up to date test banks for self-study training and exam creation. Practice exams for CompTIA,  and coming soon, Microsoft, EC-Council, SANS, PMI, ISC2, CISCO, ISACA, CITRIX, ITIL, VMware, Juniper.\nAPI description: Fetches exam questions for a specified exam using the Tech Exams API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "exam": {
+                "type": "string",
+                "description": "The exam identifier for which the questions are to be retrieved.",
+                "default": "PT0-001"
+            }
+        },
+        "required": [
+            "exam"
+        ]
+    }
+}

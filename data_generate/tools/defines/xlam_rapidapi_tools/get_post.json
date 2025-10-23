@@ -1,0 +1,17 @@
+{
+    "name": "get_post",
+    "description": "This is a sub-function API for tool tiktok_scraping.\nTool description: ⚡️ Fast Loading TikTok API - Easy to use!  📊 Best for Data Scraping  📞 Support 24/7  ℹ️ Contact us for custom plans\nAPI description: Fetches the details of a TikTok post using the given `aweme_id` via the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "aweme_id": {
+                "type": "string",
+                "description": "The unique identifier of the TikTok post to be fetched.",
+                "default": "6811123699203329285"
+            }
+        },
+        "required": [
+            "aweme_id"
+        ]
+    }
+}

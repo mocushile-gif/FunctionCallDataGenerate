@@ -1,0 +1,15 @@
+{
+    "name": "qr_code",
+    "description": "This is a sub-function API for tool qr_code_api_v92.\nTool description: This is an API that converts a URL into a QR code image\nAPI description: Creates a QR code by making a GET request to the QR code API with the given URL.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL to be included in the QR code. Defaults to 'https://rapidapi.com/'.",
+                "default": "https://rapidapi.com/"
+            }
+        },
+        "required": []
+    }
+}

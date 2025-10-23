@@ -1,0 +1,23 @@
+{
+    "name": "defaultroot",
+    "description": "This is a sub-function API for tool meowfacts.\nTool description:  a simple api which returns a catfact \nAPI description: By passing in the appropriate options, you can recieve a specific or more than one fact.\n",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "count": {
+                "type": "number",
+                "description": "The number of cat facts to return. If not specified, a default number of facts will be returned."
+            },
+            "factid": {
+                "type": "string",
+                "description": "An optional ID to retrieve a specific cat fact. If not specified, random facts will be returned."
+            },
+            "lang": {
+                "type": "string",
+                "description": "The locale in which to retrieve the cat facts. Defaults to 'eng' (English).",
+                "default": "eng"
+            }
+        },
+        "required": []
+    }
+}

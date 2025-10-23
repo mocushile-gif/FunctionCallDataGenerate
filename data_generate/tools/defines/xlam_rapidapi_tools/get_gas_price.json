@@ -1,0 +1,17 @@
+{
+    "name": "get_gas_price",
+    "description": "This is a sub-function API for tool uniblock.\nTool description: Unified Blockchain API, use one, use them all. \n\n \n\nFrom NFTs, DeFi, Wallets, GameFi, Tokens, or simply launching contracts, we've got tools to help build them both easier and faster.\n\nUniblockis a suite of blockchain tooling to support developers in building any blockchain project.\nAPI description: Retrieves the best estimate for the gas price to use in a transaction on a specified blockchain network.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chainid": {
+                "type": "number",
+                "description": "The ID of the blockchain network to retrieve the gas price estimate for.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "chainid"
+        ]
+    }
+}

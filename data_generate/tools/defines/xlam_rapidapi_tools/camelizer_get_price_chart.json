@@ -1,0 +1,41 @@
+{
+    "name": "camelizer_get_price_chart",
+    "description": "This is a sub-function API for tool price_tracking_tools.\nTool description: This API currently helps to query for prices of products from Amazon. We will support more other sites/brands soon. Stay tune!\nAPI description: Fetches a price history chart of a specified product from Amazon using the Camelizer API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "asin": {
+                "type": "string",
+                "description": "The ASIN (Amazon Standard Identification Number) of a product from Amazon. Example: 'B08QB93S6R'."
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language for the chart. One of the following: 'en', 'fr', 'de', 'it', 'es'. Default is 'en'.",
+                "default": "en"
+            },
+            "tp": {
+                "type": "string",
+                "description": "The time period for the price history. One of the following: '1m', '3m', '6m', '1y', 'all'. Default is '3m'.",
+                "default": "3m"
+            },
+            "w": {
+                "type": "number",
+                "description": "The width of the chart in pixels. Default is 720.",
+                "default": 720.0
+            },
+            "h": {
+                "type": "number",
+                "description": "The height of the chart in pixels. Default is 480.",
+                "default": 480.0
+            },
+            "country": {
+                "type": "string",
+                "description": "The country-specific Amazon site. One of the following: 'au', 'ca', 'fr', 'de', 'it', 'es', 'uk', 'us'. Default is 'us'.",
+                "default": "us"
+            }
+        },
+        "required": [
+            "asin"
+        ]
+    }
+}

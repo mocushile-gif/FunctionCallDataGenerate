@@ -1,0 +1,43 @@
+{
+    "name": "spearman_correlation_from_database",
+    "description": "Perform Spearman rank correlation test between two numeric columns from a SQLite database.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file."
+        },
+        "from_clause": {
+          "type": "string",
+          "description": "SQL FROM clause (table name or JOIN expression)."
+        },
+        "x_col": {
+          "type": "string",
+          "description": "First numeric column name."
+        },
+        "y_col": {
+          "type": "string",
+          "description": "Second numeric column name."
+        },
+        "where_clause": {
+          "type": "string",
+          "description": "Optional SQL WHERE clause (without the 'WHERE' keyword)."
+        },
+        "where_params": {
+          "type": "array",
+          "description": "Optional list of parameters to inject into the WHERE clause.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "drop_na": {
+          "type": "boolean",
+          "description": "Whether to drop rows with missing values.",
+          "default": true
+        }
+      },
+      "required": ["database_path", "from_clause", "x_col", "y_col"]
+    }
+  }
+  

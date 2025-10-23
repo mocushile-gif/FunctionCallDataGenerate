@@ -1,0 +1,38 @@
+{
+    "name": "cci",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Commodity Channel Index(CCI) is a universal indicator that can help to identify new trends and assess current critical conditions.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The instrument symbol, which can be any equity, index, ETF, forex, or cryptocurrency (e.g., `AAPL`, `EUR/USD`, `ETH/BTC`).",
+                "default": "AAPL"
+            },
+            "interval": {
+                "type": "string",
+                "description": "The interval between two consecutive points in the time series. Supported intervals are `1min`, `5min`, `15min`, `30min`, `45min`, `1h`, `2h`, `4h`, `1day`, `1week`, and `1month`.",
+                "default": "1min"
+            },
+            "outputsize": {
+                "type": "number",
+                "description": "Default `30` when no date parameters are set, otherwise set to maximum",
+                "default": 30
+            },
+            "time_period": {
+                "type": "number",
+                "description": "The time period for calculating the CCI. The default is `20`.",
+                "default": 20
+            },
+            "format": {
+                "type": "string",
+                "description": "The format of the returned data. Accepted values are `csv` or `json`. The default is `json`.",
+                "default": "json"
+            }
+        },
+        "required": [
+            "symbol",
+            "interval"
+        ]
+    }
+}

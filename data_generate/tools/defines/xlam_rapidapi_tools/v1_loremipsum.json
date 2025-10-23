@@ -1,0 +1,26 @@
+{
+    "name": "v1_loremipsum",
+    "description": "This is a sub-function API for tool lorem_ipsum_by_api_ninjas.\nTool description: Generate configurable lorem ipsum placeholder text. See more info at https://api-ninjas.com/api/loremipsum\nAPI description: API Ninjas Lorem Ipsum API endpoint. Returns one or more paragraphs of lorem ipsum placeholder text.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "max_length": {
+                "type": "number",
+                "description": "Maximum character length for the returned text."
+            },
+            "start_with_lorem_ipsum": {
+                "type": "string",
+                "description": "Whether to begin the text with the words \\\\\\\"Lorem ipsum\\\\\\\". Must be either true or false. If unset, a default value of true will be used."
+            },
+            "random": {
+                "type": "string",
+                "description": "Whether to randomly generate paragraphs. Must be either true or false. If unset, a default value of true will be used."
+            },
+            "paragraphs": {
+                "type": "number",
+                "description": "Number of paragraphs to generate. If unset, a default value of 1 will be used."
+            }
+        },
+        "required": []
+    }
+}

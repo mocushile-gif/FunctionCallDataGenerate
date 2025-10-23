@@ -1,0 +1,15 @@
+{
+    "name": "collection",
+    "description": "This is a sub-function API for tool tle.\nTool description: API provides up to date NORAD two line element sets for number of Earth orbiting satellites. Data is provided by CelesTrak and served in web application friendly JSON format.\nAPI description: Fetches TLE (Two-Line Element) data from the TLE API based on the specified search query.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "search": {
+                "type": "string",
+                "description": "The search term to query the API. Defaults to 'ISS'.",
+                "default": "ISS"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "get_screenshot_version_ecoindexes_id_screenshot_get",
+    "description": "This is a sub-function API for tool ecoindex.\nTool description: This API provides an easy way to analyze websites with Ecoindex. You have the ability to:\n\n- Make a page analysis\n- Define screen resolution\n- Save results to a DB\n- Retrieve results\n- Limit the number of request per day for a given host\n\nThis API is built on top of ecoindex-python with FastAPI\nAPI description: Returns the screenshot of the webpage analysis for a given version and analysis ID, if it exists.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "version": {
+                "type": "string",
+                "description": "Engine version used to run the analysis (e.g., 'v0' or 'v1').",
+                "default": "v1"
+            },
+            "is_id": {
+                "type": "string",
+                "description": "Identifier of the analysis for which to retrieve the screenshot."
+            }
+        },
+        "required": [
+            "version",
+            "is_id"
+        ]
+    }
+}

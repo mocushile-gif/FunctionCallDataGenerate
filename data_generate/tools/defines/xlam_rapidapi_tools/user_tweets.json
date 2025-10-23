@@ -1,0 +1,31 @@
+{
+    "name": "user_tweets",
+    "description": "This is a sub-function API for tool twttrapi.\nTool description: (Discord server: https://discord.gg/TKJJYppYKj) TwttrAPI is an unofficial X (Twitter) API with various features for easy access to X data. It supports X Login + 2FA, tweet retrieval, user and search results, content interaction, tweet creation/deletion, and direct message access. It's ideal for scraping public data or building X API-based applications. Reach us at contact@twttrapi.com for custom plans and inquiries.\nAPI description: Fetches a user's tweets using the Twttr RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "twttr_proxy": {
+                "type": "string",
+                "description": "Optional proxy to use for the Twitter API request."
+            },
+            "twttr_session": {
+                "type": "string",
+                "description": "Optional session identifier for the Twitter API request."
+            },
+            "cursor": {
+                "type": "string",
+                "description": "Optional cursor for paginated results."
+            },
+            "user_id": {
+                "type": "string",
+                "description": "The Twitter user ID for which to fetch tweets."
+            },
+            "username": {
+                "type": "string",
+                "description": "The Twitter username for which to fetch tweets (default is 'elonmusk').",
+                "default": "elonmusk"
+            }
+        },
+        "required": []
+    }
+}

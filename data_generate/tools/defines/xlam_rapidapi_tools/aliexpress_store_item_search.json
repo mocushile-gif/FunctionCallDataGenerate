@@ -1,0 +1,47 @@
+{
+    "name": "aliexpress_store_item_search",
+    "description": "This is a sub-function API for tool aliexpress_datahub.\nTool description: 🥇#1 Data Provider. Real-Time product data API you've been looking for. No manual rules or web-scraper maintenance is required.\nAPI description: Searches for items in an AliExpress store.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sellerid": {
+                "type": "string",
+                "description": "The seller's ID on AliExpress.",
+                "default": "231651707"
+            },
+            "storeid": {
+                "type": "string",
+                "description": "The store's ID on AliExpress.",
+                "default": "1102051418"
+            },
+            "sort": {
+                "type": "string",
+                "description": "The sorting order of the items. Default is None."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for pagination. Default is None."
+            },
+            "pagesize": {
+                "type": "number",
+                "description": "The number of items to display per page. Default is None."
+            },
+            "region": {
+                "type": "string",
+                "description": "Region parameter is used to accurately get the shipping costs and other promo/deals for specific geo location. All values are being validated and only the ones from the list are supported. Full list of supporting locale options, please use '**Country List**' at '**Base**' group endpoints."
+            },
+            "locale": {
+                "type": "string",
+                "description": "Locale parameter is used to display the titles and other content in selected language. All values are being validated and only the ones from the list are supported. Full list of supporting locale options, please use '**Locale List'** at '**Base**' group endpoints."
+            },
+            "currency": {
+                "type": "string",
+                "description": "Currency parameter is used to display the product price in selected currency. All values are being validated and only the ones from the list are supported. Full list of supporting currencies, please use '**Currency List**' at '**Base**' group endpoints."
+            }
+        },
+        "required": [
+            "sellerid",
+            "storeid"
+        ]
+    }
+}

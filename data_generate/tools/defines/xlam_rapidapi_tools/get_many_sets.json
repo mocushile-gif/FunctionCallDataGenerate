@@ -1,0 +1,29 @@
+{
+    "name": "get_many_sets",
+    "description": "This is a sub-function API for tool pokemon_tcg_card_prices.\nTool description: Provides a model of the Pokemon Trading Card Game cards.\nEach individual card has a price that is based on recent sales of the card or currently open listings.\nAPI description: Returns many sets based on query parameters.\n\nA set is a grouping of cards that are periodically released together. Every card has a set. Every set is part of a series.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "series": {
+                "type": "string",
+                "description": "The series to which the sets belong (default is 'sword-and-shield').",
+                "default": "sword-and-shield"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of sets to return (default is 20).",
+                "default": 20.0
+            },
+            "fromid": {
+                "type": "string",
+                "description": "The starting ID from which to return sets (default is None)."
+            },
+            "set": {
+                "type": "string",
+                "description": "The specific set to return (default is 'vivid-voltage').",
+                "default": "vivid-voltage"
+            }
+        },
+        "required": []
+    }
+}

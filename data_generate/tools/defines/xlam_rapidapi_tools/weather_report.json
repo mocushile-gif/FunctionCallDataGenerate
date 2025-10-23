@@ -1,0 +1,17 @@
+{
+    "name": "weather_report",
+    "description": "This is a sub-function API for tool the_weather_api.\nTool description: Get the updated and hyper-accurate weather/aqi information of any city. \nAPI description: Fetches the weather report of a specified city using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cityname": {
+                "type": "string",
+                "description": "Name of the city for which the weather report is to be fetched.",
+                "default": "mumbai"
+            }
+        },
+        "required": [
+            "cityname"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "calculate_bayes_theorem_posterior_probability",
+    "description": "Applies Bayes\" theorem to calculate the posterior probability given the prior probability, likelihood, and evidence.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "prior": {
+                "type": "number",
+                "description": "The prior probability (P(A))."
+            },
+            "likelihood": {
+                "type": "number",
+                "description": "The likelihood (P(B|A))."
+            },
+            "evidence": {
+                "type": "number",
+                "description": "The evidence (P(B))."
+            }
+        },
+        "required": [
+            "prior",
+            "likelihood",
+            "evidence"
+        ]
+    }
+}

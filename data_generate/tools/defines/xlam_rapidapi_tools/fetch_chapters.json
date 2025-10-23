@@ -1,0 +1,15 @@
+{
+    "name": "fetch_chapters",
+    "description": "This is a sub-function API for tool mangaverse_api.\nTool description: Unleash the World of Manga with MangaVerse API!  Discover a captivating universe of manga from Japan, Korea, and China, all conveniently translated into English. \nAPI description: Fetches the list of chapters for a given manga ID from the Mangaverse API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the manga for which chapters need to be fetched. Defaults to '6486b7547ae7cb74845df856'.",
+                "default": "6486b7547ae7cb74845df856"
+            }
+        },
+        "required": []
+    }
+}

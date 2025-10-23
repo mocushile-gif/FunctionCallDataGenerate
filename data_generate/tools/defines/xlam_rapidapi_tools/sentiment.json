@@ -1,0 +1,21 @@
+{
+    "name": "sentiment",
+    "description": "This is a sub-function API for tool text_analysis_apis.\nTool description: At Paralleldots, we provide solutions to build the smartest search engines and apps which can deeply understand world’s conversations, sentiments, reports and news so you can align your business with customer preferences and intent.\nAPI description: Understand the social sentiment of your brand, product or service while monitoring online conversations.  Sentiment Analysis is contexual mining of text which identifies and extracts subjective information in source material.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "api_key": {
+                "type": "string",
+                "description": "Give your apikey"
+            },
+            "text": {
+                "type": "string",
+                "description": "The input text whose sentiment needs to be analyzed."
+            }
+        },
+        "required": [
+            "api_key",
+            "text"
+        ]
+    }
+}

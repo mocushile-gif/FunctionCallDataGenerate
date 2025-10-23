@@ -1,0 +1,26 @@
+{
+    "name": "tweets_by_userid",
+    "description": "This is a sub-function API for tool twitter_aio.\nTool description: Access real-time data as soon as it's posted! With the Twitter AIO API, you can retrieve tweets, spaces, media and profiles instantly. Say goodbye to expensive fees charged by Twitter while still getting access to all the available data.\n\nAPI description: Receive all tweets ordered by most recent. You can use the cursor and count to navigate around.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "userid": {
+                "type": "string",
+                "description": "The userId of the user. You can get it by converting a username to the userId or by searching a user and extracting the restId.",
+                "default": "44196397"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "At the end of the entries array you'll find two objects with the type TimelineTimelineCursor. There is one cursor to go up (Top) and one for going down (bottom) the list. You just need to provide the value as the cursor parameter to get the next page of the pagination."
+            },
+            "count": {
+                "type": "string",
+                "description": "The default count is 20. You can specify a custom one here.",
+                "default": "20"
+            }
+        },
+        "required": [
+            "userid"
+        ]
+    }
+}

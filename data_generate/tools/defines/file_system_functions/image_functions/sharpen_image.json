@@ -1,0 +1,32 @@
+{
+    "name": "sharpen_image",
+    "description": "Apply sharpening effect to an image to enhance details and edges.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the input image file"
+        },
+        "factor": {
+          "type": "number",
+          "description": "Sharpening factor (0.1-5.0)",
+          "default": 1.5,
+          "minimum": 0.1,
+          "maximum": 5.0
+        },
+        "threshold": {
+          "type": "number",
+          "description": "Threshold for sharpening (0.0-1.0)",
+          "default": 0.0,
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output image. If not provided, will create auto-named file."
+        }
+      },
+      "required": ["image_path"]
+    }
+  } 

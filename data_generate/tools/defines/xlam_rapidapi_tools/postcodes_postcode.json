@@ -1,0 +1,17 @@
+{
+    "name": "postcodes_postcode",
+    "description": "This is a sub-function API for tool uk_postcode_api.\nTool description: Auto populate your app & service with accurate and comprehensive PAF & Geocoding data from the Royal Mail\nAPI description: Fetches addresses for a given UK postcode using the RapidAPI UK Postcode API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "postcode": {
+                "type": "string",
+                "description": "Pass a PostCode value for looking up addresses",
+                "default": "PL11DN"
+            }
+        },
+        "required": [
+            "postcode"
+        ]
+    }
+}

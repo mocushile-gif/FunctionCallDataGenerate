@@ -1,0 +1,34 @@
+{
+    "name": "v1_convert",
+    "description": "This is a sub-function API for tool hryvna_today.\nTool description: Exchange rates from Hryvna Today\nAPI description: Converts a sum of money from one currency to another using the specified conversion type and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "to": {
+                "type": "number",
+                "description": "The currency ID to convert to.",
+                "default": 980.0
+            },
+            "sum": {
+                "type": "number",
+                "description": "The sum of money to convert.",
+                "default": 100.0
+            },
+            "is_from": {
+                "type": "number",
+                "description": "The currency ID to convert from.",
+                "default": 840.0
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of conversion, defaults to 'commercial'.",
+                "default": "commercial"
+            }
+        },
+        "required": [
+            "to",
+            "sum",
+            "is_from"
+        ]
+    }
+}

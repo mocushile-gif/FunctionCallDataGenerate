@@ -1,0 +1,23 @@
+{
+    "name": "searchfollowers",
+    "description": "This is a sub-function API for tool instagram_v6.\nTool description: instagram api\nAPI description: Search the followers of a specific Instagram user based on a query.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The ID of the Instagram user whose followers will be searched.",
+                "default": "25025320"
+            },
+            "query": {
+                "type": "string",
+                "description": "The search query to filter the followers.",
+                "default": "fake"
+            }
+        },
+        "required": [
+            "user_id",
+            "query"
+        ]
+    }
+}

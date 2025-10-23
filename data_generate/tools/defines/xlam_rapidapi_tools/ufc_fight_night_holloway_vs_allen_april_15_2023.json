@@ -1,0 +1,18 @@
+{
+    "name": "ufc_fight_night_holloway_vs_allen_april_15_2023",
+    "description": "This is a sub-function API for tool mma_stats.\nTool description: The MMA Stats API can be used to retrieve information about UFC  fighters Statistics ,previous & upcoming fights, or to search for past fights involving specific fighters.\nAPI description: **Get details to UFC Fight Night: Holloway vs. Allen**.                                                          \n Access a range of information about each fighter, including their win-loss record, height, weight, reach, and age. results of a particular fight or a fighter's win-loss record.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The number of records to return. Default is None."
+            },
+            "offset": {
+                "type": "number",
+                "description": "The number of records to skip before starting to return results. Default is None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_play_by_play",
+    "description": "This is a sub-function API for tool nfl_api.\nTool description: This API will provide instant access to all NFL leagues and cups with latest game scores, odds, bookmakers, stats, standings and historical data.\nAPI description: Fetch the NHL game play-by-play data for a specified game.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier for the NHL game.",
+                "default": "401220403"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "leagues",
+    "description": "This is a sub-function API for tool sports_betting_api.\nTool description: Get up and running in less than 5 minutes with our comprehensive developer documentation. Get Start - https://bet365soft.com/docs\nAPI description: Retrieves a list of sports leagues using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lang": {
+                "type": "string",
+                "description": "Language code for the response (e.g., 'en' for English).",
+                "default": "en"
+            },
+            "sp": {
+                "type": "number",
+                "description": "Sport identifier.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "lang",
+            "sp"
+        ]
+    }
+}

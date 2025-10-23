@@ -1,0 +1,17 @@
+{
+    "name": "top_property_managers",
+    "description": "This is a sub-function API for tool airdna.\nTool description: API for Short-Term Rental Data Analytics | Vrbo & Airbnb Data | Rentalizer\nAPI description: Fetches and returns information about the largest property managers for a given location from the AirDNA API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The location to query for the top property managers.",
+                "default": "santa monica"
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

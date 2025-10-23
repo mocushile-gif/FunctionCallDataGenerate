@@ -1,0 +1,20 @@
+{
+    "name": "cinemas_id_showtimes",
+    "description": "This is a sub-function API for tool argentina_movie_theatres.\nTool description: This api will give you data about the movies and showtimes of the 3 main theatre chains in Argentina\nAPI description: Fetches the showtimes for a specified cinema and optionally filters by a given film.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The cinema identifier."
+            },
+            "filmid": {
+                "type": "string",
+                "description": "The film identifier to filter showtimes. Defaults to None."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

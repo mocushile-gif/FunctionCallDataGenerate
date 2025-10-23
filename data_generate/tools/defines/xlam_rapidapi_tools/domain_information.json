@@ -1,0 +1,17 @@
+{
+    "name": "domain_information",
+    "description": "This is a sub-function API for tool whois_lookup_v3.\nTool description: This API pulls up-to-date records from the original data sources in real time, so you can have access to fresh data.\nAPI description: This endpoint pulls the domain information, such as IP, expiration date and much more.\n\n\nParameters:\n-> search - The domain to search, don't add https or http. i.e: google.com",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "search": {
+                "type": "string",
+                "description": "The domain to search (e.g., \"google.com\"). Note that \"http://\" or \"https://\" should not be included.",
+                "default": "google.com"
+            }
+        },
+        "required": [
+            "search"
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "extract",
+    "description": "This is a sub-function API for tool mobile_phone_validation.\nTool description: Extract and validate mobile/cell/phone numbers from text, get extra info and various number formats.\nAPI description: Find and format/validate Phone/Cell numbers in given text.\n    \nCountry used to identify number format and highly recommended to set value in case you know it (as example your shop works only in US and clients have US cellnumbers).\n    \nUse 'country_auto' param in case you can't provide Country and service will try to guess the country :). Country recognition not very fast. Read docs to explain possible values.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text containing phone or cell numbers to be extracted and validated."
+            },
+            "country": {
+                "type": "string",
+                "description": "The country name or ISO2/ISO3 code to be used for identifying the number format. Defaults to None."
+            },
+            "country_auto": {
+                "type": "number",
+                "description": "Flag to auto-detect the country if not provided. Accepts values 0 (false), 1 (fast mode), and 2 (slow mode). Defaults to 0.",
+                "default": 0
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

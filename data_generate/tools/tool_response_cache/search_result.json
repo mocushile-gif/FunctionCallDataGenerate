@@ -1,0 +1,39 @@
+{
+    "{'q': 'Tokyo, Japan', 'latitude': '35.6762', 'longitude': '139.6503'}": {
+        "error": "",
+        "response": {
+            "results": [
+                {
+                    "name": "Tokyo Tower",
+                    "address": "4-2-8 Shibakoen, Minato City, Tokyo",
+                    "coordinates": {
+                        "latitude": "35.6586",
+                        "longitude": "139.7455"
+                    },
+                    "category": "Landmark"
+                },
+                {
+                    "name": "Shibuya Crossing",
+                    "address": "Shibuya, Tokyo",
+                    "coordinates": {
+                        "latitude": "35.6583",
+                        "longitude": "139.7017"
+                    },
+                    "category": "Entertainment"
+                },
+                {
+                    "name": "Tsukiji Market",
+                    "address": "5-2-1 Tsukiji, Chuo City, Tokyo",
+                    "coordinates": {
+                        "latitude": "35.6718",
+                        "longitude": "139.7671"
+                    },
+                    "category": "Food Market"
+                }
+            ],
+            "total_results": 3,
+            "search_query": "Tokyo, Japan",
+            "location_hint": "Refined using coordinates: 35.6762, 139.6503"
+        }
+    }
+}

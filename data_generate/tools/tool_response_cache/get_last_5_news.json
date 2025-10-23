@@ -1,0 +1,44 @@
+{
+    "{'content_type': 'application/json'}": {
+        "error": "",
+        "response": {
+            "news": [
+                {
+                    "title": "Bitcoin Surges Amid Market Optimism",
+                    "summary": "Bitcoin has seen a significant rise in value as market sentiment turns positive. Analysts attribute the surge to increased institutional interest and favorable macroeconomic conditions.",
+                    "sentiment": "positive",
+                    "source": "CryptoDaily",
+                    "uniqueness_score": 0.85
+                },
+                {
+                    "title": "Ethereum Developers Announce Major Upgrade",
+                    "summary": "Ethereum's core development team has revealed details about an upcoming upgrade aimed at improving scalability and reducing transaction costs.",
+                    "sentiment": "neutral",
+                    "source": "CoinDesk",
+                    "uniqueness_score": 0.78
+                },
+                {
+                    "title": "Regulatory Concerns Shake Crypto Market",
+                    "summary": "The crypto market faces uncertainty as new regulatory measures are proposed in key regions, including the US and EU.",
+                    "sentiment": "negative",
+                    "source": "Financial Times",
+                    "uniqueness_score": 0.92
+                },
+                {
+                    "title": "Ripple Gains Momentum in Legal Battle",
+                    "summary": "Ripple has achieved a favorable ruling in its ongoing legal case, boosting investor confidence and driving up XRP prices.",
+                    "sentiment": "positive",
+                    "source": "CryptoNews",
+                    "uniqueness_score": 0.88
+                },
+                {
+                    "title": "DeFi Sector Experiences Rapid Growth",
+                    "summary": "The decentralized finance (DeFi) sector continues to expand, with new projects and increased adoption driving innovation.",
+                    "sentiment": "positive",
+                    "source": "Bloomberg",
+                    "uniqueness_score": 0.81
+                }
+            ]
+        }
+    }
+}

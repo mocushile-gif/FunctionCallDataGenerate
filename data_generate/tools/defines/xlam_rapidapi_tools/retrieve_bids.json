@@ -1,0 +1,25 @@
+{
+    "name": "retrieve_bids",
+    "description": "This is a sub-function API for tool openblur.\nTool description: Unofficial Listings API for blur.io\n\n- For Blur V1 endpoints use this API: https://rapidapi.com/openseatools/api/opensea15\n\n- Crypto Payments Available\n\n- Lifetime Unlimited Requests Licenses Available\n\n- Private Plans with 16 / 32 / 64 / 128  requests/second Available\n\n- Ready made bots written in node.js already configured to work with RapidApi Available.\n\nJoin our Discord to inquire & find out the latest information and tools: \n\nhttps://discord.gg/Yezs2VDhBV\nAPI description: Retrieve bids for a specified contract address from the Blur API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "contractaddress": {
+                "type": "string",
+                "description": "The address of the contract for which to retrieve bids.",
+                "default": "0x231d3559aa848bf10366fb9868590f01d34bf240"
+            },
+            "is_from": {
+                "type": "number",
+                "description": "The starting index from which to retrieve bids. Defaults to None."
+            },
+            "take": {
+                "type": "number",
+                "description": "The number of bids to retrieve. Defaults to None."
+            }
+        },
+        "required": [
+            "contractaddress"
+        ]
+    }
+}

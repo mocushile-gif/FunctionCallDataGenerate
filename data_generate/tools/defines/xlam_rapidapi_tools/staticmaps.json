@@ -1,0 +1,67 @@
+{
+    "name": "staticmaps",
+    "description": "This is a sub-function API for tool maptoolkit.\nTool description: A toolkit for maps: Map tiles, address search (geocoding), routing, static maps & elevation\nAPI description: Generates a static map image URL based on the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "size": {
+                "type": "string",
+                "description": "Size of the map. Format is usually `{width}x{height}`.",
+                "default": "640x480"
+            },
+            "center": {
+                "type": "string",
+                "description": "Center coordinates of the map. Format is `{latitude},{longitude}`.",
+                "default": "48.20835,16.3725"
+            },
+            "zoom": {
+                "type": "number",
+                "description": "Zoom level of the map.",
+                "default": 11.0
+            },
+            "bounds": {
+                "type": "string",
+                "description": "Bounding box to define the map area instead of `center` and `zoom`. Format is `{north},{east},{south},{west}`."
+            },
+            "geojson": {
+                "type": "string",
+                "description": "Value: \n`{attribute}:{value}[|{attribute}:{value} ...]`\nAttributes:\n`geometry` is a GeoJSON string of type `LineString` or `MultiLineString`\n`color` in hex color format `{AABBGGRR}`\n`width` sets the lines thickness\n\nRepeated `geojson` parameters supported."
+            },
+            "maptype": {
+                "type": "string",
+                "description": "Type of the map, defining its appearance. Default is 'toursprung-terrain'.",
+                "default": "toursprung-terrain"
+            },
+            "path": {
+                "type": "string",
+                "description": "Value: \n`{attribute}:{value}[|{attribute}:{value} ...]`\nAttributes:\n`points` are the paths coordinates `{lat},{lng}[|{lat}:{lng} ...]`\n`color` in hex color format `{AABBGGRR}`\n`width` sets the lines thickness\n\nRepeated `path` parameters supported."
+            },
+            "delta_zoom": {
+                "type": "number",
+                "description": "Defines how many zoom levels will get added/removed if it the `zoom` was calculated automatically."
+            },
+            "kml": {
+                "type": "string",
+                "description": "Value: \n`{kml}?{attribute}={value}[&{attribute}={value} ...]`\nAttributes:\n`color` in hex color format `{AABBGGRR}`\n`width` sets the lines thickness\n\nRepeated `kml` parameters supported."
+            },
+            "format": {
+                "type": "string",
+                "description": "File format of the map image. Default is 'png'.",
+                "default": "png"
+            },
+            "marker": {
+                "type": "string",
+                "description": "Value: \n`{attribute}:{value}[|{attribute}:{value} ...]`\nAttributes:\n`center` is the markers location\n`icon` can be any public URL of a PNG or JPEG\n`shadow` can be set to `false` to change the markers anchor from center to bottom\n\nRepeated `marker` parameters supported.\n\n"
+            },
+            "factor": {
+                "type": "string",
+                "description": "Defines the images scaling factor."
+            }
+        },
+        "required": [
+            "size",
+            "center",
+            "zoom"
+        ]
+    }
+}

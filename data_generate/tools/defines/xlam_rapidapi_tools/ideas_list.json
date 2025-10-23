@@ -1,0 +1,47 @@
+{
+    "name": "ideas_list",
+    "description": "This is a sub-function API for tool trading_view.\nTool description: This API helps you to query for data which is obtained by professional providers who have direct and extensive access to stock quotes, futures, popular indices, Forex, Bitcoin and CFDs to create a financial community site/application, such as : tradingview.com\nAPI description: Fetches a list of ideas/posts with various filtering and sorting options.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "locale": {
+                "type": "string",
+                "description": "The language code for the ideas/posts. Default is 'en'.",
+                "default": "en"
+            },
+            "category": {
+                "type": "string",
+                "description": "Filter by category. Options are 'picked', 'newest', 'popular'."
+            },
+            "stock_country": {
+                "type": "string",
+                "description": "The country code for stock-related ideas. Only applicable if the market is 'stock'. Default is 'us'.",
+                "default": "us"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page index for pagination. Default is 1.",
+                "default": 1.0
+            },
+            "per_page": {
+                "type": "number",
+                "description": "The number of items per page for pagination. Default is 20.",
+                "default": 20.0
+            },
+            "market": {
+                "type": "string",
+                "description": "The market type. Options are 'bond', 'futures', 'index', 'forex', 'bitcoin', 'stock'."
+            },
+            "symbol": {
+                "type": "string",
+                "description": "Filter ideas/posts related to the specified symbol (e.g., 'NASDAQ:AAPL')."
+            },
+            "sort": {
+                "type": "string",
+                "description": "Sorting option. Options are 'latest_popular', 'recent', 'picked_time'. Default is 'latest_popular'.",
+                "default": "latest_popular"
+            }
+        },
+        "required": []
+    }
+}

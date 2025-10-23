@@ -1,0 +1,20 @@
+{
+    "name": "business_delta",
+    "description": "This is a sub-function API for tool daysapi.\nTool description: An API that will count business days including holidays for the US.\nAPI description: Given two dates. This endpoint will output the number of business\ndays between them.\n\nDates can be entered in any order. Please enter readable dates.\nDoesn't have to be ISO or RFC formatted dates.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "second_date": {
+                "type": "string",
+                "description": "The second date in the range. Defaults to '2021-09-16'.",
+                "default": "2021-09-16"
+            },
+            "first_date": {
+                "type": "string",
+                "description": "The first date in the range. Defaults to '2021-09-08'.",
+                "default": "2021-09-08"
+            }
+        },
+        "required": []
+    }
+}

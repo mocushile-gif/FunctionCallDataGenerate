@@ -1,0 +1,17 @@
+{
+    "name": "get_a_specific_quote",
+    "description": "This is a sub-function API for tool motivational_content.\nTool description: Get motivational quotes and motivational pictures.\nAPI description: This endpoint fetches a specific quote using the provided 'id'.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the quote to fetch.",
+                "default": "4"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

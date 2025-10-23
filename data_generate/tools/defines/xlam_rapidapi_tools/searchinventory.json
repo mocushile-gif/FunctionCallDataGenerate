@@ -1,0 +1,22 @@
+{
+    "name": "searchinventory",
+    "description": "This is a sub-function API for tool fortnitecosmetics.\nTool description: A data base of fortnite cosmetices\nAPI description: By passing in the appropriate options, you can search for\navailable inventory in the system\n",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "skip": {
+                "type": "number",
+                "description": "The number of records to skip for pagination. Defaults to 0."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of records to return. Defaults to 0, which means no limit."
+            },
+            "searchstring": {
+                "type": "string",
+                "description": "An optional search string to look up inventory items. Defaults to 'string'."
+            }
+        },
+        "required": []
+    }
+}

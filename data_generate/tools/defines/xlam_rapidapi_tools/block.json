@@ -1,0 +1,21 @@
+{
+    "name": "block",
+    "description": "This is a sub-function API for tool unicode_codepoints.\nTool description: A RESTful Interface to Unicode Data, this API gives easy and standardized access to all information from Codepoints.net. The detailed documentation is [available on Github](https://github.com/Boldewyn/Codepoints.net/wiki/API).\nAPI description: Fetches information about a specified Unicode block from the Codepoints API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "block": {
+                "type": "string",
+                "description": "The name of the Unicode block to retrieve information about.",
+                "default": "basic_latin"
+            },
+            "callback": {
+                "type": "string",
+                "description": "The JSON-P function name for the response. Defaults to None."
+            }
+        },
+        "required": [
+            "block"
+        ]
+    }
+}

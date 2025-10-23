@@ -1,0 +1,17 @@
+{
+    "name": "stagecompetitorstandings",
+    "description": "This is a sub-function API for tool motorsportapi.\nTool description: MotorsportApi has live coverage for most popular motorsports including MotoGP, Nascar, World Rally Championship, Moto2, Moto3, Superbike and Deutsche Tourenwagen Meisterschaft (DTM). \nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Retrieve the competitor standings for a specific Motorsport stage using the given stage ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the stage for which to retrieve competitor's standings.",
+                "default": 203968
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

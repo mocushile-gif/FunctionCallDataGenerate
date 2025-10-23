@@ -1,0 +1,25 @@
+{
+    "name": "levels",
+    "description": "This is a sub-function API for tool jet_set_radio_api.\nTool description: A data provider for all things Jet Set Radio in JSON format!\nAPI description: Fetches a list of levels from the Jet Set Radio API with options for sorting, limiting, and ordering the results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sortby": {
+                "type": "string",
+                "description": "The field by which to sort the levels. Example values include 'name' and 'stats'. Default is 'name'.",
+                "default": "name"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of levels to return. Default is '5'.",
+                "default": "5"
+            },
+            "orderby": {
+                "type": "string",
+                "description": "The order in which to sort the results. Possible values are 'asc' for ascending and 'desc' for descending. Default is 'asc'.",
+                "default": "asc"
+            }
+        },
+        "required": []
+    }
+}

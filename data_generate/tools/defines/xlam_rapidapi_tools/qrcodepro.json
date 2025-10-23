@@ -1,0 +1,61 @@
+{
+    "name": "qrcodepro",
+    "description": "This is a sub-function API for tool qrcodeutils.\nTool description: QR Code Generator API. The API will return directly QR Code image. For more details please visit https://www.qrcodeutils.com\nAPI description: Generates a professional QR code with customizable properties and settings.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to encode into the QR code.",
+                "default": "https://www.digicatech.com"
+            },
+            "validate": {
+                "type": "boolean",
+                "description": "Whether to validate the input text. Defaults to None.",
+                "default": true
+            },
+            "setlabel": {
+                "type": "boolean",
+                "description": "Whether to set a label on the QR code. Defaults to None.",
+                "default": false
+            },
+            "forecolor": {
+                "type": "string",
+                "description": "The foreground color of the QR code in hexadecimal format without the # prefix. Defaults to '000000'.",
+                "default": "000000"
+            },
+            "type": {
+                "type": "string",
+                "description": "The output file type for the QR code ('png', 'svg', or 'eps'). Defaults to 'svg'.",
+                "default": "svg"
+            },
+            "labeltext": {
+                "type": "string",
+                "description": "The text to use as a label in the QR code. Defaults to None."
+            },
+            "size": {
+                "type": "number",
+                "description": "The size of the output image in pixels, with a maximum of 4000. Defaults to 150.",
+                "default": 150.0
+            },
+            "labelalign": {
+                "type": "string",
+                "description": "The alignment of the label ('left', 'right', or 'center'). Defaults to 'center'.",
+                "default": "center"
+            },
+            "backcolor": {
+                "type": "string",
+                "description": "The background color of the QR code in hexadecimal format without the # prefix. Defaults to 'FFFFFF'.",
+                "default": "FFFFFF"
+            },
+            "level": {
+                "type": "string",
+                "description": "Correction Level L (Low) 7% of codewords can be restored. Level M (Medium) 15% of codewords can be restored. Level Q (Quartile)[39] 25% of codewords can be restored. Level H (High) 30% of codewords can be restored. H,L,Q,M . Default M. H,L,Q,M . Default M",
+                "default": "M"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

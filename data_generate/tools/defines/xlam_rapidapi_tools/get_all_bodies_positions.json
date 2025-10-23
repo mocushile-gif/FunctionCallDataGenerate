@@ -1,0 +1,45 @@
+{
+    "name": "get_all_bodies_positions",
+    "description": "This is a sub-function API for tool astronomy.\nTool description: A data retrieval interface for the skies... (visit astronomyapi.com and obtain your free API key)\nAPI description: Fetches the positions of celestial bodies for a given location and date range using the Astronomy API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "latitude": {
+                "type": "number",
+                "description": "The latitude of the location for which to get the positions.",
+                "default": 33.775867
+            },
+            "longitude": {
+                "type": "number",
+                "description": "The longitude of the location for which to get the positions.",
+                "default": -84.39733
+            },
+            "from_date": {
+                "type": "string",
+                "description": "The start date for the observation period in the format 'YYYY-MM-DD'.",
+                "default": "2017-12-20"
+            },
+            "to_date": {
+                "type": "string",
+                "description": "The end date for the observation period in the format 'YYYY-MM-DD'.",
+                "default": "2017-12-21"
+            },
+            "elevation": {
+                "type": "number",
+                "description": "The elevation of the location in meters. Defaults to 166.",
+                "default": 166.0
+            },
+            "time": {
+                "type": "string",
+                "description": "The specific time of day for the observation in the format 'HH:MM:SS'. Defaults to '12:00:00'.",
+                "default": "12:00:00"
+            }
+        },
+        "required": [
+            "latitude",
+            "longitude",
+            "from_date",
+            "to_date"
+        ]
+    }
+}

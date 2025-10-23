@@ -1,0 +1,37 @@
+{
+    "name": "game_details",
+    "description": "This is a sub-function API for tool allscores.\nTool description: Beware! Our live match updates may be faster than other API's.\nEnjoy our 24/7 wide coverage of real time scores data for 10 different sports and over 2,000 competitions worldwide, including Real-time Stats, Breaking News, In-Play Insights, Lineups, Live Tables, Fixtures, Social Buzz, Odds and much more.\nSupported 10 Sports Types: Football, Rugby, Tennis, Basketball, Cricket, Ice Hockey, Baseball, Volleyball, American football and Handball.\nAPI description: Fetches detailed information about a game using the provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "timezone": {
+                "type": "string",
+                "description": "The timezone name. Check the tutorials.",
+                "default": "America/Chicago"
+            },
+            "gameid": {
+                "type": "number",
+                "description": "The unique identifier for the game.",
+                "default": 3627363
+            },
+            "langid": {
+                "type": "number",
+                "description": "The language id. Check the tutorials.",
+                "default": 1
+            },
+            "lastupdateid": {
+                "type": "number",
+                "description": "The identifier for the last update. Provides updated data if specified."
+            },
+            "matchupid": {
+                "type": "number",
+                "description": "The identifier for the matchup."
+            }
+        },
+        "required": [
+            "timezone",
+            "gameid",
+            "langid"
+        ]
+    }
+}

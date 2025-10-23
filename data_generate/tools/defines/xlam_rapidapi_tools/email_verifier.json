@@ -1,0 +1,17 @@
+{
+    "name": "email_verifier",
+    "description": "This is a sub-function API for tool disposable_invalid_email_verifier.\nTool description: Our email validation tool makes it simple for you to verify the authenticity of any e-mail address. With just a few clicks, you can confirm if the e-mail address is associated with a valid domain and if it is a temporary or disposable e-mail. These are common indicators of spamming or trolling, which is why we have created an API to help you easily block these unwanted e-mails. Our advanced algorithms and techniques are designed to thoroughly validate each e-mail address, ensuring that you ha...\nAPI description: This endpoint verifies the validity of an email address. It checks the email address format, domain, and whether it is a disposable email address. It then extracts the MX records from the domain's DNS records and connects to the email server via SMTP. The function also simulates sending a message to the email server to confirm that the mailbox associated with the email address actually exists.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to be verified.",
+                "default": "hello@gmail.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'symbol': 'AAPL', 'data': {'one_day_probability_up': 0.428, 'one_week_probability_up': 0.325, 'probability_of_forecast': 0.5, 'one_day_probability_down': 0.572, 'one_month_probability_up': 0.168, 'one_week_probability_down': 0.675, 'one_month_probability_down': 0.832}}"
+    },
+    "{'symbol': 'BTC'}": {
+        "error": "",
+        "response": {
+            "detail": "Not found."
+        }
+    },
+    "{'symbol': 'ETH'}": {
+        "error": "",
+        "response": {
+            "symbol": "ETH",
+            "data": {
+                "one_week_probability_up": 0,
+                "probability_of_forecast": 0.5,
+                "one_month_probability_up": 0,
+                "one_week_probability_down": 1,
+                "one_month_probability_down": 1,
+                "three_month_probability_up": 0,
+                "three_month_probability_down": 1
+            }
+        }
+    },
+    "{'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'symbol': 'TSLA', 'data': {'one_day_probability_up': 0.526, 'one_week_probability_up': 0.506, 'probability_of_forecast': 0.5, 'one_day_probability_down': 0.474, 'one_month_probability_up': 0.54, 'one_week_probability_down': 0.494, 'one_month_probability_down': 0.46}}"
+    },
+    "{'symbol': 'AMZN'}": {
+        "error": "",
+        "response": "{'symbol': 'AMZN', 'data': {'one_day_probability_up': 0.47, 'one_week_probability_up': 0.449, 'probability_of_forecast': 0.5, 'one_day_probability_down': 0.53, 'one_month_probability_up': 0.357, 'one_week_probability_down': 0.551, 'one_month_probability_down': 0.643}}"
+    },
+    "{'symbol': 'MSFT'}": {
+        "error": "",
+        "response": "{'symbol': 'MSFT', 'data': {'one_day_probability_up': 0.445, 'one_week_probability_up': 0.368, 'probability_of_forecast': 0.5, 'one_day_probability_down': 0.555, 'one_month_probability_up': 0.273, 'one_week_probability_down': 0.632, 'one_month_probability_down': 0.727}}"
+    },
+    "{'symbol': 'GOOG'}": {
+        "error": "",
+        "response": "{'symbol': 'GOOG', 'data': {'one_day_probability_up': 0.481, 'one_week_probability_up': 0.432, 'probability_of_forecast': 0.5, 'one_day_probability_down': 0.519, 'one_month_probability_up': 0.406, 'one_week_probability_down': 0.568, 'one_month_probability_down': 0.594}}"
+    }
+}

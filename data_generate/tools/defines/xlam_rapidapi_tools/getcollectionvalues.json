@@ -1,0 +1,14 @@
+{
+    "name": "getcollectionvalues",
+    "description": "This is a sub-function API for tool the_cancer_imaging_archive.\nTool description: NOTE: You need an API-Key to use this API. See README for more details.\r\nThe Cancer Imaging Archive (TCIA) is a public repository of cancer images and related clinical data for the express purpose of enabling open science research. Currently over 26 million radiologic images of cancer are contained in this repository. The API allows you to query metadata and download images from the various public collections available on TCIA\nAPI description: Fetches all TCIA collection names, optionally specifying the output format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "format": {
+                "type": "string",
+                "description": "The desired output format, which can be one of 'CSV', 'HTML', 'XML', or 'JSON'. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

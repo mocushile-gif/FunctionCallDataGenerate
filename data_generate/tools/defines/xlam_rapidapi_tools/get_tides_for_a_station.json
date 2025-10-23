@@ -1,0 +1,22 @@
+{
+    "name": "get_tides_for_a_station",
+    "description": "This is a sub-function API for tool noaa_tides.\nTool description: United States NOAA tide height and time predictions in JSON format.\nAPI description: Retrieves tide information for a specified station ID on a given date using the RapidAPI NOAA Tides service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the tide station to get information for.",
+                "default": "9411340"
+            },
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve tide information in YYYYMMDD format. Defaults to '20220625'.",
+                "default": "20220625"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

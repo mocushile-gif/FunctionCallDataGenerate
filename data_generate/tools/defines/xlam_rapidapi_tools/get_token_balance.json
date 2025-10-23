@@ -1,0 +1,23 @@
+{
+    "name": "get_token_balance",
+    "description": "This is a sub-function API for tool pancakeswap_api_freemium.\nTool description: All Pancakeswap API ( Feel Free To Ask For More Endpoints )\nAPI description: Fetches the balance of a specific token for a given address using the PancakeSwap API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "type": "string",
+                "description": "The blockchain address to check the token balance for.",
+                "default": "0xe9e7cea3dedca5984780bafc599bd69add087d56"
+            },
+            "token": {
+                "type": "string",
+                "description": "The token identifier (contract address or symbol) to check the balance of.",
+                "default": "0xe9e7cea3dedca5984780bafc599bd69add087d56"
+            }
+        },
+        "required": [
+            "address",
+            "token"
+        ]
+    }
+}

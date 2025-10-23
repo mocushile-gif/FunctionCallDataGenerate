@@ -1,0 +1,17 @@
+{
+    "name": "market_auto_complete",
+    "description": "This is a sub-function API for tool bb_finance.\nTool description: This API helps to query for all information about finance summary, stocks, quotes, movers, etc… to create a financial site/application such as bloomberg.com\nAPI description: Fetches market auto-complete suggestions based on a query term or phrase.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The query term or phrase for which to get auto-complete suggestions.",
+                "default": "apple"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "weather_dataset",
+    "description": "This is a sub-function API for tool weather_dataset.\nTool description: Weather_data Set on Django Project\nAPI description: Fetches weather data from the Weather Dataset API using provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "data": {
+                "type": "string",
+                "description": "The specific weather data to query from the API. Defaults to '1'.",
+                "default": "1"
+            }
+        },
+        "required": []
+    }
+}

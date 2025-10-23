@@ -1,0 +1,19 @@
+{
+    "name": "calculate_internal_rate_of_return",
+    "description": "Calculates the Internal Rate of Return (IRR) for a series of cash flows. The IRR is a financial metric used to estimate the profitability of potential investments. It is the discount rate that makes the net present value (NPV) of all cash flows from a particular project equal to zero.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cash_flows": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "A list of cash flows (can be negative for outflows and positive for inflows)."
+            }
+        },
+        "required": [
+            "cash_flows"
+        ]
+    }
+}

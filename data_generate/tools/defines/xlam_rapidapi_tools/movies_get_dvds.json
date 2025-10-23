@@ -1,0 +1,15 @@
+{
+    "name": "movies_get_dvds",
+    "description": "This is a sub-function API for tool flixster.\nTool description: This API helps to query for movies, actors, theaters, showtime, etc... to create a site/application, such as : rottentomatoes.com, flixster.com\nAPI description: Fetches a list of DVDs based on the specified type of movie using the Flixster API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "typemovie": {
+                "type": "string",
+                "description": "The type of movie to filter DVDs by. Can be one of the following: 'NEW_RELEASE' or 'COMING_SOON'. Default is 'NEW_RELEASE'.",
+                "default": "NEW_RELEASE"
+            }
+        },
+        "required": []
+    }
+}

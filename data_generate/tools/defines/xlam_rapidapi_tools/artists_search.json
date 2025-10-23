@@ -1,0 +1,31 @@
+{
+    "name": "artists_search",
+    "description": "This is a sub-function API for tool songmeanings.\nTool description: Easily follow and track your favorite artists on SongMeanings!\r\nBe the first to know about new lyrics, song meanings & more!\nAPI description: Search the SongMeanings database for artist names and aliases using various query parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The query string used to search for artist names and aliases."
+            },
+            "page": {
+                "type": "string",
+                "description": "The starting page of results. Defaults to '1'.",
+                "default": "1"
+            },
+            "page_size": {
+                "type": "string",
+                "description": "The number of results returned per page. Defaults to '25'.",
+                "default": "25"
+            },
+            "matchmode": {
+                "type": "string",
+                "description": "Configure how matching occurs (see further parameter values)",
+                "default": "extended"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

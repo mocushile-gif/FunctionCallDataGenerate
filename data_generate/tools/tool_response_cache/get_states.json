@@ -1,0 +1,48 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "page": 1,
+            "total_items": 0,
+            "total_pages": 0,
+            "total": 0,
+            "data": []
+        }
+    },
+    "{'keyword': 'Europe', 'page': 1}": {
+        "error": "",
+        "response": "{'page': 1, 'total_items': 0, 'total_pages': 0, 'total': 0, 'data': []}"
+    },
+    "{'keyword': 'Europe', 'page': 2}": {
+        "error": "",
+        "response": "{'page': 1, 'total_items': 0, 'total_pages': 0, 'total': 0, 'data': []}"
+    },
+    "{'keyword': 'Brazil', 'perpage': 50, 'page': 1}": {
+        "error": "",
+        "response": "{'page': 1, 'total_items': 0, 'total_pages': 0, 'total': 0, 'data': []}"
+    },
+    "{'keyword': 'BR', 'perpage': 50, 'page': 1}": {
+        "error": "",
+        "response": "{'page': 1, 'total_items': 87, 'total_pages': 2, 'total': 50, 'data': [{'id': 'x6jay05pl8holmq', 'name': 'Librazhd District', 'state_code': 'LB', 'latitude': '41.18292320', 'longitude': '20.31747690', 'cities': []}, {'id': '6uryefuu0orbkz7', 'name': 'Jabrayil District', 'state_code': 'CAB', 'latitude': '39.26455440', 'longitude': '46.96215620', 'cities': [{'id': '2bdkyca9siz4yhl', 'name': 'Jebrail', 'latitude': '39.39917000', 'longitude': '47.02835000'}]}, {'id': '09a8txg65mtbszp', 'name': 'Shabran District', 'state_code': 'SBN', 'latitude': '41.22283760', 'longitude': '48.84573040', 'cities': [{'id': '41azv8in8t9z2rk', 'name': 'Divichibazar', 'latitude': '41.20117000', 'longitude': '48.98712000'}]}, {'id': 'm3ibkra1fmc8q7j', 'name': 'Brahmanbaria District', 'state_code': '04', 'latitude': '23.96081810', 'longitude': '91.11150140', 'cities': []}, {'id': 'foscx5su1e6gwtz', 'name': 'Brest Region', 'state_code': 'BR', 'latitude': '52.52966410', 'longitude': '25.46064800', 'cities': [{'id': 'z4zybqagoiadv2r', 'name': 'Antopal\u2019', 'latitude': '52.20380000', 'longitude': '24.78630000'}, {'id': 'wf1wtmr1ki0520e', 'name': 'Asnyezhytsy', 'latitude': '52.18910000', 'longitude': '26.12990000'}, {'id': 'l94sq9imv50fq8f', 'name': 'Baranovichi', 'latitude': '53.13270000', 'longitude': '26.01390000'}, {'id': 'df2fsskw1ewwi53', 'name': 'Baranovichskiy Rayon', 'latitude': '53.16667000', 'longitude': '25.83333000'}, {'id': '5tbircldmu702h4', 'name': 'Brest', 'latitude': '52.09755000', 'longitud"
+    },
+    "{'keyword': 'US', 'perpage': 20, 'page': 1}": {
+        "error": "",
+        "response": "{'page': 1, 'total_items': 94, 'total_pages': 5, 'total': 20, 'data': [{'id': 'spka0pfs5oz7fbu', 'name': 'Lushnj\u00eb District', 'state_code': 'LU', 'latitude': '40.94198300', 'longitude': '19.69964280', 'cities': []}, {'id': '80wx473o0j4nw5e', 'name': 'Tavush Region', 'state_code': 'TV', 'latitude': '40.88662960', 'longitude': '45.33934900', 'cities': [{'id': 'gr5x025utf7mt3o', 'name': 'Archis', 'latitude': '41.16351000', 'longitude': '44.87631000'}, {'id': '8faz1op7no3j013', 'name': 'Artsvaberd', 'latitude': '40.83947000', 'longitude': '45.47033000'}, {'id': '5cl4ceglvzcphzd', 'name': 'Aygehovit', 'latitude': '40.97951000', 'longitude': '45.25033000'}, {'id': '8fucp868qmyf2ea', 'name': 'Azatamut', 'latitude': '40.98204000', 'longitude': '45.18551000'}, {'id': 'zbqvzqtm8qpzemk', 'name': 'Bagratashen', 'latitude': '41.24358000', 'longitude': '44.81737000'}, {'id': 'ann0ujaebzajdwa', 'name': 'Berd', 'latitude': '40.88135000', 'longitude': '45.38901000'}, {'id': 'eecdylmy6oa2yq5', 'name': 'Berdavan', 'latitude': '41.20503000', 'longitude': '44.99967000'}, {'id': '1dbejxp7sqt7x0k', 'name': 'Dilijan', 'latitude': '40.74170000', 'longitude': '44.85010000'}, {'id': '1bdtoxaw9q8y5g7', 'name': 'Haghartsin', 'latitude': '40.77614000', 'longitude': '44.96847000'}, {'id': '3l8skotovs7omhw', 'name': 'Ijevan', 'latitude': '40.87877000', 'longitude': '45.14851000'}, {'id': 'innnslc8nrsmzow', 'name': 'Khasht\u2019arrak', 'latitude': '40.93668000', 'longitude': '45.18210000'}, {'id': 'uq39waqvxtsln2p"
+    },
+    "{'keyword': 'asia'}": {
+        "error": "",
+        "response": "{'page': 1, 'total_items': 0, 'total_pages': 0, 'total': 0, 'data': []}"
+    },
+    "{'keyword': 'Russia'}": {
+        "error": "",
+        "response": "{'page': 1, 'total_items': 0, 'total_pages': 0, 'total': 0, 'data': []}"
+    },
+    "{'keyword': 'Kazakhstan'}": {
+        "error": "",
+        "response": "{'page': 1, 'total_items': 3, 'total_pages': 1, 'total': 3, 'data': [{'id': '7zofmplexzcsfjc', 'name': 'East Kazakhstan Region', 'state_code': 'VOS', 'latitude': '48.70626870', 'longitude': '80.79225340', 'cities': [{'id': 'f4cw3yebfcedtkv', 'name': 'Altayskiy', 'latitude': '50.24593000', 'longitude': '82.36252000'}, {'id': 'nzqgk1zybrgg47w', 'name': 'Aqtoghay', 'latitude': '46.95000000', 'longitude': '79.66667000'}, {'id': '40tmpvf5i5394rv', 'name': 'As\u016bbulaq', 'latitude': '49.55688000', 'longitude': '83.06355000'}, {'id': 'cif2a0dyyq7k29b', 'name': 'Auezov', 'latitude': '49.71003000', 'longitude': '81.58018000'}, {'id': '4zdef373piblbtu', 'name': 'Ayagoz', 'latitude': '47.96447000', 'longitude': '80.43437000'}, {'id': '6ntnfbss0ibhuzs', 'name': 'Belogorsk\u012by', 'latitude': '49.47698000', 'longitude': '83.14803000'}, {'id': '40rfxiglgmxu3k6', 'name': 'Belousovka', 'latitude': '50.13287000', 'longitude': '82.52481000'}, {'id': 'ojpd21e0kbfth3b', 'name': 'Borodulikha', 'latitude': '50.71841000', 'longitude': '80.92950000'}, {'id': 'w287ecnwfgmo9go', 'name': 'Georg\u012bevka', 'latitude': '49.32671000', 'longitude': '81.57373000'}, {'id': '71jlzhnwvq6zgn5', 'name': 'Glubokoye', 'latitude': '50.13887000', 'longitude': '82.31114000'}, {'id': 'nqg8qzqa27lda6g', 'name': 'Kurchatov', 'latitude': '50.75617000', 'longitude': '78.54188000'}, {'id': 'lsa4twlq4b1gbjj', 'name': 'Kurchum', 'latitude': '48.56603000', 'longitude': '83.66146000'}, {'id': 't3oshxrakpvsixf', 'name': 'Maleyevsk', 'lati"
+    },
+    "{'keyword': 'KZ'}": {
+        "error": "",
+        "response": "{'page': 1, 'total_items': 0, 'total_pages': 0, 'total': 0, 'data': []}"
+    }
+}

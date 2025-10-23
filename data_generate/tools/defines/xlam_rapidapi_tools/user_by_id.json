@@ -1,0 +1,17 @@
+{
+    "name": "user_by_id",
+    "description": "This is a sub-function API for tool reqres_dont_change.\nTool description: \nAPI description: Fetches user information by user ID from the Instagram API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the user to fetch information for.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

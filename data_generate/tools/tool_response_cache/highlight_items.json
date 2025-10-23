@@ -1,0 +1,25 @@
+{
+    "{'highlightid': '178459237893765_987654321'}": {
+        "error": "",
+        "response": [
+            {
+                "highlight_id": "178459237893765_987654321",
+                "media_id": "178459237893765_987654321_1",
+                "media_type": "photo",
+                "media_url": "https://example.com/highlight_photo_1.jpg",
+                "timestamp": "2023-09-15T08:30:00Z",
+                "username": "example_user",
+                "text": "Check out my latest adventure! \ud83c\udf0d"
+            },
+            {
+                "highlight_id": "178459237893765_987654321",
+                "media_id": "178459237893765_987654321_2",
+                "media_type": "video",
+                "media_url": "https://example.com/highlight_video_1.mp4",
+                "timestamp": "2023-09-14T15:45:00Z",
+                "username": "example_user",
+                "text": "Behind-the-scenes of my project! \ud83d\udee0\ufe0f"
+            }
+        ]
+    }
+}

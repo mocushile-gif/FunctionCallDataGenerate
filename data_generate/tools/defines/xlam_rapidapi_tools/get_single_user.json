@@ -1,0 +1,16 @@
+{
+    "name": "get_single_user",
+    "description": "This is a sub-function API for tool uers_api.\nTool description: Fake users data for Employee Management\nAPI description: Retrieves individual user data for a provided user ID from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the user for which to retrieve data."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

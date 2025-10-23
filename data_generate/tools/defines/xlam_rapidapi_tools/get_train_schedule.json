@@ -1,0 +1,17 @@
+{
+    "name": "get_train_schedule",
+    "description": "This is a sub-function API for tool irctc.\nTool description: An API with various functionalities for Indian railways IRCTC API. We are not affiliated with Indian railways IRCTC in any form, and this is not an official API, but all the results are real-time and accurate. You can get in touch with us at https://t.me/rapidapisupport. For payment related inquiries, APIs and customised plans.\nAPI description: Fetches the train schedule for a given train number using the IRCTC API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "trainno": {
+                "type": "string",
+                "description": "The train number for which the schedule is to be fetched.",
+                "default": "12936"
+            }
+        },
+        "required": [
+            "trainno"
+        ]
+    }
+}

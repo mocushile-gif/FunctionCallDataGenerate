@@ -1,0 +1,29 @@
+{
+    "name": "veiculo_tipo_id_marca_id_modelo",
+    "description": "This is a sub-function API for tool veiculos_api.\nTool description: Tabela FIPE - Busca por marca, modelo e versão. Atualizado: 08/08/2023\nAPI description: Sends a GET request to the veiculos API to retrieve vehicle information based on the type, brand, and model provided.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "id_marca": {
+                "type": "string",
+                "description": "The ID of the vehicle's brand.",
+                "default": "6"
+            },
+            "id_modelo": {
+                "type": "string",
+                "description": "The ID of the vehicle's model.",
+                "default": "43"
+            },
+            "veiculo_tipo": {
+                "type": "string",
+                "description": "The type of the vehicle (e.g., car, bike).",
+                "default": "carros"
+            }
+        },
+        "required": [
+            "id_marca",
+            "id_modelo",
+            "veiculo_tipo"
+        ]
+    }
+}

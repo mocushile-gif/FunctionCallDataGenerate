@@ -1,0 +1,42 @@
+{
+    "{'username': 'charlidamelio', 'limit': 200}": {
+        "error": "",
+        "response": "{'has_more': False, 'max_cursor': '', 'media': []}"
+    },
+    "{'username': 'charlidamelio', 'limit': 50}": {
+        "error": "",
+        "response": "{'has_more': False, 'max_cursor': '', 'media': []}"
+    },
+    "{'sec_uid': 'MS4967239817465321098', 'limit': 200, 'max_cursor': 1623456789}": {
+        "error": "",
+        "response": "{'has_more': False, 'max_cursor': '', 'media': []}"
+    },
+    "{'username': 'tesla', 'limit': 10}": {
+        "error": "",
+        "response": "{'has_more': False, 'max_cursor': '', 'media': []}"
+    },
+    "{'username': 'rivian', 'limit': 10}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested data\"}"
+    },
+    "{'username': 'TeslaInc', 'limit': 10}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested data\"}"
+    },
+    "{'username': 'RivianMotors', 'limit': 10}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested data\"}"
+    },
+    "{'username': 'RedBullRacing', 'limit': 10}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested data\"}"
+    },
+    "{'username': 'charlidamelio', 'limit': 10}": {
+        "error": "",
+        "response": "{'has_more': False, 'max_cursor': '', 'media': []}"
+    },
+    "{'sec_uid': 'MSH6R20hXjg', 'limit': 10}": {
+        "error": "",
+        "response": "{'has_more': False, 'max_cursor': '', 'media': []}"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "kompas_search",
+    "description": "This is a sub-function API for tool indonesia_news.\nTool description: We are focused on delivering data from major news websites in Indonesia.\nAPI description: Performs a search on the Kompas news API using the provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The number of search results to retrieve.",
+                "default": 10.0
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve in the paginated results.",
+                "default": 1.0
+            },
+            "command": {
+                "type": "string",
+                "description": "The search command or keyword.",
+                "default": "banjir"
+            }
+        },
+        "required": [
+            "limit",
+            "page",
+            "command"
+        ]
+    }
+}

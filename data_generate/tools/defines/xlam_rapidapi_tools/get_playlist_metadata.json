@@ -1,0 +1,25 @@
+{
+    "name": "get_playlist_metadata",
+    "description": "This is a sub-function API for tool spotify_scraper.\nTool description: An all-in-one scraper for scraping everything on Spotify, and a highly available download solution for tracks, lyrics and episode previews.\nAPI description: Fetches full details of a Spotify playlist using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "playlistid": {
+                "type": "string",
+                "description": "The ID of the Spotify playlist.",
+                "default": "5782GLkrpvN8zbJQRjMaSW"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The max number of items returned per request. Defaults to `0`."
+            },
+            "offset": {
+                "type": "number",
+                "description": "The number of items to skip before starting to return results. Defaults to None."
+            }
+        },
+        "required": [
+            "playlistid"
+        ]
+    }
+}

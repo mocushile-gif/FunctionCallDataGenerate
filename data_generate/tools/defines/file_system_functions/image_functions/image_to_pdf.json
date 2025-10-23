@@ -1,0 +1,39 @@
+{
+  "name": "image_to_pdf",
+  "description": "Convert multiple images to a single PDF document with customizable page settings.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "image_paths": {
+        "type": "array",
+        "items": {"type": "string"},
+        "description": "List of paths to input image files",
+        "minItems": 1
+      },
+      "output_path": {
+        "type": "string",
+        "description": "Path for the output PDF file. If not provided, will create auto-named file."
+      },
+      "page_size": {
+        "type": "string",
+        "description": "Page size for the PDF",
+        "enum": ["A4", "A3", "A5", "Letter", "Legal"],
+        "default": "A4"
+      },
+      "orientation": {
+        "type": "string",
+        "description": "Page orientation",
+        "enum": ["portrait", "landscape"],
+        "default": "portrait"
+      },
+      "margin": {
+        "type": "integer",
+        "description": "Margin around images in pixels (0-100)",
+        "default": 20,
+        "minimum": 0,
+        "maximum": 100
+      }
+    },
+    "required": ["image_paths"]
+  }
+} 

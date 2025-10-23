@@ -1,0 +1,27 @@
+{
+    "name": "calculate_wire_resistance",
+    "description": "Calculates the resistance of a wire based on its length, cross-sectional area, and material resistivity. The function supports copper and aluminum materials.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "length_m": {
+                "type": "number",
+                "description": "The length of the wire in meters."
+            },
+            "area_sq_m": {
+                "type": "number",
+                "description": "The cross-sectional area of the wire in square meters."
+            },
+            "material": {
+                "type": "string",
+                "description": "The material of the wire. Allowed values: \"copper\" (default) or \"aluminum\".",
+                "enum": ["copper", "aluminum"],
+                "default": "copper"
+            }
+        },
+        "required": [
+            "length_m",
+            "area_sq_m"
+        ]
+    }
+}

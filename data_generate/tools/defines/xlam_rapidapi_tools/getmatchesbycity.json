@@ -1,0 +1,17 @@
+{
+    "name": "getmatchesbycity",
+    "description": "This is a sub-function API for tool ipl_api.\nTool description: It is api thats gives the data about IPL(2008-2020) matches data . \nAPI description: Fetches all the cricket matches held in a specified city using the IPL API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "city": {
+                "type": "string",
+                "description": "The name of the city to filter the cricket matches by.",
+                "default": "Kolkata"
+            }
+        },
+        "required": [
+            "city"
+        ]
+    }
+}

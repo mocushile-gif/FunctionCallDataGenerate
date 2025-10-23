@@ -1,0 +1,33 @@
+{
+    "name": "time_series_endpoint",
+    "description": "This is a sub-function API for tool currency_conversion_and_exchange_rates.\nTool description: Simple reliable API for current and historical foreign exchange (forex) currency rates.\nAPI description: Retrieve historical rates between two specified dates.\n\n`Maximum of 365 day time range`",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start_date": {
+                "type": "string",
+                "description": "The start date for the time series data in `YYYY-MM-DD` format.",
+                "default": "2019-01-01"
+            },
+            "end_date": {
+                "type": "string",
+                "description": "The end date for the time series data in `YYYY-MM-DD` format.",
+                "default": "2019-01-02"
+            },
+            "is_from": {
+                "type": "string",
+                "description": "Three-letter currency code of the currency would would like to convert from. This currency will be converted into the code of the currency provided in the `to` parameter",
+                "default": "USD"
+            },
+            "to": {
+                "type": "string",
+                "description": "A comma-separated list of target currency codes to convert to. Defaults to 'EUR,GBP'.",
+                "default": "EUR,GBP"
+            }
+        },
+        "required": [
+            "start_date",
+            "end_date"
+        ]
+    }
+}

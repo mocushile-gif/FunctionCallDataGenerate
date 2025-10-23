@@ -1,0 +1,42 @@
+{
+    "name": "create_thumbnail_from_image",
+    "description": "Create a thumbnail from an image with customizable size, quality, and format options.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the input image file"
+        },
+        "size": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "description": "Thumbnail size as [width, height] in pixels",
+          "default": [150, 150]
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output thumbnail"
+        },
+        "maintain_aspect_ratio": {
+          "type": "boolean",
+          "description": "Whether to maintain aspect ratio",
+          "default": true
+        },
+        "quality": {
+          "type": "integer",
+          "description": "JPEG quality (1-100)",
+          "default": 85
+        },
+        "format": {
+          "type": "string",
+          "description": "Output format",
+          "enum": ["JPEG", "PNG", "WEBP"],
+          "default": "JPEG"
+        }
+      },
+      "required": ["image_path"]
+    }
+  } 

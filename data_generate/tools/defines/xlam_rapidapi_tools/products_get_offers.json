@@ -1,0 +1,27 @@
+{
+    "name": "products_get_offers",
+    "description": "This is a sub-function API for tool consumer_reports.\nTool description: This API helps to query trusted ratings and reviews for the products, cars and services used every day to create a review site such as : consumerreports.org\nAPI description: Fetches offers for a specific product model from various sites.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "modelid": {
+                "type": "number",
+                "description": "The unique identifier of the product model for which to fetch offers.",
+                "default": 397144.0
+            },
+            "page": {
+                "type": "number",
+                "description": "The page index for pagination, starting from 0. Default is 0.",
+                "default": 0.0
+            },
+            "size": {
+                "type": "number",
+                "description": "The number of items per page for pagination. Default is 100.",
+                "default": 100.0
+            }
+        },
+        "required": [
+            "modelid"
+        ]
+    }
+}

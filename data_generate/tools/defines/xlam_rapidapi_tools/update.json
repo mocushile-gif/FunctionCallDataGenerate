@@ -1,0 +1,29 @@
+{
+    "name": "update",
+    "description": "This is a sub-function API for tool ptl.\nTool description: receive user\nAPI description: Updates data on a specified endpoint using the provided information and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "info3": {
+                "type": "string",
+                "description": "The third piece of information to be sent as a query parameter.",
+                "default": "333"
+            },
+            "info1": {
+                "type": "string",
+                "description": "The first piece of information to be sent as a query parameter.",
+                "default": "111"
+            },
+            "info2": {
+                "type": "string",
+                "description": "The second piece of information to be sent as a query parameter.",
+                "default": "222"
+            }
+        },
+        "required": [
+            "info3",
+            "info1",
+            "info2"
+        ]
+    }
+}

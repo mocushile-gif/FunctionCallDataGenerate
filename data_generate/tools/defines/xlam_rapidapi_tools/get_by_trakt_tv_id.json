@@ -1,0 +1,21 @@
+{
+    "name": "get_by_trakt_tv_id",
+    "description": "This is a sub-function API for tool mdblist.\nTool description: Get Movies and TV Shows data with ratings from multiple providers in JSON format\nAPI description: Fetches movie or TV show information from the RapidAPI MDB List service based on a given Trakt.tv ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "t": {
+                "type": "string",
+                "description": "A valid Trakt.tv ID representing the movie or TV show.",
+                "default": "457"
+            },
+            "m": {
+                "type": "string",
+                "description": "The media type, either 'movie' or 'show'. Defaults to 'movie' if not specified."
+            }
+        },
+        "required": [
+            "t"
+        ]
+    }
+}

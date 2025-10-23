@@ -1,0 +1,58 @@
+{
+    "{'query': 'popular profiles on Instagram'}": {
+        "error": "",
+        "response": {
+            "users": [],
+            "places": [],
+            "hashtags": [],
+            "has_more": false,
+            "rank_token": "9d68c442-968a-408e-8ced-1eee8b81a681",
+            "clear_client_cache": null,
+            "status": "ok"
+        }
+    },
+    "{'query': 'https://www.instagram.com/p/CqIbCzYMi5C/'}": {
+        "error": "",
+        "response": {
+            "users": [],
+            "places": [],
+            "hashtags": [],
+            "has_more": false,
+            "rank_token": "3493b09c-c734-4ba1-9381-c48c43938beb",
+            "clear_client_cache": null,
+            "status": "ok"
+        }
+    },
+    "{'query': 'social media addiction'}": {
+        "error": "",
+        "response": "{'status': 'ok', 'hashtags': [], 'places': [], 'users': [{'position': 0, 'user': {'username': 'social_media_addiction', 'is_verified': False, 'full_name': 'Social Media', 'search_social_context': None, 'unseen_count': None, 'pk': '6718446051', 'live_broadcast_visibility': None, 'live_broadcast_id': None, 'latest_reel_media': None, 'seen': None, 'profile_pic_url': 'https://instagram.fbcn2-1.fna.fbcdn.net/v/t51.2885-19/25035983_180886075829298_2838249487393095680_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=instagram.fbcn2-1.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2QHH9Fr04X6JKfDzeV_PeDKBNRi19Jj4JXNLn1ishXuV8RdO6h22QogNLNsq90si-No&_nc_ohc=o60jltko3Z0Q7kNvwHuZXoT&_nc_gid=UV1HYJxpJsHbfELmD9AyaQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfKWslM1K08YIm1CWemslOZwm_TZoPNTTinCu7JNoFSybg&oe=6841733A&_nc_sid=10d13b', 'is_unpublished': None, 'id': '6718446051'}}, {'position': 1, 'user': {'username': 'social__media__addiction', 'is_verified': False, 'full_name': '\u05d4\u05ea\u05de\u05db\u05e8\u05d5\u05ea \u05dc\u05e8\u05e9\u05ea\u05d5\u05ea \u05d7\u05d1\u05e8\u05ea\u05d9\u05d5\u05ea', 'search_social_context': None, 'unseen_count': None, 'pk': '51078961989', 'live_broadcast_visibility': None, 'live_broadcast_id': None, 'latest_reel_media': None, 'seen': None, 'profile_pic_url': 'https://instagram.fbcn2-1.fna.fbcdn.net/v/t51.2885-19/276252686_3189302111337768_9075409001862025648_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=instagram.fbcn2-1.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2QHH9Fr04X6JKfDzeV_PeDKBNRi19Jj4JXNLn1ishXuV8RdO6h22QogNLNsq90si-No&_nc_ohc=wL7rzVJGWIwQ7kNvwGpdGK0&_nc_gid=UV1HYJxpJsHbfELmD9AyaQ&edm"
+    },
+    "{'query': 'academic stress social media'}": {
+        "error": "",
+        "response": "{'status': 'ok', 'hashtags': [], 'places': [], 'users': [], 'attempts': '1'}"
+    },
+    "{'query': 'AI-generated live instrument collaborations'}": {
+        "error": "",
+        "response": "{'status': 'ok', 'hashtags': [], 'places': [], 'users': [], 'attempts': '1'}"
+    },
+    "{'query': 'AI live music collaboration'}": {
+        "error": "",
+        "response": "{'status': 'ok', 'hashtags': [], 'places': [], 'users': [], 'attempts': '1'}"
+    },
+    "{'query': '#AIOrchestraLive SynthAI_Collabs'}": {
+        "error": "",
+        "response": "{'status': 'ok', 'hashtags': [], 'places': [], 'users': [], 'attempts': '2'}"
+    },
+    "{'query': '#AISynthLive AI_Live_Sessions'}": {
+        "error": "",
+        "response": "{'status': 'ok', 'hashtags': [], 'places': [], 'users': [], 'attempts': '2'}"
+    },
+    "{'query': '#MavsMagic'}": {
+        "error": "",
+        "response": "{'status': 'ok', 'hashtags': [], 'places': [], 'users': [], 'attempts': '2'}"
+    },
+    "{'query': '#BucksDominance'}": {
+        "error": "",
+        "response": "{'status': 'ok', 'hashtags': [], 'places': [], 'users': [], 'attempts': '1'}"
+    }
+}

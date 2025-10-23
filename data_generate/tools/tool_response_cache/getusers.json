@@ -1,0 +1,19 @@
+{
+    "{'email': 'tech'}": {
+        "error": "",
+        "response": [
+            {
+                "id": "001",
+                "name": "John Tech",
+                "email": "john@techlabs.com",
+                "status": "active"
+            },
+            {
+                "id": "015",
+                "name": "Alex Dev",
+                "email": "alex.techdev@example.net",
+                "status": "inactive"
+            }
+        ]
+    }
+}

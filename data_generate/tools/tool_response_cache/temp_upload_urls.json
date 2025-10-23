@@ -1,0 +1,40 @@
+{
+    "{'source_name': 'original', 'video_id': '99999', 'account_id': 'my_account'}": {
+        "error": "",
+        "response": {
+            "url": "https://upload.brightcove.com/v1/accounts/my_account/videos/99999/uploads/original",
+            "method": "POST",
+            "expires_in": 3600,
+            "headers": {
+                "Authorization": "BCOV-Policy <Access_Token>",
+                "Content-Type": "multipart/form-data"
+            },
+            "upload_instructions": "Upload your file to the provided URL using the POST method. Set the 'Content-Type' header to 'multipart/form-data'. The URL and Authorization token will expire in 1 hour. Please ensure your upload is completed within this timeframe."
+        }
+    },
+    "{'source_name': 'original', 'video_id': '99999', 'account_id': '12345'}": {
+        "error": "",
+        "response": {
+            "url": "https://upload.brightcove.com/v1/accounts/12345/videos/99999/uploads/original",
+            "method": "POST",
+            "expires_in": 3600,
+            "headers": {
+                "Authorization": "BCOV-Policy <Access_Token>",
+                "Content-Type": "multipart/form-data"
+            },
+            "upload_instructions": "Upload your file to the provided URL using the POST method. Set the 'Content-Type' header to 'multipart/form-data'. The URL and Authorization token will expire in 1 hour. Please ensure your upload is completed within this timeframe."
+        }
+    },
+    "{'source_name': 'Nutrition Recipe Video', 'video_id': 'vid-123e4567-e89b-12d3-a456-426614174000', 'account_id': 'acc_789456'}": {
+        "error": "",
+        "response": "{'bucket': 'ingestion-upload-production', 'object_key': '57838016001/67909129001/c7e6f28b-9057-4616-a7aa-66a0eb836236/greatblueheron.mp4', 'access_key_id': 'ASIA25ESRNXKNDUXGJ', 'secret_access_key': 'lV1OPGGND6UCVWuv8SUT4/ZS1S+L2Z6BczCpN', 'session_token': 'FQoGZXIvYXdzED0aDOnOYmTbUrX3yXd0myKMA3IZ9c7JcbytrkUohtpgI79977txHHgVME4YQKvdUQ895uQu9JEHqU8QXGu+2b9QUx6C2X34t5Jg9n0E0OMVPDJDHy3wj7rARVM7Uc1ha/W8ikYFErZdqrxAh/dEpNqcAM/ZZ682cCXjfzNBZLq55cD/nHDKxWBPJquq1w1mDoech83y1jE1Sb2PparQT7kjc6w/unnqcIfW6nX3bCUW6STOsvvDkxYuyPliQnI+PiuPq3TCuiVS1giRK0sc80/VPn4dJLFNA2xopUoY86zhM/PCUPp3/MtKaWVeTVhk3/lsPoNdBPUAOLdRVO+JtUyxW8x/4vZd1DrXtdByGXdt6pBoMmLm6jFOOMl6HGjhSjl8t8vwPckvr+6z/kSaqw/NzvXz7yAMF5OKkZsa1KUQN9+SSTwHhy6Zm9AZED4mBNXPxwnxJDaeFp51idwiyo3KGZT0TpZdKGm5xrUPcpmWnoOd/G8tKAERO8j7BhkOPP3zOpDrmGW6u3xXmLn3KWBzhjs07oLaluBQkZaUVijrjrbcBQ==', 'signed_url': 'https://ingestion-upload-production.s3.amazonaws.com/57838016001/67909129001/c7e6f28b-9057-4616-a7aa-66a0eb836236/greatblueheron.mp4?AWSAccessKeyId=AKIAJZKRHWBFMCPPA&Expires=1536088299&Signature=GD2g7CTz2wLFYnaw33KbocDiXmA%3D', 'api_request_url': 'https://ingestion-upload-production.s3.amazonaws.com/57838016001/67909129001/c7e6f28b-9057-4616-a7aa-66a0eb836236/greatblueheron.mp4'}"
+    },
+    "{'source_name': '[USER_PROVIDED_SOURCE_NAME]', 'video_id': 'vid-123e4567-e89b-12d3-a456-426614174000', 'account_id': 'acc_789456'}": {
+        "error": "",
+        "response": "{'bucket': 'ingestion-upload-production', 'object_key': '57838016001/67909129001/c7e6f28b-9057-4616-a7aa-66a0eb836236/greatblueheron.mp4', 'access_key_id': 'ASIA25ESRNXKNDUXGJ', 'secret_access_key': 'lV1OPGGND6UCVWuv8SUT4/ZS1S+L2Z6BczCpN', 'session_token': 'FQoGZXIvYXdzED0aDOnOYmTbUrX3yXd0myKMA3IZ9c7JcbytrkUohtpgI79977txHHgVME4YQKvdUQ895uQu9JEHqU8QXGu+2b9QUx6C2X34t5Jg9n0E0OMVPDJDHy3wj7rARVM7Uc1ha/W8ikYFErZdqrxAh/dEpNqcAM/ZZ682cCXjfzNBZLq55cD/nHDKxWBPJquq1w1mDoech83y1jE1Sb2PparQT7kjc6w/unnqcIfW6nX3bCUW6STOsvvDkxYuyPliQnI+PiuPq3TCuiVS1giRK0sc80/VPn4dJLFNA2xopUoY86zhM/PCUPp3/MtKaWVeTVhk3/lsPoNdBPUAOLdRVO+JtUyxW8x/4vZd1DrXtdByGXdt6pBoMmLm6jFOOMl6HGjhSjl8t8vwPckvr+6z/kSaqw/NzvXz7yAMF5OKkZsa1KUQN9+SSTwHhy6Zm9AZED4mBNXPxwnxJDaeFp51idwiyo3KGZT0TpZdKGm5xrUPcpmWnoOd/G8tKAERO8j7BhkOPP3zOpDrmGW6u3xXmLn3KWBzhjs07oLaluBQkZaUVijrjrbcBQ==', 'signed_url': 'https://ingestion-upload-production.s3.amazonaws.com/57838016001/67909129001/c7e6f28b-9057-4616-a7aa-66a0eb836236/greatblueheron.mp4?AWSAccessKeyId=AKIAJZKRHWBFMCPPA&Expires=1536088299&Signature=GD2g7CTz2wLFYnaw33KbocDiXmA%3D', 'api_request_url': 'https://ingestion-upload-production.s3.amazonaws.com/57838016001/67909129001/c7e6f28b-9057-4616-a7aa-66a0eb836236/greatblueheron.mp4'}"
+    },
+    "{'account_id': '555444333222111', 'source_name': 'Media_Upload_Stream_2023_Q4', 'video_id': 'vid_0987654321abcdef0987654321fedcba'}": {
+        "error": "",
+        "response": "{'bucket': 'ingestion-upload-production', 'object_key': '57838016001/67909129001/c7e6f28b-9057-4616-a7aa-66a0eb836236/greatblueheron.mp4', 'access_key_id': 'ASIA25ESRNXKNDUXGJ', 'secret_access_key': 'lV1OPGGND6UCVWuv8SUT4/ZS1S+L2Z6BczCpN', 'session_token': 'FQoGZXIvYXdzED0aDOnOYmTbUrX3yXd0myKMA3IZ9c7JcbytrkUohtpgI79977txHHgVME4YQKvdUQ895uQu9JEHqU8QXGu+2b9QUx6C2X34t5Jg9n0E0OMVPDJDHy3wj7rARVM7Uc1ha/W8ikYFErZdqrxAh/dEpNqcAM/ZZ682cCXjfzNBZLq55cD/nHDKxWBPJquq1w1mDoech83y1jE1Sb2PparQT7kjc6w/unnqcIfW6nX3bCUW6STOsvvDkxYuyPliQnI+PiuPq3TCuiVS1giRK0sc80/VPn4dJLFNA2xopUoY86zhM/PCUPp3/MtKaWVeTVhk3/lsPoNdBPUAOLdRVO+JtUyxW8x/4vZd1DrXtdByGXdt6pBoMmLm6jFOOMl6HGjhSjl8t8vwPckvr+6z/kSaqw/NzvXz7yAMF5OKkZsa1KUQN9+SSTwHhy6Zm9AZED4mBNXPxwnxJDaeFp51idwiyo3KGZT0TpZdKGm5xrUPcpmWnoOd/G8tKAERO8j7BhkOPP3zOpDrmGW6u3xXmLn3KWBzhjs07oLaluBQkZaUVijrjrbcBQ==', 'signed_url': 'https://ingestion-upload-production.s3.amazonaws.com/57838016001/67909129001/c7e6f28b-9057-4616-a7aa-66a0eb836236/greatblueheron.mp4?AWSAccessKeyId=AKIAJZKRHWBFMCPPA&Expires=1536088299&Signature=GD2g7CTz2wLFYnaw33KbocDiXmA%3D', 'api_request_url': 'https://ingestion-upload-production.s3.amazonaws.com/57838016001/67909129001/c7e6f28b-9057-4616-a7aa-66a0eb836236/greatblueheron.mp4'}"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "calculate_cosine_similarity",
+    "description": "Calculates the cosine similarity between two vectors. Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vec1": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "The first vector for which to calculate the cosine similarity."
+            },
+            "vec2": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "The second vector for which to calculate the cosine similarity."
+            }
+        },
+        "required": [
+            "vec1",
+            "vec2"
+        ]
+    }
+}

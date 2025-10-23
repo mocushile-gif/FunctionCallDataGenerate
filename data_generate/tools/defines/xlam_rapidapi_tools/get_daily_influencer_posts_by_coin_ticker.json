@@ -1,0 +1,17 @@
+{
+    "name": "get_daily_influencer_posts_by_coin_ticker",
+    "description": "This is a sub-function API for tool crowdsense.\nTool description: The most comprehensive real-time alpha-generating data feed API for cryptocurrencies, that analyzes social media sentiment, weighted sentiment, mentions, reach, top coins, spikes, influencer posts, and other chatter updates. Based on 100,000,000s of feeds per day from billions of unique sources across Twitter, Telegram, and Reddit for 1000+ cryptocurrencies. Start now for free...\nAPI description: Retrieve news and posts from Top Influencers in social media ordered by date by coin ticker\nThis endpoint contains results on a specific coin. To search for influencer posts on all coins coins check \"Get Daily Influencer Posts\"\n\n**Input:**\n\n- Coin Ticker (Required)\n\n**Output:**\n\n- EventId\n- EventType\n- Event Time\n- Publisher\n- Source\n- Related coins\n- Event Color\n- Number of followers\n- Event text\n\n**Definitions:**\n\n- Publisher: User name of the publisher of the event in social media\n- Source: Social media ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cointicker": {
+                "type": "string",
+                "description": "The ticker symbol of the coin for which to retrieve influencer posts.",
+                "default": "BTC"
+            }
+        },
+        "required": [
+            "cointicker"
+        ]
+    }
+}

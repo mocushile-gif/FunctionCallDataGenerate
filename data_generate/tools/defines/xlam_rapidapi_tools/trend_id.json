@@ -1,0 +1,17 @@
+{
+    "name": "trend_id",
+    "description": "This is a sub-function API for tool twitter_pack_v2.\nTool description: Complete pack to get any public information on twitter, includes Twitter Trends, Search Tweet, User Activity\nAPI description: Fetches trending topics from Twitter based on a given \"Where On Earth IDentifier\" (WOEID) using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "woeid": {
+                "type": "number",
+                "description": "The Yahoo! Where On Earth IDentifier (WOEID) for which to get trending topics.",
+                "default": 2514815
+            }
+        },
+        "required": [
+            "woeid"
+        ]
+    }
+}

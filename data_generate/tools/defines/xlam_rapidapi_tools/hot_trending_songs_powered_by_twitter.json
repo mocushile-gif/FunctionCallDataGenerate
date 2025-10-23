@@ -1,0 +1,23 @@
+{
+    "name": "hot_trending_songs_powered_by_twitter",
+    "description": "This is a sub-function API for tool billboard_api.\nTool description: Providing the Billboard chart rankings and information on titles, artists, lyrics, images, and more. \nAPI description: Fetch the HOT TRENDING SONGS POWERED BY TWITTER chart information for a specific date and range using the Toolbench RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to fetch the chart information, formatted as 'YYYY-MM-DD'.",
+                "default": "2021-11-06"
+            },
+            "range": {
+                "type": "string",
+                "description": "The range of the chart, with a maximum value between 1-20.",
+                "default": "1-10"
+            }
+        },
+        "required": [
+            "date",
+            "range"
+        ]
+    }
+}

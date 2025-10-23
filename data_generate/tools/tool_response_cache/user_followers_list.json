@@ -1,0 +1,34 @@
+{
+    "{'username': 'amazon', 'limit': '50', 'fresh': 1}": {
+        "error": "",
+        "response": "The API will retrieve the list of followers for the TikTok user with the username 'amazon'. Since the 'fresh' parameter is set to 1, the data will be fetched directly from TikTok in real-time, bypassing any cached results. The 'limit' parameter specifies that up to 50 follower records will be returned. This allows for efficient and focused data retrieval, providing insights into the user's follower base. If additional followers are needed, pagination can be managed using the 'max_cursor' parameter in subsequent requests."
+    },
+    "{'sec_uid': 'MS4wLjABAAAAVXc5ZDJhNjY1ZmI0NjRlYmYzZDg5YjA5Yjg1Y2MxNjE', 'limit': '100'}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested information\"}"
+    },
+    "{'username': 'ProgressiveFuture2024', 'limit': '100'}": {
+        "error": "",
+        "response": "{'message': \"Can't find user metadata. Please make sure that user exists and try again\"}"
+    },
+    "{'sec_uid': 'MS4wLjABAAAAXYZabcdefghijklmnopqrstuvwx1234567890', 'limit': '100'}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested information\"}"
+    },
+    "{'username': 'ProgressiveVoice2024', 'limit': '100'}": {
+        "error": "",
+        "response": "{'message': \"Can't find user metadata. Please make sure that user exists and try again\"}"
+    },
+    "{'limit': '100', 'username': 'tiktok'}": {
+        "error": "",
+        "response": "{'has_more': True, 'total_followers': 89971967, 'max_cursor': '1748925524', 'followers': [{'unique_id': 'facelass2', 'uid': '7388242278277497873', 'nickname': 'facelass2', 'sec_uid': 'MS4wLjABAAAAxKyHqXPQ2Iq6jaZBXTZHnasqurZWX1MXNxgD-TNVJPITIR0SCJyElLBbnG9_SPtd', 'is_private': False, 'country': 'PK', 'avatar_medium': 'https://p16-common-sg.tiktokcdn-us.com/tos-alisg-avt-0068/1324b08b3b37b0a85c6b54357e441eed~tplv-tiktokx-cropcenter-q:720:720:q80.webp?dr=8836&idc=useast5&ps=87d6e48a&s=COMMON_RELATION_LIST&sc=avatar&shcp=65db1d19&shp=30310797&t=223449c4', 'avatar_large': 'https://p16-common-sg.tiktokcdn-us.com/tos-alisg-avt-0068/1324b08b3b37b0a85c6b54357e441eed~tplv-tiktokx-cropcenter-q:1080:1080:q80.webp?dr=8837&idc=useast5&ps=87d6e48a&s=COMMON_RELATION_LIST&sc=avatar&shcp=65db1d19&shp=30310797&t=223449c4'}, {'unique_id': 'nounaqili95', 'uid': '6991833275506574337', 'nickname': 'Nouna Qili', 'sec_uid': 'MS4wLjABAAAAbTrrz0RlgC_o9W5kJBgMh34xDG176vDlcaOt_WL0x_-q5scoTt4mhKh2Wx4GJZBx', 'is_private': False, 'country': 'ID', 'avatar_medium': 'https://p19-common-useast2a.tiktokcdn-us.com/tos-useast2a-avt-0068-giso/a3832fba8529a75c839b712d1be27653~tplv-tiktokx-cropcenter-q:720:720:q75.webp?dr=8836&idc=useast5&ps=87d6e48a&s=COMMON_RELATION_LIST&sc=avatar&shcp=65db1d19&shp=30310797&t=223449c4', 'avatar_large': 'https://p19-common-useast2a.tiktokcdn-us.com/tos-useast2a-avt-0068-giso/a3832fba8529a75c839b712d1be27653~tplv-tiktokx-cropcenter-q:1080:1080:q75.webp?dr=8837&idc=useast5&ps=87d6e48a"
+    },
+    "{'limit': '100', 'max_cursor': '1748925524', 'username': 'tiktok'}": {
+        "error": "",
+        "response": "{'has_more': True, 'total_followers': 89971969, 'max_cursor': '1748925256', 'followers': [{'unique_id': 'surbak.kaka', 'uid': '7510461028116628487', 'nickname': 'surbak kaka \ud83d\udc7f', 'sec_uid': 'MS4wLjABAAAAsSGlTQN48XeFCn1bOYk8mmySJhinCinoCbx3VwJWhn63RKg8vtmNHEVXZ8mIhnkN', 'is_private': False, 'country': 'PK', 'avatar_medium': 'https://p19-common-sg.tiktokcdn-us.com/tos-alisg-avt-0068/7c97167c8531172a718d638ccd54e4f6~tplv-tiktokx-cropcenter-q:720:720:q80.webp?dr=8836&idc=useast5&ps=87d6e48a&s=COMMON_RELATION_LIST&sc=avatar&shcp=65db1d19&shp=30310797&t=223449c4', 'avatar_large': 'https://p19-common-sg.tiktokcdn-us.com/tos-alisg-avt-0068/7c97167c8531172a718d638ccd54e4f6~tplv-tiktokx-cropcenter-q:1080:1080:q80.webp?dr=8837&idc=useast5&ps=87d6e48a&s=COMMON_RELATION_LIST&sc=avatar&shcp=65db1d19&shp=30310797&t=223449c4'}, {'unique_id': 'n.o.a.s0', 'uid': '7443392947469206546', 'nickname': 'N O A S \ud83c\udfb8', 'sec_uid': 'MS4wLjABAAAAUrp1Qlt6a01fz5yEdlVmiB2FbjKuU8ON0YJI-f9BuQeo_oCrsYpSWMQAibLqddv2', 'is_private': False, 'country': 'IQ', 'avatar_medium': 'https://p16-common-sg.tiktokcdn-us.com/tos-alisg-avt-0068/4e09b4d80f650f4c1757b14e8230a8aa~tplv-tiktokx-cropcenter-q:720:720:q80.webp?dr=8836&idc=useast5&ps=87d6e48a&s=COMMON_RELATION_LIST&sc=avatar&shcp=65db1d19&shp=30310797&t=223449c4', 'avatar_large': 'https://p16-common-sg.tiktokcdn-us.com/tos-alisg-avt-0068/4e09b4d80f650f4c1757b14e8230a8aa~tplv-tiktokx-cropcenter-q:1080:1080:q80.webp?dr=8837&idc=useast5&ps=87d6e48a&s=COMMON_RELATION_LIST&sc"
+    },
+    "{'username': 'amazon'}": {
+        "error": "",
+        "response": "{'has_more': True, 'total_followers': 89294728, 'max_cursor': '1745260110', 'followers': [{'unique_id': 'balalama_doneyin', 'uid': '7322904644618257409', 'nickname': '\u2764\ufe0fbalalam\u2764\ufe0f', 'sec_uid': 'MS4wLjABAAAAq3vcAxMqR1rj2zsRdly1SLa-5VWdz9PtpNghP-kAUPLsZhCwWC2BQRRITNbhFeWk', 'is_private': False, 'country': 'TM', 'avatar_medium': 'https://p16-common-sg.tiktokcdn-us.com/tos-alisg-avt-0068/c1c7dc9309e2cf753f58cb73c61a5563~tplv-tiktokx-cropcenter-q:720:720:q80.webp?dr=8836&idc=useast5&ps=87d6e48a&s=COMMON_RELATION_LIST&sc=avatar&shcp=65db1d19&shp=30310797&t=223449c4', 'avatar_large': 'https://p16-common-sg.tiktokcdn-us.com/tos-alisg-avt-0068/c1c7dc9309e2cf753f58cb73c61a5563~tplv-tiktokx-cropcenter-q:1080:1080:q80.webp?dr=8837&idc=useast5&ps=87d6e48a&s=COMMON_RELATION_LIST&sc=avatar&shcp=65db1d19&shp=30310797&t=223449c4'}, {'unique_id': 'helena.nobre38', 'uid': '7390536301173031942', 'nickname': '\ud83d\udc97lena_nobre\ud83d\udc97', 'sec_uid': 'MS4wLjABAAAAMXsUfETr58p67XKsEJr0-iOFk2Upcoqp8-GimJR87M4E-fcW7SxPdO-fe4l6Hwqb', 'is_private': False, 'country': 'BR', 'avatar_medium': 'https://p16-common-va.tiktokcdn-us.com/tos-maliva-avt-0068/765871f6313158cdbb15fc19dc67e59f~tplv-tiktokx-cropcenter-q:720:720:q75.webp?dr=8836&idc=useast5&ps=87d6e48a&s=COMMON_RELATION_LIST&sc=avatar&shcp=65db1d19&shp=30310797&t=223449c4', 'avatar_large': 'https://p16-common-va.tiktokcdn-us.com/tos-maliva-avt-0068/765871f6313158cdbb15fc19dc67e59f~tplv-tiktokx-cropcenter-q:1080:1080:q75.webp?dr=8837&idc=useast5&ps=87d6e48a&s=COMMON_RELATION_LIST&sc=avatar&shcp=65db1d19&shp=30310797&t=223449c4'}, {'unique_id': 'efootballgoller21', 'uid': '6803200489556100102', 'nickname': 'efootball goller', 'sec_uid': 'MS4wLjABAAAAdI637qQpwpeKMotWpQzlvK5p_afNZdgQVFgu0YNuLC0VsIJueq9IjvsxVWM28QZz', 'is_private': False, 'country': 'TR', 'avatar_medium': 'https://p19-common-sg.tiktokcdn-us.com/tos-alisg-avt-0068/7679637d85a2596047e43937c3666e5f~tplv-tiktokx-cropcenter-q:720:720:q80.webp?dr=8836&idc=useast5&ps=87d6e48a&s=COMMON_RELATION_LIST&sc=avatar&shcp=65db1d19&shp=30310797&t=223449c4', 'a"
+    }
+}

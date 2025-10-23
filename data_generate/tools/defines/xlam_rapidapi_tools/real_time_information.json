@@ -1,0 +1,22 @@
+{
+    "name": "real_time_information",
+    "description": "This is a sub-function API for tool bart.\nTool description: The BART API gives you access to pretty much all of the BART service and station data available on the BART website.\nAPI description: Fetches real-time information from the BART API based on the provided command and origin station.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cmd": {
+                "type": "string",
+                "description": "Command parameter for the API request. Examples can be found at http://api.bart.gov/docs/overview/examples.aspx.",
+                "default": "etd"
+            },
+            "orig": {
+                "type": "string",
+                "description": "Specifies the station. Stations are referenced by their abbreviations (http://api.bart.gov/docs/overview/abbrev.aspx). You can also use 'ALL' to get all of the current ETD's."
+            }
+        },
+        "required": [
+            "cmd",
+            "orig"
+        ]
+    }
+}

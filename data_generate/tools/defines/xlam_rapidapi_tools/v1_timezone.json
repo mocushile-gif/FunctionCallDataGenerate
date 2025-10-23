@@ -1,0 +1,31 @@
+{
+    "name": "v1_timezone",
+    "description": "This is a sub-function API for tool timezone_by_api_ninjas.\nTool description: Timezone data for any location on the planet. See more info at https://api-ninjas.com/api/timezone.\nAPI description: API Ninjas Timezone API endpoint. Returns the timezone name of the specified input location.\n\nEither both (**lat** and **lon**) or (**city**/**state**/**country**) parameters must be set.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "state": {
+                "type": "string",
+                "description": "US state name or 2-letter abbreviation (for United States cities only)."
+            },
+            "lon": {
+                "type": "string",
+                "description": "Longitude of the desired location."
+            },
+            "city": {
+                "type": "string",
+                "description": "City name. Defaults to 'London'.",
+                "default": "London"
+            },
+            "lat": {
+                "type": "string",
+                "description": "Latitude of the desired location."
+            },
+            "country": {
+                "type": "string",
+                "description": "Country name or 2-letter country code."
+            }
+        },
+        "required": []
+    }
+}

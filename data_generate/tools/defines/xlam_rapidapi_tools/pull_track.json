@@ -1,0 +1,17 @@
+{
+    "name": "pull_track",
+    "description": "This is a sub-function API for tool air_cargo_co2_track_and_trace.\nTool description: Track your Air Cargo shipments and measure CO2 with more than 190 airlines\nAPI description: By providing a valid AWB, you can get tracking information for the shipment.\n\nAnswers are 10s in average. However, it takes between 1s to 5min to get the information from the airline system but the API has to answer in 30s which generating timeouts errors.\nIn such case, you have to build the logic to try again 10mins after a timeout to avoid this or to use the subscription method.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "awb": {
+                "type": "string",
+                "description": "The Air Waybill number to be tracked.",
+                "default": "000-99999970"
+            }
+        },
+        "required": [
+            "awb"
+        ]
+    }
+}

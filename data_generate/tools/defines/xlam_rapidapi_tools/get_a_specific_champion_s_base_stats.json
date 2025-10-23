@@ -1,0 +1,17 @@
+{
+    "name": "get_a_specific_champion_s_base_stats",
+    "description": "This is a sub-function API for tool league_of_legends_stats.\nTool description: An API showing all the champions in League of Legends and their base stats.\nAPI description: Fetches the base stats of a specified League of Legends champion using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the champion whose base stats are to be retrieved.",
+                "default": "ekko"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

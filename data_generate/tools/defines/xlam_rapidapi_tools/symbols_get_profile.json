@@ -1,0 +1,17 @@
+{
+    "name": "symbols_get_profile",
+    "description": "This is a sub-function API for tool cnbc.\nTool description: This API helps to query for business news and live market data to create a financial site such as cnbc.com\nAPI description: Fetch summary information for a stock quote, index, exchange, etc., given an issue ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "issueid": {
+                "type": "number",
+                "description": "The value of the issueId field obtained from previous endpoints such as .../auto-complete or .../symbols/translate.",
+                "default": 36276.0
+            }
+        },
+        "required": [
+            "issueid"
+        ]
+    }
+}

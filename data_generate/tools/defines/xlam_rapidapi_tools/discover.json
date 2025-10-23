@@ -1,0 +1,22 @@
+{
+    "name": "discover",
+    "description": "This is a sub-function API for tool filepursuit.\nTool description: Search the web for files, videos, audios, eBooks & much more.\nAPI description: Discover files using the FilePursuit API with optional filters for pagination, result type, and specific links.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start": {
+                "type": "number",
+                "description": "The starting point for result pagination."
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of result to filter by. Accepted values are 'filelinks' and 'all'."
+            },
+            "link": {
+                "type": "string",
+                "description": "A specific link to discover files from."
+            }
+        },
+        "required": []
+    }
+}

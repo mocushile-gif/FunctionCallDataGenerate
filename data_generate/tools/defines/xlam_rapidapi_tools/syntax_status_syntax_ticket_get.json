@@ -1,0 +1,16 @@
+{
+    "name": "syntax_status_syntax_ticket_get",
+    "description": "This is a sub-function API for tool ifc_bim_services.\nTool description: IFC models related BIM services\nGITHUB Repository : https://github.com/aminov-jp/BIMIFCServices\nAPI description: Fetch the result of a syntax check using a provided ticket from the IFC BIM Services API via RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticket": {
+                "type": "string",
+                "description": "The unique identifier for the syntax check result to be retrieved."
+            }
+        },
+        "required": [
+            "ticket"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "label_template_brands",
+    "description": "This is a sub-function API for tool print_your_own_labels_and_stickers.\nTool description: Help your customers print their own labels and stickers, from your own website and under your own branding.\nAPI description: Returns the list of blank label sheet brands that Ecardify supports to date. If your preferred brand is missing, please let us know.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "format": {
+                "type": "string",
+                "description": "Its value can be either \n**Letter**\nor \n**A4** \nThey represent the two world standard printer paper sizes, respectively 8.5 inch by 11 inch and 210 mm by 297 mm.",
+                "default": "a4"
+            }
+        },
+        "required": [
+            "format"
+        ]
+    }
+}

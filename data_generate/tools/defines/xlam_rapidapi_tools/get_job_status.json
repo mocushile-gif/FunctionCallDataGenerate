@@ -1,0 +1,17 @@
+{
+    "name": "get_job_status",
+    "description": "This is a sub-function API for tool large_text_to_speech.\nTool description: Large text to speech (TTS) API enables you to perform unlimited* text to speech synthesis (English) in single request.  With human like voice quality! Read more in About section.\nAPI description: Fetch the status and results of a job from the Large Text-to-Speech service using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the job whose status and result need to be fetched.",
+                "default": "5425b1c0-357b-47cf-a06c-69c5260ea890"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

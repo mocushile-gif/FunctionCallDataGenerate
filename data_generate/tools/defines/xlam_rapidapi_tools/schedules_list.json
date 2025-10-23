@@ -1,0 +1,21 @@
+{
+    "name": "schedules_list",
+    "description": "This is a sub-function API for tool cricbuzz_cricket.\nTool description: This API helps to query for live cricket scores, commentary, latest cricket news and editorials, schedules of upcoming matches, rankings, stats, records, etc\nAPI description: Fetches a list of scheduled matches based on the provided type and optional pagination information.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "Type of schedule to fetch. One of the following: 'international', 'league', 'domestic', 'women'.",
+                "default": "international"
+            },
+            "lasttime": {
+                "type": "number",
+                "description": "For paging purpose, leave empty to load the first page, or an Epoch timestamp value in milliseconds (Ex : 1640883600000) to load the next page. You are interested in the 'startDt' field returned right in this endpoint."
+            }
+        },
+        "required": [
+            "type"
+        ]
+    }
+}

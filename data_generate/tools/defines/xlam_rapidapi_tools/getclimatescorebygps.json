@@ -1,0 +1,33 @@
+{
+    "name": "getclimatescorebygps",
+    "description": "This is a sub-function API for tool rankiteo_climate_risk_assessment.\nTool description: We provide an API to give a climate risk assessment score for any locations in the world.\n\nAPI description: Get climate score for a specific location mapped to some industries/disasters with a given gps position.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "latitude": {
+                "type": "number",
+                "description": "The latitude coordinate of the location.",
+                "default": 48.856613
+            },
+            "longitude": {
+                "type": "number",
+                "description": "The longitude coordinate of the location.",
+                "default": 2.352222
+            },
+            "disaster_type_number": {
+                "type": "number",
+                "description": "0 : **ALL**\n1 : Air Quality\n2 : Earthquake\n3 : Floods\n4 : Heat Stress\n5 : Sea Level Rise \n6 : Tropical\n7 : Tsunami\n8 : Volcano\n9 : Water Stress\n10 : Wildfire"
+            },
+            "activity_type_number": {
+                "type": "number",
+                "description": "0 : **ALL**\n1 : Agriculture\n2 : Nuclear Plants\n3 : Telecommunications\n4 : Education\n5 : Automobile\n6 : Chemical Industry\n7 : Market\n8 : Finance Industry\n9 : Aerospace, \n10 : Construction\n11 : Mining\n12 : News Media\n13 : Pharmaceutical\n14 : Datacenter\n15 : Entertainment complex\n16 : Freight logistics\n17 : Hospital\n18 : Hotel\n19 : Manufacturing\n20 : Office\n21 : Shopping center\n22 : Residential complex\n23 : Storage Ware houses\n24 : Oil and Gas Industry\n25 : Transportation"
+            }
+        },
+        "required": [
+            "latitude",
+            "longitude",
+            "disaster_type_number",
+            "activity_type_number"
+        ]
+    }
+}

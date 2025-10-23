@@ -1,0 +1,27 @@
+{
+    "name": "v1_hashtag_posts_hashtag_id",
+    "description": "This is a sub-function API for tool tokapi_mobile_version.\nTool description: Highly available tiktok **mobile** API. We are doing our best for make your life easy.Bigger API plans and **additional functionality** are available on request.  Feel free to contact us on Telegram: [https://t.me/somjik_tokapi](https://t.me/somjik_tokapi) #tiktok #tik #tok #tik-tok #video #music #user #feed #hashtag #challenge #trending #trend #comments #comment #image #photo #media #search #scrapper #grabber\nAPI description: Fetches videos associated with a specific hashtag ID using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hashtag_id": {
+                "type": "string",
+                "description": "The ID of the hashtag to search for.",
+                "default": "2878999"
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of videos to retrieve. Defaults to 10.",
+                "default": 10
+            },
+            "offset": {
+                "type": "number",
+                "description": "The offset for pagination. Use the 'cursor' value from a previous response where 'hasMore' is 1 for the next set of results. Defaults to 0.",
+                "default": 0
+            }
+        },
+        "required": [
+            "hashtag_id"
+        ]
+    }
+}

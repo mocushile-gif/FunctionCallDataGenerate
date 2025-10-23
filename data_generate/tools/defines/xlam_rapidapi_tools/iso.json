@@ -1,0 +1,17 @@
+{
+    "name": "iso",
+    "description": "This is a sub-function API for tool phone.\nTool description: Full set of cool Telephone validation functions with a coverage of more than a hundred different countries.  Phone Metropolis API can analyse, get location information and parse the content of a given phone number. [This API is under maintenance and is not working properly] \nAPI description: Retrieves the ISO codes for a given country using the Metropolis API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The name of the country for which to get the ISO codes.",
+                "default": "Canada"
+            }
+        },
+        "required": [
+            "country"
+        ]
+    }
+}

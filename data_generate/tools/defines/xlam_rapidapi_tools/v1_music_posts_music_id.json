@@ -1,0 +1,27 @@
+{
+    "name": "v1_music_posts_music_id",
+    "description": "This is a sub-function API for tool tokapi_mobile_version.\nTool description: Highly available tiktok **mobile** API. We are doing our best for make your life easy.Bigger API plans and **additional functionality** are available on request.  Feel free to contact us on Telegram: [https://t.me/somjik_tokapi](https://t.me/somjik_tokapi) #tiktok #tik #tok #tik-tok #video #music #user #feed #hashtag #challenge #trending #trend #comments #comment #image #photo #media #search #scrapper #grabber\nAPI description: Fetches posts associated with a specific music ID from the Tokapi API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "music_id": {
+                "type": "string",
+                "description": "Unique identifier for the music whose posts are to be fetched.",
+                "default": "6928004115846924290"
+            },
+            "offset": {
+                "type": "number",
+                "description": "The starting point for the set of results to be fetched. Used for paginated responses. Defaults to 0.",
+                "default": 0
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of results to return in the response. Defaults to 20.",
+                "default": 20
+            }
+        },
+        "required": [
+            "music_id"
+        ]
+    }
+}

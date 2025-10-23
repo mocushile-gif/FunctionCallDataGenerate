@@ -1,0 +1,17 @@
+{
+    "name": "zipcode_by_city",
+    "description": "This is a sub-function API for tool geosource_api.\nTool description: Introducing GeoSource API - the comprehensive API service that provides a wealth of geo-information on countries, states, cities, zip codes, currencies, flags, and much more. With GeoSource API, developers can easily access accurate and up-to-date geo-information to enhance their applications and services.\n\nAPI description: Retrives the zip code/codes of the city ( must be in the supported countries list [ 44 countries ]).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "city": {
+                "type": "string",
+                "description": "The name of the city for which to retrieve zip code(s). The city must be in the supported countries list (44 countries).",
+                "default": "Brussels"
+            }
+        },
+        "required": [
+            "city"
+        ]
+    }
+}

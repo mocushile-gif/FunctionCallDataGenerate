@@ -1,0 +1,25 @@
+{
+    "name": "get_vehicule_info",
+    "description": "This is a sub-function API for tool api_plaque_immatriculation_siv.\nTool description: Immatriculation API (France) \n\nNotre service Web permettra à votre site Internet ou à vos applications d’identifier les motos et les scooters en utilisant leur plaque d’immatriculation. Cette méthode est largement utilisée par la plupart des boutiques en ligne de pièces détachées pour identifier les véhicules de leurs clients, afin d’éviter les erreurs d’identification, les insatisfactions clients et les retours de marchandise.\n\nÊtes-vous à la recherche de plaques d’immatriculation françaises...\nAPI description: * Récupérer les informations des véhicules simplement avec notre API PLAQUE IMMATRICULATION rapide flexible .\n\nLes données sont demandées à notre api plaque immatriculation en temps réel à partir de sources de données officielles du gouvernement, de sorte que les informations que vous voyez soient en temps réel et non mises en cache, ou stockées.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "token": {
+                "type": "string",
+                "description": "The token for API authentication. Defaults to 'TokenDemoRapidapi'.",
+                "default": "TokenDemoRapidapi"
+            },
+            "host_name": {
+                "type": "string",
+                "description": "The base URL of the API endpoint. Defaults to 'https://apiplaqueimmatriculation.com'.",
+                "default": "https://apiplaqueimmatriculation.com"
+            },
+            "immatriculation": {
+                "type": "string",
+                "description": "The vehicle registration number. Defaults to 'AA-123-BC'.",
+                "default": "AA-123-BC"
+            }
+        },
+        "required": []
+    }
+}

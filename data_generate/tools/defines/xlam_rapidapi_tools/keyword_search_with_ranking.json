@@ -1,0 +1,45 @@
+{
+    "name": "keyword_search_with_ranking",
+    "description": "This is a sub-function API for tool google_local_rank_tracker.\nTool description: Real-Time overview of your Google Local Ranking across multiple coordinate points in a Grid View. Accurate and fast SERP results and ranking of your business by keyword and location. Get results for a single geopoint coordinate or for an entire grid. See how you stack up against your competitors and Track your progress over time. \nAPI description: Perform a keyword search at a specific coordinate (latitude/longitude) to find businesses and rank a specific business at that location. The ranking data can be determined by the business place ID or business name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The **Google Place ID** of the business or the **Business Name** to match in results. Use the **match_type** parameter to specify choice.",
+                "default": "web design"
+            },
+            "lng": {
+                "type": "number",
+                "description": "The longitude value of the grid center coordinate point.",
+                "default": -121.938314
+            },
+            "match_value": {
+                "type": "string",
+                "description": "The keyword or search query.",
+                "default": "ChIJoejvAr3Mj4ARtHrbKxtAHXI"
+            },
+            "lat": {
+                "type": "number",
+                "description": "The latitude value of the grid center coordinate point.",
+                "default": 37.341759
+            },
+            "zoom": {
+                "type": "number",
+                "description": "The Google Maps zoom level to use for the search on each grid point. Allowed values are 0-18. Default is 13.",
+                "default": 13.0
+            },
+            "match_type": {
+                "type": "string",
+                "description": "The type of match to perform for ranking. Allowed values are 'place_id' or 'name'. Default is 'place_id'.",
+                "default": "place_id"
+            }
+        },
+        "required": [
+            "query",
+            "lng",
+            "match_value",
+            "lat"
+        ]
+    }
+}

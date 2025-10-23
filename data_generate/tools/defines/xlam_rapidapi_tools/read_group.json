@@ -1,0 +1,16 @@
+{
+    "name": "read_group",
+    "description": "This is a sub-function API for tool ironwifi.\nTool description: IronWifi offers a powerful Application Program Interface (API) that can be used to integrate IronWifi RADIUS authentication services with user and guest management systems.\r\n\r\nThe API framework allows your platform to interact with the network access control platform provided by IronWifi.\r\n\r\nWith the IronWifi API, user management systems can dynamically update the RADIUS server to instantly create or delete users in the IronWifi database, and you can set or modify access rights.\r\n\r\nWhen a user attempts to access the network, IronWifi uses the updated credentials as the basis for permitting activities on the network.\r\n\r\nWhen a user attempts to access a WiFi network, the Access Point can send a RADIUS request to IronWifi RADIUS. IronWifi authenticates the user based on the updated credentials.\r\n\r\nTo receive technical assistance with your IronWifi API project, or to discuss any advanced requirements that you may have, please contact us at support@ironwifi.com, or call +1 (800) 963-6221.\nAPI description: Fetches information of a specific group from the IronWiFi API using the given group ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "group_id": {
+                "type": "string",
+                "description": "The ID of the group to retrieve information for."
+            }
+        },
+        "required": [
+            "group_id"
+        ]
+    }
+}

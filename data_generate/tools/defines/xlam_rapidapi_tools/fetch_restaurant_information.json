@@ -1,0 +1,17 @@
+{
+    "name": "fetch_restaurant_information",
+    "description": "This is a sub-function API for tool foodiefetch.\nTool description: FoodieFetch is a new API that allows users to fetch menu locations and ratings from popular food delivery platforms like Swiggy and soon Zomato. Created using Go and available on RapidAPI, FoodieFetch is the perfect solution for developers looking to add food-related data to their applications. Give it a try today and bring a little flavor to your project!\nAPI description: This endpoint allows users to retrieve menu location and ratings data for a specific restaurant. The user can send the name of the restaurant, preferably the full name with the city, to fetch data from the API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The name of the restaurant, preferably including the full name and city.",
+                "default": "grandamas cafe pune"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

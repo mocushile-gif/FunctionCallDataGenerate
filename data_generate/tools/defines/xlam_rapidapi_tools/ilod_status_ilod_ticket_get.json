@@ -1,0 +1,16 @@
+{
+    "name": "ilod_status_ilod_ticket_get",
+    "description": "This is a sub-function API for tool ifc_bim_services.\nTool description: IFC models related BIM services\nGITHUB Repository : https://github.com/aminov-jp/BIMIFCServices\nAPI description: Fetches the result of an ILOD (Industry Level of Development) check using a given ticket.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticket": {
+                "type": "string",
+                "description": "The ticket identifier for the ILOD check."
+            }
+        },
+        "required": [
+            "ticket"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "bet365_result",
+    "description": "This is a sub-function API for tool betsapi.\nTool description: bet365 events/scores/stats/odds\nAPI description: Fetches the result of a bet365 event using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "event_id": {
+                "type": "number",
+                "description": "The unique identifier for the bet365 event."
+            }
+        },
+        "required": [
+            "event_id"
+        ]
+    }
+}

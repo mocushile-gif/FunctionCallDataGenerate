@@ -1,0 +1,52 @@
+{
+    "{\"version\": \"v1\"}": {
+        "error": "",
+        "response": "{\"items\":[\"0-2-1.eu\",\"0130043b.index-education.net\",\"0131622t.index-education.net\",\"0150006a.index-education.net\",\"01net.com\",\"01net.fr\",\"0240030c.index-education.net\",\"0332706m.index-education.net\",\"0340076y.index-education.net\",\"0650050b.index-education.net\",\"0711249x.esidoc.fr\",\"0782568t.index-education.net\",\"082arazsyo.preview.infomaniak.website\",\"0912433a.index-education.net\",\"0930116w.esidoc.fr\",\"0950649p.esidoc.fr\",\"0x010c.fr\",\"1-logo.fr\",\"1.1.1.1\",\"1000feuille.fr\",\"1001-mondes.fr\",\"1001fresques.fr\",\"1001vieshabitat.fr\",\"100leaderspourlaplanete.fr\",\"100media.themedialeader.fr\",\"109lagence.fr\",\"10fastfingers.com\",\"10pr100.com\",\"10web.io\",\"118712.fr\",\"123pousse.fr\",\"129vdb.free.fr\",\"13.37.100.102\",\"13.38.97.152\",\"1309sr.com\",\"141.145.202.214\",\"141.94.76.92\",\"148.fr\",\"14bis.fr\",\"14islands.com\",\"14km.fr\",\"15-100-17.fr\",\"15.237.116.133\",\"15.237.138.131\",\"150euros.fr\",\"150eurosrecette.z28.web.core.windows.net\",\"152.228.172.185\",\"15blvrt.wixsite.com\",\"15marches.fr\",\"1646.nl\"],\"total\":39222,\"page\":1,\"size\":50}"
+    },
+    "{\n  \"version\": \"v1\"\n}": {
+        "error": "",
+        "response": "{\"items\":[\"0-2-1.eu\",\"0130043b.index-education.net\",\"0131622t.index-education.net\",\"0150006a.index-education.net\",\"01net.com\",\"01net.fr\",\"0240030c.index-education.net\",\"0332706m.index-education.net\",\"0340076y.index-education.net\",\"0650050b.index-education.net\",\"0711249x.esidoc.fr\",\"0782568t.index-education.net\",\"082arazsyo.preview.infomaniak.website\",\"0912433a.index-education.net\",\"0930116w.esidoc.fr\",\"0950649p.esidoc.fr\",\"0x010c.fr\",\"1-logo.fr\",\"1.1.1.1\",\"1000feuille.fr\",\"1001-mondes.fr\",\"1001fresques.fr\",\"1001vieshabitat.fr\",\"100leaderspourlaplanete.fr\",\"100media.themedialeader.fr\",\"109lagence.fr\",\"10fastfingers.com\",\"10pr100.com\",\"10web.io\",\"118712.fr\",\"123pousse.fr\",\"129vdb.free.fr\",\"13.37.100.102\",\"13.38.97.152\",\"1309sr.com\",\"141.145.202.214\",\"141.94.76.92\",\"148.fr\",\"14bis.fr\",\"14islands.com\",\"14km.fr\",\"15-100-17.fr\",\"15.237.116.133\",\"15.237.138.131\",\"150euros.fr\",\"150eurosrecette.z28.web.core.windows.net\",\"152.228.172.185\",\"15blvrt.wixsite.com\",\"15marches.fr\",\"1646.nl\"],\"total\":39222,\"page\":1,\"size\":50}"
+    },
+    "{\n  \"version\": \"v1\",\n  \"q\": \"\",\n  \"date_from\": \"2021-01-01\",\n  \"size\": 10,\n  \"date_to\": \"2022-01-01\",\n  \"page\": 1\n}": {
+        "error": "",
+        "response": "{\"items\":[],\"total\":0,\"page\":1,\"size\":10}"
+    },
+    "{\n  \"version\": \"v1\",\n  \"q\": \"\",\n  \"date_from\": \"2020-01-01\",\n  \"size\": 10,\n  \"date_to\": \"2022-12-31\",\n  \"page\": 1\n}": {
+        "error": "",
+        "response": "{\"items\":[\"0130043b.index-education.net\",\"01net.com\",\"01net.fr\",\"0x010c.fr\",\"141.145.202.214\",\"14km.fr\",\"15-100-17.fr\",\"15marches.fr\",\"187com.fr\",\"1964.immo\"],\"total\":7784,\"page\":1,\"size\":10}"
+    },
+    "{\n  \"version\": \"v1\",\n  \"q\": \"\",\n  \"date_from\": \"\",\n  \"size\": 10,\n  \"date_to\": \"\",\n  \"page\": 1\n}": {
+        "error": "",
+        "response": "{\"items\":[\"0-2-1.eu\",\"0130043b.index-education.net\",\"0131622t.index-education.net\",\"0150006a.index-education.net\",\"01net.com\",\"01net.fr\",\"0240030c.index-education.net\",\"0332706m.index-education.net\",\"0340076y.index-education.net\",\"0650050b.index-education.net\"],\"total\":39236,\"page\":1,\"size\":10}"
+    },
+    "{\n  \"version\": \"v1\",\n  \"q\": \"\",\n  \"date_from\": \"2022-01-01\",\n  \"size\": 10,\n  \"date_to\": \"2022-12-31\",\n  \"page\": 1\n}": {
+        "error": "",
+        "response": "{\"items\":[\"0130043b.index-education.net\",\"01net.com\",\"01net.fr\",\"0x010c.fr\",\"141.145.202.214\",\"14km.fr\",\"15-100-17.fr\",\"15marches.fr\",\"187com.fr\",\"1964.immo\"],\"total\":7784,\"page\":1,\"size\":10}"
+    },
+    "{'version': 'v1', 'q': 'example.com'}": {
+        "error": "",
+        "response": {
+            "items": [
+                "dev.wp2.wexample.com",
+                "example.com",
+                "wexample.com",
+                "www.example.com"
+            ],
+            "total": 4,
+            "page": 1,
+            "size": 50
+        }
+    },
+    "{'version': 'v1'}": {
+        "error": "",
+        "response": "{'items': ['0-2-1.eu', '001.africa', '01.emailinboundprocessing.eu', '01.net', '0130043b.index-education.net', '0131622t.index-education.net', '0150006a.index-education.net', '01net.com', '01net.fr', '02.ameli-medecins.fr', '02.emailinboundprocessing.eu', '0240030c.index-education.net', '0250010a.index-education.net', '03-web.formation-adapeco-sofip.com', '03.emailinboundprocessing.com', '0311690u.index-education.net', '0332706m.index-education.net', '0340076y.index-education.net', '0341736c.esidoc.fr', '0352009u.index-education.net', '0382270l.index-education.net', '0440030u.index-education.net', '0442309w.index-education.net', '0530016e.index-education.net', '0643-c721f559368b.wptiger.fr', '0650050b.index-education.net', '0670065g.moodle.monbureaunumerique.fr', '0693654x.index-education.net', '06d7-81-255-121-37.ngrok-free.app', '0706-2a01-e0a-5c4-91f0-58e3-db44-b0f9-de1b.ngrok-free.app', '0711249x.esidoc.fr', '0782568t.index-education.net', '07d3-117-2-161-30.ngrok-free.app', '082arazsyo.preview.infomaniak.website', '0840918s.index-education.net', '08aq14-ip-90-83-161-163.tunnelmole.net', '0912433a.index-education.net', '0920883k.index-education.net', '0923-rouge-1.wns.wilders.dev', '0923-vert-1.wns.wilders.dev', '0930116w.esidoc.fr', '0950649p.esidoc.fr', '0cce-117-2-161-30.ngrok-free.app', '0e18-81-255-121-37.ngrok-free.app', '0fc.tech', '0x.org', '0x010c.fr', '0x2142.com', '0xa0.dev', '0xa00.github.io'], 'total': 115640, 'page': 1, 'size': 50}"
+    },
+    "{'version': 'v1', 'q': 'shop.ecoexpress.com'}": {
+        "error": "",
+        "response": "{'items': [], 'total': 0, 'page': 1, 'size': 50}"
+    },
+    "{'version': 'v1', 'date_from': '2025-06-01', 'date_to': '2025-06-02'}": {
+        "error": "",
+        "response": "{'items': ['185.216.26.179', 'abc-transitionbascarbone.fr', 'alto-lille.fr', 'amazon.fr', 'anthonyperbet.vercel.app', 'apex.fabi3n.fr', 'artiheba.com', 'avosdim.com', 'aysaan.com', 'bo.ardn.tech', 'brianlovin.com', 'cebios-digital.fr', 'chatgpt.com', 'choubaka-et-shadoko.com', 'cobalt-studio.fr', 'cop1.fr', 'creaam.com', 'digitalseed.killianmachu.fr', 'digitalseed1.killianmachu.fr', 'edith.simschab.cloud', 'eloise.enel-rehel.com', 'em-lyon.com', 'emeline-design.com', 'facebook.com', 'fr.melvita.com', 'france24.com', 'github.com', 'javry.com', 'jujotte.fr', 'kidikunst.eu', 'killianmachu.fr', 'lemonde.fr', 'lumia-edu.fr', 'mcs-proprete.fr', 'mikl5.github.io', 'mk2-festivalparadiso.com', 'mmi24a13.mmi-troyes.fr', 'neosoft.fr', 'nodlab.ca', 'oasiscrea.com', 'papsimmo.fr', 'partir-ici.fr', 'presidence.bj', 'simonlabbe.fr', 'www.aatise.com', 'www.acapella-store.fr', 'www.ada-shop.com', 'www.athom-studio.com', 'www.boardio.com', 'www.brive-tourisme.com'], 'total': 85, 'page': 1, 'size': 50}"
+    }
+}

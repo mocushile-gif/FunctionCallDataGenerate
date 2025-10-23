@@ -1,0 +1,24 @@
+{
+    "name": "get_count_and_increase_by_one",
+    "description": "This is a sub-function API for tool counter.\nTool description: Count views on your website or any other specific action on your application.\nAPI description: Sends a GET request to the specified counter API, optionally including parameters for ID, label, and color, ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "An ID to include in the request query. Default is None."
+            },
+            "clabel": {
+                "type": "string",
+                "description": "A label to include in the request query. Default is 'blue'.",
+                "default": "blue"
+            },
+            "color": {
+                "type": "string",
+                "description": "A color to include in the request query. Default is 'red'.",
+                "default": "red"
+            }
+        },
+        "required": []
+    }
+}

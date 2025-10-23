@@ -1,0 +1,35 @@
+{
+    "name": "ip_netblock_v2",
+    "description": "This is a sub-function API for tool ip_netblocks.\nTool description: IP Netblocks API gives you extensive information about IP ranges and IP address owners.\nAPI description: Fetch exhaustive information on IP range (v2) by using various filters like ASN, limit, organization, output format, mask, and IP. The function communicates with an external API to obtain the required data.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "asn": {
+                "type": "string",
+                "description": "Get ranges by Autonomous System Number (ASN). Default is None."
+            },
+            "limit": {
+                "type": "string",
+                "description": "Max count of returned records. Acceptable values: 1 - 1000. Default is 100 if not specified."
+            },
+            "org": {
+                "type": "string",
+                "description": "Find IP Netblocks which have the specified search terms in their Netblock (netname, description, remarks), or Organisation (org.org, org.name, org.email, org.address) fields"
+            },
+            "outputformat": {
+                "type": "string",
+                "description": "Response output format. Acceptable values are 'XML' or 'JSON'. Defaults to 'JSON' if not specified."
+            },
+            "mask": {
+                "type": "string",
+                "description": "Get ranges by CIDR. Acceptable values: 0 - 128 (0 - 32 for IPv4). Default is 128 if not specified."
+            },
+            "ip": {
+                "type": "string",
+                "description": "Get ranges by IPv4/IPv6 address or by CIDR. Default is '8.8.8.8'.",
+                "default": "8.8.8.8"
+            }
+        },
+        "required": []
+    }
+}

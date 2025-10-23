@@ -1,0 +1,139 @@
+{
+    "{'is_id': 9864379}": {
+        "error": "",
+        "response": {
+            "statistics": [
+                {
+                    "period": "ALL",
+                    "groups": [
+                        {
+                            "groupName": "Batting",
+                            "statisticsItems": [
+                                {
+                                    "name": "Runs",
+                                    "home": "3",
+                                    "away": "8",
+                                    "compareCode": 2,
+                                    "statisticsType": "positive",
+                                    "valueType": "event",
+                                    "homeValue": 3,
+                                    "awayValue": 8,
+                                    "renderType": 1,
+                                    "key": "battingRuns"
+                                },
+                                {
+                                    "name": "Doubles",
+                                    "home": "1",
+                                    "away": "4",
+                                    "compareCode": 2,
+                                    "statisticsType": "positive",
+                                    "valueType": "event",
+                                    "homeValue": 1,
+                                    "awayValue": 4,
+                                    "renderType": 1,
+                                    "key": "battingDoubles"
+                                },
+                                {
+                                    "name": "Triples",
+                                    "home": "0",
+                                    "away": "0",
+                                    "compareCode": 3,
+                                    "statisticsType": "positive",
+                                    "valueType": "event",
+                                    "homeValue": 0,
+                                    "awayValue": 0,
+                                    "renderType": 1,
+                                    "key": "battingTriples"
+                                },
+                                {
+                                    "name": "Home runs",
+                                    "home": "1",
+                                    "away": "1",
+                                    "compareCode": 3,
+                                    "statisticsType": "positive",
+                                    "valueType": "event",
+                                    "homeValue": 1,
+                                    "awayValue": 1,
+                                    "renderType": 1,
+                                    "key": "battingHomeRuns"
+                                },
+                                {
+                                    "name": "Strike outs",
+                                    "home": "16",
+                                    "away": "3",
+                                    "compareCode": 1,
+                                    "statisticsType": "negative",
+                                    "valueType": "event",
+                                    "homeValue": 16,
+                                    "awayValue": 3,
+                                    "renderType": 1,
+                                    "key": "battingStrikeOuts"
+                                },
+                                {
+                                    "name": "Base on balls",
+                                    "home": "7",
+                                    "away": "1",
+                                    "compareCode": 1,
+                                    "statisticsType": "positive",
+                                    "valueType": "event",
+                                    "homeValue": 7,
+                                    "awayValue": 1,
+                                    "renderType": 1,
+                                    "key": "battingBaseOnBalls"
+                                },
+                                {
+                                    "name": "Hits",
+                                    "home": "5",
+                                    "away": "16",
+                                    "compareCode": 2,
+                                    "statisticsType": "positive",
+                                    "valueType": "event",
+                                    "homeValue": 5,
+                                    "awayValue": 16,
+                                    "renderType": 1,
+                                    "key": "battingHits"
+                                },
+                                {
+                                    "name": "AVG",
+                                    "home": ".238",
+                                    "away": ".257",
+                                    "compareCode": 2,
+                                    "statisticsType": "positive",
+                                    "valueType": "event",
+                                    "homeValue": 0.238,
+                                    "awayValue": 0.257,
+                                    "renderType": 1,
+                                    "key": "battingAvg"
+                                },
+                                {
+                                    "name": "OBP",
+                                    "home": ".307",
+                                    "away": ".327",
+                                    "compareCode": 2,
+                                    "statisticsType": "positive",
+                                    "valueType": "event",
+                                    "homeValue": 0.307,
+                                    "awayValue": 0.327,
+                                    "renderType": 1,
+                                    "key": "battingObp"
+                                },
+                                {
+                                    "name": "SLG",
+                                    "home": ".374",
+                                    "away": ".400",
+                                    "compareCode": 2,
+                                    "statisticsType": "positive",
+                                    "valueType": "event",
+                                    "homeValue": 0.374,
+                                    "awayValue": 0.4,
+                                    "renderType": 1,
+                                    "key": "battingSlg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

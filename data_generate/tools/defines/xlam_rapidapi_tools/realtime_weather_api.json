@@ -1,0 +1,17 @@
+{
+    "name": "realtime_weather_api",
+    "description": "This is a sub-function API for tool weatherapi_com.\nTool description: WeatherAPI.com is a powerful fully managed free weather and geolocation API provider that provides extensive APIs that range from the weather forecast, historical weather, future weather, weather alerts, air quality data, IP lookup, and astronomy through to sports, time zone, and geolocation.\nAPI description: Current weather or realtime weather API method allows a user to get up to date current weather information in json and xml. The data is returned as a Current Object.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "Query parameter based on which data is sent back. It could be following:  Latitude and Longitude (Decimal degree) e.g: q=48.8567,2.3508 city name e.g.: q=Paris US zip e.g.: q=10001 UK postcode e.g: q=SW1 Canada postal code e.g: q=G2J metar:<metar code> e.g: q=metar:EGLL iata:<3 digit airport code> e.g: q=iata:DXB auto:ip IP lookup e.g: q=auto:ip IP address (IPv4 and IPv6 supported) e.g: q=100.0.0.1",
+                "default": "53.1,-0.13"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

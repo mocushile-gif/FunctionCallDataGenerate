@@ -1,0 +1,41 @@
+{
+    "name": "search_news_articles",
+    "description": "Search through millions of articles from over 150,000 large and small news sources and blogs using the NewsAPI.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "The search query (e.g., 'apple')."
+        },
+        "page": {
+          "type": "integer",
+          "description": "The page number to retrieve results from. Default is 1.",
+          "default": 1
+        },
+        "pageSize": {
+          "type": "integer",
+          "description": "The number of results to return per page. Default is 10.",
+          "default": 10
+        },
+        "sortBy": {
+          "type": "string",
+          "description": "The order to sort the articles in. Options: relevancy, popularity, publishedAt.",
+          "default": "publishedAt"
+        },
+        "from_date": {
+          "type": "string",
+          "description": "The date filter for the content, format: 'YYYY-MM-DD'. Optional, up to a month old."
+        },
+        "to_date": {
+          "type": "string",
+          "description": "The date filter for the content, format: 'YYYY-MM-DD'. Optional."
+        },
+        "lang": {
+          "type": "string",
+          "description": "The 2-letter ISO-639-1 code of the language you want to get headlines for. Optional."
+        }
+      },
+      "required": ["query"]
+    }
+}

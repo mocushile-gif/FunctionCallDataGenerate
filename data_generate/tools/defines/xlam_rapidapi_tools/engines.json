@@ -1,0 +1,105 @@
+{
+    "name": "engines",
+    "description": "This is a sub-function API for tool car_api.\nTool description: Search vehicles sold in the United States by year, make, model, trim, engine, body, mileage, VIN decoder and more.\nAPI description: To include additional information about the returned body (such as year, make, model and trim) request with the query parameter as verbose=yes.\n\nFor complex queries you may use the json field to send an array of URL encoded JSON conditions, example:\n\n`[{\"field\": \"horsepower_hp\", \"op\": \">=\", \"val\": 100}, {\"field\": \"horsepower_hp\", \"op\": \"<=\", \"val\": 300}]`\n\nSee /api/vehicle-attributes for a complete list of vehicle attributes.\n\nAllowed operators are: `>`, `<`, `>=`, `<=`, `in`, `not in`, `like`, `not like`, ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year of the vehicle."
+            },
+            "direction": {
+                "type": "string",
+                "description": "The direction to sort the results by, either 'asc' or 'desc'. Defaults to 'asc'.",
+                "default": "asc"
+            },
+            "valves": {
+                "type": "string",
+                "description": "The number of valves in the engine."
+            },
+            "valve_timing": {
+                "type": "string",
+                "description": "The valve timing of the engine."
+            },
+            "fuel_type": {
+                "type": "string",
+                "description": "The fuel type of the vehicle."
+            },
+            "json": {
+                "type": "string",
+                "description": "A JSON string for complex queries."
+            },
+            "model": {
+                "type": "string",
+                "description": "The model of the vehicle."
+            },
+            "make": {
+                "type": "string",
+                "description": "The make of the vehicle."
+            },
+            "make_model_id": {
+                "type": "string",
+                "description": "The ID of the make and model."
+            },
+            "trim": {
+                "type": "string",
+                "description": "The trim level of the vehicle."
+            },
+            "cam_type": {
+                "type": "string",
+                "description": "The cam type of the engine."
+            },
+            "engine_type": {
+                "type": "string",
+                "description": "The type of the engine."
+            },
+            "make_model_trim_id": {
+                "type": "string",
+                "description": "The ID of the make, model, and trim."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to return."
+            },
+            "drive_type": {
+                "type": "string",
+                "description": "The drive type of the vehicle."
+            },
+            "verbose": {
+                "type": "string",
+                "description": "Include additional information such as make, model, and trim when 'yes'. Defaults to 'yes'.",
+                "default": "yes"
+            },
+            "make_id": {
+                "type": "string",
+                "description": "The ID of the make."
+            },
+            "cylinders": {
+                "type": "string",
+                "description": "The number of cylinders in the engine."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of the results."
+            },
+            "sort": {
+                "type": "string",
+                "description": "The field to sort the results by. Defaults to 'id'.",
+                "default": "id"
+            },
+            "size": {
+                "type": "string",
+                "description": "The size of the engine."
+            },
+            "horsepower_hp": {
+                "type": "string",
+                "description": "The horsepower of the engine in HP."
+            },
+            "transmission": {
+                "type": "string",
+                "description": "The type of transmission in the vehicle."
+            }
+        },
+        "required": []
+    }
+}

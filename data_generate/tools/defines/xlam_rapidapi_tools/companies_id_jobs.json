@@ -1,0 +1,27 @@
+{
+    "name": "companies_id_jobs",
+    "description": "This is a sub-function API for tool german_company_data_v2.\nTool description: Enrich your CRM / MAS / ERP system with credible data about all incorporated companies from  Germany.\nAPI description: This endpoint returns the latest job postings about the company with the given identifier since the given timestamp. This timestamp is optional and is specified via a query parameter. Job postings come with a title, a text (the content of the posting), a source, and a timestamp.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The identifier of the company.",
+                "default": "DEVFCLQFW054"
+            },
+            "since": {
+                "type": "string",
+                "description": "A timestamp to filter job postings. Defaults to '2017-01-01'.",
+                "default": "2017-01-01"
+            },
+            "size": {
+                "type": "number",
+                "description": "The maximum number of job postings to return. Defaults to 100.",
+                "default": 100.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "classification",
+    "description": "This is a sub-function API for tool koppen_climate_classification.\nTool description: Get the Köppen climate classificatin for any location in the world using latitude and longitude.  Results in JSON format.\nAPI description: Gets the Köppen climate classification code for the given longitude and latitude coordinates.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lon": {
+                "type": "string",
+                "description": "The longitude coordinate.",
+                "default": "-60.069"
+            },
+            "lat": {
+                "type": "string",
+                "description": "The latitude coordinate.",
+                "default": "-3.198"
+            }
+        },
+        "required": [
+            "lon",
+            "lat"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "actors_list_born_today",
+    "description": "This is a sub-function API for tool online_movie_database.\nTool description: This API helps to query for all information about films, actors, characters,etc... to create a movie/series/streaming content site/application\nAPI description: Fetches a list of actors and actresses born on a specific day and month from the Online Movie Database via the RapidAPI platform.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "month": {
+                "type": "number",
+                "description": "The month of birth of the actors.",
+                "default": 7.0
+            },
+            "day": {
+                "type": "number",
+                "description": "The day of birth of the actors.",
+                "default": 27.0
+            }
+        },
+        "required": [
+            "month",
+            "day"
+        ]
+    }
+}

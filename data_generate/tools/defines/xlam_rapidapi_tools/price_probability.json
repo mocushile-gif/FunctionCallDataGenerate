@@ -1,0 +1,17 @@
+{
+    "name": "price_probability",
+    "description": "This is a sub-function API for tool marketci_analytics.\nTool description: Stock Market Endpoint for Price Forecasts, Probability, Cash Flow Models , and Peer Comps \nAPI description: Based on over 1000 forecasts, the probabilistic outcome is above or below the current price in a normal distribution.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which the probabilistic outcome is to be fetched.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

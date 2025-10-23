@@ -1,0 +1,110 @@
+{
+    "{\n  \"channel\": \"mychannel\"\n}": {
+        "error": "",
+        "response": "{\"community\":{\"__typename\":\"User\",\"channel\":{\"__typename\":\"Channel\",\"communityPointsSettings\":{\"__typename\":\"CommunityPointsChannelSettings\",\"automaticRewards\":[],\"customRewards\":[],\"earning\":{\"__typename\":\"CommunityPointsChannelEarningSettings\",\"averagePointsPerHour\":220,\"cheerPoints\":350,\"claimPoints\":50,\"followPoints\":300,\"id\":\"Y29wb0NoYW5uZWxFYXJuaW5nU2V0dGluZ3M6MjY0Nzk2MQ==\",\"multipliers\":[{\"__typename\":\"CommunityPointsMultiplier\",\"factor\":0.2,\"reasonCode\":\"SUB_T1\"},{\"__typename\":\"CommunityPointsMultiplier\",\"factor\":0.4,\"reasonCode\":\"SUB_T2\"},{\"__typename\":\"CommunityPointsMultiplier\",\"factor\":1,\"reasonCode\":\"SUB_T3\"}],\"passiveWatchPoints\":10,\"raidPoints\":250,\"subscriptionGiftPoints\":500,\"watchStreakPoints\":[{\"__typename\":\"CommunityPointsWatchStreakEarningSettings\",\"points\":300},{\"__typename\":\"CommunityPointsWatchStreakEarningSettings\",\"points\":350},{\"__typename\":\"CommunityPointsWatchStreakEarningSettings\",\"points\":400},{\"__typename\":\"CommunityPointsWatchStreakEarningSettings\",\"points\":450}]},\"emoteVariants\":[],\"goals\":[],\"image\":null,\"isEnabled\":false,\"name\":null,\"raidPointAmount\":250},\"id\":\"2647961\",\"self\":{\"__typename\":\"ChannelSelfEdge\",\"communityPoints\":null}},\"displayName\":\"mychannel\",\"id\":\"2647961\",\"self\":null},\"currentUser\":null}"
+    },
+    "{\n  \"channel\": \"my_username\"\n}": {
+        "error": "",
+        "response": "{\"community\":{\"__typename\":\"User\",\"channel\":{\"__typename\":\"Channel\",\"communityPointsSettings\":{\"__typename\":\"CommunityPointsChannelSettings\",\"automaticRewards\":[],\"customRewards\":[],\"earning\":{\"__typename\":\"CommunityPointsChannelEarningSettings\",\"averagePointsPerHour\":220,\"cheerPoints\":350,\"claimPoints\":50,\"followPoints\":300,\"id\":\"Y29wb0NoYW5uZWxFYXJuaW5nU2V0dGluZ3M6NzY1MDA4MDg=\",\"multipliers\":[{\"__typename\":\"CommunityPointsMultiplier\",\"factor\":0.2,\"reasonCode\":\"SUB_T1\"},{\"__typename\":\"CommunityPointsMultiplier\",\"factor\":0.4,\"reasonCode\":\"SUB_T2\"},{\"__typename\":\"CommunityPointsMultiplier\",\"factor\":1,\"reasonCode\":\"SUB_T3\"}],\"passiveWatchPoints\":10,\"raidPoints\":250,\"subscriptionGiftPoints\":500,\"watchStreakPoints\":[{\"__typename\":\"CommunityPointsWatchStreakEarningSettings\",\"points\":300},{\"__typename\":\"CommunityPointsWatchStreakEarningSettings\",\"points\":350},{\"__typename\":\"CommunityPointsWatchStreakEarningSettings\",\"points\":400},{\"__typename\":\"CommunityPointsWatchStreakEarningSettings\",\"points\":450}]},\"emoteVariants\":[],\"goals\":[],\"image\":null,\"isEnabled\":false,\"name\":null,\"raidPointAmount\":250},\"id\":\"76500808\",\"self\":{\"__typename\":\"ChannelSelfEdge\",\"communityPoints\":null}},\"displayName\":\"my_username\",\"id\":\"76500808\",\"self\":null},\"currentUser\":null}"
+    },
+    "{'channel': 'my_channel'}": {
+        "error": "",
+        "response": {
+            "community": {
+                "__typename": "User",
+                "channel": {
+                    "__typename": "Channel",
+                    "communityPointsSettings": {
+                        "__typename": "CommunityPointsChannelSettings",
+                        "automaticRewards": [],
+                        "customRewards": [],
+                        "earning": {
+                            "__typename": "CommunityPointsChannelEarningSettings",
+                            "averagePointsPerHour": 220,
+                            "cheerPoints": 350,
+                            "claimPoints": 50,
+                            "followPoints": 300,
+                            "id": "Y29wb0NoYW5uZWxFYXJuaW5nU2V0dGluZ3M6NDQ2MTQ1Mjkw",
+                            "multipliers": [
+                                {
+                                    "__typename": "CommunityPointsMultiplier",
+                                    "factor": 0.2,
+                                    "reasonCode": "SUB_T1"
+                                },
+                                {
+                                    "__typename": "CommunityPointsMultiplier",
+                                    "factor": 0.4,
+                                    "reasonCode": "SUB_T2"
+                                },
+                                {
+                                    "__typename": "CommunityPointsMultiplier",
+                                    "factor": 1,
+                                    "reasonCode": "SUB_T3"
+                                }
+                            ],
+                            "passiveWatchPoints": 10,
+                            "raidPoints": 250,
+                            "subscriptionGiftPoints": 500,
+                            "watchStreakPoints": [
+                                {
+                                    "__typename": "CommunityPointsWatchStreakEarningSettings",
+                                    "points": 300
+                                },
+                                {
+                                    "__typename": "CommunityPointsWatchStreakEarningSettings",
+                                    "points": 350
+                                },
+                                {
+                                    "__typename": "CommunityPointsWatchStreakEarningSettings",
+                                    "points": 400
+                                },
+                                {
+                                    "__typename": "CommunityPointsWatchStreakEarningSettings",
+                                    "points": 450
+                                }
+                            ]
+                        },
+                        "emoteVariants": [],
+                        "goals": [],
+                        "image": null,
+                        "isEnabled": false,
+                        "name": null,
+                        "raidPointAmount": 250
+                    },
+                    "id": "446145290",
+                    "self": {
+                        "__typename": "ChannelSelfEdge",
+                        "communityPoints": null
+                    }
+                },
+                "displayName": "my_channel",
+                "id": "446145290",
+                "self": null
+            },
+            "currentUser": null
+        }
+    },
+    "{'channel': 'my_channel_name'}": {
+        "error": "",
+        "response": {
+            "community": null,
+            "currentUser": null
+        }
+    },
+    "{'channel': 'xqc'}": {
+        "error": "",
+        "response": "{'community': {'__typename': 'User', 'channel': {'__typename': 'Channel', 'communityPointsSettings': {'__typename': 'CommunityPointsChannelSettings', 'automaticRewards': [{'__typename': 'CommunityPointsAutomaticReward', 'backgroundColor': None, 'cost': 3000, 'defaultBackgroundColor': '#9146FF', 'defaultCost': 350, 'defaultImage': {'__typename': 'CommunityPointsImage', 'url': 'https://static-cdn.jtvnw.net/automatic-reward-images/subsonly-1.png', 'url2x': 'https://static-cdn.jtvnw.net/automatic-reward-images/subsonly-2.png', 'url4x': 'https://static-cdn.jtvnw.net/automatic-reward-images/subsonly-4.png'}, 'globallyUpdatedForIndicatorAt': '2019-09-03T21:00:00Z', 'id': '71092938:SINGLE_MESSAGE_BYPASS_SUB_MODE', 'image': None, 'isEnabled': False, 'isHiddenForSubs': True, 'minimumCost': 80, 'type': 'SINGLE_MESSAGE_BYPASS_SUB_MODE', 'updatedForIndicatorAt': None}, {'__typename': 'CommunityPointsAutomaticReward', 'backgroundColor': '#05FFE2', 'cost': 10, 'defaultBackgroundColor': '#FF6905', 'defaultCost': 100, 'defaultImage': {'__typename': 'CommunityPointsImage', 'url': 'https://static-cdn.jtvnw.net/automatic-reward-images/highlight-1.png', 'url2x': 'https://static-cdn.jtvnw.net/automatic-reward-images/highlight-2.png', 'url4x': 'https://static-cdn.jtvnw.net/automatic-reward-images/highlight-4.png'}, 'globallyUpdatedForIndicatorAt': '2019-09-03T21:00:00Z', 'id': '71092938:SEND_HIGHLIGHTED_MESSAGE', 'image': None, 'isEnabled': False, 'isHiddenForSubs': False, 'minimumCost': 10, 'type': 'SEND_HIGHLIGHTED_MESSAGE', 'updatedForIndicatorAt': '2020-12-23T02:54:18.908575937Z'}, {'__typename': 'CommunityPointsAutomaticReward', 'backgroundColor': None, 'cost': 320, 'defaultBackgroundColor': '#8205B4', 'defaultCost': 320, 'defaultImage': {'__typename': 'CommunityPointsImage', 'url': 'https://static-cdn.jtvnw.net/automatic-reward-images/random-emote-1.png', 'url2x': 'https://static-cdn.jtvnw.net/automatic-reward-images/random-emote-2.png', 'url4x': 'https://static-cdn.jtvnw.net/automatic-reward-images/random-emote-4.png'}, 'globall"
+    },
+    "{'channel': 'Lirik'}": {
+        "error": "",
+        "response": "{'community': {'__typename': 'User', 'channel': {'__typename': 'Channel', 'communityPointsSettings': {'__typename': 'CommunityPointsChannelSettings', 'automaticRewards': [{'__typename': 'CommunityPointsAutomaticReward', 'backgroundColor': None, 'cost': 10000, 'defaultBackgroundColor': '#FF6905', 'defaultCost': 700, 'defaultImage': {'__typename': 'CommunityPointsImage', 'url': 'https://static-cdn.jtvnw.net/automatic-reward-images/highlight-1.png', 'url2x': 'https://static-cdn.jtvnw.net/automatic-reward-images/highlight-2.png', 'url4x': 'https://static-cdn.jtvnw.net/automatic-reward-images/highlight-4.png'}, 'globallyUpdatedForIndicatorAt': '2019-09-03T21:00:00Z', 'id': '23161357:SEND_HIGHLIGHTED_MESSAGE', 'image': None, 'isEnabled': False, 'isHiddenForSubs': False, 'minimumCost': 10, 'type': 'SEND_HIGHLIGHTED_MESSAGE', 'updatedForIndicatorAt': '2020-06-25T23:38:46.327971263Z'}, {'__typename': 'CommunityPointsAutomaticReward', 'backgroundColor': None, 'cost': 500, 'defaultBackgroundColor': '#8205B4', 'defaultCost': 460, 'defaultImage': {'__typename': 'CommunityPointsImage', 'url': 'https://static-cdn.jtvnw.net/automatic-reward-images/random-emote-1.png', 'url2x': 'https://static-cdn.jtvnw.net/automatic-reward-images/random-emote-2.png', 'url4x': 'https://static-cdn.jtvnw.net/automatic-reward-images/random-emote-4.png'}, 'globallyUpdatedForIndicatorAt': '2019-09-03T21:00:00Z', 'id': '23161357:RANDOM_SUB_EMOTE_UNLOCK', 'image': None, 'isEnabled': True, 'isHiddenForSubs': True, 'm"
+    },
+    "{'channel': 'FreeCodeCamp'}": {
+        "error": "",
+        "response": "{'community': {'__typename': 'User', 'channel': {'__typename': 'Channel', 'communityPointsSettings': {'__typename': 'CommunityPointsChannelSettings', 'automaticRewards': [], 'customRewards': [], 'earning': {'__typename': 'CommunityPointsChannelEarningSettings', 'averagePointsPerHour': 220, 'cheerPoints': 350, 'claimPoints': 50, 'followPoints': 300, 'id': 'Y29wb0NoYW5uZWxFYXJuaW5nU2V0dGluZ3M6Nzk3NzYxNDA=', 'multipliers': [{'__typename': 'CommunityPointsMultiplier', 'factor': 0.2, 'reasonCode': 'SUB_T1'}, {'__typename': 'CommunityPointsMultiplier', 'factor': 0.4, 'reasonCode': 'SUB_T2'}, {'__typename': 'CommunityPointsMultiplier', 'factor': 1, 'reasonCode': 'SUB_T3'}], 'passiveWatchPoints': 10, 'raidPoints': 250, 'subscriptionGiftPoints': 500, 'watchStreakPoints': [{'__typename': 'CommunityPointsWatchStreakEarningSettings', 'points': 300}, {'__typename': 'CommunityPointsWatchStreakEarningSettings', 'points': 350}, {'__typename': 'CommunityPointsWatchStreakEarningSettings', 'points': 400}, {'__typename': 'CommunityPointsWatchStreakEarningSettings', 'points': 450}]}, 'emoteVariants': [], 'goals': [], 'image': None, 'isEnabled': False, 'name': None, 'raidPointAmount': 250}, 'id': '79776140', 'self': {'__typename': 'ChannelSelfEdge', 'communityPoints': None}}, 'displayName': 'FreeCodeCamp', 'id': '79776140', 'self': None}, 'currentUser': None}"
+    },
+    "{'channel': 'GoogleDevelopers'}": {
+        "error": "",
+        "response": "{'community': {'__typename': 'User', 'channel': {'__typename': 'Channel', 'communityPointsSettings': {'__typename': 'CommunityPointsChannelSettings', 'automaticRewards': [], 'customRewards': [], 'earning': {'__typename': 'CommunityPointsChannelEarningSettings', 'averagePointsPerHour': 220, 'cheerPoints': 350, 'claimPoints': 50, 'followPoints': 300, 'id': 'Y29wb0NoYW5uZWxFYXJuaW5nU2V0dGluZ3M6MTYxNjI3Nzk1', 'multipliers': [{'__typename': 'CommunityPointsMultiplier', 'factor': 0.2, 'reasonCode': 'SUB_T1'}, {'__typename': 'CommunityPointsMultiplier', 'factor': 0.4, 'reasonCode': 'SUB_T2'}, {'__typename': 'CommunityPointsMultiplier', 'factor': 1, 'reasonCode': 'SUB_T3'}], 'passiveWatchPoints': 10, 'raidPoints': 250, 'subscriptionGiftPoints': 500, 'watchStreakPoints': [{'__typename': 'CommunityPointsWatchStreakEarningSettings', 'points': 300}, {'__typename': 'CommunityPointsWatchStreakEarningSettings', 'points': 350}, {'__typename': 'CommunityPointsWatchStreakEarningSettings', 'points': 400}, {'__typename': 'CommunityPointsWatchStreakEarningSettings', 'points': 450}]}, 'emoteVariants': [], 'goals': [], 'image': None, 'isEnabled': False, 'name': None, 'raidPointAmount': 250}, 'id': '161627795', 'self': {'__typename': 'ChannelSelfEdge', 'communityPoints': None}}, 'displayName': 'GoogleDevelopers', 'id': '161627795', 'self': None}, 'currentUser': None}"
+    }
+}

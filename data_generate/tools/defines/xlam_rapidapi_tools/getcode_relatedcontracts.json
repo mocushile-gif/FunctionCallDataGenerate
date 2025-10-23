@@ -1,0 +1,23 @@
+{
+    "name": "getcode_relatedcontracts",
+    "description": "This is a sub-function API for tool flow_study.\nTool description: search in flow block chain \nAPI description: Fetches related contract information from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "contract_address": {
+                "type": "string",
+                "description": "The address of the contract.",
+                "default": "0x097bafa4e0b48eef"
+            },
+            "contract_name": {
+                "type": "string",
+                "description": "The name of the contract.",
+                "default": "CharityNFT"
+            }
+        },
+        "required": [
+            "contract_address",
+            "contract_name"
+        ]
+    }
+}

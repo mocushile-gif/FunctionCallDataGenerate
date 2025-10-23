@@ -1,0 +1,15 @@
+{
+    "name": "country_location_api",
+    "description": "This is a sub-function API for tool country_location_api.\nTool description: The Country Location API is a RESTful API that allows developers to retrieve location data for any country in the world. Using a GET request with a country parameter, the API retrieves information about the specified country, such as its name, capital city, region, subregion, population, languages, and currencies.\nAPI description: The Country Location API is a RESTful API that allows developers to retrieve location data for any country in the world. Using a GET request with a country parameter, the API retrieves information about the specified country, such as its name, capital city, region, subregion, population, languages, and currencies.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "Name of the country for which to retrieve location data. Defaults to 'canada'.",
+                "default": "canada"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "check_file_or_dir_exists",
+  "description": "Check if a file or directory exists.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "path": {
+        "type": "string",
+        "description": "The path to check. Default to './'"
+      }
+    },
+    "required": ["path"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "gettopsportmenu",
+    "description": "This is a sub-function API for tool sport_odds.\nTool description: Sport Odds by BetsSports\nAPI description: Fetches the top sport menu from the specified sportsbook API using provided skin name and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "skinname": {
+                "type": "string",
+                "description": "The skin name for the sportsbook. Defaults to 'betbiga'.",
+                "default": "betbiga"
+            }
+        },
+        "required": []
+    }
+}

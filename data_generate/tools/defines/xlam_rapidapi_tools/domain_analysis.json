@@ -1,0 +1,15 @@
+{
+    "name": "domain_analysis",
+    "description": "This is a sub-function API for tool domain_analysis.\nTool description: Analyze and evaluate domain names for their value and ROI with enriched Whois API data for domainrs and SEO professionals - More at: bishopi.io\nAPI description: Analyzes a given domain and retrieves various metrics such as domain length, past sales, and number of mentions using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain name to be analyzed. Defaults to 'dailynews.com'.",
+                "default": "dailynews.com"
+            }
+        },
+        "required": []
+    }
+}

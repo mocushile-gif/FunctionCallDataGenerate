@@ -1,0 +1,23 @@
+{
+    "name": "all_coins_ticker",
+    "description": "This is a sub-function API for tool coinlore_cryptocurrency.\nTool description: Provides cryptocurrency prices,exchanges,markets api\nAPI description: Fetches ticker information for a range of cryptocurrencies.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start": {
+                "type": "number",
+                "description": "The starting index for fetching tickers.",
+                "default": 0.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of tickers to fetch from the starting index.",
+                "default": 100.0
+            }
+        },
+        "required": [
+            "start",
+            "limit"
+        ]
+    }
+}

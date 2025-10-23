@@ -1,0 +1,22 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{\"success\":true,\"difficulty\":\"vhard\",\"word\":\"ergonomic\"}"
+    },
+    "{'difficulty': 'easy'}": {
+        "error": "",
+        "response": "{'success': True, 'difficulty': 'easy', 'word': 'mean'}"
+    },
+    "{'difficulty': 'medium'}": {
+        "error": "",
+        "response": {
+            "success": true,
+            "difficulty": "medium",
+            "word": "hip"
+        }
+    },
+    "{'difficulty': 'hard'}": {
+        "error": "",
+        "response": "{'success': True, 'difficulty': 'hard', 'word': 'pocket watch'}"
+    }
+}

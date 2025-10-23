@@ -1,0 +1,62 @@
+{
+    "{'target': 'EUR', 'source': 'USD'}": {
+        "error": "",
+        "response": "[{'symbol': 'USDEUR', 'name': 'USD/EUR', 'price': 0.9119, 'changesPercentage': 0.0329, 'change': 0.0003, 'dayLow': 0.9113, 'dayHigh': 0.9134, 'yearHigh': 1.0482, 'yearLow': 0.90138, 'marketCap': None, 'priceAvg50': 0.9207098, 'priceAvg200': 0.9429738, 'volume': 0, 'avgVolume': 0, 'open': 0.9116, 'previousClose': 0.9116, 'timestamp': '1688979296'}]"
+    },
+    "{'target': 'GBP', 'source': 'USD'}": {
+        "error": "",
+        "response": [
+            {
+                "symbol": "USDGBP",
+                "name": "USD/GBP",
+                "price": 0.77709,
+                "changesPercentage": -0.072,
+                "change": -0.0006,
+                "dayLow": 0.77671,
+                "dayHigh": 0.77764,
+                "yearHigh": 0.96348,
+                "yearLow": 0.77671,
+                "marketCap": null,
+                "priceAvg50": 0.79532033,
+                "priceAvg200": 0.82334554,
+                "volume": 0,
+                "avgVolume": 0,
+                "open": 0.77762,
+                "previousClose": 0.77765,
+                "timestamp": "1689041396"
+            }
+        ]
+    },
+    "{'target': 'USD', 'source': 'EUR'}": {
+        "error": "",
+        "response": "[{'symbol': 'EURUSD', 'name': 'EUR/USD', 'price': 1.09626, 'changesPercentage': 0.0146, 'change': 0.00016, 'dayLow': 1.0870746, 'dayHigh': 1.0975744, 'yearHigh': 1.10941, 'yearLow': 0.9540164, 'marketCap': None, 'priceAvg50': 1.0861186, 'priceAvg200': 1.0604749, 'volume': 91577, 'avgVolume': 91577, 'open': 1.0961, 'previousClose': 1.0969723, 'timestamp': '1688979296'}]"
+    },
+    "{'target': 'EUR', 'source': 'CAD'}": {
+        "error": "",
+        "response": "[{'symbol': 'CADEUR', 'name': 'CAD/EUR', 'price': 0.63826, 'changesPercentage': 0.09127116, 'change': 0.000582015944, 'dayLow': 0.63663, 'dayHigh': 0.63837, 'yearHigh': 0.69004, 'yearLow': 0.62719, 'marketCap': None, 'priceAvg50': 0.64007, 'priceAvg200': 0.66009, 'volume': 0, 'avgVolume': 29431.75232, 'open': 0.63744, 'previousClose': 0.63768, 'timestamp': '1748940203'}]"
+    },
+    "{'source': 'EUR', 'target': 'USD'}": {
+        "error": "",
+        "response": "[{'symbol': 'EURUSD', 'name': 'EUR/USD', 'price': 1.09585, 'changesPercentage': -0.0228, 'change': -0.00025, 'dayLow': 1.0870746, 'dayHigh': 1.0975744, 'yearHigh': 1.10941, 'yearLow': 0.9540164, 'marketCap': None, 'priceAvg50': 1.0861186, 'priceAvg200': 1.0604749, 'volume': 91577, 'avgVolume': 91577, 'open': 1.0961, 'previousClose': 1.0969723, 'timestamp': '1688978576'}]"
+    },
+    "{'source': 'GBP', 'target': 'USD'}": {
+        "error": "",
+        "response": "[{'symbol': 'GBPUSD', 'name': 'GBP/USD', 'price': 1.24378, 'changesPercentage': 0.12469, 'change': 0.001549, 'dayLow': 1.24073, 'dayHigh': 1.24427, 'yearHigh': 1.34329, 'yearLow': 1.23012, 'marketCap': None, 'priceAvg50': 1.27152, 'priceAvg200': 1.28059, 'volume': 8414, 'avgVolume': None, 'open': 1.24239, 'previousClose': 1.24224, 'timestamp': '1736132077'}]"
+    },
+    "{'target': 'USD', 'source': 'JPY'}": {
+        "error": "",
+        "response": "[{'symbol': 'JPYUSD', 'name': 'JPY/USD', 'price': 0.00681886, 'changesPercentage': 1.51651, 'change': 0.000101863705, 'dayLow': 0.0067192, 'dayHigh': 0.0068358, 'yearHigh': 0.007163, 'yearLow': 0.006176, 'marketCap': None, 'priceAvg50': 0.00667, 'priceAvg200': 0.00663302, 'volume': 0, 'avgVolume': 1308.18971, 'open': 0.0067192, 'previousClose': 0.006717, 'timestamp': '1743678907'}]"
+    },
+    "{'source': 'AUD', 'target': 'USD'}": {
+        "error": "",
+        "response": "[{'symbol': 'AUDUSD', 'name': 'AUD/USD', 'price': 0.65142, 'changesPercentage': -0.07216857, 'change': -0.00047046, 'dayLow': 0.64929, 'dayHigh': 0.65317, 'yearHigh': 0.69411, 'yearLow': 0.59231, 'marketCap': None, 'priceAvg50': 0.63691, 'priceAvg200': 0.64354, 'volume': 90411, 'avgVolume': 249890.05109, 'open': 0.65189, 'previousClose': 0.65189, 'timestamp': '1749545988'}]"
+    },
+    "{'source': 'CAD', 'target': 'USD'}": {
+        "error": "",
+        "response": "[{'symbol': 'CADUSD', 'name': 'CAD/USD', 'price': 0.72954, 'changesPercentage': -0.06858214, 'change': -0.00050068, 'dayLow': 0.72841, 'dayHigh': 0.73046, 'yearHigh': 0.74521, 'yearLow': 0.67609, 'marketCap': None, 'priceAvg50': 0.71824, 'priceAvg200': 0.71286, 'volume': 0, 'avgVolume': 23380.22711, 'open': 0.72998, 'previousClose': 0.73004, 'timestamp': '1749546029'}]"
+    },
+    "{'source': 'NZD', 'target': 'USD'}": {
+        "error": "",
+        "response": "[{'symbol': 'NZDUSD', 'name': 'NZD/USD', 'price': 0.60415, 'changesPercentage': -0.0917142, 'change': -0.0005546, 'dayLow': 0.60287, 'dayHigh': 0.60602, 'yearHigh': 0.63766, 'yearLow': 0.54907, 'marketCap': None, 'priceAvg50': 0.58828, 'priceAvg200': 0.58664, 'volume': 93710, 'avgVolume': 217655.87226, 'open': 0.60463, 'previousClose': 0.6047, 'timestamp': '1749546030'}]"
+    }
+}

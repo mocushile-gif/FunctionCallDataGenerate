@@ -1,0 +1,52 @@
+{
+    "name": "create_pie_chart_from_database",
+    "description": "Generate a pie chart from grouped and aggregated values in an SQLite database table.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the database file."
+        },
+        "from_clause": {
+          "type": "string",
+          "description": "Table or JOIN clause to query from."
+        },
+        "label_column": {
+          "type": "string",
+          "description": "Column to use as category labels in the pie chart."
+        },
+        "value_column": {
+          "type": "string",
+          "description": "Numeric column to aggregate and plot as pie sizes."
+        },
+        "where_clause": {
+          "type": "string",
+          "description": "Optional SQL WHERE clause without the 'WHERE' keyword."
+        },
+        "where_params": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Parameters to bind in the WHERE clause."
+        },
+        "agg_method": {
+          "type": "string",
+          "enum": ["sum", "mean", "count"],
+          "default": "sum",
+          "description": "Aggregation method to apply: sum, mean, or count."
+        },
+        "title": {
+          "type": "string",
+          "default": "Pie Chart",
+          "description": "Title for the pie chart."
+        },
+        "save_path": {
+          "type": "string",
+          "default": "./pie_chart.png",
+          "description": "File path to save the pie chart image."
+        }
+      },
+      "required": ["database_path", "from_clause", "label_column", "value_column"]
+    }
+  }
+  

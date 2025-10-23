@@ -1,0 +1,60 @@
+{
+    "name": "aliexpress_item_search",
+    "description": "This is a sub-function API for tool aliexpress_datahub.\nTool description: 🥇#1 Data Provider. Real-Time product data API you've been looking for. No manual rules or web-scraper maintenance is required.\nAPI description: Searches for items on AliExpress based on various filters and criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "brandid": {
+                "type": "string",
+                "description": "The brand ID to filter items by. Defaults to None."
+            },
+            "catid": {
+                "type": "string",
+                "description": "See '**caregoryList**' from response for this filter values. Eg.: 200002136\n\n"
+            },
+            "q": {
+                "type": "string",
+                "description": "The search query. Defaults to 'iphone'.",
+                "default": "iphone"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of the search results. Defaults to 1.",
+                "default": 1.0
+            },
+            "loc": {
+                "type": "string",
+                "description": "See '**locationList**' from the response for this filter value. Eg.: US\n"
+            },
+            "locale": {
+                "type": "string",
+                "description": "Locale parameter is used to display the titles and other content in selected language. All values are being validated and only the ones from the list are supported. Full list of supporting locale options, please use '**Locale List'** at '**Base**' group endpoints."
+            },
+            "endprice": {
+                "type": "number",
+                "description": "The upper price limit to filter items by. Defaults to None."
+            },
+            "sort": {
+                "type": "string",
+                "description": "The sort order of the search results. Defaults to None."
+            },
+            "attr": {
+                "type": "string",
+                "description": "See '**attributeList**' from the response for this filter value. Multiple values are separate with semicolons Eg.: 200000480:200004386;1186:200000072"
+            },
+            "startprice": {
+                "type": "number",
+                "description": "The lower price limit to filter items by. Defaults to None."
+            },
+            "region": {
+                "type": "string",
+                "description": "Region parameter is used to accurately get the shipping costs and other promo/deals for specific geo location. All values are being validated and only the ones from the list are supported. Full list of supporting locale options, please use '**Country List**' at '**Base**' group endpoints."
+            },
+            "currency": {
+                "type": "string",
+                "description": "Currency parameter is used to display the product price in selected currency. All values are being validated and only the ones from the list are supported. Full list of supporting currencies, please use '**Currency List**' at '**Base**' group endpoints."
+            }
+        },
+        "required": []
+    }
+}

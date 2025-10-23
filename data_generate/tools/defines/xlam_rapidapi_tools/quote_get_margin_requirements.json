@@ -1,0 +1,17 @@
+{
+    "name": "quote_get_margin_requirements",
+    "description": "This is a sub-function API for tool schwab.\nTool description: Research investments, and follow market news\nAPI description: Fetches the margin requirements for a given stock symbol from the Schwab API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to retrieve margin requirements.",
+                "default": "TSLA"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

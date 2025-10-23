@@ -1,0 +1,17 @@
+{
+    "name": "inn_general_director",
+    "description": "This is a sub-function API for tool dimondevosint.\nTool description: It is an API for mobile phone number OSINT. If you abuse it, you will be immediately banned!\nAPI description: Retrieves the general director information of a company based on its INN (tax identification number) using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "inn": {
+                "type": "string",
+                "description": "The INN number of the company.",
+                "default": "7736050003"
+            }
+        },
+        "required": [
+            "inn"
+        ]
+    }
+}

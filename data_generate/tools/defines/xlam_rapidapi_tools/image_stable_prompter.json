@@ -1,0 +1,14 @@
+{
+    "name": "image_stable_prompter",
+    "description": "This is a sub-function API for tool image_diffusion.\nTool description: Diffusion APIs\nAPI description: Generates a prompt for stable diffusion using an image URL via the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The full path of the image URL to be processed. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "hashtag",
+    "description": "This is a sub-function API for tool instagram_1.\nTool description: Collect instagram data with no headaches - more APIs are available, please request any that are not yet available!\nAPI description: Fetch posts from Instagram using a specific hashtag.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hashtag": {
+                "type": "string",
+                "description": "The hashtag to search for.",
+                "default": "football"
+            },
+            "raw": {
+                "type": "boolean",
+                "description": "Set to True to return the raw unprocessed data feed. Defaults to None."
+            }
+        },
+        "required": [
+            "hashtag"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "search_agents",
+    "description": "This is a sub-function API for tool realtor.\nTool description: Query real time data of US real estate properties and agents\nAPI description: Search for real estate agents based on various criteria such as location, price range, language, etc.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The city or zip code to search for agents.",
+                "default": "santa monica"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of the results to retrieve. Defaults to 1.",
+                "default": 1.0
+            },
+            "price": {
+                "type": "string",
+                "description": "The price range of properties the agent deals with, formatted as 'minPrice_maxPrice'. Defaults to None."
+            },
+            "agentname": {
+                "type": "string",
+                "description": "The name of the agent to search for. Defaults to None."
+            },
+            "lang": {
+                "type": "string",
+                "description": "[afrikaans\nalbanian\narabic\narmenian\nasl\nbengali\nbosnian\nbulgarian\nchinese\ncroatian\nczech\nDanish\ndutch\nEstonian\nfarsi\nfilipino\nfinnish\nfrench\ngaelic\ngeorgian\ngerman\ngreek\nhawaiian\nhebrew\nhindi\nhungarian\nindonesian\nitalian\njapanese\nkorean\nlao\nlatvian\nlithuanian\nmalay\nmandarin\nnepali\nnorwegian\npolish\nportuguese\npunjabi\nromanian\nrussian\nserbian\nsindhi\nsinghalese\nslovenian\nspanish\nswahili\nswedish\ntagalog\ntaiwanese\nthai\nturkish\nukrainian\nurdu\nvietnamese\nyugoslavian]"
+            },
+            "photo": {
+                "type": "boolean",
+                "description": "Whether to only show agents with a photo. 1 for yes, 0 for no. Defaults to None.",
+                "default": true
+            },
+            "rating": {
+                "type": "number",
+                "description": "The rating of the agent, between 1 and 5. Defaults to None."
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "get_user_tagged_media_by_user_id",
+    "description": "This is a sub-function API for tool instagram_looter.\nTool description: Access Instagram Data with Precision and Speed! Utilize Intelligent Request Filtering for Guaranteed 99.99% Response.\nAPI description: Fetches the media in which an Instagram user is tagged by user ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The Instagram user ID whose tagged media is to be fetched.",
+                "default": 18527.0
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of media items to fetch.",
+                "default": 12.0
+            },
+            "end_cursor": {
+                "type": "string",
+                "description": "The cursor for pagination to fetch the next set of results. Defaults to None."
+            }
+        },
+        "required": [
+            "is_id",
+            "count"
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "{'offset': 0, 'keyword': '', 'location': 'Frankfurt'}": {
+        "error": "",
+        "response": {
+            "code": "ok"
+        }
+    },
+    "{'offset': 20, 'keyword': 'secretary', 'location': 'Frankfurt'}": {
+        "error": "",
+        "response": {
+            "currentOffset": "20",
+            "offers": []
+        }
+    },
+    "{'offset': 20, 'keyword': 'Secretary', 'location': 'Frankfurt'}": {
+        "error": "",
+        "response": {
+            "currentOffset": "20",
+            "offers": []
+        }
+    },
+    "{'offset': 0, 'keyword': 'Frankfurt', 'location': 'https://www.google.com/search?ibp=htl%3Bjobs&q=developer+newyork&hl=en-US&kgs=e473f607e23ae72f&shndl=-1&source=sh%2Fx%2Fim%2Ftextlists%2Fdetail%2F1&entrypoint=sh%2Fx%2Fim%2Ftextlists%2Fdetail&mysharpfpstate=tldetail&htiq=developer+newyork&htidocid=6ak4txGw4C4AAAAAAA%3D%3D'}": {
+        "error": "",
+        "response": {
+            "currentOffset": "0",
+            "offers": []
+        }
+    },
+    "{'offset': 0, 'keyword': 'Frankfurt', 'location': 'https://www.google.com/search?q=Frankfurt'}": {
+        "error": "",
+        "response": {
+            "currentOffset": "0",
+            "offers": []
+        }
+    },
+    "{'keyword': 'Software Engineer', 'posted': 'last 7 days', 'offset': 0, 'location': 'Frankfurt'}": {
+        "error": "",
+        "response": "{'nextOffset': 10, 'currentOffset': '0', 'offers': ['https://www.google.com/search?ibp=htl%3Bjobs&q=Software+Engineer+Frankfurt&htidocid=qMtXXa-eId-w7v6KAAAAAA%3D%3D&hl=en-US&shndl=-1&shem=vslcca&source=sh%2Fx%2Fim%2Ftextlists%2Fdetail%2Fm1%2F1&mysharpfpstate=tldetail&htivrt=jobs&htiq=Software+Engineer+Frankfurt&htidocid=qMtXXa-eId-w7v6KAAAAAA%3D%3D', 'https://www.google.com/search?ibp=htl%3Bjobs&q=Software+Engineer+Frankfurt&htidocid=qMtXXa-eId-w7v6KAAAAAA%3D%3D&hl=en-US&shndl=-1&shem=vslcca&source=sh%2Fx%2Fim%2Ftextlists%2Fdetail%2Fm1%2F1&ibp=htl%3Bjobs&htidocid=eWpa0Doj2kuKdhdvAAAAAA%3D%3D&mysharpfpstate=tldetail&htivrt=jobs&htiq=Software+Engineer+Frankfurt&htidocid=eWpa0Doj2kuKdhdvAAAAAA%3D%3D', 'https://www.google.com/search?ibp=htl%3Bjobs&q=Software+Engineer+Frankfurt&htidocid=qMtXXa-eId-w7v6KAAAAAA%3D%3D&hl=en-US&shndl=-1&shem=vslcca&source=sh%2Fx%2Fim%2Ftextlists%2Fdetail%2Fm1%2F1&ibp=htl%3Bjobs&htidocid=eWpa0Doj2kuKdhdvAAAAAA%3D%3D&ibp=htl%3Bjobs&htidocid=TkGCXc7IJHRpAFdUAAAAAA%3D%3D&mysharpfpstate=tldetail&htivrt=jobs&htiq=Software+Engineer+Frankfurt&htidocid=TkGCXc7IJHRpAFdUAAAAAA%3D%3D', 'https://www.google.com/search?ibp=htl%3Bjobs&q=Software+Engineer+Frankfurt&htidocid=qMtXXa-eId-w7v6KAAAAAA%3D%3D&hl=en-US&shndl=-1&shem=vslcca&source=sh%2Fx%2Fim%2Ftextlists%2Fdetail%2Fm1%2F1&ibp=htl%3Bjobs&htidocid=eWpa0Doj2kuKdhdvAAAAAA%3D%3D&ibp=htl%3Bjobs&htidocid=TkGCXc7IJHRpAFdUAAAAAA%3D%3D&ibp=htl%3Bjobs&htidocid=1fFd6dzzyYLXq_rsAAAAAA%3D%3D&mysharpfpstate=tldetail&htivrt=jobs&htiq=Software+Engineer+Frankfurt&htidocid=1fFd6dzzyYLXq_rsAAAAAA%3D%3D', 'https://www.google.com/search?ibp=htl%3Bjobs&q=Software+Engineer+Frankfurt&htidocid=qMtXXa-eId-w7v6KAAAAAA%3D%3D&hl=en-US&shndl=-1&shem=vslcca&source=sh%2Fx%2Fim%2Ftextlists%2Fdetail%2Fm1%2F1&ibp=htl%3Bjobs&htidocid=eWpa0Doj2kuKdhdvAAAAAA%3D%3D&ibp=htl%3Bjobs&htidocid=TkGCXc7IJHRpAFdUAAAAAA%3D%3D&ibp=htl%3Bjobs&htidocid=1fFd6dzzyYLXq_rsAAAAAA%3D%3D&ibp=htl%3Bjobs&htidocid=mTCZqNY7enwTuZf5AAAAAA%3D%3D&mysharpfpstate=tldetail&htivrt=jobs&htiq=Software+Engineer+Frankf"
+    }
+}

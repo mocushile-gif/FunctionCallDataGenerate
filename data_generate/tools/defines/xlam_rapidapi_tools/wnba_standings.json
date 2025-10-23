@@ -1,0 +1,21 @@
+{
+    "name": "wnba_standings",
+    "description": "This is a sub-function API for tool wnba_api.\nTool description: This API offer every basketball fan an easy way to stay on top of the latest data for all operations and players in the WNBA. It covers scores, stats, standings, and statistics.\nAPI description: Fetches the WNBA team standings for a given year, with optional grouping.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year for which the standings are to be fetched.",
+                "default": "2022"
+            },
+            "group": {
+                "type": "string",
+                "description": "The group name for standings, either 'league' or 'conference'. Defaults to 'league'."
+            }
+        },
+        "required": [
+            "year"
+        ]
+    }
+}

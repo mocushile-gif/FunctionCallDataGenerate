@@ -1,0 +1,27 @@
+{
+    "name": "artist_albums",
+    "description": "This is a sub-function API for tool spotify_data.\nTool description: Spotify Data\nAPI description: Fetches the albums of an artist from the Spotify API using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier for the artist.",
+                "default": "2w9zwq3AktTeYYMuhMjju8"
+            },
+            "offset": {
+                "type": "string",
+                "description": "The index of the first album to return. Defaults to 0.",
+                "default": "0"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of albums to return. Defaults to 100.",
+                "default": "100"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

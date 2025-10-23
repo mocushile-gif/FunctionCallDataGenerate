@@ -1,0 +1,65 @@
+{
+    "name": "products_list",
+    "description": "This is a sub-function API for tool unofficial_shein.\nTool description: This API helps to query for almost everything that you see PUBLICLY on SHEIN's sites\nAPI description: Fetches a list of products from a specified category with options for filtering and sorting.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "adp": {
+                "type": "string",
+                "description": "The value of 'goodsId' returned by the endpoint `/navigations/get-node-content`.",
+                "default": "10170797"
+            },
+            "cat_id": {
+                "type": "string",
+                "description": "The value of 'hrefTarget' returned by the endpoint `/navigations/get-node-content`.",
+                "default": "1980"
+            },
+            "max_price": {
+                "type": "number",
+                "description": "The maximum price to filter products. Defaults to None."
+            },
+            "sort": {
+                "type": "number",
+                "description": "One of the following : 0-Recommend|7-Top rated|8-Most popular|9-New arrivals|10-Price low to high|11-Price high to low",
+                "default": 7.0
+            },
+            "min_price": {
+                "type": "number",
+                "description": "The minimum price to filter products. Defaults to None."
+            },
+            "filter": {
+                "type": "string",
+                "description": "The value of 'attr&#95;filter' field OR {attr&#95;id}&#95;{attr&#95;value&#95;id} returned in .../products/get-filters endpoint. Separated by comma for multiple options. Ex : 87_1357-87_710,87_1352,etc..."
+            },
+            "currency": {
+                "type": "string",
+                "description": "The 3-letter currency code. Defaults to 'USD'.",
+                "default": "USD"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page index for pagination. Defaults to 1.",
+                "default": 1.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of items per response, for paging purpose",
+                "default": 20.0
+            },
+            "country": {
+                "type": "string",
+                "description": "The 2-letter country code. Defaults to 'US'.",
+                "default": "US"
+            },
+            "language": {
+                "type": "string",
+                "description": "The 2-letter language code. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "adp",
+            "cat_id"
+        ]
+    }
+}

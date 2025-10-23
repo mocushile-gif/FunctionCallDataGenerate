@@ -1,0 +1,17 @@
+{
+    "name": "validate_cnpj",
+    "description": "This is a sub-function API for tool cnpj_validator.\nTool description: Validates Brazilian CNPJ numbers. It can also generate random, valid numbers.\nAPI description: Validate a CNPJ number using the Toolbench RapidAPI service, ignoring certain characters such as ., -, and /.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "n": {
+                "type": "string",
+                "description": "The CNPJ number to be validated.",
+                "default": "11.111.111/1111-80"
+            }
+        },
+        "required": [
+            "n"
+        ]
+    }
+}

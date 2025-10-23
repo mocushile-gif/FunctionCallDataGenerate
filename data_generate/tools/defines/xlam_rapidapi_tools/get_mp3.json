@@ -1,0 +1,29 @@
+{
+    "name": "get_mp3",
+    "description": "This is a sub-function API for tool youtube_mp3.\nTool description: Convert Youtube Videos to MP3\nAPI description: Convert to MP3 at the default bit rate.\nQuota cost will apply according to the length of the mp3 file.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "Quota cost will apply according to the length of the mp3 file.\nQuota is calculated as follows:\nif length <= 30 then 1\nif 30 < length <= 60 then 2\nif 60 < length <= 90 then 3\nif 90 < length <= 120 then 4\nif 120 < length <= 150 then 5\nif 150 < length <= 180 then 6",
+                "default": "UxxajLWwzqY"
+            },
+            "cut": {
+                "type": "number",
+                "description": "Cut the mp3 according to the provided sStart and sEnd parameters\nThe value must be provided as 1\nThe quota Cost is +1."
+            },
+            "sstart": {
+                "type": "string",
+                "description": "The starting point for cutting the MP3. The format must be HH:MM:SS. Defaults to None."
+            },
+            "send": {
+                "type": "string",
+                "description": "The ending point for cutting the MP3. The format must be HH:MM:SS. Defaults to None."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

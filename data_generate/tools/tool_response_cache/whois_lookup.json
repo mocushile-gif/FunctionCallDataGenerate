@@ -1,0 +1,56 @@
+{
+    "{'domain': 'example.com'}": {
+        "error": "",
+        "response": {
+            "domain": "example.com",
+            "registrar": "Example Registrar, Inc.",
+            "creation_date": "1995-08-14",
+            "expiration_date": "2025-08-14",
+            "updated_date": "2023-01-10",
+            "status": "active",
+            "nameservers": [
+                "ns1.example.com",
+                "ns2.example.com"
+            ],
+            "contact_email": "admin@example.com",
+            "organization": "Example Organization",
+            "country": "US"
+        }
+    },
+    "{'domain': 'aiethicsglobal.org'}": {
+        "error": "",
+        "response": "{'data': {'domain_name': None, 'registrar': None, 'whois_server': None, 'referral_url': None, 'updated_date': None, 'creation_date': None, 'expiration_date': None, 'name_servers': None, 'status': None, 'emails': None, 'dnssec': None, 'name': None, 'org': None, 'address': None, 'city': None, 'state': None, 'zipcode': None, 'country': None}}"
+    },
+    "{'domain': 'at'}": {
+        "error": "",
+        "response": "{'data': {'domain_name': None, 'registrar': None, 'whois_server': None, 'referral_url': None, 'updated_date': None, 'creation_date': None, 'expiration_date': None, 'name_servers': None, 'status': None, 'emails': None, 'dnssec': None, 'name': None, 'org': None, 'address': None, 'city': None, 'state': None, 'zipcode': None, 'country': None}}"
+    },
+    "{'domain': 'boots.com'}": {
+        "error": "",
+        "response": "{'data': {'domain_name': ['BOOTS.COM', 'boots.com'], 'registrar': 'CSC CORPORATE DOMAINS, INC.', 'whois_server': 'whois.corporatedomains.com', 'referral_url': None, 'updated_date': ['2025-06-01 05:05:37', '2025-06-01 01:05:37'], 'creation_date': ['1995-06-06 04:00:00', '1995-06-06 00:00:00'], 'expiration_date': '2026-06-05 04:00:00', 'name_servers': ['NS1.NETNAMES.NET', 'NS2.NETNAMES.NET', 'NS5.NETNAMES.NET', 'NS6.NETNAMES.NET', 'dns2.cscdns.net', 'dns1.cscdns.net'], 'status': ['clientTransferProhibited https://icann.org/epp#clientTransferProhibited', 'serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited', 'serverTransferProhibited https://icann.org/epp#serverTransferProhibited', 'serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited', 'clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited', 'serverDeleteProhibited http://www.icann.org/epp#serverDeleteProhibited', 'serverTransferProhibited http://www.icann.org/epp#serverTransferProhibited', 'serverUpdateProhibited http://www.icann.org/epp#serverUpdateProhibited'], 'emails': ['domainabuse@cscglobal.com', 'domains@allianceboots.com', 'dns-admin@cscglobal.com'], 'dnssec': ['unsigned', 'Unsigned'], 'name': 'Domain Administrator', 'org': 'The Boots Company PLC', 'address': '1 Thane Road West', 'city': 'Nottingham,', 'state': 'Nottinghamshire', 'zipcode': 'NG2 3AA', 'country': 'GB'}}"
+    },
+    "{'domain': 'nsmodern.com'}": {
+        "error": "",
+        "response": "{'data': {'domain_name': ['NSMODERN.COM', 'nsmodern.com'], 'registrar': 'NAMECHEAP INC', 'whois_server': 'whois.namecheap.com', 'referral_url': None, 'updated_date': ['2025-05-28 10:36:52', '2025-03-08 05:16:22'], 'creation_date': '2018-02-28 06:12:28', 'expiration_date': '2026-02-28 06:12:28', 'name_servers': ['RAEGAN.NS.CLOUDFLARE.COM', 'TATE.NS.CLOUDFLARE.COM', 'raegan.ns.cloudflare.com', 'tate.ns.cloudflare.com'], 'status': 'clientTransferProhibited https://icann.org/epp#clientTransferProhibited', 'emails': ['abuse@namecheap.com', '0b0b71494e1d48e195507b07c24d05c2.protect@withheldforprivacy.com'], 'dnssec': 'unsigned', 'name': 'Redacted for Privacy', 'org': 'Privacy service provided by Withheld for Privacy ehf', 'address': 'Kalkofnsvegur 2', 'city': 'Reykjavik', 'state': 'Capital Region', 'zipcode': '101', 'country': 'IS'}}"
+    },
+    "{'domain': 'shopmax.com'}": {
+        "error": "",
+        "response": "{'data': {'domain_name': 'SHOPMAX.COM', 'registrar': 'GoDaddy.com, LLC', 'whois_server': 'whois.godaddy.com', 'referral_url': None, 'updated_date': '2022-10-01 22:31:34', 'creation_date': '2001-04-04 10:40:08', 'expiration_date': '2026-04-04 10:40:08', 'name_servers': ['NS1.C42690.SGVPS.NET', 'NS2.C42690.SGVPS.NET'], 'status': ['clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited', 'clientRenewProhibited https://icann.org/epp#clientRenewProhibited', 'clientTransferProhibited https://icann.org/epp#clientTransferProhibited', 'clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited'], 'emails': 'abuse@godaddy.com', 'dnssec': 'unsigned', 'name': None, 'org': None, 'address': None, 'city': None, 'state': None, 'zipcode': None, 'country': None}}"
+    },
+    "{'domain': 'api-ninjas.com'}": {
+        "error": "",
+        "response": "{'data': {'domain_name': ['API-NINJAS.COM', 'api-ninjas.com'], 'registrar': 'Squarespace Domains II LLC', 'whois_server': 'whois.squarespace.domains', 'referral_url': None, 'updated_date': ['2025-04-12 18:42:12', '2025-04-12 18:42:12.271946'], 'creation_date': '2021-04-27 15:05:42', 'expiration_date': '2026-04-27 15:05:42', 'name_servers': ['NS-1406.AWSDNS-47.ORG', 'NS-1682.AWSDNS-18.CO.UK', 'NS-292.AWSDNS-36.COM', 'NS-539.AWSDNS-03.NET', 'ns-1682.awsdns-18.co.uk', 'ns-1406.awsdns-47.org', 'ns-292.awsdns-36.com', 'ns-539.awsdns-03.net'], 'status': ['clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited', 'clientTransferProhibited https://icann.org/epp#clientTransferProhibited', 'client delete prohibited http://www.icann.org/epp#client delete prohibited', 'client transfer prohibited http://www.icann.org/epp#client transfer prohibited'], 'emails': 'abuse-complaints@squarespace.com', 'dnssec': 'unsigned', 'name': 'REDACTED FOR PRIVACY', 'org': None, 'address': 'REDACTED FOR PRIVACY', 'city': 'REDACTED FOR PRIVACY', 'state': 'CA', 'zipcode': 'REDACTED FOR PRIVACY', 'country': 'US'}}"
+    },
+    "{'domain': 'booking.com'}": {
+        "error": "",
+        "response": "{'data': {'domain_name': ['BOOKING.COM', 'booking.com'], 'registrar': 'MarkMonitor, Inc.', 'whois_server': 'whois.markmonitor.com', 'referral_url': None, 'updated_date': '2025-03-15 09:09:11', 'creation_date': '1998-04-17 04:00:00', 'expiration_date': ['2027-04-16 04:00:00', '2027-04-16 00:00:00'], 'name_servers': ['NS-1288.AWSDNS-33.ORG', 'NS-1959.AWSDNS-52.CO.UK', 'NS-508.AWSDNS-63.COM', 'NS-716.AWSDNS-25.NET', 'ns-1959.awsdns-52.co.uk', 'ns-1288.awsdns-33.org', 'ns-508.awsdns-63.com', 'ns-716.awsdns-25.net'], 'status': ['clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited', 'clientTransferProhibited https://icann.org/epp#clientTransferProhibited', 'clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited', 'serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited', 'serverTransferProhibited https://icann.org/epp#serverTransferProhibited', 'serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited', 'clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)', 'clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)', 'clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)', 'serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)', 'serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)', 'serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)'], 'emails': ['abusecomplaints@markmonitor.com', 'whoisrequest@markmo"
+    },
+    "{'domain': 'spotify.com'}": {
+        "error": "",
+        "response": "{'data': {'domain_name': ['SPOTIFY.COM', 'spotify.com'], 'registrar': 'Abion AB', 'whois_server': 'whois.abion.com', 'referral_url': None, 'updated_date': '2024-07-08 08:14:57', 'creation_date': '2006-04-23 09:07:50', 'expiration_date': '2030-04-23 09:07:50', 'name_servers': ['DNS1.P07.NSONE.NET', 'NS-CLOUD-A1.GOOGLEDOMAINS.COM', 'NS-CLOUD-A2.GOOGLEDOMAINS.COM', 'NS-CLOUD-A3.GOOGLEDOMAINS.COM', 'NS-CLOUD-A4.GOOGLEDOMAINS.COM', 'ns-cloud-a3.googledomains.com', 'ns-cloud-a1.googledomains.com', 'ns-cloud-a4.googledomains.com', 'dns1.p07.nsone.net', 'ns-cloud-a2.googledomains.com'], 'status': ['clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited', 'clientTransferProhibited https://icann.org/epp#clientTransferProhibited', 'serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited', 'serverTransferProhibited https://icann.org/epp#serverTransferProhibited', 'serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited'], 'emails': 'abuse@abion.com', 'dnssec': 'unsigned', 'name': None, 'org': 'Spotify AB', 'address': None, 'city': None, 'state': None, 'zipcode': None, 'country': 'SE'}}"
+    },
+    "{'domain': 'facebook.com'}": {
+        "error": "",
+        "response": "{'data': {'domain_name': 'FACEBOOK.COM', 'registrar': 'RegistrarSafe, LLC', 'whois_server': 'whois.registrarsafe.com', 'referral_url': None, 'updated_date': ['2024-04-24 19:06:12', '2024-04-24 19:06:13'], 'creation_date': '1997-03-29 05:00:00', 'expiration_date': '2033-03-30 04:00:00', 'name_servers': ['A.NS.FACEBOOK.COM', 'B.NS.FACEBOOK.COM', 'C.NS.FACEBOOK.COM', 'D.NS.FACEBOOK.COM'], 'status': ['clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited', 'clientTransferProhibited https://icann.org/epp#clientTransferProhibited', 'clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited', 'serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited', 'serverTransferProhibited https://icann.org/epp#serverTransferProhibited', 'serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited', 'clientDeleteProhibited https://www.icann.org/epp#clientDeleteProhibited', 'clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited', 'clientUpdateProhibited https://www.icann.org/epp#clientUpdateProhibited', 'serverDeleteProhibited https://www.icann.org/epp#serverDeleteProhibited', 'serverTransferProhibited https://www.icann.org/epp#serverTransferProhibited', 'serverUpdateProhibited https://www.icann.org/epp#serverUpdateProhibited'], 'emails': ['abusecomplaints@registrarsafe.com', 'domain@fb.com'], 'dnssec': 'unsigned', 'name': 'Domain Admin', 'org': 'Meta Platforms, Inc.', 'address': '1601 Willow Rd', 'city': 'Menlo Park', 'state': 'CA', 'zipcode': '94025', 'country': 'US'}}"
+    }
+}

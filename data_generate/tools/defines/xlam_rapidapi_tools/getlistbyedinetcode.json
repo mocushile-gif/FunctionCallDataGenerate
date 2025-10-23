@@ -1,0 +1,17 @@
+{
+    "name": "getlistbyedinetcode",
+    "description": "This is a sub-function API for tool jp_funda.\nTool description: JP Funda API is an API that provides fundamental information based on the securities report data of Japanese companies in Json format.\nAPI description: ### Return all securities report data of the company specified with edinet code.\nNote: If the company doesn't have a consolidated subsidiary, all of consolidated management indicators become null.　But you can obtain data instead of consolidated management indicators from non consolidated management indicators",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "edinet_code": {
+                "type": "string",
+                "description": "The EDINET code of the company for which to fetch securities report data.",
+                "default": "E02142"
+            }
+        },
+        "required": [
+            "edinet_code"
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "{'sort_by': 'internet_speed', 'sort': 'desc'}": {
+        "error": "",
+        "response": {
+            "cities": [
+                {
+                    "name": "Bangkok",
+                    "country": "Thailand",
+                    "internet_speed_mbps": 115,
+                    "cost_for_family_in_usd": 1200,
+                    "overall_score": 8.7
+                },
+                {
+                    "name": "Kuala Lumpur",
+                    "country": "Malaysia",
+                    "internet_speed_mbps": 110,
+                    "cost_for_family_in_usd": 1400,
+                    "overall_score": 8.4
+                },
+                {
+                    "name": "Singapore",
+                    "country": "Singapore",
+                    "internet_speed_mbps": 105,
+                    "cost_for_family_in_usd": 2800,
+                    "overall_score": 9.1
+                },
+                {
+                    "name": "Tokyo",
+                    "country": "Japan",
+                    "internet_speed_mbps": 100,
+                    "cost_for_family_in_usd": 3500,
+                    "overall_score": 8.9
+                },
+                {
+                    "name": "Ho Chi Minh City",
+                    "country": "Vietnam",
+                    "internet_speed_mbps": 95,
+                    "cost_for_family_in_usd": 900,
+                    "overall_score": 7.8
+                }
+            ],
+            "pagination": {
+                "page": 1,
+                "size": 20,
+                "total_results": 50
+            },
+            "sort_details": {
+                "sorted_by": "internet_speed",
+                "order": "desc"
+            }
+        }
+    }
+}

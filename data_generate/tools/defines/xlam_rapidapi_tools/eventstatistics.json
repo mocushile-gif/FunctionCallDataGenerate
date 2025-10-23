@@ -1,0 +1,17 @@
+{
+    "name": "eventstatistics",
+    "description": "This is a sub-function API for tool mmaapi.\nTool description: MMAAPI is your ultimate source for the latest updates, scores, and results from the world of mixed martial arts. Our API covers all major MMA organizations, including UFC, Bellator, KSW, PFL, and many more.Our live scoring and real-time statistics provide a comprehensive view of every fight, making MMAAPI the go-to API to get MMA scores worldwide.\nAPI description: Fetch statistics for a specific MMA event using the given event ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the MMA event for which to fetch statistics.",
+                "default": 11243946
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

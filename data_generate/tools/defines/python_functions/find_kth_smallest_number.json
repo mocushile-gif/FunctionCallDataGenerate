@@ -1,0 +1,24 @@
+{
+    "name": "find_kth_smallest_number",
+    "description": "Finds the kth smallest number in a list. The function uses a heap queue algorithm to efficiently find the kth smallest element.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nums": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                },
+                "description": "The list of numbers to find the kth smallest number from."
+            },
+            "k": {
+                "type": "integer",
+                "description": "The position (1-based index) of the smallest number to find. Must be within the range of the list length."
+            }
+        },
+        "required": [
+            "nums",
+            "k"
+        ]
+    }
+}

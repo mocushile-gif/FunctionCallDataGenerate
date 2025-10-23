@@ -1,0 +1,15 @@
+{
+    "name": "test",
+    "description": "This is a sub-function API for tool pmi_jateng.\nTool description: ini adalah data pmi jateng unofficial\nAPI description: Retrieves data from the PMI Jateng API and returns the response as a JSON or text.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "iniya": {
+                "type": "number",
+                "description": "An optional query string parameter to be sent with the request. Defaults to 9.",
+                "default": 9.0
+            }
+        },
+        "required": []
+    }
+}

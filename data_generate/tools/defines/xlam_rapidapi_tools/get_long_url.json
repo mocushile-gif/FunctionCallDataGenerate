@@ -1,0 +1,17 @@
+{
+    "name": "get_long_url",
+    "description": "This is a sub-function API for tool uptosite_link_shortener.\nTool description: Link Shortener API for developers\nAPI description: Retrieve the long URL from a shortened URL using the Uptosite Link Shortener API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The unique identifier for the shortened URL.",
+                "default": "ntt-chrome"
+            }
+        },
+        "required": [
+            "slug"
+        ]
+    }
+}

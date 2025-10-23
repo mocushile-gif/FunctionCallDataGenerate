@@ -1,0 +1,26 @@
+{
+    "name": "posts",
+    "description": "This is a sub-function API for tool patreon.\nTool description: Search Creators and get their details and posts from Patreon (Unofficial)\nAPI description: Get posts of a Creator with the `creator_id`. The `cursor` to the next page will be returned with this request.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "creator_id": {
+                "type": "number",
+                "description": "The `creator_id`can be obtained using the `/search` endpoint.",
+                "default": 2416483.0
+            },
+            "cursor": {
+                "type": "string",
+                "description": "The cursor for pagination to the next page of results. Defaults to None."
+            },
+            "amount": {
+                "type": "number",
+                "description": "The `amount`of posts to be returned. Default is `10`. Max is `500`. Bigger amount results in higher response time.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "creator_id"
+        ]
+    }
+}

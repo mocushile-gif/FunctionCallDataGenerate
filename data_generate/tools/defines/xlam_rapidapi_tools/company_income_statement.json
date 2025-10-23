@@ -1,0 +1,27 @@
+{
+    "name": "company_income_statement",
+    "description": "This is a sub-function API for tool real_time_finance_data.\nTool description: Get stocks / market quotes and trends, ETF, international exchanges / forex, crypto,  related news and analytics in real-time.\nAPI description: Get public company's **quarterly** or **annual** income statement. Supports the *stock* type only.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol (ticker) of the company for which to fetch the income statement. Examples: 'MSFT:NASDAQ', 'MSFT', 'AAPL'.",
+                "default": "AAPL:NASDAQ"
+            },
+            "period": {
+                "type": "string",
+                "description": "The period for which to retrieve the income statement. Options are 'QUARTERLY' or 'ANNUAL'."
+            },
+            "language": {
+                "type": "string",
+                "description": "The language to use for the results, specified as a 2-letter language code - see [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).\n\n**Default**: *en*.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "symbol",
+            "period"
+        ]
+    }
+}

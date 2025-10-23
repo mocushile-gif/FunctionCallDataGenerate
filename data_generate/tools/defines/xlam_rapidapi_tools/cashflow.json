@@ -1,0 +1,23 @@
+{
+    "name": "cashflow",
+    "description": "This is a sub-function API for tool holistic_finance_stock_data.\nTool description: Provides stock data based on multiple sources such as Yahoo Finance.\nAPI description: Provides either annual or quarterly cash flow statements of an single stock company.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol of the company (e.g., 'AAPL' for Apple Inc.).",
+                "default": "TSLA"
+            },
+            "period": {
+                "type": "string",
+                "description": "The reporting period for the cash flow statement. Typically 'annual' or 'quarterly'.",
+                "default": "quarter"
+            }
+        },
+        "required": [
+            "symbol",
+            "period"
+        ]
+    }
+}

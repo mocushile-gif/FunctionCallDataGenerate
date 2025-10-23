@@ -1,0 +1,55 @@
+{
+    "{'keyword': 'indie-pop merchandise'}": {
+        "error": "",
+        "response": [
+            {
+                "keyword": "indie-pop band t-shirts",
+                "volume": 150,
+                "cpc": 1.25,
+                "intent": "Commercial",
+                "keyword_difficulty": 45,
+                "serp_features": [
+                    "Product boxes",
+                    "Image pack"
+                ],
+                "trend": "Stable (2% annual growth)"
+            },
+            {
+                "keyword": "custom indie-pop stickers",
+                "volume": 80,
+                "cpc": 0.75,
+                "intent": "Transactional",
+                "keyword_difficulty": 30,
+                "serp_features": [
+                    "Local pack",
+                    "FAQ snippets"
+                ],
+                "trend": "Rising (15% QoQ increase)"
+            },
+            {
+                "keyword": "indie music event merch designs",
+                "volume": 45,
+                "cpc": 2.1,
+                "intent": "Informational",
+                "keyword_difficulty": 60,
+                "serp_features": [
+                    "Video carousel",
+                    "News updates"
+                ],
+                "trend": "Seasonal peak"
+            },
+            {
+                "keyword": "sustainable indie-pop apparel",
+                "volume": 60,
+                "cpc": 1.5,
+                "intent": "Investigative",
+                "keyword_difficulty": 35,
+                "serp_features": [
+                    "Comparison tables",
+                    "Blog features"
+                ],
+                "trend": "Emerging (30% growth YoY)"
+            }
+        ]
+    }
+}

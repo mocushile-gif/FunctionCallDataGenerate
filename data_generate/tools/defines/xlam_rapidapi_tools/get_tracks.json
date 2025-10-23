@@ -1,0 +1,17 @@
+{
+    "name": "get_tracks",
+    "description": "This is a sub-function API for tool spotify_data.\nTool description: Spotify Data\nAPI description: Fetches track information from the Spotify API for the given track IDs.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ids": {
+                "type": "string",
+                "description": "A string of comma-separated track IDs to fetch information for.",
+                "default": "4WNcduiCmDNfmTEz7JvmLv"
+            }
+        },
+        "required": [
+            "ids"
+        ]
+    }
+}

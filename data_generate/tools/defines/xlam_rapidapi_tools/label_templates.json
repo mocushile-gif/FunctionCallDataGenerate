@@ -1,0 +1,39 @@
+{
+    "name": "label_templates",
+    "description": "This is a sub-function API for tool print_your_own_labels_and_stickers.\nTool description: Help your customers print their own labels and stickers, from your own website and under your own branding.\nAPI description: List of label templates filtered by one or more of the following parameters:\npaper format\ntemplate brand\nexact label size\napproximate label size\nlabel shape",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "format": {
+                "type": "string",
+                "description": "Its value can be either \n**Letter**\nor \n**A4** \nThey represent the two world standard printer paper sizes, respectively 8.5 inch by 11 inch and 210 mm by 297 mm.",
+                "default": "letter"
+            },
+            "brand": {
+                "type": "string",
+                "description": "Label manufacturer's name.\nThis is the current list of possible values. We will continue adding new brands.\nAvery\nHerma\nOnlinelabels\nUline\nMegastar\nSheetlabels",
+                "default": "avery"
+            },
+            "height": {
+                "type": "string",
+                "description": "The height of the label."
+            },
+            "code": {
+                "type": "string",
+                "description": "It is a string that represents **average** label sizes, in the format [width]x[height].\nFor example:\n**2.5x4**\nor \n**70x40**\n\nBeing average sizes, means that they represent all sizes that are close to them. \nE.g. **3x2** would represent any other close sizes like **3.062x1.837**.\n\nThis concept is useful, when you are going to suggest to your users, which templates do offer label sizes that are equal of close to the label size they need to print on.\n",
+                "default": "2x2"
+            },
+            "width": {
+                "type": "string",
+                "description": "The width of the label."
+            },
+            "shape": {
+                "type": "string",
+                "description": "The shape of the label. Valid values include 'square', 'rectangle', 'circle', 'oval'."
+            }
+        },
+        "required": [
+            "format"
+        ]
+    }
+}

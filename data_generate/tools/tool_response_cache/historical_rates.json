@@ -1,0 +1,34 @@
+{
+    "{'base': 'usd', 'date': '2025-05-29'}": {
+        "error": "",
+        "response": "The historical exchange rates for the base currency 'USD' on the date '2025-05-29' will provide a snapshot of how various currencies were valued against USD on that specific day. This data can be useful for financial analysis, historical comparisons, or currency trend tracking. Please note that the rates are subject to the accuracy of the source and may reflect market conditions at the time."
+    },
+    "{'base': 'usd', 'date': '2025-05-30'}": {
+        "error": "",
+        "response": "\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>503 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The service you requested is not available yet.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"
+    },
+    "{'date': '2020-01-01', 'base': 'eur'}": {
+        "error": "",
+        "response": "\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>503 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The service you requested is not available yet.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"
+    },
+    "{'date': '2023-10-01', 'base': 'usd'}": {
+        "error": "",
+        "response": "{'date': '2023-10-01', 'rates': {'FJD': 2.423459, 'MXN': 18.391895, 'STD': 21859.372865, 'LVL': 0.638831, 'SCR': 14.415548, 'CDF': 2632.885377, 'BBD': 2.136963, 'GTQ': 8.319003, 'CLP': 952.071447, 'HNL': 26.102256, 'UGX': 3980.431989, 'ZAR': 19.950958, 'TND': 3.333614, 'SLE': 23.804635, 'CUC': 1.056111, 'BSD': 1.058356, 'SLL': 20858.199, 'SDG': 632.664775, 'IQD': 1386.068222, 'CUP': 27.986951, 'GMD': 67.987146, 'TWD': 34.055575, 'RSD': 116.998763, 'DOP': 60.085569, 'KMF': 492.148069, 'MYR': 4.958707, 'FKP': 0.865708, 'XOF': 654.384017, 'GEL': 2.835677, 'BTC': 3.7882319e-05, 'UYU': 40.712138, 'MAD': 10.851416, 'CVE': 110.000585, 'TOP': 2.523419, 'AZN': 1.799796, 'OMR': 0.406614, 'PGK': 3.866705, 'KES': 154.22927, 'SEK': 11.538492, 'BTN': 87.891729, 'UAH': 39.087643, 'GNF': 9086.159037, 'ERN': 15.84167, 'MZN': 66.798991, 'ARS': 371.352536, 'QAR': 3.845278, 'IRR': 44607.509867, 'MRO': 377.031574, 'CNY': 7.576016, 'THB': 38.736062, 'UZS': 12911.962715, 'XPF': 119.710594, 'BDT': 116.689506, 'LYD': 5.173564, 'BMD': 1.056111, 'KWD': 0.326486, 'PHP': 59.829234, 'RUB': 103.498701, 'PYG': 7724.432304, 'ISK': 145.521894, 'JMD': 164.045673, 'COP': 4299.165829, 'MKD': 61.372475, 'USD': 1.056111, 'DZD': 145.070641, 'PAB': 1.058356, 'GGP': 0.865708, 'SGD': 1.443488, 'ETB': 58.975537, 'JEP': 0.865708, 'KGS': 93.687825, 'SOS': 601.455737, 'VEF': 3616488.743079, 'VUV': 127.855675, 'LAK': 21579.128911, 'BND': 1.441635, 'ZMK': 9506.268946, 'XAF': 654.384017, 'LRD': 197.135261, 'XAG': 0.047858, 'CHF': 0.967113, 'HRK': 7.408314, 'ALL': 106.444134, 'DJF': 188.447018, 'VES': 36.180317, 'ZMW': 22.146764, 'TZS': 2651.227081, 'VND': 25668.786598, 'XAU': 0.000572, 'AUD': 1.641581, 'ILS': 4.020901, 'GHS': 12.271502, 'GYD': 221.42774, 'KPW': 950.516968, 'BOB': 7.31342, 'KHR': 4362.513556, 'MDL': 19.31557, 'IDR': 16362.702935, 'KYD': 0.88198, 'AMD': 419.391882, 'BWP': 14.439291, 'SHP': 1.285023, 'TRY': 29.015963, 'LBP': 15907.462248, 'TJS': 11.626353, 'JOD': 0.749413, 'AED': 3.879139, 'HKD': 8.270915, 'RWF': 1292.293634, 'EUR': 1, 'LSL': 19.98"
+    },
+    "{'date': '2020-01-01'}": {
+        "error": "",
+        "response": "\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>503 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The service you requested is not available yet.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"
+    },
+    "{'date': '2019-03-01', 'base': 'usd'}": {
+        "error": "",
+        "response": "\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>503 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The service you requested is not available yet.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"
+    },
+    "{'base': 'usd', 'date': '2020-03-10'}": {
+        "error": "",
+        "response": "\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>503 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The service you requested is not available yet.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"
+    },
+    "{'base': 'eur', 'date': '2023-01-15'}": {
+        "error": "",
+        "response": "\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>503 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The service you requested is not available yet.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "onyomi_reading",
+    "description": "This is a sub-function API for tool learn_to_read_and_write_japanese_kanji.\nTool description: Free API to the Kanji alive web application with CC-BY licensed language data on Japanese kanji, radicals and associated media files.\nAPI description: The Advanced Search URL parameters are described here as individual endpoints to permit per parameter testing. Parameters may be combined as required.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "on": {
+                "type": "string",
+                "description": "The Onyomi reading of the Kanji, provided in Katakana or romaji.",
+                "default": "シン"
+            }
+        },
+        "required": [
+            "on"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "get_store_info",
+    "description": "This is a sub-function API for tool shopify_stores_info.\nTool description: This API returns a info such as email, phone number, etc for shopify stores. You can use this for a lead Generation.\nAPI description: Retrieves information on any store in Shopify using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number to retrieve, defaults to None. If provided, it loads the specified page with results. Max page is 100."
+            }
+        },
+        "required": []
+    }
+}

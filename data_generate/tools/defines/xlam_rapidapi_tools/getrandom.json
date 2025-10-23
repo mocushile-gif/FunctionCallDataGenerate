@@ -1,0 +1,31 @@
+{
+    "name": "getrandom",
+    "description": "This is a sub-function API for tool randomizer.\nTool description: Fast and straightforward API to retrieve a random sequence of characters!\nAPI description: Retrieve a random sequence of characters matching the provided query attributes",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "length": {
+                "type": "number",
+                "description": "The length of the random sequence to generate."
+            },
+            "case": {
+                "type": "string",
+                "description": "Specifies the case for the character sequence. Defaults to 'all'.",
+                "default": "all"
+            },
+            "extra": {
+                "type": "string",
+                "description": "Allow the use of special characters \n\n **true** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @#é$%&ùµ£-_!èçàù?^) \n\n **extended** &nbsp;&nbsp;&nbsp;&nbsp; |\"(§{})°¨[*]´`,;./:+=~",
+                "default": "true"
+            },
+            "type": {
+                "type": "string",
+                "description": "Sequence type \n\n **all** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; string + number + special",
+                "default": "all"
+            }
+        },
+        "required": [
+            "length"
+        ]
+    }
+}

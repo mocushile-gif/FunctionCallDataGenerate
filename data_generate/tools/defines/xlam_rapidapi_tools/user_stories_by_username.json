@@ -1,0 +1,17 @@
+{
+    "name": "user_stories_by_username",
+    "description": "This is a sub-function API for tool instagram_api_v2.\nTool description: instagram scraping, all endpoints\nAPI description: Fetch all stories of an Instagram account given its username.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username for which to retrieve stories.",
+                "default": "kimkardashian"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

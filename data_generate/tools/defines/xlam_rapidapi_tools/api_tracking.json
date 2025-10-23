@@ -1,0 +1,17 @@
+{
+    "name": "api_tracking",
+    "description": "This is a sub-function API for tool pack_send.\nTool description: Logistics and Shipment Services\nAPI description: Fetches tracking information for the provided Pack & Send reference number using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "reference": {
+                "type": "string",
+                "description": "The Pack & Send reference number for which tracking information is requested.",
+                "default": "ReferenceNumberHere"
+            }
+        },
+        "required": [
+            "reference"
+        ]
+    }
+}

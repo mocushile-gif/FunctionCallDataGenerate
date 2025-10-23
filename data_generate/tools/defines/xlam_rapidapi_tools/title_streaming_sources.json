@@ -1,0 +1,22 @@
+{
+    "name": "title_streaming_sources",
+    "description": "This is a sub-function API for tool watchmode.\nTool description: Universal OTT Streaming Service Availability API (Netflix, HBO Max, Peacock, Hulu, Amazon Prime Video, AppleTV+, Disney+ & over 100 more)\nAPI description: Get all of the streaming sources this title is available on and direct links to watch the title (web, iOS deeplinks and Android deeplinks for paid users). Streaming sources are limited to USA only for free plans.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "This ID can be the Watchmode ID of the title (returned by other endpoints such as the list-titles endpoint), or found in the mapping file: https://api.watchmode.com/datasets/title_id_map.csv.\n\nYou can also pass an IMDB ID here instead, or a TMDB type and TMDB ID combination. For example, the TMDB combination for The Shawshank Redemption is movie-278 and for Breaking Bad is tv-1396. ",
+                "default": "3173903"
+            },
+            "regions": {
+                "type": "string",
+                "description": "Pass one of the 2 character country codes from the /regions/ endpoint to filter the streaming source results to certain countries. By default the API will return all regions. Pass multiple countries by submitting them comma separated.\n",
+                "default": "US"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

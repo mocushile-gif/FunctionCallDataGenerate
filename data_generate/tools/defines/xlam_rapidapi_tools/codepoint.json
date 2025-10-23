@@ -1,0 +1,17 @@
+{
+    "name": "codepoint",
+    "description": "This is a sub-function API for tool unicode_codepoints.\nTool description: A RESTful Interface to Unicode Data, this API gives easy and standardized access to all information from Codepoints.net. The detailed documentation is [available on Github](https://github.com/Boldewyn/Codepoints.net/wiki/API).\nAPI description: show detailed information about a single codepoint. You can specify fields of interest with the “property” parameter: codepoint/1234?property=age,uc,lc",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "codepoint": {
+                "type": "string",
+                "description": "The hex number representing the Unicode codepoint.",
+                "default": "0A2F"
+            }
+        },
+        "required": [
+            "codepoint"
+        ]
+    }
+}

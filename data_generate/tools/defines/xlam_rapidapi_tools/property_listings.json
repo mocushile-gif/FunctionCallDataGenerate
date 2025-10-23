@@ -1,0 +1,58 @@
+{
+    "name": "property_listings",
+    "description": "This is a sub-function API for tool airdna.\nTool description: API for Short-Term Rental Data Analytics | Vrbo & Airbnb Data | Rentalizer\nAPI description: Retrieve rental property listings from Airbnb and Vrbo based on various filter criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The location for which to retrieve rental property listings.",
+                "default": "santa monica"
+            },
+            "room_types": {
+                "type": "string",
+                "description": "Comma-separated list of room types. Possible values are 'entire_home', 'private_room', and 'shared_room'. Defaults to None."
+            },
+            "number_of_months": {
+                "type": "number",
+                "description": "The number of months for the rental period. Defaults to None."
+            },
+            "bedrooms_max": {
+                "type": "number",
+                "description": "The maximum number of bedrooms in the rental properties. Defaults to None."
+            },
+            "accommodates_max": {
+                "type": "number",
+                "description": "The maximum number of people the property can accommodate. Defaults to None."
+            },
+            "start_month": {
+                "type": "number",
+                "description": "The starting month for the rental period. Defaults to None."
+            },
+            "bedrooms_min": {
+                "type": "number",
+                "description": "The minimum number of bedrooms in the rental properties. Defaults to None."
+            },
+            "show_regions": {
+                "type": "boolean",
+                "description": "Whether to show regions in the query results. Defaults to None."
+            },
+            "accommodates_min": {
+                "type": "number",
+                "description": "The minimum number of people the property can accommodate. Defaults to None."
+            },
+            "currency": {
+                "type": "string",
+                "description": "The currency in which the prices should be displayed. Defaults to 'native'.",
+                "default": "native"
+            },
+            "start_year": {
+                "type": "number",
+                "description": "The starting year for the rental period. Defaults to None."
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

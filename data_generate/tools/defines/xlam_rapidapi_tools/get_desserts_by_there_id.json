@@ -1,0 +1,16 @@
+{
+    "name": "get_desserts_by_there_id",
+    "description": "This is a sub-function API for tool beverages_and_desserts.\nTool description: This api returns various kinds of Beverages and Desserts\nAPI description: Fetch dessert information from an API using a given dessert ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the dessert to look up."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

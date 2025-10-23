@@ -1,0 +1,28 @@
+{
+    "name": "measure_distance_reverse",
+    "description": "This is a sub-function API for tool cameroon.\nTool description: The Cameroon API provides endpoints to lookup locations, find facilities and perform geospatial operations such as distance calculation and directions between two locations in Cameroon.\nAPI description: Calculates the distance between two addresses in Cameroon using the specified unit of measurement.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "stop_address": {
+                "type": "string",
+                "description": "The destination address for which the distance needs to be calculated.",
+                "default": "Bonamoussadi, Douala"
+            },
+            "start_address": {
+                "type": "string",
+                "description": "The starting address for which the distance needs to be calculated.",
+                "default": "Molyko, Buea"
+            },
+            "unit": {
+                "type": "string",
+                "description": "Unit of distance measurement, valid options are **km** (default), **mi**, **ft**, and **yd**.\n",
+                "default": "km"
+            }
+        },
+        "required": [
+            "stop_address",
+            "start_address"
+        ]
+    }
+}

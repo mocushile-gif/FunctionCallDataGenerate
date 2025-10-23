@@ -1,0 +1,28 @@
+{
+    "name": "get_1_shoot_thumbnail",
+    "description": "This is a sub-function API for tool pagepeeker.\nTool description: Automate website screenshots creation.  Generate screenshots in a matter of seconds.  Never busy, so there's no waiting in line.  Rendering starts immediately and is finished quickly.\nAPI description: Generates a thumbnail image from a given URL using the Pagepeeker API. Optionally, the thumbnail can be refreshed.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "size": {
+                "type": "string",
+                "description": "t = Tiny, 90 x 68 pixels;  s= Small, 120 x 90 pixels;  m = Medium, 200 x 150 pixels; l = Large, 400 x 300 pixels;  x = Extra large, 480 x 360 pixels",
+                "default": "m"
+            },
+            "url": {
+                "type": "string",
+                "description": "The URL from which to generate the thumbnail.",
+                "default": "http://www.mashape.com/"
+            },
+            "refresh": {
+                "type": "string",
+                "description": "This parameter forces the currently generate d thumbnail to be regenerated.  It is optional and will be ignored unless it contains the value 1",
+                "default": "1"
+            }
+        },
+        "required": [
+            "size",
+            "url"
+        ]
+    }
+}

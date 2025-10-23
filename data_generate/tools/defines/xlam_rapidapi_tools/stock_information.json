@@ -1,0 +1,17 @@
+{
+    "name": "stock_information",
+    "description": "This is a sub-function API for tool realstonks.\nTool description: An API that gets you the real-time stock price of any NASDAQ-listed stock, along with some other parameters.\nAPI description: Fetch real-time stock information for a given stock name using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the stock for which to retrieve information.",
+                "default": "TSLA"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

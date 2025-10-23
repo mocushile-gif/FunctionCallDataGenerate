@@ -1,0 +1,78 @@
+{
+    "{'countrycode': 'AD'}": {
+        "error": "",
+        "response": [
+            {
+                "id": "487",
+                "name": "Encamp",
+                "code": "03",
+                "country_code": "AD",
+                "type": null,
+                "latitude": "42.53597640",
+                "longitude": "1.58367730"
+            },
+            {
+                "id": "488",
+                "name": "Andorra la Vella",
+                "code": "07",
+                "country_code": "AD",
+                "type": null,
+                "latitude": "42.50631740",
+                "longitude": "1.52183550"
+            },
+            {
+                "id": "489",
+                "name": "Canillo",
+                "code": "02",
+                "country_code": "AD",
+                "type": null,
+                "latitude": "42.59782490",
+                "longitude": "1.65663770"
+            },
+            {
+                "id": "490",
+                "name": "Sant Juli\u00e0 de L\u00f2ria",
+                "code": "06",
+                "country_code": "AD",
+                "type": null,
+                "latitude": "42.45296310",
+                "longitude": "1.49182350"
+            },
+            {
+                "id": "491",
+                "name": "Ordino",
+                "code": "05",
+                "country_code": "AD",
+                "type": null,
+                "latitude": "42.59944330",
+                "longitude": "1.54023270"
+            },
+            {
+                "id": "492",
+                "name": "Escaldes-Engordany",
+                "code": "08",
+                "country_code": "AD",
+                "type": null,
+                "latitude": "42.49093790",
+                "longitude": "1.58869660"
+            },
+            {
+                "id": "493",
+                "name": "La Massana",
+                "code": "04",
+                "country_code": "AD",
+                "type": null,
+                "latitude": "42.54562500",
+                "longitude": "1.51473920"
+            }
+        ]
+    },
+    "{'countrycode': 'EU'}": {
+        "error": "",
+        "response": []
+    },
+    "{'countrycode': 'CA'}": {
+        "error": "",
+        "response": "[{'id': '866', 'name': 'Ontario', 'code': 'ON', 'country_code': 'CA', 'type': 'province', 'latitude': '51.25377500', 'longitude': '-85.32321400'}, {'id': '867', 'name': 'Manitoba', 'code': 'MB', 'country_code': 'CA', 'type': 'province', 'latitude': '53.76086080', 'longitude': '-98.81387620'}, {'id': '868', 'name': 'New Brunswick', 'code': 'NB', 'country_code': 'CA', 'type': 'province', 'latitude': '46.56531630', 'longitude': '-66.46191640'}, {'id': '869', 'name': 'Yukon', 'code': 'YT', 'country_code': 'CA', 'type': 'territory', 'latitude': '35.50672150', 'longitude': '-97.76254410'}, {'id': '870', 'name': 'Saskatchewan', 'code': 'SK', 'country_code': 'CA', 'type': 'province', 'latitude': '52.93991590', 'longitude': '-106.45086390'}, {'id': '871', 'name': 'Prince Edward Island', 'code': 'PE', 'country_code': 'CA', 'type': 'province', 'latitude': '46.51071200', 'longitude': '-63.41681360'}, {'id': '872', 'name': 'Alberta', 'code': 'AB', 'country_code': 'CA', 'type': 'province', 'latitude': '53.93327060', 'longitude': '-116.57650350'}, {'id': '873', 'name': 'Quebec', 'code': 'QC', 'country_code': 'CA', 'type': 'province', 'latitude': '52.93991590', 'longitude': '-73.54913610'}, {'id': '874', 'name': 'Nova Scotia', 'code': 'NS', 'country_code': 'CA', 'type': 'province', 'latitude': '44.68198660', 'longitude': '-63.74431100'}, {'id': '875', 'name': 'British Columbia', 'code': 'BC', 'country_code': 'CA', 'type': 'province', 'latitude': '53.72666830', 'longitude': '-127.64762050'}, {'id': '876', 'name': 'Nunavut', 'code': 'NU', 'country_code': 'CA', 'type': 'territory', 'latitude': '70.29977110', 'longitude': '-83.10757700'}, {'id': '877', 'name': 'Newfoundland and Labrador', 'code': 'NL', 'country_code': 'CA', 'type': 'province', 'latitude': '53.13550910', 'longitude': '-57.66043640'}, {'id': '878', 'name': 'Northwest Territories', 'code': 'NT', 'country_code': 'CA', 'type': 'territory', 'latitude': '64.82554410', 'longitude': '-124.84573340'}]"
+    }
+}

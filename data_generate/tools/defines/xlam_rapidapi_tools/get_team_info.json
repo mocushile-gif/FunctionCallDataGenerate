@@ -1,0 +1,17 @@
+{
+    "name": "get_team_info",
+    "description": "This is a sub-function API for tool valorant_esports_v2.\nTool description: The Valorant Esports is a user-friendly tool that allows you to extract data from the website vlr.gg. \nAPI description: Retrieves comprehensive information about a team, including player details, events, results, and more, using the VLR.gg team ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "teamid": {
+                "type": "string",
+                "description": "The team ID from VLR.gg for which information is being retrieved.",
+                "default": "1001"
+            }
+        },
+        "required": [
+            "teamid"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "city_data",
+    "description": "This is a sub-function API for tool mocking_rock.\nTool description: An APIs collection for getting sample profiles and city Data for testings for frontend or mock testings.    \nAPI description: Get list of citys.\nCount limit should be less the 1000",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "count": {
+                "type": "number",
+                "description": "If not passed by default 10 will be considered\nMaximum can be 1000 for now.  ",
+                "default": 10.0
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "calculate_trapezoidal_integration",
+    "description": "Calculates the definite integral of a function using the trapezoidal rule.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "func": {
+                "type": "string",
+                "description": "The function to integrate, expressed as a string. It can contain NumPy functions such as np.sin(x), np.exp(x), etc. Examples include 'x**2 + 2*x' or 'np.sin(x) + x**2'."
+            },
+            "a": {
+                "type": "number",
+                "description": "The lower limit of integration."
+            },
+            "b": {
+                "type": "number",
+                "description": "The upper limit of integration."
+            },
+            "n": {
+                "type": "integer",
+                "description": "The number of subdivisions for the trapezoidal approximation. Defaults to 10000.",
+                "default": 10000,
+                "minimum": 1
+            }
+        },
+        "required": [
+            "func",
+            "a",
+            "b"
+        ]
+    }
+}

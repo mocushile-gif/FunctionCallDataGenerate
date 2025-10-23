@@ -1,0 +1,84 @@
+{
+    "name": "nearest_stations",
+    "description": "This is a sub-function API for tool nrel_national_renewable_energy_laboratory.\nTool description: The National Renewable Energy Laboratory's developer network helps developers access and use energy data via Web services, including renewable energy and alternative fuel data.\nAPI description: Return the nearest alternative fuel stations within a specified location or coordinates.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "format": {
+                "type": "string",
+                "description": "The response format (json, xml, etc.).",
+                "default": "json"
+            },
+            "location": {
+                "type": "string",
+                "description": "Type: string Default: None A free-form input describing the address of the location. This may include the address given in a variety of formats, such as:  street, city, state, postal code street, city, state street, postal code postal code city, state (Either the location parameter or both the latitude and longitude parameters are required)",
+                "default": "433 Bryant St., San Francisco"
+            },
+            "latitude": {
+                "type": "string",
+                "description": "Type: decimal Default: -90 to 90 The latitude of the desired location.  (Either the location parameter or both the latitude and longitude parameters are required)"
+            },
+            "longitude": {
+                "type": "string",
+                "description": "Type: decimal Default: -180 to 180 The longitude of the desired location.  (Either the location parameter or both the latitude and longitude parameters are required)"
+            },
+            "radius": {
+                "type": "string",
+                "description": "Type: decimal Default: 5.0 The radius (in miles) around the search location to search for stations within."
+            },
+            "status": {
+                "type": "string",
+                "description": "Type: string Default: all Options: all, E, P Return stations that match the given status. A single status, or a comma-separated list of multiple statuses, may be given.  Option\tDescription all\tInclude both open and planned stations. E\tOpen: The station is open and carries alternative fuel. P\tPlanned: The station is not yet open, but plans to carry alternative fuel in the future, or the station is temporarily out of service."
+            },
+            "access": {
+                "type": "string",
+                "description": "The accessibility type of the stations. Options are 'all', 'public', 'private'."
+            },
+            "fuel_type": {
+                "type": "string",
+                "description": "Type: string Default: all Options: all, BD, CNG, E85, ELEC, HY, LNG, LPG Return stations that supply any of the given fuel types. A single fuel type, or a comma-separated list of multiple fuel types, may be given.  Option\tDescription all\tInclude all fuel types BD\tBiodiesel (B20 and above) CNG\tCompressed Natural Gas E85\tEthanol (E85) ELEC\tElectric HY\tHydrogen LNG\tLiquefied Natural Gas LPG\tLiquefied Petroleum Gas (Propane)",
+                "default": "ELEC"
+            },
+            "cards_accepted": {
+                "type": "string",
+                "description": "Type: string Default: all Options: all, A, D, M, V, Cash, Checks, CFN, CleanEnergy, FuelMan, GasCard, PHH, Voyager, Wright_Exp Return stations that accept any of the given payment methods. A single payment method, or a comma-separated list of multiple payment methods, may be given.  Option\tDescription all\tInclude all payment types A\tAmerican Express D\tDiscover M\tMasterCard V\tVisa Cash\t Checks\t CFN\t CleanEnergy\t FuelMan\t GasCard\t PHH\tPHH Services Wright_Exp\tWright Express"
+            },
+            "owner_type": {
+                "type": "string",
+                "description": "Type: string Default: all Options: all, FG, LG, P, SG, T Return stations owned by the given types of owners. A single owner type, or a comma-separated list of multiple owner types, may be given.  Option\tDescription all\tInclude all owner types P\tPrivately owned T\tUtility owned FG\tFederal government owned LG\tLocal government owned SG\tState government owned J\tJointly owned (combination of owner types)"
+            },
+            "federal_agency_id": {
+                "type": "string",
+                "description": "Type: integer Default: all Options: all, (see table to right for IDs) Return stations owned by the given federal agency. A federal agency ID, or a comma-separated list of multiple federal agency IDs, may be given.  Option\tDescription all\tInclude all stations, regardless of federal agency owner 3\tDefense Agencies 4\tU.S. Department of Agriculture 5\tDepartment of Air Force 6\tDepartment of Army 7\tDepartment of Commerce 8\tU.S. Department of Energy 9\tDepartment of Health and Human Services 10\tDepartment of Homela"
+            },
+            "ev_network": {
+                "type": "string",
+                "description": "Type: string Default: all Options: all, Blink Network, ChargeNet, ChargePoint Network, eVgo Network, EVSE LLC WebNet, RechargeAccess, Rideshare Online, Shorepower Return only electric charging stations that belong to the given network. A single network, or a comma separate list of multiple networks, may be given.  Option all Blink Network ChargeNet ChargePoint Network eVgo Network EVSE LLC WebNet RechargeAccess Rideshare Online Shorepower"
+            },
+            "ev_charging_level": {
+                "type": "string",
+                "description": "Type: string Default: all Options: all, 1, 2, dc_fast Return only electric charging stations that provide the given level of electric vehicle supply equipment (EVSE).  Option\tDescription all\tInclude all charging levels 1\tLevel 1 EVSE (standard 110V outlet) 2\tLevel 2 EVSE (J1772 connector) dc_fast\tDC Fast Charging"
+            },
+            "state": {
+                "type": "string",
+                "description": "Type: string Default: None Return only stations within the given state. State must be given as a two character state code (eg, \"CO\" for Colorado). A single state, or a comma-separate list of multiple states, may be given."
+            },
+            "zip": {
+                "type": "string",
+                "description": "Type: string Default: None Return only stations within the given ZIP code. ZIP codes must be exactly 5 digits long. A single ZIP code, or a comma-separate list of multiple ZIP codes, may be given."
+            },
+            "limit": {
+                "type": "string",
+                "description": "Type: integer Default: None Minimum: 1 The maximum number of results to return.",
+                "default": "1"
+            },
+            "offset": {
+                "type": "string",
+                "description": "Type: integer Default: 0 Minimum: 0 Offset the results found (can be used with the limit parameter to paginate the results)."
+            }
+        },
+        "required": [
+            "format"
+        ]
+    }
+}

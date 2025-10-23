@@ -1,0 +1,26 @@
+{
+    "name": "getmodalityvalues",
+    "description": "This is a sub-function API for tool the_cancer_imaging_archive.\nTool description: NOTE: You need an API-Key to use this API. See README for more details.\r\nThe Cancer Imaging Archive (TCIA) is a public repository of cancer images and related clinical data for the express purpose of enabling open science research. Currently over 26 million radiologic images of cancer are contained in this repository. The API allows you to query metadata and download images from the various public collections available on TCIA\nAPI description: Fetches modality values from the TCIA API based on the specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "collection": {
+                "type": "string",
+                "description": "A label used to name a set of images collected for a specific trial or other reason.  Assigned during the process of curating the data."
+            },
+            "bodypartexamined": {
+                "type": "string",
+                "description": "Entered on a per collection basis using relevant SNOMED terms. (DICOM Tag  0018x0015)"
+            },
+            "modality": {
+                "type": "string",
+                "description": "Standard DICOM definition (DICOM Tag 0008x0060)"
+            },
+            "format": {
+                "type": "string",
+                "description": "Specifies the output type. Allowed values are CSV, HTML, XML, JSON."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "{'symbol': 'MSFT', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '0.84'}"
+    },
+    "{'symbol': 'AAPL', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '0.64'}"
+    },
+    "{'symbol': 'F', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '5.76'}"
+    },
+    "{'region': 'US', 'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'value': '0.56'}"
+    },
+    "{'region': 'DE', 'symbol': 'MSFT'}": {
+        "error": "",
+        "response": "{'value': '0.83'}"
+    },
+    "{'region': 'US', 'symbol': 'MSFT'}": {
+        "error": "",
+        "response": "{'value': '0.83'}"
+    },
+    "{'symbol': 'MSFT'}": {
+        "error": "",
+        "response": "{'value': '0.88'}"
+    },
+    "{'region': 'FR', 'symbol': 'BN.PA'}": {
+        "error": "",
+        "response": "{'value': '2.63'}"
+    },
+    "{'region': 'ES', 'symbol': 'SAN.MC'}": {
+        "error": "",
+        "response": "{'value': '5.11'}"
+    },
+    "{'region': 'FI', 'symbol': 'NOKIA.HE'}": {
+        "error": "",
+        "response": "{'value': '2.45'}"
+    }
+}

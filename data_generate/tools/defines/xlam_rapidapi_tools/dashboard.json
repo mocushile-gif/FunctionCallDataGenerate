@@ -1,0 +1,26 @@
+{
+    "name": "dashboard",
+    "description": "This is a sub-function API for tool surveymethods.\nTool description: The SurveyMethods API is designed so that you can integrate third party applications (like HR, CRM, Helpdesk, etc.) with SurveyMethods using HTTP methods. To use our API, you must have an account with SurveyMethods. Our API is available to all users regardless of package preferences.\nAPI description: Fetches the deployment and response dashboard for a specified survey using provided credentials and API keys.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "login_id": {
+                "type": "string",
+                "description": "The login identifier for accessing the survey methods API."
+            },
+            "api_key": {
+                "type": "string",
+                "description": "The API key associated with the user account."
+            },
+            "survey_code": {
+                "type": "string",
+                "description": "The code identifying the specific survey whose dashboard is being fetched."
+            }
+        },
+        "required": [
+            "login_id",
+            "api_key",
+            "survey_code"
+        ]
+    }
+}

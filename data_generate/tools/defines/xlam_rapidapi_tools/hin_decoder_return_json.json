@@ -1,0 +1,17 @@
+{
+    "name": "hin_decoder_return_json",
+    "description": "This is a sub-function API for tool hull_id_boat_hin_decoder.\nTool description: Decode the 12 digit HIN and check if it is valid. HINDecoder is used by many State DMV's and has been running for 7+ years.\nAPI description: Decodes a Hull Identification Number (HIN) using the Toolbench RapidAPI and returns the decoded data in JSON format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hin": {
+                "type": "string",
+                "description": "The Hull Identification Number to be decoded.",
+                "default": "MVIPK003G607"
+            }
+        },
+        "required": [
+            "hin"
+        ]
+    }
+}

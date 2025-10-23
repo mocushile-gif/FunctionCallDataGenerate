@@ -1,0 +1,23 @@
+{
+    "name": "constructorstandingsafterarace",
+    "description": "This is a sub-function API for tool formula_1_fixed.\nTool description: F1\nAPI description: To list the constructor standings after a specific race (round) in a season(year), use this endpoint.\n\n",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year of the Formula 1 season.",
+                "default": "year"
+            },
+            "round": {
+                "type": "string",
+                "description": "The specific race round in the season.",
+                "default": "round"
+            }
+        },
+        "required": [
+            "year",
+            "round"
+        ]
+    }
+}

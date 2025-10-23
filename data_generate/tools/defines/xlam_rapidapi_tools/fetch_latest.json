@@ -1,0 +1,20 @@
+{
+    "name": "fetch_latest",
+    "description": "This is a sub-function API for tool mangaverse_api.\nTool description: Unleash the World of Manga with MangaVerse API!  Discover a captivating universe of manga from Japan, Korea, and China, all conveniently translated into English. \nAPI description: This will get the latest of the updated manga on this server\npage should be 1 or more than 1 and the genres should be string with comma\ngenres ex: Harem,Fantasy",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "genres": {
+                "type": "string",
+                "description": "A comma-separated list of genres to filter the manga by (e.g., 'Harem,Fantasy'). Defaults to 'Harem,Fantasy'.",
+                "default": "Harem,Fantasy"
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number to fetch, starting from '1'. Defaults to '1'.",
+                "default": "1"
+            }
+        },
+        "required": []
+    }
+}

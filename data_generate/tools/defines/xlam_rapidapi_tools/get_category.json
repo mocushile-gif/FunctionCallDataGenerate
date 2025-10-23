@@ -1,0 +1,14 @@
+{
+    "name": "get_category",
+    "description": "This is a sub-function API for tool airbnb_v2.\nTool description:  Airbnb API allows users to search accommodations by location, place name, and GEO coordinates to find a place to rent. This API has all needed by any developer to create a new application with some extended features.\nAPI description: Fetches categories from the Airbnb API, optionally in a specified language.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "languageid": {
+                "type": "string",
+                "description": "Enter **LanguageId** if you want a response in the requested language. To get **LanguageId** call **getLanguages** API and pass in the Id."
+            }
+        },
+        "required": []
+    }
+}

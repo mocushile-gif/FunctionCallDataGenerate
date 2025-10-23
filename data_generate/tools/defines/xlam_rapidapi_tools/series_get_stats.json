@@ -1,0 +1,23 @@
+{
+    "name": "series_get_stats",
+    "description": "This is a sub-function API for tool cricbuzz_cricket.\nTool description: This API helps to query for live cricket scores, commentary, latest cricket news and editorials, schedules of upcoming matches, rankings, stats, records, etc\nAPI description: Fetches statistical data for a given cricket series from the Cricbuzz API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "seriesid": {
+                "type": "number",
+                "description": "The ID of the series for which statistics are to be retrieved. This ID is typically obtained from the series list or series list-archives endpoints.",
+                "default": 3718.0
+            },
+            "statstype": {
+                "type": "string",
+                "description": "The type of statistics to retrieve. This value is obtained from the series/get-stats-filter endpoint.",
+                "default": "mostRuns"
+            }
+        },
+        "required": [
+            "seriesid",
+            "statstype"
+        ]
+    }
+}

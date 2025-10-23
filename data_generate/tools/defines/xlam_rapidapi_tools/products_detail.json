@@ -1,0 +1,17 @@
+{
+    "name": "products_detail",
+    "description": "This is a sub-function API for tool consumer_reports.\nTool description: This API helps to query trusted ratings and reviews for the products, cars and services used every day to create a review site such as : consumerreports.org\nAPI description: Fetch detailed information of a product using its ID and a RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The value of _id field returned in .../products/list endpoint",
+                "default": 397144.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

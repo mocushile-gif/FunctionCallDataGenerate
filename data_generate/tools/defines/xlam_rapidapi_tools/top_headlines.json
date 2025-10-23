@@ -1,0 +1,34 @@
+{
+    "name": "top_headlines",
+    "description": "This is a sub-function API for tool news_api_v2.\nTool description: Google News and Bing News Alternative. The Best API to Search News from the 2500+ Publishers Around The World. \nAPI description: Fetches top headline news articles based on specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "language": {
+                "type": "string",
+                "description": "en, zh-Hans, zh-Hant, id, cs, uk, he, ar, de, es-419, ja, ko, fr, it, lv, lt, ml, th, hu, nl, no, pl, pt-419, pt-150, ro, sk, sl, sv, vi, tr, el, bg, ru, sr, mr, hi, bn, ta, te",
+                "default": "en"
+            },
+            "category": {
+                "type": "string",
+                "description": "Possible options: business, science, sports, entertainment, health, technology\n\nDefault value: all categories",
+                "default": "sports"
+            },
+            "country": {
+                "type": "string",
+                "description": "MY, GB, CN, TW, AU, BW, ET, KR, GH, IE, KE, LV, NA, IN, BD, TH, NZ, NG, PK, PH, SG, ZA, TZ, UG, ZW, ID, CZ, DE, AT, CH, AR, EG, CL, CO, CU, US, MX, PE, VE, LB, CA, FR, MA, SN, IT, LT, HK, JP, HU, BE, NL, NO, PL, BR, PT, RO, SK, SI, SE, VN, TR, GR, BG, RU, RS, UA, IL, AE, SA",
+                "default": "us"
+            },
+            "sortby": {
+                "type": "string",
+                "description": "Criterion to sort news articles by. Default is 'published_date'."
+            },
+            "pagesize": {
+                "type": "number",
+                "description": "Number of news articles to return per page. Default is 10.",
+                "default": 10.0
+            }
+        },
+        "required": []
+    }
+}

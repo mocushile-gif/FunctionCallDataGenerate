@@ -1,0 +1,16 @@
+{
+    "name": "tanggal",
+    "description": "This is a sub-function API for tool masehi_ke_hijriyah.\nTool description: convert tanggal Masehi to Hijriyah \nAPI description: Converts a given Gregorian date to its Hijri equivalent using the Masehi-ke-Hijriyah API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tanggal": {
+                "type": "string",
+                "description": "The Gregorian date to be converted to Hijri."
+            }
+        },
+        "required": [
+            "tanggal"
+        ]
+    }
+}

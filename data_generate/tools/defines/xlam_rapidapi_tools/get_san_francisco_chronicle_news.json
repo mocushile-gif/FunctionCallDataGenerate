@@ -1,0 +1,14 @@
+{
+    "name": "get_san_francisco_chronicle_news",
+    "description": "This is a sub-function API for tool news_in_bay.\nTool description: *for my personal study purposes*\nAn API showing all front-page news in the Bay area for the day, keyword can be customized.\neg:  https://sfnews-api.herokuapp.com/news/safe (keyword \"safe\")\nScrapping from San Francisco Chronicle / SFGATE / abc7News\nHeroku: https://sfnews-api.herokuapp.com/\nAPI description: Get all news titled with keyword (sources via San Francisco Chronicle )",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sfchronicle": {
+                "type": "string",
+                "description": "A keyword to filter news articles. If provided, only articles containing this keyword will be fetched. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

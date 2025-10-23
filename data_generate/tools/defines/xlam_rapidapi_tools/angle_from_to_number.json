@@ -1,0 +1,29 @@
+{
+    "name": "angle_from_to_number",
+    "description": "This is a sub-function API for tool unitconversion.\nTool description: App to easily convert units\nAPI description: Converts an angle measurement from one unit to another using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "number": {
+                "type": "number",
+                "description": "The angle measurement value to be converted.",
+                "default": 10.0
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The unit of the input angle measurement (e.g., 'degrees').",
+                "default": "radian"
+            },
+            "to": {
+                "type": "string",
+                "description": "The unit to convert the angle measurement to (e.g., 'radians').",
+                "default": "turn"
+            }
+        },
+        "required": [
+            "number",
+            "is_from",
+            "to"
+        ]
+    }
+}

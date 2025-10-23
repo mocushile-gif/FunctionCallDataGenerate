@@ -1,0 +1,35 @@
+{
+    "name": "get_product_reviews",
+    "description": "This is a sub-function API for tool yotpo.\nTool description: Yotpo is taking reviews social being a fun, social way for your e-commerce customers to read and write reviews!\r\n\r\nBEFORE YOU BEGIN, you must sign for a free account at Yotpo: https://www.yotpo.com/register , and you are more than welcome to further read on us at: http://www.yotpo.com . \r\n\r\nWe also encourage first time users to checkout our example sites where Yotpo is installed: \r\n\r\nhttp://magento.yotpo.com/\r\nhttp://shop.yotpo.com \r\n\r\nfor list of existing customers please refer to our website. \r\n\r\n\r\nYotpo API, works above the Yotpo Social Reviews service. It is designed to create more customised solutions for Yotpo customers, and to let them smartly integrate with Yotpo's system.\r\n\r\nStayed tuned, the Yotpo API is a work in progress.\nAPI description: Retrieves reviews for a specific product associated with a given app key from Yotpo.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "count": {
+                "type": "string",
+                "description": "specify how many reviews you want to pull",
+                "default": "3"
+            },
+            "page": {
+                "type": "string",
+                "description": "specify the page number you want to pull",
+                "default": "1"
+            },
+            "app_key": {
+                "type": "string",
+                "description": "your application key that is assigned to you after signing up to Yotpo (www.yotpo.com)",
+                "default": "B02uug6tF2uEA0Denhj0c9PV73y5PEOuKFmTCGb1"
+            },
+            "domain_key": {
+                "type": "string",
+                "description": "unique identifier of the product as stored when creating the review",
+                "default": "92431514"
+            }
+        },
+        "required": [
+            "count",
+            "page",
+            "app_key",
+            "domain_key"
+        ]
+    }
+}

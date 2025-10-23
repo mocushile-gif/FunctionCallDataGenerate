@@ -1,0 +1,23 @@
+{
+    "name": "leaguegroups",
+    "description": "This is a sub-function API for tool handballapi.\nTool description: HandballAPI offers a schedule for live matches and results for top national and international leagues and tournaments. Handball World championship, handball European championship, handball Champions league, LNH Division 1, EHF European league and other leagues are all covered.\nAPI description: Fetches the groups in a specified basketball league tournament for a given season.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tournamentid": {
+                "type": "number",
+                "description": "The unique ID of the tournament for which you want to retrieve the groups.",
+                "default": 30
+            },
+            "seasonid": {
+                "type": "number",
+                "description": "The season ID for which to retrieve the league's groups.",
+                "default": 42851
+            }
+        },
+        "required": [
+            "tournamentid",
+            "seasonid"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_coin_price_difference",
+    "description": "This is a sub-function API for tool crypto_arbitrage_trading.\nTool description: Introducing our new API, designed to provide you with real-time price differences between Binance and KuCoin for a specific coin. The API also calculates the percentage difference and profitability of each coin, making it easy to identify arbitrage opportunities. With our API, you can stay ahead of the market and make informed trading decisions, maximizing your profits through arbitrage trading. Additionally, our API provides you with the current ETH gas price, which is vital information for ...\nAPI description: Fetches the price difference of a specified cryptocurrency from the Crypto Arbitrage Trading API using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the cryptocurrency for which to fetch the price difference.",
+                "default": "MOVR"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

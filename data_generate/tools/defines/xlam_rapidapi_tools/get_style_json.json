@@ -1,0 +1,17 @@
+{
+    "name": "get_style_json",
+    "description": "This is a sub-function API for tool mapilion_vector_and_raster_map_tiles.\nTool description: Mapilion provides you with vector and raster map tiles at scale. Based on OpenStreetMap and OpenMapTiles.\nAPI description: Returns the style json for the given style. These are pre-configured styles to get started easily. For advanced use cases we recommend to extend these styles or create a new style. The following styles are currently available:\n- `osm-bright` Osm-Bright\n- `osm-bright-hillshading-v1` Osm-Bright with Hillshading V1 overlay\n- `osm-bright-hillshading-v2` Osm-Bright with Hillshading V2 overlay\n- `dark-matter` A dark map style.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "style": {
+                "type": "string",
+                "description": "The style identifier to retrieve the corresponding style JSON.",
+                "default": "osm-bright"
+            }
+        },
+        "required": [
+            "style"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_individual_bitcoin_news_sources",
+    "description": "This is a sub-function API for tool bitcoin_news.\nTool description: An API showing all the latest news of Bitcoin around the world from all the major websites\nAPI description: In this endpoint you can get informations for a specific News resource.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "newspaperid": {
+                "type": "string",
+                "description": "The unique identifier for the news resource.",
+                "default": "coindesk"
+            }
+        },
+        "required": [
+            "newspaperid"
+        ]
+    }
+}

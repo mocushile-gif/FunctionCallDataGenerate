@@ -1,0 +1,30 @@
+{
+    "name": "transform_your_images",
+    "description": "This is a sub-function API for tool postput.\nTool description: Store & perform on-the-fly operations on your files\nAPI description: Apply various transformations to images using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "grayscale": {
+                "type": "boolean",
+                "description": "If True, convert the image to grayscale. Defaults to None.",
+                "default": true
+            },
+            "rotate": {
+                "type": "number",
+                "description": "Degrees to rotate the image. Defaults to 90.",
+                "default": 90.0
+            },
+            "blur": {
+                "type": "number",
+                "description": "Level of blurriness to apply to the image. Defaults to 4.",
+                "default": 4.0
+            },
+            "resize": {
+                "type": "string",
+                "description": "New dimensions for resizing the image in the format 'width,height'. Defaults to '100,100'.",
+                "default": "100,100"
+            }
+        },
+        "required": []
+    }
+}

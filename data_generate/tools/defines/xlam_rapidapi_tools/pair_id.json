@@ -1,0 +1,17 @@
+{
+    "name": "pair_id",
+    "description": "This is a sub-function API for tool uniswap_v2_api.\nTool description: REST API of Uniswap V2\nAPI description: Fetches information of a pair using the given pair address from the Uniswap V2 API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The address of the pair.",
+                "default": "0xb011eeaab8bf0c6de75510128da95498e4b7e67f"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

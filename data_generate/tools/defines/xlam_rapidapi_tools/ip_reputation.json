@@ -1,0 +1,17 @@
+{
+    "name": "ip_reputation",
+    "description": "This is a sub-function API for tool ip_reputation_geoip_and_detect_vpn.\nTool description: Block fraud attempts in realtime. This ridiculously effective API provides invaluable information about any IP address.  Detect bots, prevent fraud and abuse by detecting users trying to hide behind a VPN, proxy, or TOR. Geolocate IP addresses to find out which country or city the website visitors are from.\nAPI description: Fetch detailed information about the specified IPv4 or IPv6 address. Get the country by geolocation, ISP or hosting provider. You will also find out if this IP address has a history of abuse or malicious activity.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IP address to query for reputation information.",
+                "default": "185.65.135.230"
+            }
+        },
+        "required": [
+            "ip"
+        ]
+    }
+}

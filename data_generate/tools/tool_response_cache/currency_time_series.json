@@ -1,0 +1,213 @@
+{
+    "{'period': '1M', 'to_symbol': 'USD', 'from_symbol': 'EUR', 'language': 'en'}": {
+        "error": "",
+        "response": {
+            "status": "OK",
+            "request_id": "bf6179f1-a7bb-4637-8bd6-d6cb72e1baae",
+            "data": {
+                "from_symbol": "EUR",
+                "to_symbol": "USD",
+                "type": "currency",
+                "exchange_rate": 1.0914,
+                "previous_close": 1.0922,
+                "last_update_utc": "2023-07-02 19:11:56",
+                "time_series": {
+                    "2023-06-02 23:58:00": {
+                        "exchange_rate": 1.0725,
+                        "change": 0,
+                        "change_percent": 0
+                    },
+                    "2023-06-03 23:58:00": {
+                        "exchange_rate": 1.0724,
+                        "change": -0.0001,
+                        "change_percent": -0.0001
+                    },
+                    "2023-06-04 23:58:00": {
+                        "exchange_rate": 1.0697,
+                        "change": -0.0028,
+                        "change_percent": -0.0026
+                    },
+                    "2023-06-05 23:58:00": {
+                        "exchange_rate": 1.0711,
+                        "change": -0.0014,
+                        "change_percent": -0.0013
+                    },
+                    "2023-06-06 23:58:00": {
+                        "exchange_rate": 1.0698,
+                        "change": -0.0028,
+                        "change_percent": -0.0026
+                    },
+                    "2023-06-07 23:58:00": {
+                        "exchange_rate": 1.0707,
+                        "change": -0.0019,
+                        "change_percent": -0.0018
+                    },
+                    "2023-06-08 23:58:00": {
+                        "exchange_rate": 1.0784,
+                        "change": 0.0058,
+                        "change_percent": 0.0054
+                    },
+                    "2023-06-09 23:58:00": {
+                        "exchange_rate": 1.0764,
+                        "change": 0.0038,
+                        "change_percent": 0.0035
+                    },
+                    "2023-06-10 23:58:00": {
+                        "exchange_rate": 1.0754,
+                        "change": 0.0028,
+                        "change_percent": 0.0026
+                    },
+                    "2023-06-11 23:58:00": {
+                        "exchange_rate": 1.0752,
+                        "change": 0.0026,
+                        "change_percent": 0.0024
+                    },
+                    "2023-06-12 23:58:00": {
+                        "exchange_rate": 1.0764,
+                        "change": 0.0038,
+                        "change_percent": 0.0036
+                    },
+                    "2023-06-13 23:58:00": {
+                        "exchange_rate": 1.0789,
+                        "change": 0.0063,
+                        "change_percent": 0.0059
+                    },
+                    "2023-06-14 23:58:00": {
+                        "exchange_rate": 1.0843,
+                        "change": 0.0117,
+                        "change_percent": 0.0109
+                    },
+                    "2023-06-15 23:58:00": {
+                        "exchange_rate": 1.0946,
+                        "change": 0.022,
+                        "change_percent": 0.0205
+                    },
+                    "2023-06-16 23:58:00": {
+                        "exchange_rate": 1.0966,
+                        "change": 0.024,
+                        "change_percent": 0.0224
+                    },
+                    "2023-06-17 23:58:00": {
+                        "exchange_rate": 1.0966,
+                        "change": 0.024,
+                        "change_percent": 0.0224
+                    },
+                    "2023-06-18 23:58:00": {
+                        "exchange_rate": 1.0942,
+                        "change": 0.0216,
+                        "change_percent": 0.0201
+                    },
+                    "2023-06-19 23:58:00": {
+                        "exchange_rate": 1.0924,
+                        "change": 0.0199,
+                        "change_percent": 0.0185
+                    },
+                    "2023-06-20 23:58:00": {
+                        "exchange_rate": 1.092,
+                        "change": 0.0194,
+                        "change_percent": 0.0181
+                    },
+                    "2023-06-21 23:58:00": {
+                        "exchange_rate": 1.0992,
+                        "change": 0.0266,
+                        "change_percent": 0.0248
+                    },
+                    "2023-06-22 23:58:00": {
+                        "exchange_rate": 1.0956,
+                        "change": 0.023,
+                        "change_percent": 0.0215
+                    },
+                    "2023-06-23 23:58:00": {
+                        "exchange_rate": 1.0935,
+                        "change": 0.0209,
+                        "change_percent": 0.0195
+                    },
+                    "2023-06-24 23:58:00": {
+                        "exchange_rate": 1.0934,
+                        "change": 0.0208,
+                        "change_percent": 0.0194
+                    },
+                    "2023-06-25 23:58:00": {
+                        "exchange_rate": 1.0906,
+                        "change": 0.0181,
+                        "change_percent": 0.0169
+                    },
+                    "2023-06-26 23:58:00": {
+                        "exchange_rate": 1.091,
+                        "change": 0.0185,
+                        "change_percent": 0.0172
+                    },
+                    "2023-06-27 23:58:00": {
+                        "exchange_rate": 1.0957,
+                        "change": 0.0231,
+                        "change_percent": 0.0216
+                    },
+                    "2023-06-28 23:58:00": {
+                        "exchange_rate": 1.0916,
+                        "change": 0.0191,
+                        "change_percent": 0.0178
+                    },
+                    "2023-06-29 23:58:00": {
+                        "exchange_rate": 1.0868,
+                        "change": 0.0143,
+                        "change_percent": 0.0133
+                    },
+                    "2023-06-30 23:58:00": {
+                        "exchange_rate": 1.0922,
+                        "change": 0.0196,
+                        "change_percent": 0.0183
+                    },
+                    "2023-07-01 23:58:00": {
+                        "exchange_rate": 1.0922,
+                        "change": 0.0196,
+                        "change_percent": 0.0183
+                    },
+                    "2023-07-02 19:11:00": {
+                        "exchange_rate": 1.0914,
+                        "change": 0.0189,
+                        "change_percent": 0.0176
+                    }
+                },
+                "utc_offset_sec": 0,
+                "interval_sec": 86400,
+                "period": "1M"
+            }
+        }
+    },
+    "{'period': '5Y', 'to_symbol': 'EUR', 'from_symbol': 'USD', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '2fbb1b21-29db-4b97-ab26-2b1e990d0974', 'data': {'from_symbol': 'USD', 'to_symbol': 'EUR', 'type': 'currency', 'exchange_rate': 0.8793, 'previous_close': 0.8775, 'last_update_utc': '2025-04-17 19:21:00', 'time_series': {'2020-04-25 23:58:00': {'exchange_rate': 0.9238, 'change': 0, 'change_percent': 0}, '2020-05-02 23:58:00': {'exchange_rate': 0.9012, 'change': -0.0226, 'change_percent': -0.0245}, '2020-05-09 23:58:00': {'exchange_rate': 0.9114, 'change': -0.0124, 'change_percent': -0.0134}, '2020-05-16 23:58:00': {'exchange_rate': 0.9238, 'change': 0, 'change_percent': 0}, '2020-05-23 23:58:00': {'exchange_rate': 0.9166, 'change': -0.0072, 'change_percent': -0.0078}, '2020-05-30 23:58:00': {'exchange_rate': 0.9001, 'change': -0.0237, 'change_percent': -0.0257}, '2020-06-06 23:58:00': {'exchange_rate': 0.8855, 'change': -0.0383, 'change_percent': -0.0415}, '2020-06-13 23:58:00': {'exchange_rate': 0.8884, 'change': -0.0354, 'change_percent': -0.0383}, '2020-06-20 23:58:00': {'exchange_rate': 0.8946, 'change': -0.0292, 'change_percent': -0.0316}, '2020-06-27 23:58:00': {'exchange_rate': 0.8913, 'change': -0.0325, 'change_percent': -0.0352}, '2020-07-04 23:58:00': {'exchange_rate': 0.8889, 'change': -0.0349, 'change_percent': -0.0378}, '2020-07-11 23:58:00': {'exchange_rate': 0.885, 'change': -0.0389, 'change_percent': -0.0421}, '2020-07-18 23:58:00': {'exchange_rate': 0.8748, 'change': -0.049, 'change_percent': -0.053}, '2020-07-25 23:58:00': {'exchange_rate': 0.8579, 'change': -0.0659, 'change_percent': -0.0714}, '2020-08-01 23:58:00': {'exchange_rate': 0.8489, 'change': -0.0749, 'change_percent': -0.0811}, '2020-08-08 23:58:00': {'exchange_rate': 0.8482, 'change': -0.0757, 'change_percent': -0.0819}, '2020-08-15 23:58:00': {'exchange_rate': 0.8444, 'change': -0.0794, 'change_percent': -0.086}, '2020-08-22 23:58:00': {'exchange_rate': 0.8475, 'change': -0.0764, 'change_percent': -0.0827}, '2020-08-29 23:58:00': {'exchange_rate': 0.8398, 'change': -0.0841, 'change_percent': -0.091}, '2"
+    },
+    "{'period': '5Y', 'from_symbol': 'EUR', 'to_symbol': 'USD', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '64351a71-eff7-4dab-8d4d-465b4c3dbadd', 'data': {'from_symbol': 'EUR', 'to_symbol': 'USD', 'type': 'currency', 'exchange_rate': 1.1348, 'previous_close': 1.1377, 'last_update_utc': '2025-05-30 23:58:04', 'time_series': {'2020-06-06 23:58:00': {'exchange_rate': 1.1279, 'change': 0, 'change_percent': 0}, '2020-06-13 23:58:00': {'exchange_rate': 1.1257, 'change': -0.0022, 'change_percent': -0.0019}, '2020-06-20 23:58:00': {'exchange_rate': 1.1177, 'change': -0.0102, 'change_percent': -0.009}, '2020-06-27 23:58:00': {'exchange_rate': 1.1219, 'change': -0.006, 'change_percent': -0.0053}, '2020-07-04 23:58:00': {'exchange_rate': 1.1243, 'change': -0.0036, 'change_percent': -0.0032}, '2020-07-11 23:58:00': {'exchange_rate': 1.1299, 'change': 0.002, 'change_percent': 0.0018}, '2020-07-18 23:58:00': {'exchange_rate': 1.1425, 'change': 0.0146, 'change_percent': 0.0129}, '2020-07-25 23:58:00': {'exchange_rate': 1.1656, 'change': 0.0377, 'change_percent': 0.0334}, '2020-08-01 23:58:00': {'exchange_rate': 1.1772, 'change': 0.0493, 'change_percent': 0.0437}, '2020-08-08 23:58:00': {'exchange_rate': 1.1786, 'change': 0.0507, 'change_percent': 0.045}, '2020-08-15 23:58:00': {'exchange_rate': 1.1841, 'change': 0.0562, 'change_percent': 0.0498}, '2020-08-22 23:58:00': {'exchange_rate': 1.1789, 'change': 0.051, 'change_percent': 0.0452}, '2020-08-29 23:58:00': {'exchange_rate': 1.1892, 'change': 0.0614, 'change_percent': 0.0544}, '2020-09-05 23:58:00': {'exchange_"
+    },
+    "{'period': '6M', 'from_symbol': 'EUR', 'to_symbol': 'USD', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '21cca746-250d-4cd1-adae-c40f6b90613c', 'data': {'from_symbol': 'EUR', 'to_symbol': 'USD', 'type': 'currency', 'exchange_rate': 1.1348, 'previous_close': 1.1377, 'last_update_utc': '2025-05-30 23:58:04', 'time_series': {'2024-12-01 23:58:00': {'exchange_rate': 1.0543, 'change': 0, 'change_percent': 0}, '2024-12-02 23:58:00': {'exchange_rate': 1.05, 'change': -0.0043, 'change_percent': -0.0041}, '2024-12-03 23:58:00': {'exchange_rate': 1.051, 'change': -0.0034, 'change_percent': -0.0032}, '2024-12-04 23:58:00': {'exchange_rate': 1.0512, 'change': -0.0031, 'change_percent': -0.003}, '2024-12-05 23:58:00': {'exchange_rate': 1.0585, 'change': 0.0042, 'change_percent': 0.004}, '2024-12-06 23:58:00': {'exchange_rate': 1.0574, 'change': 0.003, 'change_percent': 0.0029}, '2024-12-07 23:58:00': {'exchange_rate': 1.0569, 'change': 0.0026, 'change_percent': 0.0024}, '2024-12-08 23:58:00': {'exchange_rate': 1.0565, 'change': 0.0021, 'change_percent': 0.002}, '2024-12-09 23:58:00': {'exchange_rate': 1.0555, 'change': 0.0011, 'change_percent': 0.001}, '2024-12-10 23:58:00': {'exchange_rate': 1.0531, 'change': -0.0012, 'change_percent': -0.0012}, '2024-12-11 23:58:00': {'exchange_rate': 1.0506, 'change': -0.0037, 'change_percent': -0.0036}, '2024-12-12 23:58:00': {'exchange_rate': 1.0473, 'change': -0.0071, 'change_percent': -0.0067}, '2024-12-13 23:58:00': {'exchange_rate': 1.0505, 'change': -0.0038, 'change_percent': -0.0037}, '2024-12-14 23:58:00': {'exchan"
+    },
+    "{'period': '5Y', 'from_symbol': 'GBP', 'to_symbol': 'USD', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '5231166d-245b-4192-a357-d03076d008c6', 'data': {'from_symbol': 'GBP', 'to_symbol': 'USD', 'type': 'currency', 'exchange_rate': 1.346, 'previous_close': 1.3498, 'last_update_utc': '2025-05-30 22:59:04', 'time_series': {'2020-06-06 23:58:00': {'exchange_rate': 1.2666, 'change': 0, 'change_percent': 0}, '2020-06-13 23:58:00': {'exchange_rate': 1.2541, 'change': -0.0125, 'change_percent': -0.0099}, '2020-06-20 23:58:00': {'exchange_rate': 1.2348, 'change': -0.0318, 'change_percent': -0.0251}, '2020-06-27 23:58:00': {'exchange_rate': 1.2337, 'change': -0.0329, 'change_percent': -0.026}, '2020-07-04 23:58:00': {'exchange_rate': 1.2484, 'change': -0.0182, 'change_percent': -0.0144}, '2020-07-11 23:58:00': {'exchange_rate': 1.2621, 'change': -0.0045, 'change_percent': -0.0036}, '2020-07-18 23:58:00': {'exchange_rate': 1.2567, 'change': -0.0099, 'change_percent': -0.0078}, '2020-07-25 23:58:00': {'exchange_rate': 1.2793, 'change': 0.0127, 'change_percent': 0.01}, '2020-08-01 23:58:00': {'exchange_rate': 1.308, 'change': 0.0414, 'change_percent': 0.0327}, '2020-08-08 23:58:00': {'exchange_rate': 1.3052, 'change': 0.0386, 'change_percent': 0.0305}, '2020-08-15 23:58:00': {'exchange_rate': 1.3086, 'change': 0.042, 'change_percent': 0.0332}, '2020-08-22 23:58:00': {'exchange_rate': 1.3088, 'change': 0.0422, 'change_percent': 0.0333}, '2020-08-29 23:58:00': {'exchange_rate': 1.3351, 'change': 0.0685, 'change_percent': 0.0541}, '2020-09-05 23:58:00': {'exchan"
+    },
+    "{'period': '6M', 'from_symbol': 'GBP', 'to_symbol': 'USD', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '8f975b46-3811-4365-8ec9-4ff5e1c3bff0', 'data': {'from_symbol': 'GBP', 'to_symbol': 'USD', 'type': 'currency', 'exchange_rate': 1.346, 'previous_close': 1.3498, 'last_update_utc': '2025-05-30 22:59:04', 'time_series': {'2024-12-01 23:58:00': {'exchange_rate': 1.27, 'change': 0, 'change_percent': 0}, '2024-12-02 23:58:00': {'exchange_rate': 1.2657, 'change': -0.0043, 'change_percent': -0.0033}, '2024-12-03 23:58:00': {'exchange_rate': 1.2673, 'change': -0.0026, 'change_percent': -0.0021}, '2024-12-04 23:58:00': {'exchange_rate': 1.27, 'change': 0, 'change_percent': 0}, '2024-12-05 23:58:00': {'exchange_rate': 1.2759, 'change': 0.0059, 'change_percent': 0.0046}, '2024-12-06 23:58:00': {'exchange_rate': 1.2744, 'change': 0.0044, 'change_percent': 0.0035}, '2024-12-07 23:58:00': {'exchange_rate': 1.2743, 'change': 0.0043, 'change_percent': 0.0034}, '2024-12-08 23:58:00': {'exchange_rate': 1.2748, 'change': 0.0048, 'change_percent': 0.0038}, '2024-12-09 23:58:00': {'exchange_rate': 1.2748, 'change': 0.0048, 'change_percent': 0.0038}, '2024-12-10 23:58:00': {'exchange_rate': 1.2779, 'change': 0.0079, 'change_percent': 0.0063}, '2024-12-11 23:58:00': {'exchange_rate': 1.2765, 'change': 0.0065, 'change_percent': 0.0051}, '2024-12-12 23:58:00': {'exchange_rate': 1.2675, 'change': -0.0025, 'change_percent': -0.002}, '2024-12-13 23:58:00': {'exchange_rate': 1.2619, 'change': -0.0081, 'change_percent': -0.0064}, '2024-12-14 23:58:00': {'exchange_rate': 1.26"
+    },
+    "{'period': '6M', 'to_symbol': 'EUR', 'from_symbol': 'USD', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'fd3c580d-4146-4e23-ac84-6815941d30e6', 'data': {}}"
+    },
+    "{'period': '1M', 'to_symbol': 'EUR', 'from_symbol': 'USD', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '223d4f04-fd45-4d36-a260-2636c940ac22', 'data': {'from_symbol': 'USD', 'to_symbol': 'EUR', 'type': 'currency', 'exchange_rate': 0.8692, 'previous_close': 0.8687, 'last_update_utc': '2025-04-22 08:26:04', 'time_series': {'2025-03-22 23:58:00': {'exchange_rate': 0.9193, 'change': 0, 'change_percent': 0}, '2025-03-23 23:58:00': {'exchange_rate': 0.9229, 'change': 0.0036, 'change_percent': 0.0039}, '2025-03-24 23:58:00': {'exchange_rate': 0.9256, 'change': 0.0063, 'change_percent': 0.0069}, '2025-03-25 23:58:00': {'exchange_rate': 0.927, 'change': 0.0077, 'change_percent': 0.0084}, '2025-03-26 23:58:00': {'exchange_rate': 0.9309, 'change': 0.0116, 'change_percent': 0.0126}, '2025-03-27 23:58:00': {'exchange_rate': 0.9258, 'change': 0.0065, 'change_percent': 0.0071}, '2025-03-28 23:58:00': {'exchange_rate': 0.9185, 'change': -0.0008, 'change_percent': -0.0009}, '2025-03-29 23:58:00': {'exchange_rate': 0.9185, 'change': -0.0008, 'change_percent': -0.0009}, '2025-03-30 23:58:00': {'exchange_rate': 0.9239, 'change': 0.0046, 'change_percent': 0.005}, '2025-03-31 23:58:00': {'exchange_rate': 0.9243, 'change': 0.005, 'change_percent': 0.0054}, '2025-04-01 23:58:00': {'exchange_rate': 0.9263, 'change': 0.007, 'change_percent': 0.0076}, '2025-04-02 23:58:00': {'exchange_rate': 0.9167, 'change': -0.0026, 'change_percent': -0.0028}, '2025-04-03 23:58:00': {'exchange_rate': 0.9055, 'change': -0.0138, 'change_percent': -0.015}, '2025-04-04 23:58:00': {'exchange_rate': 0.9123, 'change': -0.007, 'change_percent': -0.0076}, '2025-04-05 23:58:00': {'exchange_rate': 0.9123, 'change': -0.007, 'change_percent': -0.0076}, '2025-04-06 23:58:00': {'exchange_rate': 0.9104, 'change': -0.0089, 'change_percent': -0.0097}, '2025-04-07 23:58:00': {'exchange_rate': 0.9161, 'change': -0.0032, 'change_percent': -0.0034}, '2025-04-08 23:58:00': {'exchange_rate': 0.9107, 'change': -0.0086, 'change_percent': -0.0093}, '2025-04-09 23:58:00': {'exchange_rate': 0.9131, 'change': -0.0062, 'change_percent': -0.0068}, '2025-04"
+    },
+    "{'period': '1Y', 'to_symbol': 'EUR', 'from_symbol': 'USD'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '568cb4ad-df6c-43e8-95b7-af87a9a5a053', 'data': {'from_symbol': 'USD', 'to_symbol': 'EUR', 'type': 'currency', 'exchange_rate': 0.8793, 'previous_close': 0.8775, 'last_update_utc': '2025-04-17 19:21:00', 'time_series': {'2024-04-21 23:58:00': {'exchange_rate': 0.9382, 'change': 0, 'change_percent': 0}, '2024-04-22 23:58:00': {'exchange_rate': 0.9386, 'change': 0.0004, 'change_percent': 0.0004}, '2024-04-23 23:58:00': {'exchange_rate': 0.9342, 'change': -0.004, 'change_percent': -0.0043}, '2024-04-24 23:58:00': {'exchange_rate': 0.9346, 'change': -0.0036, 'change_percent': -0.0039}, '2024-04-25 23:58:00': {'exchange_rate': 0.932, 'change': -0.0062, 'change_percent': -0.0067}, '2024-04-26 23:58:00': {'exchange_rate': 0.9342, 'change': -0.004, 'change_percent': -0.0043}, '2024-04-27 23:58:00': {'exchange_rate': 0.9342, 'change': -0.004, 'change_percent': -0.0043}, '2024-04-28 23:58:00': {'exchange_rate': 0.934, 'change': -0.0043, 'change_percent': -0.0045}, '2024-04-29 23:58:00': {'exchange_rate': 0.9332, 'change': -0.005, 'change_percent': -0.0054}, '2024-04-30 23:58:00': {'exchange_rate': 0.9375, 'change': -0.0007, 'change_percent': -0.0008}, '2024-05-01 23:58:00': {'exchange_rate': 0.9327, 'change': -0.0055, 'change_percent': -0.0059}, '2024-05-02 23:58:00': {'exchange_rate': 0.9317, 'change': -0.0065, 'change_percent': -0.007}, '2024-05-03 23:58:00': {'exchange_rate': 0.9282, 'change': -0.01, 'change_percent': -0.0107}, '2024-05-04 23:58:00': {'exchange_rate': 0.9282, 'change': -0.01, 'change_percent': -0.0107}, '2024-05-05 23:58:00': {'exchange_rate': 0.9295, 'change': -0.0087, 'change_percent': -0.0093}, '2024-05-06 23:58:00': {'exchange_rate': 0.9287, 'change': -0.0095, 'change_percent': -0.0101}, '2024-05-07 23:58:00': {'exchange_rate': 0.9302, 'change': -0.0081, 'change_percent': -0.0086}, '2024-05-08 23:58:00': {'exchange_rate': 0.9305, 'change': -0.0077, 'change_percent': -0.0082}, '2024-05-09 23:58:00': {'exchange_rate': 0.9272, 'change': -0.011, 'change_percent': -0.0118},"
+    },
+    "{'period': '6M', 'to_symbol': 'BRL', 'from_symbol': 'USD', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'a331af28-6221-4df9-b6f1-74a1b86582b5', 'data': {'from_symbol': 'USD', 'to_symbol': 'BRL', 'type': 'currency', 'exchange_rate': 5.785, 'previous_close': 5.7296, 'last_update_utc': '2025-06-02 10:48:04', 'time_series': {'2024-12-02 23:58:00': {'exchange_rate': 6.0568, 'change': 0, 'change_percent': 0}, '2024-12-03 23:58:00': {'exchange_rate': 6.0431, 'change': -0.0137, 'change_percent': -0.0023}, '2024-12-04 23:58:00': {'exchange_rate': 6.0388, 'change': -0.018, 'change_percent': -0.003}, '2024-12-05 23:58:00': {'exchange_rate': 6.0103, 'change': -0.0465, 'change_percent': -0.0077}, '2024-12-06 23:58:00': {'exchange_rate': 6.0883, 'change': 0.0315, 'change_percent': 0.0052}, '2024-12-07 23:58:00': {'exchange_rate': 6.0883, 'change': 0.0315, 'change_percent': 0.0052}, '2024-12-08 23:58:00': {'exchange_rate': 6.0883, 'change': 0.0315, 'change_percent': 0.0052}, '2024-12-09 23:58:00': {'exchange_rate': 6.0766, 'change': 0.0198, 'change_percent': 0.0033}, '2024-12-10 23:58:00': {'exchange_rate': 6.0453, 'change': -0.0115, 'change_percent': -0.0019}, '2024-12-11 23:58:00': {'exchange_rate': 5.9527, 'change': -0.1041, 'change_percent': -0.0172}, '2024-12-12 23:58:00': {'exchange_rate': 5.9961, 'change': -0.0607, 'change_percent': -0.01}, '2024-12-13 23:58:00': {'exchange_rate': 6.0409, 'change': -0.0159, 'change_percent': -0.0026}, '2024-12-14 23:58:00': {'exchange_rate': 6.0409, 'change': -0.0159, 'change_percent': -0.0026}, '2024-12-15 23:58:00': {'e"
+    }
+}

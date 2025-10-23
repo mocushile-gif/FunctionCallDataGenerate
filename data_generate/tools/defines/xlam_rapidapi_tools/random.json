@@ -1,0 +1,14 @@
+{
+    "name": "random",
+    "description": "This is a sub-function API for tool quotes_diffusion.\nTool description: The \"Quotes Diffusion\" API provides users with a vast collection of curated popular quotes from around the world. It includes 56,394 quotes, spanning 1,963 topics, from 10,920 authors. The API also generates background images based on keywords from the quotes using text-to-image diffusion models.\nAPI description: Fetch a random quote, optionally based on custom search terms, using the Toolbench API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "search": {
+                "type": "string",
+                "description": "A search term to filter the quotes. If None, a completely random quote is returned."
+            }
+        },
+        "required": []
+    }
+}

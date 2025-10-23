@@ -1,0 +1,33 @@
+{
+    "name": "bookrestaurant",
+    "description": "This is a sub-function API for tool camrest676.\nTool description: CamRest service por restaurant reservation\nAPI description: Books a restaurant based on the provided criteria using the RapidAPI CamRest API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pricerange": {
+                "type": "string",
+                "description": "The desired price range for the restaurant.",
+                "default": "moderate"
+            },
+            "area": {
+                "type": "string",
+                "description": "The area in which to search for the restaurant.",
+                "default": "elarea"
+            },
+            "food": {
+                "type": "string",
+                "description": "The type of food preferred, default is 'spanish'.",
+                "default": "spanish"
+            },
+            "restaurantname": {
+                "type": "string",
+                "description": "The name of the restaurant, default is 'McDonalds'.",
+                "default": "McDonalds"
+            }
+        },
+        "required": [
+            "pricerange",
+            "area"
+        ]
+    }
+}

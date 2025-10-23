@@ -1,0 +1,23 @@
+{
+    "name": "web_pdf",
+    "description": "This is a sub-function API for tool pragmavantapi.\nTool description: Practical API for streamlined business and cloud applications.\nAPI description: Takes a webpage URL and returns a snapshot based on the specified accept headers.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "accept": {
+                "type": "string",
+                "description": "The format in which the snapshot is to be returned (e.g., image/png, application/pdf).",
+                "default": "image/pdf"
+            },
+            "source": {
+                "type": "string",
+                "description": "The URL of the webpage to snapshot.",
+                "default": "https://www.msn.com"
+            }
+        },
+        "required": [
+            "accept",
+            "source"
+        ]
+    }
+}

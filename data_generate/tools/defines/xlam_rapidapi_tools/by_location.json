@@ -1,0 +1,29 @@
+{
+    "name": "by_location",
+    "description": "This is a sub-function API for tool sex_offender.\nTool description: Introducing our National Registered Sex Offenders API for the United States, featuring an extensive and up-to-date database.\nAPI description: Searches for homeless shelters based on provided geographical coordinates and radius.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "radius": {
+                "type": "string",
+                "description": "The search radius in miles (maximum 10 miles).",
+                "default": "0.5"
+            },
+            "lat": {
+                "type": "string",
+                "description": "The latitude of the location to search nearby shelters.",
+                "default": "47.613932"
+            },
+            "lng": {
+                "type": "string",
+                "description": "The longitude of the location to search nearby shelters.",
+                "default": "-122.334428"
+            }
+        },
+        "required": [
+            "radius",
+            "lat",
+            "lng"
+        ]
+    }
+}

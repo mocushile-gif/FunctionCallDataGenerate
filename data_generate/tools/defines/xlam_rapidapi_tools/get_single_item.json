@@ -1,0 +1,23 @@
+{
+    "name": "get_single_item",
+    "description": "This is a sub-function API for tool tibia_items.\nTool description: this API will helps you find tibia items princes around the worlds\n\nAll endpoints to get items values, this is all we try to get on day.\n\nDiscord Channel for talk.\nhttps://discord.gg/bwZGtaz56P\nAPI description: Fetches a single item from the Tibia items database for a given world and item name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "world": {
+                "type": "string",
+                "description": "The name of the world to search in.",
+                "default": "Bona"
+            },
+            "nameitem": {
+                "type": "string",
+                "description": "The name of the item to fetch.",
+                "default": "Sliver"
+            }
+        },
+        "required": [
+            "world",
+            "nameitem"
+        ]
+    }
+}

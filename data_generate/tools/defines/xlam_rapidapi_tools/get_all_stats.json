@@ -1,0 +1,36 @@
+{
+    "name": "get_all_stats",
+    "description": "This is a sub-function API for tool free_nba.\nTool description: Unofficial NBA API for Historical NBA Data\nAPI description: Retrieves all basketball statistics based on the given query parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "seasons": {
+                "type": "string",
+                "description": "A comma-separated string of seasons."
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number, used for pagination.",
+                "default": "0"
+            },
+            "per_page": {
+                "type": "string",
+                "description": "The number of results returned per call, used for pagination.",
+                "default": "25"
+            },
+            "player_ids": {
+                "type": "string",
+                "description": "A comma-separated string of player IDs."
+            },
+            "dates": {
+                "type": "string",
+                "description": "A comma-separated string of dates formatted as 'YYYY-MM-DD'."
+            },
+            "game_ids": {
+                "type": "string",
+                "description": "A comma-separated string of game IDs."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_expired_certs",
+    "description": "This is a sub-function API for tool iotvas.\nTool description: IOTVAS API enables you to detect IoT devices in the network and provides detailed firmware risk analysis without requiring the user to upload the firmware file.\nAPI description: Fetches expired SSL/TLS certificates for a given firmware.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "firmware_hash": {
+                "type": "string",
+                "description": "SHA2 hash of the device firmware.",
+                "default": "ac7c090c34338ea6a3b335004755e24578e7e4eee739c5c33736f0822b64907e"
+            }
+        },
+        "required": [
+            "firmware_hash"
+        ]
+    }
+}

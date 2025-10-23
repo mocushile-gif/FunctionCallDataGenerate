@@ -1,0 +1,44 @@
+{
+    "{'is_id': '37i9dQZF1DX4Wsb4d7NKfP'}": {
+        "error": "",
+        "response": {
+            "playlist_id": "37i9dQZF1DX4Wsb4d7NKfP",
+            "name": "Today's Top Hits",
+            "description": "The biggest hits from around the world. Updated daily.",
+            "tracks": [
+                {
+                    "track_name": "Song 1",
+                    "artist": "Artist 1",
+                    "album": "Album 1",
+                    "duration": "3:45"
+                },
+                {
+                    "track_name": "Song 2",
+                    "artist": "Artist 2",
+                    "album": "Album 2",
+                    "duration": "4:12"
+                },
+                {
+                    "track_name": "Song 3",
+                    "artist": "Artist 3",
+                    "album": "Album 3",
+                    "duration": "3:30"
+                }
+            ],
+            "total_tracks": 50,
+            "followers": 10000000
+        }
+    },
+    "{'is_id': '37i9dQZF1DX4OaH7OhQYJY'}": {
+        "error": "",
+        "response": "{'status': False, 'message': 'Config Error!2 Please try again.'}"
+    },
+    "{'is_id': '37i9dQZF1DXbITN6uZIDDA'}": {
+        "error": "",
+        "response": "{'status': False, 'message': 'Config Error!2 Please try again.'}"
+    },
+    "{'is_id': '37i9dQZF1DX3Ogo9pFvBkY'}": {
+        "error": "",
+        "response": "{'status': False, 'message': 'Config Error!2 Please try again.'}"
+    }
+}

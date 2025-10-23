@@ -1,0 +1,45 @@
+{
+    "name": "get_mark_price_kline",
+    "description": "This is a sub-function API for tool bybit.\nTool description: Public Data Bybit. Cryptocurrency prices and charts. Derivatives, Futures, Spot, USDC Contract\nAPI description: Fetches the mark price kline data for a specified trading symbol within a given time range and interval.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "interval": {
+                "type": "string",
+                "description": "The Kline interval. Possible values are '1', '3', '5', '15', '30', '60', '120', '240', '360', '720', 'D', 'M', 'W'.",
+                "default": "D"
+            },
+            "start": {
+                "type": "number",
+                "description": "The start timestamp for the result in milliseconds.",
+                "default": 1652112000000.0
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The trading symbol to query.",
+                "default": "BTCUSDT"
+            },
+            "category": {
+                "type": "string",
+                "description": "The derivatives products category. Currently available categories include 'linear' and 'inverse' (inverse futures).",
+                "default": "linear"
+            },
+            "end": {
+                "type": "number",
+                "description": "The end timestamp for the result in milliseconds.",
+                "default": 1652544000000.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The limit for data size per page, with a maximum of 200. Defaults to 200 pieces of data per page."
+            }
+        },
+        "required": [
+            "interval",
+            "start",
+            "symbol",
+            "category",
+            "end"
+        ]
+    }
+}

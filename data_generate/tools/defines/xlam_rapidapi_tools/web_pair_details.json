@@ -1,0 +1,29 @@
+{
+    "name": "web_pair_details",
+    "description": "This is a sub-function API for tool open_defi.\nTool description: Open DeFi API gives you access to decentralised exchange trading data, liquidity and tokens across multiple blockchains.\nAPI description: Fetches detailed information about a trading pair from a specified blockchain using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chain_slug": {
+                "type": "string",
+                "description": "Blockchain slug (e.g., \"ethereum\").",
+                "default": "ethereum"
+            },
+            "pair_slug": {
+                "type": "string",
+                "description": "\nTrading pair friendly presentation (token0 symbol - token1 symbol) or pair pool contract address.\n\nSymbols can be in any order: base token - quote token or quote token - base token.\n\nIf multiple trading pairs match the same symbol the one with the highest volume is returned\n(assuming other trading pairs are ones with a fake token).\n\nExamples of accepted `pair_slugs`:\n- `ETH-USDC`\n- `eth-usdc`\n- `WETH-USDC`\n- `USDC-WETH`\n- `0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc`\n\nThe response is a composite of pair sum",
+                "default": "ETH-USDC"
+            },
+            "exchange_slug": {
+                "type": "string",
+                "description": "Exchange path slug (e.g., 'sushiswap').",
+                "default": "sushiswap"
+            }
+        },
+        "required": [
+            "chain_slug",
+            "pair_slug",
+            "exchange_slug"
+        ]
+    }
+}

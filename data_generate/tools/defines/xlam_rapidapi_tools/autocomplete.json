@@ -1,0 +1,17 @@
+{
+    "name": "autocomplete",
+    "description": "This is a sub-function API for tool sbb_suisse_railway.\nTool description: Search stations and trips within Suisse railway network SBB. Find train or a public transport stop, search trains, trams, subway, and buses between two stations. Get journey and fare data, departure and arrival times for any stop in Switzerland.\nAPI description: Search for train and public transport stations in Switzerland and across Europe",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The query string to autocomplete.",
+                "default": "bern"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

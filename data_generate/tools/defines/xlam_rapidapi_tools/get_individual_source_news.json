@@ -1,0 +1,17 @@
+{
+    "name": "get_individual_source_news",
+    "description": "This is a sub-function API for tool ai_news_v2.\nTool description: This handy tool allows you to access the latest news about artificial intelligence from around the world, all in one place. Whether you're a business interested in keeping up with the latest trends, or just curious about what's going on, the AI news API is perfect for you.\nAPI description: Fetches news articles related to police, crime, and accidents from a specified German newspaper.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "newspaperid": {
+                "type": "string",
+                "description": "The identifier of the newspaper from which to fetch news articles.",
+                "default": "gizmodo"
+            }
+        },
+        "required": [
+            "newspaperid"
+        ]
+    }
+}

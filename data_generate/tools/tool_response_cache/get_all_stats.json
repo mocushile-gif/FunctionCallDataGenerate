@@ -1,0 +1,53 @@
+{
+    "{'seasons': '2022,2023'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "player_id": "202681",
+                    "name": "Giannis Antetokounmpo",
+                    "season": "2022",
+                    "stats": {
+                        "points": 29.9,
+                        "rebounds": 11.6,
+                        "assists": 4.8,
+                        "fg_percent": 53.0
+                    }
+                },
+                {
+                    "player_id": "202681",
+                    "name": "Giannis Antetokounmpo",
+                    "season": "2023",
+                    "stats": {
+                        "points": 28.3,
+                        "rebounds": 11.1,
+                        "assists": 5.5,
+                        "fg_percent": 54.2
+                    }
+                },
+                {
+                    "player_id": "203076",
+                    "name": "Nikola Joki\u0107",
+                    "season": "2022",
+                    "stats": {
+                        "points": 27.1,
+                        "rebounds": 13.8,
+                        "assists": 7.9,
+                        "fg_percent": 58.0
+                    }
+                }
+            ],
+            "pagination": {
+                "page": 0,
+                "per_page": 25,
+                "total_results": 500
+            },
+            "query": {
+                "seasons": [
+                    "2022",
+                    "2023"
+                ]
+            }
+        }
+    }
+}

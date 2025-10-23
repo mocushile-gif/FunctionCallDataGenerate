@@ -1,0 +1,26 @@
+{
+    "name": "getevents",
+    "description": "This is a sub-function API for tool kalshi_trading_api.\nTool description: An API for trading on Kalshi, a CFTC regulated exchange.\nAPI description: Fetches data about events from the Kalshi trading API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "series_ticker": {
+                "type": "string",
+                "description": "Series ticker to retrieve contracts for."
+            },
+            "status": {
+                "type": "string",
+                "description": "Restricts the events to those with certain statuses, as a comma separated list.\nThe following values are accepted: open, closed, settled."
+            },
+            "cursor": {
+                "type": "string",
+                "description": "The Cursor represents a pointer to the next page of records in the pagination.\nSo this optional parameter, when filled, should be filled with the cursor string returned in a previous request to this end-point.\nFilling this would basically tell the api to get the next page containing the number of records passed on the limit parameter.\nOn the other side not filling it tells the api you want to get the first page for another query.\nThe cursor does not store any filters, so if any filter parameters like series"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Parameter to specify the number of results per page. Defaults to 100."
+            }
+        },
+        "required": []
+    }
+}

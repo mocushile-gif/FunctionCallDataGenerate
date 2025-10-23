@@ -1,0 +1,20 @@
+{
+    "name": "getallquotes",
+    "description": "This is a sub-function API for tool radio_world_75_000_worldwide_fm_radio_stations.\nTool description: This is one of the largest collection of FM Radios API from around the world. Listen Updated 79,000+ Radio stations. All the Stations are Updating Daily & Weekly basis, New stations are Adding As soon as possible. At least 100+ Stations Are adding and 1000+ Stations are fixing to this API Weekly (This is minium ratio).\nAPI description: Fetch all quotes from the Radio World API with optional pagination and API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The number of quotes to fetch per page. Defaults to 10.",
+                "default": 10.0
+            },
+            "page": {
+                "type": "number",
+                "description": "Page number to be displayed. (default: 1)",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

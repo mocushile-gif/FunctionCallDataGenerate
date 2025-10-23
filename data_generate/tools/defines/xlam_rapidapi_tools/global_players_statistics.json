@@ -1,0 +1,29 @@
+{
+    "name": "global_players_statistics",
+    "description": "This is a sub-function API for tool ultimate_tennis.\nTool description:  Welcome to the Ultimate Tennis API!  It provides all the information you need about the tennis world, including all the details related to players and tournaments(live scores, matches, statistics), from both the ATP and tha WTA circuits, both singles and doubles . We also provide live bettings odds for every match in every tennis category. You can easily build your tennis related portal or enhance your Ml/AI projects.   \nAPI description: This endpoint allows you to retrieve global statistics about tennis players. You can customize the statistic (aces, breakpoints converted, 1st serve points won...), the season (all, 2022, 2021...), or the surface(clay, hard, grass).\nYou can find the list of available options under every parameter.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season": {
+                "type": "string",
+                "description": "The season to select. Pass the year (e.g., 2022, 2021) or 'all' for all-time rankings. The first year supported is 1991.",
+                "default": "all"
+            },
+            "category": {
+                "type": "string",
+                "description": "Available options are: **aces**, **1stserve**, **returngameswon**, **breakpointsconverted**, **returnpointswon2ndserve**, **returnpointswon2ndserve**, **returnpointswon1stserve**, **1stservepointswon**, **2ndservepointswon**, **servicegameswon**, **breakpointsaved**\n",
+                "default": "aces"
+            },
+            "surface": {
+                "type": "string",
+                "description": "The surface type for the statistics. Available options are 'clay', 'grass', 'hard', or 'all' for all surfaces.",
+                "default": "all"
+            }
+        },
+        "required": [
+            "season",
+            "category",
+            "surface"
+        ]
+    }
+}

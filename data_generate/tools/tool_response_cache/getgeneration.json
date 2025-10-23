@@ -1,0 +1,20 @@
+{
+    "{'x_api_key': '3f9a50f3-db4c-4b52-9b15-709fcaddb6a7', 'generation_uuid': 'c2d620eb-8d1a-4bda-b609-d2000858f22f'}": {
+        "error": "",
+        "response": {
+            "status": "completed",
+            "generation_uuid": "c2d620eb-8d1a-4bda-b609-d2000858f22f",
+            "images": [
+                "https://dream-diffusion.example.com/images/gen_c2d620eb_1.png",
+                "https://dream-diffusion.example.com/images/gen_c2d620eb_2.png"
+            ],
+            "progress": 100,
+            "model": "custom_stable_diffusion_v2",
+            "parameters": {
+                "prompt": "surreal landscape with floating islands, hyperrealistic",
+                "steps": 50,
+                "resolution": "1024x768"
+            }
+        }
+    }
+}

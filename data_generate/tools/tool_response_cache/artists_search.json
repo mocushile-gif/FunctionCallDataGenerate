@@ -1,0 +1,10 @@
+{
+    "{'q': 'anime'}": {
+        "error": "",
+        "response": "The search query 'anime' was used to look for artists or aliases related to the term in the SongMeanings database. This could include artists inspired by anime culture, soundtracks from anime series, or bands with names referencing anime. You can refine the search further by adjusting parameters like page, page_size, or matchmode to explore more results or narrow down the search criteria."
+    },
+    "{'q': 'pop culture'}": {
+        "error": "",
+        "response": "{'rate': {'rate_span': '1 Minute', 'rate_limit': 'Unlimited', 'rate_remaining': 'Unlimited', 'rate_user': 0}, 'status': {'status_code': 401, 'status_message': 'Authentication failed, probably because of invalid/missing API key.', 'source': '8'}}"
+    }
+}

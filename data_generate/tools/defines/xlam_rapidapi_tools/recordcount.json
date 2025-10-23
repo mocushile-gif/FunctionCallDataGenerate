@@ -1,0 +1,17 @@
+{
+    "name": "recordcount",
+    "description": "This is a sub-function API for tool crossref.\nTool description: Crossref makes research outputs easy to find, cite, link, assess, and reuse.\nAPI description: Retrieve a specified number of records from the CrossRef database using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "rows": {
+                "type": "number",
+                "description": "The number of records to retrieve.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "rows"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "consumer_phone_search",
+    "description": "This is a sub-function API for tool data_axle_consumer_phone_search.\nTool description: Find relevant people in real-time.\nAPI description: Search for people in the Data Axle database based on the provided criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of results to return.",
+                "default": "20"
+            },
+            "packages": {
+                "type": "string",
+                "description": "The data packages or filters to apply to the search.",
+                "default": "standard_v2"
+            },
+            "query": {
+                "type": "string",
+                "description": "The phone number to search for. Defaults to '(206) 555-1212'.",
+                "default": "(206) 555-1212"
+            }
+        },
+        "required": [
+            "limit",
+            "packages"
+        ]
+    }
+}

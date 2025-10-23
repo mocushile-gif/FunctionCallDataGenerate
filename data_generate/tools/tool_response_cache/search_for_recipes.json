@@ -1,0 +1,79 @@
+{
+    "{'name': 'chocolate cake', 'maxnetcarbs': 5.0, 'tags': 'keto;low-carb'}": {
+        "error": "",
+        "response": [
+            {
+                "name": "Keto Chocolate Avocado Cake",
+                "net_carbs_grams": 4.2,
+                "tags": [
+                    "keto",
+                    "low-carb"
+                ],
+                "ingredients": [
+                    "avocado",
+                    "eggs",
+                    "butter",
+                    "unsweetened cocoa"
+                ],
+                "total_calories": 485,
+                "prep_time_minutes": 10,
+                "cook_time_minutes": 18
+            },
+            {
+                "name": "Low-Carb Chocolate Zucchini Cake",
+                "net_carbs_grams": 3.8,
+                "tags": [
+                    "keto",
+                    "low-carb",
+                    "5-ingredient-meals"
+                ],
+                "ingredients": [
+                    "zucchini",
+                    "eggs",
+                    "butter",
+                    "almond flour",
+                    "dark chocolate"
+                ],
+                "total_calories": 470,
+                "prep_time_minutes": 8,
+                "cook_time_minutes": 20
+            }
+        ]
+    },
+    "{'includeingredients': 'chocolate', 'excludeingredients': 'peanuts', 'tags': 'low-carb;desserts;gluten-free', 'maxpreparetime': 15}": {
+        "error": "",
+        "response": "{'message': 'no results containing all your search terms were found'}"
+    },
+    "{'includeingredients': 'chocolate', 'excludeingredients': 'peanuts', 'tags': 'low-carb;desserts', 'maxpreparetime': 20}": {
+        "error": "",
+        "response": "{'message': 'no results containing all your search terms were found'}"
+    },
+    "{'includeingredients': 'chocolate', 'excludeingredients': 'peanuts', 'tags': 'low-carb;desserts;gluten-free', 'maxpreparetime': 25}": {
+        "error": "",
+        "response": "{'message': 'no results containing all your search terms were found'}"
+    },
+    "{'includeingredients': 'chocolate', 'excludeingredients': 'peanuts', 'tags': 'low-carb;desserts', 'maxpreparetime': 30}": {
+        "error": "",
+        "response": "{'message': 'no results containing all your search terms were found'}"
+    },
+    "{'includeingredients': 'chocolate', 'excludeingredients': 'peanuts', 'tags': 'low-carb;desserts;alternative-sweeteners', 'maxpreparetime': 20}": {
+        "error": "",
+        "response": "{'message': 'no results containing all your search terms were found'}"
+    },
+    "{'tags': 'quick-easy;keto', 'maxnetcarbs': 5, 'maxcooktime': 20}": {
+        "error": "",
+        "response": "[{'id': 'df5c56ff-7944-49b1-b573-0766e098955d', 'name': 'Keto Funfetti Mug Cake', 'tags': ['beef-free', 'chicken-free', 'fish-free', 'gluten-free', 'keto', 'kid-friendly', 'lchf', 'meal-plan-ok', 'peanut-free', 'pescatarian', 'pork-free', 'quick-easy', 'relevant-meal--breakfast', 'shellfish-free', 'soy-free', 'vegetarian', 'wheat-free'], 'description': 'This is a delicious mug cake that would be perfect for breakfast.  Light, tender and moist vanilla cake is studded with sweet and tart dried strawberries and blueberries.', 'prepareTime': 5, 'cookTime': 0, 'ingredients': [{'name': 'Butter', 'servingSize': {'units': 'tablespoon', 'desc': '1 tablespoon', 'qty': 1.0, 'grams': 14.0, 'scale': 1.0}}, {'name': 'The Ultimate Icing Sugar Replacement by Swerve', 'servingSize': {'units': 'tablespoon', 'desc': '2-\u00bd tablespoon', 'qty': 2.5, 'grams': 38.0, 'scale': 7.5}}, {'name': 'Baking Powder', 'servingSize': {'units': 'teaspoon', 'desc': '\u00bd teaspoon', 'qty': 0.5, 'grams': 2.0, 'scale': 0.5}}, {'name': 'Almond Flour', 'servingSize': {'units': 'tablespoon', 'desc': '2-\u00bd tablespoon', 'qty': 2.5, 'grams': 18.0, 'scale': 0.156}}, {'name': 'Raw Egg', 'servingSize': {'units': 'large', 'desc': '1 large', 'qty': 1.0, 'grams': 50.0, 'scale': 1.0}}, {'name': 'Vanilla Extract', 'servingSize': {'units': 'teaspoon', 'desc': '\u00bc teaspoon', 'qty': 0.25, 'scale': 0.25}}, {'name': 'Freeze Dried Strawberries by Open Nature', 'servingSize': {'units': 'gram', 'desc': '\u00bc gram', 'qty': 0.25, 'scale': 0.028}}, {'name': \"Freeze Dried Blueberries by Trader Joe's\", 'servingSize': {'units': 'gram', 'desc': '\u00bc gram', 'qty': 0.25, 'scale': 0.007}}], 'steps': ['Melt butter in a tall microwave safe mug.', 'Add in sweetener, baking powder, almond flour and a pinch of salt.  Then mix in the egg and extract.', 'Crush the freeze dried fruit and place on top of the batter in the mug.  Give it a light stir.', 'Microwave on HIGH for 1 minute until the cake has puffed considerably and is cooked through.'], 'servings': 1, 'servingSizes': [{'scale': 1.0, 'qty': 1.0,"
+    },
+    "{'excludeingredients': 'peanuts', 'tags': 'low-carb;high-protein', 'maxpreparetime': 10}": {
+        "error": "",
+        "response": "{'message': 'no results containing all your search terms were found'}"
+    },
+    "{'excludeingredients': 'peanuts', 'tags': 'low-carb', 'maxpreparetime': 20}": {
+        "error": "",
+        "response": "[{'id': 'c342e5b6-bdcd-42cb-a095-e38d591e1427', 'name': 'Keto Cinnamon Mug Cake', 'tags': ['beef-free', 'chicken-free', 'dairy-free', 'desserts', 'eggs', 'fish-free', 'gluten-free', 'keto', 'kid-friendly', 'low-carb', 'one-pot-meals', 'peanut-free', 'pescatarian', 'pork-free', 'quick-easy', 'shellfish-free', 'snacks', 'soy-free', 'tree-nut-free', 'vegetarian', 'wheat-free'], 'description': 'I love how quick and easy this mug cake comes together and the cinnamon flavor really hits the spot and pairs perfectly with the almond scented cake.', 'prepareTime': 3, 'cookTime': 1, 'ingredients': [{'name': 'Butter', 'servingSize': {'units': 'tablespoon', 'desc': '2 tablespoon', 'qty': 2.0, 'grams': 28.0, 'scale': 2.0}}, {'name': 'Almond Flour', 'servingSize': {'units': 'tablespoon', 'desc': '3 tablespoon', 'qty': 3.0, 'grams': 21.0, 'scale': 0.188}}, {'name': 'The Ultimate Icing Sugar Replacement by Swerve', 'servingSize': {'units': 'cup', 'desc': '\u00bc cup', 'qty': 0.25, 'grams': 60.0, 'scale': 12.0}}, {'name': 'Almond Extract', 'servingSize': {'units': 'teaspoon', 'desc': '\u00bc teaspoon', 'qty': 0.25, 'scale': 0.25}}, {'name': 'Baking Powder', 'servingSize': {'units': 'teaspoon', 'desc': '\u00bd teaspoon', 'qty': 0.5, 'grams': 2.0, 'scale': 0.5}}, {'name': 'Egg', 'servingSize': {'units': 'large', 'desc': '1 large', 'qty': 1.0, 'grams': 50.0, 'scale': 1.0}}, {'name': 'Cinnamon', 'servingSize': {'units': 'teaspoon', 'desc': '\u215b teaspoon', 'qty': 0.125, 'scale': 0.125}}], 'steps': ['Microwave butter in a mug until melted about 20 seconds.', 'Add the almond flour, sweetener, almond extract, a pinch of salt, baking powder and egg mixing well with a fork.', 'Microwave on HIGH for 60 seconds, do not overcook!  Sprinkle cake with a little cinnamon and enjoy hot!  Top with whipped cream if desired!'], 'servings': 1, 'servingSizes': [{'scale': 1.0, 'qty': 1.0, 'grams': 100.0, 'units': 'cake', 'originalWeight': 100.0, 'originalWeightUnits': 'g'}], 'nutrients': {'caloriesKCal': 430.945, 'caloriesKJ': 1702.656, 'totalCarbs': 41.742, 'diabetesCar"
+    },
+    "{'tags': 'low-carb;quick-easy', 'maxpreparetime': 10, 'maxcooktime': 20}": {
+        "error": "",
+        "response": "[{'id': '2807982c-986a-4def-9e3a-153a3066af7a', 'name': 'Ultimate Keto Blueberry Sponge Cake In A Mug', 'tags': ['15-minute-meals', 'beef-free', 'breakfast', 'chicken-free', 'dairy-free', 'desserts', 'eggs', 'fish-free', 'gluten-free', 'keto', 'kid-friendly', 'low-carb', 'one-pot-meals', 'peanut-free', 'pescatarian', 'pork-free', 'quick-easy', 'shellfish-free', 'snacks', 'soy-free', 'tree-nut-free', 'vegetarian', 'wheat-free'], 'description': 'Instead of making pancakes or waffles, make this easy Keto breakfast recipe that takes way less time to make. This blueberry sponge cake in a mug is soft and fluffy like a pancake but sweet like a cake. Don\u2019t worry, you won\u2019t be adding many carbs to your breakfast, as all sweetening products are replaced with Keto-friendly ingredients. You can assemble the recipe in under 5 minutes, so this is also a great Keto breakfast recipe for anyone who always ends up in a rush in the mornings. Even if you\u2019re in a rush, you can still enjoy this sweet and delicious sponge cake breakfast! If you want to serve your sponge cake with a little whipped cream, you can whip heavy cream and liquid stevia together in a stand mixer or food processor.\\n\\n### Other ingredients to add\\n\\nLike to have a little more in your sponge cake? Try stirring in crushed nuts for more texture. Keto-friendly nuts include cashews, walnuts, pecan, hazelnuts, and even peanuts. Blueberries also happen to taste very good with lemon. Try mixing a little lemon zest in your dry ingre"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "purgequeue",
+    "description": "This is a sub-function API for tool maytapi_whatsapp.\nTool description: Send and receive messages from WhatsApp via Maytapi. It is a stable and reliable solution. See more:  https://maytapi.com/\nAPI description: Clears the send message queue for a given phone ID using the Maytapi WhatsApp API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone_id": {
+                "type": "string",
+                "description": "The ID of the phone whose message queue is to be purged."
+            }
+        },
+        "required": [
+            "phone_id"
+        ]
+    }
+}

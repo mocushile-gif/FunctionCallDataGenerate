@@ -1,0 +1,53 @@
+{
+    "name": "options_prices",
+    "description": "This is a sub-function API for tool quotient.\nTool description: Market data API for intraday (1-minutes) data, end-of-day data, options data, crypto, forex, live prices, fundamental data, trading signal, and much more, on various assets (Stocks, ETFs, Funds, Indices, Forex, Cryptocurrencies, etc), on worldwide stock exchanges (us, canada, australia, uk and europe).\nAPI description: Return current options data given the input parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of option contract. (`Call` or `Put`).",
+                "default": "Call"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The symbol of the asset to look for, e.g., 'AAPL' (Apple Inc), 'MSFT' (Microsoft).",
+                "default": "AAPL"
+            },
+            "min_strike": {
+                "type": "number",
+                "description": "Alternatively, a lower bound for strike price, e.g., `50`. If given, strike range **[`min_strike`, `max_strike`]** takes priority over `strike` parameter.",
+                "default": 50.0
+            },
+            "min_expiry": {
+                "type": "string",
+                "description": "Alternatively, a lower bound for the expiration date (supported format is : **YYYY-mm-dd**), e.g., `2021-05-21`. If given, expiry range **[`min_expiry`, `max_expiry`]** takes priority over `expiration` parameter.",
+                "default": "2021-05-21"
+            },
+            "max_expiry": {
+                "type": "string",
+                "description": "Alternatively, an upper bound for the expiration date (supported format is : **YYYY-mm-dd**), e.g., `2021-12-14`. If given, expiry range **[`min_expiry`, `max_expiry`]** takes priority over `expiration` parameter.",
+                "default": "2023-12-14"
+            },
+            "max_strike": {
+                "type": "number",
+                "description": "Alternatively, an upper bound for strike price, e.g., `90`. If given, strike range **[`min_strike`, `max_strike`]** takes priority over `strike` parameter.",
+                "default": 90.0
+            },
+            "strike": {
+                "type": "number",
+                "description": "A lower bound for the strike price. Default is 50. If provided, the strike range [min_strike, max_strike] takes priority over the strike parameter.",
+                "default": 122.0
+            },
+            "expiration": {
+                "type": "string",
+                "description": "The expiration date of the option (supported format is : **YYYY-mm-dd**), e.g., `2021-12-14`.",
+                "default": "2023-12-14"
+            }
+        },
+        "required": [
+            "type",
+            "symbol"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "get_first_n_rows",
+    "description": "Retrieve the first N rows from a specified table in the SQLite database.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "database_path": {
+                "type": "string",
+                "description": "The path of the SQLite database."
+            },
+            "table_name": {
+                "type": "string",
+                "description": "The name of the table to retrieve data from."
+            },
+            "n": {
+                "type": "integer",
+                "description": "The number of rows to retrieve."
+            }
+        },
+        "required": ["database_path", "table_name", "n"]
+    }
+}

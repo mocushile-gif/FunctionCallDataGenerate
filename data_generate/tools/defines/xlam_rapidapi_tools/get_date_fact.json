@@ -1,0 +1,33 @@
+{
+    "name": "get_date_fact",
+    "description": "This is a sub-function API for tool numbers.\nTool description: An API for interesting facts about numbers. Provides trivia, math, date, and year facts about numbers. \r\n\r\nFor example, \"5 is the number of platonic solids\", \"42 is the number of little squares forming the left side trail of Microsoft's Windows 98 logo\", \"February 27th is the day in 1964 that the government of Italy asks for help to keep the Leaning Tower of Pisa from toppling over\"\nAPI description: Fetches a fact about a specific day of the year from the Numbers API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "month": {
+                "type": "string",
+                "description": "The 1-indexed month (e.g., '6' for June).",
+                "default": "6"
+            },
+            "day": {
+                "type": "string",
+                "description": "The day of the month.",
+                "default": "21"
+            },
+            "fragment": {
+                "type": "string",
+                "description": "Add \"?fragment=true\" to return the fact as a sentence fragment that can be easily included as part of a larger sentence. This means that the first word is lowercase and ending punctuation is omitted. For trivia and math, a noun phrase is returned that can be used in a sentence like “We now have more users than [fact as fragment]!”.",
+                "default": "True"
+            },
+            "json": {
+                "type": "string",
+                "description": "Specify \"true\" to return the result as JSON instead of plaintext. Defaults to 'True'.",
+                "default": "True"
+            }
+        },
+        "required": [
+            "month",
+            "day"
+        ]
+    }
+}

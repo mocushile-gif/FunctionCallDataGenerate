@@ -1,0 +1,27 @@
+{
+    "{'post_id': '12345'}": {
+        "error": "",
+        "response": {
+            "post_id": "12345",
+            "post_details": {
+                "title": "Funny Cat Compilation",
+                "description": "A hilarious collection of cat videos guaranteed to make you laugh.",
+                "author": "CatLover123",
+                "category": "Animals",
+                "tags": [
+                    "cats",
+                    "funny",
+                    "compilation"
+                ],
+                "upload_date": "2025-06-15",
+                "views": 120000,
+                "likes": 8500,
+                "comments_count": 320
+            },
+            "media": {
+                "video_download_link": "https://9gag.com/video/12345/download",
+                "thumbnail_url": "https://9gag.com/video/12345/thumbnail.jpg"
+            }
+        }
+    }
+}

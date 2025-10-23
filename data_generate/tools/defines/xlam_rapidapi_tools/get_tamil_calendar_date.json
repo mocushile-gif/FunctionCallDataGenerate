@@ -1,0 +1,17 @@
+{
+    "name": "get_tamil_calendar_date",
+    "description": "This is a sub-function API for tool yawin_indian_astrology.\nTool description: Indian astrology API for planet positions, ascension calculations, and prediction findings, Basic tools that help in astrological calculations\nAPI description: Fetches the Tamil calendar date corresponding to the given English calendar date using the Yawin Indian Astrology API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The English calendar date in the format 'YYYY-MM-DD'.",
+                "default": "2023-04-14"
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

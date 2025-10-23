@@ -1,0 +1,28 @@
+{
+    "{'word': 'API rate limiting'}": {
+        "error": "",
+        "response": {
+            "word": "API rate limiting",
+            "phonetics": "/\u02c8api re\u026at \u02c8l\u026am\u026at\u026a\u014b/",
+            "definitions": [
+                "A mechanism to restrict the number of requests a client can make to an API within a specified timeframe to prevent abuse, ensure fair usage, and maintain system stability.",
+                "A security and resource management practice enforcing usage quotas for API access."
+            ],
+            "examples": [
+                "The API enforces rate limiting by capping requests at 1000 per hour per user.",
+                "Developers must implement exponential backoff strategies to handle API rate limiting."
+            ],
+            "synonyms": [
+                "API throttling",
+                "request limiting",
+                "usage capping"
+            ],
+            "related_terms": [
+                "API key",
+                "throttling",
+                "quota system",
+                "error 429"
+            ]
+        }
+    }
+}

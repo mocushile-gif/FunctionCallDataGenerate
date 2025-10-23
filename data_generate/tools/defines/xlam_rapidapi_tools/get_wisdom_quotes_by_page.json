@@ -1,0 +1,17 @@
+{
+    "name": "get_wisdom_quotes_by_page",
+    "description": "This is a sub-function API for tool wisdom_quotes.\nTool description: Last update: February 11, 2023.\nAn API providing a lot of different wisdom quotes.  You will love it!\nAPI description: Returns an JSON object that includes:\n\n- the page number requested  (current_page), \n- the amount of all pages (max_pages),\n- the amount of the quotes (quotes_count) (15 per page),\n- the wisdom quotes array (quotes).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number to retrieve quotes from.",
+                "default": "12"
+            }
+        },
+        "required": [
+            "page"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "get_token_price",
+    "description": "This is a sub-function API for tool pancakeswap_api_freemium.\nTool description: All Pancakeswap API ( Feel Free To Ask For More Endpoints )\nAPI description: Retrieves the price of a specified token using the PancakeSwap API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "token": {
+                "type": "string",
+                "description": "The contract address of the token. Defaults to the address of the BUSD token.",
+                "default": "0xe9e7cea3dedca5984780bafc599bd69add087d56"
+            }
+        },
+        "required": []
+    }
+}

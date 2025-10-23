@@ -1,0 +1,16 @@
+{
+    "name": "dinotest",
+    "description": "This is a sub-function API for tool response_webhook.\nTool description: Accept response pushed from VP\nAPI description: Tests the specified endpoint using the provided RapidAPI key and returns the response.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "num": {
+                "type": "string",
+                "description": "The endpoint number to be tested."
+            }
+        },
+        "required": [
+            "num"
+        ]
+    }
+}

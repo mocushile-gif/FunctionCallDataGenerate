@@ -1,0 +1,17 @@
+{
+    "name": "postalcode",
+    "description": "This is a sub-function API for tool phone_and_email_validator_v2.\nTool description: Extremely Useful tool for Phone, Email, IP Address and Postal Code Validation\nAPI description: Fetches location information for a given US postal code using the Toolbench API service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "postal_code": {
+                "type": "string",
+                "description": "The postal code or zip code for which to fetch location information.",
+                "default": "33166"
+            }
+        },
+        "required": [
+            "postal_code"
+        ]
+    }
+}

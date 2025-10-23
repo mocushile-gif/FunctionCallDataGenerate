@@ -1,0 +1,30 @@
+{
+    "{'is_id': '123456'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": {}
+            }
+        }
+    },
+    "{'is_id': '12345678'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": {}
+            }
+        }
+    },
+    "{'is_id': '1373366530781206529'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": {}
+            }
+        }
+    },
+    "{'is_id': '44196397'}": {
+        "error": "",
+        "response": "{'data': {'user': {'result': {'__typename': 'User', 'id': 'VXNlcjo0NDE5NjM5Nw==', 'rest_id': '44196397', 'affiliates_highlighted_label': {'label': {'url': {'urlType': 'DeepLink', 'url': 'https://twitter.com/Twitter'}, 'badge': {'url': 'https://pbs.twimg.com/profile_images/1488548719062654976/u6qfBBkF_bigger.jpg'}, 'description': 'Twitter', 'userLabelType': 'BusinessLabel'}}, 'has_nft_avatar': False, 'legacy': {'blocked_by': False, 'blocking': False, 'can_dm': False, 'can_media_tag': False, 'created_at': 'Tue Jun 02 20:12:29 +0000 2009', 'default_profile': False, 'default_profile_image': False, 'description': '', 'entities': {'description': {'urls': []}}, 'fast_followers_count': 0, 'favourites_count': 26943, 'follow_request_sent': False, 'followed_by': False, 'followers_count': 146474624, 'following': False, 'friends_count': 342, 'has_custom_timelines': True, 'is_translator': False, 'listed_count': 125720, 'location': '', 'media_count': 1605, 'muting': False, 'name': 'Elon Musk', 'normal_followers_count': 146474624, 'notifications': False, 'pinned_tweet_ids_str': [], 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/44196397/1576183471', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1590968738358079488/IY9Gx6Ok_normal.jpg', 'profile_interstitial_type': '', 'protected': False, 'screen_name': 'elonmusk', 'statuses_count': 27582, 'translator_type': 'none', 'verified': False, 'want_retweets': False, 'withheld_in_countries': []}, 'smart_blocked_by': False, 'smart_blocking': False, 'super_follow_eligible': True, 'super_followed_by': False, 'super_following': False}}}}"
+    }
+}

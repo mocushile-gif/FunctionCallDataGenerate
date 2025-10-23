@@ -1,0 +1,15 @@
+{
+    "name": "jokes",
+    "description": "This is a sub-function API for tool joke_generator_3000.\nTool description: The best jokes, from the largest dataset, all in JSON\nAPI description: Query for jokes by category or at random\n\nAvailable categories for the category query string parameter are:\n\nAnimal\nOther / Misc\nBar\nOne Liners\nPuns\nLawyer\nSports\nMedical\nNews / Politics\nMen / Women\nGross\nBlond\nYo Momma\nRedneck\nReligious\nAt Work\nCollege\nLightbulb\nChildren\nInsults\nKnock-Knock\nTech\nYo Mama\nBlonde",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "Category to filter jokes by. Defaults to None.",
+                "default": "Insults"
+            }
+        },
+        "required": []
+    }
+}

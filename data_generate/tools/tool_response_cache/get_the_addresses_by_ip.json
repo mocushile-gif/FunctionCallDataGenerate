@@ -1,0 +1,21 @@
+{
+    "{'ip': '192.168.1.1'}": {
+        "error": "",
+        "response": {
+            "status": "NOT_FOUND",
+            "message": "Not found"
+        }
+    },
+    "{'ip': '104.21.36.172'}": {
+        "error": "",
+        "response": "{'ip': '104.21.36.172', 'postalCode': '95122', 'street': 'June Ave', 'neighborhood': 'Tropicana', 'city': {'name': 'San Jose'}, 'state': {'id': 'a79087a6-477f-44f4-a083-7dc299d4416c', 'name': 'California', 'abbreviation': 'CA'}, 'country': {'id': 'de43ba57-fe0f-4839-91e8-da509434b8f9', 'name': 'United States of America', 'alpha2': 'US', 'alpha3': 'USA'}, 'coordinates': {'latitude': 37.33046, 'longitude': -121.83813}}"
+    },
+    "{'ip': '8.8.8.8'}": {
+        "error": "",
+        "response": "{'ip': '8.8.8.8', 'postalCode': '20147-5305', 'street': 'Butterfield Ct', 'city': {'name': 'Ashburn'}, 'state': {'id': '8f5ff5f1-c5e6-4d6b-8702-08a2a4bb91a4', 'name': 'Virginia', 'abbreviation': 'VA'}, 'country': {'id': 'de43ba57-fe0f-4839-91e8-da509434b8f9', 'name': 'United States of America', 'alpha2': 'US', 'alpha3': 'USA'}, 'coordinates': {'latitude': 39.02994, 'longitude': -77.49977}}"
+    },
+    "{'ip': '142.251.42.193'}": {
+        "error": "",
+        "response": "{'ip': '142.251.42.193', 'postalCode': '162-0843', 'city': {'name': '\u65b0\u5bbf\u533a'}, 'state': {'id': '1684c335-6b38-4619-b524-664b83249693', 'name': '\u6771\u4eac\u90fd'}, 'country': {'id': '57620e22-278e-41e6-ba2a-258b38234d33', 'name': 'Japan', 'alpha2': 'JP', 'alpha3': 'JPN'}, 'coordinates': {'latitude': 35.69626, 'longitude': 139.73848}}"
+    }
+}

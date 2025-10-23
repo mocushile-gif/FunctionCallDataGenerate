@@ -1,0 +1,32 @@
+{
+    "name": "extract_sitemap_xml_as_json",
+    "description": "This is a sub-function API for tool seo_automations.\nTool description: Optimize your website effortlessly with SEOOptimizeAPI - the powerful tool that provides valuable insights and automates repetitive tasks. With SEOOptimizeAPI, you can take the guesswork out of website optimization. The API utilizes advanced algorithms and technologies to provide in-depth insights into your website's performance and help you identify areas for improvement. And with its easy-to-use API endpoints, you can automate repetitive tasks and save time and effort.\nAPI description: Are you looking for an API that can quickly and easily download and parse sitemap.xml files into JSON format? Look no further! Our API allows you to make a simple GET request, passing in the URL of a sitemap.xml file as a parameter. The API will handle the rest, downloading the file, parsing it into a JSON object, and returning the result in the response. And if you need a little extra information to help organize and navigate the URLs in the sitemap, we've got you covered there too. By adding a query param",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the sitemap.xml file to be fetched and parsed.",
+                "default": "https://www.sitemaps.org/sitemap.xml"
+            },
+            "meta": {
+                "type": "boolean",
+                "description": "If True, includes meta information for each URL in the sitemap. Defaults to None.",
+                "default": true
+            },
+            "breadcrumbs": {
+                "type": "boolean",
+                "description": "If True, includes breadcrumb information for each URL in the sitemap. Defaults to None.",
+                "default": true
+            },
+            "categories": {
+                "type": "boolean",
+                "description": "If True, includes category information for each URL in the sitemap. Defaults to None.",
+                "default": true
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

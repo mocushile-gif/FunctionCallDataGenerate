@@ -1,0 +1,17 @@
+{
+    "name": "getpeople",
+    "description": "This is a sub-function API for tool dei.\nTool description: The Diversity, Equity, and Inclusion (DEI) API offers the learning resources, conferences, stories and other information.\nAPI description: Fetches a list of Azure influencers from the specified page using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number of the Azure influencers to fetch.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "page"
+        ]
+    }
+}

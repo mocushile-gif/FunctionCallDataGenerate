@@ -1,0 +1,29 @@
+{
+    "name": "temperature_from_to_number",
+    "description": "This is a sub-function API for tool unitconversion.\nTool description: App to easily convert units\nAPI description: Converts a temperature value from one unit to another using the RapidAPI Unit Conversion API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "to": {
+                "type": "string",
+                "description": "The target temperature unit.",
+                "default": "celsius"
+            },
+            "number": {
+                "type": "number",
+                "description": "The temperature value to be converted.",
+                "default": 90.0
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The original temperature unit.",
+                "default": "fahrenheit"
+            }
+        },
+        "required": [
+            "to",
+            "number",
+            "is_from"
+        ]
+    }
+}

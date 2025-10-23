@@ -1,0 +1,28 @@
+{
+    "name": "get_4_date_endpoint",
+    "description": "This is a sub-function API for tool currenciesexchangerateapi.\nTool description: CurrenciesRatesAPI is a RESTful API that provides currency conversion and exchange rate information.This API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses.\nAPI description: Request Parameters:\n'date': \n'symbols': \n'base': \nResponse: This endpoint returns the exchange rates for the specified currencies on the specified date in JSON format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "base": {
+                "type": "string",
+                "description": "The base currency for which to get the exchange rates.",
+                "default": "eur"
+            },
+            "symbols": {
+                "type": "string",
+                "description": "A comma-separated string of target currencies to get exchange rates for.",
+                "default": "usd"
+            },
+            "date": {
+                "type": "string",
+                "description": "The date for which to fetch the exchange rates in 'YYYY-MM-DD' format. Defaults to '2023-02-01'.",
+                "default": "2023-02-01"
+            }
+        },
+        "required": [
+            "base",
+            "symbols"
+        ]
+    }
+}

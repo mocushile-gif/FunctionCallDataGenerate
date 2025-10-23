@@ -1,0 +1,16 @@
+{
+    "name": "get_person_by_id",
+    "description": "This is a sub-function API for tool auther_check.\nTool description: Plug and play the facial authentication into: point of sale, mobile app, self-checkouts, kiosk, ATM.\nAPI description: To check if the person_id already exists in the system, just specify the path with person_id. If the person_id exists in response you will get the same person_id and information when a person was created and updated.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "person_id": {
+                "type": "string",
+                "description": "The unique identifier of the person whose information is to be retrieved."
+            }
+        },
+        "required": [
+            "person_id"
+        ]
+    }
+}

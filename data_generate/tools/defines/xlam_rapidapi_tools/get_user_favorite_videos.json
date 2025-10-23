@@ -1,0 +1,30 @@
+{
+    "name": "get_user_favorite_videos",
+    "description": "This is a sub-function API for tool tiktok_download_video.\nTool description: Tiktok Best Spider. Fast. HD Quality. Without Watermark Download. Video Full Detail. Signature X-Argus,X-Ladon,X-Gorgon \nmail: nb429429@gmail.com\n\nAPI description: Fetches a list of favorite videos for a given user from the TikTok video feature summary API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "unique_id": {
+                "type": "string",
+                "description": "The unique identifier for the user, can be either a username or handle (e.g., 'voyagel' or '@voyagel'). Defaults to 'voyagel'.",
+                "default": "@siicantikkk15"
+            },
+            "count": {
+                "type": "string",
+                "description": "The number of favorite videos to fetch. Defaults to '10'.",
+                "default": "10"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "Position in the list to start fetching the videos from. Defaults to '0'.",
+                "default": "0"
+            },
+            "user_id": {
+                "type": "string",
+                "description": "The user ID for which to fetch favorite videos. Defaults to '6741307595983946754'.",
+                "default": "6741307595983946754"
+            }
+        },
+        "required": []
+    }
+}

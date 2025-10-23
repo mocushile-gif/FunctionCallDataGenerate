@@ -1,0 +1,17 @@
+{
+    "name": "get_from_yts",
+    "description": "This is a sub-function API for tool torrent_search.\nTool description: This script is a JavaScript code that uses the @dil5han/torrent-api module to create a server that can search multiple torrent websites and return the results to the client in JSON format.\nAPI description: Fetches torrent data from YTS for a given search topic using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "searchtopic": {
+                "type": "string",
+                "description": "The topic or keyword to search for on YTS.",
+                "default": "cars"
+            }
+        },
+        "required": [
+            "searchtopic"
+        ]
+    }
+}

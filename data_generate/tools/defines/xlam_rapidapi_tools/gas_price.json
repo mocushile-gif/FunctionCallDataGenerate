@@ -1,0 +1,14 @@
+{
+    "name": "gas_price",
+    "description": "This is a sub-function API for tool webit_blockchain.\nTool description: Get blockchain data from Ethereum, Polygon, Binance, Solana mainnets, including Ropsten, Rinkey, Goerly, Kovan, Mumbai testnets.\nAPI description: Get current gas price with a single API call on multiple chains.\n\nSupported blockchains:\n- `ethereum`;\n- `binance`;\n- `polygon`;\n- `ethereum-ropsten`;\n- `ethereum-rinkeby`;\n- `ethereum-goerli`;\n- `ethereum-kovan`;\n- `binance-testnet`;\n- `polygon-mumbai`.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chain": {
+                "type": "string",
+                "description": "Blockchain to get current gas price for.\n\nSupported values:\n- `ethereum`;\n- `binance`;\n- `polygon`;\n- `ethereum-ropsten`;\n- `ethereum-rinkeby`;\n- `ethereum-goerli`;\n- `ethereum-kovan`;\n- `binance-testnet`;\n- `polygon-mumbai`."
+            }
+        },
+        "required": []
+    }
+}

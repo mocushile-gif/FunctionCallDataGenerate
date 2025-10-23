@@ -1,0 +1,17 @@
+{
+    "name": "stockprice",
+    "description": "This is a sub-function API for tool indian_stock_exchange_api.\nTool description: API for Indian Stock Exchange BSE/NSE.\nContact me at: vuesdata@gmail.com or visit https://www.vuesdata.com for building custom spiders or custom requests.\nAPI description: Enter the SYMBOL such as TATAMOTORS, M&M etc as a parameter at the endpoint and it will give your the Live Price updates from exchange.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to fetch the live price (e.g., TATAMOTORS, M&M).",
+                "default": "TATAMOTORS"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "getmentions",
+    "description": "This is a sub-function API for tool track_the_mentions_and_conversations_about_your_business.\nTool description: Find your brand, competitor, or any other query mentions across the web daily, including websites, Twitter, Reddit, forums, blogs, and other\nAPI description: Fetches Twitter mentions for a given query using the specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query to find mentions for (e.g., brand name, competitor)."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of results to retrieve. Defaults to 1.",
+                "default": 1.0
+            },
+            "period": {
+                "type": "number",
+                "description": "The time period for mentions, in days. Defaults to None.",
+                "default": 14.0
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

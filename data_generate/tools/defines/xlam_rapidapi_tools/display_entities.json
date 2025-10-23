@@ -1,0 +1,25 @@
+{
+    "name": "display_entities",
+    "description": "This is a sub-function API for tool textapi.\nTool description: A text extraction, manipulation, and analysis api. Putting the power of natural language processing (nlp) in every developers hands.\nAPI description: Displays the extracted named entities from the given text using a specified model and RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to extract entities from.",
+                "default": "An October post from Dylan that may be saving you a Google search."
+            },
+            "model": {
+                "type": "string",
+                "description": "The name of the model to use for entity extraction. If None, the default model will be used."
+            },
+            "spans": {
+                "type": "string",
+                "description": "Specific spans to use for entity extraction. If None, entity extraction will be performed on the entire text."
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

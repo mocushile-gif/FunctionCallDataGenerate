@@ -1,0 +1,39 @@
+{
+    "name": "is_anagram_phrase",
+    "description": "Checks if two phrases are anagrams of each other with additional customization options.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "phrase1": {
+          "description": "The first phrase to be compared.",
+          "type": "string"
+        },
+        "phrase2": {
+          "description": "The second phrase to be compared.",
+          "type": "string"
+        },
+        "ignore_case": {
+          "description": "If True, ignores case when comparing the phrases. Defaults to True.",
+          "type": "boolean",
+          "default": true
+        },
+        "ignore_punctuation": {
+          "description": "If True, ignores punctuation when comparing the phrases. Defaults to True.",
+          "type": "boolean",
+          "default": true
+        },
+        "ignore_whitespaces": {
+          "description": "If True, ignores whitespaces when comparing the phrases. Defaults to True.",
+          "type": "boolean",
+          "default": true
+        },
+        "return_cleaned": {
+          "description": "If True, returns the cleaned versions of the phrases along with the result. Defaults to False.",
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": ["phrase1", "phrase2"]
+    }
+  }
+  

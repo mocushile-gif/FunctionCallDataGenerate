@@ -1,0 +1,17 @@
+{
+    "name": "get_highlight_by_id",
+    "description": "This is a sub-function API for tool instagram_api_media_downloader.\nTool description: Cheapest Instagram API: HD profile pictures, download stories, reels, videos, photos and more!\nAPI description: Provides all images and videos of the highlight. This has the same structure as the stories endpoint",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "highlightid": {
+                "type": "string",
+                "description": "This is provided by the Get All Highlights endpoint",
+                "default": "highlight:18042967741398634"
+            }
+        },
+        "required": [
+            "highlightid"
+        ]
+    }
+}

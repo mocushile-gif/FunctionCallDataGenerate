@@ -1,0 +1,17 @@
+{
+    "{'page': 1, 'genres': 'fantasy,mystery'}": {
+        "error": "",
+        "response": {
+            "code": 200,
+            "data": []
+        }
+    },
+    "{'page': '2', 'genres': 'Sci-Fi,Cyberpunk'}": {
+        "error": "",
+        "response": "{'code': 200, 'data': []}"
+    },
+    "{'page': '2', 'genres': 'Sci-Fi,Mystery'}": {
+        "error": "",
+        "response": "{'code': 200, 'data': [{'id': '65a24335f64a55128b45c585', 'title': 'Post-Pandemic', 'sub_title': '\ud3ec\uc2a4\ud2b8 \ud32c\ub370\ubbf9', 'status': 'ongoing', 'thumb': 'https://usc1.contabostorage.com/scraper/mangas/65a24335f64a55128b45c585/thumb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=c10e9464b360c31ce8abea9b266076f6%2F20250601%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250601T180439Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=cda9f4a614ced84b76f1848ff28ea218a1c85bc8ca4fd3f79743cbc2171d1b00', 'summary': \"One day, a suspected Ars24 variant patient who had been brought to Korea University Hospital escaped. Feeling responsible for missing the patient he was in charge of, Jeong Yoo-hyeon, a professor of infectious medicine, decides to start searching for the patient and heads to Surak Village in Hwaseong City, where the patient was last seen. And they bump into something at the entrance of the village, A height of up to 2m, a body much larger than that of a normal adult man, a carcass of an animal in his hand, blood-stained and torn clothes, and a man with an old man's face, but it is hard to see him as an old man.\\n\", 'authors': ['Jwangjwang', 'Saniga Han'], 'genres': ['Action', 'Mystery', 'Seinen', 'Horror'], 'nsfw': False, 'type': 'japan', 'total_chapter': 0, 'create_at': 1705132853233, 'update_at': 1705132913350}, {'id': '65b738c7bf13b1bd72cf0176', 'title': 'Ranger Reject', 'sub_title': '', 'status': 'ongoing', 'thumb': 'https://usc1.contabostorage.com/scraper/mangas/65b"
+    }
+}

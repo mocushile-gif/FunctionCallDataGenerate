@@ -1,0 +1,15 @@
+{
+    "name": "og",
+    "description": "This is a sub-function API for tool explorarc_s_opengraph_crawling_api.\nTool description: The Best API to Fetch all the OpenGraph and Meta tags from an given website URL\nAPI description: Fetches all the OpenGraph and Meta tags from a given website URL using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The website URL to fetch the OpenGraph and Meta tags from. Defaults to 'https://protomol.explorarc.com/'.",
+                "default": "https://protomol.explorarc.com/"
+            }
+        },
+        "required": []
+    }
+}

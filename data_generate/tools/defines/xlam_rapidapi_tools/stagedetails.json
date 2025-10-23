@@ -1,0 +1,17 @@
+{
+    "name": "stagedetails",
+    "description": "This is a sub-function API for tool motorsportapi.\nTool description: MotorsportApi has live coverage for most popular motorsports including MotoGP, Nascar, World Rally Championship, Moto2, Moto3, Superbike and Deutsche Tourenwagen Meisterschaft (DTM). \nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Fetch the details of a specific Motorsport stage using the provided stage ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "stageid": {
+                "type": "number",
+                "description": "The ID of the Motorsport stage for which to retrieve the details.",
+                "default": 203648
+            }
+        },
+        "required": [
+            "stageid"
+        ]
+    }
+}

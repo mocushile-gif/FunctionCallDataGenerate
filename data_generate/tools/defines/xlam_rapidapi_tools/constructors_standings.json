@@ -1,0 +1,15 @@
+{
+    "name": "constructors_standings",
+    "description": "This is a sub-function API for tool fia_formula_1_championship_statistics.\nTool description: FIA Formula 1 Championship Statistics is a REST API. Gain access to statistical data about FIA F1 championships. \nAPI description: Use this endpoint to retrieve constructor standings data about a specific F1 championship by specifying a year. If you ommit the ***year *** query parameter, a default value will be set to current year.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "number",
+                "description": "The year of the F1 championship to retrieve standings for. Defaults to 2005.",
+                "default": 2005.0
+            }
+        },
+        "required": []
+    }
+}

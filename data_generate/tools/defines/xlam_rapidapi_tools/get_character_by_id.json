@@ -1,0 +1,16 @@
+{
+    "name": "get_character_by_id",
+    "description": "This is a sub-function API for tool riordanverse_api.\nTool description: An API for RiordanVerse\nAPI description: Get individual character by ID\nOptions:\n\n- Limit → Limit amount of responses received\n- Step → Skip amount of characters",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the Game of Thrones character to fetch."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

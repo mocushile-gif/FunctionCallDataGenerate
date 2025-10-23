@@ -1,0 +1,40 @@
+{
+    "name": "mini_chart",
+    "description": "This is a sub-function API for tool chart_img.\nTool description: CHART-IMG.COM API designed to take screenshots of the most popular crypto charts and tools.\nAPI description: Generates a TradingView mini chart image based on the specified parameters and returns the image data or error message.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "width": {
+                "type": "number",
+                "description": "`The field must be within the valid range.`\n\nMinimum: `320`\n\n| Plan  | Max width |\n| ----- | --------- |\n| BASIC | 800 |",
+                "default": 800.0
+            },
+            "format": {
+                "type": "string",
+                "description": "Format of the chart image. Supported formats are 'png' and 'jpeg'. Default is 'png'.",
+                "default": "png"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "TradingView symbol for the chart. Examples include 'BINANCE:BTCUSDT' and 'BINANCE:BTCUSDTPERP'. Default is 'BINANCE:BTCUSDT'.",
+                "default": "BINANCE:BTCUSDT"
+            },
+            "interval": {
+                "type": "string",
+                "description": "Time interval for the chart. Supported intervals are '1d', '1M', '3M', '1Y', '5Y', and 'all'. Default is '1M'.",
+                "default": "1M"
+            },
+            "theme": {
+                "type": "string",
+                "description": "Color theme of the chart. Supported themes are 'light' and 'dark'. Default is 'dark'.",
+                "default": "dark"
+            },
+            "height": {
+                "type": "number",
+                "description": "`The field must be within the valid range.`\n\nMinimum: `220`\n\n| Plan  | Max height |\n| ----- | --------- |\n| BASIC | 600 |",
+                "default": 400.0
+            }
+        },
+        "required": []
+    }
+}

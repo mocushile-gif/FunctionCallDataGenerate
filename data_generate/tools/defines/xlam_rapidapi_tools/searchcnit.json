@@ -1,0 +1,20 @@
+{
+    "name": "searchcnit",
+    "description": "This is a sub-function API for tool french_cnit_type_mime_api.\nTool description: Lookup French CNIT / Mime Type values \nAPI description: Fetches information related to a French vehicle identification number (CNIT) using the specified license plate and function.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "plate": {
+                "type": "string",
+                "description": "The vehicle license plate number to search for. Defaults to '021A13'.",
+                "default": "021A13"
+            },
+            "function": {
+                "type": "string",
+                "description": "The specific API function to call. Defaults to 'getktypefornumplatefrancemineplate'.",
+                "default": "getktypefornumplatefrancemineplate"
+            }
+        },
+        "required": []
+    }
+}

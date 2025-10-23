@@ -1,0 +1,30 @@
+{
+    "name": "new_ios_apps",
+    "description": "This is a sub-function API for tool app_store.\nTool description: Unofficial Apple App Store Api\nAPI description: Fetch a list of new iOS apps from the App Store using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The country code for the App Store. Defaults to 'us'.",
+                "default": "us"
+            },
+            "category": {
+                "type": "string",
+                "description": "The category code for the type of apps. Defaults to '6016'.",
+                "default": "6016"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the App Store content. Defaults to 'en'.",
+                "default": "en"
+            },
+            "num": {
+                "type": "number",
+                "description": "Number of results to return. \nDefault: 50\nMax: 200",
+                "default": 100.0
+            }
+        },
+        "required": []
+    }
+}

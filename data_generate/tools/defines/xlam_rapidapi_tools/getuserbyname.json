@@ -1,0 +1,16 @@
+{
+    "name": "getuserbyname",
+    "description": "This is a sub-function API for tool teste.\nTool description: teste\nAPI description: Retrieves user information from the RapidAPI service based on the provided username.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The name that needs to be fetched. Use user1 for testing. "
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "flag",
+    "description": "This is a sub-function API for tool phone.\nTool description: Full set of cool Telephone validation functions with a coverage of more than a hundred different countries.  Phone Metropolis API can analyse, get location information and parse the content of a given phone number. [This API is under maintenance and is not working properly] \nAPI description: Retrieves the flag image of a specified country using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The country ISO code or the full name of the country in English.",
+                "default": "Japan"
+            }
+        },
+        "required": [
+            "country"
+        ]
+    }
+}

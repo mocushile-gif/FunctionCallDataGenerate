@@ -1,0 +1,17 @@
+{
+    "name": "riddle_by_id",
+    "description": "This is a sub-function API for tool riddlie.\nTool description: API that provides access to a collection of thousands of riddles (and growing). Fetch a random riddle or a riddle of the day. You can build a perfect app to entertain kids and families for dinner times. You can also pull riddles by their ID, difficulty level and keyword of your interest. API also collects feedback such as upvotes, and flags to fine-tune the library of riddles. I will constantly be adding more riddles to the API as I come across them. \nThe Basic plan is completely FREE with a ...\nAPI description: Fetches a riddle by its ID from the Riddlie API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the riddle to fetch.",
+                "default": "63bdef0283b194664ee6c121"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_d_tails_image",
+    "description": "This is a sub-function API for tool opt_nc_public_docker_images.\nTool description: Récupérer les images dockers publiques publiées par OPT-NC\nAPI description: Fetch detailed information about a specific image using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "image": {
+                "type": "string",
+                "description": "The identifier or name of the image to retrieve details for.",
+                "default": "domaine-nc-api"
+            }
+        },
+        "required": [
+            "image"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "interests",
+    "description": "This is a sub-function API for tool fastapi_project.\nTool description: Python FastAPI Test Project\nAPI description: Fetches interests from the specified API using the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lang": {
+                "type": "string",
+                "description": "The language code for the response (default is 'ta').",
+                "default": "ta"
+            }
+        },
+        "required": []
+    }
+}

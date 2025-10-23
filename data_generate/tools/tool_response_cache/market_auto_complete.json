@@ -1,0 +1,90 @@
+{
+    "{'query': 'INMEX:IND'}": {
+        "error": "",
+        "response": {
+            "quote": [
+                {
+                    "baseName": "BMV INMEX Index",
+                    "securityType": "Equity Index",
+                    "symbol": "INMEX",
+                    "country": "Mexico",
+                    "currency": "MXN",
+                    "resourceType": "Index",
+                    "fundamentalDataCurrency": "MXN",
+                    "resourceSubtype": "Equity",
+                    "region": "AMERICAS",
+                    "ticker": "inmex:ind",
+                    "tickerName": "INMEX:IND",
+                    "template": "Index",
+                    "tinyName": "INMEX",
+                    "name": "INMEX",
+                    "watchlist": true,
+                    "resourceId": "INMEX:IND",
+                    "eqtIndex": true,
+                    "id": "INMEX:IND",
+                    "title": "INMEX",
+                    "card": "security"
+                }
+            ],
+            "news": []
+        }
+    },
+    "{'query': 'INMEX'}": {
+        "error": "",
+        "response": {
+            "quote": [
+                {
+                    "baseName": "BMV INMEX Index",
+                    "securityType": "Equity Index",
+                    "symbol": "INMEX",
+                    "country": "Mexico",
+                    "currency": "MXN",
+                    "resourceType": "Index",
+                    "fundamentalDataCurrency": "MXN",
+                    "resourceSubtype": "Equity",
+                    "region": "AMERICAS",
+                    "ticker": "inmex:ind",
+                    "tickerName": "INMEX:IND",
+                    "template": "Index",
+                    "tinyName": "INMEX",
+                    "name": "INMEX",
+                    "watchlist": true,
+                    "resourceId": "INMEX:IND",
+                    "eqtIndex": true,
+                    "id": "INMEX:IND",
+                    "title": "INMEX",
+                    "card": "security"
+                }
+            ],
+            "news": []
+        }
+    },
+    "{'query': 'Tesla'}": {
+        "error": "",
+        "response": "{'quote': [{'securityType': 'Closed-End Fund', 'symbol': 'TESLAR2', 'country': 'Brazil', 'currency': 'BRL', 'resourceType': 'Fund', 'resourceSubtype': 'ClosedEnd', 'region': 'AMERICAS', 'ticker': 'teslar2:bz', 'tickerName': 'TESLAR2:BZ', 'template': 'Mutual Fund', 'tinyName': 'Tesla R2 FIM CP IE', 'name': 'Tesla R2 FIM CP IE', 'watchlist': True, 'resourceId': 'TESLAR2:BZ', 'id': 'TESLAR2:BZ', 'title': 'Tesla R2 FIM CP IE', 'card': 'security'}, {'securityType': 'Common Stock', 'symbol': 'TSLA-RM', 'exchange': 'MICEX Main', 'country': 'United States', 'currency': 'RUB', 'resourceType': 'Company', 'fundamentalDataCurrency': 'USD', 'resourceSubtype': 'Public', 'region': 'EMEA', 'ticker': 'tsla-rm:rm', 'tickerName': 'TSLA-RM:RM', 'template': 'Stock', 'tinyName': 'Tesla Inc', 'name': 'Tesla Inc', 'watchlist': True, 'resourceId': 'TSLA-RM:RM', 'id': 'TSLA-RM:RM', 'title': 'Tesla Inc', 'card': 'security'}, {'securityType': 'Common Stock', 'symbol': 'TSLAUSD', 'exchange': 'SIX Swiss Ex', 'country': 'United States', 'currency': 'USD', 'resourceType': 'Company', 'fundamentalDataCurrency': 'USD', 'resourceSubtype': 'Public', 'region': 'EMEA', 'ticker': 'tslausd:sw', 'tickerName': 'TSLAUSD:SW', 'template': 'Stock', 'tinyName': 'Tesla Inc', 'name': 'Tesla Inc', 'watchlist': True, 'resourceId': 'TSLAUSD:SW', 'id': 'TSLAUSD:SW', 'title': 'Tesla Inc', 'card': 'security'}, {'securityType': 'Common Stock', 'symbol': '0R0X', 'exchange': 'London', 'country': 'United States', 'currency': 'USD', 'resourceType': 'Company', 'fundamentalDataCurrency': 'USD', 'resourceSubtype': 'Public', 'region': 'EMEA', 'ticker': '0r0x:ln', 'tickerName': '0R0X:LN', 'template': 'Stock', 'tinyName': 'Tesla Inc', 'name': 'Tesla Inc', 'watchlist': True, 'resourceId': '0R0X:LN', 'id': '0R0X:LN', 'title': 'Tesla Inc', 'card': 'security'}, {'securityType': 'Receipt', 'symbol': 'TL01', 'exchange': 'Frankfurt', 'country': 'United States', 'currency': 'EUR', 'resourceType': 'Company', 'fundamentalDataCurrency': 'USD', 'resourceSubtype': 'Public', 'region': 'EMEA',"
+    },
+    "{'query': 'Apple'}": {
+        "error": "",
+        "response": "{'quote': [{'securityType': 'Closed-End Fund', 'symbol': 'APPLECR', 'country': 'Brazil', 'currency': 'BRL', 'resourceType': 'Fund', 'resourceSubtype': 'ClosedEnd', 'region': 'AMERICAS', 'ticker': 'applecr:bz', 'tickerName': 'APPLECR:BZ', 'template': 'Mutual Fund', 'tinyName': 'Applecross FIM Credito Privado IE', 'name': 'Applecross FIM Credito Privado IE', 'watchlist': True, 'resourceId': 'APPLECR:BZ', 'id': 'APPLECR:BZ', 'title': 'Applecross FIM Credito Privado IE', 'card': 'security'}, {'securityType': 'Common Stock', 'symbol': 'AAPLEUR', 'exchange': 'SIX Swiss Ex', 'country': 'United States', 'currency': 'EUR', 'resourceType': 'Company', 'fundamentalDataCurrency': 'USD', 'resourceSubtype': 'Public', 'region': 'EMEA', 'ticker': 'aapleur:sw', 'tickerName': 'AAPLEUR:SW', 'template': 'Stock', 'tinyName': 'Apple Inc', 'name': 'Apple Inc', 'watchlist': True, 'resourceId': 'AAPLEUR:SW', 'id': 'AAPLEUR:SW', 'title': 'Apple Inc', 'card': 'security'}, {'securityType': 'Receipt', 'symbol': 'APC8', 'exchange': 'Frankfurt', 'country': 'United States', 'currency': 'EUR', 'resourceType': 'Company', 'fundamentalDataCurrency': 'USD', 'resourceSubtype': 'Public', 'region': 'EMEA', 'ticker': 'apc8:gr', 'tickerName': 'APC8:GR', 'template': 'Stock', 'tinyName': 'Apple Inc', 'name': 'Apple Inc', 'watchlist': True, 'resourceId': 'APC8:GR', 'id': 'APC8:GR', 'title': 'Apple Inc', 'card': 'security'}, {'securityType': 'Common Stock', 'symbol': '0R2V', 'exchange': 'London', 'country': 'United States', 'currency': 'USD', 'resourceType': 'Company', 'fundamentalDataCurrency': 'USD', 'resourceSubtype': 'Public', 'region': 'EMEA', 'ticker': '0r2v:ln', 'tickerName': '0R2V:LN', 'template': 'Stock', 'tinyName': 'Apple Inc', 'name': 'Apple Inc', 'watchlist': True, 'resourceId': '0R2V:LN', 'id': '0R2V:LN', 'title': 'Apple Inc', 'card': 'security'}, {'securityType': 'Common Stock', 'symbol': '1AAPL', 'exchange': 'BrsaItaliana', 'country': 'United States', 'currency': 'EUR', 'resourceType': 'Company', 'fundamentalDataCurrency': 'USD', 'resourceSubt"
+    },
+    "{'query': 'IPAX'}": {
+        "error": "",
+        "response": "{'quote': [{'securityType': 'Unit', 'symbol': 'IPAXU', 'country': 'United States', 'currency': 'USD', 'resourceType': 'Company', 'fundamentalDataCurrency': 'USD', 'resourceSubtype': 'Public', 'region': 'AMERICAS', 'ticker': 'ipaxu:us', 'tickerName': 'IPAXU:US', 'template': 'Stock', 'tinyName': 'Intuitive Machines Inc', 'name': 'Intuitive Machines Inc', 'watchlist': True, 'resourceId': 'IPAXU:US', 'id': 'IPAXU:US', 'title': 'Intuitive Machines Inc', 'card': 'security'}], 'news': []}"
+    },
+    "{'query': 'renewable energy'}": {
+        "error": "",
+        "response": "{'quote': [{'securityType': 'Common Stock', 'symbol': 'RBNW', 'exchange': 'OTC US', 'country': 'United States', 'currency': 'USD', 'resourceType': 'Company', 'fundamentalDataCurrency': 'USD', 'resourceSubtype': 'Public', 'region': 'AMERICAS', 'ticker': 'rbnw:us', 'tickerName': 'RBNW:US', 'template': 'Stock', 'tinyName': 'Renewable Energy & Power Inc', 'name': 'Renewable Energy & Power Inc', 'watchlist': True, 'resourceId': 'RBNW:US', 'id': 'RBNW:US', 'title': 'Renewable Energy & Power Inc', 'card': 'security'}, {'securityType': 'Unit', 'symbol': 'REAIU', 'exchange': 'NASDAQ CM', 'country': 'United States', 'currency': 'USD', 'resourceType': 'Company', 'fundamentalDataCurrency': 'USD', 'resourceSubtype': 'Inactive', 'region': 'AMERICAS', 'ticker': 'reaiu:us', 'tickerName': 'REAIU:US', 'template': 'Stock', 'tinyName': 'Renewable Energy Acquisition Corp/CA', 'name': 'Renewable Energy Acquisition Corp/CA', 'watchlist': True, 'resourceId': 'REAIU:US', 'id': 'REAIU:US', 'title': 'Renewable Energy Acquisition Corp/CA', 'card': 'security'}, {'securityType': 'Common Stock', 'symbol': 'INE', 'exchange': 'Toronto', 'country': 'Canada', 'currency': 'CAD', 'resourceType': 'Company', 'fundamentalDataCurrency': 'CAD', 'resourceSubtype': 'Public', 'region': 'AMERICAS', 'ticker': 'ine:cn', 'tickerName': 'INE:CN', 'template': 'Stock', 'tinyName': 'Innergex Renewable Energy Inc', 'name': 'Innergex Renewable Energy Inc', 'watchlist': True, 'resourceId': 'INE:CN', 'id': 'INE:CN', 'title': 'Innergex Renewable Energy Inc', 'card': 'security'}, {'securityType': 'Common Stock', 'symbol': 'CREC', 'exchange': 'Philippines', 'country': 'Philippines', 'currency': 'PHP', 'resourceType': 'Company', 'fundamentalDataCurrency': 'PHP', 'resourceSubtype': 'Public', 'region': 'APAC', 'ticker': 'crec:pm', 'tickerName': 'CREC:PM', 'template': 'Stock', 'tinyName': 'Citicore Renewable Energy Corp', 'name': 'Citicore Renewable Energy Corp', 'watchlist': True, 'resourceId': 'CREC:PM', 'id': 'CREC:PM', 'title': 'Citicore Renewable Energy Corp', 'card': 'se"
+    },
+    "{'query': 'Apple Inc.'}": {
+        "error": "",
+        "response": "{'quote': [{'securityType': 'Common Stock', 'symbol': 'AAPL', 'exchange': 'NASDAQ GS', 'country': 'United States', 'currency': 'USD', 'resourceType': 'Company', 'fundamentalDataCurrency': 'USD', 'resourceSubtype': 'Public', 'region': 'AMERICAS', 'ticker': 'aapl:us', 'tickerName': 'AAPL:US', 'template': 'Stock', 'tinyName': 'Apple Inc', 'name': 'Apple Inc', 'watchlist': True, 'resourceId': 'AAPL:US', 'id': 'AAPL:US', 'title': 'Apple Inc', 'card': 'security'}, {'securityType': 'REIT', 'symbol': 'APLE', 'exchange': 'New York', 'country': 'United States', 'currency': 'USD', 'resourceType': 'Company', 'fundamentalDataCurrency': 'USD', 'resourceSubtype': 'Public', 'region': 'AMERICAS', 'ticker': 'aple:us', 'tickerName': 'APLE:US', 'template': 'Stock', 'tinyName': 'Apple Hospitality REIT Inc', 'name': 'Apple Hospitality REIT Inc', 'watchlist': True, 'resourceId': 'APLE:US', 'id': 'APLE:US', 'title': 'Apple Hospitality REIT Inc', 'card': 'security'}, {'securityType': 'Common Stock', 'symbol': 'AGPL', 'country': 'Malaysia', 'currency': 'USD', 'resourceType': 'Company', 'fundamentalDataCurrency': 'USD', 'resourceSubtype': 'Inactive', 'region': 'AMERICAS', 'ticker': 'agpl:us', 'tickerName': 'AGPL:US', 'template': 'Stock', 'tinyName': 'Apple Green Holding Inc', 'name': 'Apple Green Holding Inc', 'watchlist': True, 'resourceId': 'AGPL:US', 'id': 'AGPL:US', 'title': 'Apple Green Holding Inc', 'card': 'security'}, {'securityType': 'Common Stock', 'symbol': 'GAPJ', 'exchange': 'OTC US', 'country': 'United States', 'currency': 'USD', 'resourceType': 'Company', 'resourceSubtype': 'Public', 'region': 'AMERICAS', 'ticker': 'gapj:us', 'tickerName': 'GAPJ:US', 'template': 'Stock', 'tinyName': 'Golden Apple Oil & Gas Inc', 'name': 'Golden Apple Oil & Gas Inc', 'watchlist': True, 'resourceId': 'GAPJ:US', 'id': 'GAPJ:US', 'title': 'Golden Apple Oil & Gas Inc', 'card': 'security'}, {'securityType': 'Common Stock', 'symbol': 'AMAT', 'exchange': 'NASDAQ GS', 'country': 'United States', 'currency': 'USD', 'resourceType': 'Company', 'fundamen"
+    },
+    "{'query': 'tech leaders'}": {
+        "error": "",
+        "response": "{'quote': [{'securityType': 'Common Stock', 'symbol': 'LET', 'exchange': 'Singapore', 'country': 'China', 'currency': 'SGD', 'resourceType': 'Company', 'fundamentalDataCurrency': 'CNY', 'resourceSubtype': 'Public', 'region': 'APAC', 'ticker': 'let:sp', 'tickerName': 'LET:SP', 'template': 'Stock', 'tinyName': 'Leader Environmental Technologies Ltd', 'name': 'Leader Environmental Technologies Ltd', 'watchlist': True, 'resourceId': 'LET:SP', 'id': 'LET:SP', 'title': 'Leader Environmental Technologies Ltd', 'card': 'security'}, {'securityType': 'Open-End Fund', 'symbol': 'HENGLTI', 'country': 'Luxembourg', 'currency': 'USD', 'resourceType': 'Fund', 'resourceSubtype': 'OpenEnd', 'region': 'EMEA', 'ticker': 'henglti:lx', 'tickerName': 'HENGLTI:LX', 'template': 'Mutual Fund', 'tinyName': 'JH Global Technology Leaders Fund', 'name': 'JH Global Technology Leaders Fund', 'watchlist': True, 'resourceId': 'HENGLTI:LX', 'id': 'HENGLTI:LX', 'title': 'JH Global Technology Leaders Fund', 'card': 'security'}, {'securityType': 'ETP', 'symbol': 'JTEK', 'exchange': 'NASDAQ GM', 'country': 'United States', 'currency': 'USD', 'resourceType': 'Fund', 'resourceSubtype': 'ETP', 'region': 'AMERICAS', 'ticker': 'jtek:us', 'tickerName': 'JTEK:US', 'template': 'Closed-End Fund', 'tinyName': 'JPMorgan US Tech Leaders ETF', 'name': 'JPMorgan US Tech Leaders ETF', 'watchlist': True, 'resourceId': 'JTEK:US', 'id': 'JTEK:US', 'title': 'JPMorgan US Tech Leaders ETF', 'card': 'security'}, {'securityType': 'Open"
+    },
+    "{'query': 'sustainable energy stocks'}": {
+        "error": "",
+        "response": "{'quote': [{'securityType': 'Common Stock', 'symbol': 'SUST', 'exchange': 'Nordic GM', 'country': 'Sweden', 'currency': 'SEK', 'resourceType': 'Company', 'fundamentalDataCurrency': 'SEK', 'resourceSubtype': 'Public', 'region': 'EMEA', 'ticker': 'sust:ss', 'tickerName': 'SUST:SS', 'template': 'Stock', 'tinyName': 'Sustainable Energy Solutions Sweden Holding AB', 'name': 'Sustainable Energy Solutions Sweden Holding AB', 'watchlist': True, 'resourceId': 'SUST:SS', 'id': 'SUST:SS', 'title': 'Sustainable Energy Solutions Sweden Holding AB', 'card': 'security'}], 'news': [{'title': 'Traders\u2019 Guide to Navigating South Korea\u2019s Presidential Vote', 'id': 'SWL2M1DWX2PS00', 'card': 'article', 'date': 1749147716, 'longURL': 'https://www.bloomberg.com/news/articles/2025-06-01/traders-guide-to-navigating-south-korea-s-presidential-vote'}, {'title': 'Meta to Buy Nuclear Power From Constellation as AI Demand Soars', 'id': 'SX18U5T1UM0W00', 'card': 'article', 'date': 1749054020, 'longURL': 'https://www.bloomberg.com/news/articles/2025-06-03/facebook-owner-meta-to-buy-nuclear-power-from-constellation-as-ai-demand-soars'}, {'title': 'BlackRock Escapes Texas Oil-Boycott List After ESG Retreat', 'id': 'SX93CRT0G1KW00', 'card': 'article', 'date': 1749039080, 'longURL': 'https://www.bloomberg.com/news/articles/2025-06-03/blackrock-escapes-texas-oil-boycott-blacklist-after-esg-retreat'}, {'title': 'Investors Say They\u2019re Moving Away From ESG as \u2018an Umbrella Concept\u2019', 'id': 'SX9YH3T1UM0W00', 'card': '"
+    }
+}

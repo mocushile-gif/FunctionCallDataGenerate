@@ -1,0 +1,35 @@
+{
+    "name": "busca_por_simbolo",
+    "description": "This is a sub-function API for tool alpha_vantage.\nTool description: Bolsa de valores\nAPI description: Fetches data for a given stock symbol using the Alpha Vantage API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "function": {
+                "type": "string",
+                "description": "The type of function to be called in the API (e.g., 'TIME_SERIES_DAILY').",
+                "default": "TIME_SERIES_DAILY"
+            },
+            "apikey": {
+                "type": "string",
+                "description": "The API key for accessing Alpha Vantage API.",
+                "default": "NMITMJSJJ77WJPCF"
+            },
+            "outputsize": {
+                "type": "string",
+                "description": "The size of the data output (e.g., 'compact' or 'full').",
+                "default": "compact"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which data is to be fetched.",
+                "default": "VINO11.SA"
+            }
+        },
+        "required": [
+            "function",
+            "apikey",
+            "outputsize",
+            "symbol"
+        ]
+    }
+}

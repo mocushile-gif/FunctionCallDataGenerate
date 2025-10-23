@@ -1,0 +1,17 @@
+{
+    "name": "getpastevents",
+    "description": "This is a sub-function API for tool azure_smartable.\nTool description: The Azure Smartable API offers the Microsoft Azure news, learning resources, events, influencers and other information.\nAPI description: Fetches past Azure events from the specified page using the given RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number to fetch the past events from.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "page"
+        ]
+    }
+}

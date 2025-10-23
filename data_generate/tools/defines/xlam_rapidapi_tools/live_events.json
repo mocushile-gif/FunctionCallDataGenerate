@@ -1,0 +1,25 @@
+{
+    "name": "live_events",
+    "description": "This is a sub-function API for tool art_openings_italy.\nTool description: Introducing the ultimate art event API for Italy - your one-stop destination for discovering and experiencing the best art events happening across the country. With our API, you have access to a comprehensive list of cities where art events take place, as well as a list of ongoing events happening in each city.\nAPI description: To call this service, you would make a GET request to the endpoint /api/ongoing-events with the optional query parameter city. When the service is called, it retrieves a list of events from the database, filtered by the city parameter if it is provided.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "city": {
+                "type": "string",
+                "description": "The city to filter the events by. Defaults to 'Firenze'.",
+                "default": "Firenze"
+            },
+            "genre": {
+                "type": "string",
+                "description": "The genre to filter the events by. Defaults to 'festival'.",
+                "default": "festival"
+            },
+            "location": {
+                "type": "string",
+                "description": "The location to filter the events by. Defaults to 'PIAZZA SANTA MARIA NOVELLA'.",
+                "default": "PIAZZA SANTA MARIA NOVELLA"
+            }
+        },
+        "required": []
+    }
+}

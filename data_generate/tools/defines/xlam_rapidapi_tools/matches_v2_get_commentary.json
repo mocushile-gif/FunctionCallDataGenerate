@@ -1,0 +1,17 @@
+{
+    "name": "matches_v2_get_commentary",
+    "description": "This is a sub-function API for tool livescore_v2.\nTool description: This API helps to query for football, cricket, basketball, tennis, hockey matches, leagues, news, etc... to create a sporting site/application such as livescore.com\nAPI description: Fetches the commentary for a match using the provided match ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "eid": {
+                "type": "number",
+                "description": "The value of Eid field returned in .../matches/v2/list-by-league or .../matches/v2/list-by-date or .../matches/v2/list-live or .../competitions/detail endpoint",
+                "default": 702193.0
+            }
+        },
+        "required": [
+            "eid"
+        ]
+    }
+}

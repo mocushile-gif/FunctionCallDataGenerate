@@ -1,0 +1,17 @@
+{
+    "name": "get_artist_s_albums",
+    "description": "This is a sub-function API for tool musiclinkssapi.\nTool description: Music Links is an API that aims to find a given track, album or artist in many music platforms.\nAPI description: Fetches and returns basic details about the albums of an artist from a given Spotify URL.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "spotify_url": {
+                "type": "string",
+                "description": "The URL of the artist's Spotify page.",
+                "default": "https://open.spotify.com/artist/1nIUhcKHnK6iyumRyoV68C"
+            }
+        },
+        "required": [
+            "spotify_url"
+        ]
+    }
+}

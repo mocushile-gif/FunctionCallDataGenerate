@@ -1,0 +1,23 @@
+{
+    "name": "social_media_caption",
+    "description": "This is a sub-function API for tool social_media_caption.\nTool description: Generate catchy captions for social media\nAPI description: Generates catchy captions for social media based on the provided name and description.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name associated with the social media content.",
+                "default": "Apple"
+            },
+            "description": {
+                "type": "string",
+                "description": "A brief description of the social media content.",
+                "default": "Apple designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories, and sells a variety of related services."
+            }
+        },
+        "required": [
+            "name",
+            "description"
+        ]
+    }
+}

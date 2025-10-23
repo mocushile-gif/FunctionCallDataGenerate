@@ -1,0 +1,37 @@
+{
+    "name": "streams_user",
+    "description": "This is a sub-function API for tool stocktwits.\nTool description: StockTwits provides a social communications platform and social graph for anyone interested in the markets and investing.\nAPI description: Returns the most recent 30 messages for the specified user. Includes user object in response.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "User ID or username of the stream's user you want to show.",
+                "default": "zerobeta"
+            },
+            "since": {
+                "type": "number",
+                "description": "Returns results with an ID greater than (more recent than) the specified ID."
+            },
+            "max": {
+                "type": "number",
+                "description": "Returns results with an ID less than (older than) or equal to the specified ID."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of messages to return. This limit must be a number under 30. Default and max limit is 30."
+            },
+            "callback": {
+                "type": "string",
+                "description": "Define your own callback function name, add this parameter as the value."
+            },
+            "filter": {
+                "type": "string",
+                "description": "Filter messages by links, charts, or videos."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

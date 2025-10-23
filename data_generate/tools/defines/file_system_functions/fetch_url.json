@@ -1,0 +1,66 @@
+{
+    "name": "fetch_url",
+    "description": "Retrieve web page content from a specified URL using a stealth browser. Supports content extraction, media blocking, optional navigation waits, and saving output to a local file.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "The URL to fetch content from."
+        },
+        "timeout": {
+          "type": "integer",
+          "default": 30000,
+          "description": "Page loading timeout in milliseconds. Default is 30000 (30s)."
+        },
+        "wait_until": {
+          "type": "string",
+          "enum": ["load", "domcontentloaded", "networkidle", "commit"],
+          "default": "load",
+          "description": "When navigation is considered complete. Default is 'load'."
+        },
+        "extract_content": {
+          "type": "string",
+          "enum": ["summary", "clean_content", "full_content"],
+          "default": "clean_content",
+          "description": "The content extraction strategy. 'summary' returns summary using the Readability library; 'clean_content' cleans and extracts main article; 'full_content' returns raw HTML."
+        },
+        "max_length": {
+          "type": "integer",
+          "default": 0,
+          "description": "Truncate returned content if it exceeds this character length. 0 = no limit."
+        },
+        "return_html": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true, returns raw HTML. If false, returns Markdown. Default is false."
+        },
+        "wait_for_navigation": {
+          "type": "boolean",
+          "default": false,
+          "description": "Whether to wait for additional navigation after page load. Useful for bot checks."
+        },
+        "navigation_timeout": {
+          "type": "integer",
+          "default": 10000,
+          "description": "Timeout in milliseconds for any extra navigation after initial load."
+        },
+        "disable_media": {
+          "type": "boolean",
+          "default": true,
+          "description": "Block images, fonts, stylesheets, and media to reduce resource usage. Default is true."
+        },
+        "debug": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true, opens visible browser window instead of headless mode. Default is false."
+        },
+        "save_path": {
+          "type": "string",
+          "description": "Optional. If provided, saves fetched content to this file path (e.g. './output/page.md')."
+        }
+      },
+      "required": ["url"]
+    }
+  }
+  

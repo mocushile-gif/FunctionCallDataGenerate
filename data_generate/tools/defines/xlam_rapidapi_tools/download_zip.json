@@ -1,0 +1,16 @@
+{
+    "name": "download_zip",
+    "description": "This is a sub-function API for tool pulsar.\nTool description: Teste Pulsar\nAPI description: Downloads a ZIP file of images from a specified collection using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "collectionid": {
+                "type": "string",
+                "description": "The ID of the image collection to download."
+            }
+        },
+        "required": [
+            "collectionid"
+        ]
+    }
+}

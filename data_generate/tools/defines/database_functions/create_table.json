@@ -1,0 +1,36 @@
+{
+    "name": "create_table",
+    "description": "Create a new table in the SQLite database.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "database_path": {
+                "type": "string",
+                "description": "The path to the database."
+            },
+            "table_name": {
+                "type": "string",
+                "description": "The name of the table to create."
+            },
+            "columns": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "column_name": {
+                            "type": "string",
+                            "description": "The name of the column."
+                        },
+                        "data_type": {
+                            "type": "string",
+                            "description": "The data type of the column (e.g., 'TEXT', 'INTEGER')."
+                        }
+                    },
+                    "required": ["column_name", "data_type"]
+                },
+                "description": "List of columns for the table, each defined as an object with 'column_name' and 'data_type'."
+            }
+        },
+        "required": ["database_path", "table_name", "columns"]
+    }
+}

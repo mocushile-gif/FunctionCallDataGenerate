@@ -1,0 +1,25 @@
+{
+    "name": "convert_get_symbol",
+    "description": "This is a sub-function API for tool currencies_and_countries.\nTool description: Convert currencies, get country informations.\nAPI description: It is the same thing with the convert endpoint. But this one can give you the symbol of the converted value.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "amount": {
+                "type": "string",
+                "description": "The amount of currency to convert. Defaults to '1'.",
+                "default": "1"
+            },
+            "to": {
+                "type": "string",
+                "description": "The target currency code. Defaults to 'USD'.",
+                "default": "USD"
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The source currency code. Defaults to 'EUR'.",
+                "default": "EUR"
+            }
+        },
+        "required": []
+    }
+}

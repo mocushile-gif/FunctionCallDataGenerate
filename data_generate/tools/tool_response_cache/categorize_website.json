@@ -1,0 +1,26 @@
+{
+    "{'url': 'http://mailchimp.com/'}": {
+        "error": "",
+        "response": [
+            {
+                "category": "Email Marketing",
+                "confidence": 0.95,
+                "description": "Platform specializing in email campaign management, subscriber lists, and marketing automation."
+            },
+            {
+                "category": "Marketing Automation",
+                "confidence": 0.85,
+                "description": "Tools for automating marketing workflows, customer segmentation, and campaign scheduling."
+            },
+            {
+                "category": "Business Services",
+                "confidence": 0.75,
+                "description": "Provides business-oriented solutions for digital marketing, CRM integration, and analytics."
+            }
+        ]
+    },
+    "{'url': 'nytimes.com'}": {
+        "error": "",
+        "response": "{'categories': {}, 'url': 'https://website-categorization-api.p.rapidapi.com/categorize_url'}"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "communes_par_code_commune",
+    "description": "This is a sub-function API for tool bps.\nTool description: Les boîtes postales (BPs), codes postaux, localités,communes, codes cedex de Nouvelle-Calédonie.\nAPI description: Fetch details of a commune using its code via the RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code_com": {
+                "type": "string",
+                "description": "The code of the commune to retrieve details for.",
+                "default": "98810"
+            }
+        },
+        "required": [
+            "code_com"
+        ]
+    }
+}

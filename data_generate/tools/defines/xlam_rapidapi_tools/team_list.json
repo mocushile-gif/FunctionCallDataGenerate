@@ -1,0 +1,15 @@
+{
+    "name": "team_list",
+    "description": "This is a sub-function API for tool sportscore.\nTool description: Multiple sports API. **Site**: https://tipsscore.com  **Support**: hello@tipsscore.com / t.me/api_tipsters Detailed data on teams, standings, players, coach, starting lineups, team stadiums, odds and odds-history, match locations, video goals and highlights. Real-time data: live-score, table score (tennis), game incidents (substitutions, corners, cards). **Other sports api:** https://rapi.one\nAPI description: Fetches and returns a list of sports teams from the SportScore API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "Page number for pagination. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

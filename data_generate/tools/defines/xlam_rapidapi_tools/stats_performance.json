@@ -1,0 +1,15 @@
+{
+    "name": "stats_performance",
+    "description": "This is a sub-function API for tool today_football_prediction.\nTool description: Daily Football Prediction & Betting Tips with AI powered analysis and probability statistics. High efficiency, average bookie odds, profit-loss calculation, value betting.  Limitted Time: Ultra Plan is only $4.99/mo\n\nAPI description: Returns statistics of AI prediction module with selected odds, prediction probabilities and profit-loss calculation. \n\n**Profit-Loss**: calculated by considering only single bet is played from 1 unit amount. If the bet is won, gets prediction odd as positive number else -1.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to fetch the performance statistics, formatted as 'YYYY-MM-DD'. Defaults to '2022-08-13'.",
+                "default": "2022-08-13"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "stores",
+    "description": "This is a sub-function API for tool ikea_api.\nTool description: This [unofficial] Ikea API is a great solution for developers looking for a comprehensive and up-to-date access to Ikea's products and search. An Ikea Scraper REST API solution.\nAPI description: Fetches a list of all IKEA stores in a specified country.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "countrycode": {
+                "type": "string",
+                "description": "The two-letter country code representing the country for which to fetch the list of stores.",
+                "default": "us"
+            }
+        },
+        "required": [
+            "countrycode"
+        ]
+    }
+}

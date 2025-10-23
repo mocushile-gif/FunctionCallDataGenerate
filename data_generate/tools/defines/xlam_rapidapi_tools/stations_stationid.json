@@ -1,0 +1,16 @@
+{
+    "name": "stations_stationid",
+    "description": "This is a sub-function API for tool national_weather_service.\nTool description: National Weather Service API (api.weather.gov) NOAA (National Oceanic and Atmospheric Administration) provides national weather data as well as past data.\nAPI description: Metadata about a station. Similar to /stations endpoint with id parameter. Example: /stations/KMKC",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "stationid": {
+                "type": "string",
+                "description": "stationId: the id of a station from the /points/{point}/stations endpoint"
+            }
+        },
+        "required": [
+            "stationid"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_all_match_play_today_by_competitions",
+    "description": "This is a sub-function API for tool match_api.\nTool description: +1000 football leagues & cups. Livescore, alive, this project provides users with real-time information about current and upcoming matches in various competitions and leagues. By subscribing to our service, users will have access to detailed information about matches, including teams, results, and time. Additionally, users will be able to view information about different competitions and leagues. Our service aims to provide users with the most up-to-date and accurate information, and we const...\nAPI description: Retrieve all matches info (teams, time,result) that are scheduled to be played today by competition id.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "competition_id": {
+                "type": "number",
+                "description": "The ID of the competition for which to retrieve today's matches.",
+                "default": 23943.0
+            }
+        },
+        "required": [
+            "competition_id"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "get_bank_info",
+    "description": "This is a sub-function API for tool routing_number_bank_lookup.\nTool description: Lookup a bank's information based on a routing number input. Choose either ACH or wire transfer bank information. Supports XML and JSON responses.\nAPI description: This endpoint returns information about a bank by passing in the routing number.\n\nQuery Params:\n- **format:** defines the response type, currently XML and JSON are supported. Default value is JSON. Possible values: \"xml\", \"json\"\n- **paymentType:** choose to retrieve either the ACH or Wire Transfer information from the bank. Default value is ACH. Possible values: \"ach\", \"wire\"\n\n####Example:\nGET https://routing-number-bank-lookup.p.rapidapi.com/api/v1/121000248?paymentType=wire&format=json returns the wire tr",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "routingnumber": {
+                "type": "string",
+                "description": "The routing number that you want to lookup",
+                "default": "121000248"
+            },
+            "format": {
+                "type": "string",
+                "description": "Defines the format of the response. Default value is 'json'. Possible values are 'xml' and 'json'.",
+                "default": "json"
+            },
+            "paymenttype": {
+                "type": "string",
+                "description": "Choose to retrieve either the ACH or Wire Transfer information from the bank. Default value is ACH. Possible values: 'ach' and 'wire'",
+                "default": "ach"
+            }
+        },
+        "required": [
+            "routingnumber"
+        ]
+    }
+}

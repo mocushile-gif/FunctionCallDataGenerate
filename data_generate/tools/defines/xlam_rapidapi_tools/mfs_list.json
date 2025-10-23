@@ -1,0 +1,43 @@
+{
+    "name": "mfs_list",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: This API request returns a list of mutual funds available at Twelve Data. Sorting is in descending order by total assets value. The list is updated daily.\n\nWith Basic, Pro, and Ultra plans, only 50 records will be in response. Mega and Custom plans can access complete data on over 200,000 Mutual Funds.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "apikey": {
+                "type": "string",
+                "description": "API key for authentication. Defaults to 'demo'.",
+                "default": "demo"
+            },
+            "performance_rating": {
+                "type": "string",
+                "description": "Filter by performance rating. Defaults to None."
+            },
+            "fund_type": {
+                "type": "string",
+                "description": "Filter by type of fund. Defaults to None."
+            },
+            "outputsize": {
+                "type": "string",
+                "description": "Specifies the number of records to return. Defaults to None."
+            },
+            "country": {
+                "type": "string",
+                "description": "Filter funds by country. Defaults to None."
+            },
+            "fund_family": {
+                "type": "string",
+                "description": "Filter by fund family. Defaults to None."
+            },
+            "symbol": {
+                "type": "string",
+                "description": "Filter by specific symbol. Defaults to None."
+            },
+            "risk_rating": {
+                "type": "string",
+                "description": "Filter by risk rating. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

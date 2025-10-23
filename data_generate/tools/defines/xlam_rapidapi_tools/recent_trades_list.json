@@ -1,0 +1,22 @@
+{
+    "name": "recent_trades_list",
+    "description": "This is a sub-function API for tool crypto_markets.\nTool description: Get all crypto markets data live\nAPI description: Fetches the recent trades for a given cryptocurrency symbol from the RapidAPI crypto markets service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The cryptocurrency symbol (e.g., 'BTC' for Bitcoin) for which recent trades are to be fetched.",
+                "default": "BTCUSDT"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of recent trades to retrieve. Default is 500; maximum is 1000.",
+                "default": 500.0
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

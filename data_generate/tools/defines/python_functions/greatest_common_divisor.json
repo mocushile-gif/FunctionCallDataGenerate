@@ -1,0 +1,21 @@
+{
+    "name": "greatest_common_divisor",
+    "description": "Computes the greatest common divisor (GCD) of two non-negative integers.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "a": {
+                "type": "integer",
+                "description": "The first non-negative integer."
+            },
+            "b": {
+                "type": "integer",
+                "description": "The second non-negative integer."
+            }
+        },
+        "required": [
+            "a",
+            "b"
+        ]
+    }
+}

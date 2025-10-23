@@ -1,0 +1,27 @@
+{
+    "name": "get_post_comments",
+    "description": "This is a sub-function API for tool twitter_v5.\nTool description: Introducing a powerful Twitter API with 14 endpoints to help you access valuable Twitter data. With our API, you can easily retrieve user followers and followings, post likes, comments, quoted tweets, and retweets. You can also search for top, latest, videos, photos, and people, and access user tweets, replies, media, likes, and info by username or ID. Additionally, our autocomplete function helps you complete typed values with ease. Get started with our Twitter API today!\nAPI description: Fetch comments for a given Twitter post using its post ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pid": {
+                "type": "string",
+                "description": "The post ID for which to retrieve comments.",
+                "default": "1552735248026411010"
+            },
+            "count": {
+                "type": "string",
+                "description": "The number of comments to retrieve.",
+                "default": "40"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "Cursor for pagination to retrieve the next set of comments. Defaults to None."
+            }
+        },
+        "required": [
+            "pid",
+            "count"
+        ]
+    }
+}

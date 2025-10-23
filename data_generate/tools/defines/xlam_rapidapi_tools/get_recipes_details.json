@@ -1,0 +1,17 @@
+{
+    "name": "get_recipes_details",
+    "description": "This is a sub-function API for tool recetas_en_espa_ol.\nTool description: Algunas recetas para tu sitio y en español\nAPI description: Fetches the details of a recipe by its slug using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The unique identifier for the recipe.",
+                "default": "articulo-13-jugos-verdes-para-adelgazar-y-quemar-grasa-71482.html"
+            }
+        },
+        "required": [
+            "slug"
+        ]
+    }
+}

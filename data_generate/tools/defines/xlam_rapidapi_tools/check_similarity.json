@@ -1,0 +1,23 @@
+{
+    "name": "check_similarity",
+    "description": "This is a sub-function API for tool whois_lookup_v3.\nTool description: This API pulls up-to-date records from the original data sources in real time, so you can have access to fresh data.\nAPI description: This endpoint Helps to check if two domains are similar.\n\nParemeters:\n> domain1 \n>domain2",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain1": {
+                "type": "string",
+                "description": "first domain to compare with.",
+                "default": "google.com"
+            },
+            "domain2": {
+                "type": "string",
+                "description": "second domain to compare with.",
+                "default": "shopify.com"
+            }
+        },
+        "required": [
+            "domain1",
+            "domain2"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "check_email",
+    "description": "This is a sub-function API for tool email_checker_and_validator.\nTool description: Use this API to validate the email addresses for your business. This endpoint will check syntax and will validate deliverability.\n\nWhen an email address is valid, an object is returned containing a normalized form of the email address (which you should use!) and other information.\nAPI description: Validates an email address using the RapidAPI Email Checker and Validator service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to validate.",
+                "default": "marod29733@lubde.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "get_cities_by_filter",
+    "description": "This is a sub-function API for tool biggestcities.\nTool description: A List of Worlds Biggest Cities\nAPI description: Fetches cities information based on the provided filter ID using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The filter ID used to specify which cities to fetch information for."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

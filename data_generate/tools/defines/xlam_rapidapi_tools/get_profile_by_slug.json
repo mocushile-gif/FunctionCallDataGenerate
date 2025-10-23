@@ -1,0 +1,62 @@
+{
+    "name": "get_profile_by_slug",
+    "description": "This is a sub-function API for tool is_this_coin_a_scam.\nTool description: Get access to real-time data on all major cryptocurrencies, including ratings, red flags, trending analytics, community metrics and more.\nAPI description: Fetch a specific coin profile by its slug, optionally including various additional details.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The slug identifier for the cryptocurrency.",
+                "default": "bitcoin"
+            },
+            "explorers": {
+                "type": "boolean",
+                "description": "If True, includes the list of blockchain explorers for the coin. Defaults to None.",
+                "default": true
+            },
+            "community": {
+                "type": "boolean",
+                "description": "If True, includes community metrics related to the coin. Defaults to None.",
+                "default": true
+            },
+            "repo": {
+                "type": "boolean",
+                "description": "If True, includes source code repository stats related to the coin. Defaults to None.",
+                "default": true
+            },
+            "contracts": {
+                "type": "boolean",
+                "description": "If True, includes smart contract and audit details related to the coin. Defaults to None.",
+                "default": true
+            },
+            "news": {
+                "type": "boolean",
+                "description": "If True, includes the latest 5 news stories related to the coin. Defaults to None.",
+                "default": true
+            },
+            "flags": {
+                "type": "boolean",
+                "description": "If True, includes red flags associated with the coin. Defaults to None.",
+                "default": true
+            },
+            "exchanges": {
+                "type": "boolean",
+                "description": "If True, includes the list of exchanges where the coin is traded. Defaults to None.",
+                "default": true
+            },
+            "links": {
+                "type": "boolean",
+                "description": "'true' if you want to display the link to social media and project websites and artifacts",
+                "default": true
+            },
+            "tags": {
+                "type": "boolean",
+                "description": "If True, includes tags related to the coin. Defaults to None.",
+                "default": true
+            }
+        },
+        "required": [
+            "slug"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "ema",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Exponential Moving Average(EMA) places greater importance on recent data points than the normal Moving Average(MA).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The financial instrument's symbol. Examples include 'AAPL' for Apple Inc., 'EUR/USD' for Euro to US Dollar, 'ETH/BTC' for Ethereum to Bitcoin, etc.",
+                "default": "AAPL"
+            },
+            "interval": {
+                "type": "string",
+                "description": "The time interval between successive data points. Supported intervals include '1min', '5min', '15min', '30min', '45min', '1h', '2h', '4h', '1day', '1week', and '1month'.",
+                "default": "1min"
+            },
+            "series_type": {
+                "type": "string",
+                "description": "The type of series to use in the calculations. Supported values are 'open', 'high', 'low', and 'close'. Defaults to 'close'.",
+                "default": "close"
+            },
+            "format": {
+                "type": "string",
+                "description": "The format of the response data. Supported values are 'JSON' and 'CSV'. Defaults to 'JSON'.",
+                "default": "json"
+            },
+            "outputsize": {
+                "type": "number",
+                "description": "The number of data points to return. Defaults to 30 when no date parameter is set, otherwise is set to the maximum available.",
+                "default": 30
+            },
+            "time_period": {
+                "type": "number",
+                "description": "The number of periods to use in the calculation of the EMA. Defaults to 9.",
+                "default": 9
+            }
+        },
+        "required": [
+            "symbol",
+            "interval"
+        ]
+    }
+}

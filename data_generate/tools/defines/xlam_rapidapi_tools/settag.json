@@ -1,0 +1,16 @@
+{
+    "name": "settag",
+    "description": "This is a sub-function API for tool sms_receive.\nTool description: Integrate receiving SMS message into your apps and applications, enabling automation based on incoming text messages.\n\nFor a simple demonstration, see https://www.tomwimmenhove.com/sms/\n\nAPI description: Sets a new tag for the SMS receive service using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tag": {
+                "type": "string",
+                "description": "The value of the new tag, with a maximum length of 16 characters."
+            }
+        },
+        "required": [
+            "tag"
+        ]
+    }
+}

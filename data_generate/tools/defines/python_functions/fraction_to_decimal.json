@@ -1,0 +1,21 @@
+{
+    "name": "fraction_to_decimal",
+    "description": "Converts a fraction to a decimal. The function takes a numerator and a denominator, and returns the decimal value of the fraction. If the denominator is zero, a ValueError is raised.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "numerator": {
+                "type": "integer",
+                "description": "The numerator of the fraction."
+            },
+            "denominator": {
+                "type": "integer",
+                "description": "The denominator of the fraction. Cannot be zero."
+            }
+        },
+        "required": [
+            "numerator",
+            "denominator"
+        ]
+    }
+}

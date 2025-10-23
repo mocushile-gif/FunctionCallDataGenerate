@@ -1,0 +1,17 @@
+{
+    "name": "search_roman_god_by_name",
+    "description": "This is a sub-function API for tool roman_gods_by_pizza_api.\nTool description: With the Roman Gods API, you can access information about gods such as Jupiter, the king of the gods, and his wife Juno, the goddess of marriage and childbirth. You can also learn about other prominent gods, such as Mars, the god of war, Venus, the goddess of love and beauty, and Mercury, the messenger of the gods.  \n\nThis API is ideal for anyone looking to build applications centered around ancient mythology, history, or culture. Whether you're developing a website, a mobile app, or a game, ...\nAPI description: Searches for a Roman God by name to get a description about them.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "god": {
+                "type": "string",
+                "description": "The name of the Roman God to search for.",
+                "default": "jupiter"
+            }
+        },
+        "required": [
+            "god"
+        ]
+    }
+}

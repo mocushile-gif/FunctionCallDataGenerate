@@ -1,0 +1,35 @@
+{
+    "name": "calc",
+    "description": "This is a sub-function API for tool distance_calculator_v3.\nTool description: Calculates the distance between two coordinates\nAPI description: Calculates the distance between two geographical coordinates using the RapidAPI distance calculator.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "startlongitude": {
+                "type": "number",
+                "description": "Longitude of the starting point.",
+                "default": -48.880964
+            },
+            "startlatitude": {
+                "type": "number",
+                "description": "Latitude of the starting point.",
+                "default": -26.31196
+            },
+            "endlongitude": {
+                "type": "number",
+                "description": "Longitude of the endpoint.",
+                "default": -48.881103
+            },
+            "endlatitude": {
+                "type": "number",
+                "description": "Latitude of the endpoint.",
+                "default": -26.313662
+            }
+        },
+        "required": [
+            "startlongitude",
+            "startlatitude",
+            "endlongitude",
+            "endlatitude"
+        ]
+    }
+}

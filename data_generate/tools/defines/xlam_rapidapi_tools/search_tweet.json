@@ -1,0 +1,27 @@
+{
+    "name": "search_tweet",
+    "description": "This is a sub-function API for tool twitter_pack_v2.\nTool description: Complete pack to get any public information on twitter, includes Twitter Trends, Search Tweet, User Activity\nAPI description: Searches for tweets based on a given query string using the Twitter Pack API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The query string to search for in tweets.",
+                "default": "elon musk"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "The cursor string to paginate through results. Defaults to 'scroll:thGAVUV0VFVBaegLaxgNKXty0WloC2kd7Tl7ctEnEVzId6FYCJehgEVVNFUjUBFQAVAAA='.",
+                "default": "scroll:thGAVUV0VFVBaegLaxgNKXty0WloC2kd7Tl7ctEnEVzId6FYCJehgEVVNFUjUBFQAVAAA="
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of tweets to retrieve. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

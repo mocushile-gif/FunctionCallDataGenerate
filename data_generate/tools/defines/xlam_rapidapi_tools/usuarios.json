@@ -1,0 +1,14 @@
+{
+    "name": "usuarios",
+    "description": "This is a sub-function API for tool pizzaallapala.\nTool description: api fake to test frontend\nAPI description: Fetches user data from the RapidAPI Pizza Allapala service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The user ID to fetch data for. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

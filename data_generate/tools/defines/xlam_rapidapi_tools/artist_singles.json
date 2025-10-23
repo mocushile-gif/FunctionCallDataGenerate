@@ -1,0 +1,25 @@
+{
+    "name": "artist_singles",
+    "description": "This is a sub-function API for tool spotify_data.\nTool description: Spotify Data\nAPI description: Fetches singles of an artist from the Spotify API using the provided artist ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The Spotify artist ID. Default is '2w9zwq3AktTeYYMuhMjju8'.",
+                "default": "2w9zwq3AktTeYYMuhMjju8"
+            },
+            "offset": {
+                "type": "string",
+                "description": "The index of the first single to return. Default is '0'.",
+                "default": "0"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of singles to return. Default is '20'.",
+                "default": "20"
+            }
+        },
+        "required": []
+    }
+}

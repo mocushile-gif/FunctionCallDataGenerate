@@ -1,0 +1,25 @@
+{
+    "name": "get_stations",
+    "description": "This is a sub-function API for tool vehicle_charging_stations.\nTool description: Find EV charging stations for cars\nYou can use this API to retrieve charging location information,\nAPI description: Return nearest charging stations within\nA POI (Point of Interest), also referred to as a Site or ChargePoint, is the top-level set of information regarding a geographic site with one or more electric vehicle charging equipment present.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "distance": {
+                "type": "string",
+                "description": "The radius in miles to search for charging stations. Defaults to '100'.",
+                "default": "100"
+            },
+            "longitude": {
+                "type": "string",
+                "description": "The longitude coordinate for the search location. Defaults to '2.4379392'.",
+                "default": "2.4379392"
+            },
+            "latitude": {
+                "type": "string",
+                "description": "The latitude coordinate for the search location. Defaults to '44.351488'.",
+                "default": "44.351488"
+            }
+        },
+        "required": []
+    }
+}

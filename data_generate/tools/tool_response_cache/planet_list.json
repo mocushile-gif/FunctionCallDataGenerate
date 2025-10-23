@@ -1,0 +1,27 @@
+{
+    "{}": {
+        "error": "",
+        "response": [
+            {
+                "id": 0,
+                "mass": "2.89 (\u00b1 0.26)[1] MEarth",
+                "temperature": "259 K (\u221214 \u00b0C; 7 \u00b0F)[3]",
+                "discovery": {
+                    "id": 0,
+                    "method": "Radial velocity[1]",
+                    "date": "17 March 2017",
+                    "site": null
+                },
+                "name": "Luyten b"
+            }
+        ]
+    },
+    "{'starid': '4'}": {
+        "error": "",
+        "response": "[{'id': 0, 'mass': '\u22652.89+0.27 \u22120.26 M\ud83d\udf28', 'temperature': '259 K (\u221214 \u00b0C; 7 \u00b0F)[2]', 'discovery': {'id': 0, 'method': 'Radial velocity', 'date': '17 March 2017', 'site': None}, 'name': 'Luyten b'}]"
+    },
+    "{'starid': '1'}": {
+        "error": "",
+        "response": "[{'id': 0, 'mass': '\u22650.26\u00b10.05 M\ud83d\udf28', 'temperature': '360 K (87 \u00b0C; 188 \u00b0F)', 'discovery': {'id': 0, 'method': 'Radial velocity', 'date': '2020', 'site': 'VLT-ESPRESSO'}, 'name': 'Proxima Centauri d'}, {'id': 1, 'mass': '\u22651.07\u00b10.06 M\ud83d\udf28[1]', 'temperature': 'Teq: 234 K (\u221239 \u00b0C; \u221238 \u00b0F)[4]', 'discovery': {'id': 0, 'method': 'Doppler spectroscopy', 'date': '24 August 2016', 'site': 'European Southern Observatory'}, 'name': 'Proxima Centauri b'}, {'id': 2, 'mass': '7\u00b11 ME[3]', 'temperature': '39 K (\u2212234.2 \u00b0C; \u2212389.5 \u00b0F)[1]', 'discovery': {'id': 0, 'method': 'Radial velocity', 'date': 'January 2020', 'site': 'HARPS'}, 'name': 'Proxima Centauri c'}]"
+    }
+}

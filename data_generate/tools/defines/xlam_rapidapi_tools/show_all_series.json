@@ -1,0 +1,16 @@
+{
+    "name": "show_all_series",
+    "description": "This is a sub-function API for tool vod_app.\nTool description: API for video on demand app\nAPI description: Fetches and returns all series information for a given show slug from the VOD App RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "show_slug": {
+                "type": "string",
+                "description": "The unique identifier for the show."
+            }
+        },
+        "required": [
+            "show_slug"
+        ]
+    }
+}

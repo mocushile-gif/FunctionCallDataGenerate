@@ -1,0 +1,22 @@
+{
+    "name": "xyz_map_tiles_for_ocean_conditions",
+    "description": "This is a sub-function API for tool wavebase.\nTool description: Wave, Weather and Tide Conditions for any spot on the Ocean Surface.\n\nXYZ Tiles for Global Wave Conditions\n\nhttps://wavebase.app\nAPI description: Wavebase Global Ocean Tiles API:\n\nWave Signficant Height (GET): https://api.wavebase.app/v1/tiles/singleband/{variable}/{date-timeslot - YYYYMMDDHH}/0/0/0.png\n\ne.g.: https://api.wavebase.app/v1/tiles/singleband/VHM0/2023051703/0/0/0.png \n\nCurrently only Tile at 0/0/0 is available Free.  Contact:  info@wavebase.app for additional tiles.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "variable": {
+                "type": "string",
+                "description": "The ocean variable to fetch (e.g., 'VHM0' for wave significant height).",
+                "default": "VHM0"
+            },
+            "datetime": {
+                "type": "string",
+                "description": "The datetime for the desired observation, in the format 'YYYYMMDDHH'."
+            }
+        },
+        "required": [
+            "variable",
+            "datetime"
+        ]
+    }
+}

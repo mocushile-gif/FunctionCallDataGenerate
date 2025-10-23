@@ -1,0 +1,15 @@
+{
+    "name": "random_post",
+    "description": "This is a sub-function API for tool fake_data_generator.\nTool description: With this API you can generate fake random data with different predefined layouts or define your own layout.\nAPI description: Generates a list of fake posts by calling an external API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "size": {
+                "type": "number",
+                "description": "The number of fake posts to generate. Defaults to 5.",
+                "default": 5.0
+            }
+        },
+        "required": []
+    }
+}

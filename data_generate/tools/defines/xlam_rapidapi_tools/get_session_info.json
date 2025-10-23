@@ -1,0 +1,17 @@
+{
+    "name": "get_session_info",
+    "description": "This is a sub-function API for tool gigopost.\nTool description: The simplest way to involve your teams to share company brand content\nAPI description: Fetches session information using the provided session ID and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "session_id": {
+                "type": "string",
+                "description": "The unique identifier for the session.",
+                "default": "1685369452715x643061726475037300"
+            }
+        },
+        "required": [
+            "session_id"
+        ]
+    }
+}

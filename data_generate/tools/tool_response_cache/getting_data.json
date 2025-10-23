@@ -1,0 +1,32 @@
+{
+    "{'x_rapidapi_key': 'demo'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "city": "New York",
+                    "sales": 125000.5,
+                    "transactions": 1450,
+                    "date_range": "2023-09-01 to 2023-09-30"
+                },
+                {
+                    "city": "London",
+                    "sales": 98000.3,
+                    "transactions": 1120,
+                    "date_range": "2023-09-01 to 2023-09-30"
+                },
+                {
+                    "city": "Tokyo",
+                    "sales": 142000.75,
+                    "transactions": 1680,
+                    "date_range": "2023-09-01 to 2023-09-30"
+                }
+            ],
+            "note": "Demo data limited to September 2023. Use a paid RapidAPI key for full historical data access."
+        }
+    },
+    "{}": {
+        "error": "",
+        "response": "[{'field1': '', 'Invoice_id': '750-67-8428', 'Branch': 'A', 'city': 'Yangon', 'customer_type': 'Member', 'Gender': 'Male', 'Product_line': 'Health and beauty', 'Unit_price': '74.69', 'Quantity': '7', 'Tax': '26.1415', 'Total': '548.9715', 'Date': '01/05/2021', 'time': '01:08:00 PM', 'Payment': 'Ewallet', 'cogs': '522.83', 'gross_margin_percent': '4.761904762', 'income': '26.1415', 'rating': '9.1'}, {'field1': '', 'Invoice_id': '226-31-3081', 'Branch': 'C', 'city': 'Naypyitaw', 'customer_type': 'Normal', 'Gender': 'Male', 'Product_line': 'Electronic accessories', 'Unit_price': '15.28', 'Quantity': '5', 'Tax': '3.82', 'Total': '80.22', 'Date': '03/08/2021', 'time': '10:29:00 AM', 'Payment': 'Cash', 'cogs': '76.4', 'gross_margin_percent': '4.761904762', 'income': '3.82', 'rating': '9.6'}, {'field1': '', 'Invoice_id': '631-41-3108', 'Branch': 'A', 'city': 'Yangon', 'customer_type': 'Normal', 'Gender': 'Male', 'Product_line': 'Home and lifestyle', 'Unit_price': '46.33', 'Quantity': '7', 'Tax': '16.2155', 'Total': '340.5255', 'Date': '03/03/2021', 'time': '01:23:00 PM', 'Payment': 'Credit card', 'cogs': '324.31', 'gross_margin_percent': '4.761904762', 'income': '16.2155', 'rating': '7.4'}, {'field1': '', 'Invoice_id': '123-19-1176', 'Branch': 'A', 'city': 'Yangon', 'customer_type': 'Member', 'Gender': 'Male', 'Product_line': 'Health and beauty', 'Unit_price': '58.22', 'Quantity': '8', 'Tax': '23.288', 'Total': '489.048', 'Date': '01/27/2021', 'time': '08:33:00 PM', 'Payment': 'Ewallet', 'cogs': '465.76', 'gross_margin_percent': '4.761904762', 'income': '23.288', 'rating': '8.4'}, {'field1': '', 'Invoice_id': '373-73-7910', 'Branch': 'A', 'city': 'Yangon', 'customer_type': 'Normal', 'Gender': 'Male', 'Product_line': 'Sports and travel', 'Unit_price': '86.31', 'Quantity': '7', 'Tax': '30.2085', 'Total': '634.3785', 'Date': '02/08/2021', 'time': '10:37:00 AM', 'Payment': 'Ewallet', 'cogs': '604.17', 'gross_margin_percent': '4.761904762', 'income': '30.2085', 'rating': '5.3'}, {'field1': '', 'Invoice_id': '699-14-3026', 'B"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "getfavouriteschamps",
+    "description": "This is a sub-function API for tool sport_odds.\nTool description: Sport Odds by BetsSports\nAPI description: Fetches the favorite champions data from the specified RapidAPI endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "skinname": {
+                "type": "string",
+                "description": "The skin name to include in the query parameters. Defaults to 'betbiga'.",
+                "default": "betbiga"
+            }
+        },
+        "required": []
+    }
+}

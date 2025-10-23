@@ -1,0 +1,58 @@
+{
+    "name": "retrieving_events",
+    "description": "This is a sub-function API for tool opensea_data_query.\nTool description: (Deprecated) Get opensea data without any api key\nAPI description: The `/events` endpoint provides a list of events that occur on the assets that OpenSea tracks. The \"event_type\" field indicates what type of event it is (transfer, successful auction, etc).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "collection_slug": {
+                "type": "string",
+                "description": "The slug of the collection to filter events by."
+            },
+            "auction_type": {
+                "type": "string",
+                "description": "The type of auction to filter events by."
+            },
+            "asset_contract_address": {
+                "type": "string",
+                "description": "The contract address of the asset. Defaults to '0x4372f4d950d30c6f12c7228ade77d6cc019404c9'.",
+                "default": "0x4372f4d950d30c6f12c7228ade77d6cc019404c9"
+            },
+            "token_id": {
+                "type": "number",
+                "description": "The token ID of the asset. Defaults to 309.",
+                "default": 309.0
+            },
+            "collection_editor": {
+                "type": "string",
+                "description": "The editor of the collection."
+            },
+            "occurred_after": {
+                "type": "number",
+                "description": "Unix timestamp to filter events that occurred after this time."
+            },
+            "cursor": {
+                "type": "string",
+                "description": "Cursor for pagination."
+            },
+            "account_address": {
+                "type": "string",
+                "description": "The account address to filter events by."
+            },
+            "occurred_before": {
+                "type": "number",
+                "description": "Unix timestamp to filter events that occurred before this time. Defaults to 1644800000.",
+                "default": 1644800000.0
+            },
+            "only_opensea": {
+                "type": "boolean",
+                "description": "Whether to restrict results to OpenSea only events.",
+                "default": true
+            },
+            "event_type": {
+                "type": "string",
+                "description": "The type of event to filter by (e.g., 'transfer', 'successful')."
+            }
+        },
+        "required": []
+    }
+}

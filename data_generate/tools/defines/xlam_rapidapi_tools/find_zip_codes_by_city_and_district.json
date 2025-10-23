@@ -1,0 +1,34 @@
+{
+    "name": "find_zip_codes_by_city_and_district",
+    "description": "This is a sub-function API for tool polish_zip_codes.\nTool description: Poczta polska - zip codes\nAPI description: Fetch the zip codes for a specified city and district in Poland.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "accept": {
+                "type": "string",
+                "description": "Requested content type.",
+                "default": "application/json"
+            },
+            "city": {
+                "type": "string",
+                "description": "The name of the city to search for zip codes.",
+                "default": "Wrocław"
+            },
+            "district": {
+                "type": "string",
+                "description": "The district within the specified city to search for zip codes.",
+                "default": "Oporów"
+            },
+            "x_traceid": {
+                "type": "string",
+                "description": "A trace ID that is copied to the API response header. Default is 'optional_abc123'.",
+                "default": "optional_abc123"
+            }
+        },
+        "required": [
+            "accept",
+            "city",
+            "district"
+        ]
+    }
+}

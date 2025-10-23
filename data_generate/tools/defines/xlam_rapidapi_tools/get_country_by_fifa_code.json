@@ -1,0 +1,21 @@
+{
+    "name": "get_country_by_fifa_code",
+    "description": "This is a sub-function API for tool geography.\nTool description: Powerful APIs for getting information about Countries and Cities\nAPI description: Gets information about a country using its FIFA assigned country code from the Geography API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fifacode": {
+                "type": "string",
+                "description": "The FIFA assigned country code.",
+                "default": "USA"
+            },
+            "fields": {
+                "type": "string",
+                "description": "A comma-separated list of fields to filter the response. Defaults to None."
+            }
+        },
+        "required": [
+            "fifacode"
+        ]
+    }
+}

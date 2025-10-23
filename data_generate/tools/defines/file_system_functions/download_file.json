@@ -1,0 +1,19 @@
+{
+    "name": "download_file",
+    "description": "Download a file from a given URL and save it to a specified path. If output_path is not provided, the file will be saved to a default working directory using the filename from the URL.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "The URL of the file to download. Must be a valid HTTP or HTTPS link."
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Optional full file path (including filename) to save the downloaded file. If not provided, the filename is inferred from the URL and saved in the working directory."
+        }
+      },
+      "required": ["url"]
+    }
+  }
+  

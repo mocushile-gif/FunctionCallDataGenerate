@@ -1,0 +1,17 @@
+{
+    "name": "solat_time",
+    "description": "This is a sub-function API for tool waktu_solat.\nTool description: Information on prayer times in Malaysia. Sources of information from e-solat.gov.my\nAPI description: Fetches and returns the prayer times for a given zone using the Waktu Solat API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "string",
+                "description": "The zone code to get the prayer times for. This code can be obtained from the /solat/list endpoint of the API.",
+                "default": "SWK07"
+            }
+        },
+        "required": [
+            "code"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "transform_units_using_the_get_method",
+    "description": "This is a sub-function API for tool unit_converter.\nTool description: Unit Converter API allows developers to easily integrate unit conversion functionality into their applications. It supports a wide range of units across different categories\nAPI description: Converts units using the GET method of the Unit Converter API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "to": {
+                "type": "string",
+                "description": "The unit to which the value will be converted. Default is 'Square mile'.",
+                "default": "Square mile"
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of conversion (e.g., 'area', 'length'). Default is 'area'.",
+                "default": "area"
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The unit from which the value will be converted. Default is 'Square kilometer'.",
+                "default": "Square kilometer"
+            },
+            "value": {
+                "type": "number",
+                "description": "The numerical value to be converted. Default is 1.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

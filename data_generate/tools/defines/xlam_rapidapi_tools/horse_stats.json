@@ -1,0 +1,17 @@
+{
+    "name": "horse_stats",
+    "description": "This is a sub-function API for tool horse_racing_usa.\nTool description: Horse Racing API - USA races\nAPI description: Fetches the racing statistics for a specified horse using the RapidAPI Horse Racing API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "id_horse": {
+                "type": "string",
+                "description": "The unique identifier of the horse.",
+                "default": "233"
+            }
+        },
+        "required": [
+            "id_horse"
+        ]
+    }
+}

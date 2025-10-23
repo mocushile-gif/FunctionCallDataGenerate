@@ -1,0 +1,27 @@
+{
+    "name": "videos",
+    "description": "This is a sub-function API for tool youtube_v3_lite.\nTool description: Lite version of Youtube Data API v3. Get Youtube data without any Youtube api key\nAPI description: Get YouTube Video details.\nQuota cost is 1. For statistics part, quota is +1.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "part": {
+                "type": "string",
+                "description": "The part parameter specifies a comma-separated list of one or more video resource properties that the API response will include.",
+                "default": "snippet,contentDetails,statistics"
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the YouTube video for which details are to be fetched.",
+                "default": "arj7oStGLkU"
+            },
+            "x_cachebypass": {
+                "type": "string",
+                "description": "Set this parameter to '1' to bypass the cache. Default is None."
+            }
+        },
+        "required": [
+            "part",
+            "is_id"
+        ]
+    }
+}

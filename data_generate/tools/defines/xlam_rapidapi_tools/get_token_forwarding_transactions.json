@@ -1,0 +1,35 @@
+{
+    "name": "get_token_forwarding_transactions",
+    "description": "This is a sub-function API for tool token_forwarding.\nTool description: Automatic token forwarding once funds are received. Support BNB, BEP20, ETH and ERC20 tokens.\nAPI description: Fetch token forwarding transactions based on specified query parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "updatedlt": {
+                "type": "string",
+                "description": "A timestamp to fetch transactions last updated before this time. Format: 'YYYY-MM-DD HH:MM:SS'.",
+                "default": "2022-01-11 06:08:17"
+            },
+            "updatedgte": {
+                "type": "string",
+                "description": "A timestamp to fetch transactions last updated after this time. Format: 'YYYY-MM-DD HH:MM:SS'.",
+                "default": "2023-01-10 06:08:17"
+            },
+            "is_id": {
+                "type": "string",
+                "description": "An identifier to fetch specific transactions.",
+                "default": "dfe02338-43ae-453f-bd51-6f0ea98e4df9"
+            },
+            "offset": {
+                "type": "number",
+                "description": "The number of items to skip before starting to collect the result set. Default is 0.",
+                "default": 0.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of items to return. Default is 100.",
+                "default": 100.0
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "artist_discography_overview",
+    "description": "This is a sub-function API for tool spotify_data.\nTool description: Spotify Data\nAPI description: Fetches the discography overview of an artist from the Spotify API using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the artist for which the discography overview is to be retrieved.",
+                "default": "2w9zwq3AktTeYYMuhMjju8"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

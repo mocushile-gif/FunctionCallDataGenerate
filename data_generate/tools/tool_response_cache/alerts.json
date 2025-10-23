@@ -1,0 +1,50 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "lat": "45.74846N",
+            "lon": "4.84671E",
+            "elevation": 173,
+            "timezone": "Europe/Paris",
+            "alerts": {
+                "data": []
+            }
+        }
+    },
+    "{'language': 'en', 'lat': '39.7817', 'lon': '-89.6501'}": {
+        "error": "",
+        "response": "{'lat': '39.7817N', 'lon': '89.6501W', 'elevation': 607, 'timezone': 'America/Chicago', 'alerts': {'data': []}}"
+    },
+    "{'lat': '47.7511', 'lon': '-120.7401'}": {
+        "error": "",
+        "response": "{'lat': '47.7511N', 'lon': '120.7401W', 'elevation': 2024, 'timezone': 'America/Los_Angeles', 'alerts': {'data': []}}"
+    },
+    "{'lat': '51.5072', 'lon': '-0.1276', 'language': 'en', 'timezone': 'auto'}": {
+        "error": "",
+        "response": "{'lat': '51.5072N', 'lon': '0.1276W', 'elevation': 19, 'timezone': 'Europe/London', 'alerts': {'data': []}}"
+    },
+    "{'lat': '39.9075', 'lon': '116.39723', 'language': 'fr'}": {
+        "error": "",
+        "response": "{'lat': '39.9075N', 'lon': '116.39723E', 'elevation': 49, 'timezone': 'Asia/Shanghai', 'alerts': {'data': []}}"
+    },
+    "{'language': 'en', 'lat': '40.712776', 'lon': '-74.005974'}": {
+        "error": "",
+        "response": "{'lat': '40.712776N', 'lon': '74.005974W', 'elevation': 112, 'timezone': 'America/New_York', 'alerts': {'data': []}}"
+    },
+    "{'language': 'en', 'lat': '40.7128', 'lon': '-74.0060'}": {
+        "error": "",
+        "response": "{'lat': '40.7128N', 'lon': '74.006W', 'elevation': 112, 'timezone': 'America/New_York', 'alerts': {'data': []}}"
+    },
+    "{'language': 'en', 'lat': '45.74846', 'lon': '4.84671'}": {
+        "error": "",
+        "response": "{'lat': '45.74846N', 'lon': '4.84671E', 'elevation': 173, 'timezone': 'Europe/Paris', 'alerts': {'data': []}}"
+    },
+    "{'language': 'en', 'lat': '48.8566', 'lon': '2.3522'}": {
+        "error": "",
+        "response": "{'lat': '48.8566N', 'lon': '2.3522E', 'elevation': 39, 'timezone': 'Europe/Paris', 'alerts': {'data': [{'event': 'Moderate Thunderstorms', 'onset': '2025-06-14T00:00:00', 'expires': '2025-06-15T00:00:00', 'sender': 'Meteo France', 'certainty': 'Likely', 'severity': 'Moderate', 'headline': 'Moderate thunderstorm warning', 'description': 'Moderate damages may occur, especially in vulnerable or in exposed areas and to people who carry out weather-related activities.'}]}}"
+    },
+    "{'lat': '48.8566', 'lon': '2.3522', 'language': 'en'}": {
+        "error": "",
+        "response": "{'lat': '48.8566N', 'lon': '2.3522E', 'elevation': 39, 'timezone': 'Europe/Paris', 'alerts': {'data': []}}"
+    }
+}

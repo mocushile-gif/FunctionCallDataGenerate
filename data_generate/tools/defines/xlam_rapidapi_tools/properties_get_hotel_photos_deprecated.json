@@ -1,0 +1,17 @@
+{
+    "name": "properties_get_hotel_photos_deprecated",
+    "description": "This is a sub-function API for tool hotels.\nTool description: This API helps to query rooms, price, facilities, policities, etc information from many hotels around the world to create a travelling site/application, such as : hotels.com\nAPI description: This function fetches all available photos for a given hotel property using the specified RapidAPI key. ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The value of id field that received from .../properties/list endpoint",
+                "default": 1178275040.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

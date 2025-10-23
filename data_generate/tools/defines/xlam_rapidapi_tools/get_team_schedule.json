@@ -1,0 +1,24 @@
+{
+    "name": "get_team_schedule",
+    "description": "This is a sub-function API for tool tank01_mlb_live_in_game_real_time_statistics.\nTool description: Tank01 back with an API providing you with MLB (Major League Baseball) STATS!! \nLIVE, IN-GAME, REAL TIME, statistics.  \n\nWITH BETTING / GAMBLING ODDS AND PLAYER PROP BETS\n\nGame schedules, game times, and rosters are updated every hour as well.\n\nIncludes player news, fantasy news, and top headlines, all updated multiple times an hour.\n\nPerfect to support your fantasy site or any application that needs MLB data in real time.\nAPI description: This endpoint returns the full season schedule for any MLB team identified in the parameters.\n\nExample:\n\n/getMLBTeamSchedule?teamID=6\nor\n/getMLBTeamSchedule?teamAbv=CHW\n\nCalling it either way will return the same result, a list of the White Sox games this season, each game in it's own map.  If the game has been played, the linescore and game result will be included in the game's map.\n\nYou can also add the \"season\" parameter if you want to specify season.  Right now we only have season 2022 and 2023.   \nDefa",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season": {
+                "type": "string",
+                "description": "The season year in YYYY format. Defaults to '2023'. Only '2022' and '2023' are valid.",
+                "default": "2023"
+            },
+            "teamid": {
+                "type": "string",
+                "description": "The unique identifier for the team. Accepts values from 1 to 30."
+            },
+            "teamabv": {
+                "type": "string",
+                "description": "The team's abbreviation, such as 'CHI' for the Chicago Bulls, 'BOS' for the Boston Celtics, or 'ATL' for the Atlanta Hawks. Defaults to 'GS'.",
+                "default": "CHW"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "convert_excel_to_csv",
+    "description": "Convert between Excel (.xlsx/.xls) and CSV (.csv) formats.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "input_path": {
+          "type": "string",
+          "description": "Path to the input file (.xlsx, .xls, or .csv)."
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path to the output file (.csv, .xlsx, or .xls)."
+        },
+        "sheet_name": {
+          "type": ["string", "integer"],
+          "description": "Sheet name or index for Excel-to-CSV conversion (ignored for CSV-to-Excel).",
+          "default": 0
+        }
+      },
+      "required": ["input_path", "output_path"]
+    }
+  }
+  

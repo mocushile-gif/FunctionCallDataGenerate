@@ -1,0 +1,35 @@
+{
+    "name": "channel_videos_playlists",
+    "description": "This is a sub-function API for tool youtube_v3_lite.\nTool description: Lite version of Youtube Data API v3. Get Youtube data without any Youtube api key\nAPI description: Retrieve videos or playlists from a YouTube channel using the channel ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "channelid": {
+                "type": "string",
+                "description": "The ID of the YouTube channel to fetch videos or playlists from.",
+                "default": "UCAuUUnT6oDeKwE6v1NGQxug"
+            },
+            "part": {
+                "type": "string",
+                "description": "The part parameter specifies a comma-separated list of one or more video resource properties that the API response will include.",
+                "default": "id,snippet"
+            },
+            "x_cachebypass": {
+                "type": "string",
+                "description": "Cache bypass parameter. The value must be '1' to bypass the cache."
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of resource to fetch. Acceptable values are 'video', 'playlist'."
+            },
+            "order": {
+                "type": "string",
+                "description": "The parameter to sort the results. Default is 'date'. Acceptable values are:"
+            }
+        },
+        "required": [
+            "channelid",
+            "part"
+        ]
+    }
+}

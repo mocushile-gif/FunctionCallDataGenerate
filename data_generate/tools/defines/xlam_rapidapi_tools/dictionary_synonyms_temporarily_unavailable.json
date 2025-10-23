@@ -1,0 +1,21 @@
+{
+    "name": "dictionary_synonyms_temporarily_unavailable",
+    "description": "This is a sub-function API for tool webit_language.\nTool description: A.I. Text Paraphrase (Rewrite), Dictionary (Lookup, Examples, Bilingual, Synonyms, Antonyms), Key Phrases, Sentences Breaker.\nAPI description: Fetches synonyms from a dictionary API for a given word in the specified language.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "language": {
+                "type": "string",
+                "description": "The language for which the synonyms are to be fetched."
+            },
+            "q": {
+                "type": "string",
+                "description": "The word for which synonyms are being requested."
+            }
+        },
+        "required": [
+            "language",
+            "q"
+        ]
+    }
+}

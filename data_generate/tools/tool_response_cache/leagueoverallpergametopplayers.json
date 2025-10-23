@@ -1,0 +1,38 @@
+{
+    "{'tournamentid': 132, 'seasonid': 2024}": {
+        "error": "",
+        "response": ""
+    },
+    "{'tournamentid': 132, 'seasonid': 20242025}": {
+        "error": "",
+        "response": ""
+    },
+    "{'tournamentid': 132, 'seasonid': 2023}": {
+        "error": "",
+        "response": ""
+    },
+    "{'tournamentid': 132, 'seasonid': 45096}": {
+        "error": "",
+        "response": "{'topPlayers': {'assists': [{'event': {'awayScore': {'current': 114, 'display': 114, 'normaltime': 114, 'period1': 33, 'period2': 30, 'period3': 22, 'period4': 29}, 'awayTeam': {'disabled': False, 'gender': 'M', 'id': 3425, 'name': 'Los Angeles Clippers', 'nameCode': 'LAC', 'national': False, 'shortName': 'Clippers', 'slug': 'los-angeles-clippers', 'sport': {'id': 2, 'name': 'Basketball', 'slug': 'basketball'}, 'teamColors': {'primary': '#006bb6', 'secondary': '#ed174c', 'text': '#ed174c'}, 'type': 0, 'userCount': 37440}, 'customId': 'vtbsAtb', 'finalResultOnly': False, 'homeScore': {'current': 119, 'display': 119, 'normaltime': 119, 'period1': 24, 'period2': 27, 'period3': 34, 'period4': 34}, 'homeTeam': {'disabled': False, 'gender': 'M', 'id': 3420, 'name': 'Philadelphia 76ers', 'nameCode': 'PHI', 'national': False, 'shortName': '76ers', 'slug': 'philadelphia-76ers', 'sport': {'id': 2, 'name': 'Basketball', 'slug': 'basketball'}, 'teamColors': {'primary': '#006bb6', 'secondary': '#ed174c', 'text': '#ed174c'}, 'type': 0, 'userCount': 50024}, 'id': 10600411, 'slug': 'los-angeles-clippers-philadelphia-76ers', 'startTimestamp': 1671840000, 'status': {'code': 100, 'description': 'Ended', 'type': 'finished'}, 'tournament': {'category': {'alpha2': 'US', 'flag': 'usa', 'id': 15, 'name': 'USA', 'slug': 'usa', 'sport': {'id': 2, 'name': 'Basketball', 'slug': 'basketball'}}, 'id': 177, 'name': 'NBA', 'priority': 142, 'slug': 'nba', 'uniqueTournament': {'category': {'alpha2': 'US', 'flag': 'usa', 'id': 15, 'name': 'USA', 'slug': 'usa', 'sport': {'id': 2, 'name': 'Basketball', 'slug': 'basketball'}}, 'displayInverseHomeAwayTeams': True, 'id': 132, 'name': 'NBA', 'primaryColorHex': '#045daf', 'secondaryColorHex': '#cc2b31', 'slug': 'nba', 'userCount': 246111}}, 'winnerCode': 1}, 'player': {'firstName': 'James', 'id': 817133, 'lastName': 'Harden ', 'name': 'James Harden', 'position': 'G', 'shortName': 'J. Harden', 'slug': 'harden-james', 'userCount': 39421}, 'statistic': 21}, {'event': {'awayScore': {'current': 128, 'display'"
+    },
+    "{'seasonid': 45096, 'tournamentid': 132}": {
+        "error": "",
+        "response": "{'topPlayers': {'points': [{'statistic': 71, 'player': {'name': 'Damian Lillard', 'firstName': 'Damian', 'lastName': 'Lillard', 'slug': 'lillard-damian', 'shortName': 'D. Lillard', 'position': 'G', 'jerseyNumber': '0', 'userCount': 19494, 'id': 817232, 'fieldTranslations': {'nameTranslation': {'ar': '\u0644\u064a\u0644\u0627\u0631\u062f\u060c \u062f\u0627\u0645\u064a\u0627\u0646', 'hi': '\u0932\u093f\u0932\u093e\u0930\u094d\u0921, \u0921\u0947\u092e\u093f\u092f\u0928', 'bn': '\u09b2\u09bf\u09b2\u09be\u09b0\u09cd\u09a1, \u09a1\u09cd\u09af\u09be\u09ae\u09bf\u09af\u09bc\u09be\u09a8'}, 'shortNameTranslation': {'ar': '\u062f. \u0644\u064a\u0644\u0627\u0631\u062f', 'hi': '\u0921\u0940. \u0932\u093f\u0932\u093e\u0930\u094d\u0921', 'bn': '\u09a1\u09bf. \u09b2\u09bf\u09b2\u09be\u09b0\u09cd\u09a1'}}}, 'event': {'officials': [], 'tournament': {'name': 'NBA', 'slug': 'nba', 'category': {'name': 'USA', 'slug': 'usa', 'sport': {'name': 'Basketball', 'slug': 'basketball', 'id': 2}, 'id': 15, 'flag': 'usa', 'alpha2': 'US'}, 'uniqueTournament': {'name': 'NBA', 'slug': 'nba', 'primaryColorHex': '#045daf', 'secondaryColorHex': '#cc2b31', 'category': {'name': 'USA', 'slug': 'usa', 'sport': {'name': 'Basketball', 'slug': 'basketball', 'id': 2}, 'id': 15, 'flag': 'usa', 'alpha2': 'US'}, 'userCount': 243594, 'id': 132, 'displayInverseHomeAwayTeams': True, 'fieldTranslations': {'nameTranslation': {'ar': '\u0627\u0644\u062f\u0648\u0631\u064a \u0627\u0644\u0623\u0645\u064a\u0631\u0643\u064a \u0644\u0644\u0645\u062d\u062a\u0631\u0641\u064a\u0646', 'hi': '\u090f\u0928\u092c\u0940\u090f', 'bn': '\u098f\u09a8\u09ac\u09bf\u098f'}, 'shortNameTranslation': {}}}, 'priority': 143, 'isLive': False, 'id': 177, 'fieldTranslations': {'nameTranslation': {'ar': '\u062f\u0648\u0631\u064a NBA', 'hi': '\u090f\u0928\u092c\u0940\u090f', 'bn': '\u098f\u09a8\u09ac\u09bf\u098f'}, 'shortNameTranslation': {}}}, 'customId': 'mtbsotb', 'status': {'code': 100, 'description': 'Ended', 'type': 'finished'}, 'winnerCode': 1, 'homeTeam': {'name': 'Portland Trail Blazers', 'slug': 'portland-trail-blazers', 'shortName': 'Trail Blazers', 'gender': 'M', 'sport': {'name': 'Basketball', 'slug': 'basketball', 'id': 2}, 'userCount': 23611, 'nameCode': 'POR', 'disabled': False, 'national': False, 'type': 0, 'id': 3414, 'entityType': 'team', 'teamColors': {'primary': '#f0163a', 'secondary': '#ffffff', 'text': '#ffffff'}, 'fieldTranslations': {'nameTranslation': {'ar': '\u0628\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u064a\u0644 \u0628\u0644\u064a\u0632\u0631\u0632', 'ru': '\u041f\u043e\u0440\u0442\u043b\u0435\u043d\u0434 \u0422\u0440\u044d\u0439\u043b \u0411\u043b\u044d\u0439\u0437\u0435\u0440\u0441', 'hi': '\u092a\u094b\u0930\u094d\u091f\u0932\u0948\u0902\u0921 \u091f\u094d\u0930\u0947\u0932 \u092c\u094d\u0932\u0947\u091c\u093c\u0930\u094d\u0938', 'bn': '\u09aa\u09cb\u09b0\u09cd\u099f\u09b2\u09cd\u09af\u09be\u09a8\u09cd\u09a1 \u099f\u09cd\u09b0\u09c7\u0987\u09b2 \u09ac\u09cd\u09b2\u09c7\u099c\u09be\u09b0'}, 'shortNameTranslation': {'ar': '\u062a\u0631\u064a\u0644 \u0628\u0644\u064a\u0632\u0631\u0632', 'hi"
+    },
+    "{'seasonid': 20230222, 'tournamentid': 132}": {
+        "error": "",
+        "response": ""
+    },
+    "{'tournamentid': 132, 'seasonid': 45097}": {
+        "error": "",
+        "response": ""
+    },
+    "{'seasonid': 45096, 'tournamentid': 12345}": {
+        "error": "",
+        "response": ""
+    },
+    "{'seasonid': 45096, 'tournamentid': 67890}": {
+        "error": "",
+        "response": ""
+    }
+}

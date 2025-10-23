@@ -1,0 +1,34 @@
+{
+    "name": "searchoffers",
+    "description": "This is a sub-function API for tool google_jobs.\nTool description: Google Jobs Scraper\nAPI description: Gets all job offers from the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to search for job offers.",
+                "default": "Secretary"
+            },
+            "posted": {
+                "type": "string",
+                "description": "The time frame for when the job offers were posted (e.g., 'last 24 hours', 'last 7 days')."
+            },
+            "offset": {
+                "type": "number",
+                "description": "The index offset for pagination of results.",
+                "default": 0.0
+            },
+            "location": {
+                "type": "string",
+                "description": "The location to search for job offers.",
+                "default": "Frankfurt"
+            }
+        },
+        "required": [
+            "keyword",
+            "posted",
+            "offset",
+            "location"
+        ]
+    }
+}

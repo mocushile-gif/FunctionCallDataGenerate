@@ -1,0 +1,28 @@
+{
+    "name": "tz_lookup_by_location",
+    "description": "This is a sub-function API for tool stadia_maps_time_zone_api.\nTool description: The Stadia TZ API provides time zone information, as well as information about any special offset (such as DST) in effect, now or in the future.\nAPI description: The Stadia TZ Lookup API provides time zone information, as well as information about any special offset (such as DST) in effect based on the latest IANA TZDB. Note that this API may not be accurate for timestamps in the past and does not claim to report precise nautical times in the open ocean beyond territorial waters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "The latitude component of a geographic location.",
+                "default": 37.4666405
+            },
+            "lng": {
+                "type": "number",
+                "description": "The longitude component of a geographic location.",
+                "default": -85.89465
+            },
+            "timestamp": {
+                "type": "number",
+                "description": "The UNIX timestamp at which the UTC and DST offsets will be calculated. This defaults to the present time. This endpoint is not necessarily guaranteed to be accurate for timestamps that occurred in the past. Time zone geographic boundaries change over time, so if the point you are querying for was previously in a different time zone, historical results will not be accurate. If, however, the point has been in the same geographic time zone for a very long time (ex: America/New_York), the historical data may b",
+                "default": 1589932800.0
+            }
+        },
+        "required": [
+            "lat",
+            "lng"
+        ]
+    }
+}

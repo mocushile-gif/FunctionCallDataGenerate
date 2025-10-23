@@ -1,0 +1,15 @@
+{
+    "name": "movie_suggestions",
+    "description": "This is a sub-function API for tool list_movies_v3.\nTool description: This Movies API contains the data of the best movies ever made in a very easy-to-use and organized format.\n\nGreat choice for REST API based Frontend Developer Projects.\n\nIn the case of accessing the complete list, the Cover image, Rank, Title, Thumbnail, Rating, Id, Year, Images, Description, Trailer, Genre, Director, Writer and ID of the movies are listed.\n\nThis is a lightweight web service, (REST interface), which provides an easy way to access our database.\n\nAn API (Application programming...\nAPI description: Returns 4 related movies as suggestions for the user",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "movie_id": {
+                "type": "number",
+                "description": "The ID of the movie for which to get related suggestions. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": []
+    }
+}

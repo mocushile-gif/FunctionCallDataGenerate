@@ -1,0 +1,27 @@
+{
+    "name": "retrieve_trait_offers",
+    "description": "This is a sub-function API for tool opensea_v2.\nTool description: Opensea / Blur / Looksrare / x2y2  API - 1,000+  requests/min\n\nSimple & high performance Opensea / Blur / Looksrare / x2y2  API, backed by rotating proxies & API keys\n\n- Crypto Payments Available\n\n- Lifetime Unlimited Requests Licenses Available\n\n- Private Plans with 16 / 32 / 64 / 128  requests/second Available\n\n- Ready made bots written in node.js already configured to work with RapidApi Available.\n\nJoin our Discord to inquire & find out the latest information and tools: \n\nhttps://discord.g...\nAPI description: This endpoint is used to get all trait offers for a specified collection.\n\nWhat are trait offers?\nA trait offer is an offer that applies to every item in a collection with the specified trait. For example, this is a filter that shows every Cool Cat NFT where the type is 'tier' and the value is 'classy_1'.\n\nBelow is a response when querying trait offers for Cool Cats where trait type is 'tier' and the value is 'classy_1'.\n\nNote: this example query might not return any data if there are no open offers for tha",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The slug identifier for the collection on OpenSea.",
+                "default": "cool-cats-nft"
+            },
+            "value": {
+                "type": "string",
+                "description": "The value of the trait to filter by. Defaults to 'classy_1'.",
+                "default": "classy_1"
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of trait to filter by. Defaults to 'tier'.",
+                "default": "tier"
+            }
+        },
+        "required": [
+            "slug"
+        ]
+    }
+}

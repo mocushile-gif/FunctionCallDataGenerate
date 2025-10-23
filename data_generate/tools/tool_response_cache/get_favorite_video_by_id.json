@@ -1,0 +1,6 @@
+{
+    "{'mixid': 7200829644763942000, 'count': 30, 'cursor': 0}": {
+        "error": "",
+        "response": "The API has successfully processed the request to retrieve favorite videos for the mix ID 7200829644763942000. A total of up to 30 videos will be fetched starting from the cursor position 0. This allows you to access a detailed list of favorite videos associated with the specified mix ID. If additional pages of results are needed, you can adjust the cursor value for pagination. Please note that the video download links can be obtained using the 'get video details' API as this endpoint does not directly provide download links."
+    }
+}

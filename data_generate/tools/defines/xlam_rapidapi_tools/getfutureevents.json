@@ -1,0 +1,17 @@
+{
+    "name": "getfutureevents",
+    "description": "This is a sub-function API for tool azure_smartable.\nTool description: The Azure Smartable API offers the Microsoft Azure news, learning resources, events, influencers and other information.\nAPI description: Fetches future Azure events from a specified API endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number of the events to be retrieved.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "page"
+        ]
+    }
+}

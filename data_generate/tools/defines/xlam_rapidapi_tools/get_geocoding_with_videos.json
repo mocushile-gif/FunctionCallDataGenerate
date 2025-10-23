@@ -1,0 +1,34 @@
+{
+    "name": "get_geocoding_with_videos",
+    "description": "This is a sub-function API for tool geocoding_places.\nTool description: Geocoding places Info with images & videos.\nAPI description: Get complete readable place info in prefered language with related video on Youtube based on given latitude and longitude.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "Latitude in decimal degrees (WGS84).",
+                "default": 37.422213
+            },
+            "lng": {
+                "type": "number",
+                "description": "Longitude in decimal degrees (WGS84).",
+                "default": -122.084058
+            },
+            "version": {
+                "type": "string",
+                "description": "API version to be used for the request.",
+                "default": "v1"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Preferred language of the content. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "lat",
+            "lng",
+            "version"
+        ]
+    }
+}

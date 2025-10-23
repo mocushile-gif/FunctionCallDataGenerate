@@ -1,0 +1,22 @@
+{
+    "{'query': 'Farringdon Road'}": {
+        "error": "",
+        "response": "The search term 'Farringdon Road' returned a list of addresses located on or near Farringdon Road in the UK. These addresses include residential, commercial, and other properties registered in the Royal Mail PAF database. The results also provide geocoding information, such as latitude and longitude, to help identify the precise location of each address. This data is useful for navigation, delivery services, and location-based analysis."
+    },
+    "{'query': 'Oxford Circus'}": {
+        "error": "",
+        "response": "{'status': 402, 'message': 'Find By Address API not avaialble with Free Trial Plan, Please upgrade your account.', 'upgrade-url': 'https://www.apitier.com/api/postcode/pricing'}"
+    },
+    "{'query': '52 Park Street, Birmingham B1 2JN'}": {
+        "error": "",
+        "response": "{'status': 402, 'message': 'Find By Address API not avaialble with Free Trial Plan, Please upgrade your account.', 'upgrade-url': 'https://www.apitier.com/api/postcode/pricing'}"
+    },
+    "{'query': 'New York'}": {
+        "error": "",
+        "response": "{'status': 402, 'message': 'Find By Address API not avaialble with Free Trial Plan, Please upgrade your account.', 'upgrade-url': 'https://www.apitier.com/api/postcode/pricing'}"
+    },
+    "{'query': '23 Riverview Terrace, Kensington, postcode 6017'}": {
+        "error": "",
+        "response": "{'status': 402, 'message': 'Find By Address API not avaialble with Free Trial Plan, Please upgrade your account.', 'upgrade-url': 'https://www.apitier.com/api/postcode/pricing'}"
+    }
+}

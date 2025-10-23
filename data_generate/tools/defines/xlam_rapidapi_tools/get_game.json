@@ -1,0 +1,17 @@
+{
+    "name": "get_game",
+    "description": "This is a sub-function API for tool league_of_legends_esports.\nTool description: This api gives you all of the lol esports leagues , vods, tournaments, match , game , event details with videos , scheadule , standings, teams and their players. And live game score.\nAPI description: In this api method you can search all of the game data with game id. You can get this id from the Get Vods api method.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "gameid": {
+                "type": "string",
+                "description": "The unique identifier of the game to retrieve data for.",
+                "default": "107458367241215654"
+            }
+        },
+        "required": [
+            "gameid"
+        ]
+    }
+}

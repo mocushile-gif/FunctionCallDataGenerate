@@ -1,0 +1,28 @@
+{
+    "name": "ec",
+    "description": "This is a sub-function API for tool arespass.\nTool description: AresPass is a password analyzer that calculates its entropy and shows a complete report that includes the password fragments having low randomness. Among the analysis carried out are multi-language word search, keyboard sequence search or irregular entropy distribution, to mention some of them.\nAPI description: Analyzes a given password based on a variety of parameters and returns the analysis.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "password": {
+                "type": "string",
+                "description": "**The password to be analyzed.**\n\nMinimum length is 4 characters; maximum length is 128 characters.\n\nBeware that certain characters like '&#35;', '&#61;' or '&#63;' must be properly encoded.\n\nFor more information about this issue, please refer to RFC 3986 (\"*Uniform Resource Identifier (URI): Generic Syntax*\"), sections 2.1, 2.2 and 2.4.\n"
+            },
+            "penalty": {
+                "type": "number",
+                "description": "**The penalty applied to each character that is part of a word, number sequence, alphabet sequence, etc.**\n\nThe penalty is a float number in the range [0, 1]. Full penalty, 0; no penalty, 1.\n\nThe character used as decimal separator is always '&#46;'. Hence, a parameter value like *0,33* would be illegal.\n\nThe default value is *0.25*.\n"
+            },
+            "outputformat": {
+                "type": "string",
+                "description": "**The format of the returned analysis.**\n\nAllowed values are *json*, *xml* and *yaml*.\n\nThe default value is *xml*.\n"
+            },
+            "reqid": {
+                "type": "string",
+                "description": "**An identifier for this request.**\n\nThe request identifier is a string that must match the regular expression */(?i)^[a-z0-9]{8,16}$/*.\n\nThis identifier is echoed in the returned response. Its value has no effect on the password analysis.\n\nIf this parameter is unset, a randomly generated identifier will be automatically assigned to this request.\n"
+            }
+        },
+        "required": [
+            "password"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "{'is_id': '0xd259f882f051c3ef49a6f79e0a634be47ff643513c418ca753c93dcca8d4d675-0'}": {
+        "error": "",
+        "response": {
+            "swap_id": "0xd259f882f051c3ef49a6f79e0a634be47ff643513c418ca753c93dcca8d4d675-0",
+            "details": {
+                "transaction_hash": "0xd259f882f051c3ef49a6f79e0a634be47ff643513c418ca753c93dcca8d4d675",
+                "block_number": 12345678,
+                "timestamp": "2023-10-01T12:34:56Z",
+                "sender": "0x1234567890abcdef1234567890abcdef12345678",
+                "recipient": "0xabcdef1234567890abcdef1234567890abcdef12",
+                "amount_in": {
+                    "token": "WETH",
+                    "value": "1.5"
+                },
+                "amount_out": {
+                    "token": "USDC",
+                    "value": "3000"
+                },
+                "liquidity_provider_fee": {
+                    "token": "WETH",
+                    "value": "0.0045"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "companies_profile",
+    "description": "This is a sub-function API for tool financial_modeling_prep.\nTool description: Extensive Financial Data API covering more than 70,000 Stocks, ETFs, Mutual Funds and indexes! Real-time & Historical Data\nAPI description: This API returns companies profile (Price,Beta,Volume Average, Market Capitalisation, Last Dividend, 52 week range, stock price change, stock price change in percentage, Company Name, Exchange, Description, Industry,Sector,CEO,Website and image).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol of the company.",
+                "default": "AAPL"
+            },
+            "apikey": {
+                "type": "string",
+                "description": "API key for the Financial Modeling Prep API.",
+                "default": "rapid_api"
+            }
+        },
+        "required": [
+            "symbol",
+            "apikey"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "links_finder",
+    "description": "This is a sub-function API for tool explorarc_s_link_finder.\nTool description: ExplorArc's Link Finder API simplifies the process of finding relevant links by returning results based on a given query. With this powerful tool, users can easily access the information they need to streamline their workflow and achieve their goals\nAPI description: ExplorArc's Link Finder API simplifies the process of finding relevant links by returning results based on a given query. With this powerful tool, users can easily access the information they need to streamline their workflow and achieve their goals",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query to find relevant links. Defaults to 'roadmap'.",
+                "default": "roadmap"
+            }
+        },
+        "required": []
+    }
+}

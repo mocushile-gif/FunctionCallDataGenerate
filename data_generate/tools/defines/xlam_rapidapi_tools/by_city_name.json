@@ -1,0 +1,25 @@
+{
+    "name": "by_city_name",
+    "description": "This is a sub-function API for tool rapidweather.\nTool description: The proprietary convolutional neural network collects and processes wide range of data sources to cover any location and consider the local nuances of climate.\n\nWe collect and process weather data from different sources such as global and local weather models, satellites, radars and vast network of weather stations.\n\nFor each point on the globe, RapidWeather provides historical, current and forecasted weather data via light-speed APIs.\nAPI description: You can call by city name or city name, state code and country code. Please note that searching by states available only for the USA locations.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "City name, state code and country code divided by comma, Please, refer to [ISO 3166](https://www.iso.org/obp/ui/#search) for the state codes or country codes.\nYou can specify the parameter not only in English. In this case, the API response should be returned in the same language as the language of requested location name if the location is in our predefined list of more than 200,000 locations.",
+                "default": "London,UK"
+            },
+            "units": {
+                "type": "string",
+                "description": "Units of measurement. **standard**, **metric **and **imperial **units are available. If you do not use the **units **parameter, **standard **units will be applied by default."
+            },
+            "lang": {
+                "type": "string",
+                "description": "You can use the **lang **parameter to get the output in your language"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

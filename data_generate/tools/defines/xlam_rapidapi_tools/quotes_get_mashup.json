@@ -1,0 +1,17 @@
+{
+    "name": "quotes_get_mashup",
+    "description": "This is a sub-function API for tool fidelity_investments.\nTool description: Query for quote data, market movers, international markets,  sector performance, orders, chart, and news\nAPI description: Fetch additional information for a specific market quote.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The market quote symbol for which the information is to be fetched. Only one symbol is allowed.",
+                "default": "IBIO"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

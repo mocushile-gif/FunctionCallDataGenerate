@@ -1,0 +1,21 @@
+{
+    "{'ticker': 'amzn'}": {
+        "error": "",
+        "response": {
+            "symbol": "AMZN",
+            "company_name": "Amazon.com, Inc.",
+            "exchange": "NASDAQ",
+            "high": 135.5,
+            "low": 132.2,
+            "close": 134.1,
+            "pe_ratio": 98.75,
+            "volume": 3200000,
+            "market_cap": "1.38T",
+            "datetime": "2023-10-05T15:30:00Z"
+        }
+    },
+    "{'ticker': 'AMZN'}": {
+        "error": "",
+        "response": "{'close': 130.22, 'exchange': 'NASDAQ', 'high': 131.86, 'high52w': 146.57, 'lastTime': 'July 3, 2023', 'lastUpdate': 1688403600271, 'low': 130.065, 'low52w': 81.43, 'marketCap': 1336103257251, 'name': 'Amazon.com Inc.', 'pe': 310.27, 'symbol': 'AMZN', 'volume': 28264785}"
+    }
+}

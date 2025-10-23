@@ -1,0 +1,17 @@
+{
+    "name": "rental_availability",
+    "description": "This is a sub-function API for tool tripadvisor.\nTool description: Tripadvisor API helps to query realtime  Hotels search, Flights prices, Restaurants, Attracting locations, etc to create a travelling site.\nAPI description: Fetches the availability information for a specific rental property using the given rental ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "rentalid": {
+                "type": "string",
+                "description": "The unique identifier of the rental property obtained from the Rental Search API in the Vacation Rentals collection.",
+                "default": "VacationRentalReview-g60763-d24816619-Deluxe_Double_Queen_with_Balcony-New_York_City_New_York"
+            }
+        },
+        "required": [
+            "rentalid"
+        ]
+    }
+}

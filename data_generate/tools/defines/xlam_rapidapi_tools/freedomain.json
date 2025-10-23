@@ -1,0 +1,17 @@
+{
+    "name": "freedomain",
+    "description": "This is a sub-function API for tool fast_email_verifier.\nTool description: APISOLUTION services provide a comprehensive API for fast email validation and verification for any developer to use on start-ups and staff projects.\nAPI description: Checks whether a domain is available for free using the Fast Email Verifier API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain name to be checked for availability.",
+                "default": "domain.org"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

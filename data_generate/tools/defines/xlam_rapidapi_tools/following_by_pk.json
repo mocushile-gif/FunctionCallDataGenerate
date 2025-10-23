@@ -1,0 +1,26 @@
+{
+    "name": "following_by_pk",
+    "description": "This is a sub-function API for tool instagram_pro.\nTool description: Insatgram API Pro Version\nAPI description: Fetches the Instagram following list for a given user by their primary key (PK). ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pk": {
+                "type": "string",
+                "description": "The primary key of the Instagram user whose following list is to be fetched.",
+                "default": "232192182"
+            },
+            "corsenabled": {
+                "type": "string",
+                "description": "Enables Cross-Origin Resource Sharing (CORS). Defaults to 'false'.",
+                "default": "false"
+            },
+            "nextmaxid": {
+                "type": "string",
+                "description": "The maximum ID for pagination to fetch subsequent pages of the following list. Defaults to None."
+            }
+        },
+        "required": [
+            "pk"
+        ]
+    }
+}

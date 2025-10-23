@@ -1,0 +1,17 @@
+{
+    "name": "email_id",
+    "description": "This is a sub-function API for tool phone_and_email_validator_v2.\nTool description: Extremely Useful tool for Phone, Email, IP Address and Postal Code Validation\nAPI description: Validates an email address using the Toolbench API and returns the validation result.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to validate.",
+                "default": "test@gmail.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

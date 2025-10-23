@@ -1,0 +1,33 @@
+{
+    "{'xid': 'louvre-museum-456', 'lang': 'en'}": {
+        "error": "",
+        "response": {
+            "name": "Louvre Museum",
+            "xid": "louvre-museum-456",
+            "address": "Rue de Rivoli, Paris, France",
+            "category": "museum",
+            "description": "World's largest art museum and historic monument in Paris, showcasing masterpieces like the Mona Lisa and Venus de Milo.",
+            "languages": [
+                "en",
+                "fr"
+            ],
+            "rating": 4.8,
+            "popularity": "high",
+            "opening_hours": "09:00-18:00 (Closed Mondays)",
+            "website": "https://www.louvre.fr",
+            "coordinates": {
+                "lat": 48.8612,
+                "lon": 2.3358
+            },
+            "facilities": [
+                "guided_tours",
+                "wheelchair_access",
+                "multilingual_signage"
+            ],
+            "nearest_attractions": [
+                "Eiffel Tower",
+                "Tuileries Garden"
+            ]
+        }
+    }
+}

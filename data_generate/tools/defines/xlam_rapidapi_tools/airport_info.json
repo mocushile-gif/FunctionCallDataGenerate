@@ -1,0 +1,17 @@
+{
+    "name": "airport_info",
+    "description": "This is a sub-function API for tool airports_info.\nTool description: All airports around the globe are here.\nTHIS IS A TEST\n\n\nAPI description: Fetches and returns detailed information about an airport using its IATA code from the Airports Info API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "iata": {
+                "type": "string",
+                "description": "The IATA code of the airport for which information is being requested.",
+                "default": "JFK"
+            }
+        },
+        "required": [
+            "iata"
+        ]
+    }
+}

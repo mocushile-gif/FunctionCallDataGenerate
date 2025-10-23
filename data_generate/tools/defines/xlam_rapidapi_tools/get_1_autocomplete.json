@@ -1,0 +1,15 @@
+{
+    "name": "get_1_autocomplete",
+    "description": "This is a sub-function API for tool stockyapiexchange.\nTool description: Based on the request parameters, StockyAPIExchange can provide relevant information to the user, such as stock details, summary, charts, history, daily, or latest data. The API can also use autocomplete to suggest stock names or ticker symbols as the user types the keyword, making it easier for the front end develepor to create the perfect Tool\nAPI description: AUTOComplete: This feature allows users to easily search for stocks by providing suggested completions for a ticker symbol or company name as they type. It helps users find the right stock without having to know the exact spelling or symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The stock ticker or company name to search for. Defaults to 'GOOG'.",
+                "default": "GOOG"
+            }
+        },
+        "required": []
+    }
+}

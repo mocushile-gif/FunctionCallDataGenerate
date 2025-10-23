@@ -1,0 +1,25 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": {
+                "gas_price": 21322930675,
+                "gas_price_hex": "0x4f6f219f3"
+            },
+            "message": "No \"chain\" has been selected. Default \"ethereum\" chain has been set."
+        }
+    },
+    "{'chain': 'ethereum'}": {
+        "error": "",
+        "response": "{'status': 'success', 'data': {'gas_price': 2393533719, 'gas_price_hex': '0x8eaa6d17'}, 'message': None}"
+    },
+    "{'chain': 'polygon'}": {
+        "error": "",
+        "response": "{'status': 'success', 'data': {'gas_price': 34117024015, 'gas_price_hex': '0x7f188790f'}, 'message': None}"
+    },
+    "{'chain': 'binance'}": {
+        "error": "",
+        "response": "{'status': 'success', 'data': {'gas_price': 1000000000, 'gas_price_hex': '0x3b9aca00'}, 'message': None}"
+    }
+}

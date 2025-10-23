@@ -1,0 +1,17 @@
+{
+    "name": "il",
+    "description": "This is a sub-function API for tool turkey_postal_codes.\nTool description: Turkey's postal codes.\nAPI description: Fetches data related to a specified Turkish province using the RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "il": {
+                "type": "number",
+                "description": "Province code for a Turkish province (from 1 to 81).",
+                "default": 34.0
+            }
+        },
+        "required": [
+            "il"
+        ]
+    }
+}

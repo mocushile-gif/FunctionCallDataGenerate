@@ -1,0 +1,502 @@
+{
+    "{'user_id': 'specific_user', 'batch_size': 50}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'specific_user', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'specific_user', 'batch_size': 5}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'specific_user_id', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'specific_user_id', 'batch_size': 5}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'specific_username', 'batch_size': 5}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'different_user_id', 'batch_size': 5}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': '1234567890', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": {
+                    "edge_owner_to_timeline_media": {
+                        "count": 0,
+                        "page_info": {
+                            "has_next_page": false,
+                            "end_cursor": null
+                        },
+                        "edges": []
+                    }
+                }
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'instagram_user_id', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'junioredcountr', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': '1234567890', 'batch_size': 5}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": {
+                    "edge_owner_to_timeline_media": {
+                        "count": 0,
+                        "page_info": {
+                            "has_next_page": false,
+                            "end_cursor": null
+                        },
+                        "edges": []
+                    }
+                }
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': '987654321', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': '17841400236719290', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': '987654321', 'batch_size': 15}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': '123456789', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': '987654321', 'batch_size': 20}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': '987654321', 'batch_size': 5}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': '123456789', 'batch_size': 25}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': '987654321', 'batch_size': 12}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': '123456789', 'batch_size': 5}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': '234567890', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': '234567890', 'batch_size': 20}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': '234567890', 'batch_size': 30}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'fashion_influencer', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'fashionistas_unite', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'trendy_outfits', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'fashion_blogger', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'fashion_lovers', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'fashionista_guru', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'style_icon', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'fashionista_life', 'batch_size': 10}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'user_id': 'specific_userid', 'batch_size': 50}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": null
+            },
+            "extensions": {
+                "is_final": true
+            },
+            "status": "ok"
+        }
+    },
+    "{'batch_size': 10, 'user_id': '12345678'}": {
+        "error": "",
+        "response": "{'data': {'user': {'edge_owner_to_timeline_media': {'count': 59, 'page_info': {'has_next_page': True, 'end_cursor': 'QVFCOU9TWEdNRnI2a0FGaEg2SW1IcUtaZU1lX2F5bnZHbFhkX1Baa0YyTTJCRHJGOTZOc0ttN3NBd0tpcVNDZG9vazUwVWFYc3N0cjlUQnVCdUw3TzU0eA=='}, 'edges': [{'node': {'__typename': 'GraphImage', 'id': '1073429427297885557', 'gating_info': None, 'fact_check_overall_rating': None, 'fact_check_information': None, 'media_overlay_info': None, 'sensitivity_friction_info': None, 'sharing_friction_info': {'should_have_sharing_friction': False, 'bloks_app_url': None}, 'dimensions': {'height': 1080, 'width': 1080}, 'display_url': 'https://scontent-sea1-1.cdninstagram.com/v/t51.2885-15/11881627_1492822697700373_1630285353_n.jpg?stp=dst-jpg_e35_tt6&_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=MelBncB-MG0Q7kNvgHnaw_-&_nc_gid=a1b477fc9f594eb48a4d0b6bce016f7e&edm=APU89FABAAAA&ccb=7-5&oh=00_AYC08PrOzTo3MYMl-UYqNUtqLhpzIaPJQCNav3VILKBhLA&oe=679934B7&_nc_sid=bc0c2c', 'display_resources': [{'src': 'https://scontent-sea1-1.cdninstagram.com/v/t51.2885-15/11881627_1492822697700373_1630285353_n.jpg?stp=dst-jpg_e35_s640x640_sh0.08_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi45NjB4OTYwLnNkci5mMjg4NS5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=MelBncB-MG0Q7kNvgHnaw_-&_nc_gid=a1b477fc9f594eb48a4d0b6bce016f7e&edm=APU89FABAAAA&ccb=7-5&oh=00_AYChmG1QqJo58JOsfrnEc5N5AB2EL1K0mwo8iO5c7Z7Kxw&oe=679934B7&_nc_sid=bc0c2c', 'config_width': 640, 'config_height': 640}, "
+    },
+    "{'batch_size': 10, 'user_id': '87654321'}": {
+        "error": "",
+        "response": "{'data': {'user': None}, 'extensions': {'is_final': True}, 'status': 'ok'}"
+    },
+    "{'batch_size': 10, 'next_cursor': 'QVFCOU9TWEdNRnI2a0FGaEg2SW1IcUtaZU1lX2F5bnZHbFhkX1Baa0YyTTJCRHJGOTZOc0ttN3NBd0tpcVNDZG9vazUwVWFYc3N0cjlUQnVCdUw3TzU0eA==', 'user_id': '12345678'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user_id": "12345678",
+                "media_posts": [
+                    {
+                        "id": "media1",
+                        "type": "image",
+                        "url": "https://instagram.com/media1",
+                        "caption": "A beautiful sunset",
+                        "timestamp": "2023-10-01T12:00:00Z"
+                    },
+                    {
+                        "id": "media2",
+                        "type": "video",
+                        "url": "https://instagram.com/media2",
+                        "caption": "Exploring the mountains",
+                        "timestamp": "2023-10-02T15:30:00Z"
+                    },
+                    {
+                        "id": "media3",
+                        "type": "carousel",
+                        "url": "https://instagram.com/media3",
+                        "caption": "Family vacation memories",
+                        "timestamp": "2023-10-03T10:45:00Z"
+                    }
+                ],
+                "next_cursor": "QVFCOU9TWEdNRnI2a0FGaEg2SW1IcUtaZU1lX2F5bnZHbFhkX1Baa0YyTTJCRHJGOTZOc0ttN3NBd0tpcVNDZG9vazUwVWFYc3N0cjlUQnVCdUw3TzU0eB=="
+            },
+            "extensions": {
+                "is_final": false
+            },
+            "status": "ok"
+        }
+    },
+    "{'batch_size': 5, 'user_id': '11223344'}": {
+        "error": "",
+        "response": "{'data': {'user': {'edge_owner_to_timeline_media': {'count': 721, 'page_info': {'has_next_page': True, 'end_cursor': 'QVFBbnB2RUNCOVFRZXNSMjIydHYxbk03cFJpeERram9vQ0hHNlVac3VxbUUyRFBibnZRNHJmX2RIa1dJUHAxYThxT29DbzVQTnYzVGFmYklId0Z2Q2x6Mw=='}, 'edges': []}}}, 'extensions': {'is_final': True}, 'status': 'ok'}"
+    },
+    "{'batch_size': 5, 'user_id': '44332211'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user_id": "44332211",
+                "media_posts": [
+                    {
+                        "post_id": "123456789",
+                        "caption": "Exploring the beauty of nature \ud83c\udf3f",
+                        "media_type": "image",
+                        "media_url": "https://example.com/media1.jpg",
+                        "timestamp": "2023-10-01T10:00:00Z"
+                    },
+                    {
+                        "post_id": "987654321",
+                        "caption": "Delicious homemade pizza \ud83c\udf55",
+                        "media_type": "image",
+                        "media_url": "https://example.com/media2.jpg",
+                        "timestamp": "2023-09-30T18:30:00Z"
+                    },
+                    {
+                        "post_id": "112233445",
+                        "caption": "Sunset vibes \ud83c\udf05",
+                        "media_type": "video",
+                        "media_url": "https://example.com/media3.mp4",
+                        "timestamp": "2023-09-29T19:45:00Z"
+                    },
+                    {
+                        "post_id": "556677889",
+                        "caption": "Morning coffee \u2615",
+                        "media_type": "image",
+                        "media_url": "https://example.com/media4.jpg",
+                        "timestamp": "2023-09-28T08:15:00Z"
+                    },
+                    {
+                        "post_id": "998877665",
+                        "caption": "Workout session \ud83d\udcaa",
+                        "media_type": "video",
+                        "media_url": "https://example.com/media5.mp4",
+                        "timestamp": "2023-09-27T06:30:00Z"
+                    }
+                ]
+            },
+            "extensions": {
+                "is_final": false,
+                "next_cursor": "cursor_12345"
+            },
+            "status": "ok"
+        }
+    }
+}

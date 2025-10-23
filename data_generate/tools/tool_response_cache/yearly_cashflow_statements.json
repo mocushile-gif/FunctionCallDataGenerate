@@ -1,0 +1,72 @@
+{
+    "{'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'total': 0, 'offset': 0, 'results': [], 'responseStatus': None}"
+    },
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": {
+            "total": 0,
+            "offset": 0,
+            "results": [],
+            "responseStatus": null
+        }
+    },
+    "{'symbol': 'AMZN'}": {
+        "error": "",
+        "response": "{'total': 0, 'offset': 0, 'results': [], 'responseStatus': None}"
+    },
+    "{'symbol': 'GOOGL'}": {
+        "error": "",
+        "response": {
+            "total": 0,
+            "offset": 0,
+            "results": [],
+            "responseStatus": null
+        }
+    },
+    "{'symbol': 'NVDA'}": {
+        "error": "",
+        "response": {
+            "total": 0,
+            "offset": 0,
+            "results": [],
+            "responseStatus": null
+        }
+    },
+    "{'symbol': 'FB'}": {
+        "error": "",
+        "response": {
+            "total": 0,
+            "offset": 0,
+            "results": [],
+            "responseStatus": null
+        }
+    },
+    "{'symbol': 'technology'}": {
+        "error": "",
+        "response": {
+            "total": 0,
+            "offset": 0,
+            "results": [],
+            "responseStatus": null
+        }
+    },
+    "{'symbol': 'NFLX'}": {
+        "error": "",
+        "response": {
+            "total": 0,
+            "offset": 0,
+            "results": [],
+            "responseStatus": null
+        }
+    },
+    "{'symbol': 'MSFT'}": {
+        "error": "",
+        "response": "{'total': 5, 'offset': 0, 'results': [{'cashFlowsFromUsedInOperatingActivitiesDirect': None, 'cashFlowsFromUsedInOperatingActivitiesDirectSection': {'classesOfCashReceiptsFromOperatingActivities': None, 'classesOfCashReceiptsFromOperatingActivitiesSection': {'receiptsFromCustomers': None, 'receiptsFromGovernmentGrants': None, 'otherCashReceiptsFromOperatingActivities': None, 'cashReceivedFromInsuranceActivitiesSection': {'premiumReceived': None, 'reinsuranceAndOtherRecoveriesReceived': None, 'policyholderDepositInvestmentReceived': None, 'cashReceiptsFromFeesAndCommissions': None}, 'cashReceivedFromInsuranceActivities': None, 'classesOfCashPayments': None, 'dividendsPaidDirect': None, 'dividendsReceivedDirect': None, 'interestPaidDirect': None, 'interestReceivedDirect': None, 'taxesRefundPaidDirect': None, 'cashReceiptsFromTaxRefunds': None, 'cashReceiptsFromDepositsbyBanksAndCustomers': None, 'cashReceiptsFromLoans': None, 'cashReceiptsFromSecuritiesRelatedActivities': None, 'cashReceiptsFromFeesAndCommissions': None}, 'classesOfCashPayments': None, 'classesOfCashPaymentsSection': {'paymentsToSuppliersForGoodsAndServices': None, 'paymentsOnBehalfOfEmployees': None, 'otherCashPaymentsFromOperatingActivities': None, 'cashPaidForInsuranceActivitiesSection': {'claimsPaid': None, 'commissionPaid': None, 'cashPaidToReinsurers': None, 'otherUnderwritingExpensesPaid': None}, 'cashPaidForInsuranceActivities': None, 'cashPaymentsForDepositsbyBanksAndCustomers': None, 'cashPaymentsForLoans': None, 'interestandCommissionPaid': None, 'allTaxesPaid': None}, 'dividendsPaidDirect': None, 'dividendsReceivedDirect': None, 'interestPaidDirect': None, 'interestReceivedDirect': None, 'taxesRefundPaidDirect': None}, 'operatingCashFlow': 52185000000, 'operatingCashFlowSection': {'cashFlowFromContinuingOperatingActivities': 52185000000, 'cashFlowFromContinuingOperatingActivitiesSection': {'netIncomeFromContinuingOperations': 39240000000, 'operatingGainsLosses': -792000000, 'operatingGainsLossesSection': {'gainLossOnSaleOfBusiness': Non"
+    },
+    "{'symbol': 'HMC'}": {
+        "error": "",
+        "response": "{'total': 0, 'offset': 0, 'results': [], 'responseStatus': None}"
+    }
+}

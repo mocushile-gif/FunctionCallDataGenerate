@@ -1,0 +1,17 @@
+{
+    "name": "capture_screenshot",
+    "description": "This is a sub-function API for tool webcap_website_screenshot_capture.\nTool description: Turn websites into high definition screenshot images super quick and super easy. Simply provide a URL and the API will generate a screenshot for you. The returned file will be cached for continuous use\nAPI description: Captures a screenshot of the specified website and returns the observation JSON or text from the API response.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the website to capture a screenshot of.",
+                "default": "https://apple.com"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

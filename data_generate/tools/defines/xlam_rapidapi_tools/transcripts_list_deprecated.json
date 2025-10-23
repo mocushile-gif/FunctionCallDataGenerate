@@ -1,0 +1,26 @@
+{
+    "name": "transcripts_list_deprecated",
+    "description": "This is a sub-function API for tool seeking_alpha.\nTool description: Query for news, market moving, price quotes, chart, indices, analysis from investors and experts, etc...\nAPI description: Fetches a list of transcripts for a specific symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "Symbol to query for data. Only one symbol can be queried at a time.",
+                "default": "aapl"
+            },
+            "until": {
+                "type": "number",
+                "description": "The value of meta/page/minmaxPublishOn/min JSON object returned to load the next page. Defaults to None."
+            },
+            "size": {
+                "type": "number",
+                "description": "The number of items per response. Defaults to 20.",
+                "default": 20.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

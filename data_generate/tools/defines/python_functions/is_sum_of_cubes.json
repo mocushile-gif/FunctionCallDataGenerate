@@ -1,0 +1,16 @@
+{
+    "name": "is_sum_of_cubes",
+    "description": "Checks if a number is the sum of the cubes of its digits.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "num": {
+                "type": "integer",
+                "description": "The number to check."
+            }
+        },
+        "required": [
+            "num"
+        ]
+    }
+}

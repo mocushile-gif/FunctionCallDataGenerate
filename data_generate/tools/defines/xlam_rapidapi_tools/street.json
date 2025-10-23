@@ -1,0 +1,37 @@
+{
+    "name": "street",
+    "description": "This is a sub-function API for tool streetnarrator.\nTool description: Give us a Street name! Our artificial intelligence will search for information and writes a paragraph according to your options.  StreetNarrator API provides a unique history/touristic AI text for any street around the world.\nThe Stories behind Streets API & From a Street name to the behind story\nAPI description: Fetch a unique history or touristic AI-generated text for any street around the world using the StreetNarrator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "street": {
+                "type": "string",
+                "description": "The name or identifier of the street for which the AI-generated text is required.",
+                "default": "1600 Broadway, New York, NY 10019, United States"
+            },
+            "topics": {
+                "type": "string",
+                "description": "Topics to focus on in the generated text, formatted as 'history:X,tourism:Y' where X and Y are weights. Defaults to 'history:1,tourism:1'.",
+                "default": "history:1,tourism:1"
+            },
+            "temperature": {
+                "type": "string",
+                "description": "Degree of creativity of the AI's response. Defaults to '0'.",
+                "default": "0"
+            },
+            "style": {
+                "type": "string",
+                "description": "The style of the output text. Possible values include 'audioguide'. Defaults to 'audioguide'.",
+                "default": "audioguide"
+            },
+            "language": {
+                "type": "string",
+                "description": "The language of the generated text. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "street"
+        ]
+    }
+}

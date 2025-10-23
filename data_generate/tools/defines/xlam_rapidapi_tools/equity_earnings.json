@@ -1,0 +1,29 @@
+{
+    "name": "equity_earnings",
+    "description": "This is a sub-function API for tool quotient.\nTool description: Market data API for intraday (1-minutes) data, end-of-day data, options data, crypto, forex, live prices, fundamental data, trading signal, and much more, on various assets (Stocks, ETFs, Funds, Indices, Forex, Cryptocurrencies, etc), on worldwide stock exchanges (us, canada, australia, uk and europe).\nAPI description: Returns earnings (EPS, quarterly) history data for a given security within a specified date range.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "to": {
+                "type": "string",
+                "description": "The query end date (supported format is : **YYYY-mm-dd**), e.g., `2020-04-17`.",
+                "default": "2020-04-17"
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The query start date (supported format is : **YYYY-mm-dd**), e.g., `2019-01-01`.",
+                "default": "2019-01-01"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The symbol of the asset to look for, e.g., 'AAPL' (Apple Inc), 'T' (AT&T Inc).",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "to",
+            "is_from",
+            "symbol"
+        ]
+    }
+}

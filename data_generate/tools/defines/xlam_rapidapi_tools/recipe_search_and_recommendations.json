@@ -1,0 +1,19 @@
+{
+    "name": "recipe_search_and_recommendations",
+    "description": "This is a sub-function API for tool recipe_search_and_diet.\nTool description: Since we understand the recipe – ingredients, diets, allergies, nutrition, taste, techniques & more. We can connect your users with the best recipes available for their unique food preferences.\r\n\r\n\r\nSearch over 2 million recipes\r\n\r\n- Search our large recipe database. We add new sites and recipes continuously.\r\n- You will also get access to over 5000 top web recipe sources\r\n- Our search algorithm returns the most relevant recipes from the most popular and best recipes sources on the web. We or...\nAPI description: Search 2 million recipes using keywords, 28 nutrients and 40 diet and health filters",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The keyword to search for in the recipe database. Defaults to 'chicken'.",
+                "default": "chicken"
+            },
+            "r": {
+                "type": "string",
+                "description": "Optional filter parameter for the search."
+            }
+        },
+        "required": []
+    }
+}

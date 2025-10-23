@@ -1,0 +1,27 @@
+{
+    "name": "nearby_stores",
+    "description": "This is a sub-function API for tool target_com_shopping_api.\nTool description: Realtime APIs support entire shopping flow on Target.com.\n(Free trial enabled)\n\nAPI description: Fetches a list of stores near a specified ZIP code from the RapidAPI Target API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "place": {
+                "type": "string",
+                "description": "The ZIP code or address around which to search for stores.",
+                "default": "10010"
+            },
+            "within": {
+                "type": "string",
+                "description": "The radius of the search area in miles. Defaults to '100'.",
+                "default": "100"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of store results to return. Defaults to '20'.",
+                "default": "20"
+            }
+        },
+        "required": [
+            "place"
+        ]
+    }
+}

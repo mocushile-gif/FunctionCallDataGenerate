@@ -1,0 +1,17 @@
+{
+    "name": "get_date_and_time_by_city",
+    "description": "This is a sub-function API for tool location_and_time.\nTool description: A collection of location and time utilities. You can search for country/city information worldwide, find out distance between two locations/cities, get location data from IP address, solve any time questions regarding different timezones, get sunrise/sunset times at any location, get holiday information worldwide, and much more!\nAPI description: Get current date and time for specified city, fuzzy search is supported. **Note**: the fuzzy search of provided city may not be the one you want due to multiple cities may have the same name, the most common one will be used. In this case, use a geocoding service to find the exact geolocation of the city, use `/datetime/bylocation` endpoint instead.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "city": {
+                "type": "string",
+                "description": "Name of the city to get the date and time for.",
+                "default": "Los Angeles"
+            }
+        },
+        "required": [
+            "city"
+        ]
+    }
+}

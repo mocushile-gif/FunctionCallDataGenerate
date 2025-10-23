@@ -1,0 +1,17 @@
+{
+    "name": "post_details",
+    "description": "This is a sub-function API for tool reddit.\nTool description: Please join our telegram channel to get notified about updates. https://t.me/social_miner_news\nAPI description: Fetches the details of a Reddit post using the provided post ID and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "post_id": {
+                "type": "string",
+                "description": "The ID of the Reddit post to retrieve details for.",
+                "default": "t3_t19inj"
+            }
+        },
+        "required": [
+            "post_id"
+        ]
+    }
+}

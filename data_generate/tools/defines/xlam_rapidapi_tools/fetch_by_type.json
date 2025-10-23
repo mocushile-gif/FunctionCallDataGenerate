@@ -1,0 +1,23 @@
+{
+    "name": "fetch_by_type",
+    "description": "This is a sub-function API for tool magical_taske.\nTool description: Fetch sceneries and getaways in Kenya.\nAPI description: This endpoint fetches records by type as defined in `ABOUT` section above. You have to provide type and a limit of the number of records returned.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of records to fetch. Refer to the API documentation for accepted types.",
+                "default": "Forest"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of records to fetch.",
+                "default": 5.0
+            }
+        },
+        "required": [
+            "type",
+            "limit"
+        ]
+    }
+}

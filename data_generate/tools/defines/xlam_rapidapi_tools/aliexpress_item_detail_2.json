@@ -1,0 +1,29 @@
+{
+    "name": "aliexpress_item_detail_2",
+    "description": "This is a sub-function API for tool aliexpress_datahub.\nTool description: 🥇#1 Data Provider. Real-Time product data API you've been looking for. No manual rules or web-scraper maintenance is required.\nAPI description: All details of a single item. This Endpoint needs an additional request to the \"Item Description\" endpoint to fill the *Properties* and *Description* gaps.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "itemid": {
+                "type": "number",
+                "description": "The AliExpress product ID.",
+                "default": 3256804591426248.0
+            },
+            "currency": {
+                "type": "string",
+                "description": "Currency parameter is used to display the product price in selected currency. All values are being validated and only the ones from the list are supported. Full list of supporting currencies, please use '**Currency List**' at '**Base**' group endpoints."
+            },
+            "region": {
+                "type": "string",
+                "description": "Region parameter is used to accurately get the shipping costs and other promo/deals for specific geo location. All values are being validated and only the ones from the list are supported. Full list of supporting locale options, please use '**Country List**' at '**Base**' group endpoints."
+            },
+            "locale": {
+                "type": "string",
+                "description": "Locale parameter is used to display the titles and other content in selected language. All values are being validated and only the ones from the list are supported. Full list of supporting locale options, please use '**Locale List'** at '**Base**' group endpoints."
+            }
+        },
+        "required": [
+            "itemid"
+        ]
+    }
+}

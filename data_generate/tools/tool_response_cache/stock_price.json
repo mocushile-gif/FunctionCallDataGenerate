@@ -1,0 +1,30 @@
+{
+    "{'ticker': 'AMZN'}": {
+        "error": "",
+        "response": "{'symbol': 'AMZN', 'price': 127.13, 'currency': 'USD'}"
+    },
+    "{'ticker': 'MSFT'}": {
+        "error": "",
+        "response": "{'symbol': 'MSFT', 'price': 321.01, 'currency': 'USD', 'symbolName': 'Microsoft', 'marketCap': 2386866733056}"
+    },
+    "{'ticker': 'AAPL'}": {
+        "error": "",
+        "response": "{'symbol': 'AAPL', 'price': 219.63, 'currency': 'USD', 'symbolName': 'Apple', 'marketCap': 3339276517376}"
+    },
+    "{'ticker': 'GOOGL'}": {
+        "error": "",
+        "response": "{'symbol': 'GOOGL', 'price': 157.46, 'currency': 'USD', 'marketCap': 1943418568704}"
+    },
+    "{'ticker': 'TSLA'}": {
+        "error": "",
+        "response": "{'symbol': 'TSLA', 'price': 229.81, 'currency': 'USD', 'symbolName': 'Tesla', 'marketCap': 734160158720}"
+    },
+    "{'ticker': 'NVDA'}": {
+        "error": "",
+        "response": "{'symbol': 'NVDA', 'price': 135.13, 'currency': 'USD', 'symbolName': 'NVIDIA', 'marketCap': 3295496634368}"
+    },
+    "{'ticker': 'PYPL'}": {
+        "error": "",
+        "response": "{'symbol': 'PYPL', 'price': 73.485, 'currency': 'USD', 'symbolName': 'PayPal', 'marketCap': 71466590208}"
+    }
+}

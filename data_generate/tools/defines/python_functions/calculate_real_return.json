@@ -1,0 +1,31 @@
+{
+    "name": "calculate_real_return",
+    "description": "Calculates the real return of an investment considering compound interest and inflation.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "principal": {
+                "type": "number",
+                "description": "The initial investment amount."
+            },
+            "annual_rate": {
+                "type": "number",
+                "description": "The annual nominal interest rate in percentage."
+            },
+            "years": {
+                "type": "integer",
+                "description": "The number of years the investment is held."
+            },
+            "inflation_rate": {
+                "type": "number",
+                "description": "The annual inflation rate in percentage."
+            }
+        },
+        "required": [
+            "principal",
+            "annual_rate",
+            "years",
+            "inflation_rate"
+        ]
+    }
+}

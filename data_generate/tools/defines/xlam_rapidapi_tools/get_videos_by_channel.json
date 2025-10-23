@@ -1,0 +1,16 @@
+{
+    "name": "get_videos_by_channel",
+    "description": "This is a sub-function API for tool follow_youtube_channel.\nTool description: An API that shows all videos and notifies you that was lanced new videos of any channel\nAPI description: Fetches the last 30 videos from a specified YouTube channel using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cid": {
+                "type": "string",
+                "description": "The channel ID of the YouTube channel."
+            }
+        },
+        "required": [
+            "cid"
+        ]
+    }
+}

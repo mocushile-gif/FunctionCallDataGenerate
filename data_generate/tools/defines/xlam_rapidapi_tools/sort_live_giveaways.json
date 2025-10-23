@@ -1,0 +1,15 @@
+{
+    "name": "sort_live_giveaways",
+    "description": "This is a sub-function API for tool gamerpower.\nTool description: Find all free games, loot and giveaways with this giveaway tracker API powered by GamerPower.com! Access programmatically the best giveaways in gaming!\nAPI description: Fetches and sorts live giveaways from the GamerPower API based on a given criterion.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sort_by": {
+                "type": "string",
+                "description": "The criterion by which to sort the giveaways. Options might include 'date', 'value', or 'popularity'. Default is 'value'.",
+                "default": "value"
+            }
+        },
+        "required": []
+    }
+}

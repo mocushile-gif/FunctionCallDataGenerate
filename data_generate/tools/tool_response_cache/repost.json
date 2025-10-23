@@ -1,0 +1,16 @@
+{
+    "{'article_url': 'https://examplewebsite.com/article', 'author_name': 'John Doe', 'author_url': 'https://examplewebsite.com/author'}": {
+        "error": "",
+        "response": {
+            "message": "Error creating the page. Try adding a `title` as well. TITLE_REQUIRED"
+        }
+    },
+    "{'article_url': 'https://github.com/micromatch/picomatch'}": {
+        "error": "",
+        "response": "{'title': 'micromatch/picomatch: Blazing fast and accurate glob matcher written JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX b', 'url': 'https://telegra.ph/micromatchpicomatch-Blazing-fast-and-accurate-glob-matcher-written-JavaScript-with-no-dependencies-and-full-support-for-standard-06-10'}"
+    },
+    "{'article_url': 'https://instagram.fexm1-1.fna.fbcdn.net/v/t51.2885-19/travel_blogger_dp.jpg', 'title': 'The Essence of Wanderlust', 'author_name': 'Travel Enthusiast'}": {
+        "error": "",
+        "response": "{'message': \"Error downloading/parsing the article. Article `download()` failed with HTTPSConnectionPool(host='instagram.fexm1-1.fna.fbcdn.net', port=443): Max retries exceeded with url: /v/t51.2885-19/travel_blogger_dp.jpg (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f904fd616a0>: Failed to establish a new connection: [Errno -2] Name or service not known')) on URL https://instagram.fexm1-1.fna.fbcdn.net/v/t51.2885-19/travel_blogger_dp.jpg\"}"
+    }
+}

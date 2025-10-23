@@ -1,0 +1,42 @@
+{
+    "{'timezone': 'America/New_York'}": {
+        "error": "",
+        "response": "{'request': {'timezone': 'America/New_York'}, 'response': {'time': '2023-07-18T15:00:25-04:00', 'year': 2023, 'month': 7, 'day': 18, 'hour': 15, 'minute': 0, 'second': 25, 'weekday': 'Tuesday', 'week_number': 29, 'utc_time': '2023-07-18T19:00:25+00:00', 'seconds_since_epoch': 1689706825, 'ctime': 'Tue Jul 18 15:00:25 2023', 'local_timezone': 'EDT'}}"
+    },
+    "{'timezone': 'America/Los_Angeles'}": {
+        "error": "",
+        "response": "{'request': {'timezone': 'America/Los_Angeles'}, 'response': {'time': '2023-07-18T14:56:55-07:00', 'year': 2023, 'month': 7, 'day': 18, 'hour': 14, 'minute': 56, 'second': 55, 'weekday': 'Tuesday', 'week_number': 29, 'utc_time': '2023-07-18T21:56:55+00:00', 'seconds_since_epoch': 1689717415, 'ctime': 'Tue Jul 18 14:56:55 2023', 'local_timezone': 'PDT'}}"
+    },
+    "{'timezone': 'Asia/Tokyo'}": {
+        "error": "",
+        "response": "{'request': {'timezone': 'Asia/Tokyo'}, 'response': {'time': '2024-11-29T15:38:03+09:00', 'year': 2024, 'month': 11, 'day': 29, 'hour': 15, 'minute': 38, 'second': 3, 'weekday': 'Friday', 'week_number': 48, 'utc_time': '2024-11-29T06:38:03+00:00', 'seconds_since_epoch': 1732862283, 'ctime': 'Fri Nov 29 15:38:03 2024', 'local_timezone': 'JST'}}"
+    },
+    "{'timezone': 'Australia/Sydney'}": {
+        "error": "",
+        "response": "{'request': {'timezone': 'Australia/Sydney'}, 'response': {'time': '2025-01-18T10:12:45+11:00', 'year': 2025, 'month': 1, 'day': 18, 'hour': 10, 'minute': 12, 'second': 45, 'weekday': 'Saturday', 'week_number': 3, 'utc_time': '2025-01-17T23:12:45+00:00', 'seconds_since_epoch': 1737155565, 'ctime': 'Sat Jan 18 10:12:45 2025', 'local_timezone': 'AEDT'}}"
+    },
+    "{'timezone': 'America/Denver'}": {
+        "error": "",
+        "response": "{'request': {'timezone': 'America/Denver'}, 'response': {'time': '2025-04-18T08:13:22-06:00', 'year': 2025, 'month': 4, 'day': 18, 'hour': 8, 'minute': 13, 'second': 22, 'weekday': 'Friday', 'week_number': 16, 'utc_time': '2025-04-18T14:13:22+00:00', 'seconds_since_epoch': 1744985602, 'ctime': 'Fri Apr 18 08:13:22 2025', 'local_timezone': 'MDT'}}"
+    },
+    "{'timezone': 'Europe/London'}": {
+        "error": "",
+        "response": "{'request': {'timezone': 'Europe/London'}, 'response': {'time': '2024-10-15T15:29:19+01:00', 'year': 2024, 'month': 10, 'day': 15, 'hour': 15, 'minute': 29, 'second': 19, 'weekday': 'Tuesday', 'week_number': 42, 'utc_time': '2024-10-15T14:29:19+00:00', 'seconds_since_epoch': 1729002559, 'ctime': 'Tue Oct 15 15:29:19 2024', 'local_timezone': 'BST'}}"
+    },
+    "{'timezone': 'Asia/Dubai'}": {
+        "error": "",
+        "response": "{'request': {'timezone': 'Asia/Dubai'}, 'response': {'time': '2025-06-01T18:39:32+04:00', 'year': 2025, 'month': 6, 'day': 1, 'hour': 18, 'minute': 39, 'second': 32, 'weekday': 'Sunday', 'week_number': 22, 'utc_time': '2025-06-01T14:39:32+00:00', 'seconds_since_epoch': 1748788772, 'ctime': 'Sun Jun  1 18:39:32 2025', 'local_timezone': '+04'}}"
+    },
+    "{'timezone': 'America/Chicago'}": {
+        "error": "",
+        "response": "{'request': {'timezone': 'America/Chicago'}, 'response': {'time': '2025-04-18T09:13:21-05:00', 'year': 2025, 'month': 4, 'day': 18, 'hour': 9, 'minute': 13, 'second': 21, 'weekday': 'Friday', 'week_number': 16, 'utc_time': '2025-04-18T14:13:21+00:00', 'seconds_since_epoch': 1744985601, 'ctime': 'Fri Apr 18 09:13:21 2025', 'local_timezone': 'CDT'}}"
+    },
+    "{'timezone': 'Europe/Berlin'}": {
+        "error": "",
+        "response": "{'request': {'timezone': 'Europe/Berlin'}, 'response': {'time': '2024-09-13T18:40:50+02:00', 'year': 2024, 'month': 9, 'day': 13, 'hour': 18, 'minute': 40, 'second': 50, 'weekday': 'Friday', 'week_number': 37, 'utc_time': '2024-09-13T16:40:50+00:00', 'seconds_since_epoch': 1726245650, 'ctime': 'Fri Sep 13 18:40:50 2024', 'local_timezone': 'CEST'}}"
+    },
+    "{'timezone': 'EST'}": {
+        "error": "",
+        "response": "{'request': {'timezone': 'EST'}, 'response': {'time': '2025-06-15T15:36:09-05:00', 'year': 2025, 'month': 6, 'day': 15, 'hour': 15, 'minute': 36, 'second': 9, 'weekday': 'Sunday', 'week_number': 24, 'utc_time': '2025-06-15T20:36:09+00:00', 'seconds_since_epoch': 1750019769, 'ctime': 'Sun Jun 15 15:36:09 2025', 'local_timezone': 'EST'}}"
+    }
+}

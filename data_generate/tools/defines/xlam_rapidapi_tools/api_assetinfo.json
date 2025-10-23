@@ -1,0 +1,17 @@
+{
+    "name": "api_assetinfo",
+    "description": "This is a sub-function API for tool crypto_and_forex_rates.\nTool description: Get rates for forex USD base and crypto USDT base\nAPI description: Fetches information about a single asset using the given symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The symbol representing the asset to fetch information for.",
+                "default": "eur"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

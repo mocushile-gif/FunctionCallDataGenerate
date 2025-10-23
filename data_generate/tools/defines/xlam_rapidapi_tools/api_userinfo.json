@@ -1,0 +1,17 @@
+{
+    "name": "api_userinfo",
+    "description": "This is a sub-function API for tool tiktok_private_api.\nTool description: Get and analyze TikTok users and videos data.\nAPI description: Fetches the avatar, followers count, likes count, and videos count of a TikTok user by user ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the TikTok user.",
+                "default": "6867450947363636225"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "product_search",
+    "description": "This is a sub-function API for tool target_com_shopping_api.\nTool description: Realtime APIs support entire shopping flow on Target.com.\n(Free trial enabled)\n\nAPI description: Search for products in a store based on a keyword.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "store_id": {
+                "type": "string",
+                "description": "The ID of the store to search in.",
+                "default": "1122"
+            },
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to search for products.",
+                "default": "womens shoes"
+            },
+            "offset": {
+                "type": "string",
+                "description": "The starting point for the search results. Defaults to '0'.",
+                "default": "0"
+            },
+            "count": {
+                "type": "string",
+                "description": "The maximum number of products to return. Defaults to '25'.",
+                "default": "25"
+            }
+        },
+        "required": [
+            "store_id",
+            "keyword"
+        ]
+    }
+}

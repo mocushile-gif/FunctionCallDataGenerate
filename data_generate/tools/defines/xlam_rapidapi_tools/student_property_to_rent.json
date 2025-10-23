@@ -1,0 +1,82 @@
+{
+    "name": "student_property_to_rent",
+    "description": "This is a sub-function API for tool uk_real_estate_rightmove.\nTool description: Real-time data, unofficial API rightmove co uk\n\nRightmove is a leading UK Real Estate website in the United Kingdom. With the aim of providing detailed and reliable information about various types of properties, Rightmove has become an important destination for individuals looking to buy, sell, or rent property in the UK\nAPI description: Fetch student rental properties based on various search criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "identifier": {
+                "type": "string",
+                "description": "`identifier` get from  **auto-complete**  endpoint,  data[index]->`locationIdentifier`",
+                "default": "REGION^1036"
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "The criteria to sort the results by."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve results from."
+            },
+            "max_price": {
+                "type": "number",
+                "description": "The maximum price filter for the properties."
+            },
+            "search_radius": {
+                "type": "string",
+                "description": "The search radius in miles from the specified location. Defaults to '0.0'.",
+                "default": "0.0"
+            },
+            "min_price": {
+                "type": "number",
+                "description": "The minimum price filter for the properties."
+            },
+            "max_bedroom": {
+                "type": "number",
+                "description": "The maximum number of bedrooms filter."
+            },
+            "furnished_type": {
+                "type": "string",
+                "description": "The type of furnishing (comma-separated values). Examples: 'Furnished,PartFurnished,Unfurnished'."
+            },
+            "min_bedroom": {
+                "type": "number",
+                "description": "The minimum number of bedrooms filter."
+            },
+            "has_garden": {
+                "type": "boolean",
+                "description": "Filter to include properties with a garden."
+            },
+            "added_to_site": {
+                "type": "string",
+                "description": "The date the property was added to the site."
+            },
+            "property_type": {
+                "type": "string",
+                "description": "The type of property (comma-separated values). Examples: 'Bungalow,StudentHalls,Detached,SemiDetached,Terraced,Flat'."
+            },
+            "keywords": {
+                "type": "string",
+                "description": "Keywords to filter properties (comma-separated values). Examples: 'pool, garden'."
+            },
+            "has_house_share": {
+                "type": "boolean",
+                "description": "Filter to include properties that have house sharing options."
+            },
+            "has_include_let_agreed": {
+                "type": "boolean",
+                "description": "Filter to include properties that are let agreed."
+            },
+            "has_parking": {
+                "type": "boolean",
+                "description": "Filter to include properties with parking."
+            },
+            "do_not_show_house_share": {
+                "type": "boolean",
+                "description": "Filter to exclude properties with house sharing options."
+            }
+        },
+        "required": [
+            "identifier"
+        ]
+    }
+}

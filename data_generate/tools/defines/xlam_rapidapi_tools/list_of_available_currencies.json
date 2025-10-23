@@ -1,0 +1,20 @@
+{
+    "name": "list_of_available_currencies",
+    "description": "This is a sub-function API for tool changenow_crypto_exchange.\nTool description: Empower your business by letting your customers buy, sell, and exchange crypto. You will earn % on every transaction. 400+ cryptocurrencies and 75+ fiats are available. IMPORTANT: You should get your API key by creating a partner's account here: changenow.io/affiliate. Or email us: partners@changenow.io. \nAPI description: This API endpoint returns the list of available currencies. Some currencies get enabled or disabled from time to time, so make sure to refresh the list occasionally.\n\n<h3>Successful response:</h3>\n\t<p>The response contains an array of objects with currency information.</p>\n\n<h5>Successful response fields</h5>\n\n<table>\n\t<tr>\n        <td><b>Name</b></td>\n        <td><b>Type</b></td>\n        <td><b>Description</b></td>\n    </tr>\n    <tr>\n        <td><b><i>ticker</i></b></td>\n        <td><i>String</i></td>\n    ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fixedrate": {
+                "type": "string",
+                "description": "Set to 'true' to return only currencies available on a fixed-rate flow. Defaults to 'true'.",
+                "default": "true"
+            },
+            "active": {
+                "type": "string",
+                "description": "Set to 'true' to return only active currencies. Defaults to 'true'.",
+                "default": "true"
+            }
+        },
+        "required": []
+    }
+}

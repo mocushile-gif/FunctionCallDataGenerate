@@ -1,0 +1,23 @@
+{
+    "name": "get_likecounts_by_itemids_styleids",
+    "description": "This is a sub-function API for tool zappos_2022.\nTool description: ZAPPOS NEW ENDPOINTS\nAPI description: Retrieves like counts for specified item IDs and style IDs from the Zappos API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "siteid": {
+                "type": "number",
+                "description": "The ID representing the site.",
+                "default": 1.0
+            },
+            "itemids": {
+                "type": "number",
+                "description": "The IDs representing the items/styles.",
+                "default": 15651.0
+            }
+        },
+        "required": [
+            "siteid",
+            "itemids"
+        ]
+    }
+}

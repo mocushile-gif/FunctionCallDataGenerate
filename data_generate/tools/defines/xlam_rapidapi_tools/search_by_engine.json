@@ -1,0 +1,17 @@
+{
+    "name": "search_by_engine",
+    "description": "This is a sub-function API for tool airplanesdb.\nTool description: Get the basic specifications on all types of commercial airplanes.\nAPI description: Search for airplanes that have engines matching the given keyword.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "engine_icontains": {
+                "type": "string",
+                "description": "Keyword to search for in the airplane engine descriptions.",
+                "default": "rolls"
+            }
+        },
+        "required": [
+            "engine_icontains"
+        ]
+    }
+}

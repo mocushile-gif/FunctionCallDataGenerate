@@ -1,0 +1,17 @@
+{
+    "name": "address_autosuggest",
+    "description": "This is a sub-function API for tool address_autosuggest.\nTool description: \"Address Autosuggest\" API buit to suggests address results for a given search term. This API provides a JSON interface to extract address suggestions for a complete or partial address query.his API uses the latest PAF and Multiple Residence data from Royal Mail.\nAPI description: \"Address Autosuggest\" API buit to suggests address results for a given search term. This API provides a JSON interface to extract address suggestions for a complete or partial address query.\n\nThe Autocomplete API suggests partial address results for a given query.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The partial or complete text of the address to search for suggestions.",
+                "default": "Bridge"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

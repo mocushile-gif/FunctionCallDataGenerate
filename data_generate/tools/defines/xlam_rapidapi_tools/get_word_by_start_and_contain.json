@@ -1,0 +1,23 @@
+{
+    "name": "get_word_by_start_and_contain",
+    "description": "This is a sub-function API for tool random_word_api.\nTool description: This easy-to-use, 100% free API randomely picks out words from the entire english dictionnary with many parameters. Supports selecting words of a certain length or that start with a certain letter or a certain string of characters, or both, and much more!\nAPI description: Returns a random word that starts with a certain string and contains a certain string.\nFor example, if the start is \"fru\" and the substring is \"le\", you will get a word that starts with \"fru\" and contains \"le\", such as \"frustules\".",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "substring": {
+                "type": "string",
+                "description": "The substring that the word must contain.",
+                "default": "le"
+            },
+            "start": {
+                "type": "string",
+                "description": "The starting string of the word.",
+                "default": "fru"
+            }
+        },
+        "required": [
+            "substring",
+            "start"
+        ]
+    }
+}

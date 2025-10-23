@@ -1,0 +1,17 @@
+{
+    "name": "email_checker",
+    "description": "This is a sub-function API for tool disposable_email_checker.\nTool description: Email Validation Service.check if a certain e-mail address is valid. Is it a valid domain? Is the e-mail a temporary/disposable e-mail? Our API contain 100k disposable email domains and give most valid email\nAPI description: check the email provided by user for registration is valid or not or may be disposable email.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to be verified.",
+                "default": "rahul@gmail.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

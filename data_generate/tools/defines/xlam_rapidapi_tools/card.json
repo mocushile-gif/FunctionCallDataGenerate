@@ -1,0 +1,20 @@
+{
+    "name": "card",
+    "description": "This is a sub-function API for tool card_draw_simulator.\nTool description: Draw cards from a regular 52 playing cards deck with a variety of options.\nAPI description: Draw a card from a regular 52-card playing deck using the RapidAPI card draw simulator.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "suit": {
+                "type": "string",
+                "description": "The suit of the card to draw (e.g., 'hearts', 'diamonds', 'clubs', 'spades'). Default is 'all' to allow any suit.",
+                "default": "all"
+            },
+            "value": {
+                "type": "string",
+                "description": "The value of the card to draw (e.g., 'A', '2', 'K'). Default is 'A'.",
+                "default": "A"
+            }
+        },
+        "required": []
+    }
+}

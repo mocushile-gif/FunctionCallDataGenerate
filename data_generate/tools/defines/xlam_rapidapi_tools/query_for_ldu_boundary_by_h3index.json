@@ -1,0 +1,17 @@
+{
+    "name": "query_for_ldu_boundary_by_h3index",
+    "description": "This is a sub-function API for tool ca_boundaries_io.\nTool description: CA Postal Code(ex. T6H, or A0A0A1 ), FSA and LDU, Boundaries API: A simple & very fast API that will allow you to integrate multiple GeoJson CA FSA and LDU level boundaries result into your apps and systems. This API is designed to be used programatically for optimal performance. When using the MashApe UI for queries expect significant latency issues on large result sets!\nAPI description: Query for Boundary by H3Index.\nQuery for a LDU boundary by H3 Index, if a LDU Postal Code does not exist within the H3 Index Hexagon, an empty FeatureCollection is returned.\n\n**H3Index resolution must be greater than 8.**",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "h3ndex": {
+                "type": "number",
+                "description": "The H3 index used to query the LDU boundary.",
+                "default": 6.357757519264856e+17
+            }
+        },
+        "required": [
+            "h3ndex"
+        ]
+    }
+}

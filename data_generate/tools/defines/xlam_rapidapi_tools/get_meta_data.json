@@ -1,0 +1,27 @@
+{
+    "name": "get_meta_data",
+    "description": "This is a sub-function API for tool investing_cryptocurrency_markets.\nTool description: These APIs provide data of all cryptocurrencies, markets, ideal for tracking prices and exchange rates.\nAPI description: Fetches meta data from the cryptocurrency markets API using provided locale information and optional parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "locale_info": {
+                "type": "string",
+                "description": "The language code.",
+                "default": "en_US"
+            },
+            "lang_id": {
+                "type": "number",
+                "description": "The value of all&#95;langs/lang&#95;ID returned in .../get-meta-data endpoint",
+                "default": 1.0
+            },
+            "time_utc_offset": {
+                "type": "number",
+                "description": "UTC value in seconds, for example : utc+8 -> 8 * 60 * 60 = 28800",
+                "default": 28800.0
+            }
+        },
+        "required": [
+            "locale_info"
+        ]
+    }
+}

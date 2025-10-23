@@ -1,0 +1,16 @@
+{
+    "name": "jokes_search",
+    "description": "This is a sub-function API for tool chuck_norris.\nTool description: chucknorris.io is a free JSON API for hand curated Chuck Norris facts.\nAPI description: Conducts a free text search for jokes based on the provided query.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search term used to filter jokes."
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

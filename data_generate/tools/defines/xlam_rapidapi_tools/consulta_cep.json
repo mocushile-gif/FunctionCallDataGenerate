@@ -1,0 +1,17 @@
+{
+    "name": "consulta_cep",
+    "description": "This is a sub-function API for tool consulta_cnpj_tempo_real.\nTool description: API Tempo Real de Consultas a Receita Federal, Simples Nacional e Cadastro de Contribuintes (SINTEGRA).\nAPI description: Fetches information about a given CEP (Postal Code) using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cep": {
+                "type": "string",
+                "description": "The Brazilian postal code (CEP) to be queried.",
+                "default": "01452922"
+            }
+        },
+        "required": [
+            "cep"
+        ]
+    }
+}

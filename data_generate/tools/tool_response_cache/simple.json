@@ -1,0 +1,12 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "messages": "Base URL is missing or is not configured properly"
+        }
+    },
+    "{'phone': '+447890123456'}": {
+        "error": "",
+        "response": "{'success': True, 'numbers': [{'number': '+447890123456', 'valid': True, 'probability': 1.0, 'format': {'e164': '+447890123456', 'international': '+44 7890 123456', 'rfc3966': 'tel:+44-7890-123456', 'national': '07890 123456'}, 'region': {'name': 'GB', 'code': 44, 'country': {'name': 'United Kingdom', 'flag': {'code': '\ud83c\uddec\ud83c\udde7', 'htmlCode': '&#127468;&#127463;'}}}}]}"
+    }
+}

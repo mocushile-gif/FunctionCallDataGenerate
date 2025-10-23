@@ -1,0 +1,15 @@
+{
+    "name": "calculator",
+    "description": "Evaluate a simple arithmetic expression containing +, -, *, /, ** and parentheses.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "expression": {
+          "type": "string",
+          "description": "A valid arithmetic expression, such as '(403 + 239) - (182 + 172)'"
+        }
+      },
+      "required": ["expression"]
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "name": "shorten",
+    "description": "This is a sub-function API for tool bitly.\nTool description: Shortens urls\nAPI description: Shortens a given long URL using the Bitly API and returns the shortened URL or an error message.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "longurl": {
+                "type": "string",
+                "description": "a long URL to be shortened (example: http://betaworks.com/).",
+                "default": "http://www.mashape.com"
+            }
+        },
+        "required": [
+            "longurl"
+        ]
+    }
+}

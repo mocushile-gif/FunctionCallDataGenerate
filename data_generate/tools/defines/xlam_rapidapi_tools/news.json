@@ -1,0 +1,38 @@
+{
+    "name": "news",
+    "description": "This is a sub-function API for tool newsdata.\nTool description: Best News API To Search And Collect Worldwide News\nAPI description: The latest news endpoint provides access to the latest and breaking news for a country, for a specific category in a country, or for a single or multiple domains. The news articles are sorted by the publish date.\n\nRetrieving the latest news allows you to build experience such as showcasing the latest news, breaking news tickers and analyzing News to better understand their content.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "language": {
+                "type": "string",
+                "description": "A comma-separated string of languages (maximum 5) to restrict the search to. Possible options include 'en', 'ar', 'jp', 'in', 'es', 'fr'."
+            },
+            "country": {
+                "type": "string",
+                "description": "A comma-separated string of 2-letter ISO 3166-1 countries (maximum 5) to restrict the search to. Possible options include 'us', 'gb', 'in', 'jp', 'ae', 'sa', 'au', 'ca'."
+            },
+            "page": {
+                "type": "number",
+                "description": "Use this to page through the results if the total results found is greater than the page size.\n\n"
+            },
+            "category": {
+                "type": "string",
+                "description": "A comma-separated string of categories (maximum 5) to restrict the search to. Possible options include 'top', 'business', 'science', 'technology', 'sports', 'health', 'entertainment'."
+            },
+            "qintitle": {
+                "type": "string",
+                "description": "Keywords or phrases to search for in the news title only.\n\nPlease note: This parameter can't be used with q parameter in the same query."
+            },
+            "q": {
+                "type": "string",
+                "description": "Keywords or phrases to search for in both the news title and content. Note that the 'qintitle' and 'q' parameters cannot be used together in the same query."
+            },
+            "domain": {
+                "type": "string",
+                "description": "A comma-separated string of domains (maximum 5) to restrict the search to. Use the /domains endpoint to find top source IDs."
+            }
+        },
+        "required": []
+    }
+}

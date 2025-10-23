@@ -1,0 +1,17 @@
+{
+    "name": "getmatchesbyteam",
+    "description": "This is a sub-function API for tool ipl_api.\nTool description: It is api thats gives the data about IPL(2008-2020) matches data . \nAPI description: Fetches all matches for a specified team using the RapidAPI IPL endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "team": {
+                "type": "string",
+                "description": "The name of the team for which to retrieve matches.",
+                "default": "Kolkata Knight Riders"
+            }
+        },
+        "required": [
+            "team"
+        ]
+    }
+}

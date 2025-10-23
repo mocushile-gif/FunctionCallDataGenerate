@@ -1,0 +1,17 @@
+{
+    "name": "retrieving_a_contract",
+    "description": "This is a sub-function API for tool opensea_data_query.\nTool description: (Deprecated) Get opensea data without any api key\nAPI description: Fetches detailed information about an asset contract from the OpenSea API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "asset_contract_address": {
+                "type": "string",
+                "description": "The address of the asset contract to retrieve information for.",
+                "default": "0x4372f4d950d30c6f12c7228ade77d6cc019404c9"
+            }
+        },
+        "required": [
+            "asset_contract_address"
+        ]
+    }
+}

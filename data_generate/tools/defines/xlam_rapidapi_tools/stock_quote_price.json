@@ -1,0 +1,22 @@
+{
+    "name": "stock_quote_price",
+    "description": "This is a sub-function API for tool financial_modeling_prep.\nTool description: Extensive Financial Data API covering more than 70,000 Stocks, ETFs, Mutual Funds and indexes! Real-time & Historical Data\nAPI description: Fetches the real-time stock price for a given stock symbol using the Financial Modeling Prep API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to fetch the real-time price.",
+                "default": "AAPL"
+            },
+            "apikey": {
+                "type": "string",
+                "description": "The API key for authenticating with the Financial Modeling Prep API. Default is 'rapidapi'.",
+                "default": "rapidapi"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

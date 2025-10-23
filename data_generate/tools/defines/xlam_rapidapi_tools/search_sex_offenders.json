@@ -1,0 +1,47 @@
+{
+    "name": "search_sex_offenders",
+    "description": "This is a sub-function API for tool sex_offenders.\nTool description: National Registered Sex Offenders API for the United States. 750k+ offender records, 1M+ crimes, 19k+ cities, and all 50 states. Supports both criteria-based search (name, city, zip, state) and geospatial search (lat/lng, radius). More info https://offenders.io/\nAPI description: Support 2 types of searches, GIS search (lat, lng, radius) or attribute search (name, city, state, zipcode)\n\n**GIS Search:**\nParams:\n@lat: latitude\n@lng: longitude\n@radius: search radius in Miles (Mi), e.g. radius = 0.2 means the API will search for sex offenders within 0.2 miles of the given lat and lng\n\nYou can supply additional query params to filter down your results, supported additional params:\n@firstName, @lastName, @city, @state, @zipcode\n\n**Attribute Search:**\nParams:\n@firstName, @lastName, @city, ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lastname": {
+                "type": "string",
+                "description": "The last name of the sex offender to search for."
+            },
+            "zipcode": {
+                "type": "string",
+                "description": "The zipcode to search within."
+            },
+            "state": {
+                "type": "string",
+                "description": "The state to search within. Default is 'California'.",
+                "default": "California"
+            },
+            "city": {
+                "type": "string",
+                "description": "The city to search within."
+            },
+            "firstname": {
+                "type": "string",
+                "description": "The first name of the sex offender to search for. Default is 'David'.",
+                "default": "David"
+            },
+            "lat": {
+                "type": "number",
+                "description": "The latitude for GIS search. Default is 37.",
+                "default": 37.397568
+            },
+            "radius": {
+                "type": "number",
+                "description": "The search radius in miles for GIS search. Default is 1 mile.",
+                "default": 1.0
+            },
+            "lng": {
+                "type": "number",
+                "description": "The longitude for GIS search. Default is -122.",
+                "default": -122.06492
+            }
+        },
+        "required": []
+    }
+}

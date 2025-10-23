@@ -1,0 +1,17 @@
+{
+    "name": "md5_text_hash",
+    "description": "This is a sub-function API for tool hashing_api.\nTool description: Blake2B/MD5/SHA Text/File/Bytes Hashing\nAPI description: Generate an MD5 hash for the provided text using a specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "datastring": {
+                "type": "string",
+                "description": "The text string to be hashed using the MD5 algorithm.",
+                "default": "enter-your-string-here"
+            }
+        },
+        "required": [
+            "datastring"
+        ]
+    }
+}

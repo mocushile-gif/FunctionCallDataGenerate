@@ -1,0 +1,16 @@
+{
+    "name": "lines_line_abs",
+    "description": "This is a sub-function API for tool poetry_db.\nTool description: PoetryDB is the world's first API for Next Generation internet poets\nAPI description: Fetches poems that contain a specific line using the Thundercomb Poetry DB API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "line": {
+                "type": "string",
+                "description": "The exact line to search for in poems."
+            }
+        },
+        "required": [
+            "line"
+        ]
+    }
+}

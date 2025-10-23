@@ -1,0 +1,52 @@
+{
+    "name": "get_column_average",
+    "description": "Retrieve the average value of a column in a table of a SQLite database, with optional WHERE and GROUP BY clauses.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "database_path": {
+                "type": "string",
+                "description": "The path to the SQLite database."
+            },
+            "table_name": {
+                "type": "string",
+                "description": "The name of the table to query."
+            },
+            "column_name": {
+                "type": "string",
+                "description": "The name of the column to calculate the average."
+            },
+            "where_clause": {
+                "type": "string",
+                "description": "The WHERE clause to filter rows, without the 'WHERE' keyword. Optional.",
+                "default": null
+            },
+            "where_params": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                },
+                "description": "A list of parameters to bind to the WHERE clause. Optional.",
+                "default": []
+            },
+            "group_by": {
+                "oneOf": [
+                    {
+                        "type": "string",
+                        "description": "A single column name for the GROUP BY clause."
+                    },
+                    {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "description": "A list of column names for the GROUP BY clause."
+                    }
+                ],
+                "description": "The column(s) to group by, either a single column or a list of columns. Optional.",
+                "default": null
+            }
+        },
+        "required": ["database_path", "table_name", "column_name"]
+    }
+}

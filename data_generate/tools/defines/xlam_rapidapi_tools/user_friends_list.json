@@ -1,0 +1,17 @@
+{
+    "name": "user_friends_list",
+    "description": "This is a sub-function API for tool steam_community.\nTool description: Interface with elements on the SteamCommunity.\nAPI description: Retrieve a full listing of in-game, online, and offline friends of a user from the Steam community using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The user's Steam ID for whom the friends list is to be retrieved.",
+                "default": "sindex"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

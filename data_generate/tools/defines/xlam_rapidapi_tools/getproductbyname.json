@@ -1,0 +1,17 @@
+{
+    "name": "getproductbyname",
+    "description": "This is a sub-function API for tool cartify.\nTool description: Welcome to our e-commerce API! Our API is designed to make it easy for you to build and manage your online store and also build projects you can show on your porfolio. With our API, you can create products, manage orders, track shipments, and more. Our API is built on modern technologies and is easy to integrate with your existing systems.  Our API provides a secure and reliable platform for your e-commerce needs. You can trust us to keep your data safe and secure. We also provide a range of ...\nAPI description: This endpoint filters through the products database and brings out results based on the preferences you want.\n\nFor a valid response, it takes a path parameter which is required which takes the name of the product you would want.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "brand": {
+                "type": "string",
+                "description": "The name of the brand to filter products by.",
+                "default": "iPhone"
+            }
+        },
+        "required": [
+            "brand"
+        ]
+    }
+}

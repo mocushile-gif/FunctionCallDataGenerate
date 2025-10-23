@@ -1,0 +1,23 @@
+{
+    "name": "get_2_thumbnail_ready",
+    "description": "This is a sub-function API for tool pagepeeker.\nTool description: Automate website screenshots creation.  Generate screenshots in a matter of seconds.  Never busy, so there's no waiting in line.  Rendering starts immediately and is finished quickly.\nAPI description: Poll this API until it returns that the image is available.  If available, you can download through endpoint 1.  Rendering an image depends largely on how fast a particular web page is loaded (and if it contains Flash).  Average waiting time is around 20 - 60 seconds",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "size": {
+                "type": "string",
+                "description": "t = Tiny, 90 x 68 pixels;  s= Small, 120 x 90 pixels;  m = Medium, 200 x 150 pixels; l = Large, 400 x 300 pixels;  x = Extra large, 480 x 360 pixels",
+                "default": "m"
+            },
+            "url": {
+                "type": "string",
+                "description": "The URL from which to generate the thumbnail.",
+                "default": "http://www.mashape.com/"
+            }
+        },
+        "required": [
+            "size",
+            "url"
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "full_grid_search",
+    "description": "This is a sub-function API for tool local_rank_tracker.\nTool description: Fast and Reliable geolocation rank tracker API - get Google My Business ranking across the local area, broken up into a grid.\nAPI description: Performs a full grid search and retrieves the ranking of a specific business at each coordinate point within the grid. The grid cells in the results are ordered from left to right and then top to bottom.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "radius": {
+                "type": "string",
+                "description": "The distance between coordinate points (on the same row / column in the grid). The units of the radius are determined by the **distance_units** parameter.\n\n**Allowed values:** 0.1-100.\n**Default:** 1",
+                "default": "1"
+            },
+            "lat": {
+                "type": "string",
+                "description": "The latitude value for the grid center coordinate point.",
+                "default": "37.341759"
+            },
+            "grid_size": {
+                "type": "string",
+                "description": "The size of the grid (e.g., 3x3, 5x5, 7x7). Allowed values are odd integers between 3 and 15.",
+                "default": "3"
+            },
+            "place_id": {
+                "type": "string",
+                "description": "The Google Place ID of the business to match against in results.",
+                "default": "ChIJoejvAr3Mj4ARtHrbKxtAHXI"
+            },
+            "query": {
+                "type": "string",
+                "description": "The search query or keyword.",
+                "default": "web design"
+            },
+            "lng": {
+                "type": "string",
+                "description": "The longitude value for the grid center coordinate point.",
+                "default": "-121.938314"
+            },
+            "x_user_agent": {
+                "type": "string",
+                "description": "The device type for the search. Default is `desktop`."
+            },
+            "zoom": {
+                "type": "string",
+                "description": "Google Maps zoom level to use for search on each grid point.\n\n**Allowed values:** 0-18.\n**Default:** 13.",
+                "default": "13"
+            },
+            "radius_units": {
+                "type": "string",
+                "description": "Distance measurement units to use for the radius parameter (kilometers / miles).\n\n**Allowed values:** km, mi.\n**Default:** km."
+            }
+        },
+        "required": [
+            "radius",
+            "lat",
+            "grid_size",
+            "place_id",
+            "query",
+            "lng"
+        ]
+    }
+}

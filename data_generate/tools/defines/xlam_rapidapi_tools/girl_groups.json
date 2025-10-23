@@ -1,0 +1,30 @@
+{
+    "name": "girl_groups",
+    "description": "This is a sub-function API for tool k_pop.\nTool description: Get K-POP detailed songs, idol, group info!\nAPI description: Fetch information about K-pop girl groups based on various query parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search query to find specific girl groups.",
+                "default": "Twice"
+            },
+            "by": {
+                "type": "string",
+                "description": "default: Stage Name\n'by' parameter help you choose which info you would like to query based on.\n\nOnly the below values can be accepted for 'by'. \n\n- Group Name (default)\n- Short Group Name\n- Korean Name\n- Date of Debut\n- Company\n- Members\n- Original Members\n- Fanclub Name\n- Active",
+                "default": "Group Name"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to return. Default is to return all available results."
+            },
+            "offset": {
+                "type": "number",
+                "description": "The number of results to skip before starting to return results. Default is 0."
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

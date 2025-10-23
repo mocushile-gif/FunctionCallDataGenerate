@@ -1,0 +1,14 @@
+{
+    "name": "get_movies_by_cast_name",
+    "description": "This is a sub-function API for tool imdb_api.\nTool description: This API is a powerful tool that provides access to the top 250 movies as rated by IMDB users. With this API, you can search for movies by title, year, directors, and cast. Retrieve detailed information about each movie, including ratings, genres, and more. By integrating our API into your applications or services, you can offer users an enhanced movie search and discovery experience, opening up exciting possibilities for building movie-related platforms.\nAPI description: Fetches movies associated with a given cast member's name from the IMDB API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cast_name": {
+                "type": "string",
+                "description": "Name of the cast member to search for. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

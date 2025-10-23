@@ -1,0 +1,27 @@
+{
+    "name": "lists_tweets",
+    "description": "This is a sub-function API for tool twitter_v2.\nTool description: Twitter public data API for Tweets and users\nAPI description: Fetches a list of tweets from a specified Twitter list using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "list_id": {
+                "type": "string",
+                "description": "The unique identifier for the Twitter list.",
+                "default": "1591033111726391297"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "The cursor to use for fetching the next page of results. Defaults to 'HBaAgLydmczz0y0AAA=='.",
+                "default": "HBaAgLydmczz0y0AAA=="
+            },
+            "count": {
+                "type": "string",
+                "description": "The number of tweets to retrieve. Defaults to '20'.",
+                "default": "20"
+            }
+        },
+        "required": [
+            "list_id"
+        ]
+    }
+}

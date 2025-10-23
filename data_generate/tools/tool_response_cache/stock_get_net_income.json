@@ -1,0 +1,32 @@
+{
+    "{'symbol': 'AAPL', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '55256000000.0'}"
+    },
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": {
+            "value": "55256000000.0"
+        }
+    },
+    "{'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'value': '6149000000.0'}"
+    },
+    "{'symbol': 'AMZN', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '65944000000.0'}"
+    },
+    "{'symbol': 'META'}": {
+        "error": "",
+        "response": "{'value': '66635000000.0'}"
+    },
+    "{'symbol': 'MSFT', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '96635000000.0'}"
+    },
+    "{'symbol': 'TSLA', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '7130000000.0'}"
+    }
+}

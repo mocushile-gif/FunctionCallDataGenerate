@@ -1,0 +1,17 @@
+{
+    "name": "check_for_disposable_emails",
+    "description": "This is a sub-function API for tool email_existence_validator.\nTool description: API which checks if email really exist on server or not.\nIt check for different parameters for giving end results .\nCheck for MX records, SMTP deliverability, Disposable check and many more.\nAPI description: Checks if the given email address is disposable or temporary using the Email Existence Validator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to check for disposability.",
+                "default": "example@besttempmail.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "player_stats_by_id_and_year",
+    "description": "This is a sub-function API for tool ultimate_tennis.\nTool description:  Welcome to the Ultimate Tennis API!  It provides all the information you need about the tennis world, including all the details related to players and tournaments(live scores, matches, statistics), from both the ATP and tha WTA circuits, both singles and doubles . We also provide live bettings odds for every match in every tennis category. You can easily build your tennis related portal or enhance your Ml/AI projects.   \nAPI description: Via this endpoint you can retrieve official updated statistics for a given WTA player. Values are updated after every played match. ID can be retrieved from the Official WTA Players Rankings endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "player_id": {
+                "type": "string",
+                "description": "The unique identifier for the WTA player. The ID can be retrieved from the Official WTA Players Rankings endpoint.",
+                "default": "326408"
+            },
+            "year": {
+                "type": "string",
+                "description": "The year for which to retrieve the player's statistics (e.g., 2022, 2021).",
+                "default": "2022"
+            }
+        },
+        "required": [
+            "player_id",
+            "year"
+        ]
+    }
+}

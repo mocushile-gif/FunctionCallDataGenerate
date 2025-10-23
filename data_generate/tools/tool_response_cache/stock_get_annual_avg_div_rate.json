@@ -1,0 +1,38 @@
+{
+    "{'region': 'US', 'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'value': '1.0'}"
+    },
+    "{'symbol': 'AAPL', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '0.97'}"
+    },
+    "{'symbol': 'MSFT', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '3.16'}"
+    },
+    "{'region': 'BR', 'symbol': 'VALE3.SA'}": {
+        "error": "",
+        "response": "{'value': '4.756'}"
+    },
+    "{'region': 'AU', 'symbol': 'BHP.AX'}": {
+        "error": "",
+        "response": "{'value': '1.24'}"
+    },
+    "{'region': 'CA', 'symbol': 'CNQ.TO'}": {
+        "error": "",
+        "response": "{'value': '2.2'}"
+    },
+    "{'region': 'DE', 'symbol': 'SAP.DE'}": {
+        "error": "",
+        "response": "{'value': '2.35'}"
+    },
+    "{'region': 'FR', 'symbol': 'BNP.PA'}": {
+        "error": "",
+        "response": "{'value': '4.79'}"
+    },
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'value': '0.97'}"
+    }
+}

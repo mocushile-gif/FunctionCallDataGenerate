@@ -1,0 +1,23 @@
+{
+    "name": "venuedetails",
+    "description": "This is a sub-function API for tool testing_v2.\nTool description: testing\nAPI description: Fetches detailed information about a specific venue using a given venue ID and language.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the venue for which details are to be fetched.",
+                "default": "56c467cb7b0d464811a42017"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the details to be retrieved in.",
+                "default": "zh-hans"
+            }
+        },
+        "required": [
+            "is_id",
+            "lang"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "ip_to_location",
+    "description": "This is a sub-function API for tool ip_to_location.\nTool description: 100% free to use. Get location details from IP address, endpoint returns coordinates [latitude, longitude], ip, isp, host[ ip_address, prefix len, status, country, region, city, location,area code, country code\nAPI description: Retrieves location details based on the provided IP address using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IP address for which to get location details. Defaults to '179.27.93.248'.",
+                "default": "179.27.93.248"
+            }
+        },
+        "required": []
+    }
+}

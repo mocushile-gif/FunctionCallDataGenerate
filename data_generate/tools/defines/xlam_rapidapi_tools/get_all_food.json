@@ -1,0 +1,15 @@
+{
+    "name": "get_all_food",
+    "description": "This is a sub-function API for tool ghana_food_recipe_api.\nTool description: Ghana has a rich culture of food,with 1000s of food recipes. This api will enable both local and international developers build apps tailored around this rich culture of food or for developers building recipe apps specific to countries.More recipe to be added. Contact the developer if you love to help. \nAPI description: This endpoint gets all Ghanaian food along with ingredients and a short description. Each page supplies 5 payload, use the parameter ?page=(page number) to access other pages. Example. url?page=2",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number to request data from. Default is '?page=2'.",
+                "default": "?page=2"
+            }
+        },
+        "required": []
+    }
+}

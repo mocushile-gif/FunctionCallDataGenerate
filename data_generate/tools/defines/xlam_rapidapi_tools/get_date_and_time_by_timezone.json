@@ -1,0 +1,17 @@
+{
+    "name": "get_date_and_time_by_timezone",
+    "description": "This is a sub-function API for tool location_and_time.\nTool description: A collection of location and time utilities. You can search for country/city information worldwide, find out distance between two locations/cities, get location data from IP address, solve any time questions regarding different timezones, get sunrise/sunset times at any location, get holiday information worldwide, and much more!\nAPI description: Gets the current date and time for a specified timezone using the Location and Time API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "timezone": {
+                "type": "string",
+                "description": "Specify time zone from the response of `/timezone` endpoint.",
+                "default": "America/Los_Angeles"
+            }
+        },
+        "required": [
+            "timezone"
+        ]
+    }
+}

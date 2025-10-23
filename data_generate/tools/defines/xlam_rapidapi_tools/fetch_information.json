@@ -1,0 +1,27 @@
+{
+    "name": "fetch_information",
+    "description": "This is a sub-function API for tool asn_lookup.\nTool description: Autonomous System Numbers (ASN) internet search engine to quickly lookup updated information about specific ASN, Organization, CIDR, or registered IP addresses (IPv4 and IPv6) among other relevant data.\nAPI description: Fetches information based on IP, ASN, CIDR (IPv4 & IPv6), or organization name using the RapidAPI ASN Lookup service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "IP address to lookup. Defaults to None."
+            },
+            "asn": {
+                "type": "string",
+                "description": "Autonomous System Number to lookup. Defaults to 'AS32934'.",
+                "default": "AS32934"
+            },
+            "cidr": {
+                "type": "string",
+                "description": "CIDR notation for IP address range to lookup. Defaults to None."
+            },
+            "orgname": {
+                "type": "string",
+                "description": "Organization name to lookup. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

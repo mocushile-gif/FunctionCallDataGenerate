@@ -1,0 +1,17 @@
+{
+    "name": "define_a_word_search",
+    "description": "This is a sub-function API for tool urban_dictionary.\nTool description: Access all of the Urban Dictionary, the one-stop shop for slang definitions\nAPI description: Fetches the definition of a specific word from the Urban Dictionary API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "term": {
+                "type": "string",
+                "description": "The word to define.",
+                "default": "yeet"
+            }
+        },
+        "required": [
+            "term"
+        ]
+    }
+}

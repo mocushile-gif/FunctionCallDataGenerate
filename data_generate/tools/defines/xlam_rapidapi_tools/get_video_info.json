@@ -1,0 +1,21 @@
+{
+    "name": "get_video_info",
+    "description": "This is a sub-function API for tool youtube_video_download_info.\nTool description: Download YouTube Videos/MP4. Forever Free Version.\nAPI description: Gets video download links and other relevant information in JSON format for a given YouTube video ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The YouTube video ID for which to fetch information.",
+                "default": "UxxajLWwzqY"
+            },
+            "geo": {
+                "type": "string",
+                "description": "The country code in ISO 3166 format of the end user. Defaults to None."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

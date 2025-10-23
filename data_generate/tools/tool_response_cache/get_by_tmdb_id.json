@@ -1,0 +1,35 @@
+{
+    "{'tm': 272, 'm': 'movie'}": {
+        "error": "",
+        "response": {
+            "title": "The Matrix",
+            "overview": "A computer programmer discovers a mysterious world of digital reality while becoming a key target of a underground rebellion.",
+            "release_date": "1999-03-30",
+            "mediatype": "movie",
+            "tmdb_id": 272,
+            "ratings": {
+                "imdb": 8.7,
+                "tmdb": 8.3,
+                "metacritic": 73
+            },
+            "genres": [
+                "Action",
+                "Sci-Fi"
+            ],
+            "providers": {
+                "netflix": "US",
+                "amazon_prime": "Global",
+                "itunes": "Purchase/rental available"
+            },
+            "directors": [
+                "Lana Wachowski",
+                "Lilly Wachowski"
+            ],
+            "runtime_minutes": 136
+        }
+    },
+    "{'tm': 343, 'm': 'movie'}": {
+        "error": "",
+        "response": "{'title': 'Harold and Maude', 'year': 1971, 'released': '1971-12-20', 'released_digital': None, 'description': 'The young Harold lives in his own world of suicide-attempts and funeral visits to avoid the misery of his current family and home environment. Harold meets an 80-year-old woman named Maude who also lives in her own world yet one in which she is having the time of her life. When the two opposites meet they realize that their differences don\u2019t matter and they become best friends and love each other.', 'runtime': 91, 'score': 73, 'score_average': 73, 'imdbid': 'tt0067185', 'traktid': 290, 'tmdbid': 343, 'type': 'movie', 'ratings': [{'source': 'imdb', 'value': 7.9, 'score': 79, 'votes': 84216, 'popular': None}, {'source': 'metacritic', 'value': 62, 'score': 62, 'votes': 14, 'url': '/movie/harold-and-maude'}, {'source': 'metacriticuser', 'value': 8.2, 'score': 82.0, 'votes': 38}, {'source': 'trakt', 'value': 76, 'score': 76, 'votes': 1690}, {'source': 'tomatoes', 'value': 86, 'score': 86, 'votes': 49, 'url': '/m/harold_and_maude'}, {'source': 'tomatoesaudience', 'value': 93, 'score': 93, 'votes': 4444}, {'source': 'tmdb', 'value': 76, 'score': 76, 'votes': 1120}, {'source': 'letterboxd', 'value': 4.1, 'score': 82, 'votes': 118585, 'url': '/film/harold-and-maude/'}, {'source': 'rogerebert', 'value': 1.5, 'url': 'harold-and-maude-1972'}, {'source': 'myanimelist', 'value': None, 'votes': None, 'id': None}], 'streams': [{'id': 3, 'name': 'Showtime'}, {'id': 9, 'name': 'fuboT"
+    }
+}

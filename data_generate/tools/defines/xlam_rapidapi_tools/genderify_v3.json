@@ -1,0 +1,17 @@
+{
+    "name": "genderify_v3",
+    "description": "This is a sub-function API for tool genderify3.\nTool description: Detect gender API, predict Male or Female by Name or Email Address with high accuracy.  Determine the gender of a name. New Update Version 3.\nAPI description: Predict and detect male or female based on their name or email address. Names are supported in over 160 supported countries.\n\ninput: Emily Blunt or shigeotokuda@email.com",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The name or email address to analyze for gender prediction.",
+                "default": "ayumihamasaki@gmail.com"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

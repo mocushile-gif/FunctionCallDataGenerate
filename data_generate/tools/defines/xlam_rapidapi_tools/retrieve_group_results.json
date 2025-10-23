@@ -1,0 +1,17 @@
+{
+    "name": "retrieve_group_results",
+    "description": "This is a sub-function API for tool drillster_2_0.\nTool description: Drillster is an open cloud based memorization platform that helps users learn more in less time. Use our API to integrate with Drillster or to create your own memorization solution.\r\n\r\nFor detailed information about this API, please refer to http://www.drillster.com/info/api-2/.\nAPI description: Retrieves the up-to-date results for a specified group using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "group_id": {
+                "type": "string",
+                "description": "The unique ID for the group which results are to be retrieved.",
+                "default": "nYrK9udUc-UGvRS2kxaPtaB-0wzeHAJzM6vlL1te6wI"
+            }
+        },
+        "required": [
+            "group_id"
+        ]
+    }
+}

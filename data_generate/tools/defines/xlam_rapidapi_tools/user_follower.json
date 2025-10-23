@@ -1,0 +1,25 @@
+{
+    "name": "user_follower",
+    "description": "This is a sub-function API for tool tiktok_scraper_v2.\nTool description: Get basic tiktok user info and medias. Cheap and stable. Telegram https://t.me/JoTucker2022\nAPI description: Retrieves the followers of a specified TikTok user using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The unique identifier of the TikTok user whose followers are to be retrieved.",
+                "default": "107955"
+            },
+            "count": {
+                "type": "string",
+                "description": "The number of followers to retrieve. Default is None."
+            },
+            "cursor": {
+                "type": "string",
+                "description": "The cursor for pagination (to fetch the next set of followers). Default is None."
+            }
+        },
+        "required": [
+            "user_id"
+        ]
+    }
+}

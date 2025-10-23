@@ -1,0 +1,49 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "date": "20220820",
+            "co2perKwh": 511,
+            "trend": {
+                "avg30": 444,
+                "avg365": 414
+            }
+        }
+    },
+    "{'date': '2023-05-15'}": {
+        "error": "",
+        "response": "{'date': '20230515', 'co2perKwh': 469, 'trend': {'avg30': 350, 'avg365': 388}, 'query': {'date': '20230515'}, 'provisioning': {'source': 'RapidAPI', 'license': 'CC BY-NC-SA 4.0 ( https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en )', 'tier': 'authenticated'}}"
+    },
+    "{'date': '2025-06-01'}": {
+        "error": "",
+        "response": "{'date': '20250503', 'co2perKwh': 196, 'trend': {'avg30': 323, 'avg365': 360}, 'query': {'date': '20250503'}, 'provisioning': {'source': 'RapidAPI', 'license': 'CC BY-NC-SA 4.0 ( https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en )', 'tier': 'authenticated'}}"
+    },
+    "{'date': '2025-06-15'}": {
+        "error": "",
+        "response": "{'date': '20250516', 'co2perKwh': 248, 'trend': {'avg30': 277, 'avg365': 354}, 'query': {'date': '20250516'}, 'provisioning': {'source': 'RapidAPI', 'license': 'CC BY-NC-SA 4.0 ( https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en )', 'tier': 'authenticated'}}"
+    },
+    "{'date': '2024-06-15'}": {
+        "error": "",
+        "response": "{'date': '20240615', 'co2perKwh': 150, 'trend': {'avg30': 275, 'avg365': 332}, 'query': {'date': '20240615'}, 'provisioning': {'source': 'RapidAPI', 'license': 'CC BY-NC-SA 4.0 ( https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en )', 'tier': 'authenticated'}}"
+    },
+    "{'date': '2025-01-15'}": {
+        "error": "",
+        "response": "{'date': '20250115', 'co2perKwh': 535, 'trend': {'avg30': 361, 'avg365': 343}, 'query': {'date': '20250115'}, 'provisioning': {'source': 'RapidAPI', 'license': 'CC BY-NC-SA 4.0 ( https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en )', 'tier': 'authenticated'}}"
+    },
+    "{'date': '2019-06-15'}": {
+        "error": "",
+        "response": "{'date': '20190615', 'co2perKwh': 267, 'trend': {'avg30': 353, 'avg365': 409}, 'query': {'date': '20190615'}, 'provisioning': {'source': 'RapidAPI', 'license': 'CC BY-NC-SA 4.0 ( https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en )', 'tier': 'authenticated'}}"
+    },
+    "{'date': '2025-01-01'}": {
+        "error": "",
+        "response": "{'date': '20241204', 'co2perKwh': 539, 'trend': {'avg30': 397, 'avg365': 339}, 'query': {'date': '20241204'}, 'provisioning': {'source': 'RapidAPI', 'license': 'CC BY-NC-SA 4.0 ( https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en )', 'tier': 'authenticated'}}"
+    },
+    "{'date': '2018-01-01'}": {
+        "error": "",
+        "response": "{'date': '20180101', 'co2perKwh': 236, 'trend': {'avg30': 372, 'avg365': 451}}"
+    },
+    "{'date': '2025-05-15'}": {
+        "error": "",
+        "response": "{'date': '20250515', 'co2perKwh': 232, 'trend': {'avg30': 280, 'avg365': 355}, 'query': {'date': '20250515'}, 'provisioning': {'source': 'RapidAPI', 'license': 'CC BY-NC-SA 4.0 ( https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en )', 'tier': 'authenticated'}}"
+    }
+}

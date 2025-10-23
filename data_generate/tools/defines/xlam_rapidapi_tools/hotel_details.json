@@ -1,0 +1,100 @@
+{
+    "name": "hotel_details",
+    "description": "This is a sub-function API for tool priceline_com_provider.\nTool description: priceline.com | Lets you search hotels, cars for rent, flights. **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters **Other travel  api:** https://rapi.one\nAPI description: Fetches detailed information about a specified hotel from the Priceline API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hotel_id": {
+                "type": "string",
+                "description": "The PPN Hotel ID identifying the desired property.",
+                "default": "700008849"
+            },
+            "airport_limit": {
+                "type": "number",
+                "description": "Limit the number of nearby airports included in the response."
+            },
+            "check_in": {
+                "type": "string",
+                "description": "Check-in date in 'YYYY-MM-DD' or 'MM/DD/YYYY' format."
+            },
+            "promo": {
+                "type": "boolean",
+                "description": "Toggle the hotels promo data on and off. By default, promo data is excluded in the response. To include promo data in the response, set promo to 1.",
+                "default": true
+            },
+            "photos": {
+                "type": "boolean",
+                "description": "Toggles photo data. By default, hotel photo data is excluded in the response. Valid Options: 0 = Off, 1 = On.",
+                "default": true
+            },
+            "videos": {
+                "type": "boolean",
+                "description": "Flag to include video data. Default is False.",
+                "default": true
+            },
+            "guest_score_breakdown": {
+                "type": "boolean",
+                "description": "Toggle guest score breakdown on and off. Valid Options: True or False",
+                "default": true
+            },
+            "reviews": {
+                "type": "boolean",
+                "description": "Toggle hotel review data. By default, review data is excluded in the response. Valid Options: 0 = False, 1 = On.",
+                "default": true
+            },
+            "city_limit": {
+                "type": "number",
+                "description": "Limit the number of cities included in the response."
+            },
+            "sid": {
+                "type": "string",
+                "description": "Session ID. Default is 'iSiX639'.",
+                "default": "iSiX639"
+            },
+            "important_info": {
+                "type": "boolean",
+                "description": "Toggles important info. Important info is extra details regarding the specified hotel. By default, important info is excluded in the response. Valid Options: 0 = Off, 1 = On.",
+                "default": true
+            },
+            "recent": {
+                "type": "boolean",
+                "description": "Flag to include recent sales data. Default is False.",
+                "default": true
+            },
+            "poi_limit": {
+                "type": "number",
+                "description": "Limit the number of points of interest included in the response."
+            },
+            "plugins": {
+                "type": "boolean",
+                "description": "Provides extra information regarding plugins for the specified hotel. To include specific plugin information, include the ID of the plugin as a comma separated value to the plugins parameter.",
+                "default": true
+            },
+            "image_size": {
+                "type": "string",
+                "description": "The size of the image returned. Valid Options: small (60px), medium(300 to 312px) or large(500 to 800px)"
+            },
+            "id_lookup": {
+                "type": "boolean",
+                "description": "Allows non-PPN Hotel IDs to be searched in the database. Valid Options: True or False",
+                "default": true
+            },
+            "check_out": {
+                "type": "string",
+                "description": "Check-out date in 'YYYY-MM-DD' or 'MM/DD/YYYY' format."
+            },
+            "currency": {
+                "type": "string",
+                "description": "The currency format for the results, in ISO 4217 format."
+            },
+            "nearby": {
+                "type": "boolean",
+                "description": "Toggles nearby data. Nearby data is extra information regarding the specified hotel s location. Nearby data can include city_data, airport_data, and poi_category_data. By default, nearby data is excluded from the response. To include nearby data, set nearby to 1. To include city_data within nearby data, include a city_limit parameter to a value greater than 1. To include airport_data within nearby data, include a airport_limit parameter to a value greater than 1. To include poi_category_data within nearby d",
+                "default": true
+            }
+        },
+        "required": [
+            "hotel_id"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "downloadminecraftjarchecksum",
+    "description": "This is a sub-function API for tool minecraft_forge_optifine.\nTool description: This api is used to get version list and download for Minectaft, Forge and Optifine.\nAPI description: Fetches the SHA-1 checksum of a specified Minecraft version JAR file from the Nitroxenon Minecraft Forge API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "minecraftversion": {
+                "type": "string",
+                "description": "The version of Minecraft to fetch the JAR checksum for."
+            }
+        },
+        "required": [
+            "minecraftversion"
+        ]
+    }
+}

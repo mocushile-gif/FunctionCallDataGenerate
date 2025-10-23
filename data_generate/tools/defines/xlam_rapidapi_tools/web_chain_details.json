@@ -1,0 +1,17 @@
+{
+    "name": "web_chain_details",
+    "description": "This is a sub-function API for tool open_defi.\nTool description: Open DeFi API gives you access to decentralised exchange trading data, liquidity and tokens across multiple blockchains.\nAPI description: python",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chain_slug": {
+                "type": "string",
+                "description": "The slug identifier for the blockchain (e.g., 'ethereum' for Ethereum mainnet).",
+                "default": "ethereum"
+            }
+        },
+        "required": [
+            "chain_slug"
+        ]
+    }
+}

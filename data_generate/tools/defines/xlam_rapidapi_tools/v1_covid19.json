@@ -1,0 +1,31 @@
+{
+    "name": "v1_covid19",
+    "description": "This is a sub-function API for tool covid_19_by_api_ninjas.\nTool description: Covid-19 case count and death data for every country in the world. See more info at https://api-ninjas.com/api/covid19.\nAPI description: Fetches COVID-19 data from the API Ninjas COVID-19 endpoint based on the provided parameters. Either `date` or `country` must be set.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "Type of data to retrieve. Must be either \"cases\" or \"deaths\". If not set, \"cases\" will be used by default."
+            },
+            "country": {
+                "type": "string",
+                "description": "Country name (case insensitive)."
+            },
+            "date": {
+                "type": "string",
+                "description": "Date to retrieve single-day snapshot. Must be in the form of YYYY-MM-DD (e.g., 2022-01-01). Defaults to '2022-01-01'.",
+                "default": "2022-01-01"
+            },
+            "county": {
+                "type": "string",
+                "description": "County name for US states (case insensitive). For United States data only. Must be used in conjunction with `country` (United States) and `region` (e.g., California)."
+            },
+            "region": {
+                "type": "string",
+                "description": "Administrative region (also known as state or province in many countries) name (case insensitive). Must be used in conjunction with `country`. If not set, countries with data broken down by administrative regions will return separate data for each region."
+            }
+        },
+        "required": []
+    }
+}

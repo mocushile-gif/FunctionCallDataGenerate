@@ -1,0 +1,17 @@
+{
+    "name": "session",
+    "description": "This is a sub-function API for tool f1_live_motorsport_data.\nTool description: Formula 1 data for the ultimate motorsport fanatic!\nAPI description: Fetches the session details for a given `session_id` from the Races endpoint on the F1 Live Motorsport Data API. This includes information such as drivers' times, session weather, speed traps, and session status and is updated throughout each session.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "session_id": {
+                "type": "number",
+                "description": "The ID of the session for which details are being retrieved.",
+                "default": 2757.0
+            }
+        },
+        "required": [
+            "session_id"
+        ]
+    }
+}

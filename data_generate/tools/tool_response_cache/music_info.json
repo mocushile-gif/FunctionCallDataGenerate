@@ -1,0 +1,46 @@
+{
+    "{'music_id': ''}": {
+        "error": "",
+        "response": {
+            "success": false,
+            "data": "music_id is required"
+        }
+    },
+    "{'music_id': '6955932963305491717'}": {
+        "error": "",
+        "response": {
+            "success": true,
+            "data": {
+                "extra": {
+                    "fatal_item_ids": [],
+                    "logid": "20230710075640869A6DAD93257F081FB7",
+                    "now": 1688975801000
+                },
+                "log_pb": {
+                    "impr_id": "20230710075640869A6DAD93257F081FB7"
+                },
+                "statusCode": 100004,
+                "status_code": 0
+            }
+        }
+    },
+    "{'music_id': '<music_id>'}": {
+        "error": "",
+        "response": {
+            "success": true,
+            "data": {
+                "log_pb": {
+                    "impr_id": "202307100803317DB63E6BA2AE2D092FA2"
+                },
+                "statusCode": 10201,
+                "statusMsg": "illegal musicID given",
+                "status_code": 10201,
+                "status_msg": "illegal musicID given"
+            }
+        }
+    },
+    "{'music_id': '6761543137128089601'}": {
+        "error": "",
+        "response": "{'success': True, 'data': {'extra': {'fatal_item_ids': [], 'logid': '20230718192756B75C30981E929B3609BC', 'now': 1689708478000}, 'log_pb': {'impr_id': '20230718192756B75C30981E929B3609BC'}, 'musicInfo': {'music': {'album': 'Peks Epic Collection', 'authorName': 'Peks Epic Music', 'coverLarge': 'https://p16-sg.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/65bfedf884b64c6793420e4280b9a940.jpeg', 'coverMedium': 'https://p16-sg.tiktokcdn.com/aweme/200x200/tos-alisg-v-2774/65bfedf884b64c6793420e4280b9a940.jpeg', 'coverThumb': 'https://p16-sg.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/65bfedf884b64c6793420e4280b9a940.jpeg', 'duration': 60, 'id': '6761543137128089601', 'original': False, 'playUrl': 'https://sf16-ies-music-sg.tiktokcdn.com/obj/tos-alisg-ve-2774/f01ab732ae534fdb9e388de5ab6c9f59', 'private': False, 'title': 'Sky Battle'}, 'stats': {'videoCount': 30000}}, 'shareMeta': {'desc': '30.0k videos - Watch awesome short videos created with \u266c Sky Battle', 'title': '%!s(*wrapper.UserWrapper=<nil>) | \u266c Sky Battle | on TikTok'}, 'statusCode': 0, 'status_code': 0}}"
+    }
+}

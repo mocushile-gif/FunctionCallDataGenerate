@@ -1,0 +1,24 @@
+{
+    "name": "listportfolios",
+    "description": "This is a sub-function API for tool trader_wagon.\nTool description: Trader Wagon API is specially designed to obtain traders' positions (portfolio).\nAPI description: Fetches a list of portfolios from the Trader Wagon API based on the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The number of results to return. Default is 10.",
+                "default": 10.0
+            },
+            "portfoliotype": {
+                "type": "string",
+                "description": "The type of portfolio to filter by. Default is None."
+            },
+            "available": {
+                "type": "number",
+                "description": "Specifies whether to list only available portfolios. Default is 0.",
+                "default": 0.0
+            }
+        },
+        "required": []
+    }
+}

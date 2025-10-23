@@ -1,0 +1,24 @@
+{
+    "name": "get_deals",
+    "description": "This is a sub-function API for tool amazon_web_scraping_api.\nTool description: Provides access to amazon product details, customer reviews, product images, videos, and more, with support for all Amazon websites across the globe. Whether you're a developer building an e-commerce app or a business looking to enhance your customer experience, our API has got you covered. Try it today and start integrating Amazon product data into your application or website.\n\nCheckout our channel of telegram: https://t.me/+EkKIVZiiDQthMmYx\nAPI description: Get amazon deals allowing to filter by category.  The category list is included in the response.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "countrycode": {
+                "type": "string",
+                "description": "The country code to filter deals by. Defaults to 'US'.",
+                "default": "US"
+            },
+            "languagecode": {
+                "type": "string",
+                "description": "The language code to filter deals by. Defaults to 'EN'.",
+                "default": "EN"
+            },
+            "categoryid": {
+                "type": "string",
+                "description": "The category ID to filter deals by. If not provided, deals from all categories are returned."
+            }
+        },
+        "required": []
+    }
+}

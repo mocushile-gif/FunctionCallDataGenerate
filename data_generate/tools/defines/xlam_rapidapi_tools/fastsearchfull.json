@@ -1,0 +1,17 @@
+{
+    "name": "fastsearchfull",
+    "description": "This is a sub-function API for tool avito_scraper.\nTool description: API that extract data of any search on avito.ma\nAPI description: Fetch detailed information using the Fast API for a given search term.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fastav": {
+                "type": "string",
+                "description": "The search query string.",
+                "default": "https://www.avito.ma/fr/maroc/jeux_vid%C3%A9o_et_consoles-%C3%A0_vendre?cities=8,5&price_min=350&price_max=1200"
+            }
+        },
+        "required": [
+            "fastav"
+        ]
+    }
+}

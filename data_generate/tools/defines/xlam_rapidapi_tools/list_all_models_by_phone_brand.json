@@ -1,0 +1,17 @@
+{
+    "name": "list_all_models_by_phone_brand",
+    "description": "This is a sub-function API for tool mobile_phone_specs_database.\nTool description: Our cell phones / mobile phones specs database (GSM specs) is a collection of specifications and features of different models of mobile phones (more than 10,000 models). This information includes the device's dimensions,  images, weight, display size and type, processor, memory, storage, camera specifications, battery capacity, operating system, and connectivity options, among others. \nThe purpose of this database is to provide a comprehensive source of information for consumers to compare an...\nAPI description: Fetches and returns a list of mobile phone models for a given phone brand using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "brandname": {
+                "type": "string",
+                "description": "The name of the phone brand for which to fetch model information.",
+                "default": "Samsung"
+            }
+        },
+        "required": [
+            "brandname"
+        ]
+    }
+}

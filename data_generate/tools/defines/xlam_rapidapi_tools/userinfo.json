@@ -1,0 +1,17 @@
+{
+    "name": "userinfo",
+    "description": "This is a sub-function API for tool instagram_cheapest.\nTool description: 2023，Real-time and cheapest Instagram data API，raw json。user，media，hashtag。最便宜的instagram api\nAPI description: Fetch user information from Instagram using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username for which to fetch information.",
+                "default": "nike"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

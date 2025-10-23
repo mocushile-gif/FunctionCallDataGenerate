@@ -1,0 +1,15 @@
+{
+    "name": "macd_crossover_down",
+    "description": "This is a sub-function API for tool barpatterns.\nTool description: Screener for stock candlestick patterns & indicator signals. \nScreening 21 candlestick patterns & 6 indicator signals (supertrend, macd, rsi)\nAPI description: Fetches a list of stocks having a MACD crossover down signal from the provided API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number of the results to fetch. Default is 1.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

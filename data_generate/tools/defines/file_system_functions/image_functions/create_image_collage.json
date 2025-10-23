@@ -1,0 +1,50 @@
+{
+    "name": "create_image_collage",
+    "description": "Create a collage from multiple images with various layout options including grid, horizontal, vertical, and mosaic layouts.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_paths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of paths to input images"
+        },
+        "layout": {
+          "type": "string",
+          "description": "Layout type for the collage",
+          "enum": ["grid", "horizontal", "vertical", "mosaic"],
+          "default": "grid"
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output collage image"
+        },
+        "background_color": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "description": "Background color as RGB values (R, G, B)",
+          "default": [255, 255, 255]
+        },
+        "spacing": {
+          "type": "integer",
+          "description": "Spacing between images in pixels",
+          "default": 10
+        },
+        "max_width": {
+          "type": "integer",
+          "description": "Maximum width of the collage",
+          "default": 1200
+        },
+        "max_height": {
+          "type": "integer",
+          "description": "Maximum height of the collage",
+          "default": 800
+        }
+      },
+      "required": ["image_paths"]
+    }
+  } 

@@ -1,0 +1,38 @@
+{
+    "{'query': 'TechSolutions Inc', 'match_type': 'name', 'match_value': 'Java API development services', 'lat': 30.2672, 'lng': -97.7431}": {
+        "error": "",
+        "response": {
+            "business": "TechSolutions Inc",
+            "keyword_query": "Java API development services",
+            "location": {
+                "latitude": 30.2672,
+                "longitude": -97.7431,
+                "zoom_level": 13.0
+            },
+            "ranking": 4,
+            "serp_results": [
+                {
+                    "rank": 1,
+                    "business_name": "CodeMasters LLC",
+                    "place_id": "ChIJ...1"
+                },
+                {
+                    "rank": 2,
+                    "business_name": "DevPro Solutions",
+                    "place_id": "ChIJ...2"
+                },
+                {
+                    "rank": 3,
+                    "business_name": "TechHive Inc",
+                    "place_id": "ChIJ...3"
+                },
+                {
+                    "rank": 4,
+                    "business_name": "TechSolutions Inc",
+                    "place_id": "ChIJ...4"
+                }
+            ],
+            "timestamp": "2023-09-25T14:30:00Z"
+        }
+    }
+}

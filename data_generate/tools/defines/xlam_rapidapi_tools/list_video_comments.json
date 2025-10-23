@@ -1,0 +1,27 @@
+{
+    "name": "list_video_comments",
+    "description": "This is a sub-function API for tool youtube_media_downloader.\nTool description: A scraper API for YouTube search and download. Get videos, subtitles, comments without age or region limits (proxy URL supported).\nAPI description: Retrieves comments from a specified YouTube video, with optional pagination and sorting.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "videoid": {
+                "type": "string",
+                "description": "YouTube video id. The value of `v` in YouTube player URL query parameters.",
+                "default": "dQw4w9WgXcQ"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language code (ISO-639) for localized results. Defaults to `en-US`. Unsupported code will **fallback** to `en-US`."
+            },
+            "nexttoken": {
+                "type": "string",
+                "description": "A string for getting the next page of data. If not specified, the first page of data will be returned. If specified, `videoId` and `sortBy` will be ignored."
+            },
+            "sortby": {
+                "type": "string",
+                "description": "Parameter to sort the comments. Default is `top`."
+            }
+        },
+        "required": []
+    }
+}

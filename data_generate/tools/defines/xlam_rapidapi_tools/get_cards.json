@@ -1,0 +1,20 @@
+{
+    "name": "get_cards",
+    "description": "This is a sub-function API for tool hearthstone.\nTool description: This API provides cards information for Hearthstone\nAPI description: get a list of all the cards available in hearthstone",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number to retrieve. Defaults to '1'.",
+                "default": "1"
+            },
+            "pagesize": {
+                "type": "string",
+                "description": "The number of cards to retrieve per page. Defaults to '1'.",
+                "default": "1"
+            }
+        },
+        "required": []
+    }
+}

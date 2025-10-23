@@ -1,0 +1,22 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{\"data\":{\"result\":[],\"erreur\":\"Votre Token invalide ou votre abonnement a \u00e9t\u00e9 expir&e \\n Merci de contacter : apiplaque@gmail.com !\"}}"
+    },
+    "{'immatriculation': 'AB-456-CD', 'token': 'TokenDemoRapidapi', 'host_name': 'https://apiplaqueimmatriculation.com'}": {
+        "error": "",
+        "response": "{'data': {'erreur': '', 'immat': 'AB456CD', 'pays': 'FR', 'marque': 'IVECO', 'modele': 'DAILY', 'version': '35C15 V, 35C15 V/P', 'debut_modele': '2006-05', 'fin_modele': '2011-08', 'date1erCir_us': '2009-06-08', 'date1erCir_fr': '08-06-2009', 'co2': '279', 'energie': '2', 'energieNGC': 'DIESEL', 'genreVCG': '2', 'genreVCGNGC': 'CTTE', 'puisFisc': '10', 'carrosserieCG': 'FOURGON', 'code_carrosserie': '34', 'carrosserie': 'Fourgon', 'code_type_transmission': '2', 'type_transmission': 'Propulsion', 'capacite_litres': '3.0', 'code_systeme_alimentation': '11', 'systeme_alimentation': 'Injection directe', 'valves': '4', 'puisFiscReelKW': '107 KW', 'puisFiscReelCH': '146 CH', 'collection': 'non', 'date30': '1989-06-30', 'vin': 'ZCFC35A800D410133', 'variante': 'C35A80', 'boite_vitesse': 'M', 'code_boite_vitesse': '', 'nr_passagers': '3', 'nb_portes': '3', 'type_mine': '          ', 'cnit': '', 'couleur': 'BLANC', 'poids': '2385 kg', 'ccm': '2998 CM3', 'cylindres': '4', 'sra_id': 'IU01120', 'sra_group': '33', 'sra_commercial': 'CLASSE C 35C17V17', 'numero_serie': '0D410133', 'ptac': '', 'logo_marque': 'https://api.apiplaqueimmatriculation.com/public/storage/logos_marques/?marque=iveco', 'photo_modele': 'https://api.apiplaqueimmatriculation.com/public/storage/photos_modeles/34308.jpg', 'k_type': '34308', 'tecdoc_manu_id': '55', 'tecdoc_model_id': '9525', 'tecdoc_car_id': '34308', 'code_moteur': 'F1CE0481FA', 'codes_platforme': '', 'liste_sra_commercial': [{'sra_id': 'IU01120', 'sra_com"
+    },
+    "{'immatriculation': 'FR-789-XZ'}": {
+        "error": "",
+        "response": "{'data': {'erreur': '', 'immat': 'FR789XZ', 'pays': 'FR', 'marque': 'RENAULT', 'modele': 'CAPTUR', 'version': '1.3 TCe 130 (J5NJ, J5NE)', 'debut_modele': '2018-03', 'fin_modele': '', 'date1erCir_us': '2019-03-29', 'date1erCir_fr': '29-03-2019', 'co2': '128', 'energie': '4', 'energieNGC': 'ESSENCE', 'genreVCG': '1', 'genreVCGNGC': 'VP', 'puisFisc': '7', 'carrosserieCG': 'CI', 'code_carrosserie': '25', 'carrosserie': 'Berline bicorps trois ou cinq portes', 'code_type_transmission': '1', 'type_transmission': 'Traction avant', 'capacite_litres': '1.3', 'code_systeme_alimentation': '11', 'systeme_alimentation': 'Injection directe', 'valves': '4', 'puisFiscReelKW': '96 KW', 'puisFiscReelCH': '131 CH', 'collection': 'non', 'date30': '1989-06-30', 'vin': 'VF1R8700162562350', 'variante': 'R87001', 'boite_vitesse': 'M', 'code_boite_vitesse': '', 'nr_passagers': '5', 'nb_portes': '5', 'type_mine': 'R00JE2', 'cnit': '', 'couleur': '', 'poids': '1729 kg', 'ccm': '1332 CM3', 'cylindres': '4', 'sra_id': 'RE90122', 'sra_group': '32', 'sra_commercial': '1.3 TCE 130 SUNSET', 'numero_serie': '62562350', 'ptac': '', 'logo_marque': 'https://api.apiplaqueimmatriculation.com/public/storage/logos_marques/?marque=renault', 'photo_modele': 'https://api.apiplaqueimmatriculation.com/public/storage/photos_modeles/134658.jpg', 'k_type': '134658', 'tecdoc_manu_id': '93', 'tecdoc_model_id': '11232', 'tecdoc_car_id': '134658', 'code_moteur': 'H5H_470', 'codes_platforme': 'J5_,H5_,J5NJ', 'liste_sra_commercial"
+    },
+    "{'immatriculation': 'AB-9876-CX', 'token': 'TokenDemoRapidapi', 'host_name': 'https://apiplaqueimmatriculation.com'}": {
+        "error": "",
+        "response": "{'data': {'erreur': 'Plaque immatriculation inconnue !'}, 'api-version': '1.0.0'}"
+    },
+    "{'token': 'ValidTokenExample'}": {
+        "error": "",
+        "response": "{'data': [], 'message': \"Abonnement expir\u00e9 , veuillez renouveler votre abonnement , Pour plus d'informations, veuillez contacter apiplaque@gmail.com\", 'api-version': '1.0.0'}"
+    }
+}

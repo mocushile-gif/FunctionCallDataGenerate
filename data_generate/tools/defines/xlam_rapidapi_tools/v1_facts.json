@@ -1,0 +1,14 @@
+{
+    "name": "v1_facts",
+    "description": "This is a sub-function API for tool facts_by_api_ninjas.\nTool description: Get endless interesting facts. See more info at https://api-ninjas.com/api/facts.\nAPI description: Fetches random facts from the API Ninjas Facts API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "How many results to return. Must be between **1** and **30**. Default is **1**."
+            }
+        },
+        "required": []
+    }
+}

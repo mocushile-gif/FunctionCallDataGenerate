@@ -1,0 +1,29 @@
+{
+    "name": "get_the_stock_history_by_exchange_code_and_stock_code",
+    "description": "This is a sub-function API for tool stocks.\nTool description: Get the the stocks informations using a REST API simple and free.\nAPI description: Fetches the stock history for a specific stock on a given date using the exchange code and stock code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to fetch the stock history in YYYY-MM-DD format.",
+                "default": "2023-02-01"
+            },
+            "exchangecode": {
+                "type": "string",
+                "description": "The code representing the stock exchange (e.g., NASDAQ).",
+                "default": "NASDAQ"
+            },
+            "stockcode": {
+                "type": "string",
+                "description": "The code representing the specific stock (e.g., AAPL).",
+                "default": "GOOG"
+            }
+        },
+        "required": [
+            "date",
+            "exchangecode",
+            "stockcode"
+        ]
+    }
+}

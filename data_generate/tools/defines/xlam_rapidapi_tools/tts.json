@@ -1,0 +1,22 @@
+{
+    "name": "tts",
+    "description": "This is a sub-function API for tool text_to_speech_api.\nTool description: This API takes text and languages code and return speech voice\nAPI description: Converts given text to speech in the specified language and returns the result in .mp3 format using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to be converted to speech.",
+                "default": "hello world!"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language code for the speech conversion. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

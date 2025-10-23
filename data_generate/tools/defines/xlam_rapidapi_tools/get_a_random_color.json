@@ -1,0 +1,15 @@
+{
+    "name": "get_a_random_color",
+    "description": "This is a sub-function API for tool colorful.\nTool description: Get random colors with information, convert between color codes, and more.\nAPI description: **quantity** _integer_ (optional) The number of colors to return. Max is 50. If no quantity is specified, returns only one color-object. Any quantities above 50 will default to 50.\n\nIf a quantity less than 1 is used, it will default to 0, and an empty array will be returned. If the quantity cannot be parsed to an integer, a 400 error will be returned.\n\nReturns an array of objects, or one object, containing information about random colors from the sRGB color space. The color-object contains the color codes i",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "quantity": {
+                "type": "number",
+                "description": "The number of colors to return. The maximum is 50. Defaults to 2. Values greater than 50 will default to 50, and values less than 1 will result in an empty array.",
+                "default": 2.0
+            }
+        },
+        "required": []
+    }
+}

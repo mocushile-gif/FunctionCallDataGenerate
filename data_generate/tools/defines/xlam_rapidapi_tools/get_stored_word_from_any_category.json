@@ -1,0 +1,15 @@
+{
+    "name": "get_stored_word_from_any_category",
+    "description": "This is a sub-function API for tool taboo_api.\nTool description: Provides a number of different categories to choose from. You can get a random word and its taboo words or you can get taboo words for the word or phrase you provide.\nAPI description: Get a random result which will contain the main phrase and the taboo words, result may come from any of the stored categories.\n\nOptionally pass a parameter which will control the amount of taboo words to be returned, \"forbiddenWordLimit\" defaults to 4 and has a max of 10",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "forbiddenwordlimit": {
+                "type": "number",
+                "description": "The maximum number of taboo words to be returned. Defaults to 6, with a maximum of 10.",
+                "default": 6.0
+            }
+        },
+        "required": []
+    }
+}

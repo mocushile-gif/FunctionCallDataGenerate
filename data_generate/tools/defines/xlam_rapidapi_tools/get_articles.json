@@ -1,0 +1,25 @@
+{
+    "name": "get_articles",
+    "description": "This is a sub-function API for tool climate_news_feed.\nTool description: Climate Change news from the most trusted sources. Nasa, UN, and more. Flexible, reliable, and fast with low latency. Includes thumbnails, filtering, and pagination\nAPI description: Gets all articles.\n\nquery examples:\nsource = United Nations, Nasa Climate, The Guardian, Carbon Brief\nLimit = 100 (default)\nexclude=The Guardian",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "Number of articles to fetch. Default is 50.",
+                "default": 50.0
+            },
+            "exclude": {
+                "type": "string",
+                "description": "Source to exclude from the results. Default is 'The Guardian'.",
+                "default": "The Guardian"
+            },
+            "source": {
+                "type": "string",
+                "description": "Source to fetch articles from. Default is 'Nasa Climate'.",
+                "default": "Nasa Climate"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "document",
+    "description": "This is a sub-function API for tool get_docs.\nTool description: data\nAPI description: Fetches the authorized blob URI for a court document using the provided document ID and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "documentid": {
+                "type": "string",
+                "description": "The ID of the document to fetch. Defaults to '41aac429-40dd-ea11-a813-000d3a79365a'.",
+                "default": "41aac429-40dd-ea11-a813-000d3a79365a"
+            }
+        },
+        "required": []
+    }
+}

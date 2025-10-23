@@ -1,0 +1,16 @@
+{
+    "name": "my_images_by_id",
+    "description": "This is a sub-function API for tool arimagesynthesizer.\nTool description: Text to image generator.\nAPI description: Similar to `/my_images` endpoint, returns generated images' information in a JSON response filtered by given `id`.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "uniqueid": {
+                "type": "string",
+                "description": "The unique ID used to filter the generated images."
+            }
+        },
+        "required": [
+            "uniqueid"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "locations_v3_search",
+    "description": "This is a sub-function API for tool hotels.\nTool description: This API helps to query rooms, price, facilities, policities, etc information from many hotels around the world to create a travelling site/application, such as : hotels.com\nAPI description: Search for related locations and suggestions based on the provided query string using the RapidAPI 'locations/v3/search' endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The query string representing names of countries, cities, districts, places, etc.",
+                "default": "new york"
+            },
+            "langid": {
+                "type": "number",
+                "description": "The value of languageIdentifier field returned in .../v2/get-meta-data endpoint",
+                "default": 1033.0
+            },
+            "siteid": {
+                "type": "number",
+                "description": "The value of siteId field returned in .../v2/get-meta-data endpoint",
+                "default": 300000001.0
+            },
+            "locale": {
+                "type": "string",
+                "description": "The locale code. Default is 'en_US'.",
+                "default": "en_US"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

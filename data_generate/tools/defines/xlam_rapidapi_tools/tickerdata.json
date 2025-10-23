@@ -1,0 +1,35 @@
+{
+    "name": "tickerdata",
+    "description": "This is a sub-function API for tool stocks_archive.\nTool description: Archive data of some blue chip's tickers\n\n\n\nAPI description: Fetches historical ticker data for a given period and date range from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "period": {
+                "type": "string",
+                "description": "The period for which to fetch the ticker data (e.g., 'daily', 'weekly').",
+                "default": "1h"
+            },
+            "startdate": {
+                "type": "string",
+                "description": "The start date for the data in YYYY-MM-DD format.",
+                "default": "2010-04-12T14:30"
+            },
+            "tickername": {
+                "type": "string",
+                "description": "The name of the ticker for which to fetch data.",
+                "default": "gold"
+            },
+            "enddate": {
+                "type": "string",
+                "description": "The end date for the data in YYYY-MM-DD format.",
+                "default": "2010-04-20T12:30"
+            }
+        },
+        "required": [
+            "period",
+            "startdate",
+            "tickername",
+            "enddate"
+        ]
+    }
+}

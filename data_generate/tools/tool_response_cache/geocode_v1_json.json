@@ -1,0 +1,55 @@
+{
+    "{'key': 'OPENCAGE-API-Key', 'language': 'en', 'q': '40.74842,-73.9856'}": {
+        "error": "",
+        "response": {
+            "query": "40.74842,-73.9856",
+            "location_details": {
+                "latitude": 40.74842,
+                "longitude": -73.9856,
+                "address": "Empire State Building, 20 W 34th St, New York, NY 10118, USA",
+                "city": "New York",
+                "state": "New York",
+                "country": "United States",
+                "postal_code": "10118"
+            },
+            "language": "en",
+            "note": "The coordinates provided correspond to the Empire State Building in New York City, USA."
+        }
+    },
+    "{'q': 'Paris Las Vegas Hotel, 3650 Las Vegas Blvd S, Las Vegas, NV 89109', 'key': 'OPENCAGE-API-Key', 'language': 'en'}": {
+        "error": "",
+        "response": "{'documentation': 'https://opencagedata.com/api', 'licenses': [{'name': 'see attribution guide', 'url': 'https://opencagedata.com/credits'}], 'results': [], 'status': {'code': 401, 'message': 'invalid API key'}, 'stay_informed': {'blog': 'https://blog.opencagedata.com', 'mastodon': 'https://en.osm.town/@opencage'}, 'thanks': 'For using an OpenCage API', 'timestamp': {'created_http': 'Mon, 02 Jun 2025 04:07:16 GMT', 'created_unix': 1748837236}, 'total_results': 0}"
+    },
+    "{'q': 'Paris Las Vegas Hotel, 3650 Las Vegas Blvd S, Las Vegas, NV 89109', 'key': 'dpr098sdf76ghjkl2345tyuio90poiuy', 'language': 'en'}": {
+        "error": "",
+        "response": "{'documentation': 'https://opencagedata.com/api', 'licenses': [{'name': 'see attribution guide', 'url': 'https://opencagedata.com/credits'}], 'results': [], 'status': {'code': 401, 'message': 'invalid API key'}, 'stay_informed': {'blog': 'https://blog.opencagedata.com', 'mastodon': 'https://en.osm.town/@opencage'}, 'thanks': 'For using an OpenCage API', 'timestamp': {'created_http': 'Mon, 02 Jun 2025 04:11:45 GMT', 'created_unix': 1748837505}, 'total_results': 0}"
+    },
+    "{'q': 'Paris Las Vegas Hotel, 3650 Las Vegas Blvd S, Las Vegas, NV 89109', 'key': 'a1b2c3d4-ef56-7890-ghij-klmnopqrstuvwx', 'language': 'en'}": {
+        "error": "",
+        "response": "{'documentation': 'https://opencagedata.com/api', 'licenses': [{'name': 'see attribution guide', 'url': 'https://opencagedata.com/credits'}], 'results': [], 'status': {'code': 401, 'message': 'invalid API key'}, 'stay_informed': {'blog': 'https://blog.opencagedata.com', 'mastodon': 'https://en.osm.town/@opencage'}, 'thanks': 'For using an OpenCage API', 'timestamp': {'created_http': 'Mon, 02 Jun 2025 04:14:30 GMT', 'created_unix': 1748837670}, 'total_results': 0}"
+    },
+    "{'q': 'Berlin', 'key': 'OPENCAGE-API-Key', 'language': 'en'}": {
+        "error": "",
+        "response": "{'documentation': 'https://opencagedata.com/api', 'licenses': [{'name': 'see attribution guide', 'url': 'https://opencagedata.com/credits'}], 'results': [], 'status': {'code': 401, 'message': 'invalid API key'}, 'stay_informed': {'blog': 'https://blog.opencagedata.com', 'mastodon': 'https://en.osm.town/@opencage'}, 'thanks': 'For using an OpenCage API', 'timestamp': {'created_http': 'Mon, 21 Oct 2024 20:26:07 GMT', 'created_unix': 1729542367}, 'total_results': 0}"
+    },
+    "{'q': 'TechHub Berlin, Kaiserstrasse 14, Berlin', 'key': 'OC-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', 'language': 'en'}": {
+        "error": "",
+        "response": "{'documentation': 'https://opencagedata.com/api', 'licenses': [{'name': 'see attribution guide', 'url': 'https://opencagedata.com/credits'}], 'results': [], 'status': {'code': 401, 'message': 'invalid API key'}, 'stay_informed': {'blog': 'https://blog.opencagedata.com', 'mastodon': 'https://en.osm.town/@opencage'}, 'thanks': 'For using an OpenCage API', 'timestamp': {'created_http': 'Mon, 02 Jun 2025 04:21:23 GMT', 'created_unix': 1748838083}, 'total_results': 0}"
+    },
+    "{'q': 'Factory Berlin, G\u00f6rlitzer Str. 29, Berlin', 'key': 'OC-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', 'language': 'en'}": {
+        "error": "",
+        "response": "{'documentation': 'https://opencagedata.com/api', 'licenses': [{'name': 'see attribution guide', 'url': 'https://opencagedata.com/credits'}], 'results': [], 'status': {'code': 401, 'message': 'invalid API key'}, 'stay_informed': {'blog': 'https://blog.opencagedata.com', 'mastodon': 'https://en.osm.town/@opencage'}, 'thanks': 'For using an OpenCage API', 'timestamp': {'created_http': 'Mon, 02 Jun 2025 04:21:24 GMT', 'created_unix': 1748838084}, 'total_results': 0}"
+    },
+    "{'q': 'Digital Hub Berlin, Auguststrasse 110, Berlin', 'key': 'OC-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', 'language': 'en'}": {
+        "error": "",
+        "response": "{'documentation': 'https://opencagedata.com/api', 'licenses': [{'name': 'see attribution guide', 'url': 'https://opencagedata.com/credits'}], 'results': [], 'status': {'code': 401, 'message': 'invalid API key'}, 'stay_informed': {'blog': 'https://blog.opencagedata.com', 'mastodon': 'https://en.osm.town/@opencage'}, 'thanks': 'For using an OpenCage API', 'timestamp': {'created_http': 'Mon, 02 Jun 2025 04:21:26 GMT', 'created_unix': 1748838086}, 'total_results': 0}"
+    },
+    "{'q': 'TechHub Berlin, Kaiserstrasse 14, Berlin', 'key': 'OC-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX1234', 'language': 'en'}": {
+        "error": "",
+        "response": "{'documentation': 'https://opencagedata.com/api', 'licenses': [{'name': 'see attribution guide', 'url': 'https://opencagedata.com/credits'}], 'results': [], 'status': {'code': 401, 'message': 'invalid API key'}, 'stay_informed': {'blog': 'https://blog.opencagedata.com', 'mastodon': 'https://en.osm.town/@opencage'}, 'thanks': 'For using an OpenCage API', 'timestamp': {'created_http': 'Mon, 02 Jun 2025 04:29:32 GMT', 'created_unix': 1748838572}, 'total_results': 0}"
+    },
+    "{'q': 'Factory Berlin, G\u00f6rlitzer Str. 29, Berlin', 'key': 'OC-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX1234', 'language': 'en'}": {
+        "error": "",
+        "response": "{'documentation': 'https://opencagedata.com/api', 'licenses': [{'name': 'see attribution guide', 'url': 'https://opencagedata.com/credits'}], 'results': [], 'status': {'code': 401, 'message': 'invalid API key'}, 'stay_informed': {'blog': 'https://blog.opencagedata.com', 'mastodon': 'https://en.osm.town/@opencage'}, 'thanks': 'For using an OpenCage API', 'timestamp': {'created_http': 'Mon, 02 Jun 2025 04:29:34 GMT', 'created_unix': 1748838574}, 'total_results': 0}"
+    }
+}

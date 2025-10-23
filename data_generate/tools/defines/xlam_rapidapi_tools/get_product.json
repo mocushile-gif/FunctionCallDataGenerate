@@ -1,0 +1,16 @@
+{
+    "name": "get_product",
+    "description": "This is a sub-function API for tool demo_project_v3.\nTool description: This Project is created by the onboarding process\nAPI description: Fetches product details from a RapidAPI endpoint using the provided product ID and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the product to retrieve information about."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

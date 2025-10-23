@@ -1,0 +1,40 @@
+{
+    "name": "measure_distance",
+    "description": "This is a sub-function API for tool egypt_api.\nTool description: The Egypt Lookup API users to retrieve in realtime the latitude, longitude, and address of a location in Egypt. The API utilizes the OpenStreetMap and Project-OSRM to retrieve up-to-date location data.\nAPI description: This endpoint calculates the distance between two locations based on their latitude and longitude coordinates, while allowing the user to specify the unit of measurement.\n\nBelow Example: **Distance between Alexandria and Cairo**",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lon2": {
+                "type": "number",
+                "description": "Longitude of the second location (required)",
+                "default": 31.23788289124186
+            },
+            "lat1": {
+                "type": "number",
+                "description": "Latitude of the first location (required)",
+                "default": 31.1991806
+            },
+            "lon1": {
+                "type": "number",
+                "description": "Longitude of the first location (required)",
+                "default": 29.8951716
+            },
+            "lat2": {
+                "type": "number",
+                "description": "Latitude of the second location (required)",
+                "default": 30.02313795
+            },
+            "unit": {
+                "type": "string",
+                "description": "Unit of distance measurement, valid options are **km** (default), **mi**, **ft**, and **yd**.\n",
+                "default": "km"
+            }
+        },
+        "required": [
+            "lon2",
+            "lat1",
+            "lon1",
+            "lat2"
+        ]
+    }
+}

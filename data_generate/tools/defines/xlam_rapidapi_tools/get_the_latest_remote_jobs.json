@@ -1,0 +1,19 @@
+{
+    "name": "get_the_latest_remote_jobs",
+    "description": "This is a sub-function API for tool remote_jobs_api.\nTool description: Get a list of remote jobs from different resources: weworkremotely, remoteok, GitHub, StackOverflow, Twitch, Mailchimp, Figma...\nAPI description: Fetches the latest 20 remote job listings from a specified company and/or category using the RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "company": {
+                "type": "string",
+                "description": "The company name to filter job listings (default is 'shopify').",
+                "default": "shopify"
+            },
+            "category": {
+                "type": "string",
+                "description": "The job category to filter job listings (default is None)."
+            }
+        },
+        "required": []
+    }
+}

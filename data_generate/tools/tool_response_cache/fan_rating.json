@@ -1,0 +1,52 @@
+{
+    "{'event_id': 10253769}": {
+        "error": "",
+        "response": {
+            "event_id": 10253769,
+            "fan_rating": 8.7,
+            "sport": "Soccer",
+            "teams": [
+                "FC Barcelona",
+                "Real Madrid"
+            ],
+            "timestamp": "2023-10-05T20:00:00Z",
+            "rating_details": {
+                "attendance_mood": "Highly Engaged",
+                "social_media_sentiment": "Positive",
+                "live_update_engagement": "92%"
+            },
+            "metadata": {
+                "source": "SofaScore Aggregated Fan Analytics",
+                "last_updated": "2023-10-06T08:30:00Z"
+            }
+        }
+    },
+    "{'event_id': 'COA2024-987654321'}": {
+        "error": "",
+        "response": "{'detail': [{'type': 'int_parsing', 'loc': ['query', 'event_id'], 'msg': 'Input should be a valid integer, unable to parse string as an integer', 'input': 'COA2024-987654321'}]}"
+    },
+    "{'event_id': 10253770}": {
+        "error": "",
+        "response": "{'data': {'rating': None, 'userCount': None}}"
+    },
+    "{'event_id': 10253771}": {
+        "error": "",
+        "response": "{'data': {'rating': None, 'userCount': None}}"
+    },
+    "{'event_id': 10253773}": {
+        "error": "",
+        "response": "{'data': {'rating': 9.1860741068866, 'userCount': 63206}}"
+    },
+    "{'event_id': 10253776}": {
+        "error": "",
+        "response": "{'data': {'rating': None, 'userCount': None}}"
+    },
+    "{'event_id': 10253778}": {
+        "error": "",
+        "response": "{'data': {'rating': None, 'userCount': None}}"
+    },
+    "{'event_id': 10253780}": {
+        "error": "",
+        "response": "{'data': {'rating': None, 'userCount': None}}"
+    }
+}

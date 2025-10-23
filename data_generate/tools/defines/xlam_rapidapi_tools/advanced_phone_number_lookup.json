@@ -1,0 +1,17 @@
+{
+    "name": "advanced_phone_number_lookup",
+    "description": "This is a sub-function API for tool scout.\nTool description: Telephone Number Insight including Validity, Robocall/SPAM, Reputation, LNP, Carrier, Timezone, and Geographic Information\nAPI description: **Advanced Phone Number Information**\n\n*retrieves valuable technical data about a phone number*\n\n- validity\n\n- approximate location\n\n- timezone\n\n- carrier\n\n- line type\n\n- ported status\n\n- carrier\n\n- robocall/spam score\n\n- much more",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "dialcode": {
+                "type": "string",
+                "description": "The phone number dial code to retrieve information for.",
+                "default": "+16502530000"
+            }
+        },
+        "required": [
+            "dialcode"
+        ]
+    }
+}

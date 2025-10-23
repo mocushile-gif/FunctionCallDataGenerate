@@ -1,0 +1,45 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "id": 18341,
+            "joke": "Makeup tip: You're not in the circus."
+        }
+    },
+    "{'keywords': 'coding, programming', 'include_tags': 'one_liner', 'min_rating': 7, 'max_length': 200, 'exclude_tags': 'nsfw'}": {
+        "error": "",
+        "response": "{'id': 112, 'joke': \"A horse walks into a bar, the bartender turns & asks the horse what's with the long face.\"}"
+    },
+    "{'exclude_tags': 'nsfw', 'include_tags': 'animal', 'keywords': 'cat', 'min_rating': 8}": {
+        "error": "",
+        "response": "{'id': 25882, 'joke': 'Why do rabbits go to the beauty parlor? \\nFor hare care.'}"
+    },
+    "{'exclude_tags': 'nsfw', 'include_tags': 'animal', 'keywords': 'dog', 'min_rating': 8}": {
+        "error": "",
+        "response": "{'id': 19424, 'joke': 'I think I`m a chickenPsychiatrist: What`s your problem?Patient: I think I`m a chicken.Psychiatrist: How long has this been going on?Patient: Ever since I was an egg!'}"
+    },
+    "{'keywords': 'deadlines,project management', 'min_rating': 8, 'max_length': 100}": {
+        "error": "",
+        "response": "{'id': 27832, 'joke': 'Sometimes I wake up grumpy; other times I let her sleep.'}"
+    },
+    "{'keywords': 'project deadlines,work deadlines', 'min_rating': 8, 'max_length': 100}": {
+        "error": "",
+        "response": "{'id': 6163, 'joke': 'Yo momma is so dark that when she goes swimming it looks like an oil spill.'}"
+    },
+    "{'keywords': 'project management,deadline humor', 'min_rating': 8, 'max_length': 100}": {
+        "error": "",
+        "response": "{'id': 25453, 'joke': '\"You don`t have to turn on a game to play with me.\"'}"
+    },
+    "{'keywords': 'deadline humor,project management humor', 'min_rating': 8, 'max_length': 100}": {
+        "error": "",
+        "response": "{'id': 6346, 'joke': 'Yo momma is so stupid that she thought meow mix was a record for cats.'}"
+    },
+    "{'keywords': 'deadline humor', 'min_rating': 8, 'max_length': 100, 'exclude_tags': 'nsfw'}": {
+        "error": "",
+        "response": "{'id': 52223, 'joke': 'I named my hard drive \"dat ass,\" so once a month my computer asks if I want to \"back dat ass up.\"'}"
+    },
+    "{'keywords': 'deadline,project management', 'min_rating': 8, 'max_length': 100, 'exclude_tags': 'nsfw'}": {
+        "error": "",
+        "response": "{'id': 17168, 'joke': 'I never knew what real happiness was until I got married; then it was too late.'}"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "get_file_size",
+    "description": "Get the size of a file, optionally in a human-readable format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "path": {
+                "type": "string",
+                "description": "The path to the file."
+            },
+            "human_readable": {
+                "type": "boolean",
+                "description": "Whether to return the size in a human-readable format. Defaults to False.",
+                "default": false
+            }
+        },
+        "required": ["path"]
+    }
+}

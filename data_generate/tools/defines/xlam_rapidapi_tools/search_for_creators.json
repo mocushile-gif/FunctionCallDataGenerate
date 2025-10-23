@@ -1,0 +1,17 @@
+{
+    "name": "search_for_creators",
+    "description": "This is a sub-function API for tool patreon.\nTool description: Search Creators and get their details and posts from Patreon (Unofficial)\nAPI description: Search for creators on Patreon using the given search query.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "search_query": {
+                "type": "string",
+                "description": "The search term used to query creators on Patreon.",
+                "default": "adnr studios"
+            }
+        },
+        "required": [
+            "search_query"
+        ]
+    }
+}

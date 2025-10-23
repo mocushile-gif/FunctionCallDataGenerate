@@ -1,0 +1,23 @@
+{
+    "name": "get_amazon_product_details",
+    "description": "This is a sub-function API for tool yo_amazon_data_scraper.\nTool description: Access all public amazon data like the name of the product, price, reviews,...... Also, search for anything on Amazon, just like the amazon search bar\nAPI description: Fetches the details of an Amazon product using the provided product ID and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "api_key": {
+                "type": "string",
+                "description": "",
+                "default": "1d49c40d06763a29a8b3a63516dfa008"
+            },
+            "productid": {
+                "type": "string",
+                "description": "The ID of the product on Amazon for which details are to be fetched.",
+                "default": "B08N5M7S6K"
+            }
+        },
+        "required": [
+            "api_key",
+            "productid"
+        ]
+    }
+}

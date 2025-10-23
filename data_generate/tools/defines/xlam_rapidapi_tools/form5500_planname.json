@@ -1,0 +1,17 @@
+{
+    "name": "form5500_planname",
+    "description": "This is a sub-function API for tool form_5500_data.\nTool description: Get information from all US Corporate Retirement plans from the Form 5500.\nAPI description: Retrieves information about a specific plan based on the provided Employer Identification Number (EIN) using the Form 5500 API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ein": {
+                "type": "number",
+                "description": "Employer Identification Number (EIN) for the plan.",
+                "default": 311334685.0
+            }
+        },
+        "required": [
+            "ein"
+        ]
+    }
+}

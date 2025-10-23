@@ -1,0 +1,20 @@
+{
+    "name": "get_contacts",
+    "description": "This is a sub-function API for tool sms77io.\nTool description: Send SMS & text-to-speech messages, perform phone number lookups and much more via seven.io.\nAPI description: Retrieves all contacts using the provided API key and returns the response in either JSON or CSV format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "p": {
+                "type": "string",
+                "description": "API Key from [Sms77.io](https://sms77.io)."
+            },
+            "json": {
+                "type": "string",
+                "description": "Specifies whether to return the response in JSON format. If not provided, the response will be in CSV format."
+            }
+        },
+        "required": [
+            "p"
+        ]
+    }
+}

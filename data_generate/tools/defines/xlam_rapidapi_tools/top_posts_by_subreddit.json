@@ -1,0 +1,27 @@
+{
+    "name": "top_posts_by_subreddit",
+    "description": "This is a sub-function API for tool reddit.\nTool description: Please join our telegram channel to get notified about updates. https://t.me/social_miner_news\nAPI description: Fetches the top posts from a specific subreddit within a given time frame using the Reddit API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "time": {
+                "type": "string",
+                "description": "The time frame for fetching top posts. Options include `hour`, `day`, `week`, `month`, `year`, and `all`.",
+                "default": "year"
+            },
+            "subreddit": {
+                "type": "string",
+                "description": "The subreddit name from which to fetch top posts, e.g., `memes`.",
+                "default": "memes"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "A cursor for pagination to fetch additional posts. Defaults to None."
+            }
+        },
+        "required": [
+            "time",
+            "subreddit"
+        ]
+    }
+}

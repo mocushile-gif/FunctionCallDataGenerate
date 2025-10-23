@@ -1,0 +1,16 @@
+{
+    "name": "provider3_live_match_id",
+    "description": "This is a sub-function API for tool football_betting_odds.\nTool description: Live and Upcoming Football Betting Odds\nAPI description: Fetches live match details for a given match ID from Provider3 using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier for the match."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

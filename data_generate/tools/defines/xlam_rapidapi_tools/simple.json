@@ -1,0 +1,14 @@
+{
+    "name": "simple",
+    "description": "This is a sub-function API for tool phone_formatter.\nTool description: With this API you will be able to get the entered phone number in international, national and several standard formats with additional information about the country for the correct phone numbers. The formatting method can use probabilistic algorithms and try to get all the necessary information if it was not passed in the input parameters\nAPI description: A simplified version of the formatting method that does not accept additional filtering and parsing parameters\n and uses the language value from the \"Accept-Language\" header.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone": {
+                "type": "string",
+                "description": "The phone number to be formatted. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

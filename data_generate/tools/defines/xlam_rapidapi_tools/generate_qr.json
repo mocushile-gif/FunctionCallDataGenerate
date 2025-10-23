@@ -1,0 +1,17 @@
+{
+    "name": "generate_qr",
+    "description": "This is a sub-function API for tool qr_code_wizard.\nTool description: Generate QR codes with ease via API\nAPI description: Generates a QR code for a given URL using the QR Code Wizard API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL to be encoded in the QR code.",
+                "default": "www.google.com"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

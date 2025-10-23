@@ -1,0 +1,45 @@
+{
+    "{'zip': '69256'}": {
+        "error": "",
+        "response": {
+            "zip_code": "69256",
+            "region": "Heidelberg",
+            "forecast": {
+                "current_price": 0.38,
+                "tomorrow_avg": 0.35,
+                "peak_hours": "18:00-20:00",
+                "currency": "EUR/kWh",
+                "valid_until": "2023-10-06T00:00:00Z"
+            },
+            "note": "Prices reflect regional demand and grid conditions for zip code 69256."
+        }
+    },
+    "{'zip': '80335'}": {
+        "error": "",
+        "response": "{'err': 'Service not available at the moment', 'provisioning': {'source': 'RapidAPI', 'license': 'CC BY-NC-SA 4.0 ( https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en )', 'tier': 'authenticated'}}"
+    },
+    "{'zip': '10115'}": {
+        "error": "",
+        "response": "{'object': 'list', 'url': '/v2.0/gsi/marketdata?zip=10115', 'documentation': 'https://corrently.io/books/marktdaten-strompreis', 'support': 'If you have any question please contact dev@stromdao.com or visit https://premium.corrently.de/', 'timezone': 'UTC', 'data': [{'start_timestamp': 1736769600000, 'end_timestamp': 1736770500000, 'marketprice': 111.01, 'unit': 'Eur/MWh', 'localprice': 112.54, 'localcell': 'Berlin(10115)'}, {'start_timestamp': 1736770500000, 'end_timestamp': 1736771400000, 'marketprice': 119.5, 'unit': 'Eur/MWh', 'localprice': 121.15, 'localcell': 'Berlin(10115)'}, {'start_timestamp': 1736772300000, 'end_timestamp': 1736773200000, 'marketprice': 119.6, 'unit': 'Eur/MWh', 'localprice': 121.25, 'localcell': 'Berlin(10115)'}, {'start_timestamp': 1736773200000, 'end_timestamp': 1736774100000, 'marketprice': 100.4, 'unit': 'Eur/MWh', 'localprice': 101.79, 'localcell': 'Berlin(10115)'}, {'start_timestamp': 1736774100000, 'end_timestamp': 1736775000000, 'marketprice': 122.2, 'unit': 'Eur/MWh', 'localprice': 123.89, 'localcell': 'Berlin(10115)'}, {'start_timestamp': 1736775000000, 'end_timestamp': 1736775900000, 'marketprice': 132.2, 'unit': 'Eur/MWh', 'localprice': 134.02, 'localcell': 'Berlin(10115)'}, {'start_timestamp': 1736775900000, 'end_timestamp': 1736776800000, 'marketprice': 142.9, 'unit': 'Eur/MWh', 'localprice': 144.87, 'localcell': 'Berlin(10115)'}, {'start_timestamp': 1736776800000, 'end_timestamp': 1736777700000, 'marketprice': 108.4, 'unit': 'Eur/MWh', 'localprice': 109.9, 'localcell': 'Berlin(10115)'}, {'start_timestamp': 1736777700000, 'end_timestamp': 1736778600000, 'marketprice': 129.2, 'unit': 'Eur/MWh', 'localprice': 130.98, 'localcell': 'Berlin(10115)'}, {'start_timestamp': 1736778600000, 'end_timestamp': 1736779500000, 'marketprice': 140.4, 'unit': 'Eur/MWh', 'localprice': 142.34, 'localcell': 'Berlin(10115)'}, {'start_timestamp': 1736779500000, 'end_timestamp': 1736780400000, 'marketprice': 151.8, 'unit': 'Eur/MWh', 'localprice': 153.89, 'localcell': 'Berlin(10115)'}, {'start_ti"
+    },
+    "{'zip': '80331'}": {
+        "error": "",
+        "response": "{'object': 'list', 'url': '/v2.0/gsi/marketdata?zip=80331', 'documentation': 'https://corrently.io/books/marktdaten-strompreis', 'support': 'If you have any question please contact dev@stromdao.com or visit https://premium.corrently.de/', 'timezone': 'UTC', 'data': [{'start_timestamp': 1737154800000, 'end_timestamp': 1737155700000, 'marketprice': 145.2, 'unit': 'Eur/MWh', 'localprice': 154.93, 'localcell': 'M\u00fcnchen(80331)'}, {'start_timestamp': 1737155700000, 'end_timestamp': 1737156600000, 'marketprice': 127.6, 'unit': 'Eur/MWh', 'localprice': 136.15, 'localcell': 'M\u00fcnchen(80331)'}, {'start_timestamp': 1737156600000, 'end_timestamp': 1737157500000, 'marketprice': 116.3, 'unit': 'Eur/MWh', 'localprice': 124.09, 'localcell': 'M\u00fcnchen(80331)'}, {'start_timestamp': 1737157500000, 'end_timestamp': 1737158400000, 'marketprice': 115.32, 'unit': 'Eur/MWh', 'localprice': 123.05, 'localcell': 'M\u00fcnchen(80331)'}, {'start_timestamp': 1737158400000, 'end_timestamp': 1737159300000, 'marketprice': 138.6, 'unit': 'Eur/MWh', 'localprice': 147.89, 'localcell': 'M\u00fcnchen(80331)'}, {'start_timestamp': 1737159300000, 'end_timestamp': 1737160200000, 'marketprice': 120.54, 'unit': 'Eur/MWh', 'localprice': 128.62, 'localcell': 'M\u00fcnchen(80331)'}, {'start_timestamp': 1737160200000, 'end_timestamp': 1737161100000, 'marketprice': 115.55, 'unit': 'Eur/MWh', 'localprice': 123.29, 'localcell': 'M\u00fcnchen(80331)'}, {'start_timestamp': 1737161100000, 'end_timestamp': 1737162000000, 'marketprice': 109.3, 'unit': 'Eur/MWh', 'localprice': 116.62, 'localcell': 'M\u00fcnchen(80331)'}, {'start_timestamp': 1737162000000, 'end_timestamp': 1737162900000, 'marketprice': 122.07, 'unit': 'Eur/MWh', 'localprice': 130.25, 'localcell': 'M\u00fcnchen(80331)'}, {'start_timestamp': 1737162900000, 'end_timestamp': 1737163800000, 'marketprice': 121.6, 'unit': 'Eur/MWh', 'localprice': 129.75, 'localcell': 'M\u00fcnchen(80331)'}, {'start_timestamp': 1737163800000, 'end_timestamp': 1737164700000, 'marketprice': 119, 'unit': 'Eur/MWh', 'localprice': 126.97, 'localcell': 'M\u00fcnchen(80331)'"
+    },
+    "{'zip': '10789'}": {
+        "error": "",
+        "response": "{'object': 'list', 'url': '/v2.0/gsi/marketdata?zip=10789', 'documentation': 'https://corrently.io/books/marktdaten-strompreis', 'support': 'If you have any question please contact dev@stromdao.com or visit https://premium.corrently.de/', 'timezone': 'UTC', 'data': [{'start_timestamp': 1736744400000, 'end_timestamp': 1736745300000, 'marketprice': 90.01, 'unit': 'Eur/MWh', 'localprice': 108.01, 'localcell': 'Berlin(10789)'}, {'start_timestamp': 1736745300000, 'end_timestamp': 1736746200000, 'marketprice': 123.6, 'unit': 'Eur/MWh', 'localprice': 148.32, 'localcell': 'Berlin(10789)'}, {'start_timestamp': 1736746200000, 'end_timestamp': 1736747100000, 'marketprice': 141.1, 'unit': 'Eur/MWh', 'localprice': 169.32, 'localcell': 'Berlin(10789)'}, {'start_timestamp': 1736747100000, 'end_timestamp': 1736748000000, 'marketprice': 163.7, 'unit': 'Eur/MWh', 'localprice': 196.44, 'localcell': 'Berlin(10789)'}, {'start_timestamp': 1736748000000, 'end_timestamp': 1736748900000, 'marketprice': 119.9, 'unit': 'Eur/MWh', 'localprice': 143.88, 'localcell': 'Berlin(10789)'}, {'start_timestamp': 1736748900000, 'end_timestamp': 1736749800000, 'marketprice': 137, 'unit': 'Eur/MWh', 'localprice': 164.4, 'localcell': 'Berlin(10789)'}, {'start_timestamp': 1736749800000, 'end_timestamp': 1736750700000, 'marketprice': 153.4, 'unit': 'Eur/MWh', 'localprice': 184.08, 'localcell': 'Berlin(10789)'}, {'start_timestamp': 1736750700000, 'end_timestamp': 1736751600000, 'marketprice': 186.2, 'unit': 'Eur/MWh', 'localprice': 223.44, 'localcell': 'Berlin(10789)'}, {'start_timestamp': 1736751600000, 'end_timestamp': 1736752500000, 'marketprice': 162.4, 'unit': 'Eur/MWh', 'localprice': 194.88, 'localcell': 'Berlin(10789)'}, {'start_timestamp': 1736752500000, 'end_timestamp': 1736753400000, 'marketprice': 163.9, 'unit': 'Eur/MWh', 'localprice': 196.68, 'localcell': 'Berlin(10789)'}, {'start_timestamp': 1736753400000, 'end_timestamp': 1736754300000, 'marketprice': 164.5, 'unit': 'Eur/MWh', 'localprice': 197.4, 'localcell': 'Berlin(10789)'}, {'start_timest"
+    },
+    "{'zip': '20354'}": {
+        "error": "",
+        "response": "{'err': 'Service not available at the moment', 'provisioning': {'source': 'RapidAPI', 'license': 'CC BY-NC-SA 4.0 ( https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en )', 'tier': 'authenticated'}}"
+    },
+    "{'zip': '50667'}": {
+        "error": "",
+        "response": "{'err': 'Service not available at the moment', 'provisioning': {'source': 'RapidAPI', 'license': 'CC BY-NC-SA 4.0 ( https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en )', 'tier': 'authenticated'}}"
+    },
+    "{'zip': '60311'}": {
+        "error": "",
+        "response": "{'err': 'Service not available at the moment', 'provisioning': {'source': 'RapidAPI', 'license': 'CC BY-NC-SA 4.0 ( https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en )', 'tier': 'authenticated'}}"
+    }
+}

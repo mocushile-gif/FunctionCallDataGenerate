@@ -1,0 +1,35 @@
+{
+    "name": "search_memes",
+    "description": "This is a sub-function API for tool humor_jokes_and_memes.\nTool description: Humor API lets you search through 50,000 jokes, over 200,000 memes, and gifs. From Chuck Norris, over Knock Knock to Yo Mama jokes, you'll find something for every occasion.\nAPI description: Search for memes.\nSee https://humorapi.com/docs/#Search-Memes for more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "media_type": {
+                "type": "string",
+                "description": "The type of content to search for. Can be 'image', 'video', or specific formats such as 'jpg', 'png', 'gif', or 'mp4'. Defaults to 'image'.",
+                "default": "image"
+            },
+            "keywords_in_image": {
+                "type": "boolean",
+                "description": "Whether the keywords should be found in the meme's image. Defaults to None.",
+                "default": true
+            },
+            "keywords": {
+                "type": "string",
+                "description": "A comma-separated list of keywords to search for. Defaults to 'rocket'.",
+                "default": "rocket"
+            },
+            "min_rating": {
+                "type": "number",
+                "description": "The minimum rating the results should have, between 0 and 10. Defaults to 3.",
+                "default": 3.0
+            },
+            "number": {
+                "type": "number",
+                "description": "The number of results to retrieve, between 1 and 10. Defaults to 3.",
+                "default": 3
+            }
+        },
+        "required": []
+    }
+}

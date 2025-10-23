@@ -1,0 +1,23 @@
+{
+    "name": "get_range_of_verses",
+    "description": "This is a sub-function API for tool al_quran.\nTool description: Quickly retrieve original Arabic text, translation, transliteration and Word Search from the Koran /Quran\nAPI description: Fetches a collection of Ayahs/Verses from a specific chapter/surah of the Quran along with original Arabic text, translation, transliteration, and verse ID in JSON format using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chapterid": {
+                "type": "number",
+                "description": "The ID of the chapter/surah to retrieve.",
+                "default": 63.0
+            },
+            "range": {
+                "type": "string",
+                "description": "The range of verses to fetch (e.g., \"1-10\").",
+                "default": "1-4"
+            }
+        },
+        "required": [
+            "chapterid",
+            "range"
+        ]
+    }
+}

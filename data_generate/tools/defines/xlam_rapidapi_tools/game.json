@@ -1,0 +1,17 @@
+{
+    "name": "game",
+    "description": "This is a sub-function API for tool baseball.\nTool description: Baseball Leagues &amp; Cups with Livescore, Odds, Statistics, Historical Data, and more ...\nAPI description: Fetch details of a specific baseball game using its game ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "gamepk": {
+                "type": "string",
+                "description": "Enter a game ID - can be found in the schedule endpoint",
+                "default": "633282"
+            }
+        },
+        "required": [
+            "gamepk"
+        ]
+    }
+}

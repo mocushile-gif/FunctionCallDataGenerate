@@ -1,0 +1,32 @@
+{
+    "name": "hourly_forecast",
+    "description": "This is a sub-function API for tool ski_resort_forecast.\nTool description: Forecast and current snow conditions for nearly every ski resort.  Perfect spelling of resort names is NOT required in most cases.\nAPI description: Fetches the hourly weather forecast for a specified ski resort.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "resort": {
+                "type": "string",
+                "description": "The name of the ski resort for which the forecast is to be fetched.",
+                "default": "Jackson Hole"
+            },
+            "el": {
+                "type": "string",
+                "description": "Specify a part of the mountain. Accepted values are 'top', 'mid', and 'bot'. Using this parameter improves response time.",
+                "default": "top"
+            },
+            "units": {
+                "type": "string",
+                "description": "Specify desired units. Accepted values are 'i' (imperial) and 'm' (metric). Using this parameter improves response time.",
+                "default": "i"
+            },
+            "c": {
+                "type": "boolean",
+                "description": "Limits the result to the current day only. Default is None.",
+                "default": true
+            }
+        },
+        "required": [
+            "resort"
+        ]
+    }
+}

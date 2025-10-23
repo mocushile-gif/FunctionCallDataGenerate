@@ -1,0 +1,17 @@
+{
+    "name": "replace",
+    "description": "This is a sub-function API for tool cleantalk.\nTool description: CleanTalk API is a content validation service that helps you filter out profanity and obscenity in your user-generated content. \nAPI description: Sends a request to the CleanTalk API to process and replace certain elements in the given text.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to be processed by the CleanTalk API.",
+                "default": "What the fuck are you doing?"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

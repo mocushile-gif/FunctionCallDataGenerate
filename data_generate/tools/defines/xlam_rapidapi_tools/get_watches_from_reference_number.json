@@ -1,0 +1,17 @@
+{
+    "name": "get_watches_from_reference_number",
+    "description": "This is a sub-function API for tool watchsignals.\nTool description: Watchsignals is a data-driven platform for luxury watches (new &amp; pre owned) and services, empowering customers with an AI driven valuation tool. We help customers to enjoy a high value shopping experience, without overpaying for their goods. A unique feature will be our value prediction model, based on Artificial Intelligence / Machine Learning algorithms. We will initially focus on jewelry, watches, clothes, shoes, bags and eventually yachts, cars and jets.\nAPI description: Retrieve watch details based on a reference number using the Watchsignals API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ref_number": {
+                "type": "string",
+                "description": "The reference number of the watch to retrieve details for.",
+                "default": "11088"
+            }
+        },
+        "required": [
+            "ref_number"
+        ]
+    }
+}

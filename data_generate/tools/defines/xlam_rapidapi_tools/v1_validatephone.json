@@ -1,0 +1,21 @@
+{
+    "name": "v1_validatephone",
+    "description": "This is a sub-function API for tool validate_phone_by_api_ninjas.\nTool description: Check whether a phone number is valid and get its metadata. See more info at https://api-ninjas.com/api/validatephone.\nAPI description: API Ninjas Validate Phone API endpoint. Returns metadata (including whether it is valid) for a given phone number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "number": {
+                "type": "string",
+                "description": "The phone number to validate. If `country` is not specified, the phone number must include the 3-digit country code prefix.",
+                "default": "+12065550100"
+            },
+            "country": {
+                "type": "string",
+                "description": "The 2-letter ISO-3166 country code corresponding to the phone number."
+            }
+        },
+        "required": [
+            "number"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "pursuit",
+    "description": "This is a sub-function API for tool filepursuit.\nTool description: Search the web for files, videos, audios, eBooks & much more.\nAPI description: Performs a search for files using specified query parameters on FilePursuit and returns the search results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search query."
+            },
+            "filetype": {
+                "type": "string",
+                "description": "The file extension to filter results by. Only one file extension is accepted per query."
+            },
+            "type": {
+                "type": "string",
+                "description": "The file extension to filter results by. Only one file extension is accepted per query."
+            },
+            "sort": {
+                "type": "string",
+                "description": "Sort by ascending or descending values (Accepted values: sizeasc, sizedesc, dateasc, datedesc, fileasc, filedesc), only one accepted per query. By default datedesc is selected."
+            },
+            "start": {
+                "type": "number",
+                "description": "Start results from count (for pagination)"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

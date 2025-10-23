@@ -1,0 +1,16 @@
+{
+    "name": "get_all_verse_of_chapter_by_chapter_id",
+    "description": "This is a sub-function API for tool bhagavad_gita_v3.\nTool description: This is api for the Bhagavad Gita book. A Hindu scripture.\nAPI description: Fetches all verses from a specific chapter in the Bhagavad Gita by chapter ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chapterid": {
+                "type": "string",
+                "description": "The ID of the chapter whose verses are to be fetched."
+            }
+        },
+        "required": [
+            "chapterid"
+        ]
+    }
+}

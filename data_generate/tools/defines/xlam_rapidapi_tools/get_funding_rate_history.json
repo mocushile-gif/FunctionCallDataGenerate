@@ -1,0 +1,45 @@
+{
+    "name": "get_funding_rate_history",
+    "description": "This is a sub-function API for tool bybit.\nTool description: Public Data Bybit. Cryptocurrency prices and charts. Derivatives, Futures, Spot, USDC Contract\nAPI description: The funding rate is generated every 8 hours at 00:00 UTC, 08:00 UTC and 16:00 UTC. For example, if a request is sent at 12:00 UTC, the funding rate generated earlier that day at 08:00 UTC will be sent.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "interval": {
+                "type": "string",
+                "description": "Kline interval. Possible values are: 1, 3, 5, 15, 30, 60, 120, 240, 360, 720, \"D\" (day), \"M\" (month), \"W\" (week).",
+                "default": "D"
+            },
+            "start": {
+                "type": "number",
+                "description": "Start timestamp point for the result, in milliseconds.",
+                "default": 1652112000000.0
+            },
+            "category": {
+                "type": "string",
+                "description": "Derivatives products category. Possible values are \"linear\" and \"inverse\".",
+                "default": "linear"
+            },
+            "end": {
+                "type": "number",
+                "description": "End timestamp point for the result, in milliseconds.",
+                "default": 1652544000000.0
+            },
+            "symbol": {
+                "type": "string",
+                "description": "Symbol of the derivative product.",
+                "default": "BTCUSDT"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Limit for data size per page, max size is 200. Defaults to showing 200 pieces of data per page."
+            }
+        },
+        "required": [
+            "interval",
+            "start",
+            "category",
+            "end",
+            "symbol"
+        ]
+    }
+}

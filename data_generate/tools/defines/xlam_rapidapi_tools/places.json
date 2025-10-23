@@ -1,0 +1,17 @@
+{
+    "name": "places",
+    "description": "This is a sub-function API for tool seeding_data.\nTool description: Completely APIs that helps web developers and web designers generate fake data in a fast and easy way.\nAPI description: Fetches a specified number of places from the RapidAPI seeding-data service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "quantity": {
+                "type": "number",
+                "description": "The number of places to retrieve.",
+                "default": 100
+            }
+        },
+        "required": [
+            "quantity"
+        ]
+    }
+}

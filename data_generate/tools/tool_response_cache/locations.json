@@ -1,0 +1,31 @@
+{
+    "{'locale': 'en-CA'}": {
+        "error": "",
+        "response": {
+            "status": "RESULT_STATUS_FAILED",
+            "message": "Locale not found, valid Locales are available in the Culture API."
+        }
+    },
+    "{'locale': 'en'}": {
+        "error": "",
+        "response": {
+            "status": "RESULT_STATUS_FAILED",
+            "message": "Locale not found, valid Locales are available in the Culture API."
+        }
+    },
+    "{'locale': 'en_GB'}": {
+        "error": "",
+        "response": {
+            "status": "RESULT_STATUS_FAILED",
+            "message": "Locale not found, valid Locales are available in the Culture API."
+        }
+    },
+    "{'locale': 'en-US'}": {
+        "error": "",
+        "response": "{'status': 'RESULT_STATUS_COMPLETE', 'places': {'27536165': {'entityId': '27536165', 'parentId': '29475324', 'name': 'Siocon', 'type': 'PLACE_TYPE_CITY', 'iata': 'XSO', 'coordinates': {'latitude': 122.1352778114, 'longitude': 7.706111098}}, '27536166': {'entityId': '27536166', 'parentId': '29475436', 'name': 'Iqaluit', 'type': 'PLACE_TYPE_CITY', 'iata': 'YFB', 'coordinates': {'latitude': -68.5144896391, 'longitude': 63.750593481}}, '27536167': {'entityId': '27536167', 'parentId': '29475405', 'name': 'Alegrete', 'type': 'PLACE_TYPE_CITY', 'iata': 'ALQ', 'coordinates': {'latitude': -55.791944542, 'longitude': -29.7830555337}}, '27536168': {'entityId': '27536168', 'parentId': '29475436', 'name': 'Esquimalt', 'type': 'PLACE_TYPE_CITY', 'iata': 'YPF', 'coordinates': {'latitude': -123.4193038178, 'longitude': 48.4496343229}}, '27536170': {'entityId': '27536170', 'parentId': '29475336', 'name': 'Bright', 'type': 'PLACE_TYPE_CITY', 'iata': 'BRJ', 'coordinates': {'latitude': 146.9666667009, 'longitude': -36.7499999932}}, '27536171': {'entityId': '27536171', 'parentId': '29475420', 'name': 'Catacamas', 'type': 'PLACE_TYPE_CITY', 'iata': 'CAA', 'coordinates': {'latitude': -85.9000000155, 'longitude': 14.7999999964}}, '27536172': {'entityId': '27536172', 'parentId': '29475405', 'name': 'Cachoeira', 'type': 'PLACE_TYPE_CITY', 'iata': 'CCQ', 'coordinates': {'latitude': -38.9558333308, 'longitude': -12.6183333261}}, '27536174': {'entityId': '27536174', 'parentId': '29475405', 'name': 'Cruz Alta', 'type': 'PLACE_TYPE_CITY', 'iata': 'CZB', 'coordinates': {'latitude': -53.6063886476, 'longitude': -28.6386110778}}, '27536175': {'entityId': '27536175', 'parentId': '29475437', 'name': 'Yakima', 'type': 'PLACE_TYPE_CITY', 'iata': 'YKM', 'coordinates': {'latitude': -120.5058991209, 'longitude': 46.6020710638}}, '27536176': {'entityId': '27536176', 'parentId': '90715652', 'name': 'Madeira', 'type': 'PLACE_TYPE_CITY', 'iata': 'FNC', 'coordinates': {'latitude': -16.986282135371876, 'longitude': 32.73389866161756}}, '27536178': {'entityId'"
+    },
+    "{'locale': 'fr-FR'}": {
+        "error": "",
+        "response": "{'status': 'RESULT_STATUS_COMPLETE', 'places': {'27536165': {'entityId': '27536165', 'parentId': '29475324', 'name': 'Siocon', 'type': 'PLACE_TYPE_CITY', 'iata': 'XSO', 'coordinates': {'latitude': 122.1352778114, 'longitude': 7.706111098}}, '27536166': {'entityId': '27536166', 'parentId': '29475436', 'name': 'Iqaluit', 'type': 'PLACE_TYPE_CITY', 'iata': 'YFB', 'coordinates': {'latitude': -68.5144896391, 'longitude': 63.750593481}}, '27536167': {'entityId': '27536167', 'parentId': '29475405', 'name': 'Alegrete', 'type': 'PLACE_TYPE_CITY', 'iata': 'ALQ', 'coordinates': {'latitude': -55.791944542, 'longitude': -29.7830555337}}, '27536168': {'entityId': '27536168', 'parentId': '29475436', 'name': 'Esquimalt', 'type': 'PLACE_TYPE_CITY', 'iata': 'YPF', 'coordinates': {'latitude': -123.4193038178, 'longitude': 48.4496343229}}, '27536170': {'entityId': '27536170', 'parentId': '29475336', 'name': 'Bright', 'type': 'PLACE_TYPE_CITY', 'iata': 'BRJ', 'coordinates': {'latitude': 146.9666667009, 'longitude': -36.7499999932}}, '27536171': {'entityId': '27536171', 'parentId': '29475420', 'name': 'Catacamas', 'type': 'PLACE_TYPE_CITY', 'iata': 'CAA', 'coordinates': {'latitude': -85.9000000155, 'longitude': 14.7999999964}}, '27536172': {'entityId': '27536172', 'parentId': '29475405', 'name': 'Cachoeira', 'type': 'PLACE_TYPE_CITY', 'iata': 'CCQ', 'coordinates': {'latitude': -38.9558333308, 'longitude': -12.6183333261}}, '27536174': {'entityId': '27536174', 'parentId': '29475405', 'name': 'Cruz Alta', 'type': 'PLACE_TYPE_CITY', 'iata': 'CZB', 'coordinates': {'latitude': -53.6063886476, 'longitude': -28.6386110778}}, '27536175': {'entityId': '27536175', 'parentId': '29475437', 'name': 'Yakima', 'type': 'PLACE_TYPE_CITY', 'iata': 'YKM', 'coordinates': {'latitude': -120.5058991209, 'longitude': 46.6020710638}}, '27536176': {'entityId': '27536176', 'parentId': '90715652', 'name': 'Mad\u00e8re', 'type': 'PLACE_TYPE_CITY', 'iata': 'FNC', 'coordinates': {'latitude': -16.986282135371876, 'longitude': 32.73389866161756}}, '27536178': {'entityId':"
+    }
+}

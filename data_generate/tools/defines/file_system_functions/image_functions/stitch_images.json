@@ -1,0 +1,38 @@
+{
+    "name": "stitch_images",
+    "description": "Stitch multiple images together horizontally or vertically with customizable spacing and background color.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_paths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of paths to input image files (at least 2 images required)"
+        },
+        "direction": {
+          "type": "string",
+          "description": "Direction to stitch images",
+          "enum": ["horizontal", "vertical"],
+          "default": "horizontal"
+        },
+        "background_color": {
+          "type": "string",
+          "description": "Background color for the stitched image (e.g., 'white', 'black', '#FF0000')",
+          "default": "white"
+        },
+        "spacing": {
+          "type": "integer",
+          "description": "Spacing between images in pixels",
+          "default": 0,
+          "minimum": 0
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output image. If not provided, will create stitched version with timestamp"
+        }
+      },
+      "required": ["image_paths"]
+    }
+  } 

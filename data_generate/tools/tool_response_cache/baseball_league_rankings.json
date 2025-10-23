@@ -1,0 +1,29 @@
+{
+    "{'league_id': '12345'}": {
+        "error": "",
+        "response": {
+            "league_id": "12345",
+            "rankings": [
+                {
+                    "Text": "No Standings for this league. Sorry!"
+                }
+            ]
+        }
+    },
+    "{'league_id': '41276'}": {
+        "error": "",
+        "response": "{'league_id': '41276', 'rankings': [{'Losses': 62, 'Percentage': 0.617, 'Team Name': 'Tampa Bay Rays', 'Wins': 100}, {'Losses': 67, 'Percentage': 0.586, 'Team Name': 'Houston Astros', 'Wins': 95}, {'Losses': 69, 'Percentage': 0.574, 'Team Name': 'Chicago White Sox', 'Wins': 93}, {'Losses': 70, 'Percentage': 0.568, 'Team Name': 'Boston Red Sox', 'Wins': 92}, {'Losses': 70, 'Percentage': 0.568, 'Team Name': 'New York Yankees', 'Wins': 92}, {'Losses': 71, 'Percentage': 0.562, 'Team Name': 'Toronto Blue Jays', 'Wins': 91}, {'Losses': 72, 'Percentage': 0.556, 'Team Name': 'Seattle Mariners', 'Wins': 90}, {'Losses': 76, 'Percentage': 0.531, 'Team Name': 'Oakland Athletics', 'Wins': 86}, {'Losses': 82, 'Percentage': 0.494, 'Team Name': 'Cleveland Guardians', 'Wins': 80}, {'Losses': 85, 'Percentage': 0.475, 'Team Name': 'Detroit Tigers', 'Wins': 77}, {'Losses': 85, 'Percentage': 0.475, 'Team Name': 'Los Angeles Angels', 'Wins': 77}, {'Losses': 88, 'Percentage': 0.457, 'Team Name': 'Kansas City Royals', 'Wins': 74}, {'Losses': 89, 'Percentage': 0.451, 'Team Name': 'Minnesota Twins', 'Wins': 73}, {'Losses': 102, 'Percentage': 0.37, 'Team Name': 'Texas Rangers', 'Wins': 60}, {'Losses': 110, 'Percentage': 0.321, 'Team Name': 'Baltimore Orioles', 'Wins': 52}]}"
+    },
+    "{'league_id': '51234'}": {
+        "error": "",
+        "response": "{'league_id': '51234', 'rankings': [{'Text': 'No Standings for this league. Sorry!'}]}"
+    },
+    "{'league_id': '41278'}": {
+        "error": "",
+        "response": "{'league_id': '41278', 'rankings': [{'Text': 'No Standings for this league. Sorry!'}]}"
+    },
+    "{'league_id': '41279'}": {
+        "error": "",
+        "response": "{'league_id': '41279', 'rankings': [{'Text': 'No Standings for this league. Sorry!'}]}"
+    }
+}

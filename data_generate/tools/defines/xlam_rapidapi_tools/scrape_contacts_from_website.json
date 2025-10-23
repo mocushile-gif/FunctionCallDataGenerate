@@ -1,0 +1,22 @@
+{
+    "name": "scrape_contacts_from_website",
+    "description": "This is a sub-function API for tool website_contacts_scraper.\nTool description: Scrape emails, phone numbers and social profiles in real-time from all major social platforms: Facebook, TikTok, Instagram, Twitter, LinkedIn and others from a website domain in real-time.\nAPI description: Scrape emails, phone numbers, and social media profiles from the root domain of a given website.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "Domain from which to scrape emails and contacts (e.g. wsgr.com). Accepts any valid url and uses its root domain as a starting point for the extraction.",
+                "default": "wsgr.com"
+            },
+            "match_email_domain": {
+                "type": "boolean",
+                "description": "If True, the function will only return emails that belong to the same domain as the one provided in `query`. Defaults to None.",
+                "default": true
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

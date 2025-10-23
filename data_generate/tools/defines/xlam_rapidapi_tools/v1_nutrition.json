@@ -1,0 +1,17 @@
+{
+    "name": "v1_nutrition",
+    "description": "This is a sub-function API for tool nutrition_by_api_ninjas.\nTool description: Natural language API to extract nutrition data from any text. See more info at https://api-ninjas.com/api/nutrition.\nAPI description: Fetches the nutrition information for a given food query using the API Ninjas Nutrition API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The food query for which to extract nutrition information (e.g., \"bacon and 3 eggs\").",
+                "default": "1lb brisket with fries"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

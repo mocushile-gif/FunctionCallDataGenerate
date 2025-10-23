@@ -1,0 +1,22 @@
+{
+    "name": "image_to_text_ocr",
+    "description": "This is a sub-function API for tool real_time_lens_data.\nTool description: Cutting-edge visual image search and reverse image search, highly-detailed OCR, comprehensive text recognition, product information, QR Code reading, and rich knowledge graph insights, all in one API, powered by Google Lens.\nAPI description: Extracts text from an image using the Google Lens OCR API and provides detailed detections at the paragraph, sentence, and word levels.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the image from which to extract text.",
+                "default": "https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1844/2017/06/15213029/images-textwrap-topbottom.png"
+            },
+            "language": {
+                "type": "string",
+                "description": "Set the language of the results.\n\n**Allowed values:** 2-letter language code, see [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).\n**Default:** en.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "titles_with_changed_episodes",
+    "description": "This is a sub-function API for tool watchmode.\nTool description: Universal OTT Streaming Service Availability API (Netflix, HBO Max, Peacock, Hulu, Amazon Prime Video, AppleTV+, Disney+ & over 100 more)\nAPI description: Retrieve a listing of titles that have changes to their episodes (new episodes, episode details changed, etc.) within a specified date range.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "end_date": {
+                "type": "string",
+                "description": "By default, the changes API will return changes since the beginning of yesterday. Populate this parameter to manually set a end date to include changes from a specific date range, format is YYYYMMDD (eg 20210101 for January 1st, 2021), or for more granular results down to the second YYYYMMDDHHMMSS (eg 20210101123459 for January 1st, 2021 12:24pm and 59 seconds). Hours are in 24 hour format and in Eastern Standard Time. Month, day, hour, minutes and seconds use leading zeros for single digit values."
+            },
+            "start_date": {
+                "type": "string",
+                "description": "By default, the changes API will return changes since the beginning of yesterday. Populate this parameter to manually set a start date to include changes from a specific date range, format is YYYYMMDD (eg 20210101 for January 1st, 2021), or for more granular results down to the second YYYYMMDDHHMMSS (eg 20210101123459 for January 1st, 2021 12:24pm and 59 seconds). Hours are in 24 hour format and in Eastern Standard Time. Month, day, hour, minutes and seconds use leading zeros for single digit values."
+            },
+            "page": {
+                "type": "number",
+                "description": "By default, the changes API will return changes since the beginning of yesterday. Populate this parameter to manually set a end date to include changes from a specific date range, format is YYYYMMDD (eg 20210101 for January 1st, 2021).",
+                "default": 1.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "Set the page of results you want to return, if this isn't set you will always get page 1 returned.",
+                "default": 50.0
+            }
+        },
+        "required": []
+    }
+}

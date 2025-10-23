@@ -1,0 +1,16 @@
+{
+    "name": "check_domain_info",
+    "description": "This is a sub-function API for tool domain_info.\nTool description: This API returns informations on any domain online.\nAPI description: Fetches and returns information about a given domain using the RapidAPI Domain Info service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain name for which information is to be retrieved."
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

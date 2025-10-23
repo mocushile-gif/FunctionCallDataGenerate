@@ -1,0 +1,112 @@
+{
+    "{'division_name': 'barishal'}": {
+        "error": "",
+        "response": {
+            "status": {
+                "code": 200,
+                "message": "ok",
+                "date": "Tue, 04 Jul 2023 13:52:18 GMT"
+            },
+            "data": [
+                {
+                    "_id": "barguna",
+                    "district": "Barguna",
+                    "upazilla": [
+                        "Bamna",
+                        "Betagi",
+                        "Amtali",
+                        "Barguna Sadar",
+                        "Patharghata",
+                        "Taltali"
+                    ]
+                },
+                {
+                    "_id": "barishal",
+                    "district": "Barishal",
+                    "upazilla": [
+                        "Bakerganj",
+                        "Barisal Sadar",
+                        "Wazirpur",
+                        "Muladi",
+                        "Gaurnadi",
+                        "Banaripara",
+                        "Mehendiganj",
+                        "Hizla",
+                        "Agailjhara",
+                        "Babuganj"
+                    ]
+                },
+                {
+                    "_id": "bhola",
+                    "district": "Bhola",
+                    "upazilla": [
+                        "Tazumuddin",
+                        "Lalmohan",
+                        "Manpura",
+                        "Burhanuddin",
+                        "Daulatkhan",
+                        "Bhola Sadar",
+                        "Char Fasson"
+                    ]
+                },
+                {
+                    "_id": "jhalokati",
+                    "district": "Jhalokati",
+                    "upazilla": [
+                        "Rajapur",
+                        "Nalchhiti",
+                        "Kathalia",
+                        "Jhalokati Sadar"
+                    ]
+                },
+                {
+                    "_id": "patuakhali",
+                    "district": "Patuakhali",
+                    "upazilla": [
+                        "Kalapara",
+                        "Dumki",
+                        "Dashmina",
+                        "Mirzaganj",
+                        "Rangabali",
+                        "Patuakhali Sadar",
+                        "Bauphal",
+                        "Galachipa"
+                    ]
+                },
+                {
+                    "_id": "pirojpur",
+                    "district": "Pirojpur",
+                    "upazilla": [
+                        "Indurkani",
+                        "Mathbaria",
+                        "Pirojpur Sadar",
+                        "Kawkhali",
+                        "Nesarabad (Swarupkati)",
+                        "Nazirpur",
+                        "Bhandaria"
+                    ]
+                }
+            ]
+        }
+    },
+    "{'division_name': 'Rajshahi'}": {
+        "error": "",
+        "response": "{'status': {'code': 200, 'message': 'ok', 'date': 'Tue, 18 Jul 2023 10:14:57 GMT'}, 'data': [{'_id': 'bogura', 'district': 'Bogura', 'upazilla': ['Gabtali', 'Sherpur', 'Shibganj', 'Adamdighi', 'Kahaloo', 'Sariakandi', 'Bogura Sadar', 'Dhupchanchia', 'Sonatola', 'Shajahanpur', 'Dhunat', 'Nandigram']}, {'_id': 'chapai nawabganj', 'district': 'Chapai Nawabganj', 'upazilla': ['Chapai Nawabganj Sadar', 'Shibganj', 'Bholahat', 'Nachole', 'Gomastapur']}, {'_id': 'jaipurhat', 'district': 'Jaipurhat', 'upazilla': ['Khetlal', 'Joypurhat Sadar', 'Panchbibi', 'Akkelpur', 'Kalai']}, {'_id': 'naogaon', 'district': 'Naogaon', 'upazilla': ['Niamatpur', 'Raninagar', 'Patnitala', 'Porsha', 'Naogaon Sadar', 'Atrai', 'Badalgachhi', 'Manda', 'Dhamoirhat', 'Sapahar', 'Mohadevpur']}, {'_id': 'natore', 'district': 'Natore', 'upazilla': ['Lalpur', 'Bagatipara', 'Baraigram', 'Natore Sadar', 'Gurudaspur', 'Naldanga', 'Singra']}, {'_id': 'pabna', 'district': 'Pabna', 'upazilla': ['Chatmohar', 'Sujanagar', 'Ishwardi', 'Atgharia', 'Pabna Sadar', 'Bhangura', 'Bera', 'Faridpur', 'Santhia']}, {'_id': 'rajshahi', 'district': 'Rajshahi', 'upazilla': ['Puthia', 'Charghat', 'Godagari', 'Mohanpur', 'Bagha', 'Paba', 'Bagmara', 'Durgapur', 'Tanore']}, {'_id': 'sirajganj', 'district': 'Sirajganj', 'upazilla': ['Kamarkhanda', 'Kazipur', 'Tarash', 'Shahjadpur', 'Sirajganj Sadar', 'Belkuchi', 'Ullahpara', 'Raiganj', 'Chauhali']}]}"
+    },
+    "{'division_name': 'Sylhet'}": {
+        "error": "",
+        "response": "{'status': {'code': 200, 'message': 'ok', 'date': 'Fri, 29 Nov 2024 05:40:31 GMT', 'notice': 'v1.0 is depricated, please use v1.2. v1.0 will be removed soon.'}, 'data': [{'_id': 'habiganj', 'district': 'Habiganj', 'upazilla': ['Madhabpur', 'Bahubal', 'Chunarughat', 'Nabiganj', 'Ajmiriganj', 'Sayestaganj', 'Lakhai', 'Habiganj Sadar', 'Baniyachong']}, {'_id': 'moulvibazar', 'district': 'Moulvibazar', 'upazilla': ['Kamalganj', 'Juri', 'Rajnagar', 'Barlekha', 'Sreemangal', 'Kulaura', 'Moulvibazar Sadar']}, {'_id': 'sunamganj', 'district': 'Sunamganj', 'upazilla': ['Sullah', 'Jagannathpur', 'Dowarabazar', 'Jamalganj', 'Derai', 'Tahirpur', 'Chhatak', 'Bishwamvarpur', 'Dharamapasha', 'Sunamganj Sadar', 'Dakshin Sunamganj']}, {'_id': 'sylhet', 'district': 'Sylhet', 'upazilla': ['Balaganj', 'Companigonj', 'Jaintiapur', 'Gowainghat', 'Bishwanath', 'Zakiganj', 'Golapganj', 'Dakshin Surma', 'Kanaighat', 'Sylhet Sadar', 'Beanibazar', 'Osmani Nagar', 'Fenchuganj']}]}"
+    },
+    "{'division_name': 'Dhaka'}": {
+        "error": "",
+        "response": "{'status': {'code': 200, 'message': 'ok', 'date': 'Fri, 13 Sep 2024 17:32:57 GMT', 'notice': 'v1.0 is depricated, please use v1.2. v1.0 will be removed soon.'}, 'data': [{'_id': 'dhaka', 'district': 'Dhaka', 'upazilla': ['Dhamrai', 'Nawabganj', 'Keraniganj', 'Dohar', 'Savar']}, {'_id': 'faridpur', 'district': 'Faridpur', 'upazilla': ['Alfadanga', 'Faridpur Sadar', 'Bhanga', 'Charbhadrasan', 'Sadarpur', 'Boalmari', 'Saltha', 'Nagarkanda', 'Madhukhali']}, {'_id': 'gazipur', 'district': 'Gazipur', 'upazilla': ['Kaliakair', 'Gazipur Sadar', 'Kapasia', 'Sreepur', 'Kaliganj']}, {'_id': 'gopalganj', 'district': 'Gopalganj', 'upazilla': ['Kotalipara', 'Kashiani', 'Muksudpur', 'Gopalganj Sadar', 'Tungipara']}, {'_id': 'kishoreganj', 'district': 'Kishoreganj', 'upazilla': ['Itna', 'Kishoreganj Sadar', 'Bajitpur', 'Mithamain', 'Tarail', 'Nikli', 'Austagram', 'Karimganj', 'Kuliarchar', 'Hossainpur', 'Bhairab', 'Katiadi', 'Pakundia']}, {'_id': 'madaripur', 'district': 'Madaripur', 'upazilla': ['Madaripur Sadar', 'Rajoir', 'Shibchar', 'Kalkini']}, {'_id': 'manikganj', 'district': 'Manikganj', 'upazilla': ['Daulatpur', 'Manikgonj Sadar', 'Shivalaya', 'Ghior', 'Singair', 'Harirampur', 'Saturia']}, {'_id': 'munshiganj', 'district': 'Munshiganj', 'upazilla': ['Lohajang', 'Munshiganj Sadar', 'Gazaria', 'Sirajdikhan', 'Sreenagar', 'Tongibari']}, {'_id': 'narayanganj', 'district': 'Narayanganj', 'upazilla': ['Narayanganj Sadar', 'Rupganj', 'Sonargaon', 'Bandar', 'Araihazar']}, {'_id': 'narsingdi', 'district': 'Narsingdi', 'upazilla': ['Belabo', 'Raipura', 'Palash', 'Narsingdi Sadar', 'Monohardi', 'Shibpur']}, {'_id': 'rajbari', 'district': 'Rajbari', 'upazilla': ['Rajbari Sadar', 'Pangsha', 'Kalukhali', 'Baliakandi', 'Goalandaghat']}, {'_id': 'shariatpur', 'district': 'Shariatpur', 'upazilla': ['Bhedarganj', 'Shariatpur Sadar', 'Naria', 'Damudya', 'Zajira', 'Gosairhat']}, {'_id': 'tangail', 'district': 'Tangail', 'upazilla': ['Dhanbari', 'Bhuapur', 'Nagarpur', 'Delduar', 'Kalihati', 'Sakhipur', 'Madhupur', 'Gopalpur', 'Mirzapur', 'Ba"
+    },
+    "{'division_name': 'Chittagong'}": {
+        "error": "",
+        "response": "{'status': {'code': 200, 'message': 'ok', 'date': 'Mon, 02 Dec 2024 10:57:58 GMT', 'notice': 'v1.0 is depricated, please use v1.2. v1.0 will be removed soon.'}, 'data': []}"
+    },
+    "{'division_name': 'Chattogram'}": {
+        "error": "",
+        "response": "{'status': {'code': 200, 'message': 'ok', 'date': 'Tue, 15 Oct 2024 13:06:15 GMT', 'notice': 'v1.0 is depricated, please use v1.2. v1.0 will be removed soon.'}, 'data': [{'_id': 'bandarban', 'district': 'Bandarban', 'upazilla': ['Rowangchhari', 'Thanchi', 'Bandarban Sadar', 'Lama', 'Ruma', 'Ali Kadam', 'Naikhongchhari']}, {'_id': 'brahmanbaria', 'district': 'Brahmanbaria', 'upazilla': ['Brahmanbaria Sadar', 'Bancharampur', 'Akhaura', 'Sarail', 'Bijoynagar', 'Nasirnagar', 'Nabinagar', 'Kasba', 'Ashuganj']}, {'_id': 'chandpur', 'district': 'Chandpur', 'upazilla': ['Matlab Uttar', 'Matlab Dakshin', 'Haziganj', 'Chandpur Sadar', 'Shahrasti', 'Kachua', 'Faridganj', 'Haimchar']}, {'_id': 'chattogram', 'district': 'Chattogram', 'upazilla': ['Karnaphuli', 'Raozan', 'Lohagara', 'Satkania', 'Sitakunda', 'Hathazari', 'Rangunia', 'Fatikchhari', 'Mirsharai', 'Banshkhali', 'Anwara', 'Sandwip', 'Patiya', 'Boalkhali', 'Chandanaish']}, {'_id': \"cox's bazar\", 'district': \"Cox's Bazar\", 'upazilla': ['Ukhia', \"Cox's Bazar Sadar\", 'Teknaf', 'Chakaria', 'Kutubdia', 'Pekua', 'Maheshkhali', 'Ramu']}, {'_id': 'cumilla', 'district': 'Cumilla', 'upazilla': ['Cumilla Sadar Dakshin', 'Brahmanpara', 'Lalmai', 'Barura', 'Muradnagar', 'Chauddagram', 'Laksam', 'Monohargonj', 'Homna', 'Nangalkot', 'Titas', 'Debidwar', 'Chandina', 'Daudkandi', 'Burichang', 'Meghna', 'Cumilla Adarsha Sadar']}, {'_id': 'feni', 'district': 'Feni', 'upazilla': ['Chhagalnaiya', 'Fulgazi', 'Sonagazi', 'Daganbhuiyan', 'Feni Sadar', 'Parshuram']}, {'_id': 'khagrachari', 'district': 'Khagrachari', 'upazilla': ['Matiranga', 'Mahalchhari', 'Ramgarh', 'Manikchhari', 'Khagrachhari Sadar', 'Lakshmichhari', 'Dighinala', 'Panchhari']}, {'_id': 'lakshmipur', 'district': 'Lakshmipur', 'upazilla': ['Lakshmipur Sadar', 'Raipur', 'Kamalnagar', 'Ramganj', 'Ramgati']}, {'_id': 'noakhali', 'district': 'Noakhali', 'upazilla': ['Companiganj', 'Kabirhat', 'Sonaimuri', 'Begumganj', 'Chatkhil', 'Noakhali Sadar', 'Hatiya', 'Senbagh', 'Subarnachar']}, {'_id': 'rangamati', 'district': 'Rangamati"
+    }
+}

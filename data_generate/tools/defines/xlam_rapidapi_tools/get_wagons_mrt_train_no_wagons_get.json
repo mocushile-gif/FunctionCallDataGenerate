@@ -1,0 +1,16 @@
+{
+    "name": "get_wagons_mrt_train_no_wagons_get",
+    "description": "This is a sub-function API for tool aqls_b2c_system.\nTool description: AQLS for railway transport queue line management\nAPI description: Fetches the number of wagons for a given MRT train using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "train_no": {
+                "type": "string",
+                "description": "The unique identifier for the MRT train."
+            }
+        },
+        "required": [
+            "train_no"
+        ]
+    }
+}

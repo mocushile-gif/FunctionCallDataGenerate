@@ -1,0 +1,28 @@
+{
+    "name": "fish_api_group",
+    "description": "This is a sub-function API for tool fish_species.\nTool description: A Restful API which is scraping the Wikipedia pages for fish species in order to collect data. The data are cached and refreshed every 24 hours.\nAPI description: This endpoint will group the available data by the <code>property_value</code> parameter. The available URL query parameters are <code>meta_property</code>,  <code>meta_property_attribute</code>, and <code>property_value</code>. The API will group and return all fishes that are matching the <code>property_value</code> that is given in the meta-object.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "meta_property": {
+                "type": "string",
+                "description": "The metadata property to search for.",
+                "default": "scientific_classification"
+            },
+            "property_value": {
+                "type": "string",
+                "description": "The value of the metadata property that will be matched.",
+                "default": "actinopterygii"
+            },
+            "meta_property_attribute": {
+                "type": "string",
+                "description": "The attribute of the metadata property to be searched. Defaults to 'class'.",
+                "default": "class"
+            }
+        },
+        "required": [
+            "meta_property",
+            "property_value"
+        ]
+    }
+}

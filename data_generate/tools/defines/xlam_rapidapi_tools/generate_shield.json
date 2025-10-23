@@ -1,0 +1,15 @@
+{
+    "name": "generate_shield",
+    "description": "This is a sub-function API for tool shields.\nTool description: A simple and free way to generate shields.\nAPI description: Generates a shield using the Shields API and returns the response.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name parameter to be included in the query string. Defaults to 'google'.",
+                "default": "google"
+            }
+        },
+        "required": []
+    }
+}

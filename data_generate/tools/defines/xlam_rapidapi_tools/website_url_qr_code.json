@@ -1,0 +1,70 @@
+{
+    "name": "website_url_qr_code",
+    "description": "This is a sub-function API for tool scanova_qr_code.\nTool description: Scanova QR Code API lets you generate custom-designed Branded QR Codes in bulk programmatically in your own mobile application or information system within few minutes.\nAPI description: Generates a static QR code (standard or custom-designed) encoded with the specified URL and customization options using the Scanova QR Code API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "error_correction": {
+                "type": "string",
+                "description": "Specifies error correction level. Default is 'H'.",
+                "default": "H"
+            },
+            "eye_pattern": {
+                "type": "string",
+                "description": "Specifies the eye pattern of the QR code. Default is 'RECT_RECT'.",
+                "default": "RECT_RECT"
+            },
+            "data_gradient_style": {
+                "type": "string",
+                "description": "Specifies the gradient style for the data modules. Default is 'None'.",
+                "default": "None"
+            },
+            "format": {
+                "type": "string",
+                "description": "Specifies the format of the QR code image. Default is 'png'.",
+                "default": "png"
+            },
+            "size": {
+                "type": "string",
+                "description": "Specifies the size of the QR code image. Default is 'm'.",
+                "default": "m"
+            },
+            "eye_color_outer": {
+                "type": "string",
+                "description": "Specifies the outer color of the eye modules. Default is '#000000'.",
+                "default": "#000000"
+            },
+            "data_gradient_end_color": {
+                "type": "string",
+                "description": "Specifies the end color of the gradient for data modules. Default is '#000000'.",
+                "default": "#000000"
+            },
+            "data_gradient_start_color": {
+                "type": "string",
+                "description": "Specifies the start color of the gradient for data modules. Default is '#000000'.",
+                "default": "#000000"
+            },
+            "eye_color_inner": {
+                "type": "string",
+                "description": "Specifies the inner color of the eye modules. Default is '#000000'.",
+                "default": "#000000"
+            },
+            "url": {
+                "type": "string",
+                "description": "The URL to be encoded in the QR code. Default is 'https://scanova.io'.",
+                "default": "https://scanova.io"
+            },
+            "data_pattern": {
+                "type": "string",
+                "description": "Specifies the data pattern of the QR code. Default is 'RECT'.",
+                "default": "RECT"
+            },
+            "background_color": {
+                "type": "string",
+                "description": "Specifies the background color of the QR code. Default is '#FFFFFF'.",
+                "default": "#FFFFFF"
+            }
+        },
+        "required": []
+    }
+}

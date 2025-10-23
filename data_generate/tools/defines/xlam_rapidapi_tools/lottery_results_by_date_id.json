@@ -1,0 +1,17 @@
+{
+    "name": "lottery_results_by_date_id",
+    "description": "This is a sub-function API for tool thai_lottery_result.\nTool description: Thai lottery results API, Provided by Thailand-API.com\nAPI description: Fetches lottery results for a given date id from the Thai lottery API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "dateid": {
+                "type": "string",
+                "description": "The date identifier for which to fetch lottery results.",
+                "default": "20220316"
+            }
+        },
+        "required": [
+            "dateid"
+        ]
+    }
+}

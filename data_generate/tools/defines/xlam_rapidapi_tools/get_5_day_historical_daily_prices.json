@@ -1,0 +1,17 @@
+{
+    "name": "get_5_day_historical_daily_prices",
+    "description": "This is a sub-function API for tool stock_prices.\nTool description: Returns the adjusted open, high, low, and close price for a given symbol.  Volume, dividend, and stock split information is also included for each symbol.\nAPI description: Fetches 5 days of historical daily stock prices including adjusted Open, High, Low, Close prices, daily volume, dividend, and split information for a given ticker symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The stock ticker symbol for which to retrieve historical data.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "ticker"
+        ]
+    }
+}

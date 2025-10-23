@@ -1,0 +1,17 @@
+{
+    "name": "search_for_region",
+    "description": "This is a sub-function API for tool realtor.\nTool description: Query real time data of US real estate properties and agents\nAPI description: Search for location suggestions based on a given keyword using the RapidAPI realtor16 endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The keyword or location name to search for suggestions.",
+                "default": "santa monica"
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

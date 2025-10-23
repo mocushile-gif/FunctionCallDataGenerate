@@ -1,0 +1,17 @@
+{
+    "name": "rate_by_id",
+    "description": "This is a sub-function API for tool crypto_exchanges.\nTool description: Useful tool for real-time pricing and market activity for over 1,000 cryptocurrencies. By collecting exchange data from thousands of markets, we are able to offer transparent and accurate data on asset price and availability.\nAPI description: Fetches the rate for a given cryptocurrency ID using the Crypto Exchanges API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the cryptocurrency to fetch the rate for.",
+                "default": "bitcoin"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

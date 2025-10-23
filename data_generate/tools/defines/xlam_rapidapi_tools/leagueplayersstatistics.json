@@ -1,0 +1,62 @@
+{
+    "name": "leagueplayersstatistics",
+    "description": "This is a sub-function API for tool footapi.\nTool description: FootApi offers real-time football scores of all live matches that are being played. FootApi covers hundreds of soccer leagues, cups and tournaments with live updated results, statistics, league tables, video highlights and fixtures. From most popular football leagues (UEFA Champions League, UEFA Europa League, Premier League, LaLiga, Bundesliga, Serie A, Ligue 1, Brasileiro Série A), top players ratings and statistics to football matches played in a date, our FootApi covers all the informatio...\nAPI description: Fetches player statistics for a specific Football league and season based on the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "Number of players to include per page.",
+                "default": 20
+            },
+            "page": {
+                "type": "number",
+                "description": "One-based page number.",
+                "default": 1
+            },
+            "seasonid": {
+                "type": "number",
+                "description": "The season id you want to retrieve the league players statistics.",
+                "default": 36886
+            },
+            "tournamentid": {
+                "type": "number",
+                "description": "The unique tournament id you want to retrieve the league players statistics.",
+                "default": 7
+            },
+            "minapps": {
+                "type": "boolean",
+                "description": "The statitiscs only includes player with minimum appearences. If set to true only the players with half of matches of the player with most appearences will be included."
+            },
+            "order": {
+                "type": "string",
+                "description": "The sorting order. Based on the response properties. Eg.: For the summary group thedefault order is -rating. If you add - before the property it sends the descending order, if you let the property without any sign before it is ascending. Leave it empty to get default order",
+                "default": "-rating"
+            },
+            "filters": {
+                "type": "string",
+                "description": "The filters to apply. Only use when not specifying the group. Possible filters are: position.in.G~D~M~F, you can omit any position like: position.in.G~M~F or even position.in.F. type.EQ.home and type.EQ.away to specify if the statistics are for matches played home or away. appearances.GT.5 where GT means greater than and can be replaced by EQ meaning equal and LT  meaning less than and the 5 is the number of appearences of the player. age.GT.25 where GT and 25 logic is the same as appearences.preferredFoot."
+            },
+            "accumulation": {
+                "type": "string",
+                "description": "Type of accumulation. Choices are 'total', 'perGame', or 'per90'. Default is 'total'.",
+                "default": "total"
+            },
+            "group": {
+                "type": "string",
+                "description": "Statistic group to retrieve. Choices are 'summary', 'attack', 'defence', 'passing', 'goalkeeper'. Default is 'summary'.",
+                "default": "summary"
+            },
+            "fields": {
+                "type": "string",
+                "description": "The fields to include, up to 6. Only use if not specifying the groupt. They can be: successfulDribblesPercentage,goals,blockedShots,penaltyWon,goalsFromOutsideTheBox,hitWoodwork,rating,expectedGoals,totalShots,goalConversionPercentage,shotFromSetPiece,headedGoals, offsides,bigChancesMissed,shotsOnTarget,penaltiesTaken,freeKickGoal,leftFootGoals,penaltyConversion,successfulDribbles,shotsOffTarget,penaltyGoals,goalsFromInsideTheBox,rightFootGoals,setPieceConversion,tackles,errorLeadToGoal,cleanSheet,intercept"
+            }
+        },
+        "required": [
+            "limit",
+            "page",
+            "seasonid",
+            "tournamentid"
+        ]
+    }
+}

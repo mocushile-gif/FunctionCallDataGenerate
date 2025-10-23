@@ -1,0 +1,17 @@
+{
+    "name": "get_region_info",
+    "description": "This is a sub-function API for tool redfin_base.\nTool description: [IMPROVED SEARCH API]  API Redfin offers a powerful search feature that allows users to easily find their desired properties. With the search tool, users can refine their search based on location, price range, property type, and various other criteria. They can also customize their search by specifying the number of bedrooms and bathrooms, square footage, and other specific features they are looking for in a home. Redfin's search feature provides accurate and up-to-date results, helping users...\nAPI description: This API will return `region_type_id`, `region_id`\n➞ Will use for API 【Search by region】",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The input value can be full URL or sub URL\n- **Full URL**: `https://www.redfin.com/zipcode/01026`\n- **Sub URL**: `/zipcode/01026` (use the Auto-complete API to get the value, it is a property URL)",
+                "default": "https://www.redfin.com/zipcode/01026"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

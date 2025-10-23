@@ -1,0 +1,23 @@
+{
+    "name": "fetch_movies",
+    "description": "This is a sub-function API for tool abir82_bollywood_recommendations.\nTool description: This API recommends a list of Bollywood movies from 2000 to 2019 based on the genre and year selected by the user\nAPI description: Fetch a list of movies from 2000 to 2019 based on the selected genre and year using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year for which to fetch movies. Should be between 2000 and 2019.",
+                "default": "2018"
+            },
+            "genre": {
+                "type": "string",
+                "description": "The genre of the movies to fetch.",
+                "default": "Comedy"
+            }
+        },
+        "required": [
+            "year",
+            "genre"
+        ]
+    }
+}

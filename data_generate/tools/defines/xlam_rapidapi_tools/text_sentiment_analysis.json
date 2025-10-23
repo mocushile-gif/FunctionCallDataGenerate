@@ -1,0 +1,17 @@
+{
+    "name": "text_sentiment_analysis",
+    "description": "This is a sub-function API for tool text_sentiment_analysis.\nTool description: Introducing the Sentiment Analysis API by Pizza API - a cutting-edge tool that provides instant sentiment analysis of any given text. With this API, you can easily determine whether a piece of text is positive, negative, or neutral in tone. The API uses advanced natural language processing techniques to analyse text and provide accurate results in real-time.  The Sentiment Analysis API is incredibly easy to use, simply send a request to the API with the text you want to analyse, and the API w...\nAPI description: Analyzes the sentiment of the provided text using the Text Sentiment Analysis API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to be analyzed for sentiment.",
+                "default": "have a good day"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

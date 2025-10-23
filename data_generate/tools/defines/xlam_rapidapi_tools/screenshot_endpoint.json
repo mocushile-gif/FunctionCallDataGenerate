@@ -1,0 +1,34 @@
+{
+    "name": "screenshot_endpoint",
+    "description": "This is a sub-function API for tool screenshot_url_to_image.\nTool description: Generate screenshots of websites with simple api, accept various parameters such as width, height, full page\nAPI description: Takes a screenshot of a specified webpage URL with given dimensions.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "height": {
+                "type": "string",
+                "description": "The height of the screenshot in pixels.",
+                "default": "1080"
+            },
+            "url": {
+                "type": "string",
+                "description": "The URL of the webpage to capture.",
+                "default": "https://rapidapi.com/marketplace"
+            },
+            "width": {
+                "type": "string",
+                "description": "The width of the screenshot in pixels.",
+                "default": "1920"
+            },
+            "fullscreen": {
+                "type": "string",
+                "description": "Whether to capture the screenshot in fullscreen mode. Defaults to 'true'.",
+                "default": "true"
+            }
+        },
+        "required": [
+            "height",
+            "url",
+            "width"
+        ]
+    }
+}

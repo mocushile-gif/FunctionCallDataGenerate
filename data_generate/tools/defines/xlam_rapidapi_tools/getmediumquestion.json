@@ -1,0 +1,17 @@
+{
+    "name": "getmediumquestion",
+    "description": "This is a sub-function API for tool leetcodeapi.\nTool description: The API fetches basic information of a LeetCode profile based on the provided username.\nAPI description: Fetches the number of medium-level questions solved by the given user from the LeetCode API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The username of the LeetCode user whose medium-level questions solved count is to be fetched.",
+                "default": "mujtabah258"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

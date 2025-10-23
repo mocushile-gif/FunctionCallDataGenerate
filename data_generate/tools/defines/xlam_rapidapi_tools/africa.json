@@ -1,0 +1,30 @@
+{
+    "name": "africa",
+    "description": "This is a sub-function API for tool nomad_list_cities.\nTool description: Explore best cities to live for digital nomads! Sort by internet speed, cost of living and more! Filter by continents\nAPI description: Get African cities sorted by overall score by default.\n\nPagination: size & page \nsort_by: you can sort by any numeric value like fore example internet_speed, temperatureC, cost_for_family_in_usd and so on.\nsort: asc | desc",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sort": {
+                "type": "string",
+                "description": "Sort order, either 'asc' for ascending or 'desc' for descending. Defaults to 'desc'.",
+                "default": "desc"
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "The attribute to sort by, such as 'overall_score', 'internet_speed', 'temperatureC', 'cost_for_family_in_usd', etc. Defaults to 'overall_score'.",
+                "default": "overall_score"
+            },
+            "page": {
+                "type": "string",
+                "description": "Page number for pagination. Defaults to '1'.",
+                "default": "1"
+            },
+            "size": {
+                "type": "string",
+                "description": "Number of results per page. Defaults to '20'.",
+                "default": "20"
+            }
+        },
+        "required": []
+    }
+}

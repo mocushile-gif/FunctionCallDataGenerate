@@ -1,0 +1,43 @@
+{
+    "name": "calculate_mean_confidence_interval",
+    "description": "Calculates the confidence interval for a sample mean using either a normal distribution or a t-distribution.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mean": {
+                "type": "number",
+                "description": "The mean of the sample."
+            },
+            "std_dev": {
+                "type": "number",
+                "description": "The standard deviation of the sample."
+            },
+            "sample_size": {
+                "type": "integer",
+                "description": "The size of the sample.",
+                "minimum": 2
+            },
+            "confidence": {
+                "type": "number",
+                "description": "The desired confidence level. Default is 0.95.",
+                "default": 0.95,
+                "minimum": 0,
+                "maximum": 1
+            },
+            "distribution": {
+                "type": "string",
+                "description": "The type of distribution used for the confidence interval (\"normal\" or \"t\"). Default is \"normal\".",
+                "default": "normal",
+                "enum": [
+                    "normal",
+                    "t"
+                ]
+            }
+        },
+        "required": [
+            "mean",
+            "std_dev",
+            "sample_size"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "retrieve_user",
+    "description": "This is a sub-function API for tool drillster_2_0.\nTool description: Drillster is an open cloud based memorization platform that helps users learn more in less time. Use our API to integrate with Drillster or to create your own memorization solution.\r\n\r\nFor detailed information about this API, please refer to http://www.drillster.com/info/api-2/.\nAPI description: Retrieves details of a user based on the provided user ID from the rapidapi service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The ID of the user whose details are to be retrieved.",
+                "default": "yKscUgpDShWKaf6zCLjyZw"
+            }
+        },
+        "required": [
+            "user_id"
+        ]
+    }
+}

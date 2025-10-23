@@ -1,0 +1,20 @@
+{
+    "name": "generate_a_random_word",
+    "description": "This is a sub-function API for tool random_word_generator.\nTool description: Random words and more provided by RandomWordGenerator.com\nAPI description: Generates a random word by querying the RandomWordGenerator.com database using the specified API keys and generator type.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "api_key": {
+                "type": "string",
+                "description": "The API key for authentication with RandomWordGenerator.com. Defaults to '5w36eV0FZJu9QIPlpR18'.",
+                "default": "5w36eV0FZJu9QIPlpR18"
+            },
+            "generator": {
+                "type": "string",
+                "description": "The type of word generator to use. Defaults to 'words'.",
+                "default": "words"
+            }
+        },
+        "required": []
+    }
+}

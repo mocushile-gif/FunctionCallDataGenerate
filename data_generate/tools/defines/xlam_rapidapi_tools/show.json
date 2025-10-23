@@ -1,0 +1,29 @@
+{
+    "name": "show",
+    "description": "This is a sub-function API for tool vizor_ads.\nTool description: Welcome to VizorAds. APIs for Converting Images, Products and Documents into NFT or Smart Contracts using QR codes. Ready for Web3. \nAPI description: Get details of your existing embed records using it's unique slug",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x_rapidapi_key": {
+                "type": "string",
+                "description": "The RapidAPI key provided for API requests.",
+                "default": "9846b8bf51mshf1d65a505b76988p188f2ajsn7136afeaa49f"
+            },
+            "x_rapidapi_host": {
+                "type": "string",
+                "description": "The RapidAPI host to be used for the request.",
+                "default": "vizor-ads.p.rapidapi.com"
+            },
+            "slug": {
+                "type": "string",
+                "description": "The unique identifier for the embed record.",
+                "default": "7dW8zGbP"
+            }
+        },
+        "required": [
+            "x_rapidapi_key",
+            "x_rapidapi_host",
+            "slug"
+        ]
+    }
+}

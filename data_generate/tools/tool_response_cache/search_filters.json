@@ -1,0 +1,98 @@
+{
+    "{'query': 'software engineer in San Francisco, USA', 'radius': 50}": {
+        "error": "",
+        "response": {
+            "filters": {
+                "query": "software engineer in San Francisco, USA",
+                "radius": 50,
+                "estimated_results": {
+                    "job_titles": [
+                        {
+                            "title": "Software Engineer",
+                            "count": 1200
+                        },
+                        {
+                            "title": "Senior Software Engineer",
+                            "count": 800
+                        },
+                        {
+                            "title": "Junior Software Engineer",
+                            "count": 500
+                        }
+                    ],
+                    "employment_types": [
+                        {
+                            "type": "FULLTIME",
+                            "count": 1500
+                        },
+                        {
+                            "type": "CONTRACTOR",
+                            "count": 300
+                        },
+                        {
+                            "type": "PARTTIME",
+                            "count": 200
+                        }
+                    ],
+                    "remote_jobs_only": {
+                        "count": 400
+                    },
+                    "date_posted": [
+                        {
+                            "range": "today",
+                            "count": 50
+                        },
+                        {
+                            "range": "3days",
+                            "count": 150
+                        },
+                        {
+                            "range": "week",
+                            "count": 400
+                        },
+                        {
+                            "range": "month",
+                            "count": 1000
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "{'query': 'open-source Python developer in Texas, USA', 'country': 'us'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '2d35bb85-7b8c-427f-a1b5-888b9b6faabd', 'parameters': {'query': 'open-source Python developer in Texas, USA'}, 'data': {'categories': [], 'job_titles': [], 'company_types': [], 'employers': [], 'date_posted': [], 'employment_types': [], 'job_requirements': []}}"
+    },
+    "{'query': 'web development in San Francisco', 'remote_jobs_only': True, 'date_posted': 'week'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'f7312a29-a937-4159-ba06-1176dd4d0985', 'parameters': {'query': 'web development in San Francisco', 'date_posted': 'week', 'remote_jobs_only': False}, 'data': {'categories': [], 'job_titles': [], 'company_types': [], 'employers': [], 'date_posted': [], 'employment_types': [], 'job_requirements': []}}"
+    },
+    "{'query': 'web development in Austin', 'remote_jobs_only': True, 'date_posted': 'week'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '5bd2ff23-2731-463a-88c5-34e72aec3843', 'parameters': {'query': 'web development in Austin', 'date_posted': 'week', 'remote_jobs_only': False}, 'data': {'categories': [], 'job_titles': [], 'company_types': [], 'employers': [], 'date_posted': [], 'employment_types': [], 'job_requirements': []}}"
+    },
+    "{'query': 'web development in San Francisco', 'date_posted': 'today', 'employment_types': 'FULLTIME,CONTRACTOR'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '0b698170-d448-4281-8b5f-24d222ee86dc', 'parameters': {'query': 'web development in San Francisco', 'date_posted': 'today', 'employment_types': ['FULLTIME', 'CONTRACTOR']}, 'data': {'categories': [], 'job_titles': [], 'company_types': [], 'employers': [], 'date_posted': [], 'employment_types': [], 'job_requirements': []}}"
+    },
+    "{'query': 'web development in San Francisco', 'date_posted': 'week', 'employment_types': 'FULLTIME,CONTRACTOR'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '4093831a-7254-4309-bb4a-779208834927', 'parameters': {'query': 'web development in San Francisco', 'date_posted': 'week', 'employment_types': ['FULLTIME', 'CONTRACTOR']}, 'data': {'categories': [], 'job_titles': [], 'company_types': [], 'employers': [], 'date_posted': [], 'employment_types': [], 'job_requirements': []}}"
+    },
+    "{'query': 'web development in Austin', 'date_posted': 'week', 'employment_types': 'FULLTIME,CONTRACTOR'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '3c1b4269-e7f4-4060-9ba7-b95535060ce5', 'parameters': {'query': 'web development in Austin', 'date_posted': 'week', 'employment_types': ['FULLTIME', 'CONTRACTOR']}, 'data': {'categories': [], 'job_titles': [], 'company_types': [], 'employers': [], 'date_posted': [], 'employment_types': [], 'job_requirements': []}}"
+    },
+    "{'query': 'Python developer in Texas, USA', 'job_requirements': 'more_than_3_years_experience,no_degree', 'country': 'US'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'f31c547e-9f87-4b06-bfe5-dffc9dd39b0f', 'parameters': {'query': 'Python developer in Texas, USA', 'job_requirements': ['years3plus', 'no_degree']}, 'data': {'categories': [], 'job_titles': [], 'company_types': [], 'employers': [], 'date_posted': [], 'employment_types': [], 'job_requirements': []}}"
+    },
+    "{'query': 'Python developer in Texas, USA', 'country': 'US'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '9253dc56-3519-4e2a-a60b-62c3f3c89ce3', 'parameters': {'query': 'Python developer in Texas, USA'}, 'data': {'categories': [], 'job_titles': [], 'company_types': [], 'employers': [], 'date_posted': [], 'employment_types': [], 'job_requirements': []}}"
+    },
+    "{'query': 'social media manager in Texas, USA', 'job_requirements': 'under_3_years_experience,more_than_3_years_experience,no_experience,no_degree'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'f2fc8d2e-d3f5-48e5-a872-e5020451bc29', 'parameters': {'query': 'social media manager in Texas, USA', 'job_requirements': ['years3under', 'years3plus', 'no_experience', 'no_degree']}, 'data': {'categories': [], 'job_titles': [], 'company_types': [], 'employers': [], 'date_posted': [], 'employment_types': [], 'job_requirements': []}}"
+    }
+}

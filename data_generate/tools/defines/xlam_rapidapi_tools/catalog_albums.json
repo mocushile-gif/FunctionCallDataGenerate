@@ -1,0 +1,15 @@
+{
+    "name": "catalog_albums",
+    "description": "This is a sub-function API for tool billboard_api_v2.\nTool description: Billboard charts API: Weekly Billboard Hot 100, Weekly Billboard 200, Weekly Artist 100, Weekly Billboard Weekly Global 200, Weekly Catalog Albums, Weekly Independent Albums, Weekly Billboard U.S. Afrobeats Songs. Year End Hot 100 Songs, Year End Billboard 200 Albums, Year End Billboard  Global 200, Year End Top Artists, Year End Top Artists – Duo/Group, Year End Top Labels, Year End Top New Artists, Year End Top Artists – Male, Year End Top Artists – Female. \nAll Greatest of All Time Charts....\nAPI description: Billboard U.S. Afrobeats Songs chart \nis weekly based. \n\nIf `week` is not supplied, will default to last week. \nif the week date is not Saturday, will default to Saturday of that week",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "week": {
+                "type": "string",
+                "description": "The week for which to fetch the catalog albums chart in the format 'YYYY-MM-DD'. Defaults to '2022-10-08'.",
+                "default": "2022-10-08"
+            }
+        },
+        "required": []
+    }
+}

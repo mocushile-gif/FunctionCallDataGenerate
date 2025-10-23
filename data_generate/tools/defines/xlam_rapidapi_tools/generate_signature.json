@@ -1,0 +1,17 @@
+{
+    "name": "generate_signature",
+    "description": "This is a sub-function API for tool tiktok_v2.\nTool description: Highly maintain and accurate T-tok API to  fetch profiles or feeds in bulk. \nAPI description: Generate Signature from TikToc API Url\n\nFollowing API Path will work with this signature\n\n/node/share/user/\n/api/post/itemlist/\n/api/challenge/itemlist/\n/api/music/item_list/",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The TikTok API URL for which to generate the signature.",
+                "default": "https://www.tiktok.com/node/share/user/@therock"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

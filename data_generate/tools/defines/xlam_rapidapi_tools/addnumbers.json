@@ -1,0 +1,23 @@
+{
+    "name": "addnumbers",
+    "description": "This is a sub-function API for tool calapi.\nTool description: CalAPI\nAPI description: Adds two integers using an external API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vala": {
+                "type": "number",
+                "description": "The first integer to be added.",
+                "default": 10.0
+            },
+            "valb": {
+                "type": "number",
+                "description": "The second integer to be added.",
+                "default": 5.0
+            }
+        },
+        "required": [
+            "vala",
+            "valb"
+        ]
+    }
+}

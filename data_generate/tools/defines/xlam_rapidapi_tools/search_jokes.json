@@ -1,0 +1,40 @@
+{
+    "name": "search_jokes",
+    "description": "This is a sub-function API for tool humor_jokes_and_memes.\nTool description: Humor API lets you search through 50,000 jokes, over 200,000 memes, and gifs. From Chuck Norris, over Knock Knock to Yo Mama jokes, you'll find something for every occasion.\nAPI description: Search for jokes.\nSee https://humorapi.com/docs/#Search-Jokes for more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "number": {
+                "type": "number",
+                "description": "The number of results to retrieve between 1 and 10. Defaults to 3.",
+                "default": 3
+            },
+            "exclude_tags": {
+                "type": "string",
+                "description": "A comma-separated list of tags that the joke must not have. Defaults to 'nsfw'.",
+                "default": "nsfw"
+            },
+            "max_length": {
+                "type": "number",
+                "description": "The maximum number of characters in the joke. Defaults to 200.",
+                "default": 200
+            },
+            "include_tags": {
+                "type": "string",
+                "description": "A comma-separated list of tags that the joke must have. Defaults to 'one_liner'.",
+                "default": "one_liner"
+            },
+            "keywords": {
+                "type": "string",
+                "description": "A comma-separated list of keywords to search for in jokes. Defaults to 'rocket'.",
+                "default": "rocket"
+            },
+            "min_rating": {
+                "type": "number",
+                "description": "The minimum rating between 0 and 10 that the result should have. Defaults to 7.",
+                "default": 7
+            }
+        },
+        "required": []
+    }
+}

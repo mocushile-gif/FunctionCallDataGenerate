@@ -1,0 +1,43 @@
+{
+    "name": "rocp",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Rate of change percentage(ROCP) calculates the rate of change in % between the current price and price n timeperiods ago. Formula: (price - prevPrice) / prevPrice.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "interval": {
+                "type": "string",
+                "description": "Interval between two consecutive points in the time series. Supports `1min`, `5min`, `15min`, `30min`, `45min`, `1h`, `2h`, `4h`, `1day`, `1week`, `1month`.",
+                "default": "1min"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "Financial instrument symbol, can be any equity, index, ETF, forex, or cryptocurrency (e.g., `AAPL`, `EUR/USD`, `ETH/BTC`).",
+                "default": "AAPL"
+            },
+            "outputsize": {
+                "type": "number",
+                "description": "Number of data points to be retrieved. Default is `30` if no date parameters are set.",
+                "default": 30
+            },
+            "time_period": {
+                "type": "number",
+                "description": "Number of intervals used to calculate the ROCP. Default is `9`.",
+                "default": 9
+            },
+            "format": {
+                "type": "string",
+                "description": "Format of the output data. Can be `csv` or `json`. Default is `json`.",
+                "default": "json"
+            },
+            "series_type": {
+                "type": "string",
+                "description": "The type of price series to use. Supports `open`, `high`, `low`, or `close`. Default is `close`.",
+                "default": "close"
+            }
+        },
+        "required": [
+            "interval",
+            "symbol"
+        ]
+    }
+}

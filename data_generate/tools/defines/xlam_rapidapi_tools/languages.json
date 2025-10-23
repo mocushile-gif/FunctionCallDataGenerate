@@ -1,0 +1,14 @@
+{
+    "name": "languages",
+    "description": "This is a sub-function API for tool spellout.\nTool description: This API allows converting numbers to spelled-out format in any language, e.g.: 1234 -> “one thousand two hundred thirty-four”.\nAPI description: Fetches a list of ISO 639 languages, optionally filtered by a name substring.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "namefilter": {
+                "type": "string",
+                "description": "A substring to filter the languages by their names. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

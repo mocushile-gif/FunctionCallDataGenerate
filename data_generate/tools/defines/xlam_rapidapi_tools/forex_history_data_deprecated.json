@@ -1,0 +1,17 @@
+{
+    "name": "forex_history_data_deprecated",
+    "description": "This is a sub-function API for tool investing_financial_stocks.\nTool description: get all investing.com stocks realtime data in multi language and filters\nAPI description: Fetches historical forex data for a given currency pair using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pair_id": {
+                "type": "string",
+                "description": "The identifier for the currency pair whose historical data is to be fetched.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "pair_id"
+        ]
+    }
+}

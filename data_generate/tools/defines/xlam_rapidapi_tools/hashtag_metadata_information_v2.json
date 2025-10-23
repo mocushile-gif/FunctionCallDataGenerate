@@ -1,0 +1,17 @@
+{
+    "name": "hashtag_metadata_information_v2",
+    "description": "This is a sub-function API for tool social_media_data_tt.\nTool description: Social Media Data API in Real-Time.  -Get very useful and unique information.  -I'm on Telegram https://t.me/logicBuilder News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Get hashtag metadata V2\n\nV2 - returns more data then older version of the endpoint",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hashtag": {
+                "type": "string",
+                "description": "The name of the hashtag to retrieve metadata for. For example: **summer**",
+                "default": "summer"
+            }
+        },
+        "required": [
+            "hashtag"
+        ]
+    }
+}

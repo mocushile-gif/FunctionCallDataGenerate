@@ -1,0 +1,17 @@
+{
+    "name": "soundcloud",
+    "description": "This is a sub-function API for tool check_username.\nTool description: Generate/Check if a username is available on various platforms like Facebook, instagram, tiktok, snapchat and other social media platforms! You can also check if  a domain is registered or not.\nAPI description: Checks the availability of a given Soundcloud username using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Soundcloud username to check for availability.",
+                "default": "username"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

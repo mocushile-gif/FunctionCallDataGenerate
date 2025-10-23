@@ -1,0 +1,17 @@
+{
+    "name": "retrieve_compensation",
+    "description": "This is a sub-function API for tool co2_offset.\nTool description: GreenHouseGas/CO2 compensation as a service. Get 1kg/month for free to see how easy it is to implement.\nAPI description: Fetches the full compensation details associated with a given ID using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID for which to retrieve the compensation details.",
+                "default": "0xF0F2e446EeD32236EA0c78a6E4a91Ed712654799"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

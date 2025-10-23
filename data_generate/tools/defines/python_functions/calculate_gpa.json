@@ -1,0 +1,27 @@
+{
+    "name": "calculate_gpa",
+    "description": "Calculates the weighted average grade (GPA) based on scores and their corresponding credit hours.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "scores": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "A list of scores (float or int)."
+            },
+            "credits": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "A list of credit hours corresponding to each score (float)."
+            }
+        },
+        "required": [
+            "scores",
+            "credits"
+        ]
+    }
+}

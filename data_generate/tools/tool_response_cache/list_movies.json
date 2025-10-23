@@ -1,0 +1,104 @@
+{
+    "{'genre': 'documentary', 'query_term': 'climate change', 'sort_by': 'date_added', 'order_by': 'desc', 'limit': 5}": {
+        "error": "",
+        "response": [
+            {
+                "id": "tt1234567",
+                "title": "2040",
+                "year": 2020,
+                "rank": 1,
+                "rating": 8.5,
+                "genre": [
+                    "Documentary",
+                    "Environment"
+                ],
+                "director": "Darren Aronofsky",
+                "description": "Explores pathways to a sustainable 2040 through renewable energy and ecological restoration.",
+                "trailer": "https://www.youtube.com/watch?v=example",
+                "cover_image": "https://example.com/2040-cover.jpg",
+                "images": [
+                    "https://example.com/2040-1.jpg",
+                    "https://example.com/2040-2.jpg"
+                ],
+                "writer": "Darren Aronofsky",
+                "rt_rating": 92
+            },
+            {
+                "id": "tt7679080",
+                "title": "The Sky Is Pink",
+                "year": 2019,
+                "rank": 2,
+                "rating": 8.1,
+                "genre": [
+                    "Documentary"
+                ],
+                "director": "Amit Masurkar",
+                "description": "Examines the impact of climate change on India's environment and communities.",
+                "trailer": "https://www.youtube.com/watch?v=example2",
+                "cover_image": "https://example.com/skyispink-cover.jpg",
+                "images": [
+                    "https://example.com/skyispink-1.jpg"
+                ],
+                "writer": "Rajiv Menon",
+                "rt_rating": 88
+            },
+            {
+                "id": "tt0479640",
+                "title": "An Inconvenient Truth",
+                "year": 2006,
+                "rank": 3,
+                "rating": 7.8,
+                "genre": [
+                    "Documentary"
+                ],
+                "director": "Davis Guggenheim",
+                "description": "Al Gore's presentation on climate change and its global effects.",
+                "trailer": "https://www.youtube.com/watch?v=example3",
+                "cover_image": "https://example.com/aikt-cover.jpg",
+                "images": [
+                    "https://example.com/aikt-1.jpg"
+                ],
+                "writer": "Davis Guggenheim",
+                "rt_rating": 85
+            },
+            {
+                "id": "tt10954012",
+                "title": "Ice on Fire",
+                "year": 2019,
+                "rank": 4,
+                "rating": 7.6,
+                "genre": [
+                    "Documentary"
+                ],
+                "director": "Leila Conners",
+                "description": "Investigates climate solutions focusing on carbon removal and renewable energy.",
+                "trailer": "https://www.youtube.com/watch?v=example4",
+                "cover_image": "https://example.com/iceonfire-cover.jpg",
+                "images": [
+                    "https://example.com/iceonfire-1.jpg"
+                ],
+                "writer": "Leila Conners",
+                "rt_rating": 80
+            },
+            {
+                "id": "tt10241326",
+                "title": "Before the Flood",
+                "year": 2016,
+                "rank": 5,
+                "rating": 7.9,
+                "genre": [
+                    "Documentary"
+                ],
+                "director": " Fisher Stevens",
+                "description": "Leonardo DiCaprio's journey exploring climate change impacts and solutions.",
+                "trailer": "https://www.youtube.com/watch?v=example5",
+                "cover_image": "https://example.com/beforetheflood-cover.jpg",
+                "images": [
+                    "https://example.com/beforetheflood-1.jpg"
+                ],
+                "writer": "Matthew Carnahan",
+                "rt_rating": 83
+            }
+        ]
+    }
+}

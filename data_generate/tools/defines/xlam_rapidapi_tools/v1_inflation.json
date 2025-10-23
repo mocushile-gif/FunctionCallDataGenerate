@@ -1,0 +1,14 @@
+{
+    "name": "v1_inflation",
+    "description": "This is a sub-function API for tool inflation_by_api_ninjas.\nTool description: Get current inflation data for the dozens of countries. See more info at https://api-ninjas.com/api/inflation.\nAPI description: Fetches current monthly and annual inflation percentages from the API Ninjas Inflation API endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "inflation indicator type. Can be either CPI (Consumer Price Index) or HICP (Harmonized Index of Consumer Prices). If not provided, the CPI will be used by default."
+            }
+        },
+        "required": []
+    }
+}

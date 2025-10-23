@@ -1,0 +1,59 @@
+{
+    "name": "traveling_salesman",
+    "description": "This is a sub-function API for tool mymappi.\nTool description: REST Location APIs such as Geocoding, Roads, Directions and Places.\nAPI description: It solves the Traveling Salesman Problem using a greedy heuristic (farthest-insertion algorithm) for 10 or more waypoints and uses brute force for less than 10 waypoints. The returned path does not have to be the fastest path. As TSP is NP-hard it only returns an approximation. Note that all input coordinates have to be connected for this service to work.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "coordinates": {
+                "type": "string",
+                "description": "The coordinates of the waypoints to visit, formatted as a string.",
+                "default": "40.427772,-3.714630;40.407348,-3.710520;40.461178,-3.676533;40.441933,-3.650275;40.434914,-3.697337;40.451737,-3.683682"
+            },
+            "apikey": {
+                "type": "string",
+                "description": "The API key for accessing the mymappi service.",
+                "default": "YOUR_API_KEY"
+            },
+            "profile": {
+                "type": "string",
+                "description": "The transportation profile to use (e.g., driving, walking, cycling).",
+                "default": "car"
+            },
+            "overview": {
+                "type": "string",
+                "description": "Specifies the level of detail in the returned route geometry. Default is 'simplified'.",
+                "default": "simplified"
+            },
+            "roundtrip": {
+                "type": "boolean",
+                "description": "Determines whether the route should be a roundtrip. Default is None.",
+                "default": false
+            },
+            "destination": {
+                "type": "string",
+                "description": "Specifies the destination waypoint. Default is 'any'.",
+                "default": "any"
+            },
+            "source": {
+                "type": "string",
+                "description": "Specifies the source waypoint. Default is 'any'.",
+                "default": "any"
+            },
+            "geometries": {
+                "type": "string",
+                "description": "The geometry format for the route. Default is 'polyline'.",
+                "default": "polyline"
+            },
+            "steps": {
+                "type": "boolean",
+                "description": "Whether or not to include step-by-step directions. Default is None.",
+                "default": true
+            }
+        },
+        "required": [
+            "coordinates",
+            "apikey",
+            "profile"
+        ]
+    }
+}

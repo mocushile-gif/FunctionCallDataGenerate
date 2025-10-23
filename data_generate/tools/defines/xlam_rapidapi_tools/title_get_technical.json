@@ -1,0 +1,17 @@
+{
+    "name": "title_get_technical",
+    "description": "This is a sub-function API for tool online_movie_database.\nTool description: This API helps to query for all information about films, actors, characters,etc... to create a movie/series/streaming content site/application\nAPI description: Fetches technical information for a movie or TV show using its tconst identifier and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tconst": {
+                "type": "string",
+                "description": "You need to extract the value started with 'tt' of id field returned from …/title/auto-complete or …/title/find endpoint. Ex : tt0944947",
+                "default": "tt0944947"
+            }
+        },
+        "required": [
+            "tconst"
+        ]
+    }
+}

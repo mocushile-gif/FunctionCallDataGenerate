@@ -1,0 +1,43 @@
+{
+    "name": "tema",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Triple Exponential Moving Average(TEMA) smooths out price fluctuations, making it more trend detection and more transparent without the lag.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "interval": {
+                "type": "string",
+                "description": "Interval between two consecutive points in the time series. Supports: `1min`, `5min`, `15min`, `30min`, `45min`, `1h`, `2h`, `4h`, `1day`, `1week`, `1month`.",
+                "default": "1min"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "Instrument symbol, can be any equity, index, ETF, forex, or cryptocurrency (e.g., `AAPL`, `EUR/USD`, `ETH/BTC`).",
+                "default": "AAPL"
+            },
+            "format": {
+                "type": "string",
+                "description": "Format of the returned data, either `csv` or `json`. Defaults to `json`.",
+                "default": "json"
+            },
+            "outputsize": {
+                "type": "number",
+                "description": "Default `30` when no date parameters are set, otherwise set to maximum",
+                "default": 30
+            },
+            "time_period": {
+                "type": "number",
+                "description": "Time period over which the TEMA is calculated. Default is `9`.",
+                "default": 9
+            },
+            "series_type": {
+                "type": "string",
+                "description": "Type of price data to analyze. Supports: `open`, `high`, `low`, `close`. Default is `close`.",
+                "default": "close"
+            }
+        },
+        "required": [
+            "interval",
+            "symbol"
+        ]
+    }
+}

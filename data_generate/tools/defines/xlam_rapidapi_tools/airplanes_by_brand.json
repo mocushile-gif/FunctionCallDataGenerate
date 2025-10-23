@@ -1,0 +1,17 @@
+{
+    "name": "airplanes_by_brand",
+    "description": "This is a sub-function API for tool airplanesdb.\nTool description: Get the basic specifications on all types of commercial airplanes.\nAPI description: Fetches all airplanes by a specified brand from the airplanes database.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "brand": {
+                "type": "string",
+                "description": "The brand of airplanes to fetch information for.",
+                "default": "Airbus"
+            }
+        },
+        "required": [
+            "brand"
+        ]
+    }
+}

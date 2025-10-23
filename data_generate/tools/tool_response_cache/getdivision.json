@@ -1,0 +1,12 @@
+{
+    "{'dividend': 256, 'divisor': 8}": {
+        "error": "",
+        "response": {
+            "result": 32
+        }
+    },
+    "{'dividend': 100, 'divisor': 5}": {
+        "error": "",
+        "response": "{'result': 20}"
+    }
+}

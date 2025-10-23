@@ -1,0 +1,23 @@
+{
+    "name": "getcodestructure",
+    "description": "This is a sub-function API for tool flow_study.\nTool description: search in flow block chain \nAPI description: Fetch the code structure of a smart contract given its name and address using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "contract_name": {
+                "type": "string",
+                "description": "The name of the smart contract.",
+                "default": "NWayUtilityCoin"
+            },
+            "contract_address": {
+                "type": "string",
+                "description": "The address of the smart contract.",
+                "default": "0x011b6f1425389550"
+            }
+        },
+        "required": [
+            "contract_name",
+            "contract_address"
+        ]
+    }
+}

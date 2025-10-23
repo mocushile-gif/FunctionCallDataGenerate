@@ -1,0 +1,17 @@
+{
+    "name": "getproductsku",
+    "description": "This is a sub-function API for tool price_tracker_south_africa.\nTool description: Get prices of products at a number of South African retailers by searching the barcodes, product ID's  / Product Sku's or product page URL's\nAPI description: Fetches price information for a product identified by its SKU from the RapidAPI price tracker service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "product_sku": {
+                "type": "string",
+                "description": "The SKU (Stock Keeping Unit) of the product to retrieve price information for.",
+                "default": "PLID12183283"
+            }
+        },
+        "required": [
+            "product_sku"
+        ]
+    }
+}

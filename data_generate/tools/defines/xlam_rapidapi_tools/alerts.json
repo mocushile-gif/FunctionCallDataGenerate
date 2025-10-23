@@ -1,0 +1,34 @@
+{
+    "name": "alerts",
+    "description": "This is a sub-function API for tool ai_weather_by_meteosource.\nTool description: Accurate hyper-local weather forecasts, powered by our cutting-edge machine learning (ML) models. Historical weather, current weather, weather statistics , and hour-by-hour forecast - all weather data updated in real-time!\nAPI description: **Severe weather alerts** for the USA, Europe, and Canada. **Define your location** using GPS coordinates or `place_id` from `Location` endpoints.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "place_id": {
+                "type": "string",
+                "description": "Identifier of a place. To obtain the `place_id` for the location you want, please use `Location endpoints`. **Alternatively, you can specify the location by parameters `lat` and `lon`.**"
+            },
+            "lat": {
+                "type": "string",
+                "description": "Latitude of the location, with defaults to '45.74846'. This can be in formats like 12N, 12.3N, -13.4. Ignored if place_id is provided.",
+                "default": "45.74846"
+            },
+            "lon": {
+                "type": "string",
+                "description": "Longitude of the location, with defaults to '4.84671'. This can be in formats like 12E, 12.3E, -13.4. Ignored if place_id is provided.",
+                "default": "4.84671"
+            },
+            "language": {
+                "type": "string",
+                "description": "The language of text summaries (variable names are never translated). Available languages are:\n\n- `en`: English\n- `es`: Spanish\n- `fr`: French\n- `de`: German\n- `pl`: Polish\n- `cs`: Czech\n",
+                "default": "en"
+            },
+            "timezone": {
+                "type": "string",
+                "description": "Timezone to be used for the date fields. If not specified, local timezone of the forecast location will be used. The format is according to the tzinfo database, so values like `Europe/Prague` or `UTC` can be used. Alternatively you may use the value `auto` in which case the local timezone of the location is used. The full list of valid timezone strings can be found [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List).\n",
+                "default": "auto"
+            }
+        },
+        "required": []
+    }
+}

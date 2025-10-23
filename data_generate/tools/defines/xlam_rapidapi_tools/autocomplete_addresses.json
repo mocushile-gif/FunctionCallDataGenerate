@@ -1,0 +1,17 @@
+{
+    "name": "autocomplete_addresses",
+    "description": "This is a sub-function API for tool autocomplete_usa.\nTool description: USA Address, City, Zip code - Zip4, Zip code Autocomplete\nAPI description: Fetches autocompleted addresses from the USA using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "type": "string",
+                "description": "The partial address input to autocomplete.",
+                "default": "48 sunrise dr"
+            }
+        },
+        "required": [
+            "address"
+        ]
+    }
+}

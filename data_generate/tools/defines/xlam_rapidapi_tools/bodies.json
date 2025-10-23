@@ -1,0 +1,73 @@
+{
+    "name": "bodies",
+    "description": "This is a sub-function API for tool car_api.\nTool description: Search vehicles sold in the United States by year, make, model, trim, engine, body, mileage, VIN decoder and more.\nAPI description: To include additional information about the returned body (such as year, make, model and trim) request with the query parameter as verbose=yes.\n\nFor complex queries you may use the json field to send an array of URL encoded JSON conditions, example:\n\n`[{\"field\": \"doors\", \"op\": \">=\", \"val\": 4}, {\"field\": \"type\", \"op\": \"in\", \"val\": [\"SUV\",\"Van\"]}]`\n\nSee /api/vehicle-attributes for a complete list of vehicle attributes.\n\nAllowed operators are: `>`, `<`, `>=`, `<=`, `in`, `not in`, `like`, `not like`, `is null`",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "make_model_trim_id": {
+                "type": "string",
+                "description": "ID representing the make, model, and trim combination."
+            },
+            "direction": {
+                "type": "string",
+                "description": "Sorting direction, either 'asc' or 'desc'. Default is 'asc'.",
+                "default": "asc"
+            },
+            "year": {
+                "type": "string",
+                "description": "Year of the vehicle."
+            },
+            "page": {
+                "type": "number",
+                "description": "Pagination parameter to specify the page of results."
+            },
+            "verbose": {
+                "type": "string",
+                "description": "Includes additional details like make, model, and trim when set to 'yes'. Default is 'yes'.",
+                "default": "yes"
+            },
+            "json": {
+                "type": "string",
+                "description": "JSON-encoded string for complex query conditions."
+            },
+            "make_id": {
+                "type": "string",
+                "description": "ID of the vehicle make."
+            },
+            "trim": {
+                "type": "string",
+                "description": "Specific trim of the vehicle."
+            },
+            "sort": {
+                "type": "string",
+                "description": "Field by which to sort the results. Default is 'id'.",
+                "default": "id"
+            },
+            "make_model_id": {
+                "type": "string",
+                "description": "ID representing the make and model combination."
+            },
+            "model": {
+                "type": "string",
+                "description": "Model of the vehicle."
+            },
+            "make": {
+                "type": "string",
+                "description": "Make of the vehicle."
+            },
+            "type": {
+                "type": "string",
+                "description": "Type of the vehicle, such as SUV, Van, etc."
+            },
+            "limit": {
+                "type": "number",
+                "description": "Limit on the number of results returned."
+            },
+            "doors": {
+                "type": "string",
+                "description": "Number of doors on the vehicle."
+            }
+        },
+        "required": []
+    }
+}

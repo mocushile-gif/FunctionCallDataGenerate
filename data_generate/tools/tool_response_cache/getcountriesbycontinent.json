@@ -1,0 +1,42 @@
+{
+    "{'continent': 'Europe', 'rank': -50}": {
+        "error": "",
+        "response": "BAD REQUEST. Unexpected value in \"rank\" query param"
+    },
+    "{'continent': 'Australia-Oceania'}": {
+        "error": "",
+        "response": "Not Found"
+    },
+    "{'continent': 'Asia', 'rank': -1}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Service Suspended</title>\n</head>\n<body>\nThis service has been suspended by its owner.\n</body>\n</html>\n"
+    },
+    "{'continent': 'Europe'}": {
+        "error": "",
+        "response": "[{'Rank': 9, 'CCA3': 'RUS', 'Country': 'Russia', 'Capital': 'Moscow', 'Continent': 'Europe', '2022 Population': 144713314, '2020 Population': 145617329, '2015 Population': 144668389, '2010 Population': 143242599, '2000 Population': 146844839, '1990 Population': 148005704, '1980 Population': 138257420, '1970 Population': 130093010, 'Area (km\u00b2)': 17098242, 'Density (per km\u00b2)': 8.4636, 'Growth Rate': 0.9973, 'World Population Percentage': 1.81}, {'Rank': 19, 'CCA3': 'DEU', 'Country': 'Germany', 'Capital': 'Berlin', 'Continent': 'Europe', '2022 Population': 83369843, '2020 Population': 83328988, '2015 Population': 82073226, '2010 Population': 81325090, '2000 Population': 81551677, '1990 Population': 79370196, '1980 Population': 77786703, '1970 Population': 78294583, 'Area (km\u00b2)': 357114, 'Density (per km\u00b2)': 233.4544, 'Growth Rate': 0.9995, 'World Population Percentage': 1.05}, {'Rank': 21, 'CCA3': 'GBR', 'Country': 'United Kingdom', 'Capital': 'London', 'Continent': 'Europe', '2022 Population': 67508936, '2020 Population': 67059474, '2015 Population': 65224364, '2010 Population': 62760039, '2000 Population': 58850043, '1990 Population': 57210442, '1980 Population': 56326328, '1970 Population': 55650166, 'Area (km\u00b2)': 242900, 'Density (per km\u00b2)': 277.9289, 'Growth Rate': 1.0034, 'World Population Percentage': 0.85}, {'Rank': 23, 'CCA3': 'FRA', 'Country': 'France', 'Capital': 'Paris', 'Continent': 'Europe', '2022 Population': 64626628, '2020 Population': 64480053, '2015 Population': 63809769, '2010 Population': 62444567, '2000 Population': 58665453, '1990 Population': 56412897, '1980 Population': 53713830, '1970 Population': 50523586, 'Area (km\u00b2)': 551695, 'Density (per km\u00b2)': 117.1419, 'Growth Rate': 1.0015, 'World Population Percentage': 0.81}, {'Rank': 25, 'CCA3': 'ITA', 'Country': 'Italy', 'Capital': 'Rome', 'Continent': 'Europe', '2022 Population': 59037474, '2020 Population': 59500579, '2015 Population': 60232906, '2010 Population': 59822450, '2000 Population': 56966397, '1990 Population': 56756561, '1980 Popula"
+    },
+    "{'continent': 'Asia', 'rank': -1.0}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Service Suspended</title>\n</head>\n<body>\nThis service has been suspended by its owner.\n</body>\n</html>\n"
+    },
+    "{'continent': 'Europe', 'rank': -1.0}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Service Suspended</title>\n</head>\n<body>\nThis service has been suspended by its owner.\n</body>\n</html>\n"
+    },
+    "{'continent': 'South America', 'rank': 1.0}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Service Suspended</title>\n</head>\n<body>\nThis service has been suspended by its owner.\n</body>\n</html>\n"
+    },
+    "{'continent': 'Africa', 'rank': -1.0}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Service Suspended</title>\n</head>\n<body>\nThis service has been suspended by its owner.\n</body>\n</html>\n"
+    },
+    "{'continent': 'Africa', 'rank': 1}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Service Suspended</title>\n</head>\n<body>\nThis service has been suspended by its owner.\n</body>\n</html>\n"
+    },
+    "{'continent': 'Africa', 'rank': -1}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Service Suspended</title>\n</head>\n<body>\nThis service has been suspended by its owner.\n</body>\n</html>\n"
+    }
+}

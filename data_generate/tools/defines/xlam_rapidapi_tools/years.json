@@ -1,0 +1,38 @@
+{
+    "name": "years",
+    "description": "This is a sub-function API for tool car_api.\nTool description: Search vehicles sold in the United States by year, make, model, trim, engine, body, mileage, VIN decoder and more.\nAPI description: For complex queries you may use the json field to send an array of URL encoded JSON conditions, example:\n\n`[{\"field\": \"make\", \"op\": \"in\", \"val\": [\"Scion\", \"Tesla\"]}]`\n\nAllowed operators are: `>`, `<`, `>=`, `<=`, `in`, `not in`, `like`, `not like`, `is null` and `not null`.\n\nAllowed search fields are: `year`, `make`, `model`, `trim`, `make_id`, and `make_model_id`.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "make_id": {
+                "type": "string",
+                "description": "The unique identifier for the make."
+            },
+            "make": {
+                "type": "string",
+                "description": "The name of the car make."
+            },
+            "year": {
+                "type": "string",
+                "description": "The model year of the car."
+            },
+            "json": {
+                "type": "string",
+                "description": "A JSON-encoded string containing additional query conditions."
+            },
+            "make_model_id": {
+                "type": "string",
+                "description": "The unique identifier for the make and model."
+            },
+            "model": {
+                "type": "string",
+                "description": "The model name of the car."
+            },
+            "trim": {
+                "type": "string",
+                "description": "The trim level of the car."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "games_by_platform_category_sorted",
+    "description": "This is a sub-function API for tool free_to_play_games_database.\nTool description: Free-to-play games database powered by FreeToGame.com!\nAPI description: Fetches and returns a list of games filtered by platform and category, and sorted based on a given parameter.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "The category to filter games by. Defaults to 'mmorpg'.",
+                "default": "mmorpg"
+            },
+            "platform": {
+                "type": "string",
+                "description": "The platform to filter games by. Defaults to 'browser'.",
+                "default": "browser"
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "Criterion to sort the games by. Defaults to 'release-date'.",
+                "default": "release-date"
+            }
+        },
+        "required": []
+    }
+}

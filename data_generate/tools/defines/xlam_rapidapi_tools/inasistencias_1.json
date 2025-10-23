@@ -1,0 +1,17 @@
+{
+    "name": "inasistencias_1",
+    "description": "This is a sub-function API for tool colegiosantaana.\nTool description: Colegio Santa Ana\nAPI description: Retrieves the attendance records for a specific student (ID: 1) from the Colegio Santa Ana API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "authorization": {
+                "type": "string",
+                "description": "The authorization token required for accessing the API.",
+                "default": "1234567890"
+            }
+        },
+        "required": [
+            "authorization"
+        ]
+    }
+}

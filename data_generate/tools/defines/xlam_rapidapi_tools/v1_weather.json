@@ -1,0 +1,35 @@
+{
+    "name": "v1_weather",
+    "description": "This is a sub-function API for tool weather_by_api_ninjas.\nTool description: Get the latest weather data for any region in the world. See more info at https://api-ninjas.com/api/weather.\nAPI description: Fetches weather information from the API Ninjas Weather API endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The country name."
+            },
+            "lon": {
+                "type": "string",
+                "description": "The longitude of the desired location. Must be supplied with the `lat` parameter."
+            },
+            "zip": {
+                "type": "number",
+                "description": "The 5-digit zip code (United States only)."
+            },
+            "state": {
+                "type": "string",
+                "description": "The US state (United States only)."
+            },
+            "city": {
+                "type": "string",
+                "description": "The city name. Defaults to 'Seattle'.",
+                "default": "Seattle"
+            },
+            "lat": {
+                "type": "number",
+                "description": "The latitude of the desired location. Must be supplied with the `lon` parameter."
+            }
+        },
+        "required": []
+    }
+}

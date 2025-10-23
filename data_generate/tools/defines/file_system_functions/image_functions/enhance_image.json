@@ -1,0 +1,46 @@
+{
+    "name": "enhance_image",
+    "description": "Enhance image with brightness, contrast, saturation, and sharpness adjustments. Supports fine-tuning image appearance for better visual quality.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the input image file"
+        },
+        "brightness": {
+          "type": "number",
+          "description": "Brightness adjustment factor (0.0-3.0). 1.0 means no change",
+          "default": 1.0,
+          "minimum": 0.0,
+          "maximum": 3.0
+        },
+        "contrast": {
+          "type": "number",
+          "description": "Contrast adjustment factor (0.0-3.0). 1.0 means no change",
+          "default": 1.0,
+          "minimum": 0.0,
+          "maximum": 3.0
+        },
+        "saturation": {
+          "type": "number",
+          "description": "Saturation adjustment factor (0.0-3.0). 1.0 means no change",
+          "default": 1.0,
+          "minimum": 0.0,
+          "maximum": 3.0
+        },
+        "sharpness": {
+          "type": "number",
+          "description": "Sharpness adjustment factor (0.0-3.0). 1.0 means no change",
+          "default": 1.0,
+          "minimum": 0.0,
+          "maximum": 3.0
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output image. If not provided, will create enhanced version with suffix"
+        }
+      },
+      "required": ["image_path"]
+    }
+  } 

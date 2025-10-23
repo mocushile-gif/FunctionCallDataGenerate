@@ -1,0 +1,32 @@
+{
+    "name": "youtube_search",
+    "description": "This is a sub-function API for tool youtube_v2.\nTool description: Youtube API for search, videos, channels, trending, recommendation\nAPI description: This endpoint will a specific number of videos for a specific keyword, note that the maximum is 40 videos per request",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The keyword to search for.",
+                "default": "bobby lee"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the search results. Defaults to 'en'.",
+                "default": "en"
+            },
+            "order_by": {
+                "type": "string",
+                "description": "Possible values: \\\\\\\\\\\\\\\"last_hour\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"today\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"this_week\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"this_month\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"this_year\\\\\\\\\\\\\\\"",
+                "default": "this_month"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country code for the search results. Defaults to 'us'.",
+                "default": "us"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

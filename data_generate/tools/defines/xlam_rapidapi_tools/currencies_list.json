@@ -1,0 +1,20 @@
+{
+    "name": "currencies_list",
+    "description": "This is a sub-function API for tool investing_cryptocurrency_markets.\nTool description: These APIs provide data of all cryptocurrencies, markets, ideal for tracking prices and exchange rates.\nAPI description: Fetch a list of all available currencies using the investing-cryptocurrency-markets API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "time_utc_offset": {
+                "type": "number",
+                "description": "The UTC offset value in seconds. For example, UTC+8 is represented as 28800 (8 * 60 * 60). Default is 28800.",
+                "default": 28800.0
+            },
+            "lang_id": {
+                "type": "number",
+                "description": "The value of all&#95;langs/lang&#95;ID returned in .../get-meta-data endpoint",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

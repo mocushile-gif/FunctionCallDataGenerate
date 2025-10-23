@@ -1,0 +1,23 @@
+{
+    "name": "hungary_songs",
+    "description": "This is a sub-function API for tool billboard_api.\nTool description: Providing the Billboard chart rankings and information on titles, artists, lyrics, images, and more. \nAPI description: Fetches the Hungary Songs chart information from the Billboard API for the specified date and range.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "range": {
+                "type": "string",
+                "description": "The range of the songs chart to fetch.",
+                "default": "1-10"
+            },
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve the songs chart, in the format YYYY-MM-DD.",
+                "default": "2022-05-07"
+            }
+        },
+        "required": [
+            "range",
+            "date"
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "{'side': 'offense', 'year': 2024}": {
+        "error": "",
+        "response": [
+            {
+                "team": "Kansas City Chiefs",
+                "year": 2024,
+                "side": "offense",
+                "receiving_stats": {
+                    "receptions": 312,
+                    "yards": 4850,
+                    "touchdowns": 42,
+                    "yards_per_reception": 15.56,
+                    "top_receiver": "Tyreek Hill"
+                }
+            },
+            {
+                "team": "Tampa Bay Buccaneers",
+                "year": 2024,
+                "side": "offense",
+                "receiving_stats": {
+                    "receptions": 298,
+                    "yards": 4420,
+                    "touchdowns": 38,
+                    "yards_per_reception": 14.83,
+                    "top_receiver": "Mike Evans"
+                }
+            },
+            {
+                "team": "Dallas Cowboys",
+                "year": 2024,
+                "side": "offense",
+                "receiving_stats": {
+                    "receptions": 305,
+                    "yards": 4670,
+                    "touchdowns": 35,
+                    "yards_per_reception": 15.31,
+                    "top_receiver": "CeeDee Lamb"
+                }
+            }
+        ]
+    },
+    "{'side': 'offense', 'year': 2022}": {
+        "error": "",
+        "response": "{'_embedded': {'teamReceivingStatsList': [{'name': 'Buccaneers', 'receives': 499, 'touchdowns': 26, 'yards': 4746, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2022'}}}, {'name': 'Chargers', 'receives': 485, 'touchdowns': 26, 'yards': 4791, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2022'}}}, {'name': 'Vikings', 'receives': 448, 'touchdowns': 30, 'yards': 4818, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2022'}}}, {'name': 'Chiefs', 'receives': 435, 'touchdowns': 41, 'yards': 5250, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2022'}}}, {'name': 'Cardinals', 'receives': 433, 'touchdowns': 17, 'yards': 3966, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2022'}}}, {'name': 'Bengals', 'receives': 418, 'touchdowns': 35, 'yards': 4520, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2022'}}}, {'name': 'Seahawks', 'receives': 399, 'touchdowns': 30, 'yards': 4282, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2022'}}}, {'name': 'Colts', 'receives': 398, 'touchdowns': 17, 'yards': 3854, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2022'}}}, {'name': 'Jaguars', 'receives': 394, 'touchdowns': 25, 'yards': 4148, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96j"
+    },
+    "{'side': 'offense', 'year': 2021}": {
+        "error": "",
+        "response": "{'_embedded': {'teamReceivingStatsList': [{'name': 'Buccaneers', 'receives': 492, 'touchdowns': 43, 'yards': 5383, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2021'}}}, {'name': 'Chiefs', 'receives': 448, 'touchdowns': 37, 'yards': 4937, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2021'}}}, {'name': 'Cowboys', 'receives': 444, 'touchdowns': 40, 'yards': 4963, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2021'}}}, {'name': 'Chargers', 'receives': 443, 'touchdowns': 38, 'yards': 5014, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2021'}}}, {'name': 'Raiders', 'receives': 429, 'touchdowns': 23, 'yards': 4808, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2021'}}}, {'name': 'Steelers', 'receives': 425, 'touchdowns': 23, 'yards': 4017, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2021'}}}, {'name': 'Bills', 'receives': 415, 'touchdowns': 36, 'yards': 4450, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2021'}}}, {'name': 'Cardinals', 'receives': 415, 'touchdowns': 27, 'yards': 4619, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs.us-east-1.elasticbeanstalk.com/v1/nfl-stats/teams/passing-stats/offense/2021'}}}, {'name': 'Rams', 'receives': 406, 'touchdowns': 41, 'yards': 4893, '_links': {'receiving-stats': {'href': 'http://nflteamstatsapi-env.eba-ri96jifs"
+    }
+}

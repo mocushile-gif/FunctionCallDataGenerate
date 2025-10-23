@@ -1,0 +1,16 @@
+{
+    "name": "alerts_active_region_region",
+    "description": "This is a sub-function API for tool national_weather_service.\nTool description: National Weather Service API (api.weather.gov) NOAA (National Oceanic and Atmospheric Administration) provides national weather data as well as past data.\nAPI description: Fetches a list of active weather alerts for a specific region from the National Weather Service API in CAP-ATOM format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "region": {
+                "type": "string",
+                "description": "A valid region code for which to retrieve active alerts. Refer to the API documentation for a list of valid region codes."
+            }
+        },
+        "required": [
+            "region"
+        ]
+    }
+}

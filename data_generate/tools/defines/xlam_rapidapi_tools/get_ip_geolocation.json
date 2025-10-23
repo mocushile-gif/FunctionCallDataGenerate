@@ -1,0 +1,15 @@
+{
+    "name": "get_ip_geolocation",
+    "description": "This is a sub-function API for tool ip_geolocation_v3.\nTool description: IP Geolocation API allows developers to get geolocation information for a given IP address. Data points returned by this GeoIP API include city, state, province, country, continent, latitude, longitude, region, timezone, current time, organization, ISP, local currency, and country flags. This IP Location API can be used for content personalization, geotargeting, geofencing, ad targeting, digital rights management, form auto-completion, etc. With the free plan, you can make 2,000 IP lookup API...\nAPI description: This endpoint returns geolocation and other useful points from an IP Address. If IP address is provided as query parameter, geolocation is performed on that IP address. If IP address is left empty, geolocation data of client IP is returned.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IP address to get geolocation information for. Defaults to '206.71.50.230'.",
+                "default": "206.71.50.230"
+            }
+        },
+        "required": []
+    }
+}

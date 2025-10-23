@@ -1,0 +1,14 @@
+{
+    "name": "searchplayer",
+    "description": "This is a sub-function API for tool player_data.\nTool description: SSCB players\nAPI description: Searches for player data using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "player_input": {
+                "type": "string",
+                "description": "The name or keyword to search for a player. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

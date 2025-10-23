@@ -1,0 +1,66 @@
+{
+    "{'sort': 'popular'}": {
+        "error": "",
+        "response": {
+            "success": false,
+            "data": "sort value is wrong"
+        }
+    },
+    "{'sort': 'top', 'cursor': 'day'}": {
+        "error": "",
+        "response": {
+            "success": false,
+            "data": "sort value is wrong"
+        }
+    },
+    "{'sort': 'top'}": {
+        "error": "",
+        "response": {
+            "success": false,
+            "data": "sort value is wrong"
+        }
+    },
+    "{'sort': 'rising'}": {
+        "error": "",
+        "response": {
+            "success": false,
+            "data": "sort value is wrong"
+        }
+    },
+    "{'sort': 'top_posts'}": {
+        "error": "",
+        "response": {
+            "success": false,
+            "data": "sort value is wrong"
+        }
+    },
+    "{'sort': 'top_posts by_subreddit'}": {
+        "error": "",
+        "response": {
+            "success": false,
+            "data": "sort value is wrong"
+        }
+    },
+    "{'sort': 'top_posts_by_subreddit'}": {
+        "error": "",
+        "response": {
+            "success": false,
+            "data": "sort value is wrong"
+        }
+    },
+    "{'sort': 'top', 'cursor': ''}": {
+        "error": "",
+        "response": {
+            "success": false,
+            "data": "sort value is wrong"
+        }
+    },
+    "{'sort': 'hot'}": {
+        "error": "",
+        "response": "{'success': True, 'data': {'cursor': 't3_14r3szk', 'posts': [{'id': 't3_14r1aau', 'numComments': 308, 'created': 1688535204000, 'score': 13378, 'distinguishType': None, 'isLocked': False, 'isStickied': False, 'thumbnail': {'url': 'https://b.thumbs.redditmedia.com/CerYMGIQMEYJdfpqYryJfVZp_ie7pNh7Rif-7DXmcQE.jpg', 'width': 140, 'height': 140}, 'title': 'Sharp and very decent human', 'author': 'TenselyDazzling', 'authorId': 't2_vk3ytdy4', 'authorIsBlocked': False, 'domain': 'v.redd.it', 'postId': 't3_14r1aau', 'upvoteRatio': 0.97, 'numDuplicates': None, 'discussionType': None, 'viewCount': 0, 'goldCount': 0, 'isArchived': False, 'contestMode': False, 'gildings': None, 'allAwardings': [{'awardType': 'global', 'awardSubType': 'GLOBAL', 'coinPrice': 20000, 'coinReward': 2500, 'daysOfDripExtension': None, 'daysOfPremium': 91, 'description': 'Latin for distinguished, this award shimmers like silver and is stronger than steel. It\u2019s for those who deserve outsized recognition. Gives 2,500 Reddit Coins and three months of r/lounge access and ad-free browsing.', 'giverCoinReward': None, 'iconUrl': 'https://www.redditstatic.com/gold/awards/icon/Mithril_512.png', 'iconWidth': 512, 'iconHeight': 512, 'staticIconUrl': 'https://i.redd.it/award_images/t5_q0gj4/rtiakgvwpx351_ArgentiumStatic.png', 'staticIconWidth': 512, 'staticIconHeight': 512, 'id': 'award_4ca5a4e6-8873-4ac5-99b9-71b1d5161a91', 'isEnabled': True, 'isNew': False, 'name': 'Argentium', 'pennyDonate': None, 'pennyPrice': 0, 'resizedIcons': [{'url': 'https://www.redditstatic.com/gold/awards/icon/Mithril_16.png', 'width': 16, 'height': 16}, {'url': 'https://www.redditstatic.com/gold/awards/icon/Mithril_32.png', 'width': 32, 'height': 32}, {'url': 'https://www.redditstatic.com/gold/awards/icon/Mithril_48.png', 'width': 48, 'height': 48}, {'url': 'https://www.redditstatic.com/gold/awards/icon/Mithril_64.png', 'width': 64, 'height': 64}, {'url': 'https://www.redditstatic.com/gold/awards/icon/Mithril_128.png', 'width': 128, 'height': 128}], 'resizedStaticIcons': [{'url': 'ht"
+    },
+    "{'sort': 'new'}": {
+        "error": "",
+        "response": "{'success': True, 'data': {'cursor': 't3_14qx4i2', 'posts': [{'id': 't3_14qx4l0', 'numComments': 0, 'created': 1688521910000, 'score': 0, 'distinguishType': None, 'isLocked': False, 'isStickied': False, 'thumbnail': {'url': 'self', 'width': None, 'height': None}, 'title': 'What other blur songs sound like st. Charles square?', 'author': 'shadowpapi9890', 'authorId': 't2_5hgo4wh8', 'authorIsBlocked': False, 'domain': 'self.blur', 'postId': 't3_14qx4l0', 'upvoteRatio': 1.0, 'numDuplicates': None, 'discussionType': None, 'viewCount': 0, 'goldCount': 0, 'isArchived': False, 'contestMode': False, 'gildings': None, 'postCategories': None, 'suggestedSort': None, 'belongsTo': {'id': 't5_2rsxb', 'type': 'subreddit'}, 'flair': [], 'hidden': False, 'saved': False, 'isGildable': False, 'isMediaOnly': False, 'isSponsored': False, 'isNSFW': False, 'isMeta': False, 'isSpoiler': False, 'isBlank': False, 'sendReplies': True, 'voteState': 0, 'permalink': 'https://www.reddit.com/r/blur/comments/14qx4l0/what_other_blur_songs_sound_like_st_charles_square/', 'events': [], 'eventsOnRender': [], 'callToAction': None, 'domainOverride': None, 'impressionId': None, 'isSurveyAd': None, 'impressionIdStr': None, 'isCreatedFromAdsUi': False, 'adSupplementaryText': None, 'adPromotedUserPostIds': [], 'subcaption': None, 'media': {'obfuscated': None, 'type': 'rtjson', 'richtextContent': {'document': [{'c': [{'e': 'text', 't': 'Im currently obsessed and want more of them like this.'}], 'e': 'par'}]}, 'mediaMetadata': None, 'rteMode': 'richtext'}, 'crosspostRootId': None, 'crosspostParentId': None, 'numCrossposts': 0, 'isCrosspostable': False, 'liveCommentsWebsocket': 'wss://ws-0c2fab4c99e41a707.wss.redditmedia.com/link/14qx4l0?m=AQAAQR6mZLc9Y6qZbaPASPNGzrvAAajiWR3D3CTPELefG77KZHkN', 'source': None, 'isOriginalContent': False, 'contentCategories': None, 'isScoreHidden': True}, {'id': 't3_14qx4kz', 'numComments': 0, 'created': 1688521910000, 'score': 0, 'distinguishType': None, 'isLocked': False, 'isStickied': False, 'thumbnail': {'url': 'https://b."
+    }
+}

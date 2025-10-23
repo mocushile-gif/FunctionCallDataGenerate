@@ -1,0 +1,34 @@
+{
+    "{'performanceid': '0P0000OQN8'}": {
+        "error": "",
+        "response": "{'Collapsed': {'rows': [{'label': 'Price/Sales', 'salDataId': 'price.sales.label', 'datum': ['9.6434', '8.0332', '4.9809', '4.7027', '3.2209', '2.9983', '25.4896', '25.6311', '5.6754', '9.0152', '8.0808', '8.7341', '2.9416'], 'subLevel': ''}, {'label': 'Price/Earnings', 'salDataId': 'price.earnings.label', 'datum': [None, None, None, None, None, None, '1346.7036', '343.1103', '38.0577', '80.1548', '61.9944', '95.3276', '26.617'], 'subLevel': ''}, {'label': 'Price/Cash Flow', 'salDataId': 'price.cash.flow.label', 'datum': ['119.7936', '3037.3323', '64.5732', '96.9901', '55.4889', '28.2095', '138.7549', '133.0342', '25.1512', '49.6967', '56.3373', '53.2483', '18.2315'], 'subLevel': ''}, {'label': 'Price/Book', 'salDataId': 'price.book.label', 'datum': ['29.1022', '23.8979', '11.9441', '11.1031', '12.6643', '12.4668', '41.7237', '39.2196', '9.7614', '14.7742', '10.6075', '16.9577', '4.4773'], 'subLevel': ''}], 'columnDefs': ['Calendar', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', 'Current', '5-Yr', 'Index'], 'columnDefs_labels': ['tabular.data.label.column.year', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', 'valuation.headers.current', 'valuation.headers.fiveyear', 'valuation.headers.index'], 'userType': None, 'footer': {'asOfLabel': 'As of', 'asOfDate': '2024-10-18T00:00:00.000', 'indexLabel': 'Index:', 'indexName': 'Morningstar US Market TR USD', 'enterpriseValueCurrency': 'USD'}}, 'Expanded': {'rows': [{'label': 'Price/Forward Earnings', 'salDataId': 'price.forward.earnings.label', 'datum': [None, None, '385.027', None, '53.449', '41.7016', '138.6385', '98.5343', '24.248', '71.0349', '72.6226', '76.4708', None], 'subLevel': ''}, {'label': 'PEG Ratio', 'salDataId': 'peg.ratio.label', 'datum': [None, None, None, None, None, None, None, '0.7131', '0.1776', '0.5014', '0.8032', '2.0306', None], 'subLevel': ''}, {'label': 'Earnings Yield %', 'salDataId': 'earnings.yield.label', 'datum': ['-0.73', '-2.22', '-3', '-2.74', '-3.18', '-1.12', '0.07', '0."
+    },
+    "{'performanceid': 'MSFT'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'performanceid': '12345'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'performanceid': '67890'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'performanceid': '24680'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'performanceid': 'perf_987654'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'performanceid': 'perf_543210'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'performanceid': 'perf_135792'}": {
+        "error": "",
+        "response": ""
+    }
+}

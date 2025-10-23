@@ -1,0 +1,20 @@
+{
+    "name": "topic_topic",
+    "description": "This is a sub-function API for tool uncovered_treasure.\nTool description: The Uncovered Treasure API has more than 25,000 revealed truths from every Book and chapter in the Bible as recorded by Phil Largent over the last 25 years.\nAPI description: Fetches entries from a specific topic using the Uncovered Treasure API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "topic": {
+                "type": "string",
+                "description": "The topic for which to fetch entries."
+            },
+            "callback": {
+                "type": "string",
+                "description": "The optional JSONP callback function name."
+            }
+        },
+        "required": [
+            "topic"
+        ]
+    }
+}

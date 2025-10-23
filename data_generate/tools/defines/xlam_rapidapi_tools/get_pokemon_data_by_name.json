@@ -1,0 +1,17 @@
+{
+    "name": "get_pokemon_data_by_name",
+    "description": "This is a sub-function API for tool pokemon_unite_pokemons.\nTool description: Pokemon Unite\nAPI description: Fetches data for a specified Pokemon using its name from the Pokemon Unite API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the Pokemon for which data is to be fetched.",
+                "default": "Azumarill"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

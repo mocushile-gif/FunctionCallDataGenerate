@@ -1,0 +1,32 @@
+{
+    "name": "get_session_messages",
+    "description": "This is a sub-function API for tool optitalk.\nTool description: Create custom highly advanced general AI chatbots and characters with distinct personalities, and knowledgebase. Engage with a vast library of user-generated characters.\n\nhttp://optitalk.net/\n\n## Key Features\n- **Personalized chatbots and characters**: Craft unique and engaging characters with distinct personalities, backstories, and interests to bring your stories, games, or applications to life.\n- **Explore user-generated characters**: Access a vast library of user-created chatbots and char...\nAPI description: Retrieve the message history for a specific character within a given session.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "character_id": {
+                "type": "string",
+                "description": "Unique identifier for the character whose message history is being retrieved.",
+                "default": "938545c6-ac0e-423b-93ba-39159fbfb866"
+            },
+            "session_id": {
+                "type": "string",
+                "description": "Identifier for the session. Defaults to 'e5f6g7h8'.",
+                "default": "e5f6g7h8"
+            },
+            "page": {
+                "type": "string",
+                "description": "Page number for pagination of the message history. Defaults to '1'.",
+                "default": "1"
+            },
+            "page_size": {
+                "type": "string",
+                "description": "Number of messages per page for pagination. Defaults to '40'.",
+                "default": "40"
+            }
+        },
+        "required": [
+            "character_id"
+        ]
+    }
+}

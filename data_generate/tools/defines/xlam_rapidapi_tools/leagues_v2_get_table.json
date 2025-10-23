@@ -1,0 +1,29 @@
+{
+    "name": "leagues_v2_get_table",
+    "description": "This is a sub-function API for tool livescore_v2.\nTool description: This API helps to query for football, cricket, basketball, tennis, hockey matches, leagues, news, etc... to create a sporting site/application such as livescore.com\nAPI description: Get table league by category (football, cricket, basketball, tennis, hockey) and competition\n* Base for Img field is https://lsm-static-prod.livescore.com/medium . Ex : https://lsm-static-prod.livescore.com/medium/enet/9906.png",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ccd": {
+                "type": "string",
+                "description": "The Ccd field value obtained from the .../leagues/v2/list endpoint.",
+                "default": "england"
+            },
+            "category": {
+                "type": "string",
+                "description": "The category of the sport. One of the following: 'soccer', 'cricket', 'basketball', 'tennis', 'hockey'.",
+                "default": "soccer"
+            },
+            "scd": {
+                "type": "string",
+                "description": "The Scd field value obtained from the .../leagues/v2/list endpoint.",
+                "default": "premier-league"
+            }
+        },
+        "required": [
+            "ccd",
+            "category",
+            "scd"
+        ]
+    }
+}

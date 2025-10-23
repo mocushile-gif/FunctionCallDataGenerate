@@ -1,0 +1,15 @@
+{
+    "name": "format",
+    "description": "This is a sub-function API for tool ip_geo_location_and_ip_reputation.\nTool description: This API will provide geo location data such as: country, Region, City, Latitude, Longitude, Time Zone, Zip Code, Flag and much more...Also provides: IP Blacklist, Currencies, Languages, TLD, Host,  and more...\nAPI description: Retrieve and return data in the specified format from the IP Geo Location and IP Reputation API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "format": {
+                "type": "string",
+                "description": "The format to display data. Can be either \"json\" or \"xml\". Defaults to \"json\".",
+                "default": "json"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "scraper",
+    "description": "This is a sub-function API for tool aliexpress_product.\nTool description: AliExpress Product API is an unofficial API to extract JSON product data from aliexpress.com\nAPI description: Fetches product data from the AliExpress API using the given product ID and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "productid": {
+                "type": "string",
+                "description": "The ID of the product to scrape from AliExpress.",
+                "default": "32984931216"
+            }
+        },
+        "required": [
+            "productid"
+        ]
+    }
+}

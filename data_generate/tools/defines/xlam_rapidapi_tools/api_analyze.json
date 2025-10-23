@@ -1,0 +1,17 @@
+{
+    "name": "api_analyze",
+    "description": "This is a sub-function API for tool tiktok_private_api.\nTool description: Get and analyze TikTok users and videos data.\nAPI description: Analyzes user data on TikTok, including engagement, hashtags, mentions, and recent videos.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sec_user_id": {
+                "type": "string",
+                "description": "The unique security user ID of the TikTok user to analyze.",
+                "default": "MS4wLjABAAAA-VASjiXTh7wDDyXvjk10VFhMWUAoxr8bgfO1kAL1-9s"
+            }
+        },
+        "required": [
+            "sec_user_id"
+        ]
+    }
+}

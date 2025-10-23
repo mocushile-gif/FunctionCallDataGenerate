@@ -1,0 +1,19 @@
+{
+    "name": "standardize_data",
+    "description": "Standardizes a list of numbers to have a mean of 0 and standard deviation of 1.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "data": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "A list of numerical values to be standardized."
+            }
+        },
+        "required": [
+            "data"
+        ]
+    }
+}

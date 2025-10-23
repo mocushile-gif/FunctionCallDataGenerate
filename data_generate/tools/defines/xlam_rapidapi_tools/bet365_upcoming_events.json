@@ -1,0 +1,28 @@
+{
+    "name": "bet365_upcoming_events",
+    "description": "This is a sub-function API for tool betsapi.\nTool description: bet365 events/scores/stats/odds\nAPI description: Retrieves upcoming sports events from Bet365 based on the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sport_id": {
+                "type": "number",
+                "description": "The ID of the sport to get upcoming events for."
+            },
+            "day": {
+                "type": "number",
+                "description": "The specific day to get events for. Defaults to None."
+            },
+            "league_id": {
+                "type": "number",
+                "description": "The ID of the league to filter events. Defaults to None."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for pagination. Defaults to None."
+            }
+        },
+        "required": [
+            "sport_id"
+        ]
+    }
+}

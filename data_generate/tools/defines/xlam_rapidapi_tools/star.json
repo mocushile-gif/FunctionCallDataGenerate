@@ -1,0 +1,17 @@
+{
+    "name": "star",
+    "description": "This is a sub-function API for tool stars_api.\nTool description: API to serve information about stars and planets scraped from wikipedia. Get to know over 200 stars and surrounding planets, in just a few lines of code.\nAPI description: Fetches full information about a star given its ID from the Stars API using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the star to fetch information about.",
+                "default": "4"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

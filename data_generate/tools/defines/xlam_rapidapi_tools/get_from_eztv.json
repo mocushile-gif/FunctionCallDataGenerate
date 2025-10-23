@@ -1,0 +1,17 @@
+{
+    "name": "get_from_eztv",
+    "description": "This is a sub-function API for tool torrent_search.\nTool description: This script is a JavaScript code that uses the @dil5han/torrent-api module to create a server that can search multiple torrent websites and return the results to the client in JSON format.\nAPI description: Fetches torrent search results from EZTV using the provided search topic.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "searchtopic": {
+                "type": "string",
+                "description": "The topic to search for on EZTV.",
+                "default": "cars"
+            }
+        },
+        "required": [
+            "searchtopic"
+        ]
+    }
+}

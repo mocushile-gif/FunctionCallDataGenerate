@@ -1,0 +1,17 @@
+{
+    "name": "search_exact_phrase_api",
+    "description": "This is a sub-function API for tool complete_study_bible.\nTool description: The most COMPLETE Bible study API available! Strongs, Locations, Dictionaries, and more! \nAPI description: Searches the King James Version (KJV) of the Bible for the exact phrase supplied and returns the result.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phrase": {
+                "type": "string",
+                "description": "The exact phrase to search for in the KJV Bible.",
+                "default": "In the beginning"
+            }
+        },
+        "required": [
+            "phrase"
+        ]
+    }
+}

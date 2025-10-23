@@ -1,0 +1,22 @@
+{
+    "name": "ideas_get_comments",
+    "description": "This is a sub-function API for tool trading_view.\nTool description: This API helps you to query for data which is obtained by professional providers who have direct and extensive access to stock quotes, futures, popular indices, Forex, Bitcoin and CFDs to create a financial community site/application, such as : tradingview.com\nAPI description: Fetches comments related to an idea post from the TradingView API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "uuid": {
+                "type": "string",
+                "description": "The unique identifier of the idea post obtained from the `.../ideas/list` endpoint.",
+                "default": "CRK6Iv51"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the comments. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "uuid"
+        ]
+    }
+}

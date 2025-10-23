@@ -1,0 +1,17 @@
+{
+    "name": "search_books",
+    "description": "This is a sub-function API for tool project_gutenberg_api.\nTool description: This is a stable and reliable unofficial API for Project Gutenberg, allowing you to download ebooks as well as get information about a certain book (title, author, language, copyrights and publish date).\nAPI description: Search for books on Project Gutenberg using a given search term and return the search results as JSON or text.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "term": {
+                "type": "string",
+                "description": "The search term to use for finding books.",
+                "default": "shakespeare"
+            }
+        },
+        "required": [
+            "term"
+        ]
+    }
+}

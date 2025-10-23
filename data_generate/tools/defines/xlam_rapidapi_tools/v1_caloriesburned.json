@@ -1,0 +1,25 @@
+{
+    "name": "v1_caloriesburned",
+    "description": "This is a sub-function API for tool calories_burned_by_api_ninjas.\nTool description: Calories burned calculator for hundreds of different sports/activities. See more info at https://api-ninjas.com/api/caloriesburned.\nAPI description: Fetches the number of calories burned for a given activity using the API Ninjas Calories Burned API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "activity": {
+                "type": "string",
+                "description": "The name of the activity. Partial values are allowed (e.g., 'ski' will match both 'water skiing' and 'downhill skiing').",
+                "default": "skiing"
+            },
+            "weight": {
+                "type": "number",
+                "description": "weight of the user performing the activity in pounds. Must be between 50 and 500. Default value is 160."
+            },
+            "duration": {
+                "type": "string",
+                "description": "how long the activity was performed in minutes. Must be 1 or greater. Default value is 60 (1 hour)."
+            }
+        },
+        "required": [
+            "activity"
+        ]
+    }
+}

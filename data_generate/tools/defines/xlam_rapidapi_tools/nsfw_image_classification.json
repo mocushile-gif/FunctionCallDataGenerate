@@ -1,0 +1,17 @@
+{
+    "name": "nsfw_image_classification",
+    "description": "This is a sub-function API for tool nsfw_image_classification_v2.\nTool description: Use our Content Moderation API to flag possible inappropriate/ nude / adult content in your images.\nAPI description: Classifies whether the image content at the given URL is inappropriate or not using the NSFW Image Classification API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "link": {
+                "type": "string",
+                "description": "The URL of the image to be analyzed.",
+                "default": "https://cdn77-pic.xvideos-cdn.com/videos/thumbs169poster/c5/d0/e4/c5d0e4cd6124e1d2f5b3add1f582ca13/c5d0e4cd6124e1d2f5b3add1f582ca13.30.jpg"
+            }
+        },
+        "required": [
+            "link"
+        ]
+    }
+}

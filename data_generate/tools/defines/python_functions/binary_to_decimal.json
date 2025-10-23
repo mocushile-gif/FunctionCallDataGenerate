@@ -1,0 +1,16 @@
+{
+    "name": "binary_to_decimal",
+    "description": "Converts a binary number (as a string) to its decimal equivalent.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "binary": {
+                "type": "string",
+                "description": "The binary number (as a string)."
+            }
+        },
+        "required":[
+            "binary"
+        ]
+    }
+}

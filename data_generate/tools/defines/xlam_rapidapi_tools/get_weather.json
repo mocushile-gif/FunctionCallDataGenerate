@@ -1,0 +1,33 @@
+{
+    "name": "get_weather",
+    "description": "This is a sub-function API for tool weather_with_ai.\nTool description: Global weather forecast powered by Artificial Intelligence.\nAPI description: Fetch weather information including current, hourly, and daily data for a specific location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "version": {
+                "type": "string",
+                "description": "The version of the API to be used.",
+                "default": "v1"
+            },
+            "lng": {
+                "type": "number",
+                "description": "Geographical coordinate of the location (longitude).",
+                "default": -73.999257
+            },
+            "lat": {
+                "type": "number",
+                "description": "Geographical coordinate of the location (latitude).",
+                "default": 40.723558
+            },
+            "unit": {
+                "type": "string",
+                "description": "Unit of temperature ('F' for Fahrenheit, 'C' for Celsius, or default 'K' for Kelvin). Defaults to None."
+            }
+        },
+        "required": [
+            "version",
+            "lng",
+            "lat"
+        ]
+    }
+}

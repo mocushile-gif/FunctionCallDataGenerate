@@ -1,0 +1,23 @@
+{
+    "name": "get_username_valorant",
+    "description": "This is a sub-function API for tool id_game_checker.\nTool description: Validate or GET username with ID. Available for Free Fire Global, Mobile Legends, PUBGM Global, Higgs Domino, AoV, Jawaker etc.\nAPI description: Retrieves the Valorant username details using the provided Riot ID and Tag by querying the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tag": {
+                "type": "string",
+                "description": "The tag associated with the Valorant username.",
+                "default": "123"
+            },
+            "riot_id": {
+                "type": "string",
+                "description": "The Riot ID of the Valorant username.",
+                "default": "ucup"
+            }
+        },
+        "required": [
+            "tag",
+            "riot_id"
+        ]
+    }
+}

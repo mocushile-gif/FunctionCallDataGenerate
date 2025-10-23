@@ -1,0 +1,16 @@
+{
+    "name": "validate_email_address",
+    "description": "This is a sub-function API for tool mailboxlayer.\nTool description: Simple and powerful email verification JSON API using SMTP, typo checks, syntax validation, and free and disposable provider filtering.\nAPI description: Validate if an email address is deliverable and working using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to be validated."
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

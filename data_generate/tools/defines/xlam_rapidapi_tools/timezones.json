@@ -1,0 +1,48 @@
+{
+    "name": "timezones",
+    "description": "This is a sub-function API for tool referential.\nTool description: The fastest API to access countries, states, cities, continents, dial and zip codes in up to 20 languages. A collection of data APIs to support forms, signups, search and lookup. Our endpoints are optimized for speed and size. Our data is regularly maintained and comes from International Standardization bodies, the United Nations, government surveys and GIS datasets. We do not scrape WikiPedia etc\nAPI description: Fetch a list of the world's time zones with various filtering options.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "offset": {
+                "type": "string",
+                "description": "Filter on non-daylight savings offset in hours."
+            },
+            "name": {
+                "type": "string",
+                "description": "Filter as \"contains\" on timezone name in the chosen language."
+            },
+            "code": {
+                "type": "string",
+                "description": "Filter on 3-letter non-daylight savings timezone code (not unique)."
+            },
+            "timezone": {
+                "type": "string",
+                "description": "Filter on timezone name in English."
+            },
+            "daylights_offset": {
+                "type": "string",
+                "description": "Filter on daylight savings offset in hours."
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language selection ISO 639-2 letter code. Overrides Accept-Language header. Defaults to browser value. Default: en",
+                "default": "de"
+            },
+            "daylights_code": {
+                "type": "string",
+                "description": "Filter on daylight savings letter code (not unique)."
+            },
+            "fields": {
+                "type": "string",
+                "description": "Select fields to return in result [code,timezone,daylights_code,daylights_offset,daylights,hours_offset,offset]",
+                "default": "offset,daylights_offset,daylights,daylights_code,timezone"
+            },
+            "daylights": {
+                "type": "string",
+                "description": "Filter on daylight savings/non-daylight savings time zones (`true` or `false`)."
+            }
+        },
+        "required": []
+    }
+}

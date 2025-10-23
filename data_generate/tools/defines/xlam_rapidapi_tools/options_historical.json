@@ -1,0 +1,35 @@
+{
+    "name": "options_historical",
+    "description": "This is a sub-function API for tool quotient.\nTool description: Market data API for intraday (1-minutes) data, end-of-day data, options data, crypto, forex, live prices, fundamental data, trading signal, and much more, on various assets (Stocks, ETFs, Funds, Indices, Forex, Cryptocurrencies, etc), on worldwide stock exchanges (us, canada, australia, uk and europe).\nAPI description: Returns historical options data based on the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "expiration": {
+                "type": "string",
+                "description": "The expiration date of the option (supported format is : **YYYY-mm-dd**), e.g., `2018-04-20`.",
+                "default": "2018-04-20"
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of option contract, either 'Call' or 'Put'.",
+                "default": "Call"
+            },
+            "strike": {
+                "type": "number",
+                "description": "The strike price of the option, e.g., `100`.",
+                "default": 100.0
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The symbol of the asset to look for, e.g., `AAPL` (Apple Inc), `MSFT` (Microsoft).",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "expiration",
+            "type",
+            "strike",
+            "symbol"
+        ]
+    }
+}

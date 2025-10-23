@@ -1,0 +1,17 @@
+{
+    "name": "gst",
+    "description": "This is a sub-function API for tool gst_advance.\nTool description: get data from GST and also get owner details with Turnover details\nAPI description: Verifies a GST (Goods and Services Tax) number using the GST Advance API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "gst": {
+                "type": "string",
+                "description": "The GST number to be verified.",
+                "default": "24AEAPS9376R2ZI"
+            }
+        },
+        "required": [
+            "gst"
+        ]
+    }
+}

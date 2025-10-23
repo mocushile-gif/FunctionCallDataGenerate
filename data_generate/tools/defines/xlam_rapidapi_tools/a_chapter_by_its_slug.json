@@ -1,0 +1,29 @@
+{
+    "name": "a_chapter_by_its_slug",
+    "description": "This is a sub-function API for tool manga_scrapper.\nTool description: Get webtoon / comic data from favourite scanlation websites.\nAPI description: Make request to fetch a specific chapter information for a specific webtoon from a specific provider.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The slug identifier for the chapter. See /chapters for the chapter list.",
+                "default": "the-world-after-the-fall-chapter-64"
+            },
+            "provider": {
+                "type": "string",
+                "description": "The slug identifier for the webtoon provider. See /providers for the provider list.",
+                "default": "flame"
+            },
+            "webtoon": {
+                "type": "string",
+                "description": "The slug identifier for the webtoon. See /webtoons for the webtoon list.",
+                "default": "the-world-after-the-fall"
+            }
+        },
+        "required": [
+            "slug",
+            "provider",
+            "webtoon"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "getstats",
+    "description": "This is a sub-function API for tool coronavirus_smartable.\nTool description: The coronavirus Stats and News API offers the latest and historic COVID-19 stats and news information per country or state. \nAPI description: Get the latest and historic coronavirus stats data (confirmed cases, deaths and recovered cases) for the globe or your selected country or state.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "ISO 3166-2 location code.  For example, use \"FR\" for coronavirus stats in France; use \"US\" for coronavirus stats in US;  use \"US-CA\" for coronavirus stats in the US California state.  Use \"global\" to retrieve global stats. ",
+                "default": "US"
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

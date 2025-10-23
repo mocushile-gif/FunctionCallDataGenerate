@@ -1,0 +1,26 @@
+{
+    "name": "evaluate",
+    "description": "This is a sub-function API for tool mathematical_symbolic_expression_manipulator.\nTool description: Mathematical Symbolic Expression Manipulator\nAPI description: Evaluates a mathematical expression using the given variables and their values through the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "variables": {
+                "type": "string",
+                "description": "A comma-separated string listing the variables used in the expression."
+            },
+            "values": {
+                "type": "string",
+                "description": "A comma-separated string listing the values corresponding to the variables."
+            },
+            "expression": {
+                "type": "string",
+                "description": "The mathematical expression to be evaluated."
+            }
+        },
+        "required": [
+            "variables",
+            "values",
+            "expression"
+        ]
+    }
+}

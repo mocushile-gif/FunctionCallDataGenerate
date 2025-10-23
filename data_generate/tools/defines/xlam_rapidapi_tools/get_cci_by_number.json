@@ -1,0 +1,17 @@
+{
+    "name": "get_cci_by_number",
+    "description": "This is a sub-function API for tool risk_management_framework.\nTool description: The Risk Management Framework (RMF) makes it easy to view and compare controls and CCIs.\nAPI description: Fetches the CCI (Control Correlation Identifier) and its definition based on a 6-digit CCI identification number using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cci": {
+                "type": "string",
+                "description": "A 6-digit CCI identification number.",
+                "default": "000001"
+            }
+        },
+        "required": [
+            "cci"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "{\n  \"tournamentid\": 1,\n  \"seasonid\": 2022\n}": {
+        "error": "",
+        "response": "\"\""
+    },
+    "{\n  \"tournamentid\": 271,\n  \"seasonid\": 19520\n}": {
+        "error": "",
+        "response": "\"\""
+    },
+    "{'tournamentid': 19442, 'seasonid': 49349}": {
+        "error": "",
+        "response": "{'standings': [{'tournament': {'name': '1st Bundesliga North', 'slug': '1st-bundesliga-north', 'category': {'name': 'Germany', 'slug': 'germany', 'sport': {'name': 'Baseball', 'slug': 'baseball', 'id': 64}, 'id': 1699, 'flag': 'germany', 'alpha2': 'DE'}, 'uniqueTournament': {'name': '1st Bundesliga', 'slug': '1st-bundesliga', 'primaryColorHex': '#EB750B', 'secondaryColorHex': '#F1AA05', 'category': {'name': 'Germany', 'slug': 'germany', 'sport': {'name': 'Baseball', 'slug': 'baseball', 'id': 64}, 'id': 1699, 'flag': 'germany', 'alpha2': 'DE'}, 'userCount': 188, 'hasPerformanceGraphFeature': False, 'id': 19442, 'displayInverseHomeAwayTeams': False}, 'priority': 0, 'isGroup': False, 'isLive': False, 'id': 107122}, 'type': 'home', 'name': '1. Bundesliga 2023, North', 'descriptions': [], 'tieBreakingRule': {'text': 'This league is sorted by Percentage. In the event that two (or more) teams have the same record, the following rules apply:  1. Head-to-head', 'id': 46}, 'rows': [{'team': {'name': 'HSV Stealers', 'slug': 'hsv-stealers', 'shortName': 'HSV Stealers', 'gender': 'M', 'sport': {'name': 'Baseball', 'slug': 'baseball', 'id': 64}, 'userCount': 31, 'nameCode': 'HSV', 'national': False, 'type': 0, 'id': 453011, 'teamColors': {'primary': '#374df5', 'secondary': '#374df5', 'text': '#ffffff'}, 'fieldTranslations': {'nameTranslation': {'ar': 'HSV \u0633\u062a\u064a\u0644\u0631\u0633', 'ru': '\u0425\u0421\u0412 \u0421\u0442\u0438\u043b\u0435\u0440\u0437'}, 'shortNameTranslation': {}}}, 'descriptions': [], 'promotion': {'text': 'Playoffs', 'id': 6}, 'position': 1, 'matches': 15, 'wins': 10, 'percentage': 0.667, 'gamesBehind': 0, 'id': 837241, 'losses': 5, 'draws': 0}, {'team': {'name': 'Paderborn Untouchables', 'slug': 'paderborn-untouchables', 'shortName': 'Paderborn Untouchables', 'gender': 'M', 'sport': {'name': 'Baseball', 'slug': 'baseball', 'id': 64}, 'userCount': 38, 'nameCode': 'PAU', 'national': False, 'type': 0, 'id': 453004, 'teamColors': {'primary': '#374df5', 'secondary': '#374df5', 'text': '#ffffff'}, 'fieldTranslations': {'nameTranslation': {'ar': '\u067e\u0627\u062f\u064a\u0631\u0628\u0648\u0631\u0646 \u0627\u0648\u0646\u062a\u0648\u0634\u0627\u0628\u0644\u0633', 'ru': '\u041f\u0430\u0434\u0435\u0440"
+    },
+    "{'seasonid': 49349, 'tournamentid': 19442}": {
+        "error": "",
+        "response": "{'standings': [{'tournament': {'name': '1st Bundesliga North', 'slug': '1st-bundesliga-north', 'category': {'id': 1699, 'country': {'alpha2': 'DE', 'alpha3': 'DEU', 'name': 'Germany', 'slug': 'germany'}, 'name': 'Germany', 'slug': 'germany', 'sport': {'name': 'Baseball', 'slug': 'baseball', 'id': 64}, 'flag': 'germany', 'alpha2': 'DE'}, 'uniqueTournament': {'name': '1st Bundesliga', 'slug': '1st-bundesliga', 'primaryColorHex': '#EB750B', 'secondaryColorHex': '#F1AA05', 'category': {'id': 1699, 'country': {'alpha2': 'DE', 'alpha3': 'DEU', 'name': 'Germany', 'slug': 'germany'}, 'name': 'Germany', 'slug': 'germany', 'sport': {'name': 'Baseball', 'slug': 'baseball', 'id': 64}, 'flag': 'germany', 'alpha2': 'DE'}, 'userCount': 115, 'hasPerformanceGraphFeature': False, 'id': 19442, 'country': {}, 'displayInverseHomeAwayTeams': False}, 'priority': 0, 'isGroup': False, 'isLive': False, 'id': 107122}, 'name': '1. Bundesliga 2023, North', 'type': 'home', 'descriptions': [], 'tieBreakingRule': {'text': 'This league is sorted by Percentage. In the event that two (or more) teams have the same record, the following rules apply:  1. Head-to-head', 'id': 46}, 'rows': [{'team': {'name': 'HSV Stealers', 'slug': 'hsv-stealers', 'shortName': 'HSV Stealers', 'gender': 'M', 'sport': {'name': 'Baseball', 'slug': 'baseball', 'id': 64}, 'userCount': 22, 'nameCode': 'HSV', 'national': False, 'type': 0, 'id': 453011, 'country': {'alpha2': 'DE', 'alpha3': 'DEU', 'name': 'Germany', 'slug': 'germany'}, 'entityType': 'team', 'teamColors': {'primary': '#374df5', 'secondary': '#374df5', 'text': '#ffffff'}, 'fieldTranslations': {'nameTranslation': {'ar': 'HSV \u0633\u062a\u064a\u0644\u0631\u0633', 'ru': '\u0425\u0421\u0412 \u0421\u0442\u0438\u043b\u0435\u0440\u0437'}, 'shortNameTranslation': {}}}, 'descriptions': [], 'promotion': {'text': 'Playoffs', 'id': 6}, 'position': 1, 'matches': 15, 'wins': 10, 'percentage': 0.667, 'gamesBehind': 0, 'id': 837241, 'losses': 5}, {'team': {'name': 'Paderborn Untouchables', 'slug': 'paderborn-untouchables', 'shortName': 'Paderborn Untouchables', 'gender': 'M', 'sport': {'name': 'Baseball',"
+    },
+    "{'seasonid': 12345, 'tournamentid': 19442}": {
+        "error": "",
+        "response": ""
+    },
+    "{'seasonid': 49349, 'tournamentid': 98765}": {
+        "error": "",
+        "response": ""
+    },
+    "{'seasonid': 49349, 'tournamentid': 87654}": {
+        "error": "",
+        "response": ""
+    },
+    "{'seasonid': 49349, 'tournamentid': 76543}": {
+        "error": "",
+        "response": ""
+    },
+    "{'seasonid': 2023, 'tournamentid': 98765}": {
+        "error": "",
+        "response": ""
+    },
+    "{'tournamentid': 110, 'seasonid': 2025}": {
+        "error": "",
+        "response": ""
+    }
+}

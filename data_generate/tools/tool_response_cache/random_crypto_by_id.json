@@ -1,0 +1,32 @@
+{
+    "{'is_id': 8931}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "id": 8931,
+                    "name": "NEO",
+                    "price": "$5,737.90",
+                    "symbol": "NEO",
+                    "uid": "2e80a5a7-f98f-3d99-6245-54efd6103b73"
+                }
+            ],
+            "info": {
+                "disclaimer": "This data is randomly generated. Results generated that turn out to be valid in real life are purely coincidental.",
+                "version": "1.0.0"
+            }
+        }
+    },
+    "{'is_id': 1}": {
+        "error": "",
+        "response": "{'data': [{'id': 1, 'name': 'Burstcoin', 'price': '$717.77', 'symbol': 'BURST', 'uid': 'c831eda9-305c-26d8-8f76-f7d7733c0183'}], 'info': {'disclaimer': 'This data is randomly generated. Results generated that turn out to be valid in real life are purely coincidental.', 'version': '1.0.0'}}"
+    },
+    "{'is_id': 5}": {
+        "error": "",
+        "response": "{'data': [{'id': 5, 'name': 'Monero', 'price': '$60,730.21', 'symbol': 'XMR', 'uid': 'fbf2fda4-82c9-a6a3-b834-385670d2217b'}], 'info': {'disclaimer': 'This data is randomly generated. Results generated that turn out to be valid in real life are purely coincidental.', 'version': '1.0.0'}}"
+    },
+    "{'is_id': 2}": {
+        "error": "",
+        "response": "{'data': [{'id': 2, 'name': 'Bitcoin', 'price': '$1.52', 'symbol': 'BTC', 'uid': '422cd581-5f0f-3315-c54b-b65e6969f650'}], 'info': {'disclaimer': 'This data is randomly generated. Results generated that turn out to be valid in real life are purely coincidental.', 'version': '1.0.0'}}"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "{'page': 1, 'keyword': 'laptop Dell HP Lenovo'}": {
+        "error": "",
+        "response": {
+            "Error": "BestBuy API returned no data, You have entered ''laptop Dell HP Lenovo'' as search keyword. Please check the keyword you entered and try again."
+        }
+    },
+    "{'keyword': 'beach hotel ocean views', 'page': 1}": {
+        "error": "",
+        "response": {
+            "Error": "BestBuy API returned no data, You have entered ''beach hotel ocean views'' as search keyword. Please check the keyword you entered and try again."
+        }
+    },
+    "{'page': 1, 'keyword': 'hotel'}": {
+        "error": "",
+        "response": {
+            "Error": "BestBuy API returned no data, You have entered ''hotel'' as search keyword. Please check the keyword you entered and try again."
+        }
+    },
+    "{'page': 1, 'keyword': 'team-building activities'}": {
+        "error": "",
+        "response": {
+            "Error": "BestBuy API returned no data, You have entered ''team-building activities'' as search keyword. Please check the keyword you entered and try again."
+        }
+    },
+    "{'page': 1, 'keyword': 'team-building venues Miami'}": {
+        "error": "",
+        "response": {
+            "Error": "BestBuy API returned no data, You have entered ''team-building venues Miami'' as search keyword. Please check the keyword you entered and try again."
+        }
+    },
+    "{'page': 2.0, 'keyword': 'gaming headsets'}": {
+        "error": "",
+        "response": "{'Error': \"BestBuy API returned no data, You have entered ''gaming headsets'' as search keyword. Please check the keyword you entered and try again.\"}"
+    },
+    "{'page': 2, 'keyword': 'gaming headsets'}": {
+        "error": "",
+        "response": "{'Error': \"BestBuy API returned no data, You have entered ''gaming headsets'' as search keyword. Please check the keyword you entered and try again.\"}"
+    },
+    "{'page': 2, 'keyword': 'gaming headset'}": {
+        "error": "",
+        "response": "{'Error': \"BestBuy API returned no data, You have entered ''gaming headset'' as search keyword. Please check the keyword you entered and try again.\"}"
+    },
+    "{'keyword': '4k monitors', 'page': 1}": {
+        "error": "",
+        "response": "{'Error': \"BestBuy API returned no data, You have entered ''4k monitors'' as search keyword. Please check the keyword you entered and try again.\"}"
+    },
+    "{'keyword': '4k monitor', 'page': 1}": {
+        "error": "",
+        "response": "{'Error': \"BestBuy API returned no data, You have entered ''4k monitor'' as search keyword. Please check the keyword you entered and try again.\"}"
+    }
+}

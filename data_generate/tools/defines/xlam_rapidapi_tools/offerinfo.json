@@ -1,0 +1,17 @@
+{
+    "name": "offerinfo",
+    "description": "This is a sub-function API for tool google_jobs.\nTool description: Google Jobs Scraper\nAPI description: Fetches job offer data from the Google Jobs API using the provided job URL.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "joburl": {
+                "type": "string",
+                "description": "The URL of the job offer to retrieve information for.",
+                "default": "https://www.google.com/search?ibp=htl%3Bjobs&q=developer+newyork&hl=en-US&kgs=e473f607e23ae72f&shndl=-1&source=sh%2Fx%2Fim%2Ftextlists%2Fdetail%2F1&entrypoint=sh%2Fx%2Fim%2Ftextlists%2Fdetail&mysharpfpstate=tldetail&htivrt=jobs&htiq=developer+newyork&htidocid=6ak4txGw4C4AAAAAAAAAAA%3D%3D"
+            }
+        },
+        "required": [
+            "joburl"
+        ]
+    }
+}

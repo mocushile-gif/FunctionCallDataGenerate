@@ -1,0 +1,46 @@
+{
+    "{'limit': '20'}": {
+        "error": "",
+        "response": [
+            {
+                "id": 123456789,
+                "message": "Q3 results reflect strong momentum in renewable energy division. Earnings beat estimates by 15%, driven by increased global demand.",
+                "user": {
+                    "username": "GreenTech_IR",
+                    "is_verified_ir": true
+                },
+                "created_at": "2023-10-05T14:30:00Z",
+                "symbols": [
+                    "GREEN",
+                    "RENEW"
+                ]
+            },
+            {
+                "id": 123456788,
+                "message": "Announcing strategic partnership with TechCorp to expand AI infrastructure. Details in the investor relations section of our website.",
+                "user": {
+                    "username": "GlobalTech_IR",
+                    "is_verified_ir": true
+                },
+                "created_at": "2023-10-05T14:25:00Z",
+                "symbols": [
+                    "TECH",
+                    "INFRA"
+                ]
+            },
+            {
+                "id": 123456787,
+                "message": "Shareholder update: Board approves $2B share buyback program. Program to commence Q4 2023. Full terms available in SEC filing 8-K.",
+                "user": {
+                    "username": "FinanceCo_IR",
+                    "is_verified_ir": true
+                },
+                "created_at": "2023-10-05T14:18:00Z",
+                "symbols": [
+                    "FINC",
+                    "BUY"
+                ]
+            }
+        ]
+    }
+}

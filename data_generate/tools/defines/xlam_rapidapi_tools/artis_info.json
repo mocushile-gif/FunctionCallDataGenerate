@@ -1,0 +1,41 @@
+{
+    "name": "artis_info",
+    "description": "This is a sub-function API for tool kotak7.\nTool description: Api Musik Kotak7\nAPI description: Fetches and returns album information for an artist based on the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "num": {
+                "type": "number",
+                "description": "Number of albums to fetch information for.",
+                "default": 6.0
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language code for the response data.",
+                "default": "id"
+            },
+            "index": {
+                "type": "number",
+                "description": "Index position from which to start fetching the album data.",
+                "default": 0.0
+            },
+            "country": {
+                "type": "string",
+                "description": "Country code for the artist.",
+                "default": "id"
+            },
+            "is_id": {
+                "type": "string",
+                "description": "ID of the artist whose albums information is to be fetched.",
+                "default": "K0wfT9L1dhOcY3%2BWa%2BQY%2BA%3D%3D"
+            }
+        },
+        "required": [
+            "num",
+            "lang",
+            "index",
+            "country",
+            "is_id"
+        ]
+    }
+}

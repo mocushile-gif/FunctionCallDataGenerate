@@ -1,0 +1,17 @@
+{
+    "name": "key_statistics",
+    "description": "This is a sub-function API for tool yahoo_finance.\nTool description: Access Yahoo Finance Realtime Stock Price |  Options | ESG | Trends | Statistics | Earnings | Balance Sheets | Analytics | Asset Profile and much more\nAPI description: The key statistics endpoint provides a summary of key financial statistics for a company. The endpoint returns the following data: market capitalization, enterprise value, trailing P/E ratio, forward P/E ratio, PEG ratio, price/sales (ttm), price/book (mrq), enterprise value/revenue (ttm), enterprise value/EBITDA (ttm)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The stock ticker symbol to retrieve key statistics for.",
+                "default": "aapl"
+            }
+        },
+        "required": [
+            "ticker"
+        ]
+    }
+}

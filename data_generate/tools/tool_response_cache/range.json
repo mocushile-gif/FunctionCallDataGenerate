@@ -1,0 +1,57 @@
+{
+    "{}": {
+        "error": "",
+        "response": [
+            {
+                "id": "0zVkn",
+                "fen": "r1b1k2r/4bpp1/n1pp1n1p/4p3/p3P3/P2P1NQ1/BqPBNPPP/R4RK1 w kq - 0 16",
+                "moves": [
+                    "f1c1",
+                    "f6h5",
+                    "a2f7",
+                    "e8f7"
+                ],
+                "numberOfMoves": "4",
+                "rating": "1500",
+                "ratingDeviation": "76",
+                "minRating": "1424",
+                "maxRating": "1576",
+                "themes": "crushing middlegame short",
+                "openingFamily": "Bishops_Opening",
+                "openingVariation": "Bishops_Opening_Philidor_Counterattack"
+            }
+        ]
+    },
+    "{'min': 1800, 'max': 2000, 'max_deviation': 100, 'number_of_puzzles': 1}": {
+        "error": "",
+        "response": "[{'id': 'LdwLa', 'fen': 'r1b2rk1/pppqbppp/2n1pn2/1B2N1B1/3P4/2N5/PPP2PPP/R2Q1RK1 b - - 5 10', 'moves': ['d7d4', 'e5c6', 'b7c6', 'd1d4'], 'numberOfMoves': '4', 'rating': '1825', 'ratingDeviation': '74', 'minRating': '1751', 'maxRating': '1899', 'themes': 'capturingDefender crushing intermezzo opening short', 'openingFamily': 'Scandinavian_Defense', 'openingVariation': 'Scandinavian_Defense_Mieses-Kotroc_Variati'}]"
+    },
+    "{'min': 1900, 'max': 2100, 'max_deviation': 100, 'number_of_puzzles': 1}": {
+        "error": "",
+        "response": "[{'id': '55eMk', 'fen': '3r2k1/5pp1/1Q2pq2/p4n2/P2P1P1p/1P4P1/1B5P/2R4K w - - 0 30', 'moves': ['d4d5', 'f6b2', 'b6d8', 'g8h7', 'd8g5', 'b2c1'], 'numberOfMoves': '6', 'rating': '1995', 'ratingDeviation': '76', 'minRating': '1919', 'maxRating': '2071', 'themes': 'crushing endgame long sacrifice', 'openingFamily': 'no data', 'openingVariation': 'no data'}]"
+    },
+    "{'min': 1900, 'max': 2100, 'max_deviation': 100, 'number_of_puzzles': 2}": {
+        "error": "",
+        "response": "[{'id': '7QjXX', 'fen': '3q2k1/p1r1Bppp/2p5/Q2p4/2n5/2P2P2/P1P3PP/4R1K1 b - - 3 23', 'moves': ['d8c8', 'e7d8', 'c8d8', 'a5c7'], 'numberOfMoves': '4', 'rating': '2024', 'ratingDeviation': '74', 'minRating': '1950', 'maxRating': '2098', 'themes': 'crushing endgame short', 'openingFamily': 'no data', 'openingVariation': 'no data'}, {'id': 'YqbtN', 'fen': '6r1/p4p1R/1p2k3/3pPpp1/P2BbP2/2P1K3/1P6/8 w - - 0 35', 'moves': ['f4g5', 'f5f4', 'e3f4', 'e4h7'], 'numberOfMoves': '4', 'rating': '1935', 'ratingDeviation': '74', 'minRating': '1861', 'maxRating': '2009', 'themes': 'crushing discoveredAttack endgame master short', 'openingFamily': 'no data', 'openingVariation': 'no data'}]"
+    },
+    "{'min': 1400, 'max': 1800, 'number_of_puzzles': 1}": {
+        "error": "",
+        "response": "[{'id': 'Du6jL', 'fen': '2r2b1r/ppq2kp1/3p1n1p/4p3/8/2RQBN2/PP3PPP/5RK1 b - - 0 17', 'moves': ['c7d7', 'f3e5', 'd6e5', 'd3d7', 'f6d7', 'c3c8'], 'numberOfMoves': '6', 'rating': '1447', 'ratingDeviation': '75', 'minRating': '1372', 'maxRating': '1522', 'themes': 'crushing long master middlegame', 'openingFamily': 'Sicilian_Defense', 'openingVariation': 'Sicilian_Defense_Bowdler_Attack'}]"
+    },
+    "{'min': 1400, 'max': 1600, 'number_of_puzzles': 3}": {
+        "error": "",
+        "response": "[{'id': '4ip0x', 'fen': '6k1/5p2/1pB4p/1P6/pr6/8/4KBPP/8 w - - 0 48', 'moves': ['f2b6', 'a4a3', 'e2e3', 'a3a2', 'b6d4', 'b4d4'], 'numberOfMoves': '6', 'rating': '1459', 'ratingDeviation': '76', 'minRating': '1383', 'maxRating': '1535', 'themes': 'advancedPawn advantage endgame long', 'openingFamily': 'no data', 'openingVariation': 'no data'}, {'id': 'FDYsJ', 'fen': '8/8/4k3/7p/2N1b3/1P6/1KP5/8 w - - 0 35', 'moves': ['b2c3', 'h5h4', 'c4e3', 'h4h3', 'c3d4', 'h3h2'], 'numberOfMoves': '6', 'rating': '1408', 'ratingDeviation': '98', 'minRating': '1310', 'maxRating': '1506', 'themes': 'advancedPawn crushing endgame long quietMove', 'openingFamily': 'no data', 'openingVariation': 'no data'}, {'id': '28JcO', 'fen': '2kr3r/ppp1q3/5p2/Q5p1/2P4p/P3PnPP/1P3PR1/2KN1B2 b - - 2 27', 'moves': ['d8d2', 'a5f5', 'd2d7', 'f5f3'], 'numberOfMoves': '4', 'rating': '1445', 'ratingDeviation': '74', 'minRating': '1371', 'maxRating': '1519', 'themes': 'advantage fork middlegame short', 'openingFamily': 'no data', 'openingVariation': 'no data'}]"
+    },
+    "{'min': 1500, 'max': 1700, 'number_of_puzzles': 5}": {
+        "error": "",
+        "response": "[{'id': '5qtdl', 'fen': '1r2r2k/p4R1p/7q/1p1p4/6Q1/4P2P/5KB1/8 b - - 0 31', 'moves': ['d5d4', 'g4d4', 'h8g8', 'g2d5', 'h6e3', 'd4e3'], 'numberOfMoves': '6', 'rating': '1653', 'ratingDeviation': '75', 'minRating': '1578', 'maxRating': '1728', 'themes': 'advantage endgame long quietMove', 'openingFamily': 'no data', 'openingVariation': 'no data'}, {'id': '4oeto', 'fen': '5rk1/pp3ppp/8/5p1r/3P1B1q/2P2R2/PP3PK1/R1Q5 w - - 0 25', 'moves': ['c1h1', 'h4g4', 'f3g3', 'h5h1', 'g3g4', 'h1a1'], 'numberOfMoves': '6', 'rating': '1638', 'ratingDeviation': '74', 'minRating': '1564', 'maxRating': '1712', 'themes': 'advantage discoveredAttack long middlegame', 'openingFamily': 'no data', 'openingVariation': 'no data'}, {'id': '8EBs5', 'fen': '8/8/1p2k2p/p3P1p1/P2Ppn2/4B1KP/6P1/8 b - - 2 40', 'moves': ['e6d5', 'e3f4', 'g5f4', 'g3f4', 'b6b5', 'a4b5', 'a5a4', 'b5b6'], 'numberOfMoves': '8', 'rating': '1684', 'ratingDeviation': '74', 'minRating': '1610', 'maxRating': '1758', 'themes': 'crushing endgame veryLong', 'openingFamily': 'no data', 'openingVariation': 'no data'}, {'id': '45Vzy', 'fen': '1r2rbk1/1p3p2/pRb3p1/2p1n3/7B/4N2P/1P2BPP1/3R2K1 b - - 3 26', 'moves': ['e5d7', 'b6c6', 'b7c6', 'd1d7'], 'numberOfMoves': '4', 'rating': '1586', 'ratingDeviation': '75', 'minRating': '1511', 'maxRating': '1661', 'themes': 'advantage capturingDefender master middlegame short', 'openingFamily': 'no data', 'openingVariation': 'no data'}, {'id': '25NNk', 'fen': '4rrk1/3b1p1p/p1n2bpP/1pp3N1/8/3B4/PPPB1PP1/2K1R2R w - - 4 17', 'moves': ['d2e3', 'e8e3', 'f2e3', 'f6g5'], 'numberOfMoves': '4', 'rating': '1685', 'ratingDeviation': '76', 'minRating': '1609', 'maxRating': '1761', 'themes': 'advantage capturingDefender middlegame short', 'openingFamily': 'Sicilian_Defense', 'openingVariation': 'Sicilian_Defense_Nimzowitsch_Variation'}]"
+    },
+    "{'min': 1400, 'max': 1800, 'number_of_puzzles': 3}": {
+        "error": "",
+        "response": "[{'id': 'fAMU4', 'fen': 'r1b1k2r/pp2q1p1/4p1p1/2bpP3/5P2/P1N5/1P4PP/R1BQ1R1K w kq - 3 16', 'moves': ['b2b4', 'h8h2', 'h1h2', 'e7h4'], 'numberOfMoves': '4', 'rating': '1586', 'ratingDeviation': '74', 'minRating': '1512', 'maxRating': '1660', 'themes': 'attraction kingsideAttack mate mateIn2 middlegame sacrifice short', 'openingFamily': 'French_Defense', 'openingVariation': 'French_Defense_Advance_Variation'}, {'id': 'B2ciQ', 'fen': '3r4/pp2kp1p/4p3/4n3/8/1P2PBP1/Pq1r1PKP/R3QR2 w - - 5 25', 'moves': ['f3b7', 'e5d3', 'e1d2', 'b2d2'], 'numberOfMoves': '4', 'rating': '1717', 'ratingDeviation': '97', 'minRating': '1620', 'maxRating': '1814', 'themes': 'advantage middlegame short', 'openingFamily': 'no data', 'openingVariation': 'no data'}, {'id': '0e26q', 'fen': '3rr1k1/p1p2ppp/b1p5/8/2p5/7P/P1P1BPP1/R3R1K1 b - - 0 17', 'moves': ['d8d2', 'e2c4', 'e8e1', 'a1e1', 'g8f8', 'c4a6'], 'numberOfMoves': '6', 'rating': '1491', 'ratingDeviation': '76', 'minRating': '1415', 'maxRating': '1567', 'themes': 'advantage endgame long', 'openingFamily': 'Scotch_Game', 'openingVariation': 'Scotch_Game_Schmidt_Variation'}]"
+    },
+    "{'min': 1200, 'max': 1600, 'max_deviation': 100, 'number_of_puzzles': 21}": {
+        "error": "",
+        "response": "[{'id': 'T9pwB', 'fen': '8/8/2b5/1Bp2pk1/2P1p2p/3K1P2/6PP/8 w - - 0 35', 'moves': ['f3e4', 'c6e4', 'd3e3', 'e4g2'], 'numberOfMoves': '4', 'rating': '1536', 'ratingDeviation': '75', 'minRating': '1461', 'maxRating': '1611', 'themes': 'bishopEndgame crushing endgame short', 'openingFamily': 'no data', 'openingVariation': 'no data'}, {'id': 'OR9kt', 'fen': '5K2/pk5r/1p2b2B/2p1P3/8/1P6/P6R/8 w - - 8 53', 'moves': ['h6f4', 'h7f7', 'f8e8', 'f7f4'], 'numberOfMoves': '4', 'rating': '1364', 'ratingDeviation': '75', 'minRating': '1289', 'maxRating': '1439', 'themes': 'crushing endgame fork short', 'openingFamily': 'no data', 'openingVariation': 'no data'}, {'id': 'QESTe', 'fen': '3r3r/3bQpp1/p3p1p1/8/5nk1/8/PP3PPP/3R1RK1 w - - 0 28', 'moves': ['d1d7', 'f4e2', 'g1h1', 'h8h2', 'h1h2', 'd8h8', 'e7h4', 'h8h4'], 'numberOfMoves': '8', 'rating': '1426', 'ratingDeviation': '75', 'minRating': '1351', 'maxRating': '1501', 'themes': 'anastasiaMate attraction endgame mate mateIn4 sacrifice veryLong', 'openingFamily': 'no data', 'openingVariation': 'no data'}, {'id': '6ONkh', 'fen': '6k1/4qp1p/Rn3pp1/1pNr4/1P6/2Q4P/5PP1/6K1 w - - 0 40', 'moves': ['a6b6', 'd5d1', 'g1h2', 'e7c7', 'g2g3', 'c7b6'], 'numberOfMoves': '6', 'rating': '1453', 'ratingDeviation': '77', 'minRating': '1376', 'maxRating': '1530', 'themes': 'crushing endgame fork long', 'openingFamily': 'no data', 'openingVariation': 'no data'}, {'id': 'Lf6Tt', 'fen': '6rk/4p2p/8/pp4rq/2p2p2/2P2P2/PP1R2PP/4Q1RK w - - 5 36', 'moves': ['e1e7', 'h5h2', 'h1h2', 'g5h5', 'e7h4', 'h5h4'], 'numberOfMoves': '6', 'rating': '1361', 'ratingDeviation': '74', 'minRating': '1287', 'maxRating': '1435', 'themes': 'attraction endgame long mate mateIn3 sacrifice', 'openingFamily': 'no data', 'openingVariation': 'no data'}, {'id': 'JzRRa', 'fen': 'r4r1k/1Q5p/p5p1/1p6/3P4/PpPq4/1n6/K5RR b - - 3 35', 'moves': ['h7h5', 'h1h5', 'g6h5', 'b7g7'], 'numberOfMoves': '4', 'rating': '1249', 'ratingDeviation': '73', 'minRating': '1176', 'maxRating': '1322', 'themes': 'mate mateIn2 middlegame sacrifice short', 'open"
+    }
+}

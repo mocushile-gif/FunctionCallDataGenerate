@@ -1,0 +1,58 @@
+{
+    "name": "stochrsi",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Stochastic RSI(STOCHRSI) as an independent indicator takes advantage of the STOCH and RSI indicators. It is used to determine overbought and oversold levels, as well as current market trends for an asset.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The instrument symbol, which can be an equity, index, ETF, forex, or cryptocurrency (e.g., `AAPL`, `EUR/USD`, `ETH/BTC`).",
+                "default": "AAPL"
+            },
+            "interval": {
+                "type": "string",
+                "description": "The interval between two consecutive points in the time series. Supported values include `1min`, `5min`, `15min`, `30min`, `45min`, `1h`, `2h`, `4h`, `1day`, `1week`, `1month`.",
+                "default": "1min"
+            },
+            "fast_dma_type": {
+                "type": "string",
+                "description": "The type of moving average used for smoothing. Supported values are `SMA`, `EMA`, `WMA`, `DEMA`, `TEMA`, `TRIMA`, `KAMA`, `MAMA`, `T3MA`. Defaults to `SMA`.",
+                "default": "SMA"
+            },
+            "series_type": {
+                "type": "string",
+                "description": "The type of series data. Supported values are `open`, `high`, `low`, `close`. Defaults to `close`.",
+                "default": "close"
+            },
+            "fast_d_period": {
+                "type": "number",
+                "description": "The period for the fast D moving average. Defaults to 3.",
+                "default": 3
+            },
+            "outputsize": {
+                "type": "number",
+                "description": "Default `30` when no date parameters are set, otherwise set to maximum",
+                "default": 30
+            },
+            "fast_k_period": {
+                "type": "number",
+                "description": "The period for the fast K moving average. Defaults to 3.",
+                "default": 3
+            },
+            "format": {
+                "type": "string",
+                "description": "The output format of the API response. Supported values are `json` and `csv`. Defaults to `json`.",
+                "default": "json"
+            },
+            "time_period": {
+                "type": "number",
+                "description": "The period for the RSI calculation. Defaults to 14.",
+                "default": 14
+            }
+        },
+        "required": [
+            "symbol",
+            "interval"
+        ]
+    }
+}

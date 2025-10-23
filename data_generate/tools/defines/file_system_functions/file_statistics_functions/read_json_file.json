@@ -1,0 +1,19 @@
+{
+    "name": "read_json_file",
+    "description": "Read a JSON file and return the first 'n' objects.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "file_path": {
+                "type": "string",
+                "description": "The path to the JSON file to be read."
+            },
+            "limit": {
+                "type": "integer",
+                "description": "The maximum number of objects to return. Defaults to 10.",
+                "default": 10
+            }
+        },
+        "required": ["file_path"]
+    }
+}

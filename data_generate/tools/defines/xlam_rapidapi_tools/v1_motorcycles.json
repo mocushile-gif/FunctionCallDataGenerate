@@ -1,0 +1,28 @@
+{
+    "name": "v1_motorcycles",
+    "description": "This is a sub-function API for tool motorcycles_by_api_ninjas.\nTool description: Detailed technical specifications on tens of thousands of motorcycle models. See more info at https://api-ninjas.com/api/motorcycles.\nAPI description: API Ninjas Motorcycles API endpoint. Returns up to 30 motorcycle results matching the input name parameters. For searches that yield > 30 results, please use the offset parameter.\n\nEither **make** or **model** parameter must be set.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "model": {
+                "type": "string",
+                "description": "name of motorcycle model. Supports partial matching (e.g. Ninja will match Ninja 650).",
+                "default": "Ninja"
+            },
+            "offset": {
+                "type": "number",
+                "description": "Number of results to offset for pagination. Default is None."
+            },
+            "make": {
+                "type": "string",
+                "description": "name of manufacturer/brand. Supports partial matching (e.g. Harley will match Harley-Davidson).",
+                "default": "Kawasaki"
+            },
+            "year": {
+                "type": "string",
+                "description": "release year of motorcycle model. Must be in the form of YYYY (e.g. 2022)."
+            }
+        },
+        "required": []
+    }
+}

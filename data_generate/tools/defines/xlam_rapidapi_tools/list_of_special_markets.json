@@ -1,0 +1,38 @@
+{
+    "name": "list_of_special_markets",
+    "description": "This is a sub-function API for tool pinnacle_odds.\nTool description: Pinnacle Sport API is a RESTful service for getting pre-match and live odds. Historical odds, score and results. Updates without delay. Sports: Soccer, tennis, basketball, hockey, american football, MMA, baseball. **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters **Other sports api:** https://rapi.one\nAPI description: Get a list of special markets. Always first issue a snapshot call and continue with the delta calls. Calls return changes since the provided `since` value. You must always use the since parameter, after the first call. Please note that prematch and live events are different",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sport_id": {
+                "type": "number",
+                "description": "The ID of the sport for which to retrieve special markets.",
+                "default": 1
+            },
+            "is_have_odds": {
+                "type": "boolean",
+                "description": "If specified, filters results to only include matches with available odds (True) or matches that will get odds in the future (False).",
+                "default": true
+            },
+            "league_ids": {
+                "type": "number",
+                "description": "The ID of the league to filter results."
+            },
+            "event_type": {
+                "type": "string",
+                "description": "Status: `prematch`, `live`  Please note that prematch and live events are different"
+            },
+            "since": {
+                "type": "number",
+                "description": "Since UTC time. Calls return changes since the provided `since` value."
+            },
+            "event_ids": {
+                "type": "number",
+                "description": "The ID of the event(s) to filter results."
+            }
+        },
+        "required": [
+            "sport_id"
+        ]
+    }
+}

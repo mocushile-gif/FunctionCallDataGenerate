@@ -1,0 +1,14 @@
+{
+    "name": "get_charades_word",
+    "description": "This is a sub-function API for tool pictionary_charades_word_generator.\nTool description: Generate words for Charades and Pictionary Games!\nAPI description: Get a random charades word with the specified difficulty. If not difficulty is supplied, a random difficulty will be used.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "difficulty": {
+                "type": "string",
+                "description": "The difficulty level of the charades word (e.g., 'easy', 'medium', 'hard'). If not provided, a random difficulty level will be used."
+            }
+        },
+        "required": []
+    }
+}

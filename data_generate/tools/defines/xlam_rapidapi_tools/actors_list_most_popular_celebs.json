@@ -1,0 +1,25 @@
+{
+    "name": "actors_list_most_popular_celebs",
+    "description": "This is a sub-function API for tool online_movie_database.\nTool description: This API helps to query for all information about films, actors, characters,etc... to create a movie/series/streaming content site/application\nAPI description: Fetch the list of most popular celebrities from the online movie database API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "currentcountry": {
+                "type": "string",
+                "description": "The current country of the user. Accepts one of the following values: AR, AU, CA, CL, ES, DE, IT, MX, NZ, PT, ES, GB, US. Defaults to 'US'.",
+                "default": "US"
+            },
+            "purchasecountry": {
+                "type": "string",
+                "description": "The country where the user typically makes purchases. Accepts one of the following values: US, GB, DE, IN, IT, FR, JP, CA, ES. Defaults to 'US'.",
+                "default": "US"
+            },
+            "homecountry": {
+                "type": "string",
+                "description": "The home country of the user. Accepts one of the following values: US, GB, DE, IN, IT, FR, JP, CA, ES. Defaults to 'US'.",
+                "default": "US"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "search_team",
+    "description": "This is a sub-function API for tool viperscore.\nTool description: ViperScore is the cheapest sports API for all hobby and business projects with over 25 endpoints, 20+ sports and 5100+ leagues! We serve comprehensive data blazing fast with a clear structure and a well thought out scheme. You get the best live results and fast information for every game and we constantly develop the API further and include more data.\nAPI description: Searches for a team using the provided team name and returns the response from the API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the team to search for.",
+                "default": "New York Yankees"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

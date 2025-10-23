@@ -1,0 +1,22 @@
+{
+    "name": "domain_seo_analysis",
+    "description": "This is a sub-function API for tool domain_seo_analysis.\nTool description: Bishopi's advanced and real-time proprietary SEO metrics for domain names investors, keywords research and SEO professionals. - More on Bishopi.io \nAPI description: Fetch popular SEO metrics for a specified domain name, optionally considering the search from a specific country's perspective.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain name to analyze for SEO metrics.",
+                "default": "apify.com"
+            },
+            "country": {
+                "type": "string",
+                "description": "Specify the proxy location for the search. Supported countries include 'US', 'CA', 'IE', 'GB', 'FR', 'DE', 'SE', 'IN', 'JP', 'KR', 'SG', 'AU', 'BR'. Defaults to 'us'.",
+                "default": "us"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

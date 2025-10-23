@@ -1,0 +1,22 @@
+{
+    "name": "replies",
+    "description": "This is a sub-function API for tool axesso_instagram_data_service.\nTool description: This API returns data from Instagram like posts, comments, replies and different account informations.\nAPI description: Fetch replies for a given commentId.  CommentId can be obtained from the comments endpoint response in field node.id. Also the field edge_threaded_comments.page_info.end_cursor needs to be passed for the given comment which can also be found in the response from the comments endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "after": {
+                "type": "string",
+                "description": "The cursor value after which to fetch the replies. This can be obtained from the `edge_threaded_comments.page_info.end_cursor` field in the response from the comments endpoint."
+            },
+            "commentid": {
+                "type": "string",
+                "description": "The unique identifier for the comment. This can be obtained from the `node.id` field in the response from the comments endpoint.",
+                "default": "17898559397187730"
+            }
+        },
+        "required": [
+            "after",
+            "commentid"
+        ]
+    }
+}

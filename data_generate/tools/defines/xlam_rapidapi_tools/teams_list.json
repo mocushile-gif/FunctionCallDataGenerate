@@ -1,0 +1,17 @@
+{
+    "name": "teams_list",
+    "description": "This is a sub-function API for tool cricbuzz_cricket.\nTool description: This API helps to query for live cricket scores, commentary, latest cricket news and editorials, schedules of upcoming matches, rankings, stats, records, etc\nAPI description: Fetches a list of cricket teams based on the specified type from the Cricbuzz API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of teams to list. Valid options are `international`, `league`, `domestic`, or `women`.",
+                "default": "international"
+            }
+        },
+        "required": [
+            "type"
+        ]
+    }
+}

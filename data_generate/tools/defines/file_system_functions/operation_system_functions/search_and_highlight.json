@@ -1,0 +1,28 @@
+{
+    "name": "search_and_highlight",
+    "description": "Searches for a keyword in file and highlights the matching occurrences. Supported file types: .txt, .json, .jsonl.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "The path to the file in which to search for the keyword."
+        },
+        "keyword": {
+          "type": "string",
+          "description": "The keyword to search for."
+        },
+        "limit": {
+          "type": "integer",
+          "description": "The maximum number of matches to return. Defaults to 10.",
+          "default": 10
+        },
+        "case_sensitive": {
+          "type": "boolean",
+          "description": "Whether the search should be case-sensitive. Defaults to false.",
+          "default": false
+        }
+      },
+      "required": ["file_path", "keyword"]
+    }
+}

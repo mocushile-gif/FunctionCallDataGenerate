@@ -1,0 +1,16 @@
+{
+    "name": "cities_states_stateisocode",
+    "description": "This is a sub-function API for tool transportistas_de_argentina.\nTool description: Obten las oficinas, localidades y precios de tus envios en Argentina para Andreani, Oca y Correo Argentino.\nAPI description: Fetches the list of cities for a given state's ISO code using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "stateisocode": {
+                "type": "string",
+                "description": "The ISO code of the state for which the cities need to be retrieved."
+            }
+        },
+        "required": [
+            "stateisocode"
+        ]
+    }
+}

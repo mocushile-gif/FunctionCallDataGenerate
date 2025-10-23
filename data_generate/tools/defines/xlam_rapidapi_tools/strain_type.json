@@ -1,0 +1,17 @@
+{
+    "name": "strain_type",
+    "description": "This is a sub-function API for tool weed_strain.\nTool description: Basic information on all weed strain. Build mobile apps for weed strains.\nAPI description: Fetches a list of results based on the specified strain type from the Weed Strain API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "straintype": {
+                "type": "string",
+                "description": "The type of strain to search for (e.g., Indica, Sativa, Hybrid).",
+                "default": "Hybrid"
+            }
+        },
+        "required": [
+            "straintype"
+        ]
+    }
+}

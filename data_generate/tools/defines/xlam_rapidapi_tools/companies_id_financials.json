@@ -1,0 +1,17 @@
+{
+    "name": "companies_id_financials",
+    "description": "This is a sub-function API for tool german_company_data_v2.\nTool description: Enrich your CRM / MAS / ERP system with credible data about all incorporated companies from  Germany.\nAPI description: This endpoint returns the financial key figures (balance sheet total, revenue, profit, number of employees) for the company with the given identifier. For each key figure the endpoint returns a list of values associated with the corresponding year.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The identifier of the company for which financial data is to be retrieved.",
+                "default": "DEVFCLQFW054"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

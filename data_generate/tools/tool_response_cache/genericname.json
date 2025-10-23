@@ -1,0 +1,36 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "generic_name": "ibuprofen"
+        }
+    },
+    "{'drug': 'advil'}": {
+        "error": "",
+        "response": "{'generic_name': 'ibuprofen'}"
+    },
+    "{'drug': 'Tylenol'}": {
+        "error": "",
+        "response": "{'generic_name': 'ACETAMINOPHEN'}"
+    },
+    "{'drug': 'Lipitor'}": {
+        "error": "",
+        "response": "{'generic_name': 'atorvastatin calcium'}"
+    },
+    "{'drug': 'Nexium'}": {
+        "error": "",
+        "response": "{'generic_name': 'Esomeprazole magnesium'}"
+    },
+    "{'drug': 'Zoloft'}": {
+        "error": "",
+        "response": "{'generic_name': 'sertraline hydrochloride'}"
+    },
+    "{'drug': 'Plavix'}": {
+        "error": "",
+        "response": "{'generic_name': 'clopidogrel'}"
+    },
+    "{'drug': 'Cymbalta'}": {
+        "error": "",
+        "response": "{'generic_name': 'Duloxetine hydrochloride'}"
+    }
+}

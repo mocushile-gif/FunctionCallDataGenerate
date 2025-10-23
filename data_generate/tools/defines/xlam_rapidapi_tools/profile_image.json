@@ -1,0 +1,16 @@
+{
+    "name": "profile_image",
+    "description": "This is a sub-function API for tool image_service.\nTool description: Various image utilities like get palette and blurhash\nAPI description: Generates a profile image URL based on the provided user name and retrieves the image information from the RapidAPI image service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The user's name or any other text to generate the profile image URL."
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

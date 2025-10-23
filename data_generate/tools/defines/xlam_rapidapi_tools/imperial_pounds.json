@@ -1,0 +1,23 @@
+{
+    "name": "imperial_pounds",
+    "description": "This is a sub-function API for tool body_mass_index_bmi_calculator.\nTool description: Use this API to calculate the Body Mass Index of an individual based on their height and weight.\nAPI description: Calculates the Body Mass Index (BMI) of an individual using the imperial measurement system through an API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "weight": {
+                "type": "number",
+                "description": "The weight of the individual in pounds (lbs).",
+                "default": 150.0
+            },
+            "height": {
+                "type": "number",
+                "description": "The height of the individual in inches (in).",
+                "default": 68.0
+            }
+        },
+        "required": [
+            "weight",
+            "height"
+        ]
+    }
+}

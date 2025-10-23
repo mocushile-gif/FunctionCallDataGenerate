@@ -1,0 +1,27 @@
+{
+    "name": "scrape_links",
+    "description": "This is a sub-function API for tool scrapey_link_scraper.\nTool description: Powerful tool that enables you to extract and scrape links from web pages quickly and efficiently. With this API, you can automate the process of collecting URLs, facilitating tasks such as web crawling, data extraction, link analysis, and more.\nAPI description: Scrapes a specified number of links from the provided URL using the Scrapey Link Scraper API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The target URL from which to scrape links.",
+                "default": "amazon.com"
+            },
+            "maxlinks": {
+                "type": "number",
+                "description": "The maximum number of links to scrape. Defaults to 10.",
+                "default": 10.0
+            },
+            "includequery": {
+                "type": "boolean",
+                "description": "Whether to include query parameters in the links. Defaults to None.",
+                "default": true
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

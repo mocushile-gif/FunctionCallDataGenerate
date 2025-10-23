@@ -1,0 +1,23 @@
+{
+    "name": "news_v2_list_trending",
+    "description": "This is a sub-function API for tool seeking_alpha.\nTool description: Query for news, market moving, price quotes, chart, indices, analysis from investors and experts, etc...\nAPI description: Fetches a list of trending news from the Seeking Alpha API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "size": {
+                "type": "number",
+                "description": "The number of items per response, with a maximum of 40. Defaults to 20.",
+                "default": 20.0
+            },
+            "since": {
+                "type": "number",
+                "description": "Unix timestamp (Epoch timestamp) to filter data from this date onwards. Can be used together with the 'until' parameter to filter data by date range. Defaults to None."
+            },
+            "until": {
+                "type": "number",
+                "description": "Unix timestamp (Epoch timestamp) to filter data up to this date. Can be used together with the 'since' parameter to filter data by date range. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

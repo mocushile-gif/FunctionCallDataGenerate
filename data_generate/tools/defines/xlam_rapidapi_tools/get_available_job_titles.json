@@ -1,0 +1,17 @@
+{
+    "name": "get_available_job_titles",
+    "description": "This is a sub-function API for tool generate_linkedin_leads.\nTool description: The top-rated Lead Generation API on RapidAPI that gives valid business emails among all profiles downloaded. Our system downloads the profiles instantly after the API is called, ensuring the data is always fresh and up-to-date.\nAPI description: Fetches available LinkedIn job titles based on a provided name using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name or keyword to search for job titles.",
+                "default": "fou"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

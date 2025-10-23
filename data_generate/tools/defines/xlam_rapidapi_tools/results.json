@@ -1,0 +1,22 @@
+{
+    "name": "results",
+    "description": "This is a sub-function API for tool msport.\nTool description: Soccer livescore , results , fixtures , match and everything you need from 7msport \n\n(if you need additional or new feature just contact me)\nAPI description: Msport  Soccer results at date - a comprehensive soccer match archive",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date of the soccer matches to retrieve results for (format: 'YYYY-MM-DD').",
+                "default": "2023-01-30"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of results to retrieve. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "hosts_txt",
+    "description": "This is a sub-function API for tool stopmodreposts_blocklist.\nTool description: The StopModReposts Blocklist in different data formats.\nAPI description: Fetches the hosts file for a specific game using the StopModReposts Blocklist API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "game": {
+                "type": "string",
+                "description": "The name of the game for which to fetch the hosts file. Defaults to 'minecraft'.",
+                "default": "minecraft"
+            }
+        },
+        "required": []
+    }
+}

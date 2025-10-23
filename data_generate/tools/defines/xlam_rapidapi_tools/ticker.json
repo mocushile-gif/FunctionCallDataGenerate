@@ -1,0 +1,27 @@
+{
+    "name": "ticker",
+    "description": "This is a sub-function API for tool g_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc…\nAPI description: Fetches financial data for a given ticker symbol using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "t": {
+                "type": "string",
+                "description": "The ticker symbol for the financial instrument. Examples include 'ABNB:NASDAQ', '.DJI:INDEXDJX', 'EUR-USD', and 'BTC-USD'.",
+                "default": "ABNB:NASDAQ"
+            },
+            "gl": {
+                "type": "string",
+                "description": "The country code to filter the search results. Defaults to 'US'.",
+                "default": "US"
+            },
+            "hl": {
+                "type": "string",
+                "description": "The language code to filter the search results. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "t"
+        ]
+    }
+}

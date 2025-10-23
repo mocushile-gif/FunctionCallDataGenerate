@@ -1,0 +1,17 @@
+{
+    "name": "get_pregame_form",
+    "description": "This is a sub-function API for tool viperscore.\nTool description: ViperScore is the cheapest sports API for all hobby and business projects with over 25 endpoints, 20+ sports and 5100+ leagues! We serve comprehensive data blazing fast with a clear structure and a well thought out scheme. You get the best live results and fast information for every game and we constantly develop the API further and include more data.\nAPI description: If you're a detail hunter this is the place for you! Get the information about the last games both teams accomplished.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "gameid": {
+                "type": "string",
+                "description": "The unique identifier of the game for which to fetch pregame form information.",
+                "default": "9831832"
+            }
+        },
+        "required": [
+            "gameid"
+        ]
+    }
+}

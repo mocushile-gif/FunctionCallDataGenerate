@@ -1,0 +1,16 @@
+{
+    "name": "getresult",
+    "description": "This is a sub-function API for tool videogrammer.\nTool description: Videogrammer is a simple but powerful way to multiply social media videos\nAPI description: Retrieves the result of a previously requested video rendering job using the given job ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "job_id": {
+                "type": "string",
+                "description": "The ID of the previously requested rendering job."
+            }
+        },
+        "required": [
+            "job_id"
+        ]
+    }
+}

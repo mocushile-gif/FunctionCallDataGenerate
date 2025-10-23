@@ -1,0 +1,21 @@
+{
+    "name": "web_exchange_details",
+    "description": "This is a sub-function API for tool open_defi.\nTool description: Open DeFi API gives you access to decentralised exchange trading data, liquidity and tokens across multiple blockchains.\nAPI description: Fetches detailed information about a specific exchange on a given blockchain using the RapidAPI Open DeFi endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "exchange_slug": {
+                "type": "string",
+                "description": "The slug representing the exchange, e.g., 'sushiswap'."
+            },
+            "chain_slug": {
+                "type": "string",
+                "description": "The slug representing the blockchain, e.g., 'ethereum'."
+            }
+        },
+        "required": [
+            "exchange_slug",
+            "chain_slug"
+        ]
+    }
+}

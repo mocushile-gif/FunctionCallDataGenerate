@@ -1,0 +1,16 @@
+{
+    "name": "verify_plate_number_location",
+    "description": "This is a sub-function API for tool car_verification_nigeria.\nTool description: Use this API to determine the location where a Nigeria car is registered.\nAPI description: Enter the first 3-digit of any Nigeria plate number to know the state and LGA it comes from. For example, if a plate number is GGE123YZ. you will pass the parameter as GGE or gge (not case sensitive) and the state, LGA and state slogan will be displayed including its unique id. Feel free to try it out.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "platecodeloc": {
+                "type": "string",
+                "description": "The first three characters of a Nigerian plate number."
+            }
+        },
+        "required": [
+            "platecodeloc"
+        ]
+    }
+}

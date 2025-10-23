@@ -1,0 +1,6 @@
+{
+    "{'limit': 300}": {
+        "error": "",
+        "response": "The API has successfully retrieved a list of up to 300 airports, including their respective IATA codes. This data can be used for flight search purposes, enabling users to identify departure and arrival airports efficiently. If you need additional results beyond this limit, you can use the 'resume_key' parameter to continue fetching data from where the previous request ended."
+    }
+}

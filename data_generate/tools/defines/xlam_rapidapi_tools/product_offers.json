@@ -1,0 +1,35 @@
+{
+    "name": "product_offers",
+    "description": "This is a sub-function API for tool real_time_amazon_data.\nTool description: Fast and Simple product searches, data and reviews on Amazon.com in real-time.\nAPI description: Get top 10 offers of a specific product on Amazon by its asin, the first offer in the list is the pinned offer returned by the **Search** endpoint. Supports filtering by product condition.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "asin": {
+                "type": "string",
+                "description": "Product ASIN for which to get offers. Supports batching of up to 10 ASINs in a single request, separated by comma (e.g. *B08PPDJWC8,B07ZPKBL9V, B08BHXG144*).\n\nNote that each ASIN in a batch request is counted as a single request against the plan quota.",
+                "default": "B07ZPKBL9V"
+            },
+            "delivery": {
+                "type": "string",
+                "description": "[EXPERIMENTAL]\nFind products with specific delivery option, specified as a comma delimited list of the following values: `PRIME_ELIGIBLE,FREE_DELIVERY`.\n\n**e.g.** `FREE_DELIVERY`\n**e.g.** `PRIME_ELIGIBLE,FREE_DELIVERY`\n"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Maximum number of offers to return.\n\n**Default:** `100`",
+                "default": 100.0
+            },
+            "product_condition": {
+                "type": "string",
+                "description": "Find products in specific conditions, specified as a comma delimited list of the following values: `NEW, USED_LIKE_NEW, USED_VERY_GOOD, USED_GOOD, USED_ACCEPTABLE`.\n\n**e.g.** `NEW,USED_LIKE_NEW`\n**e.g.** `USED_VERY_GOOD,USED_GOOD,USED_LIKE_NEW`\n"
+            },
+            "country": {
+                "type": "string",
+                "description": "Sets the marketplace country, language, and currency. Allowed values: 'US', 'AU', 'BR', 'CA', 'CN', 'FR', 'DE', 'IN', 'IT', 'MX', 'NL', 'SG', 'ES', 'TR', 'AE', 'GB', 'JP'. Default is 'US'.",
+                "default": "US"
+            }
+        },
+        "required": [
+            "asin"
+        ]
+    }
+}

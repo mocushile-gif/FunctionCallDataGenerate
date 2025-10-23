@@ -1,0 +1,128 @@
+{
+    "{'sport_id': 1}": {
+        "error": "",
+        "response": "{'periods': [{'number': 0, 'description': 'Match', 'short_description': 'Match', 'spread_description': 'Handicap', 'moneyline_description': '1X2', 'total_description': 'Total', 'team_1_total_description': 'Team 1 Goals', 'team_2_total_description': 'Team 2 Goals', 'spread_short_description': 'HDP', 'moneyline_short_description': '1X2', 'total_short_description': 'O/U', 'team_1_total_short_description': 'Team 1 Goals', 'team_2_total_short_description': 'Team 2 Goals'}, {'number': 1, 'description': '1st Half', 'short_description': '1st H', 'spread_description': '1H Handicap', 'moneyline_description': '1H 1X2', 'total_description': '1H Total', 'team_1_total_description': '1H Team 1 Goals', 'team_2_total_description': '1H Team 2 Goals', 'spread_short_description': '1H HDP', 'moneyline_short_description': '1H 1X2', 'total_short_description': '1H O/U', 'team_1_total_short_description': '1H GOAL', 'team_2_total_short_description': '1H GOAL'}, {'number': 2, 'description': '2nd Half', 'short_description': '2nd H', 'spread_description': '2H Handicap', 'moneyline_description': '2H 1X2', 'total_description': '2H Total', 'team_1_total_description': '2H Team 1 Goals', 'team_2_total_description': '2H Team 2 Goals', 'spread_short_description': '2H HDP', 'moneyline_short_description': '2H 1X2', 'total_short_description': '2H O/U', 'team_1_total_short_description': '2H GOAL', 'team_2_total_short_description': '2H GOAL'}, {'number': 3, 'description': 'Extra Time', 'short_description': 'ET', 'spread_description': 'Extra Time Handicap', 'moneyline_description': 'Extra Time 1X2', 'total_description': 'Extra Time Total', 'team_1_total_description': 'Extra Time Team1 Total', 'team_2_total_description': 'Extra Time Team2 Total', 'spread_short_description': 'ET HDP', 'moneyline_short_description': 'ET 1X2', 'total_short_description': 'ET O/U', 'team_1_total_short_description': 'ET Team1 O/U', 'team_2_total_short_description': 'ET Team2 O/U'}, {'number': 4, 'description': 'Extra Time 1st Half', 'short_description': 'ET 1H', 'spread_descrip"
+    },
+    "{'sport_id': 3}": {
+        "error": "",
+        "response": "{'periods': [{'number': 0, 'description': 'Game', 'short_description': 'FT', 'spread_description': 'Handicap', 'moneyline_description': 'Money Line', 'total_description': 'Total Points', 'team_1_total_description': 'Team 1 Points', 'team_2_total_description': 'Team 2 Points', 'spread_short_description': 'HDP', 'moneyline_short_description': 'Money Line', 'total_short_description': 'Total Points', 'team_1_total_short_description': 'Team 1 Points', 'team_2_total_short_description': 'Team 2 Points'}, {'number': 1, 'description': '1st Half', 'short_description': '1st H', 'spread_description': '1H Handicap', 'moneyline_description': '1H Money Line', 'total_description': '1H Total', 'team_1_total_description': '1H Team 1 Points', 'team_2_total_description': '1H Team 2 Points', 'spread_short_description': '1H HDP', 'moneyline_short_description': '1H Money Line', 'total_short_description': '1H Total Points', 'team_1_total_short_description': '1H Team 1 Points', 'team_2_total_short_description': '1H Team 2 Points'}, {'number': 2, 'description': '2nd Half', 'short_description': '2nd H', 'spread_description': '2H Handicap', 'moneyline_description': '2H Money Line', 'total_description': '2H Total', 'team_1_total_description': '2H Team 1 Points', 'team_2_total_description': '2H Team 2 Points', 'spread_short_description': '2H HDP', 'moneyline_short_description': '2H Money Line', 'total_short_description': '2H Total Points', 'team_1_total_short_description': '2H Team 1 Points', 'team_2_total_short_description': '2H Team 2 Points'}, {'number': 3, 'description': '1st Quarter', 'short_description': '1st Q', 'spread_description': '1Q Handicap', 'moneyline_description': '1Q Money Line', 'total_description': '1Q Total', 'team_1_total_description': '1Q Team 1 Points', 'team_2_total_description': '1Q Team 2 Points', 'spread_short_description': '1Q HDP', 'moneyline_short_description': '1Q Money Line', 'total_short_description': '1Q Total Points', 'team_1_total_short_description': '1Q Team 1 Points', 'team_2_total_short_description': '1Q"
+    },
+    "{'sport_id': 4}": {
+        "error": "",
+        "response": {
+            "periods": [
+                {
+                    "number": 0,
+                    "description": "Game",
+                    "short_description": "OT Incl.",
+                    "spread_description": "Handicap",
+                    "moneyline_description": "Money Line",
+                    "total_description": "Total Goals",
+                    "team_1_total_description": "Team 1 Goals",
+                    "team_2_total_description": "Team 2 Goals",
+                    "spread_short_description": "HDP",
+                    "moneyline_short_description": "Money Line",
+                    "total_short_description": "Total Goals",
+                    "team_1_total_short_description": "Team 1 Goals",
+                    "team_2_total_short_description": "Team 2 Goals"
+                },
+                {
+                    "number": 1,
+                    "description": "1st Period",
+                    "short_description": "1st P",
+                    "spread_description": "1P Handicap",
+                    "moneyline_description": "1P Money Line",
+                    "total_description": "1P Total Goals",
+                    "team_1_total_description": "",
+                    "team_2_total_description": "",
+                    "spread_short_description": "1P HDP",
+                    "moneyline_short_description": "1P Money Line",
+                    "total_short_description": "1P Total Goals",
+                    "team_1_total_short_description": "",
+                    "team_2_total_short_description": ""
+                },
+                {
+                    "number": 2,
+                    "description": "2nd Period",
+                    "short_description": "2nd P",
+                    "spread_description": "2P Handicap",
+                    "moneyline_description": "2P Money Line",
+                    "total_description": "2P Total Goals",
+                    "team_1_total_description": "",
+                    "team_2_total_description": "",
+                    "spread_short_description": "2P HDP",
+                    "moneyline_short_description": "2P Money Line",
+                    "total_short_description": "2P Total Goals",
+                    "team_1_total_short_description": "",
+                    "team_2_total_short_description": ""
+                },
+                {
+                    "number": 3,
+                    "description": "3rd Period",
+                    "short_description": "3rd P",
+                    "spread_description": "3P Handicap",
+                    "moneyline_description": "3P Money Line",
+                    "total_description": "3P Total Goals",
+                    "team_1_total_description": "",
+                    "team_2_total_description": "",
+                    "spread_short_description": "3P HDP",
+                    "moneyline_short_description": "3P Money Line",
+                    "total_short_description": "3P Total Goals",
+                    "team_1_total_short_description": "",
+                    "team_2_total_short_description": ""
+                },
+                {
+                    "number": 4,
+                    "description": "Overtime",
+                    "short_description": "OT",
+                    "spread_description": "Overtime Handicap",
+                    "moneyline_description": "Overtime ML",
+                    "total_description": "Overtime Total",
+                    "team_1_total_description": "Overtime Team1 Total",
+                    "team_2_total_description": "Overtime Team2 Total",
+                    "spread_short_description": "OT HDP",
+                    "moneyline_short_description": "OT ML",
+                    "total_short_description": "OT O/U",
+                    "team_1_total_short_description": "OT Team1 O/U",
+                    "team_2_total_short_description": "OT Team2 O/U"
+                },
+                {
+                    "number": 5,
+                    "description": "Shootout",
+                    "short_description": "Shootout",
+                    "spread_description": "Shootout Handicap",
+                    "moneyline_description": "Shootout ML",
+                    "total_description": "Shootout Total",
+                    "team_1_total_description": "Shootout Team1 Total",
+                    "team_2_total_description": "Shootout Team2 Total",
+                    "spread_short_description": "Shootout HDP",
+                    "moneyline_short_description": "Shootout ML",
+                    "total_short_description": "Shootout O/U",
+                    "team_1_total_short_description": "Shootout Team1 O/U",
+                    "team_2_total_short_description": "Shootout Team2 O/U"
+                },
+                {
+                    "number": 6,
+                    "description": "Regulation Time",
+                    "short_description": "60 min",
+                    "spread_description": "Handicap",
+                    "moneyline_description": "Money Line",
+                    "total_description": "Total",
+                    "team_1_total_description": "Team 1 Total",
+                    "team_2_total_description": "Team 2 Total",
+                    "spread_short_description": "HDP",
+                    "moneyline_short_description": "ML",
+                    "total_short_description": "Total",
+                    "team_1_total_short_description": "Team 1 Total",
+                    "team_2_total_short_description": "Team 2 Total"
+                }
+            ]
+        }
+    },
+    "{'sport_id': 29}": {
+        "error": "",
+        "response": {
+            "detail": "Not found"
+        }
+    }
+}

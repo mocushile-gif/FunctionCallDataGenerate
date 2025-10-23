@@ -1,0 +1,27 @@
+{
+    "name": "verify",
+    "description": "This is a sub-function API for tool email_utilities.\nTool description: API to validate email and normalize email\nAPI description: Verifies an email address by normalizing it and optionally checking SMTP and suggesting a valid domain.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to be verified.",
+                "default": "cognitive.camp@gmail.com"
+            },
+            "checksmtp": {
+                "type": "boolean",
+                "description": "Whether to check the SMTP server on port 25. Defaults to None.",
+                "default": true
+            },
+            "suggestdomain": {
+                "type": "boolean",
+                "description": "Whether to suggest a valid domain if the provided one is incorrect. Defaults to None.",
+                "default": true
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

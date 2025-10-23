@@ -1,0 +1,29 @@
+{
+    "name": "getmaptilewithfrenchlabels",
+    "description": "This is a sub-function API for tool maptiles.\nTool description: Map Tiles for interactive online maps based on data by OpenStreetMap contributors with labels in English, French or Spanish. \nAPI description: Fetches a raster map tile with French labels from the RapidAPI Map Tiles service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x": {
+                "type": "number",
+                "description": "X-number of tile (see documentation)",
+                "default": 8.0
+            },
+            "y": {
+                "type": "number",
+                "description": "Y-number of tile (see documentation)",
+                "default": 5.0
+            },
+            "z": {
+                "type": "number",
+                "description": "The zoom level of the map tile, ranging from 0 to 19.",
+                "default": 4.0
+            }
+        },
+        "required": [
+            "x",
+            "y",
+            "z"
+        ]
+    }
+}

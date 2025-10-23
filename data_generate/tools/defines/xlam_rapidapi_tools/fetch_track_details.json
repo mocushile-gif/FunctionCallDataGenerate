@@ -1,0 +1,17 @@
+{
+    "name": "fetch_track_details",
+    "description": "This is a sub-function API for tool latest_spotify_downloader.\nTool description: Latest Spotify Downloader — Contact Us at spotify-support@logicsquares.com\nAPI description: Fetches the details of a specific track using the provided track ID from the latest Spotify downloader API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "track_id": {
+                "type": "string",
+                "description": "The unique identifier of the track to fetch details for.",
+                "default": "2gAKyzcfFIlMYdJ2b836At"
+            }
+        },
+        "required": [
+            "track_id"
+        ]
+    }
+}

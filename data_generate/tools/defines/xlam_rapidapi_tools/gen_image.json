@@ -1,0 +1,24 @@
+{
+    "name": "gen_image",
+    "description": "This is a sub-function API for tool thai_lottery_result_image.\nTool description: Thai Lottery Result Image\nAPI description: Generates an image based on specified parameters by making a request to the Thai Lottery Result Image API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to generate the image. Defaults to '01062564'.",
+                "default": "01062564"
+            },
+            "bgimg": {
+                "type": "string",
+                "description": "The background image to use. Optional."
+            },
+            "rmber": {
+                "type": "boolean",
+                "description": "A flag indicating whether certain elements (like numbers) should be removed. Optional.",
+                "default": true
+            }
+        },
+        "required": []
+    }
+}

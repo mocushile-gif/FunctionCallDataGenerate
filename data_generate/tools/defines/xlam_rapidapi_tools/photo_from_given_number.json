@@ -1,0 +1,17 @@
+{
+    "name": "photo_from_given_number",
+    "description": "This is a sub-function API for tool dimondevosint.\nTool description: It is an API for mobile phone number OSINT. If you abuse it, you will be immediately banned!\nAPI description: Searches for a photo on the internet using the provided phone number and returns the photo in bytes if a match is found.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone": {
+                "type": "string",
+                "description": "The phone number to search for.",
+                "default": "+79999999999"
+            }
+        },
+        "required": [
+            "phone"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "shopify_store_products",
+    "description": "This is a sub-function API for tool shopify_store_scraper.\nTool description: Scrape complete products of any shopify store.\nAPI description: Retrieve all products from a Shopify store using the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve products from.",
+                "default": 1.0
+            },
+            "url": {
+                "type": "string",
+                "description": "The base URL of the Shopify store.",
+                "default": "https://row.gymshark.com"
+            }
+        },
+        "required": [
+            "page",
+            "url"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "i18nregions",
+    "description": "This is a sub-function API for tool youtube_v3_v3.\nTool description: YouTube Data v3 API is a tool for developers to access and manipulate YouTube data, including videos, channels, and playlists, so they can create custom experiences for users.\nAPI description: Returns a list of content regions that the YouTube website supports.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "part": {
+                "type": "string",
+                "description": "The **part** parameter specifies the **i18nRegion** resource properties that the API response will include. Set the parameter value to **snippet**.",
+                "default": "snippet"
+            },
+            "hl": {
+                "type": "string",
+                "description": "The **hl** parameter specifies the language that should be used for text values in the API response. The default value is **en_US**.",
+                "default": "en_US"
+            }
+        },
+        "required": [
+            "part"
+        ]
+    }
+}

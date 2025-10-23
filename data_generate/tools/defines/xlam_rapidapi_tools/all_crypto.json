@@ -1,0 +1,20 @@
+{
+    "name": "all_crypto",
+    "description": "This is a sub-function API for tool investing_financial_stocks.\nTool description: get all investing.com stocks realtime data in multi language and filters\nAPI description: Fetches a datatable of cryptocurrency information from the RapidAPI endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number of the data to retrieve. Defaults to '1'.",
+                "default": "1"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the data. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": []
+    }
+}

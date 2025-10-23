@@ -1,0 +1,20 @@
+{
+    "name": "getcompanies",
+    "description": "This is a sub-function API for tool intercom.\nTool description: Access data and build integrations for this chat app.\nAPI description: Fetches AI companies from a given page through the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "accesstoken": {
+                "type": "string",
+                "description": "Access token."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve companies from."
+            }
+        },
+        "required": [
+            "accesstoken"
+        ]
+    }
+}

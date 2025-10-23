@@ -1,0 +1,22 @@
+{
+    "name": "consulta_receita_federal",
+    "description": "This is a sub-function API for tool consulta_cnpj_tempo_real.\nTool description: API Tempo Real de Consultas a Receita Federal, Simples Nacional e Cadastro de Contribuintes (SINTEGRA).\nAPI description: Fetch data from the Receita Federal using a given tax ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "taxid": {
+                "type": "string",
+                "description": "The tax ID to search for in the Receita Federal database.",
+                "default": "37335118000180"
+            },
+            "maxage": {
+                "type": "number",
+                "description": "The maximum age of the data to be fetched. Defaults to 30.",
+                "default": 30.0
+            }
+        },
+        "required": [
+            "taxid"
+        ]
+    }
+}

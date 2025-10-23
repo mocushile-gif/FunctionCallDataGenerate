@@ -1,0 +1,34 @@
+{
+    "{'is_id': '63cd3facc56e9a2922344ed4'}": {
+        "error": "",
+        "response": {
+            "Yo Mama So...": {
+                "_id": {
+                    "$oid": "63cd3facc56e9a2922344ed4"
+                },
+                "content": "Yo momma is so fat... she makes Godzilla look like an action figure.",
+                "category": "fat",
+                "added_by": "Developer",
+                "added_on": "2022-12-14",
+                "status": "Active",
+                "explicit": false
+            }
+        }
+    },
+    "{'is_id': '123e4567-e89b-12d3-a456-426614174000'}": {
+        "error": "",
+        "response": {
+            "Yo Mama So...": {
+                "_id": {
+                    "$oid": "123e4567-e89b-12d3-a456-426614174000"
+                },
+                "content": "Yo mama is so clumsy, she tripped over a wireless internet connection.",
+                "category": "clumsy",
+                "added_by": "Community",
+                "added_on": "2023-10-01",
+                "status": "Active",
+                "explicit": false
+            }
+        }
+    }
+}

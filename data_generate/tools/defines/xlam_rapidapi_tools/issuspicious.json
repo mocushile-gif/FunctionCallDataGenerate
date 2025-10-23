@@ -1,0 +1,27 @@
+{
+    "name": "issuspicious",
+    "description": "This is a sub-function API for tool openblur.\nTool description: Unofficial Listings API for blur.io\n\n- For Blur V1 endpoints use this API: https://rapidapi.com/openseatools/api/opensea15\n\n- Crypto Payments Available\n\n- Lifetime Unlimited Requests Licenses Available\n\n- Private Plans with 16 / 32 / 64 / 128  requests/second Available\n\n- Ready made bots written in node.js already configured to work with RapidApi Available.\n\nJoin our Discord to inquire & find out the latest information and tools: \n\nhttps://discord.gg/Yezs2VDhBV\nAPI description: Records a history of isSuspicious / stolen NFTs change over time",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "contractaddress": {
+                "type": "string",
+                "description": "The contract address of the NFTs to filter the results. Default is None."
+            },
+            "afterid": {
+                "type": "number",
+                "description": "An ID to filter results that come after this specific ID. Default is None."
+            },
+            "pagesize": {
+                "type": "number",
+                "description": "The number of records to fetch per page. Default is 50.",
+                "default": 50.0
+            },
+            "beforeid": {
+                "type": "number",
+                "description": "An ID to filter results that come before this specific ID. Default is None."
+            }
+        },
+        "required": []
+    }
+}

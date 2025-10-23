@@ -1,0 +1,60 @@
+{
+    "name": "ultimateoscillator",
+    "description": "This is a sub-function API for tool qvantana.\nTool description: Our free API provides real-time and historical crypto trading data from 4 major exchanges, enriched with over 30 customizable trading indicators. It offers up to 5000 rows of data in a single request, ensuring comprehensive market analysis. The API is user-friendly and offers improved data fetching capabilities compared to standard exchange documentation, making it an essential tool for traders and developers alike.\nAPI description: Fetches the Ultimate Oscillator (UO) indicator data for a given cryptocurrency symbol from the Qvantana API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "exchange": {
+                "type": "string",
+                "description": "The exchange to retrieve data from.",
+                "default": "binance"
+            },
+            "interval": {
+                "type": "string",
+                "description": "The interval time frame for the data (e.g., '1h', '1d').",
+                "default": "1m"
+            },
+            "market": {
+                "type": "string",
+                "description": "The type of market to query (e.g., 'spot', 'usdt-perpetual', 'inverse-perpetual').",
+                "default": "spot"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The cryptocurrency symbol to retrieve the indicator for.",
+                "default": "btcusdt"
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The starting time for the data retrieval in Unix timestamp format. Defaults to '1683895800'.",
+                "default": "1683895800"
+            },
+            "shortperiod": {
+                "type": "number",
+                "description": "The short time period used for the Ultimate Oscillator. Defaults to 7.",
+                "default": 7.0
+            },
+            "mediumperiod": {
+                "type": "number",
+                "description": "The medium time period used for the Ultimate Oscillator. Defaults to 14.",
+                "default": 14.0
+            },
+            "longperiod": {
+                "type": "number",
+                "description": "The long time period used for the Ultimate Oscillator. Defaults to 28.",
+                "default": 28.0
+            },
+            "backtracks": {
+                "type": "number",
+                "description": "The number of past periods to include in the analysis. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "exchange",
+            "interval",
+            "market",
+            "symbol"
+        ]
+    }
+}

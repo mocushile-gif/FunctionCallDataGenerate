@@ -1,0 +1,17 @@
+{
+    "name": "get_supported_file_type",
+    "description": "This is a sub-function API for tool all_in_one_file_converter.\nTool description: All in one file converter can convert different types of files. It can convert audio, video, images, documents, and archive files.\nAPI description: Retrieves the supported file types for a given input file type using the All-In-One File Converter API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "input": {
+                "type": "string",
+                "description": "The input file type for which to retrieve the supported file types.",
+                "default": "jpg"
+            }
+        },
+        "required": [
+            "input"
+        ]
+    }
+}

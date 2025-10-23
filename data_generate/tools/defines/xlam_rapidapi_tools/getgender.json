@@ -1,0 +1,17 @@
+{
+    "name": "getgender",
+    "description": "This is a sub-function API for tool gender_from_name.\nTool description: Find the gender by just using a name.\nAPI description: Finds the gender from over 100,000 (first) names.  Supports name variants as well.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name for which to determine the gender.",
+                "default": "Jane"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

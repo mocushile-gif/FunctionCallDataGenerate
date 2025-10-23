@@ -1,0 +1,17 @@
+{
+    "name": "search_single_postcode",
+    "description": "This is a sub-function API for tool uk_postcode_to_latitude_and_longitude.\nTool description: Convert a UK Postcode To Latitude and Longitude\nAPI description: Fetches the latitude and longitude coordinates for a given UK postcode using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "postcode": {
+                "type": "string",
+                "description": "The postcode for which to fetch the latitude and longitude.",
+                "default": "SE1 7EH"
+            }
+        },
+        "required": [
+            "postcode"
+        ]
+    }
+}

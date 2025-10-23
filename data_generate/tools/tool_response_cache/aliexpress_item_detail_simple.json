@@ -1,0 +1,38 @@
+{
+    "{'itemid': 3256804591426248.0, 'region': 'GB'}": {
+        "error": "",
+        "response": {
+            "product_id": 3256804591426248,
+            "title": "Wireless Bluetooth Earbuds with Charging Case",
+            "price": "\u00a329.99",
+            "original_price": "\u00a349.99",
+            "discount": "40% OFF",
+            "stock": 1500,
+            "currency": "GBP",
+            "region": "GB",
+            "shipping": {
+                "cost": "Free",
+                "estimated_delivery": "5-9 days"
+            },
+            "rating": {
+                "score": 4.7,
+                "reviews": 2800
+            },
+            "product_url": "https://www.aliexpress.com/item/3256804591426248.html",
+            "specs": [
+                "Bluetooth 5.3",
+                "24H Playtime",
+                "IPX7 Waterproof"
+            ],
+            "seller_info": {
+                "name": "TechGadgetsUK",
+                "response_rate": "98%",
+                "orders_shipped": "5000+"
+            }
+        }
+    },
+    "{'itemid': 3256804591426248}": {
+        "error": "",
+        "response": "{'result': {'status': {'code': 200, 'data': 'success', 'executionTime': '0.24', 'requestTime': '2023-07-18 19:32:30', 'requestId': '9c0ad22b4ea9ea817bc8a8446e2c6d0f', 'endpoint': 'item_detail_simple', 'apiVersion': '3.2.4', 'functionsVersion': '3.0.8', 'la': '0.00', 'pmu': 391376, 'mu': 377128}, 'settings': {'locale': 'en_US', 'currency': 'USD', 'itemId': '3256804591426248'}, 'item': {'itemId': 3256804591426248, 'title': 'Professional S6S Mini GPS Drone RC Toy 4K HD Dual Camera 5G WIFI FPV Brushless Folding Quadcopter Remote Control Helicopter Toys', 'itemUrl': '//www.aliexpress.com/item/3256804591426248.html', 'images': ['//ae01.alicdn.com/kf/Sfee7f6b87f1340f2a81086a4ec233d90a.jpg', '//ae01.alicdn.com/kf/Sbe068f55f1a14941b55ee14245eac0ff3.jpg', '//ae01.alicdn.com/kf/Sd6526101f9cf4ad0a74b4a65ba3e4f45Q.jpg', '//ae01.alicdn.com/kf/Sb72230d5e19341b88347b154d0e2acdf9.jpg', '//ae01.alicdn.com/kf/S346d691665c145789af9ceab14f668c4g.jpg', '//ae01.alicdn.com/kf/S23b0dd0c43ea4a80aaa8856f159602c1T.jpg'], 'sku': {'def': {'price': '97.51 - 128.75'}}}}}"
+    }
+}

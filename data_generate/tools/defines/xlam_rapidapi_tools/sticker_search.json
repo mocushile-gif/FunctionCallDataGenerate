@@ -1,0 +1,29 @@
+{
+    "name": "sticker_search",
+    "description": "This is a sub-function API for tool giphy.\nTool description: Giphy is an animated GIF search engine.\r\n\r\nThe Giphy API implements a REST-like interface. Connections can be made with any HTTP enabled programming language. The Giphy API also implements CORS, allowing you to connect to Giphy from JavaScript / Web browsers on your own domain.\nAPI description: Replicates the functionality and requirements of the classic Giphy search, but returns animated stickers rather than gifs.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "Search query term or phrase.",
+                "default": "cat"
+            },
+            "limit": {
+                "type": "string",
+                "description": "Number of results to return, with a maximum of 100. Defaults to 25."
+            },
+            "offset": {
+                "type": "string",
+                "description": "Results offset, defaults to 0."
+            },
+            "rating": {
+                "type": "string",
+                "description": "Limit results to those rated (y, g, pg, pg-13, or r)."
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

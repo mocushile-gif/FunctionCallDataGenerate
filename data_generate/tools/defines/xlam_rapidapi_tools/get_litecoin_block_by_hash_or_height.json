@@ -1,0 +1,17 @@
+{
+    "name": "get_litecoin_block_by_hash_or_height",
+    "description": "This is a sub-function API for tool litecoin_wallet.\nTool description: litecoin blockchain wallet that support creating wallets & addresses, sending and receiving Litecoins and many more!\nAPI description: Fetches detailed information about a Litecoin block by its hash or height.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hash": {
+                "type": "string",
+                "description": "The hash or height of the Litecoin block you want to retrieve details for.",
+                "default": "1234314"
+            }
+        },
+        "required": [
+            "hash"
+        ]
+    }
+}

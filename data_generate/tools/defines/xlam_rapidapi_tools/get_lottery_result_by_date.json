@@ -1,0 +1,17 @@
+{
+    "name": "get_lottery_result_by_date",
+    "description": "This is a sub-function API for tool thai_lottery.\nTool description: Api for serve result of Thailand lottory. - API สําหรับดึงข้อมูลผลการออกรางวัลสลากกินแบ่งรัฐบาล ข้อมูลตั้งแต่อดีต จนถึงงวดปัจจุบัน อัพเดททันทีหลังจากผลสลากออกอย่างเป็นทางการ\nAPI description: Fetches the lottery results for the given date using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve the lottery results, formatted as 'YYYY-MM-DD'.",
+                "default": "2022-10-16"
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

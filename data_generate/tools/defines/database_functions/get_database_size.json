@@ -1,0 +1,14 @@
+{
+    "name": "get_database_size",
+    "description": "Retrieve the size of a SQLite database file, returning both raw byte size and human-readable size.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "The path to the database."
+        }
+      },
+    "required": ["database_path"]
+    }
+}

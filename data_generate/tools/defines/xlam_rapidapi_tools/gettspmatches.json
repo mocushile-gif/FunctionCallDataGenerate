@@ -1,0 +1,25 @@
+{
+    "name": "gettspmatches",
+    "description": "This is a sub-function API for tool betsports.\nTool description: BetSports Api\nAPI description: Retrieves TSP match data from the Betsports API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cookie": {
+                "type": "string",
+                "description": "Cookie string for the request headers, default is 'i18next=es;'.",
+                "default": "i18next=es;"
+            },
+            "host": {
+                "type": "string",
+                "description": "Host string for the request headers, default is 'www.mozzartbet.com.co'.",
+                "default": "www.mozzartbet.com.co"
+            },
+            "referer": {
+                "type": "string",
+                "description": "Referer string for the request headers, default is 'https://www.mozzartbet.com.co/es'.",
+                "default": "https://www.mozzartbet.com.co/es"
+            }
+        },
+        "required": []
+    }
+}

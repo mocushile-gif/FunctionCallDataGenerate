@@ -1,0 +1,31 @@
+{
+    "name": "product",
+    "description": "This is a sub-function API for tool ikea_api.\nTool description: This [unofficial] Ikea API is a great solution for developers looking for a comprehensive and up-to-date access to Ikea's products and search. An Ikea Scraper REST API solution.\nAPI description: Fetch up-to-date information for a specific product from the IKEA API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "countrycode": {
+                "type": "string",
+                "description": "Can be obtained through the  **Countries** endpoint,",
+                "default": "us"
+            },
+            "productid": {
+                "type": "string",
+                "description": "Can be obtained through the  **Search By Keyword or Category** endpoints,"
+            },
+            "languagecode": {
+                "type": "string",
+                "description": "The language code for the response. Default is 'en'.",
+                "default": "en"
+            },
+            "store": {
+                "type": "string",
+                "description": "Can be obtained through the  **Stores** endpoint,"
+            }
+        },
+        "required": [
+            "countrycode",
+            "productid"
+        ]
+    }
+}

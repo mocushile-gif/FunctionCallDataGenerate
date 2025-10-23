@@ -1,0 +1,17 @@
+{
+    "name": "get_call",
+    "description": "This is a sub-function API for tool face_liveness_check.\nTool description: Check if the selfie your users take is indeed live, optimally clicked to save in your records, if there are multiple faces detected in the image, and what percentage of the image does the face actually cover.  Face liveness detection helps you uncover frauds by ensuring that the image you have been provided isn’t a picture of a picture, a passport sized image, or an image of another individual on a cell phone / laptop screen.  Pair it to the Face Compare API to have complete confidence that t...\nAPI description: Used to fetch api result using the request id received in responses.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "request_id": {
+                "type": "string",
+                "description": "The unique identifier for the API request.",
+                "default": "68bbb910-da9b-4d8a-9a1d-4bd878b19846"
+            }
+        },
+        "required": [
+            "request_id"
+        ]
+    }
+}

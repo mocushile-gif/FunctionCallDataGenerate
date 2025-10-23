@@ -1,0 +1,21 @@
+{
+    "name": "get_exchange_rate",
+    "description": "This is a sub-function API for tool currency_ex.\nTool description: Provide full range of currency exchange rate.\nAPI description: Fetches the exchange rate between two currency codes using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "to": {
+                "type": "string",
+                "description": "The target currency code for which you want to get the exchange rate."
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The base currency code from which you are converting."
+            }
+        },
+        "required": [
+            "to",
+            "is_from"
+        ]
+    }
+}

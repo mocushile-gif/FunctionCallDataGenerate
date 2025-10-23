@@ -1,0 +1,67 @@
+{
+    "name": "v1_planets",
+    "description": "This is a sub-function API for tool planets_by_api_ninjas.\nTool description: Get statistics on thousands of planets in the known universe. See more info at https://api-ninjas.com/api/planets.\nAPI description: Get a list of planets matching specified parameters. Returns at most 30 results. To access more than 30 results, use the offset parameter to offset results in multiple API calls.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "max_period": {
+                "type": "number",
+                "description": "Maximum orbital period of the planet in Earth days."
+            },
+            "max_temperature": {
+                "type": "number",
+                "description": "Maximum average surface temperature of the planet in Kelvin."
+            },
+            "offset": {
+                "type": "number",
+                "description": "Number of results to offset for pagination."
+            },
+            "max_distance_light_year": {
+                "type": "number",
+                "description": "Maximum distance the planet is from Earth in light years."
+            },
+            "min_distance_light_year": {
+                "type": "number",
+                "description": "Minimum distance the planet is from Earth in light years."
+            },
+            "max_mass": {
+                "type": "number",
+                "description": "Maximum mass of the planet in Jupiters (1 Jupiter = 1.898 × 10^27 kg)."
+            },
+            "max_semi_major_axis": {
+                "type": "number",
+                "description": "Maximum semi-major axis of the planet in astronomical units (AU)."
+            },
+            "min_mass": {
+                "type": "number",
+                "description": "Minimum mass of the planet in Jupiters (1 Jupiter = 1.898 × 10^27 kg)."
+            },
+            "min_semi_major_axis": {
+                "type": "number",
+                "description": "Minimum semi-major axis of the planet in astronomical units (AU)."
+            },
+            "name": {
+                "type": "string",
+                "description": "Name of the planet. Defaults to 'Mars'.",
+                "default": "Mars"
+            },
+            "min_temperature": {
+                "type": "number",
+                "description": "Minimum average surface temperature of the planet in Kelvin."
+            },
+            "max_radius": {
+                "type": "number",
+                "description": "Maximum average radius of the planet in Jupiters (1 Jupiter = 69911 km)."
+            },
+            "min_radius": {
+                "type": "number",
+                "description": "Minimum average radius of the planet in Jupiters (1 Jupiter = 69911 km)."
+            },
+            "min_period": {
+                "type": "number",
+                "description": "Minimum orbital period of the planet in Earth days."
+            }
+        },
+        "required": []
+    }
+}

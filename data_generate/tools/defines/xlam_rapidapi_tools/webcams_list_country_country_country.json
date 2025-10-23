@@ -1,0 +1,26 @@
+{
+    "name": "webcams_list_country_country_country",
+    "description": "This is a sub-function API for tool webcams_travel.\nTool description: The World's Largest Landscape Webcam API ***** Get webcams by categories, country, region or just nearby your location ***** Get timelapse slideshows for every webcam ***** Get an uncluttered webcam layer for your map\nAPI description: This is a modifier. Returns a list of webcams according to the listed country. Multiple countries must be separated by comma. Required: at least one {country}. Possible values are ISO 3166-1-alpha-2 codes.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "Comma-separated ISO 3166-1-alpha-2 codes representing the country or countries of interest."
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language to localize the results to, if available. Default is 'en'.",
+                "default": "en"
+            },
+            "show": {
+                "type": "string",
+                "description": "Content to be listed in the response. Possible values are: \"webcams\", \"categories\", \"continents\", \"countries\", \"regions\", \"properties\". Default is \"webcams\".",
+                "default": "webcams:image,location"
+            }
+        },
+        "required": [
+            "country"
+        ]
+    }
+}

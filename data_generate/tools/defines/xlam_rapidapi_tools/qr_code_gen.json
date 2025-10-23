@@ -1,0 +1,17 @@
+{
+    "name": "qr_code_gen",
+    "description": "This is a sub-function API for tool simple_cheap_qr_code_generator.\nTool description: Send a string, get a QR CODE - As simple as it gets\nAPI description: This endpoint takes a \"GET\" request with the \"url\" query parameter and returns a QR code image associated with the text passed.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL for which to generate the QR code.",
+                "default": "www.google.com"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

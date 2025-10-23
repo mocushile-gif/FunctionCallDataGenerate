@@ -1,0 +1,23 @@
+{
+    "{'symbol': 'SPY'}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "symbol": "SPY"
+            },
+            "url": ""
+        }
+    },
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'AAPL'}, 'url': 'https://api.twelvedata.com/logo/apple.com'}"
+    },
+    "{'symbol': 'MSFT'}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'MSFT'}, 'url': 'https://api.twelvedata.com/logo/microsoft.com'}"
+    },
+    "{'symbol': 'META'}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'META'}, 'url': 'https://logo.twelvedata.com/symbols/fb-meta.jpg'}"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_airports_by_city",
+    "description": "This is a sub-function API for tool airports_finder.\nTool description: Airport Finder is a robust API designed to locate airports worldwide. It provides accurate and up-to-date information about airports, including names, IATA codes, locations, time zones, and more. With its easy integration and comprehensive data, Airport Finder simplifies the process of incorporating airport information into your application. Deploy it to enhance travel-related services, flight booking platforms, or any application that requires efficient airport search capabilities.\nAPI description: The \"Get Airports By City\" API enables you to effortlessly retrieve a list of airports based on a specific city. This API provides comprehensive details about airports, including their names, IATA codes, locations, and additional information.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "city": {
+                "type": "string",
+                "description": "Name of the city for which the airport details are to be retrieved.",
+                "default": "dallas"
+            }
+        },
+        "required": [
+            "city"
+        ]
+    }
+}

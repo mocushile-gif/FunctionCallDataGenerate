@@ -1,0 +1,41 @@
+{
+    "name": "videogames_news_search",
+    "description": "This is a sub-function API for tool videogames_news.\nTool description: Curated video games news from top sources\nAPI description: Searches for current and historical news related to video games from top sources based on the given query and optional filters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The query text to search for in the news articles.",
+                "default": "GTA"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve, for paginating through results."
+            },
+            "to_date": {
+                "type": "string",
+                "description": "The latest date for articles in ISO 8601 format (e.g., \"2022-03-15\")."
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "Sort order that will be used for ordering the results",
+                "enum": [
+                    "date",
+                    "relevancy"
+                ]
+            },
+            "from_date": {
+                "type": "string",
+                "description": "The earliest date for articles in ISO 8601 format (e.g., \"2022-03-15\")."
+            },
+            "per_page": {
+                "type": "number",
+                "description": "The number of results to return per page."
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

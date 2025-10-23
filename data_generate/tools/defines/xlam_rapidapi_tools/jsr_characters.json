@@ -1,0 +1,25 @@
+{
+    "name": "jsr_characters",
+    "description": "This is a sub-function API for tool jet_set_radio_api.\nTool description: A data provider for all things Jet Set Radio in JSON format!\nAPI description: Fetches a list of characters from the Jet Set Radio API with optional filtering, sorting, and ordering parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "Specifies the maximum number of items to be returned. Default is '5'.",
+                "default": "5"
+            },
+            "sortby": {
+                "type": "string",
+                "description": "The field by which to sort the characters. Default is 'name'. Possible values include any field on the document, such as 'name' or 'stats'.",
+                "default": "name"
+            },
+            "orderby": {
+                "type": "string",
+                "description": "The order in which to sort the characters. Default is 'asc'. Possible values are 'asc' for ascending and 'desc' for descending. Must be used in conjunction with 'sortby'.",
+                "default": "asc"
+            }
+        },
+        "required": []
+    }
+}

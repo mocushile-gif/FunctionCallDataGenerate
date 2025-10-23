@@ -1,0 +1,88 @@
+{
+    "name": "downalods_hotels",
+    "description": "This is a sub-function API for tool priceline_com_provider.\nTool description: priceline.com | Lets you search hotels, cars for rent, flights. **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters **Other travel  api:** https://rapi.one\nAPI description: Downloads a list of hotels based on various filters and returns the response.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "active_mer": {
+                "type": "string",
+                "description": "Show hotels with Priceline rates."
+            },
+            "latitude_range_end": {
+                "type": "string",
+                "description": "Endpoint of the latitude range; requires `latitude` to have a value."
+            },
+            "active_smop": {
+                "type": "string",
+                "description": "Show hotels with semi-opaque rates."
+            },
+            "active_vmer": {
+                "type": "string",
+                "description": "Show hotels with vacation merchant rates."
+            },
+            "state_code": {
+                "type": "string",
+                "description": "Filter by the state code of the hotel."
+            },
+            "longitude_range_end": {
+                "type": "string",
+                "description": "Endpoint of the longitude range; requires `longitude` to have a value."
+            },
+            "active_bkg": {
+                "type": "string",
+                "description": "Show hotels with Booking rates."
+            },
+            "latitude": {
+                "type": "string",
+                "description": "Filter by the latitude of the hotel."
+            },
+            "hotelid_ppn": {
+                "type": "string",
+                "description": "Filter by PPN hotel ID."
+            },
+            "longitude": {
+                "type": "string",
+                "description": "Filter by the longitude of the hotel."
+            },
+            "property_type_ids": {
+                "type": "string",
+                "description": "Filter by property type IDs. See the Property Type Filter Guide for more details."
+            },
+            "cityid_ppn": {
+                "type": "string",
+                "description": "Filter by PPN city ID."
+            },
+            "hotel_address": {
+                "type": "string",
+                "description": "Filter by the address of the hotel."
+            },
+            "resume_key": {
+                "type": "string",
+                "description": "Resume results from the given ID."
+            },
+            "language": {
+                "type": "string",
+                "description": "Language code in the format of 'xx-XX'. For example, en-US, es-ES, fr-FR, pt-BR.",
+                "default": "fr-FR"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Limits the number of results returned in the response.",
+                "default": 100
+            },
+            "active_agd": {
+                "type": "string",
+                "description": "Show hotels with Agoda rates."
+            },
+            "country_code": {
+                "type": "string",
+                "description": "Filter by the country code of the hotel."
+            },
+            "changes_since": {
+                "type": "string",
+                "description": "Date/time to filter the hotels that have been updated on or after this date. This will discover the last_changed_date of hotels in inventory (inclusive of the selected date). Date should be in a valid ISO 8601: https://en.wikipedia.org/wiki/ISO_8601 (YYYY-MM-DDThh:mm:ss{UTC_Offset}) format."
+            }
+        },
+        "required": []
+    }
+}

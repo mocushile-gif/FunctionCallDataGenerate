@@ -1,0 +1,17 @@
+{
+    "name": "mic_lookup",
+    "description": "This is a sub-function API for tool hull_id_boat_hin_decoder.\nTool description: Decode the 12 digit HIN and check if it is valid. HINDecoder is used by many State DMV's and has been running for 7+ years.\nAPI description: Performs a lookup of a Manufacturer Identification Code (MIC) to retrieve information about a boat manufacturing company using the Hull ID Boat HIN Decoder API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mic": {
+                "type": "string",
+                "description": "The Manufacturer Identification Code (MIC) of the boat manufacturing company.",
+                "default": "YAM"
+            }
+        },
+        "required": [
+            "mic"
+        ]
+    }
+}

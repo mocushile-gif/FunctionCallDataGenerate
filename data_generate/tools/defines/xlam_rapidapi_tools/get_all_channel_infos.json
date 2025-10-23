@@ -1,0 +1,17 @@
+{
+    "name": "get_all_channel_infos",
+    "description": "This is a sub-function API for tool gwyo_twitch.\nTool description: This API gives access to informations about a User / Channel, and Streams on Twitch.\nAPI description: Fetches the channel information for a given Twitch user by their username or ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "userid": {
+                "type": "string",
+                "description": "The username or ID of the Twitch user whose channel information is to be retrieved.",
+                "default": "samueletienne"
+            }
+        },
+        "required": [
+            "userid"
+        ]
+    }
+}

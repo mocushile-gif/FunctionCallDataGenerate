@@ -1,0 +1,27 @@
+{
+    "name": "linear_regression",
+    "description": "Performs linear regression (least squares method) to find the best-fit line for a given set of data points.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "A list of independent variable values."
+            },
+            "y": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "A list of dependent variable values."
+            }
+        },
+        "required": [
+            "x",
+            "y"
+        ]
+    }
+}

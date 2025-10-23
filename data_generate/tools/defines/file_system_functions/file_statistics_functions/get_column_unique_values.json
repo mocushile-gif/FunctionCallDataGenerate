@@ -1,0 +1,24 @@
+{
+    "name": "get_column_unique_values",
+    "description": "Retrieves a list of unique values from a specified column in an Excel or CSV file.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "The full path of the Excel (.xlsx, .xls) or CSV (.csv) file to be analyzed."
+        },
+        "sheet_name": {
+          "type": ["string", "integer"],
+          "description": "Name or index of the Excel sheet to read. Ignored for CSV files.",
+          "default": 0
+        },
+        "column_name": {
+          "type": "string",
+          "description": "The column name from which unique values should be extracted."
+        }
+      },
+      "required": ["file_path", "column_name"]
+    }
+}
+  

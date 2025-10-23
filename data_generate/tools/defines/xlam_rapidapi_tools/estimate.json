@@ -1,0 +1,23 @@
+{
+    "name": "estimate",
+    "description": "This is a sub-function API for tool youtuber_success_estimator.\nTool description: Estimates how successful a hypothetical video from a given YouTube channel will be in the first 30 days of its lifecycle. Useful for influencer marketers to plan for successful campaigns and publishers to better rank their content\nAPI description: Submit a YouTube `channelName` username value along with the `channelType` as query param values appended to the endpoint for getting back the estimated video view performance of the submitted channel.\n\n**Note:** this API supports a `channelId` param but because nobody seems to know how to use that or get the channelId and *also* YouTube has finally standardized on the @username syntax, the `channelName` query param is now the default in this RapidAPI hub.\n\n## Example\nThis submits a request for the estimate",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "channeltype": {
+                "type": "string",
+                "description": "The type of the channel (e.g., 'youtube').",
+                "default": "youtube"
+            },
+            "channelname": {
+                "type": "string",
+                "description": "The username of the channel to look up for the performance estimation.",
+                "default": "@chrispirillo"
+            }
+        },
+        "required": [
+            "channeltype",
+            "channelname"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "get_specific_player",
+    "description": "This is a sub-function API for tool free_nba.\nTool description: Unofficial NBA API for Historical NBA Data\nAPI description: Retrieves information for a specific player from the NBA API using their player ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the player to retrieve."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

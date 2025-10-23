@@ -1,0 +1,16 @@
+{
+    "name": "count_bits",
+    "description": "Counts the number of set bits (1\"s) in the binary representation of a number. Also provides the binary representation of the number and handles negative numbers.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "num": {
+                "type": "integer",
+                "description": "The input number for which the set bits and binary representation are to be calculated."
+            }
+        },
+        "required": [
+            "num"
+        ]
+    }
+}

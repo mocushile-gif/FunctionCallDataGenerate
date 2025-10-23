@@ -1,0 +1,43 @@
+{
+    "{'teamid': '17'}": {
+        "error": "",
+        "response": {
+            "team_id": "17",
+            "transfers": {
+                "incoming": [
+                    {
+                        "player_name": "John Doe",
+                        "position": "Midfielder",
+                        "from_team": "Team Alpha",
+                        "transfer_date": "2023-08-15",
+                        "fee": "\u20ac12M"
+                    },
+                    {
+                        "player_name": "Emily Smith",
+                        "position": "Forward",
+                        "from_team": "Club Beta",
+                        "transfer_date": "2023-07-28",
+                        "fee": "\u20ac8M"
+                    }
+                ],
+                "outgoing": [
+                    {
+                        "player_name": "Michael Brown",
+                        "position": "Defender",
+                        "to_team": "Team Gamma",
+                        "transfer_date": "2023-08-10",
+                        "fee": "\u20ac15M"
+                    },
+                    {
+                        "player_name": "Sarah Lee",
+                        "position": "Goalkeeper",
+                        "to_team": "Club Delta",
+                        "transfer_date": "2023-08-05",
+                        "fee": "\u20ac5M"
+                    }
+                ]
+            },
+            "last_updated": "2023-08-20T14:30:00Z"
+        }
+    }
+}

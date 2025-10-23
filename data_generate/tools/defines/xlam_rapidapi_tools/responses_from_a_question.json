@@ -1,0 +1,17 @@
+{
+    "name": "responses_from_a_question",
+    "description": "This is a sub-function API for tool moodring.\nTool description: Get the mood from Storybox's MoodRing\nAPI description: Fetch all responses for a given question using the Moodring API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "questionid": {
+                "type": "string",
+                "description": "The ID of the question to retrieve responses for.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "questionid"
+        ]
+    }
+}

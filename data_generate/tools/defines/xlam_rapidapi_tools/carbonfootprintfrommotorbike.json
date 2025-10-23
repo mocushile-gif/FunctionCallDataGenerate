@@ -1,0 +1,23 @@
+{
+    "name": "carbonfootprintfrommotorbike",
+    "description": "This is a sub-function API for tool carbonfootprint.\nTool description: Calculate the carbon footprint in various situations, such as travel and hydro usage.\nAPI description: Calculates the CO2 emissions in kilograms (Kg) from a motorbike travel based on the type of motorbike and the distance traveled.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of motorbike. Can be one of 'SmallMotorBike', 'MediumMotorBike', or 'LargeMotorBike'.",
+                "default": "SmallMotorBike"
+            },
+            "distance": {
+                "type": "string",
+                "description": "The distance traveled in kilometers (KM).",
+                "default": "400"
+            }
+        },
+        "required": [
+            "type",
+            "distance"
+        ]
+    }
+}

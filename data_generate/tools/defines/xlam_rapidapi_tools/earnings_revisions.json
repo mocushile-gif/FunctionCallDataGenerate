@@ -1,0 +1,17 @@
+{
+    "name": "earnings_revisions",
+    "description": "This is a sub-function API for tool stock_analysis.\nTool description: Get company basic financials such as earnings, margin, P/E ratio, 52-week high/low,  dividend information, etc. This API also returns analysts' earnings estimates, upgrades, and downgrades.  \nAPI description: Retrieve earnings revisions for a given stock ticker using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The stock ticker symbol for which to retrieve earnings revisions.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "ticker"
+        ]
+    }
+}

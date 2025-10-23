@@ -1,0 +1,33 @@
+{
+    "name": "nearby_google",
+    "description": "This is a sub-function API for tool nearby_places.\nTool description: Get nearby establishments.\nAPI description: Returns a **JSON array of nearby places** sorted by distance from the origin coordinates in ascending order.\n\nOnly values from **/types (Google)** are valid types.\n\nMaximum places returned per request is 20.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the location to search nearby places.",
+                "default": 49.28303
+            },
+            "lng": {
+                "type": "number",
+                "description": "Longitude of the location to search nearby places.",
+                "default": -123.11899
+            },
+            "type": {
+                "type": "string",
+                "description": "Type of place to search for. Default is 'cafe'. Only values from Google's /types are valid.",
+                "default": "cafe"
+            },
+            "radius": {
+                "type": "number",
+                "description": "Search radius in meters. Default is 200. Maximum allowed is 50000.",
+                "default": 200.0
+            }
+        },
+        "required": [
+            "lat",
+            "lng"
+        ]
+    }
+}

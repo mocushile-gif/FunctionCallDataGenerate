@@ -1,0 +1,17 @@
+{
+    "name": "trip_details",
+    "description": "This is a sub-function API for tool flixbus.\nTool description: A service that provides flixbus travel search, available cities, stations, timetables and routes. Site: www.flixbus.com **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters\nAPI description: Fetches the details of a trip using the given trip UID from the Flixbus API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "trip_uid": {
+                "type": "string",
+                "description": "Unique identifier for the trip.",
+                "default": "direct:110725991:2015:4188"
+            }
+        },
+        "required": [
+            "trip_uid"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "{'query': '51.0447 -114.0720'}": {
+        "error": "",
+        "response": "{'id': 'a-8c730071-7561-4f93-81a3-21b7ab13980d', 'status': 'Success', 'data': [{'query': '51.0447 -114.0720', 'address': '3008 1 St NW, Calgary, AB T2E 0L8', 'city': 'Calgary', 'country_code': 'CA', 'county': 'Northwest Calgary', 'photo': 'https://lh3.googleusercontent.com/p/AF1QipOfLdJu_BlnwNUCxr4JWYvu1OpR3LLX2dJfGPCt=w800-h500-k-no', 'plus_code': None, 'postal_code': 't2e 0l8', 'state': 'alberta', 'street': '3008 1 St Nw', 'time_zone': 'America/Edmonton', 'latitude': 51.044720299999994, 'longitude': -114.0719067}]}"
+    },
+    "{'query': '{{latitude}} {{longitude}}'}": {
+        "error": "",
+        "response": "{'id': 'a-8b49880b-91a4-4233-a16f-a2abebb93220', 'status': 'Success', 'data': [[]]}"
+    },
+    "{'query': '40.712776 -74.005974'}": {
+        "error": "",
+        "response": "{'id': 'a-f70fc7a1-55e5-4a13-b567-80542effc208', 'status': 'Success', 'data': [{'query': '40.712776 -74.005974', 'address': 'New York City Hall, 11 Centre St, New York, NY 10007', 'city': 'New York', 'county': 'Manhattan', 'photo': 'https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=c1OBEAvaLasPj59odmFolw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=55.546432&pitch=0&thumbfov=100', 'plus_code': None, 'postal_code': '10007', 'state': 'NY', 'street': 'New York City Hall, 11 Centre St', 'time_zone': 'America/New_York', 'country_code': 'US', 'latitude': 40.712750299999996, 'longitude': -74.0059765}]}"
+    },
+    "{'query': '40.7624284 -73.973794'}": {
+        "error": "",
+        "response": "{'id': 'a-a8eb3c04-4bd5-480a-a81b-006ff3e5f575', 'status': 'Success', 'data': [{'query': '40.7624284 -73.973794', 'address': '725 5th Ave, New York, NY 10022', 'city': 'New York', 'country_code': 'US', 'county': 'Manhattan', 'photo': 'https://lh5.googleusercontent.com/p/AF1QipNTlWz6ZZk9wZlktzx-VcNyfXaYrf9VVreGcFeH=w800-h500-k-no', 'plus_code': '725 5th ave', 'postal_code': '10022', 'state': 'NY', 'street': '725 5Th Ave', 'time_zone': 'America/New_York', 'latitude': 40.7624061, 'longitude': -73.97374169999999}]}"
+    }
+}

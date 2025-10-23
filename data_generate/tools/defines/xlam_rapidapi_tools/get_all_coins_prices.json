@@ -1,0 +1,17 @@
+{
+    "name": "get_all_coins_prices",
+    "description": "This is a sub-function API for tool cryptopricetracker.\nTool description: You Can Get All Cryptos Price Real Time With Rate Change.\nAPI description: Fetches the current price and rate change information for a specified cryptocurrency identifier.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The identifier of the cryptocurrency for which to fetch price and rate change information.",
+                "default": "BTC"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

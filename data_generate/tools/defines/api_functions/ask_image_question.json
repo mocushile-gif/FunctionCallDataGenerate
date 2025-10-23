@@ -1,0 +1,28 @@
+{
+    "name": "ask_image_question",
+    "description": "Ask a natural language question about the content of a local image using Zhipu GLM-4V vision model.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Local path to the image file to analyze (e.g. './image_data/photo.jpg')."
+        },
+        "question": {
+          "type": "string",
+          "description": "The question to ask about the image (e.g. 'What is the person doing in this image?')."
+        },
+        "max_tokens": {
+          "type": "integer",
+          "description": "Maximum number of tokens allowed in the response.",
+          "default": 300
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Optional path to save the result JSON (e.g. './outputs/answer.json')."
+        }
+      },
+      "required": ["image_path", "question"]
+    }
+  }
+  

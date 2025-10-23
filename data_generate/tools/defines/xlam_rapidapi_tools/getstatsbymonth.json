@@ -1,0 +1,23 @@
+{
+    "name": "getstatsbymonth",
+    "description": "This is a sub-function API for tool trinidad_covid_19_statistics.\nTool description: This API provides Covid-19 statistics by year, month, day and most recent day in Trinidad and Tobago\nAPI description: This endpoint fetches Trinidad & Tobago Covid 19 statistics by month. For a valid response, the months are input as \"01\" or \"12\" and not the actual month name such as \"January\" or \"December\".",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "yearid": {
+                "type": "string",
+                "description": "The year for which the statistics are needed, formatted as a four-digit string (e.g., \"2022\").",
+                "default": "2022"
+            },
+            "monthid": {
+                "type": "string",
+                "description": "The month for which the statistics are needed, formatted as a two-digit string (e.g., \"01\" for January).",
+                "default": "01"
+            }
+        },
+        "required": [
+            "yearid",
+            "monthid"
+        ]
+    }
+}

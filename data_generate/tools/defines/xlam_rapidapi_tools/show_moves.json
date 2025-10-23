@@ -1,0 +1,17 @@
+{
+    "name": "show_moves",
+    "description": "This is a sub-function API for tool marvel_vs_capcom_2.\nTool description: Get data about  characters from Marvel Vs Capcom 2 game.\nAPI description: Fetches and returns the moves of a specific character from the Marvel vs Capcom 2 API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the character whose moves are to be retrieved.",
+                "default": "Akuma"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

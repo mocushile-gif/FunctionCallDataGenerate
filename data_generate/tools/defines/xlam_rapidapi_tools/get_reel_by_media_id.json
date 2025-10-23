@@ -1,0 +1,17 @@
+{
+    "name": "get_reel_by_media_id",
+    "description": "This is a sub-function API for tool instagram_api_2023.\nTool description: Best Instagram Scraper API 2023 \n● Launched in May 2023 \n● 100% real-time data, no cache, no-CORS media, advanced profile, get access to hidden insights & more. \nAPI description: Retrieves reel information given a specific media ID from Instagram using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "media_id": {
+                "type": "string",
+                "description": "The unique identifier for the Instagram media.",
+                "default": "3089561820519690447"
+            }
+        },
+        "required": [
+            "media_id"
+        ]
+    }
+}

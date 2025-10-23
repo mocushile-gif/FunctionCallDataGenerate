@@ -1,0 +1,17 @@
+{
+    "name": "nhl_summary",
+    "description": "This is a sub-function API for tool nhl_api.\nTool description: This API provides instant access to the latest data for all operations and players in the NHL. It features scores, odds, bookmakers' stats, standings, and historical data.\nAPI description: Fetch the game summary data for a specified NHL game using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The game ID for which the summary data is requested.",
+                "default": "401458986"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

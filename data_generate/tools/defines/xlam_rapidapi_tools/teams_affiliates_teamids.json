@@ -1,0 +1,15 @@
+{
+    "name": "teams_affiliates_teamids",
+    "description": "This is a sub-function API for tool baseball.\nTool description: Baseball Leagues &amp; Cups with Livescore, Odds, Statistics, Historical Data, and more ...\nAPI description: Query baseball team affiliates by team ID using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "teamids": {
+                "type": "string",
+                "description": "A comma-separated string of team IDs to query. Default is '145'.",
+                "default": "145"
+            }
+        },
+        "required": []
+    }
+}

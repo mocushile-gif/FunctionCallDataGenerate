@@ -1,0 +1,15 @@
+{
+    "name": "custom_captcha",
+    "description": "This is a sub-function API for tool captcha_v2.\nTool description:  SmileMe's Captcha provide a Captcha image for you. Just call and the API will return the info Captcha ( include image base64, id, value ...) \nAPI description: captcha code is user format. \n\n- string is number or character, string length is up to 8 (from 1 to 8)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "string": {
+                "type": "string",
+                "description": "The captcha code consisting of numbers or characters, with a maximum length of 8. Defaults to 'smileme'.",
+                "default": "smileme"
+            }
+        },
+        "required": []
+    }
+}

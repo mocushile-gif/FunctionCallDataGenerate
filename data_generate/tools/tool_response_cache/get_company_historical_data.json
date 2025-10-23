@@ -1,0 +1,40 @@
+{
+    "{'ticker': 'AAPL', 'months': '6'}": {
+        "error": "",
+        "response": [
+            {
+                "date": "2023-01-02",
+                "open": 150.45,
+                "high": 155.2,
+                "low": 149.8,
+                "close": 154.3,
+                "changePercent": 2.15,
+                "volume": 85000000,
+                "symbol": "AAPL",
+                "updated": 1672627200000
+            },
+            {
+                "date": "2023-06-01",
+                "open": 178.9,
+                "high": 182.5,
+                "low": 177.3,
+                "close": 181.75,
+                "changePercent": -0.45,
+                "volume": 92000000,
+                "symbol": "AAPL",
+                "updated": 1685606400000
+            },
+            {
+                "date": "2023-06-02",
+                "open": 182.0,
+                "high": 184.1,
+                "low": 180.5,
+                "close": 183.6,
+                "changePercent": 1.06,
+                "volume": 88000000,
+                "symbol": "AAPL",
+                "updated": 1685692800000
+            }
+        ]
+    }
+}

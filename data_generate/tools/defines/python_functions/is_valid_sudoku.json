@@ -1,0 +1,26 @@
+{
+    "name": "is_valid_sudoku",
+    "description": "Checks if a 9x9 Sudoku board is valid by ensuring that no row, column, or 3x3 sub-grid contains duplicate numbers (excluding empty cells represented by \".\").",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "board": {
+                "type": "array",
+                "items": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "minItems": 9,
+                    "maxItems": 9
+                },
+                "minItems": 9,
+                "maxItems": 9,
+                "description": "The Sudoku board represented as a 2D list of strings, where each string is either a digit (\"1\"-\"9\") or a dot (\".\") representing an empty cell."
+            }
+        },
+        "required": [
+            "board"
+        ]
+    }
+}

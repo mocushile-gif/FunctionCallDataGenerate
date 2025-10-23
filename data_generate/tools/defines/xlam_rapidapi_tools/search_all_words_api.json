@@ -1,0 +1,17 @@
+{
+    "name": "search_all_words_api",
+    "description": "This is a sub-function API for tool complete_study_bible.\nTool description: The most COMPLETE Bible study API available! Strongs, Locations, Dictionaries, and more! \nAPI description: Returns KJV verses containing all of the supplied words, in any order. Words are separated by '%20' i.e., spaces. Words are not case-sensitive.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "words": {
+                "type": "string",
+                "description": "Words to search for in the KJV Bible verses, separated by '%20' (URL encoded spaces).",
+                "default": "Melchizedek priest"
+            }
+        },
+        "required": [
+            "words"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "youtube_topviews_artist_nationality",
+    "description": "This is a sub-function API for tool musicdata_api.\nTool description: Data for Youtube, Spotify music videos, tracks, albums, artist & more\nAPI description: Youtube top viewed music video by X artist. (X: nationality of the artist). For example: \"/youtube/topviews/vietnamese\"",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nationality": {
+                "type": "string",
+                "description": "The nationality of the artist.",
+                "default": "vietnamese"
+            }
+        },
+        "required": [
+            "nationality"
+        ]
+    }
+}

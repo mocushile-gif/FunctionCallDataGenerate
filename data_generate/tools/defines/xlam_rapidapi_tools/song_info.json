@@ -1,0 +1,17 @@
+{
+    "name": "song_info",
+    "description": "This is a sub-function API for tool soundcloud.\nTool description: Soundcloud api\nAPI description: Retrieve basic information about a song from a given track URL using the SoundCloud API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "track_url": {
+                "type": "string",
+                "description": "The URL of the track for which the information is to be retrieved.",
+                "default": "https://soundcloud.com/user-977421934/the-phoenix"
+            }
+        },
+        "required": [
+            "track_url"
+        ]
+    }
+}

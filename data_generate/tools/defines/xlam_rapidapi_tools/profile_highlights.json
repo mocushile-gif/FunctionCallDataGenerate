@@ -1,0 +1,15 @@
+{
+    "name": "profile_highlights",
+    "description": "This is a sub-function API for tool instagram_scraper_2023_v2.\nTool description: MEGA Instagram Scraper 2023 - get any Instagram stories, Highlights, Posts, Photos and Videos from public profiles by API Test for free :) You can get quick help via telegram app: @insta4root\nAPI description: Fetches the Instagram profile highlights for a given username using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username whose profile highlights are to be fetched. Defaults to 'kimkardashian'.",
+                "default": "kimkardashian"
+            }
+        },
+        "required": []
+    }
+}

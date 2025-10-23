@@ -1,0 +1,22 @@
+{
+    "name": "hotel_photos",
+    "description": "This is a sub-function API for tool priceline_com_provider.\nTool description: priceline.com | Lets you search hotels, cars for rent, flights. **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters **Other travel  api:** https://rapi.one\nAPI description: Fetches a list of photos for given hotels based on their IDs from the RapidAPI Priceline provider.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hotel_ids": {
+                "type": "string",
+                "description": "Comma-separated string of PPN hotel IDs (Semi Opaque Only).",
+                "default": "700000000,700000001,700000002,700000003"
+            },
+            "image_size": {
+                "type": "string",
+                "description": "The size of the images to be returned. Valid options are 'small' (60px), 'medium' (300 to 312px), or 'large' (500 to 800px). Defaults to 'medium'.",
+                "default": "medium"
+            }
+        },
+        "required": [
+            "hotel_ids"
+        ]
+    }
+}

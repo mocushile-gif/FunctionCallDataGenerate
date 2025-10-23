@@ -1,0 +1,21 @@
+{
+    "name": "calculate_electric_field",
+    "description": "Calculates the electric field produced by a charge at a certain distance using Coulomb\"s law.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "charge": {
+                "type": "number",
+                "description": "The charge in coulombs producing the electric field."
+            },
+            "distance": {
+                "type": "number",
+                "description": "The distance from the charge in meters where the field is being measured."
+            }
+        },
+        "required": [
+            "charge",
+            "distance"
+        ]
+    }
+}

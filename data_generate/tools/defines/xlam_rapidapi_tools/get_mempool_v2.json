@@ -1,0 +1,27 @@
+{
+    "name": "get_mempool_v2",
+    "description": "This is a sub-function API for tool chain49.\nTool description: Kickstart your next crypto project - extended trezor/blockbook API with 10+ blockchains available instantly and 50+ possible on request running on the finest hardware in Germany's best datacenters at Hetzner\n\nWebsocket only via api.chain49.com endpoint possible (RapidAPI does not support it yet)\nAPI description: Get a list of transaction IDs currently in the mempool of the node (meaning unconfirmed transactions not included in any block yet)\n\nNote: this route was implemented by us and is therefore not yet supported by existing blockbook clients.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "blockchain": {
+                "type": "string",
+                "description": "The name of the blockchain.",
+                "default": "bitcoin"
+            },
+            "pagesize": {
+                "type": "number",
+                "description": "The number of transactions to return per call. Default and maximum is 1000.",
+                "default": 1000
+            },
+            "page": {
+                "type": "number",
+                "description": "Specifies the page of returned transactions, starting from 1. If out of range, the closest possible page is returned. Default is 1.",
+                "default": 1
+            }
+        },
+        "required": [
+            "blockchain"
+        ]
+    }
+}

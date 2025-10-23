@@ -1,0 +1,42 @@
+{
+    "{'countrycode': 'US', 'productid': '13579'}": {
+        "error": "",
+        "response": []
+    },
+    "{'countrycode': 'US', 'productid': '12345'}": {
+        "error": "",
+        "response": []
+    },
+    "{'countrycode': 'US', 'productid': '98765'}": {
+        "error": "",
+        "response": []
+    },
+    "{'countrycode': 'us', 'productid': '12345'}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'countrycode': 'us', 'productid': '67890'}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'countrycode': 'de', 'productid': 'BTSHELVES2023'}": {
+        "error": "",
+        "response": "{'err': 'Invalid Language'}"
+    },
+    "{'countrycode': 'de', 'productid': 'BTSHELVES2023', 'languagecode': 'en'}": {
+        "error": "",
+        "response": "{'err': 'Invalid Language'}"
+    },
+    "{'countrycode': 'us', 'productid': 'MARKUS', 'languagecode': 'en'}": {
+        "error": "",
+        "response": "[{'id': '90289172', 'name': 'MARKUS', 'price': {'currency': 'USD', 'currentPrice': 289.99, 'discounted': False}, 'availability': {'status': 'Unknown', 'store': 'No Store Specified'}, 'measurement': 'Medium', 'typeName': 'Office chair', 'image': 'https://www.ikea.com/us/en/images/products/markus-office-chair-vissle-dark-gray__0724714_pe734597_s5.jpg', 'contextualImageUrl': 'https://www.ikea.com/us/en/images/products/markus-office-chair-vissle-dark-gray__0399810_pe563882_s5.jpg', 'imageAlt': 'MARKUS Office chair, Vissle dark gray, Medium', 'url': 'https://www.ikea.com/us/en/p/markus-office-chair-vissle-dark-gray-90289172/', 'categoryPath': [{'name': 'Desk & desk chairs', 'key': 'fu004'}, {'name': 'Desk chairs', 'key': '20652'}, {'name': 'Office chairs', 'key': '20654'}]}]"
+    },
+    "{'countrycode': 'gb', 'productid': 'SOFABACK', 'languagecode': 'en'}": {
+        "error": "",
+        "response": "[{'id': 's89571384', 'name': 'KLAGSHAMN', 'price': {'currency': 'GBP', 'currentPrice': 75, 'discounted': False}, 'availability': {'status': 'Unknown', 'store': 'No Store Specified'}, 'measurement': '', 'typeName': 'Back cushion', 'image': 'https://www.ikea.com/gb/en/images/products/klagshamn-back-cushion-faringe-light-grey__1360694_pe954555_s5.jpg', 'imageAlt': 'KLAGSHAMN Back cushion, Faringe light grey', 'url': 'https://www.ikea.com/gb/en/p/klagshamn-back-cushion-faringe-light-grey-s89571384/', 'categoryPath': [{'name': 'Living room seating', 'key': '700640'}, {'name': 'Sofa & armchair cushions & headrests', 'key': '57536'}]}]"
+    },
+    "{'countrycode': 'us', 'productid': 'EKTORP', 'languagecode': 'en'}": {
+        "error": "",
+        "response": "[{'id': '90321704', 'name': 'EKTORP', 'price': {'currency': 'USD', 'currentPrice': 79, 'discounted': False}, 'availability': {'status': 'Unknown', 'store': 'No Store Specified'}, 'measurement': '', 'typeName': 'Sofa cover', 'image': 'https://www.ikea.com/us/en/images/products/ektorp-sofa-cover-lofallet-beige__0515771_pe640027_s5.jpg', 'contextualImageUrl': 'https://www.ikea.com/us/en/images/products/ektorp-sofa-cover-lofallet-beige__0386819_pe559167_s5.jpg', 'imageAlt': 'EKTORP Sofa cover, Lofallet beige', 'url': 'https://www.ikea.com/us/en/p/ektorp-sofa-cover-lofallet-beige-90321704/', 'categoryPath': [{'name': 'Sofas & armchairs', 'key': '700640'}, {'name': 'Sofa & armchairs covers', 'key': '10664'}, {'name': 'EKTORP covers', 'key': '10978'}]}]"
+    }
+}

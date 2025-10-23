@@ -1,0 +1,15 @@
+{
+    "name": "highlights",
+    "description": "This is a sub-function API for tool ig_private_api.\nTool description: IG Private API - get any Instagram stories, Highlights, Posts, Photos and Videos from public profiles by API Test for free 😃 You can get quick help via telegram app: @insta4root\nAPI description: Fetches the Instagram story highlights for a given username using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username for which to fetch story highlights. Defaults to 'kimkardashian'.",
+                "default": "kimkardashian"
+            }
+        },
+        "required": []
+    }
+}

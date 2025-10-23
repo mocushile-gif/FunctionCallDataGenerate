@@ -1,0 +1,23 @@
+{
+    "name": "drawings_between_dates",
+    "description": "This is a sub-function API for tool fantasy_5.\nTool description: Do you live for the Fantasy 5? Well, you’ve just found your match! Get the latest winning numbers and statistics for your game!\nAPI description: Get all Fantasy 5 winning number sets between two specified dates where the first number supplied is the beginning date and the second number supplied is the end date.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date1": {
+                "type": "string",
+                "description": "Must be a date field in the form of MM-DD-YYYY. Please no slashes \\\\\\\"\\\\\\\\\\\\\\\".",
+                "default": "01-01-2023"
+            },
+            "date2": {
+                "type": "string",
+                "description": "Must be a date field in the form of MM-DD-YYYY. Please no slashes \\\\\\\"\\\\\\\\\\\\\\\".",
+                "default": "01-10-2023"
+            }
+        },
+        "required": [
+            "date1",
+            "date2"
+        ]
+    }
+}

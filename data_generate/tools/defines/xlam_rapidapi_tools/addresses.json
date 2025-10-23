@@ -1,0 +1,16 @@
+{
+    "name": "addresses",
+    "description": "This is a sub-function API for tool addressr.\nTool description: Australian Address Validation, Search and Autocomplete\nAPI description: Fetches a list of addresses matching the search query using the RapidAPI AddressR service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search string used to query addresses."
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

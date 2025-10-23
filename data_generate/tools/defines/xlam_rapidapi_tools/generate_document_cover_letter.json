@@ -1,0 +1,35 @@
+{
+    "name": "generate_document_cover_letter",
+    "description": "This is a sub-function API for tool ai_resume_generator.\nTool description: Document Generation API that uses OpenAI to create an example resume when provided the following data: University Name, Degree, and a list of Skills\nAPI description: Generates a cover letter document based on the provided job description and personal information using the AI Resume Generator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "jobdescription": {
+                "type": "string",
+                "description": "Description of the job position. Default is \"Example Co. is looking for a Full Stack Web Developer to maintain and improve our custom web application. The solutions will require both frontend and backend skills. Our web application runs on a LEMP stack. LEMP stack experience is a bonus, but not required.\"",
+                "default": "Example Co. is looking for a Full Stack Web Developer to maintain and improve our custom web application. The solutions will require both frontend and backend skills. Our web application runs on a LEMP stack. LEMP stack experience is a bonus, but not required."
+            },
+            "degree": {
+                "type": "string",
+                "description": "Your degree. Default is \"Information Systems\".",
+                "default": "Information Systems"
+            },
+            "university": {
+                "type": "string",
+                "description": "Name of the university where you obtained your degree. Default is \"Michigan State University\".",
+                "default": "Michigan State University"
+            },
+            "skills": {
+                "type": "string",
+                "description": "List of relevant skills. Default is \"Networking, Web Development\".",
+                "default": "Networking, Web Development"
+            },
+            "jobtitle": {
+                "type": "string",
+                "description": "Title of the job you are applying for. Default is \"Full Stack Web Developer\".",
+                "default": "Full Stack Web Developer"
+            }
+        },
+        "required": []
+    }
+}

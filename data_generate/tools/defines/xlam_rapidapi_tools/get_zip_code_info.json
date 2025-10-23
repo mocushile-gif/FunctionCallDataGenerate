@@ -1,0 +1,23 @@
+{
+    "name": "get_zip_code_info",
+    "description": "This is a sub-function API for tool zippopotam_us.\nTool description: Zip Code Galore!\r\nZip·po·pot·amus   /ˈzipōpätəməs/\r\nPostal Codes and Zip Codes made easy\r\n\r\nFree API with JSON Response Format\r\n\r\nOver 60 Countries Supported\r\n\r\nPerfect for Form Autocompletion\r\n\r\nOpen for Crowdsourcing and Contribution\nAPI description: Fetches information about a given postal code in a specified country using the Zippopotamus API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The country code (e.g., 'us' for the United States).",
+                "default": "us"
+            },
+            "postal_code": {
+                "type": "string",
+                "description": "The postal code for which information is being fetched.",
+                "default": "90210"
+            }
+        },
+        "required": [
+            "country",
+            "postal_code"
+        ]
+    }
+}

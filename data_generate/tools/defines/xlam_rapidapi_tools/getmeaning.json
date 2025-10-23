@@ -1,0 +1,17 @@
+{
+    "name": "getmeaning",
+    "description": "This is a sub-function API for tool english_words.\nTool description: 4, 5 and 6 letter english words with meanings to create your own word based games\nAPI description: Retrieves the meaning of a given word using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "word": {
+                "type": "string",
+                "description": "The word for which to find the meaning.",
+                "default": "apple"
+            }
+        },
+        "required": [
+            "word"
+        ]
+    }
+}

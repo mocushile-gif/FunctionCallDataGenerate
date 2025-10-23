@@ -1,0 +1,17 @@
+{
+    "name": "get_coverage",
+    "description": "This is a sub-function API for tool us_cell_coverage_by_zip_code.\nTool description: Check Cell Coverage by zip code for all US networks\nAPI description: Retrieves cell coverage information for major US carriers (AT&T, T-Mobile, U.S. Cellular, and Verizon) based on the provided zip code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "postcode": {
+                "type": "string",
+                "description": "The zip code for which to retrieve cell coverage information.",
+                "default": "92101"
+            }
+        },
+        "required": [
+            "postcode"
+        ]
+    }
+}

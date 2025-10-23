@@ -1,0 +1,25 @@
+{
+    "{'region': 'CA.ON'}": {
+        "error": "",
+        "response": [
+            {
+                "headline": "Severe Thunderstorm Warning for Ontario Region",
+                "severity": "Severe",
+                "urgency": "Immediate",
+                "effective": "2023-10-05T14:30:00-04:00",
+                "expires": "2023-10-05T17:00:00-04:00",
+                "description": "Damaging winds and heavy rainfall expected. Seek shelter immediately.",
+                "instruction": "Avoid outdoor activities. Secure loose objects. Monitor local updates."
+            },
+            {
+                "headline": "Flood Watch for Eastern Ontario",
+                "severity": "Moderate",
+                "urgency": "Expected",
+                "effective": "2023-10-05T16:00:00-04:00",
+                "expires": "2023-10-06T08:00:00-04:00",
+                "description": "Prolonged rainfall may cause localized flooding in low-lying areas.",
+                "instruction": "Prepare for potential evacuations. Avoid driving through flooded roads."
+            }
+        ]
+    }
+}

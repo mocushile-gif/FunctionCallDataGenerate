@@ -1,0 +1,17 @@
+{
+    "name": "search_keto_recipe",
+    "description": "This is a sub-function API for tool keto_diet.\nTool description: Dataset of over 450 Ketogenic diet recipes in over 10 categories from Breakfast to Dinner.  Check out encurate.app to manage content on your mobile apps. Contact to feature your app on encurate.app website.\nAPI description: Search for keto recipes based on a given search term using the Keto Diet API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "search": {
+                "type": "string",
+                "description": "The search term to find keto recipes.",
+                "default": "beef"
+            }
+        },
+        "required": [
+            "search"
+        ]
+    }
+}

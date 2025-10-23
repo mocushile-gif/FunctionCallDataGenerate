@@ -1,0 +1,17 @@
+{
+    "name": "global_achievement_percentages_for_app",
+    "description": "This is a sub-function API for tool steam.\nTool description: Search, and get app/reviews/news data from store.steampowered.com\nAPI description: Retrieve the global achievement percentages for a specific Steam app.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "appid": {
+                "type": "number",
+                "description": "The Steam application ID for which to retrieve achievement percentages.",
+                "default": 730.0
+            }
+        },
+        "required": [
+            "appid"
+        ]
+    }
+}

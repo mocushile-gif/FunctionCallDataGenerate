@@ -1,0 +1,48 @@
+{
+    "{'user_id': 'alittlebitbluee', 'count': '1', 'time': '0'}": {
+        "error": "",
+        "response": {
+            "code": -1,
+            "msg": "Followings is failed! Please check user_id.",
+            "processed_time": 0.0695
+        }
+    },
+    "{'user_id': '6922236182459040774', 'count': '1', 'time': '0'}": {
+        "error": "",
+        "response": {
+            "code": 0,
+            "msg": "success",
+            "processed_time": 0.1553,
+            "data": {
+                "followings": [],
+                "total": 0,
+                "time": -1,
+                "hasMore": false
+            }
+        }
+    },
+    "{'user_id': 'tiktok', 'count': '50', 'time': '0'}": {
+        "error": "",
+        "response": {
+            "code": -1,
+            "msg": "Followings is failed! Please check user_id.",
+            "processed_time": 0.1247
+        }
+    },
+    "{'user_id': 'US', 'count': '20', 'time': '0'}": {
+        "error": "",
+        "response": {
+            "code": -1,
+            "msg": "Followings is failed! Please check user_id.",
+            "processed_time": 0.0788
+        }
+    },
+    "{'user_id': '9876543210', 'count': '50', 'time': '0'}": {
+        "error": "",
+        "response": "{'code': -1, 'msg': 'Followings is failed! Please check user_id.', 'processed_time': 0.0954}"
+    },
+    "{'user_id': '107955', 'count': '50', 'time': '0'}": {
+        "error": "",
+        "response": "{'code': 0, 'msg': 'success', 'processed_time': 0.1847, 'data': {'followings': [{'id': '6796701520110486533', 'region': 'DE', 'sec_uid': 'MS4wLjABAAAAvPz0j83tjdf1C1id0TxNwP4yWPArFjgmCyoUtFULBRJLvY6r14OasNq7U1G3CbCg', 'unique_id': 'paralympics', 'nickname': 'paralympics', 'signature': 'We\u2019re the Paralympic Games. Hi there! \ud83d\udc4b\ud83c\udffd', 'avatar': 'http://p16-useast2a.tiktokcdn.com/tos-useast2a-avt-0068-euttp/30426d1585ca7ee7f3fe6fca501019d3~tplv-tiktokx-cropcenter-q:300:300:q75.jpeg?nonce=25432&ps=95&refresh_token=543db6e19cc764ba62bed3a4c8ce949f&s=COMMON_RELATION_LIST&sc=avatar&shcp=65db1d19&shp=30310797&t=46', 'verified': True, 'secret': False, 'aweme_count': 931, 'following_count': 173, 'follower_count': 4725895, 'favoriting_count': 978, 'total_favorited': 177779154, 'ins_id': '', 'youtube_channel_title': '', 'youtube_channel_id': '', 'twitter_name': '', 'twitter_id': ''}, {'id': '8811223', 'region': 'GB', 'sec_uid': 'MS4wLjABAAAASb3LQq4ARZFZk0nUe9AK-0c2NgnBEi7BuNJ5E0Q9hPY', 'unique_id': 'tiktok_uk', 'nickname': 'TikTok UK', 'signature': 'The best of the FYP \u2728', 'avatar': 'http://p16-sg.tiktokcdn.com/tos-alisg-avt-0068/ce933c230d5e760cd8aa5c8d99d92152~tplv-tiktokx-cropcenter-q:300:300:q75.jpeg?nonce=45584&ps=95&refresh_token=58364b54a7af09592a7a06be620d1652&s=COMMON_RELATION_LIST&sc=avatar&shcp=65db1d19&shp=30310797&t=46', 'verified': True, 'secret': False, 'aweme_count': 866, 'following_count': 468, 'follower_count': 5062595, 'favoriting_count': 1096, 'total_favorited': 19563480, 'ins_id': '', 'youtube_channel_title': '', 'youtube_channel_id': '', 'twitter_name': '', 'twitter_id': ''}, {'id': '6754011909617894406', 'region': 'IT', 'sec_uid': 'MS4wLjABAAAA488JA-imwOQzZbBA62XbV0eezMZ_Esx1CLYGKP2Y-5AWXd-xc-Y6FTZzzlL3lzLv', 'unique_id': 'olympics', 'nickname': 'Olympics', 'signature': 'Sport. And more than sport.\\n\\nThe Paris 2024 Olympic Games \ud83d\udc47', 'avatar': 'http://p16-sg.tiktokcdn.com/tos-alisg-avt-0068/829ea90040553aaec7450d66caaadc10~tplv-tiktokx-cropcenter-q:300:300:q75.jpeg?nonce=94685&ps=95&refresh_token=c73677dc73f"
+    }
+}

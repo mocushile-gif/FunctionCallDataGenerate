@@ -1,0 +1,39 @@
+{
+    "name": "calculate_grid_coordinate_points",
+    "description": "This is a sub-function API for tool local_rank_tracker.\nTool description: Fast and Reliable geolocation rank tracker API - get Google My Business ranking across the local area, broken up into a grid.\nAPI description: Calculate all grid coordinate points based on a center geocoordinate point and distance arguments.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "radius": {
+                "type": "string",
+                "description": "The distance between coordinate points (on the same row / column in the grid). The units of the radius are determined by the **distance_units** parameter.\n\n**Allowed values:** 0.1-100.\n**Default:** 1",
+                "default": "1"
+            },
+            "lng": {
+                "type": "string",
+                "description": "Grid center coordinate point longitude value.",
+                "default": "-121.938314"
+            },
+            "grid_size": {
+                "type": "string",
+                "description": "The size of the grid (i.e. 3x3, 5x5, 7x7, etc).\n\n**Allowed values:** 3, 5, 7, 9, 11, 13, 15.",
+                "default": "3"
+            },
+            "lat": {
+                "type": "string",
+                "description": "Grid center coordinate point latitude value.",
+                "default": "37.341759"
+            },
+            "radius_units": {
+                "type": "string",
+                "description": "Distance measurement units for the radius parameter. Allowed values are 'km' for kilometers and 'mi' for miles. Default is 'km'."
+            }
+        },
+        "required": [
+            "radius",
+            "lng",
+            "grid_size",
+            "lat"
+        ]
+    }
+}

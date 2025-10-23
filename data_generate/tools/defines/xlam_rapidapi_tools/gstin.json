@@ -1,0 +1,22 @@
+{
+    "name": "gstin",
+    "description": "This is a sub-function API for tool gst_return_status.\nTool description: GST Return Filing Status for India\nAPI description: Retrieve details about a GSTIN (GST number), including the latest return filing list, GST compliance classification, and HSN/SAC details.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "gstin": {
+                "type": "string",
+                "description": "The GSTIN (GST number) to retrieve details for.",
+                "default": "27AAJCM9929L1ZM"
+            },
+            "content_type": {
+                "type": "string",
+                "description": "The content type for the request. Defaults to 'application/json'.",
+                "default": "application/json"
+            }
+        },
+        "required": [
+            "gstin"
+        ]
+    }
+}

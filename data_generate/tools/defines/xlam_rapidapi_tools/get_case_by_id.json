@@ -1,0 +1,17 @@
+{
+    "name": "get_case_by_id",
+    "description": "This is a sub-function API for tool yardillo.\nTool description: No code API orchestration workflow\nAPI description: Fetch the case payload from the Yardillo API using the given case ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the case to fetch.",
+                "default": "611c0765e9308692195b8538"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "{'lang': 'en', 'sp': 1.0}": {
+        "error": "",
+        "response": {
+            "sport_id": 1,
+            "sport_name": "Football",
+            "events": [
+                {
+                    "event_id": "E12345",
+                    "teams": [
+                        "Team A",
+                        "Team B"
+                    ],
+                    "current_odds": {
+                        "home_win": 2.1,
+                        "draw": 3.5,
+                        "away_win": 3.8
+                    },
+                    "status": "Live - 20th minute",
+                    "last_updated": "2023-09-15T14:30:00Z"
+                },
+                {
+                    "event_id": "E67890",
+                    "teams": [
+                        "Club X",
+                        "Club Y"
+                    ],
+                    "current_odds": {
+                        "home_win": 1.9,
+                        "draw": 3.2,
+                        "away_win": 4.1
+                    },
+                    "status": "Live - Halftime",
+                    "last_updated": "2023-09-15T14:28:00Z"
+                }
+            ]
+        }
+    },
+    "{'lang': 'en', 'sp': 1}": {
+        "error": "",
+        "response": "{'success': True, 'events': [{'event_id': 461409452, 'sport_id': '1', 'league': 'China. Super League', 'country': 'China', 'match': 'Changchun Yatai - Henan Songshan Longmen', 'home': 'Changchun Yatai', 'away': 'Henan Songshan Longmen', 'home_score': 3, 'away_score': 1, 'tv': None, 'current': '2 Half : 86', 'odds': [{'id': 1, 'groupId': 1, 'value': 'Result', 'name': 'Result', 'markets': [{'id': 2, 'value': '', 'name': 'Draw', 'status': 'Show', 'rate': '17.80'}, {'id': 3, 'value': '', 'name': 'Henan Songshan Longmen', 'status': 'Show', 'rate': '153.00'}]}]}, {'event_id': 461409415, 'sport_id': '1', 'league': 'China. Super League', 'country': 'China', 'match': 'Chengdu Rongcheng - Beijing Guoan', 'home': 'Chengdu Rongcheng', 'away': 'Beijing Guoan', 'home_score': 0, 'away_score': 1, 'tv': None, 'current': '2 Half : 84', 'odds': [{'id': 1, 'groupId': 1, 'value': 'Result', 'name': 'Result', 'markets': [{'id': 1, 'value': '', 'name': 'Chengdu Rongcheng', 'status': 'Show', 'rate': '38.00'}, {'id': 2, 'value': '', 'name': 'Draw', 'status': 'Show', 'rate': '4.09'}, {'id': 3, 'value': '', 'name': 'Beijing Guoan', 'status': 'Show', 'rate': '1.28'}]}]}, {'event_id': 461408740, 'sport_id': '1', 'league': 'China. Super League', 'country': 'China', 'match': 'Shandong Taishan - Shanghai Port', 'home': 'Shandong Taishan', 'away': 'Shanghai Port', 'home_score': 1, 'away_score': 1, 'tv': None, 'current': '2 Half : 86', 'odds': [{'id': 1, 'groupId': 1, 'value': 'Result', 'name': 'Result', 'markets': [{'id': 1, 'value': '', 'name': 'Shandong Taishan', 'status': 'Show', 'rate': '8.35'}, {'id': 2, 'value': '', 'name': 'Draw', 'status': 'Show', 'rate': '1.27'}, {'id': 3, 'value': '', 'name': 'Shanghai Port', 'status': 'Show', 'rate': '6.97'}]}]}, {'event_id': 461410475, 'sport_id': '1', 'league': 'China. Super League', 'country': 'China', 'match': 'Shenzhen - Wuhan Three Towns', 'home': 'Shenzhen', 'away': 'Wuhan Three Towns', 'home_score': 1, 'away_score': 3, 'tv': None, 'current': '2 Half : 86', 'odds': [{'id': 2, 'groupId': 1, 'valu"
+    }
+}

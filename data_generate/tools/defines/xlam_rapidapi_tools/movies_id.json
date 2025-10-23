@@ -1,0 +1,28 @@
+{
+    "name": "movies_id",
+    "description": "This is a sub-function API for tool streamlinewatch_streaming_guide.\nTool description: StreamlineWatch's streaming guide APIs for Movies and Shows\nAPI description: Fetch metadata for a specified movie from a given platform and region using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "platform": {
+                "type": "string",
+                "description": "Retrieve sources from the specified platform.\n*required, possible values: ios, android, androidtv, web*",
+                "default": "ios"
+            },
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the movie. You can also use a TMDb ID.",
+                "default": 508947.0
+            },
+            "region": {
+                "type": "string",
+                "description": "Retrieve the sources' deep link from this region\n*optional, default: US*\n*possible values: US, FR*",
+                "default": "US"
+            }
+        },
+        "required": [
+            "platform",
+            "is_id"
+        ]
+    }
+}

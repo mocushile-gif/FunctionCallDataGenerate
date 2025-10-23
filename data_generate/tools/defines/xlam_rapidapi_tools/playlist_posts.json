@@ -1,0 +1,28 @@
+{
+    "name": "playlist_posts",
+    "description": "This is a sub-function API for tool tiktok_private.\nTool description: Fastest,  Highly Maintained TikTok API,  Build For Massive TikTok Scraping. Get TikTok User Profile, Post, Feed, Trends, Hashtags, Music and Download Video Without Watermark.\nAPI description: Fetch posts from TikTok for a specific user and playlist.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The ID or secret UID of the user.",
+                "default": "6896921279983977474"
+            },
+            "playlist_id": {
+                "type": "string",
+                "description": "The ID of the playlist.",
+                "default": "6974449062670027522"
+            },
+            "offset": {
+                "type": "number",
+                "description": "The offset for pagination. Defaults to 0.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "user_id",
+            "playlist_id"
+        ]
+    }
+}

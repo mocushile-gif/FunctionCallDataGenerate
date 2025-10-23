@@ -1,0 +1,17 @@
+{
+    "name": "dna2mrna",
+    "description": "This is a sub-function API for tool dna2protein.\nTool description: A set of simple end-points to convert DNA and mRNA sequences to amino-acids\nAPI description: Converts a DNA sequence into an mRNA sequence using the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "dna": {
+                "type": "string",
+                "description": "The DNA sequence to be transformed into an mRNA sequence.",
+                "default": "TACAAAGGCTAACGTCCTAGAGCTATT"
+            }
+        },
+        "required": [
+            "dna"
+        ]
+    }
+}

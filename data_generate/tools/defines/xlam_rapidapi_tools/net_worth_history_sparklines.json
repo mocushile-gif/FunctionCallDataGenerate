@@ -1,0 +1,17 @@
+{
+    "name": "net_worth_history_sparklines",
+    "description": "This is a sub-function API for tool all_in_one_crypto_swiss_knife.\nTool description: Coins, NFTS, Portfolio tracker, Whales, airdrops, news, tweets, YT videos, reddit posts, DeFi protocols,, games, podcasts, events, gas price and more!\nAPI description: Get sparklines with address net worth for chart rendering.\nReturns array of objects with timestamp and USD value",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "type": "string",
+                "description": "The cryptocurrency address for which the net worth history is to be fetched.",
+                "default": "0x60618d7f1966310d90177640880edaed41e15f2d"
+            }
+        },
+        "required": [
+            "address"
+        ]
+    }
+}

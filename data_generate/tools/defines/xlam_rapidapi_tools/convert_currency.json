@@ -1,0 +1,29 @@
+{
+    "name": "convert_currency",
+    "description": "This is a sub-function API for tool currency_rate_converter.\nTool description: This API converts currency amounts from one global currency to another\nAPI description: Converts a specified amount from one currency to another using the RapidAPI currency converter.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "to": {
+                "type": "string",
+                "description": "The target currency code.",
+                "default": "HKD"
+            },
+            "amount": {
+                "type": "string",
+                "description": "The amount of money to convert.",
+                "default": "10.50"
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The source currency code.",
+                "default": "GBP"
+            }
+        },
+        "required": [
+            "to",
+            "amount",
+            "is_from"
+        ]
+    }
+}

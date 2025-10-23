@@ -1,0 +1,36 @@
+{
+    "name": "extract_workbook_summary3b",
+    "description": "Extract a summarized structured overview of an Excel file, including sheet names, used ranges, header structures, and sample data values. The result is length-controlled and optimized for efficient processing. Supports timeout handling and summary length limits.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "The absolute path to the Excel file to be summarized. Supported formats: .xlsx, .xls, .csv."
+        },
+        "summary_limit_len": {
+          "type": "integer",
+          "description": "Maximum allowed character length for the extracted summary JSON (default 4096).",
+          "default": 4096
+        },
+        "timeout_seconds": {
+          "type": "integer",
+          "description": "Maximum time in seconds allowed for extracting the summary (default 10 seconds).",
+          "default": 10
+        },
+        "return_mode": {
+          "type": "integer",
+          "description": "Return mode. 0: Only return the summary. 1: Return both the summary and elapsed time statistics.",
+          "enum": [0, 1],
+          "default": 0
+        },
+        "debug": {
+          "type": "boolean",
+          "description": "If true, raise detailed exceptions during extraction instead of catching errors.",
+          "default": false
+        }
+      },
+      "required": ["file_path"]
+    }
+  }
+  

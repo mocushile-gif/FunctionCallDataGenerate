@@ -1,0 +1,17 @@
+{
+    "name": "search_for_a_word_in_quran",
+    "description": "This is a sub-function API for tool al_quran.\nTool description: Quickly retrieve original Arabic text, translation, transliteration and Word Search from the Koran /Quran\nAPI description: Looks for a given keyword (English) in ***translation_eng*** key in the entire Koran and responds with all the verses containing the given keyword and toal matches in JSON",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "searchterm": {
+                "type": "string",
+                "description": "Any given keyword or phrase you like to search for in the Koran",
+                "default": "muhammad"
+            }
+        },
+        "required": [
+            "searchterm"
+        ]
+    }
+}

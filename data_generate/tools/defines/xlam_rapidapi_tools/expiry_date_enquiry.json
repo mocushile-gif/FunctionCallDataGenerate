@@ -1,0 +1,17 @@
+{
+    "name": "expiry_date_enquiry",
+    "description": "This is a sub-function API for tool wa_rego_check.\nTool description: Western Australia vehicle license expiry date query, data from DoTDirect\nhttps://csnb.net/wa-rego-check-api/\nAPI description: Queries the expiry date of a vehicle's license registration using the given registration number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "rego": {
+                "type": "string",
+                "description": "The vehicle's registration number.",
+                "default": "1HNT923"
+            }
+        },
+        "required": [
+            "rego"
+        ]
+    }
+}

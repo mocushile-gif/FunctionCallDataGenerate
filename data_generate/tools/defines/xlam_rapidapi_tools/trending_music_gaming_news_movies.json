@@ -1,0 +1,20 @@
+{
+    "name": "trending_music_gaming_news_movies",
+    "description": "This is a sub-function API for tool cheap_youtube_api.\nTool description: 100% Uptime & Reliable | Blazing fast | Fully Featured | 1000x cheaper than Youtube API v3\nAPI description: Get trending videos.\n\nOptional parameters:\ntype: \"music\", \"gaming\", \"news\", \"movies\"\nregion: ISO 3166 country code (default: \"US\")",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The category of videos to fetch. Options include \"music\", \"gaming\", \"news\", and \"movies\". Defaults to 'gaming'.",
+                "default": "gaming"
+            },
+            "region": {
+                "type": "string",
+                "description": "The ISO 3166 country code specifying the region. Defaults to 'US'.",
+                "default": "US"
+            }
+        },
+        "required": []
+    }
+}

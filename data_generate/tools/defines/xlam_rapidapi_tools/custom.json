@@ -1,0 +1,47 @@
+{
+    "name": "custom",
+    "description": "This is a sub-function API for tool seeding_data.\nTool description: Completely APIs that helps web developers and web designers generate fake data in a fast and easy way.\nAPI description: Fetches custom data from the seeding-data API based on provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vatid": {
+                "type": "string",
+                "description": "The VAT ID to include in the query.",
+                "default": "vat"
+            },
+            "quantity": {
+                "type": "number",
+                "description": "The number of rows to fetch.",
+                "default": 100
+            },
+            "birthday": {
+                "type": "string",
+                "description": "The birthday to include in the query.",
+                "default": "date"
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The country of origin.",
+                "default": "country"
+            },
+            "name": {
+                "type": "string",
+                "description": "The first name to include in the query.",
+                "default": "firstName"
+            },
+            "surname": {
+                "type": "string",
+                "description": "The last name to include in the query.",
+                "default": "lastName"
+            }
+        },
+        "required": [
+            "vatid",
+            "quantity",
+            "birthday",
+            "is_from",
+            "name",
+            "surname"
+        ]
+    }
+}

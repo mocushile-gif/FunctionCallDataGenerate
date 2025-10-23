@@ -1,0 +1,28 @@
+{
+    "name": "canvas_episodes_get_info",
+    "description": "This is a sub-function API for tool webtoon.\nTool description: This API provides the largest webcomics data in the world to create a comic site/application such as webtoons.com\nAPI description: Get episode and photo links.\n*To load images, please check the tutorial at https://rapidapi.com/apidojo/api/webtoon/tutorials/how-to-load-images",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "episodeno": {
+                "type": "number",
+                "description": "The ID of the episode as returned from the `.../canvas/episodes/list` endpoint.",
+                "default": 1.0
+            },
+            "titleno": {
+                "type": "number",
+                "description": "The ID of the title as returned from the `.../canvas/titles/list` or `.../canvas/search` endpoint.",
+                "default": 300138.0
+            },
+            "language": {
+                "type": "string",
+                "description": "The language code for the response. Default is 'en'. Accepted values are {'en', 'zh-hant', 'de', 'fr', 'es', 'th', 'id'}.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "episodeno",
+            "titleno"
+        ]
+    }
+}

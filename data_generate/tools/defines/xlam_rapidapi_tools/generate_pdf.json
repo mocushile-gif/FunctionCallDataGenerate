@@ -1,0 +1,25 @@
+{
+    "name": "generate_pdf",
+    "description": "This is a sub-function API for tool web_capture.\nTool description: Take screenshots of any website or generate a pdf either from the website or an HTML file.\nAPI description: Generates a PDF by capturing a screenshot of the provided website URL with specified dimensions using the Web Capture API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "width": {
+                "type": "number",
+                "description": "The width of the screenshot in pixels. Defaults to 1024.",
+                "default": 1024.0
+            },
+            "height": {
+                "type": "number",
+                "description": "The height of the screenshot in pixels. Defaults to 780.",
+                "default": 780.0
+            },
+            "url": {
+                "type": "string",
+                "description": "The URL of the website to capture. Defaults to 'https://google.com'.",
+                "default": "https://google.com"
+            }
+        },
+        "required": []
+    }
+}

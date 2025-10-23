@@ -1,0 +1,23 @@
+{
+    "name": "get_elevation",
+    "description": "This is a sub-function API for tool elevation_from_latitude_and_longitude.\nTool description: Find the elevation at a specified location.\nAPI description: Gets the elevation for specified latitude and longitude using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the location for which the elevation is required.",
+                "default": 57.081937
+            },
+            "lng": {
+                "type": "number",
+                "description": "Longitude of the location for which the elevation is required.",
+                "default": -2.246567
+            }
+        },
+        "required": [
+            "lat",
+            "lng"
+        ]
+    }
+}

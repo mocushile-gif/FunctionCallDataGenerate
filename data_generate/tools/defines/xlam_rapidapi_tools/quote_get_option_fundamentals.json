@@ -1,0 +1,17 @@
+{
+    "name": "quote_get_option_fundamentals",
+    "description": "This is a sub-function API for tool schwab.\nTool description: Research investments, and follow market news\nAPI description: Fetch the option fundamentals for a given stock symbol using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to retrieve option fundamentals.",
+                "default": "TSLA"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

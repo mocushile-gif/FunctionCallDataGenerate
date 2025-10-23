@@ -1,0 +1,15 @@
+{
+    "name": "genericname",
+    "description": "This is a sub-function API for tool drug_info_and_price_history.\nTool description: An API to rapidly retrieve information about drug prices and history across a variety of sources\nAPI description: This function retrieves the generic name of a given drug using the RapidAPI Drug Info and Price History API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "drug": {
+                "type": "string",
+                "description": "The brand name of the drug. Defaults to 'advil'.",
+                "default": "advil"
+            }
+        },
+        "required": []
+    }
+}

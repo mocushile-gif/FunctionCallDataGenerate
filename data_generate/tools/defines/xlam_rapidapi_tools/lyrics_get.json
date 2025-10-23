@@ -1,0 +1,39 @@
+{
+    "name": "lyrics_get",
+    "description": "This is a sub-function API for tool songmeanings.\nTool description: Easily follow and track your favorite artists on SongMeanings!\r\nBe the first to know about new lyrics, song meanings & more!\nAPI description: Fetches lyrics and related data for a specific song using the SongMeanings API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sm_lid": {
+                "type": "string",
+                "description": "SongMeanings Lyric ID. When specified, this parameter will bypass any other lyric identification parameters."
+            },
+            "lyric_title": {
+                "type": "string",
+                "description": "The title of the song or track."
+            },
+            "artist_name": {
+                "type": "string",
+                "description": "The name of the artist."
+            },
+            "format": {
+                "type": "string",
+                "description": "Decide the output type (either xml or json); xml is default."
+            },
+            "spotify_id": {
+                "type": "string",
+                "description": "The Spotify ID of the song. If specified, a match will attempt to be made via this ID. The API will also require `lyric_title` and `artist_name` as backup attempts if this parameter is used. Defaults to None."
+            },
+            "count": {
+                "type": "string",
+                "description": "This parameter is used to track, and report, any offline cached views of lyrics."
+            }
+        },
+        "required": [
+            "sm_lid",
+            "lyric_title",
+            "artist_name",
+            "format"
+        ]
+    }
+}

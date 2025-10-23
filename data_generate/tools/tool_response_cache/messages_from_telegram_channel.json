@@ -1,0 +1,87 @@
+{
+    "{'channel': 'billboard'}": {
+        "error": "",
+        "response": [
+            {
+                "ID": "12345",
+                "Author": "Billboard",
+                "Message": "New Hot 100: Artist X debuts at #1 with 'Summer Vibes'!",
+                "Photo": "https://example.com/billboard-chart.jpg",
+                "Views": "9876",
+                "DateTime": "2023-08-15T14:30:00Z"
+            },
+            {
+                "ID": "12344",
+                "Author": "BillboardTeam",
+                "Message": "Check out this week's Rising Stars feature: Emerging artist Y drops viral track!",
+                "Photo": null,
+                "Views": "4567",
+                "DateTime": "2023-08-15T12:15:00Z"
+            },
+            {
+                "ID": "12343",
+                "Author": "Billboard",
+                "Message": "Live update: Top 10 tracks shifting positions hourly! Stay tuned.",
+                "Photo": "https://example.com/live-update.png",
+                "Views": "2345",
+                "DateTime": "2023-08-15T10:00:00Z"
+            },
+            {
+                "ID": "12342",
+                "Author": "BillboardCharts",
+                "Message": "Country updates: Song Z climbs to #2 on Hot Country Songs chart.",
+                "Photo": null,
+                "Views": "1890",
+                "DateTime": "2023-08-15T08:45:00Z"
+            },
+            {
+                "ID": "12341",
+                "Author": "Billboard",
+                "Message": "Breaking: Artist W announces collab single with Producer V \u2013 details inside.",
+                "Photo": "https://example.com/collab-announcement.jpg",
+                "Views": "3456",
+                "DateTime": "2023-08-14T18:30:00Z"
+            },
+            {
+                "ID": "12340",
+                "Author": "BillboardTeam",
+                "Message": "Throwback Thursday: Remembering the #1 hit from 10 years ago today.",
+                "Photo": "https://example.com/throwback.jpg",
+                "Views": "7654",
+                "DateTime": "2023-08-14T16:20:00Z"
+            },
+            {
+                "ID": "12339",
+                "Author": "Billboard",
+                "Message": "Latin Charts: Nuevo single by Artist Y reaches #1 in 3 countries!",
+                "Photo": "https://example.com/latin-chart.jpg",
+                "Views": "5678",
+                "DateTime": "2023-08-14T14:10:00Z"
+            },
+            {
+                "ID": "12338",
+                "Author": "BillboardCharts",
+                "Message": "Rock Update: Band X's album stays at #1 for 5th consecutive week.",
+                "Photo": null,
+                "Views": "3210",
+                "DateTime": "2023-08-14T12:00:00Z"
+            },
+            {
+                "ID": "12337",
+                "Author": "Billboard",
+                "Message": "Hip-Hop Highlights: New mixtape drops from rising star Z \u2013 stream now.",
+                "Photo": "https://example.com/hiphop.jpg",
+                "Views": "6543",
+                "DateTime": "2023-08-14T09:45:00Z"
+            },
+            {
+                "ID": "12336",
+                "Author": "BillboardTeam",
+                "Message": "Poll: Which summer hit do you think will dominate next week's chart? Vote now!",
+                "Photo": "https://example.com/poll.jpg",
+                "Views": "8901",
+                "DateTime": "2023-08-14T07:30:00Z"
+            }
+        ]
+    }
+}

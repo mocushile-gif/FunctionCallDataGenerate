@@ -1,0 +1,43 @@
+{
+    "name": "get_1_3_add_working_hours",
+    "description": "This is a sub-function API for tool working_days.\nTool description: The API returns the number of days,  hours, working days, working hours, wages, weekend days, and the list of public holidays of the requested date period and country. You can also add any number of working days or working hours to a given date. 50 countries and over 230 regional calendars are supported and we work hard to keep our database up to date by following government announcements regarding public holidays changes. All the calendars can be fully customized from our friendly working da...\nAPI description: Adds a specified amount of working hours to a given start date and time for a specified country.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start_date": {
+                "type": "string",
+                "description": "The start date in the format 'YYYY-MM-DD'.",
+                "default": "2013-12-31"
+            },
+            "country_code": {
+                "type": "string",
+                "description": "The ISO country code (2 letters).  See <a href=https://api.workingdays.org/api-countries >available countries & configurations</a>",
+                "default": "US"
+            },
+            "start_time": {
+                "type": "string",
+                "description": "The start time in 24-hour format with leading zeros (e.g., '08:00').",
+                "default": "08:15"
+            },
+            "increment_time": {
+                "type": "string",
+                "description": "The amount of working time to be added (or removed) to the start date time. Format H:i. This amount cannot exceed 5000 hours. For example, to add one hour&#58; 1&#58;00. To add 30 hours and 15 minutes&#58; 30:15.  To remove 45 minutes&#58; -0:45",
+                "default": "1815"
+            },
+            "configuration": {
+                "type": "string",
+                "description": "The name of the preset configuration to be used. See <a href=https://api.workingdays.org/api-countries >available countries & configurations</a>",
+                "default": "Federal holidays"
+            },
+            "profile_id": {
+                "type": "string",
+                "description": "Optional profile identifier. Defaults to None."
+            }
+        },
+        "required": [
+            "start_date",
+            "country_code",
+            "start_time"
+        ]
+    }
+}

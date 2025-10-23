@@ -1,0 +1,150 @@
+[2025-07-30 14:07:10] [WARNING] [Thread:MainThread - 139916489384768]
+[31mTOOL create_pivot_table_from_file ERROR at Tool create_pivot_table_from_file: [Errno 2] No such file or directory: './csv_data/filtered_bird_migration_data.csv'[0m
+
+[2025-07-30 14:07:10] [WARNING] [Thread:MainThread - 139916489384768]
+[31mTOOL create_pivot_table_from_file Tool call: {'function': {'name': 'create_pivot_table_from_file', 'arguments': '{"file_path":"./csv_data/filtered_bird_migration_data.csv","index":["Species","Region"],"values":"Flight_Distance_km","aggfunc":"sum","save_path":"./csv_data/bird_migration_pivot_table.csv"}'}, 'type': 'function', 'id': 1}[0m
+
+[2025-07-30 14:07:10] [WARNING] [Thread:MainThread - 139916489384768]
+Traceback (most recent call last):
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/agent/tool_agent.py", line 155, in _run
+    result = func(**new_arguments)
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/tools/executable_functions/file_system_functions/file_operation_functions/create_pivot_table_from_file.py", line 39, in create_pivot_table_from_file
+    df = load_data(file_path,sheet_name)
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/tools/executable_functions/file_system_functions/file_operation_functions/create_pivot_table_from_file.py", line 21, in load_data
+    df = pd.read_csv(file_path, encoding=encoding)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: './csv_data/filtered_bird_migration_data.csv'
+
+
+[2025-07-30 14:07:10] [ERROR] [Thread:MainThread - 139916489384768]
+[31m[5e334ba6-6b90-4a9d-88ae-3cf9d8f7e573] TOOL ERROR:[0m [37m{'status': 'failed', 'message': 'Tool "create_pivot_table_from_file" Error: [Errno 2] No such file or directory: \'./csv_data/filtered_bird_migration_data.csv\''}[0m
+
+[2025-07-30 14:09:12] [WARNING] [Thread:MainThread - 139660292293440]
+[31mTOOL create_pivot_table_from_file ERROR at Tool create_pivot_table_from_file: [Errno 2] No such file or directory: './csv_data/filtered_bird_migration_data.csv'[0m
+
+[2025-07-30 14:09:12] [WARNING] [Thread:MainThread - 139660292293440]
+[31mTOOL create_pivot_table_from_file Tool call: {'function': {'name': 'create_pivot_table_from_file', 'arguments': '{"file_path":"./csv_data/filtered_bird_migration_data.csv","index":["Species","Region"],"values":"Flight_Distance_km","aggfunc":"sum","save_path":"./csv_data/bird_migration_pivot_table.csv"}'}, 'type': 'function', 'id': 1}[0m
+
+[2025-07-30 14:09:12] [WARNING] [Thread:MainThread - 139660292293440]
+Traceback (most recent call last):
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/agent/tool_agent.py", line 155, in _run
+    result = func(**new_arguments)
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/tools/executable_functions/file_system_functions/file_operation_functions/create_pivot_table_from_file.py", line 39, in create_pivot_table_from_file
+    df = load_data(file_path,sheet_name)
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/tools/executable_functions/file_system_functions/file_operation_functions/create_pivot_table_from_file.py", line 21, in load_data
+    df = pd.read_csv(file_path, encoding=encoding)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: './csv_data/filtered_bird_migration_data.csv'
+
+
+[2025-07-30 14:09:12] [ERROR] [Thread:MainThread - 139660292293440]
+[31m[5e334ba6-6b90-4a9d-88ae-3cf9d8f7e573] TOOL ERROR:[0m [37m{'status': 'failed', 'message': 'Tool "create_pivot_table_from_file" Error: [Errno 2] No such file or directory: \'./csv_data/filtered_bird_migration_data.csv\''}[0m
+
+[2025-07-30 14:10:39] [WARNING] [Thread:MainThread - 139929870197568]
+[31mTOOL create_pivot_table_from_file ERROR at Tool create_pivot_table_from_file: [Errno 2] No such file or directory: './csv_data/filtered_bird_migration_data.csv'[0m
+
+[2025-07-30 14:10:39] [WARNING] [Thread:MainThread - 139929870197568]
+[31mTOOL create_pivot_table_from_file Tool call: {'function': {'name': 'create_pivot_table_from_file', 'arguments': '{"file_path":"./csv_data/filtered_bird_migration_data.csv","index":["Species","Region"],"values":"Flight_Distance_km","aggfunc":"sum","save_path":"./csv_data/bird_migration_pivot_table.csv"}'}, 'type': 'function', 'id': 1}[0m
+
+[2025-07-30 14:10:39] [WARNING] [Thread:MainThread - 139929870197568]
+Traceback (most recent call last):
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/agent/tool_agent.py", line 155, in _run
+    result = func(**new_arguments)
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/tools/executable_functions/file_system_functions/file_operation_functions/create_pivot_table_from_file.py", line 39, in create_pivot_table_from_file
+    df = load_data(file_path,sheet_name)
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/tools/executable_functions/file_system_functions/file_operation_functions/create_pivot_table_from_file.py", line 21, in load_data
+    df = pd.read_csv(file_path, encoding=encoding)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: './csv_data/filtered_bird_migration_data.csv'
+
+
+[2025-07-30 14:10:39] [ERROR] [Thread:MainThread - 139929870197568]
+[31m[5e334ba6-6b90-4a9d-88ae-3cf9d8f7e573] TOOL ERROR:[0m [37m{'status': 'failed', 'message': 'Tool "create_pivot_table_from_file" Error: [Errno 2] No such file or directory: \'./csv_data/filtered_bird_migration_data.csv\''}[0m
+
+[2025-07-30 14:11:25] [WARNING] [Thread:MainThread - 140565834085184]
+[31mTOOL create_pivot_table_from_file ERROR at Tool create_pivot_table_from_file: [Errno 2] No such file or directory: './csv_data/filtered_bird_migration_data.csv'[0m
+
+[2025-07-30 14:11:25] [WARNING] [Thread:MainThread - 140565834085184]
+[31mTOOL create_pivot_table_from_file Tool call: {'function': {'name': 'create_pivot_table_from_file', 'arguments': '{"file_path":"./csv_data/filtered_bird_migration_data.csv","index":["Species","Region"],"values":"Flight_Distance_km","aggfunc":"sum","save_path":"./csv_data/bird_migration_pivot_table.csv"}'}, 'type': 'function', 'id': 1}[0m
+
+[2025-07-30 14:11:25] [WARNING] [Thread:MainThread - 140565834085184]
+Traceback (most recent call last):
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/agent/tool_agent.py", line 155, in _run
+    result = func(**new_arguments)
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/tools/executable_functions/file_system_functions/file_operation_functions/create_pivot_table_from_file.py", line 39, in create_pivot_table_from_file
+    df = load_data(file_path,sheet_name)
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/tools/executable_functions/file_system_functions/file_operation_functions/create_pivot_table_from_file.py", line 21, in load_data
+    df = pd.read_csv(file_path, encoding=encoding)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: './csv_data/filtered_bird_migration_data.csv'
+
+
+[2025-07-30 14:11:25] [ERROR] [Thread:MainThread - 140565834085184]
+[31m[5e334ba6-6b90-4a9d-88ae-3cf9d8f7e573] TOOL ERROR:[0m [37m{'status': 'failed', 'message': 'Tool "create_pivot_table_from_file" Error: [Errno 2] No such file or directory: \'./csv_data/filtered_bird_migration_data.csv\''}[0m
+
+[2025-07-30 14:12:37] [WARNING] [Thread:MainThread - 139895631950656]
+[31mTOOL create_pivot_table_from_file ERROR at Tool create_pivot_table_from_file: [Errno 2] No such file or directory: './csv_data/filtered_bird_migration_data.csv'[0m
+
+[2025-07-30 14:12:37] [WARNING] [Thread:MainThread - 139895631950656]
+[31mTOOL create_pivot_table_from_file Tool call: {'function': {'name': 'create_pivot_table_from_file', 'arguments': '{"file_path":"./csv_data/filtered_bird_migration_data.csv","index":["Species","Region"],"values":"Flight_Distance_km","aggfunc":"sum","save_path":"./csv_data/bird_migration_pivot_table.csv"}'}, 'type': 'function', 'id': 1}[0m
+
+[2025-07-30 14:12:37] [WARNING] [Thread:MainThread - 139895631950656]
+Traceback (most recent call last):
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/agent/tool_agent.py", line 155, in _run
+    result = func(**new_arguments)
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/tools/executable_functions/file_system_functions/file_operation_functions/create_pivot_table_from_file.py", line 39, in create_pivot_table_from_file
+    df = load_data(file_path,sheet_name)
+  File "/mnt/afs2/qinxinyi/function_call_data/data_generate/tools/executable_functions/file_system_functions/file_operation_functions/create_pivot_table_from_file.py", line 21, in load_data
+    df = pd.read_csv(file_path, encoding=encoding)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/qinxinyi/anaconda3/lib/python3.9/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: './csv_data/filtered_bird_migration_data.csv'
+
+
+[2025-07-30 14:12:37] [ERROR] [Thread:MainThread - 139895631950656]
+[31m[5e334ba6-6b90-4a9d-88ae-3cf9d8f7e573] TOOL ERROR:[0m [37m{'status': 'failed', 'message': 'Tool "create_pivot_table_from_file" Error: [Errno 2] No such file or directory: \'./csv_data/filtered_bird_migration_data.csv\''}[0m
+

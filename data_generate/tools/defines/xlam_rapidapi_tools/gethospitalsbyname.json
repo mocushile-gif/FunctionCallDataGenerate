@@ -1,0 +1,17 @@
+{
+    "name": "gethospitalsbyname",
+    "description": "This is a sub-function API for tool us_hospitals.\nTool description: A list of major US hospitals including hospital names, addresses, type and ownership.\nAPI description: ###Find US Hospitals by name.\nSimply add your search string to the \"name\" parameter in the url.\nTip:  The API also works if your search for *name='pr'* instead of *name='presbyterian'.* \n\n**Note**: The API only returns the first 30 results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name or partial name of the hospital to search for.",
+                "default": "presbyterian"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

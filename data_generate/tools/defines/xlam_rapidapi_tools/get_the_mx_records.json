@@ -1,0 +1,17 @@
+{
+    "name": "get_the_mx_records",
+    "description": "This is a sub-function API for tool email_existence_validator.\nTool description: API which checks if email really exist on server or not.\nIt check for different parameters for giving end results .\nCheck for MX records, SMTP deliverability, Disposable check and many more.\nAPI description: Fetches the MX (Mail Exchange) records for a given email address using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address for which to retrieve MX records.",
+                "default": "example@gmail.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

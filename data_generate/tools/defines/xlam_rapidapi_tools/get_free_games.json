@@ -1,0 +1,23 @@
+{
+    "name": "get_free_games",
+    "description": "This is a sub-function API for tool epic_games_store.\nTool description: Search games/bundles/editors in Epic Games store, get latest news from the platform and present free games.\nAPI description: Fetches the current list of free games from the Epic Games Store based on the specified locale and country.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "locale": {
+                "type": "string",
+                "description": "The locale code for the desired language (e.g., 'en-US').",
+                "default": "en"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country code to filter the games (e.g., 'US').",
+                "default": "US"
+            }
+        },
+        "required": [
+            "locale",
+            "country"
+        ]
+    }
+}

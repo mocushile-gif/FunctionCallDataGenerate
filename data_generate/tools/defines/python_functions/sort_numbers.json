@@ -1,0 +1,24 @@
+{
+    "name": "sort_numbers",
+    "description": "Sorts a list of numbers in ascending or descending order.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "numbers": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "The list of numbers to be sorted."
+            },
+            "descending": {
+                "type": "boolean",
+                "description": "If true, sorts the numbers in descending order. Defaults to false (ascending).",
+                "default": false
+            }
+        },
+        "required": [
+            "numbers"
+        ]
+    }
+}

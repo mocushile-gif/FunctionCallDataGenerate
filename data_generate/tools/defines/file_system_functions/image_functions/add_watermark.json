@@ -1,0 +1,51 @@
+{
+    "name": "add_watermark",
+    "description": "Add watermark to image (text or image watermark) with customizable position, opacity, and styling options.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the input image file"
+        },
+        "watermark_text": {
+          "type": "string",
+          "description": "Text to use as watermark (either this or watermark_image_path must be provided)"
+        },
+        "watermark_image_path": {
+          "type": "string",
+          "description": "Path to watermark image file (either this or watermark_text must be provided)"
+        },
+        "position": {
+          "type": "string",
+          "description": "Position of watermark on the image",
+          "enum": ["top-left", "top-right", "bottom-left", "bottom-right", "center"],
+          "default": "bottom-right"
+        },
+        "opacity": {
+          "type": "number",
+          "description": "Opacity of watermark (0.0-1.0). 0.0 is transparent, 1.0 is fully opaque",
+          "default": 0.7,
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+        "font_size": {
+          "type": "integer",
+          "description": "Font size for text watermark",
+          "default": 24,
+          "minimum": 8,
+          "maximum": 200
+        },
+        "font_color": {
+          "type": "string",
+          "description": "Font color for text watermark (e.g., 'white', 'black', '#FF0000')",
+          "default": "white"
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output image. If not provided, will create watermarked version with suffix"
+        }
+      },
+      "required": ["image_path"]
+    }
+  } 

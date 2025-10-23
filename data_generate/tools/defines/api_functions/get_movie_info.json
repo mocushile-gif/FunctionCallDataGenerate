@@ -1,0 +1,33 @@
+{
+    "name": "get_movie_info",
+    "description": "Get detailed movie information using OMDB API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string",
+                "description": "Movie title to search for"
+            },
+            "year": {
+                "type": "integer",
+                "description": "Release year for more specific search (optional)"
+            },
+            "include_plot": {
+                "type": "boolean",
+                "description": "Whether to include plot summary",
+                "default": true
+            },
+            "include_ratings": {
+                "type": "boolean",
+                "description": "Whether to include ratings from various sources",
+                "default": true
+            },
+            "include_cast": {
+                "type": "boolean",
+                "description": "Whether to include cast information",
+                "default": true
+            }
+        },
+        "required": ["title"]
+    }
+}

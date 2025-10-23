@@ -1,0 +1,17 @@
+{
+    "name": "ip_address_lookup",
+    "description": "This is a sub-function API for tool ip_geolocalization_api.\nTool description: IP Geolocalization API is a powerful tool for determining the location of an IP address. It offers accurate and up-to-date information, including the country, region, city, and latitude/longitude coordinates of the IP. It is perfect for businesses, researchers, and developers looking to understand the location of their website visitors or users.\nAPI description: When an IP address is provided this API will retrieve all possible data referred to its location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IP address to look up.",
+                "default": "98.207.254.136"
+            }
+        },
+        "required": [
+            "ip"
+        ]
+    }
+}

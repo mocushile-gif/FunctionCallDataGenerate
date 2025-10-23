@@ -1,0 +1,17 @@
+{
+    "name": "autocomplete_cities",
+    "description": "This is a sub-function API for tool autocomplete_india.\nTool description: Autocomplete Indian pincodes, localities, cities, states.\nAPI description: Fetches autocomplete suggestions for USA cities from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "city": {
+                "type": "string",
+                "description": "The name or partial name of the city to autocomplete.",
+                "default": "Chenn"
+            }
+        },
+        "required": [
+            "city"
+        ]
+    }
+}

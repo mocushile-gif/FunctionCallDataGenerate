@@ -1,0 +1,17 @@
+{
+    "name": "get_a_list_of_states",
+    "description": "This is a sub-function API for tool australian_postcode_to_suburb.\nTool description: Find out all the Australian  suburbs using postcode.\nAPI description: Retrieves a list of 3-letter state abbreviations for a given Australian postcode using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "postcode": {
+                "type": "number",
+                "description": "A valid Australian postcode to retrieve state information for.",
+                "default": 2000.0
+            }
+        },
+        "required": [
+            "postcode"
+        ]
+    }
+}

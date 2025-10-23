@@ -1,0 +1,17 @@
+{
+    "name": "search_text",
+    "description": "This is a sub-function API for tool bible_search.\nTool description: Retrieve chapters and verses from the Old Testament and New Testament of the KJV. This API does not include the false gnostic books of the bible called the Pauline and Petrine epistles.\nAPI description: Search for verses from the Bible that match the given text using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to search for within Bible verses.",
+                "default": "Melchizedek"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

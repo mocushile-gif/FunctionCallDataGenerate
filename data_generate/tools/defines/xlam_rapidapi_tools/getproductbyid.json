@@ -1,0 +1,17 @@
+{
+    "name": "getproductbyid",
+    "description": "This is a sub-function API for tool feku_json.\nTool description: Free Feku ( Fake ) API for Testing and Prototyping.\nAPI description: Fetches specific product details by product ID from the RapidAPI endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the product to fetch.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

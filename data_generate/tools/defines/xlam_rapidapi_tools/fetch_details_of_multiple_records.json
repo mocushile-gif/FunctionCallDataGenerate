@@ -1,0 +1,17 @@
+{
+    "name": "fetch_details_of_multiple_records",
+    "description": "This is a sub-function API for tool magical_taske.\nTool description: Fetch sceneries and getaways in Kenya.\nAPI description: This endpoint fetches details of more than 1 record. Make sure you pass a valid record ids. If you pass in an invalid id, you will get an `Internal Sever Error 500` for the whole request.\n\nYou can request details of a maximum of 10 records at a go in this endpoint. The `id`s should be separated using a comma with no spaces.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "A comma-separated string of record IDs for which to fetch details. Maximum 10 IDs allowed, no spaces between commas.",
+                "default": "b4180336-ef07-453d-b833-807161aedf36,7cf78e19-57d2-4bce-8999-63aad8f0e70c"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

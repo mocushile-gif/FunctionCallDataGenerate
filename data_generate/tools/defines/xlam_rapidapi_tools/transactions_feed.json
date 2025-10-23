@@ -1,0 +1,25 @@
+{
+    "name": "transactions_feed",
+    "description": "This is a sub-function API for tool crypto_whale_transactions.\nTool description: Get latest huge crypto transactions for most popular blockchains\nAPI description: Get latest huge whale transactions for most popular blockchains.\n\n**Filter by txn value. Add parameters as below:**\n<_amount_usd=10000 \nOR\n>amount_usd=10000\n\n**Filter by blockchain:**\n t_blockchain=bitcoin\n\nAvailable blockchains: bitcoin, bitcoin-cash, ethereum, bitcoin-sv, litecoin, tron, ripple, zcash, dogecoin, neo, eos, dash, ethereum-classic, tezos, binancechain, stellar, groestlcoin, icon, steem, cosmos, decred, verge, hypercash, siacoin\n\n\n**Pagination:**\nAdd parameter: size=100",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "s_amount_usd": {
+                "type": "string",
+                "description": "Filters transactions by value in USD. Use 'desc' for descending order.",
+                "default": "desc"
+            },
+            "size": {
+                "type": "string",
+                "description": "Number of transactions to fetch. Defaults to '20'.",
+                "default": "20"
+            },
+            "t_blockchain": {
+                "type": "string",
+                "description": "Specifies the blockchain to filter transactions. Defaults to 'ethereum'.",
+                "default": "ethereum"
+            }
+        },
+        "required": []
+    }
+}

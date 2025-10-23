@@ -1,0 +1,16 @@
+{
+    "name": "select_race_based_on_race_number",
+    "description": "This is a sub-function API for tool f1_race_schedule.\nTool description: This API provides the user with up-to-date dates and timings for all the races in the ongoing F1 season.\nAPI description: Returns the details for the race based on the race number for the track in the F1 season.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "race_no": {
+                "type": "string",
+                "description": "The race number of the Formula 1 race to get details for."
+            }
+        },
+        "required": [
+            "race_no"
+        ]
+    }
+}

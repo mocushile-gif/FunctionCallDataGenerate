@@ -1,0 +1,17 @@
+{
+    "name": "leaguelogoimage",
+    "description": "This is a sub-function API for tool esportapi.\nTool description: ESportApi offers eSports results for League of Legends, Dota 2, Counter-Strike providing also eSports standings and tournament live scores.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Fetch the logo image for a specific Rugby league in PNG format using the given tournament ID and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tournamentid": {
+                "type": "number",
+                "description": "The unique tournament ID for which you want to retrieve the league logo image.",
+                "default": 16026
+            }
+        },
+        "required": [
+            "tournamentid"
+        ]
+    }
+}

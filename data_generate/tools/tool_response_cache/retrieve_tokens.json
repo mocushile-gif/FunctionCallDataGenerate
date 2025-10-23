@@ -1,0 +1,55 @@
+{
+    "{'slug': 'artgobblers'}": {
+        "error": "",
+        "response": {
+            "collection": {
+                "name": "Art Gobblers",
+                "slug": "artgobblers",
+                "totalTokens": 5000,
+                "floorPrice": "0.8 ETH",
+                "volume": "12,500 ETH"
+            },
+            "tokens": [
+                {
+                    "tokenId": "312",
+                    "name": "Art Gobblers #312",
+                    "traits": [
+                        {
+                            "trait_type": "Background",
+                            "value": "Crimson"
+                        },
+                        {
+                            "trait_type": "Body",
+                            "value": "Pixel"
+                        },
+                        {
+                            "trait_type": "Accessories",
+                            "value": "Glow Glasses"
+                        }
+                    ],
+                    "lastSalePrice": "1.2 ETH"
+                },
+                {
+                    "tokenId": "789",
+                    "name": "Art Gobblers #789",
+                    "traits": [
+                        {
+                            "trait_type": "Background",
+                            "value": "Neon Blue"
+                        },
+                        {
+                            "trait_type": "Body",
+                            "value": "Vector"
+                        },
+                        {
+                            "trait_type": "Accessories",
+                            "value": "Antenna"
+                        }
+                    ],
+                    "lastSalePrice": "0.95 ETH"
+                }
+            ],
+            "nextCursor": "MTY5NDc2NTYwMDAwMA"
+        }
+    }
+}

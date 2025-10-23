@@ -1,0 +1,16 @@
+{
+    "name": "video_videoid",
+    "description": "This is a sub-function API for tool video_builder.\nTool description: Create dynamic videos using images as source.\n\nThis API provides an friendly way to generate MP4 videos using FFMPEG.\nIt's in initial stage, so you may feel that it don't have too much features yet.\n\n-- Important notes:\n* The requested videos are added to queue and will not be generated immediately\n* If you want to be notified about the requested video build finish, it's important to send a valid personal e-mail on \"notifyEmail\" field\n* You can check periodically the video status and the down...\nAPI description: Fetches video information and status from the video-builder API using the provided video ID and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "videoid": {
+                "type": "number",
+                "description": "The unique identifier for the video."
+            }
+        },
+        "required": [
+            "videoid"
+        ]
+    }
+}

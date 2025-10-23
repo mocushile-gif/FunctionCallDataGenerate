@@ -1,0 +1,29 @@
+{
+    "name": "get_details_of_a_news_item",
+    "description": "This is a sub-function API for tool anime_news_net.\nTool description: This anime news API allows users to get details about the latest anime news, including the news headline, category, publication date and a brief introduction. It also provides an image relevant to the news item and the full content of the news item. Users can use this API to stay updated on the latest anime news easily and quickly\nAPI description: Fetches the details of a news item including the title, image, body, and other properties from the specified API using the provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the news item.",
+                "default": ".196030"
+            },
+            "title": {
+                "type": "string",
+                "description": "The title of the news item.",
+                "default": "mai-nishikata-game-between-the-suits-manga-resumes-after-2-years"
+            },
+            "date": {
+                "type": "string",
+                "description": "The publication date of the news item.",
+                "default": "2023-03-17"
+            }
+        },
+        "required": [
+            "is_id",
+            "title",
+            "date"
+        ]
+    }
+}

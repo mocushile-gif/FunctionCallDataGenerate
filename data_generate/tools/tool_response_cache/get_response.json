@@ -1,0 +1,104 @@
+{
+    "{'business_type': 'Restaurant', 'business_brand': 'Fuzi', 'avis': 'Thank you for the great service and delicious food.'}": {
+        "error": "",
+        "response": {
+            "Thank you for the great service and delicious food.": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre repas et que le service vous ait plu."
+        }
+    },
+    "{'business_type': 'Restaurant', 'business_brand': 'Fuzi', 'avis': 'Thank you for the great service, delicious food, and the cozy ambiance. I particularly loved the [specific dish].'}": {
+        "error": "",
+        "response": {
+            "Thank you for the great service, delicious food, and the cozy ambiance. I particularly loved the [specific dish].": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre repas et l'ambiance de notre restaurant. Nous espérons vous revoir bientôt !"
+        }
+    },
+    "{'business_type': 'Restaurant', 'business_brand': 'Fuzi', 'avis': 'I had an incredible dining experience at Fuzi!'}": {
+        "error": "",
+        "response": {
+            "I had an incredible dining experience at Fuzi!": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre repas chez nous et que vous ayez eu une expérience agréable. Nous espérons vous revoir bientôt !"
+        }
+    },
+    "{'business_type': 'Restaurant', 'business_brand': 'Fuzi', 'avis': 'Thank you for the amazing service and delicious food.'}": {
+        "error": "",
+        "response": {
+            "Thank you for the amazing service and delicious food.": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre repas et que vous ayez été satisfaits du service. Nous espérons vous revoir bientôt !"
+        }
+    },
+    "{'business_type': 'restaurant', 'business_brand': 'Fuzi', 'avis': 'Thank you for the great service and delicious food.'}": {
+        "error": "",
+        "response": {
+            "Thank you for the great service and delicious food.": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre repas et que le service vous ait plu. Au plaisir de vous accueillir à nouveau !"
+        }
+    },
+    "{'business_type': 'Restaurant', 'business_brand': 'ABC', 'avis': 'I had a fantastic time at your restaurant. Thank you for the amazing service.'}": {
+        "error": "",
+        "response": {
+            "I had a fantastic time at your restaurant. Thank you for the amazing service.": "Bonjour et merci pour votre message, je suis ravie que vous ayez passé un bon moment dans notre établissement et que vous ayez apprécié notre service."
+        }
+    },
+    "{'business_type': 'Restaurant', 'business_brand': 'XYZ', 'avis': 'I had a fantastic time at your restaurant. Thank you for the amazing service.'}": {
+        "error": "",
+        "response": {
+            "I had a fantastic time at your restaurant. Thank you for the amazing service.": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre repas et que vous ayez été satisfait du service."
+        }
+    },
+    "{'business_type': 'Restaurant', 'business_brand': 'ABC', 'avis': 'Thank you for the wonderful dining experience. The food was exceptional and the service was top-notch.'}": {
+        "error": "",
+        "response": {
+            "Thank you for the wonderful dining experience. The food was exceptional and the service was top-notch.": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre repas et que le service vous ait plu. Nous espérons vous accueillir de nouveau bientôt !"
+        }
+    },
+    "{'business_type': 'restaurant', 'business_brand': 'a restaurant', 'avis': 'We had a fantastic dining experience. Thank you for the memorable evening.'}": {
+        "error": "",
+        "response": {
+            "We had a fantastic dining experience. Thank you for the memorable evening.": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre soirée chez nous et que vous vous en soyez souvenu. Nous espérons vous revoir bientôt."
+        }
+    },
+    "{'business_type': 'restaurant', 'business_brand': 'The Great Bistro', 'avis': 'We had a fantastic dining experience. Thank you for the memorable evening.'}": {
+        "error": "",
+        "response": {
+            "We had a fantastic dining experience. Thank you for the memorable evening.": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre soirée chez nous et que vous ayez passé un agréable moment. Nous espérons vous revoir bientôt !"
+        }
+    },
+    "{'business_type': 'Restaurant', 'business_brand': 'Fuzi', 'avis': 'I had a wonderful experience at your restaurant, Fuzi. The service was exceptional, and the food was delicious. Thank you so much for your warm hospitality!'}": {
+        "error": "",
+        "response": {
+            "I had a wonderful experience at your restaurant, Fuzi. The service was exceptional, and the food was delicious. Thank you so much for your warm hospitality!": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre repas et que le service vous ait plu. Je vous souhaite une excellente journée."
+        }
+    },
+    "{'business_type': 'Restaurant', 'business_brand': 'Fuzi', 'avis': 'Merci pour votre avis. Nous sommes ravis que vous ayez apprécié notre restaurant Fuzi. Votre soutien signifie beaucoup pour nous! Nous espérons vous revoir bientôt.'}": {
+        "error": "",
+        "response": {
+            "Merci pour votre avis. Nous sommes ravis que vous ayez apprécié notre restaurant Fuzi. Votre soutien signifie beaucoup pour nous! Nous espérons vous revoir bientôt.": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre repas chez nous et que notre restaurant vous ait plu. Votre soutien est très important pour nous et nous espérons vous revoir bientôt !"
+        }
+    },
+    "{'business_type': 'Restaurant', 'business_brand': 'Fuzi', 'avis': 'Thank you for your great review of Fuzi! We appreciate your feedback and hope to see you again soon.'}": {
+        "error": "",
+        "response": {
+            "Thank you for your great review of Fuzi! We appreciate your feedback and hope to see you again soon.": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre repas chez nous et j'espère vous revoir bientôt !"
+        }
+    },
+    "{'business_type': 'Restaurant', 'business_brand': 'Fuzi', 'avis': 'Thank you for your review! We really appreciate your feedback and hope to see you again soon.'}": {
+        "error": "",
+        "response": {
+            "Thank you for your review! We really appreciate your feedback and hope to see you again soon.": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre repas chez nous et que vous ayez pris le temps de nous laisser un avis. J'espère vous revoir bientôt !"
+        }
+    },
+    "{'business_type': 'Restaurant', 'business_brand': 'Fuzi', 'avis': 'Thank you for your review of Fuzi! We appreciate your feedback and hope to see you again soon.'}": {
+        "error": "",
+        "response": {
+            "Thank you for your review of Fuzi! We appreciate your feedback and hope to see you again soon.": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre repas et que vous ayez pu profiter de notre cadre agréable. Nous espérons vous revoir bientôt !"
+        }
+    },
+    "{'business_type': 'Restaurant', 'business_brand': 'Fuzi', 'avis': \"Merci pour votre accueil, c'était parfait\"}": {
+        "error": "",
+        "response": {
+            "Merci pour votre accueil, c'était parfait": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre séjour chez nous et espère vous revoir bientôt !"
+        }
+    },
+    "{'business_type': 'Restaurant', 'business_brand': 'Fuzi', 'avis': 'I had a great experience at your restaurant. The food was amazing, and the service was top-notch. Thank you for your hospitality!'}": {
+        "error": "",
+        "response": {
+            "I had a great experience at your restaurant. The food was amazing, and the service was top-notch. Thank you for your hospitality!": "Bonjour et merci pour votre message, je suis ravie que vous ayez apprécié votre repas et que le service vous ait plu. Nous espérons vous revoir bientôt !"
+        }
+    }
+}

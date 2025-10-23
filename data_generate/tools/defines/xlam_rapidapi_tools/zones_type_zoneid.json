@@ -1,0 +1,21 @@
+{
+    "name": "zones_type_zoneid",
+    "description": "This is a sub-function API for tool national_weather_service.\nTool description: National Weather Service API (api.weather.gov) NOAA (National Oceanic and Atmospheric Administration) provides national weather data as well as past data.\nAPI description: Fetches metadata for a specific zone using the National Weather Service API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "type: a valid zone type (list forthcoming)"
+            },
+            "zoneid": {
+                "type": "string",
+                "description": "zoneId: a zone id (list forthcoming)"
+            }
+        },
+        "required": [
+            "type",
+            "zoneid"
+        ]
+    }
+}

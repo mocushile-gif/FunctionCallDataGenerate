@@ -1,0 +1,23 @@
+{
+    "name": "query_for_postal_code_boundary_by_location",
+    "description": "This is a sub-function API for tool de_boundaries_io.\nTool description: A Germany PostalCode Boundaries API\nAPI description: Queries the boundary of a postal code based on the given geographic coordinates.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "longitude": {
+                "type": "number",
+                "description": "The longitudinal coordinate of the location.",
+                "default": 11.5835
+            },
+            "latitude": {
+                "type": "number",
+                "description": "The latitudinal coordinate of the location.",
+                "default": 48.1633
+            }
+        },
+        "required": [
+            "longitude",
+            "latitude"
+        ]
+    }
+}

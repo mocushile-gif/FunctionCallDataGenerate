@@ -1,0 +1,26 @@
+{
+    "name": "airportstatistics",
+    "description": "This is a sub-function API for tool flightera_flight_data.\nTool description: Flight status, on-time performance and statistics by Flightera\nAPI description: Returns detailed airport statistics for airports identified by the provided identifiers. In most cases the list should contain only one entry, unless the ident is ambiguous.\nIf searched by ident, only one airport is returned.\nOne of ident, iata, icao, localID must be provided.\nStatistics are calculated overnight and represent the current day's data.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ident": {
+                "type": "string",
+                "description": "The ident of the airport, as returned by /airport/search."
+            },
+            "localid": {
+                "type": "string",
+                "description": "Local identifiers of the airport, currently mostly available for the US & CA (FAA-ID). Max length is 6"
+            },
+            "iata": {
+                "type": "string",
+                "description": "The IATA code of the airport, must have a length of 3."
+            },
+            "icao": {
+                "type": "string",
+                "description": "The ICAO code of the airport, must have a length of 4."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_sign_prediction_for_today_by_name",
+    "description": "This is a sub-function API for tool zodiacapi.\nTool description: Simple ZodiacAPI BETA\nAPI description: Fetches the zodiac sign prediction for today based on the provided sign name using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the zodiac sign for which the prediction is requested.",
+                "default": "Aries"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

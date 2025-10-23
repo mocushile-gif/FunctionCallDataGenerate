@@ -1,0 +1,17 @@
+{
+    "name": "fetch_business_data",
+    "description": "This is a sub-function API for tool whatsapp_data.\nTool description: fetch whatsapp profiles data\nAPI description: The endpoint will provide: `description`, `website`, `email`, `business hours`, `address` and `category`; if the number is a whatsapp for business account.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone": {
+                "type": "number",
+                "description": "The phone number of the WhatsApp business account for which data is being requested.",
+                "default": 34655719560.0
+            }
+        },
+        "required": [
+            "phone"
+        ]
+    }
+}

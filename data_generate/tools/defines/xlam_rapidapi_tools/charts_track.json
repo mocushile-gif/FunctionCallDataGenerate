@@ -1,0 +1,29 @@
+{
+    "name": "charts_track",
+    "description": "This is a sub-function API for tool shazam.\nTool description: Identify any song. Discover, artists, lyrics, videos & playlists to create a song detector site/application such as shazam.com\nAPI description: Fetch a list of popular songs from a specified chart using the Shazam API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "listid": {
+                "type": "string",
+                "description": "The identifier for the chart list, as returned by the `/charts/list` endpoint. Defaults to `None`."
+            },
+            "pagesize": {
+                "type": "number",
+                "description": "The number of items to fetch per response, with a maximum of 20. Defaults to `20`.",
+                "default": 20.0
+            },
+            "startfrom": {
+                "type": "number",
+                "description": "The starting index for paging through the results. Defaults to `0`.",
+                "default": 0.0
+            },
+            "locale": {
+                "type": "string",
+                "description": "The language code for the results. Defaults to `'en-US'`.",
+                "default": "en-US"
+            }
+        },
+        "required": []
+    }
+}

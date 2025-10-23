@@ -1,0 +1,17 @@
+{
+    "name": "area_flag",
+    "description": "This is a sub-function API for tool soccerway_feed.\nTool description: Soccerway covers over 1000 football leagues & cups from 134+ countries. It is the world’s largest football database. Data without delay, instant update. Historical data since 1901.  **Site:** [soccerway.com](https://int.soccerway.com/)  **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters **Other sports api:** https://rapi.one\nAPI description: Fetch the flag image URL for a given area ID using the Soccerway API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "area_uid": {
+                "type": "string",
+                "description": "The unique identifier for the area.",
+                "default": "1fk5l4hkqk12i7zske6mcqju6"
+            }
+        },
+        "required": [
+            "area_uid"
+        ]
+    }
+}

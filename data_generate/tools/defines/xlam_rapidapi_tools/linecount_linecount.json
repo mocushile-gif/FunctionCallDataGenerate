@@ -1,0 +1,17 @@
+{
+    "name": "linecount_linecount",
+    "description": "This is a sub-function API for tool poetry_db.\nTool description: PoetryDB is the world's first API for Next Generation internet poets\nAPI description: Fetches all poems from the Poetry DB with a specific number of lines.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "linecount": {
+                "type": "number",
+                "description": "The number of lines in each poem to be fetched.",
+                "default": 14.0
+            }
+        },
+        "required": [
+            "linecount"
+        ]
+    }
+}

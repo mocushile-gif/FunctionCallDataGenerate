@@ -1,0 +1,27 @@
+{
+    "name": "youtube_keyword_search",
+    "description": "This is a sub-function API for tool youtube_keyword_search.\nTool description: YouTube Keyword Search API\nAPI description: Performs a YouTube keyword search using the provided search query and optional parameters such as country code and language code. It sends a GET request to the YouTube keyword search API and returns the response in JSON format if possible, otherwise returns the raw response text.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search query.",
+                "default": "foot"
+            },
+            "gl": {
+                "type": "string",
+                "description": "The country code in Alpha-2 format. Default is 'us'.",
+                "default": "us"
+            },
+            "hl": {
+                "type": "string",
+                "description": "The search language code in ISO 639-1 format. Default is 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

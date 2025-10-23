@@ -1,0 +1,17 @@
+{
+    "name": "areas_id",
+    "description": "This is a sub-function API for tool zeus_api.\nTool description: This API returns information on the 5 major European football leagues.\nGet standings, matches, scorers and more.\nAPI description: Fetches area details from the Zeus API using a given area ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier for the area to fetch details for.",
+                "default": "ITA"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

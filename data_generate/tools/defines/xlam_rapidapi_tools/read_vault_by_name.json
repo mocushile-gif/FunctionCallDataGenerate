@@ -1,0 +1,17 @@
+{
+    "name": "read_vault_by_name",
+    "description": "This is a sub-function API for tool yardillo.\nTool description: No code API orchestration workflow\nAPI description: Fetches vault details by the given vault name using the Yardillo API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the vault to fetch details for.",
+                "default": "Vault_ESBHI"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

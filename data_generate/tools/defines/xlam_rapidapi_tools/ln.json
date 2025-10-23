@@ -1,0 +1,38 @@
+{
+    "name": "ln",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Returns the natural logarithm (LN) transforms of all data points for a given financial instrument using the Twelve Data API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The financial instrument symbol, which can be an equity, index, ETF, forex, or cryptocurrency (e.g., `AAPL`, `EUR/USD`, `ETH/BTC`, etc.).",
+                "default": "AAPL"
+            },
+            "interval": {
+                "type": "string",
+                "description": "The interval between two consecutive points in the time series. Supported intervals: `1min`, `5min`, `15min`, `30min`, `45min`, `1h`, `2h`, `4h`, `1day`, `1week`, `1month`.",
+                "default": "1min"
+            },
+            "outputsize": {
+                "type": "number",
+                "description": "The number of data points to retrieve. The default value is `30` when no date parameters are set; otherwise, it is set to the maximum available.",
+                "default": 30
+            },
+            "format": {
+                "type": "string",
+                "description": "The output format of the data. Supported values are `CSV` and `JSON`. The default value is `JSON`.",
+                "default": "json"
+            },
+            "series_type": {
+                "type": "string",
+                "description": "The type of data series to retrieve. Supported values are `open`, `high`, `low`, and `close`. The default value is `close`.",
+                "default": "close"
+            }
+        },
+        "required": [
+            "symbol",
+            "interval"
+        ]
+    }
+}

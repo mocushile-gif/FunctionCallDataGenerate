@@ -1,0 +1,32 @@
+{
+    "name": "coins_get_fullsize_chart",
+    "description": "This is a sub-function API for tool investing_cryptocurrency_markets.\nTool description: These APIs provide data of all cryptocurrencies, markets, ideal for tracking prices and exchange rates.\nAPI description: Fetches the full-size chart data for a specific cryptocurrency pair.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pair_id": {
+                "type": "number",
+                "description": "Value of pair&#95;id field returned in coins/list, coins/search, coins/list-pairs, etc...",
+                "default": 33.0
+            },
+            "pair_interval": {
+                "type": "number",
+                "description": "One of the following is allowed 60 (1min)|300 (5min)|900 (15min)|1800 (30min)|3600 (1h)|18000 (5h)|86400 (1d)|week (1w) |month (1m)",
+                "default": 900.0
+            },
+            "lang_id": {
+                "type": "number",
+                "description": "The value of all&#95;langs/lang&#95;ID returned in .../get-meta-data endpoint",
+                "default": 1.0
+            },
+            "time_utc_offset": {
+                "type": "number",
+                "description": "The time offset in UTC seconds. For example, UTC+8 corresponds to 28800 seconds. Default is 28800.",
+                "default": 28800.0
+            }
+        },
+        "required": [
+            "pair_id"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "getinfo",
+    "description": "This is a sub-function API for tool indian_mobile_info.\nTool description: The Indian Mobile Info API is a powerful tool for those who need quick and easy access to important information about Indian mobile numbers. With this API, you can enter any 10 digit Indian mobile number and get detailed information such as location, provider, type, and more. This API is especially useful for businesses, researchers, and anyone else who needs to gather data on Indian mobile numbers.\nRecently, on Aug-23-2018, this API has been updated and bugs fixed, ensuring that the data pro...\nAPI description: Fetches information about a given mobile number using the Ajith Indian Mobile Info API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mobno": {
+                "type": "number",
+                "description": "A 10-digit mobile number to fetch information for.",
+                "default": 9090909090.0
+            }
+        },
+        "required": [
+            "mobno"
+        ]
+    }
+}

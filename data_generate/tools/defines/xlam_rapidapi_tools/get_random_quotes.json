@@ -1,0 +1,23 @@
+{
+    "name": "get_random_quotes",
+    "description": "This is a sub-function API for tool famous_quotes.\nTool description: Over 100 000 of famous quotes, 100 categories and 10K authors\nAPI description: Get multiple random quotes from chosen category or send **all** to get results from multiple categories.\nYou can view all categories on the Category endpoint",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "count": {
+                "type": "number",
+                "description": "The number of random quotes to retrieve.",
+                "default": 2.0
+            },
+            "category": {
+                "type": "string",
+                "description": "The category from which to fetch quotes. Use 'all' to fetch from multiple categories.",
+                "default": "all"
+            }
+        },
+        "required": [
+            "count",
+            "category"
+        ]
+    }
+}

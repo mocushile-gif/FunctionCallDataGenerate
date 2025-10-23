@@ -1,0 +1,17 @@
+{
+    "name": "namebydomain",
+    "description": "This is a sub-function API for tool name_using_domain.\nTool description: Get the Domain/Org name by Domain\nAPI description: Fetch the organization name using a given domain through the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain name for which the organization name is to be fetched.",
+                "default": "tftus.com"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

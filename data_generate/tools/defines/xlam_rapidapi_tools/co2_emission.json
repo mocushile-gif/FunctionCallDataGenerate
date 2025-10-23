@@ -1,0 +1,15 @@
+{
+    "name": "co2_emission",
+    "description": "This is a sub-function API for tool electricity_carbon_footprint_germany.\nTool description: CO2 Footprint of current electricity in Germany.\nAPI description: Fetches the carbon emissions in grams per Kilo-Watt-Hour for electricity in Germany based on the given date. Allows retrieving both the latest and historical data back to the year 2017.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve carbon emission data. Accepted formats include 'YYYY-MM-DD', 'MM/DD/YYYY', or Unix Timestamp (in milliseconds). Defaults to '2022-08-20'.",
+                "default": "2022-08-20"
+            }
+        },
+        "required": []
+    }
+}

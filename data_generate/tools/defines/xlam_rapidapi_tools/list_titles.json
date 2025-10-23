@@ -1,0 +1,65 @@
+{
+    "name": "list_titles",
+    "description": "This is a sub-function API for tool watchmode.\nTool description: Universal OTT Streaming Service Availability API (Netflix, HBO Max, Peacock, Hulu, Amazon Prime Video, AppleTV+, Disney+ & over 100 more)\nAPI description: Get a listing of titles that match certain parameters. This powerful endpoint can allow you to find many combinations of titles. For example you could search for something as granular \"Horror Movies Streaming on Netflix in the USA\" by using the genres, types, source_ids and regions parameters.\n\nResults are paginated, and return 250 pages per query by default. Useful for mapping all Watchmode title IDs in your app, and finding in bulk what titles are available in different countries, different sources or sou",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "genres": {
+                "type": "string",
+                "description": "Filter results to only include certain genre(s). Pass in a single genre id (which you would get from the /v1/genres/ endpoint, or multiple comma separated.",
+                "default": "4,9"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Set how many titles to return per page. Default and maximum is 250.",
+                "default": 250.0
+            },
+            "source_ids": {
+                "type": "string",
+                "description": "Pass an individual ID for a source (returned from the /sources/ endpoint) to filter the results to titles available on that source. Pass multiple values comma separated to return titles available on one of the sources you pass in.\nNote: If you populate this you can only set a single region, and if you set no region US will be set by default.",
+                "default": "23,206"
+            },
+            "source_types": {
+                "type": "string",
+                "description": "Filter results to only include titles that are available on a specific type(s) of source (such a subscription, or TV Everywhere channel apps, etc). By default all are selected, pass one or multiple (comma delimited) of these values: sub, rent, buy, free, tve\nNote: If you populate this you can only set a single region, and if you set no region US will be set by default.",
+                "default": "sub,free"
+            },
+            "types": {
+                "type": "string",
+                "description": "Filter results to only include titles available on specific types of sources (e.g., subscription, free). Default is 'sub,free'. Note: Only a single region can be set if this is populated.",
+                "default": "movie,tv_series"
+            },
+            "regions": {
+                "type": "string",
+                "description": "Pass one of the region values (eg. US), or multiple regions comma delimited to only return sources active in those regions. Currently supported regions: US, GB, CA, AU\nNote: If you populate the source_ids or source_types you can only set a single region, and if you set no region US will be set by default. ",
+                "default": "US"
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "Sort order of results. Possible values include: relevance_desc, relevance_asc, popularity_desc, popularity_asc, release_date_desc, release_date_asc, title_desc, title_asc. Default is 'relevance_desc'.",
+                "default": "relevance_desc"
+            },
+            "page": {
+                "type": "number",
+                "description": "Set the page of results you want to return, if this isn't set you will always get page 1 returned.",
+                "default": 1.0
+            },
+            "network_ids": {
+                "type": "string",
+                "description": "Pass an individual ID for a TV network (returned from the /networks/ endpoint) to filter the results to titles the originally aired on that TV network. Pass multiple values comma separated to return titles that aired on one of the networks you passed in.",
+                "default": "1,8,12"
+            },
+            "release_date_start": {
+                "type": "number",
+                "description": "Set the start of a range for when the title was released (the initial release of the movie or show, not necessarily when it was released on a streaming service). For example, to only include releases on or after January 1, 2001 set this to 20010101",
+                "default": 20010101.0
+            },
+            "release_date_end": {
+                "type": "number",
+                "description": "Set the end of a range for when the title was released (the initial release of the movie or show, not necessarily when it was released on a streaming service). For example, to only include releases on or before December 11, 2020 set this to 20201211",
+                "default": 20201211.0
+            }
+        },
+        "required": []
+    }
+}

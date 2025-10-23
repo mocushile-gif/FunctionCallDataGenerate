@@ -1,0 +1,17 @@
+{
+    "name": "get_comments_with_product_id",
+    "description": "This is a sub-function API for tool n11_data.\nTool description: ARDIC's N11 data retrieval service.\nAPI description: Retrieve comments for a given product ID from the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "product_id": {
+                "type": "string",
+                "description": "The ID of the product for which to retrieve comments.",
+                "default": "493611399"
+            }
+        },
+        "required": [
+            "product_id"
+        ]
+    }
+}

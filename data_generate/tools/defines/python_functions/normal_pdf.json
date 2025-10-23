@@ -1,0 +1,26 @@
+{
+    "name": "normal_pdf",
+    "description": "Calculate the probability density function (PDF) of a normal distribution at a specified point.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x": {
+                "type": "number",
+                "description": "The point at which the PDF is evaluated."
+            },
+            "mean": {
+                "type": "number",
+                "description": "The mean of the distribution (default is 0).",
+                "default": 0
+            },
+            "std_dev": {
+                "type": "number",
+                "description": "The standard deviation of the distribution (default is 1).",
+                "default": 1
+            }
+        },
+        "required": [
+            "x"
+        ]
+    }
+}

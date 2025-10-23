@@ -1,0 +1,25 @@
+{
+    "name": "logo",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Returns logo of the company.\n\nAvailability: Basic plan\nData weighting: 1 API credit per symbol",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock ticker symbol of the company.",
+                "default": "AAPL"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country where the company is based. Defaults to None."
+            },
+            "exchange": {
+                "type": "string",
+                "description": "The stock exchange where the company is listed. Defaults to None."
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

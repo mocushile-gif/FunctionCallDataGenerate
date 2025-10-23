@@ -1,0 +1,29 @@
+{
+    "name": "search_company_by_name",
+    "description": "This is a sub-function API for tool business_and_company_name_api.\nTool description: Use this Know-Your-Business Process (KYB) API to validate registered companies and business names recognised by the Corporate Affairs Commission (CAC). You have enpoints to search, validate name availability and validate and fetch business and company registration numbers.\nAPI description: Do you know the company name? you can make a search of company information with just the name. You will get hits of all companies and businesses that are matching that particular name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number for paginated results.",
+                "default": 1.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results per page.",
+                "default": 10.0
+            },
+            "companyname": {
+                "type": "string",
+                "description": "The name of the company to search for.",
+                "default": "ESK GLOBAL SERVICES LIMITED"
+            }
+        },
+        "required": [
+            "page",
+            "limit",
+            "companyname"
+        ]
+    }
+}

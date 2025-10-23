@@ -1,0 +1,17 @@
+{
+    "name": "random_crypto_by_id",
+    "description": "This is a sub-function API for tool fake_data_generator.\nTool description: With this API you can generate fake random data with different predefined layouts or define your own layout.\nAPI description: Retrieve a fake cryptocurrency asset by its unique identifier.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The unique identifier of the cryptocurrency asset to be retrieved.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

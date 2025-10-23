@@ -1,0 +1,17 @@
+{
+    "name": "check_email_server",
+    "description": "This is a sub-function API for tool mx_email_server_up_or_down.\nTool description: With this API you can check if email server exist or not on some domain.\nAPI description: Checks the status of an email server for a given domain using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain of the email server to check.",
+                "default": "microsoft.com"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

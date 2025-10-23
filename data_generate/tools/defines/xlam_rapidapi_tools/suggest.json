@@ -1,0 +1,22 @@
+{
+    "name": "suggest",
+    "description": "This is a sub-function API for tool google_news.\nTool description: Provide real-time news and articles sourced from Google News.\nAPI description: This endpoint is used to get autocomplete suggestions or query predictions as a user types a search query. The endpoint requires the **keyword** parameter, which represents the partial text entered by the user. You can send a request with the partial text, and the request will generate a JSON response containing a list of relevant autocomplete suggestions for the search query.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The partial text entered by the user for which to fetch autocomplete suggestions.",
+                "default": "facebook"
+            },
+            "lr": {
+                "type": "string",
+                "description": "Language region for the suggestions, e.g., 'en-US'. Defaults to 'en-US'.",
+                "default": "en-US"
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

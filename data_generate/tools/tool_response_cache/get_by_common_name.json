@@ -1,0 +1,44 @@
+{
+    "{}": {
+        "error": "",
+        "response": [
+            {
+                "id": 4,
+                "latin": "Aechmea ramosa",
+                "family": "Bromeliaceae",
+                "common": [
+                    "Coral berry"
+                ],
+                "category": "Bromeliad",
+                "origin": "Brazil",
+                "climate": "Subtropical",
+                "tempmax": {
+                    "celsius": 30,
+                    "fahrenheit": 20
+                },
+                "tempmin": {
+                    "celsius": 12,
+                    "fahrenheit": 53.6
+                },
+                "ideallight": "Bright light",
+                "toleratedlight": "Diffused",
+                "watering": "Water when soil is half dry. Change water in the vase regularly.",
+                "insects": "N/A",
+                "diseases": "N/A",
+                "use": [
+                    "Flower",
+                    "Table top",
+                    "Primary"
+                ]
+            }
+        ]
+    },
+    "{'common_name': 'snake plant'}": {
+        "error": "",
+        "response": "[{'id': 162, 'latin': 'Sansevieria trifasciata Laurentii', 'family': 'Liliaceae', 'common': ['Snake plant'], 'category': 'Sansevieria', 'origin': 'South Africa', 'climate': 'Tropical', 'tempmax': {'celsius': 35, 'fahrenheit': 95}, 'tempmin': {'celsius': 10, 'fahrenheit': 50}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Water when soil is half dry. Can be dry between watering.', 'insects': 'N/A', 'diseases': 'N/A', 'use': ['Potted plant', 'Tertiary']}, {'id': 165, 'latin': 'Sansevieria trifasciata Hahnii', 'family': 'Liliaceae', 'common': ['Birdnest sansevieria', 'Snake plant'], 'category': 'Sansevieria', 'origin': 'Cultivar', 'climate': 'Tropical', 'tempmax': {'celsius': 35, 'fahrenheit': 95}, 'tempmin': {'celsius': 10, 'fahrenheit': 50}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Water when soil is half dry. Can be dry between watering.', 'insects': 'N/A', 'diseases': 'N/A', 'use': ['Table top', 'Tertiary']}, {'id': 166, 'latin': 'Sansevieria trifasciata', 'family': 'Liliaceae', 'common': ['Snake plant'], 'category': 'Sansevieria', 'origin': 'South Africa', 'climate': 'Subtropical', 'tempmax': {'celsius': 35, 'fahrenheit': 95}, 'tempmin': {'celsius': 10, 'fahrenheit': 50}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Water when soil is half dry. Can be dry between watering.', 'insects': 'N/A', 'diseases': 'N/A', 'use': ['Potted plant', 'Primary']}, {'id': 200, 'latin': 'Sansevieria trifasciata var', 'family': 'Liliaceae', 'common': ['Snake plant'], 'category': 'Sansevieria', 'origin': 'Cultivar', 'climate': 'Tropical', 'tempmax': {'celsius': 35, 'fahrenheit': 95}, 'tempmin': {'celsius': 10, 'fahrenheit': 50}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Water when soil is half dry. Can be dry between watering.', 'insects': 'N/A', 'diseases': 'N/A', 'use': ['Potted plant', 'Secondary']}]"
+    },
+    "{'common_name': 'peace lily'}": {
+        "error": "",
+        "response": "[{'id': 177, 'latin': 'Spathiphyllum Lynise', 'family': 'Araceae', 'common': ['Peace lily'], 'category': 'Spathiphyllum', 'origin': 'Cultivar', 'climate': 'Tropical', 'tempmax': {'celsius': 28, 'fahrenheit': 82.4}, 'tempmin': {'celsius': 15, 'fahrenheit': 59}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Keep moist between watering. Must not be dry between watering', 'insects': ['Mealy bug', 'Thrips'], 'diseases': 'Phytophtora', 'use': ['Potted plant', 'Secondary']}, {'id': 178, 'latin': 'Spathiphyllum Ceres', 'family': 'Araceae', 'common': ['Peace lily'], 'category': 'Spathiphyllum', 'origin': 'Cultivar', 'climate': 'Tropical', 'tempmax': {'celsius': 28, 'fahrenheit': 82.4}, 'tempmin': {'celsius': 15, 'fahrenheit': 59}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Keep moist between watering. Must not be dry between watering', 'insects': ['Mealy bug', 'Thrips'], 'diseases': 'Phytophtora', 'use': ['Table top', 'Tertiary']}, {'id': 190, 'latin': 'Spathiphyllum Sensation', 'family': 'Araceae', 'common': ['Peace lily'], 'category': 'Spathiphyllum', 'origin': 'Cultivar', 'climate': 'Tropical', 'tempmax': {'celsius': 28, 'fahrenheit': 82.4}, 'tempmin': {'celsius': 15, 'fahrenheit': 59}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Keep moist between watering. Must not be dry between watering', 'insects': ['Mealy bug', 'Thrips'], 'diseases': 'Phytophtora', 'use': ['Potted plant', 'Primary']}, {'id': 191, 'latin': 'Spathiphyllum Starlight', 'family': 'Liliaceae', 'common': ['Peace lily'], 'category': 'Spathiphyllum', 'origin': 'Cultivar', 'climate': 'Tropical', 'tempmax': {'celsius': 28, 'fahrenheit': 82.4}, 'tempmin': {'celsius': 15, 'fahrenheit': 59}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Keep moist between watering. Must not be dry between watering', 'insects': ['Mealy bug', 'Thrips'], 'diseases': 'Phytophtora', 'use': ['Table top', 'Tertiary']}, {'id': 193, 'latin': 'Spathiphyllum Domino', 'family':"
+    }
+}

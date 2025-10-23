@@ -1,0 +1,21 @@
+{
+    "name": "annotation_versions",
+    "description": "This is a sub-function API for tool genius_song_lyrics.\nTool description: Genius - Song Lyrics, Artists, Albums, Knowledge & More API\nAPI description: Gets the versions of an annotation from the Genius Song Lyrics API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the annotation.",
+                "default": "9234498"
+            },
+            "text_format": {
+                "type": "string",
+                "description": "Format for text bodies related to the document. One or more of `dom`, `plain`, `markdown`, and `html`, separated by commas (defaults to html)."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

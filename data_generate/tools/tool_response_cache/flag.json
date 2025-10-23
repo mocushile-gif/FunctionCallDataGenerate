@@ -1,0 +1,23 @@
+{
+    "{'country': 'United Kingdom'}": {
+        "error": "",
+        "response": {
+            "country": "United Kingdom",
+            "country_code": "GB",
+            "flag_image": "https://cdn.rapidapi.com/flags/GB.png",
+            "status": "Maintenance notice: Phone Metropolis API is currently under maintenance. Flag retrieval functionality may be temporarily unstable. Please check back later for full service restoration."
+        }
+    },
+    "{'country': 'United States'}": {
+        "error": "",
+        "response": "{'api-message': '', 'flag': 'http://www.metropolisapi.com/temp/ad0cd7e2-258a-11ee-be92-0a6e24622a59.jpg'}"
+    },
+    "{'country': 'Japan'}": {
+        "error": "",
+        "response": "{'api-message': '', 'flag': 'http://www.metropolisapi.com/temp/2658fd50-1948-11ee-b630-0a6e24622a59.jpg'}"
+    },
+    "{'country': 'Brazil'}": {
+        "error": "",
+        "response": "{'api-message': '', 'flag': 'http://www.metropolisapi.com/temp/8bc247be-1a6f-11ee-bb88-0a6e24622a59.jpg'}"
+    }
+}

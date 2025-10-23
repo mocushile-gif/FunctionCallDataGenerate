@@ -1,0 +1,25 @@
+{
+    "name": "list_podcast_episodes",
+    "description": "This is a sub-function API for tool spotify_scraper.\nTool description: An all-in-one scraper for scraping everything on Spotify, and a highly available download solution for tracks, lyrics and episode previews.\nAPI description: Gets a list of episodes for a given podcast show from the Spotify Scraper API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "showid": {
+                "type": "string",
+                "description": "The unique identifier of the podcast show.",
+                "default": "4oTBzqC3DHbaKNFq2YXpQw"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of items returned per request. Defaults to `100`."
+            },
+            "offset": {
+                "type": "number",
+                "description": "The number of items to skip before starting to collect the result set. Defaults to `0`."
+            }
+        },
+        "required": [
+            "showid"
+        ]
+    }
+}

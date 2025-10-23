@@ -1,0 +1,30 @@
+{
+    "name": "generate_avatar",
+    "description": "This is a sub-function API for tool avatar_io_modern_avatar_placeholder_api.\nTool description: Generate clean and modern avatar placeholders for your application\nAPI description: Generates an avatar and returns it to the client based on the provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "randomizer": {
+                "type": "string",
+                "description": "The default browser behavior is to cache responses that return from the same endpoint.\nIf your images are all returning the same, pass this param with ANY value to ensure you bypass this default behaviour and get random images for every request.",
+                "default": "anything"
+            },
+            "name": {
+                "type": "string",
+                "description": "Specify the name for the avatar. Only the first character of this parameter will be shown in the avatar.",
+                "default": "John"
+            },
+            "bg_color": {
+                "type": "string",
+                "description": "Specify a HEX CODE color for the background of the avatar. \nDo not include the # of the hex code as it will be ignored on api request.",
+                "default": "FF2029"
+            },
+            "text_color": {
+                "type": "string",
+                "description": "Specify a HEX CODE color for the letter on the avatar. \nDo not include the # of the hex code as it will be ignored on api request.",
+                "default": "000000"
+            }
+        },
+        "required": []
+    }
+}

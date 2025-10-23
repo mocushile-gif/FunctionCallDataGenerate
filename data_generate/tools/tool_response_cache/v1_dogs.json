@@ -1,0 +1,42 @@
+{
+    "{'energy': 5, 'protectiveness': 3, 'max_weight': 50, 'shedding': 0}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'energy': 5, 'protectiveness': 3, 'max_weight': 50, 'shedding': 1}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'energy': 5, 'protectiveness': 3, 'max_weight': 50, 'shedding': 2}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'energy': 5, 'protectiveness': 3, 'max_weight': 70, 'shedding': 3}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'energy': 4, 'protectiveness': 3, 'max_weight': 90, 'shedding': 3}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'energy': 5, 'shedding': 0}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'energy': 5, 'shedding': 1}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'energy': 5, 'shedding': 2, 'name': ''}": {
+        "error": "",
+        "response": "[{'image_link': 'https://api-ninjas.com/images/dogs/german_wirehaired_pointer.jpg', 'good_with_children': 3, 'good_with_other_dogs': 3, 'shedding': 2, 'grooming': 2, 'drooling': 2, 'coat_length': 1, 'good_with_strangers': 4, 'playfulness': 4, 'protectiveness': 3, 'trainability': 5, 'energy': 5, 'barking': 3, 'min_life_expectancy': 14.0, 'max_life_expectancy': 16.0, 'max_height_male': 26.0, 'max_height_female': 26.0, 'max_weight_male': 70.0, 'max_weight_female': 70.0, 'min_height_male': 24.0, 'min_height_female': 24.0, 'min_weight_male': 50.0, 'min_weight_female': 50.0, 'name': 'German Wirehaired Pointer'}, {'image_link': 'https://api-ninjas.com/images/dogs/ibizan_hound.jpg', 'good_with_children': 3, 'good_with_other_dogs': 5, 'shedding': 2, 'grooming': 1, 'drooling': 1, 'coat_length': 1, 'good_with_strangers': 3, 'playfulness': 4, 'protectiveness': 3, 'trainability': 3, 'energy': 5, 'barking': 3, 'min_life_expectancy': 11.0, 'max_life_expectancy': 14.0, 'max_height_male': 27.5, 'max_height_female': 27.5, 'max_weight_male': 50.0, 'max_weight_female': 45.0, 'min_height_male': 23.5, 'min_height_female': 23.5, 'min_weight_male': 50.0, 'min_weight_female': 45.0, 'name': 'Ibizan Hound'}, {'image_link': 'https://api-ninjas.com/images/dogs/irish_red_and_white_setter.jpg', 'good_with_children': 5, 'good_with_other_dogs': 5, 'shedding': 2, 'grooming': 2, 'drooling': 2, 'coat_length': 1, 'good_with_strangers': 5, 'playfulness': 3, 'protectiveness': 3, 'trainability': 5, 'energy': 5, 'ba"
+    },
+    "{'energy': 4, 'trainability': 3, 'name': ''}": {
+        "error": "",
+        "response": "[{'image_link': 'https://api-ninjas.com/images/dogs/akita.jpg', 'good_with_children': 3, 'good_with_other_dogs': 1, 'shedding': 3, 'grooming': 3, 'drooling': 1, 'coat_length': 1, 'good_with_strangers': 2, 'playfulness': 3, 'protectiveness': 5, 'trainability': 3, 'energy': 4, 'barking': 2, 'min_life_expectancy': 10.0, 'max_life_expectancy': 14.0, 'max_height_male': 28.0, 'max_height_female': 28.0, 'max_weight_male': 130.0, 'max_weight_female': 100.0, 'min_height_male': 26.0, 'min_height_female': 26.0, 'min_weight_male': 100.0, 'min_weight_female': 70.0, 'name': 'Akita'}, {'image_link': 'https://api-ninjas.com/images/dogs/alaskan_klee_kai.jpg', 'shedding': 3, 'grooming': 2, 'coat_length': 1, 'trainability': 3, 'energy': 4, 'min_life_expectancy': 13.0, 'max_life_expectancy': 16.0, 'max_height_male': 28.0, 'max_height_female': 28.0, 'max_weight_male': 130.0, 'max_weight_female': 100.0, 'min_height_male': 26.0, 'min_height_female': 26.0, 'min_weight_male': 100.0, 'min_weight_female': 70.0, 'good_with_children': 0, 'good_with_other_dogs': 0, 'drooling': 0, 'good_with_strangers': 0, 'playfulness': 0, 'protectiveness': 0, 'barking': 0, 'name': 'Alaskan Klee Kai'}, {'image_link': 'https://api-ninjas.com/images/dogs/american_english_coonhound.jpg', 'good_with_children': 3, 'good_with_other_dogs': 5, 'shedding': 2, 'grooming': 1, 'drooling': 1, 'coat_length': 1, 'good_with_strangers': 3, 'playfulness': 3, 'protectiveness': 3, 'trainability': 3, 'energy': 4, 'barking': 4, 'min_life_expec"
+    },
+    "{'energy': 4, 'trainability': 4, 'name': ''}": {
+        "error": "",
+        "response": "[{'image_link': 'https://api-ninjas.com/images/dogs/american_eskimo_dog.jpg', 'good_with_children': 5, 'good_with_other_dogs': 3, 'shedding': 3, 'grooming': 3, 'drooling': 1, 'coat_length': 1, 'good_with_strangers': 5, 'playfulness': 3, 'protectiveness': 3, 'trainability': 4, 'energy': 4, 'barking': 3, 'min_life_expectancy': 13.0, 'max_life_expectancy': 15.0, 'max_height_male': 26.0, 'max_height_female': 26.0, 'max_weight_male': 65.0, 'max_weight_female': 65.0, 'min_height_male': 24.0, 'min_height_female': 24.0, 'min_weight_male': 45.0, 'min_weight_female': 45.0, 'name': 'American Eskimo Dog'}, {'image_link': 'https://api-ninjas.com/images/dogs/australian_terrier.jpg', 'good_with_children': 5, 'good_with_other_dogs': 3, 'shedding': 1, 'grooming': 2, 'drooling': 1, 'coat_length': 1, 'good_with_strangers': 3, 'playfulness': 4, 'protectiveness': 4, 'trainability': 4, 'energy': 4, 'barking': 5, 'min_life_expectancy': 11.0, 'max_life_expectancy': 15.0, 'max_height_male': 11.0, 'max_height_female': 11.0, 'max_weight_male': 20.0, 'max_weight_female': 20.0, 'min_height_male': 10.0, 'min_height_female': 10.0, 'min_weight_male': 15.0, 'min_weight_female': 15.0, 'name': 'Australian Terrier'}, {'image_link': 'https://api-ninjas.com/images/dogs/bavarian_mountain_scent_hound.jpg', 'good_with_children': 3, 'good_with_other_dogs': 3, 'shedding': 3, 'grooming': 2, 'drooling': 2, 'coat_length': 1, 'good_with_strangers': 3, 'playfulness': 3, 'protectiveness': 3, 'trainability': 4, 'energy': 4, "
+    }
+}

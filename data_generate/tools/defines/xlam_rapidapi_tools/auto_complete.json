@@ -1,0 +1,22 @@
+{
+    "name": "auto_complete",
+    "description": "This is a sub-function API for tool shazam.\nTool description: Identify any song. Discover, artists, lyrics, videos & playlists to create a song detector site/application such as shazam.com\nAPI description: Fetch autocomplete suggestions for a given term using the Shazam API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "term": {
+                "type": "string",
+                "description": "The word or phrase to get suggestions for (e.g., song title, artist name).",
+                "default": "kiss the"
+            },
+            "locale": {
+                "type": "string",
+                "description": "The language code for the locale. Defaults to 'en-US'.",
+                "default": "en-US"
+            }
+        },
+        "required": [
+            "term"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "{'s': 'climate summit', 'limit': '50'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "id": "xyz123",
+                    "title": "Climate Change Awareness Sticker",
+                    "url": "https://media.giphy.com/climate-summit-1.gif",
+                    "rating": "g"
+                },
+                {
+                    "id": "abc456",
+                    "title": "Eco-Friendly Planet Animation",
+                    "url": "https://media.giphy.com/climate-summit-2.gif",
+                    "rating": "pg"
+                },
+                {
+                    "id": "def789",
+                    "title": "Global Warming Alert",
+                    "url": "https://media.giphy.com/climate-summit-3.gif",
+                    "rating": "pg-13"
+                }
+            ],
+            "pagination": {
+                "offset": 0,
+                "count": 50,
+                "total_count": 245
+            },
+            "meta": {
+                "status": 200,
+                "msg": "OK"
+            }
+        }
+    }
+}

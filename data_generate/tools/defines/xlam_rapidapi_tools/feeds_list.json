@@ -1,0 +1,27 @@
+{
+    "name": "feeds_list",
+    "description": "This is a sub-function API for tool yummly.\nTool description: API to query data about recipe, plan, ingredients, etc... as on official site\nAPI description: Fetches a list of feeds from the Yummly API based on the given parameters for pagination and optional category tag.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start": {
+                "type": "number",
+                "description": "The offset of items to be skipped in the response for paging.",
+                "default": 0.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of items to be returned per response.",
+                "default": 24.0
+            },
+            "tag": {
+                "type": "string",
+                "description": "The value representing a specific category/tag to filter the feeds list. Defaults to None."
+            }
+        },
+        "required": [
+            "start",
+            "limit"
+        ]
+    }
+}

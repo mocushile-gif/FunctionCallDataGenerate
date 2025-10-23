@@ -1,0 +1,32 @@
+{
+    "name": "get_all_videos",
+    "description": "This is a sub-function API for tool likee_downloader_download_likee_videos.\nTool description: This API allows you to retrieve information about a specific video on Likee. You can use it to retrieve details such as title, description, image, video. With the Likee Downloader API, you can easily access and leverage the wealth of information available on Likee.\n\ntelegram DM: https://t.me/justmobicode\nAPI description: Fetches all videos associated with a specific user on Likee using the provided user ID and optional pagination parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "uid": {
+                "type": "string",
+                "description": "The unique identifier of the user whose videos are to be fetched. Can be found using the Get User Info endpoint.",
+                "default": "962176076"
+            },
+            "pagesize": {
+                "type": "string",
+                "description": "The number of videos per page. Defaults to '10'.",
+                "default": "10"
+            },
+            "count": {
+                "type": "string",
+                "description": "The total number of videos to be fetched. Defaults to '4'.",
+                "default": "4"
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number to retrieve. Defaults to '1'.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "uid"
+        ]
+    }
+}

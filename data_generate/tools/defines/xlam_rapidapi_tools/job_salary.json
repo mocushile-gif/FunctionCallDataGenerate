@@ -1,0 +1,28 @@
+{
+    "name": "job_salary",
+    "description": "This is a sub-function API for tool job_salary_data.\nTool description: Extremely Fast and Simple API to get Job Salary/Pay Estimations from all major publishers - Payscale, Glassdoor, ZipRecruiter and many others, all in a single API.\nAPI description: Fetch estimated job salaries based on job title and location using the RapidAPI Job Salary API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "job_title": {
+                "type": "string",
+                "description": "The job title for which to get the salary estimation.",
+                "default": "nodejs developer"
+            },
+            "location": {
+                "type": "string",
+                "description": "The location or area to search for the job salary estimation.",
+                "default": "new york, usa"
+            },
+            "radius": {
+                "type": "string",
+                "description": "The search radius in kilometers from the location. Defaults to '200'.",
+                "default": "200"
+            }
+        },
+        "required": [
+            "job_title",
+            "location"
+        ]
+    }
+}

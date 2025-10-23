@@ -1,0 +1,17 @@
+{
+    "name": "get_playlist_album_metadata",
+    "description": "This is a sub-function API for tool soundcloud_scraper.\nTool description: An all-in-one SoundCloud scraper/downloader. Scrapes albums, playlists, profiles. Downloads uncut high-quality audios and lyrics.\nAPI description: This endpoint fetches full details of a playlist or album, including all track IDs.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "playlist": {
+                "type": "string",
+                "description": "The URL or ID of the playlist or album to fetch metadata for.",
+                "default": "https://soundcloud.com/edsheeran/sets/tour-edition-1"
+            }
+        },
+        "required": [
+            "playlist"
+        ]
+    }
+}

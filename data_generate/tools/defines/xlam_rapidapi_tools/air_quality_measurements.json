@@ -1,0 +1,33 @@
+{
+    "name": "air_quality_measurements",
+    "description": "This is a sub-function API for tool air_quality_api.\nTool description: Retrieve current, forecasted, and extensive measurement data for any city in the world!\nAPI description: Fetches current air quality measurements per hour for a given city using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The country in which the city is located.",
+                "default": "netherlands"
+            },
+            "city": {
+                "type": "string",
+                "description": "The city for which the air quality measurements are to be fetched.",
+                "default": "amsterdam"
+            },
+            "lon": {
+                "type": "string",
+                "description": "The longitude coordinate of the city. Defaults to '4.897070'.",
+                "default": "4.897070"
+            },
+            "lat": {
+                "type": "string",
+                "description": "The latitude coordinate of the city. Defaults to '52.377956'.",
+                "default": "52.377956"
+            }
+        },
+        "required": [
+            "country",
+            "city"
+        ]
+    }
+}

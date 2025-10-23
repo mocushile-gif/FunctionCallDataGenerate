@@ -1,0 +1,22 @@
+{
+    "{'modelyearid': 7328}": {
+        "error": "",
+        "response": "{'response': {'modelYear': {'modelYearId': 7328, 'cars': [{'testState': {'testStateName': 'Test Completed', 'testStateId': 3}, 'lastPublishedDate': '2023-06-30T15:48:06.635Z', 'bodyStyle': {'bodyStyleId': 6, 'bodyStyleName': 'convertible'}, 'driveWheel': {'driveWheelName': 'Rear', 'driveWheelAbbreviation': 'RWD', 'driveWheelId': 3}, 'powerTrainType': 'Conventional', 'ratingsCopiedFromCarModelYear': 2013, 'ratingsCopiedFromCarId': 2730, 'tiresAsTested': {'isRearSameAsFront': 'N', 'rear': {'wheelDiameter': '20', 'tireBrandId': 13, 'tireBrandName': 'Pirelli', 'tireModelId': 42, 'loadIndex': '95', 'tireModelName': 'P Zero', 'width': '265', 'aspectRatio': '35', 'speedRating': 'Y'}, 'front': {'wheelDiameter': '20', 'tireBrandId': 13, 'tireBrandName': 'Pirelli', 'tireModelId': 42, 'loadIndex': '88', 'tireModelName': 'P Zero', 'width': '235', 'aspectRatio': '35', 'speedRating': 'Y'}}, 'carId': 6496, 'carVersionName': 'Base convertible Rear 2.7-liter 6 (265 hp) (Premium Gasoline) Manual 6-speed', 'carTags': {'carTypes': [{'carTypeSingularName': 'Convertible', 'isPrimary': 'N', 'carTypeOriginalName': 'Convertibles', 'carTypeId': 108, 'carTypePluralName': 'Convertibles'}, {'carTypeSingularName': 'Sports car', 'isPrimary': 'Y', 'carTypeOriginalName': 'Sports cars', 'carTypeId': 107, 'carTypePluralName': 'Sports cars'}, {'carTypeSingularName': 'Luxury car', 'isPrimary': 'N', 'carTypeOriginalName': 'Luxury cars', 'carTypeId': 116, 'carTypePluralName': 'Luxury cars'}], 'sizes': [{'sizeId': 3, 'sizeName': 'Midsized', 'isPrimary': 'Y'}], 'lifestyles': [{'lifestyleId': 19, 'lifestyleName': 'High-end roadster', 'isPrimary': 'N'}, {'lifestyleId': 9, 'lifestyleName': '2-seat', 'isPrimary': 'N'}, {'lifestyleId': 7, 'lifestyleName': 'Sporty', 'isPrimary': 'Y'}]}, 'imgUrl': {'fileName': '/2730-2013-porsche-boxster-base', 'cloudName': '/consumer-reports-crdms-prod', 'relativePath': '/prod/cars/cr/car-versions', 'imageDomain': 'http://res.cloudinary.com', 'cloudFrontDomain': 'https://crdms.images.consumerreports.org', 'fileFormat': 'jpg'}"
+    },
+    "{'modelyearid': 7450}": {
+        "error": "",
+        "response": "{'response': {'modelYear': {'modelYearId': 7450, 'cars': [{'testState': {'testStateName': 'Test Completed', 'testStateId': 3}, 'lastPublishedDate': '2025-04-22T16:30:07.905Z', 'bodyStyle': {'bodyStyleId': 8, 'bodyStyleName': 'sedan'}, 'driveWheel': {'driveWheelName': 'Front', 'driveWheelAbbreviation': 'FWD', 'driveWheelId': 2}, 'isGreenChoice': True, 'powerTrainType': 'Conventional', 'ratingsCopiedFromCarModelYear': 2015, 'ratingsCopiedFromCarId': 2845, 'tiresAsTested': {'isRearSameAsFront': 'N', 'rear': {'wheelDiameter': '17', 'tireBrandId': 9, 'tireBrandName': 'Goodyear', 'tireModelId': 410, 'loadIndex': '94', 'tireModelName': 'Assurance', 'width': '215', 'aspectRatio': '55', 'speedRating': 'V'}, 'front': {'wheelDiameter': '17', 'tireBrandId': 9, 'tireBrandName': 'Goodyear', 'tireModelId': 410, 'loadIndex': '94', 'tireModelName': 'Assurance', 'width': '215', 'aspectRatio': '55', 'speedRating': 'V'}}, 'carId': 5914, 'crashTestRatings': {'nhtsaFrontCrashDriver': 5, 'nhtsaSidePoleCrash': 5, 'nhtsaOverallFrontalCrash': 5, 'nhtsaRollover2WD': 4, 'nhtsaOverallCrash': 5, 'iihsRoofCrush': 'Good', 'nhtsaFrontCrashFrontPassenger': 5, 'nhtsaSideCrashDriver': 5, 'iihsFrontSmallOverlapDriver': 'Good', 'iihsFrontSmallOverlapCombined': 'Incomplete', 'iihsRearCrash': 'Good', 'nhtsaOverallSideCrash': 5, 'nhtsaSideCrashRearPassenger': 5, 'iihsFrontModerateOverlap': 'Good', 'iihsOverallCrash': 'Top safety pick +', 'iihsSideCrash': 'Good'}, 'carVersionName': 'Limited sedan Front 2.4-liter 4 (1"
+    },
+    "{'modelyearid': 9234}": {
+        "error": "",
+        "response": "{'response': {}, 'responseSummary': {'responseCount': 0, 'requestQueryParameters': [{'name': 'modelYearId', 'value': 9234}]}}"
+    },
+    "{'modelyearid': 9245.0}": {
+        "error": "",
+        "response": "{'response': {}, 'responseSummary': {'responseCount': 0, 'requestQueryParameters': [{'name': 'modelYearId', 'value': 0}]}}"
+    },
+    "{'modelyearid': 10245.0}": {
+        "error": "",
+        "response": "{'response': {}, 'responseSummary': {'responseCount': 0, 'requestQueryParameters': [{'name': 'modelYearId', 'value': 0}]}}"
+    }
+}

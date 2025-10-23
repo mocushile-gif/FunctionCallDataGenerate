@@ -1,0 +1,29 @@
+{
+    "name": "emailfinder",
+    "description": "This is a sub-function API for tool tomba.\nTool description: Search or verify lists of email addresses in seconds\nAPI description: Finds the most likely email address based on the provided domain name, first name, and last name using the Tomba RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "Domain name from which you want to find the email addresses. For example, \"stripe.com\"",
+                "default": "stripe.com"
+            },
+            "first_name": {
+                "type": "string",
+                "description": "The person's first name. It doesn't need to be in lowercase.",
+                "default": "Moskoz"
+            },
+            "last_name": {
+                "type": "string",
+                "description": "The person's last name. It doesn't need to be in lowercase.",
+                "default": "Dustin"
+            }
+        },
+        "required": [
+            "domain",
+            "first_name",
+            "last_name"
+        ]
+    }
+}

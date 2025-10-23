@@ -1,0 +1,23 @@
+{
+    "name": "fueltoco2e",
+    "description": "This is a sub-function API for tool carbonfootprint.\nTool description: Calculate the carbon footprint in various situations, such as travel and hydro usage.\nAPI description: Transform liters of Diesel, Petrol or LPG into CO2 Equivalent in Kg.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of fuel. Valid values are 'Petrol', 'Diesel', 'LPG'.",
+                "default": "Petrol"
+            },
+            "litres": {
+                "type": "string",
+                "description": "The number of liters of fuel to convert.",
+                "default": "10"
+            }
+        },
+        "required": [
+            "type",
+            "litres"
+        ]
+    }
+}

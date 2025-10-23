@@ -1,0 +1,22 @@
+{
+    "name": "market_get_ipo_center",
+    "description": "This is a sub-function API for tool webull.\nTool description: Query public data for investment products including stocks, fractional shares, options, ETFs, and ADRs as on webull.com\nAPI description: Fetches IPO center information for a specified region.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "regionid": {
+                "type": "number",
+                "description": "The ID of the region for which the IPO center information is to be fetched, obtained from the `/regions/list` endpoint.",
+                "default": 6.0
+            },
+            "status": {
+                "type": "string",
+                "description": "The status filter for the IPO information. It can be one of the following: 'filing', 'pricing', or 'buying'. Default is 'filing'.",
+                "default": "filing"
+            }
+        },
+        "required": [
+            "regionid"
+        ]
+    }
+}

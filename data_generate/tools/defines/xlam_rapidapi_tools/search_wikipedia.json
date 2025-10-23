@@ -1,0 +1,22 @@
+{
+    "name": "search_wikipedia",
+    "description": "This is a sub-function API for tool wiki_briefs.\nTool description: Briefs about anything you search. No need to read lengthy articles, we summarize.\nAPI description: Searches Wikipedia and returns the top K summarized information along with similar items. Additionally, images and coordinates with map links are provided when available.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "Query string to search for on Wikipedia.",
+                "default": "Messi"
+            },
+            "topk": {
+                "type": "number",
+                "description": "Number of top summarized items to return. Defaults to 3. Must be greater than 0.",
+                "default": 3.0
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

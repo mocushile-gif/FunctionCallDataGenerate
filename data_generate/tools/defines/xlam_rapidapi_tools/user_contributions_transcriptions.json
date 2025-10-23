@@ -1,0 +1,34 @@
+{
+    "name": "user_contributions_transcriptions",
+    "description": "This is a sub-function API for tool genius_song_lyrics.\nTool description: Genius - Song Lyrics, Artists, Albums, Knowledge & More API\nAPI description: Fetches user transcription contributions from the Genius Song Lyrics API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The user ID whose contributions are to be fetched.",
+                "default": "1"
+            },
+            "next_cursor": {
+                "type": "string",
+                "description": "The pagination cursor for fetching the next set of results. Defaults to None."
+            },
+            "text_format": {
+                "type": "string",
+                "description": "The format for text bodies related to the document, can be one or more of `dom`, `plain`, `markdown`, and `html`, separated by commas. Defaults to 'html'."
+            },
+            "per_page": {
+                "type": "number",
+                "description": "The number of results to return per request. Defaults to 10.",
+                "default": 10.0
+            },
+            "sort": {
+                "type": "string",
+                "description": "The sorting method for the results, can be 'popularity' or 'chronologically'. Defaults to None."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

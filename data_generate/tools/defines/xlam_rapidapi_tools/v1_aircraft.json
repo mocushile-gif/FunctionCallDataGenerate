@@ -1,0 +1,68 @@
+{
+    "name": "v1_aircraft",
+    "description": "This is a sub-function API for tool aircraft_by_api_ninjas.\nTool description: Detailed technical specs on over 1000 airplane models. See more info at https://api-ninjas.com/api/aircraft\nAPI description: API Ninjas Aircraft API endpoint. Returns a list of aircrafts that match the given parameters. This API only supports airplanes - for helicopter specs please use our Helicopter API.\n\nAt least one of the following parameters (excluding the limit parameter) must be set.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "min_height": {
+                "type": "number",
+                "description": "Minimum height of the aircraft in feet."
+            },
+            "min_wingspan": {
+                "type": "number",
+                "description": "Minimum wingspan of the aircraft in feet."
+            },
+            "limit": {
+                "type": "number",
+                "description": "How many results to return. Must be between 1 and 30. Default is 1."
+            },
+            "max_height": {
+                "type": "number",
+                "description": "Maximum height of the aircraft in feet."
+            },
+            "max_length": {
+                "type": "number",
+                "description": "Maximum length of the aircraft in feet."
+            },
+            "min_length": {
+                "type": "number",
+                "description": "Minimum length of the aircraft in feet."
+            },
+            "max_range": {
+                "type": "number",
+                "description": "Maximum range of the aircraft in nautical miles."
+            },
+            "min_range": {
+                "type": "number",
+                "description": "Minimum range of the aircraft in nautical miles."
+            },
+            "max_speed": {
+                "type": "number",
+                "description": "Maximum max. air speed in knots."
+            },
+            "max_wingspan": {
+                "type": "number",
+                "description": "Maximum wingspan of the aircraft in feet."
+            },
+            "engine_type": {
+                "type": "string",
+                "description": "Type of engine. Must be one of: piston, propjet, jet."
+            },
+            "min_speed": {
+                "type": "number",
+                "description": "Minimum max. air speed in knots."
+            },
+            "model": {
+                "type": "string",
+                "description": "Aircraft model name. Defaults to 'G550'.",
+                "default": "G550"
+            },
+            "manufacturer": {
+                "type": "string",
+                "description": "Company that designed and built the aircraft. Defaults to 'Gulfstream'.",
+                "default": "Gulfstream"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "{'name': 'amazon.com'}": {
+        "error": "",
+        "response": "{'id': '46ad346800006400050092d0', 'displayName': 'Amazon', 'name': {'identifying': 'www.amazon.com'}, 'score': {'trustScore': 1.7, 'stars': 1.5}, 'numberOfReviews': {'total': 33265, 'oneStar': 20569, 'twoStars': 1970, 'threeStars': 1338, 'fourStars': 1982, 'fiveStars': 7406}, 'isClaimed': True, 'isSubscriber': False, 'bottomLevelCategory': 'Book Store', 'topLevelCategory': 'Media & Publishing', 'isVerified': True, 'hasConsumerAlertWarning': False, 'verification': {'verifiedBusiness': True, 'verifiedByGoogle': False, 'verifiedPaymentMethod': False, 'verifiedUserIdentity': False}}"
+    },
+    "{'name': 'aws.amazon.com'}": {
+        "error": "",
+        "response": "{'id': '585c88db0000ff00059993fb', 'displayName': 'Aws Amazon', 'name': {'identifying': 'aws.amazon.com'}, 'score': {'trustScore': 1.4, 'stars': 1.5}, 'numberOfReviews': {'total': 312, 'oneStar': 215, 'twoStars': 10, 'threeStars': 17, 'fourStars': 24, 'fiveStars': 46}, 'isClaimed': False, 'isSubscriber': False, 'bottomLevelCategory': 'Web Hosting Company', 'topLevelCategory': 'Electronics & Technology', 'isVerified': False, 'hasConsumerAlertWarning': False, 'verification': {'verifiedBusiness': False, 'verifiedByGoogle': False, 'verifiedPaymentMethod': False, 'verifiedUserIdentity': False}, 'previouslyClaimed': False}"
+    },
+    "{'name': 'google.com'}": {
+        "error": "",
+        "response": "{'id': '46a7e93b000064000500918b', 'displayName': 'Google', 'name': {'identifying': 'www.google.com'}, 'score': {'trustScore': 3, 'stars': 3}, 'numberOfReviews': {'total': 7890, 'oneStar': 2483, 'twoStars': 286, 'threeStars': 267, 'fourStars': 542, 'fiveStars': 4312}, 'isClaimed': False, 'isSubscriber': False, 'bottomLevelCategory': 'Search Engine Company', 'topLevelCategory': 'Electronics & Technology', 'isVerified': False, 'hasConsumerAlertWarning': False, 'verification': {'verifiedBusiness': False, 'verifiedByGoogle': False, 'verifiedPaymentMethod': False, 'verifiedUserIdentity': False}}"
+    }
+}

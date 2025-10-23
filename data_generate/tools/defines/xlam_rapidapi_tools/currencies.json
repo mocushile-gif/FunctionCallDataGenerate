@@ -1,0 +1,15 @@
+{
+    "name": "currencies",
+    "description": "This is a sub-function API for tool booking_com_v2.\nTool description: Real-time data, unofficial API Booking.com\nThis API helps to query rooms, price, facilities, policities.. from many hotels around the world to create a travel\nAPI description: Retrieves a list of currencies from the Booking.com API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "language_code": {
+                "type": "string",
+                "description": "The language code to use for the response. Defaults to 'en-us'.",
+                "default": "en-us"
+            }
+        },
+        "required": []
+    }
+}

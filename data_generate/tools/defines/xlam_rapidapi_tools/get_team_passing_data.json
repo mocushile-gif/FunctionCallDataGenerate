@@ -1,0 +1,23 @@
+{
+    "name": "get_team_passing_data",
+    "description": "This is a sub-function API for tool nfl_team_stats_v2.\nTool description: NFL Team Stats is an API that always provides up-to-date stats for all NFL teams such as: Wins, Passing, Rushing and Recieving.\nAPI description: Provides a JSON Response containg a list of all teams' passing data. Parameters include whether you'd like the data for offense or defense sides, and a specific year.\n\nThe side parameter should be one of these two options: \"offense\" or \"defense\"\nThe year parameter should be a year between these years: 1920 - current year.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "number",
+                "description": "The year for which the data is to be fetched. Should be between 1920 and the current year.",
+                "default": 2021.0
+            },
+            "side": {
+                "type": "string",
+                "description": "The year for which the data is to be fetched. Should be between 1920 and the current year.",
+                "default": "offense"
+            }
+        },
+        "required": [
+            "year",
+            "side"
+        ]
+    }
+}

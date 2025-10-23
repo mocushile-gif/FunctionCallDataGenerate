@@ -1,0 +1,27 @@
+{
+    "name": "properties_get_running_costs",
+    "description": "This is a sub-function API for tool zoopla_v2.\nTool description: This API helps to query for properties for rent, sale in UK to create a real estate site/application such as zoopla.com\nAPI description: Fetch the running costs associated with a given property listing from Zoopla API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "listing_id": {
+                "type": "number",
+                "description": "The ID of the property listing returned from the /properties/list endpoint.",
+                "default": 56354192.0
+            },
+            "category": {
+                "type": "string",
+                "description": "The category of the property. Either 'residential' or 'commercial'. Default is 'residential'.",
+                "default": "residential"
+            },
+            "section": {
+                "type": "string",
+                "description": "The section of the property. Either 'for-sale' or 'to-rent'. Default is 'to-rent'.",
+                "default": "to-rent"
+            }
+        },
+        "required": [
+            "listing_id"
+        ]
+    }
+}

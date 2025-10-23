@@ -1,0 +1,23 @@
+{
+    "name": "get_specific_ayah_verse",
+    "description": "This is a sub-function API for tool al_quran.\nTool description: Quickly retrieve original Arabic text, translation, transliteration and Word Search from the Koran /Quran\nAPI description: Responds with a specific *Ayah/Verse* in a specific *Chapter/Surah* along with original Arabic text, translation, transliteration and verse ID in JSON",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chapterid": {
+                "type": "number",
+                "description": "Refers to a *Surah/Chapter* in the Koran\n**Min Value: *1***\n**Max Value: *114***",
+                "default": 38.0
+            },
+            "verseid": {
+                "type": "number",
+                "description": "The verse (Ayah) number to fetch within the specified chapter. Must be a valid verse number within the chapter.",
+                "default": 29.0
+            }
+        },
+        "required": [
+            "chapterid",
+            "verseid"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "shazam_songs_list_similarities",
+    "description": "This is a sub-function API for tool shazam.\nTool description: Identify any song. Discover, artists, lyrics, videos & playlists to create a song detector site/application such as shazam.com\nAPI description: Fetches similar songs using the Shazam API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The value of 'related-tracks->id' field returned in .../shazam-songs/get-details endpoint",
+                "default": "track-similarities-id-424767377"
+            },
+            "locale": {
+                "type": "string",
+                "description": "The language code for the results. Defaults to 'en-US'.",
+                "default": "en-US"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

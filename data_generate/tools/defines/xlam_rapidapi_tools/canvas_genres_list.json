@@ -1,0 +1,15 @@
+{
+    "name": "canvas_genres_list",
+    "description": "This is a sub-function API for tool webtoon.\nTool description: This API provides the largest webcomics data in the world to create a comic site/application such as webtoons.com\nAPI description: List genres in canvas category\n*To load images, please check the tutorial at https://rapidapi.com/apidojo/api/webtoon/tutorials/how-to-load-images",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "language": {
+                "type": "string",
+                "description": "The language in which to return the genres. Acceptable values are 'en', 'zh-hant', 'de', 'fr', 'es', 'th', and 'id'. Default is 'en'.",
+                "default": "en"
+            }
+        },
+        "required": []
+    }
+}

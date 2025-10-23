@@ -1,0 +1,30 @@
+{
+    "{'cnpj': '[insert random CPF here]'}": {
+        "error": "",
+        "response": {
+            "message": "400, bad request"
+        }
+    },
+    "{'cnpj': '<INSERT_CNPJ_HERE>'}": {
+        "error": "",
+        "response": {
+            "message": "400, bad request"
+        }
+    },
+    "{'cnpj': '<insert specific CNPJ here>'}": {
+        "error": "",
+        "response": {
+            "message": "400, bad request"
+        }
+    },
+    "{'cnpj': '<insert CNPJ here>'}": {
+        "error": "",
+        "response": {
+            "message": "400, bad request"
+        }
+    },
+    "{'cnpj': '15754475000140'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    }
+}

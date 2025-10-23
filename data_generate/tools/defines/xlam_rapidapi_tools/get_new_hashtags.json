@@ -1,0 +1,17 @@
+{
+    "name": "get_new_hashtags",
+    "description": "This is a sub-function API for tool top_instagram_hashtag.\nTool description: Find the best instagram hashtag\nAPI description: Fetches 1000 newly generated Instagram hashtags based on the specified page number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number for the hashtag query, ranging from 0 to 9.",
+                "default": "0"
+            }
+        },
+        "required": [
+            "page"
+        ]
+    }
+}

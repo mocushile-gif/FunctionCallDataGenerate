@@ -1,0 +1,42 @@
+{
+    "{'q': 'industrial sensors', 'startprice': 20.0, 'endprice': 100.0, 'page': 1, 'sort': 'sales_desc'}": {
+        "error": "",
+        "response": {
+            "items": [
+                {
+                    "title": "Industrial Proximity Sensor - IP67 Rated",
+                    "price": 45.99,
+                    "brand": "SensorTech",
+                    "rating": 4.5,
+                    "link": "https://example.com/sensor123",
+                    "stock": 150
+                },
+                {
+                    "title": "High-Accuracy Temperature Sensor Kit",
+                    "price": 89.99,
+                    "brand": "IndusSens",
+                    "rating": 4.8,
+                    "link": "https://example.com/sensor456",
+                    "stock": 87
+                },
+                {
+                    "title": "Wireless Vibration Sensor for Machinery",
+                    "price": 29.99,
+                    "brand": "MachSense",
+                    "rating": 4.2,
+                    "link": "https://example.com/sensor789",
+                    "stock": 200
+                }
+            ],
+            "pagination": {
+                "total_results": 142,
+                "current_page": 1,
+                "page_size": 10
+            },
+            "filters_applied": {
+                "price_range": "20.00-100.00",
+                "sort_order": "sales_desc"
+            }
+        }
+    }
+}

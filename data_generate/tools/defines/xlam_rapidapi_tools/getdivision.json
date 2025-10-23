@@ -1,0 +1,21 @@
+{
+    "name": "getdivision",
+    "description": "This is a sub-function API for tool mathaas.\nTool description: Basic mathematic operations served through a Restful API\nAPI description: Divides two numbers (dividend and divisor) provided as parameters",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "divisor": {
+                "type": "number",
+                "description": "The second term in a division: <dividend> / <divisor>"
+            },
+            "dividend": {
+                "type": "number",
+                "description": "The first term in a division: <dividend> / <divisor>"
+            }
+        },
+        "required": [
+            "divisor",
+            "dividend"
+        ]
+    }
+}

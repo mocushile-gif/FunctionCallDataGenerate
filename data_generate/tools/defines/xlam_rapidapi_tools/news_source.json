@@ -1,0 +1,17 @@
+{
+    "name": "news_source",
+    "description": "This is a sub-function API for tool biztoc.\nTool description: Official BizToc.com API — The Web's most comprehensive hub for business & finance news.\nAPI description: Get the latest news stories for the respective `{source_id}` in chronological order.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "source_id": {
+                "type": "string",
+                "description": "The identifier of the news source for which to retrieve the latest news stories.",
+                "default": "bbc"
+            }
+        },
+        "required": [
+            "source_id"
+        ]
+    }
+}

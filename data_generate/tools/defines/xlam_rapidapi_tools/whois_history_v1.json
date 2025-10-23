@@ -1,0 +1,53 @@
+{
+    "name": "whois_history_v1",
+    "description": "This is a sub-function API for tool whois_history.\nTool description: WHOIS History API lets you find out about current and past domain owners and all other relevant registration details that can be gathered from WHOIS records. \nAPI description: Fetches the WHOIS history for a specified domain.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domainname": {
+                "type": "string",
+                "description": "The domain for which historic WHOIS data is requested.",
+                "default": "google.com"
+            },
+            "createddateto": {
+                "type": "string",
+                "description": "If present, search through domains created before the given date. Acceptable values: date in \"YYYY-MM-DD\" format."
+            },
+            "createddatefrom": {
+                "type": "string",
+                "description": "If present, search through domains created after the given date. Acceptable values: date in \"YYYY-MM-DD\" format."
+            },
+            "outputformat": {
+                "type": "string",
+                "description": "Response output format. Acceptable values: XML or JSON. Defaults to JSON."
+            },
+            "expireddateto": {
+                "type": "string",
+                "description": "If present, search through domains expired before the given date. Acceptable values: date in \"YYYY-MM-DD\" format."
+            },
+            "updateddateto": {
+                "type": "string",
+                "description": "If present, search through domains updated before the given date. Acceptable values: date in \"YYYY-MM-DD\" format."
+            },
+            "mode": {
+                "type": "string",
+                "description": "Mode of operation; \"preview\" to return the number of domains (free) or \"purchase\" to return the actual domain list (limited to 10,000 and costs 50 DRS credits). Defaults to \"preview\"."
+            },
+            "updateddatefrom": {
+                "type": "string",
+                "description": "If present, search through domains updated after the given date. Acceptable values: date in \"YYYY-MM-DD\" format."
+            },
+            "expireddatefrom": {
+                "type": "string",
+                "description": "If present, search through domains expired after the given date. Acceptable values: date in \"YYYY-MM-DD\" format."
+            },
+            "sincedate": {
+                "type": "string",
+                "description": "If present, search through activities discovered since the given date. Sometimes there is a latency between the actual added/renewal/expired date and the date when our system detected this change. Acceptable values: date in \"YYYY-MM-DD\" format."
+            }
+        },
+        "required": [
+            "domainname"
+        ]
+    }
+}

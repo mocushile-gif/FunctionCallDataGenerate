@@ -1,0 +1,22 @@
+{
+    "name": "getdownloadurl",
+    "description": "This is a sub-function API for tool microsoft_edge_text_to_speech.\nTool description: an easy-to-use API of Microsoft Edge TTS.\nAPI description: request with a long text and get the mp3 download URL created by the TTS engine.\n\nSupporting lots of languages with different voices, such as French, Spanish, Portuguese, Japanese, Korean, Chinese, Polish, Hindi and so on\n\nparams:\ntext - STRING : the text to be transformed to speeches.\nvoice_name - STRING: the voice and language for the speeches.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to be converted to speech.",
+                "default": "Are you alright?"
+            },
+            "voice_name": {
+                "type": "string",
+                "description": "The voice and language for the speech synthesis. Default is 'en-US-AriaNeural'.",
+                "default": "en-US-AriaNeural"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

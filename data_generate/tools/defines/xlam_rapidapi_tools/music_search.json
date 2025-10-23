@@ -1,0 +1,17 @@
+{
+    "name": "music_search",
+    "description": "This is a sub-function API for tool tiktok_all_in_one.\nTool description: All in one api where you can get everything that mobile app use for it's work\nAPI description: Searches for music or audio names and retrieves artists' cover images and sound URLs.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search term for the music or audio, typically including the artist or movie name.",
+                "default": "vibe"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

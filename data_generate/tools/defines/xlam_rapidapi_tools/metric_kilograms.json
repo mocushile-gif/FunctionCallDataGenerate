@@ -1,0 +1,23 @@
+{
+    "name": "metric_kilograms",
+    "description": "This is a sub-function API for tool body_mass_index_bmi_calculator.\nTool description: Use this API to calculate the Body Mass Index of an individual based on their height and weight.\nAPI description: This endpoint will calculate the BMI of an individual using the imperial measurement system.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "weight": {
+                "type": "number",
+                "description": "The weight of an individual in kilograms (kg).",
+                "default": 150.0
+            },
+            "height": {
+                "type": "number",
+                "description": "The height of an individual in meters (m).",
+                "default": 1.83
+            }
+        },
+        "required": [
+            "weight",
+            "height"
+        ]
+    }
+}

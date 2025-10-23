@@ -1,0 +1,14 @@
+{
+    "name": "get_list_of_top_level_domains",
+    "description": "This is a sub-function API for tool tld.\nTool description: Collection of official top level domains\nAPI description: Get an exhaustive list of more than official 1500 generic and country code TLDs for which domains can be registered with.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tlds": {
+                "type": "string",
+                "description": "This queries to check if a specific TLD exist.  If the queried TLDs are found, they are returned in a Json Array. If none are found an empty json array [ ] is returned."
+            }
+        },
+        "required": []
+    }
+}

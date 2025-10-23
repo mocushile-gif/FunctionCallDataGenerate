@@ -1,0 +1,17 @@
+{
+    "name": "get_laws_for_one_state",
+    "description": "This is a sub-function API for tool us_gun_laws.\nTool description: Query for gun laws by state or retrieve data for all states.\nAPI description: Retrieves gun law documentation links for a specific U.S. state using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "statename": {
+                "type": "string",
+                "description": "The name of the state for which to retrieve gun law documentation.",
+                "default": "north carolina"
+            }
+        },
+        "required": [
+            "statename"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "mean_confidence_interval",
+    "description": "Calculates the confidence interval for a sample mean.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "mean": {
+          "description": "The mean of the sample.",
+          "type": "number"
+        },
+        "std_dev": {
+          "description": "The standard deviation of the sample.",
+          "type": "number"
+        },
+        "sample_size": {
+          "description": "The size of the sample.",
+          "type": "integer"
+        },
+        "confidence": {
+          "description": "The desired confidence level. Defaults to 0.95.",
+          "type": "number",
+          "default": 0.95
+        },
+        "distribution": {
+          "description": "The type of distribution used for the confidence interval ('normal' or 't'). Defaults to 'normal'.",
+          "type": "string",
+          "default": "normal"
+        }
+      },
+      "required": ["mean", "std_dev", "sample_size"]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "find_equilibrium_index",
+    "description": "Finds all equilibrium indices in a list, where the sum of elements on the left is equal to the sum of elements on the right.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "arr": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                },
+                "description": "The input list of integers."
+            }
+        },
+        "required": [
+            "arr"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "get_table_creation_sql",
+    "description": "Retrieve the SQL statement used to create a specified table in the SQLite database.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "database_path": {
+                "type": "string",
+                "description": "The path to the database."
+            },
+            "table_name": {
+                "type": "string",
+                "description": "The name of the table to retrieve the creation SQL statement."
+            }
+        },
+        "required": ["database_path", "table_name"]
+    }
+}

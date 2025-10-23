@@ -1,0 +1,17 @@
+{
+    "name": "market_capitalization",
+    "description": "This is a sub-function API for tool realtime_crypto_prices.\nTool description: Get the Fastest and Realtime Crypto Rates and more...\nAPI description: Fetches the market capitalization of a cryptocurrency in US Dollars.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The ticker symbol of the cryptocurrency.",
+                "default": "BTC"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

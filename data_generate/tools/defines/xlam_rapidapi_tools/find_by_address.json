@@ -1,0 +1,15 @@
+{
+    "name": "find_by_address",
+    "description": "This is a sub-function API for tool find_by_address.\nTool description: “Find By Address” API gets addresses for given search term. This API provides a JSON interface to search UK addresses. This API gives access to Royal Mail PAF data and Geocoding. his API uses the latest PAF and Multiple Residence data from Royal Mail.\nAPI description: “Find By Address” API gets addresses for the given search term. This API provides a JSON interface to search UK addresses. This API gives access to Royal Mail PAF data and Geocoding.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search term used to find addresses. Defaults to 'Farringdon Road'.",
+                "default": "Farringdon Road"
+            }
+        },
+        "required": []
+    }
+}

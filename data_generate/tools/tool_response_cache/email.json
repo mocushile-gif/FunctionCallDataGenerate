@@ -1,0 +1,16 @@
+{
+    "{'email': 'support@helpdesk.com'}": {
+        "error": "",
+        "response": {
+            "email": "support@helpdesk.com",
+            "linked_to_tiktok": false,
+            "details": {
+                "status_message": "Email not found linked to any TikTok account.",
+                "last_check_timestamp": "2023-09-15T14:30:00Z",
+                "verification_level": "basic",
+                "associated_accounts": 0
+            },
+            "recommendation": "Ensure the email is correctly entered or check TikTok's account recovery options for verification."
+        }
+    }
+}

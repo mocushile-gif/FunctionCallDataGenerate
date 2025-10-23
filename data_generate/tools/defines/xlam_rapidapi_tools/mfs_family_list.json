@@ -1,0 +1,18 @@
+{
+    "name": "mfs_family_list",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Fetch a list of mutual fund families from the Twelve Data API, optionally filtering by country and fund family.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "Filter results by country name or alpha code. Defaults to None."
+            },
+            "fund_family": {
+                "type": "string",
+                "description": "Filter results by the investment company that manages the fund. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

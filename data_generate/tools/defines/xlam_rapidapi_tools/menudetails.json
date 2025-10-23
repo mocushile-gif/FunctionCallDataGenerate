@@ -1,0 +1,23 @@
+{
+    "name": "menudetails",
+    "description": "This is a sub-function API for tool testing_v2.\nTool description: testing\nAPI description: Fetch menu details using a given menu ID and language preference.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lang": {
+                "type": "string",
+                "description": "The language code in which the menu details should be returned.",
+                "default": "zh-hans"
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the menu whose details are to be fetched.",
+                "default": "5a76c927bb5d660001e09731"
+            }
+        },
+        "required": [
+            "lang",
+            "is_id"
+        ]
+    }
+}

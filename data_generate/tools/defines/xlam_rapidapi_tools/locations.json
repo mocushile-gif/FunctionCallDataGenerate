@@ -1,0 +1,17 @@
+{
+    "name": "locations",
+    "description": "This is a sub-function API for tool skyscanner_api.\nTool description: The Skyscanner API offers developers a way to integrate Skyscanner's data into their own applications, allowing users to access and interact with the vast travel data offered by Skyscanner. \n\n![](https://tip.ep-proxy.net/t/ra-ss-main)\nAPI description: Geographical locations have the concept of hierarchy. Each location has a parent of a larger hierarchy.  I.e.: a place `type` of `airport` can have a parent of `city` and `city` can have a parent of `country`.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "locale": {
+                "type": "string",
+                "description": "Locale code for the desired geographical information. Example values can be retrieved from the `Locales` endpoint.",
+                "default": "en-US"
+            }
+        },
+        "required": [
+            "locale"
+        ]
+    }
+}

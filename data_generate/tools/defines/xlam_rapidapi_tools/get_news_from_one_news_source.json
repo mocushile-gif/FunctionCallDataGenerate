@@ -1,0 +1,23 @@
+{
+    "name": "get_news_from_one_news_source",
+    "description": "This is a sub-function API for tool sri_lanka_news_api.\nTool description: A simple API that allows you to obtain the most recent news from Sri Lankan media sites in Sinhala. \nAPI description: Get news from one news source passing {source} paramter value and {page} value.Each news soure different number of news count in one page.\n\n\n**News Sources\n--Lankadeepa.lk\n--Deshaya.lk\n--Ada.lk\n--BBCSinhala.com\n--Mawbima.lk",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve news articles from. Different news sources may have varying numbers of articles per page.",
+                "default": 1
+            },
+            "source": {
+                "type": "string",
+                "description": "The news source to retrieve articles from. Possible values include 'Lankadeepa.lk', 'Deshaya.lk', 'Ada.lk', 'BBCSinhala.com', 'Mawbima.lk'.",
+                "default": "Ada.lk"
+            }
+        },
+        "required": [
+            "page",
+            "source"
+        ]
+    }
+}

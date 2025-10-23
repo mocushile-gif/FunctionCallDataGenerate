@@ -1,0 +1,23 @@
+{
+    "name": "type_parent_get_recent_investment_rating_change",
+    "description": "This is a sub-function API for tool ms_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc... to create a site/application such as morningstar.com\nAPI description: Fetches the recent investment rating change as displayed in the Parent tab for a given security.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "securityid": {
+                "type": "string",
+                "description": "The value of securityId field returned in …/market/v2/get-returns",
+                "default": "F00000O2CG"
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of security, either 'etf' or 'fund'.",
+                "default": "etf"
+            }
+        },
+        "required": [
+            "securityid",
+            "type"
+        ]
+    }
+}

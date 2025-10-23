@@ -1,0 +1,17 @@
+{
+    "name": "query_for_hexagon_by_h3index",
+    "description": "This is a sub-function API for tool uk_boundaries_io.\nTool description: UK Postal Code(ex. ZE1 0AE), Sector,  District,  Boundaries API:\r\n\r\nA simple & very fast API that will allow you to integrate multiple GeoJson UK Unit and sector level boundaries result into your apps and systems.\r\nThis API is designed to be used programatically for optimal performance.  When using the MashApe UI for queries expect significant latency issues on large result sets!\nAPI description: Queries a boundary for a given H3 index from the VanitySoft UK Boundaries API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "h3index": {
+                "type": "number",
+                "description": "The H3 index identifier for the hexagon to query.",
+                "default": 6.351773336707286e+17
+            }
+        },
+        "required": [
+            "h3index"
+        ]
+    }
+}

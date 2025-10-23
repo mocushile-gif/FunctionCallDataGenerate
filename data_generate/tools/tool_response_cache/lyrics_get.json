@@ -1,0 +1,51 @@
+{
+    "{'artist_name': 'Eslabon Armado', 'lyric_title': 'Ella Baila Sola', 'format': 'json'}": {
+        "error": "",
+        "response": {
+            "artist_name": "Eslabon Armado",
+            "lyric_title": "Ella Baila Sola",
+            "lyrics": "Lyrics for 'Ella Baila Sola' by Eslabon Armado are fetched successfully. The song narrates a heartfelt story of admiration and love, capturing the essence of romantic emotions. It blends traditional Mexican music with modern influences, resonating deeply with listeners.",
+            "additional_info": {
+                "song_meaning": "The song explores themes of love and admiration, highlighting the beauty of a woman who dances alone, symbolizing independence and grace.",
+                "release_date": "March 2023",
+                "popularity": "The song gained widespread popularity, becoming a chart-topping hit in Latin music."
+            }
+        }
+    },
+    "{'sm_lid': '', 'lyric_title': 'Bohemian Rhapsody', 'artist_name': 'Queen', 'format': 'json'}": {
+        "error": "",
+        "response": "{'rate': {'rate_span': '1 Minute', 'rate_limit': 'Unlimited', 'rate_remaining': 'Unlimited', 'rate_user': 0}, 'status': {'status_code': 401, 'status_message': 'Authentication failed, probably because of invalid/missing API key.', 'source': '8'}}"
+    },
+    "{'sm_lid': 'queen-bohemian-rhapsody', 'lyric_title': 'Bohemian Rhapsody', 'artist_name': 'Queen', 'format': 'json'}": {
+        "error": "",
+        "response": "{'rate': {'rate_span': '1 Minute', 'rate_limit': 'Unlimited', 'rate_remaining': 'Unlimited', 'rate_user': 0}, 'status': {'status_code': 401, 'status_message': 'Authentication failed, probably because of invalid/missing API key.', 'source': '8'}}"
+    },
+    "{'sm_lid': 'queen-killer-queen', 'lyric_title': 'Killer Queen', 'artist_name': 'Queen', 'format': 'json'}": {
+        "error": "",
+        "response": "{'rate': {'rate_span': '1 Minute', 'rate_limit': 'Unlimited', 'rate_remaining': 'Unlimited', 'rate_user': 0}, 'status': {'status_code': 401, 'status_message': 'Authentication failed, probably because of invalid/missing API key.', 'source': '8'}}"
+    },
+    "{'sm_lid': 'SM-45872-BR', 'lyric_title': 'Bohemian Rhapsody', 'artist_name': 'Queen', 'format': 'json'}": {
+        "error": "",
+        "response": "{'rate': {'rate_span': '1 Minute', 'rate_limit': 'Unlimited', 'rate_remaining': 'Unlimited', 'rate_user': 0}, 'status': {'status_code': 401, 'status_message': 'Authentication failed, probably because of invalid/missing API key.', 'source': '8'}}"
+    },
+    "{'sm_lid': '45678', 'lyric_title': 'Shake It Off', 'artist_name': 'Taylor Swift', 'format': 'json'}": {
+        "error": "",
+        "response": "{'rate': {'rate_span': '1 Minute', 'rate_limit': 'Unlimited', 'rate_remaining': 'Unlimited', 'rate_user': 0}, 'status': {'status_code': 401, 'status_message': 'Authentication failed, probably because of invalid/missing API key.', 'source': '8'}}"
+    },
+    "{'artist_name': 'Adele', 'lyric_title': 'Hello', 'format': 'json', 'sm_lid': ''}": {
+        "error": "",
+        "response": "{'rate': {'rate_span': '1 Minute', 'rate_limit': 'Unlimited', 'rate_remaining': 'Unlimited', 'rate_user': 0}, 'status': {'status_code': 401, 'status_message': 'Authentication failed, probably because of invalid/missing API key.', 'source': '8'}}"
+    },
+    "{'artist_name': 'Adele', 'lyric_title': 'Set Fire to the Rain', 'format': 'json', 'sm_lid': ''}": {
+        "error": "",
+        "response": "{'rate': {'rate_span': '1 Minute', 'rate_limit': 'Unlimited', 'rate_remaining': 'Unlimited', 'rate_user': 0}, 'status': {'status_code': 401, 'status_message': 'Authentication failed, probably because of invalid/missing API key.', 'source': '8'}}"
+    },
+    "{'artist_name': 'Queen', 'lyric_title': 'Bohemian Rhapsody', 'format': 'json', 'sm_lid': ''}": {
+        "error": "",
+        "response": "{'rate': {'rate_span': '1 Minute', 'rate_limit': 'Unlimited', 'rate_remaining': 'Unlimited', 'rate_user': 0}, 'status': {'status_code': 401, 'status_message': 'Authentication failed, probably because of invalid/missing API key.', 'source': '8'}}"
+    },
+    "{'artist_name': 'Queen', 'lyric_title': 'Bohemian Rhapsody', 'format': 'json', 'sm_lid': '', 'spotify_id': ''}": {
+        "error": "",
+        "response": "{'rate': {'rate_span': '1 Minute', 'rate_limit': 'Unlimited', 'rate_remaining': 'Unlimited', 'rate_user': 0}, 'status': {'status_code': 401, 'status_message': 'Authentication failed, probably because of invalid/missing API key.', 'source': '8'}}"
+    }
+}

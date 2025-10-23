@@ -1,0 +1,21 @@
+{
+    "name": "dictionary_examples_temporarily_unavailable",
+    "description": "This is a sub-function API for tool webit_language.\nTool description: A.I. Text Paraphrase (Rewrite), Dictionary (Lookup, Examples, Bilingual, Synonyms, Antonyms), Key Phrases, Sentences Breaker.\nAPI description: Fetch dictionary examples for a given query and language using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The query string to search for dictionary examples."
+            },
+            "language": {
+                "type": "string",
+                "description": "The language code for the dictionary examples."
+            }
+        },
+        "required": [
+            "q",
+            "language"
+        ]
+    }
+}

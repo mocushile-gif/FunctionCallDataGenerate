@@ -1,0 +1,17 @@
+{
+    "name": "get_airline_details",
+    "description": "This is a sub-function API for tool travel_hacking_tool.\nTool description: Complete and up-to-date database with detailed information about IATA airports, IATA airlines, countries, alliances and more.\nAPI description: This endpoint returns the details for an airline based on an IATA code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "string",
+                "description": "The IATA code of the airline for which details are to be fetched.",
+                "default": "LH"
+            }
+        },
+        "required": [
+            "code"
+        ]
+    }
+}

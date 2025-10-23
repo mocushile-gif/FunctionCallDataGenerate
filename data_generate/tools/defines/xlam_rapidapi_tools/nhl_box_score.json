@@ -1,0 +1,17 @@
+{
+    "name": "nhl_box_score",
+    "description": "This is a sub-function API for tool nhl_api.\nTool description: This API provides instant access to the latest data for all operations and players in the NHL. It features scores, odds, bookmakers' stats, standings, and historical data.\nAPI description: From the NHL, this endpoint retrieves game box score data for a specific game.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the NHL game for which the box score data is to be retrieved.",
+                "default": "401458986"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

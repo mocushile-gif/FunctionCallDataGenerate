@@ -1,0 +1,34 @@
+{
+    "{'walletid': '0x4A90bE4158a1D2A3aBf0Ec867d4Bd3e4B9Bc7F8d', 'stableonly': False, 'take': 100}": {
+        "error": "",
+        "response": ""
+    },
+    "{'stableonly': True, 'take': 5}": {
+        "error": "",
+        "response": ""
+    },
+    "{'stableonly': True, 'searchterms': 'stablecoin', 'take': 5}": {
+        "error": "",
+        "response": ""
+    },
+    "{'searchterms': 'electric vehicle', 'take': 5, 'stableonly': False}": {
+        "error": "",
+        "response": ""
+    },
+    "{'searchterms': 'EV', 'take': 5, 'stableonly': False}": {
+        "error": "",
+        "response": ""
+    },
+    "{'chains': 'Ethereum', 'stableonly': True}": {
+        "error": "",
+        "response": ""
+    },
+    "{'chains': 'ethereum', 'stableonly': True}": {
+        "error": "",
+        "response": ""
+    },
+    "{'chains': 'Ethereum', 'stableonly': True, 'searchterms': 'algorithmic'}": {
+        "error": "",
+        "response": ""
+    }
+}

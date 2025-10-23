@@ -1,0 +1,46 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "result": [
+                {
+                    "roll": [
+                        4,
+                        6,
+                        8
+                    ],
+                    "subtotal": 18
+                },
+                {
+                    "roll": [
+                        6,
+                        2,
+                        2
+                    ],
+                    "subtotal": 10
+                }
+            ],
+            "total": 28
+        }
+    },
+    "{'dice': 3, 'sides': 8, 'rolls': '500'}": {
+        "error": "",
+        "response": "{'result': [{'roll': [6, 1, 3], 'subtotal': 10}, {'roll': [1, 3, 2], 'subtotal': 6}, {'roll': [7, 2, 7], 'subtotal': 16}, {'roll': [5, 4, 4], 'subtotal': 13}, {'roll': [2, 3, 2], 'subtotal': 7}, {'roll': [8, 1, 7], 'subtotal': 16}, {'roll': [6, 8, 4], 'subtotal': 18}, {'roll': [5, 5, 1], 'subtotal': 11}, {'roll': [4, 1, 8], 'subtotal': 13}, {'roll': [4, 6, 6], 'subtotal': 16}, {'roll': [7, 6, 3], 'subtotal': 16}, {'roll': [5, 2, 8], 'subtotal': 15}, {'roll': [3, 5, 8], 'subtotal': 16}, {'roll': [2, 5, 2], 'subtotal': 9}, {'roll': [5, 1, 1], 'subtotal': 7}, {'roll': [8, 2, 1], 'subtotal': 11}, {'roll': [7, 8, 6], 'subtotal': 21}, {'roll': [6, 2, 6], 'subtotal': 14}, {'roll': [1, 1, 4], 'subtotal': 6}, {'roll': [2, 2, 3], 'subtotal': 7}, {'roll': [4, 6, 4], 'subtotal': 14}, {'roll': [8, 1, 5], 'subtotal': 14}, {'roll': [7, 2, 3], 'subtotal': 12}, {'roll': [8, 4, 3], 'subtotal': 15}, {'roll': [1, 5, 8], 'subtotal': 14}, {'roll': [2, 8, 1], 'subtotal': 11}, {'roll': [5, 5, 4], 'subtotal': 14}, {'roll': [1, 5, 3], 'subtotal': 9}, {'roll': [6, 5, 8], 'subtotal': 19}, {'roll': [8, 4, 8], 'subtotal': 20}, {'roll': [3, 5, 6], 'subtotal': 14}, {'roll': [5, 3, 3], 'subtotal': 11}, {'roll': [5, 7, 3], 'subtotal': 15}, {'roll': [1, 2, 7], 'subtotal': 10}, {'roll': [7, 4, 2], 'subtotal': 13}, {'roll': [6, 3, 5], 'subtotal': 14}, {'roll': [2, 2, 6], 'subtotal': 10}, {'roll': [2, 2, 4], 'subtotal': 8}, {'roll': [1, 1, 6], 'subtotal': 8}, {'roll': [3, 2, 2], 'subtotal': 7}, {'roll': [5, 2, 4], 'subtotal': 11}, {'roll': [3, 5, 1], 'subtotal': 9}, {'roll': [7, 5, 3], 'subtotal': 15}, {'roll': [4, 2, 7], 'subtotal': 13}, {'roll': [2, 1, 3], 'subtotal': 6}, {'roll': [5, 1, 8], 'subtotal': 14}, {'roll': [6, 4, 7], 'subtotal': 17}, {'roll': [7, 4, 1], 'subtotal': 12}, {'roll': [6, 1, 7], 'subtotal': 14}, {'roll': [4, 7, 3], 'subtotal': 14}, {'roll': [6, 6, 5], 'subtotal': 17}, {'roll': [4, 1, 4], 'subtotal': 9}, {'roll': [7, 8, 8], 'subtotal': 23}, {'roll': [1, 8, 5], 'subtotal': 14}, {'roll': [5, 7, 7], 'subtotal': 19}, {'roll': [1, 1"
+    },
+    "{'dice': 2, 'sides': 6, 'rolls': '300'}": {
+        "error": "",
+        "response": "{'result': [{'roll': [3, 5], 'subtotal': 8}, {'roll': [6, 2], 'subtotal': 8}, {'roll': [4, 5], 'subtotal': 9}, {'roll': [3, 2], 'subtotal': 5}, {'roll': [4, 5], 'subtotal': 9}, {'roll': [5, 5], 'subtotal': 10}, {'roll': [3, 2], 'subtotal': 5}, {'roll': [2, 5], 'subtotal': 7}, {'roll': [1, 1], 'subtotal': 2}, {'roll': [2, 4], 'subtotal': 6}, {'roll': [2, 6], 'subtotal': 8}, {'roll': [1, 6], 'subtotal': 7}, {'roll': [5, 6], 'subtotal': 11}, {'roll': [1, 5], 'subtotal': 6}, {'roll': [6, 5], 'subtotal': 11}, {'roll': [2, 6], 'subtotal': 8}, {'roll': [3, 6], 'subtotal': 9}, {'roll': [6, 1], 'subtotal': 7}, {'roll': [2, 5], 'subtotal': 7}, {'roll': [6, 4], 'subtotal': 10}, {'roll': [3, 1], 'subtotal': 4}, {'roll': [6, 2], 'subtotal': 8}, {'roll': [1, 5], 'subtotal': 6}, {'roll': [5, 5], 'subtotal': 10}, {'roll': [3, 2], 'subtotal': 5}, {'roll': [3, 4], 'subtotal': 7}, {'roll': [2, 6], 'subtotal': 8}, {'roll': [5, 6], 'subtotal': 11}, {'roll': [1, 6], 'subtotal': 7}, {'roll': [4, 3], 'subtotal': 7}, {'roll': [3, 3], 'subtotal': 6}, {'roll': [2, 2], 'subtotal': 4}, {'roll': [4, 1], 'subtotal': 5}, {'roll': [4, 2], 'subtotal': 6}, {'roll': [6, 1], 'subtotal': 7}, {'roll': [6, 3], 'subtotal': 9}, {'roll': [2, 6], 'subtotal': 8}, {'roll': [6, 3], 'subtotal': 9}, {'roll': [4, 2], 'subtotal': 6}, {'roll': [1, 4], 'subtotal': 5}, {'roll': [2, 1], 'subtotal': 3}, {'roll': [3, 4], 'subtotal': 7}, {'roll': [6, 6], 'subtotal': 12}, {'roll': [1, 6], 'subtotal': 7}, {'roll': [6, 2], 'subtotal': "
+    },
+    "{'dice': 4, 'sides': 10, 'rolls': '100'}": {
+        "error": "",
+        "response": "{'result': [{'roll': [10, 8, 5, 2], 'subtotal': 25}, {'roll': [4, 8, 4, 8], 'subtotal': 24}, {'roll': [9, 10, 5, 2], 'subtotal': 26}, {'roll': [6, 10, 3, 8], 'subtotal': 27}, {'roll': [4, 5, 4, 9], 'subtotal': 22}, {'roll': [5, 1, 10, 8], 'subtotal': 24}, {'roll': [6, 10, 4, 6], 'subtotal': 26}, {'roll': [2, 4, 7, 2], 'subtotal': 15}, {'roll': [3, 8, 10, 7], 'subtotal': 28}, {'roll': [10, 10, 5, 3], 'subtotal': 28}, {'roll': [2, 5, 5, 8], 'subtotal': 20}, {'roll': [7, 7, 2, 2], 'subtotal': 18}, {'roll': [9, 7, 4, 10], 'subtotal': 30}, {'roll': [3, 6, 2, 2], 'subtotal': 13}, {'roll': [3, 4, 7, 7], 'subtotal': 21}, {'roll': [8, 8, 5, 1], 'subtotal': 22}, {'roll': [7, 6, 3, 4], 'subtotal': 20}, {'roll': [2, 7, 5, 1], 'subtotal': 15}, {'roll': [5, 3, 1, 7], 'subtotal': 16}, {'roll': [3, 3, 10, 2], 'subtotal': 18}, {'roll': [9, 9, 3, 4], 'subtotal': 25}, {'roll': [5, 7, 2, 10], 'subtotal': 24}, {'roll': [9, 1, 4, 2], 'subtotal': 16}, {'roll': [10, 1, 5, 7], 'subtotal': 23}, {'roll': [6, 3, 10, 2], 'subtotal': 21}, {'roll': [5, 10, 3, 7], 'subtotal': 25}, {'roll': [1, 10, 8, 10], 'subtotal': 29}, {'roll': [7, 5, 3, 3], 'subtotal': 18}, {'roll': [3, 1, 2, 6], 'subtotal': 12}, {'roll': [3, 9, 3, 6], 'subtotal': 21}, {'roll': [1, 2, 6, 9], 'subtotal': 18}, {'roll': [4, 7, 7, 4], 'subtotal': 22}, {'roll': [6, 9, 2, 7], 'subtotal': 24}, {'roll': [6, 1, 2, 6], 'subtotal': 15}, {'roll': [4, 1, 3, 6], 'subtotal': 14}, {'roll': [8, 5, 8, 3], 'subtotal': 24}, {'roll': [9, 9, 9, 8], 'subtotal"
+    },
+    "{'dice': 4, 'sides': 10, 'rolls': '1'}": {
+        "error": "",
+        "response": "{'result': [{'roll': [7, 9, 8, 7], 'subtotal': 31}], 'total': 31}"
+    },
+    "{'dice': 5, 'sides': 6, 'rolls': 1}": {
+        "error": "",
+        "response": "{'result': [{'roll': [2, 1, 3, 3, 1], 'subtotal': 10}], 'total': 10}"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "totd_tracks_by_date",
+    "description": "This is a sub-function API for tool trackmania.\nTool description: Get Stats, Matches and Leaderboards from Trackmania (Unofficial).\nAPI description: Retrieves the Track of the Day (TOTD) tracks for a given month and year from the Trackmania API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "month": {
+                "type": "number",
+                "description": "The month for which to retrieve TOTD tracks.",
+                "default": 6.0
+            },
+            "year": {
+                "type": "number",
+                "description": "The year for which to retrieve TOTD tracks.",
+                "default": 2022.0
+            }
+        },
+        "required": [
+            "month",
+            "year"
+        ]
+    }
+}

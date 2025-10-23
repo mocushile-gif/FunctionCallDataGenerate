@@ -1,0 +1,22 @@
+{
+    "name": "get_weekly_popular_books_by_genre",
+    "description": "This is a sub-function API for tool hapi_books.\nTool description: HAPI Books is an API about books. It gives information about thousands of books from all around the world. Search by name, by genre, get the best books by year, and more!\nAPI description: Retrieve the most popular books from the past week based on a specified genre.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "genre": {
+                "type": "string",
+                "description": "The genre of books to retrieve.",
+                "default": "horror"
+            },
+            "number_results": {
+                "type": "number",
+                "description": "The number of results to return. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "genre"
+        ]
+    }
+}

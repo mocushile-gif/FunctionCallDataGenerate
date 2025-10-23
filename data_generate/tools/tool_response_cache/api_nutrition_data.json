@@ -1,0 +1,85 @@
+{
+    "{'ingr': 'spinach and almond smoothie', 'nutrition_type': 'raw'}": {
+        "error": "",
+        "response": {
+            "food_items": [
+                {
+                    "food": "spinach",
+                    "quantity": null,
+                    "measure": null,
+                    "diet_labels": [
+                        "vegetarian",
+                        "vegan"
+                    ],
+                    "health_labels": [
+                        "high in iron",
+                        "low calorie",
+                        "gluten free"
+                    ],
+                    "allergen_labels": []
+                },
+                {
+                    "food": "almond",
+                    "quantity": null,
+                    "measure": null,
+                    "diet_labels": [
+                        "vegetarian",
+                        "vegan"
+                    ],
+                    "health_labels": [
+                        "healthy fats",
+                        "high in magnesium"
+                    ],
+                    "allergen_labels": [
+                        "tree nuts"
+                    ]
+                }
+            ],
+            "combined_nutrition": {
+                "calories": "approx 150-200 kcal (depending on serving size)",
+                "key_nutrients": [
+                    "Vitamin K",
+                    "Vitamin A",
+                    "Manganese"
+                ]
+            },
+            "context_note": "Analysis assumes raw ingredients as specified by 'nutrition_type: raw'"
+        }
+    },
+    "{'ingr': 'grilled chicken breast', 'nutrition_type': 'cooking'}": {
+        "error": "",
+        "response": "{'uri': 'http://www.edamam.com/ontologies/edamam.owl#recipe_917b0a9c42c34fd38f16cd44134caf24', 'calories': 0, 'totalWeight': 0.0, 'dietLabels': [], 'healthLabels': ['LOW_SUGAR', 'PALEO', 'SPECIFIC_CARBS', 'DAIRY_FREE', 'GLUTEN_FREE', 'WHEAT_FREE', 'EGG_FREE', 'MILK_FREE', 'PEANUT_FREE', 'TREE_NUT_FREE', 'SOY_FREE', 'FISH_FREE', 'SHELLFISH_FREE', 'PORK_FREE', 'RED_MEAT_FREE', 'CRUSTACEAN_FREE', 'CELERY_FREE', 'MUSTARD_FREE', 'SESAME_FREE', 'LUPINE_FREE', 'MOLLUSK_FREE', 'ALCOHOL_FREE', 'NO_OIL_ADDED', 'NO_SUGAR_ADDED', 'FODMAP_FREE', 'KOSHER'], 'cautions': [], 'totalNutrients': {}, 'totalDaily': {}}"
+    },
+    "{'ingr': '100g grilled chicken breast', 'nutrition_type': 'cooking'}": {
+        "error": "",
+        "response": "{'uri': 'http://www.edamam.com/ontologies/edamam.owl#recipe_e3c55e463fd8463b8d2b119f32b2ce78', 'calories': 165, 'totalWeight': 100.0, 'dietLabels': ['HIGH_PROTEIN', 'LOW_CARB', 'LOW_SODIUM'], 'healthLabels': ['LOW_FAT_ABS', 'SUGAR_CONSCIOUS', 'LOW_SUGAR', 'LOW_POTASSIUM', 'KIDNEY_FRIENDLY', 'KETO_FRIENDLY', 'PALEO', 'SPECIFIC_CARBS', 'DAIRY_FREE', 'GLUTEN_FREE', 'WHEAT_FREE', 'EGG_FREE', 'MILK_FREE', 'PEANUT_FREE', 'TREE_NUT_FREE', 'SOY_FREE', 'FISH_FREE', 'SHELLFISH_FREE', 'PORK_FREE', 'RED_MEAT_FREE', 'CRUSTACEAN_FREE', 'CELERY_FREE', 'MUSTARD_FREE', 'SESAME_FREE', 'LUPINE_FREE', 'MOLLUSK_FREE', 'ALCOHOL_FREE', 'NO_OIL_ADDED', 'NO_SUGAR_ADDED', 'FODMAP_FREE', 'KOSHER'], 'cautions': [], 'totalNutrients': {'ENERC_KCAL': {'label': 'Energy', 'quantity': 165.0, 'unit': 'kcal'}, 'FAT': {'label': 'Total lipid (fat)', 'quantity': 3.57, 'unit': 'g'}, 'FASAT': {'label': 'Fatty acids, total saturated', 'quantity': 1.01, 'unit': 'g'}, 'FAMS': {'label': 'Fatty acids, total monounsaturated', 'quantity': 1.24, 'unit': 'g'}, 'FAPU': {'label': 'Fatty acids, total polyunsaturated', 'quantity': 0.77, 'unit': 'g'}, 'CHOCDF': {'label': 'Carbohydrate, by difference', 'quantity': 0.0, 'unit': 'g'}, 'FIBTG': {'label': 'Fiber, total dietary', 'quantity': 0.0, 'unit': 'g'}, 'SUGAR': {'label': 'Sugars, total including NLEA', 'quantity': 0.0, 'unit': 'g'}, 'PROCNT': {'label': 'Protein', 'quantity': 31.0, 'unit': 'g'}, 'CHOLE': {'label': 'Cholesterol', 'quantity': 85.0, 'unit': 'mg'}, 'NA': {'label': '"
+    },
+    "{'ingr': '1 homemade pizza with tomato sauce, cheese, and pepperoni'}": {
+        "error": "",
+        "response": "{'uri': 'http://www.edamam.com/ontologies/edamam.owl#recipe_4eeb7ebb9ca549e2ae460ba479c9cce7', 'calories': 0, 'totalWeight': 0.0, 'dietLabels': ['LOW_SODIUM'], 'healthLabels': ['EGG_FREE', 'PEANUT_FREE', 'TREE_NUT_FREE', 'SOY_FREE', 'FISH_FREE', 'SHELLFISH_FREE', 'CRUSTACEAN_FREE', 'CELERY_FREE', 'MUSTARD_FREE', 'SESAME_FREE', 'LUPINE_FREE', 'MOLLUSK_FREE', 'ALCOHOL_FREE', 'NO_SUGAR_ADDED'], 'cautions': ['SULFITES'], 'totalNutrients': {}, 'totalDaily': {}}"
+    },
+    "{'ingr': '200g pizza dough, 100g tomato sauce, 150g mozzarella cheese, 100g pepperoni'}": {
+        "error": "",
+        "response": "{'uri': 'http://www.edamam.com/ontologies/edamam.owl#recipe_14b2f36160a0440281f3b59299e58826', 'calories': 1008, 'totalWeight': 200.0, 'dietLabels': ['LOW_CARB'], 'healthLabels': ['SUGAR_CONSCIOUS', 'LOW_SUGAR', 'LOW_POTASSIUM', 'KETO_FRIENDLY', 'EGG_FREE', 'PEANUT_FREE', 'TREE_NUT_FREE', 'SOY_FREE', 'FISH_FREE', 'SHELLFISH_FREE', 'CRUSTACEAN_FREE', 'CELERY_FREE', 'MUSTARD_FREE', 'SESAME_FREE', 'LUPINE_FREE', 'MOLLUSK_FREE', 'ALCOHOL_FREE'], 'cautions': ['SULFITES'], 'totalNutrients': {'ENERC_KCAL': {'label': 'Energy', 'quantity': 1008.0, 'unit': 'kcal'}, 'FAT': {'label': 'Total lipid (fat)', 'quantity': 92.6, 'unit': 'g'}, 'FASAT': {'label': 'Fatty acids, total saturated', 'quantity': 35.4, 'unit': 'g'}, 'FATRN': {'label': 'Fatty acids, total trans', 'quantity': 3.06, 'unit': 'g'}, 'FAMS': {'label': 'Fatty acids, total monounsaturated', 'quantity': 41.6, 'unit': 'g'}, 'FAPU': {'label': 'Fatty acids, total polyunsaturated', 'quantity': 8.92, 'unit': 'g'}, 'CHOCDF': {'label': 'Carbohydrate, by difference', 'quantity': 2.36, 'unit': 'g'}, 'CHOCDF.net': {'label': 'Carbohydrates (net)', 'quantity': 2.36, 'unit': 'g'}, 'FIBTG': {'label': 'Fiber, total dietary', 'quantity': 0.0, 'unit': 'g'}, 'SUGAR': {'label': 'Sugars, total including NLEA', 'quantity': 0.0, 'unit': 'g'}, 'PROCNT': {'label': 'Protein', 'quantity': 38.4, 'unit': 'g'}, 'CHOLE': {'label': 'Cholesterol', 'quantity': 194.0, 'unit': 'mg'}, 'NA': {'label': 'Sodium, Na', 'quantity': 3160.0, 'unit': 'mg'}, 'CA': {'label': "
+    },
+    "{'ingr': 'grilled salmon with a side of roasted vegetables and a quinoa salad'}": {
+        "error": "",
+        "response": "{'uri': 'http://www.edamam.com/ontologies/edamam.owl#recipe_f8d4cd7dd5f142f9a8046cdd0e84532e', 'calories': 0, 'totalWeight': 0.0, 'dietLabels': ['LOW_SODIUM'], 'healthLabels': ['LOW_SUGAR', 'PESCATARIAN', 'DAIRY_FREE', 'GLUTEN_FREE', 'WHEAT_FREE', 'EGG_FREE', 'MILK_FREE', 'PEANUT_FREE', 'TREE_NUT_FREE', 'SOY_FREE', 'FISH_FREE', 'SHELLFISH_FREE', 'PORK_FREE', 'RED_MEAT_FREE', 'CRUSTACEAN_FREE', 'CELERY_FREE', 'MUSTARD_FREE', 'SESAME_FREE', 'LUPINE_FREE', 'MOLLUSK_FREE', 'ALCOHOL_FREE', 'NO_OIL_ADDED', 'NO_SUGAR_ADDED', 'KOSHER'], 'cautions': ['SULFITES'], 'totalNutrients': {}, 'totalDaily': {}}"
+    },
+    "{'ingr': 'grilled chicken breast with quinoa and spinach'}": {
+        "error": "",
+        "response": "{'uri': 'http://www.edamam.com/ontologies/edamam.owl#recipe_f56fd0dc2f414c5da9ca4338b0acff1d', 'calories': 0, 'totalWeight': 0.0, 'dietLabels': ['LOW_SODIUM'], 'healthLabels': ['DAIRY_FREE', 'GLUTEN_FREE', 'WHEAT_FREE', 'EGG_FREE', 'MILK_FREE', 'PEANUT_FREE', 'TREE_NUT_FREE', 'SOY_FREE', 'FISH_FREE', 'SHELLFISH_FREE', 'PORK_FREE', 'RED_MEAT_FREE', 'CRUSTACEAN_FREE', 'CELERY_FREE', 'MUSTARD_FREE', 'SESAME_FREE', 'LUPINE_FREE', 'MOLLUSK_FREE', 'ALCOHOL_FREE', 'NO_OIL_ADDED', 'NO_SUGAR_ADDED', 'FODMAP_FREE', 'KOSHER'], 'cautions': [], 'totalNutrients': {}, 'totalDaily': {}}"
+    },
+    "{'ingr': 'grilled chicken breast'}": {
+        "error": "",
+        "response": "{'uri': 'http://www.edamam.com/ontologies/edamam.owl#recipe_c9c501898b394b9194c56a6c884bb582', 'calories': 0, 'totalWeight': 0.0, 'dietLabels': [], 'healthLabels': ['LOW_SUGAR', 'PALEO', 'SPECIFIC_CARBS', 'DAIRY_FREE', 'GLUTEN_FREE', 'WHEAT_FREE', 'EGG_FREE', 'MILK_FREE', 'PEANUT_FREE', 'TREE_NUT_FREE', 'SOY_FREE', 'FISH_FREE', 'SHELLFISH_FREE', 'PORK_FREE', 'RED_MEAT_FREE', 'CRUSTACEAN_FREE', 'CELERY_FREE', 'MUSTARD_FREE', 'SESAME_FREE', 'LUPINE_FREE', 'MOLLUSK_FREE', 'ALCOHOL_FREE', 'NO_OIL_ADDED', 'NO_SUGAR_ADDED', 'FODMAP_FREE', 'KOSHER'], 'cautions': [], 'totalNutrients': {}, 'totalDaily': {}}"
+    },
+    "{'ingr': 'steamed broccoli'}": {
+        "error": "",
+        "response": "{'uri': 'http://www.edamam.com/ontologies/edamam.owl#recipe_54895d209b5d48d18fec11bf95de8f36', 'calories': 0, 'totalWeight': 0.0, 'dietLabels': ['LOW_SODIUM'], 'healthLabels': ['VEGAN', 'VEGETARIAN', 'PESCATARIAN', 'PALEO', 'SPECIFIC_CARBS', 'DAIRY_FREE', 'GLUTEN_FREE', 'WHEAT_FREE', 'EGG_FREE', 'MILK_FREE', 'PEANUT_FREE', 'TREE_NUT_FREE', 'SOY_FREE', 'FISH_FREE', 'SHELLFISH_FREE', 'PORK_FREE', 'RED_MEAT_FREE', 'CRUSTACEAN_FREE', 'CELERY_FREE', 'MUSTARD_FREE', 'SESAME_FREE', 'LUPINE_FREE', 'MOLLUSK_FREE', 'ALCOHOL_FREE', 'NO_OIL_ADDED', 'NO_SUGAR_ADDED', 'FODMAP_FREE', 'KOSHER'], 'cautions': [], 'totalNutrients': {}, 'totalDaily': {}}"
+    },
+    "{'ingr': 'a cup of cooked rice'}": {
+        "error": "",
+        "response": "{'uri': 'http://www.edamam.com/ontologies/edamam.owl#recipe_891ec532872f4164b4f66a85005a91b7', 'calories': 205, 'totalWeight': 158.0, 'dietLabels': ['LOW_FAT', 'LOW_SODIUM'], 'healthLabels': ['FAT_FREE', 'LOW_FAT_ABS', 'SUGAR_CONSCIOUS', 'LOW_POTASSIUM', 'KIDNEY_FRIENDLY', 'VEGAN', 'VEGETARIAN', 'PESCATARIAN', 'DAIRY_FREE', 'GLUTEN_FREE', 'WHEAT_FREE', 'EGG_FREE', 'MILK_FREE', 'PEANUT_FREE', 'TREE_NUT_FREE', 'SOY_FREE', 'FISH_FREE', 'SHELLFISH_FREE', 'PORK_FREE', 'RED_MEAT_FREE', 'CRUSTACEAN_FREE', 'CELERY_FREE', 'MUSTARD_FREE', 'SESAME_FREE', 'LUPINE_FREE', 'MOLLUSK_FREE', 'ALCOHOL_FREE', 'NO_OIL_ADDED', 'NO_SUGAR_ADDED', 'FODMAP_FREE', 'KOSHER'], 'cautions': [], 'totalNutrients': {'ENERC_KCAL': {'label': 'Energy', 'quantity': 205.4, 'unit': 'kcal'}, 'FAT': {'label': 'Total lipid (fat)', 'quantity': 0.44240000000000007, 'unit': 'g'}, 'FASAT': {'label': 'Fatty acids, total saturated', 'quantity': 0.12166, 'unit': 'g'}, 'FAMS': {'label': 'Fatty acids, total monounsaturated', 'quantity': 0.13904, 'unit': 'g'}, 'FAPU': {'label': 'Fatty acids, total polyunsaturated', 'quantity': 0.12008, 'unit': 'g'}, 'CHOCDF': {'label': 'Carbohydrate, by difference', 'quantity': 44.556, 'unit': 'g'}, 'CHOCDF.net': {'label': 'Carbohydrates (net)', 'quantity': 43.924, 'unit': 'g'}, 'FIBTG': {'label': 'Fiber, total dietary', 'quantity': 0.6320000000000001, 'unit': 'g'}, 'SUGAR': {'label': 'Sugars, total including NLEA', 'quantity': 0.07900000000000001, 'unit': 'g'}, 'PROCNT': {'label': 'Protein', '"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "daily_sentiment",
+    "description": "This is a sub-function API for tool sentitrade.\nTool description: JSON web API that performs NLP sentiment analysis on news headlines for stocks and cryptocurrencies, grading daily collective news sentiment. DISCLAIMER: this prototype version currently only supports Bitcoin (BTC) and Ethereum (ETH). Consider donating to support full development at main site: https://www.sentitrade.net/\nAPI description: Returns asset ticker queried, sentiment score, date queried, and number of articles used to calculate the sentiment score.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The asset ticker symbol to query.",
+                "default": "BTC"
+            },
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve the sentiment score in 'YYYY-MM-DD' format.",
+                "default": "2023-01-01"
+            }
+        },
+        "required": [
+            "symbol",
+            "date"
+        ]
+    }
+}

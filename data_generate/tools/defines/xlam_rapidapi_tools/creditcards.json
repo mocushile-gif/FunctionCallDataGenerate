@@ -1,0 +1,23 @@
+{
+    "name": "creditcards",
+    "description": "This is a sub-function API for tool seeding_data.\nTool description: Completely APIs that helps web developers and web designers generate fake data in a fast and easy way.\nAPI description: Fetches a specified number of credit card details in a given locale using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "quantity": {
+                "type": "number",
+                "description": "The number of credit card details to retrieve.",
+                "default": 100
+            },
+            "locale": {
+                "type": "string",
+                "description": "The locale to use for generating credit card details (e.g., 'en_US').",
+                "default": "en_US"
+            }
+        },
+        "required": [
+            "quantity",
+            "locale"
+        ]
+    }
+}

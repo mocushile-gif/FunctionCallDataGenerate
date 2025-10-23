@@ -1,0 +1,33 @@
+{
+    "name": "stocks_get_financials",
+    "description": "This is a sub-function API for tool trading_view.\nTool description: This API helps you to query for data which is obtained by professional providers who have direct and extensive access to stock quotes, futures, popular indices, Forex, Bitcoin and CFDs to create a financial community site/application, such as : tradingview.com\nAPI description: Fetches financial information related to a stock ticker or symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock exchange and ticker symbol in the format \"exchange:symbol\" (e.g., \"NASDAQ:TSLA\").",
+                "default": "NASDAQ:TSLA"
+            },
+            "columns": {
+                "type": "string",
+                "description": "One of the following (Separated by comma for multiple options) : ADR,ADX,ADX-DI,ADX-DI|1,ADX-DI|120,ADX-DI|15,ADX-DI|1M,ADX-DI|1W,ADX-DI|240,ADX-DI|30,ADX-DI|5,ADX-DI|60,ADX+DI,ADX|1,ADX|120,ADX|15,ADX|1M,ADX|1W,ADX|240,ADX|30,ADX|5,ADX|60,after&#95;tax&#95;margin,AO,AO|1,AO|120,AO|15,AO|1M,AO|1W,AO|240,AO|30,AO|5,AO|60,Aroon.Down,Aroon.Up,ATR,average&#95;volume,average&#95;volume&#95;10d&#95;calc,average&#95;volume&#95;30d&#95;calc,average&#95;volume&#95;60d&#95;calc,average&#95;volume&#95;90d&#95;calc,bas",
+                "default": "name,average_volume,close,open,change"
+            },
+            "screenername": {
+                "type": "string",
+                "description": "The screener name field value as returned by the /countries/list endpoint. Defaults to 'america'.",
+                "default": "america"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the returned data. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "symbol",
+            "columns"
+        ]
+    }
+}

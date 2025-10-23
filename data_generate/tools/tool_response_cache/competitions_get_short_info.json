@@ -1,0 +1,26 @@
+{
+    "{'ids': 'BL1,PD'}": {
+        "error": "",
+        "response": {
+            "competitions": []
+        }
+    },
+    "{'ids': 'BL1'}": {
+        "error": "",
+        "response": {
+            "competitions": []
+        }
+    },
+    "{'ids': 'ES1,IT1', 'domain': 'de'}": {
+        "error": "",
+        "response": "{'competitions': [{'id': 'ES1', 'name': 'LaLiga', 'shortName': 'LaLiga', 'image': 'https://tmssl.akamaized.net//images/logo/normal/es1.png?lm=1725974302', 'leagueLevel': None, 'isTournament': None}, {'id': 'IT1', 'name': 'Serie A', 'shortName': 'Serie A', 'image': 'https://tmssl.akamaized.net//images/logo/normal/it1.png?lm=1656073460', 'leagueLevel': None, 'isTournament': None}]}"
+    },
+    "{'domain': 'com', 'ids': 'SA1'}": {
+        "error": "",
+        "response": "{'competitions': [{'id': 'SA1', 'name': 'Saudi Pro League', 'shortName': 'Saudi Pro League', 'image': 'https://tmssl.akamaized.net//images/logo/normal/sa1.png?lm=1692612717', 'leagueLevel': None, 'isTournament': None}]}"
+    },
+    "{'domain': 'world', 'ids': 'SA1'}": {
+        "error": "",
+        "response": "{'competitions': [{'id': 'SA1', 'name': '\u0421\u0430\u0443\u0434\u043e\u0432\u0441\u043a\u0430\u044f \u041f\u0440\u043e-\u041b\u0438\u0433\u0430', 'shortName': '\u0421\u0430\u0443\u0434\u043e\u0432\u0441\u043a\u0430\u044f \u041f\u0440\u043e-\u041b\u0438\u0433\u0430', 'image': 'https://tmssl.akamaized.net//images/logo/normal/sa1.png?lm=1692612717', 'leagueLevel': None, 'isTournament': None}]}"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "matrix_multiply",
+    "description": "Multiplies two matrices and returns the resulting matrix.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "matrix_a": {
+                "type": "array",
+                "items": {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    },
+                    "description": "A row in the first matrix."
+                },
+                "description": "The first matrix to be multiplied."
+            },
+            "matrix_b": {
+                "type": "array",
+                "items": {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    },
+                    "description": "A row in the second matrix."
+                },
+                "description": "The second matrix to be multiplied."
+            }
+        },
+        "required": [
+            "matrix_a",
+            "matrix_b"
+        ]
+    }
+}

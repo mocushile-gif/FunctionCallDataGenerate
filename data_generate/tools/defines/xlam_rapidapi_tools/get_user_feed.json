@@ -1,0 +1,22 @@
+{
+    "name": "get_user_feed",
+    "description": "This is a sub-function API for tool instagram_v7.\nTool description: Get information from Instagram reliably\nAPI description: Fetch the feed of an Instagram user using the provided user ID via the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The user ID of the Instagram account to fetch the feed for.",
+                "default": 25025320.0
+            },
+            "max_id": {
+                "type": "string",
+                "description": "The maximum ID for pagination in the feed. Defaults to '2796754904080592191_25025320'.",
+                "default": "2796754904080592191_25025320"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

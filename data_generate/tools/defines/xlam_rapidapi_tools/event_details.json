@@ -1,0 +1,17 @@
+{
+    "name": "event_details",
+    "description": "This is a sub-function API for tool pinnacle_odds.\nTool description: Pinnacle Sport API is a RESTful service for getting pre-match and live odds. Historical odds, score and results. Updates without delay. Sports: Soccer, tennis, basketball, hockey, american football, MMA, baseball. **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters **Other sports api:** https://rapi.one\nAPI description: Get a event details and history odds. history:[time, value, max bet]. `Period_results - status`: 1 = Event period is settled, 2 = Event period is re-settled, 3 = Event period is cancelled, 4 = Event period is re-settled as cancelled, 5 = Event is deleted",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "event_id": {
+                "type": "number",
+                "description": "The unique identifier for the event.",
+                "default": 1419211461
+            }
+        },
+        "required": [
+            "event_id"
+        ]
+    }
+}

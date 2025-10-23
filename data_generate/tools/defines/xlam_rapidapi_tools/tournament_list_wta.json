@@ -1,0 +1,17 @@
+{
+    "name": "tournament_list_wta",
+    "description": "This is a sub-function API for tool ultimate_tennis.\nTool description:  Welcome to the Ultimate Tennis API!  It provides all the information you need about the tennis world, including all the details related to players and tournaments(live scores, matches, statistics), from both the ATP and tha WTA circuits, both singles and doubles . We also provide live bettings odds for every match in every tennis category. You can easily build your tennis related portal or enhance your Ml/AI projects.   \nAPI description: Via this endpoint, you can retrieve the list of all tournaments to be played in a selected year (from *1960* to *2022*).  We return some basic info about every row such as tournament venue, surface, prizemoney, etc. Results by Id and Year** endpoint",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year for which to retrieve tournament data. Must be between 1960 and 2022.",
+                "default": "2022"
+            }
+        },
+        "required": [
+            "year"
+        ]
+    }
+}

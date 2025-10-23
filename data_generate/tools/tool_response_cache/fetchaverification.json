@@ -1,0 +1,54 @@
+{
+    "{\n  \"verification_a_id\": \"12345\",\n  \"customer_a_id\": \"12345\"\n}": {
+        "error": "",
+        "response": "{\"id\":\"a038ab27-523a-4608-9ba5-9ece039259c9\",\"type\":\"resource_not_found\",\"message\":\"Cannot find a resource /customers/12345/verifications/12345\"}"
+    },
+    "{\n  \"verification_a_id\": \"A\",\n  \"customer_a_id\": \"12345\"\n}": {
+        "error": "",
+        "response": "{\"id\":\"065dc286-8312-460a-bfa4-bb1a584767d6\",\"type\":\"resource_not_found\",\"message\":\"Cannot find a resource /customers/12345/verifications/A\"}"
+    },
+    "{'verification_a_id': '9876', 'customer_a_id': '1234'}": {
+        "error": "",
+        "response": {
+            "id": "ea242bb1-cb9a-4e20-b4a8-4b78790b187b",
+            "type": "resource_not_found",
+            "message": "Cannot find a resource /customers/1234/verifications/9876"
+        }
+    },
+    "{'customer_a_id': '1234', 'verification_a_id': '5678'}": {
+        "error": "",
+        "response": {
+            "id": "54535c17-309e-489f-86db-5b89d6e9b371",
+            "type": "resource_not_found",
+            "message": "Cannot find a resource /customers/1234/verifications/5678"
+        }
+    },
+    "{'verification_a_id': '123', 'customer_a_id': '456'}": {
+        "error": "",
+        "response": {
+            "id": "3a81ed71-4224-4230-a16d-3c599adeef4a",
+            "type": "resource_not_found",
+            "message": "Cannot find a resource /customers/456/verifications/123"
+        }
+    },
+    "{'authorization': 'Bearer {{accessTokenUser}}', 'content_type': 'application/json', 'customer_a_id': 'customer123', 'verification_a_id': 'verify123'}": {
+        "error": "",
+        "response": "{'id': '38c8bfb5-9c8d-4bc6-ab0b-5b08e507e1ca', 'type': 'resource_not_found', 'message': 'Cannot find a resource /customers/customer123/verifications/verify123'}"
+    },
+    "{'authorization': 'Bearer {{accessTokenUser}}', 'content_type': 'application/json', 'customer_a_id': 'customer456', 'verification_a_id': 'verify456'}": {
+        "error": "",
+        "response": "{'id': '3543ca0f-8421-41d3-8126-14afbdd79274', 'type': 'resource_not_found', 'message': 'Cannot find a resource /customers/customer456/verifications/verify456'}"
+    },
+    "{'authorization': 'Bearer {{accessTokenUser}}', 'content_type': 'application/json', 'verification_a_id': 'KYC-2025-XL-9876', 'customer_a_id': 'CUST-1002-XYZ'}": {
+        "error": "",
+        "response": "{'id': '65959a39-3cf0-4915-b080-b2eb3452b2ca', 'type': 'resource_not_found', 'message': 'Cannot find a resource /customers/CUST-1002-XYZ/verifications/KYC-2025-XL-9876'}"
+    },
+    "{'authorization': 'Bearer {{accessTokenUser}}', 'content_type': 'application/json', 'verification_a_id': 'VER-20231015-XYZ789', 'customer_a_id': 'CUS-20231015-ABC123'}": {
+        "error": "",
+        "response": "{'id': 'fe39b16d-27f3-4b5a-a369-77103853bca8', 'type': 'resource_not_found', 'message': 'Cannot find a resource /customers/CUS-20231015-ABC123/verifications/VER-20231015-XYZ789'}"
+    },
+    "{'authorization': 'Bearer {{accessTokenUser}}', 'content_type': 'application/json', 'verification_a_id': 'VER-20231015-XY789Z', 'customer_a_id': 'CUS-20231015-AB123C'}": {
+        "error": "",
+        "response": "{'id': '186ed3d5-bfa8-4373-8058-c0d41ae1c034', 'type': 'resource_not_found', 'message': 'Cannot find a resource /customers/CUS-20231015-AB123C/verifications/VER-20231015-XY789Z'}"
+    }
+}

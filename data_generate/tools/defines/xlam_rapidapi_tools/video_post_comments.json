@@ -1,0 +1,32 @@
+{
+    "name": "video_post_comments",
+    "description": "This is a sub-function API for tool tiktok_data.\nTool description: Social Media Data API in Real-Time.   -Get very useful and unique information.  -I'm on Telegram https://t.me/logicBuilder News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Fetches comments for a specified video post from the TikTok API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "video_id": {
+                "type": "string",
+                "description": "Where to get vide id value?\n\nFor example in this video /@INFLUENCER/video/6818009093052189958 the id will be **6818009093052189958**",
+                "default": "7137423965982592302"
+            },
+            "fresh": {
+                "type": "number",
+                "description": "By setting this query value to **1** you can force the API to return fresh data(not cached)",
+                "default": 0.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "Number of records to return:\n\n- Default is 50\n- Maximum is 150\n",
+                "default": 50.0
+            },
+            "max_cursor": {
+                "type": "number",
+                "description": "Pagination cursor for navigating through pages of comments. Defaults to 0.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "video_id"
+        ]
+    }
+}

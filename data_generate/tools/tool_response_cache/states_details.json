@@ -1,0 +1,74 @@
+{
+    "{'is_id': '4008'}": {
+        "error": "",
+        "response": {
+            "id": 4008,
+            "name": "Maharashtra",
+            "country_id": 101,
+            "country_code": "IN",
+            "country_name": "India",
+            "state_code": "MH",
+            "type": "state",
+            "latitude": "19.75147980",
+            "longitude": "75.71388840"
+        }
+    },
+    "{'is_id': '4022'}": {
+        "error": "",
+        "response": "{'id': 4022, 'name': 'Uttar Pradesh', 'country_id': 101, 'country_code': 'IN', 'country_name': 'India', 'state_code': 'UP', 'type': 'state', 'latitude': '26.84670880', 'longitude': '80.94615920'}"
+    },
+    "{'is_id': '1416'}": {
+        "error": "",
+        "response": {
+            "id": 1416,
+            "name": "California",
+            "country_id": 233,
+            "country_code": "US",
+            "country_name": "United States",
+            "state_code": "CA",
+            "type": "state",
+            "latitude": "36.77826100",
+            "longitude": "-119.41793240"
+        }
+    },
+    "{'is_id': 'CA'}": {
+        "error": "",
+        "response": {
+            "message": "State not found"
+        }
+    },
+    "{'is_id': 'California'}": {
+        "error": "",
+        "response": {
+            "id": 1416,
+            "name": "California",
+            "country_id": 233,
+            "country_code": "US",
+            "country_name": "United States",
+            "state_code": "CA",
+            "type": "state",
+            "latitude": "36.77826100",
+            "longitude": "-119.41793240"
+        }
+    },
+    "{'is_id': '5033'}": {
+        "error": "",
+        "response": "{'id': 5033, 'name': 'Hautes-Pyr\u00e9n\u00e9es', 'country_id': 75, 'country_code': 'FR', 'country_name': 'France', 'state_code': '65', 'type': 'metropolitan department', 'latitude': '43.14294620', 'longitude': '-0.40097360'}"
+    },
+    "{'is_id': '6'}": {
+        "error": "",
+        "response": "{'id': 6, 'name': 'Afar Region', 'country_id': 70, 'country_code': 'ET', 'country_name': 'Ethiopia', 'state_code': 'AF', 'type': None, 'latitude': '11.75593880', 'longitude': '40.95868800'}"
+    },
+    "{'is_id': '5'}": {
+        "error": "",
+        "response": "{'id': 5, 'name': 'Oromia Region', 'country_id': 70, 'country_code': 'ET', 'country_name': 'Ethiopia', 'state_code': 'OR', 'type': None, 'latitude': '7.54603770', 'longitude': '40.63468510'}"
+    },
+    "{'is_id': '4023'}": {
+        "error": "",
+        "response": "{'id': 4023, 'name': 'Andaman and Nicobar Islands', 'country_id': 101, 'country_code': 'IN', 'country_name': 'India', 'state_code': 'AN', 'type': 'Union territory', 'latitude': '11.74008670', 'longitude': '92.65864010'}"
+    },
+    "{'is_id': '4024'}": {
+        "error": "",
+        "response": "{'id': 4024, 'name': 'Arunachal Pradesh', 'country_id': 101, 'country_code': 'IN', 'country_name': 'India', 'state_code': 'AR', 'type': 'state', 'latitude': '28.21799940', 'longitude': '94.72775280'}"
+    }
+}

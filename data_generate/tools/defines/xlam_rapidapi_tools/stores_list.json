@@ -1,0 +1,28 @@
+{
+    "name": "stores_list",
+    "description": "This is a sub-function API for tool kohls.\nTool description: Get online shopping deals, discounts and rewards from fashion to beauty, home furniture, clothing, shoes, electronics and more...\nAPI description: Returns a list of stores near the provided geographic location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "longitude": {
+                "type": "number",
+                "description": "The longitude of the geographic location.",
+                "default": -118.2487
+            },
+            "latitude": {
+                "type": "number",
+                "description": "The latitude of the geographic location.",
+                "default": 33.9733
+            },
+            "radius": {
+                "type": "number",
+                "description": "The radius in miles to search for stores around the geographic location. Defaults to 25.",
+                "default": 25.0
+            }
+        },
+        "required": [
+            "longitude",
+            "latitude"
+        ]
+    }
+}

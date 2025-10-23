@@ -1,0 +1,17 @@
+{
+    "name": "feeds_auto_complete",
+    "description": "This is a sub-function API for tool yummly.\nTool description: API to query data about recipe, plan, ingredients, etc... as on official site\nAPI description: Fetches auto-complete suggestions for food names or ingredients from the Yummly API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The food name or ingredient to get auto-complete suggestions for.",
+                "default": "chicken soup"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

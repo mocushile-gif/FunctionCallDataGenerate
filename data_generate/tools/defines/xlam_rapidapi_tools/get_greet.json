@@ -1,0 +1,23 @@
+{
+    "name": "get_greet",
+    "description": "This is a sub-function API for tool greet_generator.\nTool description: Greet Generator\nAPI description: Generates a greeting message based on the provided name and cringe level, using the RapidAPI greet generator.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name to be included in the greeting.",
+                "default": "Amir"
+            },
+            "cringelevel": {
+                "type": "string",
+                "description": "The level of cringiness for the greeting.",
+                "default": "5"
+            }
+        },
+        "required": [
+            "name",
+            "cringelevel"
+        ]
+    }
+}

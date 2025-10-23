@@ -1,0 +1,17 @@
+{
+    "name": "activities",
+    "description": "This is a sub-function API for tool fitness_calculator.\nTool description: Find \"body fat percentage\",  \"ideal weight\", \"BMI\", \"daily calory requirement\" and some macro nutrients with this api.\nAPI description: Fetches MET (Metabolic Equivalent of Task) values for various activities based on the given intensity level.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "intensitylevel": {
+                "type": "number",
+                "description": "Level of intensity for the activity.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "intensitylevel"
+        ]
+    }
+}

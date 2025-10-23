@@ -1,0 +1,17 @@
+{
+    "name": "get_weather_updates",
+    "description": "This is a sub-function API for tool weather_api_by_any_city.\nTool description: The API provides current weather information for a specific city worldwide. It allows users to retrieve up-to-date information on weather conditions, such as temperature, humidity, wind speed, and precipitation, for a specified location. \nAPI description: Fetches weather updates for a given city using the RapidAPI Weather API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "city": {
+                "type": "string",
+                "description": "The name of the city for which to retrieve weather information.",
+                "default": "London"
+            }
+        },
+        "required": [
+            "city"
+        ]
+    }
+}

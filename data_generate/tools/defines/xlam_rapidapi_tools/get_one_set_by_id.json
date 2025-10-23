@@ -1,0 +1,17 @@
+{
+    "name": "get_one_set_by_id",
+    "description": "This is a sub-function API for tool pokemon_tcg_card_prices.\nTool description: Provides a model of the Pokemon Trading Card Game cards.\nEach individual card has a price that is based on recent sales of the card or currently open listings.\nAPI description: Returns information about a single Pokémon TCG set by retrieving data using the set ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "setid": {
+                "type": "string",
+                "description": "The ID of the Pokémon TCG set for which information is to be retrieved.",
+                "default": "33ee55f4-30d0-4900-850f-36a351fb9719"
+            }
+        },
+        "required": [
+            "setid"
+        ]
+    }
+}

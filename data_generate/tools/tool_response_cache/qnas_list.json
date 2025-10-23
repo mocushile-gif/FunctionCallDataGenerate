@@ -1,0 +1,108 @@
+{
+    "{'productid': '1234567890', 'limit': 5, 'sort': 'LastApprovedAnswerSubmissionTime:desc'}": {
+        "error": "",
+        "response": {
+            "payload": {
+                "Locale": "en_US",
+                "Includes": {},
+                "Errors": [],
+                "Results": [],
+                "TotalResults": 0,
+                "Limit": 5,
+                "HasErrors": false,
+                "Offset": 0
+            }
+        }
+    },
+    "{'productid': '165915203'}": {
+        "error": "",
+        "response": {
+            "payload": {
+                "Locale": "en_US",
+                "Includes": {},
+                "Errors": [],
+                "Results": [],
+                "TotalResults": 0,
+                "Limit": 6,
+                "HasErrors": false,
+                "Offset": 0
+            }
+        }
+    },
+    "{'productid': '165915203', 'limit': 5}": {
+        "error": "",
+        "response": {
+            "payload": {
+                "Locale": "en_US",
+                "Includes": {},
+                "Errors": [],
+                "Results": [],
+                "TotalResults": 0,
+                "Limit": 5,
+                "HasErrors": false,
+                "Offset": 0
+            }
+        }
+    },
+    "{'productid': '2990009'}": {
+        "error": "",
+        "response": {
+            "payload": {
+                "Locale": "en_US",
+                "Includes": {},
+                "Errors": [],
+                "Results": [],
+                "TotalResults": 0,
+                "Limit": 6,
+                "HasErrors": false,
+                "Offset": 0
+            }
+        }
+    },
+    "{'productid': '194574942221'}": {
+        "error": "",
+        "response": {
+            "payload": {
+                "Locale": "en_US",
+                "Includes": {},
+                "Errors": [],
+                "Results": [],
+                "TotalResults": 0,
+                "Limit": 6,
+                "HasErrors": false,
+                "Offset": 0
+            }
+        }
+    },
+    "{'productid': '194574942221', 'sort': 'LastApprovedAnswerSubmissionTime:desc', 'limit': 5}": {
+        "error": "",
+        "response": {
+            "payload": {
+                "Locale": "en_US",
+                "Includes": {},
+                "Errors": [],
+                "Results": [],
+                "TotalResults": 0,
+                "Limit": 5,
+                "HasErrors": false,
+                "Offset": 0
+            }
+        }
+    },
+    "{'productid': '4201989', 'sort': 'SubmissionTime:desc', 'offset': 0, 'limit': 6}": {
+        "error": "",
+        "response": "{'payload': {'Includes': {'Answers': {'5129831': {'UserNickname': 'CommunityAnswer', 'ContextDataValues': {}, 'UserEmailAddress': None, 'Videos': [], 'Photos': [], 'TotalNegativeFeedbackCount': 0, 'CampaignId': 'BV_QA_PORTAL_ANSWER_MANAGEMENT', 'UserLocation': None, 'IsBrandAnswer': False, 'ContextDataValuesOrder': [], 'TotalPositiveFeedbackCount': 1, 'LastModificationTime': '2020-04-28T02:46:36.000+00:00', 'ProductRecommendationIds': [], 'BadgesOrder': [], 'AuthorId': 'CommunityAnswer', 'SubmissionTime': '2020-04-24T03:37:34.000+00:00', 'AdditionalFields': {}, 'TotalFeedbackCount': 1, 'AdditionalFieldsOrder': [], 'AnswerText': 'It is navy blue and gray.', 'ModerationStatus': 'APPROVED', 'IsFeatured': False, 'QuestionId': '4381788', 'Badges': {}, 'SubmissionId': '2yehmazqpdon5qg29zxz6629e', 'IsSyndicated': False, 'LastModeratedTime': '2020-04-24T06:15:06.000+00:00', 'Id': '5129831', 'ContentLocale': 'en_US'}, '5155204': {'UserNickname': 'JLA Home', 'ContextDataValues': {}, 'UserEmailAddress': None, 'Videos': [], 'Photos': [], 'TotalNegativeFeedbackCount': 0, 'CampaignId': 'BV_QA_BRAND_ANSWERS', 'UserLocation': None, 'IsBrandAnswer': True, 'ContextDataValuesOrder': [], 'TotalPositiveFeedbackCount': 1, 'LastModificationTime': '2021-05-30T21:44:11.000+00:00', 'ProductRecommendationIds': [], 'BadgesOrder': [], 'AuthorId': 'BRAND_ANSWERS_JLAHomeInc', 'SubmissionTime': '2020-05-10T04:09:01.000+00:00', 'AdditionalFields': {}, 'TotalFeedbackCount': 1, 'AdditionalFieldsOrder': [], 'AnswerText': 'It is Navy,White and grey.', 'ModerationStatus': 'APPROVED', 'IsFeatured': False, 'QuestionId': '4421640', 'Badges': {}, 'SubmissionId': 'r19025_15890837C9OOKqA5SU', 'IsSyndicated': False, 'LastModeratedTime': '2020-05-10T04:30:07.000+00:00', 'Id': '5155204', 'ContentLocale': 'en_US'}, '5122489': {'UserNickname': 'JLA Home', 'ContextDataValues': {}, 'UserEmailAddress': None, 'Videos': [], 'Photos': [], 'TotalNegativeFeedbackCount': 0, 'CampaignId': 'BV_QA_BRAND_ANSWERS', 'UserLocation': None, 'IsBrandAnswer': True, 'ContextDataVal"
+    },
+    "{'productid': '4201989', 'limit': 3, 'sort': 'SubmissionTime:desc'}": {
+        "error": "",
+        "response": "{'payload': {'Includes': {'Answers': {'5155204': {'UserNickname': 'JLA Home', 'ContextDataValues': {}, 'UserEmailAddress': None, 'Videos': [], 'Photos': [], 'TotalNegativeFeedbackCount': 0, 'CampaignId': 'BV_QA_BRAND_ANSWERS', 'UserLocation': None, 'IsBrandAnswer': True, 'ContextDataValuesOrder': [], 'TotalPositiveFeedbackCount': 1, 'LastModificationTime': '2025-04-16T00:37:30.000+00:00', 'ProductRecommendationIds': [], 'BadgesOrder': [], 'AuthorId': 'BRAND_ANSWERS_JLAHomeInc', 'SubmissionTime': '2020-05-10T04:09:01.000+00:00', 'AdditionalFields': {}, 'TotalFeedbackCount': 1, 'AdditionalFieldsOrder': [], 'AnswerText': 'It is Navy,White and grey.', 'ModerationStatus': 'APPROVED', 'IsFeatured': False, 'QuestionId': '4421640', 'Badges': {}, 'SubmissionId': 'r19025_15890837C9OOKqA5SU', 'IsSyndicated': False, 'LastModeratedTime': '2020-05-10T04:30:07.000+00:00', 'Id': '5155204', 'ContentLocale': 'en_US'}, '5133264': {'UserNickname': 'JLA Home', 'ContextDataValues': {}, 'UserEmailAddress': None, 'Videos': [], 'Photos': [], 'TotalNegativeFeedbackCount': 1, 'CampaignId': 'BV_QA_BRAND_ANSWERS', 'UserLocation': None, 'IsBrandAnswer': True, 'ContextDataValuesOrder': [], 'TotalPositiveFeedbackCount': 0, 'LastModificationTime': '2025-04-16T00:24:27.000+00:00', 'ProductRecommendationIds': [], 'BadgesOrder': [], 'AuthorId': 'BRAND_ANSWERS_JLAHomeInc', 'SubmissionTime': '2020-04-27T04:42:30.000+00:00', 'AdditionalFields': {}, 'TotalFeedbackCount': 1, 'AdditionalFieldsOrder': [], 'AnswerText'"
+    },
+    "{'productid': '4201989', 'sort': 'LastApprovedAnswerSubmissionTime:desc'}": {
+        "error": "",
+        "response": "{'payload': {'Includes': {'Answers': {'5129831': {'UserNickname': 'CommunityAnswer', 'ContextDataValues': {}, 'UserEmailAddress': None, 'Videos': [], 'Photos': [], 'TotalNegativeFeedbackCount': 0, 'CampaignId': 'BV_QA_PORTAL_ANSWER_MANAGEMENT', 'UserLocation': None, 'IsBrandAnswer': False, 'ContextDataValuesOrder': [], 'TotalPositiveFeedbackCount': 1, 'LastModificationTime': '2025-04-16T00:24:14.000+00:00', 'ProductRecommendationIds': [], 'BadgesOrder': [], 'AuthorId': 'CommunityAnswer', 'SubmissionTime': '2020-04-24T03:37:34.000+00:00', 'AdditionalFields': {}, 'TotalFeedbackCount': 1, 'AdditionalFieldsOrder': [], 'AnswerText': 'It is navy blue and gray.', 'ModerationStatus': 'APPROVED', 'IsFeatured': False, 'QuestionId': '4381788', 'Badges': {}, 'SubmissionId': '2yehmazqpdon5qg29zxz6629e', 'IsSyndicated': False, 'LastModeratedTime': '2020-04-24T06:15:06.000+00:00', 'Id': '5129831', 'ContentLocale': 'en_US'}, '5155204': {'UserNickname': 'JLA Home', 'ContextDataValues': {}, 'UserEmailAddress': None, 'Videos': [], 'Photos': [], 'TotalNegativeFeedbackCount': 0, 'CampaignId': 'BV_QA_BRAND_ANSWERS', 'UserLocation': None, 'IsBrandAnswer': True, 'ContextDataValuesOrder': [], 'TotalPositiveFeedbackCount': 1, 'LastModificationTime': '2025-04-16T00:37:30.000+00:00', 'ProductRecommendationIds': [], 'BadgesOrder': [], 'AuthorId': 'BRAND_ANSWERS_JLAHomeInc', 'SubmissionTime': '2020-05-10T04:09:01.000+00:00', 'AdditionalFields': {}, 'TotalFeedbackCount': 1, 'AdditionalFieldsOrder': [], 'An"
+    },
+    "{'productid': 'ORG-HC-2023-Q3', 'sort': 'SubmissionTime:desc', 'offset': 0, 'limit': 6}": {
+        "error": "",
+        "response": "{'payload': {'Locale': 'en_US', 'Includes': {}, 'Errors': [], 'Results': [], 'TotalResults': 0, 'Limit': 6, 'HasErrors': False, 'Offset': 0}}"
+    }
+}

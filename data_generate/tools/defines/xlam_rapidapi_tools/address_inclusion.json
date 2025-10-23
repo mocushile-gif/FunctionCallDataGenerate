@@ -1,0 +1,28 @@
+{
+    "name": "address_inclusion",
+    "description": "This is a sub-function API for tool navitime_geocoding.\nTool description: Return address informations including longitude/latitude and a postal code, by specifying keywords or a postal code. \nWe also provide Reverse geocoding function, which converts from longitude/latitude into address informations.\nAPI description: Determines whether the given geographical coordinates (latitude and longitude) fall within the range specified by an address code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "string",
+                "description": "Address code(s). Multiple codes can be specified, separated by a period.",
+                "default": "13"
+            },
+            "coord": {
+                "type": "string",
+                "description": "Geographical coordinates in latitude and longitude format.",
+                "default": "35.664159,139.718117"
+            },
+            "datum": {
+                "type": "string",
+                "description": "Geodetic system of the provided geographical coordinates. Defaults to 'wgs84'. Accepted values are 'wgs84' (World Geodetic System) and 'tokyo' (Old Japan Geodetic System).",
+                "default": "wgs84"
+            }
+        },
+        "required": [
+            "code",
+            "coord"
+        ]
+    }
+}

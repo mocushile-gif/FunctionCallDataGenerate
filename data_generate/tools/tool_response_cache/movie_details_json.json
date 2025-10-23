@@ -1,0 +1,45 @@
+{
+    "{'movie_id': 2305, 'with_cast': True, 'with_images': True}": {
+        "error": "",
+        "response": {
+            "movie_id": 2305,
+            "title": "Inception",
+            "year": 2010,
+            "rating": 8.8,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+            ],
+            "description": "A skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, is given a chance at redemption.",
+            "runtime": 148,
+            "language": "English",
+            "cast": [
+                {
+                    "name": "Leonardo DiCaprio",
+                    "character": "Dom Cobb"
+                },
+                {
+                    "name": "Joseph Gordon-Levitt",
+                    "character": "Arthur"
+                },
+                {
+                    "name": "Elliot Page",
+                    "character": "Ariadne"
+                }
+            ],
+            "images": {
+                "poster": "https://example.com/inception-poster.jpg",
+                "background": "https://example.com/inception-background.jpg"
+            }
+        }
+    },
+    "{'movie_id': 12345, 'with_cast': True}": {
+        "error": "",
+        "response": "{'status': 'ok', 'status_message': 'Query was successful', 'data': {'movie': {'id': 12345, 'url': 'https://yts.mx/movies/cheaper-by-the-dozen-2003', 'imdb_code': 'tt0349205', 'title': 'Cheaper by the Dozen', 'title_english': 'Cheaper by the Dozen', 'title_long': 'Cheaper by the Dozen (2003)', 'slug': 'cheaper-by-the-dozen-2003', 'year': 2003, 'rating': 5.9, 'runtime': 98, 'genres': ['Action', 'Comedy', 'Family'], 'download_count': 47268, 'like_count': 35, 'description_intro': \"Juggling career and family can be a lot. Tom and Kate Baker, the proud parents of 12 children, have chosen family over career aspirations. However, their lives suddenly change when small-town coach Tom is offered his dream job, and Kate's book has been accepted for publication. Now, with her promoting it, it is up to Tom to look after the children, take care of the house, and handle a new job. Can he bring order out of chaos?\u2014Nick Riganas\", 'description_full': \"Juggling career and family can be a lot. Tom and Kate Baker, the proud parents of 12 children, have chosen family over career aspirations. However, their lives suddenly change when small-town coach Tom is offered his dream job, and Kate's book has been accepted for publication. Now, with her promoting it, it is up to Tom to look after the children, take care of the house, and handle a new job. Can he bring order out of chaos?\u2014Nick Riganas\", 'yt_trailer_code': 'csiX-mSqkGc', 'language': 'en', 'mpa_rating': 'PG', 'background_image': 'https://yts.mx/assets/images/movies/cheaper_by_the_dozen_2003/background.jpg', 'background_image_original': 'https://yts.mx/assets/images/movies/cheaper_by_the_dozen_2003/background.jpg', 'small_cover_image': 'https://yts.mx/assets/images/movies/cheaper_by_the_dozen_2003/small-cover.jpg', 'medium_cover_image': 'https://yts.mx/assets/images/movies/cheaper_by_the_dozen_2003/medium-cover.jpg', 'large_cover_image': 'https://yts.mx/assets/images/movies/cheaper_by_the_dozen_2003/large-cover.jpg', 'torrents': [{'url': 'https://yts.mx/torrent/download/0CCAC39D81C1"
+    },
+    "{'movie_id': 67890, 'with_cast': True, 'with_images': True}": {
+        "error": "",
+        "response": "{'status': 'ok', 'status_message': 'Query was successful', 'data': {'movie': {'id': 0, 'url': 'https://yts.mx/movies/', 'imdb_code': 'tt', 'title': None, 'title_english': None, 'title_long': ' ()', 'slug': None, 'year': 0, 'rating': 0, 'runtime': 0, 'genres': ['Action', 'Adventure', 'Animation', 'Biography', 'Comedy', 'Crime', 'Documentary', 'Drama', 'Family', 'Fantasy', 'History', 'Horror', 'Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Sport', 'Thriller', 'War', 'Western'], 'download_count': 0, 'like_count': 0, 'description_intro': None, 'description_full': None, 'yt_trailer_code': None, 'language': None, 'mpa_rating': None}}, '@meta': {'server_time': 1689710615, 'server_timezone': 'CET', 'api_version': 2, 'execution_time': '0 ms'}}"
+    }
+}

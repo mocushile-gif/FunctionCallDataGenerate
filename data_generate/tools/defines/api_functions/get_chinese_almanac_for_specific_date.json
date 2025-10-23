@@ -1,0 +1,19 @@
+{
+    "name": "get_chinese_almanac_for_specific_date",
+    "description": "Fetches the Chinese Almanac information for a specific date. It provides general or detailed almanac data, such as lucky directions, zodiac signs, and auspicious activities.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string",
+          "description": "The target date in the format 'yyyy-MM-dd'."
+        },
+        "detail": {
+          "type": "boolean",
+          "description": "Whether to return detailed almanac information. Default is false.",
+          "default": true
+        }
+      },
+      "required": ["date"]
+    }
+}

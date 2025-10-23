@@ -1,0 +1,17 @@
+{
+    "name": "kanji_stroke_number",
+    "description": "This is a sub-function API for tool learn_to_read_and_write_japanese_kanji.\nTool description: Free API to the Kanji alive web application with CC-BY licensed language data on Japanese kanji, radicals and associated media files.\nAPI description: The Advanced Search URL parameters are described here as individual endpoints to permit per parameter testing. Parameters may be combined as required.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ks": {
+                "type": "number",
+                "description": "Number of strokes for the Kanji character. Must be a positive integer.",
+                "default": 16.0
+            }
+        },
+        "required": [
+            "ks"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "search_devices",
+    "description": "This is a sub-function API for tool mobile_phones.\nTool description: An API that provides information about all mobile brands and their devices would be a comprehensive source of data for developers seeking to build applications or services related to mobile devices. Such an API could include details on all the mobile brands currently on the market, as well as information about each brand's individual devices, such as model names, technical specifications, and images. The \nAPI might also provide additional metadata, such as operating system versions and releas...\nAPI description: Searches for devices using the given query string on the RapidAPI's mobile phones database and returns the results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query string to find matching devices.",
+                "default": "iphone 14"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

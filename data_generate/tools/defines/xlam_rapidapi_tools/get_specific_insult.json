@@ -1,0 +1,16 @@
+{
+    "name": "get_specific_insult",
+    "description": "This is a sub-function API for tool the_dozen_the_yo_mamsa_roast_api.\nTool description: Rest API that serves random, catagorized and filteres lighthearted familial insults/jokes\nAPI description: Fetches a specific insult using the provided insult ID and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The UUID for the specific insult to be retrieved."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

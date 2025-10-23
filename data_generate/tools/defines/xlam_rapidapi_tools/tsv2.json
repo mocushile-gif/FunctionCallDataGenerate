@@ -1,0 +1,38 @@
+{
+    "name": "tsv2",
+    "description": "This is a sub-function API for tool odam.\nTool description: ODAM\nAPI description: Fetches values from a specified data subset within a dataset using the ODAM RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "subset": {
+                "type": "string",
+                "description": "Identifier for the data subset.",
+                "default": "samples"
+            },
+            "dataset": {
+                "type": "string",
+                "description": "Identifier for the dataset.",
+                "default": "frim1"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Limits the number of lines in the output table. Defaults to 10. A value of 0 means no limit.",
+                "default": 10
+            },
+            "debug": {
+                "type": "number",
+                "description": "Debug status. When set to a non-zero value, debug mode is enabled. Defaults to 0.",
+                "default": 0
+            },
+            "format": {
+                "type": "string",
+                "description": "Output format. Defaults to 'tsv'.",
+                "default": "tsv"
+            }
+        },
+        "required": [
+            "subset",
+            "dataset"
+        ]
+    }
+}

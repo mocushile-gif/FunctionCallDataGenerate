@@ -1,0 +1,17 @@
+{
+    "name": "get_user_highlights_tray_by_user_id",
+    "description": "This is a sub-function API for tool instagram_api_2023.\nTool description: Best Instagram Scraper API 2023 \n● Launched in May 2023 \n● 100% real-time data, no cache, no-CORS media, advanced profile, get access to hidden insights & more. \nAPI description: Get user's all highlight `highlight_id` from this endpoint. To get all medias of a particular highlight please use next endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "number",
+                "description": "The unique identifier of the Instagram user.",
+                "default": 25025320.0
+            }
+        },
+        "required": [
+            "user_id"
+        ]
+    }
+}

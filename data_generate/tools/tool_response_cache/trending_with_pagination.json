@@ -1,0 +1,94 @@
+{
+    "{'limit': 10}": {
+        "error": "",
+        "response": {
+            "collections": [
+                {
+                    "name": "Bored Ape Yacht Club",
+                    "network": "Ethereum",
+                    "floor_price": "125.78 ETH",
+                    "volume_24h": "2.1M USD",
+                    "owners": "12,450",
+                    "image_url": "https://example.com/ape.jpg"
+                },
+                {
+                    "name": "CryptoPunks",
+                    "network": "Ethereum",
+                    "floor_price": "89.30 ETH",
+                    "volume_24h": "1.8M USD",
+                    "owners": "11,200",
+                    "image_url": "https://example.com/punk.png"
+                },
+                {
+                    "name": "Art Blocks",
+                    "network": "Ethereum",
+                    "floor_price": "45.20 ETH",
+                    "volume_24h": "1.5M USD",
+                    "owners": "9,800",
+                    "image_url": "https://example.com/artblocks.png"
+                },
+                {
+                    "name": "Cool Cats",
+                    "network": "Ethereum",
+                    "floor_price": "32.15 ETH",
+                    "volume_24h": "900K USD",
+                    "owners": "8,700",
+                    "image_url": "https://example.com/coocat.png"
+                },
+                {
+                    "name": "Doodles",
+                    "network": "Polygon",
+                    "floor_price": "12.40 MATIC",
+                    "volume_24h": "600K USD",
+                    "owners": "7,500",
+                    "image_url": "https://example.com/doodle.jpg"
+                },
+                {
+                    "name": "Moonbirds",
+                    "network": "Solana",
+                    "floor_price": "0.89 SOL",
+                    "volume_24h": "450K USD",
+                    "owners": "6,300",
+                    "image_url": "https://example.com/moonbird.png"
+                },
+                {
+                    "name": "CloneX",
+                    "network": "Ethereum",
+                    "floor_price": "18.70 ETH",
+                    "volume_24h": "750K USD",
+                    "owners": "5,900",
+                    "image_url": "https://example.com/clonex.jpg"
+                },
+                {
+                    "name": "World of Women",
+                    "network": "Ethereum",
+                    "floor_price": "9.20 ETH",
+                    "volume_24h": "500K USD",
+                    "owners": "5,200",
+                    "image_url": "https://example.com/wow.png"
+                },
+                {
+                    "name": "Meebits",
+                    "network": "Ethereum",
+                    "floor_price": "6.80 ETH",
+                    "volume_24h": "400K USD",
+                    "owners": "4,800",
+                    "image_url": "https://example.com/meebit.png"
+                },
+                {
+                    "name": "Autoglyphs",
+                    "network": "Ethereum",
+                    "floor_price": "5.30 ETH",
+                    "volume_24h": "350K USD",
+                    "owners": "4,100",
+                    "image_url": "https://example.com/autoglyph.png"
+                }
+            ],
+            "pagination": {
+                "total_available": 500,
+                "next_page": "?offset=10",
+                "previous_page": "?offset=0"
+            }
+        }
+    }
+}

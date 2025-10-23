@@ -1,0 +1,15 @@
+{
+    "name": "stickers_trending",
+    "description": "This is a sub-function API for tool mojitok_sticker_store_sdk.\nTool description: Mojitok Sticker Store API/SDK is a curated store of licensed animated stickers, emojis, and GIFs. \nAPI description: API that provides information on creators and stickerpacks of 16 popular stickers",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "include": {
+                "type": "string",
+                "description": "Specifies whether to include 'STICKER_PACK' or 'CREATOR' information in the response. Defaults to 'STICKER_PACK'.",
+                "default": "STICKER_PACK"
+            }
+        },
+        "required": []
+    }
+}

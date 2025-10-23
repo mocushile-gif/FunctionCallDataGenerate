@@ -1,0 +1,26 @@
+{
+    "name": "merge_txt_files",
+    "description": "Merge the content of multiple .txt files into a single file.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "file_paths": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                },
+                "description": "List of .txt file paths to merge. Default to './'"
+            },
+            "output_file": {
+                "type": "string",
+                "description": "Path to the output file."
+            },
+            "encoding": {
+                "type": "string",
+                "description": "The file encoding to use. Defaults to 'utf-8'.",
+                "default": "utf-8"
+            }
+        },
+        "required": ["file_paths", "output_file"]
+    }
+}

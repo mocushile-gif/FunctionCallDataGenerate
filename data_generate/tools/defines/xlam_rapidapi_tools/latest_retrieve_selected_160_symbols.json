@@ -1,0 +1,17 @@
+{
+    "name": "latest_retrieve_selected_160_symbols",
+    "description": "This is a sub-function API for tool live_metal_prices.\nTool description: Live prices for Gold, Silver, Palladium and Platinum in 160+ currencies including USD, GBP and EUR.\nAPI description: Select what you need for a smaller payload! Real-time Gold, Silver, Palladium, and Platinum provided in 160+ currencies including USD, GBP and EUR.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "requestedsymbols": {
+                "type": "string",
+                "description": "A string representing the metal symbols for which the prices are requested.",
+                "default": "XAU,XAG,PA,PL,GBP,EUR"
+            }
+        },
+        "required": [
+            "requestedsymbols"
+        ]
+    }
+}

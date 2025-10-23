@@ -1,0 +1,37 @@
+{
+    "name": "generate_random_string",
+    "description": "Generates a random string of a specified length and character types, including uppercase letters, lowercase letters, digits, and special characters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "length": {
+                "type": "integer",
+                "description": "The length of the random string.",
+                "minimum": 1
+            },
+            "uppercase": {
+                "type": "boolean",
+                "description": "Include uppercase letters in the random string. Defaults to true.",
+                "default": true
+            },
+            "lowercase": {
+                "type": "boolean",
+                "description": "Include lowercase letters in the random string. Defaults to true.",
+                "default": true
+            },
+            "digits": {
+                "type": "boolean",
+                "description": "Include digits in the random string. Defaults to true.",
+                "default": true
+            },
+            "special_chars": {
+                "type": "boolean",
+                "description": "Include special characters in the random string. Defaults to false.",
+                "default": false
+            }
+        },
+        "required": [
+            "length"
+        ]
+    }
+}

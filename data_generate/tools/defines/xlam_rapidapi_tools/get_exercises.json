@@ -1,0 +1,30 @@
+{
+    "name": "get_exercises",
+    "description": "This is a sub-function API for tool musclewiki.\nTool description: The API provides information about exercises from MuscleWiki, including the name, category, target muscles,instructions for performing the exercise and a short video demonstration.\nAPI description: Fetch a list of exercises from the MuscleWiki API with optional filters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "force": {
+                "type": "string",
+                "description": "Filter exercises by the type of force (e.g., push, pull). Defaults to None."
+            },
+            "name": {
+                "type": "string",
+                "description": "Filter exercises by exercise name. Defaults to None."
+            },
+            "muscle": {
+                "type": "string",
+                "description": "Filter exercises by targeted muscle group. Defaults to None."
+            },
+            "category": {
+                "type": "string",
+                "description": "Filter exercises by exercise category. Defaults to None."
+            },
+            "difficulty": {
+                "type": "string",
+                "description": "Filter exercises by difficulty level. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_content",
+    "description": "This is a sub-function API for tool url_content_extractor.\nTool description: Provide a URL and get the content in return\nAPI description: Retrieves the content from the given URL using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the webpage from which to extract content.",
+                "default": "https://www.cnbc.com/2022/06/27/three-arrows-capital-crypto-hedge-fund-defaults-on-voyager-loan.html"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

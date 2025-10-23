@@ -1,0 +1,17 @@
+{
+    "name": "readmail",
+    "description": "This is a sub-function API for tool apimail10.\nTool description: apimail10\nAPI description: Fetches mail data from the provided mail ID using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mailid": {
+                "type": "string",
+                "description": "The ID of the mail to retrieve.",
+                "default": "null"
+            }
+        },
+        "required": [
+            "mailid"
+        ]
+    }
+}

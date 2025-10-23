@@ -1,0 +1,17 @@
+{
+    "name": "sponge_bob",
+    "description": "This is a sub-function API for tool memeados.\nTool description: Generate custom image, gif and video memes.\nAPI description: Generates a Sponge Bob meme with the given text using the Memeados API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to be included in the Sponge Bob meme.",
+                "default": "Example test"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

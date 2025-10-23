@@ -1,0 +1,23 @@
+{
+    "name": "main_endpoint",
+    "description": "This is a sub-function API for tool amazon_pricing_and_product_info.\nTool description: Fullest product info\nAll Marketplaces\nCustomer support for API users\nBuy box info\nPrime &amp; FBA detection\nFast, scalable &amp; reliable API\nAPI description: Fetches product information from the Amazon Pricing and Product Info API using the given ASIN and domain.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "asin": {
+                "type": "string",
+                "description": "The Amazon Standard Identification Number of the product.",
+                "default": "B07GR5MSKD"
+            },
+            "domain": {
+                "type": "string",
+                "description": "The domain from which to fetch the product information (e.g., 'com', 'co.uk').",
+                "default": "de"
+            }
+        },
+        "required": [
+            "asin",
+            "domain"
+        ]
+    }
+}

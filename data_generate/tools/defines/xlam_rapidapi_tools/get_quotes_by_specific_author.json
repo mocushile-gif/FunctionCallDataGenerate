@@ -1,0 +1,27 @@
+{
+    "name": "get_quotes_by_specific_author",
+    "description": "This is a sub-function API for tool world_of_quotes.\nTool description: API returns over 50,000+ famous quotes from over 10,000+ great authors and over 350+ different categories.\nAPI description: This API returns the collection of quotes by author you pass in the query params. Maximum you can get 20 quotes at a time and can be customized by *limit*. Our API support pagination and records can be paginated by *page* query param.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "author": {
+                "type": "string",
+                "description": "Name of the author whose quotes are to be fetched.",
+                "default": "Albert Einstein"
+            },
+            "page": {
+                "type": "number",
+                "description": "Page number for pagination. Defaults to 3.",
+                "default": 3.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "Number of quotes to retrieve per request. Maximum is 20. Defaults to 20.",
+                "default": 20.0
+            }
+        },
+        "required": [
+            "author"
+        ]
+    }
+}

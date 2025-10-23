@@ -1,0 +1,28 @@
+{
+    "name": "app_news",
+    "description": "This is a sub-function API for tool steam.\nTool description: Search, and get app/reviews/news data from store.steampowered.com\nAPI description: Fetch the latest news for a specific app from the Steam API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The number of news articles to retrieve.",
+                "default": 10.0
+            },
+            "appid": {
+                "type": "number",
+                "description": "The Steam app ID for which to fetch the news.",
+                "default": 730.0
+            },
+            "contentlength": {
+                "type": "number",
+                "description": "The maximum length of the news content. Defaults to 300.",
+                "default": 300.0
+            }
+        },
+        "required": [
+            "limit",
+            "appid"
+        ]
+    }
+}

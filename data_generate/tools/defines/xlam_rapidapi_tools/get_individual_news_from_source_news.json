@@ -1,0 +1,17 @@
+{
+    "name": "get_individual_news_from_source_news",
+    "description": "This is a sub-function API for tool live_climate_change_v2.\nTool description: An API showing all the latest Climate Change news around the world\nAPI description: Fetches news about climate change from a specified news source.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "newspaperid": {
+                "type": "string",
+                "description": "The ID of the newspaper from which to fetch news.",
+                "default": "guardian"
+            }
+        },
+        "required": [
+            "newspaperid"
+        ]
+    }
+}

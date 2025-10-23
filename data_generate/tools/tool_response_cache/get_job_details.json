@@ -1,0 +1,164 @@
+{
+    "{'job_url': 'URL_OF_MARKETING_JOB_POST'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "Bad Request: (URL_OF_MARKETING_JOB_POST) is not a valid job url. You will not be charged for this request."
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/1234567890'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "Sorry, it\u2019s taking longer than normal \u2013 we\u2019re still working on it. You will not be charged for this request. Please try again later"
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/software-engineer-987654321/'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The job you are looking was not found"
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/software-engineer-at-google-2753052323'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The job you are looking was not found"
+        }
+    },
+    "{'job_url': 'example_job_url'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "Bad Request: (example_job_url) is not a valid job url. You will not be charged for this request."
+        }
+    },
+    "{'job_url': '<JOB_URL>'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "Bad Request: (<JOB_URL>) is not a valid job url. You will not be charged for this request."
+        }
+    },
+    "{'job_url': '<JOB_LINKEDIN_URL>'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "Bad Request: (<JOB_LINKEDIN_URL>) is not a valid job url. You will not be charged for this request."
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/example-job'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The job you are looking was not found"
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/example-job-posting'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The job you are looking was not found"
+        }
+    },
+    "{'job_url': '<LinkedIn job URL of an HR professional with talent acquisition experience>'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "Bad Request: (<LinkedIn job URL of an HR professional with talent acquisition experience>) is not a valid job url. You will not be charged for this request."
+        }
+    },
+    "{'job_url': 'valid_job_url'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "Bad Request: (valid_job_url) is not a valid job url. You will not be charged for this request."
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/studio-two-1780'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The job you are looking was not found"
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/example.com'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The job you are looking was not found"
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/competitor-analysis-job-details'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The job you are looking was not found"
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/job-details'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The job you are looking was not found"
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/job123'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The job you are looking was not found"
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/competitor-jobs'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The job you are looking was not found"
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/competitor-job-details'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The job you are looking was not found"
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/software-engineer-jobs-at-google/'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The job you are looking was not found"
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/google-jobs-at-google-1441'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The job you are looking was not found"
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/competitor-analysis'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The job you are looking was not found"
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/job-details-12345'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "Our fault. You will not be charge for this request. We will fix it soon"
+        }
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/3690897280/', 'include_skills': 'true'}": {
+        "error": "",
+        "response": "{'data': {'applies': None, 'benefits': [], 'company_description': 'Our mission is to improve the health, vitality, and longevity of human beings through bioengineering.\\n\\nWho we are:\\n\\nAt Ossium, we believe that science is humanity\u2019s best weapon in the fight against disease, and we embrace the challenge of mobilizing the world\u2019s healthcare ecosystem to win that fight. In pursuit of this goal, we empower our employees, maintain the highest standards of excellence, and are a force for good.\\n\\nValues we live by:\\n\\nImpact\\nWe are mission-driven and results-oriented. We believe that a healthier world is a better one and that our work should drive positive change.\\n\\nTruth\\nEmbracing the truth empowers us to learn from both our successes and our mistakes. We follow the data wherever it leads.\\n\\nOwnership\\nWe hold ourselves and each other to the highest bar. We care deeply about the work we do and know that even the smallest details can make a difference.', 'company_id': '18940375', 'company_linkedin_url': 'https://www.linkedin.com/company/ossiumhealth', 'company_name': 'Ossium Health', 'company_public_id': 'ossiumhealth', 'employee_count': 94, 'employee_range': '51 - 200', 'experience_level': 'Mid-Senior level', 'expired': '2023-11-03 04:50:31', 'follower_count': 3192, 'hiring_team': {}, 'hq_address_line1': '80 Tehama St', 'hq_address_line2': None, 'hq_city': 'San Francisco', 'hq_country': 'US', 'hq_full_address': '80 Tehama St, San Francisco, California 94105, US', 'hq_postalcode': '94105', 'hq_region': 'California', 'industries': ['Biotechnology Research'], 'job_description': 'Ossium\u2019s mission is to improve the health, vitality, and longevity of human beings through bioengineering. We develop, manufacture, and bank cell therapy products that apply the power of stem cell science to revolutionize treatment for patients with blood and immune diseases. At Ossium, we empower our employees, maintain the highest standards of operational excellence, and are a force for good.\\n\\nAbout The Job\\n\\nWe\u2019re looking for a motiv"
+    },
+    "{'job_url': 'https://www.linkedin.com/jobs/view/3690897281/', 'include_skills': 'true'}": {
+        "error": "",
+        "response": "{'data': {'applies': None, 'benefits': [], 'company_description': \"Aya Healthcare is the largest healthcare talent software and staffing company in the United States. Aya operates the world\u2019s largest digital staffing platform delivering every component of healthcare-focused labor services, including travel nursing and allied health, per diem, permanent staff hiring, interim leadership, locum tenens and non-clinical professionals. \\n\\nAya\u2019s software suite, which includes vendor management, float pool technology, provider services and predictive analytics, provides hospital systems greater efficiencies and superior operating results. \\n\\nWhile technology drives efficiency and scale, Aya employees power the company to deliver unparalleled accountability and exceptional experiences for our clients and clinicians. Due to our passionate employees coupled with our unique corporate culture, we've been recognized as a top workplace by Fortune, Inc. Magazine, Modern Healthcare and the San Diego Union-Tribune. To learn more about Aya Healthcare, visit www.ayahealthcare.com\", 'company_id': '808034', 'company_linkedin_url': 'https://www.linkedin.com/company/ayahealthcare', 'company_name': 'Aya Healthcare', 'company_public_id': 'ayahealthcare', 'employee_count': 21986, 'employee_range': '5001 - 10000', 'experience_level': 'Entry level', 'expired': '2023-09-16 23:13:04', 'follower_count': 134391, 'hiring_team': {}, 'hq_address_line1': '5930 Cornerstone Ct  #300', 'hq_address_line2': None, '"
+    }
+}

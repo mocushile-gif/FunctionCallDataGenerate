@@ -1,0 +1,48 @@
+{
+    "name": "encrypt_decrypt_pdf",
+    "description": "Encrypt or decrypt a PDF file with password protection and customizable permissions.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "input_path": {
+                "type": "string",
+                "description": "Path to input PDF file"
+            },
+            "output_path": {
+                "type": "string",
+                "description": "Path for output file (optional, auto-generated if not provided)"
+            },
+            "operation": {
+                "type": "string",
+                "description": "Operation to perform",
+                "enum": ["encrypt", "decrypt"],
+                "default": "encrypt"
+            },
+            "password": {
+                "type": "string",
+                "description": "Password for encryption/decryption"
+            },
+            "encryption_level": {
+                "type": "string",
+                "description": "Encryption level",
+                "enum": ["AES-256", "AES-128", "RC4-128"],
+                "default": "AES-256"
+            },
+            "permissions": {
+                "type": "object",
+                "description": "PDF permissions settings",
+                "properties": {
+                    "print": {"type": "boolean", "default": true},
+                    "copy": {"type": "boolean", "default": false},
+                    "modify": {"type": "boolean", "default": false},
+                    "annotate": {"type": "boolean", "default": false},
+                    "fill_forms": {"type": "boolean", "default": false},
+                    "extract_text": {"type": "boolean", "default": false},
+                    "assemble": {"type": "boolean", "default": false},
+                    "print_high_resolution": {"type": "boolean", "default": false}
+                }
+            }
+        },
+        "required": ["input_path", "operation", "password"]
+    }
+}

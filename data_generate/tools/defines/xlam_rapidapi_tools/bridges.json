@@ -1,0 +1,26 @@
+{
+    "name": "bridges",
+    "description": "This is a sub-function API for tool defi_watch.\nTool description: DeFi Watch's API opens access to up-to-date data for thousands of cryptocurrencies. The API code is clear, developer-friendly, and provides daily and historical cryptocurrency information for each API request\nAPI description: Get access to verify data about cross-chain bridges by integrating Bridges API from DeFi Watch into the code. This solution offers links to bridges as well as information about fees and duration. The API code is user-friendly, clear and accessible. \n\n[![](https://live.staticflickr.com/65535/52164830761_c7a2292634_b.jpg)](https://defi.watch/bridges)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "take": {
+                "type": "number",
+                "description": "The number of bridges to retrieve."
+            },
+            "skip": {
+                "type": "number",
+                "description": "The number of bridges to skip from the start."
+            },
+            "is_from": {
+                "type": "string",
+                "description": "Select blockchain name information from which you want to send"
+            },
+            "to": {
+                "type": "string",
+                "description": "Select blockchain name information to which you want to send"
+            }
+        },
+        "required": []
+    }
+}

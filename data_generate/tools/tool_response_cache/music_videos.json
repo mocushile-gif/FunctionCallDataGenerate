@@ -1,0 +1,31 @@
+{
+    "{'music_id': '107955'}": {
+        "error": "",
+        "response": {
+            "cursor": "7",
+            "extra": {
+                "fatal_item_ids": [],
+                "logid": "20230718225154CB16A508B33DFD0170EC",
+                "now": 1689720715000
+            },
+            "hasMore": false,
+            "log_pb": {
+                "impr_id": "20230718225154CB16A508B33DFD0170EC"
+            },
+            "statusCode": 0,
+            "status_code": 0
+        }
+    },
+    "{'music_id': '6862966224016377857', 'cursor': '0'}": {
+        "error": "",
+        "response": "{'cursor': '0', 'extra': {'fatal_item_ids': [], 'logid': '20240912070242FF520AC71B4A8302EA8F', 'now': 1726124563000}, 'hasMore': False, 'log_pb': {'impr_id': '20240912070242FF520AC71B4A8302EA8F'}, 'statusCode': 100001, 'status_code': 0, 'status_msg': ''}"
+    },
+    "{'music_id': '723908174562390', 'cursor': '0'}": {
+        "error": "",
+        "response": "{'cursor': '0', 'extra': {'fatal_item_ids': [], 'logid': '202506112304184F5320CF7A335F198C6E', 'now': 1749654258000}, 'hasMore': False, 'log_pb': {'impr_id': '202506112304184F5320CF7A335F198C6E'}, 'statusCode': 100001, 'status_code': 0, 'status_msg': ''}"
+    },
+    "{'music_id': '12345XYZ', 'cursor': '0'}": {
+        "error": "",
+        "response": "400 - {\"log_pb\":{\"impr_id\":\"20250617072605BCE5F1C5AC5BC9051F5D\"},\"statusCode\":10201,\"statusMsg\":\"illegal ID given\",\"status_code\":10201,\"status_msg\":\"illegal ID given\"}"
+    }
+}

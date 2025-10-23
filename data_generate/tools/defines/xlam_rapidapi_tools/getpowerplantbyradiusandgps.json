@@ -1,0 +1,31 @@
+{
+    "name": "getpowerplantbyradiusandgps",
+    "description": "This is a sub-function API for tool rankiteo_climate_risk_assessment.\nTool description: We provide an API to give a climate risk assessment score for any locations in the world.\n\nAPI description: Fetches information about power plants within a specified radius from given GPS coordinates.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "latitude": {
+                "type": "number",
+                "description": "The latitude coordinate to search around.",
+                "default": 27.6
+            },
+            "longitude": {
+                "type": "number",
+                "description": "The longitude coordinate to search around.",
+                "default": 78.5
+            },
+            "page_number": {
+                "type": "number",
+                "description": "The page number for paginated results. Defaults to None."
+            },
+            "radius_km": {
+                "type": "number",
+                "description": "The radius in kilometers to search within. Defaults to 100 km if not provided."
+            }
+        },
+        "required": [
+            "latitude",
+            "longitude"
+        ]
+    }
+}

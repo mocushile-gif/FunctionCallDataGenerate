@@ -1,0 +1,24 @@
+{
+    "name": "count_files_in_dir",
+    "description": "Count the number of files in a directory, with optional filtering by file extension.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "directory": {
+                "type": "string",
+                "description": "The directory to search for files. Default to './'"
+            },
+            "file_extension": {
+                "type": "string",
+                "description": "The file extension to filter by (e.g., '.txt'). Defaults to None (all files).",
+                "default": null
+            },
+            "recursive": {
+                "type": "boolean",
+                "description": "Whether to include files in subdirectories. Defaults to True.",
+                "default": true
+            }
+        },
+        "required": ["directory"]
+    }
+}

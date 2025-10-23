@@ -1,0 +1,109 @@
+{
+    "{}": {
+        "error": "",
+        "response": [
+            {
+                "id": 130,
+                "latin": "Philodendron",
+                "family": "Araceae",
+                "common": [
+                    "Red Philodendron",
+                    "Imperial Red"
+                ],
+                "category": "Philodendron",
+                "origin": "Cultivar",
+                "climate": "Tropical",
+                "tempmax": {
+                    "celsius": 28,
+                    "fahrenheit": 82.4
+                },
+                "tempmin": {
+                    "celsius": 18,
+                    "fahrenheit": 64.4
+                },
+                "ideallight": "Bright light",
+                "toleratedlight": "Diffused",
+                "watering": "Keep moist between watering. Water when soil is half dry.",
+                "insects": "Mealy bug",
+                "diseases": "Erwinia",
+                "use": [
+                    "Table top",
+                    "Secondary"
+                ]
+            },
+            {
+                "id": 137,
+                "latin": "Philodendron",
+                "family": "Araceae",
+                "common": [
+                    "Lime philodendron",
+                    "Moonlight"
+                ],
+                "category": "Philodendron",
+                "origin": "Cultivar",
+                "climate": "Tropical",
+                "tempmax": {
+                    "celsius": 28,
+                    "fahrenheit": 82.4
+                },
+                "tempmin": {
+                    "celsius": 18,
+                    "fahrenheit": 64.4
+                },
+                "ideallight": "Bright light",
+                "toleratedlight": "Diffused",
+                "watering": "Keep moist between watering. Water when soil is half dry.",
+                "insects": "Mealy bug",
+                "diseases": "Erwinia",
+                "use": [
+                    "Table top",
+                    "Secondary"
+                ]
+            },
+            {
+                "id": 146,
+                "latin": "Philodendron",
+                "family": "Araceae",
+                "common": [
+                    "Emerald Prince"
+                ],
+                "category": "Philodendron",
+                "origin": "Cultivar",
+                "climate": "Tropical",
+                "tempmax": {
+                    "celsius": 28,
+                    "fahrenheit": 82.4
+                },
+                "tempmin": {
+                    "celsius": 18,
+                    "fahrenheit": 64.4
+                },
+                "ideallight": "Bright light",
+                "toleratedlight": "Diffused",
+                "watering": "Keep moist between watering. Water when soil is half dry.",
+                "insects": "Mealy bug",
+                "diseases": "Erwinia",
+                "use": [
+                    "Table top",
+                    "Secondary"
+                ]
+            }
+        ]
+    },
+    "{'latin_name': 'philodendron'}": {
+        "error": "",
+        "response": "[{'id': 130, 'latin': 'Philodendron', 'family': 'Araceae', 'common': ['Red Philodendron', 'Imperial Red'], 'category': 'Philodendron', 'origin': 'Cultivar', 'climate': 'Tropical', 'tempmax': {'celsius': 28, 'fahrenheit': 82.4}, 'tempmin': {'celsius': 18, 'fahrenheit': 64.4}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Keep moist between watering. Water when soil is half dry.', 'insects': 'Mealy bug', 'diseases': 'Erwinia', 'use': ['Table top', 'Secondary']}, {'id': 137, 'latin': 'Philodendron', 'family': 'Araceae', 'common': ['Lime philodendron', 'Moonlight'], 'category': 'Philodendron', 'origin': 'Cultivar', 'climate': 'Tropical', 'tempmax': {'celsius': 28, 'fahrenheit': 82.4}, 'tempmin': {'celsius': 18, 'fahrenheit': 64.4}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Keep moist between watering. Water when soil is half dry.', 'insects': 'Mealy bug', 'diseases': 'Erwinia', 'use': ['Table top', 'Secondary']}, {'id': 146, 'latin': 'Philodendron', 'family': 'Araceae', 'common': ['Emerald Prince'], 'category': 'Philodendron', 'origin': 'Cultivar', 'climate': 'Tropical', 'tempmax': {'celsius': 28, 'fahrenheit': 82.4}, 'tempmin': {'celsius': 18, 'fahrenheit': 64.4}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Keep moist between watering. Water when soil is half dry.', 'insects': 'Mealy bug', 'diseases': 'Erwinia', 'use': ['Table top', 'Secondary']}]"
+    },
+    "{'latin_name': 'dracaena_marginata'}": {
+        "error": "",
+        "response": "[{'id': 67, 'latin': 'Dracaena marginata', 'family': 'Liliaceae', 'common': ['Madagascar dragon tree', 'Tricolor'], 'category': 'Dracaena', 'origin': 'Cultivar', 'climate': 'Tropical', 'tempmax': {'celsius': 28, 'fahrenheit': 82.4}, 'tempmin': {'celsius': 10, 'fahrenheit': 50}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Keep moist between watering. Can dry between watering', 'insects': ['Mealy bug', 'Scale', 'Spider mite'], 'diseases': 'N/A', 'use': ['Potted plant', 'Secondary']}, {'id': 83, 'latin': 'Dracaena marginata', 'family': 'Liliaceae', 'common': ['Madagascar dragon tree'], 'category': 'Dracaena', 'origin': 'Madagascar', 'climate': 'Tropical', 'tempmax': {'celsius': 30, 'fahrenheit': 20}, 'tempmin': {'celsius': 10, 'fahrenheit': 50}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Keep moist between watering. Can dry between watering', 'insects': ['Mealy bug', 'Scale', 'Spider mite'], 'diseases': 'N/A', 'use': ['Potted plant', 'Secondary']}]"
+    },
+    "{'latin_name': 'Monstera deliciosa'}": {
+        "error": "",
+        "response": "[{'id': 118, 'latin': 'Monstera deliciosa', 'family': 'Araceae', 'common': ['Splitleaf Philodendron', 'Mexican Breadfruit'], 'category': 'Philodendron', 'origin': 'Central America', 'climate': 'Tropical', 'tempmax': {'celsius': 32, 'fahrenheit': 89.6}, 'tempmin': {'celsius': 12, 'fahrenheit': 53.6}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Water when soil is half dry. Can be dry between watering.', 'insects': 'Mealy bug', 'diseases': 'N/A', 'use': ['Potted plant', 'Secondary']}]"
+    },
+    "{'latin_name': 'Dracaena marginata'}": {
+        "error": "",
+        "response": "[{'id': 67, 'latin': 'Dracaena marginata', 'family': 'Liliaceae', 'common': ['Madagascar dragon tree', 'Tricolor'], 'category': 'Dracaena', 'origin': 'Cultivar', 'climate': 'Tropical', 'tempmax': {'celsius': 28, 'fahrenheit': 82.4}, 'tempmin': {'celsius': 10, 'fahrenheit': 50}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Keep moist between watering. Can dry between watering', 'insects': ['Mealy bug', 'Scale', 'Spider mite'], 'diseases': 'N/A', 'use': ['Potted plant', 'Secondary']}, {'id': 83, 'latin': 'Dracaena marginata', 'family': 'Liliaceae', 'common': ['Madagascar dragon tree'], 'category': 'Dracaena', 'origin': 'Madagascar', 'climate': 'Tropical', 'tempmax': {'celsius': 30, 'fahrenheit': 20}, 'tempmin': {'celsius': 10, 'fahrenheit': 50}, 'ideallight': 'Bright light', 'toleratedlight': 'Diffused', 'watering': 'Keep moist between watering. Can dry between watering', 'insects': ['Mealy bug', 'Scale', 'Spider mite'], 'diseases': 'N/A', 'use': ['Potted plant', 'Secondary']}]"
+    }
+}

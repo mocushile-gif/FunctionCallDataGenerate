@@ -1,0 +1,23 @@
+{
+    "name": "get_appointments",
+    "description": "This is a sub-function API for tool appointment_system_api.\nTool description: Appointment System Api with user operations and admin operations. Api has all appointment operations for a clinic\nAPI description: EndPoints returns all appointments in the date. \n\nParameter Description :\ndate : the date the appointments is requested\nclinicName : Name of the clinic\n\nReturn Value : \nIt returns json object. Json contains all the appointments in requested date.\n\nJson Format :\n\nhLabel:\"07:00\"\nid:5\naDay:\"2022-09-09T00:00:00\"\naHour:58\naName:\"Efe Kemal TASAR\"\naTel:\"+905376853054\"\naType:\"Appoint\"",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which the appointments are requested in the format 'YYYY-MM-DD'.",
+                "default": "2022.09.09"
+            },
+            "clinicname": {
+                "type": "string",
+                "description": "The name of the clinic for which the appointments are requested.",
+                "default": "DemoUser"
+            }
+        },
+        "required": [
+            "date",
+            "clinicname"
+        ]
+    }
+}

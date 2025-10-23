@@ -1,0 +1,31 @@
+{
+    "name": "calculate_exponential_growth_decay",
+    "description": "Calculates the exponential growth or decay of a quantity over a specified time period. The function can handle both growth and decay scenarios based on the provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "initial_value": {
+                "type": "number",
+                "description": "The initial value of the quantity."
+            },
+            "rate": {
+                "type": "number",
+                "description": "The growth or decay rate (in percentage)."
+            },
+            "time": {
+                "type": "number",
+                "description": "The time over which the calculation is performed."
+            },
+            "decay": {
+                "type": "boolean",
+                "description": "If true, the function calculates decay; if false, it calculates growth. Defaults to false.",
+                "default": false
+            }
+        },
+        "required": [
+            "initial_value",
+            "rate",
+            "time"
+        ]
+    }
+}

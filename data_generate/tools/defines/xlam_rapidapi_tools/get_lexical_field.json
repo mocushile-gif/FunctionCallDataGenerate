@@ -1,0 +1,22 @@
+{
+    "name": "get_lexical_field",
+    "description": "This is a sub-function API for tool dicolink.\nTool description: Dicolink API lets you retrieve information about French words, including definitions, synonyms, antonyms, quotes, expressions, lexical field, scrabble score, and much more...\nAPI description: Retrieves the lexical field for a given word using the Dicolink API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mot": {
+                "type": "string",
+                "description": "The word for which the lexical field is to be retrieved.",
+                "default": "cheval"
+            },
+            "limite": {
+                "type": "string",
+                "description": "The limit on the number of results to be retrieved (default is '20').",
+                "default": "20"
+            }
+        },
+        "required": [
+            "mot"
+        ]
+    }
+}

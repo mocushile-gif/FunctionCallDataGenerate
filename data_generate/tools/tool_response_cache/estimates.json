@@ -1,0 +1,14 @@
+{
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{\"symbol\": \"AAPL\", \"estimates\": {\"currentQuarterEPS\": 1.43, \"currentYearEPS\": 5.93, \"nextQuarterEPS\": 1.55, \"nextYearEPS\": 6.50, \"revenueEstimateCurrentQuarter\": 97.0, \"revenueEstimateCurrentYear\": 414.0, \"numberOfAnalysts\": 35, \"targetPrice\": 200.00}, \"asOfDate\": \"2023-10-05\"}"
+    },
+    "{'symbol': 'F'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'symbol': 'ABNB'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    }
+}

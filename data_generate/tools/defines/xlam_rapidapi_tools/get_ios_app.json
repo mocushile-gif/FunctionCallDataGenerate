@@ -1,0 +1,17 @@
+{
+    "name": "get_ios_app",
+    "description": "This is a sub-function API for tool ios_store.\nTool description: Get API access to iOS Store data\nAPI description: Fetches a specific iOS app's details using the app ID from the iOS Store API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the iOS app to fetch.",
+                "default": "880047117"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "convert_a_unit",
+    "description": "This is a sub-function API for tool unit_measurement_conversion.\nTool description: Perform accurate and hassle-free conversions between various measurement units for weight, length, area, volume, speed, fuel, pressure, and temperature with our API. It supports local units and returns both the converted value and abbreviation (if available) for quick and easy integration into your projects.\nAPI description: GET the Unit and Value you want to convert, and get a object with the result and abbreviation (if available).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fromvalue": {
+                "type": "string",
+                "description": "The value to be converted.",
+                "default": "200"
+            },
+            "tounit": {
+                "type": "string",
+                "description": "The unit to which the value should be converted.",
+                "default": "kilogram"
+            },
+            "fromunit": {
+                "type": "string",
+                "description": "The original unit of the value.",
+                "default": "pound"
+            },
+            "type": {
+                "type": "string",
+                "description": "The type/category of the units (e.g., length, mass).",
+                "default": "weight"
+            }
+        },
+        "required": [
+            "fromvalue",
+            "tounit",
+            "fromunit",
+            "type"
+        ]
+    }
+}

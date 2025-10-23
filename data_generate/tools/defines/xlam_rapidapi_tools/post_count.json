@@ -1,0 +1,17 @@
+{
+    "name": "post_count",
+    "description": "This is a sub-function API for tool hashtag.\nTool description: Generate hashtags based on image, text and get the post count detail of that hashtag\nAPI description: Fetches the total post count for a given hashtag using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tag": {
+                "type": "string",
+                "description": "The hashtag for which the post count is to be fetched.",
+                "default": "insta"
+            }
+        },
+        "required": [
+            "tag"
+        ]
+    }
+}

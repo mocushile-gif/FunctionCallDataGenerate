@@ -1,0 +1,17 @@
+{
+    "name": "poor_backlinks",
+    "description": "This is a sub-function API for tool best_backlink_checker_api.\nTool description: Best Backlink checker, You can check Top backlinks, New backlinks, Poor Backlinks, etc\nAPI description: Fetch poor quality backlinks for a given domain using the Best Backlink Checker API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain for which to fetch the poor quality backlinks.",
+                "default": "getecz.com"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "biggest_cities",
+    "description": "This is a sub-function API for tool biggest_cities.\nTool description: List of top biggest cities\nAPI description: Fetches the biggest cities' data from the specified API using the provided ID and API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID representing a specific query for biggest cities.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "video_comment_replies",
+    "description": "This is a sub-function API for tool tiktok_v3.\nTool description: TikTok API\nAPI description: Fetches the replies to a specific comment on a TikTok video using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "comment_id": {
+                "type": "string",
+                "description": "The ID of the comment for which to retrieve replies.",
+                "default": "7136269575881360155"
+            },
+            "video_id": {
+                "type": "string",
+                "description": "The ID of the video containing the comment.",
+                "default": "7136263711043374341"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "Cursor for pagination to fetch additional replies. Defaults to None."
+            }
+        },
+        "required": [
+            "comment_id",
+            "video_id"
+        ]
+    }
+}

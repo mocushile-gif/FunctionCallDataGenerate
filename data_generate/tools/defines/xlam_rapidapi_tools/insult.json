@@ -1,0 +1,23 @@
+{
+    "name": "insult",
+    "description": "This is a sub-function API for tool humor_jokes_and_memes.\nTool description: Humor API lets you search through 50,000 jokes, over 200,000 memes, and gifs. From Chuck Norris, over Knock Knock to Yo Mama jokes, you'll find something for every occasion.\nAPI description: Insult somebody for doing something.\nSee https://humorapi.com/docs/#Insult for more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "reason": {
+                "type": "string",
+                "description": "The reason for the praise/insult.",
+                "default": "you did it again"
+            },
+            "name": {
+                "type": "string",
+                "description": "The name of the person to insult.",
+                "default": "Alex"
+            }
+        },
+        "required": [
+            "reason",
+            "name"
+        ]
+    }
+}

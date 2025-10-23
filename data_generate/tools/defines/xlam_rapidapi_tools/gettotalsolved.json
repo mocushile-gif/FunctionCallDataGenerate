@@ -1,0 +1,17 @@
+{
+    "name": "gettotalsolved",
+    "description": "This is a sub-function API for tool leetcodeapi.\nTool description: The API fetches basic information of a LeetCode profile based on the provided username.\nAPI description: Fetches the total number of questions solved by the given LeetCode user.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The LeetCode username of the user whose solved questions are to be retrieved.",
+                "default": "mujtabah258"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

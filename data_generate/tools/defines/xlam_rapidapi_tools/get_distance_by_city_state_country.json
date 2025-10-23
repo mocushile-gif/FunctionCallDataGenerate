@@ -1,0 +1,47 @@
+{
+    "name": "get_distance_by_city_state_country",
+    "description": "This is a sub-function API for tool great_circle_math_api.\nTool description: An api to perform mileage calculations by receiving location information.\nAPI description: Retrieves the latitude, longitude, and calculated distance in miles between two locations specified by city, state, and country.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country1": {
+                "type": "string",
+                "description": "The country of the first location.",
+                "default": "us"
+            },
+            "country2": {
+                "type": "string",
+                "description": "The country of the second location.",
+                "default": "us"
+            },
+            "state2": {
+                "type": "string",
+                "description": "The state of the second location.",
+                "default": "ca"
+            },
+            "city2": {
+                "type": "string",
+                "description": "The city of the second location.",
+                "default": "sacramento"
+            },
+            "city1": {
+                "type": "string",
+                "description": "The city of the first location.",
+                "default": "birmingham"
+            },
+            "state1": {
+                "type": "string",
+                "description": "The state of the first location.",
+                "default": "al"
+            }
+        },
+        "required": [
+            "country1",
+            "country2",
+            "state2",
+            "city2",
+            "city1",
+            "state1"
+        ]
+    }
+}

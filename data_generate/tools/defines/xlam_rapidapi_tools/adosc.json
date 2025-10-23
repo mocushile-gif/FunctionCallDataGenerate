@@ -1,0 +1,43 @@
+{
+    "name": "adosc",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Chaikin A/D Oscillator(ADOSC) is an indicator, which finds the relationship between increasing and decreasing volume with price fluctuations. The Chaikin Oscillator measures the momentum of the Accumulation/Distribution Line(ADL) using two Exponential Moving Averages of varying length to the line(MACD).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "interval": {
+                "type": "string",
+                "description": "Interval between two consecutive points in the time series. Supports `1min`, `5min`, `15min`, `30min`, `45min`, `1h`, `2h`, `4h`, `1day`, `1week`, `1month`.",
+                "default": "1min"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "Instrument symbol, which can be any equity, index, ETF, forex, or cryptocurrency (e.g., `AAPL`, `EUR/USD`, `ETH/BTC`).",
+                "default": "AAPL"
+            },
+            "slow_period": {
+                "type": "number",
+                "description": "Length of the slow EMA period. Defaults to 26.",
+                "default": 26
+            },
+            "fast_period": {
+                "type": "number",
+                "description": "Length of the fast EMA period. Defaults to 12.",
+                "default": 12
+            },
+            "format": {
+                "type": "string",
+                "description": "Output format, can be either `CSV` or `JSON`. Defaults to `json`.",
+                "default": "json"
+            },
+            "outputsize": {
+                "type": "number",
+                "description": "Default `30` when no date parameters are set, otherwise set to maximum",
+                "default": 30
+            }
+        },
+        "required": [
+            "interval",
+            "symbol"
+        ]
+    }
+}

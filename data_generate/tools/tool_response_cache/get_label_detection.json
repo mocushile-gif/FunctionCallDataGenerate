@@ -1,0 +1,26 @@
+{
+    "{'image': 'https://m.media-amazon.com/images/I/71k6XnjuwkL._AC_SL1500_.jpg'}": {
+        "error": "",
+        "response": "{'labels': [{'text': 'Tire', 'score': 0.9788352251052856, 'locale': ''}, {'text': 'Wheel', 'score': 0.9750273823738098, 'locale': ''}, {'text': 'Land vehicle', 'score': 0.9640672206878662, 'locale': ''}, {'text': 'Car', 'score': 0.9598584175109863, 'locale': ''}, {'text': 'Vehicle', 'score': 0.9566956758499146, 'locale': ''}, {'text': 'Automotive lighting', 'score': 0.9277289509773254, 'locale': ''}, {'text': 'Hood', 'score': 0.9182772040367126, 'locale': ''}, {'text': 'Grille', 'score': 0.908598005771637, 'locale': ''}, {'text': 'Automotive design', 'score': 0.9064827561378479, 'locale': ''}, {'text': 'Motor vehicle', 'score': 0.9057731628417969, 'locale': ''}], 'success': True, 'dimensions': {'height': 859, 'width': 1500, 'type': 'jpg'}}"
+    },
+    "{'image': 'http://testserver/images/uploaded/system_dashboard_v2.png'}": {
+        "error": "",
+        "response": "{'labels': [{'text': 'Tire', 'score': 0.9788352251052856, 'locale': ''}, {'text': 'Wheel', 'score': 0.9750273823738098, 'locale': ''}, {'text': 'Land vehicle', 'score': 0.9640672206878662, 'locale': ''}, {'text': 'Car', 'score': 0.9598584175109863, 'locale': ''}, {'text': 'Vehicle', 'score': 0.9566956758499146, 'locale': ''}, {'text': 'Automotive lighting', 'score': 0.9277289509773254, 'locale': ''}, {'text': 'Hood', 'score': 0.9182772040367126, 'locale': ''}, {'text': 'Grille', 'score': 0.908598005771637, 'locale': ''}, {'text': 'Automotive design', 'score': 0.9064827561378479, 'locale': ''}, {'text': 'Motor vehicle', 'score': 0.9057731628417969, 'locale': ''}], 'success': True, 'dimensions': {'height': 859, 'width': 1500, 'type': 'jpg'}}"
+    },
+    "{'image': 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Wind_turbine_-_Renewable_Energy.jpg'}": {
+        "error": "",
+        "response": "{'labels': [{'text': 'Tire', 'score': 0.9788352251052856, 'locale': ''}, {'text': 'Wheel', 'score': 0.9750273823738098, 'locale': ''}, {'text': 'Land vehicle', 'score': 0.9640672206878662, 'locale': ''}, {'text': 'Car', 'score': 0.9598584175109863, 'locale': ''}, {'text': 'Vehicle', 'score': 0.9566956758499146, 'locale': ''}, {'text': 'Automotive lighting', 'score': 0.9277289509773254, 'locale': ''}, {'text': 'Hood', 'score': 0.9182772040367126, 'locale': ''}, {'text': 'Grille', 'score': 0.908598005771637, 'locale': ''}, {'text': 'Automotive design', 'score': 0.9064827561378479, 'locale': ''}, {'text': 'Motor vehicle', 'score': 0.9057731628417969, 'locale': ''}], 'success': True, 'dimensions': {'height': 859, 'width': 1500, 'type': 'jpg'}}"
+    },
+    "{'image': 'https://example.com/austin_shelters_flyer.jpg'}": {
+        "error": "",
+        "response": "{'labels': [{'text': 'Tire', 'score': 0.9788352251052856, 'locale': ''}, {'text': 'Wheel', 'score': 0.9750273823738098, 'locale': ''}, {'text': 'Land vehicle', 'score': 0.9640672206878662, 'locale': ''}, {'text': 'Car', 'score': 0.9598584175109863, 'locale': ''}, {'text': 'Vehicle', 'score': 0.9566956758499146, 'locale': ''}, {'text': 'Automotive lighting', 'score': 0.9277289509773254, 'locale': ''}, {'text': 'Hood', 'score': 0.9182772040367126, 'locale': ''}, {'text': 'Grille', 'score': 0.908598005771637, 'locale': ''}, {'text': 'Automotive design', 'score': 0.9064827561378479, 'locale': ''}, {'text': 'Motor vehicle', 'score': 0.9057731628417969, 'locale': ''}], 'success': True, 'dimensions': {'height': 859, 'width': 1500, 'type': 'jpg'}}"
+    },
+    "{'image': 'https://example.com/austin_homeless_resources.jpg'}": {
+        "error": "",
+        "response": "{'labels': [{'text': 'Tire', 'score': 0.9788352251052856, 'locale': ''}, {'text': 'Wheel', 'score': 0.9750273823738098, 'locale': ''}, {'text': 'Land vehicle', 'score': 0.9640672206878662, 'locale': ''}, {'text': 'Car', 'score': 0.9598584175109863, 'locale': ''}, {'text': 'Vehicle', 'score': 0.9566956758499146, 'locale': ''}, {'text': 'Automotive lighting', 'score': 0.9277289509773254, 'locale': ''}, {'text': 'Hood', 'score': 0.9182772040367126, 'locale': ''}, {'text': 'Grille', 'score': 0.908598005771637, 'locale': ''}, {'text': 'Automotive design', 'score': 0.9064827561378479, 'locale': ''}, {'text': 'Motor vehicle', 'score': 0.9057731628417969, 'locale': ''}], 'success': True, 'dimensions': {'height': 859, 'width': 1500, 'type': 'jpg'}}"
+    },
+    "{'image': 'https://example.com/honda-accord-2003.jpg'}": {
+        "error": "",
+        "response": "{'labels': [{'text': 'Tire', 'score': 0.9788352251052856, 'locale': ''}, {'text': 'Wheel', 'score': 0.9750273823738098, 'locale': ''}, {'text': 'Land vehicle', 'score': 0.9640672206878662, 'locale': ''}, {'text': 'Car', 'score': 0.9598584175109863, 'locale': ''}, {'text': 'Vehicle', 'score': 0.9566956758499146, 'locale': ''}, {'text': 'Automotive lighting', 'score': 0.9277289509773254, 'locale': ''}, {'text': 'Hood', 'score': 0.9182772040367126, 'locale': ''}, {'text': 'Grille', 'score': 0.908598005771637, 'locale': ''}, {'text': 'Automotive design', 'score': 0.9064827561378479, 'locale': ''}, {'text': 'Motor vehicle', 'score': 0.9057731628417969, 'locale': ''}], 'success': True, 'dimensions': {'height': 859, 'width': 1500, 'type': 'jpg'}}"
+    }
+}

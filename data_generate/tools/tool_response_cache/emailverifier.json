@@ -1,0 +1,46 @@
+{
+    "{'email': 'example@domain.com'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "email": {
+                    "mx_records": null,
+                    "smtp_server": null,
+                    "smtp_check": null,
+                    "accept_all": null,
+                    "block": null,
+                    "email": "example@domain.com",
+                    "gibberish": false,
+                    "disposable": false,
+                    "webmail": true,
+                    "result": "undeliverable",
+                    "score": 19,
+                    "regex": true,
+                    "status": "webmail",
+                    "whois": {
+                        "registrar_name": null,
+                        "created_date": null,
+                        "referral_url": null
+                    }
+                },
+                "sources": []
+            }
+        }
+    },
+    "{'email': 'b.mohamed@tomba.io'}": {
+        "error": "",
+        "response": "{'data': {'email': {'mx_records': True, 'smtp_server': True, 'smtp_check': True, 'accept_all': False, 'block': False, 'email': 'b.mohamed@tomba.io', 'gibberish': False, 'disposable': False, 'webmail': False, 'regex': True, 'whois': {'registrar_name': 'NameCheap, Inc.', 'created_date': '2020-07-07T20:54:07+01:00', 'referral_url': 'https://www.namecheap.com/'}, 'status': 'valid', 'result': 'deliverable', 'score': 100}, 'sources': [{'uri': 'https://github.com/tomba-io/generic-emails/blob/084fc1a63d3cdaf9a34f255bedc2baea49a8e8b9/src/lib/validation/hash.ts', 'website_url': 'github.com', 'extracted_on': '2021-02-08T20:09:54+01:00', 'last_seen_on': '2021-02-08T22:43:40+01:00', 'still_on_page': True}, {'uri': 'https://github.com/tomba-io/generic-emails/blame/084fc1a63d3cdaf9a34f255bedc2baea49a8e8b9/src/lib/validation/hash.ts', 'website_url': 'github.com', 'extracted_on': '2021-02-08T20:09:59+01:00', 'last_seen_on': '2021-02-08T22:43:40+01:00', 'still_on_page': True}, {'uri': 'https://katta.co/tomba-review/', 'website_url': 'katta.co', 'extracted_on': '2021-06-02T13:41:50+01:00', 'last_seen_on': '2021-06-02T18:26:12+01:00', 'still_on_page': True}, {'uri': 'https://shards.info/github/benemohamed/', 'website_url': 'shards.info', 'extracted_on': '2021-10-26T15:36:04+01:00', 'last_seen_on': '2021-12-22T23:57:50+01:00', 'still_on_page': True}, {'uri': 'https://githubmemory.com/repo/tomba-io/python', 'website_url': 'githubmemory.com', 'extracted_on': '2021-10-26T15:36:37+01:00', 'last_seen_on': '2021-12-22T23:57:49+01:00', 'still_on_page': True}, {'uri': 'https://pypi.org/project/tomba-io/', 'website_url': 'pypi.org', 'extracted_on': '2021-10-26T15:37:41+01:00', 'last_seen_on': '2021-10-26T15:37:46+01:00', 'still_on_page': True}, {'uri': 'https://www.npmjs.com/package/tomba', 'website_url': 'www.npmjs.com', 'extracted_on': '2021-10-26T15:39:28+01:00', 'last_seen_on': '2021-10-26T15:39:36+01:00', 'still_on_page': True}, {'uri': 'https://cnpmjs.org/package/tomba', 'website_url': 'cnpmjs.org', 'extracted_on': '2021-10-26T18:58:53+"
+    },
+    "{'email': 'john.doe@example.com'}": {
+        "error": "",
+        "response": "{'data': {'email': {'email': 'john.doe@example.com', 'mx_records': None, 'smtp_server': None, 'smtp_check': None, 'accept_all': None, 'block': None, 'disposable': True, 'webmail': False, 'gibberish': True, 'regex': True, 'status': 'disposable', 'result': 'undeliverable', 'score': 19, 'whois': {'registrar_name': 'RESERVED-Internet Assigned Numbers Authority', 'created_date': '1995-08-14 06:00:00', 'referral_url': 'http://res-dom.iana.org'}}, 'sources': []}}"
+    },
+    "{'email': 'jane.smith@example.com'}": {
+        "error": "",
+        "response": "{'data': {'email': {'email': 'jane.smith@example.com', 'mx_records': None, 'smtp_server': None, 'smtp_check': None, 'accept_all': None, 'block': None, 'disposable': True, 'webmail': False, 'gibberish': False, 'regex': True, 'status': 'disposable', 'result': 'undeliverable', 'score': 19, 'whois': {'registrar_name': 'RESERVED-Internet Assigned Numbers Authority', 'created_date': '1995-08-14 06:00:00', 'referral_url': 'http://res-dom.iana.org'}}, 'sources': []}}"
+    },
+    "{'email': 'info@example.com'}": {
+        "error": "",
+        "response": "{'data': {'email': {'email': 'info@example.com', 'mx_records': None, 'smtp_server': None, 'smtp_check': None, 'accept_all': None, 'block': None, 'disposable': True, 'webmail': False, 'gibberish': False, 'regex': True, 'status': 'disposable', 'result': 'undeliverable', 'score': 19, 'whois': {'registrar_name': 'RESERVED-Internet Assigned Numbers Authority', 'created_date': '1995-08-14 06:00:00', 'referral_url': 'http://res-dom.iana.org'}}, 'sources': []}}"
+    }
+}

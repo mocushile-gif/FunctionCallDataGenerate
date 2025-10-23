@@ -1,0 +1,20 @@
+{
+    "name": "get_all_advisories",
+    "description": "This is a sub-function API for tool ics_cert_advisories.\nTool description: An API to retrieve advisories for Industrial Control Systems that provide timely information about current security issues, vulnerabilities, and exploits from CISA.gov.\nAPI description: This endpoint will return back all  advisories and provide timely information about current security issues, vulnerabilities, and exploits from CISA.gov",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "info": {
+                "type": "boolean",
+                "description": "Flag to include additional information in the advisories. Defaults to None.",
+                "default": true
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of advisories to return. Defaults to 2.",
+                "default": 2.0
+            }
+        },
+        "required": []
+    }
+}

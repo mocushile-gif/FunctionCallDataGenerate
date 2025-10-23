@@ -1,0 +1,17 @@
+{
+    "name": "detail",
+    "description": "This is a sub-function API for tool chrome_stats.\nTool description: Programmatic access to Chrome extension stats and download Chrome extensions.\nAPI description: Fetches detailed historical transactions for a given address using the RapidAPI Real Estate Records API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID value obtained from the summary API call corresponding to the given address.",
+                "default": "bmnlcjabgnpnenekpadlanbbkooimhnj"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

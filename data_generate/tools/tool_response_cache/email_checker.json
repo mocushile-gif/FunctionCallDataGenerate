@@ -1,0 +1,12 @@
+{
+    "{'email': 'user@example.com'}": {
+        "error": "",
+        "response": {
+            "is_valid_email": true,
+            "is_valid_domain": true,
+            "is_disposable_email": true,
+            "domain_check_result": "example.com is a valid domain but classified as a disposable email domain in our database.",
+            "recommendation": "Consider verifying this email further or requesting an alternative address for critical account usage."
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "{'symbols': 'XAU', 'base': 'USD', 'date': '2025-06-02'}": {
+        "error": "",
+        "response": "{'success': True, 'timestamp': 1748797904, 'date': '2025-06-02', 'base': 'USD', 'symbol': 'XAU', 'rates': {'open': 0.00030173512898491, 'high': 0.000305232, 'low': 0.00030099361893528, 'close': 0.00030399249977386}, 'unit': 'per ounce'}"
+    },
+    "{'symbols': 'XAU', 'base': 'USD', 'date': '2025-06-03'}": {
+        "error": "",
+        "response": "{'success': True, 'timestamp': 1748895825, 'date': '2025-06-03', 'base': 'USD', 'symbol': 'XAU', 'rates': {'open': 0.00030173512898491, 'high': 0.000305232, 'low': 0.00030099361893528, 'close': 0.00030399249977386}, 'unit': 'per ounce'}"
+    },
+    "{'symbols': 'XAU', 'base': 'USD', 'date': '2025-05-27'}": {
+        "error": "",
+        "response": "{'success': True, 'timestamp': 1748895827, 'date': '2025-05-27', 'base': 'USD', 'symbol': 'XAU', 'rates': {'open': 0.00029898576827743, 'high': 0.00030408875009389, 'low': 0.000298645, 'close': 0.00030211951953338}, 'unit': 'per ounce'}"
+    },
+    "{'symbols': 'XAU', 'base': 'EUR', 'date': '2025-06-03'}": {
+        "error": "",
+        "response": "{'success': True, 'timestamp': 1748946183, 'date': '2025-06-03', 'base': 'EUR', 'symbol': 'XAU', 'rates': {'open': 2956.4468111466313, 'high': 2957.4756443433844, 'low': 2934.400399479262, 'close': 2943.398619849116}, 'unit': 'per ounce'}"
+    },
+    "{'symbols': 'XAG', 'base': 'USD', 'date': '2023-12-05'}": {
+        "error": "",
+        "response": "{'success': True, 'timestamp': 1749492317, 'date': '2023-12-05', 'base': 'USD', 'symbol': 'XAG', 'rates': {'open': 0.040788955943519, 'high': 0.041715070069085, 'low': 0.040584968246257, 'close': 0.041339048408348}, 'unit': 'per ounce'}"
+    },
+    "{'symbols': 'XPT', 'base': 'CAD', 'date': '2025-06-10'}": {
+        "error": "",
+        "response": "{'success': True, 'timestamp': 1749492476, 'date': '2025-06-10', 'base': 'CAD', 'symbol': 'XPT', 'rates': {'open': 1546.1508524952326, 'high': 1600.9886935356212, 'low': 1546.1508524952326, 'close': 1596.293054177871}, 'unit': 'per ounce'}"
+    },
+    "{'base': 'USD', 'date': '2025-06-10', 'symbols': 'XAG'}": {
+        "error": "",
+        "response": "{'success': True, 'timestamp': 1749628421, 'date': '2025-06-10', 'base': 'USD', 'symbol': 'XAG', 'rates': {'open': 0.027172882678957, 'high': 0.027515254551516, 'low': 0.027172882678957, 'close': 0.027345766872956}, 'unit': 'per ounce'}"
+    },
+    "{'base': 'USD', 'date': '2022-01-20', 'symbols': 'XAU'}": {
+        "error": "",
+        "response": "{'success': True, 'timestamp': 1738142115, 'date': '2022-01-20', 'base': 'USD', 'symbol': 'XAU', 'rates': {'open': 0.0005441088, 'high': 0.00054453856, 'low': 0.00054106492, 'close': 0.00054448416}, 'unit': 'per ounce'}"
+    },
+    "{'symbols': 'XAU', 'base': 'USD', 'date': '2025-06-14'}": {
+        "error": "",
+        "response": "{'success': True, 'timestamp': 1749859667, 'date': '2025-06-14', 'base': 'USD', 'symbol': 'XAU', 'rates': {'open': 0.00029126673986695, 'high': 0.00029126673986695, 'low': 0.00029126673861564, 'close': 0.00029126673861564}, 'unit': 'per ounce'}"
+    },
+    "{'base': 'USD', 'date': '2025-06-15', 'symbols': 'XAU'}": {
+        "error": "",
+        "response": "{'success': True, 'timestamp': 1749933836, 'date': '2025-06-15', 'base': 'USD', 'symbol': 'XAU', 'rates': {'open': 0.000294808, 'high': 0.000294808, 'low': 0.00029037446416301, 'close': 0.00029126673986695}, 'unit': 'per ounce'}"
+    }
+}

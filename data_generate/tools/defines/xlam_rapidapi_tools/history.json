@@ -1,0 +1,14 @@
+{
+    "name": "history",
+    "description": "This is a sub-function API for tool papercliff.\nTool description: Papercliff looks at the world's largest news agencies, reads articles, identifies and shares keywords\nAPI description: Fetches the number of articles published daily during the last week and the corresponding news agencies that created those articles, optionally filtering by specific terms.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "terms": {
+                "type": "string",
+                "description": "Narrows down results to articles that contain the provided keywords. The terms should consist of one to three words separated by a dash, e.g., `election-campaign`. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

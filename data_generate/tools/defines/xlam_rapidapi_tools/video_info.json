@@ -1,0 +1,17 @@
+{
+    "name": "video_info",
+    "description": "This is a sub-function API for tool tiktok_all_in_one.\nTool description: All in one api where you can get everything that mobile app use for it's work\nAPI description: Fetches video information from YouTube using the provided video ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "Retrieve this value from field \\\\\\\"aweme_id\\\\\\\" or from link for example:\nlink: https://www.tiktok.com/@watchs01/video/7013267270252252421\nvideo id(aweme_id): 7013267270252252421",
+                "default": 7.021560594788519e+18
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

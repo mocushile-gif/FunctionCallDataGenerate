@@ -1,0 +1,42 @@
+{
+    "{'country': 'us', 'language': 'en', 'count': '10'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "video_id": "kwai_12345",
+                    "title": "New York City Summer Vibes",
+                    "description": "Exploring iconic NYC landmarks under the summer sun!",
+                    "views": 15023,
+                    "likes": 8912,
+                    "comments": 456,
+                    "shares": 1200,
+                    "video_url": "https://cdn.kwai.com/videos/12345.mp4"
+                },
+                {
+                    "video_id": "kwai_67890",
+                    "title": "LA Beach Life",
+                    "description": "Chilling at Santa Monica Beach with friends \ud83c\udfd6\ufe0f",
+                    "views": 9876,
+                    "likes": 5432,
+                    "comments": 234,
+                    "shares": 678,
+                    "video_url": "https://cdn.kwai.com/videos/67890.mp4"
+                },
+                {
+                    "video_id": "kwai_24680",
+                    "title": "Food Truck Friday",
+                    "description": "Tasting the best food trucks in Austin, TX!",
+                    "views": 4567,
+                    "likes": 2345,
+                    "comments": 123,
+                    "shares": 345,
+                    "video_url": "https://cdn.kwai.com/videos/24680.mp4"
+                }
+            ],
+            "pagination": {
+                "next_pcursor": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.XzYyMDAyMDA"
+            }
+        }
+    }
+}

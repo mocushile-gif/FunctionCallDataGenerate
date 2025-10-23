@@ -1,0 +1,17 @@
+{
+    "name": "detailed_cake_recipe_by_id",
+    "description": "This is a sub-function API for tool the_birthday_cake_db.\nTool description: Birthday cake recipes with high-quality images stored on AWS S3 for fast accessibility. Easy to use!\nCategory: Food, Cakes\nAPI description: This function retrieves a detailed cake recipe based on a given recipe ID from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the cake recipe to retrieve.",
+                "default": "5"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "price_all",
+    "description": "This is a sub-function API for tool latest_stock_price.\nTool description: Latest Stock Price from NSE\nAPI description: Fetches the latest stock price from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "identifier": {
+                "type": "string",
+                "description": "The stock identifier (e.g., ticker symbol) to query. If not provided, fetches a general stock price update."
+            }
+        },
+        "required": []
+    }
+}

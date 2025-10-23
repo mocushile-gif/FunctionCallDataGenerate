@@ -1,0 +1,28 @@
+{
+    "name": "remove_duplicates",
+    "description": "Removes duplicate elements from a list while preserving the order. You can also specify a custom key function to determine whether two elements are considered duplicates, and control case sensitivity for string values.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "lst": {
+          "description": "The input list, which can contain integers, strings, floats, etc.",
+          "type": "array",
+          "items": {
+            "type": ["string", "number", "integer"]
+          }
+        },
+        "key": {
+          "description": "A custom function to determine if two elements are duplicates. If not provided, the function uses the element itself.",
+          "type": "string",
+          "default": null
+        },
+        "case_sensitive": {
+          "description": "If True, string comparisons are case-sensitive. Defaults to True.",
+          "type": "boolean",
+          "default": true
+        }
+      },
+      "required": ["lst"]
+    }
+  }
+  

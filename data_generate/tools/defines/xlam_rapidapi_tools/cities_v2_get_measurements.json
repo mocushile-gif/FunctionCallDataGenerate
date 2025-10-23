@@ -1,0 +1,47 @@
+{
+    "name": "cities_v2_get_measurements",
+    "description": "This is a sub-function API for tool airvisual.\nTool description: Query for Air Pollution Data, Weather information, Health Recommendations, etc... as on the official application\nAPI description: Fetches air quality and weather measurements for a specified city using its ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier for the city, as returned in the /v2/auto-complete endpoint.",
+                "default": "hW7vArorRd8cT9h6v"
+            },
+            "x_units_distance": {
+                "type": "string",
+                "description": "Unit of measurement for distance. One of 'miles' or 'kilometer'. Defaults to 'kilometer'.",
+                "default": "kilometer"
+            },
+            "x_units_pressure": {
+                "type": "string",
+                "description": "Unit of measurement for pressure. One of 'hg' or 'mbar'. Defaults to 'mbar'.",
+                "default": "mbar"
+            },
+            "x_aqi_index": {
+                "type": "string",
+                "description": "Air Quality Index standard to use. One of 'us' or 'cn'. Defaults to 'us'.",
+                "default": "us"
+            },
+            "x_units_temperature": {
+                "type": "string",
+                "description": "Unit of measurement for temperature. One of 'fahrenheit' or 'celsius'. Defaults to 'celsius'.",
+                "default": "celsius"
+            },
+            "x_user_timezone": {
+                "type": "string",
+                "description": "Timezone to use for the user. Defaults to 'Asia/Singapore'.",
+                "default": "Asia/Singapore"
+            },
+            "x_user_lang": {
+                "type": "string",
+                "description": "Language for response. Defaults to 'en-US'.",
+                "default": "en-US"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

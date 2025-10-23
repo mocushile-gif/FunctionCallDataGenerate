@@ -1,0 +1,25 @@
+{
+    "name": "songs",
+    "description": "This is a sub-function API for tool jet_set_radio_api.\nTool description: A data provider for all things Jet Set Radio in JSON format!\nAPI description: Fetches a list of songs from JSR/JSRF using the specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of items to return in the response. Default is '5'.",
+                "default": "5"
+            },
+            "sortby": {
+                "type": "string",
+                "description": "The field by which to sort the results. Possible values include fields on the document, e.g., 'name', 'stats'. Default is 'name'.",
+                "default": "name"
+            },
+            "orderby": {
+                "type": "string",
+                "description": "The order in which to sort the results. Possible values are 'asc' for ascending and 'desc' for descending. The `sortby` parameter must be present for this to take effect. Default is 'asc'.",
+                "default": "asc"
+            }
+        },
+        "required": []
+    }
+}

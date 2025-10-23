@@ -1,0 +1,23 @@
+{
+    "name": "extract_fast",
+    "description": "This is a sub-function API for tool mobile_phone_validation.\nTool description: Extract and validate mobile/cell/phone numbers from text, get extra info and various number formats.\nAPI description: Find and format/validate Phone/Cell numbers in given text.\n    \nCountry used to identify number format and highly recommended to set value in case you know it (as example your shop works only in US and clients have US cellnumbers).\n    \nUse 'country_auto' param in /extract endpoint case you can't provide Country and service will try to guess the country :)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "Country name or ISO2/ISO3 code to identify the number format.",
+                "default": "usa"
+            },
+            "text": {
+                "type": "string",
+                "description": "Text containing the phone or cell numbers to be extracted and validated.",
+                "default": "Real people with real answers in real time, 24/7.  1-800-266-8228, 1(800)266-8229"
+            }
+        },
+        "required": [
+            "country",
+            "text"
+        ]
+    }
+}

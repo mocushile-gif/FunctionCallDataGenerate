@@ -1,0 +1,17 @@
+{
+    "name": "get_user_info_by_user_id",
+    "description": "This is a sub-function API for tool instagram_looter.\nTool description: Access Instagram Data with Precision and Speed! Utilize Intelligent Request Filtering for Guaranteed 99.99% Response.\nAPI description: Fetch Instagram user information by user ID using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The Instagram user ID for which the information is to be fetched.",
+                "default": 18527.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

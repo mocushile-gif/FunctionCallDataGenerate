@@ -1,0 +1,28 @@
+{
+    "name": "currency_exchange_rate",
+    "description": "This is a sub-function API for tool real_time_finance_data.\nTool description: Get stocks / market quotes and trends, ETF, international exchanges / forex, crypto,  related news and analytics in real-time.\nAPI description: Fetches exchange rates between two currencies or cryptocurrencies.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "from_symbol": {
+                "type": "string",
+                "description": "A 3-letter currency code (ISO 4217) representing the currency to convert from (e.g., 'USD').",
+                "default": "USD"
+            },
+            "to_symbol": {
+                "type": "string",
+                "description": "A 3-letter currency code (ISO 4217) representing the currency to convert to (e.g., 'EUR').",
+                "default": "EUR"
+            },
+            "language": {
+                "type": "string",
+                "description": "The language to use for the results, specified as a 2-letter language code - see [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).\n\n**Default**: *en*.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "from_symbol",
+            "to_symbol"
+        ]
+    }
+}

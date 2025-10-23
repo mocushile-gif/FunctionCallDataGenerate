@@ -1,0 +1,17 @@
+{
+    "name": "get_open_profile_status",
+    "description": "This is a sub-function API for tool fresh_linkedin_profile_data.\nTool description: Reliable API for all LinkedIn Scraping Needs: profiles, companies, activities/posts, and job posts. This API scrapes data directly from LinkedIn upon request so that you'll get real-time data. Say goodbye to stale data!\n\nWe're active and responsive on this platform, please don't hesitate to drop a message in the Discussions or PM channels.\nAPI description: Given a LinkedIn profile URL, the API will let you know if that profile is “open profile” or not. **1 credit per call.**",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "linkedin_url": {
+                "type": "string",
+                "description": "The URL of the LinkedIn profile to check.",
+                "default": "https://www.linkedin.com/in/williamhgates/"
+            }
+        },
+        "required": [
+            "linkedin_url"
+        ]
+    }
+}

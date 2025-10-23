@@ -1,0 +1,14 @@
+{
+    "name": "actors_random",
+    "description": "This is a sub-function API for tool moviesdatabase.\nTool description: MoviesDatabase provides complete and updated data for over 9 million titles ( movies, series and episodes) and 11 million actors / crew and cast members\nAPI description: Fetches a random list of actors from the Movies Database RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The number of random actors to retrieve. Defaults to None, and the API will use its default value if not specified."
+            }
+        },
+        "required": []
+    }
+}

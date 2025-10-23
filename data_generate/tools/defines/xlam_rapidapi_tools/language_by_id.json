@@ -1,0 +1,16 @@
+{
+    "name": "language_by_id",
+    "description": "This is a sub-function API for tool popular_languages.\nTool description: Most popular languages in the world\nAPI description: Fetch the popular programming language by its ID using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the programming language to fetch."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

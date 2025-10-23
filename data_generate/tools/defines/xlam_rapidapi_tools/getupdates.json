@@ -1,0 +1,22 @@
+{
+    "name": "getupdates",
+    "description": "This is a sub-function API for tool sms_receive.\nTool description: Integrate receiving SMS message into your apps and applications, enabling automation based on incoming text messages.\n\nFor a simple demonstration, see https://www.tomwimmenhove.com/sms/\n\nAPI description: Fetch updates about newly received messages from the server, starting from a given message ID and optionally waiting for incoming messages for a specified time.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start_id": {
+                "type": "number",
+                "description": "The ID from which to start fetching updates. Set to zero for the first call to retrieve all updates.",
+                "default": 0.0
+            },
+            "time_out": {
+                "type": "number",
+                "description": "The time-out period (in seconds) for the server to wait for incoming messages before returning. Defaults to 0.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "start_id"
+        ]
+    }
+}

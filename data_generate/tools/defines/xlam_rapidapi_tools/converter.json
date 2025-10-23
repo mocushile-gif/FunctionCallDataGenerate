@@ -1,0 +1,28 @@
+{
+    "name": "converter",
+    "description": "This is a sub-function API for tool currency_converter_v3.\nTool description: It allows you to convert one currency to another based on the current exchange rate. It is possible to perform currency conversion to multiple currencies at once\nAPI description: This endpoint is used to perform currency conversion between multiple currencies. The endpoint accepts input parameters in the form of the amount of money, source currency, and one or more target currencies.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "target": {
+                "type": "string",
+                "description": "This parameter specifies the currency code of the currency that you want to convert to. It is a mandatory parameter and should be a valid three-letter currency code. If there are multiple target currencies, they should be separated by a comma (',') .",
+                "default": "EUR,INR,JPY"
+            },
+            "source": {
+                "type": "string",
+                "description": "This parameter represents the currency from which you want to convert. It is a mandatory parameter and should be a valid three-letter currency code, such as USD (United States Dollar) or EUR (Euro) or many others.",
+                "default": "USD"
+            },
+            "amount": {
+                "type": "number",
+                "description": "This parameter represents the amount that you want to convert from the source currency to the target currency. It is an optional parameter, and if not provided, the default value will be set to 1",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "target",
+            "source"
+        ]
+    }
+}

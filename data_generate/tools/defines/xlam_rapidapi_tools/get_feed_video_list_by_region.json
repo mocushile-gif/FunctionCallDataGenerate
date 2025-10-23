@@ -1,0 +1,22 @@
+{
+    "name": "get_feed_video_list_by_region",
+    "description": "This is a sub-function API for tool tiktok_download_video.\nTool description: Tiktok Best Spider. Fast. HD Quality. Without Watermark Download. Video Full Detail. Signature X-Argus,X-Ladon,X-Gorgon \nmail: nb429429@gmail.com\n\nAPI description: Fetches a list of feed videos from TikTok for a given region.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "region": {
+                "type": "string",
+                "description": "The region code for which to fetch the feed video list.",
+                "default": "JP"
+            },
+            "count": {
+                "type": "string",
+                "description": "The number of videos to fetch, with a default of '10'. Maximum of 20 videos can be fetched.",
+                "default": "10"
+            }
+        },
+        "required": [
+            "region"
+        ]
+    }
+}

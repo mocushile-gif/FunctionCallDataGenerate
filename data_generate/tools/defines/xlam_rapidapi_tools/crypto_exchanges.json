@@ -1,0 +1,15 @@
+{
+    "name": "crypto_exchanges",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: This API call return array of cryptocurrency exchanges available at Twelve Data API. This list is daily updated.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "format": {
+                "type": "string",
+                "description": "The desired response format. Acceptable values are 'json' (default) and 'csv'.",
+                "default": "json"
+            }
+        },
+        "required": []
+    }
+}

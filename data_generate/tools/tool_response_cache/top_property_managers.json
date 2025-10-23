@@ -1,0 +1,42 @@
+{
+    "{\n  \"location\": \"Santa Monica\"\n}": {
+        "error": "",
+        "response": "{\"property_managers\":[{\"avg_rating\":4.60620155,\"listings_change\":0,\"name\":\"Ocean Breeze Housing\",\"total_listings\":20,\"total_reviews\":129},{\"avg_rating\":4.5763158,\"listings_change\":0,\"name\":\"The Line Collection (T.L.C)\",\"total_listings\":16,\"total_reviews\":57},{\"avg_rating\":4.31720285,\"listings_change\":-0.1666666667,\"name\":\"Sea Blue Hotel\",\"total_listings\":15,\"total_reviews\":1119},{\"avg_rating\":4.82741935,\"listings_change\":-0.125,\"name\":\"StayCozy By Andrea\",\"total_listings\":14,\"total_reviews\":93},{\"avg_rating\":4.24439055,\"listings_change\":0.1666666667,\"name\":\"Silvio Property Manager\",\"total_listings\":7,\"total_reviews\":1649}]}"
+    },
+    "{'location': 'Santa Monica'}": {
+        "error": "",
+        "response": "{'property_managers': [{'avg_rating': 4.59346155, 'listings_change': 0, 'name': 'Ocean Breeze Housing', 'total_listings': 21, 'total_reviews': 130}, {'avg_rating': 4.5763158, 'listings_change': 0.0625, 'name': 'The Line Collection (T.L.C)', 'total_listings': 17, 'total_reviews': 57}, {'avg_rating': 4.8281915, 'listings_change': -0.125, 'name': 'StayCozy By Andrea', 'total_listings': 14, 'total_reviews': 94}, {'avg_rating': 4.32776455, 'listings_change': -0.3888888889, 'name': 'Sea Blue Hotel', 'total_listings': 11, 'total_reviews': 841}, {'avg_rating': 4.23691195, 'listings_change': 0.4, 'name': 'Silvio Property Manager', 'total_listings': 7, 'total_reviews': 1658}]}"
+    },
+    "{'location': 'santa monica'}": {
+        "error": "",
+        "response": "{'property_managers': [{'avg_rating': 4.88584195, 'listings_change': 0.1559633028, 'name': 'Host / Nicole', 'total_listings': 126, 'total_reviews': 1063}, {'avg_rating': 4.6213816, 'listings_change': -0.1428571429, 'name': 'Ocean Breeze Housing', 'total_listings': 18, 'total_reviews': 152}, {'avg_rating': 4.3801873, 'listings_change': 1.25, 'name': 'Silvio Property Manager', 'total_listings': 9, 'total_reviews': 694}, {'avg_rating': 4.815625, 'listings_change': -0.5, 'name': 'StayCozy By Andrea', 'total_listings': 7, 'total_reviews': 48}, {'avg_rating': 4.5236842, 'listings_change': -0.25, 'name': 'Just Bring Your Toothbrush', 'total_listings': 6, 'total_reviews': 38}]}"
+    },
+    "{'location': 'Las Vegas'}": {
+        "error": "",
+        "response": "{'property_managers': [{'avg_rating': 4.673497267759563, 'name': 'StripViewSuites', 'total_listings': 807, 'total_reviews': 26273}, {'avg_rating': 4.624444444444444, 'name': 'Christian RRP', 'total_listings': 543, 'total_reviews': 796}, {'avg_rating': 4.87791095890411, 'name': 'Doug', 'total_listings': 333, 'total_reviews': 3372}, {'avg_rating': 4.146813725490196, 'name': 'Desert Escape Residences', 'total_listings': 300, 'total_reviews': 3245}, {'avg_rating': 4.851736111111111, 'name': 'Las Vegas Condo Rentals', 'total_listings': 144, 'total_reviews': 11579}]}"
+    },
+    "{'location': 'Los Angeles'}": {
+        "error": "",
+        "response": "{'property_managers': [{'avg_rating': 4.32911765, 'listings_change': -0.2008830022, 'name': 'Blueground', 'total_listings': 362, 'total_reviews': 170}, {'avg_rating': 4.55333945, 'listings_change': 0.7906976744, 'name': 'LEVEL Furnished Living', 'total_listings': 154, 'total_reviews': 1093}, {'avg_rating': 4.59213975, 'listings_change': -0.02586206897, 'name': 'Co Host Real Estate', 'total_listings': 113, 'total_reviews': 229}, {'avg_rating': 4.83960175, 'listings_change': 0.2962962963, 'name': 'The Maimon Group', 'total_listings': 70, 'total_reviews': 226}, {'avg_rating': 4.47855625, 'listings_change': -0.4375, 'name': 'The Line Collection (T.L.C)', 'total_listings': 63, 'total_reviews': 471}]}"
+    },
+    "{'location': 'Seattle'}": {
+        "error": "",
+        "response": "{'property_managers': [{'avg_rating': 4.485691823899371, 'name': 'Vacasa', 'total_listings': 334, 'total_reviews': 11003}, {'avg_rating': 4.433333333333334, 'name': 'Blueground', 'total_listings': 297, 'total_reviews': 134}, {'avg_rating': 4.637254901960785, 'name': 'Evolve', 'total_listings': 164, 'total_reviews': 4034}, {'avg_rating': 4.659920634920635, 'name': 'Vince', 'total_listings': 126, 'total_reviews': 9079}, {'avg_rating': 4.46375, 'name': 'blueground US', 'total_listings': 121, 'total_reviews': 64}]}"
+    },
+    "{'location': 'Austin, Texas'}": {
+        "error": "",
+        "response": "{'property_managers': [{'avg_rating': 4.656960556844548, 'name': 'Vacasa', 'total_listings': 473, 'total_reviews': 19569}, {'avg_rating': 4.262352941176471, 'name': 'Landing, Inc.', 'total_listings': 324, 'total_reviews': 118}, {'avg_rating': 4.622348484848485, 'name': 'Hill Country Premier Lodging', 'total_listings': 268, 'total_reviews': 16657}, {'avg_rating': 4.236434108527132, 'name': 'Evonify', 'total_listings': 268, 'total_reviews': 5968}, {'avg_rating': 4.680122950819672, 'name': 'Evolve', 'total_listings': 261, 'total_reviews': 7731}]}"
+    },
+    "{'location': 'Austin'}": {
+        "error": "",
+        "response": "{'message': 'Invalid address'}"
+    },
+    "{'location': 'Austin, TX'}": {
+        "error": "",
+        "response": "{'message': 'Invalid address'}"
+    },
+    "{'location': 'Houston, TX'}": {
+        "error": "",
+        "response": "{'message': 'Invalid address'}"
+    }
+}

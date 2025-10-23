@@ -1,0 +1,20 @@
+{
+    "name": "top_players_by_royal",
+    "description": "This is a sub-function API for tool trackmania.\nTool description: Get Stats, Matches and Leaderboards from Trackmania (Unofficial).\nAPI description: Fetch the top players by their royal rank from the Trackmania API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The result page, each containing 50 results. Default page is `0`.",
+                "default": 0.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The result limit that gets returned. Default limit is `50`.",
+                "default": 50.0
+            }
+        },
+        "required": []
+    }
+}

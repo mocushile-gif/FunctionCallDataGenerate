@@ -1,0 +1,23 @@
+{
+    "name": "getcodecontent",
+    "description": "This is a sub-function API for tool flow_study.\nTool description: search in flow block chain \nAPI description: Fetches the content of a contract using the provided contract address and name from the given API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "contract_address": {
+                "type": "string",
+                "description": "The address of the contract to fetch.",
+                "default": "0x011b6f1425389550"
+            },
+            "contract_name": {
+                "type": "string",
+                "description": "The name of the contract to fetch.",
+                "default": "NWayUtilityCoin "
+            }
+        },
+        "required": [
+            "contract_address",
+            "contract_name"
+        ]
+    }
+}

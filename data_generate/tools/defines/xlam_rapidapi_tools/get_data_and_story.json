@@ -1,0 +1,17 @@
+{
+    "name": "get_data_and_story",
+    "description": "This is a sub-function API for tool snapchat_story.\nTool description: Download all stories and account information easy , Channel : https://t.me/keepdeving , Dm : https://t.me/PPooP\nAPI description: Fetches data and story for a given Snapchat username using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user": {
+                "type": "string",
+                "description": "The Snapchat username for which to fetch the data and story.",
+                "default": "ysyn_lny"
+            }
+        },
+        "required": [
+            "user"
+        ]
+    }
+}

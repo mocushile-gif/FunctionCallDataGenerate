@@ -1,0 +1,22 @@
+{
+    "name": "stays_auto_complete",
+    "description": "This is a sub-function API for tool booking_com_v2.\nTool description: Real-time data, unofficial API Booking.com\nThis API helps to query rooms, price, facilities, policities.. from many hotels around the world to create a travel\nAPI description: Fetches auto-complete suggestions for stays based on a given location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The location for which to get auto-complete suggestions.",
+                "default": "ch"
+            },
+            "language_code": {
+                "type": "string",
+                "description": "The language code for the results. Defaults to 'en-us'.",
+                "default": "en-us"
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

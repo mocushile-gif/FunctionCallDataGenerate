@@ -1,0 +1,17 @@
+{
+    "name": "strongs_number_detail_api",
+    "description": "This is a sub-function API for tool complete_study_bible.\nTool description: The most COMPLETE Bible study API available! Strongs, Locations, Dictionaries, and more! \nAPI description: Receives a Strongs Number or comma-separated list of Strong's Numbers (limit 3 at a time) and returns detailed information for each number, including Greek and Hebrew, phonetic pronunciation guide, root, Strong's Condordance, Mounce's Dictionary, Thayer's Greek Lexicon, and Brown-Driver-Brigg's (BDB) Lexicon (Hebrew only).\n\nThayer's and BDB are stored as html and should be displayed as raw html in the browser. Add CSS styling as desired.\nAll scripture references in the html are stored as <a> tags with the f",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "comma_separated_strongs_numbers": {
+                "type": "string",
+                "description": "A comma-separated list of Strong's Numbers (up to 3 at a time).",
+                "default": "G4931,G5000"
+            }
+        },
+        "required": [
+            "comma_separated_strongs_numbers"
+        ]
+    }
+}

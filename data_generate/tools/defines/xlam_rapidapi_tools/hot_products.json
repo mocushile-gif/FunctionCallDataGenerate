@@ -1,0 +1,22 @@
+{
+    "name": "hot_products",
+    "description": "This is a sub-function API for tool aliexpress_true_api.\nTool description: Fetching data from AliExpress instantly using an powerful oracle server. If there will be high demand, I will set up multiple servers in different regions with a load balancer to ensure fast and reliable service. Rest assured, the service will be fast and reliable with no down times.\nAPI description: Get hot products by search value, you can set maximum search price too. You will get up to 50 results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "search_value": {
+                "type": "string",
+                "description": "The search term used to find hot products on AliExpress.",
+                "default": "xiaomi"
+            },
+            "max_price": {
+                "type": "number",
+                "description": "The maximum price for the product searches. Defaults to 10000.",
+                "default": 10000
+            }
+        },
+        "required": [
+            "search_value"
+        ]
+    }
+}

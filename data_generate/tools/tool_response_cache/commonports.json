@@ -1,0 +1,53 @@
+{
+    "{}": {
+        "error": "",
+        "response": [
+            {
+                "ServiceName": "domain",
+                "PortNumber": "53",
+                "PortType": "System Port",
+                "TransportProtocol": "tcp",
+                "Description": "Domain Name Server",
+                "Reference": "N/A",
+                "Source": "Internet Assigned Numbers Authority (IANA)",
+                "Notes": ""
+            }
+        ]
+    },
+    "{'protocol': 'tcp'}": {
+        "error": "",
+        "response": "[{'ServiceName': 'domain', 'PortNumber': '53', 'PortType': 'System Port', 'TransportProtocol': 'tcp', 'Description': 'Domain Name Server', 'Reference': 'N/A', 'Source': 'Internet Assigned Numbers Authority (IANA)', 'Notes': ''}]"
+    },
+    "{'port': '22', 'protocol': 'tcp'}": {
+        "error": "",
+        "response": "[{'ServiceName': 'ssh', 'PortNumber': '22', 'PortType': 'System Port', 'TransportProtocol': 'tcp', 'Description': 'The Secure Shell (SSH) Protocol', 'Reference': 'https://datatracker.ietf.org/doc/html/RFC4251', 'Source': 'Internet Assigned Numbers Authority (IANA)', 'Notes': 'Defined TXT keys: u=<username> p=<password>'}]"
+    },
+    "{'port': '443', 'protocol': 'tcp'}": {
+        "error": "",
+        "response": "[{'ServiceName': 'https', 'PortNumber': '443', 'PortType': 'System Port', 'TransportProtocol': 'tcp', 'Description': 'http protocol over TLS/SSL', 'Reference': 'https://datatracker.ietf.org/doc/html/RFC9110', 'Source': 'Internet Assigned Numbers Authority (IANA)', 'Notes': ''}]"
+    },
+    "{'port': '5060', 'protocol': 'udp'}": {
+        "error": "",
+        "response": "The service is unavailable."
+    },
+    "{'service': 'ssh'}": {
+        "error": "",
+        "response": "The service is unavailable."
+    },
+    "{'port': '80', 'protocol': 'tcp'}": {
+        "error": "",
+        "response": "[{'ServiceName': 'http', 'PortNumber': '80', 'PortType': 'System Port', 'TransportProtocol': 'tcp', 'Description': 'World Wide Web HTTP', 'Reference': 'https://datatracker.ietf.org/doc/html/RFC9110', 'Source': 'Internet Assigned Numbers Authority (IANA)', 'Notes': 'Defined TXT keys: u=<username> p=<password> path=<path to document>'}, {'ServiceName': 'www', 'PortNumber': '80', 'PortType': 'System Port', 'TransportProtocol': 'tcp', 'Description': 'World Wide Web HTTP', 'Reference': 'https://datatracker.ietf.org/doc/html/RFC9110', 'Source': 'Internet Assigned Numbers Authority (IANA)', 'Notes': 'This is a duplicate of the \"http\" service and should not be used for discovery purposes.'}, {'ServiceName': 'www-http', 'PortNumber': '80', 'PortType': 'System Port', 'TransportProtocol': 'tcp', 'Description': 'World Wide Web HTTP', 'Reference': 'N/A', 'Source': 'Internet Assigned Numbers Authority (IANA)', 'Notes': 'This is a duplicate of the \"http\" service and should not be used for discovery purposes.\\n      u=<username> p=<password> path=<path to document>\\n        (see txtrecords.html#http)\\n        Known Subtypes: _printer\\n        NOTE: The meaning of this service type, though called just \"http\", actually\\n        denotes something more precise than just \"any data transported using HTTP\".\\n        The DNS-SD service type \"http\" should only be used to advertise content that:\\n        * is served over HTTP,\\n        * can be displayed by \"typical\" web browser client software, and\\n        * is intented primarily to be viewed by a human user.\\n        Of course, the definition of \"typical web browser\" is subjective, and may\\n        change over time, but for practical purposes the DNS-SD service type \"http\"\\n        can be understood as meaning \"human-readable HTML content served over HTTP\".\\n        In some cases other widely-supported content types may also be appropriate,\\n        such as plain text over HTTP, or JPEG image over HTTP.\\n        Content types not intented primarily for viewing by a human user, or not\\n"
+    },
+    "{'port': '8080', 'protocol': 'tcp'}": {
+        "error": "",
+        "response": "The service is unavailable."
+    },
+    "{'port': '8443', 'protocol': 'tcp'}": {
+        "error": "",
+        "response": "The service is unavailable."
+    },
+    "{'port': '80'}": {
+        "error": "",
+        "response": "[{'ServiceName': 'http', 'PortNumber': '80', 'PortType': 'System Port', 'TransportProtocol': 'tcp', 'Description': 'World Wide Web HTTP', 'Reference': 'https://datatracker.ietf.org/doc/html/RFC9110', 'Source': 'Internet Assigned Numbers Authority (IANA)', 'Notes': 'Defined TXT keys: u=<username> p=<password> path=<path to document>'}, {'ServiceName': 'www', 'PortNumber': '80', 'PortType': 'System Port', 'TransportProtocol': 'tcp', 'Description': 'World Wide Web HTTP', 'Reference': 'https://datatracker.ietf.org/doc/html/RFC9110', 'Source': 'Internet Assigned Numbers Authority (IANA)', 'Notes': 'This is a duplicate of the \"http\" service and should not be used for discovery purposes.'}, {'ServiceName': 'www-http', 'PortNumber': '80', 'PortType': 'System Port', 'TransportProtocol': 'tcp', 'Description': 'World Wide Web HTTP', 'Reference': 'N/A', 'Source': 'Internet Assigned Numbers Authority (IANA)', 'Notes': 'This is a duplicate of the \"http\" service and should not be used for discovery purposes.\\n      u=<username> p=<password> path=<path to document>\\n        (see txtrecords.html#http)\\n        Known Subtypes: _printer\\n        NOTE: The meaning of this service type, though called just \"http\", actually\\n        denotes something more precise than just \"any data transported using HTTP\".\\n        The DNS-SD service type \"http\" should only be used to advertise content that:\\n        * is served over HTTP,\\n        * can be displayed by \"typical\" web browser client software, and\\n        * is intented primarily to be viewed by a human user.\\n        Of course, the definition of \"typical web browser\" is subjective, and may\\n        change over time, but for practical purposes the DNS-SD service type \"http\"\\n        can be understood as meaning \"human-readable HTML content served over HTTP\".\\n        In some cases other widely-supported content types may also be appropriate,\\n        such as plain text over HTTP, or JPEG image over HTTP.\\n        Content types not intented primarily for viewing by a human user, or not\\n"
+    }
+}

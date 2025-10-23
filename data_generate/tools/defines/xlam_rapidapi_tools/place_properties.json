@@ -1,0 +1,21 @@
+{
+    "name": "place_properties",
+    "description": "This is a sub-function API for tool places.\nTool description: Over 10 million tourist attractions and facilities around the world\nAPI description: Retrieves detailed information about a place using its unique identifier (xid) via the OpenTripMap API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "xid": {
+                "type": "string",
+                "description": "Unique identifier of the place in OpenTripMap."
+            },
+            "lang": {
+                "type": "string",
+                "description": "Two-letter language code (ISO639-1). The following values are available: en (english), ru (russian)"
+            }
+        },
+        "required": [
+            "xid",
+            "lang"
+        ]
+    }
+}

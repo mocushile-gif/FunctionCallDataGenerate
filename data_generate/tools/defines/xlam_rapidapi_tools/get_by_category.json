@@ -1,0 +1,15 @@
+{
+    "name": "get_by_category",
+    "description": "This is a sub-function API for tool house_plants.\nTool description: This API provides a database of house plants, along with their description and information how to best take care of them (ideal temperature, light, etc.).\n\nAll proceeds go to charity (donated at the end of each month).\nAPI description: Fetch a list of plants by their category from the house-plants API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "The category of plants to fetch. Defaults to 'flower'.",
+                "default": "flower"
+            }
+        },
+        "required": []
+    }
+}

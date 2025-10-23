@@ -1,0 +1,17 @@
+{
+    "name": "get_specific_country",
+    "description": "This is a sub-function API for tool europe_fuel_prices.\nTool description: Fuel prices from European Commision website\nAPI description: Fetches fuel prices for a specific country from the RapidAPI endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The name of the country for which to fetch fuel prices.",
+                "default": "Germany"
+            }
+        },
+        "required": [
+            "country"
+        ]
+    }
+}

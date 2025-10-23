@@ -1,0 +1,17 @@
+{
+    "name": "v1_thesaurus",
+    "description": "This is a sub-function API for tool thesaurus_by_api_ninjas.\nTool description: Get synonym and antonyms for any word. See more info at https://api-ninjas.com/api/thesaurus.\nAPI description: API Ninjas Thesaurus API endpoint. Returns a list of synonyms and a list of antonyms for a given word.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "word": {
+                "type": "string",
+                "description": "The word for which to find synonyms and antonyms.",
+                "default": "bright"
+            }
+        },
+        "required": [
+            "word"
+        ]
+    }
+}

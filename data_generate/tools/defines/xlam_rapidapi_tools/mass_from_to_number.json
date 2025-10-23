@@ -1,0 +1,29 @@
+{
+    "name": "mass_from_to_number",
+    "description": "This is a sub-function API for tool unitconversion.\nTool description: App to easily convert units\nAPI description: Converts a mass value from one unit to another using the RapidAPI unit conversion service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "number": {
+                "type": "number",
+                "description": "The numerical value of the mass to be converted.",
+                "default": 100.0
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The unit of mass to convert from (e.g., 'kg', 'lb').",
+                "default": "gram"
+            },
+            "to": {
+                "type": "string",
+                "description": "The unit of mass to convert to (e.g., 'kg', 'lb').",
+                "default": "pound"
+            }
+        },
+        "required": [
+            "number",
+            "is_from",
+            "to"
+        ]
+    }
+}

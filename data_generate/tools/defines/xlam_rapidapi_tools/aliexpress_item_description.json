@@ -1,0 +1,21 @@
+{
+    "name": "aliexpress_item_description",
+    "description": "This is a sub-function API for tool aliexpress_datahub.\nTool description: 🥇#1 Data Provider. Real-Time product data API you've been looking for. No manual rules or web-scraper maintenance is required.\nAPI description: Fetches the detailed description of an AliExpress item using its item ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "itemid": {
+                "type": "number",
+                "description": "The ID of the AliExpress item.",
+                "default": 3256804591426248.0
+            },
+            "locale": {
+                "type": "string",
+                "description": "Locale parameter is used to display the titles and other content in selected language. All values are being validated and only the ones from the list are supported. Full list of supporting locale options, please use '**Locale List'** at '**Base**' group endpoints."
+            }
+        },
+        "required": [
+            "itemid"
+        ]
+    }
+}

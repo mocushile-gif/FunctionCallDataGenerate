@@ -1,0 +1,35 @@
+{
+    "name": "get_items_by_query",
+    "description": "This is a sub-function API for tool rpg_items.\nTool description: An api of generated RPG items\nAPI description: Fetch RPG item details based on provided query parameters such as rank, slot, rarity, name, and type from the RPG Items API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "rank": {
+                "type": "string",
+                "description": "The rank of the item (default is '1').",
+                "default": "1"
+            },
+            "slot": {
+                "type": "string",
+                "description": "The inventory slot type of the item (default is 'chest').",
+                "default": "chest"
+            },
+            "rarity": {
+                "type": "string",
+                "description": "The rarity of the item (default is 'common').",
+                "default": "common"
+            },
+            "name": {
+                "type": "string",
+                "description": "The name of the item (default is 'Linen Cloth Robe').",
+                "default": "Linen Cloth Robe"
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of the item (default is 'armor').",
+                "default": "armor"
+            }
+        },
+        "required": []
+    }
+}

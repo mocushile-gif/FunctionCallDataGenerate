@@ -1,0 +1,16 @@
+{
+    "name": "get_beverage_by_there_id",
+    "description": "This is a sub-function API for tool beverages_and_desserts.\nTool description: This api returns various kinds of Beverages and Desserts\nAPI description: Retrieves beverage details by the given beverage ID from the RapidAPI Beverages and Desserts API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the beverage to retrieve."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

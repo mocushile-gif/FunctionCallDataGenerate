@@ -1,0 +1,17 @@
+{
+    "name": "airport_search",
+    "description": "This is a sub-function API for tool flight_fare_search.\nTool description: Elevate your travel game with Flight Fare Search API! Get real-time flight data, fares, and airport info for seamless travel planning. Transform your app into a powerful travel companion with Flight Fare Search.\nAPI description: Search for airports using the RapidAPI Flight Fare Search API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search term to use for finding airports.",
+                "default": "LHR"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

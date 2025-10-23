@@ -1,0 +1,28 @@
+{
+    "name": "downloadmovie",
+    "description": "This is a sub-function API for tool helioviewer_v1.\nTool description: Helioviewer is an open-source project for the visualization of solar and heliospheric data, funded by ESA and NASA.\nAPI description: Downloads a movie in the specified format using the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "Unique movie identifier (provided by the response to a `queueMovie` request).",
+                "default": "VXvX5"
+            },
+            "format": {
+                "type": "string",
+                "description": "Format to download the movie in. Supported formats are 'mp4', 'webm', or 'flv'.",
+                "default": "mp4"
+            },
+            "hq": {
+                "type": "boolean",
+                "description": "If set to True, downloads a higher-quality version of the movie. This is only valid for 'mp4' format.",
+                "default": true
+            }
+        },
+        "required": [
+            "is_id",
+            "format"
+        ]
+    }
+}

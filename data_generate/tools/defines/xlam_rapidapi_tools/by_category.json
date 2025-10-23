@@ -1,0 +1,17 @@
+{
+    "name": "by_category",
+    "description": "This is a sub-function API for tool moka_news.\nTool description: A scrapper / scraper API to get latest news every minute from more than 30 sources all over the world as a start ( sources will be increased with time to be hundreds of different sources of live news )  \nAPI description: Fetches the recent 50 news articles by category using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cat": {
+                "type": "string",
+                "description": "The category of the news to fetch, e.g., 'Sport', 'World', etc.",
+                "default": "Sport"
+            }
+        },
+        "required": [
+            "cat"
+        ]
+    }
+}

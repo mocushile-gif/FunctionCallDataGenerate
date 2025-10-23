@@ -1,0 +1,23 @@
+{
+    "name": "hourly_forecast_48_hours",
+    "description": "This is a sub-function API for tool easy_weather.\nTool description: Detailed current conditions, hourly forecasts, daily forecasts, and weather alerts by latitude and longitude in JSON format.\nAPI description: Fetches a 48-hour weather forecast for the specified latitude and longitude coordinates.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "latitude": {
+                "type": "string",
+                "description": "The latitude coordinate for the forecast location.",
+                "default": "-22.95"
+            },
+            "longitude": {
+                "type": "string",
+                "description": "The longitude coordinate for the forecast location.",
+                "default": "-43.21"
+            }
+        },
+        "required": [
+            "latitude",
+            "longitude"
+        ]
+    }
+}

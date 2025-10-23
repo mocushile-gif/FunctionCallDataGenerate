@@ -1,0 +1,100 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "inbox_initial_state": {
+                "cursor": "GQwA",
+                "inbox_timelines": {
+                    "trusted": {
+                        "status": "AT_END"
+                    },
+                    "untrusted": {
+                        "status": "AT_END"
+                    },
+                    "untrusted_low_quality": {
+                        "status": "AT_END"
+                    }
+                },
+                "last_seen_event_id": "0",
+                "trusted_last_seen_event_id": "0",
+                "untrusted_last_seen_event_id": "0"
+            }
+        }
+    },
+    "{'twttr_session': 'session_token_1'}": {
+        "error": "",
+        "response": {
+            "inbox_initial_state": {
+                "cursor": "GQwA",
+                "inbox_timelines": {
+                    "trusted": {
+                        "status": "AT_END"
+                    },
+                    "untrusted": {
+                        "status": "AT_END"
+                    },
+                    "untrusted_low_quality": {
+                        "status": "AT_END"
+                    }
+                },
+                "last_seen_event_id": "1234567890",
+                "trusted_last_seen_event_id": "1234567890",
+                "untrusted_last_seen_event_id": "1234567890"
+            },
+            "messages": [
+                {
+                    "id": "1",
+                    "sender": "user_123",
+                    "recipient": "user_456",
+                    "text": "Hello! How are you?",
+                    "timestamp": "2023-10-01T12:00:00Z"
+                },
+                {
+                    "id": "2",
+                    "sender": "user_456",
+                    "recipient": "user_123",
+                    "text": "I'm good, thank you! How about you?",
+                    "timestamp": "2023-10-01T12:05:00Z"
+                }
+            ]
+        }
+    },
+    "{'twttr_session': 'session_token_2'}": {
+        "error": "",
+        "response": {
+            "inbox_initial_state": {
+                "cursor": "GQwB",
+                "inbox_timelines": {
+                    "trusted": {
+                        "status": "AT_END"
+                    },
+                    "untrusted": {
+                        "status": "AT_END"
+                    },
+                    "untrusted_low_quality": {
+                        "status": "AT_END"
+                    }
+                },
+                "last_seen_event_id": "9876543210",
+                "trusted_last_seen_event_id": "9876543210",
+                "untrusted_last_seen_event_id": "9876543210"
+            },
+            "messages": [
+                {
+                    "id": "3",
+                    "sender": "user_789",
+                    "recipient": "user_456",
+                    "text": "Hey, are you free to chat?",
+                    "timestamp": "2023-10-02T10:00:00Z"
+                },
+                {
+                    "id": "4",
+                    "sender": "user_456",
+                    "recipient": "user_789",
+                    "text": "Sure, what's up?",
+                    "timestamp": "2023-10-02T10:05:00Z"
+                }
+            ]
+        }
+    }
+}

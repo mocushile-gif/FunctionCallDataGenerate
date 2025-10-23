@@ -1,0 +1,19 @@
+{
+    "name": "download_cities",
+    "description": "This is a sub-function API for tool priceline_com_provider.\nTool description: priceline.com | Lets you search hotels, cars for rent, flights. **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters **Other travel  api:** https://rapi.one\nAPI description: Downloads a list of cities from the Priceline API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "Limits the number of results returned. Defaults to 500.",
+                "default": 100
+            },
+            "resume_key": {
+                "type": "string",
+                "description": "Key to resume the results from a given ID. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

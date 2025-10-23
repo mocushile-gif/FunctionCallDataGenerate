@@ -1,0 +1,19 @@
+{
+    "name": "calculate_standard_deviation",
+    "description": "Calculates the standard deviation of a list of numbers. The standard deviation is a measure of the amount of variation or dispersion of a set of values.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "data": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "The list of numbers for which the standard deviation is to be calculated."
+            }
+        },
+        "required": [
+            "data"
+        ]
+    }
+}

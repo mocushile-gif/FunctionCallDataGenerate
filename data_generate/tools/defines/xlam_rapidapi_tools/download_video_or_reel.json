@@ -1,0 +1,17 @@
+{
+    "name": "download_video_or_reel",
+    "description": "This is a sub-function API for tool facebook_video_and_reel_downloader.\nTool description: Simple and light weight api to extract download links of Facebook video or reel.\nAPI description: You can extract Download links of **Facebook **Video or Reel in **HD **and **SD **formats.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the Facebook video or reel to be downloaded.",
+                "default": "https://www.facebook.com/antarikshTV/videos/958242908874442/"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

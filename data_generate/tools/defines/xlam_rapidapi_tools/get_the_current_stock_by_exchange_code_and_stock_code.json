@@ -1,0 +1,23 @@
+{
+    "name": "get_the_current_stock_by_exchange_code_and_stock_code",
+    "description": "This is a sub-function API for tool stocks.\nTool description: Get the the stocks informations using a REST API simple and free.\nAPI description: Fetch the current stock data using the given exchange code and stock code from an API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "stockcode": {
+                "type": "string",
+                "description": "The stock code of the desired stock.",
+                "default": "GOOG"
+            },
+            "exchangecode": {
+                "type": "string",
+                "description": "The exchange code where the stock is listed.",
+                "default": "NASDAQ"
+            }
+        },
+        "required": [
+            "stockcode",
+            "exchangecode"
+        ]
+    }
+}

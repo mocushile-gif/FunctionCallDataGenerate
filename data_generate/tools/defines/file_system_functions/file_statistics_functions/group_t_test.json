@@ -1,0 +1,37 @@
+{
+    "name": "group_t_test",
+    "description": "Perform an independent two-sample t-test between two groups on a numeric column.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "Path to the data file (.csv, .xlsx, .json, or .jsonl)."
+        },
+        "sheet_name": {
+          "type": ["string", "integer"],
+          "description": "Sheet name or index (only for Excel files).",
+          "default": 0
+        },
+        "category_col": {
+          "type": "string",
+          "description": "The name of the categorical column that defines the groups."
+        },
+        "value_col": {
+          "type": "string",
+          "description": "The name of the numeric column to compare between the groups."
+        },
+        "group_names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "Optional: Specify two group names to compare. If omitted, the function will attempt to auto-detect."
+        }
+      },
+      "required": ["file_path", "category_col", "value_col"]
+    }
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "name": "top_artists",
+    "description": "This is a sub-function API for tool billboard_charts_rankings.\nTool description: Billboard chart rankings API: Hot 100 Charts,  Year-End Charts, Hot 100 Songs,  Billboard 200 Albums,  Billboard Global 200, Top Artists.\nAPI description: Fetch the YEAR-END Top Artists chart information from the Billboard API for a specified year.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year for which to retrieve the Top Artists chart information in YYYY format. Defaults to '2022'.",
+                "default": "2021"
+            }
+        },
+        "required": []
+    }
+}

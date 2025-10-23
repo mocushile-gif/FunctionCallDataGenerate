@@ -1,0 +1,44 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "message": "Can't find requested data"
+        }
+    },
+    "{'username': 'charlidamelio', 'limit': 10}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested data\"}"
+    },
+    "{'limit': 10, 'username': 'tiktokcanada'}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested data\"}"
+    },
+    "{'limit': 10, 'username': 'nhl'}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested data\"}"
+    },
+    "{'username': 'tiktok'}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested data\"}"
+    },
+    "{'sec_uid': 'ms819273456xyz'}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested data\"}"
+    },
+    "{'sec_uid': 'MS819273456XYZ'}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested data\"}"
+    },
+    "{'username': 'addisonre', 'limit': 10}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested data\"}"
+    },
+    "{'sec_uid': '123456789', 'limit': 10}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested data\"}"
+    },
+    "{'sec_uid': '987654321', 'limit': 10}": {
+        "error": "",
+        "response": "{'message': \"Can't find requested data\"}"
+    }
+}

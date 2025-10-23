@@ -1,0 +1,17 @@
+{
+    "name": "v3_auto_complete",
+    "description": "This is a sub-function API for tool fidelity_investments.\nTool description: Query for quote data, market movers, international markets,  sector performance, orders, chart, and news\nAPI description: Fetches auto-suggestions based on a given symbol or company name using the RapidAPI Fidelity Investments endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "Symbol or company name for which to fetch auto-suggestions.",
+                "default": "apple"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

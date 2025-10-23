@@ -1,0 +1,23 @@
+{
+    "name": "rapidapigetforecastsummarybycoordinates",
+    "description": "This is a sub-function API for tool forecast.\nTool description: Get 16 days weather forecast data - worldwide - geographical coordinates...\nAPI description: Fetches the weather forecast summary for the given geographical coordinates using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "longitude": {
+                "type": "number",
+                "description": "The longitude of the geographical location for which to get the forecast summary.",
+                "default": 10.87152
+            },
+            "latitude": {
+                "type": "number",
+                "description": "The latitude of the geographical location for which to get the forecast summary.",
+                "default": 46.95828
+            }
+        },
+        "required": [
+            "longitude",
+            "latitude"
+        ]
+    }
+}

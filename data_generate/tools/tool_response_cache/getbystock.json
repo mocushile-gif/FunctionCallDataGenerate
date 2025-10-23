@@ -1,0 +1,10 @@
+{
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "[{'act_symbol': 'AAPL', 'date': '2021-04-28'}, {'act_symbol': 'AAPL', 'date': '2021-07-27'}, {'act_symbol': 'AAPL', 'date': '2021-10-28'}, {'act_symbol': 'AAPL', 'date': '2022-04-28'}, {'act_symbol': 'AAPL', 'date': '2022-07-28'}, {'act_symbol': 'AAPL', 'date': '2022-10-27'}, {'act_symbol': 'AAPL', 'date': '2023-02-02'}, {'act_symbol': 'AAPL', 'date': '2023-05-04'}, {'act_symbol': 'AAPL', 'date': '2023-07-27'}]"
+    },
+    "{'symbol': 'MSFT'}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta content=\"width=device-width, initial-scale=1\" name=\"viewport\" />\n    <title>Service Unhealthy</title>\n</head>\n<body>\nThis service is not ready to serve traffic. If you are the site owner, please check that your service is passing health checks.\n</body>\n</html>\n"
+    }
+}

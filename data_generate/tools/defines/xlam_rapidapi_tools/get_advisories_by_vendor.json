@@ -1,0 +1,27 @@
+{
+    "name": "get_advisories_by_vendor",
+    "description": "This is a sub-function API for tool ics_cert_advisories.\nTool description: An API to retrieve advisories for Industrial Control Systems that provide timely information about current security issues, vulnerabilities, and exploits from CISA.gov.\nAPI description: This endpoint will return back Advisories by Vendor and provide timely information about current security issues, vulnerabilities, and exploits from CISA.gov",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vendorid": {
+                "type": "string",
+                "description": "The vendor ID for which to fetch advisories.",
+                "default": "Siemens"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of advisories to retrieve. Defaults to 2.",
+                "default": 2.0
+            },
+            "info": {
+                "type": "boolean",
+                "description": "Additional information flag. If set, includes more details in the response.",
+                "default": true
+            }
+        },
+        "required": [
+            "vendorid"
+        ]
+    }
+}

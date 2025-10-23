@@ -1,0 +1,32 @@
+{
+    "name": "user_followers_list",
+    "description": "This is a sub-function API for tool tiktok_data.\nTool description: Social Media Data API in Real-Time.   -Get very useful and unique information.  -I'm on Telegram https://t.me/logicBuilder News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Get user followers:\n\n- Before testing don't forget to fill out the username **OR** sec_uid inputs",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fresh": {
+                "type": "number",
+                "description": "By setting this query value to **1** you can force the API to return fresh data(not cached)",
+                "default": 0.0
+            },
+            "sec_uid": {
+                "type": "string",
+                "description": "**Type** of a user id\n\n**NOTE:** By using **sec_uid**, request will be executed faster then if you will use username\n\n**NOTE:** **sec_uid** is not regular user id\n\n**NOTE:** **sec_uid** can be obtained from the **User Information** endpoint\n\n**NOTE:** **sec_uid** example: MS4wLjABAAAAv7iSuuXDJGDvJkmH_vz1qkDZYo1apxgzaxdBSeIuPiM"
+            },
+            "max_cursor": {
+                "type": "string",
+                "description": "Pagination cursor. \nTo get next batch of followers, paste here **max_cursor** value that you have received in previous request response."
+            },
+            "limit": {
+                "type": "string",
+                "description": "Number of follower records to return. The default is 100, and the maximum is 100."
+            },
+            "username": {
+                "type": "string",
+                "description": "Tiktok username. For example: **amazon**\n\n- **NOTE:** By using **sec_uid** instead of the **username** request will be executed faster\n- To use **sec_uid** use input field **BELOW**",
+                "default": "tiktok"
+            }
+        },
+        "required": []
+    }
+}

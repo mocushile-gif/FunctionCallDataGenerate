@@ -1,0 +1,17 @@
+{
+    "name": "person",
+    "description": "This is a sub-function API for tool watchmode.\nTool description: Universal OTT Streaming Service Availability API (Netflix, HBO Max, Peacock, Hulu, Amazon Prime Video, AppleTV+, Disney+ & over 100 more)\nAPI description: Retrieve details about a specific person (e.g., actor, director) using their unique ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The unique identifier for the person whose details are being fetched.",
+                "default": 7110004.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

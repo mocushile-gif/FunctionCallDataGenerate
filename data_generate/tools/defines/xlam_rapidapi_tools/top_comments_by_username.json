@@ -1,0 +1,27 @@
+{
+    "name": "top_comments_by_username",
+    "description": "This is a sub-function API for tool reddit.\nTool description: Please join our telegram channel to get notified about updates. https://t.me/social_miner_news\nAPI description: Fetches the top comments by a specific Reddit username within a given time frame.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "time": {
+                "type": "string",
+                "description": "The time frame for which to fetch top comments. Choices include 'hour', 'day', 'week', 'month', 'year', or 'all'.",
+                "default": "year"
+            },
+            "username": {
+                "type": "string",
+                "description": "The Reddit username for which to fetch the top comments.",
+                "default": "GoldenChrysus"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "A cursor for pagination to fetch the next set of results. Defaults to None."
+            }
+        },
+        "required": [
+            "time",
+            "username"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "fetch_images",
+    "description": "This is a sub-function API for tool mangaverse_api.\nTool description: Unleash the World of Manga with MangaVerse API!  Discover a captivating universe of manga from Japan, Korea, and China, all conveniently translated into English. \nAPI description: This will be get the image from the chapters, the image sort base on the index\nso make sure you sort base from index if you manipulate it,\nid should be chapter id",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The chapter ID to fetch images for. Defaults to '6486b7937ae7cb74845df888' if not provided.",
+                "default": "6486b7937ae7cb74845df888"
+            }
+        },
+        "required": []
+    }
+}

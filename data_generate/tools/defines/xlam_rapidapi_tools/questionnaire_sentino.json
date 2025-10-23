@@ -1,0 +1,15 @@
+{
+    "name": "questionnaire_sentino",
+    "description": "This is a sub-function API for tool sentino.\nTool description: Sentino API is used to understand personality traits (Big5, NEO etc.) using NLP.\nAPI description: They are sampled from original items so the first 30 are best for Big5, first 60 are best for BFAS and 90 for NEO.  The more items scored the better.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "content_type": {
+                "type": "string",
+                "description": "The MIME type of the content being requested. Default is 'application/json'.",
+                "default": "application/json"
+            }
+        },
+        "required": []
+    }
+}

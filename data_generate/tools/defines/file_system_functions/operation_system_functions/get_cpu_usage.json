@@ -1,0 +1,20 @@
+{
+    "name": "get_cpu_usage",
+    "description": "Get the average CPU usage over a specific duration.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "duration": {
+                "type": "integer",
+                "description": "The total time to monitor CPU usage in seconds. Defaults to 1 second.",
+                "default": 1
+            },
+            "interval": {
+                "type": "number",
+                "description": "The sampling interval in seconds. Defaults to 0.1 seconds.",
+                "default": 0.1
+            }
+        },
+        "required": []
+    }
+}

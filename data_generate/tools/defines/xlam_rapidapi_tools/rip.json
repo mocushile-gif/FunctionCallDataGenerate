@@ -1,0 +1,17 @@
+{
+    "name": "rip",
+    "description": "This is a sub-function API for tool url_intelligence.\nTool description: Extracts links from a target URL and provides linking metadata \nAPI description: Extracts links and information from a given URL using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "target": {
+                "type": "string",
+                "description": "The URL from which to extract links and information.",
+                "default": "https://www.nytimes.com"
+            }
+        },
+        "required": [
+            "target"
+        ]
+    }
+}

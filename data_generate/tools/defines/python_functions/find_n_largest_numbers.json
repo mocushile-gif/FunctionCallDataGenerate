@@ -1,0 +1,25 @@
+{
+    "name": "find_n_largest_numbers",
+    "description": "Finds the n largest numbers in a list of integers.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nums": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                },
+                "description": "The list of integers to find the largest numbers from."
+            },
+            "n": {
+                "type": "integer",
+                "description": "The number of largest numbers to find.",
+                "minimum": 1
+            }
+        },
+        "required": [
+            "nums",
+            "n"
+        ]
+    }
+}

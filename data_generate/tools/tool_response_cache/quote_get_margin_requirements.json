@@ -1,0 +1,42 @@
+{
+    "{'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'MarginRequirement': 'Special Maintenance: 40%'}"
+    },
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'MarginRequirement': 'Standard: 30%'}"
+    },
+    "{'symbol': 'AMZN'}": {
+        "error": "",
+        "response": "{'MarginRequirement': 'Standard: 30%'}"
+    },
+    "{'symbol': 'NVDA'}": {
+        "error": "",
+        "response": "{'MarginRequirement': 'Standard: 30%'}"
+    },
+    "{'symbol': 'MRNA'}": {
+        "error": "",
+        "response": "{'MarginRequirement': 'Special Maintenance: 40%'}"
+    },
+    "{'symbol': 'CRM'}": {
+        "error": "",
+        "response": "{'MarginRequirement': 'Standard: 30%'}"
+    },
+    "{'symbol': 'MSFT'}": {
+        "error": "",
+        "response": "{'MarginRequirement': 'Standard: 30%'}"
+    },
+    "{'symbol': 'GOOGL'}": {
+        "error": "",
+        "response": "{'MarginRequirement': 'Standard: 30%'}"
+    },
+    "{'symbol': 'BRK.A'}": {
+        "error": "",
+        "response": "{'DisclosuresList': None, 'Error': {'ModelErrors': None, 'Code': 9001, 'Message': 'This feature is temporarily unavailable. However, other app services may still be accessible. Please try again later.', 'Domain': 'Cusip', 'Type': 'Error', 'ErrorDetail': None}}"
+    },
+    "{'symbol': 'BAC'}": {
+        "error": "",
+        "response": "{'MarginRequirement': 'Standard: 30%'}"
+    }
+}

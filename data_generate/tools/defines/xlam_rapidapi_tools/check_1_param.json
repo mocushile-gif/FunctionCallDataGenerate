@@ -1,0 +1,17 @@
+{
+    "name": "check_1_param",
+    "description": "This is a sub-function API for tool eu_vat_number_checker.\nTool description: The EU VAT Number Validation API verifies the format and validity of EU VAT numbers and retrieves company information such as name, address, country code and VAT number. It returns a detailed response.\nAPI description: This function checks the validity of a given VAT number using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vat": {
+                "type": "string",
+                "description": "The VAT number to be checked, including the country code.",
+                "default": "SK2121316722"
+            }
+        },
+        "required": [
+            "vat"
+        ]
+    }
+}

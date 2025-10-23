@@ -1,0 +1,16 @@
+{
+    "name": "get_types",
+    "description": "This is a sub-function API for tool horoscopes_ai.\nTool description: Horoscopes by AI in multilingual.\nAPI description: Fetches available types for a specified period from the horoscopes API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "period": {
+                "type": "string",
+                "description": "The time period for which to retrieve the available types (e.g., daily, weekly, monthly)."
+            }
+        },
+        "required": [
+            "period"
+        ]
+    }
+}

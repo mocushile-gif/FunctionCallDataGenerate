@@ -1,0 +1,35 @@
+{
+    "name": "get_raster_tile",
+    "description": "This is a sub-function API for tool mapilion_vector_and_raster_map_tiles.\nTool description: Mapilion provides you with vector and raster map tiles at scale. Based on OpenStreetMap and OpenMapTiles.\nAPI description: Returns Raster tiles as PNG. These can be used in mapping libraries like Leaflet. The style-name can be one of:\n- `kurviger-liberty` a map style developed for Kurviger.de\n- `osm-bright` the default Osm Bright style",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x": {
+                "type": "number",
+                "description": "The tile's x-coordinate.",
+                "default": 0.0
+            },
+            "y": {
+                "type": "number",
+                "description": "The tile's y-coordinate.",
+                "default": 0.0
+            },
+            "style_name": {
+                "type": "string",
+                "description": "The name of the map style. Options include `kurviger-liberty` and `osm-bright`.",
+                "default": "kurviger-liberty"
+            },
+            "z": {
+                "type": "number",
+                "description": "The zoom level of the tile.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "x",
+            "y",
+            "style_name",
+            "z"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "get_all_table_names",
+    "description": "Retrieve all table names from a specified SQLite database.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "database_path": {
+                "type": "string",
+                "description": "The path to the database."
+            }
+        },
+        "required": ["database_path"]
+    }
+}

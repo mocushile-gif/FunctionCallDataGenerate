@@ -1,0 +1,17 @@
+{
+    "name": "get_detect",
+    "description": "This is a sub-function API for tool xss_shield.\nTool description: The XSS Shield API provides a realtime cross-site scripting (XSS) detection service that scans input data for suspicious characters and prevents XSS attacks. It offers two endpoints for handling GET and POST requests.\nAPI description: Detects and prevents XSS (Cross-Site Scripting) attacks in the input data by querying an external API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "data": {
+                "type": "string",
+                "description": "The input data to be checked for XSS.",
+                "default": "John Doe"
+            }
+        },
+        "required": [
+            "data"
+        ]
+    }
+}

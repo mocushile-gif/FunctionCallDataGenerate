@@ -1,0 +1,17 @@
+{
+    "name": "get_artist_overview",
+    "description": "This is a sub-function API for tool spotify_scraper.\nTool description: An all-in-one scraper for scraping everything on Spotify, and a highly available download solution for tracks, lyrics and episode previews.\nAPI description: Fetches full details of an artist from the Spotify Scraper API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "artistid": {
+                "type": "string",
+                "description": "The unique identifier for the artist.",
+                "default": "6eUKZXaKkcviH0Ku9w2n3V"
+            }
+        },
+        "required": [
+            "artistid"
+        ]
+    }
+}

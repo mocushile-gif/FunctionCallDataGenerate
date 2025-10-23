@@ -1,0 +1,22 @@
+{
+    "name": "get_scan_id",
+    "description": "This is a sub-function API for tool weblasso.\nTool description: Scan the web for a diverse range of data including subdomains, IP Addresses, web technologies and emails!\nAPI description: Run a scan against a target URL and receive a scan ID to obtain scan results or check scan status at a later time.\n\nProvide an optional callback URL to receive scan results automatically once the scan is completed (ensure that the callback URL accepts POST requests)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "target": {
+                "type": "string",
+                "description": "The URL of the target to be scanned.",
+                "default": "tesla.com"
+            },
+            "callback_url": {
+                "type": "string",
+                "description": "The URL to receive the scan results automatically via a POST request upon scan completion. Defaults to 'https://my-callback-url.com'.",
+                "default": "https://my-callback-url.com"
+            }
+        },
+        "required": [
+            "target"
+        ]
+    }
+}

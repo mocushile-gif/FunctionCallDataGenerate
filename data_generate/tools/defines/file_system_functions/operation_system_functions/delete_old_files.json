@@ -1,0 +1,23 @@
+{
+    "name": "delete_old_files",
+    "description": "Delete files older than a specified number of days in a directory.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "directory": {
+                "type": "string",
+                "description": "The directory to search for files. Default to './'"
+            },
+            "days": {
+                "type": "integer",
+                "description": "The age threshold in days for deletion."
+            },
+            "file_extension": {
+                "type": "string",
+                "description": "The file extension to filter by (e.g., '.log'). Defaults to None (all files).",
+                "default": null
+            }
+        },
+        "required": ["directory", "days"]
+    }
+}

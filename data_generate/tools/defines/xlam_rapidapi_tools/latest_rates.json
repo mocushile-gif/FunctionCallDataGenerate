@@ -1,0 +1,19 @@
+{
+    "name": "latest_rates",
+    "description": "This is a sub-function API for tool currency_v3.\nTool description: Get current and historical currency exchange rates with ease. Rates from the European Central Bank, updated every 15 minutes.\nAPI description: Fetch the latest real-time exchange rate data for specified symbols and base currency.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "base": {
+                "type": "string",
+                "description": "The three-letter currency or metal code for the preferred base currency.",
+                "default": "USD"
+            },
+            "symbols": {
+                "type": "string",
+                "description": "A list of comma-separated currency or metal codes to limit the output."
+            }
+        },
+        "required": []
+    }
+}

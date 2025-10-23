@@ -1,0 +1,17 @@
+{
+    "name": "uniquestageimage",
+    "description": "This is a sub-function API for tool motorsportapi.\nTool description: MotorsportApi has live coverage for most popular motorsports including MotoGP, Nascar, World Rally Championship, Moto2, Moto3, Superbike and Deutsche Tourenwagen Meisterschaft (DTM). \nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Retrieves the image for a specific Motorsport unique stage using the provided stage ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The unique stage ID for which to retrieve the image.",
+                "default": 40
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

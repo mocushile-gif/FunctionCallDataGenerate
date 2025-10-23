@@ -1,0 +1,65 @@
+{
+  "name": "create_histogram",
+  "description": "Create a histogram chart from a list of values or from a file (CSV, Excel, JSON, JSONL). Supports bin settings, range, and axis labels.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "data": {
+        "type": "array",
+        "items": { "type": "number" },
+        "description": "Direct input data to draw the histogram (ignored if file_path is provided)"
+      },
+      "file_path": {
+        "type": "string",
+        "description": "Optional path to data file (.csv, .xlsx, .json, .jsonl) to load data from"
+      },
+      "sheet_name": {
+        "type": ["string", "integer"],
+        "description": "Sheet name or index (only used for Excel files)",
+        "default": 0
+      },
+      "data_source": {
+        "type": ["string", "integer"],
+        "description": "Column name or row index from file to use as data source"
+      },
+      "bins": {
+        "type": "integer",
+        "default": 10,
+        "description": "Number of bins to divide the data into"
+      },
+      "bin_range": {
+        "type": "array",
+        "items": { "type": "number" },
+        "minItems": 2,
+        "maxItems": 2,
+        "description": "Tuple (min, max) specifying the range of histogram bins"
+      },
+      "color": {
+        "type": "string",
+        "default": "blue",
+        "description": "Color of the bars in the histogram"
+      },
+      "title": {
+        "type": "string",
+        "default": "Histogram",
+        "description": "Title displayed on the chart"
+      },
+      "xlabel": {
+        "type": "string",
+        "default": "Values",
+        "description": "Label for the x-axis"
+      },
+      "ylabel": {
+        "type": "string",
+        "default": "Frequency",
+        "description": "Label for the y-axis"
+      },
+      "save_path": {
+        "type": "string",
+        "default": "./histogram_chart.png",
+        "description": "Where to save the resulting image (e.g., ./output.png)"
+      }
+    },
+    "required": []
+  }
+}

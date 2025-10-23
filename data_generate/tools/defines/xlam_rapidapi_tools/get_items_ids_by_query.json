@@ -1,0 +1,17 @@
+{
+    "name": "get_items_ids_by_query",
+    "description": "This is a sub-function API for tool steam_market_and_store.\nTool description: Welcome to the Steam Market API, your gateway to a treasure trove of information about the vibrant world of gaming on Steam! 😄🎮 Our API provides a seamless experience for developers and gamers alike, offering a range of powerful endpoints to retrieve all the juicy details about the Steam market and store.  Need up-to-date pricing information for a specific game or item? Look no further! 📈💰 Our endpoints deliver real-time market data, including current prices, historical trends, and volume sta...\nAPI description: Enter a (text) query and retrieve the IDS associated to your items. This ID will be needed in order to explore market information.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The text query used to search for items on the Steam market.",
+                "default": "case"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "sendsms",
+    "description": "This is a sub-function API for tool rivet_sms.\nTool description: Rivet SMS API offers programmable SMS APIs, so you can get maximum value from your messages. Use our APIs to send single, bulk messages , schedule broadcasts, configure/ triggers messages and much more.\nAPI description: Sends an SMS message using the Rivet SMS service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "senderid": {
+                "type": "string",
+                "description": "Use  Rivet SMS  sender ID that is assigned to you (You can get it from https://app.rivet.solutions/Management/ManageSenderID)",
+                "default": "sender id"
+            },
+            "clientid": {
+                "type": "string",
+                "description": "Use  Rivet SMS API client ID (You can get it from https://app.rivet.solutions/ApiDocument/ApiDocs#)",
+                "default": "client id"
+            },
+            "mobilenumbers": {
+                "type": "string",
+                "description": "Recipient number –  numbers in format - 971 223344566(please enter mobile number with country code, without preceding 00 or +). Multiple recipients can be specified separated by commas.",
+                "default": "971009900990"
+            },
+            "message": {
+                "type": "string",
+                "description": "The content of the SMS message to be sent.",
+                "default": "your message"
+            },
+            "apikey": {
+                "type": "string",
+                "description": "Use  Rivet SMS API API key (You can get it from https://app.rivet.solutions/ApiDocument/ApiDocs#)",
+                "default": "api key"
+            },
+            "content_type": {
+                "type": "string",
+                "description": "The content type of the message. Defaults to 'application/json'.",
+                "default": "application/json"
+            },
+            "is_unicode": {
+                "type": "boolean",
+                "description": "Indicates whether the message should be sent with Unicode encoding. Defaults to None."
+            },
+            "scheduletime": {
+                "type": "string",
+                "description": "Specifies the scheduled time to send the message in the format 'yyyy-MM-dd HH:MM'. Defaults to None."
+            },
+            "groupid": {
+                "type": "string",
+                "description": "Valid group-id of current user (only for group message otherwise leave empty string)"
+            },
+            "is_flash": {
+                "type": "boolean",
+                "description": "Indicates whether the message is a flash message. Defaults to None."
+            }
+        },
+        "required": [
+            "senderid",
+            "clientid",
+            "mobilenumbers",
+            "message",
+            "apikey"
+        ]
+    }
+}

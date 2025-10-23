@@ -1,0 +1,17 @@
+{
+    "name": "getgames",
+    "description": "This is a sub-function API for tool diablo4_smartable.\nTool description: The Diablo 4 API offers the Diablo IV news, gameplays, guides, top players, and other information.\nAPI description: Retrieves Diablo 4 game data from the specified page using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number of game data to retrieve.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "page"
+        ]
+    }
+}

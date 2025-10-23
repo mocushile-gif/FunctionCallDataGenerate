@@ -1,0 +1,17 @@
+{
+    "name": "news_from_individual_source",
+    "description": "This is a sub-function API for tool f1_latest_news.\nTool description: This API scrapes the most recent F1 news articles from, the official F1 website, Sky F1, BBC F1, WTF1, and Autosport. More may be added in the future...\nAPI description: With this endpoint you can specify the source of the articles you wish to get\n/news/f1 for example, or any of the other 4: skyf1, BBCF1, WTF1, autosport.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sourceid": {
+                "type": "string",
+                "description": "Identifier of the F1 news source (e.g., skyf1, BBCF1, WTF1, autosport).",
+                "default": "f1"
+            }
+        },
+        "required": [
+            "sourceid"
+        ]
+    }
+}

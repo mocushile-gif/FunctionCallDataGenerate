@@ -1,0 +1,36 @@
+{
+    "name": "retrieve_collections",
+    "description": "This is a sub-function API for tool openblur.\nTool description: Unofficial Listings API for blur.io\n\n- For Blur V1 endpoints use this API: https://rapidapi.com/openseatools/api/opensea15\n\n- Crypto Payments Available\n\n- Lifetime Unlimited Requests Licenses Available\n\n- Private Plans with 16 / 32 / 64 / 128  requests/second Available\n\n- Ready made bots written in node.js already configured to work with RapidApi Available.\n\nJoin our Discord to inquire & find out the latest information and tools: \n\nhttps://discord.gg/Yezs2VDhBV\nAPI description: Retrieve collections from the Blur API based on given criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pagesize": {
+                "type": "number",
+                "description": "Number of records per page. If not specified, the default is None."
+            },
+            "is_from": {
+                "type": "number",
+                "description": "Starting point of the records. If not specified, the default is None."
+            },
+            "slug": {
+                "type": "string",
+                "description": "Slug identifier for the collection. If not specified, the default is None."
+            },
+            "contractaddress": {
+                "type": "string",
+                "description": "Contract address of the collection. If not specified, the default is None."
+            },
+            "orderby": {
+                "type": "string",
+                "description": "Order in which results are returned. Either 'asc' or 'desc'. Default is 'desc'.",
+                "default": "desc"
+            },
+            "sortby": {
+                "type": "string",
+                "description": "Field by which to sort results. Options include 'floorPrice', 'floorPriceOneDay', 'floorPriceOneWeek', 'volumeFifteenMinutes', 'volumeOneDay', 'volumeOneWeek', 'bestCollectionBid', 'totalCollectionBidValue', 'totalSupply', 'numberOwners'. Default is 'volumeOneDay'.",
+                "default": "volumeOneDay"
+            }
+        },
+        "required": []
+    }
+}

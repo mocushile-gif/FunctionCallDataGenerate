@@ -1,0 +1,17 @@
+{
+    "name": "search_by_company_name",
+    "description": "This is a sub-function API for tool uganda_company_data.\nTool description: Access the official Uganda Governmnent company register, ideal for KYB purposes\nAPI description: Search for a company in the Uganda company register by its name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the company to search for.",
+                "default": "Uganda Airlines"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "getteamstats",
+    "description": "This is a sub-function API for tool nhl_stats_and_live_data.\nTool description: Get live data and stats about any NHL game, teams, players, drafts and many more.\n\nAPI description: Retrieves the statistics of a specific NHL team using the given team ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the team.",
+                "default": 28
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

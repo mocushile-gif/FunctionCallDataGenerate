@@ -1,0 +1,26 @@
+{
+    "name": "followers_by_username",
+    "description": "This is a sub-function API for tool instagram_bulk_profile_scrapper.\nTool description: Highly maintained and Stable Instagram Api. Scrap up to 200k Instagram profile per day. It's capable to handle high volume. Contact me for custom plans or requirements\nAPI description: **Contact me for Custom package or requirements**\n\nFetch followers list\n\nCarry forward nextMaxId to retrieve next batch",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username for which to fetch the followers.",
+                "default": "therock"
+            },
+            "corsenabled": {
+                "type": "string",
+                "description": "A flag to enable CORS. Defaults to None.",
+                "default": "false"
+            },
+            "nextmaxid": {
+                "type": "string",
+                "description": "The ID to fetch the next page of results (used for pagination). Defaults to None."
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "agent_details",
+    "description": "This is a sub-function API for tool realtor.\nTool description: Query real time data of US real estate properties and agents\nAPI description: Fetch the details of an agent using their ID from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique ID of the agent.",
+                "default": "569e892a89a68901006bdb99"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

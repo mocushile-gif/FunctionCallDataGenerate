@@ -1,0 +1,49 @@
+{
+    "name": "models",
+    "description": "This is a sub-function API for tool car_api.\nTool description: Search vehicles sold in the United States by year, make, model, trim, engine, body, mileage, VIN decoder and more.\nAPI description: Search models by year, make, model, trim or make_id.\n\nTo include the models make in the description request with the query parameter as `verbose=yes`.\n\nFor complex queries you may use the json field to send an array of URL encoded JSON conditions, example:\n\n`[{\"field\": \"make\", \"op\": \"in\", \"val\": [\"Ford\", \"Acura\"]}, {\"field\": \"year\", \"op\": \">=\", \"val\": 2010}]\n\nAllowed json operators are: =, !=, >, <, >=, <=, in, not in, like, not like, not null, and is null.\n\nAllowed json search fields are: year, make, model",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to return."
+            },
+            "make_id": {
+                "type": "string",
+                "description": "The ID of the car make to filter the results."
+            },
+            "year": {
+                "type": "string",
+                "description": "The year to filter the car models."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for paginated results."
+            },
+            "sort": {
+                "type": "string",
+                "description": "The field to sort the results by. Default is 'id'.",
+                "default": "id"
+            },
+            "make": {
+                "type": "string",
+                "description": "The car make to filter the results."
+            },
+            "model": {
+                "type": "string",
+                "description": "The car model to filter the results."
+            },
+            "direction": {
+                "type": "string",
+                "description": "The direction for sorting ('asc' or 'desc'). Default is 'asc'.",
+                "default": "asc"
+            },
+            "verbose": {
+                "type": "string",
+                "description": "Whether to include detailed information like make, model, and trim. Default is 'yes'.",
+                "default": "yes"
+            }
+        },
+        "required": []
+    }
+}

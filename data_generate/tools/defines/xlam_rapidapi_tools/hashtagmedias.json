@@ -1,0 +1,21 @@
+{
+    "name": "hashtagmedias",
+    "description": "This is a sub-function API for tool instagram_v6.\nTool description: instagram api\nAPI description: Fetches media related to a specific hashtag from the Instagram API using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hash_tag": {
+                "type": "string",
+                "description": "The hashtag to query for media.",
+                "default": "cat"
+            },
+            "next_cursor": {
+                "type": "string",
+                "description": "A cursor for pagination to fetch the next set of results. Defaults to None."
+            }
+        },
+        "required": [
+            "hash_tag"
+        ]
+    }
+}

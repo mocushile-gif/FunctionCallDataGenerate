@@ -1,0 +1,38 @@
+{
+    "{'ipaddress': '192.0.2.123'}": {
+        "error": "",
+        "response": "{'success': True, 'result': {'ipAddress': '192.0.2.123', 'isVpn': False, 'isDataCenter': False, 'isBruteForce': False, 'isSpam': False, 'isBogon': True, 'isProxyHttp': False, 'isProxySocks': False, 'isProxyWeb': False, 'isProxyOther': False, 'isSmtpRelay': False, 'isWebVuln': False, 'isNoMail': False, 'isZombie': False, 'isPotentialZombie': False, 'isDynamic': False, 'isNoServer': False, 'isBadConf': False, 'isDDos': False, 'isOpenDns': False, 'isCompromised': False, 'isWorm': False, 'isIrcDrone': False, 'isNotSpam': False}}"
+    },
+    "{'ipaddress': '13.83.222.123'}": {
+        "error": "",
+        "response": "{'success': True, 'result': {'ipAddress': '13.83.222.123', 'isVpn': False, 'isDataCenter': True, 'isBruteForce': False, 'isSpam': False, 'isBogon': False, 'isProxyHttp': False, 'isProxySocks': False, 'isProxyWeb': False, 'isProxyOther': False, 'isSmtpRelay': False, 'isWebVuln': False, 'isNoMail': False, 'isZombie': False, 'isPotentialZombie': False, 'isDynamic': False, 'isNoServer': False, 'isBadConf': False, 'isDDos': False, 'isOpenDns': False, 'isCompromised': False, 'isWorm': False, 'isIrcDrone': False, 'isNotSpam': False}}"
+    },
+    "{}": {
+        "error": "",
+        "response": "{'success': True, 'result': {'ipAddress': '103.242.175.229', 'isVpn': False, 'isDataCenter': False, 'isBruteForce': False, 'isSpam': False, 'isBogon': False, 'isProxyHttp': False, 'isProxySocks': False, 'isProxyWeb': False, 'isProxyOther': False, 'isSmtpRelay': False, 'isWebVuln': False, 'isNoMail': False, 'isZombie': False, 'isPotentialZombie': False, 'isDynamic': False, 'isNoServer': False, 'isBadConf': False, 'isDDos': False, 'isOpenDns': False, 'isCompromised': False, 'isWorm': False, 'isIrcDrone': False, 'isNotSpam': False}}"
+    },
+    "{'ipaddress': '203.0.113.45'}": {
+        "error": "",
+        "response": "{'success': True, 'result': {'ipAddress': '203.0.113.45', 'isVpn': False, 'isDataCenter': False, 'isBruteForce': False, 'isSpam': False, 'isBogon': True, 'isProxyHttp': False, 'isProxySocks': False, 'isProxyWeb': False, 'isProxyOther': False, 'isSmtpRelay': False, 'isWebVuln': False, 'isNoMail': False, 'isZombie': False, 'isPotentialZombie': False, 'isDynamic': False, 'isNoServer': False, 'isBadConf': False, 'isDDos': False, 'isOpenDns': False, 'isCompromised': False, 'isWorm': False, 'isIrcDrone': False, 'isNotSpam': False}}"
+    },
+    "{'ipaddress': '8.8.8.8'}": {
+        "error": "",
+        "response": "{'success': True, 'result': {'ipAddress': '8.8.8.8', 'isVpn': False, 'isDataCenter': True, 'isBruteForce': False, 'isSpam': False, 'isBogon': False, 'isProxyHttp': False, 'isProxySocks': False, 'isProxyWeb': False, 'isProxyOther': False, 'isSmtpRelay': False, 'isWebVuln': False, 'isNoMail': False, 'isZombie': False, 'isPotentialZombie': False, 'isDynamic': False, 'isNoServer': False, 'isBadConf': False, 'isDDos': False, 'isOpenDns': False, 'isCompromised': False, 'isWorm': False, 'isIrcDrone': False, 'isNotSpam': False}}"
+    },
+    "{'ipaddress': '1.1.1.1'}": {
+        "error": "",
+        "response": "{'success': True, 'result': {'ipAddress': '1.1.1.1', 'isVpn': False, 'isDataCenter': False, 'isBruteForce': False, 'isSpam': False, 'isBogon': False, 'isProxyHttp': False, 'isProxySocks': False, 'isProxyWeb': False, 'isProxyOther': False, 'isSmtpRelay': False, 'isWebVuln': False, 'isNoMail': False, 'isZombie': False, 'isPotentialZombie': False, 'isDynamic': False, 'isNoServer': False, 'isBadConf': False, 'isDDos': False, 'isOpenDns': False, 'isCompromised': False, 'isWorm': False, 'isIrcDrone': False, 'isNotSpam': True}}"
+    },
+    "{'ipaddress': '52.34.123.7'}": {
+        "error": "",
+        "response": "{'success': True, 'result': {'ipAddress': '52.34.123.7', 'isVpn': False, 'isDataCenter': True, 'isBruteForce': False, 'isSpam': False, 'isBogon': False, 'isProxyHttp': False, 'isProxySocks': False, 'isProxyWeb': False, 'isProxyOther': False, 'isSmtpRelay': False, 'isWebVuln': False, 'isNoMail': False, 'isZombie': False, 'isPotentialZombie': False, 'isDynamic': False, 'isNoServer': False, 'isBadConf': False, 'isDDos': False, 'isOpenDns': False, 'isCompromised': False, 'isWorm': False, 'isIrcDrone': False, 'isNotSpam': False}}"
+    },
+    "{'ipaddress': '192.168.1.1'}": {
+        "error": "",
+        "response": "{'success': True, 'result': {'ipAddress': '192.168.1.1', 'isVpn': False, 'isDataCenter': False, 'isBruteForce': False, 'isSpam': False, 'isBogon': True, 'isProxyHttp': False, 'isProxySocks': False, 'isProxyWeb': False, 'isProxyOther': False, 'isSmtpRelay': False, 'isWebVuln': False, 'isNoMail': False, 'isZombie': False, 'isPotentialZombie': False, 'isDynamic': False, 'isNoServer': False, 'isBadConf': False, 'isDDos': False, 'isOpenDns': False, 'isCompromised': False, 'isWorm': False, 'isIrcDrone': False, 'isNotSpam': False}}"
+    },
+    "{'ipaddress': '78.12.234.56'}": {
+        "error": "",
+        "response": "{'success': True, 'result': {'ipAddress': '78.12.234.56', 'isVpn': False, 'isDataCenter': True, 'isBruteForce': False, 'isSpam': False, 'isBogon': False, 'isProxyHttp': False, 'isProxySocks': False, 'isProxyWeb': False, 'isProxyOther': False, 'isSmtpRelay': False, 'isWebVuln': False, 'isNoMail': False, 'isZombie': False, 'isPotentialZombie': False, 'isDynamic': False, 'isNoServer': False, 'isBadConf': False, 'isDDos': False, 'isOpenDns': False, 'isCompromised': False, 'isWorm': False, 'isIrcDrone': False, 'isNotSpam': False}}"
+    }
+}

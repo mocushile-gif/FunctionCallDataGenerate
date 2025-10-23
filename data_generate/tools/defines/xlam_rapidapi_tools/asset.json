@@ -1,0 +1,23 @@
+{
+    "name": "asset",
+    "description": "This is a sub-function API for tool bravenewcoin.\nTool description: Latest and historic cryptocurrency market data\nAPI description: List the UUID and details for all assets or provide an optional query parameter to search.\nAssets may have a status . Active assets will be available at both AssetTicker and DailyOHLCV endpoints. Inactive assets are not available for AssetTickers but may provide some historical OHLCV data if available.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "status": {
+                "type": "string",
+                "description": "The status of the assets to return. Can be 'ACTIVE' or 'INACTIVE'. Defaults to 'ACTIVE'.",
+                "default": "ACTIVE"
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of assets to return. Can be 'CRYPTO' or 'FIAT'. Defaults to None."
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The ticker symbol of the assets to return (e.g., 'BTC'). Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

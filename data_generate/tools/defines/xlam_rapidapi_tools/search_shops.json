@@ -1,0 +1,30 @@
+{
+    "name": "search_shops",
+    "description": "This is a sub-function API for tool yiwugo_product_data.\nTool description: Get the yiwugo.com(义乌购) products'  information\nAPI description: search shops by keyword.\nThe source of the data can be controlled through the 'lan' field (en: English website, cn: Chinese website)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to search for shops."
+            },
+            "lan": {
+                "type": "string",
+                "description": "The language of the website to search (default is None). For instance, \"en\" for English or \"cn\" for Chinese."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of search results (default is 1).",
+                "default": 1.0
+            },
+            "pagesize": {
+                "type": "number",
+                "description": "The number of results per page (default is 10).",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "walk_transit_and_bike_score",
+    "description": "This is a sub-function API for tool zillow_v2.\nTool description: Access US and CA property data in JSON, CSV, or Excel formats. Search listings, compare zestimate home values, and discover agent details.\nAPI description: Retrieve the Walk, Transit, and Bike Score for a property using its Zillow property ID (zpid).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zpid": {
+                "type": "number",
+                "description": "The Zillow property ID of the property. Defaults to 20485700.",
+                "default": 20485700.0
+            }
+        },
+        "required": []
+    }
+}

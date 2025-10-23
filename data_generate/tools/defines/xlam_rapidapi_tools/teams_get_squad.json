@@ -1,0 +1,17 @@
+{
+    "name": "teams_get_squad",
+    "description": "This is a sub-function API for tool divanscore.\nTool description: The most powerful sports API for live scores and football scores, results and stats. And not just football – choose from more than 20+ sports, 5000+ leagues and tournaments, millions of events and many esports competitions. Analyze almost any live score and statistics on the planet ... This API helps to create a sporting site/application\nAPI description: Retrieves the squad information for a specific team based on the given team ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "teamid": {
+                "type": "number",
+                "description": "The ID of the team. This value is typically obtained from the 'id' field returned in various API endpoints such as /teams/search, /matches/detail, /tournaments/get-featured-events, /tournaments/get-scheduled-events, or /tournaments/get-top-teams.",
+                "default": 38.0
+            }
+        },
+        "required": [
+            "teamid"
+        ]
+    }
+}

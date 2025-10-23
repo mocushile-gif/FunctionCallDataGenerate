@@ -1,0 +1,29 @@
+{
+    "name": "macronutrient_distribution",
+    "description": "This is a sub-function API for tool health_calculator_api.\nTool description: Welcome to the Health Calculator API (HCA). This API provides endpoints for calculating A Body Shape Index (ABSI), Adjusted Body Weight (AjBW), Basal Energy Expenditure (BEE) and Total Energy Expenditure (TEE) , Body Adiposity Index (BAI), Body Frame Size Index (BFSI), Body Mass Index (BMI), Body Fat Percentage, Basal Metabolic Rate (BMR), Daily Caloric Needs (DCN), Daily Water Intake (DWI), Estimated Average Glucose(eAG), Estimated Energy Requirement (EER), The FFMI (Fat-Free Mass Index), Ta...\nAPI description: This endpoint calculates the optimal distribution of macronutrients (carbohydrates, proteins, and fats) based on factors such as activity level, body composition goals, and dietary preferences.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "dietary_preferences": {
+                "type": "string",
+                "description": "The dietary_preferences parameter allows users to specify their dietary preferences. It can be any string value representing the individual's dietary choices or restrictions, such as \\\"**vegetarian**,\\\" \\\"**vegan**,\\\" \\\"**pescatarian**,\\\" or \\\"**gluten-free**.\\\"",
+                "default": "vegan"
+            },
+            "body_composition_goal": {
+                "type": "string",
+                "description": "The body_composition_goal parameter accepts the following values:\n\n**weight_loss** - Goal of losing weight.\n**maintenance** - Goal of maintaining current weight.\n**muscle_gain** - Goal of gaining muscle.\n",
+                "default": "maintenance"
+            },
+            "activity_level": {
+                "type": "string",
+                "description": "The activity_level parameter accepts the following values:\n\n**sedentary** - Little to no exercise.\n**moderately_active** - Moderate exercise/sports 3-5 days/week.\n**very_active** - Hard exercise/sports 6-7 days/week.",
+                "default": "sedentary"
+            }
+        },
+        "required": [
+            "dietary_preferences",
+            "body_composition_goal",
+            "activity_level"
+        ]
+    }
+}

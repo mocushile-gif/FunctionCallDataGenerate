@@ -1,0 +1,16 @@
+{
+    "name": "list_by_body_part",
+    "description": "This is a sub-function API for tool exercisedb.\nTool description: The ExerciseDB gives you access to over 1300 exercises with individual exercise data and animated demonstrations.\nAPI description: Fetch exercises based on the specified body part from the ExerciseDB API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "bodypart": {
+                "type": "string",
+                "description": "The body part for which to fetch exercises (e.g., chest, legs)."
+            }
+        },
+        "required": [
+            "bodypart"
+        ]
+    }
+}

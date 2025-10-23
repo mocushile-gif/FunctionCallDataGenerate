@@ -1,0 +1,516 @@
+{
+    "{\n  \"kem\": \"mountain\"\n}": {
+        "error": "",
+        "response": "[{\"kanji\":{\"character\":\"山\",\"stroke\":3},\"radical\":{\"character\":\"⼭\",\"stroke\":3,\"order\":54}}]"
+    },
+    "{\"kem\": \"山\"}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'kem': '雨'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': 'rain'}": {
+        "error": "",
+        "response": [
+            {
+                "kanji": {
+                    "character": "雨",
+                    "stroke": 8
+                },
+                "radical": {
+                    "character": "⾬",
+                    "stroke": 8,
+                    "order": 210
+                }
+            }
+        ]
+    },
+    "{'kem': '父'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '車'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '戻'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '余'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '別'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '步'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': 'love'}": {
+        "error": "",
+        "response": [
+            {
+                "kanji": {
+                    "character": "愛",
+                    "stroke": 13
+                },
+                "radical": {
+                    "character": "⼼",
+                    "stroke": 4,
+                    "order": 80
+                }
+            },
+            {
+                "kanji": {
+                    "character": "恋",
+                    "stroke": 10
+                },
+                "radical": {
+                    "character": "⼼",
+                    "stroke": 4,
+                    "order": 80
+                }
+            }
+        ]
+    },
+    "{'kem': 'school'}": {
+        "error": "",
+        "response": [
+            {
+                "kanji": {
+                    "character": "校",
+                    "stroke": 10
+                },
+                "radical": {
+                    "character": "",
+                    "stroke": 4,
+                    "order": 98
+                }
+            }
+        ]
+    },
+    "{'kem': '一'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '日'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '日本'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '視'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '見'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '規'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '見る'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': 'look'}": {
+        "error": "",
+        "response": [
+            {
+                "kanji": {
+                    "character": "覧",
+                    "stroke": 17
+                },
+                "radical": {
+                    "character": "⾒",
+                    "stroke": 7,
+                    "order": 179
+                }
+            },
+            {
+                "kanji": {
+                    "character": "捜",
+                    "stroke": 10
+                },
+                "radical": {
+                    "character": "⺘",
+                    "stroke": 3,
+                    "order": 77
+                }
+            },
+            {
+                "kanji": {
+                    "character": "望",
+                    "stroke": 11
+                },
+                "radical": {
+                    "character": "⽉",
+                    "stroke": 4,
+                    "order": 95
+                }
+            },
+            {
+                "kanji": {
+                    "character": "査",
+                    "stroke": 9
+                },
+                "radical": {
+                    "character": "⽊",
+                    "stroke": 4,
+                    "order": 97
+                }
+            }
+        ]
+    },
+    "{'kem': '々'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': 'see'}": {
+        "error": "",
+        "response": [
+            {
+                "kanji": {
+                    "character": "見",
+                    "stroke": 7
+                },
+                "radical": {
+                    "character": "⾒",
+                    "stroke": 7,
+                    "order": 179
+                }
+            },
+            {
+                "kanji": {
+                    "character": "視",
+                    "stroke": 11
+                },
+                "radical": {
+                    "character": "⾒",
+                    "stroke": 7,
+                    "order": 179
+                }
+            },
+            {
+                "kanji": {
+                    "character": "覧",
+                    "stroke": 17
+                },
+                "radical": {
+                    "character": "⾒",
+                    "stroke": 7,
+                    "order": 179
+                }
+            }
+        ]
+    },
+    "{'kem': '犬'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '月'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': 'watch'}": {
+        "error": "",
+        "response": [
+            {
+                "kanji": {
+                    "character": "番",
+                    "stroke": 12
+                },
+                "radical": {
+                    "character": "⽥",
+                    "stroke": 5,
+                    "order": 128
+                }
+            },
+            {
+                "kanji": {
+                    "character": "看",
+                    "stroke": 9
+                },
+                "radical": {
+                    "character": "⽬",
+                    "stroke": 5,
+                    "order": 137
+                }
+            }
+        ]
+    },
+    "{'kem': 'vehicle'}": {
+        "error": "",
+        "response": [
+            {
+                "kanji": {
+                    "character": "車",
+                    "stroke": 7
+                },
+                "radical": {
+                    "character": "⾞",
+                    "stroke": 7,
+                    "order": 195
+                }
+            }
+        ]
+    },
+    "{'kem': 'challenge'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': 'へん'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': 'radical'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '小'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '辺'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': 'change'}": {
+        "error": "",
+        "response": [
+            {
+                "kanji": {
+                    "character": "化",
+                    "stroke": 4
+                },
+                "radical": {
+                    "character": "⼔",
+                    "stroke": 2,
+                    "order": 26
+                }
+            },
+            {
+                "kanji": {
+                    "character": "変",
+                    "stroke": 9
+                },
+                "radical": {
+                    "character": "⼡",
+                    "stroke": 3,
+                    "order": 40
+                }
+            }
+        ]
+    },
+    "{'kem': 'parent'}": {
+        "error": "",
+        "response": [
+            {
+                "kanji": {
+                    "character": "親",
+                    "stroke": 16
+                },
+                "radical": {
+                    "character": "⾒",
+                    "stroke": 7,
+                    "order": 179
+                }
+            }
+        ]
+    },
+    "{'kem': 'relatives'}": {
+        "error": "",
+        "response": [
+            {
+                "kanji": {
+                    "character": "親",
+                    "stroke": 16
+                },
+                "radical": {
+                    "character": "⾒",
+                    "stroke": 7,
+                    "order": 179
+                }
+            }
+        ]
+    },
+    "{'kem': 'intimate'}": {
+        "error": "",
+        "response": [
+            {
+                "kanji": {
+                    "character": "親",
+                    "stroke": 16
+                },
+                "radical": {
+                    "character": "⾒",
+                    "stroke": 7,
+                    "order": 179
+                }
+            }
+        ]
+    },
+    "{'kem': '親'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '7'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': 'person'}": {
+        "error": "",
+        "response": [
+            {
+                "kanji": {
+                    "character": "者",
+                    "stroke": 8
+                },
+                "radical": {
+                    "character": "⺹",
+                    "stroke": 4,
+                    "order": 119
+                }
+            },
+            {
+                "kanji": {
+                    "character": "人",
+                    "stroke": 2
+                },
+                "radical": {
+                    "character": "⼈",
+                    "stroke": 2,
+                    "order": 10
+                }
+            },
+            {
+                "kanji": {
+                    "character": "係",
+                    "stroke": 9
+                },
+                "radical": {
+                    "character": "⺅",
+                    "stroke": 2,
+                    "order": 11
+                }
+            },
+            {
+                "kanji": {
+                    "character": "坊",
+                    "stroke": 7
+                },
+                "radical": {
+                    "character": "",
+                    "stroke": 3,
+                    "order": 38
+                }
+            },
+            {
+                "kanji": {
+                    "character": "彼",
+                    "stroke": 8
+                },
+                "radical": {
+                    "character": "⼻",
+                    "stroke": 3,
+                    "order": 70
+                }
+            }
+        ]
+    },
+    "{'kem': '異'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': 'tree'}": {
+        "error": "",
+        "response": [
+            {
+                "kanji": {
+                    "character": "樹",
+                    "stroke": 16
+                },
+                "radical": {
+                    "character": "",
+                    "stroke": 4,
+                    "order": 98
+                }
+            },
+            {
+                "kanji": {
+                    "character": "木",
+                    "stroke": 4
+                },
+                "radical": {
+                    "character": "⽊",
+                    "stroke": 4,
+                    "order": 97
+                }
+            },
+            {
+                "kanji": {
+                    "character": "幹",
+                    "stroke": 13
+                },
+                "radical": {
+                    "character": "⼲",
+                    "stroke": 3,
+                    "order": 61
+                }
+            }
+        ]
+    },
+    "{'kem': 'chapter 3'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '山'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': 'character'}": {
+        "error": "",
+        "response": [
+            {
+                "kanji": {
+                    "character": "字",
+                    "stroke": 6
+                },
+                "radical": {
+                    "character": "⼧",
+                    "stroke": 3,
+                    "order": 48
+                }
+            }
+        ]
+    },
+    "{'kem': '水'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '流'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '火'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '人'}": {
+        "error": "",
+        "response": []
+    },
+    "{'kem': '木'}": {
+        "error": "",
+        "response": []
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "text_to_image",
+    "description": "This is a sub-function API for tool text2image.\nTool description: Generate images using SOTA text 2 image model.\nAPI description: Generate an image based on the input text using the specified style through the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to convert into an image.",
+                "default": "Daring treasure hunter, map and compass, standing in desolate desert, adventurous, detailed, high detail, portrait"
+            },
+            "style": {
+                "type": "string",
+                "description": "preset style, should be in this list:\n'3d-model',\n        'analog-film',\n        'anime',\n        'cinematic',\n        'comic-book',\n        'digital-art',\n        'enhance',\n        'fantasy-art',\n        'isometric',\n        'line-art',\n        'low-poly',\n        'modeling-compound',\n        'neon-punk',\n        'origami',\n        'photographic',\n        'pixel-art',\n        'tile-texture',",
+                "default": "enhance"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

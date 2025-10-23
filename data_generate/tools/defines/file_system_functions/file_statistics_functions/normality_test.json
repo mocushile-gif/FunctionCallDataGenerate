@@ -1,0 +1,26 @@
+{
+    "name": "normality_test",
+    "description": "Perform a normality test (Shapiro-Wilk or D’Agostino and Pearson) for each numeric column.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "Path to the dataset file (CSV, Excel, JSON, or JSONL)."
+        },
+        "numeric_cols": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Optional list of column names to test. If omitted, all numeric columns will be tested.",
+          "default": null
+        },
+        "sheet_name": {
+          "type": ["string", "integer"],
+          "description": "Sheet name or index for Excel files.",
+          "default": 0
+        }
+      },
+      "required": ["file_path"]
+    }
+  }
+  

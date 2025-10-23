@@ -1,0 +1,17 @@
+{
+    "name": "getlensitem",
+    "description": "This is a sub-function API for tool snapchat.\nTool description: Snapchat API\nAPI description: Fetches lens item information from the Snapchat RapidAPI using the provided lens ID and API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lens_id": {
+                "type": "string",
+                "description": "The ID of the lens item to retrieve.",
+                "default": "41a72e9ae9a44f8891327ce6cf1c344d"
+            }
+        },
+        "required": [
+            "lens_id"
+        ]
+    }
+}

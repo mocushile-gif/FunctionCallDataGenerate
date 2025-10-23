@@ -1,0 +1,17 @@
+{
+    "name": "footballersbyname",
+    "description": "This is a sub-function API for tool premier_league_stats.\nTool description: **UPDATED FOR 2324 SEASON**\nAn API providing stats around the Premier League football league.\nAPI description: Returns a list of footballers that match the given name using the Premier League Stats API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the footballer to search for.",
+                "default": "Ryan Yates"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

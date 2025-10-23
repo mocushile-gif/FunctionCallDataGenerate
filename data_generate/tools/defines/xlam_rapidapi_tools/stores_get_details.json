@@ -1,0 +1,17 @@
+{
+    "name": "stores_get_details",
+    "description": "This is a sub-function API for tool target.\nTool description: Query for stores, categories, products, etc ... as on official websites\nAPI description: Fetch detailed information for a specific store location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location_id": {
+                "type": "number",
+                "description": "The identifier for the store location, often obtained from the stores list endpoint.",
+                "default": 911.0
+            }
+        },
+        "required": [
+            "location_id"
+        ]
+    }
+}

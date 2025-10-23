@@ -1,0 +1,28 @@
+{
+    "name": "find_zip_codes_by_city",
+    "description": "This is a sub-function API for tool polish_zip_codes.\nTool description: Poczta polska - zip codes\nAPI description: This function returns all zip codes associated with a given city. If multiple cities share the same name, zip codes for all those cities will be returned. ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "accept": {
+                "type": "string",
+                "description": "Requested content type.",
+                "default": "application/json"
+            },
+            "city": {
+                "type": "string",
+                "description": "The name of the city for which to find zip codes.",
+                "default": "Wrocław"
+            },
+            "x_traceid": {
+                "type": "string",
+                "description": "A trace ID that is copied to the API response header. Default is 'optional_abc123'.",
+                "default": "optional_abc123"
+            }
+        },
+        "required": [
+            "accept",
+            "city"
+        ]
+    }
+}

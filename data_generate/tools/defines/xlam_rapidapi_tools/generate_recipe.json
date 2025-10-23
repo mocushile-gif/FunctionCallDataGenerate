@@ -1,0 +1,15 @@
+{
+    "name": "generate_recipe",
+    "description": "This is a sub-function API for tool generate_a_recipe_based_on_an_ingredient.\nTool description: Generate a health recipe based on the ingredients you specify in the request\nAPI description: This function generates a recipe using an ingredient and a provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ingredient": {
+                "type": "string",
+                "description": "The main ingredient to be used in the recipe. Default is 'chicken'.",
+                "default": "chicken"
+            }
+        },
+        "required": []
+    }
+}

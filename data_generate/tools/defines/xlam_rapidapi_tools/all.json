@@ -1,0 +1,17 @@
+{
+    "name": "all",
+    "description": "This is a sub-function API for tool suivi_colis.\nTool description: L'API de suivi des colis en Nouvelle-Calédonie\nAPI description: Returns the complete history of a package from dispatch to the latest status.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "colisid": {
+                "type": "string",
+                "description": "The ID of the package to be tracked.",
+                "default": "CA107308006SI"
+            }
+        },
+        "required": [
+            "colisid"
+        ]
+    }
+}

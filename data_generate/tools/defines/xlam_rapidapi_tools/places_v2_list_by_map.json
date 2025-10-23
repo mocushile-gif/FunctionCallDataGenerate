@@ -1,0 +1,65 @@
+{
+    "name": "places_v2_list_by_map",
+    "description": "This is a sub-function API for tool airvisual.\nTool description: Query for Air Pollution Data, Weather information, Health Recommendations, etc... as on the official application\nAPI description: Fetches a list of places within a specified boundary box using the AirVisual API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nelat": {
+                "type": "number",
+                "description": "North East latitude of the boundary.",
+                "default": 40.95240778688068
+            },
+            "nelon": {
+                "type": "number",
+                "description": "North East longitude of the boundary.",
+                "default": -73.43762621283531
+            },
+            "swlat": {
+                "type": "number",
+                "description": "South West latitude of the boundary.",
+                "default": 40.43539120253853
+            },
+            "swlon": {
+                "type": "number",
+                "description": "South West longitude of the boundary.",
+                "default": -74.41956583410503
+            },
+            "x_user_lang": {
+                "type": "string",
+                "description": "Language for the response. Defaults to 'en-US'.",
+                "default": "en-US"
+            },
+            "x_units_pressure": {
+                "type": "string",
+                "description": "Units for pressure measurement. Allowed values are 'mbar' or 'hg'. Defaults to 'mbar'.",
+                "default": "mbar"
+            },
+            "x_units_temperature": {
+                "type": "string",
+                "description": "Units for temperature measurement. Allowed values are 'celsius' or 'fahrenheit'. Defaults to 'celsius'.",
+                "default": "celsius"
+            },
+            "x_user_timezone": {
+                "type": "string",
+                "description": "User's timezone. Defaults to 'Asia/Singapore'.",
+                "default": "Asia/Singapore"
+            },
+            "x_aqi_index": {
+                "type": "string",
+                "description": "Air Quality Index standard. Allowed values are 'us' or 'cn'. Defaults to 'us'.",
+                "default": "us"
+            },
+            "x_units_distance": {
+                "type": "string",
+                "description": "Units for distance measurement. Allowed values are 'kilometer' or 'miles'. Defaults to 'kilometer'.",
+                "default": "kilometer"
+            }
+        },
+        "required": [
+            "nelat",
+            "nelon",
+            "swlat",
+            "swlon"
+        ]
+    }
+}

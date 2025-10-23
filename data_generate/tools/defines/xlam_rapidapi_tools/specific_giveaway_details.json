@@ -1,0 +1,17 @@
+{
+    "name": "specific_giveaway_details",
+    "description": "This is a sub-function API for tool gamerpower.\nTool description: Find all free games, loot and giveaways with this giveaway tracker API powered by GamerPower.com! Access programmatically the best giveaways in gaming!\nAPI description: Fetch details from a specific giveaway using the giveaway ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the giveaway to fetch details for.",
+                "default": "525"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "email_validation",
+    "description": "This is a sub-function API for tool disposable_email_checker.\nTool description: This is an easy way to check if a email address is disposable or valid so you can avoid fake users on your database.\nAPI description: Validates whether a given email domain is disposable using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The email domain to be validated.",
+                "default": "gmail.com"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

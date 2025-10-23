@@ -1,0 +1,68 @@
+{
+    "name": "gettalks",
+    "description": "This is a sub-function API for tool ted_talks_api.\nTool description: Get TED talks based on multiple different parameters and filtering options, from the speaker, topic, talk duration, and more.\nAPI description: Retrieve information about specific TED talks based on the provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "ID of a desired specific talk."
+            },
+            "audio_lang": {
+                "type": "string",
+                "description": "Return talks which their audio language is the provided language. The provided value should be the language slug according to the /audio_languages endpoint.",
+                "default": "en"
+            },
+            "speaker": {
+                "type": "string",
+                "description": "Return talks which at least one of their speakers is the provided speaker. The provided value should be the speaker slug according to the /speakers endpoint.",
+                "default": "yuval_noah_harari"
+            },
+            "publish_date": {
+                "type": "string",
+                "description": "Return talks which were published on TED.com only on the exact provided date."
+            },
+            "topic": {
+                "type": "string",
+                "description": "Return talks which at least on of their topics is the provided topics, the provided value should be the speaker slug according to the /topics endpoint",
+                "default": "politics"
+            },
+            "subtitle_lang": {
+                "type": "string",
+                "description": "Return talks which have subtitles in the provided language. The provided value should be the language slug according to the /subtitle_languages endpoint.",
+                "default": "he"
+            },
+            "max_duration": {
+                "type": "number",
+                "description": "Return talks which their duration in seconds is at most the provided value."
+            },
+            "to_publish_date": {
+                "type": "string",
+                "description": "Return talks which were published on TED.com only before the provided date."
+            },
+            "from_publish_date": {
+                "type": "string",
+                "description": "Return talks which were published on TED.com only after the provided date."
+            },
+            "min_duration": {
+                "type": "number",
+                "description": "Return talks which their duration in seconds is at least the provided value.",
+                "default": 300.0
+            },
+            "record_date": {
+                "type": "string",
+                "description": "Return talks which were recorded only on the exact provided date."
+            },
+            "to_record_date": {
+                "type": "string",
+                "description": "Return talks which were recorded only before the provided date."
+            },
+            "from_record_date": {
+                "type": "string",
+                "description": "Return talks which were recorded only after the provided date.",
+                "default": "2017-01-01"
+            }
+        },
+        "required": []
+    }
+}

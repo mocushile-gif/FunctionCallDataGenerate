@@ -1,0 +1,48 @@
+{
+    "name": "group_and_aggregate_data",
+    "description": "Groups data by a specified column and aggregates another column using a specified function. Supports Excel and CSV files. Optionally, the result can be saved to a new file and sorted.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "file_path": {
+                "type": "string",
+                "description": "The path to the file (can be an Excel or CSV file)."
+            },
+            "sheet_name": {
+                "type": ["string", "integer"],
+                "description": "Name or index of the Excel sheet to read. Ignored for CSV files.",
+                "default": 0
+              },
+            "group_by_column": {
+                "type": "string",
+                "description": "The column name to group the data by."
+            },
+            "agg_column": {
+                "type": "string",
+                "description": "The column name to aggregate."
+            },
+            "agg_func": {
+                "type": "string",
+                "description": "The aggregation function to use, such as \"sum\", \"mean\", \"max\", \"min\".",
+                "enum": ["sum", "mean", "max", "min"]
+            },
+            "save_as": {
+                "type": "string",
+                "description": "Optional. The file path to save the aggregated data (supports .xlsx or .csv files)."
+            },
+            "sort_type": {
+                "type": "integer",
+                "description": "Optional. The sorting order of the aggregated result: 0 (no sorting), 1 (descending), 2 (ascending). Default is 0.",
+                "default": 0,
+                "minimum": 0,
+                "maximum": 2
+            }
+        },
+        "required": [
+            "file_path",
+            "group_by_column",
+            "agg_column",
+            "agg_func"
+        ]
+    }
+}

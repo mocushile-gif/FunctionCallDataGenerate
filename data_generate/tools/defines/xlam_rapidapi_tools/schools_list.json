@@ -1,0 +1,23 @@
+{
+    "name": "schools_list",
+    "description": "This is a sub-function API for tool realty_in_au.\nTool description: This API helps to query properties for sale, rent, sold,etc… in Australia to create a realtor, real estate site/application such as realestate.com.au\nAPI description: Fetches a list of schools around a specified geographical location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "The latitude of the geographical location.",
+                "default": -37.79870933
+            },
+            "lon": {
+                "type": "string",
+                "description": "The longitude of the geographical location.",
+                "default": "144.95324086"
+            }
+        },
+        "required": [
+            "lat",
+            "lon"
+        ]
+    }
+}

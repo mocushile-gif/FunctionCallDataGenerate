@@ -1,0 +1,21 @@
+{
+    "name": "get_php",
+    "description": "This is a sub-function API for tool terminology_extraction.\nTool description: This API allows you to extract  most relevant terms from a text. It is not, like many others, a basic TF-IDF analysis. It compare the text against a very large language model, it uses a probabilistic model to identify candidates, it supports  multi-words terms and not only single words. It uses part of speech tagging to clean up the results\". In short it is probably the most advanced term extraction out there.\nAPI description: Fetch terminology extraction from a given text in a specified language using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text from which to extract terminology."
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the text. Currently supported languages: en, fr, it."
+            }
+        },
+        "required": [
+            "text",
+            "lang"
+        ]
+    }
+}

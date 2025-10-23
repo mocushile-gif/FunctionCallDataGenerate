@@ -1,0 +1,48 @@
+{
+    "name": "business_reviews",
+    "description": "This is a sub-function API for tool local_business_data.\nTool description: Extremely comprehensive and up-to-date local business search - get business reviews and rating, photos, phone, address / location, website, opening hours, emails / social profiles and 30+ additional fields.\nAPI description: Fetches and paginates business reviews by Business ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "business_id": {
+                "type": "string",
+                "description": "Unique Business ID. Accepts google_id, business_id, and google_place_id. Examples of valid ids: `0x880fd393d427a591:0x8cba02d713a995ed`, `ChIJkaUn1JPTD4gR7ZWpE9cCuow`.",
+                "default": "0x89c259b5a9bd152b:0x31453e62a3be9f76"
+            },
+            "language": {
+                "type": "string",
+                "description": "Set the language of the results. For a list of supported language codes see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes .\n\n**Default**: *`en`*",
+                "default": "en"
+            },
+            "fields": {
+                "type": "string",
+                "description": "A comma separated list of review fields to include in the response (field projection). By default all fields are returned.\n\n**e.g.** `review_id,review_text,rating`"
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "How to sort the reviews in the results.\n\n**Allowed values**: *`most_relevant, newest, highest_ranking, lowest_ranking`*.\n\n**Default**: *`most_relevant`*"
+            },
+            "region": {
+                "type": "string",
+                "description": "Query Google Maps from a particular region or country. For a list of supported region/country codes see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes (Alpha-2 code).\n\n**Default:** *`us`*",
+                "default": "us"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Maximum number of business reviews to return (1-150).\n\n**Default**: *`20`*",
+                "default": 5.0
+            },
+            "offset": {
+                "type": "number",
+                "description": "Number of business reviews to skip (for pagination/scrolling).\n\n**Default**: *`0`*"
+            },
+            "query": {
+                "type": "string",
+                "description": "Filter reviews matching a text query. Default is None."
+            }
+        },
+        "required": [
+            "business_id"
+        ]
+    }
+}

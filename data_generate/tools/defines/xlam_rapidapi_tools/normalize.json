@@ -1,0 +1,17 @@
+{
+    "name": "normalize",
+    "description": "This is a sub-function API for tool email_utilities.\nTool description: API to validate email and normalize email\nAPI description: Normalizes the given email address using the RapidAPI email utilities service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to be normalized.",
+                "default": "cognitive.camp@gmail.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

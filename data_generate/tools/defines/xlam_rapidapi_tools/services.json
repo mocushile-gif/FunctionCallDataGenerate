@@ -1,0 +1,22 @@
+{
+    "name": "services",
+    "description": "This is a sub-function API for tool fiverr_pro_services.\nTool description: API to provide a list of vetted professional sellers for any category.\nAPI description: Fetch a list of professional sellers for a specified service category from the Fiverr Pro Services API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category_name": {
+                "type": "string",
+                "description": "The name of the service category to fetch professional sellers for.",
+                "default": "Graphics  & Design: Logo Design"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of results to return. Default is 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "category_name"
+        ]
+    }
+}

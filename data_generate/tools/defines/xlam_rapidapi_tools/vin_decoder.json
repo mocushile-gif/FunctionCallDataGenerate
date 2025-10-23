@@ -1,0 +1,17 @@
+{
+    "name": "vin_decoder",
+    "description": "This is a sub-function API for tool car_api.\nTool description: Search vehicles sold in the United States by year, make, model, trim, engine, body, mileage, VIN decoder and more.\nAPI description: Decodes Vehicle Identification Numbers. The result will include a list of specifications in the specs property and a list of all possible trims matching the VIN in the trims property.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vin": {
+                "type": "string",
+                "description": "The VIN number to be decoded.",
+                "default": "KNDJ23AU4N7154467"
+            }
+        },
+        "required": [
+            "vin"
+        ]
+    }
+}

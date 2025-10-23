@@ -1,0 +1,32 @@
+{
+    "name": "calculate_medication_dosage",
+    "description": "Calculates the daily dosage of a medication based on the patient\"s weight and the standard dose per kilogram of body weight. It also considers the frequency of doses per day and an optional maximum daily dose to prevent overdosing.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "weight_kg": {
+                "type": "number",
+                "description": "Patient\"s weight in kilograms."
+            },
+            "dose_per_kg": {
+                "type": "number",
+                "description": "Standard dose of the medication per kilogram of body weight."
+            },
+            "frequency_per_day": {
+                "type": "integer",
+                "description": "Number of doses per day. Defaults to 1.",
+                "default": 1,
+                "minimum": 1
+            },
+            "max_daily_dose": {
+                "type": "number",
+                "description": "Maximum allowable daily dose to prevent overdosing. Optional.",
+                "default": null
+            }
+        },
+        "required": [
+            "weight_kg",
+            "dose_per_kg"
+        ]
+    }
+}

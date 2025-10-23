@@ -1,0 +1,17 @@
+{
+    "name": "get_postal_codes_by_id",
+    "description": "This is a sub-function API for tool canada_postal_codes.\nTool description: A list of postal codes in Canada\nAPI description: Fetches postal codes information by given ID from the Canada Postal Codes API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The postal code ID to fetch information for.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

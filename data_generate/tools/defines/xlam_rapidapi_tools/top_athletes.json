@@ -1,0 +1,35 @@
+{
+    "name": "top_athletes",
+    "description": "This is a sub-function API for tool allscores.\nTool description: Beware! Our live match updates may be faster than other API's.\nEnjoy our 24/7 wide coverage of real time scores data for 10 different sports and over 2,000 competitions worldwide, including Real-time Stats, Breaking News, In-Play Insights, Lineups, Live Tables, Fixtures, Social Buzz, Odds and much more.\nSupported 10 Sports Types: Football, Rugby, Tennis, Basketball, Cricket, Ice Hockey, Baseball, Volleyball, American football and Handball.\nAPI description: Fetches the top athletes based on the provided parameters by making a request to the allscores API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "langid": {
+                "type": "number",
+                "description": "The language id to use in the request.",
+                "default": 1
+            },
+            "timezone": {
+                "type": "string",
+                "description": "The timezone name. Check the tutorials.",
+                "default": "America/Chicago"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of athletes to return.",
+                "default": 10
+            },
+            "sporttype": {
+                "type": "number",
+                "description": "The sport type for which to fetch top athletes.",
+                "default": 2
+            }
+        },
+        "required": [
+            "langid",
+            "timezone",
+            "limit",
+            "sporttype"
+        ]
+    }
+}

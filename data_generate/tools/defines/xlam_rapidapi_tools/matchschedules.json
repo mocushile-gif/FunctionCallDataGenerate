@@ -1,0 +1,29 @@
+{
+    "name": "matchschedules",
+    "description": "This is a sub-function API for tool esportapi.\nTool description: ESportApi offers eSports results for League of Legends, Dota 2, Counter-Strike providing also eSports standings and tournament live scores.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Fetches the cricket match schedules for a given date, including match timings, teams, and other relevant information.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "day": {
+                "type": "number",
+                "description": "The day of the month for which to retrieve the cricket match schedules (1-31).",
+                "default": 18
+            },
+            "year": {
+                "type": "number",
+                "description": "The year for which to retrieve the cricket match schedules (e.g., 2022).",
+                "default": 2022
+            },
+            "month": {
+                "type": "number",
+                "description": "The month for which to retrieve the cricket match schedules (1-12).",
+                "default": 12
+            }
+        },
+        "required": [
+            "day",
+            "year",
+            "month"
+        ]
+    }
+}

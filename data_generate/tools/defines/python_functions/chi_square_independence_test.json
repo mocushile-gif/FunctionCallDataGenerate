@@ -1,0 +1,33 @@
+{
+    "name": "chi_square_independence_test",
+    "description": "Performs a Chi-Square test for independence on a 2x2 contingency table. The function returns the test statistic, p-value, degrees of freedom, expected values, and the result of the hypothesis test based on the significance level.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "contingency_table": {
+                "type": "array",
+                "items": {
+                    "type": "array",
+                    "items": {
+                        "type": "integer"
+                    },
+                    "minItems": 2,
+                    "maxItems": 2
+                },
+                "minItems": 2,
+                "maxItems": 2,
+                "description": "A 2x2 contingency table containing the observed frequencies."
+            },
+            "significance_level": {
+                "type": "number",
+                "description": "The significance level for the Chi-Square test. This value is used to determine whether to reject the null hypothesis.",
+                "default": 0.05,
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        "required": [
+            "contingency_table"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "obtener_cp",
+    "description": "This is a sub-function API for tool codigos_postales_mx.\nTool description: Informacion de la locazion con el codigo postal\nAPI description: Obtén la lista de códigos postales encontrados acorde al parámetro solicitado",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cp": {
+                "type": "number",
+                "description": "The postal code for which to fetch the corresponding list of postal codes.",
+                "default": 64720.0
+            }
+        },
+        "required": [
+            "cp"
+        ]
+    }
+}

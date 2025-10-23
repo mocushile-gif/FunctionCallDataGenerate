@@ -1,0 +1,23 @@
+{
+    "name": "get_sender_id",
+    "description": "This is a sub-function API for tool rivet_sms.\nTool description: Rivet SMS API offers programmable SMS APIs, so you can get maximum value from your messages. Use our APIs to send single, bulk messages , schedule broadcasts, configure/ triggers messages and much more.\nAPI description: Returns the list of all Sender IDs that are registered for the given account to send SMS.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "clientid": {
+                "type": "string",
+                "description": "The Client ID associated with the account. You can obtain the Client ID at https://app.rivet.solutions/ApiDocument/ApiDocs once your account is created.",
+                "default": "clientid"
+            },
+            "apikey": {
+                "type": "string",
+                "description": "The API key associated with the account. You can obtain the API key at https://app.rivet.solutions/ApiDocument/ApiDocs once your account is created.",
+                "default": "apikey"
+            }
+        },
+        "required": [
+            "clientid",
+            "apikey"
+        ]
+    }
+}

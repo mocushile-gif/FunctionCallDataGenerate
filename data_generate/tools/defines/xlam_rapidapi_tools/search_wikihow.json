@@ -1,0 +1,17 @@
+{
+    "name": "search_wikihow",
+    "description": "This is a sub-function API for tool wiki_briefs.\nTool description: Briefs about anything you search. No need to read lengthy articles, we summarize.\nAPI description: Searches for a 'how-to' question on WikiHow and returns summarized methods and steps.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "A 'how-to' question to search on WikiHow, e.g., 'find meaning in life', 'learn any language', 'play soccer', 'change an oil filter'.",
+                "default": "be thankful"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

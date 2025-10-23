@@ -1,0 +1,35 @@
+{
+    "name": "get_taxi_fares",
+    "description": "This is a sub-function API for tool taxi_fare_calculator.\nTool description: How much does a taxi cost? Estimate your taxicab fare & rates. Get your taxi fare now and compare taxi prices. Taxi Fare Calculator provides taxi & cab fares for any trip in any city. The API provides you with a price for the best possible route for your cab ride.\nAPI description: Calculate taxi fares between two geographical points using the RapidAPI taxi fare calculator.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "arr_lat": {
+                "type": "number",
+                "description": "Latitude of the arrival point.",
+                "default": 52.47
+            },
+            "arr_lng": {
+                "type": "number",
+                "description": "Longitude of the arrival point.",
+                "default": 13.63
+            },
+            "dep_lat": {
+                "type": "number",
+                "description": "Latitude of the departure point.",
+                "default": 52.5
+            },
+            "dep_lng": {
+                "type": "number",
+                "description": "Longitude of the departure point.",
+                "default": 13.43
+            }
+        },
+        "required": [
+            "arr_lat",
+            "arr_lng",
+            "dep_lat",
+            "dep_lng"
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "{'symbol': 'AMZN', 'region': 'US'}": {
+        "error": "",
+        "response": {
+            "symbol": "AMZN",
+            "region": "US",
+            "dividend_yield": "0.00%",
+            "last_updated": "2023-10-05",
+            "currency": "USD",
+            "annualized_yield": "$0.00"
+        }
+    },
+    "{'symbol': 'RY', 'region': 'CA'}": {
+        "error": "",
+        "response": "{'value': '0.0349'}"
+    },
+    "{'symbol': 'AAPL', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '0.0043'}"
+    },
+    "{'symbol': 'MSFT', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '0.0069999998'}"
+    },
+    "{'symbol': 'GOOG', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '0.0047'}"
+    },
+    "{'region': 'US', 'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'value': '0.0041'}"
+    },
+    "{'region': 'GB', 'symbol': 'TSCO'}": {
+        "error": "",
+        "response": "{'value': '0.0182'}"
+    },
+    "{'region': 'GB', 'symbol': 'BP'}": {
+        "error": "",
+        "response": "{'value': '0.0652'}"
+    },
+    "{'region': 'BR', 'symbol': 'VALE'}": {
+        "error": "",
+        "response": "{'value': '0.1457'}"
+    },
+    "{'region': 'AU', 'symbol': 'BHP'}": {
+        "error": "",
+        "response": "{'value': '0.0511'}"
+    }
+}

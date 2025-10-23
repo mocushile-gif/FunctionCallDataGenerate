@@ -1,0 +1,54 @@
+{
+    "{'category': 'actors', 'title': 'Leonardo DiCaprio movies'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "Text": "Specify a valid Title!"
+                }
+            ]
+        }
+    },
+    "{'category': 'movie', 'title': 'Titanic'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "Text": "Specify a valid category!"
+                }
+            ]
+        }
+    },
+    "{'category': 'Movie', 'title': 'Titanic'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "Text": "Specify a valid category!"
+                }
+            ]
+        }
+    },
+    "{'category': 'actors', 'title': 'Titanic'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "Text": "Specify a valid Title!"
+                }
+            ]
+        }
+    },
+    "{'category': 'movies', 'title': 'Inception'}": {
+        "error": "",
+        "response": "{'data': [{'Category': 'movies', 'ID': 'tt1375666', 'Image': 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg', 'Movie Title': 'Inception', 'Rank': 322}, {'Category': 'movies', 'ID': 'tt1790736', 'Image': 'https://m.media-amazon.com/images/M/MV5BNjYxOGIzZDItN2I2NC00ZjE2LTllYmEtMWMxODUwOGU5NGI1XkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Inception: The Cobol Job', 'Rank': 14740}, {'Category': 'movies', 'ID': 'tt8269586', 'Image': 'https://m.media-amazon.com/images/M/MV5BMWFhNWE4ZGEtYjkyNC00ODE0LTk4ZjQtNDU4NzU4NzEyNTZlXkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Bikini Inception', 'Rank': 56590}, {'Category': 'movies', 'ID': 'tt5295990', 'Image': 'https://m.media-amazon.com/images/M/MV5BZjhkNjM0ZTMtNGM5MC00ZTQ3LTk3YmYtZTkzYzdiNWE0ZTA2XkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Inception: Jump Right Into the Action', 'Rank': 111249}, {'Category': 'movies', 'ID': 'tt7321322', 'Image': 'https://m.media-amazon.com/images/M/MV5BOTY3OGFlNTktYTJiZi00ZWMxLTk4MjQtNmJiODkxYThiNjg4XkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Inception', 'Rank': 167604}, {'Category': 'movies', 'ID': 'tt6793710', 'Image': 'https://m.media-amazon.com/images/M/MV5BZTc4MDliNjAtYmU4YS00NmQzLWEwNjktYTQ2MGFjNDc5MDhlXkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'The Crack: Inception', 'Rank': 168876}, {'Category': 'movies', 'ID': 'tt12798986', 'Image': 'https://m.media-amazon.com/images/M/MV5BZmUyNzI1OGEtZTNlYi00ZDY4LThlZGQtMzQyZDFlZDNiNjAwXkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Ateez: Inception', 'Rank': 298528}, {'Category': 'movies', 'ID': 'tt3563778', 'Image': 'https://m.media-amazon.com/images/M/MV5BYjYzZjE2ZDktMWU3MS00OGY0LTg4YTEtODZiYzcwY2U0YWUzXkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Inception of a lost Art', 'Rank': 345343}]}"
+    },
+    "{'category': 'movies', 'title': 'Interstellar'}": {
+        "error": "",
+        "response": "{'data': [{'Category': 'movies', 'ID': 'tt0816692', 'Image': 'https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Interstellar', 'Rank': 75}, {'Category': 'movies', 'ID': 'tt3506492', 'Image': 'https://m.media-amazon.com/images/M/MV5BNTg2NWM1ODEtMWY5ZC00NTE5LThlM2MtNTE2ZmVkOTgzZTdjXkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Lolita from Interstellar Space', 'Rank': 29896}, {'Category': 'movies', 'ID': 'tt4172224', 'Image': 'https://m.media-amazon.com/images/M/MV5BZGYzMGY0ZjctNDY3ZC00MDEzLTgzN2YtYWM1OTQyOTI1NDMxXkEyXkFqcGc@._V1_.jpg', 'Movie Title': \"Interstellar: Nolan's Odyssey\", 'Rank': 31526}, {'Category': 'movies', 'ID': 'tt4415360', 'Image': 'https://m.media-amazon.com/images/M/MV5BZDU5NTJkMjQtNGYyZC00NjYwLWJlNWMtODk5NDI5MDE3NDJiXkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'The Science of Interstellar', 'Rank': 43322}, {'Category': 'movies', 'ID': 'tt5297406', 'Image': 'https://m.media-amazon.com/images/M/MV5BZmUwNzhhY2QtYWM5My00MzM3LWEyYTUtMWU0ZGY3OTg1MGRhXkEyXkFqcGc@._V1_.jpg', 'Movie Title': \"Inside 'Interstellar'\", 'Rank': 109061}, {'Category': 'movies', 'ID': 'tt5056352', 'Image': 'https://m.media-amazon.com/images/M/MV5BZTExZTMzZmEtMDFmMC00MzE0LThlYTItMDY0ZWYyMWJmMDM2XkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Interstellar Civil War: Shadows of the Empire', 'Rank': 130492}, {'Category': 'movies', 'ID': 'tt26699362', 'Image': 'https://m.media-amazon.com/images/M/MV5BMjUyOTMyZTEtYzgwZS00YTM0LThmODYtNDgzYWI0"
+    },
+    "{'category': 'movies', 'title': 'Casablanca'}": {
+        "error": "",
+        "response": "{'data': [{'Category': 'movies', 'ID': 'tt0034583', 'Image': 'https://m.media-amazon.com/images/M/MV5BNWEzN2U1YTYtYTQyMS00NTVkLWE2NGQtZWFlMmM0MDNjMmRiXkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Casablanca', 'Rank': 1270}, {'Category': 'movies', 'ID': 'tt0084994', 'Image': 'https://m.media-amazon.com/images/M/MV5BODg2MjQ4NTYxNl5BMl5BanBnXkFtZTcwMDkxMzA3Nw@@._V1_.jpg', 'Movie Title': 'Casablanca', 'Rank': 34671}, {'Category': 'movies', 'ID': 'tt0038777', 'Image': 'https://m.media-amazon.com/images/M/MV5BNmE3MjA3ZWMtYjk3OS00YjE5LTgwMTYtMTRhNTUwY2VhNzBkXkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'A Night in Casablanca', 'Rank': 52590}, {'Category': 'movies', 'ID': 'tt35339267', 'Image': 'https://m.media-amazon.com/images/M/MV5BZjczMTBiZDItZDc5Yi00MzRlLWI2NmItNmU2MzMyYWMwNGUxXkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Los Casablanca', 'Rank': 57829}, {'Category': 'movies', 'ID': 'tt0047719', 'Image': 'https://m.media-amazon.com/images/M/MV5BNzEzNjc0YTItMjRiMy00N2E1LThkMDItZWY1NzU3MTIzZjJmXkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Casablanca', 'Rank': 73754}, {'Category': 'movies', 'ID': 'tt0094843', 'Image': 'https://m.media-amazon.com/images/M/MV5BY2U1NTQyNjYtMTgwMC00ZDY3LTljZDYtOGI4NmRkY2RjMzRkXkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Casablanca Express', 'Rank': 93152}, {'Category': 'movies', 'ID': 'tt10497826', 'Image': 'https://m.media-amazon.com/images/M/MV5BZDgwOTk2OWQtZmY2My00YzllLTkwYzMtMzdhMjg0YTMxOWRmXkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Kasablanka', 'Rank': 98706}, {'Category': 'movies', 'ID': 'tt10399586', 'Image': 'https://m.media-amazon.com/images/M/MV5BOGIzNzFjMjEtMWFhNS00N2Q1LThiNzEtNmU2MTYzNDYwNWU4XkEyXkFqcGc@._V1_.jpg', 'Movie Title': 'Casablanca', 'Rank': 168794}]}"
+    }
+}

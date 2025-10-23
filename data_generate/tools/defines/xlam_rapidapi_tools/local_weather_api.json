@@ -1,0 +1,45 @@
+{
+    "name": "local_weather_api",
+    "description": "This is a sub-function API for tool world_weather_online_api.\nTool description: Free Weather API and Geo API for worldwide locations, hourly weather, 14-day weather, historical weather, and Marine and Ski weather API for developers and businesses in XML and JSON format.\nAPI description: The Local Weather REST API (also called City and Town Weather API) method allows you to access current weather conditions, the next 14 days of accurate and reliable weather forecast, Air Quality Data, Weather Alerts and Monthly Climate Averages for over 4 million cities and towns worldwide. The Local Weather API returns weather elements such as temperature, precipitation (rainfall), weather description, weather icon, wind speed, etc.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "Location query (city name, town name, or geographic coordinates).",
+                "default": "40.73,-73"
+            },
+            "tp": {
+                "type": "string",
+                "description": "Time interval between weather updates (e.g., '1' for hourly updates). Defaults to None."
+            },
+            "aqi": {
+                "type": "string",
+                "description": "Whether to include Air Quality Index data ('yes' or 'no'). Defaults to 'yes'.",
+                "default": "yes"
+            },
+            "format": {
+                "type": "string",
+                "description": "Response format (e.g., 'json' or 'xml'). Defaults to None."
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language for the output. Defaults to 'en'.",
+                "default": "en"
+            },
+            "alerts": {
+                "type": "string",
+                "description": "Whether to include weather alerts ('yes' or 'no'). Defaults to 'no'.",
+                "default": "no"
+            },
+            "num_of_days": {
+                "type": "number",
+                "description": "Number of days for the weather forecast. Defaults to 3.",
+                "default": 3.0
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

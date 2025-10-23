@@ -1,0 +1,18 @@
+{
+  "name": "find_large_files",
+  "description": "Find all files in a directory and its subdirectories that are larger than a specified size.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "directory": {
+        "type": "string",
+        "description": "The directory to search in. Default to './'"
+      },
+      "size_threshold": {
+        "type": "string",
+        "description": "The size threshold as a human-readable string (e.g., 10K, 5M, 2G)."
+      }
+    },
+    "required": ["directory", "size_threshold"]
+  }
+}

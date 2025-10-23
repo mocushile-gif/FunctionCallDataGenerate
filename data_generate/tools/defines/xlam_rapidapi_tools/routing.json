@@ -1,0 +1,46 @@
+{
+    "name": "routing",
+    "description": "This is a sub-function API for tool maptoolkit.\nTool description: A toolkit for maps: Map tiles, address search (geocoding), routing, static maps & elevation\nAPI description: Calculates a route based on specified waypoints and options using the Map Toolkit API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "points": {
+                "type": "string",
+                "description": "Value: `{lat},{lng}[|{lat},{lng} ...]`\nDefine multiple routing waypoints, consisting of latitude and longitude. At least 2 points are needed.",
+                "default": "48.202596,16.369801|48.208373,16.370401"
+            },
+            "finish_instruction": {
+                "type": "string",
+                "description": "Adds a finish instruction at the end of the route. Default is None."
+            },
+            "language": {
+                "type": "string",
+                "description": "Language for the given instructions. Must be a valid ISO 639-1 language code. Default value is `en`."
+            },
+            "voice_instructions": {
+                "type": "string",
+                "description": "Enables voice instructions for text-to-speech engines. Default is None."
+            },
+            "filename": {
+                "type": "string",
+                "description": "The name of the file if the output `format` is `gpx` or `kml`. Default is None."
+            },
+            "format": {
+                "type": "string",
+                "description": "The format of the output. Default is `json`."
+            },
+            "weighting": {
+                "type": "string",
+                "description": "Only available if the set `routeType` is `bike`. Default value is `networks`."
+            },
+            "routetype": {
+                "type": "string",
+                "description": "The type of route to calculate. Default is `bike`.",
+                "default": "bike"
+            }
+        },
+        "required": [
+            "points"
+        ]
+    }
+}

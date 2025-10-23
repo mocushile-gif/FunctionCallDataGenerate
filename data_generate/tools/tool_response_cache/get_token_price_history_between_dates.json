@@ -1,0 +1,40 @@
+{
+    "{'address': '0xdAC17F958D2ee523a2206206994597C13D831ec7', 'chainid': 1, 'startdate': 1903334400, 'enddate': 1906823999}": {
+        "error": "",
+        "response": {
+            "token": {
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                "chain": "Ethereum (Chain ID: 1)",
+                "name": "Tether USD",
+                "symbol": "USDT"
+            },
+            "price_history": [
+                {
+                    "timestamp": 1903334400,
+                    "price_usd": 1.0
+                },
+                {
+                    "timestamp": 1904026123,
+                    "price_usd": 1.01
+                },
+                {
+                    "timestamp": 1904717700,
+                    "price_usd": 0.995
+                },
+                {
+                    "timestamp": 1905409200,
+                    "price_usd": 1.002
+                },
+                {
+                    "timestamp": 1906100800,
+                    "price_usd": 1.005
+                },
+                {
+                    "timestamp": 1906823999,
+                    "price_usd": 1.0
+                }
+            ],
+            "notes": "Data reflects simulated price stability for USDT on Ethereum between the specified timestamps (future-dated input)."
+        }
+    }
+}

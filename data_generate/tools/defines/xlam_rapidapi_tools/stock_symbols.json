@@ -1,0 +1,15 @@
+{
+    "name": "stock_symbols",
+    "description": "This is a sub-function API for tool real_time_quotes.\nTool description: Real-time and historical data of stocks, cryptocurrencies and forex based on multiple data sources such as Yahoo Finance\nAPI description: Fetches and returns a list of all available stock symbols from the real-time-quotes API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "includenames": {
+                "type": "boolean",
+                "description": "If True, includes stock names in the returned data. Defaults to None.",
+                "default": true
+            }
+        },
+        "required": []
+    }
+}

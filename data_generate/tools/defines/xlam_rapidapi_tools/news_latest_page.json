@@ -1,0 +1,17 @@
+{
+    "name": "news_latest_page",
+    "description": "This is a sub-function API for tool biztoc.\nTool description: Official BizToc.com API — The Web's most comprehensive hub for business & finance news.\nAPI description: Fetches the latest news stories in chronological order, filtered by the specified page ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page_id": {
+                "type": "string",
+                "description": "The identifier for the specific news page to filter the stories.",
+                "default": "main"
+            }
+        },
+        "required": [
+            "page_id"
+        ]
+    }
+}

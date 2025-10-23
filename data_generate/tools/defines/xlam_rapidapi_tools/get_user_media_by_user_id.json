@@ -1,0 +1,27 @@
+{
+    "name": "get_user_media_by_user_id",
+    "description": "This is a sub-function API for tool instagram_looter.\nTool description: Access Instagram Data with Precision and Speed! Utilize Intelligent Request Filtering for Guaranteed 99.99% Response.\nAPI description: Fetches Instagram user media based on the provided user ID using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "count": {
+                "type": "number",
+                "description": "The number of media posts to retrieve.",
+                "default": 12.0
+            },
+            "is_id": {
+                "type": "number",
+                "description": "The Instagram user ID for which to fetch media.",
+                "default": 18527.0
+            },
+            "end_cursor": {
+                "type": "string",
+                "description": "The cursor for pagination to fetch the next set of media posts. Defaults to None."
+            }
+        },
+        "required": [
+            "count",
+            "is_id"
+        ]
+    }
+}

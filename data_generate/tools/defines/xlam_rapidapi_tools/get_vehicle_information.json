@@ -1,0 +1,17 @@
+{
+    "name": "get_vehicle_information",
+    "description": "This is a sub-function API for tool mexican_vehicles_repuve.\nTool description: Get information for Mexican vehicles including year, make, model as well as stolen reports.\nAPI description: Sample response:\n\n```\n{\n    \"doors\": 4,\n    \"has_stolen_report\": false,\n    \"year\": 2009,\n    \"license_plates\": \"CP50087\",\n    \"model\": \"DOBLE CABINA\",\n    \"assembly_plant_location\": \"\",\n    \"state\": \"CAMPECHE\",\n    \"classification\": \"ESTANDAR\",\n    \"type\": \"\",\n    \"make\": \"NISSAN\",\n    \"version\": \"V4\",\n    \"origin_country\": \"MEXICO\"\n}\n```",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "plates": {
+                "type": "string",
+                "description": "The license plate number for which to retrieve the vehicle information.",
+                "default": "Y20BBG"
+            }
+        },
+        "required": [
+            "plates"
+        ]
+    }
+}

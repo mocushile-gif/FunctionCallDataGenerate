@@ -1,0 +1,16 @@
+{
+    "name": "get_balance",
+    "description": "This is a sub-function API for tool sms77io.\nTool description: Send SMS & text-to-speech messages, perform phone number lookups and much more via seven.io.\nAPI description: Retrieves the account balance for the given API key using the Sms77.io API through RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "p": {
+                "type": "string",
+                "description": "Your API key from [Sms77.io](https://sms77.io)."
+            }
+        },
+        "required": [
+            "p"
+        ]
+    }
+}

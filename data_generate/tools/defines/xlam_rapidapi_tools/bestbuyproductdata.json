@@ -1,0 +1,23 @@
+{
+    "name": "bestbuyproductdata",
+    "description": "This is a sub-function API for tool bestbuy_product_data_api.\nTool description: BestBuy Product Data API\nContact me at: vuesdata@gmail.com or visit https://www.vuesdata.com for building custom spiders or custom requests.\nAPI description: It will accept two parameters keyword and page.\nFor Ex:\nkeyword: iphone  (it is the search term and it can be anything for example: iphone, ps5, sony tv etc)\npage: min 1 (max depends on the number of products available)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve, starting from 1.",
+                "default": 1.0
+            },
+            "keyword": {
+                "type": "string",
+                "description": "The search term to look for products, e.g., \"iphone\", \"ps5\", \"sony tv\".",
+                "default": "iphone"
+            }
+        },
+        "required": [
+            "page",
+            "keyword"
+        ]
+    }
+}

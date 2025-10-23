@@ -1,0 +1,18 @@
+{
+    "name": "v1_babynames",
+    "description": "This is a sub-function API for tool baby_names_by_api_ninjas.\nTool description: Popular and unique baby name name generator for boys, girls, and gender-neutral names. See more info at https://api-ninjas.com/api/babynames\nAPI description: Fetches a list of baby names from the API Ninjas Baby Names API endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "popular_only": {
+                "type": "string",
+                "description": "Whether to only return popular (top 10%) of names. Must be either 'true' or 'false'. Defaults to 'true' if not set."
+            },
+            "gender": {
+                "type": "string",
+                "description": "The gender for the baby names. Must be one of the following: 'boy', 'girl', or 'neutral'."
+            }
+        },
+        "required": []
+    }
+}

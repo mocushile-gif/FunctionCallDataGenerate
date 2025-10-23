@@ -1,0 +1,23 @@
+{
+    "name": "carbonfootprintfromcartravel",
+    "description": "This is a sub-function API for tool carbonfootprint.\nTool description: Calculate the carbon footprint in various situations, such as travel and hydro usage.\nAPI description: Calculates the CO2 emissions in kilograms from a car journey using a specified vehicle type and distance.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "distance": {
+                "type": "string",
+                "description": "The distance traveled by the car in kilometers.",
+                "default": "100"
+            },
+            "vehicle": {
+                "type": "string",
+                "description": "The type of car, either SmallDieselCar, MediumDieselCar, LargeDieselCar, MediumHybridCar, LargeHybridCar, MediumLPGCar, LargeLPGCar, MediumCNGCar, LargeCNGCar, SmallPetrolVan, LargePetrolVan, SmallDielselVan, MediumDielselVan, LargeDielselVan, LPGVan, CNGVan, SmallPetrolCar, MediumPetrolCar, LargePetrolCar, SmallMotorBike, MediumMotorBike, LargeMotorBike",
+                "default": "SmallDieselCar"
+            }
+        },
+        "required": [
+            "distance",
+            "vehicle"
+        ]
+    }
+}

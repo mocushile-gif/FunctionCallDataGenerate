@@ -1,0 +1,17 @@
+{
+    "name": "get_imbuements_for_lich_shroud_death_protection",
+    "description": "This is a sub-function API for tool tibia_items.\nTool description: this API will helps you find tibia items princes around the worlds\n\nAll endpoints to get items values, this is all we try to get on day.\n\nDiscord Channel for talk.\nhttps://discord.gg/bwZGtaz56P\nAPI description: This enpoint will get all imbuement for type Lich Shroud\n\nLich Shroud (Death Protection)\nFlask of Embalming Fluid \nGloom Wolf Fur \nMystical Hourglass",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "world": {
+                "type": "string",
+                "description": "The name of the Tibia world for which to fetch the imbuements.",
+                "default": "Adra"
+            }
+        },
+        "required": [
+            "world"
+        ]
+    }
+}

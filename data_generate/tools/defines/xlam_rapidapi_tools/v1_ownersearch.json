@@ -1,0 +1,19 @@
+{
+    "name": "v1_ownersearch",
+    "description": "This is a sub-function API for tool uspto_trademark.\nTool description: Instant trademark search. Check if a trademark keyword is available, search trademarks from USPTO, filter on owner/applicant information, expiration date.\nAPI description: Does a search on **owner name** or **postcode** and returns details about the trademarks found for that owner. Duplicate owner results can be returned by this endpoint, especially when an owner had an address change.\n\nYou can use literal 'null' if you don't want to use a param. So you can either search just for a keyword or just for a postcode or together if you want to filter by both.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "search_keyword": {
+                "type": "string",
+                "description": "The search keyword (e.g., 'ferr' will return results for 'ferrari'). Defaults to 'netflix'. Use literal 'null' if you don't want to use this parameter.",
+                "default": "netflix"
+            },
+            "postcode": {
+                "type": "string",
+                "description": "This is the postcode such as '95066' that will return results for owners with that postcode in their application. Be aware attorneys might omit postcode from fillings, so those results cannot be returned as they don't have postcode attached as metadata. \n\nYou can use literal 'null' if you don't want to use this param. "
+            }
+        },
+        "required": []
+    }
+}

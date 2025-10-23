@@ -1,0 +1,15 @@
+{
+    "name": "income_statement",
+    "description": "This is a sub-function API for tool financial_statements.\nTool description: Get standardized balance sheet, income statement, and cash flow statement for global companies going back 5 years. \nAPI description: Get company income statement by year (ttm = Trailing Twelve Months).\n\nAll numbers in thousands.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The stock ticker symbol of the company. Defaults to 'AAPL'.",
+                "default": "AAPL"
+            }
+        },
+        "required": []
+    }
+}

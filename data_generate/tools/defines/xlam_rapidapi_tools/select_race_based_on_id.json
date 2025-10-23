@@ -1,0 +1,17 @@
+{
+    "name": "select_race_based_on_id",
+    "description": "This is a sub-function API for tool f1_race_schedule.\nTool description: This API provides the user with up-to-date dates and timings for all the races in the ongoing F1 season.\nAPI description: Fetches the details of a specific race using its ID from the F1 race schedule API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the race to fetch details for.",
+                "default": "6141c76615d27e0de553b9d7"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

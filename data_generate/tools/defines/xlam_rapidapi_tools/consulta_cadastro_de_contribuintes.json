@@ -1,0 +1,27 @@
+{
+    "name": "consulta_cadastro_de_contribuintes",
+    "description": "This is a sub-function API for tool consulta_cnpj_tempo_real.\nTool description: API Tempo Real de Consultas a Receita Federal, Simples Nacional e Cadastro de Contribuintes (SINTEGRA).\nAPI description: Retrieves taxpayer registration details from the Centralized Taxpayer Registry.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "taxid": {
+                "type": "string",
+                "description": "The taxpayer identification number.",
+                "default": "84447804000123"
+            },
+            "maxage": {
+                "type": "number",
+                "description": "The maximum age of the data in days. Defaults to 30.",
+                "default": 30.0
+            },
+            "states": {
+                "type": "string",
+                "description": "UFs separadas por vírgula para adicionar informações do Cadastro de Contribuintes, utilize 'BR' para considerar todas.",
+                "default": "BR"
+            }
+        },
+        "required": [
+            "taxid"
+        ]
+    }
+}

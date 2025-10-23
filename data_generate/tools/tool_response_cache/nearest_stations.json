@@ -1,0 +1,22 @@
+{
+    "{'format': 'json', 'fuel_type': 'ELEC', 'location': '433 Bryant St., San Francisco', 'radius': '5.0', 'limit': '1'}": {
+        "error": "",
+        "response": {
+            "station_name": "San Francisco EV Charging Station",
+            "address": "433 Bryant St., San Francisco, CA",
+            "fuel_type": "Electric",
+            "distance": "0.2 miles",
+            "access": "Public",
+            "status": "Open",
+            "ev_network": "ChargePoint Network",
+            "ev_charging_level": "Level 2",
+            "payment_methods": [
+                "Visa",
+                "MasterCard",
+                "American Express",
+                "Discover"
+            ],
+            "operating_hours": "24/7"
+        }
+    }
+}

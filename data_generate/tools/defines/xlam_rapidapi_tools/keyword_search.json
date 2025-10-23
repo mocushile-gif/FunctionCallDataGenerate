@@ -1,0 +1,28 @@
+{
+    "name": "keyword_search",
+    "description": "This is a sub-function API for tool axesso_kaufland_data_service.\nTool description: Our Kaufland Data Service API provides real-time data about product details and keyword search result from the online shop Kaufland.de.\nAPI description: Retrieves search results for a given keyword from the Otto e-commerce site using the RapidAPI Axesso service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number of the search results to retrieve.",
+                "default": 1.0
+            },
+            "keyword": {
+                "type": "string",
+                "description": "The search term to look for in the Otto database.",
+                "default": "schuhe"
+            },
+            "sortby": {
+                "type": "string",
+                "description": "The sorting criteria for the search results (default is 'topseller').",
+                "default": "recommended"
+            }
+        },
+        "required": [
+            "page",
+            "keyword"
+        ]
+    }
+}

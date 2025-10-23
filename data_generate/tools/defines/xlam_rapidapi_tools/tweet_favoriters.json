@@ -1,0 +1,26 @@
+{
+    "name": "tweet_favoriters",
+    "description": "This is a sub-function API for tool twitter_data.\nTool description: Twitter public and private data API for search, Tweets, users, followers, images, media and more.\nAPI description: Fetches the list of users who have favorited a specific tweet.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the tweet for which to fetch favoriters.",
+                "default": "1485953263040188416"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "The cursor for paginating through results. Defaults to None."
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of results to return. Defaults to 20.",
+                "default": 20.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

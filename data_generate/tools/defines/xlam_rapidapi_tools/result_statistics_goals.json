@@ -1,0 +1,16 @@
+{
+    "name": "result_statistics_goals",
+    "description": "This is a sub-function API for tool handball_data.\nTool description: Broadage Handball API will give you wide range of data of world's top handball leagues, including fixtures, standings, match lists and many more. Our Handball Coverage includes the biggest handball tournaments from all around the world with in-depth coverage, giving you the opportunity to present the best sports data to users located anywhere.<br>This is a limited version in RapidApi. <a href=\"https://www.broadage.com/signup/api/free?utm_source=rapidapi&utm_medium=click&utm_campaign=handball_api\" target=”_blank”>Please, click here to start your Free Trial and try the endpoints with live data now!</a>\nAPI description: Provides the result list of the last 20 matches between the two teams in overall, with home and away filters.\n\n**The data will return for only -+7 days period, so endpoint can be tested with match that its date is in today +- 7 days. You can choose suitable match from Handbal Match List or Fixture endpoints.**",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "matchid": {
+                "type": "number",
+                "description": "The ID of the handball match."
+            }
+        },
+        "required": [
+            "matchid"
+        ]
+    }
+}

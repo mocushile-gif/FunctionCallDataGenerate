@@ -1,0 +1,14 @@
+{
+  "name": "get_directory_total_memory_usage",
+  "description": "Retrieves the total memory usage for a given directory path. Only returns the total memory usage.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "path": {
+        "type": "string",
+        "description": "The path to the directory to check memory usage. If empty, default to './'"
+      }
+    },
+    "required": ["path"]
+  }
+}

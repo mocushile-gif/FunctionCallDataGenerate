@@ -1,0 +1,25 @@
+{
+    "name": "get_random_user",
+    "description": "This is a sub-function API for tool ai_random_user_generator.\nTool description: AI-based freemium API for generating random user data with AI. Like Lorem Ipsum, but for people.\nAPI description: Fetch a random user profile based on specified criteria using the ai-random-user-generator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "results": {
+                "type": "string",
+                "description": "Number of user profiles to fetch. Default is '7'.",
+                "default": "7"
+            },
+            "nation": {
+                "type": "string",
+                "description": "Nationality of the users. Default is 'en_US'.",
+                "default": "en_US"
+            },
+            "gender": {
+                "type": "string",
+                "description": "Gender of the users. Default is 'female'.",
+                "default": "female"
+            }
+        },
+        "required": []
+    }
+}

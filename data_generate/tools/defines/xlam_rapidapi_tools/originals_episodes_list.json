@@ -1,0 +1,32 @@
+{
+    "name": "originals_episodes_list",
+    "description": "This is a sub-function API for tool webtoon.\nTool description: This API provides the largest webcomics data in the world to create a comic site/application such as webtoons.com\nAPI description: List episodes of a comic\n*To load images, please check the tutorial at https://rapidapi.com/apidojo/api/webtoon/tutorials/how-to-load-images",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "titleno": {
+                "type": "number",
+                "description": "The title number of the comic, obtained from endpoints like .../originals/titles/list or .../originals/titles/list-by-rank.",
+                "default": 2113.0
+            },
+            "language": {
+                "type": "string",
+                "description": "The language code for the episodes. One of the following: 'en', 'zh-hant', 'de', 'fr', 'es', 'th', 'id'. Defaults to 'en'.",
+                "default": "en"
+            },
+            "pagesize": {
+                "type": "number",
+                "description": "The number of episodes to fetch per page. Maximum is 20. Defaults to 20.",
+                "default": 20.0
+            },
+            "startindex": {
+                "type": "number",
+                "description": "The starting index for paging. Defaults to 0.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "titleno"
+        ]
+    }
+}

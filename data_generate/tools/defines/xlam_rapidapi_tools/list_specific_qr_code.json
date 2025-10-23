@@ -1,0 +1,16 @@
+{
+    "name": "list_specific_qr_code",
+    "description": "This is a sub-function API for tool qr_code_dynamic_and_static.\nTool description: This API is focused on generating dynamic (content can be changed later) and static QR Codes, fully customized and with constant updates.\nAPI description: From this endpoint is to get the information of a specific registered qr code, related to the respective api key",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ref": {
+                "type": "string",
+                "description": "The reference identifier for the specific QR code."
+            }
+        },
+        "required": [
+            "ref"
+        ]
+    }
+}

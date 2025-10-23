@@ -1,0 +1,37 @@
+{
+    "name": "get_file_metadata",
+    "description": "Retrieve detailed metadata for a given file, including size, timestamps, permissions, and optional hash verification.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "Path to the file whose metadata needs to be retrieved."
+        },
+        "include_permissions": {
+          "type": "boolean",
+          "description": "Include file permissions in the response (default: true).",
+          "default": true
+        },
+        "include_hash": {
+          "type": "boolean",
+          "description": "Compute file hash checksum (default: false).",
+          "default": false
+        },
+        "hash_algorithm": {
+          "type": "string",
+          "description": "Hash algorithm to use if include_hash=true. Options: 'md5', 'sha256' (default: 'md5').",
+          "default": "md5",
+          "enum": ["md5", "sha256"]
+        },
+        "time_format": {
+          "type": "string",
+          "description": "Format of timestamps. Options: 'human-readable' (default) or 'timestamp'.",
+          "default": "human-readable",
+          "enum": ["human-readable", "timestamp"]
+        }
+      },
+      "required": ["file_path"]
+    }
+  }
+  

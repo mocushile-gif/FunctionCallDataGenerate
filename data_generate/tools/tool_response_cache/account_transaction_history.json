@@ -1,0 +1,30 @@
+{
+    "{'address': '0x0000000000000000000000000000000000000123', 'network': 'mainnet'}": {
+        "error": "",
+        "response": "{'status': '1', 'message': 'OK', 'result': [{'blockNumber': '26399807', 'timeStamp': '1678621163', 'hash': '0x91e4730bfea14dc0c681f91c8172e252f95eec3eae287ba138b0fb34455a912d', 'nonce': '2289', 'blockHash': '0x9bef945ad582ae7bf711500df1f5658a6359228ba064fd9345ebf557c4b3f428', 'transactionIndex': '0', 'from': '0xfd37fa163da2e5abfcc10ff6b87ba3b3b1659836', 'to': '0x0000000000000000000000000000000000000123', 'value': '0', 'gas': '100000', 'gasPrice': '15000000000', 'isError': '0', 'txreceipt_status': '1', 'input': '0x', 'contractAddress': '', 'cumulativeGasUsed': '21000', 'gasUsed': '21000', 'confirmations': '19755844', 'methodId': '0x', 'functionName': ''}]}"
+    },
+    "{'address': '0x0000000000000000000000000000000000000123'}": {
+        "error": "",
+        "response": "{'status': '1', 'message': 'OK', 'result': [{'blockNumber': '26399807', 'timeStamp': '1678621163', 'hash': '0x91e4730bfea14dc0c681f91c8172e252f95eec3eae287ba138b0fb34455a912d', 'nonce': '2289', 'blockHash': '0x9bef945ad582ae7bf711500df1f5658a6359228ba064fd9345ebf557c4b3f428', 'transactionIndex': '0', 'from': '0xfd37fa163da2e5abfcc10ff6b87ba3b3b1659836', 'to': '0x0000000000000000000000000000000000000123', 'value': '0', 'gas': '100000', 'gasPrice': '15000000000', 'isError': '0', 'txreceipt_status': '1', 'input': '0x', 'contractAddress': '', 'cumulativeGasUsed': '21000', 'gasUsed': '21000', 'confirmations': '21600865', 'methodId': '0x', 'functionName': ''}]}"
+    },
+    "{'address': '0x3E40d042aE4f793d6c3d32eE5f4c7d636187Dc00'}": {
+        "error": "",
+        "response": "{'status': '0', 'message': 'No transactions found', 'result': []}"
+    },
+    "{'address': '0x3E40d042aE4f793d6c3d32eE5f4c7d636187Dc00', 'network': 'testnet'}": {
+        "error": "",
+        "response": "{'status': '0', 'message': 'No transactions found', 'result': []}"
+    },
+    "{'address': 'PUT_YOUR_VALID_BSC_ADDRESS_HERE', 'network': 'mainnet'}": {
+        "error": "",
+        "response": "{'status': '0', 'message': 'NOTOK', 'result': 'Error! Invalid address format'}"
+    },
+    "{'address': '0x1234567890abcdef1234567890abcdef12345678', 'network': 'mainnet'}": {
+        "error": "",
+        "response": "{'status': '1', 'message': 'OK', 'result': [{'blockNumber': '28786485', 'timeStamp': '1685820477', 'hash': '0x7fb5f57643f2ad191ae90fb45bc4c40da6ec9efd83a47643ac50649b871dc5fd', 'nonce': '13', 'blockHash': '0xb5292ab8eb35ef2f54ec4b85b985e6df23c03d5110aae960df61770c3361b623', 'transactionIndex': '2', 'from': '0xffbb0824c22c9569c4017bd4461c55e11776ac0a', 'to': '0x1234567890abcdef1234567890abcdef12345678', 'value': '99009900990099', 'gas': '34236', 'gasPrice': '15000000000', 'isError': '0', 'txreceipt_status': '1', 'input': '0x7ff36ab5000000000000000000000000000000000000000000000000000058406b75523e0000000000000000000000000000000000000000000000000000000000000080000000000000000000000000ffbb0824c22c9569c4017bd4461c55e11776ac0a00000000000000000000000000000000000000000000000000000000647b98e500000000000000000000000000000000000000000000000000000000000000020000000000000000000000001234567890abcdef1234567890abcdef12345678000000000000000000000000abcdef1234567890abcdef1234567890abcdef12', 'contractAddress': '', 'cumulativeGasUsed': '77742', 'gasUsed': '22824', 'confirmations': '17398324', 'methodId': '0x7ff36ab5', 'functionName': 'swapExactETHForTokens(uint256 amountOutMin, address[] path, address to, uint256 deadline)'}, {'blockNumber': '29149033', 'timeStamp': '1686910686', 'hash': '0x2c2e06ce0259d827a916fc84667ceee94d06fefe1b47aa7c7b076e59fb99634c', 'nonce': '0', 'blockHash': '0x8b060e249e1a1f988e9424344ad8a06db22c5f3cdbd24e7ee1a0f75cc740d5c3', 'transactionIndex': '150', 'from': '0x61b120726b88edb3fb77d1a0a738115a92a05f91', 'to': '0x1234567890abcdef1234567890abcdef12345678', 'value': '10000000000000', 'gas': '21000', 'gasPrice': '3000000000', 'isError': '0', 'txreceipt_status': '1', 'input': '0x', 'contractAddress': '', 'cumulativeGasUsed': '15088263', 'gasUsed': '21000', 'confirmations': '17035776', 'methodId': '0x', 'functionName': ''}, {'blockNumber': '33600511', 'timeStamp': '1700310859', 'hash': '0xa1a535a2212ae1cfb023afc2596cc2578e765ba604ae13e9da925e7ede2fca45', 'nonce': '37', 'blockHash': '0x2957e9ad818ed7db1f776f2bc0"
+    },
+    "{'address': '0x4aA22e321Fb85186cF2B1129a2c5cB054b1d2B0e', 'network': 'mainnet'}": {
+        "error": "",
+        "response": "{'status': '0', 'message': 'No transactions found', 'result': []}"
+    }
+}

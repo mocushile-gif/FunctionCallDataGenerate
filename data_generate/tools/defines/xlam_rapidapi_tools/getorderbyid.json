@@ -1,0 +1,16 @@
+{
+    "name": "getorderbyid",
+    "description": "This is a sub-function API for tool teste.\nTool description: teste\nAPI description: For valid response try integer IDs with value >= 1 and <= 10.         Other values will generated exceptions",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "orderid": {
+                "type": "number",
+                "description": "The ID of the order to be fetched. Should be an integer value between 1 and 10."
+            }
+        },
+        "required": [
+            "orderid"
+        ]
+    }
+}

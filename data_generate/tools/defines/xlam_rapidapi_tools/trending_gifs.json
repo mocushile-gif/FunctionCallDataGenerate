@@ -1,0 +1,18 @@
+{
+    "name": "trending_gifs",
+    "description": "This is a sub-function API for tool giphy.\nTool description: Giphy is an animated GIF search engine.\r\n\r\nThe Giphy API implements a REST-like interface. Connections can be made with any HTTP enabled programming language. The Giphy API also implements CORS, allowing you to connect to Giphy from JavaScript / Web browsers on your own domain.\nAPI description: Fetch GIFs currently trending online. The data returned mirrors that used to create The Hot 100 list of GIFs on Giphy. Returns 25 results by default.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of results to return. Defaults to 25 if not specified."
+            },
+            "rating": {
+                "type": "string",
+                "description": "Restricts results to the specified rating (y, g, pg, pg-13, or r)."
+            }
+        },
+        "required": []
+    }
+}

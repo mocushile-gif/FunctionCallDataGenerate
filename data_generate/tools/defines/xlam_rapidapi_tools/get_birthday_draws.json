@@ -1,0 +1,17 @@
+{
+    "name": "get_birthday_draws",
+    "description": "This is a sub-function API for tool euro_millions.\nTool description: A rich API to get EuroMillions results. With this API you can consult the last result, submit the numbers of one or more bets and check how many numbers you hit. As it has a track record since 2004, you can even get statistics on the numbers that have been drawn the most, check if your lucky numbers have ever come out in previous draws or consult the results of a specific draw. For the most recent draws, you can find out how many bets matched the numbers and how much money each one received. ...\nAPI description: Fetches lottery draw results for a given birthday date (in 'mm-dd' format) and returns related statistics and potentially a lucky number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The birthday date in 'mm-dd' format for which to fetch the lottery draw results.",
+                "default": "01-21"
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

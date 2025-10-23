@@ -1,0 +1,43 @@
+{
+    "name": "aliexpress_item_shipping_detail",
+    "description": "This is a sub-function API for tool aliexpress_datahub.\nTool description: 🥇#1 Data Provider. Real-Time product data API you've been looking for. No manual rules or web-scraper maintenance is required.\nAPI description: Retrieve detailed shipping information for a specific Aliexpress item.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "itemid": {
+                "type": "number",
+                "description": "The Aliexpress product ID.",
+                "default": 3256804591426248.0
+            },
+            "quantity": {
+                "type": "number",
+                "description": "The quantity of the item to consider for shipping. Defaults to 1.",
+                "default": 1.0
+            },
+            "sellerid": {
+                "type": "string",
+                "description": "The ID of the seller. Defaults to None."
+            },
+            "ext": {
+                "type": "string",
+                "description": "Additional parameter obtained from one of the Item Detail Endpoints for more accurate shipping options. Defaults to a predefined value.",
+                "default": "bVkg9vW8ihgAMt4XYtZhMB3rnoY6MGI8Sk1gfrl4IGWuBdZZb0gRv5vgI1r5DIn8Rj7mxVzOKbKpyHkmBItRm_k2dtJ1j_gHLTu5zNN9jXHeQploYHEajpnygmD_xKGbi9I_HzxO8TtoIpwdvl5ZfH6o_x5qCBy5D1cUo6t7LoDhx7UTHmFDiCHY0PpHokfJ"
+            },
+            "locale": {
+                "type": "string",
+                "description": "Locale parameter is used to display the titles and other content in selected language. All values are being validated and only the ones from the list are supported. Full list of supporting locale options, please use '**Locale List'** at '**Base**' group endpoints."
+            },
+            "region": {
+                "type": "string",
+                "description": "Region parameter is used to accurately get the shipping costs and other promo/deals for specific geo location. All values are being validated and only the ones from the list are supported. Full list of supporting locale options, please use '**Country List**' at '**Base**' group endpoints."
+            },
+            "currency": {
+                "type": "string",
+                "description": "Currency parameter is used to display the product price in selected currency. All values are being validated and only the ones from the list are supported. Full list of supporting currencies, please use '**Currency List**' at '**Base**' group endpoints."
+            }
+        },
+        "required": [
+            "itemid"
+        ]
+    }
+}

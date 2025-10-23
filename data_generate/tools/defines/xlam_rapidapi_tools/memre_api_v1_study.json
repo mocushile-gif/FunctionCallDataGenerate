@@ -1,0 +1,16 @@
+{
+    "name": "memre_api_v1_study",
+    "description": "This is a sub-function API for tool learning_engine.\nTool description: Easily integrate Memre adaptive learning software with your internal systems to optimize memory retention, build lasting knowledge, and create expertise.\nAPI description: Retrieves learning items that a specific user should study using the Memre API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The ID of the user for whom to retrieve learning items."
+            }
+        },
+        "required": [
+            "user_id"
+        ]
+    }
+}

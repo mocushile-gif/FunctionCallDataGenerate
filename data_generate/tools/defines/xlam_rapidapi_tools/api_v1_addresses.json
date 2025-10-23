@@ -1,0 +1,28 @@
+{
+    "name": "api_v1_addresses",
+    "description": "This is a sub-function API for tool address_validation_nl.\nTool description: Address Validation NL API returns a valid Dutch address (street name and city/town) for a given postcode and house number\nAPI description: Fetches address information using the provided postcode and house number from the RapidAPI Address Validation API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "postcode": {
+                "type": "string",
+                "description": "The postcode of the address.",
+                "default": "3021GS"
+            },
+            "housenumber": {
+                "type": "number",
+                "description": "The house number of the address.",
+                "default": 288.0
+            },
+            "housenumbersuffix": {
+                "type": "string",
+                "description": "The suffix of the house number. Defaults to 'B'.",
+                "default": "B"
+            }
+        },
+        "required": [
+            "postcode",
+            "housenumber"
+        ]
+    }
+}

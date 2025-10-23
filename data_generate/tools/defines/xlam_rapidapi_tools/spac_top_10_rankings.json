@@ -1,0 +1,29 @@
+{
+    "name": "spac_top_10_rankings",
+    "description": "This is a sub-function API for tool spachero_spac_database.\nTool description: Official spacHero  SPAC API  with live rankings, SPAC target names, merger meetings, warrant redemption deadlines, price targets, SEC filings, investor presentations and more.\nAPI description: Returns Top-10 gainers, losers and volume leaders for a given period and equity type (i.e., common, unit, warrants). \n\nAccepts three query parameters:\n\n**period: **daily, weekly, monthly\n**type:** common, unit, warrant\n**sortby:** gainers, losers, volume",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sortby": {
+                "type": "string",
+                "description": "Criteria to sort the rankings by. Can be 'gainers', 'losers', or 'volume'.",
+                "default": "gainers"
+            },
+            "period": {
+                "type": "string",
+                "description": "Time period to consider for the rankings. Can be 'daily', 'weekly', or 'monthly'.",
+                "default": "daily"
+            },
+            "type": {
+                "type": "string",
+                "description": "Type of SPAC equity. Can be 'common', 'unit', or 'warrant'.",
+                "default": "common"
+            }
+        },
+        "required": [
+            "sortby",
+            "period",
+            "type"
+        ]
+    }
+}

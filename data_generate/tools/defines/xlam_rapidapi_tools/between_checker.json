@@ -1,0 +1,29 @@
+{
+    "name": "between_checker",
+    "description": "This is a sub-function API for tool dateclock.\nTool description: Complete Converter Date Report also Between, Birthday and many more!\n#date #birthday #between #query #islamic #calendar\nI’m on telegram chat me if there a problem/request\nhttps://t.me/franc0jr\nAPI description: Checks if a given date is between two specified dates using the DateClock API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "to": {
+                "type": "string",
+                "description": "The end date in the format 'YYYY-MM-DD'.",
+                "default": "1 week ago"
+            },
+            "date": {
+                "type": "string",
+                "description": "The date to check in the format 'YYYY-MM-DD'.",
+                "default": "Yesterday"
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The start date in the format 'YYYY-MM-DD'.",
+                "default": "1980-06-06 00:00:00"
+            }
+        },
+        "required": [
+            "to",
+            "date",
+            "is_from"
+        ]
+    }
+}

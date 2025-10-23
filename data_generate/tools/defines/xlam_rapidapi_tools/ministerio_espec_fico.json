@@ -1,0 +1,17 @@
+{
+    "name": "ministerio_espec_fico",
+    "description": "This is a sub-function API for tool dataestado.\nTool description: Un esfuerzo por recopilar información de las instituciones públicas de la Administración Central del Estado chileno.\nAPI description: Fetches information for a single ministry from the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nombre": {
+                "type": "string",
+                "description": "The name of the ministry to fetch data for.",
+                "default": "Ministerio de Educación"
+            }
+        },
+        "required": [
+            "nombre"
+        ]
+    }
+}

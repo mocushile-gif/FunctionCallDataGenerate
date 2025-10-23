@@ -1,0 +1,15 @@
+{
+    "name": "test_app_deepfry_get",
+    "description": "This is a sub-function API for tool image.\nTool description: a powerful and fast Image manipulation. Perfect for discord bots or web apps. https://dagpi.xyz\nAPI description: Sends a GET request to the deepfry endpoint of the RapidAPI Image Processing service with the specified URL and API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the image that you want to deepfry. Defaults to 'https://dagbot-is.the-be.st/logo.png'.",
+                "default": "https://dagbot-is.the-be.st/logo.png"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "pagesjaunes",
+    "description": "This is a sub-function API for tool les_pagesjaunes_les_pagesblanche_france.\nTool description: Extraire les données du Pages Jaunes et Pages Blanches scraping email et téléphone \nAPI description: This function extracts data from the \"Pages Jaunes\" (Yellow Pages) for a given location and keyword.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pjpage": {
+                "type": "number",
+                "description": "The page number to retrieve.",
+                "default": 1.0
+            },
+            "pjlocation": {
+                "type": "string",
+                "description": "The location to search within \"Pages Jaunes\".",
+                "default": "Paris"
+            },
+            "pjkeyword": {
+                "type": "string",
+                "description": "The keyword to search for in \"Pages Jaunes\".",
+                "default": "Restaurant"
+            }
+        },
+        "required": [
+            "pjpage",
+            "pjlocation",
+            "pjkeyword"
+        ]
+    }
+}

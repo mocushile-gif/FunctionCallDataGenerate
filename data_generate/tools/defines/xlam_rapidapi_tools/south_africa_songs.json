@@ -1,0 +1,23 @@
+{
+    "name": "south_africa_songs",
+    "description": "This is a sub-function API for tool billboard_api.\nTool description: Providing the Billboard chart rankings and information on titles, artists, lyrics, images, and more. \nAPI description: Fetch the South Africa Songs chart information for a specific date range.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date in the format 'YYYY-MM-DD' for which to retrieve the chart information.",
+                "default": "2022-05-07"
+            },
+            "range": {
+                "type": "string",
+                "description": "The range of the chart positions to be retrieved.",
+                "default": "1-10"
+            }
+        },
+        "required": [
+            "date",
+            "range"
+        ]
+    }
+}

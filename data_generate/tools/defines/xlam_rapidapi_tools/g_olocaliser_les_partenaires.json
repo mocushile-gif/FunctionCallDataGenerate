@@ -1,0 +1,25 @@
+{
+    "name": "g_olocaliser_les_partenaires",
+    "description": "This is a sub-function API for tool partenaires_mobilis.\nTool description: Connaître et localiser les partenaires Mobilis de l'OPT-NC\nAPI description: Récupérer tous les partenaires, ou récupérer tous les partenaires dans un rayon donné autour d'un point donné :\n\n- **nearByLon**= {longitude du centre du cercle de la zone de recherche}\n- **nearByLat**= {latitude du centre du cercle de la zone de recherche}\n- **nearByDistance**= {rayon du cercle de la zone de recherche}",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nearbydistance": {
+                "type": "string",
+                "description": "Radius of the search area in meters. Default is '2000'.",
+                "default": "2000"
+            },
+            "nearbylon": {
+                "type": "string",
+                "description": "Longitude of the center of the search area. Default is '166.448744'.",
+                "default": "166.448744"
+            },
+            "nearbylat": {
+                "type": "string",
+                "description": "Latitude of the center of the search area. Default is '-22.302828'.",
+                "default": "-22.302828"
+            }
+        },
+        "required": []
+    }
+}

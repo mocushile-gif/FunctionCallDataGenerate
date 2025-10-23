@@ -1,0 +1,37 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "type": "VISA 16 digit",
+            "firstname": "Duane",
+            "lastname": "Mays",
+            "cc": "4748641910672252",
+            "valid_date": "11/25",
+            "cvc": "059"
+        }
+    },
+    "{'visa_type': 'mastercard'}": {
+        "error": "",
+        "response": "{'type': 'Mastercard', 'firstname': 'Susan', 'lastname': 'Garcia', 'cc': '5106598319307331', 'valid_date': '06/32', 'cvc': '765'}"
+    },
+    "{'visa_type': 'visa'}": {
+        "error": "",
+        "response": "{'type': 'VISA 16 digit', 'firstname': 'Jennifer', 'lastname': 'Spencer', 'cc': '4821438823722245', 'valid_date': '11/32', 'cvc': '570'}"
+    },
+    "{'visa_type': 'amex'}": {
+        "error": "",
+        "response": "{'type': 'American Express', 'firstname': 'Michael', 'lastname': 'Black', 'cc': '370335920721794', 'valid_date': '09/32', 'cvc': '6197'}"
+    },
+    "{'visa_type': 'jcb15'}": {
+        "error": "",
+        "response": "{'type': 'JCB 15 digit', 'firstname': 'George', 'lastname': 'Banks', 'cc': '180032863936907', 'valid_date': '06/31', 'cvc': '709'}"
+    },
+    "{'visa_type': 'visa13'}": {
+        "error": "",
+        "response": "{'type': 'VISA 13 digit', 'firstname': 'Benjamin', 'lastname': 'Haley', 'cc': '4697532607065', 'valid_date': '01/30', 'cvc': '350'}"
+    },
+    "{'visa_type': 'visa16'}": {
+        "error": "",
+        "response": "{'type': 'VISA 16 digit', 'firstname': 'Dale', 'lastname': 'Shelton', 'cc': '4733318349399131', 'valid_date': '11/25', 'cvc': '596'}"
+    }
+}

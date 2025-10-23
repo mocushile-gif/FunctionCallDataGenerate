@@ -1,0 +1,27 @@
+{
+    "name": "images_search",
+    "description": "This is a sub-function API for tool bing_search_apis.\nTool description: An AI service from Microsoft Azure that enables secure, ad-free location search for your users, displaying relevant information from web results, images, local businesses, news and images Photo.\nAPI description: Searches for images using the Bing Search API, based on the provided keyword and optional parameters for size and page number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The search term to find related images.",
+                "default": "wallpapers"
+            },
+            "size": {
+                "type": "string",
+                "description": "The size of the images to be retrieved. Default is '30'.",
+                "default": "30"
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number of the search results to retrieve. Default is '0'.",
+                "default": "0"
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

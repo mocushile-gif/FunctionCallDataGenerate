@@ -1,0 +1,24 @@
+{
+    "name": "latest_sold",
+    "description": "This is a sub-function API for tool most_expensive_nft_artworks.\nTool description: Get list of most expensive and bestselling NFTs ever\nAPI description: Get recent sold artworks list.\n\n**Possible filtering by gallery: **\nArt Blocks\nAsync Art\nAuction Houses\nFoundation\nhic et nunc\nKnownOrigin\nMakersPlace\nNifty Gateway\nSuperRare",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number of the results to return. Defaults to '1'.",
+                "default": "1"
+            },
+            "gallery": {
+                "type": "string",
+                "description": "The name of the gallery to filter results by. Possible values include 'Art Blocks', 'Async Art', 'Auction Houses', 'Foundation', 'hic et nunc', 'KnownOrigin', 'MakersPlace', 'Nifty Gateway', and 'SuperRare'."
+            },
+            "sort": {
+                "type": "string",
+                "description": "The parameter by which to sort the results. Defaults to 'date_sold'.",
+                "default": "date_sold"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "rotate_image",
+    "description": "Rotate image by specified angle in degrees.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the input image file"
+        },
+        "angle": {
+          "type": "number",
+          "description": "Rotation angle in degrees (positive for clockwise)",
+          "default": 90
+        },
+        "expand": {
+          "type": "boolean",
+          "description": "Whether to expand the image to fit the rotated content",
+          "default": false
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output image. If not provided, will create auto-named file."
+        }
+      },
+      "required": ["image_path"]
+    }
+  } 

@@ -1,0 +1,47 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "titles": [],
+            "page": 1,
+            "total_results": 0,
+            "total_pages": 0
+        }
+    },
+    "{'release_date_start': 20210101, 'regions': 'US', 'sort_by': 'popularity_desc', 'types': 'movie'}": {
+        "error": "",
+        "response": "{'titles': [], 'page': 1, 'total_pages': 0, 'total_results': 0}"
+    },
+    "{'genres': '4', 'regions': 'GB', 'types': 'movie', 'source_types': 'sub,free'}": {
+        "error": "",
+        "response": "{'titles': [], 'page': 1, 'total_pages': 0, 'total_results': 0}"
+    },
+    "{'genres': '9', 'regions': 'GB', 'types': 'movie', 'source_types': 'sub,free'}": {
+        "error": "",
+        "response": "{'titles': [], 'page': 1, 'total_pages': 0, 'total_results': 0}"
+    },
+    "{'source_ids': '23,206', 'types': 'movie', 'regions': 'US', 'genres': ''}": {
+        "error": "",
+        "response": "{'titles': [], 'page': 1, 'total_pages': 0, 'total_results': 0}"
+    },
+    "{'source_ids': '23,206', 'types': 'movie', 'regions': 'CA', 'genres': ''}": {
+        "error": "",
+        "response": "{'titles': [], 'page': 1, 'total_pages': 0, 'total_results': 0}"
+    },
+    "{'network_ids': '1,8', 'regions': 'GB', 'types': 'tv_series', 'source_types': 'free'}": {
+        "error": "",
+        "response": "{'titles': [], 'page': 1, 'total_pages': 0, 'total_results': 0}"
+    },
+    "{'network_ids': '1,8', 'regions': 'GB', 'types': 'tv_series', 'source_types': 'free,tve'}": {
+        "error": "",
+        "response": "{'titles': [], 'page': 1, 'total_pages': 0, 'total_results': 0}"
+    },
+    "{'network_ids': '1,8', 'regions': 'GB', 'types': 'tv_series', 'source_types': 'free,tve', 'release_date_start': 20240101.0}": {
+        "error": "",
+        "response": "{'titles': [], 'page': 1, 'total_pages': 0, 'total_results': 0}"
+    },
+    "{'genres': '4', 'source_ids': '206', 'regions': 'CA', 'types': 'movie', 'release_date_start': 20150101, 'release_date_end': 20231231}": {
+        "error": "",
+        "response": "{'titles': [], 'page': 1, 'total_pages': 0, 'total_results': 0}"
+    }
+}

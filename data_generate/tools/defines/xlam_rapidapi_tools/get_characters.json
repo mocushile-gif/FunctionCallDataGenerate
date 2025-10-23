@@ -1,0 +1,25 @@
+{
+    "name": "get_characters",
+    "description": "This is a sub-function API for tool optitalk.\nTool description: Create custom highly advanced general AI chatbots and characters with distinct personalities, and knowledgebase. Engage with a vast library of user-generated characters.\n\nhttp://optitalk.net/\n\n## Key Features\n- **Personalized chatbots and characters**: Craft unique and engaging characters with distinct personalities, backstories, and interests to bring your stories, games, or applications to life.\n- **Explore user-generated characters**: Access a vast library of user-created chatbots and char...\nAPI description: Get a list of publicly available characters as well as the characters that you created.\n\n## Character Usage\nOnce you've retrieved a character, you can copy its ID and use it in the /chat endpoint in order to chat with it.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page_size": {
+                "type": "number",
+                "description": "Number of characters to retrieve per page. Defaults to 25.",
+                "default": 25.0
+            },
+            "page": {
+                "type": "number",
+                "description": "Page number to retrieve. Defaults to 1.",
+                "default": 1.0
+            },
+            "private": {
+                "type": "boolean",
+                "description": "If True, return only the characters created by the user. If False, return all publicly available characters. If None, both types of characters are returned. Defaults to None.",
+                "default": true
+            }
+        },
+        "required": []
+    }
+}

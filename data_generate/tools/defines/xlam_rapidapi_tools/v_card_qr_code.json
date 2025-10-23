@@ -1,0 +1,67 @@
+{
+    "name": "v_card_qr_code",
+    "description": "This is a sub-function API for tool scanova_qr_code.\nTool description: Scanova QR Code API lets you generate custom-designed Branded QR Codes in bulk programmatically in your own mobile application or information system within few minutes.\nAPI description: This request returns a Static QR Code (standard or custom-designed) encoded with specified contact information. When scanned, the QR Code prompts the scanning device to 'Save as Contact'.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "uname": {
+                "type": "string",
+                "description": "The username for the vCard.",
+                "default": "Tanisha"
+            },
+            "error_correction": {
+                "type": "string",
+                "description": "The error correction level for the QR code. Defaults to 'M'.",
+                "default": "M"
+            },
+            "data_gradient_start_color": {
+                "type": "string",
+                "description": "The start color for the data gradient. Defaults to '#000000'.",
+                "default": "#000000"
+            },
+            "eye_color_inner": {
+                "type": "string",
+                "description": "The inner color of the QR code eyes. Defaults to '#000000'.",
+                "default": "#000000"
+            },
+            "data_gradient_style": {
+                "type": "string",
+                "description": "The style of the data gradient. Defaults to 'None'.",
+                "default": "None"
+            },
+            "data_gradient_end_color": {
+                "type": "string",
+                "description": "The end color for the data gradient. Defaults to '#000000'.",
+                "default": "#000000"
+            },
+            "background_color": {
+                "type": "string",
+                "description": "The background color of the QR code. Defaults to '#FFFFFF'.",
+                "default": "#FFFFFF"
+            },
+            "eye_color_outer": {
+                "type": "string",
+                "description": "The outer color of the QR code eyes. Defaults to '#000000'.",
+                "default": "#000000"
+            },
+            "eye_pattern": {
+                "type": "string",
+                "description": "The pattern of the QR code eyes. Defaults to 'RECT_RECT'.",
+                "default": "RECT_RECT"
+            },
+            "size": {
+                "type": "string",
+                "description": "The size of the QR code. Defaults to 'm'.",
+                "default": "m"
+            },
+            "data_pattern": {
+                "type": "string",
+                "description": "The pattern of the QR code data. Defaults to 'RECT'.",
+                "default": "RECT"
+            }
+        },
+        "required": [
+            "uname"
+        ]
+    }
+}

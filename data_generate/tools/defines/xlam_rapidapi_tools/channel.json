@@ -1,0 +1,29 @@
+{
+    "name": "channel",
+    "description": "This is a sub-function API for tool youtube_v3_alternative.\nTool description: Get data similar to YouTube Data API v3 from this API. Check latest version: [YT-API](https://rapidapi.com/ytjar/api/yt-api)\nAPI description: Fetches details and videos of a YouTube channel using the RapidAPI YouTube V3 alternative.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the YouTube channel to fetch details for.",
+                "default": "UCTwECeGqMZee77BjdoYtI2Q"
+            },
+            "x_cachebypass": {
+                "type": "string",
+                "description": "Cache bypass parameter; must be passed as '1' if used."
+            },
+            "token": {
+                "type": "string",
+                "description": "Pagination token for fetching additional results beyond the first page."
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "Parameter to sort the channel videos. Available options are 'newest', 'oldest', and 'popular'. Defaults to 'newest'."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

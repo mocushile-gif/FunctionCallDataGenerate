@@ -1,0 +1,29 @@
+{
+    "name": "get_user_following_list",
+    "description": "This is a sub-function API for tool tiktok_download_video.\nTool description: Tiktok Best Spider. Fast. HD Quality. Without Watermark Download. Video Full Detail. Signature X-Argus,X-Ladon,X-Gorgon \nmail: nb429429@gmail.com\n\nAPI description: Retrieves the list of users that a specific TikTok user is following.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The ID of the TikTok user whose following list is to be retrieved.",
+                "default": "107955"
+            },
+            "count": {
+                "type": "string",
+                "description": "The number of following users to retrieve, with a maximum value of 200. Defaults to '50'.",
+                "default": "50"
+            },
+            "time": {
+                "type": "string",
+                "description": "The time parameter for loading the next page if there are more followers to retrieve. Defaults to '0'.",
+                "default": "0"
+            }
+        },
+        "required": [
+            "user_id",
+            "count",
+            "time"
+        ]
+    }
+}

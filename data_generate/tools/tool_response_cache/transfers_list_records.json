@@ -1,0 +1,50 @@
+{
+    "{'competitionid': 'PL', 'limit': 5}": {
+        "error": "",
+        "response": {
+            "player": []
+        }
+    },
+    "{'competitionid': 'PL'}": {
+        "error": "",
+        "response": {
+            "player": []
+        }
+    },
+    "{'competitionid': 'BL1'}": {
+        "error": "",
+        "response": {
+            "player": []
+        }
+    },
+    "{'competitionid': 'SA'}": {
+        "error": "",
+        "response": {
+            "player": []
+        }
+    },
+    "{'competitionid': 'BL1', 'positionid': 6, 'domain': 'de'}": {
+        "error": "",
+        "response": "{'player': []}"
+    },
+    "{'competitionid': 'BUN', 'positionid': 6, 'domain': 'de'}": {
+        "error": "",
+        "response": "{'player': []}"
+    },
+    "{'competitionid': 'IT1', 'limit': 5}": {
+        "error": "",
+        "response": "{'player': [{'id': '2168965', 'playerID': '8198', 'fromClubID': '418', 'toClubID': '506', 'transferredAt': 1531173600, 'isLoan': None, 'wasLoan': None, 'season': '18/19', 'fromCompetitionID': 'ES1', 'toCompetitionID': 'IT1', 'transferFee': {'value': '117000000', 'currency': '\u20ac'}, 'transferMarketValue': {'value': 100000000, 'currency': '\u20ac', 'progression': None}}, {'id': '3494597', 'playerID': '96341', 'fromClubID': '46', 'toClubID': '631', 'transferredAt': 1628719200, 'isLoan': None, 'wasLoan': None, 'season': '21/22', 'fromCompetitionID': 'IT1', 'toCompetitionID': 'GB1', 'transferFee': {'value': '113000000', 'currency': '\u20ac'}, 'transferMarketValue': {'value': 100000000, 'currency': '\u20ac', 'progression': None}}, {'id': '1563900', 'playerID': '122153', 'fromClubID': '506', 'toClubID': '985', 'transferredAt': 1470693600, 'isLoan': None, 'wasLoan': None, 'season': '16/17', 'fromCompetitionID': 'IT1', 'toCompetitionID': 'GB1', 'transferFee': {'value': '105000000', 'currency': '\u20ac'}, 'transferMarketValue': {'value': 70000000, 'currency': '\u20ac', 'progression': None}}, {'id': '1550131', 'playerID': '39153', 'fromClubID': '6195', 'toClubID': '506', 'transferredAt': 1469484000, 'isLoan': None, 'wasLoan': None, 'season': '16/17', 'fromCompetitionID': 'IT1', 'toCompetitionID': 'IT1', 'transferFee': {'value': '90000000', 'currency': '\u20ac'}, 'transferMarketValue': {'value': 65000000, 'currency': '\u20ac', 'progression': None}}, {'id': '2562879', 'playerID': '326031', 'fromClubID': '610', 'toClubID': '506', 'transferredAt': 1563400800, 'isLoan': None, 'wasLoan': None, 'season': '19/20', 'fromCompetitionID': 'NL1', 'toCompetitionID': 'IT1', 'transferFee': {'value': '85500000', 'currency': '\u20ac'}, 'transferMarketValue': {'value': 75000000, 'currency': '\u20ac', 'progression': None}}]}"
+    },
+    "{'competitionid': 'GB1', 'positiongroup': 'Mittelfeld', 'domain': 'com', 'limit': 10}": {
+        "error": "",
+        "response": "{'player': [{'id': '1993889', 'playerID': '80444', 'fromClubID': '31', 'toClubID': '131', 'transferredAt': 1515366000, 'isLoan': None, 'wasLoan': None, 'season': '17/18', 'fromCompetitionID': 'GB1', 'toCompetitionID': 'ES1', 'transferFee': {'value': '135000000', 'currency': '\u20ac'}, 'transferMarketValue': {'value': 90000000, 'currency': '\u20ac', 'progression': None}}, {'id': '4254228', 'playerID': '648195', 'fromClubID': '294', 'toClubID': '631', 'transferredAt': 1675119600, 'isLoan': None, 'wasLoan': None, 'season': '22/23', 'fromCompetitionID': 'PO1', 'toCompetitionID': 'GB1', 'transferFee': {'value': '121000000', 'currency': '\u20ac'}, 'transferMarketValue': {'value': 55000000, 'currency': '\u20ac', 'progression': None}}, {'id': '4505651', 'playerID': '357662', 'fromClubID': '379', 'toClubID': '11', 'transferredAt': 1689372000, 'isLoan': None, 'wasLoan': None, 'season': '23/24', 'fromCompetitionID': 'GB1', 'toCompetitionID': 'GB1', 'transferFee': {'value': '116600000', 'currency': '\u20ac'}, 'transferMarketValue': {'value': 90000000, 'currency': '\u20ac', 'progression': None}}, {'id': '4583351', 'playerID': '687626', 'fromClubID': '1237', 'toClubID': '631', 'transferredAt': 1691964000, 'isLoan': None, 'wasLoan': None, 'season': '23/24', 'fromCompetitionID': 'GB1', 'toCompetitionID': 'GB1', 'transferFee': {'value': '116000000', 'currency': '\u20ac'}, 'transferMarketValue': {'value': 75000000, 'currency': '\u20ac', 'progression': None}}, {'id': '1563900', 'playerID': '122153', 'fromClubID': '506', 'toClubID': '"
+    },
+    "{'competitionid': 'EN1', 'limit': 10, 'domain': 'com'}": {
+        "error": "",
+        "response": "{'player': []}"
+    },
+    "{'competitionid': 'PL', 'limit': 10, 'domain': 'com'}": {
+        "error": "",
+        "response": "{'player': []}"
+    }
+}

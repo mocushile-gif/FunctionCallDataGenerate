@@ -1,0 +1,38 @@
+{
+    "name": "tokens_all_market_cap",
+    "description": "This is a sub-function API for tool defi_watch.\nTool description: DeFi Watch's API opens access to up-to-date data for thousands of cryptocurrencies. The API code is clear, developer-friendly, and provides daily and historical cryptocurrency information for each API request\nAPI description: Fetches market capitalization data for tokens with optional filtering.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sortfield": {
+                "type": "string",
+                "description": "The specific field to sort by."
+            },
+            "sorttype": {
+                "type": "string",
+                "description": "The type of sorting to apply (e.g., 'asc' for ascending, 'desc' for descending)."
+            },
+            "stableonly": {
+                "type": "boolean",
+                "description": "Whether to return only stablecoins."
+            },
+            "skip": {
+                "type": "number",
+                "description": "The number of records to skip for pagination."
+            },
+            "searchterms": {
+                "type": "string",
+                "description": "Specific search terms to filter tokens."
+            },
+            "take": {
+                "type": "number",
+                "description": "The number of records to take for pagination."
+            },
+            "chains": {
+                "type": "string",
+                "description": "Comma-separated list of specific blockchains to filter the tokens by."
+            }
+        },
+        "required": []
+    }
+}

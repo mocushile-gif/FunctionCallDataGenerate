@@ -1,0 +1,409 @@
+{
+    "{'make': 'Bugatti', 'model': 'Chiron'}": {
+        "error": "",
+        "response": [
+            {
+                "city_mpg": 8,
+                "combined_mpg": 9,
+                "cylinders": 16,
+                "engine_displacement_liters": 8.0,
+                "drive_axle_type": "All-Wheel Drive",
+                "fuel_type": "Premium",
+                "highway_mpg": 11,
+                "make": "Bugatti",
+                "model": "Chiron Pur Sport",
+                "transmission": "Automatic (AM-S7)",
+                "vehicle_size_class": "Two Seaters",
+                "model_year": 2023
+            },
+            {
+                "city_mpg": 8,
+                "combined_mpg": 9,
+                "cylinders": 16,
+                "engine_displacement_liters": 8.0,
+                "drive_axle_type": "All-Wheel Drive",
+                "fuel_type": "Premium",
+                "highway_mpg": 11,
+                "make": "Bugatti",
+                "model": "Chiron Super Sport",
+                "transmission": "Automatic (AM-S7)",
+                "vehicle_size_class": "Two Seaters",
+                "model_year": 2023
+            },
+            {
+                "city_mpg": 9,
+                "combined_mpg": 11,
+                "cylinders": 16,
+                "engine_displacement_liters": 8.0,
+                "drive_axle_type": "All-Wheel Drive",
+                "fuel_type": "Premium",
+                "highway_mpg": 14,
+                "make": "Bugatti",
+                "model": "Chiron",
+                "transmission": "Automatic (AM-S7)",
+                "vehicle_size_class": "Two Seaters",
+                "model_year": 2023
+            }
+        ]
+    },
+    "{'make': 'Bugatti', 'model': 'Divo'}": {
+        "error": "",
+        "response": {
+            "message": "not found"
+        }
+    },
+    "{'make': 'Bugatti', 'model': 'Veyron'}": {
+        "error": "",
+        "response": {
+            "message": "not found"
+        }
+    },
+    "{'make': 'Bugatti', 'model': 'Chiron Pur Sport'}": {
+        "error": "",
+        "response": [
+            {
+                "city_mpg": 8,
+                "combined_mpg": 9,
+                "cylinders": 16,
+                "engine_displacement_liters": 8.0,
+                "drive_axle_type": "All-Wheel Drive",
+                "fuel_type": "Premium",
+                "highway_mpg": 11,
+                "make": "Bugatti",
+                "model": "Chiron Pur Sport",
+                "transmission": "Automatic (AM-S7)",
+                "vehicle_size_class": "Two Seaters",
+                "model_year": 2023
+            }
+        ]
+    },
+    "{'make': 'Bugatti', 'model': 'Chiron Super Sport'}": {
+        "error": "",
+        "response": [
+            {
+                "city_mpg": 8,
+                "combined_mpg": 9,
+                "cylinders": 16,
+                "engine_displacement_liters": 8.0,
+                "drive_axle_type": "All-Wheel Drive",
+                "fuel_type": "Premium",
+                "highway_mpg": 11,
+                "make": "Bugatti",
+                "model": "Chiron Super Sport",
+                "transmission": "Automatic (AM-S7)",
+                "vehicle_size_class": "Two Seaters",
+                "model_year": 2023
+            }
+        ]
+    },
+    "{'make': 'Honda', 'model': 'Civic', 'year': '2022'}": {
+        "error": "",
+        "response": [
+            {
+                "city_mpg": 33,
+                "combined_mpg": 36,
+                "cylinders": 4,
+                "engine_displacement_liters": 1.5,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Regular",
+                "highway_mpg": 42,
+                "make": "Honda",
+                "model": "Civic 4Dr",
+                "transmission": "Automatic (variable gear ratios)",
+                "vehicle_size_class": "Midsize Cars",
+                "model_year": 2022
+            },
+            {
+                "city_mpg": 31,
+                "combined_mpg": 34,
+                "cylinders": 4,
+                "engine_displacement_liters": 1.5,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Regular",
+                "highway_mpg": 38,
+                "make": "Honda",
+                "model": "Civic 4Dr",
+                "transmission": "Automatic (AV-S7)",
+                "vehicle_size_class": "Midsize Cars",
+                "model_year": 2022
+            },
+            {
+                "city_mpg": 31,
+                "combined_mpg": 35,
+                "cylinders": 4,
+                "engine_displacement_liters": 2.0,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Regular",
+                "highway_mpg": 40,
+                "make": "Honda",
+                "model": "Civic 4Dr",
+                "transmission": "Automatic (variable gear ratios)",
+                "vehicle_size_class": "Midsize Cars",
+                "model_year": 2022
+            },
+            {
+                "city_mpg": 30,
+                "combined_mpg": 33,
+                "cylinders": 4,
+                "engine_displacement_liters": 2.0,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Regular",
+                "highway_mpg": 37,
+                "make": "Honda",
+                "model": "Civic 4Dr",
+                "transmission": "Automatic (AV-S7)",
+                "vehicle_size_class": "Midsize Cars",
+                "model_year": 2022
+            },
+            {
+                "city_mpg": 31,
+                "combined_mpg": 35,
+                "cylinders": 4,
+                "engine_displacement_liters": 1.5,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Regular",
+                "highway_mpg": 39,
+                "make": "Honda",
+                "model": "Civic 5Dr",
+                "transmission": "Automatic (variable gear ratios)",
+                "vehicle_size_class": "Large Cars",
+                "model_year": 2022
+            },
+            {
+                "city_mpg": 30,
+                "combined_mpg": 33,
+                "cylinders": 4,
+                "engine_displacement_liters": 1.5,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Regular",
+                "highway_mpg": 37,
+                "make": "Honda",
+                "model": "Civic 5Dr",
+                "transmission": "Automatic (AV-S7)",
+                "vehicle_size_class": "Large Cars",
+                "model_year": 2022
+            },
+            {
+                "city_mpg": 28,
+                "combined_mpg": 31,
+                "cylinders": 4,
+                "engine_displacement_liters": 1.5,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Regular",
+                "highway_mpg": 37,
+                "make": "Honda",
+                "model": "Civic 5Dr",
+                "transmission": "Manual 6-spd",
+                "vehicle_size_class": "Large Cars",
+                "model_year": 2022
+            },
+            {
+                "city_mpg": 30,
+                "combined_mpg": 33,
+                "cylinders": 4,
+                "engine_displacement_liters": 2.0,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Regular",
+                "highway_mpg": 38,
+                "make": "Honda",
+                "model": "Civic 5Dr",
+                "transmission": "Automatic (variable gear ratios)",
+                "vehicle_size_class": "Large Cars",
+                "model_year": 2022
+            },
+            {
+                "city_mpg": 29,
+                "combined_mpg": 32,
+                "cylinders": 4,
+                "engine_displacement_liters": 2.0,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Regular",
+                "highway_mpg": 37,
+                "make": "Honda",
+                "model": "Civic 5Dr",
+                "transmission": "Automatic (AV-S7)",
+                "vehicle_size_class": "Large Cars",
+                "model_year": 2022
+            },
+            {
+                "city_mpg": 26,
+                "combined_mpg": 29,
+                "cylinders": 4,
+                "engine_displacement_liters": 2.0,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Regular",
+                "highway_mpg": 36,
+                "make": "Honda",
+                "model": "Civic 5Dr",
+                "transmission": "Manual 6-spd",
+                "vehicle_size_class": "Large Cars",
+                "model_year": 2022
+            },
+            {
+                "city_mpg": 27,
+                "combined_mpg": 31,
+                "cylinders": 4,
+                "engine_displacement_liters": 1.5,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Premium",
+                "highway_mpg": 37,
+                "make": "Honda",
+                "model": "Civic 4Dr",
+                "transmission": "Manual 6-spd",
+                "vehicle_size_class": "Midsize Cars",
+                "model_year": 2022
+            }
+        ]
+    },
+    "{'make': 'Toyota', 'model': 'Corolla', 'year': '2020'}": {
+        "error": "",
+        "response": [
+            {
+                "city_mpg": 30,
+                "combined_mpg": 34,
+                "cylinders": 4,
+                "engine_displacement_liters": 1.8,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Regular",
+                "highway_mpg": 38,
+                "make": "Toyota",
+                "model": "Corolla",
+                "transmission": "Automatic (CVT)",
+                "vehicle_size_class": "Compact Cars",
+                "model_year": 2020
+            },
+            {
+                "city_mpg": 29,
+                "combined_mpg": 33,
+                "cylinders": 4,
+                "engine_displacement_liters": 2.0,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Regular",
+                "highway_mpg": 36,
+                "make": "Toyota",
+                "model": "Corolla",
+                "transmission": "Automatic (CVT)",
+                "vehicle_size_class": "Compact Cars",
+                "model_year": 2020
+            }
+        ]
+    },
+    "{'make': 'Honda', 'model': 'Civic', 'year': '2020'}": {
+        "error": "",
+        "response": [
+            {
+                "city_mpg": 30,
+                "combined_mpg": 33,
+                "cylinders": 4,
+                "engine_displacement_liters": 2.0,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Regular",
+                "highway_mpg": 38,
+                "make": "Honda",
+                "model": "Civic",
+                "transmission": "Automatic (CVT)",
+                "vehicle_size_class": "Compact Cars",
+                "model_year": 2020
+            },
+            {
+                "city_mpg": 25,
+                "combined_mpg": 29,
+                "cylinders": 4,
+                "engine_displacement_liters": 1.5,
+                "drive_axle_type": "Front-Wheel Drive",
+                "fuel_type": "Regular",
+                "highway_mpg": 35,
+                "make": "Honda",
+                "model": "Civic",
+                "transmission": "Manual (6-Speed)",
+                "vehicle_size_class": "Compact Cars",
+                "model_year": 2020
+            }
+        ]
+    },
+    "{'make': 'Tesla', 'model': 'Model 3', 'year': '2021'}": {
+        "error": "",
+        "response": "[{'city_mpg': 141, 'city_kwh_per_100mi': 23.9556, 'combined_mpg': 134, 'combined_kwh_per_100mi': 25.109, 'drive_axle_type': 'All-Wheel Drive', 'fuel_type': 'Electricity', 'highway_mpg': 127, 'highway_kwh_per_100mi': 26.5188, 'make': 'Tesla', 'model': 'Model 3 Long Range AWD', 'transmission': 'Automatic (A1)', 'vehicle_size_class': 'Midsize Cars', 'model_year': 2021}, {'city_mpg': 118, 'city_kwh_per_100mi': 28.6767, 'combined_mpg': 113, 'combined_kwh_per_100mi': 29.9572, 'drive_axle_type': 'All-Wheel Drive', 'fuel_type': 'Electricity', 'highway_mpg': 107, 'highway_kwh_per_100mi': 31.5223, 'make': 'Tesla', 'model': 'Model 3 Performance AWD', 'transmission': 'Automatic (A1)', 'vehicle_size_class': 'Midsize Cars', 'model_year': 2021}, {'city_mpg': 150, 'city_kwh_per_100mi': 22.4407, 'combined_mpg': 142, 'combined_kwh_per_100mi': 23.7441, 'drive_axle_type': 'Rear-Wheel Drive', 'fuel_type': 'Electricity', 'highway_mpg': 133, 'highway_kwh_per_100mi': 25.3371, 'make': 'Tesla', 'model': 'Model 3 Standard Range Plus RWD', 'transmission': 'Automatic (A1)', 'vehicle_size_class': 'Midsize Cars', 'model_year': 2021}]"
+    },
+    "{'make': 'BMW', 'model': '5 Series', 'year': '2022'}": {
+        "error": "",
+        "response": [
+            {
+                "make": "BMW",
+                "model": "5 Series",
+                "model_year": 2022,
+                "fuel_type": "Gasoline",
+                "engine_displacement_liters": 2.0,
+                "cylinders": 4,
+                "transmission": "Automatic (8-Speed)",
+                "drive_axle_type": "Rear-Wheel Drive",
+                "city_mpg": 25,
+                "highway_mpg": 33,
+                "combined_mpg": 28,
+                "vehicle_size_class": "Midsize Cars"
+            },
+            {
+                "make": "BMW",
+                "model": "5 Series",
+                "model_year": 2022,
+                "fuel_type": "Gasoline",
+                "engine_displacement_liters": 3.0,
+                "cylinders": 6,
+                "transmission": "Automatic (8-Speed)",
+                "drive_axle_type": "All-Wheel Drive",
+                "city_mpg": 22,
+                "highway_mpg": 29,
+                "combined_mpg": 25,
+                "vehicle_size_class": "Midsize Cars"
+            },
+            {
+                "make": "BMW",
+                "model": "5 Series",
+                "model_year": 2022,
+                "fuel_type": "Plug-in Hybrid",
+                "engine_displacement_liters": 2.0,
+                "cylinders": 4,
+                "transmission": "Automatic (8-Speed)",
+                "drive_axle_type": "Rear-Wheel Drive",
+                "city_mpg": 27,
+                "highway_mpg": 31,
+                "combined_mpg": 29,
+                "vehicle_size_class": "Midsize Cars",
+                "electric_range_miles": 21
+            }
+        ]
+    },
+    "{'make': 'Audi', 'model': 'A6', 'year': '2023'}": {
+        "error": "",
+        "response": [
+            {
+                "city_mpg": 24,
+                "combined_mpg": 28,
+                "cylinders": 4,
+                "engine_displacement_liters": 2.0,
+                "drive_axle_type": "All-Wheel Drive",
+                "fuel_type": "Premium",
+                "highway_mpg": 34,
+                "make": "Audi",
+                "model": "A6",
+                "transmission": "Automatic (S8)",
+                "vehicle_size_class": "Midsize Cars",
+                "model_year": 2023
+            },
+            {
+                "city_mpg": 21,
+                "combined_mpg": 25,
+                "cylinders": 6,
+                "engine_displacement_liters": 3.0,
+                "drive_axle_type": "All-Wheel Drive",
+                "fuel_type": "Premium",
+                "highway_mpg": 30,
+                "make": "Audi",
+                "model": "A6",
+                "transmission": "Automatic (S8)",
+                "vehicle_size_class": "Midsize Cars",
+                "model_year": 2023
+            }
+        ]
+    }
+}

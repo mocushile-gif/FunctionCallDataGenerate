@@ -1,0 +1,40 @@
+{
+    "{'username': 'global_fabrics_co'}": {
+        "error": "",
+        "response": [
+            {
+                "id": "180234567890123456_1203456789",
+                "media_type": 1,
+                "like_count": 15200,
+                "caption": "New collection just dropped! \ud83e\uddf6\u2728 Shop our latest fabrics for your next project.",
+                "thumbnail_url": "https://instagram.fexample.com/thumbnail_1.jpg",
+                "media_url": "https://instagram.fexample.com/photo_1.jpg",
+                "timestamp": "2023-08-15T10:30:00.000Z"
+            },
+            {
+                "id": "180234567890123457_1203456789",
+                "media_type": 2,
+                "like_count": 9800,
+                "caption": "Behind the scenes of our dyeing process \ud83c\udf08",
+                "video_url": "https://instagram.fexample.com/video_1.mp4",
+                "timestamp": "2023-08-14T14:15:00.000Z"
+            },
+            {
+                "id": "180234567890123458_1203456789",
+                "media_type": 8,
+                "like_count": 23400,
+                "caption": "Carousel preview: Textile trends for autumn! \ud83c\udf42",
+                "children": [
+                    {
+                        "thumbnail_url": "https://instagram.fexample.com/carousel_1.jpg"
+                    },
+                    {
+                        "thumbnail_url": "https://instagram.fexample.com/carousel_2.jpg"
+                    }
+                ],
+                "timestamp": "2023-08-13T09:45:00.000Z"
+            }
+        ],
+        "next_max_id": "180234567890123459_1203456789"
+    }
+}

@@ -1,0 +1,209 @@
+{
+    "{'location': 'Santa Monica'}": {
+        "error": "",
+        "response": {
+            "area_info": {
+                "geom": {
+                    "code": {
+                        "city": "santa-monica",
+                        "country": "us",
+                        "state": "california"
+                    },
+                    "id": {
+                        "city": 59053,
+                        "country": 1,
+                        "state": 6
+                    },
+                    "name": {
+                        "city": "Santa Monica",
+                        "country": "United States",
+                        "state": "California"
+                    }
+                }
+            },
+            "rental_settings": {
+                "cancellation": {
+                    "percentages": {
+                        "flexible": 0.1487,
+                        "moderate": 0.1785,
+                        "n/a": 0.0006,
+                        "strict": 0.6677,
+                        "super_strict": 0.0044
+                    }
+                },
+                "min_stay": {
+                    "bins": {
+                        "1": 414,
+                        "2": 244,
+                        "3": 178,
+                        "30+": 607,
+                        "4-6": 73,
+                        "7-29": 58
+                    },
+                    "total": 1574
+                }
+            }
+        }
+    },
+    "{'location': 'Santa Monica, California, United States', 'currency': 'US'}": {
+        "error": "",
+        "response": {
+            "area_info": {
+                "geom": {
+                    "code": {
+                        "city": "santa-monica",
+                        "country": "us",
+                        "state": "california"
+                    },
+                    "id": {
+                        "city": 59053,
+                        "country": 1,
+                        "state": 6
+                    },
+                    "name": {
+                        "city": "Santa Monica",
+                        "country": "United States",
+                        "state": "California"
+                    }
+                }
+            },
+            "rental_settings": {
+                "cancellation": {
+                    "percentages": {
+                        "flexible": 0.1506,
+                        "moderate": 0.1753,
+                        "n/a": 0.0006,
+                        "strict": 0.6698,
+                        "super_strict": 0.0037
+                    }
+                },
+                "min_stay": {
+                    "bins": {
+                        "1": 439,
+                        "2": 241,
+                        "3": 194,
+                        "30+": 624,
+                        "4-6": 63,
+                        "7-29": 59
+                    },
+                    "total": 1620
+                }
+            }
+        }
+    },
+    "{'location': 'Santa Monica, California, US'}": {
+        "error": "",
+        "response": {
+            "area_info": {
+                "geom": {
+                    "code": {
+                        "city": "santa-monica",
+                        "country": "us",
+                        "state": "california"
+                    },
+                    "id": {
+                        "city": 59053,
+                        "country": 1,
+                        "state": 6
+                    },
+                    "name": {
+                        "city": "Santa Monica",
+                        "country": "United States",
+                        "state": "California"
+                    }
+                }
+            },
+            "rental_settings": {
+                "cancellation": {
+                    "percentages": {
+                        "flexible": 0.1506,
+                        "moderate": 0.1753,
+                        "n/a": 0.0006,
+                        "strict": 0.6698,
+                        "super_strict": 0.0037
+                    }
+                },
+                "min_stay": {
+                    "bins": {
+                        "1": 439,
+                        "2": 241,
+                        "3": 194,
+                        "30+": 624,
+                        "4-6": 63,
+                        "7-29": 59
+                    },
+                    "total": 1620
+                }
+            }
+        }
+    },
+    "{'location': 'Hollywood/Santa Monica, Dallas, Texas, US'}": {
+        "error": "",
+        "response": {
+            "area_info": {
+                "geom": {
+                    "code": {
+                        "city": "dallas",
+                        "country": "us",
+                        "state": "texas"
+                    },
+                    "id": {
+                        "city": 79752,
+                        "country": 1,
+                        "state": 45
+                    },
+                    "name": {
+                        "city": "Dallas",
+                        "country": "United States",
+                        "state": "Texas"
+                    }
+                }
+            },
+            "rental_settings": {
+                "cancellation": {
+                    "percentages": {
+                        "flexible": 0.2854,
+                        "moderate": 0.204,
+                        "strict": 0.5003,
+                        "super_strict": 0.0103
+                    }
+                },
+                "min_stay": {
+                    "bins": {
+                        "1": 2995,
+                        "2": 1637,
+                        "3": 471,
+                        "30+": 669,
+                        "4-6": 280,
+                        "7-29": 574
+                    },
+                    "total": 6626
+                }
+            }
+        }
+    },
+    "{'location': 'Cairo'}": {
+        "error": "",
+        "response": "{'area_info': {'geom': {'code': {'city': 'cairo-governorate', 'country': 'eg', 'state': 'cairo-governorate'}, 'id': {'city': 85591, 'country': 134, 'state': 759}, 'name': {'city': 'Cairo Governorate', 'country': 'Egypt', 'state': 'Cairo Governorate'}}}, 'rental_settings': {'cancellation': {'percentages': {'flexible': 0.6899, 'moderate': 0.2192, 'n/a': 0.0004, 'strict': 0.0895, 'super_strict': 0.0011}}, 'min_stay': {'bins': {'1': 5683, '2': 1480, '3': 1135, '30+': 120, '4-6': 621, '7-29': 345}, 'total': 9384}}}"
+    },
+    "{'location': 'santa monica', 'currency': 'EUR'}": {
+        "error": "",
+        "response": "{'area_info': {'geom': {'code': {'city': 'santa-monica', 'country': 'us', 'state': 'california'}, 'id': {'city': 59053, 'country': 1, 'state': 6}, 'name': {'city': 'Santa Monica', 'country': 'United States', 'state': 'California'}}}, 'rental_settings': {'cancellation': {'percentages': {'flexible': 0.2278, 'moderate': 0.2063, 'n/a': 0.0049, 'strict': 0.5494, 'super_strict': 0.0117}}, 'min_stay': {'bins': {'1': 561, '2': 289, '3': 145, '30+': 673, '4-6': 106, '7-29': 93}, 'total': 1867}}}"
+    },
+    "{'location': 'malibu', 'currency': 'USD'}": {
+        "error": "",
+        "response": "{'area_info': {'geom': {'code': {'city': 'malibu', 'country': 'us', 'state': 'california'}, 'id': {'city': 58718, 'country': 1, 'state': 6}, 'name': {'city': 'Malibu', 'country': 'United States', 'state': 'California'}}}, 'rental_settings': {'cancellation': {'percentages': {'flexible': 0.25, 'moderate': 0.2038, 'n/a': 0.0115, 'strict': 0.4885, 'super_strict': 0.0462}}, 'min_stay': {'bins': {'1': 68, '2': 115, '3': 72, '30+': 52, '4-6': 39, '7-29': 26}, 'total': 372}}}"
+    },
+    "{'location': 'Santa Monica', 'currency': 'USD'}": {
+        "error": "",
+        "response": "{'area_info': {'geom': {'code': {'city': 'santa-monica', 'country': 'us', 'state': 'california'}, 'id': {'city': 59053, 'country': 1, 'state': 6}, 'name': {'city': 'Santa Monica', 'country': 'United States', 'state': 'California'}}}, 'rental_settings': {'cancellation': {'percentages': {'flexible': 0.1751, 'moderate': 0.1996, 'n/a': 0.0452, 'strict': 0.5753, 'super_strict': 0.0047}}, 'min_stay': {'bins': {'1': 526, '2': 274, '3': 166, '30+': 595, '4-6': 92, '7-29': 61}, 'total': 1714}}}"
+    },
+    "{'location': 'Santa Monica', 'currency': 'EUR'}": {
+        "error": "",
+        "response": "{'area_info': {'geom': {'code': {'city': 'santa-monica', 'country': 'us', 'state': 'california'}, 'id': {'city': 59053, 'country': 1, 'state': 6}, 'name': {'city': 'Santa Monica', 'country': 'United States', 'state': 'California'}}}, 'rental_settings': {'cancellation': {'percentages': {'flexible': 0.2278, 'moderate': 0.2063, 'n/a': 0.0049, 'strict': 0.5494, 'super_strict': 0.0117}}, 'min_stay': {'bins': {'1': 561, '2': 289, '3': 145, '30+': 673, '4-6': 106, '7-29': 93}, 'total': 1867}}}"
+    },
+    "{'location': 'Malibu', 'currency': 'USD'}": {
+        "error": "",
+        "response": "{'area_info': {'geom': {'code': {'city': 'malibu', 'country': 'us', 'state': 'california'}, 'id': {'city': 58718, 'country': 1, 'state': 6}, 'name': {'city': 'Malibu', 'country': 'United States', 'state': 'California'}}}, 'rental_settings': {'cancellation': {'percentages': {'flexible': 0.25, 'moderate': 0.2038, 'n/a': 0.0115, 'strict': 0.4885, 'super_strict': 0.0462}}, 'min_stay': {'bins': {'1': 68, '2': 115, '3': 72, '30+': 52, '4-6': 39, '7-29': 26}, 'total': 372}}}"
+    }
+}

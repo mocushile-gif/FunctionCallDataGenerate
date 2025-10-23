@@ -1,0 +1,30 @@
+{
+    "{'locationtext': 'Austin, Texas'}": {
+        "error": "",
+        "response": {
+            "agents": [
+                {
+                    "name": "Sarah Mitchell",
+                    "license": "CAL-04521",
+                    "phone": "(512) 555-7824",
+                    "email": "sarah.mitchell@zillow.com",
+                    "specialty": "Residential Sales",
+                    "rating": 4.8,
+                    "listings_count": 15
+                },
+                {
+                    "name": "David Kim",
+                    "license": "TEX-98732",
+                    "phone": "(512) 555-1023",
+                    "email": "david.kim@zillow.com",
+                    "specialty": "Luxury Homes",
+                    "rating": 4.7,
+                    "listings_count": 22
+                }
+            ],
+            "location": "Austin, Texas",
+            "page": 1,
+            "total_pages": 3
+        }
+    }
+}

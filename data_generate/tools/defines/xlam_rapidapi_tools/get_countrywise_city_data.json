@@ -1,0 +1,30 @@
+{
+    "name": "get_countrywise_city_data",
+    "description": "This is a sub-function API for tool mocking_rock.\nTool description: An APIs collection for getting sample profiles and city Data for testings for frontend or mock testings.    \nAPI description: Use this API to get city list of country. You need to send country name or ISO3 or ISO2 code \nas query to get it. Which you can get it from other API \"Country Codes\"",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "iso3": {
+                "type": "string",
+                "description": "PASS 3 character long ISO3 code. You  can get it from country Codes API ",
+                "default": "IND"
+            },
+            "country": {
+                "type": "string",
+                "description": "PASS  country name . You  can get it from country Codes API ",
+                "default": "IND"
+            },
+            "count": {
+                "type": "number",
+                "description": "Pass count value to get maximum number of results to be returned if available ",
+                "default": 2.0
+            },
+            "iso2": {
+                "type": "string",
+                "description": "PASS 2 character long ISO2 code. You  can get it from country Codes API ",
+                "default": "IN"
+            }
+        },
+        "required": []
+    }
+}

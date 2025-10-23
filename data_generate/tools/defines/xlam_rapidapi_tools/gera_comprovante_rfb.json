@@ -1,0 +1,22 @@
+{
+    "name": "gera_comprovante_rfb",
+    "description": "This is a sub-function API for tool consulta_cnpj_tempo_real.\nTool description: API Tempo Real de Consultas a Receita Federal, Simples Nacional e Cadastro de Contribuintes (SINTEGRA).\nAPI description: Generates a certificate from Receita Federal in PDF format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "taxid": {
+                "type": "string",
+                "description": "The tax identification number to be used for generating the certificate.",
+                "default": "37335118000180"
+            },
+            "pages": {
+                "type": "string",
+                "description": "A comma-separated string specifying which pages to include in the certificate. Default is 'REGISTRATION,MEMBERS'.",
+                "default": "REGISTRATION,MEMBERS"
+            }
+        },
+        "required": [
+            "taxid"
+        ]
+    }
+}

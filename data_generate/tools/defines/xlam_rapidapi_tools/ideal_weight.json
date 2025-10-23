@@ -1,0 +1,23 @@
+{
+    "name": "ideal_weight",
+    "description": "This is a sub-function API for tool fitness_calculator.\nTool description: Find \"body fat percentage\",  \"ideal weight\", \"BMI\", \"daily calory requirement\" and some macro nutrients with this api.\nAPI description: Find four different ideal weight scores according to four different well-known equations which are Hamwi, Devine, Miller, Robinson.  There are two parameters which are age and height(cm) values.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "gender": {
+                "type": "string",
+                "description": "The gender of the individual ('male' or 'female').",
+                "default": "male"
+            },
+            "height": {
+                "type": "number",
+                "description": "The height of the individual in centimeters.",
+                "default": 180.0
+            }
+        },
+        "required": [
+            "gender",
+            "height"
+        ]
+    }
+}

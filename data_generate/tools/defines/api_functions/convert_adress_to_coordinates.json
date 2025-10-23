@@ -1,0 +1,16 @@
+{
+    "name": "convert_adress_to_coordinates",
+    "description": "Converts an address into geographic coordinates (latitude, longitude) using a forward geocoding API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "type": "string",
+                "description": "The address to geocode."
+            }
+        },
+        "required": [
+            "address"
+        ]
+    }
+}

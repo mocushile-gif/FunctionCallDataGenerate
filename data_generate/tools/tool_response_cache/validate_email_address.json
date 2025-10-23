@@ -1,0 +1,16 @@
+{
+    "{'email': 'johnsmith@example.com'}": {
+        "error": "",
+        "response": {
+            "is_valid": true,
+            "status": "valid",
+            "syntax_valid": true,
+            "deliverable": true,
+            "disposable": false,
+            "free": false,
+            "provider": "Example Domain",
+            "smtp_check": "Connection successful, mailbox exists",
+            "suggestion": "Email address appears valid and operational"
+        }
+    }
+}

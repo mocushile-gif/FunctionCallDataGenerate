@@ -1,0 +1,35 @@
+{
+    "name": "get_event_logs_filtered_by_topic",
+    "description": "This is a sub-function API for tool uniblock.\nTool description: Unified Blockchain API, use one, use them all. \n\n \n\nFrom NFTs, DeFi, Wallets, GameFi, Tokens, or simply launching contracts, we've got tools to help build them both easier and faster.\n\nUniblockis a suite of blockchain tooling to support developers in building any blockchain project.\nAPI description: Fetch event logs filtered by topics for a given blockchain network and address.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chainid": {
+                "type": "number",
+                "description": "The ID of the blockchain network from which to fetch logs.",
+                "default": 1.0
+            },
+            "address": {
+                "type": "string",
+                "description": "The address to fetch logs from."
+            },
+            "topics": {
+                "type": "string",
+                "description": "The topics to filter the logs by."
+            },
+            "endblock": {
+                "type": "number",
+                "description": "The block number to stop fetching logs. Defaults to None."
+            },
+            "startblock": {
+                "type": "number",
+                "description": "The block number to start fetching logs. Defaults to None."
+            }
+        },
+        "required": [
+            "chainid",
+            "address",
+            "topics"
+        ]
+    }
+}

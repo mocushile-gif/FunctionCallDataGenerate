@@ -1,0 +1,17 @@
+{
+    "name": "check_if_text_contains_profanity",
+    "description": "This is a sub-function API for tool purgomalum.\nTool description: PurgoMalum is a simple, free, RESTful web service for filtering and removing content of profanity, obscenity and other unwanted text. PurgoMalum's interface accepts several parameters for customization and can return results in plain text, XML and JSON.\r\n\r\nPurgoMalum is designed to remove words from input text, based on an internal profanity list (you may optionally add your own words to the profanity list through a request parameter (see Request Parameters below). It is designed to recognize character alternates often used in place of standard alphabetic characters, e.g. \"@\" will be recognized as an \"a\", \"$\" will be recognized as an \"s\", and so forth.\r\n\r\nPurgoMalum also utilizes a list of \"safe words\", i.e. innocuous words which contain words from the profanity list (\"class\" for example). These safe words are excluded from the filter.\nAPI description: Check if a given text contains profanity using the Purgomalum API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to be checked for profanity.",
+                "default": "This is some test input"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

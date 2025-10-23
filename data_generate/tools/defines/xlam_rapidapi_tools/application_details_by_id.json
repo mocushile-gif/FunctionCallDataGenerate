@@ -1,0 +1,27 @@
+{
+    "name": "application_details_by_id",
+    "description": "This is a sub-function API for tool app_store.\nTool description: Unofficial Apple App Store Api\nAPI description: Retrieves application details from the RapidAPI by application ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The application ID to fetch details for.",
+                "default": "835599320"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country code to filter results. Defaults to 'us'.",
+                "default": "us"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code to filter results. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

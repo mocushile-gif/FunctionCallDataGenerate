@@ -1,0 +1,35 @@
+{
+    "name": "bodyfat_imperial",
+    "description": "This is a sub-function API for tool health_calculator_api.\nTool description: Welcome to the Health Calculator API (HCA). This API provides endpoints for calculating A Body Shape Index (ABSI), Adjusted Body Weight (AjBW), Basal Energy Expenditure (BEE) and Total Energy Expenditure (TEE) , Body Adiposity Index (BAI), Body Frame Size Index (BFSI), Body Mass Index (BMI), Body Fat Percentage, Basal Metabolic Rate (BMR), Daily Caloric Needs (DCN), Daily Water Intake (DWI), Estimated Average Glucose(eAG), Estimated Energy Requirement (EER), The FFMI (Fat-Free Mass Index), Ta...\nAPI description: This endpoint calculates the body fat percentage based on the provided gender, age, height, and weight parameters in imperial units.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "height": {
+                "type": "number",
+                "description": "The height of the person in **inches**. Required.",
+                "default": 77.0
+            },
+            "gender": {
+                "type": "string",
+                "description": "The gender of the person. Must be either '**male**' or '**female**'. Required.",
+                "default": "male"
+            },
+            "weight": {
+                "type": "number",
+                "description": "The weight of the person in **pounds**. Required.",
+                "default": 180.0
+            },
+            "age": {
+                "type": "number",
+                "description": "The age of the person in **years**. Required.",
+                "default": 26.0
+            }
+        },
+        "required": [
+            "height",
+            "gender",
+            "weight",
+            "age"
+        ]
+    }
+}

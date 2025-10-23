@@ -1,0 +1,22 @@
+{
+    "name": "search_direct_flight",
+    "description": "Search direct flights between two cities on a specific date.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "origin": {
+                "type": "string",
+                "description": "The origin city airport in three letters, such as 'JFK'."
+            },
+            "destination": {
+                "type": "string",
+                "description": "The destination city airport in three letters, such as 'LAX'."
+            },
+            "date": {
+                "type": "string",
+                "description": "The date of the flight in the format 'YYYY-MM-DD', such as '2024-01-01'."
+            }
+        },
+        "required": ["origin", "destination", "date"]
+    }
+}

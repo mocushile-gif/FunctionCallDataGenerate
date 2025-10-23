@@ -1,0 +1,17 @@
+{
+    "name": "get_search_keyword",
+    "description": "This is a sub-function API for tool instagram_profile.\nTool description: Get profile information with proxy image will show directly to your frontend\nAPI description: Search for a keyword using RapidAPI and return related hashtags and places.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to search for on Instagram.",
+                "default": "los angeles"
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "route_information",
+    "description": "This is a sub-function API for tool bart.\nTool description: The BART API gives you access to pretty much all of the BART service and station data available on the BART website.\nAPI description: Fetch route information from the BART API using the given command.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cmd": {
+                "type": "string",
+                "description": "The command to send to the BART API. Possible commands can be found at http://api.bart.gov/docs/overview/examples.aspx.",
+                "default": "routes"
+            }
+        },
+        "required": [
+            "cmd"
+        ]
+    }
+}

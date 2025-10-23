@@ -1,0 +1,57 @@
+{
+    "{'lat': 35.6895, 'lon': 139.6917, 'accept_language': 'en', 'addressdetails': '1', 'format': 'json'}": {
+        "error": "",
+        "response": {
+            "latitude": 35.6895,
+            "longitude": 139.6917,
+            "address": {
+                "country": "Japan",
+                "city": "Tokyo",
+                "district": "Chiyoda",
+                "street": "Unknown",
+                "postal_code": "Unknown"
+            },
+            "language": "en",
+            "details": {
+                "full_address_breakdown": true
+            },
+            "format": "json"
+        }
+    },
+    "{'lat': 48.8584, 'lon': 2.2945}": {
+        "error": "",
+        "response": "{'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_id': 5013364, 'address': {'tourism': 'Eiffel Tower', 'road': 'Avenue Anatole France', 'state': 'Ile-de-France', 'region': 'Metropolitan France', 'county': 'Paris', 'postcode': '75007', 'house_number': '5', 'city': 'Paris', 'suburb': 'Paris', 'country': 'France', 'city_block': 'Quartier du Gros-Caillou', 'country_code': 'fr', 'neighbourhood': 'Paris'}, 'osm_type': 'way', 'boundingbox': ['48.8574753', '48.8590453', '2.2933084', '2.2956897'], 'place_id': 100220160, 'lat': '48.858260200000004', 'lon': '2.2944990543196795', 'display_name': 'Eiffel Tower, 5, Avenue Anatole France, Quartier du Gros-Caillou, Paris, Ile-de-France, Metropolitan France, 75007, France'}"
+    },
+    "{'lat': 41.8755616, 'lon': -87.6244212, 'accept_language': 'en'}": {
+        "error": "",
+        "response": "{'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_id': 150182922, 'address': {'road': 'South Michigan Avenue', 'state': 'Illinois', 'ISO3166-2-lvl4': 'US-IL', 'county': 'Cook County', 'house_number': '500-510', 'city': 'Chicago', 'suburb': 'Loop', 'country': 'United States', 'neighbourhood': \"Printer's Row\", 'country_code': 'us', 'postcode': '60605'}, 'osm_type': 'way', 'boundingbox': ['41.8751392', '41.8756237', '-87.6251653', '-87.6245185'], 'place_id': 390667591, 'lat': '41.875441699999996', 'lon': '-87.62484447429429', 'display_name': \"500-510, South Michigan Avenue, Printer's Row, Loop, Chicago, Cook County, Illinois, 60605, United States\"}"
+    },
+    "{'lat': 37.7749, 'lon': -122.4194, 'format': 'json', 'accept_language': 'en', 'addressdetails': '1'}": {
+        "error": "",
+        "response": "{'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_id': 12818800301, 'address': {'road': 'Market Street', 'state': 'California', 'ISO3166-2-lvl4': 'US-CA', 'house_number': '8383', 'postcode': '90211', 'country_code': 'us', 'country': 'United States', 'neighbourhood': 'Hayes Valley', 'amenity': 'Dr Health & Beauty Magazine', 'city': 'San Francisco'}, 'osm_type': 'node', 'boundingbox': ['37.77485', '37.77495', '-122.41945', '-122.41935'], 'place_id': 422760967, 'lat': '37.7749', 'lon': '-122.4194', 'display_name': 'Dr Health & Beauty Magazine, 8383, Market Street, Hayes Valley, San Francisco, California, 90211, United States'}"
+    },
+    "{'lat': 37.7749, 'lon': -122.4194}": {
+        "error": "",
+        "response": "{'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_id': 228228520, 'address': {'postcode': '94102', 'road': 'Market Street', 'city': 'San Francisco', 'country': 'United States', 'state_district': 'CAL Fire Northern Region', 'neighbourhood': 'Hayes Valley', 'country_code': 'us', 'state': 'California'}, 'osm_type': 'way', 'boundingbox': ['37.7746586', '37.77502', '-122.4197953', '-122.4193403'], 'place_id': 161388074, 'lat': '37.7749481059257', 'lon': '-122.41943909851956', 'display_name': 'Market Street, Hayes Valley, San Francisco, CAL Fire Northern Region, California, 94102, United States'}"
+    },
+    "{'lat': 37.7602, 'lon': -122.4661}": {
+        "error": "",
+        "response": "{'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_id': 267314950, 'address': {'road': '9th Avenue', 'state': 'California', 'ISO3166-2-lvl4': 'US-CA', 'house_number': '1501;1511', 'city': 'San Francisco', 'country': 'United States', 'quarter': 'Inner Sunset', 'country_code': 'us', 'postcode': '94122'}, 'osm_type': 'way', 'boundingbox': ['37.7599498', '37.7602136', '-122.4662951', '-122.4661541'], 'place_id': 336229319, 'lat': '37.760081400000004', 'lon': '-122.46622831004876', 'display_name': '1501;1511, 9th Avenue, Inner Sunset, San Francisco, California, 94122, United States'}"
+    },
+    "{'lat': 37.7923, 'lon': -122.3951}": {
+        "error": "",
+        "response": "{'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_id': 6370811838, 'address': {'road': 'Main Street', 'state': 'California', 'ISO3166-2-lvl4': 'US-CA', 'highway': 'Main Street & Mission Street', 'postcode': '94105', 'suburb': 'South of Market', 'country': 'United States', 'neighbourhood': 'Transbay', 'country_code': 'us', 'city': 'San Francisco'}, 'osm_type': 'node', 'boundingbox': ['37.7920283', '37.7921283', '-122.395136', '-122.395036'], 'place_id': 336273481, 'lat': '37.7920783', 'lon': '-122.395086', 'display_name': 'Main Street & Mission Street, Main Street, Transbay, South of Market, San Francisco, California, 94105, United States'}"
+    },
+    "{'lat': 51.501009, 'lon': -0.125487, 'format': 'json', 'addressdetails': '1'}": {
+        "error": "",
+        "response": "{'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_id': 4259628, 'address': {'road': 'Canon Row', 'state': 'England', 'ISO3166-2-lvl4': 'GB-ENG', 'quarter': 'Westminster', 'postcode': 'SW1A 2JR', 'suburb': 'Millbank', 'state_district': 'Greater London', 'country': 'United Kingdom', 'country_code': 'gb', 'city': 'London'}, 'osm_type': 'way', 'boundingbox': ['51.5009704', '51.5011956', '-0.1254898', '-0.1254776'], 'place_id': 296660641, 'lat': '51.5010090389323', 'lon': '-0.12548772494622826', 'display_name': 'Canon Row, Westminster, Millbank, London, Greater London, England, SW1A 2JR, United Kingdom'}"
+    },
+    "{'lat': 40.7128, 'lon': -74.006, 'addressdetails': '1', 'format': 'json'}": {
+        "error": "",
+        "response": "{'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_id': 575213527, 'address': {'road': 'Broadway', 'state': 'New York', 'borough': 'Manhattan', 'ISO3166-2-lvl4': 'US-NY', 'county': 'New York County', 'house_number': '260', 'city': 'New York', 'suburb': 'Lower Manhattan', 'country': 'United States', 'country_code': 'us', 'amenity': 'New York City Hall', 'postcode': '10000'}, 'osm_type': 'way', 'boundingbox': ['40.712445', '40.7130254', '-74.0064455', '-74.0055687'], 'place_id': 26328424, 'lat': '40.71273945', 'lon': '-74.00593904130275', 'display_name': 'New York City Hall, 260, Broadway, Lower Manhattan, Manhattan, New York County, New York, 10000, United States'}"
+    },
+    "{'lat': 40.712776, 'lon': -74.005974, 'accept_language': 'en', 'format': 'json'}": {
+        "error": "",
+        "response": "{'licence': 'Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright', 'osm_id': 575213527, 'address': {'road': 'Broadway', 'state': 'New York', 'borough': 'Manhattan', 'ISO3166-2-lvl4': 'US-NY', 'county': 'New York County', 'house_number': '260', 'city': 'New York', 'suburb': 'Lower Manhattan', 'country': 'United States', 'country_code': 'us', 'amenity': 'New York City Hall', 'postcode': '10000'}, 'osm_type': 'way', 'boundingbox': ['40.712445', '40.7130254', '-74.0064455', '-74.0055687'], 'place_id': 26328424, 'lat': '40.71273945', 'lon': '-74.00593904130275', 'display_name': 'New York City Hall, 260, Broadway, Lower Manhattan, Manhattan, New York County, New York, 10000, United States'}"
+    }
+}

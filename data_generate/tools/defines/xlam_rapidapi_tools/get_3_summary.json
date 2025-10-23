@@ -1,0 +1,15 @@
+{
+    "name": "get_3_summary",
+    "description": "This is a sub-function API for tool stockyapiexchange.\nTool description: Based on the request parameters, StockyAPIExchange can provide relevant information to the user, such as stock details, summary, charts, history, daily, or latest data. The API can also use autocomplete to suggest stock names or ticker symbols as the user types the keyword, making it easier for the front end develepor to create the perfect Tool\nAPI description: Summary: This feature gives a quick overview of the performance of a stock, including its current price, percentage change, and trading volume. It also provides a summary of the key financial metrics and news related to the stock",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The stock keyword to search for. Default is 'GOOG'.",
+                "default": "GOOG"
+            }
+        },
+        "required": []
+    }
+}

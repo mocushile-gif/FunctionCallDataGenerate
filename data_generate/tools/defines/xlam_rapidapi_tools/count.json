@@ -1,0 +1,53 @@
+{
+    "name": "count",
+    "description": "This is a sub-function API for tool onlyfans.\nTool description: apis for onlyfans\nAPI description: Fetches the total number of expired followers from an OnlyFans API endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "signstart": {
+                "type": "string",
+                "description": "The start of the signature used for authorization."
+            },
+            "apptoken": {
+                "type": "string",
+                "description": "The application token."
+            },
+            "signend": {
+                "type": "string",
+                "description": "The end of the signature used for authorization."
+            },
+            "xbc": {
+                "type": "string",
+                "description": "The XBC token."
+            },
+            "timezone": {
+                "type": "string",
+                "description": "The timezone setting.",
+                "default": "America/Los_Angeles"
+            },
+            "useragent": {
+                "type": "string",
+                "description": "The user agent string."
+            },
+            "auth_id": {
+                "type": "string",
+                "description": "The authentication ID.",
+                "default": "729369"
+            },
+            "sess": {
+                "type": "string",
+                "description": "The session ID."
+            }
+        },
+        "required": [
+            "signstart",
+            "apptoken",
+            "signend",
+            "xbc",
+            "timezone",
+            "useragent",
+            "auth_id",
+            "sess"
+        ]
+    }
+}

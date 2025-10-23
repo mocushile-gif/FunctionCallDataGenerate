@@ -1,0 +1,30 @@
+{
+    "name": "asia",
+    "description": "This is a sub-function API for tool nomad_list_cities.\nTool description: Explore best cities to live for digital nomads! Sort by internet speed, cost of living and more! Filter by continents\nAPI description: Get Asian cities sorted by overall score by default.\n\nPagination: size & page \nsort_by: you can sort by any numeric value like fore example internet_speed, temperatureC, cost_for_family_in_usd and so on.\nsort: asc | desc",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sort": {
+                "type": "string",
+                "description": "The order of sorting. Can be 'asc' for ascending or 'desc' for descending. Default is 'desc'.",
+                "default": "desc"
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "The criterion to sort the cities by. Examples include 'overall_score', 'internet_speed', 'temperatureC', 'cost_for_family_in_usd', etc. Default is 'overall_score'.",
+                "default": "overall_score"
+            },
+            "size": {
+                "type": "string",
+                "description": "The number of cities to include per page. Default is '20'.",
+                "default": "20"
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number to retrieve. Default is '1'.",
+                "default": "1"
+            }
+        },
+        "required": []
+    }
+}

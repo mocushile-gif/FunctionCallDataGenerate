@@ -1,0 +1,37 @@
+{
+    "{'hotel_id': '700008849', 'reviews': True, 'photos': True}": {
+        "error": "",
+        "response": {
+            "hotel_id": "700008849",
+            "details": {
+                "name": "Hotel Example Name",
+                "address": "123 Example Street, Example City, EX 12345",
+                "description": "A luxurious hotel offering world-class amenities, including a spa, pool, and fine dining options.",
+                "photos": [
+                    "https://example.com/photo1.jpg",
+                    "https://example.com/photo2.jpg",
+                    "https://example.com/photo3.jpg"
+                ],
+                "reviews": [
+                    {
+                        "reviewer": "John Doe",
+                        "rating": 4.5,
+                        "comment": "Excellent service and comfortable rooms."
+                    },
+                    {
+                        "reviewer": "Jane Smith",
+                        "rating": 4.0,
+                        "comment": "Great location, but the breakfast could be better."
+                    }
+                ],
+                "amenities": [
+                    "Free Wi-Fi",
+                    "Swimming Pool",
+                    "Fitness Center",
+                    "Room Service"
+                ],
+                "average_guest_rating": 4.3
+            }
+        }
+    }
+}

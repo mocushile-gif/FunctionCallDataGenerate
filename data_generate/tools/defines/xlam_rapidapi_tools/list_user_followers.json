@@ -1,0 +1,23 @@
+{
+    "name": "list_user_followers",
+    "description": "This is a sub-function API for tool soundcloud_scraper.\nTool description: An all-in-one SoundCloud scraper/downloader. Scrapes albums, playlists, profiles. Downloads uncut high-quality audios and lyrics.\nAPI description: Fetches a user's followers from SoundCloud using the specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of items to return. Defaults to None."
+            },
+            "offsettoken": {
+                "type": "string",
+                "description": "(**README**: [How to Use Endpoints with `offsetToken`](https://rapidapi.com/DataFanatic/api/soundcloud-scraper/tutorials/how-to-use-endpoints-with-%60offsettoken%60))\nA string for getting the next page of data. If not specified, the first page of data will be returned. If specified, `user` will be ignored."
+            },
+            "user": {
+                "type": "string",
+                "description": "The URL or ID of the SoundCloud user. Defaults to 'https://soundcloud.com/atlantic-records-uk'.",
+                "default": "https://soundcloud.com/atlantic-records-uk"
+            }
+        },
+        "required": []
+    }
+}

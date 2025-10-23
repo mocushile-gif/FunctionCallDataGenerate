@@ -1,0 +1,23 @@
+{
+    "name": "reverse_geocode",
+    "description": "This is a sub-function API for tool geocode_forward_and_reverse.\nTool description: Forward and reverse geocoding using Google Geocoding API.\nAPI description: This function takes longitude and latitude coordinates and returns the corresponding address by making a reverse geocoding API request.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lng": {
+                "type": "number",
+                "description": "The longitude coordinate.",
+                "default": -123.0470199
+            },
+            "lat": {
+                "type": "number",
+                "description": "The latitude coordinate.",
+                "default": 49.2813458
+            }
+        },
+        "required": [
+            "lng",
+            "lat"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "{'status': 'active'}": {
+        "error": "",
+        "response": {
+            "status": "BAD_REQUEST",
+            "timestamp": "2023-07-15T16:33:38.156882Z",
+            "message": "Failed to convert value of type 'java.lang.String' to required type 'com.bnc.asset.model.AssetStatus'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam com.bnc.asset.model.AssetStatus] for value 'active'; nested exception is java.lang.IllegalArgumentException: No enum constant com.bnc.asset.model.AssetStatus.active"
+        }
+    },
+    "{'status': 'ACTIVE', 'type': 'CRYPTO'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'status': 'ACTIVE'}": {
+        "error": "",
+        "response": "{'content': [{'id': '5f68572b-aaa1-4a39-959b-90b8d22a77aa', 'name': 'Envision', 'symbol': 'VIS', 'slugName': 'envision', 'status': 'ACTIVE', 'type': 'CRYPTO', 'url': 'https://envisioncoin.finance/'}, {'id': 'e807428b-c7a7-4702-8382-b61a71172614', 'name': 'Filecoin', 'symbol': 'FIL', 'slugName': 'filecoin', 'status': 'ACTIVE', 'type': 'CRYPTO', 'url': 'https://filecoin.io/'}, {'id': '2d32ea76-7d6d-415e-9153-a679b4b5b5a2', 'name': 'Viberate', 'symbol': 'VIB', 'slugName': 'viberate', 'status': 'ACTIVE', 'type': 'CRYPTO', 'url': 'https://www.viberate.io/', 'contractAddress': '0x2c974b2d0ba1716e644c1fc59982a89ddd2ff724'}, {'id': 'be68b582-233f-4ce1-bab8-6238738e1442', 'name': 'Libyan Dinar', 'symbol': 'LYD', 'slugName': 'libyan-dinar', 'status': 'ACTIVE', 'type': 'FIAT'}, {'id': 'ed00289c-0c6d-4495-bb14-f1a677be6080', 'name': 'AhaToken', 'symbol': 'AHT', 'slugName': 'ahatoken', 'status': 'ACTIVE', 'type': 'CRYPTO', 'url': 'https://www.a-ha.io/'}, {'id': '4e47d0b4-74dc-4d16-a0a0-b114ae7c6c55', 'name': 'ContentBox', 'symbol': 'BOX', 'slugName': 'contentbox', 'status': 'ACTIVE', 'type': 'CRYPTO', 'url': 'https://contentbox.one/', 'contractAddress': '0x63f584fa56e60e4d0fe8802b27c7e6e3b33e007f'}, {'id': 'ba35214e-f3e8-4b23-8288-f03752d38338', 'name': 'Lina', 'symbol': 'LINA', 'slugName': 'lina', 'status': 'ACTIVE', 'type': 'CRYPTO', 'url': 'https://lina.review/', 'contractAddress': '0xc05d14442a510de4d3d71a3d316585aa0ce32b50'}, {'id': '5b492001-9da8-46e2-9759-33a77ae46064', 'name': 'Altered State Machine', 'symbol': 'ASTO', 'slugName': 'altered-state-machine', 'status': 'ACTIVE', 'type': 'CRYPTO', 'url': 'https://www.alteredstatemachine.xyz/'}, {'id': '8421fe7d-6ce7-409c-ba6c-55bafca480f9', 'name': 'Proton', 'symbol': 'XPR', 'slugName': 'proton', 'status': 'ACTIVE', 'type': 'CRYPTO', 'url': 'https://www.proton.org/'}, {'id': '594891c1-d81e-4c6d-bead-5caaecb67820', 'name': 'GulfCoin', 'symbol': 'GULF', 'slugName': 'gulfcoin', 'status': 'ACTIVE', 'type': 'CRYPTO', 'url': 'https://gulfofficial.com/', 'contractAddress': '0x014"
+    },
+    "{'status': 'ACTIVE', 'type': 'CRYPTO', 'symbol': 'BTC'}": {
+        "error": "",
+        "response": ""
+    }
+}

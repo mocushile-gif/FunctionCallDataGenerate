@@ -1,0 +1,23 @@
+{
+    "name": "playlist_details",
+    "description": "This is a sub-function API for tool youtube_v3_v2.\nTool description: Get youtube data without any youtube data api key\nAPI description: Retrieves the details of a YouTube playlist based on the provided playlist ID using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the YouTube playlist to fetch details for. Default is 'PLcirGkCPmbmFeQ1sm4wFciF03D_EroIfr'.",
+                "default": "RDZiQo7nAkQHU"
+            },
+            "part": {
+                "type": "string",
+                "description": "",
+                "default": "snippet"
+            }
+        },
+        "required": [
+            "is_id",
+            "part"
+        ]
+    }
+}

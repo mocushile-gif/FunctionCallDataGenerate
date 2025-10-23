@@ -1,0 +1,22 @@
+{
+    "name": "latest_observations",
+    "description": "This is a sub-function API for tool foreca_weather.\nTool description: Everything you need to build a weather app\nAPI description: Fetches the latest weather observations for a given location using the Foreca Weather API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The location for which to fetch the latest weather observations.",
+                "default": "102643743"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language in which the results should be returned. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

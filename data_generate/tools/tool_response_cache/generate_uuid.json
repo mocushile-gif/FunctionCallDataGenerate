@@ -1,0 +1,48 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "result": [
+                "92e652ca-1c5f-45c7-a6c9-349fd5c9e62d",
+                "bc85702d-4e59-4268-aa6e-0ae7d618686c",
+                "4e735791-ae4d-4b7a-b0c9-cd58ddb3c231"
+            ]
+        }
+    },
+    "{'remove_dash': True, 'count': '10'}": {
+        "error": "",
+        "response": "{'message': 'Sorry, you tried too many requests, please try purchasing multiple subscriptions', 'next_request': '2024-12-02T06:41:56.716313Z'}"
+    },
+    "{'timestamp_first': True, 'remove_dash': True, 'count': '10'}": {
+        "error": "",
+        "response": "{'message': 'Sorry, you tried too many requests, please try purchasing multiple subscriptions', 'next_request': '2024-12-02T06:44:11.132729Z'}"
+    },
+    "{'timestamp_first': False, 'remove_dash': False, 'count': '5'}": {
+        "error": "",
+        "response": "{'message': 'Sorry, you tried too many requests, please try purchasing multiple subscriptions', 'next_request': '2025-01-03T06:49:14.403691Z'}"
+    },
+    "{'timestamp_first': False, 'remove_dash': False, 'count': '1'}": {
+        "error": "",
+        "response": "{'result': ['fbea8a01-094b-4877-8d15-39e5a09f1aa5']}"
+    },
+    "{'timestamp_first': True, 'remove_dash': True, 'count': '3'}": {
+        "error": "",
+        "response": "{'message': 'Sorry, you tried too many requests, please try purchasing multiple subscriptions', 'next_request': '2025-01-03T06:50:11.795073Z'}"
+    },
+    "{'timestamp_first': False, 'remove_dash': False, 'count': '3'}": {
+        "error": "",
+        "response": "{'message': 'Sorry, you tried too many requests, please try purchasing multiple subscriptions', 'next_request': '2025-01-03T06:50:45.511865Z'}"
+    },
+    "{'timestamp_first': False, 'remove_dash': False, 'count': '2'}": {
+        "error": "",
+        "response": "{'message': 'Sorry, you tried too many requests, please try purchasing multiple subscriptions', 'next_request': '2025-01-07T16:53:59.569928Z'}"
+    },
+    "{'timestamp_first': True, 'remove_dash': True, 'count': '5'}": {
+        "error": "",
+        "response": "{'result': ['9d0bb4c7-8448-4c9a-91be-14d9cde5ae39', '9d0bb4c7-84d2-434c-b2bd-c857ced4aa68', '9d0bb4c7-84db-4570-ac00-0caa19a8bd99']}"
+    },
+    "{'timestamp_first': False, 'remove_dash': False, 'count': '10'}": {
+        "error": "",
+        "response": "{'message': 'Sorry, you tried too many requests, please try purchasing multiple subscriptions', 'next_request': '2025-01-03T06:45:40.167306Z'}"
+    }
+}

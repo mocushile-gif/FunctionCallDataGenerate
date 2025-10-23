@@ -1,0 +1,27 @@
+{
+    "name": "address_autocomplete",
+    "description": "This is a sub-function API for tool navitime_geocoding.\nTool description: Return address informations including longitude/latitude and a postal code, by specifying keywords or a postal code. \nWe also provide Reverse geocoding function, which converts from longitude/latitude into address informations.\nAPI description: Fetches address autocomplete predictions based on a given keyword and optional parameters such as geodetic system, coordinate unit, and API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "word": {
+                "type": "string",
+                "description": "Address string (Minimum: 2 characters, Maximum: 50 characters).\n\nIf a string of 51 or more characters is entered, the 51st and subsequent characters will be deleted and searched.\nArabic and Chinese numerals are searched as they are.",
+                "default": "とうk"
+            },
+            "datum": {
+                "type": "string",
+                "description": "Geodetic system of latitude and longitude. Default is 'wgs84'. Other option is 'tokyo' for Old Japan Geodetic System.",
+                "default": "wgs84"
+            },
+            "coord_unit": {
+                "type": "string",
+                "description": "The unit of latitude and longitude included in the output data.\n(degree: decimal system of degrees (default), millisec: milliseconds)",
+                "default": "degree"
+            }
+        },
+        "required": [
+            "word"
+        ]
+    }
+}

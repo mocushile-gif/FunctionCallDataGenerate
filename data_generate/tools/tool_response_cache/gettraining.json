@@ -1,0 +1,20 @@
+{
+    "{'x_api_key': '3f9a50f3-db4c-4b52-9b15-709fcaddb6a7', 'training_uuid': '95a0cdaa-0b16-45f7-9da6-ce4f43835d0d'}": {
+        "error": "",
+        "response": {
+            "status": "in_progress",
+            "progress_percent": 45.7,
+            "current_epoch": 3,
+            "total_epochs": 10,
+            "loss": 0.128,
+            "eta": "00:28:34",
+            "training_details": {
+                "model_name": "custom_diffusion_v3",
+                "dataset_size": 1500,
+                "batch_size": 8,
+                "learning_rate": 0.0001
+            },
+            "next_checkpoint": "00:15:00"
+        }
+    }
+}

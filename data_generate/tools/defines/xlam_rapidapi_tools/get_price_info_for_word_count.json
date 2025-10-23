@@ -1,0 +1,35 @@
+{
+    "name": "get_price_info_for_word_count",
+    "description": "This is a sub-function API for tool textking_translation.\nTool description: The TEXTKING Translation API is a RESTful web service to access and manage translation projects on https://www.textking.com. You can use the translation API to integrate high quality human translation into your own software and streamline your translation workflow.\nAPI description: Returns price information for translating a given number of words between specified languages and topic using the TextKing API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "words": {
+                "type": "number",
+                "description": "An integer value defining the number of words to translate.",
+                "default": 3141.0
+            },
+            "source_language": {
+                "type": "string",
+                "description": "ISO 639 language code of the source language.",
+                "default": "de"
+            },
+            "target_language": {
+                "type": "string",
+                "description": "ISO 639 language code of the target language.",
+                "default": "en"
+            },
+            "topic": {
+                "type": "string",
+                "description": "A topic UUID for the translation context.",
+                "default": "8576549a-097f-45b3-8c59-fb3d6a03147d"
+            }
+        },
+        "required": [
+            "words",
+            "source_language",
+            "target_language",
+            "topic"
+        ]
+    }
+}

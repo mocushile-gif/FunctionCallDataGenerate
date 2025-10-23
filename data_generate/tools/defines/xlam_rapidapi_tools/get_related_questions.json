@@ -1,0 +1,27 @@
+{
+    "name": "get_related_questions",
+    "description": "This is a sub-function API for tool advanced_serp_operators.\nTool description: Real-Time & Accurate Advanced Search Engine Results. REST API for SERP and SEO data. - More at: bishopi.io\nAPI description: The People Also Ask For Keywords Tool. We scrape Google for all the keywords shown in the \"people also ask for\" boxes, that it shows when you click a link and then go back to the Google SERP.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query for which to find related questions.",
+                "default": "prenatal vitamins"
+            },
+            "location": {
+                "type": "string",
+                "description": "Specify the proxy location for the search. Defaults to 'us'. Supported countries include 'US', 'CA', 'IE', 'GB', 'FR', 'DE', 'SE', 'IN', 'JP', 'KR', 'SG', 'AU', 'BR'.",
+                "default": "us"
+            },
+            "max_results": {
+                "type": "number",
+                "description": "The maximum number of related questions to fetch. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

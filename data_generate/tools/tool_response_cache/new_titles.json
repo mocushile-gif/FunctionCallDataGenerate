@@ -1,0 +1,30 @@
+{
+    "{'start_date': 20250525, 'end_date': 20250601, 'types': 'movie,tv_series'}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': 20250525, 'end_date': 20250601, 'types': 'movie'}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': 20250501, 'end_date': 20250531, 'types': 'tv_series', 'limit': 250}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': 20250527, 'end_date': 20250603, 'types': 'movie', 'limit': 250, 'page': 1}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': 20250608, 'end_date': 20250615}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': 20250610, 'end_date': 20250617, 'types': 'movie,tv_series'}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    },
+    "{'start_date': 20250610, 'end_date': 20250617, 'types': 'movie,tv_series', 'limit': 250}": {
+        "error": "",
+        "response": "{'success': False, 'statusCode': 401, 'statusMessage': 'The changes endpoint is only available with paid plans.'}"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "{'country_name': 'Zimbabwe'}": {
+        "error": "",
+        "response": {
+            "name": "Zimbabwe",
+            "latitude": "-19.015438",
+            "longitude": "29.154857",
+            "phone_code": "+263",
+            "abbreviation": "ZWE",
+            "capital_city": "Harare"
+        }
+    },
+    "{'country_name': ''}": {
+        "error": "",
+        "response": {
+            "details": "Could not complete request"
+        }
+    },
+    "{'country_name': 'Algeria'}": {
+        "error": "",
+        "response": "{'name': 'Algeria', 'latitude': '28.158938', 'longitude': '2.617323', 'phone_code': '+213', 'abbreviation': 'DZA', 'capital_city': 'Algiers'}"
+    },
+    "{'country_name': 'Kenya'}": {
+        "error": "",
+        "response": "{'message': \"Endpoint '/africa/api/v1/africa/countries' does not exist\"}"
+    },
+    "{'country_name': 'all'}": {
+        "error": "",
+        "response": "{'countries': [{'name': 'Algeria', 'latitude': '28.158938', 'longitude': '2.617323', 'phone_code': '+213', 'abbreviation': 'DZA', 'capital_city': 'Algiers'}, {'name': 'Angola', 'latitude': '-8.811540', 'longitude': '13.230768', 'phone_code': '+244', 'abbreviation': 'AGO', 'capital_city': 'Luanda'}, {'name': 'Benin', 'latitude': '9.307690', 'longitude': '2.315834', 'phone_code': '+229', 'abbreviation': 'BEN', 'capital_city': 'Porto-Novo'}, {'name': 'Botswana', 'latitude': '-22.328474', 'longitude': '24.681674', 'phone_code': '+267', 'abbreviation': 'BWA', 'capital_city': 'Gaborone'}, {'name': 'Burkina Faso', 'latitude': '12.238333', 'longitude': '-1.561593', 'phone_code': '+226', 'abbreviation': 'BFA', 'capital_city': 'Ouagadougou'}, {'name': 'Burundi', 'latitude': '-3.373056', 'longitude': '29.918886', 'phone_code': '+257', 'abbreviation': 'BDI', 'capital_city': 'Bujumbura'}, {'name': 'Cabo Verde / Cape Verde', 'latitude': '15.120142', 'longitude': '-23.605233', 'phone_code': '+238', 'abbreviation': 'CPV', 'capital_city': 'Praia'}, {'name': 'Cameroon', 'latitude': '3.848032', 'longitude': '11.502075', 'phone_code': '+237', 'abbreviation': 'CMR', 'capital_city': 'Yaounde'}, {'name': 'Central African Republic', 'latitude': '6.611111', 'longitude': '20.940687', 'phone_code': '+236', 'abbreviation': 'CAF', 'capital_city': 'Bangui'}, {'name': 'Chad', 'latitude': '15.454166', 'longitude': '18.732207', 'phone_code': '+235', 'abbreviation': 'TCD', 'capital_city': \"N'Djamena\"}, {'name': 'Comoros', 'latitude': '-11.645500', 'longitude': '43.252316', 'phone_code': '+269', 'abbreviation': 'COM', 'capital_city': 'Moroni'}, {'name': 'Congo', 'latitude': '-0.228021', 'longitude': '15.827659', 'phone_code': '+242', 'abbreviation': 'COG', 'capital_city': 'Brazzaville'}, {'name': \"C\u00f4te d'Ivoire\", 'latitude': '7.536064', 'longitude': '-5.547080', 'phone_code': '+225', 'abbreviation': 'CIV', 'capital_city': 'Yamoussoukro'}, {'name': 'Democratic Republic of the Congo', 'latitude': '-4.038333', 'longitude': '21.758664', 'phone_code': "
+    }
+}

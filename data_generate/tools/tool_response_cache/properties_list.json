@@ -1,0 +1,80 @@
+{
+    "{'operation': 'sale', 'locationname': 'Milan', 'locationid': '0-EU-IT-LO-01-001-097-09-003', 'country': 'it', 'privatetoilet': True, 'terrace': True, 'minprice': 300000, 'maxprice': 500000, 'luxury': True, 'propertytype': 'homes'}": {
+        "error": "",
+        "response": {
+            "properties": [
+                {
+                    "title": "Luxury Villa in Milan",
+                    "price": 450000,
+                    "features": [
+                        "private toilet",
+                        "terrace",
+                        "swimming pool",
+                        "garden"
+                    ],
+                    "area_size": 250,
+                    "location": "Central Milan",
+                    "property_type": "detached home"
+                },
+                {
+                    "title": "Modern Apartment near Duomo",
+                    "price": 320000,
+                    "features": [
+                        "private toilet",
+                        "terrace",
+                        "elevator",
+                        "air conditioning"
+                    ],
+                    "area_size": 180,
+                    "location": "City Center",
+                    "property_type": "apartment"
+                },
+                {
+                    "title": "Penthouse with City Views",
+                    "price": 480000,
+                    "features": [
+                        "private toilet",
+                        "terrace",
+                        "floor heating",
+                        "24/7 concierge"
+                    ],
+                    "area_size": 320,
+                    "location": "Porta Nuova District",
+                    "property_type": "apartment"
+                }
+            ],
+            "total_results": 15,
+            "page": 1,
+            "max_price_filter": 500000,
+            "min_price_filter": 300000
+        }
+    },
+    "{'country': 'it', 'locale': 'en', 'locationid': '0-EU-IT-RM-01-001-097-09-003', 'locationname': 'Rome', 'operation': 'sale', 'garden': True, 'terrace': True, 'maxitems': 5}": {
+        "error": "",
+        "response": "{'elementList': [{'propertyCode': '32122787', 'thumbnail': 'https://img4.idealista.it/blur/480_360_mq/0/id.pro.it.image.master/53/ac/3c/674281590.webp', 'numPhotos': 4, 'floor': 'ss', 'price': 120000.0, 'priceInfo': {'price': {'amount': 120000.0, 'currencySuffix': '\u20ac'}}, 'propertyType': 'studio', 'operation': 'sale', 'size': 45.0, 'rooms': 1, 'bathrooms': 1, 'address': 'via Antonio degli Effetti no number', 'province': 'Roma', 'municipality': 'Roma', 'district': 'Appio Latino - Furio Camillo', 'country': 'it', 'neighborhood': 'Appio Latino - Caffarella', 'locationId': '0-EU-IT-RM-01-001-097-09-003', 'latitude': 41.8747907, 'longitude': 12.5176741, 'showAddress': True, 'url': 'https://www.idealista.it/immobile/32122787/', 'description': 'VIA ANTONIO DEGLI EFFETTI - In the historic Alberone neighborhood, we offer a studio apartment for sale. Located on the lower ground floor, the property extends over an area of 45 square meters, offering a well-distributed and functional space. Comprising an entrance hall, a bedroom, a habitable kitchen, and a windowed bathroom, the solution needs renovation. The strategic location guarantees easy access to essential services, public transport, and main communication routes. This studio apartment represents an interesting solution for those who wish to live in a well-served area, without sacrificing the tranquility of a residential context. Ideal for investment use.', 'hasVideo': False, 'status': 'renew', 'newDevelopment': False, 'favourite': "
+    },
+    "{'locationid': '0-EU-IT-RM-01-001-097-09-003', 'locationname': 'Rome', 'operation': 'rent', 'locale': 'en', 'garden': True, 'terrace': True}": {
+        "error": "",
+        "response": "{'elementList': [{'propertyCode': '32415270', 'thumbnail': 'https://img4.idealista.it/blur/480_360_mq/0/id.pro.it.image.master/d6/b3/52/683694612.webp', 'numPhotos': 20, 'floor': 'ss', 'price': 670.0, 'priceInfo': {'price': {'amount': 670.0, 'currencySuffix': '\u20ac/month'}}, 'propertyType': 'flat', 'operation': 'rent', 'size': 50.0, 'rooms': 2, 'bathrooms': 1, 'address': 'circonvallazione Appia, 73', 'province': 'Roma', 'municipality': 'Roma', 'district': 'Appio Latino - Furio Camillo', 'country': 'it', 'neighborhood': 'Appio Latino - Caffarella', 'locationId': '0-EU-IT-RM-01-001-097-09-003', 'latitude': 41.8755249, 'longitude': 12.5147805, 'showAddress': True, 'url': 'https://www.idealista.it/immobile/32415270/', 'description': 'A few steps from the Ponte Lungo metro A station, spacious 50 sq m two-room apartment without a balcony, completely renovated and fully furnished, in an elegant building. It consists of a bedroom, kitchen, and renovated bathroom, new windows, and a washer-dryer. Heating is autonomous. ALL UTILITY COSTS AND FIXED EXPENSES, ADDITIONAL CHARGES ARE EXCLUDED FROM THE PRICE. Only registered temporary contracts. Forms of guarantee: deposit and a guarantor is required. We do not rent to residents of Rome and it is not possible to register residency, only domicile. Viewings are free, without obligation or registration. Requirements: students away from home or young workers, min 18 max 35 years old, no families, no pets. Please contact us by filling out only the "
+    },
+    "{'operation': 'rent', 'locationname': 'Central Rome', 'locationid': '0-EU-IT-RM-01-001-097-09-003', 'country': 'it', 'garden': True, 'elevator': True}": {
+        "error": "",
+        "response": "{'elementList': [{'propertyCode': '32415270', 'thumbnail': 'https://img4.idealista.it/blur/480_360_mq/0/id.pro.it.image.master/d6/b3/52/683694612.webp', 'numPhotos': 20, 'floor': 'ss', 'price': 670.0, 'priceInfo': {'price': {'amount': 670.0, 'currencySuffix': '\u20ac/month'}}, 'propertyType': 'flat', 'operation': 'rent', 'size': 50.0, 'rooms': 2, 'bathrooms': 1, 'address': 'circonvallazione Appia, 73', 'province': 'Roma', 'municipality': 'Roma', 'district': 'Appio Latino - Furio Camillo', 'country': 'it', 'neighborhood': 'Appio Latino - Caffarella', 'locationId': '0-EU-IT-RM-01-001-097-09-003', 'latitude': 41.8755249, 'longitude': 12.5147805, 'showAddress': True, 'url': 'https://www.idealista.it/immobile/32415270/', 'description': 'A few steps from the Ponte Lungo metro A station, spacious 50 sq m two-room apartment without a balcony, completely renovated and fully furnished, in an elegant building. It consists of a bedroom, kitchen, and renovated bathroom, new windows, and a washer-dryer. Heating is autonomous. ALL UTILITY COSTS AND FIXED EXPENSES, ADDITIONAL CHARGES ARE EXCLUDED FROM THE PRICE. Only registered temporary contracts. Forms of guarantee: deposit and a guarantor is required. We do not rent to residents of Rome and it is not possible to register residency, only domicile. Viewings are free, without obligation or registration. Requirements: students away from home or young workers, min 18 max 35 years old, no families, no pets. Please contact us by filling out only the "
+    },
+    "{'country': 'it', 'locationid': '0-EU-IT-RM-01-001-097-09-003', 'locationname': 'Caffarella, Roma', 'operation': 'rent', 'luxury': True, 'swimmingpool': True, 'terrace': True, 'maxitems': 5}": {
+        "error": "",
+        "response": "{'elementList': [{'propertyCode': '32415270', 'thumbnail': 'https://img4.idealista.it/blur/480_360_mq/0/id.pro.it.image.master/d6/b3/52/683694612.webp', 'numPhotos': 20, 'floor': 'ss', 'price': 670.0, 'priceInfo': {'price': {'amount': 670.0, 'currencySuffix': '\u20ac/month'}}, 'propertyType': 'flat', 'operation': 'rent', 'size': 50.0, 'rooms': 2, 'bathrooms': 1, 'address': 'circonvallazione Appia, 73', 'province': 'Roma', 'municipality': 'Roma', 'district': 'Appio Latino - Furio Camillo', 'country': 'it', 'neighborhood': 'Appio Latino - Caffarella', 'locationId': '0-EU-IT-RM-01-001-097-09-003', 'latitude': 41.8755249, 'longitude': 12.5147805, 'showAddress': True, 'url': 'https://www.idealista.it/immobile/32415270/', 'description': 'A few steps from the Ponte Lungo metro A station, spacious 50 sq m two-room apartment without a balcony, completely renovated and fully furnished, in an elegant building. It consists of a bedroom, kitchen, and renovated bathroom, new windows, and a washer-dryer. Heating is autonomous. ALL UTILITY COSTS AND FIXED EXPENSES, ADDITIONAL CHARGES ARE EXCLUDED FROM THE PRICE. Only registered temporary contracts. Forms of guarantee: deposit and a guarantor is required. We do not rent to residents of Rome and it is not possible to register residency, only domicile. Viewings are free, without obligation or registration. Requirements: students away from home or young workers, min 18 max 35 years old, no families, no pets. Please contact us by filling out only the "
+    },
+    "{'country': 'it', 'locationid': '0-EU-IT-RM-01-001-097-09-003', 'locationname': 'Caffarella, Roma', 'operation': 'rent', 'swimmingpool': True, 'terrace': True, 'luxury': True, 'maxitems': 5}": {
+        "error": "",
+        "response": "{'elementList': [{'propertyCode': '32415270', 'thumbnail': 'https://img4.idealista.it/blur/480_360_mq/0/id.pro.it.image.master/d6/b3/52/683694612.webp', 'numPhotos': 20, 'floor': 'ss', 'price': 670.0, 'priceInfo': {'price': {'amount': 670.0, 'currencySuffix': '\u20ac/month'}}, 'propertyType': 'flat', 'operation': 'rent', 'size': 50.0, 'rooms': 2, 'bathrooms': 1, 'address': 'circonvallazione Appia, 73', 'province': 'Roma', 'municipality': 'Roma', 'district': 'Appio Latino - Furio Camillo', 'country': 'it', 'neighborhood': 'Appio Latino - Caffarella', 'locationId': '0-EU-IT-RM-01-001-097-09-003', 'latitude': 41.8755249, 'longitude': 12.5147805, 'showAddress': True, 'url': 'https://www.idealista.it/immobile/32415270/', 'description': 'A few steps from the Ponte Lungo metro A station, spacious 50 sq m two-room apartment without a balcony, completely renovated and fully furnished, in an elegant building. It consists of a bedroom, kitchen, and renovated bathroom, new windows, and a washer-dryer. Heating is autonomous. ALL UTILITY COSTS AND FIXED EXPENSES, ADDITIONAL CHARGES ARE EXCLUDED FROM THE PRICE. Only registered temporary contracts. Forms of guarantee: deposit and a guarantor is required. We do not rent to residents of Rome and it is not possible to register residency, only domicile. Viewings are free, without obligation or registration. Requirements: students away from home or young workers, min 18 max 35 years old, no families, no pets. Please contact us by filling out only the "
+    },
+    "{'locationid': '0-EU-IT-RM-01-001-097-09-003', 'locationname': 'Rome', 'operation': 'rent', 'terrace': True, 'airconditioning': True}": {
+        "error": "",
+        "response": "{'elementList': [{'propertyCode': '32415270', 'thumbnail': 'https://img4.idealista.it/blur/480_360_mq/0/id.pro.it.image.master/d6/b3/52/683694612.webp', 'numPhotos': 20, 'floor': 'ss', 'price': 670.0, 'priceInfo': {'price': {'amount': 670.0, 'currencySuffix': '\u20ac/month'}}, 'propertyType': 'flat', 'operation': 'rent', 'size': 50.0, 'rooms': 2, 'bathrooms': 1, 'address': 'circonvallazione Appia, 73', 'province': 'Roma', 'municipality': 'Roma', 'district': 'Appio Latino - Furio Camillo', 'country': 'it', 'neighborhood': 'Appio Latino - Caffarella', 'locationId': '0-EU-IT-RM-01-001-097-09-003', 'latitude': 41.8755249, 'longitude': 12.5147805, 'showAddress': True, 'url': 'https://www.idealista.it/immobile/32415270/', 'description': 'A few steps from the Ponte Lungo metro A station, spacious 50 sq m two-room apartment without a balcony, completely renovated and fully furnished, in an elegant building. It consists of a bedroom, kitchen, and renovated bathroom, new windows, and a washer-dryer. Heating is autonomous. ALL UTILITY COSTS AND FIXED EXPENSES, ADDITIONAL CHARGES ARE EXCLUDED FROM THE PRICE. Only registered temporary contracts. Forms of guarantee: deposit and a guarantor is required. We do not rent to residents of Rome and it is not possible to register residency, only domicile. Viewings are free, without obligation or registration. Requirements: students away from home or young workers, min 18 max 35 years old, no families, no pets. Please contact us by filling out only the "
+    },
+    "{'country': 'it', 'locationid': '0-EU-IT-RM-01-001-097-09-003', 'locationname': 'Rome', 'operation': 'rent', 'petspolicy': 'allowed', 'garden': True}": {
+        "error": "",
+        "response": "{'elementList': [{'propertyCode': '32415270', 'thumbnail': 'https://img4.idealista.it/blur/480_360_mq/0/id.pro.it.image.master/d6/b3/52/683694612.webp', 'numPhotos': 20, 'floor': 'ss', 'price': 670.0, 'priceInfo': {'price': {'amount': 670.0, 'currencySuffix': '\u20ac/month'}}, 'propertyType': 'flat', 'operation': 'rent', 'size': 50.0, 'rooms': 2, 'bathrooms': 1, 'address': 'circonvallazione Appia, 73', 'province': 'Roma', 'municipality': 'Roma', 'district': 'Appio Latino - Furio Camillo', 'country': 'it', 'neighborhood': 'Appio Latino - Caffarella', 'locationId': '0-EU-IT-RM-01-001-097-09-003', 'latitude': 41.8755249, 'longitude': 12.5147805, 'showAddress': True, 'url': 'https://www.idealista.it/immobile/32415270/', 'description': 'A few steps from the Ponte Lungo metro A station, spacious 50 sq m two-room apartment without a balcony, completely renovated and fully furnished, in an elegant building. It consists of a bedroom, kitchen, and renovated bathroom, new windows, and a washer-dryer. Heating is autonomous. ALL UTILITY COSTS AND FIXED EXPENSES, ADDITIONAL CHARGES ARE EXCLUDED FROM THE PRICE. Only registered temporary contracts. Forms of guarantee: deposit and a guarantor is required. We do not rent to residents of Rome and it is not possible to register residency, only domicile. Viewings are free, without obligation or registration. Requirements: students away from home or young workers, min 18 max 35 years old, no families, no pets. Please contact us by filling out only the "
+    }
+}

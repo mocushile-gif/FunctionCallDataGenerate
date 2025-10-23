@@ -1,0 +1,17 @@
+{
+    "name": "seasonendconstructorstanding",
+    "description": "This is a sub-function API for tool formula_1_fixed.\nTool description: F1\nAPI description: Fetches the Constructor Standings at the end of the specified Formula 1 season.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year for which to fetch the constructor standings.",
+                "default": "year"
+            }
+        },
+        "required": [
+            "year"
+        ]
+    }
+}

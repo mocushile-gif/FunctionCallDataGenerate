@@ -1,0 +1,16 @@
+{
+    "name": "stock_price",
+    "description": "This is a sub-function API for tool yh_finance_complete.\nTool description: This API helps you to query stocks, quotes, movers and other financial summary.\nAPI description: Fetches the current price and details for a given public stock using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The ticker symbol of the stock for which to retrieve the price and details."
+            }
+        },
+        "required": [
+            "ticker"
+        ]
+    }
+}

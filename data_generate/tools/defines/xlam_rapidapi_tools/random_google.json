@@ -1,0 +1,33 @@
+{
+    "name": "random_google",
+    "description": "This is a sub-function API for tool nearby_places.\nTool description: Get nearby establishments.\nAPI description: Returns a random place of a specified type within a given radius around the provided latitude and longitude.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "The latitude of the location around which to search for places.",
+                "default": 49.2803703
+            },
+            "lng": {
+                "type": "number",
+                "description": "The longitude of the location around which to search for places.",
+                "default": -123.0413988
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of place to search for. Default is 'cafe'.",
+                "default": "cafe"
+            },
+            "radius": {
+                "type": "number",
+                "description": "The search radius in meters. Default is 500.",
+                "default": 500.0
+            }
+        },
+        "required": [
+            "lat",
+            "lng"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "global_result_single",
+    "description": "This is a sub-function API for tool seo_keyword_research.\nTool description: Keyword Research helps to analyze keywords and related keywords competitions , search volume (google) and CPC. For private plans, custom plans, custom billing contact : info@getecz.com\nAPI description: Fetches global SEO keyword research data using the RapidAPI Keyword Research service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The keyword for which to perform the research.",
+                "default": "email marketing"
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

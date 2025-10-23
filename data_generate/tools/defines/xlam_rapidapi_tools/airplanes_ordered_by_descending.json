@@ -1,0 +1,17 @@
+{
+    "name": "airplanes_ordered_by_descending",
+    "description": "This is a sub-function API for tool airplanesdb.\nTool description: Get the basic specifications on all types of commercial airplanes.\nAPI description: Fetches all airplanes ordered by a specified field in descending order from the AirplanesDB API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ordering": {
+                "type": "string",
+                "description": "The field by which to order the airplanes in descending order.",
+                "default": "-plane"
+            }
+        },
+        "required": [
+            "ordering"
+        ]
+    }
+}

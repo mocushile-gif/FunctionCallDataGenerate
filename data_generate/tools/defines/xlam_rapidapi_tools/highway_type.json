@@ -1,0 +1,29 @@
+{
+    "name": "highway_type",
+    "description": "This is a sub-function API for tool mymappi.\nTool description: REST Location APIs such as Geocoding, Roads, Directions and Places.\nAPI description: Given a coordinate, finds the nearest road and determines what type of road it is (motorway, path, primary... etc.)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "The latitude of the geographic coordinate.",
+                "default": 40.409246
+            },
+            "lon": {
+                "type": "number",
+                "description": "The longitude of the geographic coordinate.",
+                "default": -3.677144
+            },
+            "apikey": {
+                "type": "string",
+                "description": "The API key for accessing the service.",
+                "default": "YOUR_API_KEY"
+            }
+        },
+        "required": [
+            "lat",
+            "lon",
+            "apikey"
+        ]
+    }
+}

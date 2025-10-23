@@ -1,0 +1,77 @@
+{
+    "name": "coins_list",
+    "description": "This is a sub-function API for tool investing_cryptocurrency_markets.\nTool description: These APIs provide data of all cryptocurrencies, markets, ideal for tracking prices and exchange rates.\nAPI description: Fetches a list of available cryptocurrencies based on provided filters and sorting options.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "edition_currency_id": {
+                "type": "number",
+                "description": "The unique identifier for the edition currency, returned in the `/get-meta-data` endpoint.",
+                "default": 12.0
+            },
+            "total_volume_min": {
+                "type": "number",
+                "description": "Check rangeFilters/total&#95;volume/steps field returned right in this endpoint for available min and max value "
+            },
+            "chg_24h_min": {
+                "type": "number",
+                "description": "Minimum 24-hour change value for the cryptocurrency. Refer to `rangeFilters/chg_24h/steps` for available values."
+            },
+            "lang_id": {
+                "type": "number",
+                "description": "Language ID, with 1 being the default. Refer to `all_langs/lang_ID` in the `/get-meta-data` endpoint.",
+                "default": 1.0
+            },
+            "total_volume_max": {
+                "type": "number",
+                "description": "Maximum total volume for the cryptocurrency. Refer to `rangeFilters/total_volume/steps` for available values."
+            },
+            "chg_7d_max": {
+                "type": "number",
+                "description": "Maximum 7-day change value for the cryptocurrency. Refer to `rangeFilters/chg_7d/steps` for available values."
+            },
+            "time_utc_offset": {
+                "type": "number",
+                "description": "UTC value in seconds, for example : utc+8 -> 8 * 60 * 60 = 28800",
+                "default": 28800.0
+            },
+            "chg_7d_min": {
+                "type": "number",
+                "description": "Minimum 7-day change value for the cryptocurrency. Refer to `rangeFilters/chg_7d/steps` for available values."
+            },
+            "market_cap_max": {
+                "type": "number",
+                "description": "Maximum market capitalization for the cryptocurrency. Refer to `rangeFilters/market_cap/steps` for available values."
+            },
+            "market_cap_min": {
+                "type": "number",
+                "description": "Minimum market capitalization for the cryptocurrency. Refer to `rangeFilters/market_cap/steps` for available values."
+            },
+            "chg_24h_max": {
+                "type": "number",
+                "description": "Maximum 24-hour change value for the cryptocurrency. Refer to `rangeFilters/chg_24h/steps` for available values."
+            },
+            "volume_24h_max": {
+                "type": "number",
+                "description": "Maximum 24-hour trading volume for the cryptocurrency. Refer to `rangeFilters/volume_24h/steps` for available values."
+            },
+            "volume_24h_min": {
+                "type": "number",
+                "description": "Minimum 24-hour trading volume for the cryptocurrency. Refer to `rangeFilters/volume_24h/steps` for available values."
+            },
+            "sort": {
+                "type": "string",
+                "description": "Sorting criteria. Allowed values are `NAME_UP` (Name), `PERC1D_DN` (Chg 24h), `PERC7D_DN` (Chg 7D), `MARKETCAP_DN` (Market Cap), `VOLUME24_DN` (Vol 24h), `TOTAL_VOLUME_DN` (Total vol). Default is `PERC1D_DN`.",
+                "default": "PERC1D_DN"
+            },
+            "page": {
+                "type": "number",
+                "description": "Page number for pagination. Default is 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "edition_currency_id"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "find_by_postcode",
+    "description": "This is a sub-function API for tool find_by_postcode.\nTool description: “Find By PostCode” API get addresses for the given UK PostCode. This API provides a JSON interface to search UK addresses for a postcode.his API uses the latest PAF and Multiple Residence data from Royal Mail.\nAPI description: “Find By PostCode” API get addresses for the given UK PostCode. This API provides a JSON interface to search UK addresses for a postcode.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "postcode": {
+                "type": "string",
+                "description": "The UK postcode for which to retrieve addresses.",
+                "default": "PL11DN"
+            }
+        },
+        "required": [
+            "postcode"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "getuserbyid",
+    "description": "This is a sub-function API for tool user_demo.\nTool description: -\nAPI description: Fetches and returns user information by user ID from a specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the user to fetch information for.",
+                "default": "635ecf6c242aeb8cd18fae59"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "timezone_by_id",
+    "description": "This is a sub-function API for tool referential.\nTool description: The fastest API to access countries, states, cities, continents, dial and zip codes in up to 20 languages. A collection of data APIs to support forms, signups, search and lookup. Our endpoints are optimized for speed and size. Our data is regularly maintained and comes from International Standardization bodies, the United Nations, government surveys and GIS datasets. We do not scrape WikiPedia etc\nAPI description: Fetches information for a given time zone using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "timezone": {
+                "type": "string",
+                "description": "The time zone to look up.",
+                "default": "Afrika/Dakar"
+            },
+            "fields": {
+                "type": "string",
+                "description": "A comma-separated list of fields to include in the response. Defaults to 'offset,daylights_offset,daylights,daylights_code,timezone'.",
+                "default": "offset,daylights_offset,daylights,daylights_code,timezone"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language selection ISO 639-2 letter code. Overrides Accept-Language header. Defaults to browser value. Default: en",
+                "default": "de"
+            }
+        },
+        "required": [
+            "timezone"
+        ]
+    }
+}

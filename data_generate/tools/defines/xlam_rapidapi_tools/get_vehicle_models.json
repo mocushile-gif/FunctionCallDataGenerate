@@ -1,0 +1,17 @@
+{
+    "name": "get_vehicle_models",
+    "description": "This is a sub-function API for tool car_utils.\nTool description: FREE resources for checking VIN, getting the market value of your car, estimating the cost of ownership in US,  checking fuel economy, and more to come.\nAPI description: Fetches all supported vehicle models for a specified vehicle make using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "make": {
+                "type": "string",
+                "description": "The brand of the vehicle for which to fetch the models.",
+                "default": "Bugatti"
+            }
+        },
+        "required": [
+            "make"
+        ]
+    }
+}

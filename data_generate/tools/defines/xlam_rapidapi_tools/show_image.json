@@ -1,0 +1,17 @@
+{
+    "name": "show_image",
+    "description": "This is a sub-function API for tool flowers.\nTool description: Information about flowers.\nAPI description: Fetch and return the image data of a flower from the API using the given flower ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The identifier for the specific flower.",
+                "default": "6383808bff3dde72b0fc35d6"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

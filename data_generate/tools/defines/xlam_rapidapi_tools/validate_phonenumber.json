@@ -1,0 +1,17 @@
+{
+    "name": "validate_phonenumber",
+    "description": "This is a sub-function API for tool whatsapp_checker_pro.\nTool description: You only have to send us contact mobile numbers and we will filter the numbers registered on whatsapp\nThe service helps you to promote your services efficiently\nAPI description: Validates a phone number using the WhatsApp Checker Pro API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone": {
+                "type": "string",
+                "description": "The phone number to be validated.",
+                "default": "PhoneNumber"
+            }
+        },
+        "required": [
+            "phone"
+        ]
+    }
+}

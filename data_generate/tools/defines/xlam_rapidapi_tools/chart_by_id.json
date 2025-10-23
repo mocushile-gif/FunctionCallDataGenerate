@@ -1,0 +1,17 @@
+{
+    "name": "chart_by_id",
+    "description": "This is a sub-function API for tool imdb_charts.\nTool description: IMDB charts of most popular movies and tv shows. Titles, ranks, ratings, votes, covers and more. Fast and reliable!\nAPI description: Get an IMDB Chart by ID\n\nThe API endpoint expects an `id` query parameter and the JSON response format is different based on it. We currently support these chart ids:\n* `boxoffice`: Top Box Office (US)\n* `moviemeter`: Most Popular Movies\n* `top`: IMDb Top 250 Movies\n* `top-english-movies`: Top Rated English Movies\n* `tvmeter`: Most Popular TV Shows\n* `toptv`: Top Rated TV Shows\n* `top-rated-indian-movies`: Top Rated Indian Movies\n* `bottom`: Lowest Rated Movies\n* `top-action`: (Top Rated Action Movies\n* `to",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID representing the type of IMDb chart to retrieve (e.g., 'boxoffice', 'moviemeter', 'top').",
+                "default": "boxoffice"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

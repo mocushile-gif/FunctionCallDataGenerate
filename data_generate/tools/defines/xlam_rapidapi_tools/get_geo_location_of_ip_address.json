@@ -1,0 +1,17 @@
+{
+    "name": "get_geo_location_of_ip_address",
+    "description": "This is a sub-function API for tool mocking_rock.\nTool description: An APIs collection for getting sample profiles and city Data for testings for frontend or mock testings.    \nAPI description: Retrieve the geographical location and other details of a given IP address using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IPV4 address for which geographical information is to be retrieved.",
+                "default": "34.89.89.28"
+            }
+        },
+        "required": [
+            "ip"
+        ]
+    }
+}

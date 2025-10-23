@@ -1,0 +1,26 @@
+{
+    "name": "user_tweets_replies_by_screen_name",
+    "description": "This is a sub-function API for tool twitter_v2.\nTool description: Twitter public data API for Tweets and users\nAPI description: Fetches the tweets and replies of a specified user by their screen name using the Twitter API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The screen name of the user whose tweets and replies are to be fetched.",
+                "default": "elonmusk"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "The cursor for pagination, if any. Defaults to None."
+            },
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of tweets and replies to fetch. Defaults to '40'.",
+                "default": "40"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "calculate_age_based_on_birthday",
+    "description": "Calculates the age based on the birthdate provided in the format \"YYYY-MM-DD\". The function handles the calculation of age by considering the current date and adjusting for whether the birthday has occurred this year.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "birthdate": {
+                "type": "string",
+                "description": "The birthdate in the format \"YYYY-MM-DD\"."
+            }
+        },
+        "required": [
+            "birthdate"
+        ]
+    }
+}

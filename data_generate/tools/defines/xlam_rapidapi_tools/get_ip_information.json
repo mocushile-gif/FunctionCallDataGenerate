@@ -1,0 +1,22 @@
+{
+    "name": "get_ip_information",
+    "description": "This is a sub-function API for tool all_information_about_ip.\nTool description: API for getting information about ip address, taken from several databases, compared.\nAPI description: Fetches information about a given IP address using the Toolbench API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The IP address to query information about.",
+                "default": "188.68.223.26"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language of the response. Default is 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

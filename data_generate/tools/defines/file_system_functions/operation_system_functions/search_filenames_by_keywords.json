@@ -1,0 +1,27 @@
+{
+    "name": "search_filenames_by_keywords",
+    "description": "Search for files in a directory and its subdirectories where the filename contains any of the specified keywords.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "directory": {
+          "type": "string",
+          "description": "The absolute path of the directory to search within."
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "A list of keywords to search for in filenames."
+        },
+        "case_sensitive": {
+          "type": "boolean",
+          "description": "Whether the search should be case-sensitive. Defaults to false.",
+          "default": false
+        }
+      },
+      "required": ["directory", "keywords"]
+    }
+  }
+  

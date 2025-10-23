@@ -1,0 +1,17 @@
+{
+    "name": "companies_id_data",
+    "description": "This is a sub-function API for tool german_company_data_v2.\nTool description: Enrich your CRM / MAS / ERP system with credible data about all incorporated companies from  Germany.\nAPI description: This endpoint returns the basic information of the company with the given identifier. The information includes all the core data (name, address), web data if known (phone, fax, email, url, social media profiles), legal information (registry, founding date, capital), up to three industries, and revenue and employees class.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The Implisense identifier of the company.",
+                "default": "DEVFCLQFW054"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

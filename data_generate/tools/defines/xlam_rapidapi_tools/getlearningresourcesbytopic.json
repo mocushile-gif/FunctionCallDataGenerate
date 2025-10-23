@@ -1,0 +1,23 @@
+{
+    "name": "getlearningresourcesbytopic",
+    "description": "This is a sub-function API for tool dei.\nTool description: The Diversity, Equity, and Inclusion (DEI) API offers the learning resources, conferences, stories and other information.\nAPI description: Fetch Azure learning resources by topic and page number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "topic": {
+                "type": "string",
+                "description": "The specific topic to search for learning resources.",
+                "default": "allyship"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve learning resources from.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "topic",
+            "page"
+        ]
+    }
+}

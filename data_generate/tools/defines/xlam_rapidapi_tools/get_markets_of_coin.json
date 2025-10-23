@@ -1,0 +1,17 @@
+{
+    "name": "get_markets_of_coin",
+    "description": "This is a sub-function API for tool coinlore_cryptocurrency.\nTool description: Provides cryptocurrency prices,exchanges,markets api\nAPI description: Fetches the top 50 markets for a given cryptocurrency coin.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the cryptocurrency coin.",
+                "default": 90.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

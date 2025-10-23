@@ -1,0 +1,22 @@
+{
+    "name": "find_majority_element",
+    "description": "Finds the majority element in a list, which appears more than ⌊n / 2⌋ times. Optionally, returns the count of the majority element.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nums": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                },
+                "description": "The input list of integers."
+            },
+            "return_count": {
+                "type": "boolean",
+                "description": "If True, returns the count of the majority element along with the element.",
+                "default": false
+            }
+        },
+        "required": ["nums"]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "nearby_arcgis",
+    "description": "This is a sub-function API for tool nearby_places.\nTool description: Get nearby establishments.\nAPI description: Returns nearby places sorted by distance from the origin coordinates in ascending order.\n\nOnly type values from **/v2/types (ArcGIS)** are valid.\n\nMaximum returned places is 50.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lng": {
+                "type": "number",
+                "description": "Longitude of the origin point.",
+                "default": -123.0413988
+            },
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the origin point.",
+                "default": 49.2803703
+            },
+            "radius": {
+                "type": "number",
+                "description": "Search radius in meters. Defaults to 500. Maximum is 50,000.",
+                "default": 500.0
+            },
+            "type": {
+                "type": "string",
+                "description": "Type of places to search for. Defaults to 'coffee shop'.",
+                "default": "coffee shop"
+            }
+        },
+        "required": [
+            "lng",
+            "lat"
+        ]
+    }
+}

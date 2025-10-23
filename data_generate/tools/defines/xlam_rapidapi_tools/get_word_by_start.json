@@ -1,0 +1,17 @@
+{
+    "name": "get_word_by_start",
+    "description": "This is a sub-function API for tool random_word_api.\nTool description: This easy-to-use, 100% free API randomely picks out words from the entire english dictionnary with many parameters. Supports selecting words of a certain length or that start with a certain letter or a certain string of characters, or both, and much more!\nAPI description: Returns a random word that starts with the specified string.\nFor example, \"fru\" will only return words that start with \"fru\", such as \"fruit\"",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start": {
+                "type": "string",
+                "description": "The starting string to filter the words.",
+                "default": "fru"
+            }
+        },
+        "required": [
+            "start"
+        ]
+    }
+}

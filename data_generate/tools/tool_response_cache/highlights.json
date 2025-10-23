@@ -1,0 +1,48 @@
+{
+    "{'username': 'kimkardashian'}": {
+        "error": "",
+        "response": {
+            "username": "kimkardashian",
+            "highlights": [
+                {
+                    "highlight_id": "123456789",
+                    "title": "Family",
+                    "media_count": 15,
+                    "items": [
+                        {
+                            "media_id": "media1",
+                            "type": "photo",
+                            "url": "https://example.com/kim-family-photo1.jpg",
+                            "timestamp": "2023-08-01T10:00:00Z"
+                        },
+                        {
+                            "media_id": "media2",
+                            "type": "video",
+                            "url": "https://example.com/kim-family-video1.mp4",
+                            "timestamp": "2023-08-01T11:30:00Z"
+                        }
+                    ]
+                },
+                {
+                    "highlight_id": "987654321",
+                    "title": "Fashion",
+                    "media_count": 12,
+                    "items": [
+                        {
+                            "media_id": "media3",
+                            "type": "photo",
+                            "url": "https://example.com/kim-fashion-look1.jpg",
+                            "timestamp": "2023-07-25T14:45:00Z"
+                        },
+                        {
+                            "media_id": "media4",
+                            "type": "video",
+                            "url": "https://example.com/kim-fashion-story2.mp4",
+                            "timestamp": "2023-07-26T09:15:00Z"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

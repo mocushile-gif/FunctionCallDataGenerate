@@ -1,0 +1,17 @@
+{
+    "name": "data_by_id",
+    "description": "This is a sub-function API for tool mongodb_wix.\nTool description: Adapter for MongoDb Atlas\nAPI description: Fetches case data by ID from the MongoDB Wix API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the case to be fetched.",
+                "default": "61183bc9d86b1bf415412ea4"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

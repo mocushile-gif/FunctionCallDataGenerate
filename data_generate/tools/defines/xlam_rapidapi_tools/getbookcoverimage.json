@@ -1,0 +1,23 @@
+{
+    "name": "getbookcoverimage",
+    "description": "This is a sub-function API for tool book_cover_api.\nTool description: Simple api to get book cover by isbn code.\nAPI description: Fetches the book cover image for a given ISBN and language code from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "isbn": {
+                "type": "string",
+                "description": "The International Standard Book Number of the book.",
+                "default": "9781526606198"
+            },
+            "languagecode": {
+                "type": "string",
+                "description": "The language code for the book.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "isbn",
+            "languagecode"
+        ]
+    }
+}

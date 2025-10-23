@@ -1,0 +1,21 @@
+{
+    "name": "get_products",
+    "description": "This is a sub-function API for tool demo_project_v3.\nTool description: This Project is created by the onboarding process\nAPI description: Fetches products from the store's catalog with optional pagination.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "skip": {
+                "type": "number",
+                "description": "The number of products to skip. Defaults to None."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of products to retrieve. Defaults to None."
+            }
+        },
+        "required": [
+            "skip",
+            "limit"
+        ]
+    }
+}

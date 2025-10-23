@@ -1,0 +1,20 @@
+{
+    "name": "search_searchterm",
+    "description": "This is a sub-function API for tool uncovered_treasure.\nTool description: The Uncovered Treasure API has more than 25,000 revealed truths from every Book and chapter in the Bible as recorded by Phil Largent over the last 25 years.\nAPI description: Search for a term using the Uncovered Treasure API and return the results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "searchterm": {
+                "type": "string",
+                "description": "The term to search for, e.g., \"God's plan\"."
+            },
+            "callback": {
+                "type": "string",
+                "description": "An optional JSONP callback parameter for the API request."
+            }
+        },
+        "required": [
+            "searchterm"
+        ]
+    }
+}

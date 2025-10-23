@@ -1,0 +1,17 @@
+{
+    "name": "channel_shorts",
+    "description": "This is a sub-function API for tool youtube_v2.\nTool description: Youtube API for search, videos, channels, trending, recommendation\nAPI description: Fetch the latest shorts published by a YouTube channel using the provided `channel_id` and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "channel_id": {
+                "type": "string",
+                "description": "The ID of the YouTube channel.",
+                "default": "UCVhQ2NnY5Rskt6UjCUkJ_DA"
+            }
+        },
+        "required": [
+            "channel_id"
+        ]
+    }
+}

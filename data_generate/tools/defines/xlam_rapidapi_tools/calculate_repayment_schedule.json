@@ -1,0 +1,35 @@
+{
+    "name": "calculate_repayment_schedule",
+    "description": "This is a sub-function API for tool loan_amortization_calculator.\nTool description: This API calculates Amortized loan repayment with details.\nAPI description: Calculates the repayment schedule for a loan using specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "installmentcount": {
+                "type": "string",
+                "description": "Number of installments for the loan repayment."
+            },
+            "principalamount": {
+                "type": "string",
+                "description": "Principal amount of the loan."
+            },
+            "annualinterestrate": {
+                "type": "string",
+                "description": "Annual interest rate of the loan."
+            },
+            "startdate": {
+                "type": "string",
+                "description": "Start date of the loan repayment schedule."
+            },
+            "repaymentinterval": {
+                "type": "string",
+                "description": "Repayment interval, defaults to monthly if not provided."
+            }
+        },
+        "required": [
+            "installmentcount",
+            "principalamount",
+            "annualinterestrate",
+            "startdate"
+        ]
+    }
+}

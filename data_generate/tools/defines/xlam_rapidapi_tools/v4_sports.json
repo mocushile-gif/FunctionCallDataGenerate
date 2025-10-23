@@ -1,0 +1,15 @@
+{
+    "name": "v4_sports",
+    "description": "This is a sub-function API for tool live_sports_odds.\nTool description: Odds data API for NFL, NBA, MLB, EPL, AFL and loads more, from US, UK, EU and Aussie bookmakers. Get started for free!\nAPI description: Returns a list of available sports and tournaments. Use the `sports_key` in requests for /odds and /scores endpoints.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "all": {
+                "type": "boolean",
+                "description": "When True, includes all available sports. When excluded or False, only shows recently updated (in-season) sports. Default is None.",
+                "default": true
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "business_units_get_web_links",
+    "description": "This is a sub-function API for tool unofficial_trust_pilot.\nTool description: This API helps to query data relating to reviews and consumer reports to create a reviewing platform, such as : trustpilot.com\nAPI description: Fetches web links of a business unit using the TrustPilot API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the business unit, obtained from the /business-units/search or /business-units/search-by-domain endpoint.",
+                "default": "46a7e93b000064000500918b"
+            },
+            "locale": {
+                "type": "string",
+                "description": "The locale code for the response. Defaults to 'en-US'.",
+                "default": "en-US"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

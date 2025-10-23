@@ -1,0 +1,36 @@
+{
+    "{'commentid': 17896412345678901, 'mediaid': 12345678901234567, 'max_id': 'ABC123XYZ456', 'min_id': 'DEF789UVW101'}": {
+        "error": "",
+        "response": {
+            "message": "Successfully retrieved child comments.",
+            "data": {
+                "parent_comment_id": 17896412345678901,
+                "media_id": 12345678901234567,
+                "pagination": {
+                    "max_id": "ABC123XYZ456",
+                    "min_id": "DEF789UVW101"
+                },
+                "child_comments": [
+                    {
+                        "comment_id": 17896412345678902,
+                        "text": "This is a reply to the parent comment.",
+                        "user": {
+                            "username": "user1",
+                            "profile_picture": "https://example.com/user1.jpg"
+                        },
+                        "timestamp": "2023-10-01T12:00:00Z"
+                    },
+                    {
+                        "comment_id": 17896412345678903,
+                        "text": "Another reply to the parent comment.",
+                        "user": {
+                            "username": "user2",
+                            "profile_picture": "https://example.com/user2.jpg"
+                        },
+                        "timestamp": "2023-10-01T12:05:00Z"
+                    }
+                ]
+            }
+        }
+    }
+}

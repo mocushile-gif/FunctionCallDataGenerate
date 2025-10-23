@@ -1,0 +1,15 @@
+{
+    "name": "get_genres",
+    "description": "This is a sub-function API for tool get_60k_radio_stations.\nTool description: More than 68,000 radio stations from different countries and various genres\nAPI description: Fetch a list of radio station genres using the provided keyword and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to filter genres. Defaults to 'music'.",
+                "default": "jap"
+            }
+        },
+        "required": []
+    }
+}

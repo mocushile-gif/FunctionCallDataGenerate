@@ -1,0 +1,16 @@
+{
+    "name": "calculate_factorial",
+    "description": "Calculates the factorial of a non-negative integer.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "n": {
+                "type": "integer",
+                "description": "The non-negative integer to calculate the factorial for."
+            }
+        },
+        "required": [
+            "n"
+        ]
+    }
+}

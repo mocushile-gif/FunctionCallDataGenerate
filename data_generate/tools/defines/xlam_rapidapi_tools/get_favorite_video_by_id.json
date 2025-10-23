@@ -1,0 +1,27 @@
+{
+    "name": "get_favorite_video_by_id",
+    "description": "This is a sub-function API for tool tiktok_video_no_watermark_v2.\nTool description: The API helps you to download and get the video download link without the Tiktok logo quickly, completely and in detail. Contact me: phamvandienofficial@gmail.com if you are interested in the source code\n***\nIf you encounter any errors, please contact me so I can fix it quickly.\n***\nContact me: phamvandienofficial@gmail.com\nAPI description: get favorite video by id\n**url doesn't seem to work please use get video details to get download link**",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mixid": {
+                "type": "number",
+                "description": "The ID of the mix for which to retrieve favorite videos.",
+                "default": 7.200829644763942e+18
+            },
+            "cursor": {
+                "type": "number",
+                "description": "The cursor for pagination to get the next page of results. Defaults to 0.",
+                "default": 0.0
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of videos to retrieve, with a maximum of 30. Defaults to 30.",
+                "default": 30.0
+            }
+        },
+        "required": [
+            "mixid"
+        ]
+    }
+}

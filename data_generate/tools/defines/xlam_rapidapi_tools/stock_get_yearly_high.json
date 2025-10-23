@@ -1,0 +1,22 @@
+{
+    "name": "stock_get_yearly_high",
+    "description": "This is a sub-function API for tool yh_finance_v2.\nTool description: \nAPI description: Fetch the yearly high stock price for a given ticker symbol from the specified region using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "Ticker Symbol ( Ex. \\\\\\\\\"AAPL\\\\\\\\\" is Ticker symbol for Apple Inc. on the stock market )",
+                "default": "AAPL"
+            },
+            "region": {
+                "type": "string",
+                "description": "The region in which the stock is listed. Defaults to 'US'. Valid options include 'US', 'BR', 'AU', 'CA', 'FR', 'DE', 'HK', 'IN', 'IT', 'ES', 'GB', and 'S'.",
+                "default": "US"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

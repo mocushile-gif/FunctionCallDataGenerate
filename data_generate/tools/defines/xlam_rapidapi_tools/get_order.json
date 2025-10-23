@@ -1,0 +1,16 @@
+{
+    "name": "get_order",
+    "description": "This is a sub-function API for tool demo_project_v3.\nTool description: This Project is created by the onboarding process\nAPI description: Fetch the order details from the API using the given ID and API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the order to be fetched."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "generate_document_resume",
+    "description": "This is a sub-function API for tool ai_resume_generator.\nTool description: Document Generation API that uses OpenAI to create an example resume when provided the following data: University Name, Degree, and a list of Skills\nAPI description: Endpoint that will generate a large text response containing a Resume document using the provided information",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "degree": {
+                "type": "string",
+                "description": "The degree to be included in the resume. Defaults to 'Information Systems'.",
+                "default": "Information Systems"
+            },
+            "skills": {
+                "type": "string",
+                "description": "The skills to be included in the resume. Defaults to 'Networking, Web Development'.",
+                "default": "Networking, Web Development"
+            },
+            "university": {
+                "type": "string",
+                "description": "The university to be included in the resume. Defaults to 'Michigan State University'.",
+                "default": "Michigan State University"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "name": "products_get_reviews",
+    "description": "This is a sub-function API for tool unofficial_shein.\nTool description: This API helps to query for almost everything that you see PUBLICLY on SHEIN's sites\nAPI description: Fetches brief reviews of a product from the Shein API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "goods_spu": {
+                "type": "string",
+                "description": "The value of 'productRelationID' returned in the /products/list or /products/search endpoints. Defaults to 'm22022854841'.",
+                "default": "m22022854841"
+            },
+            "cat_id": {
+                "type": "string",
+                "description": "The value of 'cat_id' returned in the /products/list or /products/search endpoints. Defaults to '1727'.",
+                "default": "1727"
+            },
+            "sku": {
+                "type": "string",
+                "description": "The value of 'goods_sn' returned in the /products/list or /products/search endpoints. Defaults to 'rm2202285484176751'.",
+                "default": "rm2202285484176751"
+            },
+            "currency": {
+                "type": "string",
+                "description": "The 3-letter currency code. Defaults to 'USD'.",
+                "default": "USD"
+            },
+            "goods_id": {
+                "type": "string",
+                "description": "The value of 'goods_id' field returned in the /products/list or /products/search endpoints. Defaults to '10196865'.",
+                "default": "10196865"
+            },
+            "language": {
+                "type": "string",
+                "description": "The 2-letter language code. Defaults to 'en'.",
+                "default": "en"
+            },
+            "country": {
+                "type": "string",
+                "description": "The 2-letter country code. Defaults to 'US'.",
+                "default": "US"
+            }
+        },
+        "required": []
+    }
+}

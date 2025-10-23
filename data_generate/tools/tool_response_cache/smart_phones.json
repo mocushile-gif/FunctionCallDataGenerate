@@ -1,0 +1,28 @@
+{
+    "{'name_brand': 'Samsung'}": {
+        "error": "",
+        "response": {
+            "brand": "Samsung",
+            "smartphones": [
+                {
+                    "model": "Galaxy S23 Ultra",
+                    "price": "$1199.99",
+                    "rating": "4.8/5",
+                    "availability": "In stock"
+                },
+                {
+                    "model": "Galaxy Z Fold5",
+                    "price": "$1899.99",
+                    "rating": "4.6/5",
+                    "availability": "Pre-order"
+                },
+                {
+                    "model": "Galaxy A55",
+                    "price": "$449.99",
+                    "rating": "4.4/5",
+                    "availability": "In stock"
+                }
+            ]
+        }
+    }
+}

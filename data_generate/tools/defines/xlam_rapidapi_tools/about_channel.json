@@ -1,0 +1,17 @@
+{
+    "name": "about_channel",
+    "description": "This is a sub-function API for tool yt_api.\nTool description: An all-in-one Youtube API solution. It provides both data and stream or download info. API solutions for video, shorts, channel, search, playlist, trending, comments, shorts sound attribution, hashtag, URL resolving, etc\nAPI description: Fetches detailed information about a YouTube channel using its ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the YouTube channel for which information is being fetched.",
+                "default": "UCAuUUnT6oDeKwE6v1NGQxug"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

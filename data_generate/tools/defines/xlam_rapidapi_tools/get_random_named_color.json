@@ -1,0 +1,15 @@
+{
+    "name": "get_random_named_color",
+    "description": "This is a sub-function API for tool colorful.\nTool description: Get random colors with information, convert between color codes, and more.\nAPI description: **quantity** _integer_ (optional) The number of colors to return. Max is 50. If no quantity is specified, returns only one color-object. Quantities above 50 will default to 50.\n\nIf a quantity less than 1 is used, it will default to 0, and an empty array will be returned. If the quantity cannot be parsed to an integer, a 400 error will be returned.\n\nReturns an array of objects, or one object, containing information about random colors from the list of named color keywords that can be used in CSS according to",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "quantity": {
+                "type": "number",
+                "description": "The number of colors to return. Defaults to 2. Maximum is 50. Values below 1 will return an empty list. If not specified, returns 2 colors.",
+                "default": 2.0
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "searchcontent",
+    "description": "This is a sub-function API for tool youtube_search_v3.\nTool description: Welcome to the YouTube Search API documentation! This comprehensive guide provides developers with the necessary information and resources to integrate our powerful search functionality into their applications and services. With this API, you can easily retrieve search results from YouTube, including videos, channels, playlists, and more, based on specific search queries and parameters. Whether you're building a video discovery platform, content aggregator, or personalized recommendation syst...\nAPI description: The function searches for videos, playlists, and channels on YouTube using the specified query and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search query for finding content on YouTube. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

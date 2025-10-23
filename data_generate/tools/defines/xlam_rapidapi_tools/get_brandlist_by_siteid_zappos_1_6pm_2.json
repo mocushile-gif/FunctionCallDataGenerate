@@ -1,0 +1,17 @@
+{
+    "name": "get_brandlist_by_siteid_zappos_1_6pm_2",
+    "description": "This is a sub-function API for tool zappos_2022.\nTool description: ZAPPOS NEW ENDPOINTS\nAPI description: Retrieve the brand list from the Zappos or 6pm websites by site ID using the RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "siteid": {
+                "type": "number",
+                "description": "The site ID to fetch the brand list from (1 for Zappos, 2 for 6pm).",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "siteid"
+        ]
+    }
+}

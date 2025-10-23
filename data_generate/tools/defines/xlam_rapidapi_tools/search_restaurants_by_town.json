@@ -1,0 +1,17 @@
+{
+    "name": "search_restaurants_by_town",
+    "description": "This is a sub-function API for tool wyre_data.\nTool description: UK - search for all restaurants, pubs, bars, cafes, coffee shops and nightclubs in the UK. Find establishment names, addresses, postcodes, food hygiene ratings, local authorities, latitudes, longitudes and plenty more.\nAPI description: Search for restaurants within a specified town or city using the Wyre Data API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "town": {
+                "type": "string",
+                "description": "The name of the town or city to search for restaurants.",
+                "default": "hambleton"
+            }
+        },
+        "required": [
+            "town"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "more_from_author",
+    "description": "This is a sub-function API for tool worldwide_recipes.\nTool description: Over 2 MILLION recipes, nutrition, ingredients, users and reviews worldwide.\nAPI description: Fetches more recipes from a specified author using the Worldwide Recipes API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "profile_display_name": {
+                "type": "string",
+                "description": "The display name of the author's profile to retrieve recipes from.",
+                "default": "Gonna Want Seconds"
+            },
+            "canonical_term": {
+                "type": "string",
+                "description": "The search term or keyword related to the author's recipes.",
+                "default": "Rachael-Ray_s-Southwestern-Chili-Con-Queso-Pasta-Bake-1178051"
+            }
+        },
+        "required": [
+            "profile_display_name",
+            "canonical_term"
+        ]
+    }
+}

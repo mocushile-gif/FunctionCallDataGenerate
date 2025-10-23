@@ -1,0 +1,17 @@
+{
+    "name": "email_format",
+    "description": "This is a sub-function API for tool email_checkup.\nTool description: Provide email validation and email existence.\nAPI description: Validates the format of an email using the RapidAPI email-checkup service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to be validated.",
+                "default": "test@yahoo.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "name": "v1_exercises",
+    "description": "This is a sub-function API for tool exercises_by_api_ninjas.\nTool description: Get workout exercises for every muscle group. See more info at https://api-ninjas.com/api/exercises.\nAPI description: Fetch up to 10 exercises from the API Ninjas Exercises API that satisfy the given search parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "offset": {
+                "type": "number",
+                "description": "Number of results to offset for pagination. Default is 0."
+            },
+            "muscle": {
+                "type": "string",
+                "description": "Muscle group targeted by the exercise. Possible values include: 'abdominals', 'abductors', 'adductors', 'biceps', 'calves', 'chest', 'forearms', 'glutes', 'hamstrings', 'lats', 'lower_back', 'middle_back', 'neck', 'quadriceps', 'traps', 'triceps'. Default is 'biceps'.",
+                "default": "biceps"
+            },
+            "type": {
+                "type": "string",
+                "description": "Exercise type. Possible values include: 'cardio', 'olympic_weightlifting', 'plyometrics', 'powerlifting', 'strength', 'stretching', 'strongman'."
+            },
+            "difficulty": {
+                "type": "string",
+                "description": "Difficulty level of the exercise. Possible values include: 'beginner', 'intermediate', 'expert'."
+            },
+            "name": {
+                "type": "string",
+                "description": "Name of the exercise. This value can be partial (e.g., 'press' will match 'Dumbbell Bench Press')."
+            }
+        },
+        "required": []
+    }
+}

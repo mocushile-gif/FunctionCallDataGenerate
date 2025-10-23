@@ -1,0 +1,17 @@
+{
+    "name": "teams_get_results",
+    "description": "This is a sub-function API for tool cricbuzz_cricket.\nTool description: This API helps to query for live cricket scores, commentary, latest cricket news and editorials, schedules of upcoming matches, rankings, stats, records, etc\nAPI description: Retrieve match results for a given team ID from the Unofficial Cricbuzz API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "teamid": {
+                "type": "number",
+                "description": "The unique identifier for the team whose match results are to be retrieved.",
+                "default": 2.0
+            }
+        },
+        "required": [
+            "teamid"
+        ]
+    }
+}

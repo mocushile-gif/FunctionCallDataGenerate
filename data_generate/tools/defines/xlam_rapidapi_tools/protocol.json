@@ -1,0 +1,17 @@
+{
+    "name": "protocol",
+    "description": "This is a sub-function API for tool defi_data.\nTool description: Free to use API to retrieve data about TVL and coins\nAPI description: Gets the historical Total Value Locked (TVL) of a specified protocol, including breakdowns by token and chain.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "protocol": {
+                "type": "string",
+                "description": "The slug identifier of the protocol.",
+                "default": "aave"
+            }
+        },
+        "required": [
+            "protocol"
+        ]
+    }
+}

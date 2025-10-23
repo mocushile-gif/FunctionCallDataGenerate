@@ -1,0 +1,17 @@
+{
+    "name": "is_sabbath_day",
+    "description": "This is a sub-function API for tool enoch_calendar.\nTool description: Access the Biblical Holydays and Sabbaths using the Enoch Calendar\nAPI description: Determines if the given date string or today's date is a Sabbath day using the Enoch Calendar API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "datestring": {
+                "type": "string",
+                "description": "The date string to check in the format 'YYYY-MM-DD'.",
+                "default": "2021-03-23"
+            }
+        },
+        "required": [
+            "datestring"
+        ]
+    }
+}

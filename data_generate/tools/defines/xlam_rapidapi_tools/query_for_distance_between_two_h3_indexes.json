@@ -1,0 +1,20 @@
+{
+    "name": "query_for_distance_between_two_h3_indexes",
+    "description": "This is a sub-function API for tool uk_boundaries_io.\nTool description: UK Postal Code(ex. ZE1 0AE), Sector,  District,  Boundaries API:\r\n\r\nA simple & very fast API that will allow you to integrate multiple GeoJson UK Unit and sector level boundaries result into your apps and systems.\r\nThis API is designed to be used programatically for optimal performance.  When using the MashApe UI for queries expect significant latency issues on large result sets!\nAPI description: Queries the distance between two H3 indexes using the VanitySoft UK Boundaries API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "h3index1": {
+                "type": "string",
+                "description": "The first H3 index for the distance query.",
+                "default": "8d2baad9c6f073f"
+            },
+            "h3index2": {
+                "type": "string",
+                "description": "The second H3 index for the distance query.",
+                "default": "8d09a6b6ed2d37f"
+            }
+        },
+        "required": []
+    }
+}

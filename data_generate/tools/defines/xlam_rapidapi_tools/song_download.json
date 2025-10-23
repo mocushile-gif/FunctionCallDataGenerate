@@ -1,0 +1,17 @@
+{
+    "name": "song_download",
+    "description": "This is a sub-function API for tool soundcloud.\nTool description: Soundcloud api\nAPI description: Downloads a song from the provided SoundCloud URL using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "track_url": {
+                "type": "string",
+                "description": "The URL of the SoundCloud track to be downloaded.",
+                "default": "https://soundcloud.com/user-977421934/the-phoenix"
+            }
+        },
+        "required": [
+            "track_url"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "ip_geolocation",
+    "description": "This is a sub-function API for tool ip_geolocation_api.\nTool description: Get the location of any IP with a world-class API serving city, region, country and lat/long data.\nAPI description: This function retrieves geolocation information for a given IP address using the Toolbench API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip_address": {
+                "type": "string",
+                "description": "The IP address for which to retrieve geolocation data.",
+                "default": "187.66.247.186"
+            }
+        },
+        "required": [
+            "ip_address"
+        ]
+    }
+}

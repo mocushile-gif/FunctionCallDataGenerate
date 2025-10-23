@@ -1,0 +1,33 @@
+{
+    "name": "sticker_trending",
+    "description": "This is a sub-function API for tool giphy.\nTool description: Giphy is an animated GIF search engine.\r\n\r\nThe Giphy API implements a REST-like interface. Connections can be made with any HTTP enabled programming language. The Giphy API also implements CORS, allowing you to connect to Giphy from JavaScript / Web browsers on your own domain.\nAPI description: Fetches the latest trending stickers from Giphy using the specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "s": {
+                "type": "string",
+                "description": "The term or phrase to translate into a sticker.",
+                "default": "hungry"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The number of results to return, with a maximum of 100. Defaults to 25."
+            },
+            "offset": {
+                "type": "string",
+                "description": "The results offset, defaults to 0."
+            },
+            "fmt": {
+                "type": "string",
+                "description": "The format in which to return results, either 'html' or 'json'."
+            },
+            "rating": {
+                "type": "string",
+                "description": "The content rating to limit results to, one of 'y', 'g', 'pg', 'pg-13', or 'r'."
+            }
+        },
+        "required": [
+            "s"
+        ]
+    }
+}

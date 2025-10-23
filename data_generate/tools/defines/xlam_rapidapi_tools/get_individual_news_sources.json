@@ -1,0 +1,17 @@
+{
+    "name": "get_individual_news_sources",
+    "description": "This is a sub-function API for tool crypto_news_live_v2.\nTool description: A Crypto News API pulling data from around the world about the latest news in crypto\nAPI description: Fetches cryptocurrency news from a specific news source using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "newspaperid": {
+                "type": "string",
+                "description": "The ID of the specific news source to fetch news from.",
+                "default": "CryptoNews"
+            }
+        },
+        "required": [
+            "newspaperid"
+        ]
+    }
+}

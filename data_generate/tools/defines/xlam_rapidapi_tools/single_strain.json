@@ -1,0 +1,17 @@
+{
+    "name": "single_strain",
+    "description": "This is a sub-function API for tool weed_strain.\nTool description: Basic information on all weed strain. Build mobile apps for weed strains.\nAPI description: Fetches detailed information for a single strain by its ID using the Weed Strain API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the strain for which details are to be fetched.",
+                "default": 45.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

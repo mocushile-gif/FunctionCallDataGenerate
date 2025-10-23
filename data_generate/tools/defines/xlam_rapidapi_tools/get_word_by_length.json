@@ -1,0 +1,17 @@
+{
+    "name": "get_word_by_length",
+    "description": "This is a sub-function API for tool random_word_api.\nTool description: This easy-to-use, 100% free API randomely picks out words from the entire english dictionnary with many parameters. Supports selecting words of a certain length or that start with a certain letter or a certain string of characters, or both, and much more!\nAPI description: Returns a random word that has the specified length. For example, 7 will return any word that is 7 letters long, such as \"swallow\".",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "length": {
+                "type": "number",
+                "description": "The desired length of the random word.",
+                "default": 7.0
+            }
+        },
+        "required": [
+            "length"
+        ]
+    }
+}

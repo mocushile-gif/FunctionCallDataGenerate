@@ -1,0 +1,17 @@
+{
+    "name": "get_a_list_of_suburbs",
+    "description": "This is a sub-function API for tool australian_postcode_to_suburb.\nTool description: Find out all the Australian  suburbs using postcode.\nAPI description: This endpoint will return all matching suburbs for the passed postcode. The response also includes the state for each suburb and, if available, latitude and longitude for the suburb.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "postcode": {
+                "type": "number",
+                "description": "The postcode for which to find matching suburbs.",
+                "default": 2000.0
+            }
+        },
+        "required": [
+            "postcode"
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "{'code': 'US'}": {
+        "error": "",
+        "response": {
+            "detail": "Not found."
+        }
+    },
+    "{'code': 'JFK'}": {
+        "error": "",
+        "response": "{'code': 'JFK', 'icao': 'KJFK', 'name': 'John F. Kennedy International Airport', 'latitude': 40.642947899999996, 'longitude': -73.7793733748521, 'elevation': 45, 'url': 'https://www.jfkairport.com/', 'time_zone': 'America/New_York', 'city_code': 'NYC', 'country': 'US', 'city': 'Inwood', 'state': 'New York', 'county': 'Nassau County', 'type': 'AP'}"
+    },
+    "{'code': 'SFO'}": {
+        "error": "",
+        "response": "{'code': 'SFO', 'icao': 'KSFO', 'name': 'San Francisco International Airport', 'latitude': 37.622451999999996, 'longitude': -122.38407160781362, 'elevation': 26, 'url': 'http://www.flysfo.com/', 'time_zone': 'America/Los_Angeles', 'city_code': 'SFO', 'country': 'US', 'city': 'Millbrae', 'state': 'California', 'county': 'San Mateo County', 'type': 'AP'}"
+    },
+    "{'code': 'DFW'}": {
+        "error": "",
+        "response": "{'code': 'DFW', 'icao': 'KDFW', 'name': 'Dallas/Fort Worth International Airport', 'latitude': 32.89651945, 'longitude': -97.0465220537124, 'elevation': 574, 'url': 'https://www.dfwairport.com/', 'time_zone': 'America/Chicago', 'city_code': 'DFW', 'country': 'US', 'city': 'Grapevine', 'state': 'Texas', 'county': 'Tarrant County', 'type': 'AP'}"
+    },
+    "{'code': 'NRT'}": {
+        "error": "",
+        "response": "{'code': 'NRT', 'icao': 'RJAA', 'name': 'Narita International Airport', 'latitude': 35.77587145, 'longitude': 140.3933101399336, 'elevation': 137, 'url': 'http://www.narita-airport.or.jp/', 'time_zone': 'Asia/Tokyo', 'city_code': 'TYO', 'country': 'JP', 'city': 'Narita', 'state': 'Chiba', 'county': None, 'type': 'AP'}"
+    },
+    "{'code': 'FRA'}": {
+        "error": "",
+        "response": "{'code': 'FRA', 'icao': 'EDDF', 'name': 'Frankfurt Airport', 'latitude': 50.0229437, 'longitude': 8.524938151916214, 'elevation': 213, 'url': 'http://www.frankfurt-airport.de/', 'time_zone': 'Europe/Berlin', 'city_code': 'FRA', 'country': 'DE', 'city': 'Kelsterbach', 'state': 'Hesse', 'county': None, 'type': 'AP'}"
+    },
+    "{'code': 'LHR'}": {
+        "error": "",
+        "response": "{'code': 'LHR', 'icao': 'EGLL', 'name': 'London Heathrow Airport', 'latitude': 51.46773895, 'longitude': -0.4587800741571181, 'elevation': 83, 'url': 'http://www.heathrowairport.com/', 'time_zone': 'Europe/London', 'city_code': 'LON', 'country': 'GB', 'city': 'West Drayton', 'state': 'England', 'county': 'Greater London', 'type': 'AP'}"
+    },
+    "{'code': 'LAX'}": {
+        "error": "",
+        "response": "{'code': 'LAX', 'icao': 'KLAX', 'name': 'Los Angeles International Airport', 'latitude': 33.94216754999999, 'longitude': -118.42139298414197, 'elevation': 125, 'url': 'https://www.flylax.com/', 'time_zone': 'America/Los_Angeles', 'city_code': 'LAX', 'country': 'US', 'city': 'El Segundo', 'state': 'California', 'county': 'Los Angeles County', 'type': 'AP'}"
+    },
+    "{'code': 'ORD'}": {
+        "error": "",
+        "response": "{'code': 'ORD', 'icao': 'KORD', 'name': \"O'Hare International Airport\", 'latitude': 41.97795725, 'longitude': -87.90917584851792, 'elevation': 639, 'url': 'https://www.flychicago.com/ohare/home/pages/default.aspx', 'time_zone': 'America/Chicago', 'city_code': 'CHI', 'country': 'US', 'city': 'Rosemont', 'state': 'Illinois', 'county': 'Cook County', 'type': 'AP'}"
+    },
+    "{'code': 'CAI'}": {
+        "error": "",
+        "response": "{'code': 'CAI', 'icao': 'HECA', 'name': 'Cairo International Airport', 'latitude': 30.1141148, 'longitude': 31.424702260069452, 'elevation': 324, 'url': None, 'time_zone': 'Africa/Cairo', 'city_code': 'CAI', 'country': 'EG', 'city': None, 'state': None, 'county': None, 'type': 'AP'}"
+    }
+}

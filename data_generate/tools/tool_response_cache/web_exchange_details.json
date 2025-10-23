@@ -1,0 +1,32 @@
+{
+    "{'exchange_slug': 'sushiswap', 'chain_slug': 'ethereum'}": {
+        "error": "",
+        "response": {
+            "exchange": "SushiSwap",
+            "blockchain": "Ethereum",
+            "details": {
+                "24h_volume": "12.45M USD",
+                "total_liquidity": "890M USD",
+                "liquidity_pools": 3845,
+                "top_tokens_by_volume": [
+                    {
+                        "name": "WETH",
+                        "symbol": "ETH",
+                        "volume": "3.2M USD"
+                    },
+                    {
+                        "name": "USDC",
+                        "symbol": "USDC",
+                        "volume": "2.8M USD"
+                    },
+                    {
+                        "name": "DAI",
+                        "symbol": "DAI",
+                        "volume": "2.1M USD"
+                    }
+                ],
+                "last_updated": "2023-09-15T14:30:00Z"
+            }
+        }
+    }
+}

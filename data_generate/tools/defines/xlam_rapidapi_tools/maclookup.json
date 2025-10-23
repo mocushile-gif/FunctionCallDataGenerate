@@ -1,0 +1,17 @@
+{
+    "name": "maclookup",
+    "description": "This is a sub-function API for tool mac_address_to_manufacturer.\nTool description: MAC Address Lookup to find the hardware manufacturer and its postal address of a specific MAC Address\nAPI description: Enter MAC Address (string) to find the manufacturer. MAC Formats Allowed: ('xx-xx-xx-xx-xx-xx', 'xx:xx:xx:xx:xx:xx', 'xxxx.xxxx.xxxx', 'xxxxxxxxxxxx')",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mac_number": {
+                "type": "string",
+                "description": "The MAC address for which to find the manufacturer. Supported formats include 'xx-xx-xx-xx-xx-xx', 'xx:xx:xx:xx:xx:xx', 'xxxx.xxxx.xxxx', and 'xxxxxxxxxxxx'.",
+                "default": "14-AB-C5-D5-DA-F9"
+            }
+        },
+        "required": [
+            "mac_number"
+        ]
+    }
+}

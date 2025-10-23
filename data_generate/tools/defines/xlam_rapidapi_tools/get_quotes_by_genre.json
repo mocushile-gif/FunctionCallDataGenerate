@@ -1,0 +1,17 @@
+{
+    "name": "get_quotes_by_genre",
+    "description": "This is a sub-function API for tool quotsy.\nTool description: api for quots\nAPI description: Fetches a list of quotes for a given genre from the Quotsy API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the genre to fetch quotes for.",
+                "default": "love"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

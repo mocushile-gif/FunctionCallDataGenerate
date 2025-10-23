@@ -1,0 +1,17 @@
+{
+    "name": "get_search_user",
+    "description": "This is a sub-function API for tool tiktok_user.\nTool description: Get profile information from tiktok user\nAPI description: Fetches the search result for a specific username from the TikTok User API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The username or ID to search for.",
+                "default": "therock"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

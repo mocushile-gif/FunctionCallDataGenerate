@@ -1,0 +1,22 @@
+{
+    "name": "overview",
+    "description": "This is a sub-function API for tool papercliff.\nTool description: Papercliff looks at the world's largest news agencies, reads articles, identifies and shares keywords\nAPI description: Fetches summary statistics from the Papercliff API regarding the number of keywords found, and the number of articles and agencies reviewed.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_from": {
+                "type": "string",
+                "description": "Narrows down the results to articles published after the provided date-time. The format should be `yyyy-MM-dd'T'HH:mm`. Example value: `2022-09-18T13:45`. Date-times older than a week do not affect the result."
+            },
+            "to": {
+                "type": "string",
+                "description": "Narrows down the results to articles published before the provided date-time. The format should be `yyyy-MM-dd'T'HH:mm`. Example value: `2022-09-18T15:30`. Date-times in the future do not affect the result."
+            },
+            "terms": {
+                "type": "string",
+                "description": "Narrows down the results to articles that contain all the provided keywords. The terms should consist of one to three words separated by a dash.  Example value: `election-campaign`."
+            }
+        },
+        "required": []
+    }
+}

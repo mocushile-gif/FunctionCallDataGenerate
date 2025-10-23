@@ -1,0 +1,14 @@
+{
+  "name": "get_weather_alerts",
+  "description": "Fetches recent alerts and warnings issued by government agencies (USA, UK, Europe, and Rest of the World) for the location using the WeatherAPI.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "q": {
+        "type": "string",
+        "description": "Query parameter based on which data is sent back. It could be the following:\n- Latitude and Longitude (Decimal degree) e.g: q=48.8567,2.3508\n- location e.g.: q=Paris (must be in English)\n- US zip e.g.: q=10001\n- UK postcode e.g: q=SW1\n- Canada postal code e.g: q=G2J\n- metar:<metar code> e.g: q=metar:EGLL\n- iata:<3 digit airport code> e.g: q=iata:DXB\n- auto:ip IP lookup e.g: q=auto:ip\n- IP address (IPv4 and IPv6 supported) e.g: q=100.0.0.1"
+      }
+    },
+    "required": ["q"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "headphones",
+    "description": "This is a sub-function API for tool amazon_api_v2.\nTool description: Amazon_API\nAPI description: This function retrieves information about headphones from the Amazon API using optional brand filtering.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name_brand": {
+                "type": "string",
+                "description": "The brand name to filter headphones by. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "name": "basal_metabolic_rate_bmr",
+    "description": "This is a sub-function API for tool health_calculator_api.\nTool description: Welcome to the Health Calculator API (HCA). This API provides endpoints for calculating A Body Shape Index (ABSI), Adjusted Body Weight (AjBW), Basal Energy Expenditure (BEE) and Total Energy Expenditure (TEE) , Body Adiposity Index (BAI), Body Frame Size Index (BFSI), Body Mass Index (BMI), Body Fat Percentage, Basal Metabolic Rate (BMR), Daily Caloric Needs (DCN), Daily Water Intake (DWI), Estimated Average Glucose(eAG), Estimated Energy Requirement (EER), The FFMI (Fat-Free Mass Index), Ta...\nAPI description: This endpoint allows you to calculate the Basal Metabolic Rate (BMR) based on age, weight, height, and gender parameters. The BMR represents the number of calories needed to maintain basic bodily functions at rest.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "gender": {
+                "type": "string",
+                "description": "The gender (either \"**male**\" or \"**female**\").",
+                "default": "male"
+            },
+            "age": {
+                "type": "number",
+                "description": "The age in **years**.",
+                "default": 30.0
+            },
+            "height": {
+                "type": "number",
+                "description": "The height in **centimeters**.",
+                "default": 175.0
+            },
+            "weight": {
+                "type": "number",
+                "description": "The weight in **kilograms**.",
+                "default": 60.0
+            },
+            "equation": {
+                "type": "string",
+                "description": "(optional string): The equation to use for the calculation. Valid options are \"**mifflin**\" (default) or \"**harris**\".",
+                "default": "mifflin"
+            }
+        },
+        "required": [
+            "gender",
+            "age",
+            "height",
+            "weight"
+        ]
+    }
+}

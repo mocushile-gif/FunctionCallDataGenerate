@@ -1,0 +1,17 @@
+{
+    "name": "fish_api_fish_name",
+    "description": "This is a sub-function API for tool fish_species.\nTool description: A Restful API which is scraping the Wikipedia pages for fish species in order to collect data. The data are cached and refreshed every 24 hours.\nAPI description: This endpoint will return information for a specific fish",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "Name of the fish to be found.",
+                "default": "Tarpon"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

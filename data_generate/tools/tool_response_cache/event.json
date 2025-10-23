@@ -1,0 +1,24 @@
+{
+    "{'is_id': 10944540}": {
+        "error": "",
+        "response": {
+            "event_id": 10944540,
+            "event_name": "League of Legends World Championship 2023 - Quarterfinals",
+            "game": "League of Legends",
+            "date": "2023-10-15",
+            "time": "18:00 UTC",
+            "teams": {
+                "team_1": "T1",
+                "team_2": "G2 Esports"
+            },
+            "status": "Scheduled",
+            "venue": "Busan, South Korea",
+            "tournament_stage": "Quarterfinals",
+            "live_stream_url": "https://example.com/stream/lol-worlds-2023"
+        }
+    },
+    "{'is_id': 11567890}": {
+        "error": "",
+        "response": "{'event': {'tournament': {'name': 'World Championships 2023, XD', 'slug': 'world-championships-2023-xd', 'category': {'id': 259, 'country': {}, 'name': 'International', 'slug': 'international', 'sport': {'name': 'Badminton', 'slug': 'badminton', 'id': 31}, 'flag': 'international'}, 'uniqueTournament': {'name': 'World Championships, Mixed Doubles', 'slug': 'world-championships-mixed-doubles', 'primaryColorHex': '#1a171b', 'secondaryColorHex': '#d7031c', 'category': {'id': 259, 'country': {}, 'name': 'International', 'slug': 'international', 'sport': {'name': 'Badminton', 'slug': 'badminton', 'id': 31}, 'flag': 'international'}, 'userCount': 125, 'id': 10465, 'country': {}, 'hasPerformanceGraphFeature': False, 'hasEventPlayerStatistics': False, 'displayInverseHomeAwayTeams': False}, 'priority': 0, 'isGroup': False, 'competitionType': 2, 'isLive': False, 'id': 119881}, 'season': {'name': 'World Championships, Mixed Doubles 2023', 'year': '2023', 'editor': False, 'id': 53918}, 'roundInfo': {'round': 5, 'name': 'Round of 16', 'slug': 'round-of-16', 'cupRoundType': 8}, 'customId': 'Upicscdod', 'status': {'code': 100, 'description': 'Ended', 'type': 'finished'}, 'winnerCode': 1, 'venue': {'city': {'name': 'Copenhagen'}, 'hidden': True, 'slug': 'court-2', 'name': 'Court 2', 'id': 41230, 'country': {'alpha2': 'DK', 'alpha3': 'DNK', 'name': 'Denmark', 'slug': 'denmark'}, 'fieldTranslations': {'nameTranslation': {'ar': '\u0645\u0644\u0639\u0628 2', 'hi': '\u0915\u094b\u0930\u094d\u091f 2', 'bn': '\u0995\u09cb\u09b0\u09cd\u099f 2'}, 'shortNameTranslation':"
+    }
+}

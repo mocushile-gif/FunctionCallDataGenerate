@@ -1,0 +1,21 @@
+{
+    "name": "v1_recipe",
+    "description": "This is a sub-function API for tool recipe_by_api_ninjas.\nTool description: Search over 200,000 creative recipes. See more info at https://api-ninjas.com/api/recipe.\nAPI description: Get a list of recipes for a given search query. Returns at most 10 results. To access more than the first 10 results, use the offset parameter to offset results in multiple API calls.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query text to find matching recipes.",
+                "default": "italian wedding soup"
+            },
+            "offset": {
+                "type": "string",
+                "description": "The number of results to offset in order to paginate through the results. Defaults to None."
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

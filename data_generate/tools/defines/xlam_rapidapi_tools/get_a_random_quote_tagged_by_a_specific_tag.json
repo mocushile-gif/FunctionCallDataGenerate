@@ -1,0 +1,17 @@
+{
+    "name": "get_a_random_quote_tagged_by_a_specific_tag",
+    "description": "This is a sub-function API for tool self_help_quotes.\nTool description: Hand-picked quotes from the best self-help books around. Get a random quote every day, filter by tags, books, and more...\nAPI description: Fetch a random quote tagged with a specific tag from the Self-Help Quotes API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tag": {
+                "type": "string",
+                "description": "The specific tag to filter quotes.",
+                "default": "money"
+            }
+        },
+        "required": [
+            "tag"
+        ]
+    }
+}

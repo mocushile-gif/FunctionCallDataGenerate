@@ -1,0 +1,15 @@
+{
+    "name": "get_schedule",
+    "description": "This is a sub-function API for tool league_of_legends_esports.\nTool description: This api gives you all of the lol esports leagues , vods, tournaments, match , game , event details with videos , scheadule , standings, teams and their players. And live game score.\nAPI description: In this method you can get all schedule for the leagues. You can filter multiple leagueId with join %  seperator.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "leagueid": {
+                "type": "string",
+                "description": "A string containing league IDs separated by '%2C' to filter schedules for multiple leagues.",
+                "default": "98767991299243165%2C99332500638116286%2C98767991302996019"
+            }
+        },
+        "required": []
+    }
+}

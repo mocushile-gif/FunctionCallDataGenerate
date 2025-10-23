@@ -1,0 +1,23 @@
+{
+    "name": "last_menstrual_period_lmp",
+    "description": "This is a sub-function API for tool pregnancy_calculator_api.\nTool description: Welcome to the Pregnancy Calculator API. This API provides endpoints for calculating Fertility Window, Pregnancy Due Date, Pregnancy Week, and Pregnancy Weight Recommendation. With this API, you can easily integrate these calculations into your applications, websites, or any other projects.\n\nError Handling\n\nThe API uses standard HTTP status codes to indicate the success or failure of a request. In case of an error, the response will contain an error message in JSON format. The HTTP status cod...\nAPI description: This endpoint calculates the current week of pregnancy based on the Last Menstrual Period (LMP).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cycle_length": {
+                "type": "number",
+                "description": "The average length of the user's menstrual cycle in days.",
+                "default": 28.0
+            },
+            "last_period_date": {
+                "type": "string",
+                "description": "The date of the user's last menstrual period in the format '**YYYY-MM-DD**'.",
+                "default": "2023-01-01"
+            }
+        },
+        "required": [
+            "cycle_length",
+            "last_period_date"
+        ]
+    }
+}

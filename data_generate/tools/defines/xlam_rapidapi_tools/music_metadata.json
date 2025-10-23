@@ -1,0 +1,22 @@
+{
+    "name": "music_metadata",
+    "description": "This is a sub-function API for tool tiktok_data.\nTool description: Social Media Data API in Real-Time.   -Get very useful and unique information.  -I'm on Telegram https://t.me/logicBuilder News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Get music metadata\n\nBasic metadata: number of posts,  direct url to the song(MP3) and etc",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "music": {
+                "type": "string",
+                "description": "The TikTok music URL. For example: 'https://www.tiktok.com/music/Streets-x-Kiss-it-better-7090403288818584347'.",
+                "default": "https://www.tiktok.com/music/Streets-x-Kiss-it-better-7090403288818584347"
+            },
+            "fresh": {
+                "type": "number",
+                "description": "By setting this query value to **1** you can force the API to return fresh data(not cached)",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "music"
+        ]
+    }
+}

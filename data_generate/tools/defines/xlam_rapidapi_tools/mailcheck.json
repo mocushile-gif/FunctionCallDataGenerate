@@ -1,0 +1,17 @@
+{
+    "name": "mailcheck",
+    "description": "This is a sub-function API for tool e_mail_check_invalid_or_disposable_domain_v2.\nTool description: Easily check if a certain e-mail address is valid. Is it a valid domain? Is the e-mail a temporary/disposable e-mail? That's a common indicator of spamming/trolling, so now there's an API for you so you can easily block it!\nAPI description: Check if e-mail domain is valid, or a disposable/temporary address. Invalid domains (typos, non-responding mailserver, etc) will return \"valid: false\", \"block: true\". Disposable e-mail domains will return \"valid: true\" (since it's a valid domain), but \"block: true\" and \"disposable: true\".",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "Full e-mail, or domain to check if valid or temporary/disposable. You can enter an e-mail address, and it will be converted to a domain, but entering just the domain is recommended for user privacy reasons.",
+                "default": "mailinator.com"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

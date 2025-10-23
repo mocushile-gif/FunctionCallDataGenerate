@@ -1,0 +1,17 @@
+{
+    "name": "search_a_grocery",
+    "description": "This is a sub-function API for tool caterer_groceries_intel.\nTool description: Access more than 24000 groceries data, suitable for caterers\nAPI description: Searches for grocery products based on a search query using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "searchquery": {
+                "type": "string",
+                "description": "The search term used to find grocery products.",
+                "default": "apple"
+            }
+        },
+        "required": [
+            "searchquery"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "name": "fetchlatestnav",
+    "description": "This is a sub-function API for tool latest_mutual_fund_nav.\nTool description: API provides latest NAV information of all mutual funds in India from Association of Mutual Funds of India (AMFI). The database will update as soon as data is updated on AMFI.\nAPI description: Fetch the latest Net Asset Value (NAV) for mutual fund(s) based on various filtering parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mutualfundfamily": {
+                "type": "string",
+                "description": "Defines the mutual fund family."
+            },
+            "schemecode": {
+                "type": "string",
+                "description": "Defines the scheme code. Supports multiple comma-separated scheme codes."
+            },
+            "schemename": {
+                "type": "string",
+                "description": "Defines the scheme name."
+            },
+            "schemetype": {
+                "type": "string",
+                "description": "Defines the scheme type."
+            },
+            "additional": {
+                "type": "string",
+                "description": "Additional information for fetching NAV."
+            },
+            "schemecategory": {
+                "type": "string",
+                "description": "Defines the scheme category."
+            }
+        },
+        "required": []
+    }
+}

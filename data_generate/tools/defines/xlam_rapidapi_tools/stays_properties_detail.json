@@ -1,0 +1,27 @@
+{
+    "name": "stays_properties_detail",
+    "description": "This is a sub-function API for tool booking_com_v2.\nTool description: Real-time data, unofficial API Booking.com\nThis API helps to query rooms, price, facilities, policities.. from many hotels around the world to create a travel\nAPI description: Fetch detailed information about a property from the Booking.com API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "id_detail": {
+                "type": "string",
+                "description": "The ID of the property to fetch details for. This ID is obtained from the `stays/properties/list` endpoint.",
+                "default": "cr/playa-grande-inn"
+            },
+            "language_code": {
+                "type": "string",
+                "description": "The language code for the returned information. Defaults to 'en-us'.",
+                "default": "en-us"
+            },
+            "currency_code": {
+                "type": "string",
+                "description": "The currency code for the returned information. Defaults to 'USD'.",
+                "default": "USD"
+            }
+        },
+        "required": [
+            "id_detail"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "move_or_rename_file_or_directory",
+    "description": "Move a file or directory to a new location, or rename it. If the destination directory does not exist, it will be created automatically.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "src": {
+          "type": "string",
+          "description": "The source file or directory path to move or rename. Defaults to './'."
+        },
+        "dest": {
+          "type": "string",
+          "description": "The destination path where the file or directory should be moved, or the new name if renaming. If the target directory does not exist, it will be created automatically. Defaults to './'."
+        }
+      },
+      "required": ["src", "dest"]
+    }
+  }
+  

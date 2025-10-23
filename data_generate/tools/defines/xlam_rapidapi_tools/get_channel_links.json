@@ -1,0 +1,15 @@
+{
+    "name": "get_channel_links",
+    "description": "This is a sub-function API for tool kick_com_api_kick_api.\nTool description: Detailed Kick.com API. Streamers, categories, chats, users and more.\nAPI description: Fetches the links associated with a specified channel from the Kick API using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "channel_name": {
+                "type": "string",
+                "description": "The name of the channel to retrieve links for. Defaults to 'gmhikaru'.",
+                "default": "gmhikaru"
+            }
+        },
+        "required": []
+    }
+}

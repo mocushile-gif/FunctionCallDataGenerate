@@ -1,0 +1,28 @@
+{
+    "name": "repost",
+    "description": "This is a sub-function API for tool telegrapher.\nTool description: Repost a blog post or article on Telegra.ph from a given URL. Clean up a bit the reading and encourage users to visit official sources at the same time.\nAPI description: Reposts an article to the Telegraph platform using the Telegraph API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "article_url": {
+                "type": "string",
+                "description": "URL of the article or blog post to be reposted."
+            },
+            "title": {
+                "type": "string",
+                "description": "Title of the Telegraph post. Defaults to None."
+            },
+            "author_url": {
+                "type": "string",
+                "description": "URL of the author. Defaults to None."
+            },
+            "author_name": {
+                "type": "string",
+                "description": "Name of the author. Defaults to None."
+            }
+        },
+        "required": [
+            "article_url"
+        ]
+    }
+}

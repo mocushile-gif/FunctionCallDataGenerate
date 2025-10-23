@@ -1,0 +1,29 @@
+{
+    "name": "search_by_title",
+    "description": "This is a sub-function API for tool mdblist.\nTool description: Get Movies and TV Shows data with ratings from multiple providers in JSON format\nAPI description: Search for Movies or TV Shows by title, with optional filters for year, media type, and limit on the number of results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "s": {
+                "type": "string",
+                "description": "The title of the Movie or TV Show to search for.",
+                "default": "jaws"
+            },
+            "l": {
+                "type": "number",
+                "description": "The maximum number of items to return. Accepts values from 1 to 100. Defaults to None."
+            },
+            "y": {
+                "type": "number",
+                "description": "The year to filter the search results (format YYYY). This will also include movies from the previous and next year. Defaults to None."
+            },
+            "m": {
+                "type": "string",
+                "description": "Filter by media type, either 'movie' or 'tv show'. Leave empty for both. Defaults to None."
+            }
+        },
+        "required": [
+            "s"
+        ]
+    }
+}

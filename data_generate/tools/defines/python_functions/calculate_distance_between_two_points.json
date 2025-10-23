@@ -1,0 +1,33 @@
+{
+    "name": "calculate_distance_between_two_points",
+    "description": "Calculates the distance between two points in n-dimensional space using either Euclidean or Manhattan distance.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "point1": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "The coordinates of the first point."
+            },
+            "point2": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "The coordinates of the second point."
+            },
+            "distance_type": {
+                "type": "string",
+                "description": "The type of distance to calculate, either \"euclidean\" or \"manhattan\". Defaults to \"euclidean\".",
+                "enum": ["euclidean","manhattan"],
+                "default": "euclidean"
+            }
+        },
+        "required": [
+            "point1",
+            "point2"
+        ]
+    }
+}

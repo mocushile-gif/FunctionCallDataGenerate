@@ -1,0 +1,17 @@
+{
+    "name": "getbookbyid",
+    "description": "This is a sub-function API for tool feku_json.\nTool description: Free Feku ( Fake ) API for Testing and Prototyping.\nAPI description: Retrieve details of a specific book using its unique ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier for the book to retrieve.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

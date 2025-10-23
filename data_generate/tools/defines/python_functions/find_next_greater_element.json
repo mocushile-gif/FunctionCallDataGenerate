@@ -1,0 +1,19 @@
+{
+    "name": "find_next_greater_element",
+    "description": "Finds the next greater element for each element in the list. For each element in the input list, this function returns the first element to its right that is greater than it. If no such element exists, -1 is returned for that position.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nums": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                },
+                "description": "The list of integers for which to find the next greater elements."
+            }
+        },
+        "required": [
+            "nums"
+        ]
+    }
+}

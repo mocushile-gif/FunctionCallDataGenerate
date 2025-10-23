@@ -1,0 +1,23 @@
+{
+    "name": "type_price_get_other_fees",
+    "description": "This is a sub-function API for tool ms_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc... to create a site/application such as morningstar.com\nAPI description: Fetches other fees information for a specific security type from the Morning Star API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of security, either 'etf' or 'fund'.",
+                "default": "etf"
+            },
+            "securityid": {
+                "type": "string",
+                "description": "The value of securityId field returned in …/market/v2/get-returns",
+                "default": "F00000O2CG"
+            }
+        },
+        "required": [
+            "type",
+            "securityid"
+        ]
+    }
+}

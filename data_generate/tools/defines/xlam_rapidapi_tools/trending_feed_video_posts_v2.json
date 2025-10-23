@@ -1,0 +1,18 @@
+{
+    "name": "trending_feed_video_posts_v2",
+    "description": "This is a sub-function API for tool social_media_data_tt.\nTool description: Social Media Data API in Real-Time.  -Get very useful and unique information.  -I'm on Telegram https://t.me/logicBuilder News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Get trending feed V2. \n\nV2 - returns more data then older version of the endpoint, video without watermark and etc\n\n- Endpoint will return an array of objects with very useful metadata. \n- Direct urls to the video , statistics and more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of records to return. Defaults to 12. Must not exceed 12."
+            },
+            "max_cursor": {
+                "type": "number",
+                "description": "Pagination cursor. \nTo get next batch of videos, paste here **max_cursor** value that you have received in previous request response."
+            }
+        },
+        "required": []
+    }
+}

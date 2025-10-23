@@ -1,0 +1,18 @@
+{
+    "name": "author",
+    "description": "This is a sub-function API for tool quotes_diffusion.\nTool description: The \"Quotes Diffusion\" API provides users with a vast collection of curated popular quotes from around the world. It includes 56,394 quotes, spanning 1,963 topics, from 10,920 authors. The API also generates background images based on keywords from the quotes using text-to-image diffusion models.\nAPI description: Fetches author information from the quotes-diffusion API based on the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "Page number for pagination purposes."
+            },
+            "search": {
+                "type": "string",
+                "description": "Search for authors based on custom terms"
+            }
+        },
+        "required": []
+    }
+}

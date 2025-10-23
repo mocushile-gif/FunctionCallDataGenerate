@@ -1,0 +1,27 @@
+{
+    "name": "streams_investor_relations",
+    "description": "This is a sub-function API for tool stocktwits.\nTool description: StockTwits provides a social communications platform and social graph for anyone interested in the markets and investing.\nAPI description: Fetches the most recent messages posted by verified Investor Relations customers from the StockTwits API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "since": {
+                "type": "number",
+                "description": "Returns results with an ID greater than (more recent than) the specified ID."
+            },
+            "max": {
+                "type": "number",
+                "description": "Returns results with an ID less than (older than) or equal to the specified ID."
+            },
+            "limit": {
+                "type": "string",
+                "description": "The number of results to return, default and max limit is 30. This limit must be a number under 30. Defaults to '20'.",
+                "default": "20"
+            },
+            "callback": {
+                "type": "string",
+                "description": "Defines your own callback function name for JSONP support, add this parameter as the value. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

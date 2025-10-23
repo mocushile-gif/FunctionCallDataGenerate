@@ -1,0 +1,22 @@
+{
+    "name": "feeds",
+    "description": "This is a sub-function API for tool t_tok_bulk_profile_scrapper.\nTool description: Highly maintain and accurate TikTok API to fetch profiles or feeds in bulk.\nAPI description: Fetch recent TikTok feeds for a given user.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The TikTok username for which to fetch recent feeds.",
+                "default": "therock"
+            },
+            "schematype": {
+                "type": "string",
+                "description": "schemaType=1 Default JSON\nschemaType=2 Custom JSON",
+                "default": "1"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

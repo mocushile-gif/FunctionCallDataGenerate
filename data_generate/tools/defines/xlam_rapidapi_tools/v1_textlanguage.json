@@ -1,0 +1,17 @@
+{
+    "name": "v1_textlanguage",
+    "description": "This is a sub-function API for tool text_language_by_api_ninjas.\nTool description: Detect the language from any input text. See more info at https://api-ninjas.com/api/textlanguage.\nAPI description: Determines the language of a given text using the API Ninjas Text Language API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text for which the language needs to be identified.",
+                "default": "hello world!"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "placebynameandstate",
+    "description": "This is a sub-function API for tool mapreflex.\nTool description: US Zip Codes, Cities, States and Counties boundaries API, which provides info in common GeoJson format for instant integration with existing maps like Google, etc., or with your custom application.\nAPI description: Get boundaries of Place by name and state (in GeoJSON format).  For a quick view, copy and paste results: http://geojsonlint.com",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The full name of the place. Example: \"Madison\".",
+                "default": "Madison"
+            },
+            "state": {
+                "type": "string",
+                "description": "The state abbreviation where the place is located. Example: \"AL\".",
+                "default": "AL"
+            }
+        },
+        "required": [
+            "name",
+            "state"
+        ]
+    }
+}

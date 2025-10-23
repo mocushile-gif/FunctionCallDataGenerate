@@ -1,0 +1,17 @@
+{
+    "name": "ip_address",
+    "description": "This is a sub-function API for tool phone_and_email_validator_v2.\nTool description: Extremely Useful tool for Phone, Email, IP Address and Postal Code Validation\nAPI description: Fetch information related to an IP address using the Phone and Email Validator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IP address to be queried.",
+                "default": "127.0.0.1"
+            }
+        },
+        "required": [
+            "ip"
+        ]
+    }
+}

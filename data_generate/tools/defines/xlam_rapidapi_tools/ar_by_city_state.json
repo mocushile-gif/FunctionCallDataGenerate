@@ -1,0 +1,23 @@
+{
+    "name": "ar_by_city_state",
+    "description": "This is a sub-function API for tool ap_sample.\nTool description: AR sample\nAPI description: Fetches augmented reality (AR) data for a given city and state using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "city": {
+                "type": "string",
+                "description": "The name of the city for which AR data is requested.",
+                "default": "San Diego"
+            },
+            "state": {
+                "type": "string",
+                "description": "The name of the state for which AR data is requested.",
+                "default": "CA"
+            }
+        },
+        "required": [
+            "city",
+            "state"
+        ]
+    }
+}

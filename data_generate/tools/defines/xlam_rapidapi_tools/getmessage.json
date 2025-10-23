@@ -1,0 +1,17 @@
+{
+    "name": "getmessage",
+    "description": "This is a sub-function API for tool intobo_whatsapp_api.\nTool description: This api is used to send messages to WhatsApp chat platform via API.  see details www.intobo.com\nAPI description: Retrieves message details based on the provided message ID using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "message_id": {
+                "type": "string",
+                "description": "The unique identifier of the message to retrieve.",
+                "default": "145861670527682"
+            }
+        },
+        "required": [
+            "message_id"
+        ]
+    }
+}

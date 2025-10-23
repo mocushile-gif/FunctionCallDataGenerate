@@ -1,0 +1,15 @@
+{
+    "name": "get_all_iata_airport_codes",
+    "description": "This is a sub-function API for tool iata_airport_codes.\nTool description: A list of world iata airport codes\nAPI description: Retrieves IATA airport codes from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "number",
+                "description": "An optional code to filter the airport codes. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

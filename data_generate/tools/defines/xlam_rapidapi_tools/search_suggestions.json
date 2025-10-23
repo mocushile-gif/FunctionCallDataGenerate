@@ -1,0 +1,17 @@
+{
+    "name": "search_suggestions",
+    "description": "This is a sub-function API for tool cheap_youtube_api.\nTool description: 100% Uptime & Reliable | Blazing fast | Fully Featured | 1000x cheaper than Youtube API v3\nAPI description: Fetches search suggestions for a given query using the Cheap YouTube API through RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search query for which to fetch suggestions.",
+                "default": "crypto"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "name": "three_hourly",
+    "description": "This is a sub-function API for tool foreca_weather.\nTool description: Everything you need to build a weather app\nAPI description: Fetches a three-hourly weather forecast for a given location up to 14 days, with optional historical data and various configurable parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The location for which to fetch the weather forecast.",
+                "default": "102643743"
+            },
+            "history": {
+                "type": "boolean",
+                "description": "Whether to include 24 hours of past data. Defaults to None.",
+                "default": true
+            },
+            "tz": {
+                "type": "string",
+                "description": "Time zone in the response, specified using IANA time zone database names. Defaults to 'Europe/London'.",
+                "default": "Europe/London"
+            },
+            "dataset": {
+                "type": "string",
+                "description": "The variable set to use in the response. Defaults to 'full'.",
+                "default": "full"
+            },
+            "tempunit": {
+                "type": "string",
+                "description": "The temperature unit in the response (e.g., 'C' for Celsius). Defaults to 'C'.",
+                "default": "C"
+            },
+            "alt": {
+                "type": "number",
+                "description": "The altitude in meters. Defaults to 0.",
+                "default": 0.0
+            },
+            "periods": {
+                "type": "number",
+                "description": "The number of time steps in the response, with a default of 8 and a maximum of 12. Defaults to 8.",
+                "default": 8.0
+            },
+            "windunit": {
+                "type": "string",
+                "description": "The wind speed unit in the response (e.g., 'MS' for meters per second). Defaults to 'MS'.",
+                "default": "MS"
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

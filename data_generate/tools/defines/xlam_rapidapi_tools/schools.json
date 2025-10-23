@@ -1,0 +1,17 @@
+{
+    "name": "schools",
+    "description": "This is a sub-function API for tool ncaa_final_four.\nTool description: Historical data for every NCAA Men's Final Four.  Get champions, coaches, records, seeds, final four teams and more in JSON format.\nAPI description: Retrieves the number of schools in the tournament for a given year.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "identifier": {
+                "type": "string",
+                "description": "The identifier for the year of the tournament.",
+                "default": "1959"
+            }
+        },
+        "required": [
+            "identifier"
+        ]
+    }
+}

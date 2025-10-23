@@ -1,0 +1,25 @@
+{
+    "name": "subtitles",
+    "description": "This is a sub-function API for tool yt_api.\nTool description: An all-in-one Youtube API solution. It provides both data and stream or download info. API solutions for video, shorts, channel, search, playlist, trending, comments, shorts sound attribution, hashtag, URL resolving, etc\nAPI description: Retrieve the list of available subtitles for a given video using the YouTube API. This request uses a quota cost of 1 unit.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the video for which subtitles are being requested.",
+                "default": "arj7oStGLkU"
+            },
+            "x_cachebypass": {
+                "type": "string",
+                "description": "Optional cache bypass parameter."
+            },
+            "format": {
+                "type": "string",
+                "description": "Subtitle format options:\n**json3** [mime: json]\n**srv1** [mime: xml] [default]\n**srv2** [mime: xml]\n**srv3** [mime: xml]\n**ttml** [mime: xml]\n**vtt** [mime: text]"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

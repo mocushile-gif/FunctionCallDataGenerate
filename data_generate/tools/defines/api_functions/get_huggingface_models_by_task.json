@@ -1,0 +1,65 @@
+{
+    "name": "get_huggingface_models_by_task",
+    "description": "Get popular models for a specific task, sorted by downloads in descending order.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Search query to filter models by name or description."
+        },
+        "task": {
+          "type": "string",
+          "description": "The task to filter by",
+          "enum": [
+            "text-generation",
+            "text-classification",
+            "token-classification",
+            "translation",
+            "summarization",
+            "question-answering",
+            "text2text-generation",
+            "fill-mask",
+            "zero-shot-classification",
+            "image-classification",
+            "image-segmentation",
+            "object-detection",
+            "image-to-text",
+            "text-to-image",
+            "automatic-speech-recognition",
+            "text-to-speech",
+            "audio-classification",
+            "audio-to-audio",
+            "table-question-answering",
+            "document-question-answering",
+            "feature-extraction",
+            "sentence-similarity",
+            "tabular-classification",
+            "tabular-regression"
+          ]
+        },
+        "limit": {
+          "type": "integer",
+          "description": "Maximum number of models to return",
+          "default": 10,
+          "minimum": 1,
+          "maximum": 100
+        },
+        "sort": {
+          "type": "string",
+          "description": "Sort order ('downloads', 'likes', 'updated', 'name'). Default is 'downloads'.",
+          "default": "downloads"
+        },
+        "direction": {
+          "type": "integer",
+          "description": "Sort direction (-1 or 1). Default is -1.",
+          "default": -1
+        },
+        "save_to": {
+          "type": "string",
+          "description": "Optional path to save the result JSON to a file"
+        }
+      },
+      "required": ["task"]
+    }
+  } 

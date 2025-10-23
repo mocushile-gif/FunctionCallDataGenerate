@@ -1,0 +1,46 @@
+{
+    "name": "titles_random",
+    "description": "This is a sub-function API for tool moviesdatabase.\nTool description: MoviesDatabase provides complete and updated data for over 9 million titles ( movies, series and episodes) and 11 million actors / crew and cast members\nAPI description: Fetches a random list of movie titles from the Movies Database API based on the provided query parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "startyear": {
+                "type": "number",
+                "description": "The starting year range filter (e.g., 2020)."
+            },
+            "genre": {
+                "type": "string",
+                "description": "The genre filter (e.g., 'Drama')."
+            },
+            "titletype": {
+                "type": "string",
+                "description": "The type of title to filter by (e.g., 'movie')."
+            },
+            "sort": {
+                "type": "string",
+                "description": "Sorting order (e.g., 'year.incr' or 'year.decr')."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of titles per page (default is 10, maximum is 10)."
+            },
+            "info": {
+                "type": "string",
+                "description": "Type of information to include (default is 'mini-info'; options include 'base_info', 'mini_info', 'image', etc.)."
+            },
+            "endyear": {
+                "type": "number",
+                "description": "The ending year range filter (e.g., 2020)."
+            },
+            "year": {
+                "type": "number",
+                "description": "The starting year range filter (e.g., 2020)."
+            },
+            "list": {
+                "type": "string",
+                "description": "The selected list type (e.g., 'most_pop_movies', 'most_pop_series', 'top_rated_series_250', etc.)."
+            }
+        },
+        "required": []
+    }
+}

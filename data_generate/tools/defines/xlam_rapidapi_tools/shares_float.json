@@ -1,0 +1,17 @@
+{
+    "name": "shares_float",
+    "description": "This is a sub-function API for tool holistic_finance_stock_data.\nTool description: Provides stock data based on multiple sources such as Yahoo Finance.\nAPI description: Provides the current shares float for a given stock symbol using the Holistic Finance Stock Data API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to retrieve the shares float.",
+                "default": "MSFT"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

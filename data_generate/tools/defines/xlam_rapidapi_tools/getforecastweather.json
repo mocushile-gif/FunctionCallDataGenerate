@@ -1,0 +1,29 @@
+{
+    "name": "getforecastweather",
+    "description": "This is a sub-function API for tool openweather.\nTool description: Openweather\nAPI description: Fetches weather forecast data for a specified city using the OpenWeatherMap API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The city name for which the weather forecast is requested."
+            },
+            "cnt": {
+                "type": "number",
+                "description": "The number of timestamps to return in the response. Defaults to None."
+            },
+            "units": {
+                "type": "string",
+                "description": "Units of measurement. For temperature in Fahrenheit imperial; For temperature in Celsius - metric; for temperature in Kelvin - standart",
+                "default": "standard"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Parameter to get the output in your language. Translation is applied for the city name and description fields"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

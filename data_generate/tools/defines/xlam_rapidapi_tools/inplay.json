@@ -1,0 +1,23 @@
+{
+    "name": "inplay",
+    "description": "This is a sub-function API for tool sports_betting_api.\nTool description: Get up and running in less than 5 minutes with our comprehensive developer documentation. Get Start - https://bet365soft.com/docs\nAPI description: Fetches the in-play sports betting data from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lang": {
+                "type": "string",
+                "description": "The language code for the response data.",
+                "default": "en"
+            },
+            "sp": {
+                "type": "number",
+                "description": "The sport identifier for which to fetch in-play data.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "lang",
+            "sp"
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "{'customer_a_id': '1234', 'match_1_id': '5678', 'screening_a_id': 'screening_1234'}": {
+        "error": "",
+        "response": {
+            "id": "c2f6d3f3-61ff-4ae2-9b3c-396bd382d1b1",
+            "type": "resource_not_found",
+            "message": "Cannot find a resource /customers/1234/screenings/screening_1234/matches/5678"
+        }
+    },
+    "{'customer_a_id': '456', 'match_1_id': '789', 'screening_a_id': '012'}": {
+        "error": "",
+        "response": {
+            "id": "0af69f45-a756-4fdf-b864-93d9c52e3dc7",
+            "type": "resource_not_found",
+            "message": "Cannot find a resource /customers/456/screenings/012/matches/789"
+        }
+    },
+    "{'customer_a_id': '456', 'screening_a_id': '012', 'match_1_id': '789'}": {
+        "error": "",
+        "response": {
+            "id": "b628fe09-4a69-48f5-846b-42bee10ab924",
+            "type": "resource_not_found",
+            "message": "Cannot find a resource /customers/456/screenings/012/matches/789"
+        }
+    },
+    "{'customer_a_id': '789', 'match_1_id': '123', 'screening_a_id': '456'}": {
+        "error": "",
+        "response": {
+            "id": "8cb72182-ad75-449d-8592-093b64246f54",
+            "type": "resource_not_found",
+            "message": "Cannot find a resource /customers/789/screenings/456/matches/123"
+        }
+    },
+    "{'customer_a_id': '789', 'screening_a_id': '456', 'match_1_id': '123'}": {
+        "error": "",
+        "response": {
+            "id": "3146b26b-6450-4afa-b182-54d6600b19b3",
+            "type": "resource_not_found",
+            "message": "Cannot find a resource /customers/789/screenings/456/matches/123"
+        }
+    },
+    "{'customer_a_id': 'customer_a_id', 'screening_a_id': 'screening_a_id', 'match_1_id': '{{reviews_response.matches[0].id}}', 'authorization': 'Bearer {{accessTokenUser}}', 'content_type': 'application/json'}": {
+        "error": "",
+        "response": "{'id': '7a0bf64c-d793-471d-b54e-ca50f5189d17', 'type': 'resource_not_found', 'message': 'Cannot find a resource /customers/customer_a_id/screenings/screening_a_id/matches/%7B%7Breviews_response.matches%5B0%5D.id%7D%7D'}"
+    },
+    "{'customer_a_id': 'cust_456def', 'screening_a_id': 'scr_123abc', 'match_1_id': '{{reviews_response.matches[0].id}}', 'authorization': 'Bearer {{accessTokenUser}}', 'content_type': 'application/json'}": {
+        "error": "",
+        "response": "{'id': '320f1bed-328c-46b9-9fd3-de02b3b1c00a', 'type': 'resource_not_found', 'message': 'Cannot find a resource /customers/cust_456def/screenings/scr_123abc/matches/%7B%7Breviews_response.matches%5B0%5D.id%7D%7D'}"
+    },
+    "{'authorization': 'Bearer {{accessTokenUser}}', 'content_type': 'application/json', 'customer_a_id': 'customer_a_id', 'match_1_id': 'match_1_id', 'screening_a_id': 'screening_a_id'}": {
+        "error": "",
+        "response": "{'id': '390f4362-9bdb-4074-854b-d0dbe2840dcd', 'type': 'resource_not_found', 'message': 'Cannot find a resource /customers/customer_a_id/screenings/screening_a_id/matches/match_1_id'}"
+    },
+    "{'authorization': 'Bearer {{accessTokenUser}}', 'content_type': 'application/json', 'customer_a_id': 'customer_550e8400-e29b-41d4-a716-44665440000', 'match_1_id': 'match_9f960d90-3588-4b2d-87f8-f3e1e8e3b87d', 'screening_a_id': 'screening_20231015_234567'}": {
+        "error": "",
+        "response": "{'id': 'da58af2d-6fdf-4c88-a06c-48a90434d959', 'type': 'resource_not_found', 'message': 'Cannot find a resource /customers/customer_550e8400-e29b-41d4-a716-44665440000/screenings/screening_20231015_234567/matches/match_9f960d90-3588-4b2d-87f8-f3e1e8e3b87d'}"
+    },
+    "{'authorization': 'Bearer {{accessTokenUser}}', 'content_type': 'application/json', 'customer_a_id': 'customer_550e8400-e29b-41d4-a716-446654400000', 'match_1_id': 'match_9f960d90-3588-4b2d-87f8-f3e1e8e3b87c', 'screening_a_id': 'screening_20231015_23456789'}": {
+        "error": "",
+        "response": "{'id': '53e5f430-d616-4b35-9d5b-4a6ea015e880', 'type': 'resource_not_found', 'message': 'Cannot find a resource /customers/customer_550e8400-e29b-41d4-a716-446654400000/screenings/screening_20231015_23456789/matches/match_9f960d90-3588-4b2d-87f8-f3e1e8e3b87c'}"
+    }
+}

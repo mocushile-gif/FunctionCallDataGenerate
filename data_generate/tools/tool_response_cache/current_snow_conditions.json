@@ -1,0 +1,24 @@
+{
+    "{'resort': 'Jackson Hole', 'units': 'imperial'}": {
+        "error": "",
+        "response": {
+            "basicInfo": {}
+        }
+    },
+    "{'resort': 'Jackson Hole', 'units': 'i'}": {
+        "error": "",
+        "response": "{'topSnowDepth': '0in', 'botSnowDepth': '0in', 'freshSnowfall': None, 'lastSnowfallDate': None, 'basicInfo': {'region': 'USA - Wyoming', 'name': 'Jackson Hole', 'url': 'https://www.snow-forecast.com/resorts/Jackson-Hole/6day/top', 'topLiftElevation': '10447ft', 'midLiftElevation': '8380ft', 'botLiftElevation': '6309ft', 'lat': '-110.85', 'lon': '43.60'}}"
+    },
+    "{'resort': 'Vail', 'units': 'i'}": {
+        "error": "",
+        "response": "{'topSnowDepth': '0in', 'botSnowDepth': '0in', 'freshSnowfall': None, 'lastSnowfallDate': '25 May 2024', 'basicInfo': {'region': 'USA - Colorado', 'name': 'Vail', 'url': 'https://www.snow-forecast.com/resorts/Vail/6day/top', 'topLiftElevation': '11477ft', 'midLiftElevation': '9797ft', 'botLiftElevation': '8117ft', 'lat': '-106.37', 'lon': '39.64'}}"
+    },
+    "{'resort': 'Whistler Blackcomb', 'units': 'm'}": {
+        "error": "",
+        "response": "{'topSnowDepth': '115cm', 'botSnowDepth': None, 'freshSnowfall': None, 'lastSnowfallDate': '23 Nov 2024', 'basicInfo': {'region': 'Canada - BC', 'name': 'Whistler Blackcomb', 'url': 'https://www.snow-forecast.com/resorts/Whistler-Blackcomb/6day/top', 'topLiftElevation': '2284m', 'midLiftElevation': '1480m', 'botLiftElevation': '675m', 'lat': '-122.95', 'lon': '50.11'}}"
+    },
+    "{'resort': 'Jackson Hole'}": {
+        "error": "",
+        "response": "{'topSnowDepth': '0in', 'botSnowDepth': '0in', 'freshSnowfall': None, 'lastSnowfallDate': None, 'basicInfo': {'region': 'USA - Wyoming', 'name': 'Jackson Hole', 'url': 'https://www.snow-forecast.com/resorts/Jackson-Hole/6day/top', 'topLiftElevation': '10447ft', 'midLiftElevation': '8380ft', 'botLiftElevation': '6309ft', 'lat': '-110.85', 'lon': '43.60'}}"
+    }
+}

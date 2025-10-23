@@ -1,0 +1,23 @@
+{
+    "name": "hashtag_feed_video_posts_v2",
+    "description": "This is a sub-function API for tool social_media_data_tt.\nTool description: Social Media Data API in Real-Time.  -Get very useful and unique information.  -I'm on Telegram https://t.me/logicBuilder News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Get hashtag feed V2. \n\nV2 - returns more data then older version of the endpoint, video without watermark and etc\n\n- Before testing don't forget to fill out the **name** query\n- Endpoint will return an array of objects with very useful metadata. \n- Direct urls to the video , statistics and more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "Hashtag name to filter videos. Defaults to 'summer'.",
+                "default": "summer"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Limit the output number of records. \n\n- Default is 20\n- Max number is 20\n"
+            },
+            "max_cursor": {
+                "type": "string",
+                "description": "Pagination cursor. \nTo get more videos, paste here **max_cursor** value that you have received in previous request response."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "metadata",
+    "description": "This is a sub-function API for tool cryptocurrency_financial_data.\nTool description: All endpoints are available in the free tier! Cryptocurrency financial data API for major exchanges. Candlesticks (OHLCV, VWAP, and Trade Count), Trades (tick-level). Spot and futures markets. Robust data catalog and documentation.\nAPI description: Fetches the metadata information for cryptocurrency markets from the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "asset_type": {
+                "type": "string",
+                "description": "The type of the asset, e.g., 'spot' or 'futures'. Default is 'spot'.",
+                "default": "spot"
+            },
+            "market_venue": {
+                "type": "string",
+                "description": "The trading venue where the asset is listed, e.g., 'BINANCE'. Default is 'BINANCE'.",
+                "default": "BINANCE"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The symbol of the cryptocurrency, e.g., 'BTC'. Default is 'BTC'.",
+                "default": "BTC"
+            },
+            "base": {
+                "type": "string",
+                "description": "The base currency for trading, e.g., 'USDT'. Default is 'USDT'.",
+                "default": "USDT"
+            },
+            "data_type": {
+                "type": "string",
+                "description": "The type of data to fetch, e.g., 'metrics'. Default is 'metrics'.",
+                "default": "metrics"
+            }
+        },
+        "required": []
+    }
+}

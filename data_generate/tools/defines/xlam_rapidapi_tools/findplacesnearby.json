@@ -1,0 +1,32 @@
+{
+    "name": "findplacesnearby",
+    "description": "This is a sub-function API for tool trueway_places.\nTool description: Search for places. Provides detailed information for over 100 million places and points of interest.\nAPI description: Find nearby places based on the given location, language, radius, and type.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The latitude/longitude around which to retrieve places.",
+                "default": "37.783366,-122.402325"
+            },
+            "language": {
+                "type": "string",
+                "description": "The language in which to return results. Defaults to 'en'.",
+                "default": "en"
+            },
+            "radius": {
+                "type": "number",
+                "description": "The distance (in meters) within which to return results. Max = 10000 m. Defaults to 180.",
+                "default": 180.0
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of places that are returned. Defaults to 'cafe'.",
+                "default": "cafe"
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

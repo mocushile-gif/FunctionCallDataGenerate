@@ -1,0 +1,23 @@
+{
+    "name": "channel_details",
+    "description": "This is a sub-function API for tool youtube_v3_v2.\nTool description: Get youtube data without any youtube data api key\nAPI description: Fetches details of a YouTube channel given its ID and desired parts using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the YouTube channel to fetch details for.",
+                "default": "UCBVjMGOIkavEAhyqpxJ73Dw"
+            },
+            "part": {
+                "type": "string",
+                "description": "The part parameter specifies a comma-separated list of one or more channel resource properties that the API response will include.",
+                "default": "snippet,statistics"
+            }
+        },
+        "required": [
+            "is_id",
+            "part"
+        ]
+    }
+}

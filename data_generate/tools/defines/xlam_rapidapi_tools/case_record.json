@@ -1,0 +1,15 @@
+{
+    "name": "case_record",
+    "description": "This is a sub-function API for tool get_docs.\nTool description: data\nAPI description: This function retrieves a document list for a given claim ID using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "claimid": {
+                "type": "string",
+                "description": "The unique identifier for the claim. Defaults to 'dd61c35e-3edd-ea11-a813-000d3a795762'.",
+                "default": "dd61c35e-3edd-ea11-a813-000d3a795762"
+            }
+        },
+        "required": []
+    }
+}

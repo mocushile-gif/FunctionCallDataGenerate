@@ -1,0 +1,44 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "average": 6
+        }
+    },
+    "{'wrapper': 'Maduro', 'country': 'Cuba'}": {
+        "error": "",
+        "response": "{'average': None}"
+    },
+    "{'wrapper': 'Maduro', 'country': 'Cuba', 'name': ''}": {
+        "error": "",
+        "response": "{'average': None}"
+    },
+    "{'wrapper': 'Connecticut Shade'}": {
+        "error": "",
+        "response": "{'average': None}"
+    },
+    "{'wrapper': 'Connecticut Shade, Ecuador'}": {
+        "error": "",
+        "response": "{'average': 6}"
+    },
+    "{'wrapper': 'Connecticut Shade', 'country': 'Nicaragua'}": {
+        "error": "",
+        "response": "{'average': None}"
+    },
+    "{'wrapper': 'Connecticut Shade', 'country': 'Mexico'}": {
+        "error": "",
+        "response": "{'average': None}"
+    },
+    "{'country': 'USA'}": {
+        "error": "",
+        "response": "{'average': None}"
+    },
+    "{'country': 'California'}": {
+        "error": "",
+        "response": "{'average': None}"
+    },
+    "{'country': 'Nicaragua'}": {
+        "error": "",
+        "response": "{'average': 6}"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "get_quotes_by_anime_title",
+    "description": "This is a sub-function API for tool anime_quotes_v4.\nTool description: An API for serving high-quality anime quotes\nAPI description: Fetches quotes from a specified anime title using the Anime Quotes API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string",
+                "description": "The title of the anime for which to fetch quotes. Defaults to 'Fairy Tail'.",
+                "default": "Fairy Tail"
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number for pagination. Defaults to '1'.",
+                "default": "1"
+            }
+        },
+        "required": []
+    }
+}

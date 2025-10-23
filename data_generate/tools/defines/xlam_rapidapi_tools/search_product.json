@@ -1,0 +1,23 @@
+{
+    "name": "search_product",
+    "description": "This is a sub-function API for tool tokopediaapi.\nTool description: Search & Product Details Api\nAPI description: This function searches for a product using the Tokopedia API based on the given query and act parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query string for the product to be searched.",
+                "default": "Celana Jeans"
+            },
+            "act": {
+                "type": "string",
+                "description": "The action parameter to specify the type of search.",
+                "default": "search"
+            }
+        },
+        "required": [
+            "query",
+            "act"
+        ]
+    }
+}

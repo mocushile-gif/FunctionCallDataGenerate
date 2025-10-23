@@ -1,0 +1,19 @@
+{
+    "name": "v1_cocktail",
+    "description": "This is a sub-function API for tool cocktail_by_api_ninjas.\nTool description: Search thousands of cocktail recipes. See more info at https://api-ninjas.com/api/cocktail.\nAPI description: Fetches cocktail information from the API Ninjas Cocktail API based on the provided cocktail name or ingredients.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "name of cocktail. This parameter supports partial matches (e.g. bloody will match bloody mary and bloody margarita)",
+                "default": "bloody mary"
+            },
+            "ingredients": {
+                "type": "string",
+                "description": "comma-separated string of ingredients to search. Only cocktails containing all listed ingredients will be returned. For example, to search cocktails containing Vodka and lemon juice, use vodka,lemon juice."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "businessplan",
+    "description": "This is a sub-function API for tool business_starter_api.\nTool description: API that generates a name, slogan and idea for a business\nAPI description: Generates a business plan for the given idea using the Business Starter API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "idea": {
+                "type": "string",
+                "description": "The business idea for which the plan will be generated."
+            }
+        },
+        "required": [
+            "idea"
+        ]
+    }
+}

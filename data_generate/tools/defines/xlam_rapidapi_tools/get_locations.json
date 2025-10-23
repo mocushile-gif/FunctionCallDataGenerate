@@ -1,0 +1,32 @@
+{
+    "name": "get_locations",
+    "description": "This is a sub-function API for tool septa.\nTool description: Provides hackathon-style access to the SEPTA API.\r\n\r\nAllows introspection of the SEPTA locations and routes, and provides basically-realtime data on delays, alerts, vehicles, and routes.\nAPI description: Fetches geographical locations within a specified radius of the given longitude and latitude coordinates, optionally filtered by type.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lon": {
+                "type": "number",
+                "description": "Longitude coordinate of the center point.",
+                "default": -75.33299748
+            },
+            "lat": {
+                "type": "number",
+                "description": "Latitude coordinate of the center point.",
+                "default": 40.11043326
+            },
+            "radius": {
+                "type": "number",
+                "description": "Radius in miles from the center point within which to search for locations. Defaults to 3.",
+                "default": 3.0
+            },
+            "type": {
+                "type": "string",
+                "description": "Type of locations to filter; one of ['bus_stops', 'rail_stations', 'perk_locations', 'trolley_stops', 'sales_locations']. Defaults to None."
+            }
+        },
+        "required": [
+            "lon",
+            "lat"
+        ]
+    }
+}

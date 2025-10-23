@@ -1,0 +1,23 @@
+{
+    "name": "assess_diabetes_risk",
+    "description": "Assess the risk of developing type 2 diabetes based on body mass index (BMI) and physical activity level.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "weight_lbs": {
+                "type": "integer",
+                "description": "Body weight in pounds."
+            },
+            "height_inches": {
+                "type": "integer",
+                "description": "Height in inches."
+            },
+            "activity": {
+                "type": "string",
+                "description": "Physical activity level.",
+                "enum": ["sedentary", "lightly active", "moderately active", "very active"]
+            }
+        },
+        "required": ["weight_lbs", "height_inches", "activity"]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "{'is_id': '12345EN', 'l': 'en-US'}": {
+        "error": "",
+        "response": {
+            "album_id": "12345EN",
+            "language": "en-US",
+            "album_details": {
+                "title": "Greatest Hits",
+                "artist": "John Doe",
+                "release_date": "2023-01-15",
+                "genre": "Pop",
+                "track_count": 12,
+                "tracks": [
+                    {
+                        "track_number": 1,
+                        "title": "Hit Song 1",
+                        "duration": "3:45"
+                    },
+                    {
+                        "track_number": 2,
+                        "title": "Hit Song 2",
+                        "duration": "4:12"
+                    },
+                    {
+                        "track_number": 3,
+                        "title": "Hit Song 3",
+                        "duration": "3:30"
+                    }
+                ],
+                "description": "A collection of the most popular songs by John Doe, showcasing his best work in the pop genre.",
+                "cover_image_url": "https://example.com/album-cover.jpg"
+            }
+        }
+    },
+    "{'is_id': '850576570', 'l': 'es'}": {
+        "error": "",
+        "response": "{'data': [{'id': '850576570', 'type': 'albums', 'attributes': {'copyright': '\u2117 2014 Parlophone Records Limited, a Warner Music Group company.', 'genreNames': ['Alternative', 'Music', 'Pop', 'Hip-Hop/Rap', 'Alternative Rap', 'Rock', 'Adult Alternative', 'Underground Rap', 'Rap'], 'releaseDate': '2001-03-26', 'upc': '825646290703', 'isMasteredForItunes': True, 'artwork': {'width': 1500, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5b/8d/47/5b8d47da-71ea-93ab-dffc-733f11332659/825646290703.jpg/{w}x{h}bb.jpg', 'height': 1500, 'textColor3': '363837', 'textColor2': '172b18', 'textColor4': '455546', 'textColor1': '040705', 'bgColor': 'ffffff', 'hasP3': False}, 'url': 'https://music.apple.com/us/album/gorillaz/850576570', 'playParams': {'id': '850576570', 'kind': 'album'}, 'recordLabel': 'Parlophone UK', 'trackCount': 17, 'isCompilation': False, 'isPrerelease': False, 'audioTraits': ['lossless', 'lossy-stereo'], 'isSingle': False, 'name': 'Gorillaz', 'artistName': 'Gorillaz', 'contentRating': 'explicit', 'editorialNotes': {'short': 'Toon in, turn on: Gorillaz reset pop\u2019s possibilities on their 2001 debut.', 'standard': 'The traditional origin story says Damon Albarn and Jamie Hewlett conceived Gorillaz as a comment on the soullessness and artifice of pop at the turn of the millennium. However, the concept of a virtual band had another appeal for Blur frontman Albarn: It allowed him to disappear. Even as Blur\u2019s increasingly intrepid music distanced them from the creepi"
+    },
+    "{'is_id': '850576570', 'l': 'en'}": {
+        "error": "",
+        "response": "{'data': [{'id': '850576570', 'type': 'albums', 'attributes': {'copyright': '\u2117 2014 Parlophone Records Limited, a Warner Music Group company.', 'genreNames': ['Alternative', 'Music', 'Pop', 'Hip-Hop/Rap', 'Alternative Rap', 'Rock', 'Adult Alternative', 'Underground Rap', 'Rap'], 'releaseDate': '2001-03-26', 'isMasteredForItunes': True, 'upc': '825646290703', 'artwork': {'width': 1500, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5b/8d/47/5b8d47da-71ea-93ab-dffc-733f11332659/825646290703.jpg/{w}x{h}bb.jpg', 'height': 1500, 'textColor3': '363837', 'textColor2': '172b18', 'textColor4': '455546', 'textColor1': '040705', 'bgColor': 'ffffff', 'hasP3': False}, 'url': 'https://music.apple.com/us/album/gorillaz/850576570', 'playParams': {'id': '850576570', 'kind': 'album'}, 'recordLabel': 'Parlophone UK', 'trackCount': 17, 'isCompilation': False, 'isPrerelease': False, 'audioTraits': ['lossless', 'lossy-stereo'], 'isSingle': False, 'name': 'Gorillaz', 'contentRating': 'explicit', 'artistName': 'Gorillaz', 'editorialNotes': {'standard': 'The traditional origin story says Damon Albarn and Jamie Hewlett conceived Gorillaz as a comment on the soullessness and artifice of pop at the turn of the millennium. However, the concept of a virtual band had another appeal for Blur frontman Albarn: It allowed him to disappear. Even as Blur\u2019s increasingly intrepid music distanced them from the creeping conservatism of Britpop during the late \u201990s, Albarn had creative urges that couldn\u2019t be satisfied within one of Britain\u2019s biggest guitar bands. Retreating behind comic-book creator Hewlett\u2019s animations gave him a new freedom to experiment. After all, who was a more convincing front for otherworldly adventures in dub, trip-hop, punk, rap Westerns, and bolero sounds? A man inexorably tied to Britpop with Union Jack bunting? Or Noodle, 2D, Russel, and Murdoc, a motley gang of vaguely apocalyptic animations?<br />\\nAlbarn originally planned to be an anonymous part of the project, but that was a futile notion by the time this d"
+    }
+}

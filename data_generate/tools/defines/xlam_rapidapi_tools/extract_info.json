@@ -1,0 +1,16 @@
+{
+    "name": "extract_info",
+    "description": "This is a sub-function API for tool project_gutenberg_api.\nTool description: This is a stable and reliable unofficial API for Project Gutenberg, allowing you to download ebooks as well as get information about a certain book (title, author, language, copyrights and publish date).\nAPI description: Get all the informations about a book using it's ID\nInformations : \n- title.\n- authors.\n- language.\n- download links.\n- download count.\nand much more ...",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the book to retrieve information for."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

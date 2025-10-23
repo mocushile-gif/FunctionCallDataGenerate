@@ -1,0 +1,22 @@
+{
+    "name": "get_score_by_id",
+    "description": "This is a sub-function API for tool thefluentme.\nTool description: The AI-powered language pronunciation API with ChatGPT\nAPI description: Returns a score by `score_id`. You can get the `score_id` from the `Get all scores` endpoint. The scale parameter defines the maximum number of points for the recording, as well as each word. This parameter is not required. The default value of 100 will be applied if the parameter is not provided.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "score_id": {
+                "type": "string",
+                "description": "The unique identifier of the score to fetch.",
+                "default": "S38392182"
+            },
+            "scale": {
+                "type": "number",
+                "description": "The maximum number of points for the recording and each word. Defaults to 90.",
+                "default": 90.0
+            }
+        },
+        "required": [
+            "score_id"
+        ]
+    }
+}

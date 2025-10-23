@@ -1,0 +1,21 @@
+{
+    "name": "recitations_by_page_number",
+    "description": "This is a sub-function API for tool quran_com.\nTool description: The default API of Quran.com website\nAPI description: Fetches a list of ayah recitations for a given Madani Mushaf page.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "recitation_id": {
+                "type": "number",
+                "description": "Recitation Id, you can get list of all ayah by ayah recitations using this endpoint #endpoint:HLbauN2sdGitPQPPL"
+            },
+            "page_number": {
+                "type": "number",
+                "description": "The page number in the Madani Mushaf for which ayah recitations are to be fetched."
+            }
+        },
+        "required": [
+            "recitation_id",
+            "page_number"
+        ]
+    }
+}

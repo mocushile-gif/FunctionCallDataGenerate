@@ -1,0 +1,29 @@
+{
+    "name": "list_of_games",
+    "description": "This is a sub-function API for tool cheapshark_game_deals.\nTool description: CheapShark is a price comparison website for digital PC Games. We keep track of prices across multiple stores including Steam, GreenManGaming, Fanatical, and many others.\nAPI description: Fetches a list of games that contain the given title or match the specified Steam App ID. The response includes the cheapest current deal for each game.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string",
+                "description": "The title of the game to search for. Defaults to 'batman'.",
+                "default": "batman"
+            },
+            "exact": {
+                "type": "number",
+                "description": "Flag to allow only exact string matches for the `title` parameter. Defaults to 0.",
+                "default": 0.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of games to return, up to 60. Defaults to 60.",
+                "default": 60.0
+            },
+            "steamappid": {
+                "type": "number",
+                "description": "Search for a game by Steam’s AppID - e.g. http://store.steampowered.com/app/35140/"
+            }
+        },
+        "required": []
+    }
+}

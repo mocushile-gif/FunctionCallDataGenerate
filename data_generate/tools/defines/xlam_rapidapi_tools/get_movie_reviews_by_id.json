@@ -1,0 +1,17 @@
+{
+    "name": "get_movie_reviews_by_id",
+    "description": "This is a sub-function API for tool cinema_api.\nTool description: Welcome to our exciting new API! 🎉 Our API provides a seamless experience for accessing a treasure trove of information about catalogs, actors, movies, and streaming platforms. With just a few simple requests, you can unlock a world of entertainment possibilities!  Retrieve comprehensive details about catalogs, including genres, release dates, and more. Dive into the captivating lives of actors by exploring their biographies, filmography, and achievements. Discover the latest blockbusters, ti...\nAPI description: This Endpoint returns a complete list of reviews associated to the ID. You can obtain the ID from the Get Movie By ID endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The movie ID for which reviews need to be fetched. The ID can be obtained from the Get Movie By ID endpoint.",
+                "default": "tt0120338"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "merge_pdfs",
+  "description": "Merge multiple PDF files into a single PDF document.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "pdf_paths": {
+        "type": "array",
+        "items": {"type": "string"},
+        "description": "List of paths to input PDF files",
+        "minItems": 2
+      },
+      "output_path": {
+        "type": "string",
+        "description": "Path for the output merged PDF. If not provided, will create auto-named file."
+      }
+    },
+    "required": ["pdf_paths"]
+  }
+} 

@@ -1,0 +1,22 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{'id': '5393015', 'geonameId': 5393015, 'type': 'CITY', 'name': 'Santa Clara', 'population': 126215, 'elevation': 23, 'timezoneId': 'America/Los_Angeles', 'country': {'id': 'US', 'geonameId': 6252001, 'name': 'United States of America'}, 'adminDivision1': {'id': 'US.CA', 'geonameId': 5332921, 'name': 'California'}, 'adminDivision2': {'id': 'US.CA.085', 'geonameId': 5393021, 'name': 'Santa Clara County'}, 'coordinates': {'latitude': 37.3541, 'longitude': -121.955}}"
+    },
+    "{'language': 'en'}": {
+        "error": "",
+        "response": "{'id': '5393015', 'geonameId': 5393015, 'type': 'CITY', 'name': 'Santa Clara', 'population': 126215, 'elevation': 23, 'timezoneId': 'America/Los_Angeles', 'country': {'id': 'US', 'geonameId': 6252001, 'name': 'United States of America', 'localizedName': 'United States of America'}, 'adminDivision1': {'id': 'US.CA', 'geonameId': 5332921, 'name': 'California', 'localizedName': 'California'}, 'adminDivision2': {'id': 'US.CA.085', 'geonameId': 5393021, 'name': 'Santa Clara County', 'localizedName': 'Santa Clara County'}, 'localizedName': 'Santa Clara', 'coordinates': {'latitude': 37.3541, 'longitude': -121.955}}"
+    },
+    "{'language': 'fr'}": {
+        "error": "",
+        "response": "{'id': '1816670', 'geonameId': 1816670, 'type': 'CITY', 'name': 'Beijing', 'population': 18960744, 'elevation': 49, 'timezoneId': 'Asia/Shanghai', 'country': {'id': 'CN', 'geonameId': 1814991, 'name': 'China', 'localizedName': 'Chine'}, 'adminDivision1': {'id': 'CN.22', 'geonameId': 2038349, 'name': 'Beijing Municipality', 'localizedName': 'Municipalit\u00e9 de P\u00e9kin'}, 'adminDivision2': {'id': 'CN.22.11876380', 'geonameId': 11876380, 'name': 'Beijing', 'localizedName': None}, 'localizedName': 'P\u00e9kin', 'coordinates': {'latitude': 39.9075, 'longitude': 116.39723}}"
+    },
+    "{'language': 'es'}": {
+        "error": "",
+        "response": "{'id': '1816670', 'geonameId': 1816670, 'type': 'CITY', 'name': 'Beijing', 'population': 18960744, 'elevation': 49, 'timezoneId': 'Asia/Shanghai', 'country': {'id': 'CN', 'geonameId': 1814991, 'name': 'China', 'localizedName': 'China'}, 'adminDivision1': {'id': 'CN.22', 'geonameId': 2038349, 'name': 'Beijing Municipality', 'localizedName': None}, 'adminDivision2': {'id': 'CN.22.11876380', 'geonameId': 11876380, 'name': 'Beijing', 'localizedName': None}, 'localizedName': 'Pek\u00edn', 'coordinates': {'latitude': 39.9075, 'longitude': 116.39723}}"
+    },
+    "{'language': 'de'}": {
+        "error": "",
+        "response": "{'id': '1816670', 'geonameId': 1816670, 'type': 'CITY', 'name': 'Beijing', 'population': 18960744, 'elevation': 49, 'timezoneId': 'Asia/Shanghai', 'country': {'id': 'CN', 'geonameId': 1814991, 'name': 'China', 'localizedName': 'China'}, 'adminDivision1': {'id': 'CN.22', 'geonameId': 2038349, 'name': 'Beijing Municipality', 'localizedName': None}, 'adminDivision2': {'id': 'CN.22.11876380', 'geonameId': 11876380, 'name': 'Beijing', 'localizedName': None}, 'localizedName': 'Beijing', 'coordinates': {'latitude': 39.9075, 'longitude': 116.39723}}"
+    }
+}

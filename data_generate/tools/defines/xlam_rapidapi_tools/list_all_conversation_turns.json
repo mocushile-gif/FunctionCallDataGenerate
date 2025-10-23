@@ -1,0 +1,50 @@
+{
+    "name": "list_all_conversation_turns",
+    "description": "This is a sub-function API for tool lemurbot.\nTool description: Meet Lemurbot - Your Personal AI Chatbot Companion! With advanced features like creating, training and chatting, Lemurbot makes it easy and fun for users to interact and learn from an intelligent conversationalist. Plus, with ChatGPT integration and the ability to create multiple bots, the possibilities for learning and entertainment are endless!\nAPI description: Each conversation has conversation turns.\nEach turn represents an input from the client and the output from the bot.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The number of records to return. Default is 20.",
+                "default": 20
+            },
+            "conversation": {
+                "type": "string",
+                "description": "The slug of the conversation. Conversations are linked to conversation turns."
+            },
+            "conversation_id": {
+                "type": "number",
+                "description": "The ID of the conversation. Conversations are linked to conversation turns."
+            },
+            "dir": {
+                "type": "string",
+                "description": "The direction of the ordering. Default is 'asc'.",
+                "default": "asc"
+            },
+            "input": {
+                "type": "string",
+                "description": "What was said to the bot by the client - this is a partial search"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of results to start from. Default is 1.",
+                "default": 1
+            },
+            "output": {
+                "type": "string",
+                "description": "What was said by the bot in response to the client input - this is a partial search"
+            },
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the conversation turn."
+            },
+            "order": {
+                "type": "string",
+                "description": "the search field you wish to order by - the available field names are the sames ones you can search by",
+                "default": "id"
+            }
+        },
+        "required": []
+    }
+}

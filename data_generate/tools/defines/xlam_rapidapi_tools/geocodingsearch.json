@@ -1,0 +1,75 @@
+{
+    "name": "geocodingsearch",
+    "description": "This is a sub-function API for tool forward_reverse_geocoding.\nTool description: Forward & Reverse Geocoding API. Get address by location or location by address.\nAPI description: Performs a forward geocoding search using a free-form query string and optional parameters to specify query filters and output format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "Free-form query string for the geocoding search.",
+                "default": "New York City NY USA"
+            },
+            "countrycodes": {
+                "type": "string",
+                "description": "Two-letter country code as defined in ISO 3166-1 alpha2 to restrict search to a specific country."
+            },
+            "json_callback": {
+                "type": "string",
+                "description": "Name of JSON callback function for JSONP calls; use this when the format is set to JSON."
+            },
+            "polygon_text": {
+                "type": "string",
+                "description": "Include a textual representation of the polygon geometry in the output."
+            },
+            "namedetails": {
+                "type": "string",
+                "description": "Include detailed naming information in the output."
+            },
+            "limit": {
+                "type": "string",
+                "description": "Limit the number of search results."
+            },
+            "viewbox": {
+                "type": "string",
+                "description": "Format: x1,y1,x2,y2 where is x is longitude and y latitude. The two coordinates have to span a box to let this work in conjunction with bounded=1 (see there)."
+            },
+            "format": {
+                "type": "string",
+                "description": "Output format of the response (e.g., JSON)."
+            },
+            "polygon_geojson": {
+                "type": "string",
+                "description": "Include GeoJSON representation of the polygon geometry in the output."
+            },
+            "bounded": {
+                "type": "string",
+                "description": "Use bounded=1 in conjunction with viewbox to restrict search area. You can use this to search for amenities in a given area, e.g. post offices or police stations, etc. as q param."
+            },
+            "polygon_svg": {
+                "type": "string",
+                "description": "Include SVG representation of the polygon geometry in the output."
+            },
+            "polygon_kml": {
+                "type": "string",
+                "description": "Include KML representation of the polygon geometry in the output."
+            },
+            "polygon_threshold": {
+                "type": "number",
+                "description": "Simplification threshold for the polygon geometry.",
+                "default": 0.0
+            },
+            "accept_language": {
+                "type": "string",
+                "description": "Set the query and response language using two-letter language codes (e.g., 'en' or 'es') or a combination of language and region code (e.g., 'en-GB' or 'es-AR'). Default is 'en'.",
+                "default": "en"
+            },
+            "addressdetails": {
+                "type": "string",
+                "description": "Include detailed address information in the output."
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

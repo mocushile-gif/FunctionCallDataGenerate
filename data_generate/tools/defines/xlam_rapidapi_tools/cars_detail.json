@@ -1,0 +1,17 @@
+{
+    "name": "cars_detail",
+    "description": "This is a sub-function API for tool consumer_reports.\nTool description: This API helps to query trusted ratings and reviews for the products, cars and services used every day to create a review site such as : consumerreports.org\nAPI description: Fetches detailed information about a car model for a given year using the Consumer Reports API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "modelyearid": {
+                "type": "number",
+                "description": "The value of modelYearId field returned in .../cars/get-models endpoint",
+                "default": 7328.0
+            }
+        },
+        "required": [
+            "modelyearid"
+        ]
+    }
+}

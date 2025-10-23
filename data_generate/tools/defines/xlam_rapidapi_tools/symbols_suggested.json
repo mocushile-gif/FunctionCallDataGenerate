@@ -1,0 +1,17 @@
+{
+    "name": "symbols_suggested",
+    "description": "This is a sub-function API for tool seeking_alpha_finance.\nTool description: Seeking Alpha is the world’s largest investing community. Seeking Alpha’s content has unparalleled breadth and depth: from stocks, ETFs and mutual funds to commodities and cryptocurrency.   **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters\nAPI description: Fetch suggested tickers based on a given ticker slug.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker_slug": {
+                "type": "string",
+                "description": "The ticker slug to base the suggestions on.",
+                "default": "NVDA"
+            }
+        },
+        "required": [
+            "ticker_slug"
+        ]
+    }
+}

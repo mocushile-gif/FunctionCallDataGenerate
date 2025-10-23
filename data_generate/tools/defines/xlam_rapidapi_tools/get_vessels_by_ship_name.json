@@ -1,0 +1,17 @@
+{
+    "name": "get_vessels_by_ship_name",
+    "description": "This is a sub-function API for tool vessel_data.\nTool description: Global live on board vessels information.\nAPI description: Return vessels by its name.\nVisit our [demo site](https://core-api.net/vessel/map.html)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the ship for which to retrieve vessel information.",
+                "default": "ATLAS"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

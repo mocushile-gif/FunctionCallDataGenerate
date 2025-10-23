@@ -1,0 +1,25 @@
+{
+    "name": "v1_geocoding",
+    "description": "This is a sub-function API for tool geocoding_by_api_ninjas.\nTool description: Convert city locations to latitude/longitude coordinates and vice versa. See more info at https://api-ninjas.com/api/geocoding and https://api-ninjas.com/api/reversegeocoding.\nAPI description: Fetches geolocation information of a specified city using the API Ninjas Geocoding API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "city": {
+                "type": "string",
+                "description": "The name of the city to geocode.",
+                "default": "Seattle"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country name, 2-letter ISO country code, or 3-letter ISO country code."
+            },
+            "state": {
+                "type": "string",
+                "description": "The US state (for United States cities only)."
+            }
+        },
+        "required": [
+            "city"
+        ]
+    }
+}

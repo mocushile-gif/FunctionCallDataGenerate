@@ -1,0 +1,93 @@
+{
+    "{}": {
+        "error": "",
+        "response": [
+            {
+                "city_mpg": 23,
+                "class": "compact car",
+                "combination_mpg": 24,
+                "cylinders": 4,
+                "displacement": 1.6,
+                "drive": "fwd",
+                "fuel_type": "gas",
+                "highway_mpg": 26,
+                "make": "toyota",
+                "model": "corolla",
+                "transmission": "a",
+                "year": 1993
+            },
+            {
+                "city_mpg": 23,
+                "class": "compact car",
+                "combination_mpg": 26,
+                "cylinders": 4,
+                "displacement": 1.6,
+                "drive": "fwd",
+                "fuel_type": "gas",
+                "highway_mpg": 31,
+                "make": "toyota",
+                "model": "corolla",
+                "transmission": "m",
+                "year": 1993
+            },
+            {
+                "city_mpg": 23,
+                "class": "compact car",
+                "combination_mpg": 25,
+                "cylinders": 4,
+                "displacement": 1.8,
+                "drive": "fwd",
+                "fuel_type": "gas",
+                "highway_mpg": 30,
+                "make": "toyota",
+                "model": "corolla",
+                "transmission": "a",
+                "year": 1993
+            },
+            {
+                "city_mpg": 23,
+                "class": "compact car",
+                "combination_mpg": 26,
+                "cylinders": 4,
+                "displacement": 1.8,
+                "drive": "fwd",
+                "fuel_type": "gas",
+                "highway_mpg": 30,
+                "make": "toyota",
+                "model": "corolla",
+                "transmission": "m",
+                "year": 1993
+            },
+            {
+                "city_mpg": 23,
+                "class": "small station wagon",
+                "combination_mpg": 25,
+                "cylinders": 4,
+                "displacement": 1.8,
+                "drive": "fwd",
+                "fuel_type": "gas",
+                "highway_mpg": 30,
+                "make": "toyota",
+                "model": "corolla wagon",
+                "transmission": "a",
+                "year": 1993
+            }
+        ]
+    },
+    "{'make': 'Toyota', 'min_city_mpg': 25}": {
+        "error": "",
+        "response": "[{'city_mpg': 26, 'class': 'compact car', 'combination_mpg': 29, 'cylinders': 4, 'displacement': 1.6, 'drive': 'fwd', 'fuel_type': 'gas', 'highway_mpg': 32, 'make': 'toyota', 'model': 'corolla', 'transmission': 'm', 'year': 1996}]"
+    },
+    "{'make': 'Tesla', 'min_hwy_mpg': 30}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'fuel_type': 'diesel', 'min_hwy_mpg': 30}": {
+        "error": "",
+        "response": "[{'city_mpg': 'this field is for premium subscribers only', 'class': 'compact car', 'combination_mpg': 'this field is for premium subscribers only', 'cylinders': 4, 'displacement': 1.8, 'fuel_type': 'diesel', 'highway_mpg': 'this field is for premium subscribers only', 'make': 'toyota', 'model': 'corolla', 'transmission': 'a', 'year': 1984}]"
+    },
+    "{'fuel_type': 'diesel'}": {
+        "error": "",
+        "response": "[{'city_mpg': 'this field is for premium subscribers only', 'class': 'compact car', 'combination_mpg': 'this field is for premium subscribers only', 'cylinders': 4, 'displacement': 1.8, 'fuel_type': 'diesel', 'highway_mpg': 'this field is for premium subscribers only', 'make': 'toyota', 'model': 'corolla', 'transmission': 'a', 'year': 1984}]"
+    }
+}

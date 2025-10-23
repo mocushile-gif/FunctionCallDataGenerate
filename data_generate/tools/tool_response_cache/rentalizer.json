@@ -1,0 +1,34 @@
+{
+    "{'address': 'weekend getaway'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "message": "Invalid address"
+            }
+        }
+    },
+    "{'address': 'Address of the conference center'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "message": "Invalid address"
+            }
+        }
+    },
+    "{'address': 'RUA CARINI, 1656 \u2013 RESIDENCIAL FLORENCA, SINOP \u2013 MT', 'bedrooms': 3, 'accommodates': '6'}": {
+        "error": "",
+        "response": "{'data': {'location': {'lat': -11.8394261, 'lng': -55.5368176}}}"
+    },
+    "{'address': '458 19th St, Santa Monica, CA 90402'}": {
+        "error": "",
+        "response": "{'data': {'comps': [{'accommodates': 3.0, 'airbnb_property_id': '18635723', 'bathrooms': 1.0, 'bedrooms': 2.0, 'cover_img': 'https://a0.muscache.com/im/pictures/6807dd63-a04d-47c3-9317-ed9fd0371b25.jpg?aki_policy=x_large', 'distance_meters': 724, 'listing_url': 'https://www.airbnb.com/rooms/18635723', 'location': {'lat': 34.03574, 'lng': -118.50151}, 'platforms': {'airbnb_property_id': '18635723', 'vrbo_property_id': None}, 'property_type': 'Guesthouse', 'rating': 9.7, 'reviews': 250, 'room_type': 'Entire home/apt', 'stats': {'adr': {'ltm': 212}, 'days_available': {'ltm': 322}, 'occupancy': {'ltm': 0.92}, 'revenue': {'ltm': 62022}, 'revenue_potential': {'ltm': 69364}}, 'title': 'Cozy Guesthouse S.Monica,CA-North Montana#215383'}, {'accommodates': 2.0, 'airbnb_property_id': '1096529626', 'bathrooms': 1.0, 'bedrooms': 1.0, 'cover_img': 'https://media.vrbo.com/lodging/79000000/78560000/78557600/78557557/956abcb8.c10.jpg', 'distance_meters': 746, 'listing_url': 'https://www.vrbo.com/2830894', 'location': {'lat': 34.03241086, 'lng': -118.49677658}, 'platforms': {'airbnb_property_id': None, 'vrbo_property_id': '2830894'}, 'property_type': 'Condo', 'rating': 10.0, 'reviews': 2, 'room_type': 'Entire home/apt', 'stats': {'adr': {'ltm': 312}, 'days_available': {'ltm': 206}, 'occupancy': {'ltm': 0.95}, 'revenue': {'ltm': 59173}, 'revenue_potential': {'ltm': 81318}}, 'title': 'Mid Century North of Wilshire, 1 block to Montana Ave!'}, {'accommodates': 2.0, 'airbnb_property_id': '613396713597646278', 'bathrooms': 1.0, 'bedrooms': 1.0, 'cover_img': 'https://a0.muscache.com/im/pictures/miso/Hosting-613396713597646278/original/24a871f4-5087-402a-baa7-bfc4d916bcff.jpeg?aki_policy=x_large', 'distance_meters': 923, 'listing_url': 'https://www.airbnb.com/rooms/613396713597646278', 'location': {'lat': 34.0378, 'lng': -118.484726}, 'platforms': {'airbnb_property_id': '613396713597646278', 'vrbo_property_id': None}, 'property_type': 'Guesthouse', 'rating': 9.8, 'reviews': 48, 'room_type': 'Entire home/apt', 'stats': {'adr': {'ltm': 201}"
+    },
+    "{'address': '123 Ocean Drive, Miami, FL 33139', 'bedrooms': 3, 'bathrooms': 2, 'accommodates': '4'}": {
+        "error": "",
+        "response": "{'data': {'combined_market_info': {'airdna_market_name': 'Miami', 'airdna_submarket_name': 'South Beach', 'city_name': None, 'country_code': 'us', 'country_id': '1', 'market_id': 'airdna-26', 'market_score': 74.359, 'market_type': 'urban_metro', 'region_name': None, 'submarket_id': 'airdna-1914', 'submarket_score': 79.867}, 'comps': [{'accommodates': 8.0, 'airbnb_property_id': '750146668114680405', 'bathrooms': 2.0, 'bedrooms': 3.0, 'cover_img': 'https://a0.muscache.com/im/pictures/prohost-api/Hosting-750146668114680405/original/e5d8a240-886f-4fa0-8645-d20f3ebe33b1.jpeg', 'distance_meters': 260, 'listing_url': 'https://www.airbnb.com/rooms/750146668114680405', 'location': {'lat': 25.7720315, 'lng': -80.1339172}, 'platforms': {'airbnb_property_id': '750146668114680405', 'vrbo_property_id': '9492580ha'}, 'property_type': 'Apartment', 'rating': 4.5, 'reviews': 121.0, 'room_type': 'Entire home/apt', 'stats': {'adr': {'ltm': 577}, 'days_available': None, 'days_reserved': None, 'occupancy': None, 'revenue': None, 'revenue_potential': None}, 'title': 'Roami at 250 Collins | Rooftop Pool | 3 Bedroom'}, {'accommodates': 8.0, 'airbnb_property_id': '1031674896', 'bathrooms': 2.0, 'bedrooms': 3.0, 'cover_img': 'https://media.vrbo.com/lodging/58000000/57270000/57261100/57261047/3a560217.jpg?impolicy=resizecrop&rw=1200&ra=fit', 'distance_meters': 268, 'listing_url': 'https://www.vrbo.com/9488429ha', 'location': {'lat': 25.772136, 'lng': -80.133872}, 'platforms': {'airbnb_property_id': None"
+    },
+    "{'address': '123 Main Street, New York', 'bedrooms': 3, 'bathrooms': 2}": {
+        "error": "",
+        "response": "{'data': {'combined_market_info': {'airdna_market_name': 'New York', 'airdna_submarket_name': 'Flushing / East Queens', 'city_name': None, 'country_code': 'us', 'country_id': '1', 'market_id': 'airdna-414', 'market_score': 77.206, 'market_type': 'urban_metro', 'region_name': None, 'submarket_id': 'airdna-7265', 'submarket_score': 57.813}, 'comps': [{'accommodates': 5.0, 'airbnb_property_id': '1187189107122379344', 'bathrooms': 2.0, 'bedrooms': 2.0, 'cover_img': 'https://a0.muscache.com/im/pictures/hosting/Hosting-1187189107122379344/original/4e87a5f3-bdb9-40a8-aaac-4bd0c636e90a.jpeg', 'distance_meters': 789, 'listing_url': 'https://www.airbnb.com/rooms/1187189107122379344', 'location': {'lat': 40.7643, 'lng': -73.82239}, 'platforms': {'airbnb_property_id': '1187189107122379344', 'vrbo_property_id': '4107712'}, 'property_type': 'Apartment', 'rating': 5.0, 'reviews': 54, 'room_type': 'Entire home/apt', 'stats': {'adr': {'ltm': 272}, 'days_available': None, 'days_reserved': None, 'occupancy': None, 'revenue': None, 'revenue_potential': None}, 'title': 'Stylish 2 BR/2 BA + Parking in vibrant Flushing'}, {'accommodates': 5.0, 'airbnb_property_id': '1156595301791417164', 'bathrooms': 1.0, 'bedrooms': 2.0, 'cover_img': 'https://a0.muscache.com/im/pictures/miso/Hosting-1156583884030132941/original/fb2f04c1-6750-42ca-8012-b3944d104ed2.png', 'distance_meters': 268, 'listing_url': 'https://www.airbnb.com/rooms/1156595301791417164', 'location': {'lat': 40.76462, 'lng': -73.83252}, 'platf"
+    }
+}

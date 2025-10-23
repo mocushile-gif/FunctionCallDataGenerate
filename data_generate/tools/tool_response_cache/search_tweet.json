@@ -1,0 +1,45 @@
+{
+    "{'q': 'climate change policies since:2025-05-25 until:2025-06-01', 'count': 10}": {
+        "error": "",
+        "response": {
+            "tweets": [
+                {
+                    "id": "173284917384917384",
+                    "text": "New climate change policies proposed to reduce emissions by 45% by 2030. #ClimateAction #PolicyUpdate",
+                    "user": "ClimatePolicyNow",
+                    "created_at": "2025-05-26T08:30:00Z"
+                },
+                {
+                    "id": "173295027395027395",
+                    "text": "Global leaders announce $50B funding for renewable energy initiatives under updated climate policies. #GreenFuture",
+                    "user": "WorldEcoNews",
+                    "created_at": "2025-05-28T15:15:00Z"
+                },
+                {
+                    "id": "173305137405137405",
+                    "text": "Community feedback session on local climate policies starting June 1. Join here: link.in/session #ClimateJustice",
+                    "user": "LocalEcoInitiatives",
+                    "created_at": "2025-05-29T10:00:00Z"
+                }
+            ],
+            "next_cursor": "scroll:thGAVUV0VFVBaegLaxgNKXty0WloC2kd7Tl7ctEnEVzId6FYCJehgEVVNFUjUBFQAVAAA=123",
+            "count": 10
+        }
+    },
+    "{'q': 'AI ethics site:.edu OR site:.gov OR site:.ac since:2025-05-02 filter:links', 'cursor': 'scroll:thGAVUV0VFVBaegLaxgNKXty0WloC2kd7Tl7ctEnEVzId6FYCJehgEVVNFUjUBFQAVAAA=', 'count': 10}": {
+        "error": "",
+        "response": "{'message': '400, bad request'}"
+    },
+    "{'q': 'AI ethics pdf study paper research from:stanford OR from:harvard OR from:oxforduni since:2025-05-02 filter:links', 'cursor': 'scroll:thGAVUV0VFVBaegLaxgNKXty0WloC2kd7Tl7ctEnEVzId6FYCJehgEVVNFUjUBFQAVAAA=', 'count': 10}": {
+        "error": "",
+        "response": "{'message': '400, bad request'}"
+    },
+    "{'q': 'AI ethics site:.edu OR site:.gov OR site:.ac filetype:pdf since:2025-05-02 filter:links', 'cursor': 'scroll:thGAVUV0VFVBaegLaxgNKXty0WloC2kd7Tl7ctEnEVzId6FYCJehgEVVNFUjUBFQAVAAA=', 'count': 10}": {
+        "error": "",
+        "response": "{'message': '400, bad request'}"
+    },
+    "{'q': 'AI ethics study OR paper OR research pdf site:.edu OR site:.gov OR site:.ac since:2025-05-02 filter:links', 'cursor': 'scroll:thGAVUV0VFVBaegLaxgNKXty0WloC2kd7Tl7ctEnEVzId6FYCJehgEVVNFUjUBFQAVAAA=', 'count': 10}": {
+        "error": "",
+        "response": "{'message': '400, bad request'}"
+    }
+}

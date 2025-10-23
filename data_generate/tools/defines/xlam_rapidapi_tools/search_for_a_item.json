@@ -1,0 +1,27 @@
+{
+    "name": "search_for_a_item",
+    "description": "This is a sub-function API for tool league_of_legends_galore.\nTool description: Get Details aboat players, champions, and more!\n\nCheck the About page for details on every API!\nAPI description: This will go through the list of items and return a single item or a list of items depending on YOUR request!",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "champsynergy": {
+                "type": "string",
+                "description": "The champion synergy to filter items by."
+            },
+            "itemsynergy": {
+                "type": "string",
+                "description": "The item synergy to filter items by."
+            },
+            "price": {
+                "type": "string",
+                "description": "The price category to filter items by."
+            },
+            "name": {
+                "type": "string",
+                "description": "The name of the item to search for. Defaults to 'sword'.",
+                "default": "sword"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "provider",
+    "description": "This is a sub-function API for tool dummydata.\nTool description: provides various types of dummy data\nAPI description: Fetches data from a specified provider using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "provider": {
+                "type": "string",
+                "description": "The name of the data provider.",
+                "default": "name"
+            },
+            "amount": {
+                "type": "number",
+                "description": "The quantity of data to fetch from the provider.",
+                "default": 3.0
+            }
+        },
+        "required": [
+            "provider",
+            "amount"
+        ]
+    }
+}

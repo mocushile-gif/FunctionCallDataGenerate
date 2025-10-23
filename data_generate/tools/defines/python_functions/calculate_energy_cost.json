@@ -1,0 +1,32 @@
+{
+    "name": "calculate_energy_cost",
+    "description": "Calculates the monthly energy cost for an appliance based on its power consumption, usage time, and the cost per kilowatt-hour.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "power_kw": {
+                "type": "number",
+                "description": "Power of the appliance in kilowatts."
+            },
+            "usage_hours_per_day": {
+                "type": "number",
+                "description": "Daily usage time in hours."
+            },
+            "rate_per_kwh": {
+                "type": "number",
+                "description": "Cost per kilowatt-hour."
+            },
+            "days_in_month": {
+                "type": "integer",
+                "description": "Number of days in the month. Defaults to 30.",
+                "default": 30,
+                "minimum": 1
+            }
+        },
+        "required": [
+            "power_kw",
+            "usage_hours_per_day",
+            "rate_per_kwh"
+        ]
+    }
+}

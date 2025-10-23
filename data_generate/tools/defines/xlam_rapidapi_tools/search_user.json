@@ -1,0 +1,17 @@
+{
+    "name": "search_user",
+    "description": "This is a sub-function API for tool instagram_v5.\nTool description: Fast Live Instagram API.All information from Instagram consistently and quickly! It makes 3 times in the backend request for you to get 100% successful response. Need help or custom plan? https://instagapi.com - https://t.me/instagapi\nAPI description: Search for Instagram users based on a given keyword using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to search for Instagram users.",
+                "default": "insta"
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

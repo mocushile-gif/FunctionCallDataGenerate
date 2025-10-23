@@ -1,0 +1,41 @@
+{
+    "name": "calculate_displacement",
+    "description": "Calculates the displacement of an object considering constant acceleration, air resistance, and initial position.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "initial_velocity": {
+                "type": "number",
+                "description": "The initial velocity of the object (m/s)."
+            },
+            "acceleration": {
+                "type": "number",
+                "description": "The constant acceleration of the object (m/s²)."
+            },
+            "time": {
+                "type": "number",
+                "description": "The time elapsed (s)."
+            },
+            "initial_position": {
+                "type": "number",
+                "description": "The initial position of the object (m). Defaults to 0.0.",
+                "default": 0.0
+            },
+            "drag_coefficient": {
+                "type": "number",
+                "description": "The drag coefficient (dimensionless). Defaults to 0.1.",
+                "default": 0.1
+            },
+            "mass": {
+                "type": "number",
+                "description": "The mass of the object (kg). Defaults to 1.0.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "initial_velocity",
+            "acceleration",
+            "time"
+        ]
+    }
+}

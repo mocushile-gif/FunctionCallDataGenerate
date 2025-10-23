@@ -1,0 +1,26 @@
+{
+  "name": "execute_sql_command",
+  "description": "Execute a SQL command on a SQLite database. Supports SELECT/INSERT/UPDATE, exporting result to file, or storing in a temp table.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "database_path": {
+        "type": "string",
+        "description": "Absolute path to the SQLite database file"
+      },
+      "query": {
+        "type": "string",
+        "description": "SQL query to execute (can be SELECT, INSERT, UPDATE, etc.)"
+      },
+      "save_to_file": {
+        "type": "string",
+        "description": "Optional: Path to save SELECT result (.csv or .xlsx). Ignored if not a SELECT query"
+      },
+      "create_temp_table": {
+        "type": "string",
+        "description": "Optional: Name of a temporary table to store SELECT results in the same database"
+      }
+    },
+    "required": ["database_path", "query"]
+  }
+}

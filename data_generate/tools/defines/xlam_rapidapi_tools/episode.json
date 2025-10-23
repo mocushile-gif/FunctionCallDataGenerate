@@ -1,0 +1,16 @@
+{
+    "name": "episode",
+    "description": "This is a sub-function API for tool vod_app.\nTool description: API for video on demand app\nAPI description: Fetches data for a single episode from the VOD app API using the provided episode house number and API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "episodehousenumber": {
+                "type": "string",
+                "description": "The unique identifier for the specific episode to be fetched."
+            }
+        },
+        "required": [
+            "episodehousenumber"
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "{'genre_id': 207}": {
+        "error": "",
+        "response": {
+            "success": true,
+            "has_next": false,
+            "total": 0,
+            "data": []
+        }
+    },
+    "{'country_id': 50, 'keyword': 'music'}": {
+        "error": "",
+        "response": "{'success': True, 'has_next': False, 'total': 0, 'data': []}"
+    },
+    "{'country_id': 50, 'keyword': 'electronic'}": {
+        "error": "",
+        "response": "{'success': True, 'has_next': False, 'total': 0, 'data': []}"
+    },
+    "{'country_id': 50, 'keyword': 'electronic', 'genre_id': 7}": {
+        "error": "",
+        "response": "{'success': True, 'has_next': False, 'total': 0, 'data': []}"
+    },
+    "{'country_id': 50, 'genre_id': 13, 'page': 1}": {
+        "error": "",
+        "response": "{'success': True, 'has_next': False, 'total': 0, 'data': []}"
+    },
+    "{'country_id': 50, 'genre_id': 14, 'page': 1}": {
+        "error": "",
+        "response": "{'success': True, 'has_next': False, 'total': 0, 'data': []}"
+    },
+    "{'country_id': 50, 'genre_id': 11, 'page': 1}": {
+        "error": "",
+        "response": "{'success': True, 'has_next': False, 'total': 0, 'data': []}"
+    },
+    "{'country_id': 50, 'keyword': 'jazz', 'city_id': 1}": {
+        "error": "",
+        "response": "{'success': True, 'has_next': False, 'total': 0, 'data': []}"
+    },
+    "{'country_id': 50, 'keyword': 'smooth jazz', 'city_id': 1}": {
+        "error": "",
+        "response": "{'success': True, 'has_next': False, 'total': 0, 'data': []}"
+    },
+    "{'country_id': 50, 'keyword': 'smooth jazz'}": {
+        "error": "",
+        "response": "{'success': True, 'has_next': False, 'total': 0, 'data': []}"
+    }
+}

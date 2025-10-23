@@ -1,0 +1,27 @@
+{
+    "name": "zappos_search_product",
+    "description": "This is a sub-function API for tool zappos_realtime_data.\nTool description: Zappos Realtime Data\nAPI description: Searches for products on Zappos using the given keyword and various optional parameters for sorting and pagination.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The search term to use for finding products on Zappos.",
+                "default": "crocs body"
+            },
+            "sort": {
+                "type": "string",
+                "description": "The sorting criteria for the search results. Possible values are 'best_seller', 'relevance', 'low_to_high', 'high_to_low', 'customer_rating', 'new_arrivals', and 'brand_name'. Defaults to 'new_arrivals'.",
+                "default": "new_arrivals"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for pagination of search results. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

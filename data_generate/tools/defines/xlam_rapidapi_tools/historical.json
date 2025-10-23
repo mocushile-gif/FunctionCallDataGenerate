@@ -1,0 +1,16 @@
+{
+    "name": "historical",
+    "description": "This is a sub-function API for tool exchange_rate.\nTool description: An API for current and historical foreign exchange rates published by the European Central Bank.\nAPI description: Fetches the Fear and Greed Index for a given date from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve the index, in the format 'YYYY-MM-DD'."
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

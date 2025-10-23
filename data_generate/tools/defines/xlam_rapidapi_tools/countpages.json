@@ -1,0 +1,16 @@
+{
+    "name": "countpages",
+    "description": "This is a sub-function API for tool seo_count_website_pages_in_google_index.\nTool description: API allows quickly and easily determine the number of pages from a particular website that are indexed in Google's\nAPI description: Counts the number of website pages indexed by Google for a given URL using the specified RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the website to check the number of indexed pages."
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

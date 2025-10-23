@@ -1,0 +1,32 @@
+{
+    "{'language': 'es', 'is_id': '37'}": {
+        "error": "",
+        "response": {
+            "hero_id": 37,
+            "name": "Se\u00f1or de las Sombras",
+            "localized_name": "Se\u00f1or de las Sombras",
+            "bio": "Un ser eterno que absorbe almas enemigas para fortalecerse en la batalla, capaz de regenerar su vida mediante la oscuridad.",
+            "image": "https://cdn.dota2.com/apps/dota2/images/heroes/nevermore_full_es.jpg",
+            "roles": [
+                "Carga",
+                "Asesino",
+                "Nuker"
+            ],
+            "abilities": [
+                {
+                    "name": "Realidad Sombra",
+                    "description": "Se convierte en una sombra, evadiendo da\u00f1o y recuperando vida por cada alma absorbida."
+                },
+                {
+                    "name": "Cazador de Almas",
+                    "description": "Lanza un proyectil que absorbe almas enemigas, aumentando su regeneraci\u00f3n."
+                }
+            ],
+            "talents": [
+                "Nivel 10: Quema de Almas (Aumenta el da\u00f1o de Cazador de Almas)",
+                "Nivel 15: Dominio Oscuro (Reduce el cooldown de Realidad Sombra)"
+            ],
+            "video": "https://videos.dota2.com/nevermore_es.mp4"
+        }
+    }
+}

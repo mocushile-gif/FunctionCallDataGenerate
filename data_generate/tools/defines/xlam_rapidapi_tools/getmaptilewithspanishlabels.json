@@ -1,0 +1,29 @@
+{
+    "name": "getmaptilewithspanishlabels",
+    "description": "This is a sub-function API for tool maptiles.\nTool description: Map Tiles for interactive online maps based on data by OpenStreetMap contributors with labels in English, French or Spanish. \nAPI description: Raster Map Tiles with Spanish Labels. Please see [tutorial](https://rapidapi.com/MapTilesApi/api/maptiles/tutorials/openstreetmap-in-spanish---add-a-spanish-map-to-your-website-with-leaflet-js-and-maptiles-api) on how to use the Spanish world map.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "z": {
+                "type": "number",
+                "description": "Zoom level, ranging from 0 to 19.",
+                "default": 3.0
+            },
+            "x": {
+                "type": "number",
+                "description": "X-number of tile (see documentation)",
+                "default": 4.0
+            },
+            "y": {
+                "type": "number",
+                "description": "Y-number of tile (see documentation)",
+                "default": 2.0
+            }
+        },
+        "required": [
+            "z",
+            "x",
+            "y"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "gethardquestion",
+    "description": "This is a sub-function API for tool leetcodeapi.\nTool description: The API fetches basic information of a LeetCode profile based on the provided username.\nAPI description: Fetches the number of hard questions solved by a specified user on LeetCode using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The LeetCode username of the user whose hard question count is to be retrieved.",
+                "default": "mujtabah258"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

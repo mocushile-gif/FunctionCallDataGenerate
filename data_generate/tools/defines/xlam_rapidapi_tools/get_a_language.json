@@ -1,0 +1,17 @@
+{
+    "name": "get_a_language",
+    "description": "This is a sub-function API for tool judge0_ce.\nTool description: The most advanced open-source online code execution system in the world.\nAPI description: Retrieve information about a programming language using Judge0 API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the programming language to retrieve information for.",
+                "default": "52"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

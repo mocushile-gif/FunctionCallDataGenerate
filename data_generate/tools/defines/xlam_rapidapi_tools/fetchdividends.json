@@ -1,0 +1,16 @@
+{
+    "name": "fetchdividends",
+    "description": "This is a sub-function API for tool latest_mutual_fund_nav.\nTool description: API provides latest NAV information of all mutual funds in India from Association of Mutual Funds of India (AMFI). The database will update as soon as data is updated on AMFI.\nAPI description: Fetches the dividends data for a given ISIN using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "isin": {
+                "type": "string",
+                "description": "The International Securities Identification Number (ISIN) for which to fetch dividends data."
+            }
+        },
+        "required": [
+            "isin"
+        ]
+    }
+}

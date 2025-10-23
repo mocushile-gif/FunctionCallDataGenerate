@@ -1,0 +1,19 @@
+{
+    "name": "igtv",
+    "description": "This is a sub-function API for tool ig_private_api.\nTool description: IG Private API - get any Instagram stories, Highlights, Posts, Photos and Videos from public profiles by API Test for free 😃 You can get quick help via telegram app: @insta4root\nAPI description: Fetch IGTV channel details for a given Instagram username.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username to fetch IGTV details for. Defaults to 'kimkardashian'.",
+                "default": "kimkardashian"
+            },
+            "nextmaxid": {
+                "type": "string",
+                "description": "Pagination identifier for fetching next set of results."
+            }
+        },
+        "required": []
+    }
+}

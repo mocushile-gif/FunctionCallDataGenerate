@@ -1,0 +1,40 @@
+{
+    "{'is_id': 'lng-esports'}": {
+        "error": "",
+        "response": {
+            "team": {
+                "id": "lng-esports",
+                "name": "LNG Esports",
+                "region": "China LPL",
+                "players": [
+                    {
+                        "name": "Mapichai",
+                        "role": "Top Lane",
+                        "position": "Starting"
+                    },
+                    {
+                        "name": "Zika",
+                        "role": "Jungler",
+                        "position": "Starting"
+                    },
+                    {
+                        "name": "Scout",
+                        "role": "Mid Lane",
+                        "position": "Captain"
+                    },
+                    {
+                        "name": "GALA",
+                        "role": "ADC",
+                        "position": "Starting"
+                    },
+                    {
+                        "name": "Hang",
+                        "role": "Support",
+                        "position": "Starting"
+                    }
+                ],
+                "last_updated": "2023-11-15"
+            }
+        }
+    }
+}

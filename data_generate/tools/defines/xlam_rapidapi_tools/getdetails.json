@@ -1,0 +1,16 @@
+{
+    "name": "getdetails",
+    "description": "This is a sub-function API for tool katzion_test.\nTool description: katzion test\nAPI description: Fetch the details associated with a given Australian Business Number (ABN) from the katzion-test API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "abn": {
+                "type": "string",
+                "description": "The Australian Business Number to fetch details for."
+            }
+        },
+        "required": [
+            "abn"
+        ]
+    }
+}

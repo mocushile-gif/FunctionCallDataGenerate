@@ -1,0 +1,17 @@
+{
+    "name": "get_followers_by_username",
+    "description": "This is a sub-function API for tool instagram_api_v2.\nTool description: instagram scraping, all endpoints\nAPI description: Retrieves the information of 12 followers for a given Instagram username using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username for which to fetch followers information.",
+                "default": "parsl3y"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

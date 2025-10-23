@@ -1,0 +1,36 @@
+{
+    "{'type': 'kettlebells'}": {
+        "error": "",
+        "response": [
+            {
+                "name": "Kettlebell Swing",
+                "description": "A dynamic power exercise that works the posterior chain, glutes, and hamstrings using a kettlebell.",
+                "demo": "exercisedb.com/demos/kettlebell-swing"
+            },
+            {
+                "name": "Goblet Squat",
+                "description": "A lower-body strength exercise holding a kettlebell at chest height to improve squat form and core stability.",
+                "demo": "exercisedb.com/demos/goblet-squat"
+            },
+            {
+                "name": "Turkish Get-Up",
+                "description": "A full-body movement that combines core engagement, mobility, and strength using a kettlebell.",
+                "demo": "exercisedb.com/demos/turkish-get-up"
+            },
+            {
+                "name": "Kettlebell Clean and Press",
+                "description": "Builds explosive strength by transitioning the kettlebell from swing to rack position and pressing overhead.",
+                "demo": "exercisedb.com/demos/clean-and-press"
+            },
+            {
+                "name": "Kettlebell Deadlift",
+                "description": "Targets the posterior chain and core with controlled hip-hinging using a kettlebell.",
+                "demo": "exercisedb.com/demos/kettlebell-deadlift"
+            }
+        ]
+    },
+    "{'type': 'dumbbell'}": {
+        "error": "",
+        "response": "[{'bodyPart': 'chest', 'equipment': 'dumbbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/IdmPYONvhrE0Rw', 'id': '1274', 'name': 'deep push up', 'target': 'pectorals'}, {'bodyPart': 'upper arms', 'equipment': 'dumbbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/CR5CPKxHpQ671-', 'id': '0285', 'name': 'dumbbell alternate biceps curl', 'target': 'biceps'}, {'bodyPart': 'upper arms', 'equipment': 'dumbbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/i5B8zs0ZvDX6zp', 'id': '2403', 'name': 'dumbbell alternate biceps curl (with arm blaster)', 'target': 'biceps'}, {'bodyPart': 'upper arms', 'equipment': 'dumbbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/CoOS-gDZVYFwaS', 'id': '1646', 'name': 'dumbbell alternate hammer preacher curl', 'target': 'biceps'}, {'bodyPart': 'upper arms', 'equipment': 'dumbbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/BrILqznD-Oc2jr', 'id': '1647', 'name': 'dumbbell alternate preacher curl', 'target': 'biceps'}, {'bodyPart': 'upper arms', 'equipment': 'dumbbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/yz7vNHEEuEL1Ji', 'id': '1648', 'name': 'dumbbell alternate seated hammer curl', 'target': 'biceps'}, {'bodyPart': 'shoulders', 'equipment': 'dumbbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/EptiDnK0j48wRS', 'id': '0286', 'name': 'dumbbell alternate side press', 'target': 'delts'}, {'bodyPart': 'upper arms', 'equipment': 'dumbbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/UKu6hRoqf-0BjH', 'id': '1649', 'name': 'dumbbell alternating bicep curl with leg raised on exercise ball', 'target': 'biceps'}, {'bodyPart': 'upper arms', 'equipment': 'dumbbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/mysQ76qxgX24uI', 'id': '1650', 'name': 'dumbbell alternating seated bicep curl on exercise ball', 'target': 'biceps'}, {'bodyPart': 'shoulders', 'equipment': 'dumbbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/1p60wKYXMUEvLS', 'id': '2137', 'name': 'dumbbell arnold press', 'targ"
+    }
+}

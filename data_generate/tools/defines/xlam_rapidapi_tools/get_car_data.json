@@ -1,0 +1,29 @@
+{
+    "name": "get_car_data",
+    "description": "This is a sub-function API for tool infocarsapi.\nTool description: Access detailed car data and captivating visuals effortlessly.\nAPI description: Fetch specifications, pictures, and average pricing of a car based on its model, year, and maker.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "model": {
+                "type": "string",
+                "description": "The model of the car.",
+                "default": "chiron"
+            },
+            "year": {
+                "type": "string",
+                "description": "The year the car was manufactured.",
+                "default": "2021"
+            },
+            "maker": {
+                "type": "string",
+                "description": "The manufacturer of the car.",
+                "default": "bugatti"
+            }
+        },
+        "required": [
+            "model",
+            "year",
+            "maker"
+        ]
+    }
+}

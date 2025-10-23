@@ -1,0 +1,21 @@
+{
+    "name": "user_login",
+    "description": "This is a sub-function API for tool zipwhip.\nTool description: Cloud texting for toll free,\r\nlandline,\r\nand mobile numbers\r\nSend and receive text messages\r\nfrom your laptop, desktop, or\r\ntablet computer using your\r\nexisting mobile or landline\r\nphone number.\nAPI description: Takes a username and password and returns json with the account's session key. A sessionkey lasts forever, so it is best to store the sessionkey and use it for future purposes.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "Username for the user account. For US domestic users, this should be a 10-digit number. For international users, use the full E.164 format (e.g., US: 5555555555, E.164: +1155555555555)."
+            },
+            "password": {
+                "type": "string",
+                "description": "Password associated with phone number being entered in user/login."
+            }
+        },
+        "required": [
+            "username",
+            "password"
+        ]
+    }
+}

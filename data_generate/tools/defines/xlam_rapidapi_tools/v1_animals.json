@@ -1,0 +1,17 @@
+{
+    "name": "v1_animals",
+    "description": "This is a sub-function API for tool animals_by_api_ninjas.\nTool description: Detailed and interesting facts for thousands of animal species. See more info at https://api-ninjas.com/api/animals.\nAPI description: Queries the API Ninjas Animals API endpoint to return up to 10 results matching the input animal name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The common name of the animal to search. This parameter supports partial matches (e.g., \"fox\" will match \"gray fox\" and \"red fox\").",
+                "default": "cheetah"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

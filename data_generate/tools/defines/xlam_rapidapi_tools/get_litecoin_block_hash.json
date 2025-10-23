@@ -1,0 +1,17 @@
+{
+    "name": "get_litecoin_block_hash",
+    "description": "This is a sub-function API for tool litecoin_wallet.\nTool description: litecoin blockchain wallet that support creating wallets & addresses, sending and receiving Litecoins and many more!\nAPI description: Fetches the hash of a Litecoin block by its index using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "i": {
+                "type": "number",
+                "description": "The index of the Litecoin block.",
+                "default": 23.0
+            }
+        },
+        "required": [
+            "i"
+        ]
+    }
+}

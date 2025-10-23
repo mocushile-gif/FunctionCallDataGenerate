@@ -1,0 +1,35 @@
+{
+    "name": "ski_weather_api",
+    "description": "This is a sub-function API for tool world_weather_online_api.\nTool description: Free Weather API and Geo API for worldwide locations, hourly weather, 14-day weather, historical weather, and Marine and Ski weather API for developers and businesses in XML and JSON format.\nAPI description: Fetches ski weather forecasts from the World Weather Online API for a specified location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The location query (e.g., city name, latitude/longitude).",
+                "default": "45.45,6.7"
+            },
+            "tp": {
+                "type": "string",
+                "description": "Time period for the weather forecast (e.g., '3 hourly'). Default is None."
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the weather forecast (default is 'en' for English).",
+                "default": "en"
+            },
+            "format": {
+                "type": "string",
+                "description": "The response format, such as 'json' or 'xml'. Default is None."
+            },
+            "num_of_days": {
+                "type": "number",
+                "description": "The number of days for the weather forecast, with a maximum of 7 days. Default is 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

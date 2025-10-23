@@ -1,0 +1,36 @@
+{
+    "name": "historical_weather",
+    "description": "This is a sub-function API for tool ai_weather_by_meteosource.\nTool description: Accurate hyper-local weather forecasts, powered by our cutting-edge machine learning (ML) models. Historical weather, current weather, weather statistics , and hour-by-hour forecast - all weather data updated in real-time!\nAPI description: Receive **historical weather** data for a **given day** in the past **8 years**. Define your location using GPS coordinates or `place_id` from `Location endpoints`.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The UTC day of the data in the past in `YYYY-MM-DD` format.",
+                "default": "2021-08-24"
+            },
+            "lat": {
+                "type": "string",
+                "description": "Latitude in the following format: `12N`, `12.3N`, `12.3`, `13S`, `13.2S`, `-13.4`. If not provided, `place_id` must be specified. Default is '37.81021'.",
+                "default": "37.81021"
+            },
+            "place_id": {
+                "type": "string",
+                "description": "Identifier of a place. To obtain the `place_id` for the location you want, please use `Location endpoints`. **Alternatively, you can specify the location by parameters `lat` and `lon`.**"
+            },
+            "units": {
+                "type": "string",
+                "description": "Unit system to be used. The available values are:\n\n- `auto`: Select the system automatically, based on the forecast location.\n- `metric`: Metric (SI) units (`°C`, `mm/h`, `m/s`, `cm`, `km`, `hPa`).\n- `us`: Imperial units (`°F`, `in/h`, `mph`, `in`, `mi`, `Hg`).\n- `uk`: Same as `metric`, except that visibility is in `miles` and wind speeds are in `mph`.\n- `ca`: Same as `metric`, except that wind speeds are in `km/h` and pressure is in `kPa`.\n",
+                "default": "auto"
+            },
+            "lon": {
+                "type": "string",
+                "description": "Longitude in the following format: `12E`, `12.3E`, `12.3`, `13W`, `13.2W`, `-13.4`. If not provided, `place_id` must be specified. Default is '-122.42282'.",
+                "default": "-122.42282"
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

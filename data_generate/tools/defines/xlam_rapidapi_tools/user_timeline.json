@@ -1,0 +1,27 @@
+{
+    "name": "user_timeline",
+    "description": "This is a sub-function API for tool twitter_pack_v2.\nTool description: Complete pack to get any public information on twitter, includes Twitter Trends, Search Tweet, User Activity\nAPI description: Fetches the tweet timeline for a specified user ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "number",
+                "description": "The unique identifier of the Twitter user whose timeline is to be fetched.",
+                "default": 44196397.0
+            },
+            "cursor": {
+                "type": "string",
+                "description": "Cursor for pagination to fetch the next set of results. Defaults to 'HBaEgNKVxpvYtS0AAA=='.",
+                "default": "HBaEgNKVxpvYtS0AAA=="
+            },
+            "count": {
+                "type": "number",
+                "description": "Number of tweets to retrieve. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "user_id"
+        ]
+    }
+}

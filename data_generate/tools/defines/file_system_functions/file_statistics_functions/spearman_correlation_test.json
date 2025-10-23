@@ -1,0 +1,28 @@
+{
+    "name": "spearman_correlation_test",
+    "description": "Calculate the Spearman correlation coefficient between two numeric columns from a dataset. Suitable for non-normally distributed data.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "Path to the data file (.csv, .xlsx, .json, or .jsonl)."
+        },
+        "sheet_name": {
+          "type": ["string", "integer"],
+          "description": "Sheet name or index for Excel files.",
+          "default": 0
+        },
+        "x_col": {
+          "type": "string",
+          "description": "The name of the first numeric column."
+        },
+        "y_col": {
+          "type": "string",
+          "description": "The name of the second numeric column."
+        }
+      },
+      "required": ["file_path", "x_col", "y_col"]
+    }
+  }
+  

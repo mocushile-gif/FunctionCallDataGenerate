@@ -1,0 +1,41 @@
+{
+  "name": "normality_test_from_database",
+  "description": "Perform normality tests on one or more numeric columns from a SQLite database table or query.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "database_path": {
+        "type": "string",
+        "description": "Path to the SQLite database file."
+      },
+      "from_clause": {
+        "type": "string",
+        "description": "SQL FROM clause (table name or JOIN expression)."
+      },
+      "numeric_cols": {
+        "type": "array",
+        "description": "List of numeric column names to test for normality.",
+        "items": {
+          "type": "string"
+        }
+      },
+      "where_clause": {
+        "type": "string",
+        "description": "Optional SQL WHERE clause (excluding the 'WHERE' keyword)."
+      },
+      "where_params": {
+        "type": "array",
+        "description": "List of parameter values to be substituted into the WHERE clause.",
+        "items": {
+          "type": "string"
+        }
+      },
+      "use_log_transform": {
+        "type": "boolean",
+        "description": "Whether to apply log1p transformation before testing.",
+        "default": false
+      }
+    },
+    "required": ["database_path", "from_clause", "numeric_cols"]
+  }
+}

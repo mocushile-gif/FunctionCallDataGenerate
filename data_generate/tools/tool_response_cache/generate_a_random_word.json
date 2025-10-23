@@ -1,0 +1,18 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{\"word\":\"club\"}"
+    },
+    "{'api_key': '5w36eV0FZJu9QIPlpR18', 'generator': 'words'}": {
+        "error": "",
+        "response": "{'word': 'college'}"
+    },
+    "{'generator': 'words'}": {
+        "error": "",
+        "response": "{'word': 'test'}"
+    },
+    "{'generator': 'emotions'}": {
+        "error": "",
+        "response": "{'name': 'PHP Warning', 'message': 'count(): Parameter must be an array or an object that implements Countable', 'code': 2, 'type': 'yii\\\\base\\\\ErrorException', 'file': '/var/www/randomwordgenerator/html/app/controllers/SiteController.php', 'line': 612, 'stack-trace': ['#0 [internal function]: yii\\\\base\\\\ErrorHandler->handleError()', '#1 /var/www/randomwordgenerator/html/app/controllers/SiteController.php(612): count()', '#2 [internal function]: app\\\\controllers\\\\SiteController->actionWordsApi()', '#3 /var/www/randomwordgenerator/html/app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()', '#4 /var/www/randomwordgenerator/html/app/vendor/yiisoft/yii2/base/Controller.php(178): yii\\\\base\\\\InlineAction->runWithParams()', '#5 /var/www/randomwordgenerator/html/app/vendor/yiisoft/yii2/base/Module.php(552): yii\\\\base\\\\Controller->runAction()', '#6 /var/www/randomwordgenerator/html/app/vendor/yiisoft/yii2/web/Application.php(103): yii\\\\base\\\\Module->runAction()', '#7 /var/www/randomwordgenerator/html/app/vendor/yiisoft/yii2/base/Application.php(384): yii\\\\web\\\\Application->handleRequest()', '#8 /var/www/randomwordgenerator/html/index.php(14): yii\\\\base\\\\Application->run()', '#9 {main}']}"
+    }
+}

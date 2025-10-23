@@ -1,0 +1,17 @@
+{
+    "name": "get_specifications_by_custom_id",
+    "description": "This is a sub-function API for tool mobile_phone_specs_database.\nTool description: Our cell phones / mobile phones specs database (GSM specs) is a collection of specifications and features of different models of mobile phones (more than 10,000 models). This information includes the device's dimensions,  images, weight, display size and type, processor, memory, storage, camera specifications, battery capacity, operating system, and connectivity options, among others. \nThe purpose of this database is to provide a comprehensive source of information for consumers to compare an...\nAPI description: Fetch specifications for a mobile phone using its custom ID via the Mobile Phone Specs Database API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phonecustomid": {
+                "type": "number",
+                "description": "The custom ID of the mobile phone for which specifications are to be fetched.",
+                "default": 103693.0
+            }
+        },
+        "required": [
+            "phonecustomid"
+        ]
+    }
+}

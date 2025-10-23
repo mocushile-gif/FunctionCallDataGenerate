@@ -1,0 +1,27 @@
+{
+    "{}": {
+        "error": "",
+        "response": [
+            {
+                "_id": {
+                    "$oid": "608f351212cfe86b00a1c802"
+                },
+                "playerId": "50525",
+                "firstName": "Collin",
+                "lastName": "Morikawa"
+            }
+        ]
+    },
+    "{'firstname': 'Collin', 'lastname': 'Morikawa'}": {
+        "error": "",
+        "response": "[{'_id': {'$oid': '608f351212cfe86b00a1c802'}, 'playerId': '50525', 'firstName': 'Collin', 'lastName': 'Morikawa'}]"
+    },
+    "{'firstname': 'Collin', 'lastname': 'Morikawa', 'playerid': '50525'}": {
+        "error": "",
+        "response": "[{'_id': {'$oid': '608f351212cfe86b00a1c802'}, 'playerId': '50525', 'firstName': 'Collin', 'lastName': 'Morikawa'}]"
+    },
+    "{'lastname': 'Morikawa', 'firstname': 'Collin'}": {
+        "error": "",
+        "response": "[{'_id': {'$oid': '608f351212cfe86b00a1c802'}, 'playerId': '50525', 'firstName': 'Collin', 'lastName': 'Morikawa'}]"
+    }
+}

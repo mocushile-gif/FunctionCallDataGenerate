@@ -1,0 +1,17 @@
+{
+    "name": "get_car_models",
+    "description": "This is a sub-function API for tool infocarsapi.\nTool description: Access detailed car data and captivating visuals effortlessly.\nAPI description: Fetches all car models for a specified car maker using the InfoCars API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "maker": {
+                "type": "string",
+                "description": "The name of the car maker to fetch the models for.",
+                "default": "Bugatti"
+            }
+        },
+        "required": [
+            "maker"
+        ]
+    }
+}

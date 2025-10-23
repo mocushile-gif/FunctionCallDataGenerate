@@ -1,0 +1,30 @@
+{
+    "{}": {
+        "error": "",
+        "response": "[{\"ticker\":\"GOOG\",\"timestamp\":\"2023-06-23T20:00:00+00:00\",\"lastSaleTimestamp\":\"2023-06-23T20:00:00+00:00\",\"quoteTimestamp\":\"2023-06-23T20:00:00+00:00\",\"open\":122.04,\"high\":123.44,\"low\":121.86,\"mid\":null,\"tngoLast\":123.02,\"last\":123.02,\"lastSize\":null,\"bidSize\":null,\"bidPrice\":null,\"askPrice\":null,\"askSize\":null,\"volume\":29573123,\"prevClose\":123.87}]"
+    },
+    "{'keyword': 'AAPL'}": {
+        "error": "",
+        "response": "[{'ticker': 'AAPL', 'timestamp': '2025-04-03T10:08:43.512643173-04:00', 'lastSaleTimestamp': None, 'quoteTimestamp': None, 'open': 207.19, 'high': 207.465, 'low': 202.52, 'mid': 204.005, 'tngoLast': 204.005, 'last': None, 'lastSize': None, 'bidSize': None, 'bidPrice': None, 'askPrice': None, 'askSize': None, 'prevClose': 223.89, 'volume': 513735}]"
+    },
+    "{'keyword': 'NVDA'}": {
+        "error": "",
+        "response": "[{'ticker': 'NVDA', 'timestamp': '2025-05-30T20:00:00+00:00', 'lastSaleTimestamp': None, 'quoteTimestamp': None, 'open': 138.715, 'high': 139.62, 'low': 132.92, 'mid': None, 'tngoLast': 135.13, 'last': None, 'lastSize': None, 'bidSize': None, 'bidPrice': None, 'askPrice': None, 'askSize': None, 'volume': 333170851, 'prevClose': 139.19}]"
+    },
+    "{'keyword': 'GOOG'}": {
+        "error": "",
+        "response": "[{'ticker': 'GOOG', 'timestamp': '2025-05-30T20:00:00+00:00', 'lastSaleTimestamp': None, 'quoteTimestamp': None, 'open': 172.41, 'high': 173.44, 'low': 168.525, 'mid': None, 'tngoLast': 172.85, 'last': None, 'lastSize': None, 'bidSize': None, 'bidPrice': None, 'askPrice': None, 'askSize': None, 'volume': 36258254, 'prevClose': 172.96}]"
+    },
+    "{'keyword': 'MSFT'}": {
+        "error": "",
+        "response": "[{'ticker': 'MSFT', 'timestamp': '2025-05-30T20:00:00+00:00', 'lastSaleTimestamp': None, 'quoteTimestamp': None, 'open': 459.715, 'high': 461.68, 'low': 455.54, 'mid': None, 'tngoLast': 460.36, 'last': None, 'lastSize': None, 'bidSize': None, 'bidPrice': None, 'askPrice': None, 'askSize': None, 'volume': 34770475, 'prevClose': 458.68}]"
+    },
+    "{'keyword': 'AMZN'}": {
+        "error": "",
+        "response": "[{'ticker': 'AMZN', 'timestamp': '2025-04-17T20:00:00+00:00', 'lastSaleTimestamp': None, 'quoteTimestamp': None, 'open': 176, 'high': 176.21, 'low': 172, 'mid': None, 'tngoLast': 172.61, 'last': None, 'lastSize': None, 'bidSize': None, 'bidPrice': None, 'askPrice': None, 'askSize': None, 'volume': 44726453, 'prevClose': 174.33}]"
+    },
+    "{'keyword': 'TSLA'}": {
+        "error": "",
+        "response": "[{'ticker': 'TSLA', 'timestamp': '2025-04-01T20:00:00+00:00', 'lastSaleTimestamp': None, 'quoteTimestamp': None, 'open': 263.8, 'high': 277.45, 'low': 259.25, 'mid': None, 'tngoLast': 268.46, 'last': None, 'lastSize': None, 'bidSize': None, 'bidPrice': None, 'askPrice': None, 'askSize': None, 'volume': 146486911, 'prevClose': 259.16}]"
+    }
+}

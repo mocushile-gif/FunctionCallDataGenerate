@@ -1,0 +1,63 @@
+{
+    "name": "v1_dogs",
+    "description": "This is a sub-function API for tool dogs_by_api_ninjas.\nTool description: Detailed, qualitative information on over 200 different breeds of dogs. See more info at https://api-ninjas.com/api/dogs.\nAPI description: Get a list of dog breeds matching specified parameters. Returns at most 20 results. To access more than 20 results, use the offset parameter to offset results in multiple API calls.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "offset": {
+                "type": "number",
+                "description": "Number of results to offset for pagination. Defaults to None."
+            },
+            "energy": {
+                "type": "number",
+                "description": "How much energy the breed has. Possible values: 0, 1, 2, 3, 4, 5, where 0 indicates low energy and 5 indicates high energy."
+            },
+            "protectiveness": {
+                "type": "number",
+                "description": "How likely the breed is to alert strangers. Possible values: 0, 1, 2, 3, 4, 5, where 0 indicates minimal alerting and 5 indicates maximum alerting."
+            },
+            "max_weight": {
+                "type": "number",
+                "description": "Maximum weight of the breed in pounds. Defaults to None."
+            },
+            "min_weight": {
+                "type": "number",
+                "description": "Minimum weight of the breed in pounds. Defaults to None."
+            },
+            "trainability": {
+                "type": "number",
+                "description": "How easy it is to train the breed. Possible values: 0, 1, 2, 3, 4, 5, where 0 indicates the breed is very difficult to train and 5 indicates the breed is very easy to train."
+            },
+            "shedding": {
+                "type": "number",
+                "description": "How much hair the breed sheds. Possible values: 0, 1, 2, 3, 4, 5, where 0 indicates no shedding and 5 indicates maximum shedding."
+            },
+            "name": {
+                "type": "string",
+                "description": "Name of the dog breed. Defaults to 'golden retriever'.",
+                "default": "golden retriever"
+            },
+            "min_height": {
+                "type": "number",
+                "description": "Minimum height of the breed in inches. Defaults to None."
+            },
+            "barking": {
+                "type": "number",
+                "description": "How vocal the breed is. Possible values: 0, 1, 2, 3, 4, 5, where 0 indicates minimal barking and 5 indicates maximum barking."
+            },
+            "max_height": {
+                "type": "number",
+                "description": "Maximum height of the breed in inches. Defaults to None."
+            },
+            "max_life_expectancy": {
+                "type": "number",
+                "description": "Maximum life expectancy of the breed in years. Defaults to None."
+            },
+            "min_life_expectancy": {
+                "type": "number",
+                "description": "Minimum life expectancy of the breed in years. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "now",
+    "description": "This is a sub-function API for tool date_calculator.\nTool description: This API helps to perform some computations on dates: accrual factors, maturity dates, contract dates,  and other due dates, datetime delta, time zones conversion, recurring dates, and much more. \nAPI description: Fetches the current time for a specified time zone using the RapidAPI date calculator service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tzname": {
+                "type": "string",
+                "description": "The name of the time zone for which to fetch the current time. Defaults to 'UTC'.",
+                "default": "UTC"
+            }
+        },
+        "required": []
+    }
+}

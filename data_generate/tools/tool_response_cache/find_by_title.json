@@ -1,0 +1,124 @@
+{
+    "{'q': 'party themed movies'}": {
+        "error": "",
+        "response": {
+            "@meta": {
+                "operation": "Search",
+                "requestId": "f70a5140-d877-4df8-8380-64675fe0b55b",
+                "serviceTimeMs": 327.915763
+            },
+            "@type": "imdb.api.find.response",
+            "query": "party themed movies",
+            "types": [
+                "title",
+                "name"
+            ]
+        }
+    },
+    "{'q': 'interesting movie facts'}": {
+        "error": "",
+        "response": {
+            "@meta": {
+                "operation": "Search",
+                "requestId": "8e5b31cf-e2ec-4f8f-a8e7-397e81e5759d",
+                "serviceTimeMs": 393.000935
+            },
+            "@type": "imdb.api.find.response",
+            "query": "interesting movie facts",
+            "results": [
+                {
+                    "id": "/title/tt26601940/",
+                    "nextEpisode": "/title/tt27312950/",
+                    "parentTitle": {
+                        "id": "/title/tt17371966/",
+                        "title": "/Film Daily",
+                        "titleType": "podcastSeries",
+                        "year": 2017
+                    },
+                    "previousEpisode": "/title/tt27312505/",
+                    "seriesStartYear": 2017,
+                    "title": "The 15 Most Interesting Movies We Saw At The 2023 Sundance Film Festival",
+                    "titleType": "podcastEpisode",
+                    "year": 2023
+                }
+            ],
+            "types": [
+                "title",
+                "name"
+            ]
+        }
+    },
+    "{'q': 'The 15 Most Interesting Movies We Saw At The 2023 Sundance Film Festival'}": {
+        "error": "",
+        "response": {
+            "@meta": {
+                "operation": "Search",
+                "requestId": "d8477ddb-72d0-4028-acaa-7276a1b63e22",
+                "serviceTimeMs": 385.583048
+            },
+            "@type": "imdb.api.find.response",
+            "query": "The 15 Most Interesting Movies We Saw At The 2023 Sundance Film Festival",
+            "results": [
+                {
+                    "id": "/title/tt26601940/",
+                    "nextEpisode": "/title/tt27312950/",
+                    "parentTitle": {
+                        "id": "/title/tt17371966/",
+                        "title": "/Film Daily",
+                        "titleType": "podcastSeries",
+                        "year": 2017
+                    },
+                    "previousEpisode": "/title/tt27312505/",
+                    "seriesStartYear": 2017,
+                    "title": "The 15 Most Interesting Movies We Saw At The 2023 Sundance Film Festival",
+                    "titleType": "podcastEpisode",
+                    "year": 2023
+                }
+            ],
+            "types": [
+                "title",
+                "name"
+            ]
+        }
+    },
+    "{'q': 'interesting movie trivia'}": {
+        "error": "",
+        "response": {
+            "@meta": {
+                "operation": "Search",
+                "requestId": "9c1f2365-28f6-42ab-a530-ed54bd54afbd",
+                "serviceTimeMs": 298.076919
+            },
+            "@type": "imdb.api.find.response",
+            "query": "interesting movie trivia",
+            "types": [
+                "title",
+                "name"
+            ]
+        }
+    },
+    "{'q': 'Black Space'}": {
+        "error": "",
+        "response": "{'@meta': {'operation': 'Search', 'requestId': 'b5ef1192-9e0c-480e-b388-75ae16c665e9', 'serviceTimeMs': 259.303188}, '@type': 'imdb.api.find.response', 'query': 'Black Space', 'results': [{'id': '/title/tt13660638/', 'image': {'height': 1275, 'id': '/title/tt13660638/images/rm194016769', 'url': 'https://m.media-amazon.com/images/M/MV5BMWQzZTA3NGYtMDQyNy00YTMyLWFjMzktZTVlMzUyMGRjZjFmXkEyXkFqcGc@._V1_.jpg', 'width': 850}, 'runningTimeInMinutes': 45, 'nextEpisode': '/title/tt13670822/', 'numberOfEpisodes': 16, 'seriesEndYear': 2024, 'seriesStartYear': 2020, 'title': 'Black Space', 'titleType': 'tvSeries', 'year': 2020, 'principals': [{'id': '/name/nm1094877/', 'legacyNameText': 'Alfi, Guri', 'name': 'Guri Alfi', 'category': 'actor', 'characters': ['Rami Davidi'], 'endYear': 2024, 'episodeCount': 16, 'roles': [{'character': 'Rami Davidi'}], 'startYear': 2020}, {'id': '/name/nm8732675/', 'legacyNameText': 'Alush, Reut', 'name': 'Reut Alush', 'category': 'actress', 'characters': ['Morag Shmuel'], 'endYear': 2024, 'episodeCount': 14, 'roles': [{'character': 'Morag Shmuel'}], 'startYear': 2020}, {'id': '/name/nm6542672/', 'legacyNameText': 'Shirom, Meirav', 'name': 'Meirav Shirom', 'category': 'actress', 'characters': ['Miri Davidi'], 'endYear': 2024, 'episodeCount': 13, 'roles': [{'character': 'Miri Davidi'}], 'startYear': 2020}]}, {'id': '/title/tt12802682/', 'image': {'height': 1080, 'id': '/title/tt12802682/images/rm2078121985', 'url': 'https://m.media-amazon.com/images/M/MV5BZTY"
+    },
+    "{'q': 'quantum'}": {
+        "error": "",
+        "response": "{'@meta': {'operation': 'Search', 'requestId': '1bf1749a-380d-4682-a304-aa0392f7344a', 'serviceTimeMs': 317.367416}, '@type': 'imdb.api.find.response', 'query': 'quantum', 'results': [{'id': '/title/tt0830515/', 'image': {'height': 3000, 'id': '/title/tt0830515/images/rm3799587073', 'url': 'https://m.media-amazon.com/images/M/MV5BYmMwZTA3MTAtNWU0Yy00NGZmLTg0YmItZTVkZGFjZTI1ZWJiXkEyXkFqcGc@._V1_.jpg', 'width': 2019}, 'runningTimeInMinutes': 106, 'title': 'Quantum of Solace', 'titleType': 'movie', 'year': 2008, 'principals': [{'disambiguation': 'I', 'id': '/name/nm0185819/', 'legacyNameText': 'Craig, Daniel (I)', 'name': 'Daniel Craig', 'billing': 1, 'category': 'actor', 'characters': ['James Bond'], 'roles': [{'character': 'James Bond', 'characterId': '/character/ch0000007/'}]}, {'id': '/name/nm1385871/', 'legacyNameText': 'Kurylenko, Olga', 'name': 'Olga Kurylenko', 'billing': 2, 'category': 'actress', 'characters': ['Camille'], 'roles': [{'character': 'Camille', 'characterId': '/character/ch0055554/'}]}, {'id': '/name/nm0023832/', 'legacyNameText': 'Amalric, Mathieu', 'name': 'Mathieu Amalric', 'billing': 3, 'category': 'actor', 'characters': ['Dominic Greene'], 'roles': [{'character': 'Dominic Greene', 'characterId': '/character/ch0056473/'}]}]}, {'id': '/title/tt0096684/', 'image': {'height': 2193, 'id': '/title/tt0096684/images/rm2915002881', 'url': 'https://m.media-amazon.com/images/M/MV5BYjFiYWZjZTctZWUxOS00YTA5LTg1ZjctNzYyMzYxODhjOWZlXkEyXkFqcGc@._V1_.jpg', 'width': 14"
+    },
+    "{'q': 'game of thr'}": {
+        "error": "",
+        "response": "{'@meta': {'operation': 'Search', 'requestId': '4f5a6c89-ba74-4fc8-9bf6-1f3a9684ac92', 'serviceTimeMs': 333.348791}, '@type': 'imdb.api.find.response', 'query': 'game of thr', 'results': [{'id': '/title/tt0944947/', 'image': {'height': 824, 'id': '/title/tt0944947/images/rm2903373057', 'url': 'https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_.jpg', 'width': 550}, 'runningTimeInMinutes': 60, 'nextEpisode': '/title/tt31321401/', 'numberOfEpisodes': 74, 'seriesEndYear': 2019, 'seriesStartYear': 2011, 'title': 'Game of Thrones', 'titleType': 'tvSeries', 'year': 2011, 'principals': [{'id': '/name/nm3592338/', 'legacyNameText': 'Clarke, Emilia', 'name': 'Emilia Clarke', 'category': 'actress', 'characters': ['Daenerys Targaryen'], 'endYear': 2019, 'episodeCount': 62, 'roles': [{'character': 'Daenerys Targaryen', 'characterId': '/character/ch0158597/'}], 'startYear': 2011}, {'id': '/name/nm0227759/', 'legacyNameText': 'Dinklage, Peter', 'name': 'Peter Dinklage', 'category': 'actor', 'characters': ['Tyrion Lannister'], 'endYear': 2019, 'episodeCount': 68, 'roles': [{'character': 'Tyrion Lannister', 'characterId': '/character/ch0146096/'}], 'startYear': 2011}, {'id': '/name/nm3229685/', 'legacyNameText': 'Harington, Kit', 'name': 'Kit Harington', 'category': 'actor', 'characters': ['Jon Snow'], 'endYear': 2019, 'episodeCount': 63, 'roles': [{'character': 'Jon Snow', 'characterId': '/character/ch0155777/'}], 'startYear': 2011}]}, {'id': '/title/tt6857128/', 'image': {'height': 686, 'id': '/title/tt6857128/images/rm1012220417', 'url': 'https://m.media-amazon.com/images/M/MV5BMmE2MDUwY2MtMTQwMi00OTExLTkxYTMtMjRiNjYwNzdmNTAxXkEyXkFqcGc@._V1_.jpg', 'width': 783}, 'title': 'Unaired Game of Thrones Prequel Pilot', 'titleType': 'tvMovie', 'year': 2019, 'principals': [{'disambiguation': 'I', 'id': '/name/nm0915208/', 'legacyNameText': 'Watts, Naomi (I)', 'name': 'Naomi Watts', 'category': 'actress', 'characters': ['Lady Morven Casterly'], 'roles': [{'character': 'Lady Morven C"
+    },
+    "{'q': 'movies directed by Christopher Nolan'}": {
+        "error": "",
+        "response": "{'@meta': {'operation': 'Search', 'requestId': 'f57d6169-88ee-4ec2-9258-d62a20ab3639', 'serviceTimeMs': 273.358875}, '@type': 'imdb.api.find.response', 'query': 'movies directed by Christopher Nolan', 'results': [{'id': '/title/tt24583126/', 'runningTimeInMinutes': 96, 'nextEpisode': '/title/tt24582822/', 'parentTitle': {'id': '/title/tt24473072/', 'title': 'The Movie Ladder Podcast', 'titleType': 'podcastSeries', 'year': 2019}, 'previousEpisode': '/title/tt24583628/', 'seriesStartYear': 2019, 'title': 'Insomnia (Mystery Directed by Christopher Nolan)', 'titleType': 'podcastEpisode', 'year': 2020}, {'id': '/title/tt33239886/', 'runningTimeInMinutes': 56, 'nextEpisode': '/title/tt29570055/', 'parentTitle': {'id': '/title/tt29553719/', 'title': 'Glitter and Garbage', 'titleType': 'podcastSeries', 'year': 2020}, 'previousEpisode': '/title/tt29569949/', 'seriesStartYear': 2020, 'title': 'Directed By Christopher Nolan ft. Mitchell Gerrard Johnson', 'titleType': 'podcastEpisode', 'year': 2024}, {'id': '/title/tt33851501/', 'runningTimeInMinutes': 76, 'nextEpisode': '/title/tt26947426/', 'parentTitle': {'id': '/title/tt26909649/', 'image': {'height': 3000, 'id': '/title/tt26909649/images/rm2903333121', 'url': 'https://m.media-amazon.com/images/M/MV5BZjkwYzJlM2YtZDZjYy00MTMxLThkMWYtYzViYzgwODgyZTlhXkEyXkFqcGc@._V1_.jpg', 'width': 3000}, 'title': 'ReelBlend', 'titleType': 'podcastSeries', 'year': 2018}, 'previousEpisode': '/title/tt26947406/', 'seriesStartYear': 2018, 'title': 'Christ"
+    },
+    "{'q': 'Christopher Nolan movies'}": {
+        "error": "",
+        "response": "{'@meta': {'operation': 'Search', 'requestId': '18581d98-3f6f-48a6-8116-a7010b86b0b6', 'serviceTimeMs': 397.776461}, '@type': 'imdb.api.find.response', 'query': 'Christopher Nolan movies', 'results': [{'id': '/title/tt32204353/', 'image': {'height': 353, 'id': '/title/tt32204353/images/rm331775489', 'url': 'https://m.media-amazon.com/images/M/MV5BMzBmYWEzMTYtMGZkMy00OTFlLTg4ZTgtNGJkNGE2ZDA2YTA0XkEyXkFqcGc@._V1_.jpg', 'width': 640}, 'runningTimeInMinutes': 59, 'title': 'Every Christopher Nolan Movie Ranked', 'titleType': 'movie', 'year': 2024, 'principals': [{'id': '/name/nm11597381/', 'legacyNameText': 'Phyrillas, James', 'name': 'James Phyrillas', 'category': 'actor', 'characters': ['Schaffrillas.'], 'roles': [{'character': 'Schaffrillas.'}]}]}, {'id': '/title/tt33851501/', 'runningTimeInMinutes': 76, 'nextEpisode': '/title/tt26947426/', 'parentTitle': {'id': '/title/tt26909649/', 'image': {'height': 3000, 'id': '/title/tt26909649/images/rm2903333121', 'url': 'https://m.media-amazon.com/images/M/MV5BZjkwYzJlM2YtZDZjYy00MTMxLThkMWYtYzViYzgwODgyZTlhXkEyXkFqcGc@._V1_.jpg', 'width': 3000}, 'title': 'ReelBlend', 'titleType': 'podcastSeries', 'year': 2018}, 'previousEpisode': '/title/tt26947406/', 'seriesStartYear': 2018, 'title': 'Christopher Nolan Movies Tier List', 'titleType': 'podcastEpisode', 'year': 2024}, {'id': '/title/tt19331662/', 'runningTimeInMinutes': 77, 'nextEpisode': '/title/tt19331790/', 'parentTitle': {'id': '/title/tt17718786/', 'image': {'height': 3000, 'id': "
+    },
+    "{'q': 'list of movies directed by Christopher Nolan'}": {
+        "error": "",
+        "response": "{'@meta': {'operation': 'Search', 'requestId': '4a7a1e28-a6f9-4060-aa49-1db1b561eef8', 'serviceTimeMs': 218.836707}, '@type': 'imdb.api.find.response', 'query': 'list of movies directed by Christopher Nolan', 'results': [{'id': '/title/tt33851501/', 'runningTimeInMinutes': 76, 'nextEpisode': '/title/tt26947426/', 'parentTitle': {'id': '/title/tt26909649/', 'image': {'height': 3000, 'id': '/title/tt26909649/images/rm2903333121', 'url': 'https://m.media-amazon.com/images/M/MV5BZjkwYzJlM2YtZDZjYy00MTMxLThkMWYtYzViYzgwODgyZTlhXkEyXkFqcGc@._V1_.jpg', 'width': 3000}, 'title': 'ReelBlend', 'titleType': 'podcastSeries', 'year': 2018}, 'previousEpisode': '/title/tt26947406/', 'seriesStartYear': 2018, 'title': 'Christopher Nolan Movies Tier List', 'titleType': 'podcastEpisode', 'year': 2024}, {'id': '/title/tt24583126/', 'runningTimeInMinutes': 96, 'nextEpisode': '/title/tt24582822/', 'parentTitle': {'id': '/title/tt24473072/', 'title': 'The Movie Ladder Podcast', 'titleType': 'podcastSeries', 'year': 2019}, 'previousEpisode': '/title/tt24583628/', 'seriesStartYear': 2019, 'title': 'Insomnia (Mystery Directed by Christopher Nolan)', 'titleType': 'podcastEpisode', 'year': 2020}, {'id': '/title/tt19331662/', 'runningTimeInMinutes': 77, 'nextEpisode': '/title/tt19331790/', 'parentTitle': {'id': '/title/tt17718786/', 'image': {'height': 3000, 'id': '/title/tt17718786/images/rm3286447105', 'url': 'https://m.media-amazon.com/images/M/MV5BYWZhNDZhNmUtMGFhNS00YjgyLThkMmEtZTg5YmI1OTNmYmIyXkEyXk"
+    }
+}

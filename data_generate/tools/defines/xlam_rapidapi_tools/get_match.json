@@ -1,0 +1,23 @@
+{
+    "name": "get_match",
+    "description": "This is a sub-function API for tool the_love_calculator.\nTool description: A fun api that shows the compatibility of your crush! Perfect to implement onto your website or just play around with.\nAPI description: Calculates the match percentage between two names using the Love Calculator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fname": {
+                "type": "string",
+                "description": "The first name for the love match calculation.",
+                "default": "oliver m"
+            },
+            "sname": {
+                "type": "string",
+                "description": "The second name for the love match calculation.",
+                "default": "chloe p"
+            }
+        },
+        "required": [
+            "fname",
+            "sname"
+        ]
+    }
+}

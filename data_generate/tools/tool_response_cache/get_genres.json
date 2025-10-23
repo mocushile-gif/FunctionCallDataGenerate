@@ -1,0 +1,39 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "success": true,
+            "total": 1,
+            "data": [
+                {
+                    "id": 207,
+                    "name": "Japanese"
+                }
+            ]
+        }
+    },
+    "{'keyword': 'classical'}": {
+        "error": "",
+        "response": "{'success': True, 'total': 1, 'data': [{'id': 27, 'name': 'Classical'}]}"
+    },
+    "{'keyword': 'electronic'}": {
+        "error": "",
+        "response": "{'success': True, 'total': 1, 'data': [{'id': 31, 'name': 'Electronica'}]}"
+    },
+    "{'keyword': 'japan'}": {
+        "error": "",
+        "response": "{'success': True, 'total': 1, 'data': [{'id': 207, 'name': 'Japanese'}]}"
+    },
+    "{'keyword': 'pop'}": {
+        "error": "",
+        "response": "{'success': True, 'total': 2, 'data': [{'id': 13, 'name': 'Pop'}, {'id': 107, 'name': 'Pop Rock'}]}"
+    },
+    "{'keyword': 'jap'}": {
+        "error": "",
+        "response": "{'success': True, 'total': 1, 'data': [{'id': 207, 'name': 'Japanese'}]}"
+    },
+    "{'keyword': 'jazz'}": {
+        "error": "",
+        "response": "{'success': True, 'total': 1, 'data': [{'id': 80, 'name': 'Jazz'}]}"
+    }
+}

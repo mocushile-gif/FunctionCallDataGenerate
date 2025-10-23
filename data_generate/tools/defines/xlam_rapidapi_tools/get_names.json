@@ -1,0 +1,30 @@
+{
+    "name": "get_names",
+    "description": "This is a sub-function API for tool indian_names.\nTool description: API for fetching Indian Names\nAPI description: Fetch a random list of Indian names based on specified criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "first": {
+                "type": "boolean",
+                "description": "If True, include first names in the result. Defaults to None.",
+                "default": true
+            },
+            "gender": {
+                "type": "string",
+                "description": "Specify the gender for names ('male' or 'female'). Defaults to 'male'.",
+                "default": "male"
+            },
+            "last": {
+                "type": "boolean",
+                "description": "If True, include last names in the result. Defaults to None.",
+                "default": true
+            },
+            "number": {
+                "type": "number",
+                "description": "The number of names to fetch. Defaults to 5.",
+                "default": 5.0
+            }
+        },
+        "required": []
+    }
+}

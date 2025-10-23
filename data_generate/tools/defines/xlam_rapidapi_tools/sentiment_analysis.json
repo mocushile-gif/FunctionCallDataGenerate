@@ -1,0 +1,22 @@
+{
+    "name": "sentiment_analysis",
+    "description": "This is a sub-function API for tool google_s_bert_sentiment_analysis.\nTool description: The BERT-Based Sentiment Analysis API is a cutting-edge tool that leverages Google's BERT (Bidirectional Encoder Representations from Transformers) model to perform accurate sentiment analysis on text data. BERT is a state-of-the-art language representation model that excels in understanding context and nuances, making it highly effective for sentiment classification tasks. This API provides developers with the ability to harness the power of BERT for robust and precise sentiment analysis.\n\nS...\nAPI description: Multi-lingual Sentiment Analysis parameter {lang} is optional, we can detect the language but you can define it for better result and accurate",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to be analyzed for sentiment.",
+                "default": "wah rumahnya bagus ya, tapi kok halamannya kotor sih?"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language of the text. This can improve accuracy if specified. Defaults to 'id'.",
+                "default": "id"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

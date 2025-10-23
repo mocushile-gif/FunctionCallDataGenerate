@@ -1,0 +1,16 @@
+{
+    "name": "is_valid_parentheses",
+    "description": "Checks if a string contains valid parentheses. The function supports three types of parentheses: round brackets \"()\", square brackets \"[]\", and curly braces \"{}\". It returns True if every opening parenthesis has a corresponding closing parenthesis in the correct order, and False otherwise.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "s": {
+                "type": "string",
+                "description": "The input string containing parentheses to be validated."
+            }
+        },
+        "required": [
+            "s"
+        ]
+    }
+}

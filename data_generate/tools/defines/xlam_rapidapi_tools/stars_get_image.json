@@ -1,0 +1,17 @@
+{
+    "name": "stars_get_image",
+    "description": "This is a sub-function API for tool unofficial_trust_pilot.\nTool description: This API helps to query data relating to reviews and consumer reports to create a reviewing platform, such as : trustpilot.com\nAPI description: Gets image links displaying the star rating.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "stars": {
+                "type": "number",
+                "description": "The star rating, an integer between 1 and 5.",
+                "default": 2.0
+            }
+        },
+        "required": [
+            "stars"
+        ]
+    }
+}

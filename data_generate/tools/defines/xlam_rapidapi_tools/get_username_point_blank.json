@@ -1,0 +1,17 @@
+{
+    "name": "get_username_point_blank",
+    "description": "This is a sub-function API for tool id_game_checker.\nTool description: Validate or GET username with ID. Available for Free Fire Global, Mobile Legends, PUBGM Global, Higgs Domino, AoV, Jawaker etc.\nAPI description: Fetch the username associated with a given Point Blank ID using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The Point Blank ID to look up.",
+                "default": "blackforster"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

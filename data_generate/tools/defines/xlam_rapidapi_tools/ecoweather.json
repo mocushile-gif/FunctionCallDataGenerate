@@ -1,0 +1,34 @@
+{
+    "name": "ecoweather",
+    "description": "This is a sub-function API for tool ecoweather.\nTool description: Economically relevant meteorological data like heat degree days, average temperature. \nAPI description: Retrieve historical weather data for a location. Dataset lasts back until year 2016. Results are limited to 366 days (1 year)  per request.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lon": {
+                "type": "number",
+                "description": "Longitude of the geo-location in degrees.",
+                "default": 8.80282
+            },
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the geo-location in degrees.",
+                "default": 49.3427818
+            },
+            "is_from": {
+                "type": "string",
+                "description": "Start date in YYYY-MM-DD format.",
+                "default": "2021-12-31"
+            },
+            "to": {
+                "type": "string",
+                "description": "End date in YYYY-MM-DD format. \n\nNote: if time period relative to `from` is more than 366 days it will automatically be replaced with this date.",
+                "default": "2022-09-31"
+            }
+        },
+        "required": [
+            "lon",
+            "lat",
+            "is_from"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "bulkgenerateguids",
+    "description": "This is a sub-function API for tool guid_generator.\nTool description: The API that generates random GUIDs.\nAPI description: Generates a bulk of GUIDs (Globally Unique Identifiers) using the GUID Generator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "batch_size": {
+                "type": "number",
+                "description": "The number of GUIDs to return. Must be between 1 and 10000. If the parameter is not provided, the default batch size is 20."
+            }
+        },
+        "required": []
+    }
+}

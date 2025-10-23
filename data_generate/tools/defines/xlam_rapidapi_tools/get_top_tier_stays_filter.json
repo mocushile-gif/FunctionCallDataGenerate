@@ -1,0 +1,14 @@
+{
+    "name": "get_top_tier_stays_filter",
+    "description": "This is a sub-function API for tool airbnb_v2.\nTool description:  Airbnb API allows users to search accommodations by location, place name, and GEO coordinates to find a place to rent. This API has all needed by any developer to create a new application with some extended features.\nAPI description: Gets top-tier stays filter from the Airbnb RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "languageid": {
+                "type": "string",
+                "description": "Language identifier to get the response in the requested language. If not provided, defaults to None. To get a valid LanguageId, call the `getLanguages` API."
+            }
+        },
+        "required": []
+    }
+}

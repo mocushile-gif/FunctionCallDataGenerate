@@ -1,0 +1,52 @@
+{
+    "{'location': 'Santa Monica', 'accommodates_min': 20}": {
+        "error": "",
+        "response": {
+            "area_info": {
+                "geom": {
+                    "code": {
+                        "city": "santa-monica",
+                        "country": "us",
+                        "state": "california"
+                    },
+                    "id": {
+                        "city": 59053,
+                        "country": 1,
+                        "state": 6
+                    },
+                    "name": {
+                        "city": "Santa Monica",
+                        "country": "United States",
+                        "state": "California"
+                    }
+                }
+            },
+            "listings_limited": false,
+            "listings_returned": 0,
+            "properties": [],
+            "request_info": {
+                "currency": "native"
+            }
+        }
+    },
+    "{'location': 'santa monica', 'bedrooms_min': 2}": {
+        "error": "",
+        "response": "{'area_info': {'geom': {'code': {'city': 'santa-monica', 'country': 'us', 'state': 'california'}, 'id': {'city': 59053, 'country': 1, 'state': 6}, 'name': {'city': 'Santa Monica', 'country': 'United States', 'state': 'California'}}}, 'listings_limited': False, 'listings_returned': 346, 'properties': [{'accommodates': 8, 'adr': 1533.7261, 'airbnb_property_id': '21296775', 'bathrooms': 3.0, 'bedrooms': 4, 'days_available': 278, 'homeaway_property_id': None, 'id': '7539593', 'img_cover': 'https://a0.muscache.com/im/ml/photo_enhancement/pictures/f6ab4846-2fca-4aca-9c64-f37697ebc703.jpg', 'latitude': 34.00922, 'longitude': -118.49301, 'm_homeaway_property_id': '1199853', 'occ': 0.827338, 'platforms': {'airbnb_property_id': '21296775', 'homeaway_property_id': '1199853'}, 'property_type': 'House', 'rating': 9.9, 'revenue': 352757.0, 'reviews': 240, 'room_type': 'Entire home/apt', 'title': 'Bright & Charming Beach House Steps from Ocean'}, {'accommodates': 8, 'adr': 3524.2, 'airbnb_property_id': '796359332847066974', 'bathrooms': 5.0, 'bedrooms': 4, 'days_available': 232, 'homeaway_property_id': None, 'id': '690974215', 'img_cover': 'https://a0.muscache.com/im/pictures/miso/Hosting-796359332847066974/original/f718cf7d-751e-49b5-9a19-d3a6a5a11abc.jpeg', 'latitude': 34.0141614, 'longitude': -118.4996616, 'm_homeaway_property_id': '710126', 'occ': 0.409483, 'platforms': {'airbnb_property_id': '796359332847066974', 'homeaway_property_id': '710126'}, 'property_type': 'Vacation home', 'rat"
+    },
+    "{'location': 'santa monica', 'accommodates_min': 6, 'bedrooms_min': 3}": {
+        "error": "",
+        "response": "{'area_info': {'geom': {'code': {'city': 'santa-monica', 'country': 'us', 'state': 'california'}, 'id': {'city': 59053, 'country': 1, 'state': 6}, 'name': {'city': 'Santa Monica', 'country': 'United States', 'state': 'California'}}}, 'listings_limited': False, 'listings_returned': 71, 'properties': [{'accommodates': 8, 'adr': 1533.7261, 'airbnb_property_id': '21296775', 'bathrooms': 3.0, 'bedrooms': 4, 'days_available': 278, 'homeaway_property_id': None, 'id': '7539593', 'img_cover': 'https://a0.muscache.com/im/ml/photo_enhancement/pictures/f6ab4846-2fca-4aca-9c64-f37697ebc703.jpg', 'latitude': 34.00922, 'longitude': -118.49301, 'm_homeaway_property_id': '1199853', 'occ': 0.827338, 'platforms': {'airbnb_property_id': '21296775', 'homeaway_property_id': '1199853'}, 'property_type': 'House', 'rating': 9.9, 'revenue': 352757.0, 'reviews': 240, 'room_type': 'Entire home/apt', 'title': 'Bright & Charming Beach House Steps from Ocean'}, {'accommodates': 8, 'adr': 3524.2, 'airbnb_property_id': '796359332847066974', 'bathrooms': 5.0, 'bedrooms': 4, 'days_available': 232, 'homeaway_property_id': None, 'id': '690974215', 'img_cover': 'https://a0.muscache.com/im/pictures/miso/Hosting-796359332847066974/original/f718cf7d-751e-49b5-9a19-d3a6a5a11abc.jpeg', 'latitude': 34.0141614, 'longitude': -118.4996616, 'm_homeaway_property_id': '710126', 'occ': 0.409483, 'platforms': {'airbnb_property_id': '796359332847066974', 'homeaway_property_id': '710126'}, 'property_type': 'Vacation home', 'rati"
+    },
+    "{'location': 'santa monica', 'bedrooms_min': 2, 'accommodates_min': 4}": {
+        "error": "",
+        "response": "{'area_info': {'geom': {'code': {'city': 'santa-monica', 'country': 'us', 'state': 'california'}, 'id': {'city': 59053, 'country': 1, 'state': 6}, 'name': {'city': 'Santa Monica', 'country': 'United States', 'state': 'California'}}}, 'listings_limited': False, 'listings_returned': 309, 'properties': [{'accommodates': 8, 'adr': 1533.7261, 'airbnb_property_id': '21296775', 'bathrooms': 3.0, 'bedrooms': 4, 'days_available': 278, 'homeaway_property_id': None, 'id': '7539593', 'img_cover': 'https://a0.muscache.com/im/ml/photo_enhancement/pictures/f6ab4846-2fca-4aca-9c64-f37697ebc703.jpg', 'latitude': 34.00922, 'longitude': -118.49301, 'm_homeaway_property_id': '1199853', 'occ': 0.827338, 'platforms': {'airbnb_property_id': '21296775', 'homeaway_property_id': '1199853'}, 'property_type': 'House', 'rating': 9.9, 'revenue': 352757.0, 'reviews': 240, 'room_type': 'Entire home/apt', 'title': 'Bright & Charming Beach House Steps from Ocean'}, {'accommodates': 8, 'adr': 3524.2, 'airbnb_property_id': '796359332847066974', 'bathrooms': 5.0, 'bedrooms': 4, 'days_available': 232, 'homeaway_property_id': None, 'id': '690974215', 'img_cover': 'https://a0.muscache.com/im/pictures/miso/Hosting-796359332847066974/original/f718cf7d-751e-49b5-9a19-d3a6a5a11abc.jpeg', 'latitude': 34.0141614, 'longitude': -118.4996616, 'm_homeaway_property_id': '710126', 'occ': 0.409483, 'platforms': {'airbnb_property_id': '796359332847066974', 'homeaway_property_id': '710126'}, 'property_type': 'Vacation home', 'rat"
+    },
+    "{'location': 'santa monica', 'bedrooms_min': 3.0, 'bedrooms_max': 3.0, 'number_of_months': 1.0, 'start_month': 7.0, 'start_year': 2025.0}": {
+        "error": "",
+        "response": "<html>\n  <head>\n    <title>Internal Server Error</title>\n  </head>\n  <body>\n    <h1><p>Internal Server Error</p></h1>\n    \n  </body>\n</html>\n"
+    },
+    "{'location': 'santa monica', 'bedrooms_min': 3.0, 'bedrooms_max': 3.0, 'start_month': 5.0, 'start_year': 2024.0, 'number_of_months': 1.0}": {
+        "error": "",
+        "response": "<html>\n  <head>\n    <title>Internal Server Error</title>\n  </head>\n  <body>\n    <h1><p>Internal Server Error</p></h1>\n    \n  </body>\n</html>\n"
+    }
+}

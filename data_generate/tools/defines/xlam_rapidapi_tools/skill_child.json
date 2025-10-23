@@ -1,0 +1,15 @@
+{
+    "name": "skill_child",
+    "description": "This is a sub-function API for tool iys_skill_api.\nTool description: With the skills search API, applications can allow users to search, be shown skills based on the term they type. and based on the skill they select, show the skills that are in the same category\nAPI description: Fetches child skill data from an external API using provided identifiers.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier for the desired child skill data. Defaults to 'files/198956'.",
+                "default": "files/198956"
+            }
+        },
+        "required": []
+    }
+}

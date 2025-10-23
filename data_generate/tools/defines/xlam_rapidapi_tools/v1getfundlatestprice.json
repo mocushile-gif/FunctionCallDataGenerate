@@ -1,0 +1,17 @@
+{
+    "name": "v1getfundlatestprice",
+    "description": "This is a sub-function API for tool funds.\nTool description: Get daily and historical funds prices by ISIN.\nAPI description: Fetches the latest price of a fund using its ISIN.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "isin": {
+                "type": "string",
+                "description": "The International Securities Identification Number of the fund.",
+                "default": "LU0690375182"
+            }
+        },
+        "required": [
+            "isin"
+        ]
+    }
+}

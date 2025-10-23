@@ -1,0 +1,32 @@
+{
+    "name": "latest_articles",
+    "description": "This is a sub-function API for tool crypto_news_v3.\nTool description: Get the latest crypto news incl. sentiment analysis and keyword extraction\nAPI description: This endpoint provides the latest crypto news articles scraped from the web  incl. sentiment analysis ([textblob](https://textblob.readthedocs.io/en/dev/quickstart.html)) and keyword extraction ([Yake](http://yake.inesctec.pt/)). \n\nFor historical cryptonews data check out our open source dataset on [Kaggle](https://www.kaggle.com/oliviervha/crypto-news)\n\nParameters:\n- **[REQUIRED] subject** e.g. bitcoin, altcoin, ethereum, nft, blockchain, defi\n- **[OPTIONAL] last_n_hours**: Only news articles from the last",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "subject": {
+                "type": "string",
+                "description": "The subject of the news articles (e.g., bitcoin, altcoin, ethereum, nft, blockchain, defi).",
+                "default": "bitcoin"
+            },
+            "top_n_keywords": {
+                "type": "number",
+                "description": "The number of keywords to extract from each article (default is 10).",
+                "default": 10.0
+            },
+            "max_articles": {
+                "type": "number",
+                "description": "The maximum number of articles to retrieve in response (default is 10).",
+                "default": 10.0
+            },
+            "last_n_hours": {
+                "type": "number",
+                "description": "The time window in hours for the latest news articles (default is 48 hours).",
+                "default": 48.0
+            }
+        },
+        "required": [
+            "subject"
+        ]
+    }
+}

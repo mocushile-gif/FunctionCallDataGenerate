@@ -1,0 +1,15 @@
+{
+    "name": "number_captcha",
+    "description": "This is a sub-function API for tool captcha_v2.\nTool description:  SmileMe's Captcha provide a Captcha image for you. Just call and the API will return the info Captcha ( include image base64, id, value ...) \nAPI description: Captcha code is number format.\n\n- params: length is number (from 1 to  8, default is 6)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "length": {
+                "type": "number",
+                "description": "Length of the numeric CAPTCHA, ranging from 1 to 8. Default is 4.",
+                "default": 4.0
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "check_table_null_values",
+    "description": "Check the number and percentage of NULL values for each column in a table of an SQLite database.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file."
+        },
+        "table_name": {
+          "type": "string",
+          "description": "Name of the table to check for null values."
+        },
+        "save_to_file": {
+          "type": "string",
+          "description": "Optional path to save the result as .csv, .xlsx, .json, or .jsonl."
+        }
+      },
+      "required": ["database_path", "table_name"]
+    }
+  }
+  

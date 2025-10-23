@@ -1,0 +1,17 @@
+{
+    "name": "historic_event_by_year",
+    "description": "This is a sub-function API for tool world_history_timeline.\nTool description: Introducing the World History Timeline API by Pizza API - an extensive resource for exploring world historical events from 3200 BCE to the year 2000. This API gives you access to a vast database of information on the most significant moments in human history, including the dates and events all organized in an easy-to-use format for developers.  \n\nWith the World History Timeline API, you can delve into the history of ancient civilizations, witness the key events of the Middle Ages, and underst...\nAPI description: Give an year in the query and it returns all the available events from that year",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year for which historical events are to be fetched.",
+                "default": "400"
+            }
+        },
+        "required": [
+            "year"
+        ]
+    }
+}

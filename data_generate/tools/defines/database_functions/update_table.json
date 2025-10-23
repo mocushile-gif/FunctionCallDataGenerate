@@ -1,0 +1,35 @@
+{
+    "name": "update_table",
+    "description": "Perform an UPDATE query on a specified SQLite table.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "database_path": {
+                "type": "string",
+                "description": "The path to the database."
+            },
+            "table_name": {
+                "type": "string",
+                "description": "The name of the table to update."
+            },
+            "set_clause": {
+                "type": "string",
+                "description": "The SET clause, e.g., 'column1 = ?, column2 = ?'."
+            },
+            "where_clause": {
+                "type": "string",
+                "description": "The WHERE clause to filter rows to update. Defaults to updating all rows if not provided.",
+                "nullable": true
+            },
+            "where_params": {
+                "type": "array",
+                "items": {
+                    "type": ["string", "number", "null"]
+                },
+                "description": "The parameters for the WHERE clause, corresponding to placeholders in the WHERE clause.",
+                "nullable": true
+            }
+        },
+        "required": ["database_path", "table_name", "set_clause"]
+    }
+}

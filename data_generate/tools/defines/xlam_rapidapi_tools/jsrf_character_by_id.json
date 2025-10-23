@@ -1,0 +1,32 @@
+{
+    "name": "jsrf_character_by_id",
+    "description": "This is a sub-function API for tool jet_set_radio_api.\nTool description: A data provider for all things Jet Set Radio in JSON format!\nAPI description: Fetch a single character by ID from the Jet Set Radio API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "characterid": {
+                "type": "string",
+                "description": "The unique identifier of the character.",
+                "default": "643c71888cabe0dcede868a3"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of items to return. Defaults to '5'.",
+                "default": "5"
+            },
+            "orderby": {
+                "type": "string",
+                "description": "Possible Values:\n - `asc`\n - `desc`\n\nsortBy must be present for this to take effect. \nThe default value is `asc`\n",
+                "default": "asc"
+            },
+            "sortby": {
+                "type": "string",
+                "description": "The field by which to sort the results, such as 'name' or 'stats'. Defaults to 'name'.",
+                "default": "name"
+            }
+        },
+        "required": [
+            "characterid"
+        ]
+    }
+}

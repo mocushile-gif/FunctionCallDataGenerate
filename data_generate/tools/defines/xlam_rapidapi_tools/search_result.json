@@ -1,0 +1,27 @@
+{
+    "name": "search_result",
+    "description": "This is a sub-function API for tool location_v2.\nTool description: We are providing a location search result according to your search query\nAPI description: Fetches location search results based on a search query and optional latitude and longitude parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search query string.",
+                "default": "pizza"
+            },
+            "latitude": {
+                "type": "string",
+                "description": "Latitude to refine the search query. Defaults to '24.562394'.",
+                "default": "24.562394"
+            },
+            "longitude": {
+                "type": "string",
+                "description": "Longitude to refine the search query. Defaults to '73.7124675'.",
+                "default": "73.7124675"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

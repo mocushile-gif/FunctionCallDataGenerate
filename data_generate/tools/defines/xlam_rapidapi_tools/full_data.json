@@ -1,0 +1,22 @@
+{
+    "name": "full_data",
+    "description": "This is a sub-function API for tool question_explorer.\nTool description: Question Explorer\nAPI description: Fetches data from the RapidAPI based on the provided keyword, optional full data, and API key parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to search for in the API.",
+                "default": "email marketing"
+            },
+            "fulldata": {
+                "type": "string",
+                "description": "Optional parameter to specify the type of full data. Defaults to 'digital marketing'.",
+                "default": "digital marketing"
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

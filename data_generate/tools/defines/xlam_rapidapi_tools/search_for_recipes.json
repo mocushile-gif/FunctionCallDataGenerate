@@ -1,0 +1,65 @@
+{
+    "name": "search_for_recipes",
+    "description": "This is a sub-function API for tool low_carb_recipes.\nTool description: Highly flexible search over thousands of low-carb/keto recipes with rich nutrients information.\nAPI description: Search for recipes that match provided criterions",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "maxnetcarbs": {
+                "type": "number",
+                "description": "Maximum net carbs (total carbs minus fiber and sugar alcohols) per serving in grams. Default is 5.",
+                "default": 5.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "Maximum number of results to return. Default is 10.",
+                "default": 10.0
+            },
+            "maxcalories": {
+                "type": "number",
+                "description": "Maximum calories per serving in KCal. Default is 500.",
+                "default": 500.0
+            },
+            "maxpreparetime": {
+                "type": "number",
+                "description": "Maximum preparation time in minutes. Default is 10.",
+                "default": 10.0
+            },
+            "excludeingredients": {
+                "type": "string",
+                "description": "Semicolon-separated terms to be excluded in ingredients. Default is 'cinnamon'.",
+                "default": "cinnamon"
+            },
+            "tags": {
+                "type": "string",
+                "description": "Semicolon separated tags, supported tags are: \n```\n15-minute-meals\n3-ingredient-meals\n5-ingredient-meals\nappetizer\nbeef-free\nbeverages\nbreakfast\nchicken-free\ndairy-free\ndesserts\negg-free\neggs\nfish\nfish-free\nfreezer-friendly\nfrench\ngluten-free\ngood-for-leftovers\ngrains\nhigh-protein\nketo\nkid-friendly\nlchf\nlow-carb\nlunch\nmain-dishes\nmeal-plan-ok\nmsg\nno-cooking-required\none-pot-meals\npaleo\npantry-recipes\npeanut-free\npeanuts\npescatarian\npork-free\nquick-easy\nrelevant-meal--beverages\nrelevant-meal--breakfast\nrelev",
+                "default": "keto;dairy-free"
+            },
+            "name": {
+                "type": "string",
+                "description": "Search terms to be appeared in the recipe name. Default is 'cake'.",
+                "default": "cake"
+            },
+            "maxaddedsugar": {
+                "type": "number",
+                "description": "Maximum added sugar per serving in grams. Default is 0.",
+                "default": 0.0
+            },
+            "maxsugar": {
+                "type": "number",
+                "description": "Maximum sugar per serving in grams. Default is 3.",
+                "default": 3.0
+            },
+            "maxcooktime": {
+                "type": "number",
+                "description": "Maximum cook time in minutes. Default is 20.",
+                "default": 20.0
+            },
+            "includeingredients": {
+                "type": "string",
+                "description": "Semicolon-separated terms to be included in ingredients. Default is 'egg;butter'.",
+                "default": "egg;butter"
+            }
+        },
+        "required": []
+    }
+}

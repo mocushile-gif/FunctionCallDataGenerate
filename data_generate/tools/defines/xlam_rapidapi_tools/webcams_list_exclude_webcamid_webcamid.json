@@ -1,0 +1,26 @@
+{
+    "name": "webcams_list_exclude_webcamid_webcamid",
+    "description": "This is a sub-function API for tool webcams_travel.\nTool description: The World's Largest Landscape Webcam API ***** Get webcams by categories, country, region or just nearby your location ***** Get timelapse slideshows for every webcam ***** Get an uncluttered webcam layer for your map\nAPI description: This is a modifier. Exclude the {webcamid} from a list. Multiple {webcamid} must be separated by comma. Required: at least one {webcamid}",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "webcamid": {
+                "type": "string",
+                "description": "Comma-separated list of webcam IDs to exclude from the result. At least one webcam ID must be provided."
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language code to localize the results, if available. Defaults to 'en'.",
+                "default": "en"
+            },
+            "show": {
+                "type": "string",
+                "description": "Content to be listed in the response. Possible values are: \"webcams\", \"categories\", \"continents\", \"countries\", \"regions\", \"properties\". Default is \"webcams\".",
+                "default": "webcams:image,location"
+            }
+        },
+        "required": [
+            "webcamid"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "venue_search",
+    "description": "This is a sub-function API for tool wiman_the_social_wi_fi_network.\nTool description: Get informations about wiman hotspots like name, city, coordinates etc .\nAPI description: Searches for venues based on latitude, longitude, and optional radius using the Wiman API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "latitude": {
+                "type": "string",
+                "description": "The latitude of the location to search.",
+                "default": "44.484994"
+            },
+            "longitude": {
+                "type": "string",
+                "description": "The longitude of the location to search.",
+                "default": "11.327333"
+            },
+            "radius": {
+                "type": "number",
+                "description": "The search radius in kilometers. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "latitude",
+            "longitude"
+        ]
+    }
+}

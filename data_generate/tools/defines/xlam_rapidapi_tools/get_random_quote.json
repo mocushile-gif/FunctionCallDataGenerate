@@ -1,0 +1,15 @@
+{
+    "name": "get_random_quote",
+    "description": "This is a sub-function API for tool dr_almotawa_quotes.\nTool description: This API provides above 40000 Arabic quotes by Dr Abdulaziz Almotawa.\nAPI description: Fetches a random quote from an API, with an option to limit the length of the quote.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "This parameter is to get a quote with characters length less than the number specified",
+                "default": 50.0
+            }
+        },
+        "required": []
+    }
+}

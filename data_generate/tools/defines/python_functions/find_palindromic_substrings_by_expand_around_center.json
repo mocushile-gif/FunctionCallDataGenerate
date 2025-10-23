@@ -1,0 +1,26 @@
+{
+    "name": "find_palindromic_substrings_by_expand_around_center",
+    "description": "Helper function to expand around a center for finding palindromic substrings. This function takes a string and two indices (left and right) as the center, and expands outwards to find the longest palindromic substring centered at the given indices.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "s": {
+                "type": "string",
+                "description": "The input string in which to find palindromic substrings."
+            },
+            "left": {
+                "type": "integer",
+                "description": "The left index of the center from which to start expanding."
+            },
+            "right": {
+                "type": "integer",
+                "description": "The right index of the center from which to start expanding."
+            }
+        },
+        "required": [
+            "s",
+            "left",
+            "right"
+        ]
+    }
+}

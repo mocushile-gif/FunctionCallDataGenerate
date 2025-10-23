@@ -1,0 +1,21 @@
+{
+    "name": "advisory_information",
+    "description": "This is a sub-function API for tool bart.\nTool description: The BART API gives you access to pretty much all of the BART service and station data available on the BART website.\nAPI description: Fetches advisory information from the BART API based on command and optional origin station.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cmd": {
+                "type": "string",
+                "description": "See more examples http://api.bart.gov/docs/overview/examples.aspx",
+                "default": "bsa"
+            },
+            "orig": {
+                "type": "string",
+                "description": "Optional station filter. Uses 4 character BART station abbreviations (http://api.bart.gov/docs/overview/abbrev.aspx)"
+            }
+        },
+        "required": [
+            "cmd"
+        ]
+    }
+}

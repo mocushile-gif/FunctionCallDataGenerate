@@ -1,0 +1,35 @@
+{
+    "name": "get_hillshading_tile",
+    "description": "This is a sub-function API for tool mapilion_vector_and_raster_map_tiles.\nTool description: Mapilion provides you with vector and raster map tiles at scale. Based on OpenStreetMap and OpenMapTiles.\nAPI description: Returns special hillshading Raster tiles as PNG. Hillshading can be used as an overlay to create the look and feel of mountains. The version can be either v1 or v2.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x": {
+                "type": "number",
+                "description": "The x coordinate of the tile.",
+                "default": 756.0
+            },
+            "version": {
+                "type": "string",
+                "description": "The version of the hillshading tile, either 'v1' or 'v2'.",
+                "default": "v2"
+            },
+            "z": {
+                "type": "number",
+                "description": "The zoom level of the tile.",
+                "default": 11.0
+            },
+            "y": {
+                "type": "number",
+                "description": "The y coordinate of the tile.",
+                "default": 805.0
+            }
+        },
+        "required": [
+            "x",
+            "version",
+            "z",
+            "y"
+        ]
+    }
+}

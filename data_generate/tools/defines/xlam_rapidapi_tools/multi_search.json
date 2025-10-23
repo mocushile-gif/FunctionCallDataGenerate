@@ -1,0 +1,30 @@
+{
+    "name": "multi_search",
+    "description": "This is a sub-function API for tool genius_song_lyrics.\nTool description: Genius - Song Lyrics, Artists, Albums, Knowledge & More API\nAPI description: Performs a multi-search on Genius based on the given query, returning paginated results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search query string."
+            },
+            "per_page": {
+                "type": "number",
+                "description": "The number of results to return per request. Defaults to 3.",
+                "default": 3.0
+            },
+            "page": {
+                "type": "number",
+                "description": "Paginated offset, (e.g., per_page=5&page=3 returns results 11–15)",
+                "default": 1.0
+            },
+            "text_format": {
+                "type": "string",
+                "description": "The format for text bodies related to the document. Can be one or more of `dom`, `plain`, `markdown`, and `html`, separated by commas. Defaults to None."
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

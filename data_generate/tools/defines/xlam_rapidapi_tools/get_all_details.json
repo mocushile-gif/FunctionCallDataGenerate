@@ -1,0 +1,17 @@
+{
+    "name": "get_all_details",
+    "description": "This is a sub-function API for tool youtube_video_stream_download.\nTool description: Get Download Youtube Audio/Video/Captions/shorts Link & stream\nAPI description: Fetches all details of a YouTube video, stream, or shorts including captions, audio-only files, video-only files, and stream URL if available.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique ID of the YouTube video/stream/shorts.",
+                "default": "ppCIVJE3my4"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "url",
+    "description": "This is a sub-function API for tool newapi.\nTool description: new\nAPI description: Expands a shortened URL using the Free URL Un-Shortener API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The shortened URL to be expanded.",
+                "default": "https://www.instagram.com/reels/CtB6vWMMHFD/"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

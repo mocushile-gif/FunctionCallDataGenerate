@@ -1,0 +1,14 @@
+{
+    "name": "get_qr_code",
+    "description": "This is a sub-function API for tool tvb_qr_code.\nTool description: This API takes the URL and returns the image of the QR code.\nAPI description: Generates a QR code using the given URL through the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL to be encoded in the QR code. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

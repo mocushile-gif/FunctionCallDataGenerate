@@ -1,0 +1,23 @@
+{
+    "name": "getgeneration",
+    "description": "This is a sub-function API for tool dream_diffusion.\nTool description: Train Stable Diffusion models in 8 minutes and generate custom images.\nAPI description: Fetches the generation status and generated images from the Dream Diffusion API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x_api_key": {
+                "type": "string",
+                "description": "The API key required for authorization to access the generation data.",
+                "default": "3f9a50f3-db4c-4b52-9b15-709fcaddb6a7"
+            },
+            "generation_uuid": {
+                "type": "string",
+                "description": "The unique identifier for the generation process.",
+                "default": "c2d620eb-8d1a-4bda-b609-d2000858f22f"
+            }
+        },
+        "required": [
+            "x_api_key",
+            "generation_uuid"
+        ]
+    }
+}

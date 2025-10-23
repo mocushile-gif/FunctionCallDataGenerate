@@ -1,0 +1,20 @@
+{
+    "name": "list_users",
+    "description": "This is a sub-function API for tool calltrackingmetrics.\nTool description: Track the performance of your advertising with instantly activated tracking numbers in 30 countries. Integrate with Google and track down to keyword level.\nAPI description: Fetches and returns a list of users associated with a specified account identifier from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "aid": {
+                "type": "string",
+                "description": "The account identifier for which the list of users is being fetched."
+            },
+            "page": {
+                "type": "string",
+                "description": "The page offset for paginated results. Defaults to None."
+            }
+        },
+        "required": [
+            "aid"
+        ]
+    }
+}

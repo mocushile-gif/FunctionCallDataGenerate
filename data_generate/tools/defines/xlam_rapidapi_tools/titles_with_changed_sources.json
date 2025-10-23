@@ -1,0 +1,38 @@
+{
+    "name": "titles_with_changed_sources",
+    "description": "This is a sub-function API for tool watchmode.\nTool description: Universal OTT Streaming Service Availability API (Netflix, HBO Max, Peacock, Hulu, Amazon Prime Video, AppleTV+, Disney+ & over 100 more)\nAPI description: Fetches a listing of titles that have changed their streaming sources within a specified date range.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start_date": {
+                "type": "number",
+                "description": "By default, the changes API will return changes since the beginning of yesterday. Populate this parameter to manually set a start date to include changes from a specific date range, format is YYYYMMDD (eg 20210101 for January 1st, 2021), or for more granular results down to the second YYYYMMDDHHMMSS (eg 20210101123459 for January 1st, 2021 12:24pm and 59 seconds). Hours are in 24 hour format and in Eastern Standard Time. Month, day, hour, minutes and seconds use leading zeros for single digit values."
+            },
+            "limit": {
+                "type": "number",
+                "description": "Number of titles to return per page. Default is 50, maximum is 250.",
+                "default": 50.0
+            },
+            "end_date": {
+                "type": "number",
+                "description": "By default, the changes API will return changes since the beginning of yesterday. Populate this parameter to manually set a end date to include changes from a specific date range, format is YYYYMMDD (eg 20210101 for January 1st, 2021), or for more granular results down to the second YYYYMMDDHHMMSS (eg 20210101123459 for January 1st, 2021 12:24pm and 59 seconds). Hours are in 24 hour format and in Eastern Standard Time. Month, day, hour, minutes and seconds use leading zeros for single digit values."
+            },
+            "regions": {
+                "type": "string",
+                "description": "Pass in the 2 character region code (eg US) for the country you want to get titles with changed sources from. There is a limit to 1 region on this endpoint, if you leave this field blank US changes will be returned only.",
+                "default": "US,CA"
+            },
+            "types": {
+                "type": "string",
+                "description": "Filter result to include only certain types of titles. Pass a single type or multiple types comma delimited. Possible values: 'movie', 'tv_series', 'tv_special', 'tv_miniseries', 'short_film'. Defaults to 'movie,tv_series'.",
+                "default": "movie,tv_series"
+            },
+            "page": {
+                "type": "number",
+                "description": "Set the page of results you want to return, if this isn't set you will always get page 1 returned.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

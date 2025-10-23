@@ -1,0 +1,25 @@
+{
+    "name": "generate_uuid",
+    "description": "This is a sub-function API for tool helper_function.\nTool description: Helper functions that might be useful for you to use such as UUID Generator, Base64, JSON, Array, String manipulation, Hash MD5, SHA1, SHA256, SHA512, Aragon2, Bcrypt\n#ascii #encoder #decoder #uuid #slug #converter\nI'm on telegram chat me if there a problem/request\nhttps://t.me/iiyann25\nAPI description: Generate UUID v4 with dash or not.\nmax\nBASIC: 3\nPRO: 20\nULTRA: 50\nMEGA: 150",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "timestamp_first": {
+                "type": "boolean",
+                "description": "If set to True, the generated UUID will have the timestamp first.",
+                "default": true
+            },
+            "remove_dash": {
+                "type": "boolean",
+                "description": "If set to True, the generated UUIDs will not contain dashes.",
+                "default": true
+            },
+            "count": {
+                "type": "string",
+                "description": "The number of UUIDs to generate. Default is '5'.",
+                "default": "5"
+            }
+        },
+        "required": []
+    }
+}

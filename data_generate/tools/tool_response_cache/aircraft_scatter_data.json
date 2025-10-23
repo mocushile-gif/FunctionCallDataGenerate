@@ -1,0 +1,47 @@
+{
+    "{'lat': 41.8818, 'lon': -87.6231}": {
+        "error": "",
+        "response": {
+            "center": {
+                "latitude": 41.8818,
+                "longitude": -87.6231,
+                "radius_km": 1000
+            },
+            "aircraft": [
+                {
+                    "callsign": "DAL123",
+                    "altitude_ft": 35000,
+                    "ground_speed_kts": 450,
+                    "heading_deg": 270,
+                    "origin": "ORD",
+                    "destination": "ATL"
+                },
+                {
+                    "callsign": "UAL456",
+                    "altitude_ft": 38000,
+                    "ground_speed_kts": 500,
+                    "heading_deg": 140,
+                    "origin": "SFO",
+                    "destination": "ORD"
+                },
+                {
+                    "callsign": "AAL789",
+                    "altitude_ft": 32000,
+                    "ground_speed_kts": 480,
+                    "heading_deg": 320,
+                    "origin": "DFW",
+                    "destination": "ORD"
+                }
+            ],
+            "timestamp": "2023-09-25T14:30:00Z"
+        }
+    },
+    "{'lat': 51.533, 'lon': -0.0926}": {
+        "error": "",
+        "response": "{'ac': [{'hex': '4079cc', 'type': 'adsb_icao', 'flight': 'VIR127C ', 'r': 'G-VLIB', 't': 'A35K', 'alt_baro': 38000, 'alt_geom': 38200, 'gs': 466, 'ias': 270, 'tas': 494, 'mach': 0.848, 'wd': 317, 'ws': 40, 'oat': -50, 'tat': -18, 'track': 270, 'track_rate': 0, 'roll': -0.53, 'mag_heading': 278.44, 'true_heading': 273.49, 'baro_rate': 0, 'geom_rate': 32, 'squawk': '6227', 'emergency': 'none', 'category': 'A5', 'nav_qnh': 1013.6, 'nav_altitude_mcp': 38016, 'nav_heading': 278.44, 'lat': 54.004669, 'lon': -13.881932, 'nic': 8, 'rc': 186, 'seen_pos': 0.078, 'version': 2, 'nic_baro': 1, 'nac_p': 11, 'nac_v': 2, 'sil': 3, 'sil_type': 'perhour', 'gva': 2, 'sda': 2, 'alert': 0, 'spi': 0, 'mlat': [], 'tisb': [], 'messages': 322896, 'seen': 0.1, 'rssi': -22.3, 'dst': 521.1}, {'hex': 'ac54b1', 'type': 'adsb_icao', 'flight': 'FDX34   ', 'r': 'N894FD', 't': 'B77L', 'alt_baro': 37000, 'alt_geom': 37150, 'gs': 508.3, 'ias': 272, 'tas': 486, 'mach': 0.84, 'wd': 279, 'ws': 23, 'oat': -53, 'tat': -22, 'track': 91.8, 'roll': 0, 'mag_heading': 96.33, 'true_heading': 91.35, 'baro_rate': 0, 'geom_rate': 32, 'squawk': '7644', 'emergency': 'none', 'category': 'A5', 'nav_qnh': 1012.8, 'nav_altitude_mcp': 36992, 'nav_heading': 94.92, 'lat': 53.984711, 'lon': -13.869219, 'nic': 8, 'rc': 186, 'seen_pos': 0.629, 'version': 2, 'nic_baro': 1, 'nac_p': 10, 'nac_v': 2, 'sil': 3, 'sil_type': 'perhour', 'gva': 2, 'sda': 2, 'alert': 0, 'spi': 0, 'mlat': [], 'tisb': [], 'messages': 3433346, 'seen': 0.1, 'rssi': -19.8, 'dst': 520.43}, {'hex': '0d06e3', 'type': 'adsb_icao', 'flight': 'XAPTR   ', 'r': 'XA-PTR', 't': 'GLF4', 'alt_baro': 38000, 'alt_geom': 38075, 'gs': 430.7, 'ias': 254, 'tas': 466, 'mach': 0.8, 'wd': 289, 'ws': 36, 'oat': -50, 'tat': -21, 'track': 301.81, 'track_rate': 0, 'roll': -0.35, 'mag_heading': 305.86, 'true_heading': 300.95, 'baro_rate': 0, 'geom_rate': 0, 'squawk': '3601', 'emergency': 'none', 'category': 'A2', 'nav_qnh': 1013.6, 'nav_altitude_mcp': 38016, 'lat': 54.462479, 'lon': -13.467703, 'nic': 8, 'rc': 186, 'seen_pos': 0.6"
+    },
+    "{'lat': 40.7128, 'lon': -74.006}": {
+        "error": "",
+        "response": "{'ac': [{'hex': 'a71344', 'type': 'adsb_icao', 'flight': 'N555PA  ', 'r': 'N555PA', 't': 'P28A', 'alt_baro': 6600, 'alt_geom': 6675, 'gs': 108.2, 'track': 289.44, 'geom_rate': -64, 'squawk': '3737', 'emergency': 'none', 'category': 'A1', 'lat': 41.346673, 'lon': -86.105659, 'nic': 9, 'rc': 75, 'seen_pos': 0.291, 'version': 2, 'nic_baro': 0, 'nac_p': 10, 'nac_v': 2, 'sil': 3, 'sil_type': 'perhour', 'gva': 2, 'sda': 2, 'alert': 0, 'spi': 0, 'mlat': [], 'tisb': [], 'messages': 39194, 'seen': 0.3, 'rssi': -21.8, 'dst': 548.51}, {'hex': 'a65445', 'type': 'adsb_icao', 'flight': 'SDU162  ', 'r': 'N507DJ', 't': 'F2TH', 'dbFlags': 8, 'alt_baro': 27625, 'alt_geom': 28725, 'gs': 410.3, 'track': 85.39, 'geom_rate': 1536, 'squawk': '6547', 'emergency': 'none', 'category': 'A2', 'lat': 41.981739, 'lon': -86.042495, 'nic': 8, 'rc': 186, 'seen_pos': 0.291, 'version': 2, 'nic_baro': 1, 'nac_p': 10, 'nac_v': 2, 'sil': 3, 'sil_type': 'perhour', 'gva': 2, 'sda': 2, 'alert': 0, 'spi': 0, 'mlat': [], 'tisb': [], 'messages': 552787, 'seen': 0, 'rssi': -18.7, 'dst': 546.99}, {'hex': 'a7eb2d', 'type': 'adsb_icao', 'flight': 'N6091D  ', 'r': 'N6091D', 't': 'C172', 'alt_baro': 4200, 'alt_geom': 4225, 'gs': 108.8, 'track': 353.14, 'baro_rate': 64, 'squawk': '1200', 'emergency': 'none', 'category': 'A1', 'nav_qnh': 1015.2, 'nav_heading': 229.92, 'lat': 40.580237, 'lon': -86.03044, 'nic': 9, 'rc': 75, 'seen_pos': 0.171, 'version': 2, 'nic_baro': 1, 'nac_p': 10, 'nac_v': 2, 'sil': 3, 'sil_type': 'perhour', 'gva': 2, 'sda': 2, 'alert': 0, 'spi': 0, 'mlat': [], 'tisb': [], 'messages': 99462, 'seen': 0, 'rssi': -4.7, 'dst': 547.02}, {'hex': 'a1397d', 'type': 'adsb_icao', 'flight': 'N17814  ', 'r': 'N17814', 't': 'BE35', 'alt_baro': 8600, 'alt_geom': 8650, 'gs': 166.2, 'track': 195.71, 'geom_rate': 0, 'squawk': '6571', 'emergency': 'none', 'category': 'A1', 'lat': 40.904055, 'lon': -86.014335, 'nic': 9, 'rc': 75, 'seen_pos': 0.36, 'version': 2, 'nic_baro': 0, 'nac_p': 10, 'nac_v': 2, 'sil': 3, 'sil_type': 'perhour', 'gva': 2, 'sda': 2, 'alert': 0,"
+    }
+}

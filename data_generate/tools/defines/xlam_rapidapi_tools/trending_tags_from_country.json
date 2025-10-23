@@ -1,0 +1,17 @@
+{
+    "name": "trending_tags_from_country",
+    "description": "This is a sub-function API for tool hashtag.\nTool description: Generate hashtags based on image, text and get the post count detail of that hashtag\nAPI description: Fetches trending tags from a specified country using the Hashtag5 API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country_name": {
+                "type": "string",
+                "description": "The name of the country for which to fetch trending tags.",
+                "default": "United States"
+            }
+        },
+        "required": [
+            "country_name"
+        ]
+    }
+}

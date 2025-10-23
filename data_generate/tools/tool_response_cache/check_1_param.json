@@ -1,0 +1,60 @@
+{
+    "{\n  \"vat\": \"SK2121316722\"\n}": {
+        "error": "",
+        "response": "{\"countryCode\":\"SK\",\"vatNumber\":\"2121316722\",\"valid\":false,\"name\":\"---\",\"address\":\"---\"}"
+    },
+    "{'vat': 'DE123456789'}": {
+        "error": "",
+        "response": "{'countryCode': 'DE', 'vatNumber': '123456789', 'valid': False, 'name': '---', 'address': '---'}"
+    },
+    "{'vat': 'SK1234567890'}": {
+        "error": "",
+        "response": {
+            "countryCode": "SK",
+            "vatNumber": "1234567890",
+            "valid": false,
+            "name": "---",
+            "address": "---"
+        }
+    },
+    "{'vat': 'DE987654321'}": {
+        "error": "",
+        "response": {
+            "countryCode": "DE",
+            "vatNumber": "987654321",
+            "valid": false,
+            "name": "---",
+            "address": "---"
+        }
+    },
+    "{'vat': 'SK2121316722'}": {
+        "error": "",
+        "response": {
+            "countryCode": "SK",
+            "vatNumber": "2121316722",
+            "valid": false,
+            "name": "---",
+            "address": "---"
+        }
+    },
+    "{'vat': 'FR987654321'}": {
+        "error": "",
+        "response": "{'countryCode': 'FR', 'vatNumber': '987654321', 'valid': False, 'name': '---', 'address': '---'}"
+    },
+    "{'vat': 'GB123456789'}": {
+        "error": "",
+        "response": {}
+    },
+    "{'vat': '2121316722'}": {
+        "error": "",
+        "response": {}
+    },
+    "{'vat': 'IT00460950507'}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html>\n\n<head>\n  <title>Redirecting</title>\n  <style>\n    body {\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      height: 100vh;\n      margin: 0;\n      font-family: Arial, sans-serif;\n    }\n\n    #counter {\n      margin-top: 20px;\n      font-size: 24px;\n    }\n  </style>\n</head>\n\n<body>\n  <h1>Redirecting to lohisoft.com</h1>\n  <div id=\"counter\">5</div>\n  <script>\n    let count = 5\n    const counter = document.getElementById('counter')\n    const interval = setInterval(() => {\n      count--\n      counter.textContent = count\n      if (count <= 0) {\n        clearInterval(interval)\n        window.location.href = 'https://lohisoft.com'\n      }\n    }, 1000);\n  </script>\n</body>\n\n</html>"
+    },
+    "{'vat': 'FRABCD123456'}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html>\n\n<head>\n  <title>Redirecting</title>\n  <style>\n    body {\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      height: 100vh;\n      margin: 0;\n      font-family: Arial, sans-serif;\n    }\n\n    #counter {\n      margin-top: 20px;\n      font-size: 24px;\n    }\n  </style>\n</head>\n\n<body>\n  <h1>Redirecting to lohisoft.com</h1>\n  <div id=\"counter\">5</div>\n  <script>\n    let count = 5\n    const counter = document.getElementById('counter')\n    const interval = setInterval(() => {\n      count--\n      counter.textContent = count\n      if (count <= 0) {\n        clearInterval(interval)\n        window.location.href = 'https://lohisoft.com'\n      }\n    }, 1000);\n  </script>\n</body>\n\n</html>"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "stock_get_press_releases",
+    "description": "This is a sub-function API for tool webull.\nTool description: Query public data for investment products including stocks, fractional shares, options, ETFs, and ADRs as on webull.com\nAPI description: Retrieves press releases for a given stock ticker.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tickerid": {
+                "type": "number",
+                "description": "The value of tickerId field returned in other endpoints, such as .../stock/search or .../market/get-common-ranking or .../market/get-top-active or .../market/get-top-gainers or etc... ",
+                "default": 913256135.0
+            },
+            "lastannouncementid": {
+                "type": "number",
+                "description": "For paging purpose, the last announcement Id returned right in this endpoint, leave empty for the first query."
+            },
+            "limit": {
+                "type": "number",
+                "description": "For paging purpose, the number of items per response",
+                "default": 20.0
+            }
+        },
+        "required": [
+            "tickerid"
+        ]
+    }
+}

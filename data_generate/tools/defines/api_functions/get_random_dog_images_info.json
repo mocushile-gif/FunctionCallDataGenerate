@@ -1,0 +1,49 @@
+{
+    "name": "get_random_dog_images_info",
+    "description": "Get random dog images from the Dog API. Returns a list of dog images with optional filtering.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "integer",
+          "description": "Number of results to return (1-25)",
+          "minimum": 1,
+          "maximum": 25
+        },
+        "page": {
+          "type": "integer",
+          "description": "Page number for pagination",
+          "minimum": 0
+        },
+        "order": {
+          "type": "string",
+          "description": "Sort order",
+          "enum": ["ASC", "DESC", "RAND"],
+          "default": "RAND"
+        },
+        "has_breeds": {
+          "type": "boolean",
+          "description": "Filter images that have breed data"
+        },
+        "breed_ids": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "description": "Filter by breed IDs"
+        },
+        "category_ids": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "description": "Filter by category IDs"
+        },
+        "save_to": {
+          "type": "string",
+          "description": "File path to save the result as JSON"
+        }
+      },
+      "required": []
+    }
+  } 

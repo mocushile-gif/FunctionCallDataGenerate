@@ -1,0 +1,22 @@
+{
+    "name": "search_gifs",
+    "description": "This is a sub-function API for tool humor_jokes_and_memes.\nTool description: Humor API lets you search through 50,000 jokes, over 200,000 memes, and gifs. From Chuck Norris, over Knock Knock to Yo Mama jokes, you'll find something for every occasion.\nAPI description: Search for gifs.\nSee https://humorapi.com/docs/#Search-Gifs for more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query to find matching gifs.",
+                "default": "cat"
+            },
+            "number": {
+                "type": "number",
+                "description": "The number of results to retrieve, between 1 and 10. Defaults to 3.",
+                "default": 3
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

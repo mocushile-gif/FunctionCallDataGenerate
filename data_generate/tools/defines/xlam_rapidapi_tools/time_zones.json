@@ -1,0 +1,22 @@
+{
+    "name": "time_zones",
+    "description": "This is a sub-function API for tool geodb_cities.\nTool description: Get global city, region, and country data. Filter and display results in multiple languages.\nAPI description: Retrieve all known time-zones.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "offset": {
+                "type": "string",
+                "description": "The zero-based offset index into the results."
+            },
+            "hateoasmode": {
+                "type": "boolean",
+                "description": "Whether to include HATEOAS-style links in the results."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to retrieve."
+            }
+        },
+        "required": []
+    }
+}

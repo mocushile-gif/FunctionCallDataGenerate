@@ -1,0 +1,17 @@
+{
+    "name": "markets",
+    "description": "This is a sub-function API for tool skyscanner_api.\nTool description: The Skyscanner API offers developers a way to integrate Skyscanner's data into their own applications, allowing users to access and interact with the vast travel data offered by Skyscanner. \n\n![](https://tip.ep-proxy.net/t/ra-ss-main)\nAPI description: You can use the `/markets` endpoint to retrieve the market countries that we support. Most suppliers (airlines, travel agents, and car hire dealers) set their fares based on the market (or country of purchase). It is therefore necessary to specify the market country in every query. The names of the markets returned are localised based on a locale passed as a parameter.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "locale": {
+                "type": "string",
+                "description": "Locale of the request. The names of the returned markets are localized based on this parameter.",
+                "default": "en-US"
+            }
+        },
+        "required": [
+            "locale"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "consumers_get_reviews",
+    "description": "This is a sub-function API for tool unofficial_trust_pilot.\nTool description: This API helps to query data relating to reviews and consumer reports to create a reviewing platform, such as : trustpilot.com\nAPI description: Retrieve reviews for a specific consumer from the Trustpilot API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The value of consumer->id field returned in .../business-units/get-reviews or .../consumers/detail endpoint",
+                "default": "5f9c424654404f0019fb19fc"
+            },
+            "includereportedreviews": {
+                "type": "boolean",
+                "description": "Specifies whether or not to include reported reviews. Defaults to None.",
+                "default": true
+            },
+            "perpage": {
+                "type": "number",
+                "description": "The number of items to include per page for pagination purposes. Defaults to 1.",
+                "default": 1.0
+            },
+            "page": {
+                "type": "number",
+                "description": "The number of items to include per page for pagination purposes. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

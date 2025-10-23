@@ -1,0 +1,19 @@
+{
+    "name": "get_teams_and_players",
+    "description": "This is a sub-function API for tool league_of_legends_esports.\nTool description: This api gives you all of the lol esports leagues , vods, tournaments, match , game , event details with videos , scheadule , standings, teams and their players. And live game score.\nAPI description: Fetches teams and players information from the League of Legends Esports API. This function can filter results based on the team name or team ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the team to filter by. Defaults to None."
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the team to filter by. Defaults to 'lng-esports'.",
+                "default": "lng-esports"
+            }
+        },
+        "required": []
+    }
+}

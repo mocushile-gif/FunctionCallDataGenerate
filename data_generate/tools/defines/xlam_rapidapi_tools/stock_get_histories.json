@@ -1,0 +1,17 @@
+{
+    "name": "stock_get_histories",
+    "description": "This is a sub-function API for tool ms_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc... to create a site/application such as morningstar.com\nAPI description: Fetches historical stock market data for a given performance ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "performanceid": {
+                "type": "string",
+                "description": "The PerformanceId field retrieved from the /market/auto-complete or /market/get-summary APIs.",
+                "default": "0P0000OQN8"
+            }
+        },
+        "required": [
+            "performanceid"
+        ]
+    }
+}

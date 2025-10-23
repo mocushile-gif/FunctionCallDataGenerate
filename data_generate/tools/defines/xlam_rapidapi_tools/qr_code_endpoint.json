@@ -1,0 +1,14 @@
+{
+    "name": "qr_code_endpoint",
+    "description": "This is a sub-function API for tool go_qr_code_link_to_qrcode.\nTool description: Quickly and easily generate QR code images with our API. Simply provide a link address and our API will return a downloadable PNG image of the QR code. Perfect for use in print materials, on business cards, or in advertising campaigns\nAPI description: Generates a QR code for a given URL using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL to be encoded in the QR code. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

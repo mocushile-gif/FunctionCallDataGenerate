@@ -1,0 +1,16 @@
+{
+    "name": "search_autocomplete_api",
+    "description": "This is a sub-function API for tool weatherapi_com.\nTool description: WeatherAPI.com is a powerful fully managed free weather and geolocation API provider that provides extensive APIs that range from the weather forecast, historical weather, future weather, weather alerts, air quality data, IP lookup, and astronomy through to sports, time zone, and geolocation.\nAPI description: Search or Autocomplete API returns matching cities and towns based on the query.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "Query parameter based on which data is sent back. It could be following:\n\nLatitude and Longitude (Decimal degree) e.g: q=48.8567,2.3508\ncity name e.g.: q=Paris\nUS zip e.g.: q=10001\nUK postcode e.g: q=SW1\nCanada postal code e.g: q=G2J\nmetar:<metar code> e.g: q=metar:EGLL\niata:<3 digit airport code> e.g: q=iata:DXB\nauto:ip IP lookup e.g: q=auto:ip\nIP address (IPv4 and IPv6 supported) e.g: q=100.0.0.1"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

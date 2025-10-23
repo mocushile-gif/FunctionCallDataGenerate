@@ -1,0 +1,26 @@
+{
+    "name": "followers",
+    "description": "This is a sub-function API for tool instagram_v6.\nTool description: instagram api\nAPI description: Retrieves the list of followers for a given Instagram user.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The ID of the Instagram user whose followers are to be retrieved.",
+                "default": "25025320"
+            },
+            "batch_size": {
+                "type": "number",
+                "description": "The number of followers to retrieve in one batch. Default is 20.",
+                "default": 20.0
+            },
+            "next_cursor": {
+                "type": "string",
+                "description": "A cursor for pagination to fetch the next set of followers. Default is None."
+            }
+        },
+        "required": [
+            "user_id"
+        ]
+    }
+}

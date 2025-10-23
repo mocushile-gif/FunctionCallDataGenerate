@@ -1,0 +1,17 @@
+{
+    "name": "series_get_venues",
+    "description": "This is a sub-function API for tool cricbuzz_cricket.\nTool description: This API helps to query for live cricket scores, commentary, latest cricket news and editorials, schedules of upcoming matches, rankings, stats, records, etc\nAPI description: Fetches the venues for a given cricket series using the Series ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "seriesid": {
+                "type": "number",
+                "description": "The unique identifier for the series, obtainable from the `/series/list` or `/series/list-archives` endpoints.",
+                "default": 3718.0
+            }
+        },
+        "required": [
+            "seriesid"
+        ]
+    }
+}

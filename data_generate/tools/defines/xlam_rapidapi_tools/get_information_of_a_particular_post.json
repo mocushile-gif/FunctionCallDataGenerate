@@ -1,0 +1,17 @@
+{
+    "name": "get_information_of_a_particular_post",
+    "description": "This is a sub-function API for tool leetcode_compensation.\nTool description: An API service to obtain HOT posts of Leetcode Discuss Compensation\nAPI description: This API Endpoint will return information of a particular post with specific postID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "postid": {
+                "type": "string",
+                "description": "The unique identifier of the post for which information is to be retrieved.",
+                "default": "2796025"
+            }
+        },
+        "required": [
+            "postid"
+        ]
+    }
+}

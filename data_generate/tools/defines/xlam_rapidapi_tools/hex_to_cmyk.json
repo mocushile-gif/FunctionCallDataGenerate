@@ -1,0 +1,17 @@
+{
+    "name": "hex_to_cmyk",
+    "description": "This is a sub-function API for tool convexity.\nTool description: Convexity is an Color-convertor API that offers endpoints for converting between different color representations, including RGB, HSL, and CMYK\nAPI description: Converts a hex color code to a CMYK color code using an API call to the Convexity service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hex": {
+                "type": "string",
+                "description": "The hex color code to convert (e.g., \"#FFFFFF\").",
+                "default": "ffffff"
+            }
+        },
+        "required": [
+            "hex"
+        ]
+    }
+}

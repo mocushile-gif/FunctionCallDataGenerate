@@ -1,0 +1,33 @@
+{
+  "name": "get_weather_history",
+  "description": "Fetches weather history for a given city using the WeatherAPI. The API is limited to retrieving historical data for up to 7 days in the past.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "q": {
+        "type": "string",
+        "description": "Query parameter for location. It could be Latitude and Longitude (Decimal degree), location name, postal code, METAR code, IATA code, or IP address."
+      },
+      "dt": {
+        "type": "string",
+        "description": "The starting date for historical weather data. Should be on or after 1st Jan, 2010 in yyyy-MM-dd format."
+      },
+      "end_dt": {
+        "type": "string",
+        "description": "The ending date for historical weather data. Should be on or after 1st Jan, 2010 and the difference between 'dt' and 'end_dt' should not exceed 30 days.",
+        "default": null
+      },
+      "include_astro": {
+        "type": "boolean",
+        "description": "Whether to include astronomical data such as sunrise, sunset, moonrise, etc. Default is False.",
+        "default": false
+      },
+      "include_hour_forecast": {
+        "type": "boolean",
+        "description": "Whether to include hour-by-hour weather history information. Default is False.",
+        "default": false
+      }
+    },
+    "required": ["q", "dt"]
+  }
+}

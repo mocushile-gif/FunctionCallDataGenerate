@@ -1,0 +1,17 @@
+{
+    "name": "v1_sentiment",
+    "description": "This is a sub-function API for tool sentiment_by_api_ninjas.\nTool description: State-of-the-art text sentiment analysis. See more info at https://api-ninjas.com/api/sentiment.\nAPI description: Performs sentiment analysis on the provided block of text using the API Ninjas sentiment analysis service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The input text for sentiment analysis, with a maximum length of 2000 characters.",
+                "default": "It's a wonderful day!"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "regular_dice_rolls",
+    "description": "This is a sub-function API for tool dice_roll_simulator.\nTool description: Roll as many dice of any size as many times you want with the ultimate dice rolling API.\nAPI description: This function simulates rolling a specified number of dice for a specified number of times using the Dice Roll Simulator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "rolls": {
+                "type": "number",
+                "description": "The number of times to roll the dice. Default is 2.",
+                "default": 2.0
+            },
+            "dice": {
+                "type": "number",
+                "description": "The number of dice to roll each time. Default is 3.",
+                "default": 3.0
+            }
+        },
+        "required": []
+    }
+}

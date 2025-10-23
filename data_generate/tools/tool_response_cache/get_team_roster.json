@@ -1,0 +1,70 @@
+{
+    "{'teamabv': 'SAC'}": {
+        "error": "",
+        "response": {
+            "team": "SAC",
+            "name": "Sacramento Kings",
+            "roster": [
+                {
+                    "player": "De'Aaron Fox",
+                    "position": "PG",
+                    "jersey": "1",
+                    "stats": {
+                        "points_avg": 24.5,
+                        "rebounds_avg": 4.3,
+                        "assists_avg": 6.7
+                    }
+                },
+                {
+                    "player": "Domantas Sabonis",
+                    "position": "C",
+                    "jersey": "12",
+                    "stats": {
+                        "points_avg": 16.2,
+                        "rebounds_avg": 10.1,
+                        "assists_avg": 8.9
+                    }
+                },
+                {
+                    "player": "Harrison Barnes",
+                    "position": "SF",
+                    "jersey": "40",
+                    "stats": {
+                        "points_avg": 18.3,
+                        "rebounds_avg": 5.6,
+                        "assists_avg": 3.1
+                    }
+                }
+            ],
+            "last_updated": "20231025T1530Z"
+        }
+    },
+    "{'teamabv': 'ATL', 'archivedate': '20250602'}": {
+        "error": "",
+        "response": "{'statusCode': 200, 'body': {'team': 'ATL', 'rosterArchiveDate': '20250602', 'roster': ['28218011729', '28978646789', '28318649869', '941044811139', '28538771482', '94334276527', '28688877869', '28848343927', '948647045669', '940747982639', '943649135539', '28428786249', '94054452027', '28838048249', '948247065539', '943541715989', '94194409027', '28558319499']}}"
+    },
+    "{'teamabv': 'BOS'}": {
+        "error": "",
+        "response": "{'statusCode': 200, 'body': {'team': 'BOS', 'teamID': '2', 'roster': [{'college': 'Creighton', 'fantasyProsLink': 'https://www.fantasypros.com/nba/players/baylor-scheierman.php', 'jerseyNum': '55', 'bRefID': 'scheiba01', 'espnName': 'Baylor Scheierman', 'yahooLink': 'https://sports.yahoo.com/nba/players/10277', 'sleeperBotID': '2721', 'fantasyProsPlayerID': '5457', 'nbaComLink': 'https://www.nba.com/player/1631248', 'nbaComHeadshot': 'https://cdn.nba.com/headshots/nba/latest/1040x760/1631248.png', 'lastGamePlayed': '20250120_BOS@GS', 'espnLink': 'https://www.espn.com/nba/player/_/id/4593841/baylor-scheierman', 'yahooPlayerID': '10277', 'pos': 'SG', 'teamID': '2', 'injury': {'injReturnDate': '', 'description': '', 'injDate': '', 'designation': ''}, 'nbaComName': 'Baylor Scheierman', 'rotoWirePlayerIDFull': 'baylor-scheierman-6280', 'rotoWirePlayerID': '6280', 'exp': 'R', 'height': '6-6', 'nbaComID': '1631248', 'espnHeadshot': 'https://a.espncdn.com/combiner/i?img=/i/headshots/nophoto.png&w=200&h=146', 'espnID': '4593841', 'weight': '205', 'team': 'BOS', 'bRefName': 'Baylor Scheierman', 'espnShortName': 'B. Scheierman', 'bDay': '9/26/2000', 'shortName': 'B. Scheierman', 'longName': 'Baylor Scheierman', 'playerID': '94244482027', 'stats': {'blk': '0.0', 'fga': '2.0', 'DefReb': '1.6', 'ast': '0.4', 'ftp': '100.0', 'tptfgp': '11.1', 'tptfgm': '0.1', 'trueShootingPercentage': '30.2', 'stl': '0.3', 'fgm': '0.4', 'pts': '1.3', 'reb': '1.9', 'fgp': '21.4', 'effectiveShootingPercentage': '25.0', 'fta': '0.3', 'mins': '6.0', 'gamesPlayed': '7', 'TOV': '0.0', 'tptfga': '1.3', 'OffReb': '0.3', 'ftm': '0.3'}}, {'college': 'Arkansas', 'fantasyProsLink': 'https://www.fantasypros.com/nba/players/jordan-walsh.php', 'jerseyNum': '27', 'bRefID': 'walshjo01', 'espnName': 'Jordan Walsh', 'yahooLink': 'https://sports.yahoo.com/nba/players/10075', 'sleeperBotID': '2608', 'fantasyProsPlayerID': '5994', 'nbaComLink': 'https://www.nba.com/player/1641775', 'nbaComHeadshot': 'https://cdn.nba.com/headshots/nba/latest/1040x760/1641775.png', 'l"
+    },
+    "{'teamabv': 'BKN', 'statstoget': 'averages', 'archivedate': '20250526'}": {
+        "error": "",
+        "response": "{'statusCode': 200, 'body': {'team': 'BKN', 'rosterArchiveDate': '20250526', 'roster': ['94254432027', '945840191869', '94684462027', '94514265527', '946849255539', '28568879869', '94704216527', '94924235527', '28398879047', '28048636399', '94324235527', '94564412027', '28358849027', '28958359129', '94034965527', '946840901869', '28478359129', '94674218027']}}"
+    },
+    "{'teamabv': 'CHI', 'statstoget': 'averages', 'archivedate': '20250602'}": {
+        "error": "",
+        "response": "{'statusCode': 200, 'body': {'team': 'CHI', 'rosterArchiveDate': '20250602', 'roster': ['94814419047', '94704402047', '94424452027', '941447431869', '28598696399', '94864419047', '94424472047', '28268405032', '94134262027', '941649430339', '28968147129', '94884492047', '28268546399', '947540715989', '94074499027', '94724428027', '94954916527', '28368516399']}}"
+    },
+    "{'teamabv': 'CHI', 'statstoget': 'averages', 'archivedate': '20250531'}": {
+        "error": "",
+        "response": "{'statusCode': 200, 'body': {'team': 'CHI', 'rosterArchiveDate': '20250531', 'roster': ['94814419047', '94704402047', '94424452027', '941447431869', '28598696399', '94864419047', '94424472047', '28268405032', '94134262027', '941649430339', '28968147129', '94884492047', '28268546399', '947540715989', '94074499027', '94724428027', '94954916527', '28368516399']}}"
+    },
+    "{'teamabv': 'BOS', 'statstoget': 'averages', 'archivedate': '20250602'}": {
+        "error": "",
+        "response": "{'statusCode': 200, 'body': {'team': 'BOS', 'rosterArchiveDate': '20250602', 'roster': ['94244482027', '942740191869', '94304409047', '28298596399', '946749465539', '28498106429', '28518491632', '28088839869', '28628646399', '28158872047', '28928862047', '28118432369', '28138379499', '28058676399', '28556362792', '28478050069', '28768121429']}}"
+    },
+    "{'teamabv': 'LAL'}": {
+        "error": "",
+        "response": "{'statusCode': 200, 'body': {'team': 'LAL', 'teamID': '14', 'roster': [{'college': 'Gonzaga', 'fantasyProsLink': 'https://www.fantasypros.com/nba/players/rui-hachimura.php', 'jerseyNum': '28', 'bRefID': 'hachiru01', 'espnName': 'Rui Hachimura', 'yahooLink': 'https://sports.yahoo.com/nba/players/6171', 'sleeperBotID': '2020', 'fantasyProsPlayerID': '4491', 'nbaComLink': 'https://www.nba.com/player/1629060', 'nbaComHeadshot': 'https://cdn.nba.com/headshots/nba/latest/1040x760/1629060.png', 'lastGamePlayed': '20250119_LAL@LAC', 'espnLink': 'https://www.espn.com/nba/player/_/id/4066648/rui-hachimura', 'yahooPlayerID': '6171', 'pos': 'PF', 'teamID': '14', 'injury': {'injReturnDate': '', 'description': '', 'injDate': '', 'designation': ''}, 'nbaComName': 'Rui Hachimura', 'rotoWirePlayerIDFull': 'rui-hachimura-4778', 'rotoWirePlayerID': '4778', 'exp': '5', 'height': '6-8', 'nbaComID': '1629060', 'espnHeadshot': 'https://a.espncdn.com/i/headshots/nba/players/full/4066648.png', 'espnID': '4066648', 'weight': '230', 'team': 'LAL', 'bRefName': 'Rui Hachimura', 'espnShortName': 'R. Hachimura', 'bDay': '2/8/1998', 'shortName': 'R. Hachimura', 'longName': 'Rui Hachimura', 'playerID': '28968646399', 'stats': {'blk': '0.5', 'fga': '9.4', 'DefReb': '3.6', 'ast': '1.5', 'ftp': '77.6', 'tptfgp': '41.7', 'tptfgm': '1.5', 'trueShootingPercentage': '59.9', 'stl': '0.9', 'fgm': '4.7', 'pts': '12.3', 'reb': '5.2', 'fgp': '49.4', 'effectiveShootingPercentage': '57.4', 'fta': '1.9', 'mins': '32.2', 'gamesPlayed': '35', 'TOV': '1.0', 'tptfga': '3.6', 'OffReb': '1.7', 'ftm': '1.5'}}, {'college': 'California-Santa Barbara', 'fantasyProsLink': 'https://www.fantasypros.com/nba/players/gabe-vincent.php', 'jerseyNum': '7', 'bRefID': 'vincega01', 'espnName': 'Gabe Vincent', 'yahooLink': 'https://sports.yahoo.com/nba/players/6353', 'sleeperBotID': '2084', 'fantasyProsPlayerID': '3635', 'nbaComLink': 'https://www.nba.com/player/1629216', 'nbaComHeadshot': 'https://cdn.nba.com/headshots/nba/latest/1040x760/1629216.png', 'lastGamePlayed': '20250119_L"
+    }
+}

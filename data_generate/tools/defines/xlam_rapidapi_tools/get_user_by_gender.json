@@ -1,0 +1,17 @@
+{
+    "name": "get_user_by_gender",
+    "description": "This is a sub-function API for tool fake_users.\nTool description: fake users is a Api that give you fake users\nAPI description: Fetches user data based on the specified gender from the fake-users6 API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "gender": {
+                "type": "string",
+                "description": "The gender of the users to be retrieved.",
+                "default": "male"
+            }
+        },
+        "required": [
+            "gender"
+        ]
+    }
+}

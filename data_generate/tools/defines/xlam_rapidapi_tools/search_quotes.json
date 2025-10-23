@@ -1,0 +1,37 @@
+{
+    "name": "search_quotes",
+    "description": "This is a sub-function API for tool semantic_quotes.\nTool description: Semantic search for quotes. Wondering which celebrities have said something similar? Look no more, this API gives you the power to search for quotes semantically from over 1M+ quotes. The Artificial Intelligence (NLP) engine behind the scene seeks to understand the meaning of your query rather than simply matching keywords. We allows user to flexibly filter the results by the length of the quote, and/or by a large variety of tags.\nAPI description: Search quotes which have similar meaning/intent to the query sentences/words. We allow user to flexibly filter the results by the length of the quote, and by a large variety of tags. The results are returned in order of similarity.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search term for querying quotes.",
+                "default": "Don't give up."
+            },
+            "tags": {
+                "type": "string",
+                "description": "Comma seperated tags for filtering, for example, \n                `faith`,\n                `god`,\n                `humor`, \n                `hope`,\n                `inspirational`, \n                `love`, \n                `life`,\n                `motivational`,\n                `philosophy`,\n                `religion`,\n                `science`,\n                `spirituality`,\n                `success`,\n                `truth`,\n                `wisdom`,\n                `poetry`,\n                and much mor",
+                "default": "inspirational,motivational"
+            },
+            "max_length": {
+                "type": "number",
+                "description": "Maximum length of the quotes to return. Defaults to 4000.",
+                "default": 4000
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of quote results to return. Defaults to 3.",
+                "default": 3
+            },
+            "min_length": {
+                "type": "number",
+                "description": "Minimum length of the quotes to return. Defaults to 0.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "detect_image_objects",
+    "description": "Detect objects in an image using the RapidAPI General Image Detection service. Supports local image file paths or remote image URLs.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image": {
+          "type": "string",
+          "description": "Path to the local image file or a remote image URL. If a local path is provided, it will be uploaded to a hosting service automatically."
+        },
+        "save_result": {
+          "type": "string",
+          "description": "Optional. File path to save the JSON result of the detection (e.g., './results/detect.json')."
+        }
+      },
+      "required": ["image"]
+    }
+  }
+  

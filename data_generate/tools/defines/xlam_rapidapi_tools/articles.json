@@ -1,0 +1,17 @@
+{
+    "name": "articles",
+    "description": "This is a sub-function API for tool news_v3.\nTool description: News Scrapper\nAPI description: Fetches articles from a specified newspaper using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "newspaper_id": {
+                "type": "string",
+                "description": "The ID of the newspaper from which to fetch articles.",
+                "default": "nytimes"
+            }
+        },
+        "required": [
+            "newspaper_id"
+        ]
+    }
+}

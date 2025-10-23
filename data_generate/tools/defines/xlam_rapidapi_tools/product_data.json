@@ -1,0 +1,22 @@
+{
+    "name": "product_data",
+    "description": "This is a sub-function API for tool ecommerce_product_api.\nTool description: The Ecommerce Product API is a comprehensive solution for retrieving and managing product information in ecommerce stores. This API provides access to a wide range of product data, including titles, descriptions, images, and more. \nAPI description: The /data endpoint is a part of the Ecommerce Product API that allows you to retrieve information about a specific product in your ecommerce store. By making a GET request to this endpoint and specifying the product name, you can access a wide range of information about the product, including its name, description, images, and more. The response to the request will be in JSON format and will include all relevant product data. This endpoint is an essential tool for retrieving information about products in yo",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "product": {
+                "type": "string",
+                "description": "The name of the product to retrieve information for.",
+                "default": "phone"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for paginated results. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "product"
+        ]
+    }
+}

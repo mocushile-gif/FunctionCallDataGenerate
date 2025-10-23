@@ -1,0 +1,17 @@
+{
+    "name": "consulta_dados_societ_rios",
+    "description": "This is a sub-function API for tool consulta_cpf_cnpj_brasil.\nTool description: api consulta cpf cnpj diretamente na base do serasa, otimize suas aplicações\nAPI description: Fetches the data of a partner (socio) associated with the given socioeconomic ID (id_socio).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "id_socio": {
+                "type": "string",
+                "description": "The socioeconomic ID of the partner to be queried.",
+                "default": "CONTATOS_ID_SOCIO"
+            }
+        },
+        "required": [
+            "id_socio"
+        ]
+    }
+}

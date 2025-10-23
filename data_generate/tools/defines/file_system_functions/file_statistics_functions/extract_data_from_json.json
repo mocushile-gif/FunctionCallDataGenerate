@@ -1,0 +1,40 @@
+{
+    "name": "extract_data_from_json",
+    "description": "Extracts specific fields from a JSON file and returns the data as a list of dictionaries. The function can handle both single JSON objects and lists of JSON objects, and allows for limiting the number of results returned.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "file_path": {
+                "type": "string",
+                "description": "The path to the JSON file from which to extract data."
+            },
+            "keys": {
+                "type": [
+                    "string",
+                    "array"
+                ],
+                "items": {
+                    "type": "string"
+                },
+                "description": "The fields to extract from the JSON data. Can be a single field name (string) or a list of field names (array)."
+            },
+            "output_path": {
+                "type": "string",
+                "description": "Optional path to save the query result. Supported formats: .csv, .xlsx, .json, .jsonl"
+              },
+            "limit": {
+                "type": [
+                    "integer",
+                    "null"
+                ],
+                "description": "The maximum number of items to return. If null, all items are returned.",
+                "default": null,
+                "minimum": 0
+            }
+        },
+        "required": [
+            "file_path",
+            "keys"
+        ]
+    }
+}

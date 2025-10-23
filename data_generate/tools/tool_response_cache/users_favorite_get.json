@@ -1,0 +1,14 @@
+{
+    "{'sm_uid': '12345', 'type': 'artists'}": {
+        "error": "",
+        "response": "{'rate': {'rate_span': '1 Minute', 'rate_limit': 'Unlimited', 'rate_remaining': 'Unlimited', 'rate_user': 0}, 'status': {'status_code': 401, 'status_message': 'Authentication failed, probably because of invalid/missing API key.', 'source': '8'}}"
+    },
+    "{'sm_uid': 'sm_uid_3a4b5c6d-7e8f-9a0b-c1d2-e3f4a5b6c7d8', 'type': 'artists'}": {
+        "error": "",
+        "response": "{'rate': {'rate_span': '1 Minute', 'rate_limit': 'Unlimited', 'rate_remaining': 'Unlimited', 'rate_user': 0}, 'status': {'status_code': 401, 'status_message': 'Authentication failed, probably because of invalid/missing API key.', 'source': '8'}}"
+    },
+    "{'sm_uid': 'sm_789456213', 'type': 'artists'}": {
+        "error": "",
+        "response": "{'rate': {'rate_span': '1 Minute', 'rate_limit': 'Unlimited', 'rate_remaining': 'Unlimited', 'rate_user': 0}, 'status': {'status_code': 401, 'status_message': 'Authentication failed, probably because of invalid/missing API key.', 'source': '8'}}"
+    }
+}

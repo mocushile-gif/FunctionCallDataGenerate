@@ -1,0 +1,17 @@
+{
+    "name": "historical_exchange_rates",
+    "description": "This is a sub-function API for tool currency_conversion_and_exchange_rates.\nTool description: Simple reliable API for current and historical foreign exchange (forex) currency rates.\nAPI description: Retrieve historical exchange rate data. Data is available for most currencies all the way back to the year of 1999.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve exchange rate data, formatted as 'YYYY-MM-DD'.",
+                "default": "2019-10-16"
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

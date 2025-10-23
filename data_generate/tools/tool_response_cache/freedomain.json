@@ -1,0 +1,50 @@
+{
+    "{'domain': 'example.com'}": {
+        "error": "",
+        "response": {
+            "FreeDomain": "example.com is not a Free  domain"
+        }
+    },
+    "{'domain': 'gmail.com'}": {
+        "error": "",
+        "response": {
+            "FreeDomain": "gmail.com is  a  Free  domain"
+        }
+    },
+    "{'domain': 'mycompany.com'}": {
+        "error": "",
+        "response": {
+            "FreeDomain": "mycompany.com is not a Free  domain"
+        }
+    },
+    "{'domain': 'yahoo.com'}": {
+        "error": "",
+        "response": {
+            "FreeDomain": "yahoo.com is  a  Free  domain"
+        }
+    },
+    "{'domain': 'innovativeapisolutions.com'}": {
+        "error": "",
+        "response": "Not Found\n"
+    },
+    "{'domain': 'sketchupautomationtools.com'}": {
+        "error": "",
+        "response": "Not Found\n"
+    },
+    "{'domain': 'transformativeapisolutions.com'}": {
+        "error": "",
+        "response": "Not Found\n"
+    },
+    "{'domain': 'visionaryapisolutions.com'}": {
+        "error": "",
+        "response": "Not Found\n"
+    },
+    "{'domain': 'sketchupautomationtools.net'}": {
+        "error": "",
+        "response": "Not Found\n"
+    },
+    "{'domain': 'domain.org'}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Service Suspended</title>\n</head>\n<body>\nThis service has been suspended.\n</body>\n</html>\n"
+    }
+}

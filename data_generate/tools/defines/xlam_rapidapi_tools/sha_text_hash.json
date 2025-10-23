@@ -1,0 +1,23 @@
+{
+    "name": "sha_text_hash",
+    "description": "This is a sub-function API for tool hashing_api.\nTool description: Blake2B/MD5/SHA Text/File/Bytes Hashing\nAPI description: Hash text (as query-string-parameter) using SHA1, SHA256, SHA384 or SHA512 algorithm according to selected mode path-parameter [1, 256, 384, 512].",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "datastring": {
+                "type": "string",
+                "description": "The input text to be hashed.",
+                "default": "enter-your-string-here"
+            },
+            "mode": {
+                "type": "number",
+                "description": "The SHA algorithm to use. Valid values are 1, 256, 384, or 512.",
+                "default": 256.0
+            }
+        },
+        "required": [
+            "datastring",
+            "mode"
+        ]
+    }
+}

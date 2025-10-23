@@ -1,0 +1,33 @@
+{
+    "name": "top_music",
+    "description": "This is a sub-function API for tool kwai.\nTool description: Kwai Private API (TikTok like mobile app), Best Kwai Scraping API, non-blocking API, contact us if you want a custom plan. http://t.me/aimadnet\nAPI description: Fetch the top music tracks from the API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "kapi_proxy": {
+                "type": "string",
+                "description": "Proxy to be used for the API call. Defaults to None."
+            },
+            "count": {
+                "type": "string",
+                "description": "Number of tracks to fetch. Defaults to '20'.",
+                "default": "20"
+            },
+            "pcursor": {
+                "type": "string",
+                "description": "Pagination cursor if paginated results are required. Defaults to None."
+            },
+            "language": {
+                "type": "string",
+                "description": "Language code for the results. Defaults to 'en'.",
+                "default": "en"
+            },
+            "country": {
+                "type": "string",
+                "description": "Country code for the results. Defaults to 'ma'.",
+                "default": "ma"
+            }
+        },
+        "required": []
+    }
+}

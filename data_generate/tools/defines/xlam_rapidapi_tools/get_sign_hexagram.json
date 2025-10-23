@@ -1,0 +1,16 @@
+{
+    "name": "get_sign_hexagram",
+    "description": "This is a sub-function API for tool sign_hexagram.\nTool description: 提供灵签在线抽签解签、灵签神卦占卜。\nAPI description: Fetches detailed information for a specified sign hexagram category using the Sign Hexagram API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "The ID of the category for which to retrieve the hexagram information."
+            }
+        },
+        "required": [
+            "category"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "blake2b_text_hash_with_key",
+    "description": "This is a sub-function API for tool hashing_api.\nTool description: Blake2B/MD5/SHA Text/File/Bytes Hashing\nAPI description: Hash text (as query-string-parameter) with private-key (as query-string-parameter) using blake2b algorithm.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "datastring": {
+                "type": "string",
+                "description": "The text to be hashed.",
+                "default": "enter-your-string-here"
+            },
+            "keystring": {
+                "type": "string",
+                "description": "The key to be used for hashing the text.",
+                "default": "enter-your-key-here"
+            }
+        },
+        "required": [
+            "datastring",
+            "keystring"
+        ]
+    }
+}

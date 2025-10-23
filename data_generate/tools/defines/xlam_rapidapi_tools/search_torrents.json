@@ -1,0 +1,28 @@
+{
+    "name": "search_torrents",
+    "description": "This is a sub-function API for tool movie_tv_music_search_and_download.\nTool description: Retrieve multiple downloadable torrent links by searching for keywords related to movies, TV shows, and music titles, with a rating of 10 indicating the highest quality. Download through uTorrent, BitTorrent, and various other clients.\nAPI description: Search for torrents based on given keywords using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keywords": {
+                "type": "string",
+                "description": "Keywords to search for torrents.",
+                "default": "Meg 2 The Trench"
+            },
+            "quantity": {
+                "type": "number",
+                "description": "Number of torrent results to return. Maximum value is 40.",
+                "default": 40.0
+            },
+            "page": {
+                "type": "number",
+                "description": "Page number for paginated results. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "keywords",
+            "quantity"
+        ]
+    }
+}

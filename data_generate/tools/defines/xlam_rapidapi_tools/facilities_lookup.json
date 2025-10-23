@@ -1,0 +1,33 @@
+{
+    "name": "facilities_lookup",
+    "description": "This is a sub-function API for tool tanzania_api.\nTool description: The Tanzania API provides endpoints to lookup locations, find facilities and perform geospatial operations such as distance calculation and directions between two locations in Tanzania.\nAPI description: This endpoint allows you to get facilities in Tanzania like hospital, bank, college, etc. by providing optional query parameters for facility type, region and city. It returns a list of facilities that match the query parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of amenity facility to search for (default: **hospital**)\nOptions:\n**aerodrome, bar, cafe, fast_food, pub, restaurant, college, driving_school, school, university, bank, atm, pharmacy,** etc..        \n\n[More options->](https://wiki.openstreetmap.org/wiki/Map_features#Amenity)",
+                "default": "hospital"
+            },
+            "region": {
+                "type": "string",
+                "description": "The region where the facility is located.",
+                "default": "Coastal Zone"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of facilities to return. Default is 10.",
+                "default": "10"
+            },
+            "city": {
+                "type": "string",
+                "description": "The city where the facility is located. Default is 'douala'.",
+                "default": "Dar es Salaam"
+            }
+        },
+        "required": [
+            "type",
+            "region"
+        ]
+    }
+}

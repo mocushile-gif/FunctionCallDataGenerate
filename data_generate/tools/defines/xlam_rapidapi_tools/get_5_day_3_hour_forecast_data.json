@@ -1,0 +1,15 @@
+{
+    "name": "get_5_day_3_hour_forecast_data",
+    "description": "This is a sub-function API for tool vision_weather_map.\nTool description: Obtain weather forecast and forecast for diverse cities.\nAPI description: The 5-day forecast is available in any location or city. It contains weather data every 3 hours. The forecast is available in JSON or XML format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The location query in the format \"{city name},{country code}\". The city name and country code should be divided by a comma, and the country code should follow ISO 3166 standards. Defaults to 'dallas,us'.",
+                "default": "dallas,us"
+            }
+        },
+        "required": []
+    }
+}

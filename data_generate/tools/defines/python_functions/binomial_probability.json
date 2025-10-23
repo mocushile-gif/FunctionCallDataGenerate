@@ -1,0 +1,26 @@
+{
+    "name": "binomial_probability",
+    "description": "Calculates the probability of getting exactly k successes in n independent trials using the binomial distribution formula.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "n": {
+                "type": "integer",
+                "description": "The total number of trials."
+            },
+            "k": {
+                "type": "integer",
+                "description": "The number of successes."
+            },
+            "p": {
+                "type": "number",
+                "description": "The probability of success in each trial."
+            }
+        },
+        "required": [
+            "n",
+            "k",
+            "p"
+        ]
+    }
+}

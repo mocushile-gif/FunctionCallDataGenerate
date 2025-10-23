@@ -1,0 +1,93 @@
+{
+    "{'country_code': 'IN', 'sortby': 'name', 'sortorder': 'asc', 'limit': 10}": {
+        "error": "",
+        "response": [
+            {
+                "name": "Andhra Pradesh",
+                "code": "AP",
+                "country": "India"
+            },
+            {
+                "name": "Arunachal Pradesh",
+                "code": "AR",
+                "country": "India"
+            },
+            {
+                "name": "Assam",
+                "code": "AS",
+                "country": "India"
+            },
+            {
+                "name": "Bihar",
+                "code": "BR",
+                "country": "India"
+            },
+            {
+                "name": "Chhattisgarh",
+                "code": "CG",
+                "country": "India"
+            },
+            {
+                "name": "Goa",
+                "code": "GA",
+                "country": "India"
+            },
+            {
+                "name": "Gujarat",
+                "code": "GJ",
+                "country": "India"
+            },
+            {
+                "name": "Haryana",
+                "code": "HR",
+                "country": "India"
+            },
+            {
+                "name": "Himachal Pradesh",
+                "code": "HP",
+                "country": "India"
+            },
+            {
+                "name": "Jharkhand",
+                "code": "JH",
+                "country": "India"
+            }
+        ]
+    },
+    "{'country_code': 'IN'}": {
+        "error": "",
+        "response": "[{'id': 4006, 'name': 'Meghalaya', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'ML', 'type': 'state'}, {'id': 4007, 'name': 'Haryana', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'HR', 'type': 'state'}, {'id': 4008, 'name': 'Maharashtra', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'MH', 'type': 'state'}, {'id': 4009, 'name': 'Goa', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'GA', 'type': 'state'}, {'id': 4010, 'name': 'Manipur', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'MN', 'type': 'state'}, {'id': 4011, 'name': 'Puducherry', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'PY', 'type': 'Union territory'}, {'id': 4012, 'name': 'Telangana', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'TG', 'type': 'state'}, {'id': 4013, 'name': 'Odisha', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'OR', 'type': 'state'}, {'id': 4014, 'name': 'Rajasthan', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'RJ', 'type': 'state'}, {'id': 4015, 'name': 'Punjab', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'PB', 'type': 'state'}, {'id': 4016, 'name': 'Uttarakhand', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'UT', 'type': 'state'}, {'id': 4017, 'name': 'Andhra Pradesh', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'AP', 'type': 'state'}, {'id': 4018, 'name': 'Nagaland', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'NL', 'type': 'state'}, {'id': 4019, 'name': 'Lakshadweep', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'LD', 'type': 'Union territory'}, {'id': 4020, 'name': 'Himachal Pradesh', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'HP', 'type': 'state'}, {'id': 4021, 'name': 'Delhi', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'DL', 'type': 'Union territory'}, {'id': 4022, 'name': 'Uttar Pradesh', 'country_code': 'IN', 'country_name': 'India', 'state_code': 'UP', 'type': 's"
+    },
+    "{'country_code': 'MX', 'sortby': 'name', 'sortorder': 'asc', 'limit': 5}": {
+        "error": "",
+        "response": "[{'id': 3456, 'name': 'Aguascalientes', 'country_code': 'MX', 'country_name': 'Mexico', 'state_code': 'AGU', 'type': 'state'}, {'id': 3457, 'name': 'Baja California', 'country_code': 'MX', 'country_name': 'Mexico', 'state_code': 'BCN', 'type': 'state'}, {'id': 3460, 'name': 'Baja California Sur', 'country_code': 'MX', 'country_name': 'Mexico', 'state_code': 'BCS', 'type': 'state'}, {'id': 3475, 'name': 'Campeche', 'country_code': 'MX', 'country_name': 'Mexico', 'state_code': 'CAM', 'type': 'state'}, {'id': 3451, 'name': 'Chiapas', 'country_code': 'MX', 'country_name': 'Mexico', 'state_code': 'CHP', 'type': 'state'}]"
+    },
+    "{'country_code': 'US', 'sortby': 'name', 'sortorder': 'asc'}": {
+        "error": "",
+        "response": "[{'id': 1456, 'name': 'Alabama', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'AL', 'type': 'state'}, {'id': 1400, 'name': 'Alaska', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'AK', 'type': 'state'}, {'id': 1424, 'name': 'American Samoa', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'AS', 'type': 'outlying area'}, {'id': 1434, 'name': 'Arizona', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'AZ', 'type': 'state'}, {'id': 1444, 'name': 'Arkansas', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'AR', 'type': 'state'}, {'id': 1402, 'name': 'Baker Island', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'UM-81', 'type': 'islands / groups of islands'}, {'id': 1416, 'name': 'California', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'CA', 'type': 'state'}, {'id': 1450, 'name': 'Colorado', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'CO', 'type': 'state'}, {'id': 1435, 'name': 'Connecticut', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'CT', 'type': 'state'}, {'id': 1399, 'name': 'Delaware', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'DE', 'type': 'state'}, {'id': 1437, 'name': 'District of Columbia', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'DC', 'type': 'district'}, {'id': 1436, 'name': 'Florida', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'FL', 'type': 'state'}, {'id': 1455, 'name': 'Georgia', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'GA', 'type': 'state'}, {'id': 1412, 'name': 'Guam', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'GU', 'type': 'outlying area'}, {'id': 1411, 'name': 'Hawaii', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'HI', 'type': 'state'}, {'id': 1398, 'name': 'Howland Island', 'country_code': 'US', 'country_name': 'United States', 'sta"
+    },
+    "{'country_code': 'US', 'sortby': 'name', 'sortorder': 'asc', 'limit': 100}": {
+        "error": "",
+        "response": "[{'id': 1456, 'name': 'Alabama', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'AL', 'type': 'state'}, {'id': 1400, 'name': 'Alaska', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'AK', 'type': 'state'}, {'id': 1424, 'name': 'American Samoa', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'AS', 'type': 'outlying area'}, {'id': 1434, 'name': 'Arizona', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'AZ', 'type': 'state'}, {'id': 1444, 'name': 'Arkansas', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'AR', 'type': 'state'}, {'id': 1402, 'name': 'Baker Island', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'UM-81', 'type': 'islands / groups of islands'}, {'id': 1416, 'name': 'California', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'CA', 'type': 'state'}, {'id': 1450, 'name': 'Colorado', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'CO', 'type': 'state'}, {'id': 1435, 'name': 'Connecticut', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'CT', 'type': 'state'}, {'id': 1399, 'name': 'Delaware', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'DE', 'type': 'state'}, {'id': 1437, 'name': 'District of Columbia', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'DC', 'type': 'district'}, {'id': 1436, 'name': 'Florida', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'FL', 'type': 'state'}, {'id': 1455, 'name': 'Georgia', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'GA', 'type': 'state'}, {'id': 1412, 'name': 'Guam', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'GU', 'type': 'outlying area'}, {'id': 1411, 'name': 'Hawaii', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'HI', 'type': 'state'}, {'id': 1398, 'name': 'Howland Island', 'country_code': 'US', 'country_name': 'United States', 'sta"
+    },
+    "{'country_code': 'CA', 'sortby': 'name', 'sortorder': 'asc'}": {
+        "error": "",
+        "response": "[{'id': 872, 'name': 'Alberta', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'AB', 'type': 'province'}, {'id': 875, 'name': 'British Columbia', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'BC', 'type': 'province'}, {'id': 867, 'name': 'Manitoba', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'MB', 'type': 'province'}, {'id': 868, 'name': 'New Brunswick', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'NB', 'type': 'province'}, {'id': 877, 'name': 'Newfoundland and Labrador', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'NL', 'type': 'province'}, {'id': 878, 'name': 'Northwest Territories', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'NT', 'type': 'territory'}, {'id': 874, 'name': 'Nova Scotia', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'NS', 'type': 'province'}, {'id': 876, 'name': 'Nunavut', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'NU', 'type': 'territory'}, {'id': 866, 'name': 'Ontario', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'ON', 'type': 'province'}, {'id': 871, 'name': 'Prince Edward Island', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'PE', 'type': 'province'}, {'id': 873, 'name': 'Quebec', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'QC', 'type': 'province'}, {'id': 870, 'name': 'Saskatchewan', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'SK', 'type': '"
+    },
+    "{'country_code': 'CA', 'sortby': 'name', 'sortorder': 'asc', 'limit': 100}": {
+        "error": "",
+        "response": "[{'id': 872, 'name': 'Alberta', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'AB', 'type': 'province'}, {'id': 875, 'name': 'British Columbia', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'BC', 'type': 'province'}, {'id': 867, 'name': 'Manitoba', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'MB', 'type': 'province'}, {'id': 868, 'name': 'New Brunswick', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'NB', 'type': 'province'}, {'id': 877, 'name': 'Newfoundland and Labrador', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'NL', 'type': 'province'}, {'id': 878, 'name': 'Northwest Territories', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'NT', 'type': 'territory'}, {'id': 874, 'name': 'Nova Scotia', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'NS', 'type': 'province'}, {'id': 876, 'name': 'Nunavut', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'NU', 'type': 'territory'}, {'id': 866, 'name': 'Ontario', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'ON', 'type': 'province'}, {'id': 871, 'name': 'Prince Edward Island', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'PE', 'type': 'province'}, {'id': 873, 'name': 'Quebec', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'QC', 'type': 'province'}, {'id': 870, 'name': 'Saskatchewan', 'country_code': 'CA', 'country_name': 'Canada', 'state_code': 'SK', 'type': '"
+    },
+    "{'country_code': 'US', 'sortby': 'name', 'sortorder': 'desc'}": {
+        "error": "",
+        "response": "[{'id': 1442, 'name': 'Wyoming', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'WY', 'type': 'state'}, {'id': 1441, 'name': 'Wisconsin', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'WI', 'type': 'state'}, {'id': 1429, 'name': 'West Virginia', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'WV', 'type': 'state'}, {'id': 1462, 'name': 'Washington', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'WA', 'type': 'state'}, {'id': 1405, 'name': 'Wake Island', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'UM-79', 'type': 'islands / groups of islands'}, {'id': 1427, 'name': 'Virginia', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'VA', 'type': 'state'}, {'id': 1409, 'name': 'Vermont', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'VT', 'type': 'state'}, {'id': 1414, 'name': 'Utah', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'UT', 'type': 'state'}, {'id': 1413, 'name': 'United States Virgin Islands', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'VI', 'type': 'outlying area'}, {'id': 1432, 'name': 'United States Minor Outlying Islands', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'UM', 'type': 'outlying area'}, {'id': 1407, 'name': 'Texas', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'TX', 'type': 'state'}, {'id': 1454, 'name': '"
+    },
+    "{'country_code': 'US', 'sortby': 'name', 'sortorder': 'desc', 'limit': 50}": {
+        "error": "",
+        "response": "[{'id': 1442, 'name': 'Wyoming', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'WY', 'type': 'state'}, {'id': 1441, 'name': 'Wisconsin', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'WI', 'type': 'state'}, {'id': 1429, 'name': 'West Virginia', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'WV', 'type': 'state'}, {'id': 1462, 'name': 'Washington', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'WA', 'type': 'state'}, {'id': 1405, 'name': 'Wake Island', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'UM-79', 'type': 'islands / groups of islands'}, {'id': 1427, 'name': 'Virginia', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'VA', 'type': 'state'}, {'id': 1409, 'name': 'Vermont', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'VT', 'type': 'state'}, {'id': 1414, 'name': 'Utah', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'UT', 'type': 'state'}, {'id': 1413, 'name': 'United States Virgin Islands', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'VI', 'type': 'outlying area'}, {'id': 1432, 'name': 'United States Minor Outlying Islands', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'UM', 'type': 'outlying area'}, {'id': 1407, 'name': 'Texas', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'TX', 'type': 'state'}, {'id': 1454, 'name': '"
+    },
+    "{'country_code': 'US', 'sortby': 'name', 'sortorder': 'desc', 'limit': 12}": {
+        "error": "",
+        "response": "[{'id': 1442, 'name': 'Wyoming', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'WY', 'type': 'state'}, {'id': 1441, 'name': 'Wisconsin', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'WI', 'type': 'state'}, {'id': 1429, 'name': 'West Virginia', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'WV', 'type': 'state'}, {'id': 1462, 'name': 'Washington', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'WA', 'type': 'state'}, {'id': 1405, 'name': 'Wake Island', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'UM-79', 'type': 'islands / groups of islands'}, {'id': 1427, 'name': 'Virginia', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'VA', 'type': 'state'}, {'id': 1409, 'name': 'Vermont', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'VT', 'type': 'state'}, {'id': 1414, 'name': 'Utah', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'UT', 'type': 'state'}, {'id': 1413, 'name': 'United States Virgin Islands', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'VI', 'type': 'outlying area'}, {'id': 1432, 'name': 'United States Minor Outlying Islands', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'UM', 'type': 'outlying area'}, {'id': 1407, 'name': 'Texas', 'country_code': 'US', 'country_name': 'United States', 'state_code': 'TX', 'type': 'state'}, {'id': 1454, 'name': '"
+    }
+}

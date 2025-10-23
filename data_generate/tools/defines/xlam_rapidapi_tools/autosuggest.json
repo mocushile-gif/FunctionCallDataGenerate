@@ -1,0 +1,66 @@
+{
+    "name": "autosuggest",
+    "description": "This is a sub-function API for tool places.\nTool description: Over 10 million tourist attractions and facilities around the world\nAPI description: Method returns suggestions for search term closest to the selected point optionally filtered by parameters. Only basic information is include in response: xid, name, kinds, osm, wikidata of each object. Depending on the chosen format, the response is either a simple array of objects (with a smaller volume) or an object in GeoJSON format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The query term on which to search.",
+                "default": "don"
+            },
+            "lon": {
+                "type": "number",
+                "description": "Longitude of the selected point.",
+                "default": -70.65
+            },
+            "radius": {
+                "type": "number",
+                "description": "Maximum distance from the selected point in meters.",
+                "default": 5000.0
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language code (2 characters, ISO639-1). Available values include 'en' for English and 'ru' for Russian."
+            },
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the selected point.",
+                "default": -33.437
+            },
+            "kinds": {
+                "type": "string",
+                "description": "Object category. Several comma-separated categories may be stated with OR logic. Objects from all categories are returned by default. See object category hierarchy at https://dev.opentripmap.com/doc/en/",
+                "default": "foods"
+            },
+            "rate": {
+                "type": "string",
+                "description": "Minimum rating of the object popularity, 1 - minimum, 3- maximum, h - object is referred to the cultural heritage. Objects from all categories are returned by default.  Available values : 1, 2, 3, 1h, 2h, 3h"
+            },
+            "src_attr": {
+                "type": "string",
+                "description": "The source of the object attributes. It is allowed to point multiple sources separated by commas. Objects from all sources are returned by default. Available values : osm, wikidata, snow, cultura.ru, rosnedra, user"
+            },
+            "format": {
+                "type": "string",
+                "description": "The output format (GeoJSON is set by default). Specify “count” to get the number of obtained objects. Available values : json, geojson"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Maximum number of returned objects. 500 is set by default.",
+                "default": 10.0
+            },
+            "src_geom": {
+                "type": "string",
+                "description": "The source of the object geometry. Objects from all sources are returned by default. Available values : osm, wikidata, snow, cultura.ru, rosnedra"
+            }
+        },
+        "required": [
+            "name",
+            "lon",
+            "radius",
+            "lang",
+            "lat"
+        ]
+    }
+}

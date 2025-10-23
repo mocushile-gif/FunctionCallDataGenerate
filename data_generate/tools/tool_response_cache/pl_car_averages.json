@@ -1,0 +1,145 @@
+{
+    "{'year': '2012', 'make': 'BMW', 'model': '5 series'}": {
+        "error": "",
+        "response": {
+            "topModels": [
+                {
+                    "averages": {
+                        "price": 92780,
+                        "mileage": 92780
+                    },
+                    "model": "Audi A7"
+                },
+                {
+                    "averages": {
+                        "price": 56800,
+                        "mileage": 56800
+                    },
+                    "model": "Mercedes-Benz CLS"
+                },
+                {
+                    "averages": {
+                        "price": 61694,
+                        "mileage": 61694
+                    },
+                    "model": "Audi A6"
+                }
+            ]
+        }
+    },
+    "{'year': '2012', 'make': 'BMW', 'model': '5 Series'}": {
+        "error": "",
+        "response": {
+            "topModels": [
+                {
+                    "averages": {
+                        "price": 62561,
+                        "mileage": 62561
+                    },
+                    "model": "Audi A6"
+                },
+                {
+                    "averages": {
+                        "price": 53166,
+                        "mileage": 53166
+                    },
+                    "model": "Infiniti M"
+                },
+                {
+                    "averages": {
+                        "price": 50100,
+                        "mileage": 50100
+                    },
+                    "model": "Jaguar XF"
+                },
+                {
+                    "averages": {
+                        "price": 40260,
+                        "mileage": 40260
+                    },
+                    "model": "Volvo S60"
+                },
+                {
+                    "averages": {
+                        "price": 43966,
+                        "mileage": 43966
+                    },
+                    "model": "Audi A4"
+                }
+            ]
+        }
+    },
+    "{'make': 'BMW', 'model': '5 series', 'year': '2012'}": {
+        "error": "",
+        "response": {
+            "topModels": [
+                {
+                    "averages": {
+                        "price": 63064,
+                        "mileage": 63064
+                    },
+                    "model": "Audi A6"
+                }
+            ]
+        }
+    },
+    "{'make': 'BMW', 'model': '5 Series', 'year': '2021'}": {
+        "error": "",
+        "response": {
+            "topModels": [
+                {
+                    "averages": {
+                        "price": 216189,
+                        "mileage": 216189
+                    },
+                    "model": "BMW Seria 5"
+                },
+                {
+                    "averages": {
+                        "price": 198730,
+                        "mileage": 198730
+                    },
+                    "model": "Audi A6"
+                },
+                {
+                    "averages": {
+                        "price": 279900,
+                        "mileage": 279900
+                    },
+                    "model": "Audi A7"
+                },
+                {
+                    "averages": {
+                        "price": 196150,
+                        "mileage": 196150
+                    },
+                    "model": "Volvo S90"
+                }
+            ]
+        }
+    },
+    "{'make': 'toyota', 'model': 'corolla', 'year': '2018'}": {
+        "error": "",
+        "response": "{'tiersAverages': {'lower': {'price': 71450, 'mileage': 131935}, 'middle': {'price': 76900, 'mileage': 82935}, 'top': {'price': 93900, 'mileage': 73000}}, 'yearlyAverages': [{'year': 2000, 'averages': {'price': 4900, 'mileage': 170800}}, {'year': 2005, 'averages': {'price': 12000, 'mileage': 265991}}, {'year': 2006, 'averages': {'price': 19749.5, 'mileage': 143000}}, {'year': 2013, 'averages': {'price': 43500, 'mileage': 183600}}, {'year': 2015, 'averages': {'price': 36900, 'mileage': 151846}}, {'year': 2016, 'averages': {'price': 49000, 'mileage': 159000}}, {'year': 2018, 'averages': {'price': 59950, 'mileage': 137350}}, {'year': 2019, 'averages': {'price': 1226315.8, 'mileage': 111657}}, {'year': 2020, 'averages': {'price': 78110, 'mileage': 102684}}, {'year': 2021, 'averages': {'price': 70879.8, 'mileage': 104532.2}}, {'year': 2022, 'averages': {'price': 77900, 'mileage': 62200}}], 'topModels': [{'averages': {'price': 77990, 'mileage': 63000}, 'model': 'Honda Civic'}, {'averages': {'price': 46620, 'mileage': 123089}, 'model': 'Ford Focus'}, {'averages': {'price': 78040, 'mileage': 109980}, 'model': 'Audi A3'}]}"
+    },
+    "{'make': 'honda', 'model': 'civic', 'year': '2020'}": {
+        "error": "",
+        "response": "{'averages': {'mileage': 42317, 'price': 87589}, 'tiersAverages': {'lower': {'price': 72140, 'mileage': 56675}, 'middle': {'price': 87100, 'mileage': 43011}, 'top': {'price': 105940, 'mileage': 28631}}, 'yearlyAverages': [{'year': 2002, 'averages': {'price': 3900, 'mileage': 224000}}, {'year': 2004, 'averages': {'price': 4674, 'mileage': 300000}}, {'year': 2006, 'averages': {'price': 14000, 'mileage': 322638}}, {'year': 2007, 'averages': {'price': 21900, 'mileage': 186551}}, {'year': 2008, 'averages': {'price': 19950, 'mileage': 205262.5}}, {'year': 2009, 'averages': {'price': 26900, 'mileage': 194752}}, {'year': 2012, 'averages': {'price': 36450, 'mileage': 157755}}, {'year': 2013, 'averages': {'price': 42500, 'mileage': 168000}}, {'year': 2015, 'averages': {'price': 64990, 'mileage': 83000}}, {'year': 2016, 'averages': {'price': 60999, 'mileage': 148185}}, {'year': 2017, 'averages': {'price': 65500, 'mileage': 73099}}, {'year': 2019, 'averages': {'price': 85000, 'mileage': 52000}}], 'topModels': [{'averages': {'price': 86365, 'mileage': 82510}, 'model': 'Toyota Corolla'}, {'averages': {'price': 815380, 'mileage': 127761}, 'model': 'Ford Focus'}]}"
+    },
+    "{'make': 'audi', 'model': 'a3', 'year': '2019'}": {
+        "error": "",
+        "response": "{'averages': {'mileage': 142575, 'price': 73440}, 'tiersAverages': {'lower': {'price': 63450, 'mileage': 169800}, 'middle': {'price': 70750, 'mileage': 148512}, 'top': {'price': 84400, 'mileage': 105639}}, 'yearlyAverages': [{'year': 2003, 'averages': {'price': 11750, 'mileage': 269846}}, {'year': 2005, 'averages': {'price': 16400, 'mileage': 195000}}, {'year': 2006, 'averages': {'price': 13700, 'mileage': 200314}}, {'year': 2007, 'averages': {'price': 22900, 'mileage': 159132}}, {'year': 2008, 'averages': {'price': 27900, 'mileage': 163000}}, {'year': 2010, 'averages': {'price': 18500, 'mileage': 195000}}, {'year': 2013, 'averages': {'price': 38000, 'mileage': 336000}}, {'year': 2015, 'averages': {'price': 25900, 'mileage': 146880}}, {'year': 2016, 'averages': {'price': 63900, 'mileage': 109000}}, {'year': 2017, 'averages': {'price': 86400, 'mileage': 35000}}, {'year': 2018, 'averages': {'price': 64200, 'mileage': 154311.5}}, {'year': 2020, 'averages': {'price': 94900, 'mileage': 40000}}, {'year': 2021, 'averages': {'price': 94900, 'mileage': 6500}}, {'year': 2022, 'averages': {'price': 128000, 'mileage': 28456}}, {'year': 2023, 'averages': {'price': 69000, 'mileage': 54514}}], 'topModels': [{'averages': {'price': 107827, 'mileage': 114260}, 'model': 'Audi A4'}, {'averages': {'price': 100450, 'mileage': 124924}, 'model': 'Lexus IS'}, {'averages': {'price': 76597, 'mileage': 134000}, 'model': 'Infiniti Q50'}, {'averages': {'price': 117320, 'mileage': 78209}, 'model': 'Volvo S"
+    },
+    "{'year': '2020', 'make': 'toyota', 'model': 'camry'}": {
+        "error": "",
+        "response": "{'averages': {'mileage': 127473, 'price': 104153}, 'tiersAverages': {'lower': {'price': 93355, 'mileage': 162942}, 'middle': {'price': 99805, 'mileage': 113742}, 'top': {'price': 114950, 'mileage': 94900}}, 'yearlyAverages': [{'year': 2007, 'averages': {'price': 31900, 'mileage': 265500}}, {'year': 2019, 'averages': {'price': 99805, 'mileage': 135341.5}}, {'year': 2020, 'averages': {'price': 66333, 'mileage': 161000}}, {'year': 2021, 'averages': {'price': 11699883, 'mileage': 44120}}, {'year': 2023, 'averages': {'price': 137900, 'mileage': 30367}}], 'monthlyAverage': [{'tiersAverages': {'lower': {'price': 149335, 'mileage': 52669}, 'middle': {'price': 162120, 'mileage': 37090}, 'top': {'price': 169330, 'mileage': 26943}}, 'count': 22, 'date': '2022-10'}, {'tiersAverages': {'lower': {'price': 129675, 'mileage': 55125}, 'middle': {'price': 145125, 'mileage': 43476}, 'top': {'price': 165700, 'mileage': 32041}}, 'count': 14, 'date': '2022-12'}, {'tiersAverages': {'lower': {'price': 70475, 'mileage': 86644}, 'middle': {'price': 116200, 'mileage': 43671}, 'top': {'price': 150710, 'mileage': 31500}}, 'count': 12, 'date': '2023-01'}, {'tiersAverages': {'lower': {'price': 74633, 'mileage': 87688}, 'middle': {'price': 101266, 'mileage': 40967}, 'top': {'price': 153300, 'mileage': 30333}}, 'count': 10, 'date': '2023-03'}, {'tiersAverages': {'lower': {'price': 123933, 'mileage': 86910}, 'middle': {'price': 134533, 'mileage': 55197}, 'top': {'price': 152900, 'mileage': 39357}}, 'count': 9"
+    },
+    "{'year': '2022', 'make': 'honda', 'model': 'civic'}": {
+        "error": "",
+        "response": "{'averages': {'mileage': 35613, 'price': 92517}, 'tiersAverages': {'lower': {'price': 88900, 'mileage': 41900}, 'middle': {'price': 89900, 'mileage': 37000}, 'top': {'price': 98750, 'mileage': 27939}}, 'yearlyAverages': [{'year': 2005, 'averages': {'price': 10000, 'mileage': 184816}}, {'year': 2006, 'averages': {'price': 10750, 'mileage': 330000}}, {'year': 2007, 'averages': {'price': 14800, 'mileage': 239000}}, {'year': 2009, 'averages': {'price': 16650, 'mileage': 146828.5}}, {'year': 2012, 'averages': {'price': 25900, 'mileage': 208000}}, {'year': 2015, 'averages': {'price': 59500, 'mileage': 100300}}, {'year': 2018, 'averages': {'price': 78000, 'mileage': 140000}}, {'year': 2020, 'averages': {'price': 81500, 'mileage': 98000}}]}"
+    },
+    "{'year': '2012', 'make': 'bmw', 'model': '5 series'}": {
+        "error": "",
+        "response": "{}"
+    }
+}

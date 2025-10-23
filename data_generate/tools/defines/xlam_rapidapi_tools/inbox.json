@@ -1,0 +1,17 @@
+{
+    "name": "inbox",
+    "description": "This is a sub-function API for tool email_temporary_generator.\nTool description: The Email Temporary Generator API generates temporary email addresses that can be used to protect the privacy and avoid spam. This API is easy to use and can be integrated with any application. Users can create temporary email addresses and check their inboxes to view incoming emails.\nAPI description: Fetches the inbox messages for a given temporary email address using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The temporary email address for which to fetch the inbox messages.",
+                "default": "example@mx.getmailet.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

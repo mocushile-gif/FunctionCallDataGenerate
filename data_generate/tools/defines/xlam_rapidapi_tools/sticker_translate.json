@@ -1,0 +1,17 @@
+{
+    "name": "sticker_translate",
+    "description": "This is a sub-function API for tool giphy.\nTool description: Giphy is an animated GIF search engine.\r\n\r\nThe Giphy API implements a REST-like interface. Connections can be made with any HTTP enabled programming language. The Giphy API also implements CORS, allowing you to connect to Giphy from JavaScript / Web browsers on your own domain.\nAPI description: Using the same alogirithm as the GIF translate endpoint, the sticker translate endpoint turns words into stickers.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "s": {
+                "type": "string",
+                "description": "The term or phrase to translate into a sticker.",
+                "default": "hungry"
+            }
+        },
+        "required": [
+            "s"
+        ]
+    }
+}

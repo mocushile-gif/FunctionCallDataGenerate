@@ -1,0 +1,23 @@
+{
+    "name": "flame",
+    "description": "This is a sub-function API for tool flames_love_calculator.\nTool description: Simple API to Calculate Flames score\nAPI description: Calculates the FLAMES relationship compatibility score for two given names using the Flames Love Calculator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sname": {
+                "type": "string",
+                "description": "The second name to be used in the compatibility calculation.",
+                "default": "Shefali"
+            },
+            "fname": {
+                "type": "string",
+                "description": "The first name to be used in the compatibility calculation.",
+                "default": "Rahul"
+            }
+        },
+        "required": [
+            "sname",
+            "fname"
+        ]
+    }
+}

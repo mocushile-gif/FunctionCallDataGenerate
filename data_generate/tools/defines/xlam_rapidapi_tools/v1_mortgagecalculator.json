@@ -1,0 +1,46 @@
+{
+    "name": "v1_mortgagecalculator",
+    "description": "This is a sub-function API for tool mortgage_calculator_by_api_ninjas.\nTool description: Simple-yet-powerful mortgage calculator for home financing. See more info at https://api-ninjas.com/api/mortgagecalculator.\nAPI description: API Ninjas Mortgage Calculator API endpoint. Either **loan_amount** or (**home_value** + **downpayment**) parameters must be set.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "interest_rate": {
+                "type": "number",
+                "description": "Annual interest rate (in %). For example, a 3.5% interest rate would be 3.5. Cannot exceed 10000.",
+                "default": 3.5
+            },
+            "downpayment": {
+                "type": "number",
+                "description": "Downpayment on the home or asset. Cannot exceed home_value."
+            },
+            "home_value": {
+                "type": "number",
+                "description": "Total value of the home or asset. Must be greater than downpayment."
+            },
+            "monthly_hoa": {
+                "type": "number",
+                "description": "Monthly homeowner association fees."
+            },
+            "annual_property_tax": {
+                "type": "string",
+                "description": "Annual property tax owed."
+            },
+            "duration_years": {
+                "type": "number",
+                "description": "Duration of the loan in years. Must be between 1 and 10000. If not set, default value is 30 years."
+            },
+            "loan_amount": {
+                "type": "number",
+                "description": "Principal loan amount. Default is 200000.",
+                "default": 200000.0
+            },
+            "annual_home_insurance": {
+                "type": "number",
+                "description": "Annual homeowner's insurance bill."
+            }
+        },
+        "required": [
+            "interest_rate"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "leaguedetails",
+    "description": "This is a sub-function API for tool esportapi.\nTool description: ESportApi offers eSports results for League of Legends, Dota 2, Counter-Strike providing also eSports standings and tournament live scores.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Retrieve the details of a specific Ice Hockey league using the provided tournament ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tournamentid": {
+                "type": "number",
+                "description": "The unique tournament ID for which you want to retrieve the league's details.",
+                "default": 16026
+            }
+        },
+        "required": [
+            "tournamentid"
+        ]
+    }
+}

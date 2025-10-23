@@ -1,0 +1,22 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{\"spot\":{\"metrics\":[{\"market_venue\":\"binance\",\"symbol\":\"btc\",\"base\":\"usdt\",\"earliest_date\":\"2020-01-10\",\"latest_date\":\"2023-06-23\"}]}}"
+    },
+    "{'asset_type': 'spot', 'base': 'USDT', 'data_type': 'metrics', 'market_venue': 'BINANCE', 'symbol': 'BTC'}": {
+        "error": "",
+        "response": "{'spot': {'metrics': [{'market_venue': 'binance', 'symbol': 'btc', 'base': 'usdt', 'earliest_date': '2020-01-10', 'latest_date': '2024-02-22'}]}}"
+    },
+    "{'asset_type': 'spot', 'market_venue': 'BINANCE', 'symbol': 'BTC', 'base': 'USDT', 'data_type': 'metrics'}": {
+        "error": "",
+        "response": "{'spot': {'metrics': [{'market_venue': 'binance', 'symbol': 'btc', 'base': 'usdt', 'earliest_date': '2020-01-10', 'latest_date': '2024-02-22'}]}}"
+    },
+    "{'asset_type': 'spot', 'base': 'USDT', 'symbol': 'BTC', 'market_venue': 'BINANCE'}": {
+        "error": "",
+        "response": "{'spot': {'metrics': [{'market_venue': 'binance', 'symbol': 'btc', 'base': 'usdt', 'earliest_date': '2020-01-10', 'latest_date': '2024-02-22'}]}}"
+    },
+    "{'asset_type': 'spot', 'data_type': 'metrics'}": {
+        "error": "",
+        "response": "{'spot': {'metrics': [{'market_venue': 'binance', 'symbol': 'btc', 'base': 'usdt', 'earliest_date': '2020-01-10', 'latest_date': '2024-02-22'}]}}"
+    }
+}

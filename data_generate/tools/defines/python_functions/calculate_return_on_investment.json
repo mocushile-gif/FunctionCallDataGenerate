@@ -1,0 +1,21 @@
+{
+    "name": "calculate_return_on_investment",
+    "description": "Calculates the Return on Investment (ROI) as a percentage based on the profit and the investment cost.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "profit": {
+                "type": "number",
+                "description": "The profit from the investment."
+            },
+            "investment_cost": {
+                "type": "number",
+                "description": "The cost of the investment."
+            }
+        },
+        "required": [
+            "profit",
+            "investment_cost"
+        ]
+    }
+}

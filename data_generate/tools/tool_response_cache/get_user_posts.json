@@ -1,0 +1,38 @@
+{
+    "{'username': 'funnyguy'}": {
+        "error": "",
+        "response": {
+            "cursor": "",
+            "posts": []
+        }
+    },
+    "{'username': 'gamingpro'}": {
+        "error": "",
+        "response": {
+            "cursor": "",
+            "posts": []
+        }
+    },
+    "{'username': 'another_user'}": {
+        "error": "",
+        "response": {
+            "cursor": "",
+            "posts": []
+        }
+    },
+    "{'username': 'movies'}": {
+        "error": "",
+        "response": {
+            "cursor": "",
+            "posts": []
+        }
+    },
+    "{'username': 'kleido007'}": {
+        "error": "",
+        "response": "{'cursor': 'after=aL1WnyW%2CaGE7y3n%2CaEqZ0LO&c=10', 'posts': [{'annotationTags': ['Funny meme', '9GAG', 'Meme', 'Image', 'Photograph'], 'awardState': 0, 'awardUsers': [], 'awardUsersCount': 0, 'comment': {'canAnonymous': False, 'latestCommentText': '', 'listType': 'comment', 'opToken': 'd+fcbcoSxbRRIYOYplm9oQ==./KjJ4AUhzoCmX7qPUbXUVFZQdqIYPaVmymAQsyjIFSPpVFGSakVXmh6u7KVsyHihypwn9577QR6UomRX4jPJFCNmENyGF+rhY7JP3+WX/1gguFFlOJKzd4hrHUWdUVIPMu6fX+Wgymd5hSI3liw1JyhyyIlqOceAG2uTPkN49GTnHiG5pObN53C0jW/UwqvT', 'pinnedCommentCount': 0, 'updateTs': 1689008145}, 'commentsCount': 25, 'creationTs': 1688939062, 'creator': {'about': 'My Funny Collection', 'accountId': '21828942', 'activeTs': 1689012188, 'avatarUrl': 'https://accounts-cdn.9gag.com/media/avatar/21828942_100_2.jpg', 'creationTs': 1414749203, 'emojiStatus': '', 'fullName': 'WinDoge', 'isActivePro': False, 'isActiveProPlus': False, 'isVerifiedAccount': False, 'preferences': {'accentColor': '', 'backgroundColor': '', 'hideActiveTs': 0, 'hideProBadge': 0}, 'profileUrl': 'https://9gag.com/u/windoge81', 'userId': '21778596', 'username': 'windoge81'}, 'description': '', 'downVoteCount': 12, 'hasLongPostCover': 0, 'id': 'aPgrxLG', 'images': {'image460': {'height': 391, 'url': 'https://img-9gag-fun.9cache.com/photo/aPgrxLG_460s.jpg', 'webpUrl': 'https://img-9gag-fun.9cache.com/photo/aPgrxLG_460swp.webp', 'width': 460}, 'image700': {'height': 544, 'url': 'https://img-9gag-fun.9cache.com/photo/aPgrxLG_700b.jpg', 'webpUrl': 'https://img-9gag-fun.9cache.com/photo/aPgrxLG_700bwp.webp', 'width': 640}, 'imageFbThumbnail': {'height': 220, 'url': 'https://img-9gag-fun.9cache.com/photo/aPgrxLG_fbthumbnail.jpg', 'width': 220}}, 'interests': ['memes', 'humor'], 'isAnonymous': False, 'isVoteMasked': 0, 'nsfw': 0, 'postSection': {'imageUrl': 'https://accounts-cdn.9gag.com/media/avatar/21828942_100_2.jpg', 'name': 'windoge81', 'url': 'https://9gag.com/u/windoge81'}, 'promoted': 0, 'sourceDomain': '', 'sourceUrl': '', 'tags': [{'key': 'funny', 'url': '/tag/funny'}, {'key': 'meme', 'url':"
+    },
+    "{'username': 'anotherUser'}": {
+        "error": "",
+        "response": "The API fetches posts from the specified 9GAG user, 'anotherUser'. This includes retrieving a list of posts that the user has shared on their profile. The response will contain details about each post, such as the title, content type (image, video, etc.), and any associated metadata like likes, comments, and shares. If this is the first request for this user, the 'counter' and 'after' parameters are not needed. For subsequent requests, these parameters will help paginate through the user's posts efficiently. This allows users to explore content shared by 'anotherUser' on 9GAG seamlessly."
+    }
+}

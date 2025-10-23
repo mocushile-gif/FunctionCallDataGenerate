@@ -1,0 +1,21 @@
+{
+    "name": "series",
+    "description": "This is a sub-function API for tool vod_app.\nTool description: API for video on demand app\nAPI description: Fetches details about a series and its episodes from the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "series_slug": {
+                "type": "string",
+                "description": "The unique identifier slug for the series."
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The ID associated with the series."
+            }
+        },
+        "required": [
+            "series_slug",
+            "is_id"
+        ]
+    }
+}

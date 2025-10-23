@@ -1,0 +1,42 @@
+{
+    "{'performanceid': 'AAPL'}": {
+        "error": "",
+        "response": "503 - Service Unavailable"
+    },
+    "{'performanceid': '0P0000OQN8'}": {
+        "error": "",
+        "response": "{'userType': 'Premium', 'main': {'ticker': 'TSLA', 'name': 'Tesla Inc', 'instrumentId': '126.1.TSLA', 'fairValue': '200', 'moat': 'Narrow', 'assessment': 'Premium', 'assessmentfv': 'Fairly Valued', 'assessmentfvDate': '2024-04-24T04:04:12.000', 'starRating': '3', 'priceSale': '8.080772', 'priceBook': '10.607467', 'priceEarnings': '59.635803', 'priceFair': '1.103500', 'isQuant': False, 'exchangeId': None, 'shareClassId': '0P0000OQN8', 'securityType': 'ST', 'dividendYield': '0.0', 'investmentStyle': '3', 'bf2': '350', 'bf3': '250', 'bf4': '160', 'bf5': '100', 'premiumDisc': '10', 'performanceId': '0P0000OQN8', 'uncertaintyCurrent': 'Very High', 'fairValCurrency': 'USD', 'analyst': 'Seth Goldstein, Strategist', 'fairValDate': '2024-10-18T04:00:00.000', 'starRatingDate': '2024-10-18T21:38:05.000', 'lastCloseDB': 220.7, 'lastCloseDate': '2024-10-18T05:00:00.000', 'lastCloseCurrencyDB': 'USD', 'oneStar': '350', 'stewardship': 'Exemplary', 'fiveStar': '100', 'moatTrendEvaluate': None, 'comHighestControversyLevel': 3, 'comControversyLevelDescriptor': 'Significant', 'esgRiskGlobes': 3, 'esgRiskScore': None, 'enterpriseValue': '59.2034', 'priceForwardEarning': '72.6226', 'forwardDivYield': '0.0', 'trailing1DayReturn': '-0.08602', 'trailingYearToDateReturn': '-9.05719', 'operatingMargin': 7.580000000000001, 'revenueGrowth': 2.3}, 'competitors': [{'ticker': 'F', 'name': 'Ford Motor Co', 'instrumentId': '126.1.F', 'fairValue': '19', 'moat': 'None', 'assessment': 'Discount', 'assessmentfv': 'Significantly Undervalued', 'assessmentfvDate': '2023-11-30T22:43:11.000', 'starRating': '5', 'priceSale': '0.248314', 'priceBook': '1.017168', 'priceEarnings': '6.768293', 'priceFair': '0.584211', 'isQuant': False, 'exchangeId': None, 'shareClassId': '0P0000029A', 'securityType': 'ST', 'dividendYield': '0.0541', 'investmentStyle': '4', 'bf2': '29.45', 'bf3': '21.85', 'bf4': '16.15', 'bf5': '11.4', 'premiumDisc': '-41', 'performanceId': '0P0000029A', 'uncertaintyCurrent': 'High', 'fairValCurrency': 'USD', 'analyst': 'David Whiston, Strateg"
+    },
+    "{'performanceid': '0P0001MR8T'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'performanceid': '0P0000029A'}": {
+        "error": "",
+        "response": "{'userType': 'Premium', 'main': {'ticker': 'F', 'name': 'Ford Motor Co', 'instrumentId': '126.1.F', 'fairValue': '16', 'moat': 'None', 'assessment': 'Discount', 'assessmentfv': 'Undervalued', 'assessmentfvDate': '2025-02-11T00:56:11.000', 'starRating': '4', 'priceSale': '0.222795', 'priceBook': '0.906107', 'priceEarnings': '5.570652', 'priceFair': '0.640625', 'isQuant': False, 'exchangeId': None, 'shareClassId': '0P0000029A', 'securityType': 'ST', 'dividendYield': '0.0732', 'investmentStyle': '165', 'bf2': '24.8', 'bf3': '18.4', 'bf4': '13.6', 'bf5': '9.6', 'premiumDisc': '-35', 'performanceId': '0P0000029A', 'uncertaintyCurrent': 'High', 'fairValCurrency': 'USD', 'analyst': 'David Whiston, Strategist', 'fairValDate': '2025-03-24T04:00:00.000', 'starRatingDate': '2025-03-24T21:35:50.000', 'lastCloseDB': 10.25, 'lastCloseDate': '2025-03-24T05:00:00.000', 'lastCloseCurrencyDB': 'USD', 'oneStar': '24.8', 'stewardship': 'Standard', 'fiveStar': '9.6', 'moatTrendEvaluate': None, 'comHighestControversyLevel': 3, 'comControversyLevelDescriptor': 'Significant', 'esgRiskGlobes': 3, 'esgRiskScore': None, 'enterpriseValue': '12.8515', 'priceForwardEarning': '7.5368', 'forwardDivYield': '0.0732', 'trailing1DayReturn': '2.50000', 'trailingYearToDateReturn': '-14.79473', 'operatingMargin': 2.82, 'revenueGrowth': 4.89, 'isMomentumFilterFlag': False}, 'competitors': [{'ticker': 'STLAM', 'name': 'Stellantis NV', 'instrumentId': '223.1.STLAM', 'fairValue': '18.9', 'moat': 'None', 'assessment': 'Discount', 'assessmentfv': 'Undervalued', 'assessmentfvDate': '2024-12-03T11:53:23.000', 'starRating': '4', 'priceSale': '0.214653', 'priceBook': '0.399007', 'priceEarnings': '4.921519', 'priceFair': '0.598730', 'isQuant': False, 'exchangeId': None, 'shareClassId': '0P00009DK4', 'securityType': 'ST', 'dividendYield': '0.137', 'investmentStyle': '246', 'bf2': '29.3', 'bf3': '21.74', 'bf4': '16.07', 'bf5': '11.34', 'premiumDisc': '-40', 'performanceId': '0P00009DK4', 'uncertaintyCurrent': 'High', 'fairValCurrency': 'EUR', 'analyst': 'Rella Sus"
+    },
+    "{'performanceid': '0P0001MHD0'}": {
+        "error": "",
+        "response": "{'userType': 'Premium', 'main': {'ticker': '7186WB', 'name': None, 'instrumentId': '..', 'fairValue': None, 'moat': None, 'assessment': None, 'assessmentfv': None, 'assessmentfvDate': None, 'starRating': None, 'priceSale': None, 'priceBook': None, 'priceEarnings': None, 'priceFair': None, 'isQuant': True, 'exchangeId': None, 'shareClassId': '0P0001MHD0', 'securityType': 'ST', 'dividendYield': None, 'investmentStyle': '7', 'bf2': None, 'bf3': None, 'bf4': None, 'bf5': None, 'premiumDisc': None, 'performanceId': '0P0001MHD0', 'uncertaintyCurrent': None, 'fairValCurrency': None, 'analyst': None, 'fairValDate': None, 'starRatingDate': None, 'lastCloseDB': 0.0, 'lastCloseDate': None, 'lastCloseCurrencyDB': None, 'oneStar': None, 'stewardship': None, 'fiveStar': None, 'moatTrendEvaluate': None, 'comHighestControversyLevel': None, 'comControversyLevelDescriptor': None, 'esgRiskGlobes': None, 'esgRiskScore': None, 'enterpriseValue': None, 'priceForwardEarning': None, 'forwardDivYield': None, 'trailing1DayReturn': None, 'trailingYearToDateReturn': None, 'operatingMargin': 0.2, 'revenueGrowth': -7.28, 'isMomentumFilterFlag': False, 'domicileCountryId': 'MYS'}, 'competitors': [], 'quantCompetitors': []}"
+    },
+    "{'performanceid': 'PERF_ID_US-NASDAQ-AAPL-1234567890'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'performanceid': 'PERF_9876X'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'performanceid': 'PERF_4321Y'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'performanceid': 'PERF_5566Z'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'performanceid': 'PERF_7890A'}": {
+        "error": "",
+        "response": ""
+    }
+}

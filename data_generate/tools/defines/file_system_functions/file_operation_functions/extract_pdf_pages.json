@@ -1,0 +1,33 @@
+{
+    "name": "extract_pdf_pages",
+    "description": "Extract specific pages from a PDF file as PDF or images.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "input_path": {
+                "type": "string",
+                "description": "Path to input PDF file"
+            },
+            "output_path": {
+                "type": "string",
+                "description": "Path for output file (optional, auto-generated if not provided)"
+            },
+            "page_numbers": {
+                "type": "array",
+                "items": {"type": "integer"},
+                "description": "List of specific page numbers to extract (1-based indexing)"
+            },
+            "page_range": {
+                "type": "string",
+                "description": "Page range in format 'start-end' (e.g., '1-5', '3-')"
+            },
+            "output_format": {
+                "type": "string",
+                "description": "Output format",
+                "enum": ["pdf", "images"],
+                "default": "pdf"
+            }
+        },
+        "required": ["input_path"]
+    }
+}

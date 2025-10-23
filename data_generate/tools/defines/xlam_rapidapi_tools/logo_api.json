@@ -1,0 +1,17 @@
+{
+    "name": "logo_api",
+    "description": "This is a sub-function API for tool logo.\nTool description: Find the Logo of each company in real-time.  Using our logo finder service is entirely free with attribution. However, we require a link back to companyurlfinder.com on any page the service is used.   Just use the following format to embed logos in your systems:  <img src=\"https://api.companyurlfinder.com/logo/amazon.com\" />\nAPI description: Using our logo finder service is entirely free with attribution. \n<img src=\"https://api.companyurlfinder.com/logo/amazon.com\" />",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain name for which the logo is to be fetched.",
+                "default": "amazon.com"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

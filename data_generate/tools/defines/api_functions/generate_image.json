@@ -1,0 +1,23 @@
+{
+  "name": "generate_image",
+  "description": "Use Zhipu BigModel API to generate an image from a prompt with custom size.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "prompt": {
+        "type": "string",
+        "description": "Text description of the image to generate (can be in Chinese or English)."
+      },
+      "size": {
+        "type": "string",
+        "description": "Image size in 'widthxheight' format. Recommended values: '1024x1024' (default), '768x1344', '864x1152', '1344x768', '1152x864', '1440x720', '720x1440'. Custom size must be 512–2048px, divisible by 16, and <= 2^21 pixels total.",
+        "default": "1024x1024"
+      },
+      "output_path": {
+        "type": "string",
+        "description": "Optional. Local path to save the generated image (e.g., './generated_images/image.png'). If not provided, a timestamped file will be created."
+      }
+    },
+    "required": ["prompt"]
+  }
+}

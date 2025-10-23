@@ -1,0 +1,16 @@
+{
+    "name": "get_annonce",
+    "description": "This is a sub-function API for tool fluximmo.\nTool description: API de flux immobilier 🏡: Scraper LEBONCOIN, PAP, EXPLORIMMO, MEILLEURSAGENTS et plus de 20 portails - Créez des services innovants grâce à notre flux d'annonces immobilières en temps réel !\nAPI description: Fetches advertisement details from the FluxImmo API based on a unique identifier.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "unique_id": {
+                "type": "number",
+                "description": "The unique identifier of the advertisement to fetch."
+            }
+        },
+        "required": [
+            "unique_id"
+        ]
+    }
+}

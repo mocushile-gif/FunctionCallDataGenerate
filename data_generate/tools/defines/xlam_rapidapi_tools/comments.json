@@ -1,0 +1,22 @@
+{
+    "name": "comments",
+    "description": "This is a sub-function API for tool cheap_youtube_api.\nTool description: 100% Uptime & Reliable | Blazing fast | Fully Featured | 1000x cheaper than Youtube API v3\nAPI description: **Get comments from a video**\nexample: /comments/dQw4w9WgXcQ\n\n**Parameters**\nsort_by: \"top\", \"new\" (default: top)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The YouTube video ID to fetch comments for.",
+                "default": "dQw4w9WgXcQ"
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "Criteria to sort comments by. Options are \"top\" or \"new\". Defaults to \"top\".",
+                "default": "top"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

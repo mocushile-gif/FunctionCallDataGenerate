@@ -1,0 +1,17 @@
+{
+    "name": "specific_skin",
+    "description": "This is a sub-function API for tool cs_skin_api.\nTool description: retrieve image, price, weapon, class for every released Skin in CS:GO or CS2\nAPI description: retrieve name, price, icon, class and weapon for a specific counterstrike skin \n(prices for field tested condition in USD)\n\n(replace skin_name, underscores instead of spaces)\n\nExample: /api/AK-47_Redline",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "skin_name": {
+                "type": "string",
+                "description": "The name of the Counter-Strike skin, with underscores instead of spaces. Example: 'AK-47_Redline'.",
+                "default": "AK-47_Slate"
+            }
+        },
+        "required": [
+            "skin_name"
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "name": "paired_t_test_from_database",
+    "description": "Perform a paired t-test on two numeric columns from a SQLite database table or query.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file."
+        },
+        "from_clause": {
+          "type": "string",
+          "description": "SQL FROM clause, such as table name or JOIN expression."
+        },
+        "x_col": {
+          "type": "string",
+          "description": "The name of the first numeric column."
+        },
+        "y_col": {
+          "type": "string",
+          "description": "The name of the second numeric column."
+        },
+        "where_clause": {
+          "type": "string",
+          "description": "Optional SQL WHERE clause (excluding the 'WHERE' keyword)."
+        },
+        "where_params": {
+          "type": "array",
+          "description": "List of parameter values to substitute into the WHERE clause.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "drop_na": {
+          "type": "boolean",
+          "description": "Whether to drop rows with NA values before testing.",
+          "default": true
+        },
+        "show_summary_stats": {
+          "type": "boolean",
+          "description": "Whether to return group summary statistics (mean, std, n).",
+          "default": false
+        }
+      },
+      "required": ["database_path", "from_clause", "x_col", "y_col"]
+    }
+  }
+  

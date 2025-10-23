@@ -1,0 +1,23 @@
+{
+    "{'identifier': '71491234-A'}": {
+        "error": "",
+        "response": {
+            "device_id": "71491234-A",
+            "device_name": "HVAC Unit A",
+            "asset_type": "Climate Control System",
+            "status": "Active",
+            "location": "Warehouse 3, Logistics Campus",
+            "manufacturer": "ThermoTech Industries",
+            "model_number": "CT-5000",
+            "installation_date": "2020-05-15",
+            "last_maintenance": "2023-08-20",
+            "operational_hours": 18750,
+            "maintenance_schedule": "Bi-Weekly",
+            "sensor_status": {
+                "temperature": "Functional",
+                "humidity": "Functional",
+                "pressure": "Functional"
+            }
+        }
+    }
+}

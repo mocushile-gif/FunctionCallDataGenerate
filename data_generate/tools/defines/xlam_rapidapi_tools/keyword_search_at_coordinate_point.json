@@ -1,0 +1,38 @@
+{
+    "name": "keyword_search_at_coordinate_point",
+    "description": "This is a sub-function API for tool local_rank_tracker.\nTool description: Fast and Reliable geolocation rank tracker API - get Google My Business ranking across the local area, broken up into a grid.\nAPI description: Fetch search results for a given query at a specified geographic coordinate point using the RapidAPI Local Rank Tracker service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "string",
+                "description": "Latitude of the coordinate point.",
+                "default": "37.341759"
+            },
+            "lng": {
+                "type": "string",
+                "description": "Longitude of the coordinate point.",
+                "default": "-121.938314"
+            },
+            "query": {
+                "type": "string",
+                "description": "The search query or keyword.",
+                "default": "web design"
+            },
+            "x_user_agent": {
+                "type": "string",
+                "description": "Device type for the search. Default `desktop`."
+            },
+            "zoom": {
+                "type": "string",
+                "description": "Google Maps zoom level.\n\n**Allowed values:** 0-18.\n**Default:** 13.",
+                "default": "13"
+            }
+        },
+        "required": [
+            "lat",
+            "lng",
+            "query"
+        ]
+    }
+}

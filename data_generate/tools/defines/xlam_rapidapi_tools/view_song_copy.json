@@ -1,0 +1,53 @@
+{
+    "name": "view_song_copy",
+    "description": "This is a sub-function API for tool view_song.\nTool description: View Sonv\nAPI description: Retrieves detailed information about a song using the specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "https_only": {
+                "type": "string",
+                "description": "Indicates if the request should use HTTPS only.",
+                "default": "1"
+            },
+            "wmid": {
+                "type": "string",
+                "description": "Identifier for the user or session making the request.",
+                "default": "161445361"
+            },
+            "songid": {
+                "type": "string",
+                "description": "Identifier for the song whose information is being retrieved.",
+                "default": "ttEleQJoxgCuNOIbUuRh7Q=="
+            },
+            "s": {
+                "type": "string",
+                "description": "Signature or token required for the API call.",
+                "default": "fe7cc2de3cfcc4efd457838a9521e7e9"
+            },
+            "song_preview_kbps": {
+                "type": "string",
+                "description": "Bitrate for the song preview.",
+                "default": "320"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Desired language for the response.",
+                "default": "id"
+            },
+            "country": {
+                "type": "string",
+                "description": "Country code where the request is made from.",
+                "default": "id"
+            }
+        },
+        "required": [
+            "https_only",
+            "wmid",
+            "songid",
+            "s",
+            "song_preview_kbps",
+            "lang",
+            "country"
+        ]
+    }
+}

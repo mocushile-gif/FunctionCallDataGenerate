@@ -1,0 +1,16 @@
+{
+    "name": "points_point_forecast_hourly",
+    "description": "This is a sub-function API for tool national_weather_service.\nTool description: National Weather Service API (api.weather.gov) NOAA (National Oceanic and Atmospheric Administration) provides national weather data as well as past data.\nAPI description: Hourly forecast data for a point. This response is derrived from the /gridpoints endpoint and is intentionally less structured. If more structure is required, developers should use the /gridpoints endpoint directly. Example: /points/39.0693,-94.6716/forecast/hourly",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "point": {
+                "type": "string",
+                "description": "A string specifying the geographical point in the format \"latitude,longitude\"."
+            }
+        },
+        "required": [
+            "point"
+        ]
+    }
+}

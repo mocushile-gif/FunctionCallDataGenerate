@@ -1,0 +1,23 @@
+{
+    "name": "cpfobliterado",
+    "description": "This is a sub-function API for tool quadro_de_s_cios_cpf_cnpj.\nTool description: Consultar Quadro de Sócios e Administradores registrados na Receita Federal\nAPI description: This function searches for information about an obliterated CPF (Brazilian individual taxpayer registry identification) using the provided name and CPF. It utilizes the RapidAPI service to perform the lookup.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nome": {
+                "type": "string",
+                "description": "The name of the partner or administrator.",
+                "default": "WERNER ROMERA SUFFERT"
+            },
+            "cpf": {
+                "type": "string",
+                "description": "The obliterated CPF code.",
+                "default": "***960701**"
+            }
+        },
+        "required": [
+            "nome",
+            "cpf"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "get_from_piratebay",
+    "description": "This is a sub-function API for tool torrent_search.\nTool description: This script is a JavaScript code that uses the @dil5han/torrent-api module to create a server that can search multiple torrent websites and return the results to the client in JSON format.\nAPI description: Fetches search results from The Pirate Bay using the given search topic.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "searchtopic": {
+                "type": "string",
+                "description": "The topic to search for on The Pirate Bay."
+            }
+        },
+        "required": [
+            "searchtopic"
+        ]
+    }
+}

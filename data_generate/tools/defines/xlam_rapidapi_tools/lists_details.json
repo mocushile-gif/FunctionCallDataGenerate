@@ -1,0 +1,17 @@
+{
+    "name": "lists_details",
+    "description": "This is a sub-function API for tool twitter.\nTool description: Twitter API\nAPI description: Fetches and returns the public information of a Twitter List based on the given list ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "list_id": {
+                "type": "string",
+                "description": "The ID of the Twitter List whose details are to be fetched.",
+                "default": "1591033111726391297"
+            }
+        },
+        "required": [
+            "list_id"
+        ]
+    }
+}

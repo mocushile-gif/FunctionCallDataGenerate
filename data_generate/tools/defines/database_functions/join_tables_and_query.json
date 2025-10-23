@@ -1,0 +1,71 @@
+{
+    "name": "join_tables_and_query",
+    "description": "Perform a JOIN query across multiple tables in a SQLite database. Optionally filter, export result to file, or store in a temporary table.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file"
+        },
+        "table1": {
+          "type": "string",
+          "description": "The first (primary) table to select from"
+        },
+        "join_conditions": {
+          "type": "array",
+          "description": "List of JOIN conditions. Each item must have 'table_name' and 'on_condition'.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "table_name": {
+                "type": "string",
+                "description": "Name of the table to JOIN"
+              },
+              "on_condition": {
+                "type": "string",
+                "description": "SQL ON condition for the JOIN"
+              }
+            },
+            "required": ["table_name", "on_condition"]
+          }
+        },
+        "select_columns": {
+            "oneOf": [
+                {
+                    "type": "string",
+                    "description": "A comma-separated string of columns to select."
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "A list of column names to select."
+                }
+            ],
+            "description": "The columns to select. Can be provided as a comma-separated string or a list of column names. Defaults to '*' (all columns).",
+            "default": "*"
+        },
+        "where_clause": {
+          "type": "string",
+          "description": "Optional WHERE clause without the 'WHERE' keyword"
+        },
+        "where_params": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Optional parameter list for the WHERE clause"
+        },
+        "save_to_file": {
+          "type": "string",
+          "description": "Optional path to save the result (.csv or .xlsx)"
+        },
+        "create_temp_table": {
+          "type": "string",
+          "description": "Optional name of a temporary table to store the result in the database"
+        }
+      },
+      "required": ["database_path", "table1"]
+    }
+}
+  

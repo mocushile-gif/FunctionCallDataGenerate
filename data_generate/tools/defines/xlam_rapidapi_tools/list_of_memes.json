@@ -1,0 +1,20 @@
+{
+    "name": "list_of_memes",
+    "description": "This is a sub-function API for tool memes.\nTool description: Memes api with several genre\nAPI description: Get List of Memes from genre\n\n**Default Type:**  top\n**Available Type**\n- Top\n- Hot\n- New\n\n**Default Genre: ** memes\n**Available Genres**\n- \"anime\"\n- \"dnd\"\n- \"history\"\n- \"historyani\"\n- \"memes\"\n- \"politics\"\n- \"science\"\n- \"lotr\"\n- \"ww2\"",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "genre": {
+                "type": "string",
+                "description": "The genre of memes to retrieve. Default is 'memes'. Available genres include:",
+                "default": "memes"
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of memes to retrieve. Default is 'top'. Available types include:",
+                "default": "top"
+            }
+        },
+        "required": []
+    }
+}

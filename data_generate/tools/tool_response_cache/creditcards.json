@@ -1,0 +1,33 @@
+{
+    "{'quantity': 150, 'locale': 'en_US'}": {
+        "error": "",
+        "response": {
+            "total_records": 150,
+            "data": [
+                {
+                    "credit_card_number": "4532-0938-2237-5789",
+                    "expiry_date": "03/2028",
+                    "cvv": "321",
+                    "cardholder_name": "John Doe",
+                    "brand": "Visa"
+                },
+                {
+                    "credit_card_number": "5100-3422-8899-0011",
+                    "expiry_date": "11/2027",
+                    "cvv": "456",
+                    "cardholder_name": "Jane Smith",
+                    "brand": "MasterCard"
+                },
+                {
+                    "credit_card_number": "3714-4963-5320-308",
+                    "expiry_date": "05/2026",
+                    "cvv": "789",
+                    "cardholder_name": "Alex Johnson",
+                    "brand": "American Express"
+                }
+            ],
+            "locale": "en_US",
+            "note": "150 credit card entries generated using en_US locale. Data is synthetic and for testing purposes only."
+        }
+    }
+}

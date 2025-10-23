@@ -1,0 +1,29 @@
+{
+    "{'vin': '5N3AA08D68N901917'}": {
+        "error": "",
+        "response": {
+            "vin": "5N3AA08D68N901917",
+            "vehicle_specs": {
+                "make": "Nissan",
+                "model": "Altima",
+                "year": 2008,
+                "body_type": "Sedan",
+                "engine": "2.5L 4-cylinder",
+                "transmission": "Automatic",
+                "fuel_type": "Gasoline",
+                "drivetrain": "Front-wheel drive",
+                "features": [
+                    "Power windows",
+                    "Air conditioning",
+                    "Anti-lock brakes"
+                ]
+            },
+            "market_data": {
+                "average_sale_price": "$5,200",
+                "recent_sales_count": 12,
+                "mileage_range": "120,000 - 160,000 miles",
+                "condition_notes": "Typical wear, service history available"
+            }
+        }
+    }
+}

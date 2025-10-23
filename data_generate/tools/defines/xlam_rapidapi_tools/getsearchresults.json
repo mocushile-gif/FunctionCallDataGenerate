@@ -1,0 +1,17 @@
+{
+    "name": "getsearchresults",
+    "description": "This is a sub-function API for tool youtube_influencer_search.\nTool description: The YouTube Influencer Search API returns the most relevant influencers for your target keyword or domain.\nAPI description: Fetches the results from a specific YouTube influencer search using the provided search ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "Unique identifier of the search.",
+                "default": "5"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

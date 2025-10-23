@@ -1,0 +1,73 @@
+{
+    "name": "interior_colors",
+    "description": "This is a sub-function API for tool car_api.\nTool description: Search vehicles sold in the United States by year, make, model, trim, engine, body, mileage, VIN decoder and more.\nAPI description: To include additional information about the returned body (such as year, make, model and trim) request with the query parameter as verbose=yes.\n\nFor complex queries you may use the json field to send an array of URL encoded JSON conditions, example:\n\n[{\"field\": \"name\", \"op\": \"in\", \"val\": [\"red\", \"blue\"]}]\n\nAllowed operators are: `>`, `<`, `>=`, `<=`, `in`, `not in`, `like`, `not like`, `is null` and `not null`.\n\nAllowed json search fields are: year, make, model, trim, name, rgb, make_id, make_model_id, and ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "model": {
+                "type": "string",
+                "description": "The model of the car."
+            },
+            "name": {
+                "type": "string",
+                "description": "The name of the color."
+            },
+            "trim": {
+                "type": "string",
+                "description": "The trim level of the car."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for pagination."
+            },
+            "direction": {
+                "type": "string",
+                "description": "The sorting direction, either 'asc' or 'desc'. Default is 'asc'.",
+                "default": "asc"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to return."
+            },
+            "make_model_trim_id": {
+                "type": "string",
+                "description": "The unique ID for make, model, and trim combination."
+            },
+            "year": {
+                "type": "string",
+                "description": "The year of the car."
+            },
+            "rgb": {
+                "type": "string",
+                "description": "The RGB value of the color."
+            },
+            "sort": {
+                "type": "string",
+                "description": "The field to sort by. Default is 'id'.",
+                "default": "id"
+            },
+            "verbose": {
+                "type": "string",
+                "description": "If 'yes', includes detailed information about make, model, and trim. Default is 'yes'.",
+                "default": "yes"
+            },
+            "json": {
+                "type": "string",
+                "description": "A URL encoded JSON array of conditions to filter results."
+            },
+            "make_id": {
+                "type": "string",
+                "description": "The ID of the car make."
+            },
+            "make": {
+                "type": "string",
+                "description": "The make of the car."
+            },
+            "make_model_id": {
+                "type": "string",
+                "description": "The ID for make and model combination."
+            }
+        },
+        "required": []
+    }
+}

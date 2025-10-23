@@ -1,0 +1,22 @@
+{
+  "name": "compress_to_tar_gz",
+  "description": "Compress a directory into a tar.gz file.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "source_dir": {
+        "type": "string",
+        "description": "The directory to compress. Default to './'"
+      },
+      "output_filename": {
+        "type": "string",
+        "description": "The output tar.gz file name."
+      },
+      "compress_level": {
+        "type": "integer",
+        "description": "Compression level (1-9). Defaults to 5."
+      }
+    },
+    "required": ["source_dir", "output_filename"]
+  }
+}

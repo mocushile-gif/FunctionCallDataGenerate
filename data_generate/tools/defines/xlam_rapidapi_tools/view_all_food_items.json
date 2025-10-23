@@ -1,0 +1,15 @@
+{
+    "name": "view_all_food_items",
+    "description": "This is a sub-function API for tool ind_nutrient_api.\nTool description: This API provides users with nutritional information for Indian foods. Users can retrieve a list of Indian dishes with their corresponding nutritional values, including the number of calories, the amount of protein, fat, and carbohydrates in grams.\n\nBase URL: \n\nAuthorization-free integration: Follow the endpoint definitions to seamlessly integrate the Ind Nutrients API into your app for accessing Indian nutrient data without any authentication requirements.\n\nBase URL: https://indnutrientsapi....\nAPI description: The request allows clients to retrieve a comprehensive list of all available food items.\n\nAPI request sent to [https://indnutrientsapi.tech/food](https://indnutrientsapi.tech/food)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of food items to retrieve. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": []
+    }
+}

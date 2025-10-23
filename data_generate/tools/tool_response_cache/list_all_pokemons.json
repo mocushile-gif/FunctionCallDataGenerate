@@ -1,0 +1,74 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "items": [
+                {
+                    "name": "Absol",
+                    "id": "1",
+                    "damageType": "Physical"
+                },
+                {
+                    "name": "Aegislash",
+                    "id": "2",
+                    "damageType": "Physical"
+                },
+                {
+                    "name": "Azumarill",
+                    "id": "3",
+                    "damageType": "Physical"
+                },
+                {
+                    "name": "Blastoise",
+                    "id": "4",
+                    "damageType": "Special"
+                },
+                {
+                    "name": "Blissey",
+                    "id": "5",
+                    "damageType": "Special"
+                },
+                {
+                    "name": "Buzzwole",
+                    "id": "6",
+                    "damageType": "Physical"
+                },
+                {
+                    "name": "Charizard",
+                    "id": "7",
+                    "damageType": "Physical"
+                },
+                {
+                    "name": "Cinderace",
+                    "id": "8",
+                    "damageType": "Physical"
+                },
+                {
+                    "name": "Clefable",
+                    "id": "9",
+                    "damageType": "Special"
+                },
+                {
+                    "name": "Cramorant",
+                    "id": "10",
+                    "damageType": "Special"
+                }
+            ],
+            "itemCount": 48,
+            "pageCount": 5,
+            "page": 1
+        }
+    },
+    "{'page': '2', 'pagesize': '15'}": {
+        "error": "",
+        "response": "{'items': [{'name': 'Dragonite', 'id': '16', 'damageType': 'Physical'}, {'name': 'Duraludon', 'id': '17', 'damageType': 'Physical'}, {'name': 'Eldegoss', 'id': '18', 'damageType': 'Special'}, {'name': 'Espeon', 'id': '19', 'damageType': 'Special'}, {'name': 'Garchomp', 'id': '20', 'damageType': 'Physical'}, {'name': 'Gardevoir', 'id': '21', 'damageType': 'Special'}, {'name': 'Gengar', 'id': '22', 'damageType': 'Special'}, {'name': 'Glaceon', 'id': '23', 'damageType': 'Special'}, {'name': 'Greedent', 'id': '24', 'damageType': 'Physical'}, {'name': 'Greninja', 'id': '25', 'damageType': 'Physical'}, {'name': 'Hoopa', 'id': '26', 'damageType': 'Special'}, {'name': 'Lucario', 'id': '27', 'damageType': 'Physical'}, {'name': 'Machamp', 'id': '28', 'damageType': 'Physical'}, {'name': 'Mamoswine', 'id': '29', 'damageType': 'Physical'}, {'name': 'Mew', 'id': '30', 'damageType': 'Special'}], 'itemCount': 48, 'pageCount': 4, 'page': 2}"
+    },
+    "{'pagesize': '10', 'page': '1'}": {
+        "error": "",
+        "response": "{'items': [{'name': 'Absol', 'id': '1', 'damageType': 'Physical'}, {'name': 'Aegislash', 'id': '2', 'damageType': 'Physical'}, {'name': 'Azumarill', 'id': '3', 'damageType': 'Physical'}, {'name': 'Blastoise', 'id': '4', 'damageType': 'Special'}, {'name': 'Blissey', 'id': '5', 'damageType': 'Special'}, {'name': 'Buzzwole', 'id': '6', 'damageType': 'Physical'}, {'name': 'Charizard', 'id': '7', 'damageType': 'Physical'}, {'name': 'Cinderace', 'id': '8', 'damageType': 'Physical'}, {'name': 'Clefable', 'id': '9', 'damageType': 'Special'}, {'name': 'Cramorant', 'id': '10', 'damageType': 'Special'}], 'itemCount': 48, 'pageCount': 5, 'page': 1}"
+    },
+    "{'pagesize': '10', 'page': '2'}": {
+        "error": "",
+        "response": "{'items': [{'name': 'Crustle', 'id': '11', 'damageType': 'Physical'}, {'name': 'Decidueye', 'id': '12', 'damageType': 'Physical'}, {'name': 'Delphox', 'id': '13', 'damageType': 'Special'}, {'name': 'Dodrio', 'id': '14', 'damageType': 'Physical'}, {'name': 'Dragapult', 'id': '15', 'damageType': 'Physical'}, {'name': 'Dragonite', 'id': '16', 'damageType': 'Physical'}, {'name': 'Duraludon', 'id': '17', 'damageType': 'Physical'}, {'name': 'Eldegoss', 'id': '18', 'damageType': 'Special'}, {'name': 'Espeon', 'id': '19', 'damageType': 'Special'}, {'name': 'Garchomp', 'id': '20', 'damageType': 'Physical'}], 'itemCount': 48, 'pageCount': 5, 'page': 2}"
+    }
+}

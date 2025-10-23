@@ -1,0 +1,34 @@
+{
+    "name": "ideal_body_weight",
+    "description": "This is a sub-function API for tool health_calculator_api.\nTool description: Welcome to the Health Calculator API (HCA). This API provides endpoints for calculating A Body Shape Index (ABSI), Adjusted Body Weight (AjBW), Basal Energy Expenditure (BEE) and Total Energy Expenditure (TEE) , Body Adiposity Index (BAI), Body Frame Size Index (BFSI), Body Mass Index (BMI), Body Fat Percentage, Basal Metabolic Rate (BMR), Daily Caloric Needs (DCN), Daily Water Intake (DWI), Estimated Average Glucose(eAG), Estimated Energy Requirement (EER), The FFMI (Fat-Free Mass Index), Ta...\nAPI description: This endpoint allows you to calculate the ideal weight range based on factors like height, body frame size, and gender. The endpoint provides different formulas and approaches for ideal weight estimation, such as the Hamwi method and the Devine formula.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "body_frame": {
+                "type": "string",
+                "description": "The body frame size of the person. It can be one of the following values: \\\"**small**\\\", \\\"**medium**\\\", or \\\"**large**\\\".",
+                "default": "medium"
+            },
+            "height": {
+                "type": "number",
+                "description": "The height in **centimeters (cm)** of the person for whom you want to calculate the ideal weight.",
+                "default": 175.0
+            },
+            "gender": {
+                "type": "string",
+                "description": "The gender of the person. It can be either \\\"**male**\\\" or \\\"**female**\\\".",
+                "default": "male"
+            },
+            "formula": {
+                "type": "string",
+                "description": "You can include an optional query parameter to specify the formula or approach for ideal weight estimation. It can be one of the following values:\n\\\"**hamwi**\\\" (default): The Hamwi method for ideal weight calculation.\n\\\"**devine**\\\": The Devine formula for ideal weight calculation.",
+                "default": "hamwi"
+            }
+        },
+        "required": [
+            "body_frame",
+            "height",
+            "gender"
+        ]
+    }
+}

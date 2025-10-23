@@ -1,0 +1,17 @@
+{
+    "name": "constructors",
+    "description": "This is a sub-function API for tool f1_live_motorsport_data.\nTool description: Formula 1 data for the ultimate motorsport fanatic!\nAPI description: Fetches the list of constructors for a given Formula 1 season using the specified API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season_id": {
+                "type": "number",
+                "description": "The ID of the season for which to list constructors.",
+                "default": 2020.0
+            }
+        },
+        "required": [
+            "season_id"
+        ]
+    }
+}

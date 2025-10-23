@@ -1,0 +1,28 @@
+{
+    "{'quizid': '0'}": {
+        "error": "",
+        "response": []
+    },
+    "{'quizid': '2'}": {
+        "error": "",
+        "response": []
+    },
+    "{'quizid': 'exampleQuizId'}": {
+        "error": "",
+        "response": {
+            "code": "ER_BAD_FIELD_ERROR",
+            "errno": 1054,
+            "sqlState": "42S22",
+            "sqlMessage": "Unknown column 'exampleQuizId' in 'where clause'",
+            "sql": "SELECT * FROM User CROSS JOIN Quiz ON User.quiz_id = Quiz._id CROSS JOIN Response ON User.uuid = Response.user_id CROSS JOIN Answer ON Response.answer_id = Answer._id CROSS JOIN Question ON Answer.question_id = Question._id WHERE Quiz._id = exampleQuizId"
+        }
+    },
+    "{'quizid': '1'}": {
+        "error": "",
+        "response": "[{'uuid': 3, 'quiz_id': 1, '_created': '2021-03-05T02:20:47.000Z', '_id': 1, 'name': 'Parramatta ', 'status': 0, 'location': 'Parramatta Square', 'mode': 'default', 'more_info': 'https://www.storybox.co/moodring', 'qrurl': 'https://www.storybox.co/moodring-parramatta-info', 'user_id': 3, 'responses': [{'question_id': 1, 'question': 'How are you feeling today?', 'answer_id': 1, 'answer': 'Excellent'}, {'question_id': 2, 'question': 'How do you feel about the future?', 'answer_id': 14, 'answer': 'Worried'}, {'question_id': 3, 'question': 'How do you like STORYBOX?', 'answer_id': 27, 'answer': 'Neutral'}, {'question_id': 4, 'question': 'How old are you?', 'answer_id': 36, 'answer': '50 to 65'}]}, {'uuid': 4, 'quiz_id': 1, '_created': '2021-03-10T00:53:29.000Z', '_id': 1, 'name': 'Parramatta ', 'status': 0, 'location': 'Parramatta Square', 'mode': 'default', 'more_info': 'https://www.storybox.co/moodring', 'qrurl': 'https://www.storybox.co/moodring-parramatta-info', 'user_id': 4, 'responses': [{'question_id': 1, 'question': 'How are you feeling today?', 'answer_id': 1, 'answer': 'Excellent'}, {'question_id': 2, 'question': 'How do you feel about the future?', 'answer_id': 14, 'answer': 'Worried'}, {'question_id': 3, 'question': 'How do you like STORYBOX?', 'answer_id': 26, 'answer': 'Not bad'}, {'question_id': 4, 'question': 'How old are you?', 'answer_id': 35, 'answer': '31 to 49'}]}, {'uuid': 14, 'quiz_id': 1, '_created': '2021-03-12T00:24:27.000Z', '_id': 1, 'name': 'Parramatta ', 'status': 0, 'location': 'Parramatta Square', 'mode': 'default', 'more_info': 'https://www.storybox.co/moodring', 'qrurl': 'https://www.storybox.co/moodring-parramatta-info', 'user_id': 14, 'responses': [{'question_id': 1, 'question': 'How are you feeling today?', 'answer_id': 1, 'answer': 'Excellent'}, {'question_id': 2, 'question': 'How do you feel about the future?', 'answer_id': 14, 'answer': 'Worried'}, {'question_id': 3, 'question': 'How do you like STORYBOX?', 'answer_id': 26, 'answer': 'Not bad'}, {'question_id': 4, 'question': '"
+    },
+    "{'quizid': '7'}": {
+        "error": "",
+        "response": "{'errno': -3008, 'code': 'ENOTFOUND', 'syscall': 'getaddrinfo', 'hostname': 'us-cdbr-east-03.cleardb.com', 'fatal': True}"
+    }
+}

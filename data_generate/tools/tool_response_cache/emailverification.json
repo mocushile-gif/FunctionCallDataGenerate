@@ -1,0 +1,22 @@
+{
+    "{'emailsimple': 'mybusinessalerts@ecommerce.com'}": {
+        "error": "",
+        "response": {
+            "email": "mybusinessalerts@ecommerce.com",
+            "validity": true,
+            "syntax_check": "Valid format (user@domain.com)",
+            "domain_check": "Domain 'ecommerce.com' exists and has valid MX records",
+            "smtp_validation": "Server responded positively (250 OK)",
+            "disposable_email": false,
+            "confidence_score": 95
+        }
+    },
+    "{'emailsimple': 'mbavazijoshua@gmail.com'}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Service Suspended</title>\n</head>\n<body>\nThis service has been suspended.\n</body>\n</html>\n"
+    },
+    "{'emailsimple': 'user@example.com'}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>Service Suspended</title>\n</head>\n<body>\nThis service has been suspended.\n</body>\n</html>\n"
+    }
+}

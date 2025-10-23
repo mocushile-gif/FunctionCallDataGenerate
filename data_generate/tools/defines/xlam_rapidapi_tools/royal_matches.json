@@ -1,0 +1,20 @@
+{
+    "name": "royal_matches",
+    "description": "This is a sub-function API for tool trackmania.\nTool description: Get Stats, Matches and Leaderboards from Trackmania (Unofficial).\nAPI description: Fetch recent royal matches from the Trackmania API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number of the results to fetch, where each page contains a defined number of results. The default is `0`.",
+                "default": 0.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to return. The default is `50`.",
+                "default": 50.0
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "vivanews_search",
+    "description": "This is a sub-function API for tool indonesia_news.\nTool description: We are focused on delivering data from major news websites in Indonesia.\nAPI description: Performs a search query on Vivanews through the RapidAPI endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve results from.",
+                "default": 1.0
+            },
+            "keyword": {
+                "type": "string",
+                "description": "The search keyword to query.",
+                "default": "banjir"
+            }
+        },
+        "required": [
+            "page",
+            "keyword"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "feriados_dos_estados",
+    "description": "This is a sub-function API for tool feriados_brasileiros.\nTool description: API para obter feriados nacionais para uma cidade/estado específica durante um determinado ano.\nAPI description: Retorna os feriados de certo estado. Os parâmetros necessários são: 1. Estado - Sigla da Unidade Federativa em letra maíuscula. 2. Ano",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "estado": {
+                "type": "string",
+                "description": "Abbreviation of the Brazilian state in uppercase letters.",
+                "default": "MG"
+            },
+            "ano": {
+                "type": "string",
+                "description": "Year for which to retrieve the holidays.",
+                "default": "2023"
+            }
+        },
+        "required": [
+            "estado",
+            "ano"
+        ]
+    }
+}

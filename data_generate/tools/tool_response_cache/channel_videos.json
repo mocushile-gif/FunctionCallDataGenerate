@@ -1,0 +1,42 @@
+{
+    "{'filter': 'videos_latest', 'hl': 'en', 'gl': 'US'}": {
+        "error": "",
+        "response": "The API has fetched the latest videos from the specified YouTube channel. These videos are sorted by their upload date, ensuring the most recent content is displayed first. The results are tailored for English language preferences ('hl': 'en') and are optimized for users in the United States ('gl': 'US'). This allows users to stay updated with the newest uploads from the channel, providing a seamless and localized viewing experience."
+    },
+    "{'filter': 'videos_latest', 'hl': 'en', 'gl': 'US', 'is_id': 'UCOpNcN46UbXVtpKMrmU4Abg'}": {
+        "error": "",
+        "response": "{'contents': [], 'cursorNext': None}"
+    },
+    "{'filter': 'streams_latest', 'is_id': 'UCJ5v_MCY6GNUBTO8-D3XoAg'}": {
+        "error": "",
+        "response": "{'contents': [{'type': 'video', 'video': {'badges': [], 'isLiveNow': True, 'lengthSeconds': None, 'movingThumbnails': None, 'publishedTimeText': None, 'stats': {'viewers': 1056}, 'thumbnails': [{'height': 94, 'url': 'https://i.ytimg.com/vi/xFnNzsmmaI0/hqdefault.jpg?v=68370866&sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB9KRuEBNJTz7iz4uYjNnb_C4j09w', 'width': 168}, {'height': 110, 'url': 'https://i.ytimg.com/vi/xFnNzsmmaI0/hqdefault.jpg?v=68370866&sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCOYCLd1mok2pqYa6YMR_MANExNag', 'width': 196}, {'height': 138, 'url': 'https://i.ytimg.com/vi/xFnNzsmmaI0/hqdefault.jpg?v=68370866&sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9mj0Bu3Sgn4DYqqFHgaaqJIx9sA', 'width': 246}, {'height': 188, 'url': 'https://i.ytimg.com/vi/xFnNzsmmaI0/hqdefault.jpg?v=68370866&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCqgmVcV38lukvYx9MTPXop6txKuQ', 'width': 336}], 'title': 'Best of WWE Money in the Bank: Full Match Marathon', 'videoId': 'xFnNzsmmaI0'}}, {'type': 'video', 'video': {'badges': [], 'isLiveNow': False, 'lengthSeconds': 3750, 'movingThumbnails': [{'height': 180, 'url': 'https://i.ytimg.com/an_webp/CTqI6SuI5wQ/mqdefault_6s.webp?du=3000&sqp=CNDw7cEG&rs=AOn4CLACHPVe_RVbRn7NbCLtxv4xWF_koQ', 'width': 320}], 'publishedTimeText': 'Streamed 5 days ago', 'stats': {'views': 150822}, 'thumbnails': [{'height': 94, 'url': 'https://i.ytimg.com/vi/CTqI6SuI5wQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDgg"
+    },
+    "{'filter': 'videos_latest', 'is_id': 'UC-lHJZR3Gqxm24_Vd_AJ5Yw'}": {
+        "error": "",
+        "response": "{'contents': [{'type': 'video', 'video': {'badges': [], 'isLiveNow': False, 'lengthSeconds': 1345, 'movingThumbnails': [{'height': 180, 'url': 'https://i.ytimg.com/an_webp/pgeTa1PV_40/mqdefault_6s.webp?du=3000&sqp=CJDT7cEG&rs=AOn4CLCsV-VD0CkxZ_Aoyfg9-7CRCxQ3sA', 'width': 320}], 'publishedTimeText': '3 days ago', 'stats': {'views': 1726381}, 'thumbnails': [{'height': 94, 'url': 'https://i.ytimg.com/vi/pgeTa1PV_40/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAN7OTGL52kSdZ43LC7yImEulf9sg', 'width': 168}, {'height': 110, 'url': 'https://i.ytimg.com/vi/pgeTa1PV_40/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDA4mIyF4wrqu0Ljit2IfN-XyNajA', 'width': 196}, {'height': 138, 'url': 'https://i.ytimg.com/vi/pgeTa1PV_40/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBGj6yg9829-XzPIZxAtBnkASld4g', 'width': 246}, {'height': 188, 'url': 'https://i.ytimg.com/vi/pgeTa1PV_40/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAyAkc2hZps7k4_Fp5KaDtER6UIWQ', 'width': 336}], 'title': 'Presenting my Billion Dollar Plan...', 'videoId': 'pgeTa1PV_40'}}, {'type': 'video', 'video': {'badges': [], 'isLiveNow': False, 'lengthSeconds': 1923, 'movingThumbnails': [{'height': 180, 'url': 'https://i.ytimg.com/an_webp/qGXtMENJDps/mqdefault_6s.webp?du=3000&sqp=CMbv7cEG&rs=AOn4CLDmBivICklJqzLCTjzMNFW_Jibs4A', 'width': 320}], 'publishedTimeText': '2 weeks ago', 'stats': {'views': 1053615}, 'thumbnails': [{'he"
+    },
+    "{'filter': 'streams_latest', 'is_id': 'UC-lHJZR3Gqxm24_Vd_AJ5Yw'}": {
+        "error": "",
+        "response": "{'contents': [{'type': 'video', 'video': {'badges': ['Members only'], 'isLiveNow': False, 'lengthSeconds': 4228, 'movingThumbnails': None, 'publishedTimeText': 'Streamed 9 months ago', 'stats': {'views': None}, 'thumbnails': [{'height': 94, 'url': 'https://i.ytimg.com/vi/D91TQ5SUBKU/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AH-CYAC0AWKAgwIABABGGUgTShRMA8=&rs=AOn4CLDM91qAGH1bu7ZEmFziAItYF2_DGA', 'width': 168}, {'height': 110, 'url': 'https://i.ytimg.com/vi/D91TQ5SUBKU/hqdefault.jpg?sqp=-oaymwE1CMQBEG5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AH-CYAC0AWKAgwIABABGGUgTShRMA8=&rs=AOn4CLAvauYGdEw2Q4rrs30d_DHw14qXow', 'width': 196}, {'height': 138, 'url': 'https://i.ytimg.com/vi/D91TQ5SUBKU/hqdefault.jpg?sqp=-oaymwE2CPYBEIoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIE0oUTAP&rs=AOn4CLA50c9zrl8NK3CV9vO-hd6wpGz7Mw', 'width': 246}, {'height': 188, 'url': 'https://i.ytimg.com/vi/D91TQ5SUBKU/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIE0oUTAP&rs=AOn4CLD3EOTc_7YorwVdQLBVdej7hDz8NA', 'width': 336}], 'title': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAH VERY BIG STREAM *lie*', 'videoId': 'D91TQ5SUBKU'}}, {'type': 'video', 'video': {'badges': ['Members only'], 'isLiveNow': False, 'lengthSeconds': 5507, 'movingThumbnails': None, 'publishedTimeText': 'Streamed 9 months ago', 'stats': {'views': None}, 'thumbnails': [{'height': 94, 'url': 'https://i.ytimg.com/vi/3ZoRCgTx2Bk/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAE"
+    },
+    "{'filter': 'live_now', 'is_id': 'UCJ5v_MCY6GNUBTO8-D3XoAg'}": {
+        "error": "",
+        "response": "{'contents': [], 'cursorNext': None}"
+    },
+    "{'is_id': 'UCJ5v_MCY6GNUBTO8-D3XoAg', 'filter': 'videos_latest'}": {
+        "error": "",
+        "response": "{'contents': [{'type': 'video', 'video': {'badges': [], 'isLiveNow': False, 'lengthSeconds': 706, 'movingThumbnails': [{'height': 180, 'url': 'https://i.ytimg.com/an_webp/dUStV2hJLag/mqdefault_6s.webp?du=3000&sqp=CPDV1b0G&rs=AOn4CLD1vc-v5IqOAfNpQMssXUL5WKXpwQ', 'width': 320}], 'publishedTimeText': '1 hour ago', 'stats': {'views': 13657}, 'thumbnails': [{'height': 94, 'url': 'https://i.ytimg.com/vi/dUStV2hJLag/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBTR7U53h7etOkH2lLHFFa_w0Y_9w', 'width': 168}, {'height': 110, 'url': 'https://i.ytimg.com/vi/dUStV2hJLag/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMhXT8LMJ0xotI2_s6CcIvk8KLTQ', 'width': 196}, {'height': 138, 'url': 'https://i.ytimg.com/vi/dUStV2hJLag/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7rVBxCfgRD1uZOvd_w6rl8p6bZQ', 'width': 246}, {'height': 188, 'url': 'https://i.ytimg.com/vi/dUStV2hJLag/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFTJTfDRXVbDGmBhGVjJi21x2arg', 'width': 336}], 'title': 'Full NXT highlights: Feb. 18, 2025', 'videoId': 'dUStV2hJLag'}}, {'type': 'video', 'video': {'badges': [], 'isLiveNow': False, 'lengthSeconds': 192, 'movingThumbnails': [{'height': 180, 'url': 'https://i.ytimg.com/an_webp/zXv-PMJEBng/mqdefault_6s.webp?du=3000&sqp=CKDH1b0G&rs=AOn4CLCHtC6PBZXcsPeD72qPuviTPZ38bg', 'width': 320}], 'publishedTimeText': '2 hours ago', 'stats': {'views': 23803}, 'thumbnails': [{'height': 94, 'url': 'https://i.ytimg.com/vi/zXv-PMJEBng/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD35a8aFbjxm3-y79WVoqRzYPf5_g', 'width': 168}, {'height': 110, 'url': 'https://i.ytimg.com/vi/zXv-PMJEBng/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDL1_SK9tHwkZ_ARsitHhfiGGkvCA', 'width': 196}, {'height': 138, 'url': 'https://i.ytimg.com/vi/zXv-PMJEBng/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4HICgbs_M5gZ4JwFnzfakBOJVKw', 'width': 246}, {'height': 188, 'url': 'ht"
+    },
+    "{'hl': 'en', 'is_id': 'UCJ5v_MCY6GNUBTO8-D3XoAg', 'filter': 'live_now'}": {
+        "error": "",
+        "response": "{'contents': [], 'cursorNext': None}"
+    },
+    "{'hl': 'de', 'is_id': 'UCJ5v_MCY6GNUBTO8-D3XoAg', 'filter': 'live_now'}": {
+        "error": "",
+        "response": "{'contents': [], 'cursorNext': None}"
+    },
+    "{'filter': 'live_now'}": {
+        "error": "",
+        "response": "{'contents': [], 'cursorNext': None}"
+    }
+}

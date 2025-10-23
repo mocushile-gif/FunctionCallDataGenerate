@@ -1,0 +1,36 @@
+{
+    "name": "products_search",
+    "description": "This is a sub-function API for tool wayfair.\nTool description: This API helps to query for all information about categories, products, etc… as on wayfair.com\nAPI description: Search for products by a specified keyword and optional filters, with support for pagination and sorting.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The term or phrase to search for related products.",
+                "default": "light shaded room"
+            },
+            "filters": {
+                "type": "string",
+                "description": "The value of filter&#95;string&#95;unencoded fields returned right in this endpoint to filter products, pass this parameter multiple times for multiple filters. Ex : ...&filters=colorList~White&filters=masterClID~180&..."
+            },
+            "curpage": {
+                "type": "number",
+                "description": "The current page number for paginated results. Default is 1.",
+                "default": 1.0
+            },
+            "itemsperpage": {
+                "type": "number",
+                "description": "The number of items to display per page. Default is 48.",
+                "default": 48.0
+            },
+            "sortby": {
+                "type": "number",
+                "description": "The value of sort_value fields returned right in this endpoint. Default is 0",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

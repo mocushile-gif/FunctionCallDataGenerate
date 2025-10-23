@@ -1,0 +1,22 @@
+{
+    "name": "house_prices_get_market_activity",
+    "description": "This is a sub-function API for tool zoopla_v2.\nTool description: This API helps to query for properties for rent, sale in UK to create a real estate site/application such as zoopla.com\nAPI description: Fetches the market activity for a specified area using the Zoopla API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "area": {
+                "type": "string",
+                "description": "The value of suggestions/value json object returned in .../auto-complete endpoint with properties as search_type. You must use EXACTLY the value  returned by the endpoint.",
+                "default": "Greenwich Close, Crawley RH11"
+            },
+            "identifier": {
+                "type": "string",
+                "description": "The value of suggestions/identifier JSON object returned from the .../auto-complete endpoint. This value must also be used exactly as returned by the endpoint. Defaults to 'west-sussex/crawley/greenwich-close'.",
+                "default": "west-sussex/crawley/greenwich-close"
+            }
+        },
+        "required": [
+            "area"
+        ]
+    }
+}

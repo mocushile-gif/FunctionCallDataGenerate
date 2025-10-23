@@ -1,0 +1,23 @@
+{
+    "name": "get_region_details",
+    "description": "This is a sub-function API for tool gis_engine.\nTool description: Provide regions, cities and districts per countries\nAPI description: Fetch the details of a specific region within a given country using the RapidAPI GIS Engine.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "region_code": {
+                "type": "string",
+                "description": "The code representing the specific region to look up.",
+                "default": "abr"
+            },
+            "country_code": {
+                "type": "string",
+                "description": "The code representing the country in which the region is located.",
+                "default": "ph"
+            }
+        },
+        "required": [
+            "region_code",
+            "country_code"
+        ]
+    }
+}

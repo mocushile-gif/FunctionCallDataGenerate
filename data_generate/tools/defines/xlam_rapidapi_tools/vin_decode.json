@@ -1,0 +1,17 @@
+{
+    "name": "vin_decode",
+    "description": "This is a sub-function API for tool vin_decoder_and_market_data.\nTool description: Get vehicle specs and market sale information from a VIN number\nAPI description: Decodes a given Vehicle Identification Number (VIN) using the RapidAPI VIN Decoder service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vin": {
+                "type": "string",
+                "description": "The Vehicle Identification Number to decode.",
+                "default": "5N3AA08D68N901917"
+            }
+        },
+        "required": [
+            "vin"
+        ]
+    }
+}

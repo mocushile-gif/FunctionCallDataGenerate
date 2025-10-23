@@ -1,0 +1,49 @@
+{
+    "name": "advanced",
+    "description": "This is a sub-function API for tool chess_puzzles_v2.\nTool description: Quickly access 1.000.000+ chess puzzles!\nAPI description: Fetches advanced chess puzzles based on various search criteria from an external API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "number_of_puzzles": {
+                "type": "number",
+                "description": "Number of puzzles to fetch. Defaults to 1.",
+                "default": 1.0
+            },
+            "themes": {
+                "type": "string",
+                "description": "Comma-separated list of puzzle themes. Defaults to 'kingsideAttack,middlegame'.",
+                "default": "kingsideAttack,middlegame"
+            },
+            "theme_search_type": {
+                "type": "string",
+                "description": "Specifies whether puzzles need to have all themes ('AND') or any theme ('OR'). Defaults to 'AND'.",
+                "default": "AND"
+            },
+            "number_of_moves": {
+                "type": "number",
+                "description": "Total number of moves in the puzzles. Defaults to 4.",
+                "default": 4.0
+            },
+            "opening_variation": {
+                "type": "string",
+                "description": "The opening variation of the puzzles. Defaults to 'Kings_Gambit_Accepted_Abbazia_Defense'.",
+                "default": "Kings_Gambit_Accepted_Abbazia_Defense"
+            },
+            "rating": {
+                "type": "string",
+                "description": "Rating of the puzzles. Defaults to '1200'.",
+                "default": "1200"
+            },
+            "opening_family": {
+                "type": "string",
+                "description": "The opening family of the puzzles. Defaults to 'Kings_Gambit_Accepted'.",
+                "default": "Kings_Gambit_Accepted"
+            },
+            "max_deviation": {
+                "type": "number",
+                "description": "Maximum allowable rating deviation."
+            }
+        },
+        "required": []
+    }
+}

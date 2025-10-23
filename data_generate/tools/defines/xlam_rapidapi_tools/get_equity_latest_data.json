@@ -1,0 +1,22 @@
+{
+    "name": "get_equity_latest_data",
+    "description": "This is a sub-function API for tool investing_financial_stocks.\nTool description: get all investing.com stocks realtime data in multi language and filters\nAPI description: Fetches the latest equity data for a given equity slug.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The unique identifier for the equity, retrieved from screener results.",
+                "default": "saudi-aramco"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language code for the data. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "slug"
+        ]
+    }
+}

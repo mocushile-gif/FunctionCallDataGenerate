@@ -1,0 +1,21 @@
+{
+    "name": "mensajes_2",
+    "description": "This is a sub-function API for tool colegiosantaana.\nTool description: Colegio Santa Ana\nAPI description: Fetches messages for student number 2 using the provided RapidAPI key and authorization details.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "authorization": {
+                "type": "string",
+                "description": "The authorization token required for API access.",
+                "default": "1234567890"
+            },
+            "authoriza": {
+                "type": "string",
+                "description": "An additional authorization token. Defaults to None."
+            }
+        },
+        "required": [
+            "authorization"
+        ]
+    }
+}

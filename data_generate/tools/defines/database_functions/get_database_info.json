@@ -1,0 +1,14 @@
+{
+  "name": "get_database_info",
+  "description": "Retrieve information about the SQLite database, including table names, schema details, and record counts.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "database_path": {
+        "type": "string",
+        "description": "The path to the database."
+      }
+    },
+    "required": ["database_path"]
+  }
+}

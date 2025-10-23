@@ -1,0 +1,15 @@
+{
+    "{'request_id': 'LIV-20231015-12345ABC'}": {
+        "error": "",
+        "response": {
+            "request_id": "LIV-20231015-12345ABC",
+            "liveness_detected": true,
+            "multiple_faces": false,
+            "face_coverage_percentage": 35.7,
+            "confidence_score": 0.98,
+            "status": "VERIFIED",
+            "timestamp": "2023-10-15T14:22:35Z",
+            "details": "Single live face detected, optimal lighting, and no screen spoof detected. Face covers ~36% of the image area."
+        }
+    }
+}

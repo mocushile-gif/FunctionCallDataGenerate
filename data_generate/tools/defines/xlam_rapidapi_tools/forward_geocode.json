@@ -1,0 +1,17 @@
+{
+    "name": "forward_geocode",
+    "description": "This is a sub-function API for tool geocode_forward_and_reverse.\nTool description: Forward and reverse geocoding using Google Geocoding API.\nAPI description: Fetches latitude and longitude coordinates from a given address using the RapidAPI forward geocoding service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "type": "string",
+                "description": "The address to be geocoded.",
+                "default": "2795 Hastings St, Vancouver, BC V5K 1Z8"
+            }
+        },
+        "required": [
+            "address"
+        ]
+    }
+}

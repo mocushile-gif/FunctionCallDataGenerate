@@ -1,0 +1,16 @@
+{
+    "name": "getpetbyid",
+    "description": "This is a sub-function API for tool teste.\nTool description: teste\nAPI description: Get details of a pet by its ID using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "petid": {
+                "type": "number",
+                "description": "The ID of the pet to retrieve."
+            }
+        },
+        "required": [
+            "petid"
+        ]
+    }
+}

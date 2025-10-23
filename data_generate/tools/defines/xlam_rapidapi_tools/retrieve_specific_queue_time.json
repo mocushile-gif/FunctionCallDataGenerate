@@ -1,0 +1,17 @@
+{
+    "name": "retrieve_specific_queue_time",
+    "description": "This is a sub-function API for tool unofficial_efteling_api.\nTool description: An Unofficial Efteling API is a software tool that allows developers to access real-time queue times and news from the Efteling amusement park, located in the Netherlands. The API provides a simple and easy-to-use interface for retrieving data, which can be integrated into third-party applications, websites, or services. With this API, users can stay up-to-date with the latest information on ride wait times and park news, making it easier to plan their visit to the park. This API is not offic...\nAPI description: retrieve a specific queue item based on the ID that can be retrieved from the /queue endpoint",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the specific queue item to retrieve.",
+                "default": 12.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

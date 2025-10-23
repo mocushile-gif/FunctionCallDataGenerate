@@ -1,0 +1,24 @@
+{
+    "name": "eps_revisions",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: This API endpoint returns analysts’ revisions of a company's future quarterly and annual earnings per share (EPS) over the last week and month.\n\nAvailability: Mega plan\nData weighting: 20 API credits per symbol",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol of the company."
+            },
+            "exchange": {
+                "type": "string",
+                "description": "Filter by exchange name or mic code. Defaults to None."
+            },
+            "country": {
+                "type": "string",
+                "description": "Filter by country name or alpha code. Defaults to None."
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

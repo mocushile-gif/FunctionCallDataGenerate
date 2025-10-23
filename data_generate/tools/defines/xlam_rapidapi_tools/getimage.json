@@ -1,0 +1,16 @@
+{
+    "name": "getimage",
+    "description": "This is a sub-function API for tool mikuapi.\nTool description: An API that provides you with Images of the popular Japanese Popstar Hatsune Miku. \nAPI description: Fetches an image using a given file ID from the mikuapi service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fileid": {
+                "type": "string",
+                "description": "The ID of the image file to be retrieved."
+            }
+        },
+        "required": [
+            "fileid"
+        ]
+    }
+}

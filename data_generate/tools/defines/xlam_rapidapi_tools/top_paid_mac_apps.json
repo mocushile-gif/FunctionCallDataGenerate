@@ -1,0 +1,30 @@
+{
+    "name": "top_paid_mac_apps",
+    "description": "This is a sub-function API for tool app_store.\nTool description: Unofficial Apple App Store Api\nAPI description: Retrieves a list of the top paid Mac apps from the App Store.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "Category of the apps to retrieve. Default is '6016'.",
+                "default": "6016"
+            },
+            "country": {
+                "type": "string",
+                "description": "Country code to filter the app results. Default is 'us'.",
+                "default": "us"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language code for the results. Default is 'en'.",
+                "default": "en"
+            },
+            "num": {
+                "type": "number",
+                "description": "Number of results to return. Default is 100. Maximum is 200.",
+                "default": 100.0
+            }
+        },
+        "required": []
+    }
+}

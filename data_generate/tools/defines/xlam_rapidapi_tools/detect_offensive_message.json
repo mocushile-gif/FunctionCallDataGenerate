@@ -1,0 +1,17 @@
+{
+    "name": "detect_offensive_message",
+    "description": "This is a sub-function API for tool offensive_user_comment_detection.\nTool description: This API uses natural language processing and machine learning to detect and flag inappropriate or offensive comments in multiple languages, helping to create a safer online environment and assist moderators in taking appropriate action.\nAPI description: Detects hate speech and offensive language in the provided message using the specified API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The message to be checked for offensive language.",
+                "default": "son of a ***"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

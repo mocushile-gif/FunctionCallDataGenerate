@@ -1,0 +1,17 @@
+{
+    "name": "get_profile_info",
+    "description": "This is a sub-function API for tool pinterest_scraper.\nTool description: Stable Pinterest API. I get full information about pins, download links in all qualities. Active work is underway to add new features\nAPI description: Fetches the profile information from Pinterest for a given username using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Pinterest username for which the profile information is to be retrieved.",
+                "default": "nasa"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "property_details",
+    "description": "This is a sub-function API for tool zillow.\nTool description: Fast and highly available API. For-sale, rental listings and agens real-time data from Zillow.\nAPI description: Fetches property details from the Zillow API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zpid": {
+                "type": "number",
+                "description": "The Zillow Property ID. Defaults to None."
+            },
+            "property_url": {
+                "type": "string",
+                "description": "The URL of the property on Zillow. Defaults to 'https://www.zillow.com/homedetails/101-California-Ave-UNIT-303-Santa-Monica-CA-90403/20485700_zpid/'.",
+                "default": "https://www.zillow.com/homedetails/101-California-Ave-UNIT-303-Santa-Monica-CA-90403/20485700_zpid/"
+            }
+        },
+        "required": []
+    }
+}

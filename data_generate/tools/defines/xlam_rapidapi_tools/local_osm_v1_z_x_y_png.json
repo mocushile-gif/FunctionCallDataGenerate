@@ -1,0 +1,29 @@
+{
+    "name": "local_osm_v1_z_x_y_png",
+    "description": "This is a sub-function API for tool offline_maptiles.\nTool description: Download map tiles for offline use (intranet, offline devices).  You can store those downloaded tiles as long as you want.\nAPI description: Downloads an OpenStreetMap standard tile image for specified coordinates and zoom level.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "y": {
+                "type": "number",
+                "description": "y tile number.",
+                "default": 3.0
+            },
+            "z": {
+                "type": "number",
+                "description": "Zoom factor between 0 and 19.",
+                "default": 3.0
+            },
+            "x": {
+                "type": "number",
+                "description": "x tile number.",
+                "default": 6.0
+            }
+        },
+        "required": [
+            "y",
+            "z",
+            "x"
+        ]
+    }
+}

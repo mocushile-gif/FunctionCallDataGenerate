@@ -1,0 +1,17 @@
+{
+    "name": "org",
+    "description": "This is a sub-function API for tool check_username.\nTool description: Generate/Check if a username is available on various platforms like Facebook, instagram, tiktok, snapchat and other social media platforms! You can also check if  a domain is registered or not.\nAPI description: Check if a .org domain with the given name is registered using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the domain to check.",
+                "default": "testdomain"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

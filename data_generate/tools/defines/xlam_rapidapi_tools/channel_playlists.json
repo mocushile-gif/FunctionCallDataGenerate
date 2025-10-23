@@ -1,0 +1,33 @@
+{
+    "name": "channel_playlists",
+    "description": "This is a sub-function API for tool youtube.\nTool description: With the YouTube Data API, you can add various YouTube features to your app. Use the API for search, videos, playlists, channels and more.\nAPI description: Fetches playlists from a specified YouTube channel using the YouTube Data API and various filters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "filter": {
+                "type": "string",
+                "description": "Filter key or token, default: `all_collections`\n\nKeys you can enter:\n\n- `all_collections`: Returns playlist collections\n- `created_playlists_newest`: Returns created playlists (by newest)\n- `created_playlists_last_video_added`: Returns created playlists (by last video added)\n- `saved_playlists`: Returns saved playlists\n- or custom collection token"
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The YouTube channel ID to fetch playlists for. Defaults to 'UC-lHJZR3Gqxm24_Vd_AJ5Yw'.",
+                "default": "UCJ5v_MCY6GNUBTO8-D3XoAg"
+            },
+            "gl": {
+                "type": "string",
+                "description": "Geolocation parameter to filter results by region. Defaults to 'US'.",
+                "default": "US"
+            },
+            "hl": {
+                "type": "string",
+                "description": "Language parameter, specified as a BCP-47 language code. Defaults to 'en'.",
+                "default": "en"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "Continuation token for pagination. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

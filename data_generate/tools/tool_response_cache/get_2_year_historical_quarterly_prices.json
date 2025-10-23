@@ -1,0 +1,103 @@
+{
+    "{'ticker': 'IBIO'}": {
+        "error": "",
+        "response": {
+            "ticker": "IBIO",
+            "description": "Historical quarterly data for the past 2 years for the stock ticker IBIO.",
+            "data": [
+                {
+                    "quarter": "Q4 2022",
+                    "adjusted_open": 1.25,
+                    "adjusted_high": 1.5,
+                    "adjusted_low": 1.1,
+                    "adjusted_close": 1.3,
+                    "volume": 5000000,
+                    "dividend": 0.0,
+                    "split": "None"
+                },
+                {
+                    "quarter": "Q3 2022",
+                    "adjusted_open": 1.4,
+                    "adjusted_high": 1.6,
+                    "adjusted_low": 1.2,
+                    "adjusted_close": 1.35,
+                    "volume": 4500000,
+                    "dividend": 0.0,
+                    "split": "None"
+                },
+                {
+                    "quarter": "Q2 2022",
+                    "adjusted_open": 1.5,
+                    "adjusted_high": 1.7,
+                    "adjusted_low": 1.3,
+                    "adjusted_close": 1.45,
+                    "volume": 4000000,
+                    "dividend": 0.0,
+                    "split": "None"
+                },
+                {
+                    "quarter": "Q1 2022",
+                    "adjusted_open": 1.6,
+                    "adjusted_high": 1.8,
+                    "adjusted_low": 1.4,
+                    "adjusted_close": 1.55,
+                    "volume": 3500000,
+                    "dividend": 0.0,
+                    "split": "None"
+                },
+                {
+                    "quarter": "Q4 2021",
+                    "adjusted_open": 1.7,
+                    "adjusted_high": 1.9,
+                    "adjusted_low": 1.5,
+                    "adjusted_close": 1.65,
+                    "volume": 3000000,
+                    "dividend": 0.0,
+                    "split": "None"
+                },
+                {
+                    "quarter": "Q3 2021",
+                    "adjusted_open": 1.8,
+                    "adjusted_high": 2.0,
+                    "adjusted_low": 1.6,
+                    "adjusted_close": 1.75,
+                    "volume": 2500000,
+                    "dividend": 0.0,
+                    "split": "None"
+                },
+                {
+                    "quarter": "Q2 2021",
+                    "adjusted_open": 1.9,
+                    "adjusted_high": 2.1,
+                    "adjusted_low": 1.7,
+                    "adjusted_close": 1.85,
+                    "volume": 2000000,
+                    "dividend": 0.0,
+                    "split": "None"
+                },
+                {
+                    "quarter": "Q1 2021",
+                    "adjusted_open": 2.0,
+                    "adjusted_high": 2.2,
+                    "adjusted_low": 1.8,
+                    "adjusted_close": 2.05,
+                    "volume": 1500000,
+                    "dividend": 0.0,
+                    "split": "None"
+                }
+            ]
+        }
+    },
+    "{'ticker': 'TSLA'}": {
+        "error": "",
+        "response": "{'2022-10-01 00:00:00-04:00': {'Close': 123.1800003052, 'Dividends': 0.0, 'High': 237.3999938965, 'Low': 108.2399978638, 'Open': 234.0500030518, 'Stock Splits': 0.0, 'Volume': 4829523000}, '2023-01-01 00:00:00-05:00': {'Close': 207.4600067139, 'Dividends': 0.0, 'High': 217.6499938965, 'Low': 101.8099975586, 'Open': 118.4700012207, 'Stock Splits': 0.0, 'Volume': 10833964400}, '2023-04-01 00:00:00-04:00': {'Close': 261.7699890137, 'Dividends': 0.0, 'High': 276.9899902344, 'Low': 152.3699951172, 'Open': 199.9100036621, 'Stock Splits': 0.0, 'Volume': 8627649000}, '2023-07-01 00:00:00-04:00': {'Close': 250.2200012207, 'Dividends': 0.0, 'High': 299.2900085449, 'Low': 212.3600006104, 'Open': 276.4899902344, 'Stock Splits': 0.0, 'Volume': 7332976000}, '2023-10-01 00:00:00-04:00': {'Close': 248.4799957275, 'Dividends': 0.0, 'High': 268.9400024414, 'Low': 194.0700073242, 'Open': 244.8099975586, 'Stock Splits': 0.0, 'Volume': 7535966900}, '2024-01-01 00:00:00-05:00': {'Close': 175.7899932861, 'Dividends': 0.0, 'High': 251.25, 'Low': 160.5099945068, 'Open': 250.0800018311, 'Stock Splits': 0.0, 'Volume': 6262596500}, '2024-04-01 00:00:00-04:00': {'Close': 197.8800048828, 'Dividends': 0.0, 'High': 203.1999969482, 'Low': 138.8000030518, 'Open': 176.1699981689, 'Stock Splits': 0.0, 'Volume': 5553759000}, '2024-07-01 00:00:00-04:00': {'Close': 261.6300048828, 'Dividends': 0.0, 'High': 271.0, 'Low': 182.0, 'Open': 201.0200042725, 'Stock Splits': 0.0, 'Volume': 6175760700}, '2024-10-01 00:00:00-04:00': {'Close': 257.549987793, 'Dividends': 0.0, 'High': 273.5400085449, 'Low': 212.1100006104, 'Open': 262.6700134277, 'Stock Splits': 0.0, 'Volume': 1897449676}}"
+    },
+    "{'ticker': 'AMZN'}": {
+        "error": "",
+        "response": "{'2023-01-01 00:00:00-05:00': {'Close': 103.2900009155, 'Dividends': 0.0, 'High': 114.0, 'Low': 88.1200027466, 'Open': 102.5299987793, 'Stock Splits': 0.0, 'Volume': 2713342300}, '2023-04-01 00:00:00-04:00': {'Close': 130.3600006104, 'Dividends': 0.0, 'High': 131.4900054932, 'Low': 97.7099990845, 'Open': 102.3000030518, 'Stock Splits': 0.0, 'Volume': 3899624000}, '2023-07-01 00:00:00-04:00': {'Close': 127.1200027466, 'Dividends': 0.0, 'High': 145.8600006104, 'Low': 123.0400009155, 'Open': 130.8200073242, 'Stock Splits': 0.0, 'Volume': 3389452900}, '2023-10-01 00:00:00-04:00': {'Close': 151.9400024414, 'Dividends': 0.0, 'High': 155.6300048828, 'Low': 118.3499984741, 'Open': 127.2799987793, 'Stock Splits': 0.0, 'Volume': 3181680200}, '2024-01-01 00:00:00-05:00': {'Close': 180.3800048828, 'Dividends': 0.0, 'High': 181.6999969482, 'Low': 144.0500030518, 'Open': 151.5399932861, 'Stock Splits': 0.0, 'Volume': 2700335000}, '2024-04-01 00:00:00-04:00': {'Close': 193.25, 'Dividends': 0.0, 'High': 199.8399963379, 'Low': 166.3200073242, 'Open': 180.7899932861, 'Stock Splits': 0.0, 'Volume': 2622598800}, '2024-07-01 00:00:00-04:00': {'Close': 186.3300018311, 'Dividends': 0.0, 'High': 201.1999969482, 'Low': 151.6100006104, 'Open': 193.4900054932, 'Stock Splits': 0.0, 'Volume': 2604113800}, '2024-10-01 00:00:00-04:00': {'Close': 219.3899993896, 'Dividends': 0.0, 'High': 233.0, 'Low': 180.25, 'Open': 184.8999938965, 'Stock Splits': 0.0, 'Volume': 2400707700}, '2025-01-01 00:00:00-05:00': {'Close': 224.7888031006, 'Dividends': 0.0, 'High': 228.8399963379, 'Low': 216.1999969482, 'Open': 222.0299987793, 'Stock Splits': 0.0, 'Volume': 312311298}}"
+    },
+    "{'ticker': 'MSFT'}": {
+        "error": "",
+        "response": "{'2022-11-01 00:00:00-04:00': {'Close': 243.6103210449, 'Dividends': 0.68, 'High': 259.4473178432, 'Low': 215.6326457146, 'Open': 249.5676188349, 'Stock Splits': 0.0, 'Volume': 1257526800}, '2023-02-01 00:00:00-05:00': {'Close': 302.9040222168, 'Dividends': 0.68, 'High': 304.5503299836, 'Low': 241.9900030597, 'Open': 244.484134356, 'Stock Splits': 0.0, 'Volume': 1914633100}, '2023-05-01 00:00:00-04:00': {'Close': 331.9872131348, 'Dividends': 0.68, 'High': 362.4859036704, 'Low': 299.8479233523, 'Open': 303.376134638, 'Stock Splits': 0.0, 'Volume': 1815160300}, '2023-08-01 00:00:00-04:00': {'Close': 334.882019043, 'Dividends': 0.68, 'High': 342.8948096876, 'Low': 306.4956652286, 'Open': 331.9899134711, 'Stock Splits': 0.0, 'Volume': 1437044400}, '2023-11-01 00:00:00-04:00': {'Close': 394.617980957, 'Dividends': 0.75, 'High': 412.2258370054, 'Low': 337.1195717849, 'Open': 337.258543312, 'Stock Splits': 0.0, 'Volume': 1614283000}, '2024-02-01 00:00:00-05:00': {'Close': 387.2137451172, 'Dividends': 0.75, 'High': 428.4782427784, 'Low': 385.9208235358, 'Open': 399.6458001371, 'Stock Splits': 0.0, 'Volume': 1311303600}, '2024-05-01 00:00:00-04:00': {'Close': 416.8454589844, 'Dividends': 0.75, 'High': 466.6656398022, 'Low': 388.9062930675, 'Open': 391.198009222, 'Stock Splits': 0.0, 'Volume': 1196620400}, '2024-08-01 00:00:00-04:00': {'Close': 405.618927002, 'Dividends': 0.75, 'High': 441.0550576585, 'Low': 384.8862755696, 'Open': 420.0329499088, 'Stock Splits': 0.0, 'Volume': 1269585700}, '2024-11-01 00:00:00-04:00': {'Close': 411.4599914551, 'Dividends': 0.0, 'High': 415.5, 'Low': 405.5700073242, 'Open': 409.0100097656, 'Stock Splits': 0.0, 'Volume': 61332435}}"
+    }
+}

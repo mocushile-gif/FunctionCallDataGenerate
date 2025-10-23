@@ -1,0 +1,73 @@
+{
+    "name": "reversegeocoding",
+    "description": "This is a sub-function API for tool forward_reverse_geocoding.\nTool description: Forward & Reverse Geocoding API. Get address by location or location by address.\nAPI description: Perform reverse geocoding to find an address or place by latitude and longitude.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lon": {
+                "type": "number",
+                "description": "Longitude of the location.",
+                "default": -87.6244212
+            },
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the location.",
+                "default": 41.8755616
+            },
+            "json_callback": {
+                "type": "string",
+                "description": "JSON callback function name for cross-domain requests."
+            },
+            "polygon_geojson": {
+                "type": "string",
+                "description": "Include a GeoJSON polygon for the results."
+            },
+            "limit": {
+                "type": "string",
+                "description": "Limit the number of returned results."
+            },
+            "accept_language": {
+                "type": "string",
+                "description": "Set the response language. Accepts two letter language codes (e.g. 'en' or 'es') or a combination of language and region code, e.g. 'en-GB' or 'es-AR'. Default: 'en'.",
+                "default": "en"
+            },
+            "polygon_kml": {
+                "type": "string",
+                "description": "Include KML polygon in the results."
+            },
+            "zoom": {
+                "type": "string",
+                "description": "Level of detail required for the address details."
+            },
+            "polygon_svg": {
+                "type": "string",
+                "description": "Include SVG polygon in the results."
+            },
+            "addressdetails": {
+                "type": "string",
+                "description": "Include full address breakdown in the results."
+            },
+            "namedetails": {
+                "type": "string",
+                "description": "Include a list of alternative names in the results."
+            },
+            "polygon_threshold": {
+                "type": "number",
+                "description": "Simplify the returned polygons to a threshold level.",
+                "default": 0.0
+            },
+            "format": {
+                "type": "string",
+                "description": "Format of the response (e.g., 'json', 'xml')."
+            },
+            "polygon_text": {
+                "type": "string",
+                "description": "Include a WKT polygon in the results."
+            }
+        },
+        "required": [
+            "lon",
+            "lat"
+        ]
+    }
+}

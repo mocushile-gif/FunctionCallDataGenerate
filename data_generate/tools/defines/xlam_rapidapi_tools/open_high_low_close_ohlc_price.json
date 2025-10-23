@@ -1,0 +1,29 @@
+{
+    "name": "open_high_low_close_ohlc_price",
+    "description": "This is a sub-function API for tool metals_prices_rates_api.\nTool description: The Metals Prices Rates API provides real-time and historical metal prices and exchange rates for gold, silver, platinum, and other metals. It allows developers to access and integrate the data into their own applications and systems. The API can be used for financial and commodity market analysis, currency conversion, and more.\nAPI description: Allows you to query the API to get the open, high, low, and close price.\nThis endpoint has a limitation of one symbol per request.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbols": {
+                "type": "string",
+                "description": "The three-letter currency code or commodity code for which to get the price data.",
+                "default": "XAU"
+            },
+            "base": {
+                "type": "string",
+                "description": "The three-letter currency code or commodity code of the base currency.",
+                "default": "USD"
+            },
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve the price data.",
+                "default": "2022-01-20"
+            }
+        },
+        "required": [
+            "symbols",
+            "base",
+            "date"
+        ]
+    }
+}

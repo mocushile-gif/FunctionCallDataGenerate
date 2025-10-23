@@ -1,0 +1,28 @@
+{
+    "name": "chi_squared_test",
+    "description": "Perform a chi-squared test on two categorical columns from a data file.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "Path to the data file (.csv, .xlsx, .json, or .jsonl)."
+        },
+        "sheet_name": {
+          "type": ["string", "integer"],
+          "description": "Sheet name or index (for Excel files). Optional for non-Excel files.",
+          "default": 0
+        },
+        "col1": {
+          "type": "string",
+          "description": "First categorical column for the contingency table."
+        },
+        "col2": {
+          "type": "string",
+          "description": "Second categorical column for the contingency table."
+        }
+      },
+      "required": ["file_path", "col1", "col2"]
+    }
+  }
+  

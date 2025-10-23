@@ -1,0 +1,50 @@
+{
+    "name": "typical_price",
+    "description": "This is a sub-function API for tool qvantana.\nTool description: Our free API provides real-time and historical crypto trading data from 4 major exchanges, enriched with over 30 customizable trading indicators. It offers up to 5000 rows of data in a single request, ensuring comprehensive market analysis. The API is user-friendly and offers improved data fetching capabilities compared to standard exchange documentation, making it an essential tool for traders and developers alike.\nAPI description: Fetches the Typical Price Indicator for a given market, exchange, symbol, and interval.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "market": {
+                "type": "string",
+                "description": "The market type. Available options are 'spot', 'usdt-perpetual', and 'inverse-perpetual'.",
+                "default": "spot"
+            },
+            "exchange": {
+                "type": "string",
+                "description": "The exchange name.",
+                "default": "binance"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The symbol representing the security (e.g., \"BTCUSD\").",
+                "default": "btcusdt"
+            },
+            "interval": {
+                "type": "string",
+                "description": "The interval for which the typical price is calculated (e.g., '1m', '5m', '1h').",
+                "default": "1m"
+            },
+            "backtracks": {
+                "type": "number",
+                "description": "The number of intervals back to retrieve. Default is 1.",
+                "default": 1.0
+            },
+            "length": {
+                "type": "number",
+                "description": "The number of periods used in calculating the typical price. Default is 18.",
+                "default": 18.0
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The start time in Unix timestamp format. Default is '1683895800'.",
+                "default": "1683895800"
+            }
+        },
+        "required": [
+            "market",
+            "exchange",
+            "symbol",
+            "interval"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "video_data",
+    "description": "This is a sub-function API for tool youtube_v2.\nTool description: Youtube API for search, videos, channels, trending, recommendation\nAPI description: Retrieves video data for a given video ID from YouTube using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "video_id": {
+                "type": "string",
+                "description": "The ID of the YouTube video for which to retrieve data.",
+                "default": "hs1W2KQluWA"
+            }
+        },
+        "required": [
+            "video_id"
+        ]
+    }
+}

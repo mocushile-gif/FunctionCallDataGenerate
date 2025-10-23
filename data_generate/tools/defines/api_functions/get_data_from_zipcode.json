@@ -1,0 +1,16 @@
+{
+    "name": "get_data_from_zipcode",
+    "description": "Retrieves the data for a given ZIP code using the Ziptastic API. The function returns the name of the city corresponding to the ZIP code, or an error message if the request fails.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zipcode": {
+                "type": "string",
+                "description": "The ZIP code to look up."
+            }
+        },
+        "required": [
+            "zipcode"
+        ]
+    }
+}

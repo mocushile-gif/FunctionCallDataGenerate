@@ -1,0 +1,27 @@
+{
+    "name": "user_videos",
+    "description": "This is a sub-function API for tool tiktok_v3.\nTool description: TikTok API\nAPI description: Retrieves videos for a specified TikTok user using their `secUid` and `user_id`. Optionally, a cursor can be provided for pagination.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "secuid": {
+                "type": "string",
+                "description": "The secUid of the TikTok user.",
+                "default": "MS4wLjABAAAAsY6EjWejsVbCjir7Vdy-uNX364xNywkQSLqqoV5Hcnt7v3CVToFzfIgcdpQ_iW3D"
+            },
+            "user_id": {
+                "type": "string",
+                "description": "The unique identifier of the TikTok user.",
+                "default": "6676352751163032582"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "Cursor for pagination to get the subsequent set of videos. Defaults to None."
+            }
+        },
+        "required": [
+            "secuid",
+            "user_id"
+        ]
+    }
+}

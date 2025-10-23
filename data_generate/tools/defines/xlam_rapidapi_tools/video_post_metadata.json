@@ -1,0 +1,22 @@
+{
+    "name": "video_post_metadata",
+    "description": "This is a sub-function API for tool tiktok_data.\nTool description: Social Media Data API in Real-Time.   -Get very useful and unique information.  -I'm on Telegram https://t.me/logicBuilder News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Fetch metadata for a single TikTok video post.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "video": {
+                "type": "string",
+                "description": "The URL of the TikTok video post. For example: 'https://www.tiktok.com/@charlidamelio/video/7137423965982592302'.",
+                "default": "https://www.tiktok.com/@charlidamelio/video/7010108194051640582"
+            },
+            "fresh": {
+                "type": "number",
+                "description": "By setting this query value to **1** you can force to return fresh data(not cached)",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "video"
+        ]
+    }
+}

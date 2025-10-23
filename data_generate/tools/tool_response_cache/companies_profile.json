@@ -1,0 +1,22 @@
+{
+    "{'symbol': 'XYZ', 'apikey': ''}": {
+        "error": "",
+        "response": []
+    },
+    "{'symbol': 'AAPL', 'apikey': ''}": {
+        "error": "",
+        "response": []
+    },
+    "{'symbol': 'AAPL', 'apikey': 'rapid_api'}": {
+        "error": "",
+        "response": "{'Error Message': 'Limit Reach . Please upgrade your plan or visit our documentation for more details at https://site.financialmodelingprep.com/'}"
+    },
+    "{'symbol': 'TSLA', 'apikey': 'rapid_api'}": {
+        "error": "",
+        "response": "{'Error Message': 'Limit Reach . Please upgrade your plan or visit our documentation for more details at https://site.financialmodelingprep.com/'}"
+    },
+    "{'symbol': 'VALE', 'apikey': 'rapid_api'}": {
+        "error": "",
+        "response": "{'Error Message': 'Limit Reach . Please upgrade your plan or visit our documentation for more details at https://site.financialmodelingprep.com/'}"
+    }
+}

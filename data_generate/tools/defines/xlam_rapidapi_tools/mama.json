@@ -1,0 +1,48 @@
+{
+    "name": "mama",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: MESA Adaptive Moving Average(MAMA) adapts to price fluctuations based on the rate of change of the Hilbert Transform Discriminator. More about MAMA can be read [here](http://www.mesasoftware.com/papers/MAMA.pdf).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "interval": {
+                "type": "string",
+                "description": "Interval between two consecutive points in the time series. Supports: `1min`, `5min`, `15min`, `30min`, `45min`, `1h`, `2h`, `4h`, `1day`, `1week`, `1month`.",
+                "default": "1min"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "Instrument symbol, can be any equity, index, ETF, forex, or cryptocurrency (e.g., `AAPL`, `EUR/USD`, `ETH/BTC`).",
+                "default": "AAPL"
+            },
+            "format": {
+                "type": "string",
+                "description": "Response format. Supports `csv` or `json`. Default is `json`.",
+                "default": "json"
+            },
+            "slow_limit": {
+                "type": "number",
+                "description": "Slow limit parameter for MAMA calculation.",
+                "default": 0.05
+            },
+            "series_type": {
+                "type": "string",
+                "description": "Type of series data. Supports: `open`, `high`, `low`, `close`. Default is `close`.",
+                "default": "close"
+            },
+            "fast_limit": {
+                "type": "number",
+                "description": "Fast limit parameter for MAMA calculation.",
+                "default": 0.5
+            },
+            "outputsize": {
+                "type": "number",
+                "description": "Number of data points to return. Default is `30` if no date parameters are set, otherwise set to maximum.",
+                "default": 30
+            }
+        },
+        "required": [
+            "interval",
+            "symbol"
+        ]
+    }
+}

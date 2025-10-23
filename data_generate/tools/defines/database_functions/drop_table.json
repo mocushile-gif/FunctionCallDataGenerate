@@ -1,0 +1,19 @@
+{
+    "name": "drop_table",
+    "description": "Drop a table from an SQLite database if it exists.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file."
+        },
+        "table_name": {
+          "type": "string",
+          "description": "Name of the table to drop."
+        }
+      },
+      "required": ["database_path", "table_name"]
+    }
+  }
+  

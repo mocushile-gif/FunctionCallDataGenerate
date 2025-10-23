@@ -1,0 +1,16 @@
+{
+    "name": "points_point_forecast",
+    "description": "This is a sub-function API for tool national_weather_service.\nTool description: National Weather Service API (api.weather.gov) NOAA (National Oceanic and Atmospheric Administration) provides national weather data as well as past data.\nAPI description: Forecast data for a point. The DWML format is a temporary format to aid transition and will be sunset at a later date. This response is derrived from the /gridpoints endpoint and is intentionally less structured. If more structure is required, developers should use the /gridpoints endpoint directly. Example: /points/39.0693,-94.6716/forecast",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "point": {
+                "type": "string",
+                "description": "Geographic coordinate in the format 'latitude,longitude' (EPSG:4326)."
+            }
+        },
+        "required": [
+            "point"
+        ]
+    }
+}

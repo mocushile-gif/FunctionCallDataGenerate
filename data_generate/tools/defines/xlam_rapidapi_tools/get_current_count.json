@@ -1,0 +1,25 @@
+{
+    "name": "get_current_count",
+    "description": "This is a sub-function API for tool counter.\nTool description: Count views on your website or any other specific action on your application.\nAPI description: This function retrieves the current count from a specified API without increasing it. It allows customization through various parameters including `clabel`, `color`, and `idv`. The function makes a GET request to the API and returns the response in JSON format if possible, otherwise, it returns the response text.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "clabel": {
+                "type": "string",
+                "description": "A label used to specify a category. Defaults to 'blue'.",
+                "default": "blue"
+            },
+            "color": {
+                "type": "string",
+                "description": "A color value for the request. Defaults to 'red'.",
+                "default": "red"
+            },
+            "idv": {
+                "type": "string",
+                "description": "An identifier for the request. Defaults to 'sample'.",
+                "default": "sample"
+            }
+        },
+        "required": []
+    }
+}

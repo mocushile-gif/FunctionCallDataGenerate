@@ -1,0 +1,18 @@
+{
+    "name": "categories",
+    "description": "This is a sub-function API for tool aliexpress_unofficial.\nTool description: DEPRECATED. Will deleted after 2023-03-01\nAPI description: Fetches categories from the AliExpress unofficial API, optionally filtered by locale and country.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "locale": {
+                "type": "string",
+                "description": "The locale to filter categories by. Defaults to None."
+            },
+            "country": {
+                "type": "string",
+                "description": "The country to filter categories by. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

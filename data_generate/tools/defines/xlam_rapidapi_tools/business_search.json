@@ -1,0 +1,41 @@
+{
+    "name": "business_search",
+    "description": "This is a sub-function API for tool yelp_reviews.\nTool description: Extremely Fast and Simple API to search for businesses and get their reviews on Yelp in real-time.\nAPI description: Search for Yelp businesses by keyword and location, with options for pagination, price range, domain, and sorting order.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The location to search for businesses (e.g., \"New York, NY, USA\").",
+                "default": "San Francisco, CA, USA"
+            },
+            "query": {
+                "type": "string",
+                "description": "Search query / keyword.\n\n**Examples:**\n- *Alansi’s Plumbing*\n- *Chinese restaurants*",
+                "default": "Plumbers"
+            },
+            "start": {
+                "type": "number",
+                "description": "Number of results to skip. Mainly used for pagination.\n\n**Default:** `0`.\n\n**Allowed values:** positive integers.",
+                "default": 0.0
+            },
+            "price_range": {
+                "type": "string",
+                "description": "Find business with specific price ranges, specified as a comma delimited list of the following values: `$`, `$$`, `$$$`, `$$$`.\n\n**Examples:**\n- *$$*\n- *$,$$*"
+            },
+            "yelp_domain": {
+                "type": "string",
+                "description": "The yelp domain to use for the search.\n\n**Default:** `yelp.com`\n\n**Supported domains:** `yelp.com`, `yelp.com.au`, `yelp.co.nz`, `ms.yelp.my`, `yelp.cz`, `yelp.dk`, `yelp.de`, `yelp.at`, `de.yelp.ch`, `en.yelp.be`, `yelp.ca`, `en.yelp.com.hk`, `en.yelp.my`, `en.yelp.com.ph`, `yelp.ie`, `yelp.com.sg`, `en.yelp.ch`, `yelp.co.uk`, `yelp.com.ar`, `yelp.cl`, `yelp.es`, `yelp.com.mx`, `fil.yelp.com.ph`, `yelp.fr`, `fr.yelp.ca`, `fr.yelp.ch`, `fr.yelp.be`, `yelp.no`, `yelp.pl`, `yelp.pot`, `yelp.com.br`, `fi.yelp.",
+                "default": "yelp.com"
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "Return the results in a specific sort order.\n\n**Default:** `RECOMMENDED`\n\n**Allowed values:** `RECOMMENDED, HIGHEST_RATED, REVIEW_COUNT`"
+            }
+        },
+        "required": [
+            "location",
+            "query"
+        ]
+    }
+}

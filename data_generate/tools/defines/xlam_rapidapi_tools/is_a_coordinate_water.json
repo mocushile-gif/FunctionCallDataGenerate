@@ -1,0 +1,23 @@
+{
+    "name": "is_a_coordinate_water",
+    "description": "This is a sub-function API for tool isitwater_com.\nTool description: An API to determine if a coordinate is water or land.\nAPI description: Determines if a given coordinate on Earth is water based on the provided longitude and latitude.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "longitude": {
+                "type": "number",
+                "description": "The longitude of the coordinate to check.",
+                "default": -70.2652276
+            },
+            "latitude": {
+                "type": "number",
+                "description": "The latitude of the coordinate to check.",
+                "default": 41.9029192
+            }
+        },
+        "required": [
+            "longitude",
+            "latitude"
+        ]
+    }
+}

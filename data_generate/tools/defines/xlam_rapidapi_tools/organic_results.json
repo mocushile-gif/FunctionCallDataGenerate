@@ -1,0 +1,71 @@
+{
+    "name": "organic_results",
+    "description": "This is a sub-function API for tool google_search_2.\nTool description: Serpdog(https://serpdog.io) is a Google Search API that allows you to access Google Search Results in real time. It solves the problem of proxies and captchas for a smooth scraping journey. Serpdog supports results in both HTML and JSON format.\n\nGet your free trial by registering at https://api.serpdog.io\n\nIf you want to buy our plan, I recommend you to please visit https://serpdog.io/pricing for more information. \nAPI description: Fetches JSON data of organic search results from Google using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "Search query string.",
+                "default": "Football"
+            },
+            "device": {
+                "type": "string",
+                "description": "Device type for the search results, e.g. 'desktop', 'mobile'. Defaults to 'desktop'.",
+                "default": "desktop"
+            },
+            "hl": {
+                "type": "string",
+                "description": "Language for the search results. Defaults to 'en'.",
+                "default": "en"
+            },
+            "html": {
+                "type": "string",
+                "description": "HTML content toggle. Defaults to None."
+            },
+            "duration": {
+                "type": "string",
+                "description": "Duration filter, e.g. 'd', 'w', 'm', 'y'. Defaults to None."
+            },
+            "lr": {
+                "type": "string",
+                "description": "Language restrict parameter. Defaults to None."
+            },
+            "safe": {
+                "type": "string",
+                "description": "Safe search filter. Defaults to None."
+            },
+            "uule": {
+                "type": "string",
+                "description": "Encoded location parameter. Defaults to None."
+            },
+            "nfpr": {
+                "type": "string",
+                "description": "No forced personalized results toggle. Defaults to '0'.",
+                "default": "0"
+            },
+            "num": {
+                "type": "string",
+                "description": "Number of search results to return. Defaults to '10'.",
+                "default": "10"
+            },
+            "tbs": {
+                "type": "string",
+                "description": "Search filter tools, e.g. 'qdr:h', 'li:1'. Defaults to None."
+            },
+            "gl": {
+                "type": "string",
+                "description": "Geolocation for the search results. Defaults to 'us'.",
+                "default": "us"
+            },
+            "page": {
+                "type": "string",
+                "description": "Page number of the search results. Defaults to '0'.",
+                "default": "0"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "{'lat': 28.2916, 'lng': -16.6291, 'offset': 0, 'range': 5000}": {
+        "error": "",
+        "response": {
+            "requestId": "fd4a432c-4a66-46e9-ac3b-de6b7db3e572",
+            "results": [
+                {
+                    "airbnb_id": "2979585",
+                    "last_updated": "2023-06-16 05:35:43",
+                    "last_avail_check": "2023-06-28 20:41:15",
+                    "last_ratings": "2023-02-20 05:55:50",
+                    "distance": 53.24185499861965
+                },
+                {
+                    "airbnb_id": "2979659",
+                    "last_updated": "2023-06-19 05:30:26",
+                    "last_avail_check": "2023-06-30 09:18:44",
+                    "last_ratings": "2023-02-20 05:23:44",
+                    "distance": 66.94700754458586
+                }
+            ]
+        }
+    },
+    "{'lat': 46.8182, 'lng': 8.2275, 'offset': 0, 'range': 5000}": {
+        "error": "",
+        "response": {
+            "requestId": "b80f4ab2-d92b-470a-aee2-cd7e4073ce0a",
+            "results": [
+                {
+                    "airbnb_id": "46167390",
+                    "last_updated": "2023-06-26 06:35:51",
+                    "last_avail_check": "2023-07-15 14:01:54",
+                    "last_ratings": "2023-07-12 03:09:44",
+                    "distance": 3814.896703367147
+                }
+            ]
+        }
+    },
+    "{'lat': 47.6062, 'lng': -122.3321, 'maxguestcapacity': 4, 'range': 1000, 'offset': 0}": {
+        "error": "",
+        "response": "{'requestId': '953e0f26-bdce-4144-8192-762619b4957c', 'results': [{'airbnb_id': '24286056', 'last_updated': '2025-05-29 12:57:23', 'last_avail_check': '2025-05-27 09:03:50', 'last_ratings': '2025-05-29 12:57:31', 'distance': 2.4943156611667066}, {'airbnb_id': '969856699543401948', 'last_updated': '2025-05-30 16:55:23', 'last_avail_check': '2025-05-26 18:53:42', 'last_ratings': '2025-05-30 16:55:23', 'distance': 461.1300544253655}, {'airbnb_id': '33079505', 'last_updated': '2025-05-30 00:12:37', 'last_avail_check': '2025-05-26 16:01:15', 'last_ratings': '2025-05-30 00:12:37', 'distance': 467.3563276396938}, {'airbnb_id': '10125020', 'last_updated': '2025-05-29 14:24:03', 'last_avail_check': '2025-05-28 04:50:46', 'last_ratings': '2025-05-29 14:24:34', 'distance': 507.1278542677423}, {'airbnb_id': '1135612551052965392', 'last_updated': '2025-05-30 05:14:52', 'last_avail_check': '2025-05-29 07:09:31', 'last_ratings': '2025-05-30 05:14:52', 'distance': 521.77542083468}, {'airbnb_id': '37946796', 'last_updated': '2025-05-28 12:17:12', 'last_avail_check': '2025-05-28 09:39:26', 'last_ratings': '2025-05-28 12:17:12', 'distance': 525.5061264316616}, {'airbnb_id': '44812880', 'last_updated': '2025-05-30 16:46:47', 'last_avail_check': '2025-05-26 09:36:51', 'last_ratings': '2025-05-30 16:46:47', 'distance': 529.0769726403036}, {'airbnb_id': '32993666', 'last_updated': '2025-05-31 17:16:28', 'last_avail_check': '2025-05-26 16:54:49', 'last_ratings': '2025-05-31 17:16:28', 'distance': 54"
+    },
+    "{'lat': 30.0272, 'lng': 31.2038, 'offset': 0, 'range': 1000, 'bedrooms': 3}": {
+        "error": "",
+        "response": "{'requestId': '4f1c663a-82ea-4a41-b5ed-c837820116a7', 'results': [{'airbnb_id': '850758277747382303', 'last_updated': '2025-06-07 17:31:25', 'last_avail_check': '2025-06-05 04:32:02', 'last_ratings': '2025-06-07 17:31:25', 'distance': 933.2271995152078}]}"
+    },
+    "{'lat': 47.6062, 'lng': -122.3321, 'offset': 0, 'range': 1000, 'bedrooms': 2, 'maxguestcapacity': 3}": {
+        "error": "",
+        "response": "{'requestId': 'fa156a0b-a083-4605-a7f5-00ca168c4a9f', 'results': [{'airbnb_id': '46383530', 'last_updated': '2025-06-08 01:37:00', 'last_avail_check': '2025-06-03 22:39:55', 'last_ratings': '2025-06-08 01:37:00', 'distance': 431.5831845110357}, {'airbnb_id': '53009988', 'last_updated': '2025-06-07 23:29:43', 'last_avail_check': '2025-06-04 00:54:13', 'last_ratings': '2025-06-07 23:29:43', 'distance': 710.2625901960092}]}"
+    },
+    "{'lat': 47.6062, 'lng': -122.3321, 'bedrooms': 3, 'maxguestcapacity': 6, 'range': 2000, 'offset': 0}": {
+        "error": "",
+        "response": "{'requestId': '6c656764-2005-4ba7-afae-5fbe2bc6ad56', 'results': [{'airbnb_id': '53770284', 'last_updated': '2025-06-07 23:37:14', 'last_avail_check': '2025-06-04 08:26:07', 'last_ratings': '2025-06-07 23:37:14', 'distance': 1252.004127678825}, {'airbnb_id': '963912745524872343', 'last_updated': '2024-08-19 15:20:50', 'last_avail_check': '2024-08-17 19:05:30', 'last_ratings': '2024-08-14 11:23:17', 'distance': 1300.7844185108327}, {'airbnb_id': '53845475', 'last_updated': '2025-06-08 01:09:25', 'last_avail_check': '2025-06-04 05:22:22', 'last_ratings': '2025-06-08 01:09:25', 'distance': 1310.3035732075775}, {'airbnb_id': '52808450', 'last_updated': '2025-06-08 01:10:39', 'last_avail_check': '2025-06-04 11:17:55', 'last_ratings': '2025-06-08 01:10:39', 'distance': 1357.0627535707486}, {'airbnb_id': '739454105743426562', 'last_updated': '2025-06-08 01:40:55', 'last_avail_check': '2025-06-04 17:48:53', 'last_ratings': '2025-06-08 01:40:55', 'distance': 1415.5756720387776}, {'airbnb_id': '831267740583857929', 'last_updated': '2025-06-08 01:35:34', 'last_avail_check': '2025-06-07 11:30:06', 'last_ratings': '2025-06-08 01:35:34', 'distance': 1430.7078412069852}, {'airbnb_id': '999983371573230526', 'last_updated': '2025-06-08 01:18:37', 'last_avail_check': '2025-06-07 11:52:55', 'last_ratings': '2025-06-08 01:18:37', 'distance': 1430.7078412069852}, {'airbnb_id': '802080638701074247', 'last_updated': '2025-06-08 01:18:31', 'last_avail_check': '2025-06-07 11:58:19', 'last_ratings': '"
+    },
+    "{'lat': 28.0852473, 'lng': -16.7349705, 'bedrooms': 2, 'maxguestcapacity': 4, 'offset': 0, 'range': 500}": {
+        "error": "",
+        "response": "{'requestId': '95cc9dc0-691c-4093-9402-68c6705841b3', 'results': [{'airbnb_id': '827413231591219750', 'last_updated': '2025-06-08 17:09:54', 'last_avail_check': '2025-06-05 04:35:31', 'last_ratings': '2025-06-08 17:09:54', 'distance': 160.38275011113657}, {'airbnb_id': '592705200177507893', 'last_updated': '2025-06-09 00:17:18', 'last_avail_check': '2025-06-06 14:42:05', 'last_ratings': '2025-06-09 00:17:18', 'distance': 187.95232608454768}, {'airbnb_id': '553296380536850124', 'last_updated': '2025-06-08 17:27:28', 'last_avail_check': '2025-06-08 01:29:14', 'last_ratings': '2025-06-08 17:27:28', 'distance': 194.21878682484464}, {'airbnb_id': '40700480', 'last_updated': '2025-06-08 21:56:39', 'last_avail_check': '2025-06-07 09:22:17', 'last_ratings': '2025-06-08 21:56:39', 'distance': 204.97319164174053}, {'airbnb_id': '47116180', 'last_updated': '2025-06-08 10:10:00', 'last_avail_check': '2025-06-04 21:02:48', 'last_ratings': '2025-06-08 10:10:00', 'distance': 255.51600332757533}, {'airbnb_id': '994922030131568491', 'last_updated': '2025-06-08 15:06:44', 'last_avail_check': '2025-06-04 17:18:14', 'last_ratings': '2025-06-08 15:06:44', 'distance': 265.85429650738047}, {'airbnb_id': '45314344', 'last_updated': '2025-06-09 02:11:28', 'last_avail_check': '2025-06-04 21:12:50', 'last_ratings': '2025-06-09 02:11:28', 'distance': 266.9684485467399}, {'airbnb_id': '1070289979868478602', 'last_updated': '2025-06-08 17:29:55', 'last_avail_check': '2025-06-04 18:07:33', 'last_ratings': "
+    },
+    "{'lat': 40.7128, 'lng': -74.006, 'bedrooms': 2, 'maxguestcapacity': 4, 'range': 1000, 'offset': 0}": {
+        "error": "",
+        "response": "{'requestId': '9bba870d-5cb9-4946-a701-507570c64190', 'results': [{'airbnb_id': '49274169', 'last_updated': '2025-06-11 22:09:29', 'last_avail_check': '2025-06-13 17:30:42', 'last_ratings': '2025-06-11 22:09:29', 'distance': 174.1378063733541}, {'airbnb_id': '1104924200309768587', 'last_updated': '2025-06-11 14:36:57', 'last_avail_check': '2025-06-11 16:33:58', 'last_ratings': '2025-06-11 14:36:57', 'distance': 227.2704676917041}, {'airbnb_id': '868071149469734702', 'last_updated': '2023-11-24 15:21:01', 'last_avail_check': '2023-11-21 13:07:03', 'last_ratings': None, 'distance': 332.3733594735338}, {'airbnb_id': '34169395', 'last_updated': '2025-06-11 14:48:45', 'last_avail_check': '2025-06-12 06:24:16', 'last_ratings': '2025-06-11 14:48:45', 'distance': 332.6382128984757}, {'airbnb_id': '31084737', 'last_updated': '2025-06-11 14:35:23', 'last_avail_check': '2025-06-14 12:27:54', 'last_ratings': '2025-06-11 14:35:23', 'distance': 332.6382128984757}, {'airbnb_id': '30394071', 'last_updated': '2025-06-11 14:27:45', 'last_avail_check': '2025-06-14 16:11:22', 'last_ratings': '2025-06-11 14:27:45', 'distance': 332.6382128984757}, {'airbnb_id': '866726967608392853', 'last_updated': '2025-06-13 06:18:15', 'last_avail_check': '2025-06-14 19:11:52', 'last_ratings': '2025-06-13 06:18:20', 'distance': 341.1255835428155}, {'airbnb_id': '934053688724269328', 'last_updated': '2025-06-11 14:57:03', 'last_avail_check': '2025-06-14 16:49:48', 'last_ratings': '2025-06-11 14:57:03', 'distance'"
+    },
+    "{'lat': 40.7128, 'lng': -74.006, 'bedrooms': 1, 'maxguestcapacity': 2, 'range': 500, 'offset': 0}": {
+        "error": "",
+        "response": "{'requestId': '87c0f725-330b-4a8a-ad30-bb3d6598c405', 'results': [{'airbnb_id': '980767574007808177', 'last_updated': '2025-06-11 14:10:38', 'last_avail_check': '2025-06-14 13:03:15', 'last_ratings': '2025-06-11 14:10:38', 'distance': 291.74985867100014}, {'airbnb_id': '30387263', 'last_updated': '2025-06-11 14:35:40', 'last_avail_check': '2025-06-12 10:15:18', 'last_ratings': '2025-06-11 14:35:40', 'distance': 328.38449467536054}, {'airbnb_id': '40721922', 'last_updated': '2025-06-11 15:01:34', 'last_avail_check': '2025-06-11 14:42:30', 'last_ratings': '2025-06-11 15:01:34', 'distance': 328.38449467536054}, {'airbnb_id': '858766169880558606', 'last_updated': '2025-06-11 14:30:33', 'last_avail_check': '2025-06-14 15:02:35', 'last_ratings': '2025-06-11 14:30:33', 'distance': 331.3067709526711}, {'airbnb_id': '30392930', 'last_updated': '2025-06-11 14:26:03', 'last_avail_check': '2025-06-11 12:54:22', 'last_ratings': '2025-06-11 14:26:03', 'distance': 332.6382128984757}, {'airbnb_id': '31726939', 'last_updated': '2025-06-11 14:32:04', 'last_avail_check': '2025-06-14 18:22:28', 'last_ratings': '2025-06-11 14:32:04', 'distance': 332.6382128984757}, {'airbnb_id': '851923089381776992', 'last_updated': '2025-06-11 14:28:30', 'last_avail_check': '2025-06-11 18:35:36', 'last_ratings': '2025-06-11 14:28:30', 'distance': 332.6382128984757}, {'airbnb_id': '14619860', 'last_updated': '2025-06-11 14:43:14', 'last_avail_check': '2025-06-14 16:29:31', 'last_ratings': '2025-06-11 14:43:14', '"
+    },
+    "{'lat': 40.712776, 'lng': -74.005974, 'range': 5000, 'bedrooms': 2, 'offset': 0}": {
+        "error": "",
+        "response": "{'requestId': '131e8984-33a1-4645-ab7b-cf2962230237', 'results': [{'airbnb_id': '842887553814281657', 'last_updated': '2023-12-20 08:24:49', 'last_avail_check': '2023-12-18 18:11:22', 'last_ratings': '2023-12-15 14:42:38', 'distance': 565.0718209779232}, {'airbnb_id': '21689998', 'last_updated': '2025-06-11 14:37:15', 'last_avail_check': '2025-06-14 14:47:59', 'last_ratings': '2025-06-11 14:37:15', 'distance': 684.6488033265077}, {'airbnb_id': '861711118861248957', 'last_updated': '2025-06-11 14:54:22', 'last_avail_check': '2025-06-11 16:09:27', 'last_ratings': '2025-06-11 14:54:22', 'distance': 686.0556310048815}, {'airbnb_id': '47219783', 'last_updated': '2025-06-11 15:05:35', 'last_avail_check': '2025-06-14 12:32:31', 'last_ratings': '2025-06-11 15:05:35', 'distance': 1030.6761569667256}, {'airbnb_id': '587740', 'last_updated': '2025-06-11 20:04:34', 'last_avail_check': '2025-06-13 18:24:17', 'last_ratings': '2025-06-11 20:04:34', 'distance': 1053.3936014791414}, {'airbnb_id': '43814549', 'last_updated': '2025-06-11 14:59:21', 'last_avail_check': '2025-06-11 17:55:28', 'last_ratings': '2025-06-11 14:59:46', 'distance': 1108.4102553797425}, {'airbnb_id': '11609108', 'last_updated': '2025-06-13 04:06:34', 'last_avail_check': '2025-06-13 04:36:28', 'last_ratings': '2025-06-13 04:06:34', 'distance': 1108.62801528227}, {'airbnb_id': '2100887', 'last_updated': '2025-06-12 10:06:00', 'last_avail_check': '2025-06-12 04:42:49', 'last_ratings': '2025-06-12 10:06:00', 'distance': 113"
+    }
+}

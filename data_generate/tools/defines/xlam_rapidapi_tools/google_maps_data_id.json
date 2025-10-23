@@ -1,0 +1,22 @@
+{
+    "name": "google_maps_data_id",
+    "description": "This is a sub-function API for tool google_search_2.\nTool description: Serpdog(https://serpdog.io) is a Google Search API that allows you to access Google Search Results in real time. It solves the problem of proxies and captchas for a smooth scraping journey. Serpdog supports results in both HTML and JSON format.\n\nGet your free trial by registering at https://api.serpdog.io\n\nIf you want to buy our plan, I recommend you to please visit https://serpdog.io/pricing for more information. \nAPI description: Fetches the JSON results of the data ID for a specific place using the Google Maps API via RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The query string used to search for the place.",
+                "default": "Statue Of Liberty"
+            },
+            "gl": {
+                "type": "string",
+                "description": "The geographical location from which to execute the query. Defaults to 'us'.",
+                "default": "us"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "town",
+    "description": "This is a sub-function API for tool mzansi_loadshedding_api.\nTool description: Get load sheding schedule for any area by simply searching  the town name. Very Easy to use.\nAPI description: Retrieves information about a specified town, such as province and block, using the Mzansi Loadshedding API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "town": {
+                "type": "string",
+                "description": "The name of the town for which information is being requested.",
+                "default": "kagiso"
+            }
+        },
+        "required": [
+            "town"
+        ]
+    }
+}

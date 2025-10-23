@@ -1,0 +1,18 @@
+{
+    "name": "echo",
+    "description": "This is a sub-function API for tool oauthecho.\nTool description: Illustrates \"Client Credentials\" OAuth 2.0 Grant Type. This grant type is used by clients to obtain an access token outside of the context of a user\nAPI description: Sends an echo request to the OAuth Echo API and returns the response.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "authorization": {
+                "type": "string",
+                "description": "The client's access token. Defaults to None."
+            },
+            "msg": {
+                "type": "string",
+                "description": "A message to be echoed by the API. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

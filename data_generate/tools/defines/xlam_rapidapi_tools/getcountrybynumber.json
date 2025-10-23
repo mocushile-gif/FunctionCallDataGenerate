@@ -1,0 +1,17 @@
+{
+    "name": "getcountrybynumber",
+    "description": "This is a sub-function API for tool telephonetocountry.\nTool description: Validate and get location information about phone number. Supports 245 countries\nAPI description: Retrieves country information based on a phone number using the Telephone to Country API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The phone number to search for the corresponding country information.",
+                "default": "12136210002"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

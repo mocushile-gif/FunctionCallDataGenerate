@@ -1,0 +1,17 @@
+{
+    "name": "artist_featuring",
+    "description": "This is a sub-function API for tool spotify_data.\nTool description: Spotify Data\nAPI description: Fetches the artist featuring information from the Spotify API using the given artist ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier for the artist.",
+                "default": "2w9zwq3AktTeYYMuhMjju8"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

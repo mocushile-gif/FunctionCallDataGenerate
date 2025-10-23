@@ -1,0 +1,17 @@
+{
+    "name": "esg",
+    "description": "This is a sub-function API for tool yahoo_finance.\nTool description: Access Yahoo Finance Realtime Stock Price |  Options | ESG | Trends | Statistics | Earnings | Balance Sheets | Analytics | Asset Profile and much more\nAPI description: Simply explained, an ESG score is a measure of a company's exposure to long-term environmental, social, and governance risks that are often overlooked during traditional financial analyses.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symb": {
+                "type": "string",
+                "description": "The stock symbol of the company for which the ESG score is requested.",
+                "default": "tsla"
+            }
+        },
+        "required": [
+            "symb"
+        ]
+    }
+}

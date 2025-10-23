@@ -1,0 +1,17 @@
+{
+    "name": "get_company_data_by_linkedin_url",
+    "description": "This is a sub-function API for tool fresh_linkedin_company_data.\nTool description: **Real-time** LinkedIn Company data based on Numeric ID, Domain or URL. **Really working now 2023**. Scalable API.\nAPI description: Given a company’s LinkedIn URL, the API will return valuable data points in JSON format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "linkedin_url": {
+                "type": "string",
+                "description": "The LinkedIn URL of the company to retrieve data for.",
+                "default": "https://www.linkedin.com/company/apple/"
+            }
+        },
+        "required": [
+            "linkedin_url"
+        ]
+    }
+}

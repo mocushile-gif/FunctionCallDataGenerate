@@ -1,0 +1,17 @@
+{
+    "name": "get_zip_info",
+    "description": "This is a sub-function API for tool us_zip_code_information.\nTool description: The fastest API to access ZIP Code Information like City, State, County, AreaCode, Latitude, Longitude etc for a given zip code\nAPI description: Retrieve information about a given ZIP code using the Toolbench API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zipcode": {
+                "type": "string",
+                "description": "The ZIP code for which the information is to be retrieved.",
+                "default": "30043"
+            }
+        },
+        "required": [
+            "zipcode"
+        ]
+    }
+}

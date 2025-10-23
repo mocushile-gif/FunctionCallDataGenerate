@@ -1,0 +1,23 @@
+{
+    "name": "type_parent_get_highest_rated_investments",
+    "description": "This is a sub-function API for tool ms_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc... to create a site/application such as morningstar.com\nAPI description: Retrieve the highest rated investments as displayed in the Parent tab.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of investment, one of the following values: 'etf' or 'fund'.",
+                "default": "etf"
+            },
+            "securityid": {
+                "type": "string",
+                "description": "The security ID for which to retrieve the highest rated investments.",
+                "default": "F00000O2CG"
+            }
+        },
+        "required": [
+            "type",
+            "securityid"
+        ]
+    }
+}

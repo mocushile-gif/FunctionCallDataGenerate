@@ -1,0 +1,27 @@
+{
+    "name": "search_for_channels",
+    "description": "This is a sub-function API for tool youtube_media_downloader.\nTool description: A scraper API for YouTube search and download. Get videos, subtitles, comments without age or region limits (proxy URL supported).\nAPI description: Searches for YouTube channels based on the provided keyword and other optional parameters. Supports pagination for retrieving multiple pages of results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "Keyword for the channel search. Default is 'Rick Astley'.",
+                "default": "Rick Astley"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language code (ISO-639) for localized results. Defaults to `en-US`. Unsupported code will **fallback** to `en-US`."
+            },
+            "sortby": {
+                "type": "string",
+                "description": "Criteria for sorting the results. Defaults to None."
+            },
+            "nexttoken": {
+                "type": "string",
+                "description": "A string for getting the next page of data. If not specified, the first page of data will be returned. If specified, `keyword` and `sortBy` will be ignored."
+            }
+        },
+        "required": []
+    }
+}

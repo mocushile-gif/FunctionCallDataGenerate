@@ -1,0 +1,19 @@
+{
+    "name": "get_file_info",
+    "description": "Retrieves metadata about a file, including its row count, column count, and a preview of its contents. Supports Excel, CSV, JSON, JSONL, TXT, PDF, and image (JPG, JPEG, PNG, GIF, BMP) formats.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "The full path of the file to retrieve information from."
+        },
+        "preview_rows": {
+          "type": "integer",
+          "description": "The number of rows to preview from the file content. Default is 5.",
+          "default": 5
+        }
+      },
+      "required": ["file_path"]
+    }
+}

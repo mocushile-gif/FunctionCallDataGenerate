@@ -1,0 +1,17 @@
+{
+    "name": "get_radio_playlist",
+    "description": "This is a sub-function API for tool spotify_data.\nTool description: Spotify Data\nAPI description: Fetches a radio playlist for a given artist or song using the Spotify API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "uri": {
+                "type": "string",
+                "description": "The URI of the artist or song for which to generate the radio playlist.",
+                "default": "spotify:artist:2w9zwq3AktTeYYMuhMjju8"
+            }
+        },
+        "required": [
+            "uri"
+        ]
+    }
+}

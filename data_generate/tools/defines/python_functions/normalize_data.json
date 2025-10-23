@@ -1,0 +1,19 @@
+{
+    "name": "normalize_data",
+    "description": "Normalizes a list of numbers to a 0-1 range. This function takes a list of numerical values and scales them so that the minimum value becomes 0 and the maximum value becomes 1, with all other values scaled proportionally between 0 and 1.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "data": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "A list of numerical values to be normalized."
+            }
+        },
+        "required": [
+            "data"
+        ]
+    }
+}

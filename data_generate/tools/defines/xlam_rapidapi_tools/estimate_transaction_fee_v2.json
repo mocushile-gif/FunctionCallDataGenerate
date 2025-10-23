@@ -1,0 +1,28 @@
+{
+    "name": "estimate_transaction_fee_v2",
+    "description": "This is a sub-function API for tool chain49.\nTool description: Kickstart your next crypto project - extended trezor/blockbook API with 10+ blockchains available instantly and 50+ possible on request running on the finest hardware in Germany's best datacenters at Hetzner\n\nWebsocket only via api.chain49.com endpoint possible (RapidAPI does not support it yet)\nAPI description: Returns an estimated transaction fee for a specific confirmation target.\nIf you want your transaction to be included in the next block, then you give 1 as parameter. If it is not urgent, then you can wait a bit longer and get an estimation for the fifth next block.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "confirmationtarget": {
+                "type": "number",
+                "description": "Number of blocks within which the transaction should be confirmed.",
+                "default": 1
+            },
+            "blockchain": {
+                "type": "string",
+                "description": "Name of the blockchain for which the transaction fee is being estimated.",
+                "default": "bitcoin"
+            },
+            "conservative": {
+                "type": "boolean",
+                "description": "Sets fee estimation mode for Bitcoin-like coins. If set to false, fee estimate mode is ECONOMICAL, true means CONSERVATIVE mode which is the default. Has no effect on Ethereum-like coins More info: https://bitcoincore.org/en/doc/24.0.0/rpc/util/estimatesmartfee/",
+                "default": true
+            }
+        },
+        "required": [
+            "confirmationtarget",
+            "blockchain"
+        ]
+    }
+}

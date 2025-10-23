@@ -1,0 +1,42 @@
+{
+    "name": "states_search",
+    "description": "This is a sub-function API for tool city_and_state_search_api.\nTool description: A easy-to-use API for search cities, states, and countries from around the world.\nAPI description: This endpoint allows you to search for specific states by name. It returns a list of states that match the specified search query. You can also set country code or country name to search states in that country only.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search query string representing the name of the state to search for.",
+                "default": "ut"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of state results to return. Defaults to '50'.",
+                "default": "50"
+            },
+            "sortorder": {
+                "type": "string",
+                "description": "The order in which to sort results (e.g., 'asc' or 'desc'). Defaults to None."
+            },
+            "sortby": {
+                "type": "string",
+                "description": "The field by which to sort results. Defaults to None."
+            },
+            "country_id": {
+                "type": "string",
+                "description": "The ID of the country to filter results by. Defaults to None."
+            },
+            "country_code": {
+                "type": "string",
+                "description": "The code of the country to filter results by. Defaults to None."
+            },
+            "country_name": {
+                "type": "string",
+                "description": "The name of the country to filter results by. Defaults to None."
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

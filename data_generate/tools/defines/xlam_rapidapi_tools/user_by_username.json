@@ -1,0 +1,16 @@
+{
+    "name": "user_by_username",
+    "description": "This is a sub-function API for tool instagram_api.\nTool description: Get any information from Instagram.\nAPI description: Fetches user data from Instagram using a given username via the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username for which to fetch user data."
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

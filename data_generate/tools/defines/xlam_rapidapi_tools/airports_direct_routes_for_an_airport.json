@@ -1,0 +1,16 @@
+{
+    "name": "airports_direct_routes_for_an_airport",
+    "description": "This is a sub-function API for tool timetable_lookup.\nTool description: Access Worldwide Flight Schedules with connection building.\nAPI description: Returns a list of direct routes for a given airport using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "airportiatacode": {
+                "type": "string",
+                "description": "The IATA code of the airport for which the direct routes are being queried."
+            }
+        },
+        "required": [
+            "airportiatacode"
+        ]
+    }
+}

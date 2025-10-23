@@ -1,0 +1,29 @@
+{
+    "name": "business_phone_search",
+    "description": "This is a sub-function API for tool data_axle_business_phone_search.\nTool description: Find relevant businesses by phone number.\nAPI description: Search for relevant businesses in the Data Axle database based on the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of results to return.",
+                "default": "20"
+            },
+            "query": {
+                "type": "string",
+                "description": "The search query for finding businesses.",
+                "default": "4162287300"
+            },
+            "packages": {
+                "type": "string",
+                "description": "The specific data packages to include in the search.",
+                "default": "standard_v1"
+            }
+        },
+        "required": [
+            "limit",
+            "query",
+            "packages"
+        ]
+    }
+}

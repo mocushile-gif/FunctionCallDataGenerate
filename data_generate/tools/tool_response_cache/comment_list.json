@@ -1,0 +1,25 @@
+{
+    "{'aweme_id': 7178094165614464, 'cursor': 0, 'count': 20}": {
+        "error": "",
+        "response": {
+            "comments": [
+                {
+                    "user_id": "123456789",
+                    "username": "user1",
+                    "text": "Great video!",
+                    "timestamp": "2023-09-20T15:30:00Z",
+                    "like_count": 45
+                },
+                {
+                    "user_id": "987654321",
+                    "username": "user2",
+                    "text": "Love this content!",
+                    "timestamp": "2023-09-20T15:35:00Z",
+                    "like_count": 28
+                }
+            ],
+            "next_cursor": 20,
+            "has_more": true
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "series_get_points_table",
+    "description": "This is a sub-function API for tool cricbuzz_cricket.\nTool description: This API helps to query for live cricket scores, commentary, latest cricket news and editorials, schedules of upcoming matches, rankings, stats, records, etc\nAPI description: Fetch the points table for a given series using the Cricbuzz API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "seriesid": {
+                "type": "number",
+                "description": "The unique identifier of the cricket series for which the points table is to be fetched.",
+                "default": 3718.0
+            }
+        },
+        "required": [
+            "seriesid"
+        ]
+    }
+}

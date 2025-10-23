@@ -1,0 +1,55 @@
+{
+    "name": "list_all_categories",
+    "description": "This is a sub-function API for tool lemurbot.\nTool description: Meet Lemurbot - Your Personal AI Chatbot Companion! With advanced features like creating, training and chatting, Lemurbot makes it easy and fun for users to interact and learn from an intelligent conversationalist. Plus, with ChatGPT integration and the ability to create multiple bots, the possibilities for learning and entertainment are endless!\nAPI description: Categories are pieces of knowledge used by the bots to respond to the user.\nCreate and update categories inorder to teach and train your bot.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The number of records to return. Defaults to 20.",
+                "default": 20
+            },
+            "category_group_id": {
+                "type": "number",
+                "description": "The ID of the category group."
+            },
+            "dir": {
+                "type": "string",
+                "description": "The direction of the ordering. Defaults to 'asc'.",
+                "default": "asc"
+            },
+            "topic": {
+                "type": "string",
+                "description": "The active topic of the conversation - this search is a full term search"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of results to start from. Defaults to 1.",
+                "default": 1
+            },
+            "order": {
+                "type": "string",
+                "description": "the search field you wish to order by - the available field names are the sames ones you can search by",
+                "default": "id"
+            },
+            "that": {
+                "type": "string",
+                "description": "The that is the previous bot output/response to match on - this search is a partial search"
+            },
+            "template": {
+                "type": "string",
+                "description": "The template is the raw output that is parsed and used to generate a response - this search is a partial search"
+            },
+            "pattern": {
+                "type": "string",
+                "description": "The pattern is the user input to match on - this search is a partial search",
+                "default": "test"
+            },
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the category."
+            }
+        },
+        "required": []
+    }
+}

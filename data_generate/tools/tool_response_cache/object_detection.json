@@ -1,0 +1,115 @@
+{
+    "{'url': 'https://musicplatform-assets.com/album-covers/retro-neon-synthwave-abstract-geometric-patterns.jpg'}": {
+        "error": "",
+        "response": [
+            {
+                "boundingBox": {
+                    "vertices": [
+                        {
+                            "x": 50,
+                            "y": 30
+                        },
+                        {
+                            "x": 450,
+                            "y": 30
+                        },
+                        {
+                            "x": 450,
+                            "y": 400
+                        },
+                        {
+                            "x": 50,
+                            "y": 400
+                        }
+                    ]
+                },
+                "label": "abstract geometric patterns",
+                "confidenceScore": 0.92
+            },
+            {
+                "boundingBox": {
+                    "vertices": [
+                        {
+                            "x": 10,
+                            "y": 10
+                        },
+                        {
+                            "x": 180,
+                            "y": 10
+                        },
+                        {
+                            "x": 180,
+                            "y": 150
+                        },
+                        {
+                            "x": 10,
+                            "y": 150
+                        }
+                    ]
+                },
+                "label": "neon lighting effects",
+                "confidenceScore": 0.88
+            },
+            {
+                "boundingBox": {
+                    "vertices": [
+                        {
+                            "x": 220,
+                            "y": 50
+                        },
+                        {
+                            "x": 500,
+                            "y": 50
+                        },
+                        {
+                            "x": 500,
+                            "y": 350
+                        },
+                        {
+                            "x": 220,
+                            "y": 350
+                        }
+                    ]
+                },
+                "label": "synthwave aesthetic elements",
+                "confidenceScore": 0.85
+            }
+        ]
+    },
+    "{'url': 'https://s3.amazonaws.com/rainforest-reserve-camera-traps/sector-7/2023-10-15_08-32-17.jpg'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '41cca4c5-96d6-466a-b309-b9867ca5a013', 'parameters': {'url': 'https://real-time-lens-data.p.rapidapi.com/object-detection', 'language': 'en', 'country': 'us'}, 'data': {'detected_object': [], 'detected_object_count': 0, 'main_detected_object': {'box': {}, 'detections': [{'type': 'UNKNOWN'}]}}}"
+    },
+    "{'url': 'https://example.com/gadget.jpg'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '37b54358-8aa2-41c3-b479-572779ad75a6', 'parameters': {'url': 'https://real-time-lens-data.p.rapidapi.com/object-detection', 'language': 'en', 'country': 'us'}, 'data': {'detected_object': [], 'detected_object_count': 0, 'main_detected_object': {'box': {}, 'detections': [{'type': 'UNKNOWN'}]}}}"
+    },
+    "{'url': 'https://example.com/suv.jpg'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'c6d8bfc0-b7bd-46b1-a5d3-2cd4b366799d', 'parameters': {'url': 'https://real-time-lens-data.p.rapidapi.com/object-detection', 'language': 'en', 'country': 'us'}, 'data': {'detected_object': [], 'detected_object_count': 0, 'main_detected_object': {'box': {}, 'detections': [{'type': 'UNKNOWN'}]}}}"
+    },
+    "{'url': 'https://example.com/website-design-mockup.jpg'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '6320ae1a-82dc-4b44-967d-bc9432fe0f32', 'parameters': {'url': 'https://real-time-lens-data.p.rapidapi.com/object-detection', 'language': 'en', 'country': 'us'}, 'data': {'detected_object': [], 'detected_object_count': 0, 'main_detected_object': {'box': {}, 'detections': [{'type': 'UNKNOWN'}]}}}"
+    },
+    "{'url': 'https://example.com/mockup-design.jpg'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'b80acb79-2434-4fe7-a6c0-160621c0719b', 'parameters': {'url': 'https://real-time-lens-data.p.rapidapi.com/object-detection', 'language': 'en', 'country': 'us'}, 'data': {'detected_object': [], 'detected_object_count': 0, 'main_detected_object': {'box': {}, 'detections': [{'type': 'UNKNOWN'}]}}}"
+    },
+    "{'url': 'https://thumbs.dreamstime.com/b/giraffe-zebra-1533191.jpg'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '0ee09ca5-b4bb-4c72-b398-04a45a55333a', 'parameters': {'url': 'https://real-time-lens-data.p.rapidapi.com/object-detection', 'language': 'en', 'country': 'us'}, 'data': {}}"
+    },
+    "{'url': 'https://i.imgur.com/k3j9q2x.jpg'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'c453d815-bf9c-4e16-8226-904ac60104d4', 'parameters': {'url': 'https://real-time-lens-data.p.rapidapi.com/object-detection', 'language': 'en', 'country': 'us'}, 'data': {'detected_object': [], 'detected_object_count': 0, 'main_detected_object': {'box': {}, 'detections': [{'type': 'UNKNOWN'}]}}}"
+    },
+    "{'url': 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'c7274a22-3dfd-403e-87cf-eeef355db299', 'parameters': {'url': 'https://real-time-lens-data.p.rapidapi.com/object-detection', 'language': 'en', 'country': 'us'}, 'data': {'detected_object': [], 'detected_object_count': 0, 'main_detected_object': {'box': {}, 'detections': [{'type': 'UNKNOWN'}]}}}"
+    },
+    "{'url': 'https://i.imgur.com/7XkY9aB.jpg'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '46c61bba-5234-4149-9f3e-613fd60ba047', 'parameters': {'url': 'https://real-time-lens-data.p.rapidapi.com/object-detection', 'language': 'en', 'country': 'us'}, 'data': {'detected_object': [], 'detected_object_count': 0, 'main_detected_object': {'box': {}, 'detections': [{'type': 'UNKNOWN'}]}}}"
+    }
+}

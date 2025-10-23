@@ -1,0 +1,33 @@
+{
+    "name": "get_states",
+    "description": "This is a sub-function API for tool world_country.\nTool description: More than 200+ countries, 5K states and 150K cities with various information.\nAPI description: Fetches a list of states based on various search parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "A keyword to search for states. Defaults to 'asia'.",
+                "default": "asia"
+            },
+            "perpage": {
+                "type": "number",
+                "description": "The number of results to return per page. Defaults to 50.",
+                "default": 50.0
+            },
+            "city_id": {
+                "type": "string",
+                "description": "A city ID to find associated states. Defaults to None."
+            },
+            "is_id": {
+                "type": "string",
+                "description": "A specific state ID to search for. Defaults to None."
+            },
+            "page": {
+                "type": "number",
+                "description": "The number of results to return per page. Defaults to 50.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

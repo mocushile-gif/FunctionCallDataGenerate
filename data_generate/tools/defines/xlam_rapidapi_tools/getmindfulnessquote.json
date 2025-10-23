@@ -1,0 +1,18 @@
+{
+    "name": "getmindfulnessquote",
+    "description": "This is a sub-function API for tool metaapi_mindfulness_quotes.\nTool description: Get a random quote about mindfulness from a list of 100 quotes.\nAPI description: Fetches a random mindfulness quote, optionally filtered by author or category.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "author": {
+                "type": "string",
+                "description": "The author of the quote. Defaults to None."
+            },
+            "category": {
+                "type": "string",
+                "description": "The category of the quote. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

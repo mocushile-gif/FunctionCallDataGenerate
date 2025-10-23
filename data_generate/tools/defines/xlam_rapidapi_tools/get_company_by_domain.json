@@ -1,0 +1,17 @@
+{
+    "name": "get_company_by_domain",
+    "description": "This is a sub-function API for tool fresh_linkedin_profile_data.\nTool description: Reliable API for all LinkedIn Scraping Needs: profiles, companies, activities/posts, and job posts. This API scrapes data directly from LinkedIn upon request so that you'll get real-time data. Say goodbye to stale data!\n\nWe're active and responsive on this platform, please don't hesitate to drop a message in the Discussions or PM channels.\nAPI description: Find a company on LinkedIn using its web domain. **1 credit per call.**",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The web domain of the company to look up.",
+                "default": "apple.com"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

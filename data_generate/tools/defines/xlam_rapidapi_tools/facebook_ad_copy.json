@@ -1,0 +1,23 @@
+{
+    "name": "facebook_ad_copy",
+    "description": "This is a sub-function API for tool facebook_ad.\nTool description: Generate Facebook Ad using AI\nAPI description: Generates a Facebook ad copy using AI based on the provided description and name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "description": {
+                "type": "string",
+                "description": "The description to be used for generating the ad copy.",
+                "default": "Apple designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories, and sells a variety of related services."
+            },
+            "name": {
+                "type": "string",
+                "description": "The name to be used for generating the ad copy.",
+                "default": "Apple"
+            }
+        },
+        "required": [
+            "description",
+            "name"
+        ]
+    }
+}

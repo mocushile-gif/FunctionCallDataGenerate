@@ -1,0 +1,35 @@
+{
+    "{'propertycode': 19899037, 'country': 'es', 'language': 'en'}": {
+        "error": "",
+        "response": {
+            "propertyCode": 19899037,
+            "country": "es",
+            "title": "Modern Apartment in Madrid City Center",
+            "price": 1850,
+            "currency": "EUR",
+            "pricePerSquareMeter": 4200,
+            "size": 85,
+            "rooms": 3,
+            "bathrooms": 2,
+            "features": [
+                "elevator",
+                "parking",
+                "balcony"
+            ],
+            "location": {
+                "city": "Madrid",
+                "neighborhood": "Salamanca",
+                "latitude": 40.4168,
+                "longitude": -3.7038
+            },
+            "propertyType": "apartment",
+            "purpose": "rent",
+            "isNew": false,
+            "description": "Spacious 3-bedroom apartment with modern amenities, located in a prime area near shopping and transport links."
+        }
+    },
+    "{'country': 'it', 'language': 'en', 'propertycode': 32415270}": {
+        "error": "",
+        "response": "{'adid': 32415270, 'price': 670.0, 'priceInfo': {'amount': 670.0, 'currencySuffix': '\u20ac/month'}, 'operation': 'rent', 'propertyType': 'homes', 'extendedPropertyType': 'flat', 'homeType': 'flat', 'state': 'active', 'multimedia': {'images': [{'url': 'https://img4.idealista.it/blur/WEB_DETAIL-XL-L/0/id.pro.it.image.master/d6/b3/52/683694612.webp', 'tag': 'livingRoom', 'localizedName': 'Living room', 'multimediaId': 683694612, 'deeplinkUrl': 'https://www.idealista.it/en/immobile/32415270/foto/1/?utm_medium=socialmedia&utm_campaign=private_sendadpicturetofriend&utm_source=notifications', 'madeByIdealista': False, 'width': 1125, 'height': 1500}, {'url': 'https://img4.idealista.it/blur/WEB_DETAIL-XL-L/0/id.pro.it.image.master/87/cb/a9/683694633.webp', 'tag': 'unknown', 'localizedName': 'Unknown', 'multimediaId': 683694633, 'deeplinkUrl': 'https://www.idealista.it/en/immobile/32415270/foto/2/?utm_medium=socialmedia&utm_campaign=private_sendadpicturetofriend&utm_source=notifications', 'madeByIdealista': False, 'width': 1125, 'height': 1500}, {'url': 'https://img4.idealista.it/blur/WEB_DETAIL-XL-L/0/id.pro.it.image.master/dc/26/7d/683694623.webp', 'tag': 'bedroom', 'localizedName': 'Room', 'multimediaId': 683694623, 'deeplinkUrl': 'https://www.idealista.it/en/immobile/32415270/foto/3/?utm_medium=socialmedia&utm_campaign=private_sendadpicturetofriend&utm_source=notifications', 'madeByIdealista': False, 'width': 1125, 'height': 1500}, {'url': 'https://img4.idealista.it/blur/WEB_DETAIL-XL-"
+    }
+}

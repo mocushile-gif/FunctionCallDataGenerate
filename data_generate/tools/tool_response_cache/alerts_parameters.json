@@ -1,0 +1,42 @@
+{
+    "{'start': '2025-04-11T12:00:00+00:00', 'end': '2025-04-11T23:59:59+00:00', 'zone_type': 'land', 'active': '1'}": {
+        "error": "",
+        "response": "The API query is set to retrieve active weather alerts for land zones between 2025-04-11T12:00:00+00:00 and 2025-04-11T23:59:59+00:00. This will include alerts such as severe weather warnings, flood advisories, or other significant events affecting land areas during the specified time frame. The 'active' parameter ensures that only currently active alerts are included in the results, providing real-time and actionable information for the specified period."
+    },
+    "{'urgency': 'immediate', 'severity': 'severe', 'active': '1', 'limit': '10'}": {
+        "error": "",
+        "response": "{'@context': ['https://geojson.org/geojson-ld/geojson-context.jsonld', {'@version': '1.1', 'wx': 'https://api.weather.gov/ontology#', '@vocab': 'https://api.weather.gov/ontology#'}], 'type': 'FeatureCollection', 'features': [{'id': 'https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5f988b274d8256b8041d09ce5ae3181449c40ae3.001.1', 'type': 'Feature', 'geometry': {'type': 'Polygon', 'coordinates': [[[-82.63, 24.37], [-82.88, 24.3299999], [-82.94, 24.54], [-82.63, 24.59], [-82.63, 24.37]]]}, 'properties': {'@id': 'https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5f988b274d8256b8041d09ce5ae3181449c40ae3.001.1', '@type': 'wx:Alert', 'id': 'urn:oid:2.49.0.1.840.0.5f988b274d8256b8041d09ce5ae3181449c40ae3.001.1', 'areaDesc': 'Gulf of America including Dry Tortugas and Rebecca Shoal Channel; Straits of Florida from Halfmoon Shoal to 20 NM west of Dry Tortugas out 20 NM', 'geocode': {'SAME': ['077034', '077055'], 'UGC': ['GMZ034', 'GMZ055']}, 'affectedZones': ['https://api.weather.gov/zones/forecast/GMZ034', 'https://api.weather.gov/zones/forecast/GMZ055'], 'references': [], 'sent': '2025-06-02T03:29:00-04:00', 'effective': '2025-06-02T03:29:00-04:00', 'onset': '2025-06-02T03:29:00-04:00', 'expires': '2025-06-02T04:00:00-04:00', 'ends': '2025-06-02T04:00:00-04:00', 'status': 'Actual', 'messageType': 'Alert', 'category': 'Met', 'severity': 'Severe', 'certainty': 'Likely', 'urgency': 'Immediate', 'event': 'Special Marine Warning', 'sender': 'w-nws.webmaster@noaa.gov', 'senderName"
+    },
+    "{'point': '26.7500,-81.9463', 'active': '1'}": {
+        "error": "",
+        "response": "{'@context': {'@version': '1.1'}, 'type': 'FeatureCollection', 'features': [], 'title': 'Current watches, warnings, and advisories for 26.75 N, 81.9463 W', 'updated': '2025-06-02T16:30:00+00:00'}"
+    },
+    "{'point': '27.9566,-82.4610', 'zone_type': 'marine', 'active': '1'}": {
+        "error": "",
+        "response": "{'correlationId': '29218ed6', 'parameterErrors': [{'parameter': 'query.zone_type', 'message': 'Query parameter \"zone_type\" is not recognized'}], 'title': 'Bad Request', 'type': 'https://api.weather.gov/problems/BadRequest', 'status': 400, 'detail': 'Bad Request', 'instance': 'https://api.weather.gov/requests/29218ed6'}"
+    },
+    "{'point': '27.9566,-82.4610', 'active': '1'}": {
+        "error": "",
+        "response": "{'@context': {'@version': '1.1'}, 'type': 'FeatureCollection', 'features': [], 'title': 'Current watches, warnings, and advisories for 27.9566 N, 82.461 W', 'updated': '2025-06-02T15:30:00+00:00'}"
+    },
+    "{'active': '1', 'severity': 'severe', 'urgency': 'immediate'}": {
+        "error": "",
+        "response": "{'@context': ['https://geojson.org/geojson-ld/geojson-context.jsonld', {'@version': '1.1', 'wx': 'https://api.weather.gov/ontology#', '@vocab': 'https://api.weather.gov/ontology#'}], 'type': 'FeatureCollection', 'features': [{'id': 'https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a127d81b1b71ad9de5588dc49d8d7859f3fe1d4c.001.1', 'type': 'Feature', 'geometry': {'type': 'Polygon', 'coordinates': [[[-98.16, 40.4099999], [-98.52, 40.39], [-98.72, 40.94], [-98.72, 41.05], [-98.75, 41.05], [-98.74, 41.349999999999994], [-98.28999999999999, 41.50999999999999], [-98.28999999999999, 41.47999989999999], [-98.1, 41.47999989999999], [-98.03999999999999, 41.499999999999986], [-98.03999999999999, 41.509999999999984], [-97.88999999999999, 41.509999999999984], [-97.87999999999998, 41.51999999999998], [-97.73999999999998, 41.52999999999998], [-97.70999989999999, 41.52999999999998], [-97.69999999999999, 41.39999999999998], [-97.6, 41.38999999999998], [-97.6, 41.32999999999998], [-97.36999999999999, 41.38999999999998], [-97.38, 40.64999999999998], [-98.16, 40.4099999]]]}, 'properties': {'@id': 'https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a127d81b1b71ad9de5588dc49d8d7859f3fe1d4c.001.1', '@type': 'wx:Alert', 'id': 'urn:oid:2.49.0.1.840.0.a127d81b1b71ad9de5588dc49d8d7859f3fe1d4c.001.1', 'areaDesc': 'Adams, NE; Clay, NE; Fillmore, NE; Greeley, NE; Hall, NE; Hamilton, NE; Howard, NE; Merrick, NE; Nance, NE; Polk, NE; York, NE', 'geocode': {'SAME': ['031001', '031035', '031059', '03107"
+    },
+    "{'active': '1', 'severity': 'severe', 'state': 'FL'}": {
+        "error": "",
+        "response": "{'correlationId': 'ee61beb', 'parameterErrors': [{'parameter': 'query.state', 'message': 'Query parameter \"state\" is not recognized'}], 'title': 'Bad Request', 'type': 'https://api.weather.gov/problems/BadRequest', 'status': 400, 'detail': 'Bad Request', 'instance': 'https://api.weather.gov/requests/ee61beb'}"
+    },
+    "{'active': '1', 'severity': 'severe', 'region': 'FL'}": {
+        "error": "",
+        "response": "{'correlationId': 'ee6268f', 'parameterErrors': [{'parameter': 'query.region[0]', 'message': 'Does not have a value in the enumeration [\"AL\",\"AT\",\"GL\",\"GM\",\"PA\",\"PI\"]'}], 'title': 'Bad Request', 'type': 'https://api.weather.gov/problems/BadRequest', 'status': 400, 'detail': 'Bad Request', 'instance': 'https://api.weather.gov/requests/ee6268f'}"
+    },
+    "{'point': '30.2672,-97.7431', 'active': '1'}": {
+        "error": "",
+        "response": "{'@context': {'@version': '1.1'}, 'type': 'FeatureCollection', 'features': [], 'title': 'Current watches, warnings, and advisories for 30.2672 N, 97.7431 W', 'updated': '2025-06-03T00:00:00+00:00'}"
+    },
+    "{'active': '1', 'severity': 'severe', 'point': '10.3167,-85.8521'}": {
+        "error": "",
+        "response": "{'@context': {'@version': '1.1'}, 'type': 'FeatureCollection', 'features': [], 'title': 'Current watches, warnings, and advisories for 10.3167 N, 85.8521 W', 'updated': '2025-06-08T00:00:00+00:00'}"
+    }
+}

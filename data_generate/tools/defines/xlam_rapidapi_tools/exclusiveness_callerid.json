@@ -1,0 +1,16 @@
+{
+    "name": "exclusiveness_callerid",
+    "description": "This is a sub-function API for tool most_exclusive_api.\nTool description: Be exclusive ! Only one requester at a time gets access to exclusive content. Exclusiveness is passed on 5 min after it was assigned. The caller that is first to request the api after the previous exclusiveness expired gets exclusive access to the API.\nAPI description: This function checks the exclusiveness status associated with the given `callerid` by making a request to the \"most-exclusive-api\" on RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "callerid": {
+                "type": "string",
+                "description": "A unique string identifying the requester. It should be alphanumeric with allowed characters [a-zA-Z0-9_-] and have a maximum length of 32 characters."
+            }
+        },
+        "required": [
+            "callerid"
+        ]
+    }
+}

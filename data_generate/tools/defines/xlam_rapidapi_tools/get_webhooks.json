@@ -1,0 +1,16 @@
+{
+    "name": "get_webhooks",
+    "description": "This is a sub-function API for tool sms77io.\nTool description: Send SMS & text-to-speech messages, perform phone number lookups and much more via seven.io.\nAPI description: Retrieves all existing webhooks using the provided API key and optional RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "p": {
+                "type": "string",
+                "description": "API key from [Sms77.io](https://www.sms77.io)."
+            }
+        },
+        "required": [
+            "p"
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "post_search",
+    "description": "This is a sub-function API for tool socialgrep.\nTool description: Search Reddit comments and posts in near real time and view archive data from 2010 to present day\nAPI description: Searches Reddit posts using given search query parameters via the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The comma-separated query for the search. Supports the following term types:\n\n`site:{site_name}` - search only posts where the domain matches {site_name}.\n\n`-site:{site_name}` - search only posts where the domain does not match {site_name}.\n\n`/r/{subreddit}` - search only posts from the subreddit {subreddit}.\n\n`-/r/{subreddit}` - search only posts not from the subreddit {subreddit}.\n\n`{term}` - search only posts with titles containing the term {term}.\n\n`-{term}` - search only posts with titles not containin",
+                "default": "/r/funny,cat"
+            },
+            "after": {
+                "type": "number",
+                "description": "The previous result's `sort_key` value. Used for pagination."
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

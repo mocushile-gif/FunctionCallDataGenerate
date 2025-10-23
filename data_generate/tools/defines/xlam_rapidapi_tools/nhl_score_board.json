@@ -1,0 +1,34 @@
+{
+    "name": "nhl_score_board",
+    "description": "This is a sub-function API for tool nhl_api.\nTool description: This API provides instant access to the latest data for all operations and players in the NHL. It features scores, odds, bookmakers' stats, standings, and historical data.\nAPI description: This API endpoint will get the NHL scoreboard data for a specified date if available.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "day": {
+                "type": "string",
+                "description": "The day of the desired scoreboard data.",
+                "default": "11"
+            },
+            "year": {
+                "type": "string",
+                "description": "The year of the desired scoreboard data.",
+                "default": "2022"
+            },
+            "month": {
+                "type": "string",
+                "description": "The month of the desired scoreboard data.",
+                "default": "05"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of results to return. Defaults to '5'.",
+                "default": "5"
+            }
+        },
+        "required": [
+            "day",
+            "year",
+            "month"
+        ]
+    }
+}

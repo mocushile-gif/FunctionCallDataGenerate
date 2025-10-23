@@ -1,0 +1,33 @@
+{
+    "{'newspaperid': 'gmrb'}": {
+        "error": "",
+        "response": [
+            {
+                "title": "China Unveils New AI Research Initiative",
+                "summary": "Guangming Daily reports on the launch of a national AI laboratory focusing on ethical AI development and industrial applications.",
+                "url": "https://example.com/gmrb-ai-lab",
+                "date": "2023-10-05"
+            },
+            {
+                "title": "Sustainable Energy Push in Coastal Regions",
+                "summary": "Authorities announce plans to expand offshore wind farms along China's eastern coast to meet 2030 carbon reduction targets.",
+                "url": "https://example.com/gmrb-wind-energy",
+                "date": "2023-10-04"
+            },
+            {
+                "title": "Cultural Exchange Festival in Beijing",
+                "summary": "A week-long event showcasing traditional arts from 15 provinces opens, emphasizing cultural preservation and international tourism.",
+                "url": "https://example.com/gmrb-festival",
+                "date": "2023-10-03"
+            }
+        ]
+    },
+    "{'newspaperid': '1'}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Internal Server Error</pre>\n</body>\n</html>\n"
+    },
+    "{'newspaperid': '2'}": {
+        "error": "",
+        "response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Internal Server Error</pre>\n</body>\n</html>\n"
+    }
+}

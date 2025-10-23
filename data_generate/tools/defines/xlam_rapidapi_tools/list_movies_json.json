@@ -1,0 +1,46 @@
+{
+    "name": "list_movies_json",
+    "description": "This is a sub-function API for tool yts_am_torrent.\nTool description: This is a lightweight web service, (REST interface), which provides an easy way to access the YTS website.  An API (Application programming interface) is a protocol intended to be used as an interface by software components to communicate with each other.  Our API supports many methods, so there should not be a problem coding some nice applications. \nAPI description: Lists and searches through all available movies with various filters and sorting options. The function can return results with Rotten Tomatoes ratings and allows filtering by multiple criteria such as IMDb rating, genre, and quality, among others.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "with_rt_ratings": {
+                "type": "boolean",
+                "description": "If True, includes Rotten Tomatoes ratings in the results."
+            },
+            "minimum_rating": {
+                "type": "number",
+                "description": "\tInteger between 0 - 9 (inclusive): \tUsed to filter movie by a given minimum IMDb rating"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Integer between 1 - 50 (inclusive): The limit of results per page that has been set"
+            },
+            "page": {
+                "type": "number",
+                "description": "An unsigned integer to see the next page of movies. For example, limit=15 and page=2 will show movies 15-30."
+            },
+            "query_term": {
+                "type": "string",
+                "description": "Used for movie search, matching on: Movie Title/IMDb Code, Actor Name/IMDb Code, Director Name/IMDb Code"
+            },
+            "order_by": {
+                "type": "string",
+                "description": "A string ('desc' or 'asc') to order the results by either descending or ascending order."
+            },
+            "genre": {
+                "type": "string",
+                "description": "A string to filter movies by a given genre (see http://www.imdb.com/genre/ for the full list)."
+            },
+            "quality": {
+                "type": "string",
+                "description": "A string ('720p', '1080p', '3D') to filter movies by a given quality."
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "A string ('title', 'year', 'rating', 'peers', 'seeds', 'download_count', 'like_count', 'date_added') to sort the results by the chosen value."
+            }
+        },
+        "required": []
+    }
+}

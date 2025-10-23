@@ -1,0 +1,40 @@
+{
+    "{'muscle': 'leg'}": {
+        "error": "",
+        "response": [
+            {
+                "name": "Barbell Squat",
+                "category": "Lower Body",
+                "target_muscles": [
+                    "Quadriceps",
+                    "Glutes",
+                    "Hamstrings"
+                ],
+                "instructions": "1. Stand with feet shoulder-width apart, holding the barbell on your upper back. 2. Lower hips back and down, keeping chest up. 3. Push through heels to return to standing. Repeat for 3-4 sets of 8-12 reps.",
+                "video": "https://musclewiki.example.com/videos/squat.mp4"
+            },
+            {
+                "name": "Lunges",
+                "category": "Lower Body",
+                "target_muscles": [
+                    "Quadriceps",
+                    "Hamstrings",
+                    "Glutes"
+                ],
+                "instructions": "1. Stand tall, step forward with one leg, lowering hips until both knees are at 90-degree angles. 2. Push through the front heel to return. Alternate legs or keep same leg for reps. Aim for 3 sets of 10-15 per leg.",
+                "video": "https://musclewiki.example.com/videos/lunges.mp4"
+            },
+            {
+                "name": "Leg Press Machine",
+                "category": "Strength Training",
+                "target_muscles": [
+                    "Quadriceps",
+                    "Calves",
+                    "Glutes"
+                ],
+                "instructions": "1. Sit on the machine, place feet shoulder-width on the platform. 2. Push the platform away using legs, extending knees fully. 3. Slowly return to starting position. Perform 4 sets of 10-12 reps.",
+                "video": "https://musclewiki.example.com/videos/leg-press.mp4"
+            }
+        ]
+    }
+}

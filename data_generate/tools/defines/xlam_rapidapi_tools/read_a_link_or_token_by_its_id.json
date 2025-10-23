@@ -1,0 +1,22 @@
+{
+    "name": "read_a_link_or_token_by_its_id",
+    "description": "This is a sub-function API for tool token2go.\nTool description: It is a  RESTful API intended to generate unique and verifiable tokens (cryptographic id codes). Use this tokens as an URL parameter in your marketing or customer service campaigns to validate requests that occurs in a timely period previously defined by your system\nAPI description: Read a link or token by its id. It is used to see the content (t=link or t=token), but cannot validate the signature.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the link or token to be fetched."
+            },
+            "t": {
+                "type": "string",
+                "description": "The type of content to fetch (either 'link' or 'token').",
+                "default": "link"
+            }
+        },
+        "required": [
+            "is_id",
+            "t"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_definitions",
+    "description": "This is a sub-function API for tool dicolink.\nTool description: Dicolink API lets you retrieve information about French words, including definitions, synonyms, antonyms, quotes, expressions, lexical field, scrabble score, and much more...\nAPI description: Fetch the definitions of a specified word using the Dicolink API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mot": {
+                "type": "string",
+                "description": "The word for which to fetch the definitions.",
+                "default": "cheval"
+            }
+        },
+        "required": [
+            "mot"
+        ]
+    }
+}

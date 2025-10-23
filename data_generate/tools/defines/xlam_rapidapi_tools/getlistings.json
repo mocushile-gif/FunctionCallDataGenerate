@@ -1,0 +1,35 @@
+{
+    "name": "getlistings",
+    "description": "This is a sub-function API for tool florida_realty_api.\nTool description: Find condos and townhouses in Florida (USA) and get access to the original listing service MLS with thousands of properties.\nAPI description: Use this endpoint to retrieve a list of condominiums and townhouses in Southwest Florida and on the East Coast.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sort": {
+                "type": "string",
+                "description": "Defines how the listings should be sorted. Supported values are 'RELEVANCE' (best match), 'NEWEST' (newest first), 'PRICE_LOW' (cheapest first), and 'PRICE_HIGH' (most expensive first). Default is 'RELEVANCE'.",
+                "default": "RELEVANCE"
+            },
+            "offset": {
+                "type": "number",
+                "description": "If you want to implement a paging use offset. The maximum items are defined by the parameter limit starting at offset For example, to return for the frist 10 items set offset to 0 and limit to 10. To return the next 10 items set offset to 10 and limit to 10 and so on. By default offset ist 0.",
+                "default": 0.0
+            },
+            "price_max": {
+                "type": "number",
+                "description": "The maximum price of the condos and townhouses you search for in US Dollar. By default 250000 for $250,000 is used.",
+                "default": 250000.0
+            },
+            "city": {
+                "type": "string",
+                "description": "Name of the city to search for condos and townhouses. Supported cities are Cape Coral, Fort Myers, West Palm Beach, Lake Worth, Lantana, Boynton Beach, Delray Beach, Boca Raton, Pompano Beach, Fort Lauderdale. New supported cities are Naples, Tampa and Saint Petersburg. By default Cape Coral is used.",
+                "default": "Cape Coral"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of items to return in the result list. By default 50 is used.",
+                "default": 50.0
+            }
+        },
+        "required": []
+    }
+}

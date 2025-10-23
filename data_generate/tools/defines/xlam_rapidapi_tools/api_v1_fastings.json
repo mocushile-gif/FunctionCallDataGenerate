@@ -1,0 +1,30 @@
+{
+    "name": "api_v1_fastings",
+    "description": "This is a sub-function API for tool sunnah_fasting.\nTool description: List of sunnah fasting schedule. Start from year 2022.\nAPI description: Fetches a list of sunnah fastings based on provided filters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "day": {
+                "type": "number",
+                "description": "Day of the month to filter the fastings."
+            },
+            "year": {
+                "type": "number",
+                "description": "Year to filter the fastings."
+            },
+            "month": {
+                "type": "number",
+                "description": "Month to filter the fastings."
+            },
+            "category_id": {
+                "type": "number",
+                "description": "Category ID to filter the fastings."
+            },
+            "type_id": {
+                "type": "number",
+                "description": "Type ID to filter the fastings."
+            }
+        },
+        "required": []
+    }
+}

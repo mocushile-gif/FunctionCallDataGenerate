@@ -1,0 +1,17 @@
+{
+    "name": "basketball_search",
+    "description": "This is a sub-function API for tool allsportsapi.\nTool description: AllSportsApi offers real-time football, esports, motorsport, ice hockey, basketball, tennis, baseball, cricket and american football scores. It covers hundreds of sports leagues, cups and tournaments with live updated results, statistics, league tables, video highlights and fixtures.Check our specific sport API's: https://rapidapi.com/user/fluis.lacasse\nAPI description: Search for basketball players, teams, and tournaments using the provided term.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "term": {
+                "type": "string",
+                "description": "The search term used to look for players, teams, and tournaments.",
+                "default": "kevin"
+            }
+        },
+        "required": [
+            "term"
+        ]
+    }
+}

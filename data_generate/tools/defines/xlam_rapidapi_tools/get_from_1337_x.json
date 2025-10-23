@@ -1,0 +1,17 @@
+{
+    "name": "get_from_1337_x",
+    "description": "This is a sub-function API for tool torrent_search.\nTool description: This script is a JavaScript code that uses the @dil5han/torrent-api module to create a server that can search multiple torrent websites and return the results to the client in JSON format.\nAPI description: Fetches torrent data for a given search topic from the 1337x website using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "searchtopic": {
+                "type": "string",
+                "description": "The topic or keywords to search for torrents on 1337x.",
+                "default": "cars"
+            }
+        },
+        "required": [
+            "searchtopic"
+        ]
+    }
+}

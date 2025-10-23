@@ -1,0 +1,25 @@
+{
+    "name": "upload_image_to_url",
+    "description": "Upload a local image file to a public image hosting service (e.g., Imgur) and return the image URL. If the image is too large, it will be compressed first.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Local path to the image file to be uploaded"
+        },
+        "max_size_mb": {
+          "type": "number",
+          "description": "Maximum allowed image size in MB before compression starts. Default is 32MB.",
+          "default": 32
+        },
+        "compress_quality": {
+          "type": "integer",
+          "description": "JPEG compression quality (1–100). Default is 85.",
+          "default": 85
+        }
+      },
+      "required": ["image_path"]
+    }
+  }
+  

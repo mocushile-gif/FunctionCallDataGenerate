@@ -1,0 +1,54 @@
+{
+    "name": "get_random_joke",
+    "description": "Fetches a random joke from the JokeAPI based on various filters.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "array",
+          "description": "Defines the joke category. Options include: 'Programming', 'Misc', 'Dark', 'Pun', 'Spooky', 'Christmas', or 'Any'. Defaults to 'Any'.",
+          "items": {
+            "type": "string",
+            "enum": ["Programming", "Misc", "Dark", "Pun", "Spooky", "Christmas", "Any"]
+          },
+          "default": ["Any"]
+        },
+        "language": {
+          "type": "string",
+          "description": "The language of the joke. Options include: 'cs', 'de', 'en', 'es', 'fr', 'pt'. Defaults to English ('en').",
+          "enum": ["cs", "de", "en", "es", "fr", "pt"],
+          "default": "en"
+        },
+        "flags": {
+          "type": "array",
+          "description": "A list of categories to exclude, such as 'nsfw', 'political', 'racist', 'sexist', 'religious', and 'explicit'. Defaults to None.",
+          "items": {
+            "type": "string",
+            "enum": ["nsfw", "political", "racist", "sexist", "religious", "explicit"]
+          },
+          "default": []
+        },
+        "joke_type": {
+          "type": "array",
+          "description": "Specifies the type of joke. Can be 'single' (one-liner) or 'twopart' (setup and punchline). Defaults to both.",
+          "items": {
+            "type": "string",
+            "enum": ["single", "twopart"]
+          },
+          "default": ["single", "twopart"]
+        },
+        "search_string": {
+          "type": "string",
+          "description": "Allows filtering the jokes based on a specific string. Defaults to None.",
+          "default": null
+        },
+        "num_jokes": {
+          "type": "integer",
+          "description": "Specifies how many jokes to fetch. Defaults to 1.",
+          "default": 1
+        }
+      },
+      "required": []
+    }
+  }
+  

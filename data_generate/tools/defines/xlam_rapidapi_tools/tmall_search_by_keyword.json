@@ -1,0 +1,23 @@
+{
+    "name": "tmall_search_by_keyword",
+    "description": "This is a sub-function API for tool taobao_tmall_product_detail.\nTool description: \nAPI description: Searches for products on Tmall by keyword.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number of the search results to retrieve.",
+                "default": 1.0
+            },
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to search for products.",
+                "default": "海久水瓶"
+            }
+        },
+        "required": [
+            "page",
+            "keyword"
+        ]
+    }
+}

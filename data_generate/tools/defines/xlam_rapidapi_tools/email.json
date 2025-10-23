@@ -1,0 +1,17 @@
+{
+    "name": "email",
+    "description": "This is a sub-function API for tool check_tiktok_link_email.\nTool description: check if your email linked in tiktok or not link\nAPI description: Retrieve detailed information about a person using their email address via the RapidAPI enrichment tool.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address of the person to be enriched.",
+                "default": "test@gmail.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

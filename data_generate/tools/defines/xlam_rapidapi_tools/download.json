@@ -1,0 +1,28 @@
+{
+    "name": "download",
+    "description": "This is a sub-function API for tool bar_qr_code_generator.\nTool description: Generate barcodes and QR codes.\nAPI description: Downloads a barcode of the specified type with the given data and optional size using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of barcode to generate. Can be one of: 'qr_code', 'code_128a', 'code_128b', 'code_128c', 'code_25', 'code_25_interleaved', 'code_25_iata', 'code_39', 'code_93', 'gs1_128', 'ean_13', 'bookland', 'ean_8', 'upc_supplemental', 'codabar'.",
+                "default": "qr_code"
+            },
+            "data": {
+                "type": "string",
+                "description": "The data to encode in the barcode.",
+                "default": "https://www.wynk182.com"
+            },
+            "size": {
+                "type": "number",
+                "description": "The size of the barcode. Default is 5.",
+                "default": 5.0
+            }
+        },
+        "required": [
+            "type",
+            "data"
+        ]
+    }
+}

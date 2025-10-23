@@ -1,0 +1,17 @@
+{
+    "name": "balance_sheet_statement",
+    "description": "This is a sub-function API for tool financial_statements.\nTool description: Get standardized balance sheet, income statement, and cash flow statement for global companies going back 5 years. \nAPI description: Fetches the balance sheet statement of a specified company by its ticker symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The ticker symbol of the company whose balance sheet statement is to be retrieved.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "ticker"
+        ]
+    }
+}

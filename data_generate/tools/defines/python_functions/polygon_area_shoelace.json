@@ -1,0 +1,22 @@
+{
+    "name": "polygon_area_shoelace",
+    "description": "Calculates the area of a polygon using the Shoelace formula (Gauss's area formula).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "vertices": {
+          "description": "A list of vertices of the polygon where each vertex is represented as a two-value list [x, y].",
+          "type": "array",
+          "items": {
+            "type": "array",
+            "description": "a two-value list [x, y] represent a vertex",
+            "items": { 
+                "type": "number"
+                }
+          }
+        }
+      },
+      "required": ["vertices"]
+    }
+  }
+  

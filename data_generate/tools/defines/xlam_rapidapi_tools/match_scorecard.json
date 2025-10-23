@@ -1,0 +1,17 @@
+{
+    "name": "match_scorecard",
+    "description": "This is a sub-function API for tool cricket_live_data.\nTool description: Fixtures, Results, and scorecards for the worlds most popular cricket tournaments\nAPI description: Fetches the full scorecard (updated live) for a given match ID using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "match_id": {
+                "type": "number",
+                "description": "The ID of the cricket match for which to retrieve the live scorecard.",
+                "default": 2432999.0
+            }
+        },
+        "required": [
+            "match_id"
+        ]
+    }
+}

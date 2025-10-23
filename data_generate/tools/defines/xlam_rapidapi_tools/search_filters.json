@@ -1,0 +1,61 @@
+{
+    "name": "search_filters",
+    "description": "This is a sub-function API for tool jsearch.\nTool description: Fast and Simple searches for jobs posted on LinkedIn, Indeed, Glassdoor, ZipRecruiter, Dice and others, all in a single API.\nAPI description: Accepts all **Search** endpoint parameters (except for `page` and `num_pages`) and returns the relevant filters and their estimated result counts for later use in search or for analytics.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "Free-form jobs search query. It is highly recommended to include job title and location as part of the query, see query examples below.\n\n**Query examples**\n- *web development in chicago*\n- *marketing manager in new york via linkedin*\n- *developer in germany 60306*",
+                "default": "Python developer in Texas, USA"
+            },
+            "language": {
+                "type": "string",
+                "description": "[EXPERIMENTAL]\n\nSet the language of the results. In case set, Google for Jobs might prefer jobs that were posted in the specified language.\n\nAllowed values: 2-letter language code, see [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)\nDefault: `en`."
+            },
+            "country": {
+                "type": "string",
+                "description": "[EXPERIMENTAL]\n\nThe country / region from which to make the query.\n\nAllowed values: 2-letter country code, see [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)\nDefault: `us`."
+            },
+            "categories": {
+                "type": "string",
+                "description": "**[Deprecated]** Categories/industries filter - specified as a comma (,) separated list of `categories` filter values (i.e. filter *value* field) as returned by a previous call to this endpoint.\n\n**Example**: *categories=R0MxODpNYW5hZ2VtZW50,R0MwNTpBcnRGYXNoaW9uRGVzaWdu*"
+            },
+            "company_types": {
+                "type": "string",
+                "description": "Company types filter - specified as a comma (,) separated list of `company_types` filter values (i.e. filter *value* field) as returned by a previous call to this endpoint.\n\n**Example**: *company_types= L2J1c2luZXNzL25haWNzMjAwNy81MjpGaW5hbmNl,L2J1c2luZXNzL25haWNzMjAwNy81MTpJbmZvcm1hdGlvbg==*"
+            },
+            "job_titles": {
+                "type": "string",
+                "description": "Job title filter - specified as a comma (,) separated list of `job_titles` filter values (i.e. filter *value* field) as returned by a previous call to this endpoint.\n\n**Example**: *job_titles=c2VuaW9y,YXNzb2NpYXRl*"
+            },
+            "job_requirements": {
+                "type": "string",
+                "description": "Find jobs with specific requirements, specified as a comma delimited list of the following values: `under_3_years_experience`, `more_than_3_years_experience`, `no_experience`, `no_degree`."
+            },
+            "radius": {
+                "type": "number",
+                "description": "Distance (in km) within which to return jobs, measured from the location specified in the query."
+            },
+            "employers": {
+                "type": "string",
+                "description": "Employers filter - specified as a comma (,) separated list of `employers` filter values (i.e. filter *value* field) as returned by a previous call to this endpoint.\n\n**Example**: *employers= L2cvMTFoMTV4eHhydDpJbmZpbml0eSBDb25zdWx0aW5n,L2cvMTFmMDEzOXIxbjpDeWJlckNvZGVycw==*"
+            },
+            "remote_jobs_only": {
+                "type": "boolean",
+                "description": "Find remote jobs only (work from home).\nDefault: `false`."
+            },
+            "employment_types": {
+                "type": "string",
+                "description": "Find jobs of particular employment types, specified as a comma delimited list of the following values: `FULLTIME`, `CONTRACTOR`, `PARTTIME`, `INTERN`."
+            },
+            "date_posted": {
+                "type": "string",
+                "description": "Find jobs posted within the time you specify.\nPossible values: `all`, `today`, `3days`, `week`,`month`.\nDefault: `all`."
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

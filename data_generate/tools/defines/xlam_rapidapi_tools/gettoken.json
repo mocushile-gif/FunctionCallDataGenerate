@@ -1,0 +1,16 @@
+{
+    "name": "gettoken",
+    "description": "This is a sub-function API for tool mybooky_demo.\nTool description: Demo version of lightweight booking API \nAPI description: Generates and retrieves a token for the given user ID using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "userid": {
+                "type": "number",
+                "description": "The user ID for which the token is to be generated."
+            }
+        },
+        "required": [
+            "userid"
+        ]
+    }
+}

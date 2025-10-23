@@ -1,0 +1,17 @@
+{
+    "name": "properties_get_broadband",
+    "description": "This is a sub-function API for tool zoopla_v2.\nTool description: This API helps to query for properties for rent, sale in UK to create a real estate site/application such as zoopla.com\nAPI description: Fetch broadband information for a given property listing.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "listing_id": {
+                "type": "number",
+                "description": "The ID of the property listing for which broadband information is to be retrieved. This value is typically obtained from the `/properties/list` endpoint.",
+                "default": 56354192.0
+            }
+        },
+        "required": [
+            "listing_id"
+        ]
+    }
+}

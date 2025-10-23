@@ -1,0 +1,16 @@
+{
+    "name": "mlem_id",
+    "description": "This is a sub-function API for tool mlemapi.\nTool description: A free public service API which provides pictures of animals with mlems/bleps.\nAPI description: Fetches a mlem image by its ID in JSON format using the Mlem API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mlemid": {
+                "type": "number",
+                "description": "The ID of the mlem image to fetch."
+            }
+        },
+        "required": [
+            "mlemid"
+        ]
+    }
+}

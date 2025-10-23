@@ -1,0 +1,17 @@
+{
+    "name": "validate_cpf_number",
+    "description": "This is a sub-function API for tool cpf_validator.\nTool description: Validates Brazilian CPF numbers. It can also generate random valid numbers.\nAPI description: Validates a given CPF number using the RapidAPI CPF Validator service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "n": {
+                "type": "string",
+                "description": "The CPF number to be validated.",
+                "default": "123.456.789-09"
+            }
+        },
+        "required": [
+            "n"
+        ]
+    }
+}

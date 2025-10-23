@@ -1,0 +1,22 @@
+{
+    "name": "infobox",
+    "description": "This is a sub-function API for tool wikipedia_infobox.\nTool description: An Api to serve the infoboxes that accompanies so many wikipedia entries.\nUse it for learning, use it for funfacts, use it for gaining knowledge. \n\nAPI description: Fetches and returns a JSON object representation of the infobox for a given Wikipedia entry.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "wikiurl": {
+                "type": "string",
+                "description": "The URL of the Wikipedia entry.",
+                "default": "https://en.wikipedia.org/wiki/James_Bond"
+            },
+            "withname": {
+                "type": "boolean",
+                "description": "Whether to include the name in the infobox. Defaults to None.",
+                "default": true
+            }
+        },
+        "required": [
+            "wikiurl"
+        ]
+    }
+}

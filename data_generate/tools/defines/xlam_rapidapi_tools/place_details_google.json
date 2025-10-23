@@ -1,0 +1,17 @@
+{
+    "name": "place_details_google",
+    "description": "This is a sub-function API for tool nearby_places.\nTool description: Get nearby establishments.\nAPI description: Get contact and opening hours for a place.\n\nRequires a **place id** provided by **/nearby (Google)**.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "Place ID.\nThis value can be retrieved from */nearby* or */random* endpoints.",
+                "default": "ChIJCxzX9tpwhlQRIFVwULOI2FM"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

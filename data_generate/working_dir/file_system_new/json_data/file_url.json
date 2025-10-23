@@ -1,0 +1,260 @@
+[
+  {
+    "name": "Pride and Prejudice",
+    "description": "The complete English text of 'Pride and Prejudice' by Jane Austen from Project Gutenberg.",
+    "type": "text/plain",
+    "url": "https://www.gutenberg.org/files/1342/1342-0.txt"
+  },
+  {
+    "name": "Transparent PNG Image",
+    "description": "A PNG image with transparent background hosted on Wikimedia Commons.",
+    "type": "image/png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png"
+  },
+  {
+    "name": "W3C JPG Test Image",
+    "description": "A sample JPG image used for W3C image format testing.",
+    "type": "image/jpeg",
+    "url": "https://www.w3.org/People/mimasa/test/imgformat/img/w3c_home.jpg"
+  },
+  {
+    "name": "Air Travel CSV Dataset",
+    "description": "A CSV file containing historical air travel data for testing data parsers.",
+    "type": "text/csv",
+    "url": "https://people.sc.fsu.edu/~jburkardt/data/csv/airtravel.csv"
+  },
+  {
+    "name": "Excel Sample File",
+    "description": "An example Excel file in XLSX format for file processing tests.",
+    "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "url": "https://file-examples.com/wp-content/uploads/2017/02/file_example_XLSX_10.xlsx"
+  },
+  {
+    "name": "JSONPlaceholder User API",
+    "description": "A mock JSON API returning user data, useful for frontend and backend testing.",
+    "type": "application/json",
+    "url": "https://jsonplaceholder.typicode.com/users"
+  },
+  {
+    "name": "JSON Sample File",
+    "description": "A JSON file containing structured sample data hosted on GitHub.",
+    "type": "application/json",
+    "url": "https://raw.githubusercontent.com/typicode/jsonplaceholder/master/data.json"
+  },
+  {
+    "name": "C4 Dataset (JSONL Gzip)",
+    "description": "A Gzipped JSONL file from the C4 dataset, commonly used in language model pretraining.",
+    "type": "application/jsonl+gzip",
+    "url": "https://huggingface.co/datasets/allenai/c4/resolve/main/en/c4-train.00000-of-01024.json.gz"
+  },
+  {
+    "name": "Big Text Corpus",
+    "description": "A large plain text corpus used in NLP tasks such as tokenization and language modeling.",
+    "type": "text/plain",
+    "url": "https://norvig.com/big.txt"
+  },
+  {
+    "name": "Chinook SQLite DB",
+    "description": "A sample SQLite database containing music store records, useful for SQL querying tests.",
+    "type": "application/x-sqlite3",
+    "url": "https://github.com/sqlitebrowser/sqlite-sample-database/blob/master/chinook.db?raw=true"
+  },
+  {
+    "name": "Alice in Wonderland",
+    "description": "The complete English text of 'Alice’s Adventures in Wonderland' from Project Gutenberg.",
+    "type": "text/plain",
+    "url": "https://www.gutenberg.org/files/11/11-0.txt"
+  },
+  {
+    "name": "Sample Transparent SVG",
+    "description": "A simple transparent SVG image hosted on Wikimedia.",
+    "type": "image/svg+xml",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/SVG_logo.svg"
+  },
+  {
+    "name": "Sample Audio (MP3)",
+    "description": "A short MP3 audio file used for testing media players.",
+    "type": "audio/mpeg",
+    "url": "https://file-examples.com/storage/fe59d79204876a61e96c70e/2017/11/file_example_MP3_700KB.mp3"
+  },
+  {
+    "name": "Sample Video (MP4)",
+    "description": "A sample MP4 video file used for testing video playback.",
+    "type": "video/mp4",
+    "url": "https://file-examples.com/storage/fe59d79204876a61e96c70e/2017/04/file_example_MP4_480_1_5MG.mp4"
+  },
+  {
+    "name": "Sample PDF",
+    "description": "A small PDF document for testing PDF rendering or download.",
+    "type": "application/pdf",
+    "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+  },
+  {
+    "name": "Iris Dataset (CSV)",
+    "description": "A classic machine learning dataset in CSV format.",
+    "type": "text/csv",
+    "url": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv"
+  },
+  {
+    "name": "Sample XLS File",
+    "description": "An example Excel file in XLS format for compatibility testing.",
+    "type": "application/vnd.ms-excel",
+    "url": "https://file-examples.com/wp-content/uploads/2017/02/file_example_XLS_10.xls"
+  },
+  {
+    "name": "Books Dataset (JSON)",
+    "description": "A JSON file of book data for testing APIs or search engines.",
+    "type": "application/json",
+    "url": "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/master/books.json"
+  },
+  {
+    "name": "StackOverflow JSONL",
+    "description": "Sample StackOverflow post data in JSONL format.",
+    "type": "application/jsonlines",
+    "url": "https://huggingface.co/datasets/stackoverflow-javadata/resolve/main/data/train.jsonl"
+  },
+  {
+    "name": "Sample SQLite Movies DB",
+    "description": "A small SQLite database of movies and ratings.",
+    "type": "application/x-sqlite3",
+    "url": "https://github.com/lerocha/chinook-database/blob/master/ChinookDatabase/DataSources/Movies.sqlite?raw=true"
+  },
+  {
+    "name": "Sample XML File",
+    "description": "A simple XML sample file for parsing tests.",
+    "type": "application/xml",
+    "url": "https://www.w3schools.com/xml/note.xml"
+  },
+  {
+    "name": "Sample TXT File",
+    "description": "A small plain text file for download or processing tests.",
+    "type": "text/plain",
+    "url": "https://file-examples.com/wp-content/uploads/2017/02/file_example_TXT_10kB.txt"
+  },
+  {
+    "name": "Sample ZIP Archive",
+    "description": "A ZIP archive file for testing file extraction.",
+    "type": "application/zip",
+    "url": "https://file-examples.com/wp-content/uploads/2017/02/zip_2MB.zip"
+  },
+  {
+    "name": "Pride and Prejudice (Text)",
+    "type": "text/plain",
+    "description": "Full English novel from Project Gutenberg",
+    "url": "https://www.gutenberg.org/files/1342/1342-0.txt"
+  },
+  {
+    "name": "Big Text Corpus",
+    "type": "text/plain",
+    "description": "Large English text file for NLP training",
+    "url": "https://norvig.com/big.txt"
+  },
+  {
+    "name": "Transparent PNG Image",
+    "type": "image/png",
+    "description": "A PNG with transparency used for image demos",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png"
+  },
+  {
+    "name": "W3C JPG Sample",
+    "type": "image/jpeg",
+    "description": "Sample JPEG image hosted by W3C",
+    "url": "https://www.w3.org/People/mimasa/test/imgformat/img/w3c_home.jpg"
+  },
+  {
+    "name": "SVG Format Logo",
+    "type": "image/svg+xml",
+    "description": "SVG logo for resolution-free testing",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/SVG_logo.svg"
+  },
+  {
+    "name": "Sample MP3 Audio",
+    "type": "audio/mpeg",
+    "description": "Short MP3 file for audio playback testing",
+    "url": "https://file-examples.com/storage/fe59d79204876a61e96c70e/2017/11/file_example_MP3_700KB.mp3"
+  },
+  {
+    "name": "Sample MP4 Video",
+    "type": "video/mp4",
+    "description": "Low-res MP4 video for streaming tests",
+    "url": "https://file-examples.com/storage/fe59d79204876a61e96c70e/2017/04/file_example_MP4_480_1_5MG.mp4"
+  },
+  {
+    "name": "Sample CSV - Air Travel",
+    "type": "text/csv",
+    "description": "CSV with monthly flight passenger data",
+    "url": "https://people.sc.fsu.edu/~jburkardt/data/csv/airtravel.csv"
+  },
+  {
+    "name": "Iris Dataset (CSV)",
+    "type": "text/csv",
+    "description": "Popular dataset for ML experiments",
+    "url": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv"
+  },
+  {
+    "name": "XLSX Spreadsheet Sample",
+    "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "description": "Excel 2007+ format test file",
+    "url": "https://file-examples.com/wp-content/uploads/2017/02/file_example_XLSX_10.xlsx"
+  },
+  {
+    "name": "XLS Spreadsheet Sample",
+    "type": "application/vnd.ms-excel",
+    "description": "Old Excel format sample",
+    "url": "https://file-examples.com/wp-content/uploads/2017/02/file_example_XLS_10.xls"
+  },
+  {
+    "name": "JSONPlaceholder Users",
+    "type": "application/json",
+    "description": "Dummy JSON API with user data",
+    "url": "https://jsonplaceholder.typicode.com/users"
+  },
+  {
+    "name": "Books Dataset (JSON)",
+    "type": "application/json",
+    "description": "Top 10k GoodBooks book data",
+    "url": "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/master/books.json"
+  },
+  {
+    "name": "Sample JSONL Dataset",
+    "type": "application/jsonlines",
+    "description": "JSONL with individual lines of StackOverflow Java Q&A",
+    "url": "https://huggingface.co/datasets/stackoverflow-javadata/resolve/main/data/train.jsonl"
+  },
+  {
+    "name": "C4 Dataset (JSONL GZ)",
+    "type": "application/jsonlines+gzip",
+    "description": "Compressed JSONL slice from C4 large corpus",
+    "url": "https://huggingface.co/datasets/allenai/c4/resolve/main/en/c4-train.00000-of-01024.json.gz"
+  },
+  {
+    "name": "Chinook Music DB",
+    "type": "application/x-sqlite3",
+    "description": "SQLite DB of music store with albums, tracks, invoices",
+    "url": "https://github.com/sqlitebrowser/sqlite-sample-database/blob/master/Chinook_Sqlite.sqlite?raw=true"
+  },
+  {
+    "name": "Sample XML File",
+    "type": "application/xml",
+    "description": "W3C XML test file",
+    "url": "https://www.w3schools.com/xml/note.xml"
+  },
+  {
+    "name": "TXT File Sample",
+    "type": "text/plain",
+    "description": "Sample plain text file (~10KB)",
+    "url": "https://file-examples.com/wp-content/uploads/2017/02/file_example_TXT_10kB.txt"
+  },
+  {
+    "name": "ZIP File Example",
+    "type": "application/zip",
+    "description": "A ZIP archive for testing file extraction",
+    "url": "https://file-examples.com/wp-content/uploads/2017/02/zip_2MB.zip"
+  },
+  {
+    "name": "Parquet Dataset (NYC Taxi)",
+    "type": "application/octet-stream",
+    "description": "A Parquet file of taxi trips from NYC open data",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet"
+  }
+]

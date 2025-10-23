@@ -1,0 +1,22 @@
+{
+    "name": "location",
+    "description": "This is a sub-function API for tool g_search.\nTool description: Web search API using best search engine\nAPI description: The Location API lets you search for supported Google search locations. You can pass the `location_name` returned by the Location API as the `location_name` parameter and set the `location_parameters_auto` value to true in a Search API query to retrieve search results localized to that location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location_name": {
+                "type": "string",
+                "description": "The name of the location to search for.",
+                "default": "London"
+            },
+            "country_code": {
+                "type": "string",
+                "description": "The country code for the search location, default is 'GB'.",
+                "default": "GB"
+            }
+        },
+        "required": [
+            "location_name"
+        ]
+    }
+}

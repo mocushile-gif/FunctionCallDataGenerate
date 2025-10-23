@@ -1,0 +1,16 @@
+{
+    "name": "get_skin_from_uuid",
+    "description": "This is a sub-function API for tool teamriverbubbles_random_utilities.\nTool description: random utilities you may use\nAPI description: Fetches the Minecraft skin associated with a given UUID using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "uuid": {
+                "type": "string",
+                "description": "The UUID of the Minecraft player whose skin is being fetched."
+            }
+        },
+        "required": [
+            "uuid"
+        ]
+    }
+}

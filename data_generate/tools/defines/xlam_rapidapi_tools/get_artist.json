@@ -1,0 +1,17 @@
+{
+    "name": "get_artist",
+    "description": "This is a sub-function API for tool spotify_data_api.\nTool description: Fetch all available Spotify Data like Shows,Playlists, Episodes,Artists, Tracks, User playlists and more\n\nNote: Currently the API is deployed on server with basic plan with auto sleep thats why the Latency is so high .After first subscription I will upgrade the plan with always on service and the latency will be normal.\nAPI description: Gets artist information from the Spotify Data API using the artist's ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The Spotify ID of the artist.",
+                "default": "0TnOYISbd1XYRBk9myaseg"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

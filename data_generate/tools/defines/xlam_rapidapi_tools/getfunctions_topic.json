@@ -1,0 +1,23 @@
+{
+    "name": "getfunctions_topic",
+    "description": "This is a sub-function API for tool power_bi_smartable.\nTool description: The Power BI API offers the Microsoft Power BI news, learning resources, events, samples and other information.\nAPI description: Fetches Power BI DAX functions based on a specified topic and page number using the toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "topic": {
+                "type": "string",
+                "description": "The topic for which the DAX functions are to be retrieved.",
+                "default": "dax"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of the results to retrieve.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "topic",
+            "page"
+        ]
+    }
+}

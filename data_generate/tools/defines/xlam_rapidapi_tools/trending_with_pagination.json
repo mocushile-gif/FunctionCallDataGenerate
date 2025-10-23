@@ -1,0 +1,20 @@
+{
+    "name": "trending_with_pagination",
+    "description": "This is a sub-function API for tool top_nft_collections.\nTool description: Provides up-to-date information on the top NFT collections across various networks, including Ethereum, BNB Chain, Polygon, Arbitrum, Optimism, and Solana.\nAPI description: Fetches trending NFT collections from OpenSea with pagination support.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The number of collections to fetch. Default is 50.",
+                "default": 50.0
+            },
+            "offset": {
+                "type": "number",
+                "description": "The number of collections to skip before starting to fetch. Default is 0.",
+                "default": 0.0
+            }
+        },
+        "required": []
+    }
+}

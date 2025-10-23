@@ -1,0 +1,22 @@
+{
+    "name": "list_of_cities_in_one_country",
+    "description": "This is a sub-function API for tool climate_data.\nTool description: climate data worldwide\nAPI description: Gets a list of cities in a specified country using the Climate Data API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The country code for which to retrieve the list of cities.",
+                "default": "UK"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the response data. Options are ['en', 'fr', 'pl', 'pt', 'es', 'it', 'gr', 'tr', 'ru', 'cn', 'cz']. Default is 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "country"
+        ]
+    }
+}

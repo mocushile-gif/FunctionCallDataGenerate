@@ -1,0 +1,23 @@
+{
+    "name": "get_fonts",
+    "description": "This is a sub-function API for tool mapilion_vector_and_raster_map_tiles.\nTool description: Mapilion provides you with vector and raster map tiles at scale. Based on OpenStreetMap and OpenMapTiles.\nAPI description: Fetch fonts for vector tiles using a specified range and font stack from the Mapilion API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "range": {
+                "type": "string",
+                "description": "The range of font unicode characters to fetch.",
+                "default": "0-255"
+            },
+            "fontstack": {
+                "type": "string",
+                "description": "The font stack to be used for the tiles.",
+                "default": "Roboto Regular"
+            }
+        },
+        "required": [
+            "range",
+            "fontstack"
+        ]
+    }
+}

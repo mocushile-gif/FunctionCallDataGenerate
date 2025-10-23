@@ -1,0 +1,17 @@
+{
+    "name": "income_by_zipcode",
+    "description": "This is a sub-function API for tool income_by_zipcode.\nTool description: Income by zipcode is a simple API for getting income by zipcode data in the United States.\nAPI description: Fetches income data for a given zipcode using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zip": {
+                "type": "string",
+                "description": "Zipcode for which the income data is to be retrieved.",
+                "default": "2818"
+            }
+        },
+        "required": [
+            "zip"
+        ]
+    }
+}

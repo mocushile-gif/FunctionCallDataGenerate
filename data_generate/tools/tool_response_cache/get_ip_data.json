@@ -1,0 +1,49 @@
+{
+    "{}": {
+        "error": "",
+        "response": "/**/ typeof FUNCTION_NAME === 'function' && FUNCTION_NAME({\"city\":\"Nueva York\",\"capital\":\"Washington D.C.\"});"
+    },
+    "{'ip': '203.0.113.0'}": {
+        "error": "",
+        "response": {
+            "success": false,
+            "message": {
+                "code": 400,
+                "type": "ip_not_valid",
+                "info": "IP Address is not valid!"
+            }
+        }
+    },
+    "{'ip': '128.199.224.217', 'fields': 'city,capital', 'output': 'json'}": {
+        "error": "",
+        "response": "/**/ typeof FUNCTION_NAME === 'function' && FUNCTION_NAME({\"city\":\"Singapur\",\"capital\":\"Singapore\"});"
+    },
+    "{'ip': '192.168.1.1', 'language': 'en', 'fields': 'city,timezone'}": {
+        "error": "",
+        "response": "{'success': False, 'message': {'code': 400, 'type': 'ip_not_valid', 'info': 'IP Address is not valid!'}}"
+    },
+    "{'fields': 'city,capital', 'language': 'en', 'ip': '67.250.186.196', 'callback': 'America/Los_Angeles'}": {
+        "error": "",
+        "response": "/**/ typeof AmericaLos_Angeles === 'function' && AmericaLos_Angeles({\"city\":\"New York\",\"capital\":\"Washington D.C.\"});"
+    },
+    "{'ip': '67.250.186.196', 'fields': 'city,capital', 'language': 'en', 'output': 'json'}": {
+        "error": "",
+        "response": "/**/ typeof FUNCTION_NAME === 'function' && FUNCTION_NAME({\"city\":\"New York\",\"capital\":\"Washington D.C.\"});"
+    },
+    "{'fields': 'city,country'}": {
+        "error": "",
+        "response": "/**/ typeof FUNCTION_NAME === 'function' && FUNCTION_NAME({\"city\":\"Nueva York\"});"
+    },
+    "{'language': 'en', 'fields': 'city'}": {
+        "error": "",
+        "response": "/**/ typeof FUNCTION_NAME === 'function' && FUNCTION_NAME({\"city\":\"New York\"});"
+    },
+    "{'ip': '192.168.1.100,10.0.0.254,172.16.0.1', 'fields': 'city,capital', 'language': 'en', 'output': 'json'}": {
+        "error": "",
+        "response": "{'success': False, 'message': {'code': 403, 'type': 'bulk_not_supported', 'info': 'Your current subscription plan does not include Bulk Lookup.'}}"
+    },
+    "{'ip': '192.168.1.100', 'fields': 'city,capital', 'language': 'en', 'output': 'json'}": {
+        "error": "",
+        "response": "{'success': False, 'message': {'code': 400, 'type': 'ip_not_valid', 'info': 'IP Address is not valid!'}}"
+    }
+}

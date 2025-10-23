@@ -1,0 +1,42 @@
+{
+    "{'org': 'Amazon Web Services', 'limit': '1000'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the credits balance or enter the correct API key.'}"
+    },
+    "{'org': 'Amazon', 'limit': '10'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the credits balance or enter the correct API key.'}"
+    },
+    "{'ip': '8.8.8.8', 'outputformat': 'JSON'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the credits balance or enter the correct API key.'}"
+    },
+    "{'asn': '13335', 'outputformat': 'JSON'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the credits balance or enter the correct API key.'}"
+    },
+    "{'org': 'Amazon', 'outputformat': 'JSON'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the credits balance or enter the correct API key.'}"
+    },
+    "{'org': 'ORG-0X9C8D7', 'outputformat': 'JSON'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the credits balance or enter the correct API key.'}"
+    },
+    "{'org': 'Global Corp Holdings LLC', 'outputformat': 'JSON'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the credits balance or enter the correct API key.'}"
+    },
+    "{'org': 'Global Corp', 'limit': '50', 'outputformat': 'JSON'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the credits balance or enter the correct API key.'}"
+    },
+    "{'org': 'Google', 'mask': '24', 'limit': '1000'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the credits balance or enter the correct API key.'}"
+    },
+    "{'org': 'Google LLC', 'mask': '20', 'limit': '1000'}": {
+        "error": "",
+        "response": "{'code': 403, 'messages': 'Access restricted. Check the credits balance or enter the correct API key.'}"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "pitstopdataforarace",
+    "description": "This is a sub-function API for tool formula_1_fixed.\nTool description: F1\nAPI description: Retrieves pit stop data for a specific Formula 1 race using the provided year and round.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The season year of the Formula 1 race.",
+                "default": "year"
+            },
+            "round": {
+                "type": "string",
+                "description": "The round number of the Formula 1 race.",
+                "default": "round"
+            }
+        },
+        "required": [
+            "year",
+            "round"
+        ]
+    }
+}

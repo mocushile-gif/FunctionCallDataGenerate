@@ -1,0 +1,23 @@
+{
+    "name": "get_recent_files",
+    "description": "Get the most recently modified files in a directory.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "directory": {
+                "type": "string",
+                "description": "The directory to search for files. Default to './'"
+            },
+            "top_n": {
+                "type": "integer",
+                "description": "The number of most recent files to return."
+            },
+            "file_extension": {
+                "type": "string",
+                "description": "The file extension to filter by (e.g., '.txt'). Defaults to None (all files).",
+                "default": null
+            }
+        },
+        "required": ["directory", "top_n"]
+    }
+}

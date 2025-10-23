@@ -1,0 +1,26 @@
+{
+    "name": "user_likes",
+    "description": "This is a sub-function API for tool twitter_v2.\nTool description: Twitter public data API for Tweets and users\nAPI description: Fetches the liked tweets of a specified user from the Twitter API using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The ID of the user for whom to fetch liked tweets.",
+                "default": "44196397"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of liked tweets to return. Defaults to 40.",
+                "default": 40.0
+            },
+            "cursor": {
+                "type": "string",
+                "description": "The cursor for pagination to fetch the next set of results. Defaults to None."
+            }
+        },
+        "required": [
+            "user_id"
+        ]
+    }
+}

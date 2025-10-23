@@ -1,0 +1,18 @@
+{
+    "{'list_id': '134678901234567890'}": {
+        "error": "",
+        "response": "{'detail': 'Unable to get data for list_id 134678901234567890'}"
+    },
+    "{'list_id': '1591033111726391297'}": {
+        "error": "",
+        "response": "{'list_id': '1591033111726391297', 'list_id_str': 'TGlzdDoxNTkxMDMzMTExNzI2MzkxMjk3', 'member_count': 6, 'name': 'testing', 'subscriber_count': 0, 'creation_date': '1668166828000', 'mode': 'Public', 'default_banner_media': {'media_info': {'original_img_url': 'https://pbs.twimg.com/media/EXZ2mJCUEAEbJb3.png', 'original_img_width': 1125, 'original_img_height': 375, 'salient_rect': {'left': 562, 'top': 187, 'width': 1, 'height': 1}}}, 'default_banner_media_results': {'result': {'id': 'QXBpTWVkaWE6DAABCgABEXZ2mJCUEAEKAAIQF4A+eBQgAAAA', 'media_key': '3_1258323543529361409', 'media_id': '1258323543529361409', 'media_info': {'__typename': 'ApiImage', 'original_img_height': 375, 'original_img_width': 1125, 'original_img_url': 'https://pbs.twimg.com/media/EXZ2mJCUEAEbJb3.png', 'salient_rect': {'height': 1, 'left': 562, 'top': 187, 'width': 1}}, '__typename': 'ApiMedia'}}, 'user': {'creation_date': 'Mon Jan 13 18:44:09 +0000 2014', 'user_id': '2290075459', 'username': 'previewuser', 'name': 'Martin', 'follower_count': 46, 'following_count': 53, 'favourites_count': 63, 'is_private': None, 'is_verified': False, 'is_blue_verified': False, 'location': '', 'profile_pic_url': 'https://pbs.twimg.com/profile_images/1842960442890547201/ld4xiuUA_normal.jpg', 'profile_banner_url': None, 'description': '', 'external_url': None, 'number_of_tweets': 66463, 'bot': False, 'timestamp': 1389638649, 'has_nft_avatar': False, 'category': None, 'default_profile': None, 'default_profile_image': None, 'listed_count': 2, 'verified_type': None}, 'description': None}"
+    },
+    "{'list_id': '1372946854123098765'}": {
+        "error": "",
+        "response": "{'detail': 'Unable to get data for list_id 1372946854123098765'}"
+    },
+    "{'list_id': '1456789023456789012'}": {
+        "error": "",
+        "response": "{'detail': 'Unable to get data for list_id 1456789023456789012'}"
+    }
+}

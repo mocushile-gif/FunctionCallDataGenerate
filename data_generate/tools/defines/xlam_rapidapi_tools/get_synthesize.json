@@ -1,0 +1,17 @@
+{
+    "name": "get_synthesize",
+    "description": "This is a sub-function API for tool speakeasy.\nTool description: The SpeakEasy API allows you to synthesize speech from text using Google's Text-to-Speech API.\nAPI description: Synthesizes the provided text using the Speakeasy API and returns the corresponding audio URL or response.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to be synthesized into speech.",
+                "default": "The quick brown fox jumps over the lazy dog"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

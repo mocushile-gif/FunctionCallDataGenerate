@@ -1,0 +1,16 @@
+{
+    "name": "assetbyid",
+    "description": "This is a sub-function API for tool bravenewcoin.\nTool description: Latest and historic cryptocurrency market data\nAPI description: Retrieves the details of an individual asset. Supply the unique identifier (UUID) of the asset.\n\nThe full list of all asset details can be obtained from the Asset endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique resource identifier (UUID) of an asset e.g.  BTC = f1ff77b6-3ab4-4719-9ded-2fc7e71cff1f"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

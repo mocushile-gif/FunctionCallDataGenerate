@@ -1,0 +1,40 @@
+{
+    "name": "stock_get_stock_historical_price_data",
+    "description": "This is a sub-function API for tool yh_finance_v2.\nTool description: \nAPI description: This method will pull historical pricing data for stocks, currencies, ETFs, mutual funds, U.S. Treasuries, cryptocurrencies, commodities, and indexes.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "Ticker Symbol ( Ex. \\\\\\\\\\\\\\\\\\\"AAPL\\\\\\\\\\\\\\\\\\\" is Ticker symbol for Apple Inc. on the stock market )",
+                "default": "AAPL"
+            },
+            "start_date": {
+                "type": "string",
+                "description": "start_date should be entered in the 'YYYY-MM-DD' format and is the first day that data will be pulled for.\n",
+                "default": "2022-03-02"
+            },
+            "time_interval": {
+                "type": "string",
+                "description": "The time interval for the data; can be 'daily', 'weekly', or 'monthly'.",
+                "default": "daily"
+            },
+            "end_date": {
+                "type": "string",
+                "description": "end_date should be entered in the 'YYYY-MM-DD' format and is the last day that data will be pulled for.\n",
+                "default": "2022-03-03"
+            },
+            "region": {
+                "type": "string",
+                "description": "The region for the stock market. Default is 'US'.",
+                "default": "US"
+            }
+        },
+        "required": [
+            "symbol",
+            "start_date",
+            "time_interval",
+            "end_date"
+        ]
+    }
+}

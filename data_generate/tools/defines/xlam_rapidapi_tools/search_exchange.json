@@ -1,0 +1,20 @@
+{
+    "name": "search_exchange",
+    "description": "This is a sub-function API for tool stock_cryptocurrency_forex_market_data.\nTool description: Real-time Stock, Cryptocurrency, and Forex market data from NASDAQ, NYSE, LSE, MYX, IDX, Binance, FTX, PancakeSwap, Uniswap, FRED etc.\nAPI description: Search for exchanges based on a query string or category.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "A query string to search for specific exchanges. Defaults to 'B'.",
+                "default": "B"
+            },
+            "category": {
+                "type": "string",
+                "description": "The category to filter the exchanges, for example, 'Cryptocurrency'. Defaults to 'Cryptocurrency'.",
+                "default": "Cryptocurrency"
+            }
+        },
+        "required": []
+    }
+}

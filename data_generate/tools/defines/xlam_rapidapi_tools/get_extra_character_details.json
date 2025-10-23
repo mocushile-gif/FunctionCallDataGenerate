@@ -1,0 +1,16 @@
+{
+    "name": "get_extra_character_details",
+    "description": "This is a sub-function API for tool new_girl.\nTool description: This api provides data for the tv show called New Girl. There is also data & details for each character. \nAPI description: Fetch additional details about a character using the provided character ID and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the character for which details are being fetched."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "{'domain': 'example.com'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "organization": {
+                    "location": null,
+                    "social_links": null,
+                    "disposable": true,
+                    "webmail": false,
+                    "website_url": "example.com"
+                },
+                "emails": []
+            },
+            "meta": {
+                "total": 0,
+                "pageSize": 10,
+                "current": 1,
+                "total_pages": 1
+            }
+        }
+    },
+    "{'department': 'marketing', 'domain': 'example.com'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "organization": {
+                    "location": "Unknown",
+                    "social_links": [],
+                    "disposable": false,
+                    "webmail": false,
+                    "website_url": "example.com"
+                },
+                "emails": [
+                    {
+                        "email": "john.doe@example.com",
+                        "department": "marketing",
+                        "position": "Marketing Manager",
+                        "verified": true
+                    },
+                    {
+                        "email": "jane.smith@example.com",
+                        "department": "marketing",
+                        "position": "Digital Marketing Specialist",
+                        "verified": true
+                    }
+                ]
+            },
+            "meta": {
+                "total": 2,
+                "pageSize": 10,
+                "current": 1,
+                "total_pages": 1
+            }
+        }
+    }
+}

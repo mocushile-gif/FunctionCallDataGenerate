@@ -1,0 +1,81 @@
+{
+    "{'cid': 7178309240628659, 'aweme_id': 7178094165614464, 'count': 10, 'cursor': 0}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "user_id": "123456789",
+                    "nickname": "User1",
+                    "text": "Great comment!",
+                    "create_time": 1717891200,
+                    "digg_count": 5
+                },
+                {
+                    "user_id": "987654321",
+                    "nickname": "User2",
+                    "text": "Agreed!",
+                    "create_time": 1717891230,
+                    "digg_count": 3
+                },
+                {
+                    "user_id": "1357924680",
+                    "nickname": "User3",
+                    "text": "Interesting point",
+                    "create_time": 1717891260,
+                    "digg_count": 2
+                },
+                {
+                    "user_id": "1593578521",
+                    "nickname": "User4",
+                    "text": "Thanks for sharing",
+                    "create_time": 1717891290,
+                    "digg_count": 1
+                },
+                {
+                    "user_id": "1122334455",
+                    "nickname": "User5",
+                    "text": "Well said!",
+                    "create_time": 1717891320,
+                    "digg_count": 4
+                },
+                {
+                    "user_id": "6677889900",
+                    "nickname": "User6",
+                    "text": "I concur",
+                    "create_time": 1717891350,
+                    "digg_count": 0
+                },
+                {
+                    "user_id": "5566778899",
+                    "nickname": "User7",
+                    "text": "This is helpful",
+                    "create_time": 1717891380,
+                    "digg_count": 6
+                },
+                {
+                    "user_id": "9988776655",
+                    "nickname": "User8",
+                    "text": "Great insight",
+                    "create_time": 1717891410,
+                    "digg_count": 7
+                },
+                {
+                    "user_id": "4433221100",
+                    "nickname": "User9",
+                    "text": "Thank you!",
+                    "create_time": 1717891440,
+                    "digg_count": 2
+                },
+                {
+                    "user_id": "1100998877",
+                    "nickname": "User10",
+                    "text": "Appreciate this",
+                    "create_time": 1717891470,
+                    "digg_count": 3
+                }
+            ],
+            "has_more": true,
+            "next_cursor": 10
+        }
+    }
+}

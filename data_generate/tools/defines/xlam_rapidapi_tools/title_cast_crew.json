@@ -1,0 +1,17 @@
+{
+    "name": "title_cast_crew",
+    "description": "This is a sub-function API for tool watchmode.\nTool description: Universal OTT Streaming Service Availability API (Netflix, HBO Max, Peacock, Hulu, Amazon Prime Video, AppleTV+, Disney+ & over 100 more)\nAPI description: Return all people associated with the title, the \"cast\" (actors), and \"crew\" (directors, writers, cinematographers, etc). For more details on a person, pass the person-id to the /person/ endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "This ID can be the Watchmode ID of the title (returned by other endpoints such as the list-titles endpoint), or found in the mapping file: https://api.watchmode.com/datasets/title_id_map.csv.\n\nYou can also pass an IMDB ID here instead, or a TMDB type and TMDB ID combination. For example, the TMDB combination for The Shawshank Redemption is movie-278 and for Breaking Bad is tv-1396. ",
+                "default": "3173903"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

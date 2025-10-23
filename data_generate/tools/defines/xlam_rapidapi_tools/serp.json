@@ -1,0 +1,27 @@
+{
+    "name": "serp",
+    "description": "This is a sub-function API for tool serp_results.\nTool description: Get Search Engine Results with simple API (SERP API)\nAPI description: Fetches search engine results using the given query and optional parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query to be sent to the search engine.",
+                "default": "YouTube"
+            },
+            "proxy": {
+                "type": "string",
+                "description": "The country to use as a proxy for the search. Defaults to 'US'.",
+                "default": "US"
+            },
+            "max": {
+                "type": "number",
+                "description": "The maximum number of search results to return. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

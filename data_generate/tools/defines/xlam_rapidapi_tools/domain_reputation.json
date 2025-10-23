@@ -1,0 +1,25 @@
+{
+    "name": "domain_reputation",
+    "description": "This is a sub-function API for tool domain_reputation.\nTool description: Domain Reputation API lets you build a risk profile for a given domain or IP address with a single score based on multiple data sources.\nAPI description: Evaluate the reputation of a given domain using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domainname": {
+                "type": "string",
+                "description": "The domain name to be evaluated.",
+                "default": "whoisxmlapi.com"
+            },
+            "outputformat": {
+                "type": "string",
+                "description": "The response output format. Acceptable values are 'XML' or 'JSON'. Defaults to 'JSON'."
+            },
+            "mode": {
+                "type": "string",
+                "description": "The mode for the API check. Acceptable values are 'fast' (some heavy tests and data collectors will be disabled) or 'full' (all data and tests will be processed). Defaults to 'fast'."
+            }
+        },
+        "required": [
+            "domainname"
+        ]
+    }
+}

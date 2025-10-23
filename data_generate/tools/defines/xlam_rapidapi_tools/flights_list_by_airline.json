@@ -1,0 +1,17 @@
+{
+    "name": "flights_list_by_airline",
+    "description": "This is a sub-function API for tool flight_radar.\nTool description: The world's most popular flight tracker API which helps you to create Flight tracker application, such as : flightradar24.com\nAPI description: Retrieve a list of flights operated by a specified airline using the RapidAPI Flight Radar service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "airline": {
+                "type": "string",
+                "description": "The ICAO code of the airline whose flights are to be listed. This value can be obtained from the 'icao' field returned by the /airlines/list or /flights/detail endpoints, or the 'operator' field from the /flights/search endpoint.",
+                "default": "AXM"
+            }
+        },
+        "required": [
+            "airline"
+        ]
+    }
+}

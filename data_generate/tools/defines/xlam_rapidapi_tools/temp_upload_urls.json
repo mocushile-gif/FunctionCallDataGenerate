@@ -1,0 +1,26 @@
+{
+    "name": "temp_upload_urls",
+    "description": "This is a sub-function API for tool fake_brightcove.\nTool description: Fake Brightcove API\nAPI description: Generates temporary upload URLs for a given video on a specific account using the provided source name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "source_name": {
+                "type": "string",
+                "description": "The name of the source."
+            },
+            "video_id": {
+                "type": "string",
+                "description": "The unique identifier for the video."
+            },
+            "account_id": {
+                "type": "string",
+                "description": "The unique identifier for the account."
+            }
+        },
+        "required": [
+            "source_name",
+            "video_id",
+            "account_id"
+        ]
+    }
+}

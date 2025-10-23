@@ -1,0 +1,16 @@
+{
+    "name": "letters",
+    "description": "This is a sub-function API for tool boggle.\nTool description: A Boggle solver - supply 16 letters representing the tiles on a Boggle board and the service will return all allowable words that can be found. Letters from the first row of the board should be listed first reading from left to right, followed by letters from the second row and so on down the board. On a traditional Boggle board, the letters 'Q' and 'U' appear together on a single square, in order to be consistent with this rule the web service will interpret the single letter 'Q' as the sequence 'QU'.\nAPI description: Finds possible words from the given Boggle board letters using the RapidAPI Codebox Boggle endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "letters": {
+                "type": "string",
+                "description": "A string representing the letters on the Boggle board."
+            }
+        },
+        "required": [
+            "letters"
+        ]
+    }
+}

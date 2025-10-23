@@ -1,0 +1,29 @@
+{
+    "name": "v1_convertcurrency",
+    "description": "This is a sub-function API for tool currency_converter_by_api_ninjas.\nTool description: Convert currencies using the latest exchange rates. See more info at https://api-ninjas.com/api/convertcurrency.\nAPI description: Converts an amount of currency from one type to another using the API Ninjas Convert Currency API endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "amount": {
+                "type": "number",
+                "description": "The amount of currency to convert.",
+                "default": 5000.0
+            },
+            "have": {
+                "type": "string",
+                "description": "The currency you currently hold. Must be a 3-character currency code (e.g., 'USD').",
+                "default": "USD"
+            },
+            "want": {
+                "type": "string",
+                "description": "The currency to which you want to convert. Must be a 3-character currency code (e.g., 'EUR').",
+                "default": "EUR"
+            }
+        },
+        "required": [
+            "amount",
+            "have",
+            "want"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{\"status\":\"success\",\"phone_type\":\"MOBILE\",\"country_code\":\"GB\",\"country_prefix\":\"44\",\"international_number\":\"+44 7400 123456\",\"local_number\":\"07400 123456\",\"e164\":\"+447400123456\"}"
+    },
+    "{'country_code': 'US', 'type': 'mobile'}": {
+        "error": "",
+        "response": "{'status': 'success', 'phone_type': 'MOBILE', 'country_code': 'US', 'country_prefix': '1', 'international_number': '+1 201-555-0123', 'local_number': '(201) 555-0123', 'e164': '+12015550123'}"
+    },
+    "{'country_code': 'GB', 'type': 'mobile'}": {
+        "error": "",
+        "response": "{'status': 'success', 'phone_type': 'MOBILE', 'country_code': 'GB', 'country_prefix': '44', 'international_number': '+44 7400 123456', 'local_number': '07400 123456', 'e164': '+447400123456'}"
+    },
+    "{'country_code': 'DE', 'type': 'mobile'}": {
+        "error": "",
+        "response": "{'status': 'success', 'phone_type': 'MOBILE', 'country_code': 'DE', 'country_prefix': '49', 'international_number': '+49 1512 3456789', 'local_number': '01512 3456789', 'e164': '+4915123456789'}"
+    },
+    "{'country_code': 'FR', 'type': 'fixed_line'}": {
+        "error": "",
+        "response": "{'status': 'success', 'phone_type': 'FIXED_LINE', 'country_code': 'FR', 'country_prefix': '33', 'international_number': '+33 1 23 45 67 89', 'local_number': '01 23 45 67 89', 'e164': '+33123456789'}"
+    },
+    "{'country_code': 'IN', 'type': 'mobile'}": {
+        "error": "",
+        "response": "{'status': 'success', 'phone_type': 'MOBILE', 'country_code': 'IN', 'country_prefix': '91', 'international_number': '+91 81234 56789', 'local_number': '081234 56789', 'e164': '+918123456789'}"
+    },
+    "{'country_code': 'FR', 'type': 'mobile'}": {
+        "error": "",
+        "response": "{'status': 'success', 'phone_type': 'MOBILE', 'country_code': 'FR', 'country_prefix': '33', 'international_number': '+33 6 12 34 56 78', 'local_number': '06 12 34 56 78', 'e164': '+33612345678'}"
+    },
+    "{'country_code': 'DE', 'type': 'toll_free'}": {
+        "error": "",
+        "response": "{'status': 'success', 'phone_type': 'TOLL_FREE', 'country_code': 'DE', 'country_prefix': '49', 'international_number': '+49 800 1234567890', 'local_number': '0800 1234567890', 'e164': '+498001234567890'}"
+    }
+}

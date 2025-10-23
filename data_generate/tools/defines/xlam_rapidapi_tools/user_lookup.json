@@ -1,0 +1,17 @@
+{
+    "name": "user_lookup",
+    "description": "This is a sub-function API for tool peerreach.\nTool description: The PeerReach API allows you to give context to the content produced by any Twitter profile.\r\n\r\nPeerReach has analysed over a 100 million accounts and can return information like, expertise area's. interests, gender, age and location.\r\n\r\nThis free version of our API allows you to make 2400 daily calls.\nAPI description: Fetches a detailed overview of available PeerReach data for a given Twitter user.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "screen_name": {
+                "type": "string",
+                "description": "The Twitter handle of the user to look up.",
+                "default": "fredwilson"
+            }
+        },
+        "required": [
+            "screen_name"
+        ]
+    }
+}

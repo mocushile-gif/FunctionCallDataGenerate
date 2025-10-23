@@ -1,0 +1,18 @@
+{
+    "name": "get_cat_image_info_by_id",
+    "description": "Get specific cat image information by ID from the Cat API.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_id": {
+          "type": "string",
+          "description": "Image ID to retrieve information for"
+        },
+        "save_to": {
+          "type": "string",
+          "description": "File path to save the result as JSON"
+        }
+      },
+      "required": ["image_id"]
+    }
+  } 

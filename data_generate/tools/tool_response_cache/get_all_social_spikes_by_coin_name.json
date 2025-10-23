@@ -1,0 +1,31 @@
+{
+    "{'coinname': 'Bitcoin'}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'coinname': 'Dogecoin'}": {
+        "error": "",
+        "response": []
+    },
+    "{'coinname': 'Ethereum'}": {
+        "error": "",
+        "response": {
+            "coinname": "Ethereum",
+            "spikes": {
+                "positive": {
+                    "sentiment_spike": 12.5,
+                    "weighted_sentiment_spike": 10.8,
+                    "mentions_spike": 15.3,
+                    "followers_spike": 8.7
+                },
+                "negative": {
+                    "sentiment_spike": -5.2,
+                    "weighted_sentiment_spike": -4.1,
+                    "mentions_spike": -3.8,
+                    "followers_spike": -2.4
+                }
+            },
+            "summary": "Ethereum has experienced significant positive spikes in social media activity over the last 24 hours, particularly in mentions and sentiment. However, there are minor negative spikes indicating some mixed reactions."
+        }
+    }
+}

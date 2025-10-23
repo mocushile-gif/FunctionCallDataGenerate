@@ -1,0 +1,19 @@
+{
+    "name": "get_cities",
+    "description": "This is a sub-function API for tool get_60k_radio_stations.\nTool description: More than 68,000 radio stations from different countries and various genres\nAPI description: Fetches a list of cities based on the provided criteria using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country_id": {
+                "type": "number",
+                "description": "The ID of the country to filter cities by. Default is None."
+            },
+            "keyword": {
+                "type": "string",
+                "description": "Keyword to filter cities, default is 'Jakarta'.",
+                "default": "Jakarta"
+            }
+        },
+        "required": []
+    }
+}

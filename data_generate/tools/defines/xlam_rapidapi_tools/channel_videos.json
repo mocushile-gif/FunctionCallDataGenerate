@@ -1,0 +1,33 @@
+{
+    "name": "channel_videos",
+    "description": "This is a sub-function API for tool youtube.\nTool description: With the YouTube Data API, you can add various YouTube features to your app. Use the API for search, videos, playlists, channels and more.\nAPI description: Fetches videos from a specified YouTube channel using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hl": {
+                "type": "string",
+                "description": "Language parameter for the results, default is 'en'.",
+                "default": "en"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "Cursor for pagination, default is None."
+            },
+            "gl": {
+                "type": "string",
+                "description": "Geolocation parameter, default is 'US'.",
+                "default": "US"
+            },
+            "is_id": {
+                "type": "string",
+                "description": "YouTube channel ID, default is 'UC-lHJZR3Gqxm24_Vd_AJ5Yw'.",
+                "default": "UCJ5v_MCY6GNUBTO8-D3XoAg"
+            },
+            "filter": {
+                "type": "string",
+                "description": "Filter key, default: `videos_latest`\n\nKeys you can enter:\n\n- `videos_latest`: Returns videos (by latest)\n- `streams_latest`: Returns live streams (by latest)\n- `shorts_latest`: Returns short videos (by latest)\n- `live_now`: Returns current live streams"
+            }
+        },
+        "required": []
+    }
+}

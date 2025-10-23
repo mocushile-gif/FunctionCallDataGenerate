@@ -1,0 +1,34 @@
+{
+    "name": "daily_water_intake",
+    "description": "This is a sub-function API for tool health_calculator_api.\nTool description: Welcome to the Health Calculator API (HCA). This API provides endpoints for calculating A Body Shape Index (ABSI), Adjusted Body Weight (AjBW), Basal Energy Expenditure (BEE) and Total Energy Expenditure (TEE) , Body Adiposity Index (BAI), Body Frame Size Index (BFSI), Body Mass Index (BMI), Body Fat Percentage, Basal Metabolic Rate (BMR), Daily Caloric Needs (DCN), Daily Water Intake (DWI), Estimated Average Glucose(eAG), Estimated Energy Requirement (EER), The FFMI (Fat-Free Mass Index), Ta...\nAPI description: The Daily Water Intake Recommendation endpoint calculates the daily recommended water intake based on factors such as weight, activity level, and climate. It provides flexibility by allowing you to specify the unit of measurement for the water intake, either in liters or ounces.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "weight": {
+                "type": "number",
+                "description": "The weight of the individual in **kilograms (kg)**.",
+                "default": 60.0
+            },
+            "activity_level": {
+                "type": "string",
+                "description": "The activity level of the individual. \n\nThe activity_level parameter accepts the following values:\n**sedentary** - Little to no exercise\n**lightly_active** - Light exercise/sports 1-3 days/week\n**moderately_active** - Moderate exercise/sports 3-5 days/week\n**very_active** - Hard exercise/sports 6-7 days/week\n**extra_active** - Very hard exercise/sports and physical job or 2x training",
+                "default": "sedentary"
+            },
+            "climate": {
+                "type": "string",
+                "description": "The climate in which the individual is located.\n\nThe climate parameter accepts the following values:\n**normal** - Average climate\n**hot** - Hot climate\n**cold** - Cold climate",
+                "default": "normal"
+            },
+            "unit": {
+                "type": "string",
+                "description": "The unit of measurement for the water intake. \n(Default) **ounces**\n Specify **liters** to get the result in liters instead.",
+                "default": "liters"
+            }
+        },
+        "required": [
+            "weight",
+            "activity_level",
+            "climate"
+        ]
+    }
+}

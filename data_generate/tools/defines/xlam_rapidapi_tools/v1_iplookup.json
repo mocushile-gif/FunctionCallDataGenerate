@@ -1,0 +1,17 @@
+{
+    "name": "v1_iplookup",
+    "description": "This is a sub-function API for tool ip_lookup_by_api_ninjas.\nTool description: Look up location information for any valid IP address. See more info at https://api-ninjas.com/api/iplookup.\nAPI description: Performs an IP address lookup using the API Ninjas IP Lookup API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "type": "string",
+                "description": "IP Address to query. Must be in the format A.B.C.D. For example: 73.9.149.180",
+                "default": "24.48.0.3"
+            }
+        },
+        "required": [
+            "address"
+        ]
+    }
+}

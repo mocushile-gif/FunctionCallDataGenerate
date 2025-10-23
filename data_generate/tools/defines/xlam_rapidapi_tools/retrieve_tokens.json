@@ -1,0 +1,17 @@
+{
+    "name": "retrieve_tokens",
+    "description": "This is a sub-function API for tool blur.\nTool description: Unofficial API for blur.io - 1,000+  requests/min\n\nSimple & high performance Blur API, backed by rotating proxies & API keys\n\nCheck out my Opensea / Looksrare / x2y2 API as well\nhttps://rapidapi.com/openseatools/api/opensea15\n\n- Crypto Payments Available\n\n- Lifetime Unlimited Requests Licenses Available\n\n- Private Plans with 16 / 32 / 64 / 128  requests/second Available\n\n- Ready made bots written in node.js already configured to work with RapidApi Available.\n\nJoin our Discord to inquire & fin...\nAPI description: This endpoint returns a set of NFTs based on the specified filter parameters.\n\nFilter for Listed Tokens: {\"cursor\":null,\"traits\":[],\"hasAsks\":true}\n\nTo be able to use the blur endpoints you need an authToken.\nYou can generate one by using the 'Retrieve authchallenge' endpoint with your wallet address in the body of the request.\nOnce you get the response, sign the 'message' string with ethers.js\nconst signature = await ethersSigner.signMessage(response.data.message);\nThen use the 'Retrieve authtoken' endpoin",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The identifier for the specific NFT collection.",
+                "default": "artgobblers"
+            }
+        },
+        "required": [
+            "slug"
+        ]
+    }
+}

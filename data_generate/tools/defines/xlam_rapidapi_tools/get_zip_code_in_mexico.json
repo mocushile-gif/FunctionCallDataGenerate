@@ -1,0 +1,17 @@
+{
+    "name": "get_zip_code_in_mexico",
+    "description": "This is a sub-function API for tool be_zips.\nTool description: Zip code data for north america.\nAPI description: Fetches and returns data for a given zip code in Mexico using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zipcode": {
+                "type": "string",
+                "description": "The Mexican zip code to retrieve data for.",
+                "default": "32390"
+            }
+        },
+        "required": [
+            "zipcode"
+        ]
+    }
+}

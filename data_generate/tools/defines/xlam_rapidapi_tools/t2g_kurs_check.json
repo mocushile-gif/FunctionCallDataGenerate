@@ -1,0 +1,21 @@
+{
+    "name": "t2g_kurs_check",
+    "description": "This is a sub-function API for tool words_world.\nTool description: Quote from world people\nAPI description: Checks the exchange rate of IDR to another currency on a given date.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to check the exchange rate, in the format 'YYYY-MM-DD'."
+            },
+            "valuta": {
+                "type": "string",
+                "description": "The currency to which IDR exchange rate is checked."
+            }
+        },
+        "required": [
+            "date",
+            "valuta"
+        ]
+    }
+}

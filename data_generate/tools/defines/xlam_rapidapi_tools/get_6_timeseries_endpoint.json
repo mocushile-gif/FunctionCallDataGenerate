@@ -1,0 +1,33 @@
+{
+    "name": "get_6_timeseries_endpoint",
+    "description": "This is a sub-function API for tool currenciesexchangerateapi.\nTool description: CurrenciesRatesAPI is a RESTful API that provides currency conversion and exchange rate information.This API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses.\nAPI description: Request Parameters:\n'start_date': \n'end_date': \n'base': \n'symbols': \nResponse: This endpoint returns the exchange rates for the specified currencies over the specified time period in JSON format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "end_date": {
+                "type": "string",
+                "description": "The end date for the timeseries data in 'YYYY-MM-DD' format.",
+                "default": "2023-02-02"
+            },
+            "start_date": {
+                "type": "string",
+                "description": "The start date for the timeseries data in 'YYYY-MM-DD' format.",
+                "default": "2023-01-01"
+            },
+            "base": {
+                "type": "string",
+                "description": "The base currency code (default is 'usd').",
+                "default": "usd"
+            },
+            "symbols": {
+                "type": "string",
+                "description": "The target currency code(s) (default is 'eur').",
+                "default": "eur"
+            }
+        },
+        "required": [
+            "end_date",
+            "start_date"
+        ]
+    }
+}

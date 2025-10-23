@@ -1,0 +1,17 @@
+{
+    "name": "bouncer_email_checker",
+    "description": "This is a sub-function API for tool bouncer_email_checker.\nTool description: This API is a fast and check email address syntax and deliverability validator\nAPI description: Validates an email address using the Bouncer Email Checker API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to be validated.",
+                "default": "example@gmail.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

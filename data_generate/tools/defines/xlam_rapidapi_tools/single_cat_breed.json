@@ -1,0 +1,17 @@
+{
+    "name": "single_cat_breed",
+    "description": "This is a sub-function API for tool catbreeddb.\nTool description: Get the basic metadata on all breeds of cats from around the world.\nAPI description: Fetches details of a single cat breed using the provided breed ID from the Cat Breed Database API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the cat breed to fetch details for.",
+                "default": 34.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

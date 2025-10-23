@@ -1,0 +1,20 @@
+{
+    "name": "get_the_market_calendar",
+    "description": "This is a sub-function API for tool tradier.\nTool description: Tradier is a brokerage platform for equity and options trading. It is designed to provide simple, intuitive, and inexpensive ways for users to place trades, check their balances, and transfer money. Tradier provides a RESTful API for accessing the platform's trading functions, account services, and real-time and historical market data.\nAPI description: Fetches the market calendar for a given month and year using the Tradier API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "month": {
+                "type": "string",
+                "description": "The month for which to retrieve the market calendar. Defaults to '11'.",
+                "default": "11"
+            },
+            "year": {
+                "type": "string",
+                "description": "The year for which to retrieve the market calendar. Defaults to '2013'.",
+                "default": "2013"
+            }
+        },
+        "required": []
+    }
+}

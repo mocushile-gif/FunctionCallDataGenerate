@@ -1,0 +1,90 @@
+{
+    "{'location': '102643743'}": {
+        "error": "",
+        "response": {
+            "observations": [
+                {
+                    "station": "Northolt",
+                    "distance": "21 km W",
+                    "time": "2023-07-18T07:50:00+01:00",
+                    "temperature": 15,
+                    "feelsLikeTemp": 15,
+                    "symbol": "d000",
+                    "windDirString": "SW",
+                    "windDir": 240,
+                    "windSpeed": 1,
+                    "windGust": 0,
+                    "pressure": 1020,
+                    "relHumidity": 82,
+                    "visibility": 9999
+                },
+                {
+                    "station": "London / Heathrow Airport",
+                    "distance": "23 km W",
+                    "time": "2023-07-18T07:50:00+01:00",
+                    "temperature": 14,
+                    "feelsLikeTemp": 14,
+                    "symbol": "d000",
+                    "windDirString": "S",
+                    "windDir": 200,
+                    "windSpeed": 2,
+                    "windGust": 0,
+                    "pressure": 1020,
+                    "relHumidity": 82,
+                    "visibility": 9999
+                },
+                {
+                    "station": "Biggin Hill",
+                    "distance": "24 km SE",
+                    "time": "2023-07-18T07:50:00+01:00",
+                    "temperature": 15,
+                    "feelsLikeTemp": 15,
+                    "symbol": "d000",
+                    "windDirString": "SW",
+                    "windDir": 210,
+                    "windSpeed": 3,
+                    "windGust": 0,
+                    "pressure": 1020,
+                    "relHumidity": 77,
+                    "visibility": 9999
+                }
+            ]
+        }
+    },
+    "{'location': '533823', 'lang': 'en'}": {
+        "error": "",
+        "response": "Invalid id n1b"
+    },
+    "{'location': '102643743', 'lang': 'en'}": {
+        "error": "",
+        "response": "{'observations': [{'station': 'London City Airport', 'distance': '13 km E', 'time': '2024-10-15T15:50:00+01:00', 'temperature': 17, 'feelsLikeTemp': 17, 'symbol': 'd000', 'windDirString': 'E', 'windDir': 90, 'windSpeed': 5, 'windGust': None, 'pressure': 1012, 'relHumidity': 83, 'visibility': 9999, 'snowDepth': None}, {'station': 'Northolt', 'distance': '21 km W', 'time': '2024-10-15T15:20:00+01:00', 'temperature': 17, 'feelsLikeTemp': 17, 'symbol': 'd300', 'windDirString': 'SE', 'windDir': 120, 'windSpeed': 5, 'windGust': None, 'pressure': 1012, 'relHumidity': 83, 'visibility': 9999, 'snowDepth': None}, {'station': 'London / Heathrow Airport', 'distance': '23 km W', 'time': '2024-10-15T15:50:00+01:00', 'temperature': 18, 'feelsLikeTemp': 18, 'symbol': 'd100', 'windDirString': 'E', 'windDir': 110, 'windSpeed': 5, 'windGust': None, 'pressure': 1012, 'relHumidity': 77, 'visibility': 9999, 'snowDepth': None}]}"
+    },
+    "{'location': 'Bratislava', 'lang': 'en'}": {
+        "error": "",
+        "response": "could not parse location: Bratislava"
+    },
+    "{'location': '102643744', 'lang': 'en'}": {
+        "error": "",
+        "response": "Invalid id n1b"
+    },
+    "{'location': '107621234', 'lang': 'en'}": {
+        "error": "",
+        "response": "Invalid id n1a"
+    },
+    "{'location': '160685678', 'lang': 'en'}": {
+        "error": "",
+        "response": "Invalid id n1a"
+    },
+    "{'location': '102643743', 'lang': 'es'}": {
+        "error": "",
+        "response": "{'observations': [{'station': 'London City Airport', 'distance': '13 km E', 'time': '2024-12-02T12:50:00Z', 'temperature': 10, 'feelsLikeTemp': 7, 'symbol': 'd400', 'windDirString': 'W', 'windDir': 270, 'windSpeed': 6, 'windGust': None, 'pressure': 1012, 'relHumidity': 71, 'visibility': 9999, 'snowDepth': None}, {'station': 'Northolt', 'distance': '21 km W', 'time': '2024-12-02T13:00:00Z', 'temperature': 10, 'feelsLikeTemp': 7, 'symbol': 'd400', 'windDirString': 'W', 'windDir': 290, 'windSpeed': 6, 'windGust': 10, 'pressure': 1012.9, 'relHumidity': 74, 'visibility': 60000, 'snowDepth': None}, {'station': 'London / Heathrow Airport', 'distance': '23 km W', 'time': '2024-12-02T13:00:00Z', 'temperature': 10, 'feelsLikeTemp': 10, 'symbol': 'd410', 'windDirString': 'W', 'windDir': 280, 'windSpeed': 6, 'windGust': 11, 'pressure': 1012.9, 'relHumidity': 73, 'visibility': 45000, 'snowDepth': None}]}"
+    },
+    "{'location': 'USW00094846', 'lang': 'en'}": {
+        "error": "",
+        "response": "could not parse location: USW00094846"
+    },
+    "{'location': '535322', 'lang': 'en'}": {
+        "error": "",
+        "response": "Invalid id n1b"
+    }
+}

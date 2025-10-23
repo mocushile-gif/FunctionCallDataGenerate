@@ -1,0 +1,21 @@
+{
+    "name": "top_popular_posts",
+    "description": "This is a sub-function API for tool reddit.\nTool description: Please join our telegram channel to get notified about updates. https://t.me/social_miner_news\nAPI description: Fetches the top popular posts from Reddit based on the specified time frame.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "time": {
+                "type": "string",
+                "description": "The time frame for fetching popular posts. It can be one of the following: 'hour', 'day', 'week', 'month', 'year', or 'all'.",
+                "default": "year"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "A cursor for pagination to fetch the next set of results. Defaults to None."
+            }
+        },
+        "required": [
+            "time"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "{'is_id': '9876543210'}": {
+        "error": "",
+        "response": {
+            "message": "Resource not found"
+        }
+    },
+    "{'is_id': '1234567890'}": {
+        "error": "",
+        "response": {
+            "message": "Resource not found"
+        }
+    },
+    "{'is_id': 'random'}": {
+        "error": "",
+        "response": {
+            "message": "Resource not found"
+        }
+    },
+    "{'is_id': '0'}": {
+        "error": "",
+        "response": {
+            "message": "Resource not found"
+        }
+    },
+    "{'is_id': '3'}": {
+        "error": "",
+        "response": {
+            "message": "Resource not found"
+        }
+    },
+    "{'is_id': '2710271472860038475'}": {
+        "error": "",
+        "response": "{'id': '2710271472860038475', 'image': 'https://www.instagram.com/p/CWc0YuAsoVL/media', 'largeImage': 'https://www.instagram.com/p/CWc0YuAsoVL/media/?size=l', 'mediumImage': 'https://www.instagram.com/p/CWc0YuAsoVL/media/?size=m', 'smallImage': 'https://www.instagram.com/p/CWc0YuAsoVL/media/?size=t', 'source': {'name': 'motivational_quotes4u_', 'url': 'https://www.instagram.com/p/CWc0YuAsoVL/'}}"
+    }
+}

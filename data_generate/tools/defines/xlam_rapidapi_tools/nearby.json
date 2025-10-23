@@ -1,0 +1,33 @@
+{
+    "name": "nearby",
+    "description": "This is a sub-function API for tool places_nearby_a_coordinates.\nTool description: Find places nearby a given coordinates.\nAPI description: Returns nearby places sorted by distance from the origin coordinates in ascending order.\n\nReturns up to 60 places per request.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lon": {
+                "type": "number",
+                "description": "Longitude of the origin point.",
+                "default": -73.987719
+            },
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the origin point.",
+                "default": 40.749779
+            },
+            "categories": {
+                "type": "string",
+                "description": "Categories of places to search for. Default is 'catering.cafe'.",
+                "default": "catering.cafe"
+            },
+            "radius": {
+                "type": "number",
+                "description": "Search radius in meters. Default is 500, maximum is 50000.",
+                "default": 500.0
+            }
+        },
+        "required": [
+            "lon",
+            "lat"
+        ]
+    }
+}

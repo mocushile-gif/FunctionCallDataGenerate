@@ -1,0 +1,23 @@
+{
+    "name": "get_movie_id_by_title",
+    "description": "This is a sub-function API for tool cinema_api.\nTool description: Welcome to our exciting new API! 🎉 Our API provides a seamless experience for accessing a treasure trove of information about catalogs, actors, movies, and streaming platforms. With just a few simple requests, you can unlock a world of entertainment possibilities!  Retrieve comprehensive details about catalogs, including genres, release dates, and more. Dive into the captivating lives of actors by exploring their biographies, filmography, and achievements. Discover the latest blockbusters, ti...\nAPI description: Use this endpoint to retrieve the ID of the movies you are interested in. You can search your movie or your preferite actor.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "Category of the search, either 'movies' or 'actors'.",
+                "default": "movies"
+            },
+            "title": {
+                "type": "string",
+                "description": "The title of the movie or the name of the actor to search for.",
+                "default": "Titanic"
+            }
+        },
+        "required": [
+            "category",
+            "title"
+        ]
+    }
+}

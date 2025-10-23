@@ -1,0 +1,35 @@
+{
+    "name": "random_joke",
+    "description": "This is a sub-function API for tool humor_jokes_and_memes.\nTool description: Humor API lets you search through 50,000 jokes, over 200,000 memes, and gifs. From Chuck Norris, over Knock Knock to Yo Mama jokes, you'll find something for every occasion.\nAPI description: Get a random joke.\nSee https://humorapi.com/docs/#Random-Joke for more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keywords": {
+                "type": "string",
+                "description": "A comma-separated list of keywords to filter the jokes (default is 'rocket').",
+                "default": "rocket"
+            },
+            "include_tags": {
+                "type": "string",
+                "description": "A comma-separated list of tags that the joke must have (default is 'one_liner').",
+                "default": "one_liner"
+            },
+            "min_rating": {
+                "type": "number",
+                "description": "The minimum rating of the joke between 0 and 10 (default is 7).",
+                "default": 7
+            },
+            "max_length": {
+                "type": "number",
+                "description": "The maximum length of the joke in characters (default is 200).",
+                "default": 200
+            },
+            "exclude_tags": {
+                "type": "string",
+                "description": "A comma-separated list of tags that the joke must not have (default is 'nsfw').",
+                "default": "nsfw"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "name": "equity_daily",
+    "description": "This is a sub-function API for tool quotient.\nTool description: Market data API for intraday (1-minutes) data, end-of-day data, options data, crypto, forex, live prices, fundamental data, trading signal, and much more, on various assets (Stocks, ETFs, Funds, Indices, Forex, Cryptocurrencies, etc), on worldwide stock exchanges (us, canada, australia, uk and europe).\nAPI description: Return end of day (daily) time series (Date, Open, High, Low, Close, Volume) given the input parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_from": {
+                "type": "string",
+                "description": "The query start date (supported format is : **YYYY-mm-dd**), e.g., `2018-04-01`.",
+                "default": "2018-04-01"
+            },
+            "to": {
+                "type": "string",
+                "description": "The query end date (supported format is : **YYYY-mm-dd**), e.g., `2020-04-21`.",
+                "default": "2020-04-21"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The symbol of the asset to look for, e.g. 'AAPL' for Apple Inc, 'MSFT' for Microsoft.",
+                "default": "AAPL"
+            },
+            "adjust": {
+                "type": "boolean",
+                "description": "Indicates whether prices should be adjusted. Defaults to None.",
+                "default": true
+            }
+        },
+        "required": [
+            "is_from",
+            "to",
+            "symbol"
+        ]
+    }
+}

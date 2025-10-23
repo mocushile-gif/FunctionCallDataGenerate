@@ -1,0 +1,42 @@
+{
+    "{'uniquetournamentid': 45}": {
+        "error": "",
+        "response": {
+            "tournament_id": 45,
+            "name": "2023 Global Soccer Championship",
+            "sport": "Football (Soccer)",
+            "status": "Ongoing",
+            "start_date": "2023-06-15",
+            "end_date": "2023-07-05",
+            "current_stage": "Quarterfinals",
+            "top_participants": [
+                "Team A (Country X)",
+                "Team B (Country Y)",
+                "Team C (Country Z)"
+            ],
+            "live_matches": [
+                {
+                    "match_id": 112,
+                    "teams": [
+                        "Team A vs Team B"
+                    ],
+                    "score": "2-1",
+                    "status": "Live - 30' HT"
+                }
+            ],
+            "next_matches": [
+                {
+                    "match_id": 113,
+                    "teams": [
+                        "Team C vs Team D"
+                    ],
+                    "scheduled_time": "2023-06-28T15:00:00Z"
+                }
+            ]
+        }
+    },
+    "{'uniquetournamentid': 23}": {
+        "error": "",
+        "response": "{'uniqueTournament': {'category': {'alpha2': 'IT', 'flag': 'italy', 'id': 31, 'name': 'Italy', 'slug': 'italy', 'sport': {'id': 1, 'name': 'Football', 'slug': 'football'}}, 'country': {}, 'crowdsourcingEnabled': False, 'displayInverseHomeAwayTeams': False, 'endDateTimestamp': 1716681600, 'hasPerformanceGraphFeature': True, 'hasPlayoffSeries': False, 'hasRounds': True, 'hasStandingsGroups': False, 'id': 23, 'linkedUniqueTournaments': [], 'logo': {'id': 833840, 'md5': 'b28e6c9523fa75349e9f97df8dbb1053'}, 'lowerDivisions': [{'category': {'alpha2': 'IT', 'flag': 'italy', 'id': 31, 'name': 'Italy', 'slug': 'italy', 'sport': {'id': 1, 'name': 'Football', 'slug': 'football'}}, 'country': {}, 'crowdsourcingEnabled': False, 'displayInverseHomeAwayTeams': False, 'endDateTimestamp': 1688083200, 'hasPerformanceGraphFeature': True, 'hasPlayoffSeries': False, 'hasRounds': True, 'id': 53, 'logo': {'id': 306746, 'md5': 'e5cfc624f43275ef6398c7d3bb098938'}, 'name': 'Serie B', 'periodLength': {}, 'primaryColorHex': '#027d32', 'secondaryColorHex': '#f18f01', 'slug': 'serie-b', 'startDateTimestamp': 1660329900, 'tier': 2}], 'mostTitles': 36, 'mostTitlesTeams': [{'country': {'alpha2': 'IT', 'name': 'Italy'}, 'disabled': False, 'gender': 'M', 'id': 2687, 'name': 'Juventus', 'nameCode': 'JUV', 'national': False, 'shortName': 'Juventus', 'slug': 'juventus', 'sport': {'id': 1, 'name': 'Football', 'slug': 'football'}, 'teamColors': {'primary': '#ffffff', 'secondary': '#000000', 'text': '#000000'}, 'type': 0, 'userCount': 693985}], 'name': 'Serie A', 'periodLength': {}, 'primaryColorHex': '#09519e', 'secondaryColorHex': '#008fd7', 'slug': 'serie-a', 'startDateTimestamp': 1692403200, 'tier': 1, 'titleHolder': {'country': {'alpha2': 'IT', 'name': 'Italy'}, 'disabled': False, 'gender': 'M', 'id': 2714, 'name': 'Napoli', 'nameCode': 'NAP', 'national': False, 'shortName': 'Napoli', 'slug': 'napoli', 'sport': {'id': 1, 'name': 'Football', 'slug': 'football'}, 'teamColors': {'primary': '#008cea', 'secondary': '#ffffff', 'text': '#ffffff'}, 'type':"
+    }
+}

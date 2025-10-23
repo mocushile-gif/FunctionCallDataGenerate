@@ -1,0 +1,17 @@
+{
+    "name": "get_a_specific_item_by_id",
+    "description": "This is a sub-function API for tool lost_ark.\nTool description: An API to get information for the game Lost Ark\nAPI description: Fetches a specific item from an API using its id.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the item to fetch.",
+                "default": "99020"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "{'cmd': 'bsa'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?><root><uri><![CDATA[http://api.bart.gov/api/bsa.aspx?cmd=bsa]]></uri><date>07/11/2023</date>\n<time>08:00:01 AM PDT</time>\n<bsa><station></station>\n<description><![CDATA[No delays reported.]]></description>\n<sms_text><![CDATA[No delays reported.]]></sms_text></bsa><message></message></root>"
+    },
+    "{'cmd': 'bsa', 'orig': 'EMBR'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?><root><uri><![CDATA[http://api.bart.gov/api/bsa.aspx?cmd=bsa&orig=EMBR]]></uri><date>07/16/2023</date>\n<time>01:22:01 AM PDT</time>\n<bsa><station>EMBR</station>\n<description><![CDATA[No delays reported.]]></description>\n<sms_text><![CDATA[No delays reported.]]></sms_text></bsa><message></message></root>"
+    }
+}

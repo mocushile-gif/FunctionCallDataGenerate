@@ -1,0 +1,17 @@
+{
+    "name": "all_strains_descending",
+    "description": "This is a sub-function API for tool weed_strain.\nTool description: Basic information on all weed strain. Build mobile apps for weed strains.\nAPI description: Fetches a list of all weed strains ordered in a specified descending order from the RapidAPI Weed Strain API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ordering": {
+                "type": "string",
+                "description": "The attribute by which to order the strains in descending order (e.g., 'name', 'thc', etc.).",
+                "default": "-strain"
+            }
+        },
+        "required": [
+            "ordering"
+        ]
+    }
+}

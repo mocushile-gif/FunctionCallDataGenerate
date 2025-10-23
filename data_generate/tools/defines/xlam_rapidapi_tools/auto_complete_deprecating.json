@@ -1,0 +1,17 @@
+{
+    "name": "auto_complete_deprecating",
+    "description": "This is a sub-function API for tool kohls.\nTool description: Get online shopping deals, discounts and rewards from fashion to beauty, home furniture, clothing, shoes, electronics and more...\nAPI description: Fetch auto-complete suggestions for a given query from the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The term or phrase for which to get suggestions.",
+                "default": "bikini tops"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

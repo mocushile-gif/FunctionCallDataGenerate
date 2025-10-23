@@ -1,0 +1,29 @@
+{
+    "name": "getcurrentbyvaluegrowthmomentum",
+    "description": "This is a sub-function API for tool earningsdata.\nTool description: Get upcoming and historic earnings data for stocks! Contains historical data from 2020-05.\nAPI description: Fetches a list of stocks based on the specified current value, growth, and momentum criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "momentum": {
+                "type": "string",
+                "description": "The momentum criteria for filtering stocks.",
+                "default": "A"
+            },
+            "growth": {
+                "type": "string",
+                "description": "The growth criteria for filtering stocks.",
+                "default": "A"
+            },
+            "value": {
+                "type": "string",
+                "description": "The value criteria for filtering stocks.",
+                "default": "A"
+            }
+        },
+        "required": [
+            "momentum",
+            "growth",
+            "value"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "fetch_by_region",
+    "description": "This is a sub-function API for tool magical_taske.\nTool description: Fetch sceneries and getaways in Kenya.\nAPI description: This endpoint fetches records by region as defined in the `ABOUT` section above. You have to provide region and a limit of the number of records returned.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "region": {
+                "type": "string",
+                "description": "Type of record you want. Refer to README above to see accepted types.",
+                "default": "Central"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of records to return.",
+                "default": 5.0
+            }
+        },
+        "required": [
+            "region",
+            "limit"
+        ]
+    }
+}

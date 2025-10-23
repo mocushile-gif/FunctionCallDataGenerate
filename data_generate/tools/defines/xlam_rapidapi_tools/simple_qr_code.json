@@ -1,0 +1,21 @@
+{
+    "name": "simple_qr_code",
+    "description": "This is a sub-function API for tool custom_qr_code_with_logo_v2.\nTool description: Custom QR codes with a logo allow businesses to create personalized QR codes with their own brand logo integrated into the code. Try it today!\nAPI description: Generates a simple QR code for the given link with optional color customization using the RapidAPI Toolbench service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "link": {
+                "type": "string",
+                "description": "The URL that the QR code will direct to.",
+                "default": "https://www.google.com/"
+            },
+            "color": {
+                "type": "string",
+                "description": "The color of the QR code in hexadecimal format. Default is None, which results in the default color (#000)."
+            }
+        },
+        "required": [
+            "link"
+        ]
+    }
+}

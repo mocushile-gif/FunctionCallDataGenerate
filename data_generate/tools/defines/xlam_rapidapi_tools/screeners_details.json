@@ -1,0 +1,17 @@
+{
+    "name": "screeners_details",
+    "description": "This is a sub-function API for tool seeking_alpha_finance.\nTool description: Seeking Alpha is the world’s largest investing community. Seeking Alpha’s content has unparalleled breadth and depth: from stocks, ETFs and mutual funds to commodities and cryptocurrency.   **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters\nAPI description: Get more details about screener. Ex. https://seekingalpha.com/screeners/96793299-Top-Rated-Stocks",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "screener_id": {
+                "type": "string",
+                "description": "The unique identifier of the screener from the Screeners list and Screeners filters.",
+                "default": "96793299"
+            }
+        },
+        "required": [
+            "screener_id"
+        ]
+    }
+}

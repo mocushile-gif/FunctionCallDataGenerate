@@ -1,0 +1,38 @@
+{
+    "name": "scorecards",
+    "description": "This is a sub-function API for tool live_golf_data.\nTool description: PGA Tour and LIV Tour live golf data for your application needs such as rankings, leaderboards, scorecards, and results.\nAPI description: Fetch a scorecard for a given `tournId`, `year`, `playerId`, and `roundId`.  Scorecards include shot-by-shot granularity.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "orgid": {
+                "type": "string",
+                "description": "Identifier for the organization (1 for PGA Tour, 2 for LIV Tour)."
+            },
+            "year": {
+                "type": "string",
+                "description": "Year of the tournament.",
+                "default": "2022"
+            },
+            "playerid": {
+                "type": "string",
+                "description": "Identifier for the player.",
+                "default": "47504"
+            },
+            "tournid": {
+                "type": "string",
+                "description": "Identifier for the tournament.",
+                "default": "475"
+            },
+            "roundid": {
+                "type": "string",
+                "description": "Identifier for the round. Defaults to None."
+            }
+        },
+        "required": [
+            "orgid",
+            "year",
+            "playerid",
+            "tournid"
+        ]
+    }
+}

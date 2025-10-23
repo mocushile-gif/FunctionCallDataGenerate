@@ -1,0 +1,23 @@
+{
+    "name": "tour_rankings",
+    "description": "This is a sub-function API for tool golf_leaderboard_data.\nTool description: Major golf tours, fixtures, results and up to the minute leaderboard data to enhance your applications.\nAPI description: See player rankings accross the various tours given a `tour_id` and `season`",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tour_id": {
+                "type": "number",
+                "description": "The identifier for the particular golf tour.",
+                "default": 2.0
+            },
+            "season": {
+                "type": "number",
+                "description": "The year representing the season of the golf tour.",
+                "default": 2021.0
+            }
+        },
+        "required": [
+            "tour_id",
+            "season"
+        ]
+    }
+}

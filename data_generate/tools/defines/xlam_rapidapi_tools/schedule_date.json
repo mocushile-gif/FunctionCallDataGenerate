@@ -1,0 +1,15 @@
+{
+    "name": "schedule_date",
+    "description": "This is a sub-function API for tool baseball.\nTool description: Baseball Leagues &amp; Cups with Livescore, Odds, Statistics, Historical Data, and more ...\nAPI description: Fetches the baseball game schedule for a given date using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date in the format 'YYYY-MM-DD' for which to fetch the baseball schedule. Defaults to '2021-07-30'.",
+                "default": "2021-07-30"
+            }
+        },
+        "required": []
+    }
+}

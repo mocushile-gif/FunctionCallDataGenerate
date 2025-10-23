@@ -1,0 +1,34 @@
+{
+    "{'year': '2023', 'round': '5'}": {
+        "error": "",
+        "response": "The qualifying results for the 2023 Formula 1 season, Round 5, include detailed information about the starting grid positions determined during the qualifying session. This data typically highlights the fastest lap times achieved by each driver, their respective teams, and the order in which they will start the race. For example, it may show that Driver A from Team X secured pole position with a lap time of 1:20.123, followed by Driver B from Team Y in second place. This information is crucial for understanding the competitive dynamics leading into the race."
+    },
+    "{'round': '5', 'year': '2021'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<?xml-stylesheet type=\"text/xsl\" href=\"/schemas/mrd-1.5.xsl\"?>\n<MRData xmlns=\"http://ergast.com/mrd/1.5\" series=\"f1\" url=\"http://ergast.com/api/f1/2021/5/qualifying\" limit=\"30\" offset=\"0\" total=\"19\">\n\t<RaceTable season=\"2021\" round=\"5\">\n\t\t<Race season=\"2021\" round=\"5\" url=\"http://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix\">\n\t\t\t<RaceName>Monaco Grand Prix</RaceName>\n\t\t\t<Circuit circuitId=\"monaco\" url=\"http://en.wikipedia.org/wiki/Circuit_de_Monaco\">\n\t\t\t\t<CircuitName>Circuit de Monaco</CircuitName>\n\t\t\t\t<Location lat=\"43.7347\" long=\"7.42056\">\n\t\t\t\t\t<Locality>Monte-Carlo</Locality>\n\t\t\t\t\t<Country>Monaco</Country>\n\t\t\t\t</Location>\n\t\t\t</Circuit>\n\t\t\t<Date>2021-05-23</Date>\n\t\t\t<Time>13:00:00Z</Time>\n\t\t\t<QualifyingList>\n\t\t\t\t<QualifyingResult number=\"16\" position=\"1\">\n\t\t\t\t\t<Driver driverId=\"leclerc\" code=\"LEC\" url=\"http://en.wikipedia.org/wiki/Charles_Leclerc\">\n\t\t\t\t\t\t<PermanentNumber>16</PermanentNumber>\n\t\t\t\t\t\t<GivenName>Charles</GivenName>\n\t\t\t\t\t\t<FamilyName>Leclerc</FamilyName>\n\t\t\t\t\t\t<DateOfBirth>1997-10-16</DateOfBirth>\n\t\t\t\t\t\t<Nationality>Monegasque</Nationality>\n\t\t\t\t\t</Driver>\n\t\t\t\t\t<Constructor constructorId=\"ferrari\" url=\"http://en.wikipedia.org/wiki/Scuderia_Ferrari\">\n\t\t\t\t\t\t<Name>Ferrari</Name>\n\t\t\t\t\t\t<Nationality>Italian</Nationality>\n\t\t\t\t\t</Constructor>\n\t\t\t\t\t<Q1>1:11.113</Q1>\n\t\t\t\t\t<Q2>1:10.597</Q2>\n\t\t\t\t\t<Q3>1:10.346</Q3>\n\t\t\t\t</QualifyingResult>\n\t\t\t\t<QualifyingResult number=\"33\" position=\"2\">\n\t\t\t\t\t<Driver driverId=\"max_verstappen\" code=\"VER\" u"
+    },
+    "{'year': '2025', 'round': '8'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<?xml-stylesheet type=\"text/xsl\" href=\"/schemas/mrd-1.5.xsl\"?>\n<MRData xmlns=\"http://ergast.com/mrd/1.5\" series=\"f1\" url=\"http://ergast.com/api/f1/2025/8/qualifying\" limit=\"30\" offset=\"0\" total=\"0\">\n\t<RaceTable season=\"2025\" round=\"8\">\n\t</RaceTable>\n</MRData>\n"
+    },
+    "{'year': '2025', 'round': '9'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<?xml-stylesheet type=\"text/xsl\" href=\"/schemas/mrd-1.5.xsl\"?>\n<MRData xmlns=\"http://ergast.com/mrd/1.5\" series=\"f1\" url=\"http://ergast.com/api/f1/2025/9/qualifying\" limit=\"30\" offset=\"0\" total=\"0\">\n\t<RaceTable season=\"2025\" round=\"9\">\n\t</RaceTable>\n</MRData>\n"
+    },
+    "{'year': '2025', 'round': '3'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<?xml-stylesheet type=\"text/xsl\" href=\"/schemas/mrd-1.5.xsl\"?>\n<MRData xmlns=\"http://ergast.com/mrd/1.5\" series=\"f1\" url=\"http://ergast.com/api/f1/2025/3/qualifying\" limit=\"30\" offset=\"0\" total=\"0\">\n\t<RaceTable season=\"2025\" round=\"3\">\n\t</RaceTable>\n</MRData>\n"
+    },
+    "{'year': '2025', 'round': '2'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<?xml-stylesheet type=\"text/xsl\" href=\"/schemas/mrd-1.5.xsl\"?>\n<MRData xmlns=\"http://ergast.com/mrd/1.5\" series=\"f1\" url=\"http://ergast.com/api/f1/2025/2/qualifying\" limit=\"30\" offset=\"0\" total=\"0\">\n\t<RaceTable season=\"2025\" round=\"2\">\n\t</RaceTable>\n</MRData>\n"
+    },
+    "{'year': '1993', 'round': '16'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<?xml-stylesheet type=\"text/xsl\" href=\"/schemas/mrd-1.5.xsl\"?>\n<MRData xmlns=\"http://ergast.com/mrd/1.5\" series=\"f1\" url=\"http://ergast.com/api/f1/1993/16/qualifying\" limit=\"30\" offset=\"0\" total=\"0\">\n\t<RaceTable season=\"1993\" round=\"16\">\n\t</RaceTable>\n</MRData>\n"
+    },
+    "{'year': '1993', 'round': '14'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<?xml-stylesheet type=\"text/xsl\" href=\"/schemas/mrd-1.5.xsl\"?>\n<MRData xmlns=\"http://ergast.com/mrd/1.5\" series=\"f1\" url=\"http://ergast.com/api/f1/1993/14/qualifying\" limit=\"30\" offset=\"0\" total=\"0\">\n\t<RaceTable season=\"1993\" round=\"14\">\n\t</RaceTable>\n</MRData>\n"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "result": 1
+        }
+    },
+    "{'sides': 25}": {
+        "error": "",
+        "response": "{'result': 14}"
+    },
+    "{'sides': 12}": {
+        "error": "",
+        "response": "{'result': 1}"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "get_live_streams_livestreamid",
+    "description": "This is a sub-function API for tool api_video.\nTool description: api.video is the end-to-end solution that enables you to easily build, scale, and operate on-demand and live-streaming videos in your app, software, or platform. Test it for free on our Sandbox environment.\nAPI description: Retrieves live stream details using the given livestream ID from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "livestreamid": {
+                "type": "string",
+                "description": "The ID of the live stream to fetch details for."
+            }
+        },
+        "required": [
+            "livestreamid"
+        ]
+    }
+}

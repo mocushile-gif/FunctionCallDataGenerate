@@ -1,0 +1,35 @@
+{
+    "name": "get_app_reviews",
+    "description": "This is a sub-function API for tool ios_store.\nTool description: Get API access to iOS Store data\nAPI description: This endpoint allows us to fetch app reviews given app Id",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sort": {
+                "type": "string",
+                "description": "This parameter is to control sorting options in the iOS store.\nValid values - helpful | recent",
+                "default": "helpful"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country code for the iOS store to fetch reviews from.",
+                "default": "us"
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number of the reviews to fetch.",
+                "default": "1"
+            },
+            "appid": {
+                "type": "string",
+                "description": "The ID of the app for which to fetch reviews.",
+                "default": "com.rovio.baba"
+            }
+        },
+        "required": [
+            "sort",
+            "country",
+            "page",
+            "appid"
+        ]
+    }
+}

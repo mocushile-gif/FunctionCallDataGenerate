@@ -1,0 +1,24 @@
+{
+    "{'username': '@StuffMadeHere'}": {
+        "error": "",
+        "response": {
+            "data": {}
+        }
+    },
+    "{'username': 'SocialMediaMaven2023'}": {
+        "error": "",
+        "response": "{'data': {}}"
+    },
+    "{'username': 'CampaignInfluencerHub2023'}": {
+        "error": "",
+        "response": "{'data': {}}"
+    },
+    "{'username': 'techcrunch'}": {
+        "error": "",
+        "response": "{'data': {'user': {'result': {'__typename': 'User', 'id': 'VXNlcjo4MTY2NTM=', 'rest_id': '816653', 'affiliates_highlighted_label': {}, 'has_nft_avatar': False, 'legacy': {'blocked_by': False, 'blocking': False, 'can_dm': True, 'can_media_tag': False, 'created_at': 'Wed Mar 07 01:27:09 +0000 2007', 'default_profile': False, 'default_profile_image': False, 'description': 'Technology news and analysis with a focus on founders and startup teams. Got a tip? https://t.co/J0WxnZxSRY', 'entities': {'description': {'urls': [{'display_url': 'techcrunch.com/tips', 'expanded_url': 'http://techcrunch.com/tips', 'url': 'https://t.co/J0WxnZxSRY', 'indices': [84, 107]}]}, 'url': {'urls': [{'display_url': 'techcrunch.com/newsletters', 'expanded_url': 'https://techcrunch.com/newsletters', 'url': 'https://t.co/cGra0cdPWg', 'indices': [0, 23]}]}}, 'fast_followers_count': 0, 'favourites_count': 7635, 'follow_request_sent': False, 'followed_by': False, 'followers_count': 10301964, 'following': False, 'friends_count': 468, 'has_custom_timelines': True, 'is_translator': False, 'listed_count': 104957, 'location': 'San Francisco, CA', 'media_count': 50800, 'muting': False, 'name': 'TechCrunch', 'normal_followers_count': 10301964, 'notifications': False, 'pinned_tweet_ids_str': [], 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/816653/1714148600', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1096066608034918401/m8wnTWsX_normal.png', 'profile_interstitial_type': '', 'protected': False, 'screen_name': 'TechCrunch', 'statuses_count': 272985, 'translator_type': 'none', 'url': 'https://t.co/cGra0cdPWg', 'verified': False, 'want_retweets': False, 'withheld_in_countries': []}, 'professional': {'rest_id': '1552001907622920193', 'professional_type': 'Business', 'category': [{'id': 580, 'name': 'Media & News Company'}]}, 'smart_blocked_by': False, 'smart_blocking': False, 'super_follow_eligible': False, 'super_followed_by': False, 'super_following': False, 'legacy_extended_profile': {}, 'is_profile_translatable': Fa"
+    },
+    "{'username': 'elonmusk'}": {
+        "error": "",
+        "response": "{'data': {'user': {'result': {'__typename': 'User', 'id': 'VXNlcjo0NDE5NjM5Nw==', 'rest_id': '44196397', 'affiliates_highlighted_label': {'label': {'url': {'urlType': 'DeepLink', 'url': 'https://twitter.com/Twitter'}, 'badge': {'url': 'https://pbs.twimg.com/profile_images/1488548719062654976/u6qfBBkF_bigger.jpg'}, 'description': 'Twitter', 'userLabelType': 'BusinessLabel'}}, 'has_nft_avatar': False, 'legacy': {'blocked_by': False, 'blocking': False, 'can_dm': False, 'can_media_tag': False, 'created_at': 'Tue Jun 02 20:12:29 +0000 2009', 'default_profile': False, 'default_profile_image': False, 'description': '', 'entities': {'description': {'urls': []}}, 'fast_followers_count': 0, 'favourites_count': 26836, 'follow_request_sent': False, 'followed_by': False, 'followers_count': 146179254, 'following': False, 'friends_count': 341, 'has_custom_timelines': True, 'is_translator': False, 'listed_count': 125537, 'location': '', 'media_count': 1605, 'muting': False, 'name': 'Elon Musk', 'normal_followers_count': 146179254, 'notifications': False, 'pinned_tweet_ids_str': [], 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/44196397/1576183471', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1590968738358079488/IY9Gx6Ok_normal.jpg', 'profile_interstitial_type': '', 'protected': False, 'screen_name': 'elonmusk', 'statuses_count': 27556, 'translator_type': 'none', 'verified': False, 'want_retweets': False, 'withheld_in_countries': []}, 'smart_blocked_by': False, 'smart_blocking': False, 'super_follow_eligible': True, 'super_followed_by': False, 'super_following': False, 'legacy_extended_profile': {}, 'is_profile_translatable': False}}}}"
+    }
+}

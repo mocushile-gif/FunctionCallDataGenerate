@@ -1,0 +1,23 @@
+{
+    "name": "matches_v2_get_pregame_form",
+    "description": "This is a sub-function API for tool livescore_v2.\nTool description: This API helps to query for football, cricket, basketball, tennis, hockey matches, leagues, news, etc... to create a sporting site/application such as livescore.com\nAPI description: Fetch pregame form information for competitors in a specified category and event ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "The sport category, must be one of the following: 'soccer', 'cricket', 'basketball', 'tennis', 'hockey'.",
+                "default": "soccer"
+            },
+            "eid": {
+                "type": "number",
+                "description": "The event ID, which is the value of the Eid field returned by endpoints such as .../matches/v2/list-by-league, .../matches/v2/list-by-date, .../matches/v2/list-live, or .../competitions/detail.",
+                "default": 702093.0
+            }
+        },
+        "required": [
+            "category",
+            "eid"
+        ]
+    }
+}

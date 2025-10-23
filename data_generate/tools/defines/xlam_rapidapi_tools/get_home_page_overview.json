@@ -1,0 +1,14 @@
+{
+    "name": "get_home_page_overview",
+    "description": "This is a sub-function API for tool spotify_scraper.\nTool description: An all-in-one scraper for scraping everything on Spotify, and a highly available download solution for tracks, lyrics and episode previews.\nAPI description: This endpoint fetches trending information displayed on the Spotify home page as an incognito visitor.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "region": {
+                "type": "string",
+                "description": "Region code (ISO 3166 alpha-2) for localized results. Defaults to `None`, which will fallback to `US` if unsupported."
+            }
+        },
+        "required": []
+    }
+}

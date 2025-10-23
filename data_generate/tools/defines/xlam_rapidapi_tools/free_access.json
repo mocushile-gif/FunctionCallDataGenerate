@@ -1,0 +1,17 @@
+{
+    "name": "free_access",
+    "description": "This is a sub-function API for tool walnuttradingdash.\nTool description: Algo trading dashboard to backtest strategies with over 170 digital assets (crypto, forex, stocks) and 30 technical analysis strategies. Performance metrics, charts, and interactive visualizations available in real-time.\nAPI description: The api call will grant access to a unique URL to access the dashboard (demo [here](https://walnuthillai.com/wp-content/themes/blankslate-child/videos/demo_walnuttradingdash.mp4)). The FREE version grants access to half of the assets and technical indicators / strategies and any time period from 2021/06 to 2022/1.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "get_dash_url": {
+                "type": "string",
+                "description": "The URL parameter required to get access to the dashboard.",
+                "default": "True"
+            }
+        },
+        "required": [
+            "get_dash_url"
+        ]
+    }
+}

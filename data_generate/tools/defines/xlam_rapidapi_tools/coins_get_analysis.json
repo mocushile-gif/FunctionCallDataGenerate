@@ -1,0 +1,32 @@
+{
+    "name": "coins_get_analysis",
+    "description": "This is a sub-function API for tool investing_cryptocurrency_markets.\nTool description: These APIs provide data of all cryptocurrencies, markets, ideal for tracking prices and exchange rates.\nAPI description: Fetches expert analysis opinion for a specific cryptocurrency pair from the Investing Cryptocurrency Markets API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pair_id": {
+                "type": "number",
+                "description": "The identifier for the cryptocurrency pair. This value can be obtained from endpoints like coins/list, coins/search, and coins/list-pairs.",
+                "default": 1057391.0
+            },
+            "time_utc_offset": {
+                "type": "number",
+                "description": "The UTC offset in seconds, e.g., UTC+8 hours is 28800 seconds. Default is 28800 (UTC+8).",
+                "default": 28800.0
+            },
+            "lang_id": {
+                "type": "number",
+                "description": "The language identifier, as returned from the get-meta-data endpoint. Default is 1.",
+                "default": 1.0
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for pagination. Default is 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "pair_id"
+        ]
+    }
+}

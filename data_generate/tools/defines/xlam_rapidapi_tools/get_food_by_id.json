@@ -1,0 +1,17 @@
+{
+    "name": "get_food_by_id",
+    "description": "This is a sub-function API for tool ghana_food_recipe_api.\nTool description: Ghana has a rich culture of food,with 1000s of food recipes. This api will enable both local and international developers build apps tailored around this rich culture of food or for developers building recipe apps specific to countries.More recipe to be added. Contact the developer if you love to help. \nAPI description: Fetches food information from a remote API using a given food ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the food item to retrieve information for.",
+                "default": "63c2e83b09852be5facb894a"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

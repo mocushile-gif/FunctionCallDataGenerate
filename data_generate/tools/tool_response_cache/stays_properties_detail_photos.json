@@ -1,0 +1,31 @@
+{
+    "{'id_detail': 'cr/78901-luxury-resort-venue', 'language_code': 'en-us'}": {
+        "error": "",
+        "response": {
+            "property_id": "cr/78901-luxury-resort-venue",
+            "language": "en-us",
+            "photos": [
+                {
+                    "url": "https://example.com/photo123.jpg",
+                    "caption": "Oceanfront view from luxury suite",
+                    "tags": [
+                        "pool",
+                        "beach",
+                        "room"
+                    ]
+                },
+                {
+                    "url": "https://example.com/photo456.jpg",
+                    "caption": "Modern hotel lobby interior",
+                    "tags": [
+                        "reception",
+                        "interior",
+                        "amenities"
+                    ]
+                }
+            ],
+            "total_photos": 15,
+            "last_updated": "2023-09-15T14:30:00Z"
+        }
+    }
+}

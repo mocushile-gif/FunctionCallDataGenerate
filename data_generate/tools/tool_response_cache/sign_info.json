@@ -1,0 +1,21 @@
+{
+    "{'useragent': 'ChatGPT'}": {
+        "error": "",
+        "response": {
+            "apptoken": "33d57ade8c02dbc5a333db99ff9ae26a",
+            "signinfo": {
+                "charcodes": "value_hidden_in_BASIC_plan",
+                "extracode": "value_hidden_in_BASIC_plan",
+                "end": "64a6ffbb",
+                "key": "QhdwZlJFCotb5IMlWMYk5V84XKLe5KZ0",
+                "start": "9053"
+            },
+            "validsign": false,
+            "useragent": "ChatGPT"
+        }
+    },
+    "{'useragent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'}": {
+        "error": "",
+        "response": "{'apptoken': '33d57ade8c02dbc5a333db99ff9ae26a', 'signinfo': {'charcodes': 'value_hidden_in_BASIC_plan', 'extracode': 'value_hidden_in_BASIC_plan', 'end': '653286c6', 'key': 'ZQA9HPtVxkqF292DHHQlYNhx7WRQsAKU', 'start': '13190'}, 'validsign': False, 'useragent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'}"
+    }
+}

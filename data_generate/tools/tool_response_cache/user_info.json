@@ -1,0 +1,35 @@
+{
+    "{'type': 'rapidapi-userinfo', 'username': 'khaby.lame'}": {
+        "error": "",
+        "response": {
+            "username": "khaby.lame",
+            "full_name": "Khabane Lame",
+            "bio": "The most followed TikToker known for his silent comedy and relatable content.",
+            "followers_count": 161000000,
+            "following_count": 100,
+            "likes_count": 2500000000,
+            "profile_picture_url": "https://example.com/khaby_lame_profile.jpg",
+            "verified": true,
+            "region": "Italy",
+            "account_creation_date": "2018-03-15",
+            "recent_videos": [
+                {
+                    "video_id": "1234567890",
+                    "description": "Simplifying life, one video at a time.",
+                    "likes": 5000000,
+                    "comments": 20000,
+                    "shares": 100000,
+                    "video_url": "https://example.com/video1.mp4"
+                },
+                {
+                    "video_id": "0987654321",
+                    "description": "When life gives you lemons...",
+                    "likes": 4500000,
+                    "comments": 18000,
+                    "shares": 95000,
+                    "video_url": "https://example.com/video2.mp4"
+                }
+            ]
+        }
+    }
+}

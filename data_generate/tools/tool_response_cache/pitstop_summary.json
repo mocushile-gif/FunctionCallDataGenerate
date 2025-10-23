@@ -1,0 +1,20 @@
+{
+    "{'year': 2023, 'location': 'abu dhabi'}": {
+        "error": "",
+        "response": {
+            "race": "2023 Abu Dhabi Grand Prix",
+            "year": 2023,
+            "location": "Abu Dhabi",
+            "pitstop_statistics": {
+                "total_drivers": 20,
+                "average_pitstops_per_driver": 2.1,
+                "fastest_pitstop_time": "2.2 seconds",
+                "fastest_pitstop_team": "Red Bull Racing",
+                "driver_most_pitstops": "Driver X (3 stops)",
+                "driver_fewest_pitstops": "Driver Y (1 stop)",
+                "total_pitstops_race": 43
+            },
+            "notes": "Data reflects official race telemetry. Strategy variations due to tire wear and safety car periods."
+        }
+    }
+}

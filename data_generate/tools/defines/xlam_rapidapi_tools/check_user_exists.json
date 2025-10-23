@@ -1,0 +1,17 @@
+{
+    "name": "check_user_exists",
+    "description": "This is a sub-function API for tool waifu.\nTool description: Talk to cute waifu chatbot!\nAPI description: Checks if a user exists on the Waifu service by user ID using the Toolbench RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The unique identifier of the user to check.",
+                "default": "sample_user_id"
+            }
+        },
+        "required": [
+            "user_id"
+        ]
+    }
+}

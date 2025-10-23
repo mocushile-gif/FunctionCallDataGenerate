@@ -1,0 +1,17 @@
+{
+    "name": "keyword",
+    "description": "This is a sub-function API for tool semrush_magic_tool.\nTool description: Keyword Magic Tool. Find millions of keyword suggestions for your SEO. \nAPI description: Find long-tail keywords up to 10000. find Keyword, Volume, CPC (USD), Intent, Keyword Difficulty,  SERP Features, Trend.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to search data for.",
+                "default": "pincode"
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

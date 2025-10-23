@@ -1,0 +1,17 @@
+{
+    "name": "getaccount",
+    "description": "This is a sub-function API for tool whatsapp_private_api.\nTool description: WhatsApp Private API is an unofficial API that allows developers to access WhatsApp's messaging platform outside of the official WhatsApp application. This API is not supported or endorsed by WhatsApp and its use violates WhatsApp's terms of service.  The WhatsApp Private API provides developers with a way to interact with WhatsApp's messaging platform, allowing them to automate tasks, send and receive messages, and manage contacts. However, due to the unofficial nature of the API, there is a...\nAPI description: Retrieves a list of accounts from the specified projects using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyapi": {
+                "type": "string",
+                "description": "The API key required for authorization to access the list of accounts.",
+                "default": "KJaASDASD"
+            }
+        },
+        "required": [
+            "keyapi"
+        ]
+    }
+}

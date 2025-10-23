@@ -1,0 +1,42 @@
+{
+    "{'date': 'now', 'tz': 'UTC+3'}": {
+        "error": "",
+        "response": "{'utc_datetime': {'year': 2025, 'month': 6, 'day': 11, 'dayOfWeek': 3, 'dayOfYear': 162, 'hour': 3, 'minute': 40, 'second': 15, 'micro': 0, 'timestamp': 1749613215, 'formatted': '2025-06-11 03:40:15', 'timezone': {'timezone_type': 3, 'timezone': 'UTC'}}, 'date': {'year': 2025, 'month': 6, 'day': 11, 'dayOfWeek': 3, 'dayOfYear': 162, 'hour': 6, 'minute': 40, 'second': 15, 'micro': 0, 'timestamp': 1749613215, 'formatted': '2025-06-11 06:40:15', 'timezone': {'timezone_type': 3, 'timezone': 'etc/gmt-3'}}, 'utc_offset': 180, 'offset': '+03:00', 'datetime': '2025-06-11T06:40:15Z', 'datetime_general': '2025-06-11 06:40:15', 'is_day_light_savings_time': False, 'day_of_week': 'Wednesday', 'seconds_until_end_of_day': 62384.999999, 'timestamp': 1749613215, 'until': '0 seconds from now', 'is_future': False, 'is_past': True, 'is_current_century': True, 'is_current_decade': True, 'is_current_day': True, 'is_current_hour': True, 'is_current_week': True, 'is_weekend': False, 'is_weekday': True}"
+    },
+    "{'date': 'Tomorrow', 'tz': 'UTC+3'}": {
+        "error": "",
+        "response": "{'utc_datetime': {'year': 2025, 'month': 6, 'day': 12, 'dayOfWeek': 4, 'dayOfYear': 163, 'hour': 0, 'minute': 0, 'second': 0, 'micro': 0, 'timestamp': 1749686400, 'formatted': '2025-06-12 00:00:00', 'timezone': {'timezone_type': 3, 'timezone': 'UTC'}}, 'date': {'year': 2025, 'month': 6, 'day': 12, 'dayOfWeek': 4, 'dayOfYear': 163, 'hour': 3, 'minute': 0, 'second': 0, 'micro': 0, 'timestamp': 1749686400, 'formatted': '2025-06-12 03:00:00', 'timezone': {'timezone_type': 3, 'timezone': 'etc/gmt-3'}}, 'utc_offset': 180, 'offset': '+03:00', 'datetime': '2025-06-12T03:00:00Z', 'datetime_general': '2025-06-12 03:00:00', 'is_day_light_savings_time': False, 'day_of_week': 'Thursday', 'seconds_until_end_of_day': 75599.99999899999, 'timestamp': 1749686400, 'until': '20 hours ago', 'is_future': True, 'is_past': False, 'is_current_century': True, 'is_current_decade': True, 'is_current_day': False, 'is_current_hour': False, 'is_current_week': True, 'is_weekend': False, 'is_weekday': True}"
+    },
+    "{'date': '2025-06-11', 'tz': 'UTC+2', 'format': 'YYYY-MM-DD HH:mm:ss'}": {
+        "error": "",
+        "response": "{'message': '2025-06-11 is a bad date and YYYY-MM-DD HH:mm:ss bad format'}"
+    },
+    "{'date': '2025-06-11', 'tz': 'UTC+2', 'format': 'YYYY-MM-DD'}": {
+        "error": "",
+        "response": "{'message': '2025-06-11 is a bad date and YYYY-MM-DD bad format'}"
+    },
+    "{'date': '2025-06-11', 'tz': 'UTC+2', 'format': 'YYYY-MM-DDTHH:mm:ss'}": {
+        "error": "",
+        "response": "{'message': 'Sorry, you tried too many requests, please try purchasing multiple subscriptions', 'next_request': '2025-06-14T06:31:21.945496Z'}"
+    },
+    "{'date': '2014-11-07', 'format': 'YYYY-MM-DD HH:mm:ss', 'tz': 'US'}": {
+        "error": "",
+        "response": "{'message': 'us is a bad timezone'}"
+    },
+    "{'date': '2014-11-07', 'format': 'YYYY-MM-DD HH:mm:ss', 'tz': 'America/New_York'}": {
+        "error": "",
+        "response": "{'message': '2014-11-07 is a bad date and YYYY-MM-DD HH:mm:ss bad format'}"
+    },
+    "{'date': '2014-11-07', 'format': 'YYYY-MM-DD', 'tz': 'America/New_York'}": {
+        "error": "",
+        "response": "{'message': '2014-11-07 is a bad date and YYYY-MM-DD bad format'}"
+    },
+    "{'date': '2014-11-07', 'format': 'DD-MM-YYYY HH:mm', 'tz': 'UTC+3'}": {
+        "error": "",
+        "response": "{'message': '2014-11-07 is a bad date and DD-MM-YYYY HH:mm bad format'}"
+    },
+    "{'date': '2014-11-07', 'format': 'YYYY-MM-DD HH:mm', 'tz': 'UTC+3'}": {
+        "error": "",
+        "response": "{'message': 'Sorry, you tried too many requests, please try purchasing multiple subscriptions', 'next_request': '2025-06-18T23:27:10.279396Z'}"
+    }
+}

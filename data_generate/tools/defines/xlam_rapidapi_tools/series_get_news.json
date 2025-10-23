@@ -1,0 +1,17 @@
+{
+    "name": "series_get_news",
+    "description": "This is a sub-function API for tool cricbuzz_cricket.\nTool description: This API helps to query for live cricket scores, commentary, latest cricket news and editorials, schedules of upcoming matches, rankings, stats, records, etc\nAPI description: Retrieves news articles for a specified cricket series.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "seriesid": {
+                "type": "number",
+                "description": "The value of id field returned in …/series/list or …/series/list-archives endpoints.",
+                "default": 3636.0
+            }
+        },
+        "required": [
+            "seriesid"
+        ]
+    }
+}

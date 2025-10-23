@@ -1,0 +1,23 @@
+{
+    "name": "get_car_versions",
+    "description": "This is a sub-function API for tool infocarsapi.\nTool description: Access detailed car data and captivating visuals effortlessly.\nAPI description: Get the different versions of a car model using the toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "model": {
+                "type": "string",
+                "description": "The specific model of the car.",
+                "default": "chiron"
+            },
+            "maker": {
+                "type": "string",
+                "description": "The manufacturer of the car.",
+                "default": "bugatti"
+            }
+        },
+        "required": [
+            "model",
+            "maker"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_user_dialog_string",
+    "description": "This is a sub-function API for tool waifu.\nTool description: Talk to cute waifu chatbot!\nAPI description: Fetches the dialog string for a given user from the Waifu API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "A unique identifier for the user.",
+                "default": "sample_user_id"
+            }
+        },
+        "required": [
+            "user_id"
+        ]
+    }
+}

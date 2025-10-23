@@ -1,0 +1,15 @@
+{
+    "name": "product_category_list",
+    "description": "This is a sub-function API for tool real_time_amazon_data.\nTool description: Fast and Simple product searches, data and reviews on Amazon.com in real-time.\nAPI description: Fetches the list of Amazon product categories for a specified country or marketplace.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "Sets the marketplace country, language and currency. \n\n**Default:** `US`\n\n**Allowed values:**  `US, AU, BR, CA, CN, FR, DE, IN, IT, MX, NL, SG, ES, TR, AE, GB, JP`\n",
+                "default": "US"
+            }
+        },
+        "required": []
+    }
+}

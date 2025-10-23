@@ -1,0 +1,29 @@
+{
+    "name": "wnba_schedule",
+    "description": "This is a sub-function API for tool wnba_api.\nTool description: This API offer every basketball fan an easy way to stay on top of the latest data for all operations and players in the WNBA. It covers scores, stats, standings, and statistics.\nAPI description: This endpoint provides you with the WNBA schedule data for a specified date as long as it is available.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "month": {
+                "type": "string",
+                "description": "The month for which to retrieve the schedule, as a string.",
+                "default": "05"
+            },
+            "day": {
+                "type": "string",
+                "description": "The day for which to retrieve the schedule, as a string.",
+                "default": "05"
+            },
+            "year": {
+                "type": "string",
+                "description": "The year for which to retrieve the schedule, as a string.",
+                "default": "2022"
+            }
+        },
+        "required": [
+            "month",
+            "day",
+            "year"
+        ]
+    }
+}

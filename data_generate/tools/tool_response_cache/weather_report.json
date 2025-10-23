@@ -1,0 +1,34 @@
+{
+    "{'cityname': 'mumbai'}": {
+        "error": "",
+        "response": "{'success': True, 'data': {'city': 'Bandra Kurla Complex, Maharashtra', 'current_weather': 'Haze', 'temp': '28', 'expected_temp': 'Day\\xa031\u00b0 \u2022 Night\\xa026\u00b0', 'insight_heading': 'Rain', 'insight_description': 'Rain to end by 01:45. More possible later.', 'wind': ' 13\\xa0km/h', 'humidity': '77%', 'visibility': '3.22 km', 'uv_index': '0 of 11', 'aqi': '31', 'aqi_remark': 'Good', 'aqi_description': 'Minimal impact.', 'last_update': '00:43 IST', 'bg_image': 'https://s.w-x.co/WeatherImages_Web/WeatherImage_Haze-night_1.jpg?crop=16:9&width=800&format=pjpg&auto=webp&quality=70'}}"
+    },
+    "{'cityname': 'S\u00e3o Paulo'}": {
+        "error": "",
+        "response": "{'success': True, 'data': {'city': 'Rep\u00fablica, S\u00e3o Paulo, Brazil', 'current_weather': 'Fair', 'temp': '24', 'expected_temp': 'Day\\xa025\u00b0\\xa0\u2022\\xa0Night\\xa015\u00b0', 'insight_heading': '', 'insight_description': '', 'wind': '\\n  \\n\\n14\\xa0km/h', 'humidity': '54%', 'visibility': '9.66 km', 'uv_index': '2 of 11', 'aqi': '53', 'aqi_remark': 'Satisfactory', 'aqi_description': 'May cause minor breathing discomfort to sensitive people.', 'last_update': '14:49 GMT-03:00', 'bg_image': 'https://s.w-x.co/WeatherImages_Web/WeatherImage_Fair-day_2.jpg?crop=16:9&width=800&format=pjpg&auto=webp&quality=70'}}"
+    },
+    "{'cityname': 'Rio de Janeiro'}": {
+        "error": "",
+        "response": "{'success': True, 'data': {'city': 'Cidade Nova, Rio de Janeiro, Brazil', 'current_weather': 'Fair', 'temp': '22', 'expected_temp': 'Day\\xa025\u00b0 \u2022 Night\\xa021\u00b0', 'insight_heading': '', 'insight_description': '', 'wind': ' 10 km/h', 'humidity': '87%', 'visibility': '9.66 km', 'uv_index': '0 of 11', 'aqi': '24', 'aqi_remark': 'Good', 'aqi_description': 'Minimal impact.', 'last_update': '03:08 GMT-03:00', 'bg_image': 'https://s.w-x.co/WeatherImages_Web/WeatherImage_MostlyClear-night_1.jpg?crop=16:9&width=800&format=pjpg&auto=webp&quality=70'}}"
+    },
+    "{'cityname': 'Los Angeles, CA'}": {
+        "error": "",
+        "response": "{'success': True, 'data': {'city': 'Los Angeles, CA, United States', 'current_weather': 'Fair', 'temp': '18', 'expected_temp': 'Day\\xa025\u00b0\\xa0\u2022\\xa0Night\\xa016\u00b0', 'insight_heading': '', 'insight_description': '', 'wind': '\\n  \\n\\n3\\xa0km/h', 'humidity': '73%', 'visibility': '9.66 km', 'uv_index': '0 of 11', 'aqi': '40', 'aqi_remark': 'Good', 'aqi_description': 'Minimal impact.', 'last_update': '20:08 PDT', 'bg_image': 'https://s.w-x.co/WeatherImages_Web/WeatherImage_MostlyClear-night_1.jpg?crop=16:9&width=800&format=pjpg&auto=webp&quality=70'}}"
+    },
+    "{'cityname': 'Paris'}": {
+        "error": "",
+        "response": "{'success': True, 'data': {'city': \"Quartier de l'Od\u00e9on, France\", 'current_weather': 'Sunny', 'temp': '25', 'expected_temp': 'Day\\xa031\u00b0 \u2022 Night\\xa019\u00b0', 'insight_heading': '', 'insight_description': '', 'wind': ' 10 km/h', 'humidity': '49%', 'visibility': '14.48 km', 'uv_index': '5 of 11', 'aqi': '31', 'aqi_remark': 'Good', 'aqi_description': 'Minimal impact.', 'last_update': '11:05 CEST', 'bg_image': 'https://s.w-x.co/WeatherImages_Web/WeatherImage_Sunny-day_3.jpg?crop=16:9&width=800&format=pjpg&auto=webp&quality=70'}}"
+    },
+    "{'cityname': 'Nairobi'}": {
+        "error": "",
+        "response": "{'success': True, 'data': {'city': 'Kilimani, Kenya', 'current_weather': 'Fair', 'temp': '14', 'expected_temp': 'Day\\xa022\u00b0\\xa0\u2022\\xa0Night\\xa012\u00b0', 'insight_heading': '', 'insight_description': '', 'wind': '\\n  \\n\\n13\\xa0km/h', 'humidity': '80%', 'visibility': '9.66 km', 'uv_index': '0 of 11', 'aqi': '30', 'aqi_remark': 'Good', 'aqi_description': 'Minimal impact.', 'last_update': '02:31 EAT', 'bg_image': 'https://s.w-x.co/WeatherImages_Web/WeatherImage_MostlyClear-night_1.jpg?crop=16:9&width=800&format=pjpg&auto=webp&quality=70'}}"
+    },
+    "{'cityname': 'Cape Town'}": {
+        "error": "",
+        "response": "{'success': True, 'data': {'city': 'Cape Town, Western Cape, South Africa', 'current_weather': 'Mostly Cloudy', 'temp': '14', 'expected_temp': 'Day\\xa024\u00b0\\xa0\u2022\\xa0Night\\xa013\u00b0', 'insight_heading': '', 'insight_description': '', 'wind': '\\n  \\n\\n8\\xa0km/h', 'humidity': '89%', 'visibility': '9.66 km', 'uv_index': '0 of 11', 'aqi': '32', 'aqi_remark': 'Good', 'aqi_description': 'Minimal impact.', 'last_update': '01:35 SAST', 'bg_image': 'https://s.w-x.co/WeatherImages_Web/WeatherImage_MostlyCloudy-night_1.jpg?crop=16:9&width=800&format=pjpg&auto=webp&quality=70'}}"
+    },
+    "{'cityname': 'New York'}": {
+        "error": "",
+        "response": "{'success': True, 'data': {'city': 'Manhattan, NY, United States', 'current_weather': 'Fair', 'temp': '26', 'expected_temp': 'Day\\xa029\u00b0 \u2022 Night\\xa020\u00b0', 'insight_heading': '', 'insight_description': '', 'wind': ' 5 km/h', 'humidity': '49%', 'visibility': 'Unlimited', 'uv_index': '0 of 11', 'aqi': '40', 'aqi_remark': 'Good', 'aqi_description': 'Minimal impact.', 'last_update': '22:11 EDT', 'bg_image': 'https://s.w-x.co/WeatherImages_Web/WeatherImage_MostlyClear-night_2.jpg?crop=16:9&width=800&format=pjpg&auto=webp&quality=70'}}"
+    }
+}

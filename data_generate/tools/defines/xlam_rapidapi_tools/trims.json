@@ -1,0 +1,61 @@
+{
+    "name": "trims",
+    "description": "This is a sub-function API for tool car_api.\nTool description: Search vehicles sold in the United States by year, make, model, trim, engine, body, mileage, VIN decoder and more.\nAPI description: To include additional information about the returned body (such as year, make, model and trim) request with the query parameter as verbose=yes.\n\nFor complex queries you may use the json field to send an array of URL encoded JSON conditions, example:\n\n`[{\"field\": \"year\", \"op\": \">=\", \"val\": 2010}, {\"field\": \"year\", \"op\": \"<=\", \"val\": 2020}]`\n\nAllowed operators are: `>`, `<`, `>=`, `<=`, `in`, `not in`, `like`, `not like`, `is null` and `not null`.\n\nAllowed json search fields are: year, make, model, trim, bodi",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "make_id": {
+                "type": "string",
+                "description": "Filter results by make ID."
+            },
+            "limit": {
+                "type": "number",
+                "description": "Limit the number of results returned."
+            },
+            "direction": {
+                "type": "string",
+                "description": "Order direction of the results, either 'asc' for ascending or 'desc' for descending. Default is 'asc'.",
+                "default": "asc"
+            },
+            "sort": {
+                "type": "string",
+                "description": "The field to sort results by. Default is 'id'.",
+                "default": "id"
+            },
+            "year": {
+                "type": "string",
+                "description": "Filter results by year."
+            },
+            "model": {
+                "type": "string",
+                "description": "Filter results by model."
+            },
+            "page": {
+                "type": "number",
+                "description": "Specify the page number for paginated results."
+            },
+            "trim": {
+                "type": "string",
+                "description": "Filter results by trim."
+            },
+            "make_model_id": {
+                "type": "string",
+                "description": "Filter results by make model ID."
+            },
+            "verbose": {
+                "type": "string",
+                "description": "If 'yes', includes detailed information such as year, make, model, and trim in the returned data. Default is 'yes'.",
+                "default": "yes"
+            },
+            "make": {
+                "type": "string",
+                "description": "Filter results by make."
+            },
+            "json": {
+                "type": "string",
+                "description": "An array of URL encoded JSON conditions for complex queries."
+            }
+        },
+        "required": []
+    }
+}

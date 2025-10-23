@@ -1,0 +1,23 @@
+{
+    "name": "get_addresses_by_postcode",
+    "description": "This is a sub-function API for tool pt_postcodes.\nTool description: Portuguese postcode lookup\nAPI description: Fetch a list of addresses or streets by specifying the postcodes.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cp4": {
+                "type": "string",
+                "description": "The first part of the postcode.",
+                "default": "3750"
+            },
+            "cp3": {
+                "type": "string",
+                "description": "The second part of the postcode.",
+                "default": "016"
+            }
+        },
+        "required": [
+            "cp4",
+            "cp3"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "getrandommovie",
+    "description": "This is a sub-function API for tool random_chunk_api.\nTool description: A simple random picker for names, movies, TV shows, quotes, and numbers. A simple JSON object, user object, and array generator.\nAPI description: Returns a list of random movies from a database by calling an external API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "count": {
+                "type": "number",
+                "description": "The number of random movies to return. Defaults to 2.",
+                "default": 2.0
+            }
+        },
+        "required": []
+    }
+}

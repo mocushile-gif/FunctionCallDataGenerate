@@ -1,0 +1,17 @@
+{
+    "name": "fast_language_detection",
+    "description": "This is a sub-function API for tool translate_v3.\nTool description: Easy and reliable Machine Translation  and Language Detection\nAPI description: Detects the language of a given text using the RapidAPI Translate API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text for which to detect the language.",
+                "default": "this is accurate and it can improve if it's longer"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "name": "politicians",
+    "description": "This is a sub-function API for tool goverlytics.\nTool description: The Goverlytics API.\nAPI description: Fetches a list of politicians' data based on given filters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "offset": {
+                "type": "number",
+                "description": "The starting point in the list of results. Defaults to None."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to return. Defaults to None."
+            },
+            "active": {
+                "type": "boolean",
+                "description": "Filter for active politicians. Defaults to None."
+            },
+            "province": {
+                "type": "string",
+                "description": "Filter politicians by province. Defaults to None."
+            },
+            "municipality": {
+                "type": "string",
+                "description": "Filter politicians by municipality. Defaults to None."
+            },
+            "level_of_government": {
+                "type": "string",
+                "description": "Filter politicians by level of government (e.g., federal, provincial, municipal). Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

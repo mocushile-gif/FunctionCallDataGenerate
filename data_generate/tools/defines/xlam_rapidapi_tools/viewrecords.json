@@ -1,0 +1,61 @@
+{
+    "name": "viewrecords",
+    "description": "This is a sub-function API for tool zohocreator.\nTool description: All Zoho Creator Rest Methods\nAPI description: Replace https://zohocreator.p.rapidapi.com/ with https://creator.zoho.com/api/ if you're using native system\n\nGet Records from a Zoho View/Report",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "scope": {
+                "type": "string",
+                "description": "The scope of the request, indicating what data the request is allowed to access.",
+                "default": "creatorapi"
+            },
+            "authtoken": {
+                "type": "string",
+                "description": "Authentication token for accessing the Zoho Creator API.",
+                "default": "longTextStringFromAccounts"
+            },
+            "applinkname": {
+                "type": "string",
+                "description": "The unique link name of the Zoho Creator application.",
+                "default": "mrp"
+            },
+            "zc_ownername": {
+                "type": "string",
+                "description": "The owner name of the Zoho Creator account.",
+                "default": "ownerName"
+            },
+            "viewlinkname": {
+                "type": "string",
+                "description": "The specific view or report from which to fetch records.",
+                "default": "Contact_Details"
+            },
+            "raw": {
+                "type": "string",
+                "description": "Whether to fetch raw data. Defaults to 'True'.",
+                "default": "True"
+            },
+            "criteria": {
+                "type": "string",
+                "description": "Criteria to filter the records. Defaults to '(Country == \"US\")'.",
+                "default": "(Country == \"US\")"
+            },
+            "startindex": {
+                "type": "string",
+                "description": "The starting index for fetching records. Defaults to '0'.",
+                "default": "0"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of records to fetch. Defaults to '100'.",
+                "default": "100"
+            }
+        },
+        "required": [
+            "scope",
+            "authtoken",
+            "applinkname",
+            "zc_ownername",
+            "viewlinkname"
+        ]
+    }
+}

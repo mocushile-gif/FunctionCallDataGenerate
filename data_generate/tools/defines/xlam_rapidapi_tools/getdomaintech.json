@@ -1,0 +1,16 @@
+{
+    "name": "getdomaintech",
+    "description": "This is a sub-function API for tool runs_tech.\nTool description: Find the technologies that powers a company\nAPI description: Retrieves technology information for a given domain using the Runs Tech API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain name for which technology information is to be retrieved."
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "search_all_players",
+    "description": "This is a sub-function API for tool trackmania.\nTool description: Get Stats, Matches and Leaderboards from Trackmania (Unofficial).\nAPI description: Search for players using a given query string on the Trackmania API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "search_query": {
+                "type": "string",
+                "description": "The search query used to search for players. Must be at least 4 characters long.",
+                "default": "Riolu"
+            }
+        },
+        "required": [
+            "search_query"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "name": "verse_range_api",
+    "description": "This is a sub-function API for tool complete_study_bible.\nTool description: The most COMPLETE Bible study API available! Strongs, Locations, Dictionaries, and more! \nAPI description: Fetches a specific passage range from the Bible in a given translation using the RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "translation": {
+                "type": "string",
+                "description": "The translation/version of the Bible (e.g., 'NIV', 'KJV').",
+                "default": "KJV"
+            },
+            "verse_end": {
+                "type": "string",
+                "description": "The ending verse number of the passage.",
+                "default": "3"
+            },
+            "chapter": {
+                "type": "string",
+                "description": "The chapter number of the passage.",
+                "default": "1"
+            },
+            "verse_start": {
+                "type": "string",
+                "description": "The starting verse number of the passage.",
+                "default": "1"
+            },
+            "book": {
+                "type": "string",
+                "description": "The book of the Bible from which the passage is fetched (e.g., 'Genesis', 'John').",
+                "default": "Joh"
+            }
+        },
+        "required": [
+            "translation",
+            "verse_end",
+            "chapter",
+            "verse_start",
+            "book"
+        ]
+    }
+}

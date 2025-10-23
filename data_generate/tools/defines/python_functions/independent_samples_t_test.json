@@ -1,0 +1,30 @@
+{
+    "name": "independent_samples_t_test",
+    "description": "Conducts a two-sample independent t-test and returns the t-statistic, p-value, and conclusion.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "sample1": {
+          "description": "The first sample of observations.",
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "sample2": {
+          "description": "The second sample of observations.",
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "alpha": {
+          "description": "The significance level of the test. Defaults to 0.05.",
+          "type": "number",
+          "default": 0.05
+        }
+      },
+      "required": ["sample1", "sample2"]
+    }
+  }
+  

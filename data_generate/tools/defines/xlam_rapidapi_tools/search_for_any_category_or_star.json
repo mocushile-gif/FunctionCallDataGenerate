@@ -1,0 +1,17 @@
+{
+    "name": "search_for_any_category_or_star",
+    "description": "This is a sub-function API for tool porn_gallery.\nTool description: this api returns high quality pictures of any porn category or pornstar name\nAPI description: Search for images using a category keyword or pornstar name via the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "search": {
+                "type": "string",
+                "description": "The category keyword or pornstar name to search for.",
+                "default": "Natasha Nice"
+            }
+        },
+        "required": [
+            "search"
+        ]
+    }
+}

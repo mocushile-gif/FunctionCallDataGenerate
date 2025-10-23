@@ -1,0 +1,17 @@
+{
+    "name": "real_time_hashtag_search",
+    "description": "This is a sub-function API for tool tiktok_data.\nTool description: Social Media Data API in Real-Time.   -Get very useful and unique information.  -I'm on Telegram https://t.me/logicBuilder News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Searches for live hashtags on social media based on a given keyword.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to search for related hashtags.",
+                "default": "blah"
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

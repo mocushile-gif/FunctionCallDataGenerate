@@ -1,0 +1,21 @@
+{
+    "name": "convert_coordinates_to_adress",
+    "description": "Converts geographic coordinates (latitude, longitude) into an address using a reverse geocoding API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "latitude": {
+                "type": "number",
+                "description": "The latitude to reverse geocode."
+            },
+            "longitude": {
+                "type": "number",
+                "description": "The longitude to reverse geocode."
+            }
+        },
+        "required": [
+            "latitude",
+            "longitude"
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "{'startyear': 2010, 'endyear': 2020, 'genre': 'Drama', 'limit': 10, 'info': 'mini_info'}": {
+        "error": "",
+        "response": [
+            {
+                "title": "The King's Speech",
+                "year": 2010,
+                "genre": "Drama",
+                "info": "A historical drama about King George VI's struggle to overcome his speech impediment."
+            },
+            {
+                "title": "The Social Network",
+                "year": 2010,
+                "genre": "Drama",
+                "info": "A biographical drama about the creation of Facebook and the conflicts surrounding its founders."
+            },
+            {
+                "title": "12 Years a Slave",
+                "year": 2013,
+                "genre": "Drama",
+                "info": "A powerful drama depicting the true story of Solomon Northup, a free man sold into slavery."
+            },
+            {
+                "title": "Birdman",
+                "year": 2014,
+                "genre": "Drama",
+                "info": "A dark comedy-drama about a washed-up actor trying to revive his career through a Broadway play."
+            },
+            {
+                "title": "Spotlight",
+                "year": 2015,
+                "genre": "Drama",
+                "info": "A gripping drama about the Boston Globe's investigation into child abuse within the Catholic Church."
+            },
+            {
+                "title": "Room",
+                "year": 2015,
+                "genre": "Drama",
+                "info": "A heart-wrenching drama about a mother and son escaping captivity and adjusting to freedom."
+            },
+            {
+                "title": "Moonlight",
+                "year": 2016,
+                "genre": "Drama",
+                "info": "An intimate drama exploring the life of a young black man growing up in Miami."
+            },
+            {
+                "title": "La La Land",
+                "year": 2016,
+                "genre": "Drama",
+                "info": "A romantic musical drama about two aspiring artists navigating love and ambition in Los Angeles."
+            },
+            {
+                "title": "Parasite",
+                "year": 2019,
+                "genre": "Drama",
+                "info": "A dark social satire about class disparity and the unexpected consequences of a poor family infiltrating a wealthy household."
+            },
+            {
+                "title": "Little Women",
+                "year": 2019,
+                "genre": "Drama",
+                "info": "A modern adaptation of the classic novel, focusing on the lives of the March sisters."
+            }
+        ]
+    },
+    "{'genre': 'Drama', 'startyear': 2015, 'endyear': 2020, 'list': 'most_pop_movies', 'titletype': 'movie', 'limit': 10}": {
+        "error": "",
+        "response": "{'entries': 0, 'results': []}"
+    },
+    "{'genre': 'Drama', 'startyear': 2021, 'list': 'most_pop_movies', 'titletype': 'movie', 'limit': 10}": {
+        "error": "",
+        "response": "{'entries': 0, 'results': []}"
+    },
+    "{'genre': 'Drama', 'startyear': 2020, 'endyear': 2025, 'list': 'most_pop_movies', 'titletype': 'movie', 'limit': 10}": {
+        "error": "",
+        "response": "{'entries': 0, 'results': []}"
+    },
+    "{'genre': 'Independent', 'list': 'most_pop_movies', 'titletype': 'movie', 'limit': 10, 'info': 'base_info', 'sort': 'year.decr'}": {
+        "error": "",
+        "response": "{'entries': 0, 'results': []}"
+    }
+}

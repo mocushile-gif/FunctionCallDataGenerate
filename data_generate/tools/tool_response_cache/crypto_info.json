@@ -1,0 +1,31 @@
+{
+    "{'slug': 'binance-usd', 'lang': 'en'}": {
+        "error": "",
+        "response": {
+            "name": "Binance USD",
+            "symbol": "BUSD",
+            "current_price": 1.0,
+            "market_cap": "22.5 billion USD",
+            "24h_volume": "3.2 billion USD",
+            "circulating_supply": "22.5 billion BUSD",
+            "description": "Binance USD (BUSD) is a stablecoin backed 1:1 by the US Dollar, issued by Binance in partnership with Paxos. It is designed to provide stability and is widely used for trading and transactions.",
+            "language": "en"
+        }
+    },
+    "{'slug': 'binance-usd'}": {
+        "error": "",
+        "response": "{'status': 200, 'data': {'name': 'Binance USD', 'image': 'https://i-invdn-com.investing.com/crypto-logos/80x80/v1/binance-usd.png', 'pair_id': '1177192', 'price': '0.9998', 'change': '+0.0001', 'change_percent': '+0.01%', 'value': '$4.05B', 'general_quote': 'BUSD4.05B', 'high_quote': 'BUSD0', '24_h_volume': '$1.97B', '7_d_change': '-0.01%', 'day_range': '0.9995 - 0.9999'}}"
+    },
+    "{'slug': 'bitcoin', 'lang': 'en'}": {
+        "error": "",
+        "response": "{'status': 200, 'data': {'name': 'Bitcoin', 'image': 'https://i-invdn-com.investing.com/crypto-logos/80x80/v1/bitcoin.png', 'pair_id': '1057391', 'price': '29,989.0', 'change': '-276.5', 'change_percent': '-0.91%', 'value': '$583.41B', 'general_quote': 'BTC19.43M', 'high_quote': 'BTC21.00M', '24_h_volume': '$14.20B', '7_d_change': '-1.62%', 'day_range': '29,914.6 - 30,242.4'}}"
+    },
+    "{'slug': 'ethereum'}": {
+        "error": "",
+        "response": "{'status': 200, 'data': {'name': 'Ethereum', 'image': 'https://i-invdn-com.investing.com/crypto-logos/80x80/v1/ethereum.png', 'pair_id': '1061443', 'price': '1,888.87', 'change': '+22.19', 'change_percent': '+1.19%', 'value': '$226.16B', 'general_quote': 'ETH120.21M', 'high_quote': 'ETH0', '24_h_volume': '$5.22B', '7_d_change': '-4.11%', 'day_range': '1,846.71 - 1,889.96'}}"
+    },
+    "{'slug': 'bitcoin'}": {
+        "error": "",
+        "response": "{'status': 200, 'data': {'name': 'Bitcoin', 'image': 'https://i-invdn-com.investing.com/crypto-logos/80x80/v1/bitcoin.png', 'pair_id': '1057391', 'price': '30,537.1', 'change': '+276.7', 'change_percent': '+0.91%', 'value': '$590.55B', 'general_quote': 'BTC19.43M', 'high_quote': 'BTC21.00M', '24_h_volume': '$10.90B', '7_d_change': '-2.00%', 'day_range': '29,969.1 - 30,537.1'}}"
+    }
+}

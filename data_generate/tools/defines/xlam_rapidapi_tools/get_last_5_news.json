@@ -1,0 +1,17 @@
+{
+    "name": "get_last_5_news",
+    "description": "This is a sub-function API for tool cryptoinfo.\nTool description: We collect news from more than 30 crypto/financial sources and process them using neural networks. We estimate news sentiment and uniqueness and provide text summarization along with other informative indicators.\nAPI description: Fetches the last 5 news articles from the financial section.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "content_type": {
+                "type": "string",
+                "description": "The type of content to retrieve (e.g., 'application/json').",
+                "default": "application/json"
+            }
+        },
+        "required": [
+            "content_type"
+        ]
+    }
+}

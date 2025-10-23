@@ -1,0 +1,15 @@
+{
+    "name": "movies_get_opening",
+    "description": "This is a sub-function API for tool flixster.\nTool description: This API helps to query for movies, actors, theaters, showtime, etc... to create a site/application, such as : rottentomatoes.com, flixster.com\nAPI description: Fetches the list of opening movies for a given country using the Flixster API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "countryid": {
+                "type": "string",
+                "description": "One of the following : afg|alb|dza|asm|and|ago|aia|ata|atg|arg|arm|abw|aus|aut|aze|bhs|bhr|bgd|brb|blr|bel|blz|ben|bmu|btn|bol|bes|bih|bwa|bvt|bra|iot|brn|bgr|bfa|bdi|cpv|khm|cmr|can|cym|caf|tcd|chl|chn|cxr|cck|col|com|cod|cog|cok|cri|hrv|cub|cuw|cyp|cze|civ|dnk|dji|dma|dom|ecu|egy|slv|gnq|eri|est|swz|eth|flk|fro|fji|fin|fra|guf|pyf|atf|gab|gmb|geo|deu|gha|gib|grc|grl|grd|glp|gum|gtm|ggy|gin|gnb|guy|hti|hmd|vat|hnd|hkg|hun|isl|ind|idn|irn|irq|irl|imn|isr|ita|jam|jpn|jey|jor|kaz|ken|kir|prk|kor|kwt|kgz|lao|l",
+                "default": "usa"
+            }
+        },
+        "required": []
+    }
+}

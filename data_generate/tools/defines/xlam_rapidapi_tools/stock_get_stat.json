@@ -1,0 +1,17 @@
+{
+    "name": "stock_get_stat",
+    "description": "This is a sub-function API for tool webull.\nTool description: Query public data for investment products including stocks, fractional shares, options, ETFs, and ADRs as on webull.com\nAPI description: Retrieves stock statistics for a given ticker ID from the Webull API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tickerid": {
+                "type": "number",
+                "description": "The value of tickerId field returned in other endpoints, such as .../stock/search or .../market/get-common-ranking or .../market/get-top-active or .../market/get-top-gainers or etc... ",
+                "default": 913255598.0
+            }
+        },
+        "required": [
+            "tickerid"
+        ]
+    }
+}

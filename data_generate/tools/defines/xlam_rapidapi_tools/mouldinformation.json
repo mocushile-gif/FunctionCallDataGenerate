@@ -1,0 +1,17 @@
+{
+    "name": "mouldinformation",
+    "description": "This is a sub-function API for tool dati_comuni.\nTool description: API Dati Comuni\nAPI description: Retrieves mould information for a given tenant ID using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tenantid": {
+                "type": "string",
+                "description": "The ID of the tenant for which mould information is to be retrieved.",
+                "default": "TNTgielleplast"
+            }
+        },
+        "required": [
+            "tenantid"
+        ]
+    }
+}

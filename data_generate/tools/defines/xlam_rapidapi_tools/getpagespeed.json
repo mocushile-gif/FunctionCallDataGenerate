@@ -1,0 +1,16 @@
+{
+    "name": "getpagespeed",
+    "description": "This is a sub-function API for tool check_page_or_website_loading_speed.\nTool description: Check page or website loading speed\nAPI description: Fetch the page or website loading speed for a given URL using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the page or website to check the loading speed."
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

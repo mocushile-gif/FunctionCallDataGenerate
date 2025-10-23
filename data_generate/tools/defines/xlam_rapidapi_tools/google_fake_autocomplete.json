@@ -1,0 +1,29 @@
+{
+    "name": "google_fake_autocomplete",
+    "description": "This is a sub-function API for tool memeados.\nTool description: Generate custom image, gif and video memes.\nAPI description: Generate a fake Google autocomplete suggestion using three input texts.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text1": {
+                "type": "string",
+                "description": "The first text input for the autocomplete query.",
+                "default": "Search"
+            },
+            "text3": {
+                "type": "string",
+                "description": "The third text input for the autocomplete query.",
+                "default": "search autocomplete 2"
+            },
+            "text2": {
+                "type": "string",
+                "description": "The second text input for the autocomplete query.",
+                "default": "search autocomplete 1"
+            }
+        },
+        "required": [
+            "text1",
+            "text3",
+            "text2"
+        ]
+    }
+}

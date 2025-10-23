@@ -1,0 +1,44 @@
+{
+    "{'is_id': 'bmnlcjabgnpnenekpadlanbbkooimhnj'}": {
+        "error": "",
+        "response": {
+            "extension_id": "bmnlcjabgnpnenekpadlanbbkooimhnj",
+            "name": "Example Extension",
+            "developer": "Developer Name",
+            "stats": {
+                "daily_users": 15000,
+                "weekly_downloads": 23000,
+                "historical_data": [
+                    {
+                        "date": "2023-09-01",
+                        "installs": 3200,
+                        "active_users": 12000
+                    },
+                    {
+                        "date": "2023-09-08",
+                        "installs": 4100,
+                        "active_users": 14500
+                    }
+                ],
+                "top_countries": [
+                    "US",
+                    "DE",
+                    "JP"
+                ],
+                "versions": [
+                    {
+                        "version": "1.2.3",
+                        "release_date": "2023-08-20",
+                        "users": 8500
+                    },
+                    {
+                        "version": "1.2.4",
+                        "release_date": "2023-09-05",
+                        "users": 11000
+                    }
+                ]
+            },
+            "last_updated": "2023-09-15T08:30:00Z"
+        }
+    }
+}

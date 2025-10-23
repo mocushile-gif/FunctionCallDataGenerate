@@ -1,0 +1,17 @@
+{
+    "name": "retrieve_response",
+    "description": "This is a sub-function API for tool paraphrasing_api.\nTool description: The Paraphrasing API is a tool that enables users to generate unique content by rephrasing existing text while preserving its original meaning. Users can either input the text they want to reword or use the provided text to generate new ideas. \nAPI description: With the JOB ID generated on the \"Paraphrase\" endpoint, you will be able to get the response from that rewrite.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "job_id": {
+                "type": "string",
+                "description": "The JOB ID generated on the \"Rewriter\" endpoint.",
+                "default": "1157715"
+            }
+        },
+        "required": [
+            "job_id"
+        ]
+    }
+}

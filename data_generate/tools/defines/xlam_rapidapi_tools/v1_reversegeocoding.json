@@ -1,0 +1,23 @@
+{
+    "name": "v1_reversegeocoding",
+    "description": "This is a sub-function API for tool geocoding_by_api_ninjas.\nTool description: Convert city locations to latitude/longitude coordinates and vice versa. See more info at https://api-ninjas.com/api/geocoding and https://api-ninjas.com/api/reversegeocoding.\nAPI description: This function performs reverse geocoding using the API Ninjas service to obtain location information based on provided latitude and longitude coordinates.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "The latitude coordinate to be used for reverse geocoding.",
+                "default": 47.6062
+            },
+            "lon": {
+                "type": "number",
+                "description": "The longitude coordinate to be used for reverse geocoding.",
+                "default": -122.3321
+            }
+        },
+        "required": [
+            "lat",
+            "lon"
+        ]
+    }
+}

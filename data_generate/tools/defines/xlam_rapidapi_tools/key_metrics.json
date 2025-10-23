@@ -1,0 +1,23 @@
+{
+    "name": "key_metrics",
+    "description": "This is a sub-function API for tool holistic_finance_stock_data.\nTool description: Provides stock data based on multiple sources such as Yahoo Finance.\nAPI description: Provides either annual or quarterly key metrics of a single stock company.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The ticker symbol of the stock company.",
+                "default": "AAPL"
+            },
+            "period": {
+                "type": "string",
+                "description": "The period for which to fetch metrics, either 'annual' or 'quarterly'.",
+                "default": "annual"
+            }
+        },
+        "required": [
+            "symbol",
+            "period"
+        ]
+    }
+}

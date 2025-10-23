@@ -1,0 +1,14 @@
+{
+    "{'sport': 'basketball'}": {
+        "error": "",
+        "response": "{'message': 'Error'}"
+    },
+    "{'sport': 'football'}": {
+        "error": "",
+        "response": "[{'id': 11067497, 'startTimestamp': 1688333400, 'slug': 'cuiaba-santos', 'scoreHomeAwaySlug': '0:0', 'scoreAwayHomeSlug': '0:0', 'round': 13, 'hasEventPlayerStatistics': True, 'status': {'code': 31, 'type': 'inprogress', 'title': 'Halftime'}, 'homeTeam': {'id': 49202, 'name': 'Cuiab\u00e1', 'short': 'Cuiab\u00e1', 'code': 'CUI', 'slug': 'cuiaba', 'gender': 'M', 'teamColors': {'primary': '#ffffff', 'secondary': '#006600'}}, 'awayTeam': {'id': 1968, 'name': 'Santos', 'short': 'Santos', 'code': 'SAN', 'slug': 'santos', 'gender': 'M', 'teamColors': {'primary': '#ffffff', 'secondary': '#ffffff'}}, 'homeScore': {'current': 0, 'display': 0, 'period1': 0}, 'awayScore': {'current': 0, 'display': 0, 'period1': 0}, 'time': {'injuryTime1': 4, 'currentPeriodStartTimestamp': 1688336577}, 'competition': {'id': 83, 'name': 'Brasileiro S\u00e9rie A', 'slug': 'brasileiro-serie-a', 'sport': {'id': 1, 'name': 'Football', 'slug': 'football'}, 'category': {'id': 13, 'code': 'BR', 'name': 'Brazil', 'slug': 'brazil', 'flag': 'brazil'}}}, {'id': 10981653, 'startTimestamp': 1688335200, 'slug': 'instituto-cordoba-belgrano', 'scoreHomeAwaySlug': '0:0', 'scoreAwayHomeSlug': '0:0', 'round': 22, 'lastPeriod': 'period1', 'hasEventPlayerStatistics': True, 'status': {'code': 6, 'type': 'inprogress', 'title': '1st half'}, 'homeTeam': {'id': 4937, 'name': 'Instituto C\u00f3rdoba', 'short': 'Instituto', 'code': 'IAC', 'slug': 'instituto-cordoba', 'gender': 'M', 'teamColors': {'primary': '#e72328', 'secondary': '#222226'}}, 'awayTeam': {'id': 3203, 'name': 'Belgrano', 'short': 'Belgrano', 'code': 'BEL', 'slug': 'belgrano', 'gender': 'M', 'teamColors': {'primary': '#3399ff', 'secondary': '#3399ff'}}, 'homeScore': {'current': 0, 'display': 0}, 'awayScore': {'current': 0, 'display': 0}, 'time': {'initial': 0, 'max': 2700, 'extra': 540, 'currentPeriodStartTimestamp': 1688335237}, 'competition': {'id': 68, 'name': 'Liga Profesional', 'slug': 'liga-profesional', 'sport': {'id': 1, 'name': 'Football', 'slug': 'football'}, 'category': {'id': 48, 'code': 'AR', 'name': 'Argentina"
+    },
+    "{'sport': 'Basketball'}": {
+        "error": "",
+        "response": "{'message': 'Error'}"
+    }
+}

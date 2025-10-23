@@ -1,0 +1,49 @@
+{
+    "name": "v1_city",
+    "description": "This is a sub-function API for tool city_by_api_ninjas.\nTool description: Get useful statistics on tens of thousands of cities around the world. See more info at https://api-ninjas.com/api/city.\nAPI description: Fetches city data from the API Ninjas City API endpoint with various filtering criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "max_lat": {
+                "type": "number",
+                "description": "Maximum latitude coordinate."
+            },
+            "min_population": {
+                "type": "number",
+                "description": "Minimum city population."
+            },
+            "min_lon": {
+                "type": "number",
+                "description": "Minimum longitude coordinate."
+            },
+            "country": {
+                "type": "string",
+                "description": "Country filter. Must be an ISO-3166 alpha-2 code (default is 'US').",
+                "default": "US"
+            },
+            "max_population": {
+                "type": "number",
+                "description": "Maximum city population."
+            },
+            "min_lat": {
+                "type": "number",
+                "description": "Minimum latitude coordinate."
+            },
+            "name": {
+                "type": "string",
+                "description": "Name of the city to search for (default is 'New York').",
+                "default": "New York"
+            },
+            "max_lon": {
+                "type": "number",
+                "description": "Maximum longitude coordinate."
+            },
+            "limit": {
+                "type": "number",
+                "description": "How many results to return. Must be between **1** and **30**. Default is **1**.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

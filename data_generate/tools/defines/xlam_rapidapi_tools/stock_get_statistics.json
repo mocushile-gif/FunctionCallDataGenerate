@@ -1,0 +1,22 @@
+{
+    "name": "stock_get_statistics",
+    "description": "This is a sub-function API for tool bb_finance.\nTool description: This API helps to query for all information about finance summary, stocks, quotes, movers, etc… to create a financial site/application such as bloomberg.com\nAPI description: Retrieve statistical information for a given stock.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the stock. Use the market/auto-complete API to get the correct values.",
+                "default": "aapl:us"
+            },
+            "template": {
+                "type": "string",
+                "description": "Specifies the type of statistical template to use. Options include 'COMMODITY', 'CURRENCY', 'INDEX', 'INDEXFUTURE', 'RATE', and 'STOCK'. Defaults to 'STOCK'.",
+                "default": "STOCK"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

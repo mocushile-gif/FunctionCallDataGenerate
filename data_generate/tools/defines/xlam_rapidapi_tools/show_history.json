@@ -1,0 +1,23 @@
+{
+    "name": "show_history",
+    "description": "This is a sub-function API for tool image_cdn.\nTool description: Upload images & access them in your application.\nAPI description: Shows all images you have uploaded in a pageable list.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pagesize": {
+                "type": "number",
+                "description": "The number of images to display per page, with a maximum of 100.",
+                "default": 100.0
+            },
+            "page": {
+                "type": "number",
+                "description": "The page you want to return, starting at 0",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "pagesize",
+            "page"
+        ]
+    }
+}

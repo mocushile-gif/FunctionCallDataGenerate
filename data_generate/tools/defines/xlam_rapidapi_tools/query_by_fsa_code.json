@@ -1,0 +1,17 @@
+{
+    "name": "query_by_fsa_code",
+    "description": "This is a sub-function API for tool ca_boundaries_io.\nTool description: CA Postal Code(ex. T6H, or A0A0A1 ), FSA and LDU, Boundaries API: A simple & very fast API that will allow you to integrate multiple GeoJson CA FSA and LDU level boundaries result into your apps and systems. This API is designed to be used programatically for optimal performance. When using the MashApe UI for queries expect significant latency issues on large result sets!\nAPI description: Fetches geographical boundary information for a given Canadian Forward Sortation Area (FSA) code using the VanitySoft API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "postal_fsa": {
+                "type": "string",
+                "description": "A Canadian Forward Sortation Area (FSA) code, e.g., \"T6H\" or \"A0A\".",
+                "default": "T6H"
+            }
+        },
+        "required": [
+            "postal_fsa"
+        ]
+    }
+}

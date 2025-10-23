@@ -1,0 +1,15 @@
+{
+    "name": "get_by_decade",
+    "description": "This is a sub-function API for tool world_population_by_decade_and_growth_rate.\nTool description: world population by decade and growth rate\nAPI description: Fetches world population data for a specified decade using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "decade": {
+                "type": "number",
+                "description": "The decade for which to fetch population data. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": []
+    }
+}

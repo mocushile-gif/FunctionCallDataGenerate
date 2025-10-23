@@ -1,0 +1,28 @@
+{
+    "name": "kruskal_wallis_test",
+    "description": "Perform a Kruskal–Wallis H-test for independent samples on a numeric column grouped by categories.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "Path to the input data file (CSV, Excel, JSON, or JSONL format)."
+        },
+        "category_col": {
+          "type": "string",
+          "description": "Name of the categorical column used to group the data."
+        },
+        "value_col": {
+          "type": "string",
+          "description": "Name of the numeric column on which to perform the test."
+        },
+        "sheet_name": {
+          "type": ["string", "integer"],
+          "description": "Sheet name or index (used only for Excel files).",
+          "default": 0
+        }
+      },
+      "required": ["file_path", "category_col", "value_col"]
+    }
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "name": "ev",
+    "description": "This is a sub-function API for tool ev.\nTool description: test\nAPI description: Fetch data from the EV API with optional pagination support by specifying the page number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number for pagination, default is 2.",
+                "default": 2.0
+            }
+        },
+        "required": []
+    }
+}

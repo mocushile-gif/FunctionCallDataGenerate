@@ -1,0 +1,19 @@
+{
+    "name": "get_quote_of_the_day",
+    "description": "This is a sub-function API for tool world_of_quotes.\nTool description: API returns over 50,000+ famous quotes from over 10,000+ great authors and over 350+ different categories.\nAPI description: This API returns the handpicked quote of the day among 45,000+ quotes based on the highest ratings.\nYou may also get quote of the day of specific *author* or *category*.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "author": {
+                "type": "string",
+                "description": "The author of the quote. Defaults to None."
+            },
+            "category": {
+                "type": "string",
+                "description": "The category of the quote, e.g., 'inspirational'. Defaults to 'inspirational'.",
+                "default": "inspirational"
+            }
+        },
+        "required": []
+    }
+}

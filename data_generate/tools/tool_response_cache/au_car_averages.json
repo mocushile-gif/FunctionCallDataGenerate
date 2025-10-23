@@ -1,0 +1,649 @@
+{
+    "{'year': '2012', 'make': 'BMW', 'model': '5 Series'}": {
+        "error": "",
+        "response": {
+            "averages": {
+                "mileage": 130214,
+                "price": 25493
+            },
+            "tiersAverages": {
+                "lower": {
+                    "price": 23988,
+                    "mileage": 156290
+                },
+                "middle": {
+                    "price": 25493,
+                    "mileage": 125495
+                },
+                "top": {
+                    "price": 26998,
+                    "mileage": 106498
+                }
+            },
+            "yearlyAverages": [
+                {
+                    "year": 1996,
+                    "averages": {
+                        "price": 11500,
+                        "mileage": 79693
+                    }
+                },
+                {
+                    "year": 2001,
+                    "averages": {
+                        "price": 4800,
+                        "mileage": 278814
+                    }
+                },
+                {
+                    "year": 2004,
+                    "averages": {
+                        "price": 9163.333333333334,
+                        "mileage": 147901.66666666666
+                    }
+                },
+                {
+                    "year": 2005,
+                    "averages": {
+                        "price": 8000,
+                        "mileage": 217400
+                    }
+                },
+                {
+                    "year": 2006,
+                    "averages": {
+                        "price": 11900,
+                        "mileage": 239950.5
+                    }
+                },
+                {
+                    "year": 2007,
+                    "averages": {
+                        "price": 16666.333333333332,
+                        "mileage": 155576.33333333334
+                    }
+                },
+                {
+                    "year": 2008,
+                    "averages": {
+                        "price": 15225,
+                        "mileage": 172987
+                    }
+                },
+                {
+                    "year": 2009,
+                    "averages": {
+                        "price": 16916.666666666668,
+                        "mileage": 125100
+                    }
+                },
+                {
+                    "year": 2010,
+                    "averages": {
+                        "price": 21595,
+                        "mileage": 101442.33333333333
+                    }
+                },
+                {
+                    "year": 2011,
+                    "averages": {
+                        "price": 24184.25,
+                        "mileage": 170638.25
+                    }
+                },
+                {
+                    "year": 2012,
+                    "averages": {
+                        "price": 28794.4,
+                        "mileage": 130214
+                    }
+                },
+                {
+                    "year": 2013,
+                    "averages": {
+                        "price": 31828.499999999996,
+                        "mileage": 88711
+                    }
+                },
+                {
+                    "year": 2015,
+                    "averages": {
+                        "price": 30490,
+                        "mileage": 130993
+                    }
+                },
+                {
+                    "year": 2017,
+                    "averages": {
+                        "price": 62946,
+                        "mileage": 35101.5
+                    }
+                }
+            ],
+            "topModels": [
+                {
+                    "averages": {
+                        "price": 33745,
+                        "mileage": 33745
+                    },
+                    "model": "BMW 5 Series"
+                },
+                {
+                    "averages": {
+                        "price": 26813,
+                        "mileage": 26813
+                    },
+                    "model": "Audi A6"
+                },
+                {
+                    "averages": {
+                        "price": 27995,
+                        "mileage": 27995
+                    },
+                    "model": "Lexus GS"
+                },
+                {
+                    "averages": {
+                        "price": 23492,
+                        "mileage": 23492
+                    },
+                    "model": "Jaguar XF"
+                }
+            ]
+        }
+    },
+    "{'make': 'BMW', 'year': '2012', 'model': '5 Series'}": {
+        "error": "",
+        "response": {
+            "averages": {
+                "mileage": 130214,
+                "price": 25493
+            },
+            "tiersAverages": {
+                "lower": {
+                    "price": 23988,
+                    "mileage": 156290
+                },
+                "middle": {
+                    "price": 25493,
+                    "mileage": 125495
+                },
+                "top": {
+                    "price": 26998,
+                    "mileage": 106498
+                }
+            },
+            "yearlyAverages": [
+                {
+                    "year": 1996,
+                    "averages": {
+                        "price": 11500,
+                        "mileage": 79693
+                    }
+                },
+                {
+                    "year": 2001,
+                    "averages": {
+                        "price": 4800,
+                        "mileage": 278814
+                    }
+                },
+                {
+                    "year": 2004,
+                    "averages": {
+                        "price": 9163.333333333334,
+                        "mileage": 147901.66666666666
+                    }
+                },
+                {
+                    "year": 2005,
+                    "averages": {
+                        "price": 8000,
+                        "mileage": 217400
+                    }
+                },
+                {
+                    "year": 2006,
+                    "averages": {
+                        "price": 11900,
+                        "mileage": 239950.5
+                    }
+                },
+                {
+                    "year": 2007,
+                    "averages": {
+                        "price": 16666.333333333332,
+                        "mileage": 155576.33333333334
+                    }
+                },
+                {
+                    "year": 2008,
+                    "averages": {
+                        "price": 15225,
+                        "mileage": 172987
+                    }
+                },
+                {
+                    "year": 2009,
+                    "averages": {
+                        "price": 16916.666666666668,
+                        "mileage": 125100
+                    }
+                },
+                {
+                    "year": 2010,
+                    "averages": {
+                        "price": 21595,
+                        "mileage": 101442.33333333333
+                    }
+                },
+                {
+                    "year": 2011,
+                    "averages": {
+                        "price": 24184.25,
+                        "mileage": 170638.25
+                    }
+                },
+                {
+                    "year": 2012,
+                    "averages": {
+                        "price": 28794.4,
+                        "mileage": 130214
+                    }
+                },
+                {
+                    "year": 2013,
+                    "averages": {
+                        "price": 31828.499999999996,
+                        "mileage": 88711
+                    }
+                },
+                {
+                    "year": 2015,
+                    "averages": {
+                        "price": 30490,
+                        "mileage": 130993
+                    }
+                },
+                {
+                    "year": 2017,
+                    "averages": {
+                        "price": 62946,
+                        "mileage": 35101.5
+                    }
+                }
+            ]
+        }
+    },
+    "{'make': 'BMW', 'year': '2012', 'model': '5 series'}": {
+        "error": "",
+        "response": {
+            "averages": {
+                "mileage": 130214,
+                "price": 25493
+            },
+            "tiersAverages": {
+                "lower": {
+                    "price": 23988,
+                    "mileage": 156290
+                },
+                "middle": {
+                    "price": 25493,
+                    "mileage": 125495
+                },
+                "top": {
+                    "price": 26998,
+                    "mileage": 106498
+                }
+            },
+            "yearlyAverages": [
+                {
+                    "year": 1996,
+                    "averages": {
+                        "price": 11500,
+                        "mileage": 79693
+                    }
+                },
+                {
+                    "year": 2001,
+                    "averages": {
+                        "price": 4800,
+                        "mileage": 278814
+                    }
+                },
+                {
+                    "year": 2004,
+                    "averages": {
+                        "price": 9163.333333333334,
+                        "mileage": 147901.66666666666
+                    }
+                },
+                {
+                    "year": 2005,
+                    "averages": {
+                        "price": 8000,
+                        "mileage": 217400
+                    }
+                },
+                {
+                    "year": 2006,
+                    "averages": {
+                        "price": 11900,
+                        "mileage": 239950.5
+                    }
+                },
+                {
+                    "year": 2007,
+                    "averages": {
+                        "price": 16666.333333333332,
+                        "mileage": 155576.33333333334
+                    }
+                },
+                {
+                    "year": 2008,
+                    "averages": {
+                        "price": 15225,
+                        "mileage": 172987
+                    }
+                },
+                {
+                    "year": 2009,
+                    "averages": {
+                        "price": 16916.666666666668,
+                        "mileage": 125100
+                    }
+                },
+                {
+                    "year": 2010,
+                    "averages": {
+                        "price": 21595,
+                        "mileage": 101442.33333333333
+                    }
+                },
+                {
+                    "year": 2011,
+                    "averages": {
+                        "price": 24184.25,
+                        "mileage": 170638.25
+                    }
+                },
+                {
+                    "year": 2012,
+                    "averages": {
+                        "price": 28794.4,
+                        "mileage": 130214
+                    }
+                },
+                {
+                    "year": 2013,
+                    "averages": {
+                        "price": 31828.499999999996,
+                        "mileage": 88711
+                    }
+                },
+                {
+                    "year": 2015,
+                    "averages": {
+                        "price": 30490,
+                        "mileage": 130993
+                    }
+                },
+                {
+                    "year": 2017,
+                    "averages": {
+                        "price": 62946,
+                        "mileage": 35101.5
+                    }
+                }
+            ]
+        }
+    },
+    "{'year': '2012', 'make': 'BMW', 'model': '5 series'}": {
+        "error": "",
+        "response": {
+            "averages": {
+                "mileage": 130214,
+                "price": 25493
+            },
+            "tiersAverages": {
+                "lower": {
+                    "price": 23988,
+                    "mileage": 156290
+                },
+                "middle": {
+                    "price": 25493,
+                    "mileage": 125495
+                },
+                "top": {
+                    "price": 26998,
+                    "mileage": 106498
+                }
+            },
+            "yearlyAverages": [
+                {
+                    "year": 1996,
+                    "averages": {
+                        "price": 11500,
+                        "mileage": 79693
+                    }
+                },
+                {
+                    "year": 2001,
+                    "averages": {
+                        "price": 4800,
+                        "mileage": 278814
+                    }
+                },
+                {
+                    "year": 2004,
+                    "averages": {
+                        "price": 9163.333333333334,
+                        "mileage": 147901.66666666666
+                    }
+                },
+                {
+                    "year": 2005,
+                    "averages": {
+                        "price": 8000,
+                        "mileage": 217400
+                    }
+                },
+                {
+                    "year": 2006,
+                    "averages": {
+                        "price": 11900,
+                        "mileage": 239950.5
+                    }
+                },
+                {
+                    "year": 2007,
+                    "averages": {
+                        "price": 16666.333333333332,
+                        "mileage": 155576.33333333334
+                    }
+                },
+                {
+                    "year": 2008,
+                    "averages": {
+                        "price": 15225,
+                        "mileage": 172987
+                    }
+                },
+                {
+                    "year": 2009,
+                    "averages": {
+                        "price": 16916.666666666668,
+                        "mileage": 125100
+                    }
+                },
+                {
+                    "year": 2010,
+                    "averages": {
+                        "price": 21595,
+                        "mileage": 101442.33333333333
+                    }
+                },
+                {
+                    "year": 2011,
+                    "averages": {
+                        "price": 24184.25,
+                        "mileage": 170638.25
+                    }
+                },
+                {
+                    "year": 2012,
+                    "averages": {
+                        "price": 28794.4,
+                        "mileage": 130214
+                    }
+                },
+                {
+                    "year": 2013,
+                    "averages": {
+                        "price": 31828.499999999996,
+                        "mileage": 88711
+                    }
+                },
+                {
+                    "year": 2015,
+                    "averages": {
+                        "price": 30490,
+                        "mileage": 130993
+                    }
+                },
+                {
+                    "year": 2017,
+                    "averages": {
+                        "price": 62946,
+                        "mileage": 35101.5
+                    }
+                }
+            ]
+        }
+    },
+    "{'make': 'BMW', 'model': '5 Series', 'year': '2021'}": {
+        "error": "",
+        "response": {
+            "yearlyAverages": [
+                {
+                    "year": 1996,
+                    "averages": {
+                        "price": 11500,
+                        "mileage": 79693
+                    }
+                },
+                {
+                    "year": 2001,
+                    "averages": {
+                        "price": 4800,
+                        "mileage": 278814
+                    }
+                },
+                {
+                    "year": 2004,
+                    "averages": {
+                        "price": 9163.333333333334,
+                        "mileage": 147901.66666666666
+                    }
+                },
+                {
+                    "year": 2005,
+                    "averages": {
+                        "price": 8000,
+                        "mileage": 217400
+                    }
+                },
+                {
+                    "year": 2006,
+                    "averages": {
+                        "price": 11900,
+                        "mileage": 239950.5
+                    }
+                },
+                {
+                    "year": 2007,
+                    "averages": {
+                        "price": 16666.333333333332,
+                        "mileage": 155576.33333333334
+                    }
+                },
+                {
+                    "year": 2008,
+                    "averages": {
+                        "price": 15225,
+                        "mileage": 172987
+                    }
+                },
+                {
+                    "year": 2009,
+                    "averages": {
+                        "price": 16916.666666666668,
+                        "mileage": 125100
+                    }
+                },
+                {
+                    "year": 2010,
+                    "averages": {
+                        "price": 21595,
+                        "mileage": 101442.33333333333
+                    }
+                },
+                {
+                    "year": 2011,
+                    "averages": {
+                        "price": 24184.25,
+                        "mileage": 170638.25
+                    }
+                },
+                {
+                    "year": 2012,
+                    "averages": {
+                        "price": 28794.4,
+                        "mileage": 130214
+                    }
+                },
+                {
+                    "year": 2013,
+                    "averages": {
+                        "price": 31828.499999999996,
+                        "mileage": 88711
+                    }
+                },
+                {
+                    "year": 2015,
+                    "averages": {
+                        "price": 30490,
+                        "mileage": 130993
+                    }
+                },
+                {
+                    "year": 2017,
+                    "averages": {
+                        "price": 62946,
+                        "mileage": 35101.5
+                    }
+                }
+            ]
+        }
+    },
+    "{'model': 'Corolla', 'year': '2023', 'make': 'Toyota'}": {
+        "error": "",
+        "response": "{'averages': {'mileage': 51686, 'price': 30428}, 'tiersAverages': {'lower': {'price': 27501, 'mileage': 59647}, 'middle': {'price': 30338, 'mileage': 52351}, 'top': {'price': 33539, 'mileage': 38654}}, 'yearlyAverages': [{'year': 2002, 'averages': {'price': 8990, 'mileage': 139294}}, {'year': 2003, 'averages': {'price': 7980, 'mileage': 217982}}, {'year': 2004, 'averages': {'price': 5831, 'mileage': 254935.6}}, {'year': 2005, 'averages': {'price': 8990, 'mileage': 97878}}, {'year': 2006, 'averages': {'price': 6903.833333333334, 'mileage': 200049}}, {'year': 2007, 'averages': {'price': 9601.000000000002, 'mileage': 168881.3333333333}}, {'year': 2008, 'averages': {'price': 9764.533333333333, 'mileage': 149698.53333333335}}, {'year': 2009, 'averages': {'price': 10268.4, 'mileage': 148860.8}}, {'year': 2010, 'averages': {'price': 10919.000000000002, 'mileage': 162820.14285714287}}, {'year': 2011, 'averages': {'price': 11728, 'mileage': 158997.11111111112}}, {'year': 2012, 'averages': {'price': 12290.312499999998, 'mileage': 160285.50000000003}}, {'year': 2013, 'averages': {'price': 14679.705882352939, 'mileage': 139742.29411764705}}, {'year': 2014, 'averages': {'price': 15507.804878048779, 'mileage': 134902.29268292684}}, {'year': 2015, 'averages': {'price': 15871.764705882355, 'mileage': 121479.35294117646}}, {'year': 2016, 'averages': {'price': 18298.55, 'mileage': 117244.6}}, {'year': 2017, 'averages': {'price': 19995.48936170213, 'mileage': 91793.17021276597}}, {'year': 2018,"
+    },
+    "{'model': 'Golf', 'year': '2007', 'make': 'Volkswagen'}": {
+        "error": "",
+        "response": "{'averages': {'mileage': 167940, 'price': 7205}, 'tiersAverages': {'lower': {'price': 6573, 'mileage': 206773}, 'middle': {'price': 6993, 'mileage': 171444}, 'top': {'price': 8163, 'mileage': 122552}}, 'yearlyAverages': [{'year': 1999, 'averages': {'price': 4999, 'mileage': 197914}}, {'year': 2000, 'averages': {'price': 3990, 'mileage': 270000}}, {'year': 2003, 'averages': {'price': 4499, 'mileage': 144348}}, {'year': 2005, 'averages': {'price': 7240, 'mileage': 120618.5}}, {'year': 2006, 'averages': {'price': 12989.5, 'mileage': 119827.5}}, {'year': 2007, 'averages': {'price': 7186.75, 'mileage': 198874}}, {'year': 2008, 'averages': {'price': 5972.5, 'mileage': 184115.75}}, {'year': 2009, 'averages': {'price': 11993, 'mileage': 132385}}, {'year': 2010, 'averages': {'price': 12798.263157894737, 'mileage': 148296.1052631579}}, {'year': 2011, 'averages': {'price': 11703.695652173914, 'mileage': 146459.39130434784}}, {'year': 2012, 'averages': {'price': 12283.388888888889, 'mileage': 142117.22222222222}}, {'year': 2013, 'averages': {'price': 13223.8125, 'mileage': 127749.1875}}, {'year': 2014, 'averages': {'price': 16977, 'mileage': 124312.33333333333}}, {'year': 2015, 'averages': {'price': 19242.263157894733, 'mileage': 100157.47368421053}}, {'year': 2016, 'averages': {'price': 20157.615384615387, 'mileage': 116265.34615384617}}, {'year': 2017, 'averages': {'price': 22140.088235294115, 'mileage': 103072.23529411765}}, {'year': 2018, 'averages': {'price': 24651.555555555555, 'mileage': 81186.44444444447}}, {'year': 2019, 'averages': {'price': 28627.4375, 'mileage': 80140.59375}}, {'year': 2020, 'averages': {'price': 30154.399999999998, 'mileage': 66778.65000000001}}, {'year': 2021, 'averages': {'price': 35419.833333333336, 'mileage': 34470.166666666664}}, {'year': 2022, 'averages': {'price': 35880, 'mileage': 15530}}, {'year': 2023, 'averages': {'price': 52013.75, 'mileage': 5531.5}}, {'year': 2024, 'averages': {'price': 58036.54054054055, 'mileage': 459.27027027027026}}]}"
+    },
+    "{'model': 'Camry', 'year': '2015', 'make': 'Toyota'}": {
+        "error": "",
+        "response": "{'averages': {'mileage': 113142, 'price': 17548}, 'tiersAverages': {'lower': {'price': 15367, 'mileage': 150864}, 'middle': {'price': 17353, 'mileage': 111766}, 'top': {'price': 20688, 'mileage': 83363}}, 'yearlyAverages': [{'year': 1992, 'averages': {'price': 1800, 'mileage': 231600}}, {'year': 2001, 'averages': {'price': 4900, 'mileage': 201300}}, {'year': 2004, 'averages': {'price': 8888, 'mileage': 48968}}, {'year': 2005, 'averages': {'price': 6499, 'mileage': 174000}}, {'year': 2006, 'averages': {'price': 6500, 'mileage': 267901}}, {'year': 2007, 'averages': {'price': 8500, 'mileage': 250000}}, {'year': 2011, 'averages': {'price': 11000, 'mileage': 164752}}, {'year': 2012, 'averages': {'price': 12500, 'mileage': 285000}}, {'year': 2013, 'averages': {'price': 17059.5, 'mileage': 66921.25}}, {'year': 2014, 'averages': {'price': 16900, 'mileage': 113600}}, {'year': 2015, 'averages': {'price': 22290, 'mileage': 83631}}, {'year': 2016, 'averages': {'price': 20593.6, 'mileage': 103676.4}}, {'year': 2017, 'averages': {'price': 24974.666666666668, 'mileage': 59516.16666666667}}, {'year': 2018, 'averages': {'price': 34195, 'mileage': 51376.75}}, {'year': 2019, 'averages': {'price': 29834, 'mileage': 52920}}, {'year': 2020, 'averages': {'price': 40888, 'mileage': 13162.5}}], 'topModels': [{'averages': {'price': 26302, 'mileage': 46551}, 'model': 'Honda Accord'}, {'averages': {'price': 12172, 'mileage': 130371}, 'model': 'Nissan Altima'}, {'averages': {'price': 15823, 'mileage': 133108}, 'model': 'Hyundai Sonata'}, {'averages': {'price': 19590, 'mileage': 91231}, 'model': 'Kia Optima'}, {'averages': {'price': 16907, 'mileage': 123335}, 'model': 'Mazda 6'}]}"
+    },
+    "{'model': 'Camry', 'year': '2023', 'make': 'Toyota'}": {
+        "error": "",
+        "response": "{'averages': {'mileage': 45954, 'price': 36487}, 'tiersAverages': {'lower': {'price': 34461, 'mileage': 58301}, 'middle': {'price': 36227, 'mileage': 46740}, 'top': {'price': 38206, 'mileage': 29590}}, 'yearlyAverages': [{'year': 2002, 'averages': {'price': 7998, 'mileage': 130276}}, {'year': 2003, 'averages': {'price': 9499, 'mileage': 176898}}, {'year': 2004, 'averages': {'price': 7496.75, 'mileage': 177090.5}}, {'year': 2005, 'averages': {'price': 6994.5, 'mileage': 241904}}, {'year': 2006, 'averages': {'price': 10994.5, 'mileage': 138415.5}}, {'year': 2007, 'averages': {'price': 8962.142857142857, 'mileage': 169202.57142857142}}, {'year': 2008, 'averages': {'price': 7347, 'mileage': 224761.5}}, {'year': 2009, 'averages': {'price': 10270.375, 'mileage': 169400.5}}, {'year': 2010, 'averages': {'price': 10747.538461538461, 'mileage': 164262.15384615387}}, {'year': 2011, 'averages': {'price': 13897.2, 'mileage': 138615.6}}, {'year': 2012, 'averages': {'price': 13395.285714285716, 'mileage': 174538.2142857143}}, {'year': 2013, 'averages': {'price': 14598.125, 'mileage': 161825.87499999997}}, {'year': 2014, 'averages': {'price': 15468.692307692307, 'mileage': 158276.61538461538}}, {'year': 2015, 'averages': {'price': 16617.125, 'mileage': 135450.5}}, {'year': 2016, 'averages': {'price': 19921.157894736843, 'mileage': 105581.5263157895}}, {'year': 2017, 'averages': {'price': 21129.59090909091, 'mileage': 117441.49999999999}}, {'year': 2018, 'averages': {'price': 25523.4999999999"
+    },
+    "{'model': 'Corolla', 'year': '2015', 'make': 'Toyota'}": {
+        "error": "",
+        "response": "{'averages': {'mileage': 107030, 'price': 17304}, 'tiersAverages': {'lower': {'price': 16500, 'mileage': 113000}, 'middle': {'price': 19200, 'mileage': 77349}, 'top': {'price': 21900, 'mileage': 41698}}, 'yearlyAverages': [{'year': 1999, 'averages': {'price': 2763.3333333333335, 'mileage': 261701.33333333334}}, {'year': 2000, 'averages': {'price': 6322.666666666667, 'mileage': 330511}}, {'year': 2001, 'averages': {'price': 5125.833333333333, 'mileage': 238064.83333333334}}, {'year': 2002, 'averages': {'price': 5123, 'mileage': 229822}}, {'year': 2003, 'averages': {'price': 4232.8, 'mileage': 296268.4}}, {'year': 2004, 'averages': {'price': 5294.2, 'mileage': 224440.6}}, {'year': 2005, 'averages': {'price': 7249.5, 'mileage': 194076.78571428574}}, {'year': 2006, 'averages': {'price': 7901.875, 'mileage': 208541.12500000003}}, {'year': 2007, 'averages': {'price': 8838.449999999997, 'mileage': 187137.05000000002}}, {'year': 2008, 'averages': {'price': 9050.166666666666, 'mileage': 183895.41666666666}}, {'year': 2009, 'averages': {'price': 9383.111111111111, 'mileage': 173558.33333333337}}, {'year': 2010, 'averages': {'price': 10620, 'mileage': 175990.35714285713}}, {'year': 2011, 'averages': {'price': 11116.933333333334, 'mileage': 144890.8}}, {'year': 2012, 'averages': {'price': 12946.285714285714, 'mileage': 155024.50000000003}}, {'year': 2013, 'averages': {'price': 14853.958333333334, 'mileage': 125598.25}}, {'year': 2014, 'averages': {'price': 15577.783783783781, 'mileage': 113907.1891891892}}, {'year': 2015, 'averages': {'price': 17072.884615384617, 'mileage': 119380}}, {'year': 2016, 'averages': {'price': 18621.289473684217, 'mileage': 100402.97368421053}}, {'year': 2017, 'averages': {'price': 19372.60714285714, 'mileage': 99378.39285714286}}, {'year': 2018, 'averages': {'price': 22331.20779220778, 'mileage': 75464.94805194809}}, {'year': 2019, 'averages': {'price': 24012.05555555556, 'mileage': 76133.16666666661}}, {'year': 2020, 'averages': {'price': 25732.583333333332, 'mileage': 66263.76666666668}}, {'year"
+    }
+}

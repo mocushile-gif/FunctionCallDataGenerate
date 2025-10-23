@@ -1,0 +1,35 @@
+{
+    "name": "related_videos",
+    "description": "This is a sub-function API for tool youtube_v3_alternative.\nTool description: Get data similar to YouTube Data API v3 from this API. Check latest version: [YT-API](https://rapidapi.com/ytjar/api/yt-api)\nAPI description: Fetches videos related to a specified video using the YouTube V3 API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the video for which to fetch related videos.",
+                "default": "dQw4w9WgXcQ"
+            },
+            "x_cachebypass": {
+                "type": "string",
+                "description": "Cache bypass parameter; pass '1' to bypass the cache. Defaults to None."
+            },
+            "geo": {
+                "type": "string",
+                "description": "ISO 3166-2 country code of the region (e.g., 'US', 'UK', 'CA'). Defaults to 'US'.",
+                "default": "US"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Locale/language for the request (e.g., 'en', 'gb', 'hi'). Defaults to 'en'.",
+                "default": "en"
+            },
+            "token": {
+                "type": "string",
+                "description": "Pagination token for fetching additional results. Defaults to None."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "team_stats",
+    "description": "This is a sub-function API for tool nfl_team_stats.\nTool description: Current and historical team stats for every NFL football team.\nAPI description: Fetches team statistics for the NBA. By default, it provides stats for the current league year. Optionally, you can supply a specific `leagueyear` or `team` to get results for those parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "leagueyear": {
+                "type": "string",
+                "description": "The league year of statistics you want to query.  League years refer to the year of the season when it begins, i.e., the 2022-2023 NFL season's league year is 2022.\n\nMinimum value is 1922 (the first year of the NFL), max value is the current league year. All other queries will return null.\n\nDefault value is the current league year."
+            },
+            "team": {
+                "type": "string",
+                "description": "The team whose statistics you want to query. The controller uses a case-insensitive string matcher, so queries of `phi` or `eag` should return statistics for the Philadelphia Eagles. Please note this query will only return one result, so a query such as `New York` may return an unexpected value.\n\nDefault value is empty and the query will return all teams for the league year."
+            }
+        },
+        "required": []
+    }
+}

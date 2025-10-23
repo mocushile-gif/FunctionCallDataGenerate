@@ -1,0 +1,59 @@
+{
+    "name": "getbycordsadv",
+    "description": "This is a sub-function API for tool electric_vehicle_charging_stations.\nTool description: Designed to provide users with the ability to search for and locate electric vehicle charging stations. The API includes a vast database of over 50,000 charging stations, with more being added regularly.\nAPI description: Fetch nearby electric vehicle charging stations based on given latitude and longitude coordinates.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "radius": {
+                "type": "number",
+                "description": "Radius in miles within which to search for charging stations.",
+                "default": 10.0
+            },
+            "lat": {
+                "type": "number",
+                "description": "Latitude coordinate for the search center.",
+                "default": 40.733154296875
+            },
+            "lng": {
+                "type": "number",
+                "description": "Longitude coordinate for the search center.",
+                "default": -73.99571228027344
+            },
+            "access_param": {
+                "type": "string",
+                "description": "Type of access for the charging stations (e.g., 'public', 'private'). Defaults to 'public'.",
+                "default": "public"
+            },
+            "ev_connector_type_param": {
+                "type": "string",
+                "description": "Type of EV connector (e.g., 'J1772'). Defaults to 'J1772'.",
+                "default": "J1772"
+            },
+            "ev_network_param": {
+                "type": "string",
+                "description": "EV network providers to include in the search (e.g., 'Tesla,Tesla Destination'). Defaults to 'Tesla,Tesla Destination'.",
+                "default": "Tesla,Tesla Destination"
+            },
+            "per_page": {
+                "type": "number",
+                "description": "Number of results to return per page. Defaults to 10.",
+                "default": 10.0
+            },
+            "page": {
+                "type": "number",
+                "description": "Number of results to return per page. Defaults to 10.",
+                "default": 1.0
+            },
+            "owner_type_param": {
+                "type": "string",
+                "description": "Type of owner for the charging stations (e.g., 'all'). Defaults to 'all'.",
+                "default": "all"
+            }
+        },
+        "required": [
+            "radius",
+            "lat",
+            "lng"
+        ]
+    }
+}

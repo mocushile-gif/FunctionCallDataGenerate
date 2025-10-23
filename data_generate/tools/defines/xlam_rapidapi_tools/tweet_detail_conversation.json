@@ -1,0 +1,21 @@
+{
+    "name": "tweet_detail_conversation",
+    "description": "This is a sub-function API for tool twitter_v2.\nTool description: Twitter public data API for Tweets and users\nAPI description: Retrieves the detail and conversation about a specified tweet using the RapidAPI Twitter API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tweet_id": {
+                "type": "string",
+                "description": "The ID of the tweet to retrieve details and conversation for.",
+                "default": "1299530165463199747"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "A parameter for pagination to fetch additional results in the conversation thread. Defaults to None."
+            }
+        },
+        "required": [
+            "tweet_id"
+        ]
+    }
+}

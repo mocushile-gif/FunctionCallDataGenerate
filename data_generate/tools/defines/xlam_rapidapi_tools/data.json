@@ -1,0 +1,17 @@
+{
+    "name": "data",
+    "description": "This is a sub-function API for tool indonesian_national_identity_card_validator.\nTool description: Indonesian NIC Validator & Detail Finder API\nAPI description: Fetches details of an Indonesian national identity card such as day, month, year, gender, and location using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The Indonesian national identity card number to validate and fetch details for.",
+                "default": "3275071201980055"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

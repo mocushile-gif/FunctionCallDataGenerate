@@ -1,0 +1,17 @@
+{
+    "name": "emailvalidation",
+    "description": "This is a sub-function API for tool whois_lookup_v4.\nTool description: WHOIS API (v1) returns well-parsed WHOIS records with fields in JSON formats for any domain name.\nAPI description: Validates whether the given email address is disposable or not by using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to be validated.",
+                "default": "info@peekdomain.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

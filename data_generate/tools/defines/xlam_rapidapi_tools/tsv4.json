@@ -1,0 +1,28 @@
+{
+    "name": "tsv4",
+    "description": "This is a sub-function API for tool odam.\nTool description: ODAM\nAPI description: Retrieves the entry list of a specified subset from a dataset using the odem API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "subset": {
+                "type": "string",
+                "description": "The identifier of the data subset to retrieve.",
+                "default": "activome"
+            },
+            "dataset": {
+                "type": "string",
+                "description": "The identifier of the dataset to query.",
+                "default": "frim1"
+            },
+            "format": {
+                "type": "string",
+                "description": "The output format for the response. Defaults to 'tsv'.",
+                "default": "tsv"
+            }
+        },
+        "required": [
+            "subset",
+            "dataset"
+        ]
+    }
+}

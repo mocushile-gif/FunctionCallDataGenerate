@@ -1,0 +1,16 @@
+{
+    "name": "community_post_comments",
+    "description": "This is a sub-function API for tool youtube.\nTool description: With the YouTube Data API, you can add various YouTube features to your app. Use the API for search, videos, playlists, channels and more.\nAPI description: Retrieves comments for a YouTube community post using the specified cursor token.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cursor": {
+                "type": "string",
+                "description": "A token used for pagination to fetch the next set of comments from the Community Post Details endpoint."
+            }
+        },
+        "required": [
+            "cursor"
+        ]
+    }
+}

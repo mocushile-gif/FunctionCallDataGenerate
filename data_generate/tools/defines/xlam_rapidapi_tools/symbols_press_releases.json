@@ -1,0 +1,23 @@
+{
+    "name": "symbols_press_releases",
+    "description": "This is a sub-function API for tool seeking_alpha_finance.\nTool description: Seeking Alpha is the world’s largest investing community. Seeking Alpha’s content has unparalleled breadth and depth: from stocks, ETFs and mutual funds to commodities and cryptocurrency.   **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters\nAPI description: Get a list of press releases for symbol. Ex result: https://seekingalpha.com/symbol/NVDA/press-releases",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker_slug": {
+                "type": "string",
+                "description": "The slug representing the stock ticker symbol.",
+                "default": "NVDA"
+            },
+            "page_number": {
+                "type": "number",
+                "description": "The page number of the press releases to fetch.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "ticker_slug",
+            "page_number"
+        ]
+    }
+}

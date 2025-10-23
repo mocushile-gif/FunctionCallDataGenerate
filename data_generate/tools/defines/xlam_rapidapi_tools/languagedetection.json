@@ -1,0 +1,17 @@
+{
+    "name": "languagedetection",
+    "description": "This is a sub-function API for tool what_s_language.\nTool description: Detect the language of a given text\nAPI description: Detect the language of a given text using the specified RapidAPI key and return the detected language code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text for which the language needs to be detected.",
+                "default": "How to Identify the Language of any Text"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

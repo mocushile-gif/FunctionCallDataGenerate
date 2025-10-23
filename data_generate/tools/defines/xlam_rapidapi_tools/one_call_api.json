@@ -1,0 +1,35 @@
+{
+    "name": "one_call_api",
+    "description": "This is a sub-function API for tool rapidweather.\nTool description: The proprietary convolutional neural network collects and processes wide range of data sources to cover any location and consider the local nuances of climate.\n\nWe collect and process weather data from different sources such as global and local weather models, satellites, radars and vast network of weather stations.\n\nFor each point on the globe, RapidWeather provides historical, current and forecasted weather data via light-speed APIs.\nAPI description: The One Call API provides the following weather data for any geographical coordinates:\n\n- Current weather\n- Minute forecast for 1 hour\n- Hourly forecast for 48 hours\n- Daily forecast for 7 days\n- National weather alerts\n- Historical weather data for the previous 5 days",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lon": {
+                "type": "number",
+                "description": "Geographical coordinates (latitude, longitude)",
+                "default": 94.04
+            },
+            "lat": {
+                "type": "number",
+                "description": "Geographical coordinates (latitude, longitude)",
+                "default": 33.44
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language for the weather data. Default is None."
+            },
+            "units": {
+                "type": "string",
+                "description": "Units of measurement. **standard**, **metric **and **imperial **units are available. If you do not use the **units **parameter, **standard **units will be applied by default"
+            },
+            "exclude": {
+                "type": "string",
+                "description": "By using this parameter you can exclude some parts of the weather data from the API response. It should be a comma-delimited list (without spaces).\nAvailable values:\n\n- current\n- minutely\n- hourly\n- daily\n- alerts"
+            }
+        },
+        "required": [
+            "lon",
+            "lat"
+        ]
+    }
+}

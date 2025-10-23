@@ -1,0 +1,10 @@
+{
+    "{'city': 'Dallas'}": {
+        "error": "",
+        "response": "[{'code': 'DAL', 'lat': '32.8439', 'lon': '-96.8496', 'name': 'Dallas Love Field Airport', 'city': 'Dallas', 'state': 'Texas', 'country': 'United States', 'woeid': '12519401', 'tz': 'America/Chicago', 'phone': '1-214-670-6073', 'type': 'Airports', 'email': '', 'url': 'http://www.dallas-lovefield.com/', 'runway_length': '8800', 'elev': '487', 'icao': 'KDAL', 'direct_flights': '19', 'carriers': '8'}, {'code': 'DFW', 'lat': '32.9222', 'lon': '-97.0409', 'name': 'Fort Worth International Airport', 'city': 'Dallas', 'state': 'Texas', 'country': 'United States', 'woeid': '12519786', 'tz': 'America/Chicago', 'phone': '', 'type': 'Airports', 'email': '', 'url': '', 'runway_length': '11388', 'elev': '603', 'icao': 'KDFW', 'direct_flights': '179', 'carriers': '62'}]"
+    },
+    "{'city': 'dallas'}": {
+        "error": "",
+        "response": "The 'Get Airports By City' API for the city 'Dallas' provides detailed information about airports in and around the city. Key airports include Dallas/Fort Worth International Airport (DFW), one of the busiest and largest airports in the world, serving as a major hub for American Airlines and offering extensive international and domestic flight options. Another significant airport is Dallas Love Field (DAL), known for its convenience and focus on domestic travel, primarily operated by Southwest Airlines. Both airports are equipped with modern facilities, including dining, shopping, and transportation services, ensuring a seamless travel experience. These airports are vital for connecting Dallas to major destinations globally and domestically, making the city a critical hub in the aviation network."
+    }
+}

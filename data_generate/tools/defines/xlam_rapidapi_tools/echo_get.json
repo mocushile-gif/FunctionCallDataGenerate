@@ -1,0 +1,22 @@
+{
+    "name": "echo_get",
+    "description": "This is a sub-function API for tool echo_api.\nTool description: Echo API that answer everything that you send back to you. Supports GET, POST, DELETE, PUT and PATCH.\nAPI description: Make a HTTP GET request to the echo API with specified content type and code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "content_type": {
+                "type": "string",
+                "description": "The content type to include in the request.",
+                "default": "application/json"
+            },
+            "code": {
+                "type": "string",
+                "description": "The response code you would like to get in the response. Defaults to '201'.",
+                "default": "201"
+            }
+        },
+        "required": [
+            "content_type"
+        ]
+    }
+}

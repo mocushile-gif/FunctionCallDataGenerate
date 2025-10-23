@@ -1,0 +1,19 @@
+{
+    "name": "download_states",
+    "description": "This is a sub-function API for tool priceline_com_provider.\nTool description: priceline.com | Lets you search hotels, cars for rent, flights. **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters **Other travel  api:** https://rapi.one\nAPI description: Downloads a list of states from the Priceline API using the provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "Limits the number of results returned by the API. Defaults to 100.",
+                "default": 100
+            },
+            "resume_key": {
+                "type": "string",
+                "description": "A key to resume results from a specific ID. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "sign",
+    "description": "This is a sub-function API for tool horoscope_astrology.\nTool description: The Horoscope API Server provides daily horoscope predictions for all zodiac signs. Users can access the API to retrieve daily astrological forecasts for their specific sun sign, as well as general horoscope information for the entire zodiac. The API is designed to be simple and easy to use, allowing developers to integrate horoscope content into their own applications and websites. The predictions are generated using algorithms that consider the position of the planets and other astrological...\nAPI description: Users can access the endpoint by sending a request for a specific sign, and receive a response with in-depth information about the traits, personality, and characteristics associated with that sign. This information can include compatibility with other signs, strengths and weaknesses, and general insights into the individual's nature and tendencies. The endpoint is designed to be easy to use, with a clear and concise format that makes it simple to access and understand the information.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "s": {
+                "type": "string",
+                "description": "The astrological sign to fetch information for. Valid options include 'aries', 'taurus', 'gemini', 'cancer', 'leo', 'virgo', 'libra', 'scorpio', 'sagittarius', 'capricorn', 'aquarius', and 'pisces'.",
+                "default": "libra"
+            }
+        },
+        "required": [
+            "s"
+        ]
+    }
+}

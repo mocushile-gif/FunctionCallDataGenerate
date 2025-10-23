@@ -1,0 +1,42 @@
+{
+    "name": "records",
+    "description": "This is a sub-function API for tool goverlytics.\nTool description: The Goverlytics API.\nAPI description: Fetches records data from the Goverlytics API based on various optional filtering criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of records to return. Defaults to None."
+            },
+            "offset": {
+                "type": "number",
+                "description": "The starting point in the list of records to return. Defaults to None."
+            },
+            "substring": {
+                "type": "string",
+                "description": "A substring to search for within the records. Defaults to None."
+            },
+            "speaker_id": {
+                "type": "string",
+                "description": "An ID representing a specific speaker. Defaults to None."
+            },
+            "topic": {
+                "type": "string",
+                "description": "The topic to filter records by. Defaults to None."
+            },
+            "speaker_party": {
+                "type": "string",
+                "description": "The party affiliation of the speaker to filter by. Defaults to None."
+            },
+            "level_of_government": {
+                "type": "string",
+                "description": "The level of government to filter records by. Defaults to None."
+            },
+            "region": {
+                "type": "string",
+                "description": "The region to filter records by. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

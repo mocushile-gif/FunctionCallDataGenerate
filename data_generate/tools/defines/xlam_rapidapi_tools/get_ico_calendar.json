@@ -1,0 +1,34 @@
+{
+    "name": "get_ico_calendar",
+    "description": "This is a sub-function API for tool investing_cryptocurrency_markets.\nTool description: These APIs provide data of all cryptocurrencies, markets, ideal for tracking prices and exchange rates.\nAPI description: Fetches the ICO (Initial Coin Offering) calendar based on the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "Check for suitable value of icoData/categories returned right in this endpoint. Separated by comma for multiple options. For example : &#95;ico&#95;cat&#95;gaming,&#95;ico&#95;cat&#95;ecomm,&#95;ico&#95;cat&#95;finance,&#95;ico&#95;cat&#95;healthcare"
+            },
+            "time_utc_offset": {
+                "type": "number",
+                "description": "UTC offset in seconds. For instance, UTC+8 is represented as 8 * 60 * 60 = 28800.",
+                "default": 28800.0
+            },
+            "tabname": {
+                "type": "string",
+                "description": "The status of the ICOs to retrieve. Options are 'upcoming', 'completed', or 'ongoing'. Default is 'ongoing'.",
+                "default": "ongoing"
+            },
+            "sort": {
+                "type": "string",
+                "description": "The sorting criterion. Options are 'related_days', 'name', 'funds_raised', or 'completed'. Default is 'related_days'.",
+                "default": "related_days"
+            },
+            "lang_id": {
+                "type": "number",
+                "description": "The value of all&#95;langs/lang&#95;ID returned in .../get-meta-data endpoint",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

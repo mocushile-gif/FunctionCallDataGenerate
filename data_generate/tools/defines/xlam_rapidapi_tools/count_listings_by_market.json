@@ -1,0 +1,27 @@
+{
+    "name": "count_listings_by_market",
+    "description": "This is a sub-function API for tool airbnb_listings.\nTool description: Join the over 300 users/customers and access all Airbnb data updated daily.\nGet Airbnb listings details, future prices and availability, reviews, and more using listing IDs, geo coordinates or \"market\". \nData analytics endpoints are also available to get detailed info around all airbnb accomodations.\nWe guarantee a 24-hour response time for all inquiries. If a feature you need is not there please contact us and we will evaluate if it is possible to fullfill your needs.\n\nWhile our data are not...\nAPI description: Retrieves the count of Airbnb listings in a specified market, with optional filters for the number of bedrooms and maximum guest capacity.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "market": {
+                "type": "string",
+                "description": "The market or city to search for listings.",
+                "default": "Tenerife"
+            },
+            "bedrooms": {
+                "type": "number",
+                "description": "The number of bedrooms to filter the listings by. Defaults to 1.",
+                "default": 1.0
+            },
+            "maxguestcapacity": {
+                "type": "number",
+                "description": "The maximum guest capacity to filter the listings by. Defaults to 2.",
+                "default": 2.0
+            }
+        },
+        "required": [
+            "market"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "profile_igtv",
+    "description": "This is a sub-function API for tool instagram_scraper_2023_v2.\nTool description: MEGA Instagram Scraper 2023 - get any Instagram stories, Highlights, Posts, Photos and Videos from public profiles by API Test for free :) You can get quick help via telegram app: @insta4root\nAPI description: Fetches the IGTV channel profile information for a given Instagram username using the RapidAPI Instagram Scraper.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username to fetch the IGTV profile for. Default is 'kimkardashian'.",
+                "default": "kimkardashian"
+            },
+            "nextmaxid": {
+                "type": "string",
+                "description": "The next max ID for pagination, if any. Default is None."
+            }
+        },
+        "required": []
+    }
+}

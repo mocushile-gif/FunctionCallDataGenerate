@@ -1,0 +1,20 @@
+{
+    "name": "trending",
+    "description": "This is a sub-function API for tool youtube_trending.\nTool description: Unofficial API to gather video information from the trending section of Youtube\nAPI description: Fetches trending YouTube videos for a specific category and country using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The category of trending videos. Can be 'default', 'music', 'gaming', or 'movies'. Defaults to 'gaming'.",
+                "default": "gaming"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country code for which to retrieve trending videos, e.g., 'US', 'DE', 'JP'. Defaults to 'US'.",
+                "default": "US"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "generate",
+    "description": "This is a sub-function API for tool payment_card_numbers_generator.\nTool description: A simple service to generate random credit/debit card numbers\nAPI description: # Generate payment card numbers\n\n## Default values\n\n**scheme**: \"visa\"\n**count**: 5",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "quantity": {
+                "type": "number",
+                "description": "The number of payment card numbers to generate. Defaults to 5.",
+                "default": 5.0
+            },
+            "scheme": {
+                "type": "string",
+                "description": "The scheme of the payment card numbers (e.g., 'visa', 'mastercard'). If not specified, defaults to None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "premium_daily",
+    "description": "This is a sub-function API for tool daily_sec_financial_statement_dataset.\nTool description: While the \"SEC Financial Statement Dataset\" https://www.sec.gov/dera/data/financial-statement-data-sets.html is only provided after each quarter, this API provides the data in the same structure daily.\n\n**Have a look at the tutorials on how to use the API**\n\n**BETA**\nThis API is in beta, as I try to find out if there is demand for that data. During the beta phase, I will only update the data once or twice a week.\n\nIf you want to stay informed about the project or give me some feedback, please...\nAPI description: This endpoints delivers the daily zip files of filed 10-q and 10-k reports. The files are published daily (resp. once or twice a week during the beta phase).\n\nThe structure of the data is similar as in the SEC financial statement dataset (https://www.sec.gov/files/aqfs.pdf), with the exception  that not TAG file is present and that the SUB file only contains a subset of the attributes.\n\nPlease not that the https-url has to end with a \"/\": \nhttps://daily-sec-financial-statement-dataset.p.rapidapi.com/premium",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to fetch the report in YYYY-MM-DD format.",
+                "default": "2023-07-07"
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

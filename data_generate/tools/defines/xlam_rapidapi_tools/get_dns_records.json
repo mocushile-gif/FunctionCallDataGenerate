@@ -1,0 +1,32 @@
+{
+    "name": "get_dns_records",
+    "description": "This is a sub-function API for tool vibrant_dns.\nTool description: Get DNS record information\nAPI description: Fetch DNS records for a given domain using the specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain for which to fetch the DNS records.",
+                "default": "rapidapi.com"
+            },
+            "record_type": {
+                "type": "string",
+                "description": "A comma-separated string specifying the types of DNS records to fetch. Possible values include 'a', 'ns', 'mx', 'txt', and 'cname'. Defaults to 'a,mx'.",
+                "default": "a,mx"
+            },
+            "response_type_seperator": {
+                "type": "string",
+                "description": "When response_type is set to target, you can set the response_type_seperator here. Default is \\\\\\\\\\\\\\\\n (newline) but you can do comma or pipe delimited if you want.",
+                "default": ","
+            },
+            "response_type": {
+                "type": "string",
+                "description": "If response_type = target, will respond with either ip, txt or target of the requested dns record type. Useful when used in conjunction with response_type_seperator",
+                "default": "target"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

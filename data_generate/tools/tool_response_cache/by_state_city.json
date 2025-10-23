@@ -1,0 +1,42 @@
+{
+    "{'state': 'WA', 'city': 'all'}": {
+        "error": "",
+        "response": []
+    },
+    "{'state': 'Washington', 'city': 'Bellevue'}": {
+        "error": "",
+        "response": "Our National Registered Homeless Shelters API has identified multiple shelters in Bellevue, Washington. The shelters offer a range of services, including overnight lodging, meals, counseling, and job training programs to assist individuals and families in need. Please note, availability varies and it's recommended to contact the shelters directly for the most current information. This tool is designed to connect those in need with local shelters and support services efficiently. Remember, the situation at shelters can change rapidly, so reaching out for the latest updates is always a good practice."
+    },
+    "{'city': 'Seattle', 'state': 'Washington'}": {
+        "error": "",
+        "response": "Internal Server Error: Object of type set is not JSON serializable"
+    },
+    "{'state': 'Texas', 'city': 'Houston'}": {
+        "error": "",
+        "response": "[{'name': 'Northwest Assistance Ministries', 'address': '15555 Kuykendahl Rd.', 'city': 'Houston', 'state': 'TX', 'zip_code': '77090', 'location': '30.003765011208017,-95.46198401388804', 'phone_number': '(281) 885-4555', 'email_address': 'volunteer@namonline.org', 'fax_number': '', 'official_website': 'https://www.namonline.org/', 'twitter': 'https://twitter.com/namneighbors', 'facebook': 'https://www.facebook.com/NAMNeighbors/', 'instagram': 'https://www.instagram.com/namonline.shop', 'description': '', 'photo_urls': ['https://www.homelessshelterdirectory.org/gallery/637_1635305849.jpg', 'https://www.homelessshelterdirectory.org/gallery/291_namonline.shop.jpg', 'https://www.homelessshelterdirectory.org/gallery/637_namonline_org.jpg'], 'update_datetime': '2023-06-21T17:24:12Z'}, {'name': 'Santa Maria Hostel', 'address': '2005 Jacquelyn', 'city': 'Houston', 'state': 'TX', 'zip_code': '77055', 'location': '29.806998995974197,-95.48108201263523', 'phone_number': '(713) 957-2413', 'email_address': 'rwright@santamariahostel.org', 'fax_number': '(281) 657-0956', 'official_website': 'http://www.santamariahostel.org/', 'twitter': 'https://twitter.com/sm_hostel/', 'facebook': 'https://www.facebook.com/santa.maria.7923', 'instagram': 'https://www.instagram.com/santamaria_hostel/', 'description': \"The mission of Santa Maria Hostel is to empower women and their families to lead healthy, successful, productive and self-fulfilling lives.Santa Maria is Texas' largest multi-site residential and outpatient substance abuse treatment center and one of a very few to provide a comprehensive continuum for pregnant and parenting women and their children. Clients progress towards achieving improved mental and physical health, family functioning and economic stability that supports a drug- and violence-free lifestyle.Santa Maria is proud of its history in providing recovery services which have a long-term impact on individuals and families served. Through these services, clients complete substance abuse treatment, acquire parenting skil"
+    },
+    "{'city': 'Austin', 'state': 'Texas'}": {
+        "error": "",
+        "response": "Internal Server Error: Object of type set is not JSON serializable"
+    },
+    "{'city': 'Austin', 'state': 'TX'}": {
+        "error": "",
+        "response": "Internal Server Error: Object of type set is not JSON serializable"
+    },
+    "{'city': 'Houston', 'state': 'TX'}": {
+        "error": "",
+        "response": "Internal Server Error: Object of type set is not JSON serializable"
+    },
+    "{'state': 'Washington', 'city': 'Seattle'}": {
+        "error": "",
+        "response": "[{'name': 'Downtown Emergency Service Center - DESC Seatle', 'address': '515 3rd Ave S', 'city': 'Seattle', 'state': 'WA', 'zip_code': '98104', 'location': '47.60220599249109,-122.33136101734422', 'phone_number': '(206) 464-1570', 'email_address': 'info@desc.org', 'fax_number': '(206) 624-4196', 'official_website': 'http://www.desc.org/', 'twitter': 'https://www.twitter.com/DESCSeattle/', 'facebook': 'https://www.facebook.com/pages/Downtown-Emergency-Service-Center/220323835957', 'instagram': 'https://www.instagram.com/descseattle', 'description': \"Walk in daily. Hours: 8am to 4:45pm. For Men: Serves men 60+ or any adult vulnerable due to mental illness, developmental disabilities, chemical dependency and/or medical condition.For Women: Visit at 8am to the shelter registration desk. Assignments made at 10am. Additional slots assigned as space allows. Serves anyone that is a female. DESC is a non-profit organization dedicated to helping people who are most marginalized find homes, health and community. Founded in 1979 as an emergency shelter for vulnerable homeless men and women living with mental illness, substance-use disorders, and other disabilities. Today, DESC is the Puget Sound Region's most comprehensive provider of services, including housing, for chronically homeless adults. DESC's services include emergency shelter and outreach, supportive housing, mental health care, addiction treatment, crisis intervention, employment services and vocational training. At DESC, uncommon efforts produce uncommon results that help eliminate homelessness, one person at a time.\", 'photo_urls': ['https://www.homelessshelterdirectory.org/gallery/16348__ans.jpg'], 'update_datetime': '2023-06-21T17:26:38Z'}, {'name': 'Compass Housing Alliance\u2019s Blaine Center Men\u2019s Shelter', 'address': '154 Denny Way', 'city': 'Seattle', 'state': 'WA', 'zip_code': '98109', 'location': '47.618637242571225,-122.3538036064863', 'phone_number': '(206) 474-1000', 'email_address': 'info@compasshousingalliance.org', 'fax_number': '', 'official_website"
+    },
+    "{'state': 'Washington', 'city': 'Spokane'}": {
+        "error": "",
+        "response": "Internal Server Error: Object of type set is not JSON serializable"
+    },
+    "{'state': 'Washington', 'city': 'Tacoma'}": {
+        "error": "",
+        "response": "Internal Server Error: Object of type set is not JSON serializable"
+    }
+}

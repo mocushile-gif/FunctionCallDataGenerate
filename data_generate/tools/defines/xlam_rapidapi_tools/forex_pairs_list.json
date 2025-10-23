@@ -1,0 +1,28 @@
+{
+    "name": "forex_pairs_list",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Fetches a list of available forex pairs from the Twelve Data API, with optional filters for base currency, symbol, response format, and quote currency.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "currency_base": {
+                "type": "string",
+                "description": "Filter the results by base currency. Defaults to 'EUR'.",
+                "default": "EUR"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "Filter the results by symbol. Optional."
+            },
+            "format": {
+                "type": "string",
+                "description": "The format of the response. Can be 'json' or 'csv'. Defaults to 'json'.",
+                "default": "json"
+            },
+            "currency_quote": {
+                "type": "string",
+                "description": "Filter the results by quote currency. Optional."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "name": "get_channels",
+    "description": "This is a sub-function API for tool get_60k_radio_stations.\nTool description: More than 68,000 radio stations from different countries and various genres\nAPI description: Retrieve a list of radio channels based on various filtering parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number for pagination. Default is 1."
+            },
+            "genre_id": {
+                "type": "number",
+                "description": "Filter channels by genre ID. Default is None."
+            },
+            "city_id": {
+                "type": "number",
+                "description": "Filter channels by city ID. Default is None."
+            },
+            "country_id": {
+                "type": "number",
+                "description": "Filter channels by country ID. Default is 50."
+            },
+            "keyword": {
+                "type": "string",
+                "description": "Filter channels by keyword. Default is 'a'. Set to an empty string if no filtering by keyword is needed.",
+                "default": "He"
+            }
+        },
+        "required": []
+    }
+}

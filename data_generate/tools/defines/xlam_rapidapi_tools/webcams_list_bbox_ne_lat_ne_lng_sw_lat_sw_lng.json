@@ -1,0 +1,41 @@
+{
+    "name": "webcams_list_bbox_ne_lat_ne_lng_sw_lat_sw_lng",
+    "description": "This is a sub-function API for tool webcams_travel.\nTool description: The World's Largest Landscape Webcam API ***** Get webcams by categories, country, region or just nearby your location ***** Get timelapse slideshows for every webcam ***** Get an uncluttered webcam layer for your map\nAPI description: This is a modifier. Returns a list of the webcams in the bounding box given by north-east ({ne_lat},{ne_lng}) and south-west ({sw_lat},{sw_lng}) coordinates. Required: {ne_lat},{ne_lng},{sw_lat},{sw_lng}.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ne_lat": {
+                "type": "number",
+                "description": "North-east WGS84 latitude of the bounding box."
+            },
+            "sw_lng": {
+                "type": "number",
+                "description": "South-west WGS84 longitude of the bounding box."
+            },
+            "sw_lat": {
+                "type": "number",
+                "description": "South-west WGS84 latitude of the bounding box."
+            },
+            "ne_lng": {
+                "type": "number",
+                "description": "North-east WGS84 longitude of the bounding box."
+            },
+            "lang": {
+                "type": "string",
+                "description": "Localizes the results to the specified language, if available. Default is 'en'.",
+                "default": "en"
+            },
+            "show": {
+                "type": "string",
+                "description": "Content to be listed in the response. Possible values are: \"webcams\", \"categories\", \"continents\", \"countries\", \"regions\", \"properties\". Default is \"webcams\".",
+                "default": "webcams:image,location"
+            }
+        },
+        "required": [
+            "ne_lat",
+            "sw_lng",
+            "sw_lat",
+            "ne_lng"
+        ]
+    }
+}

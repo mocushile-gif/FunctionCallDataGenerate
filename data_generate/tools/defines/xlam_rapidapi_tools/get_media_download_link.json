@@ -1,0 +1,17 @@
+{
+    "name": "get_media_download_link",
+    "description": "This is a sub-function API for tool instagram_looter.\nTool description: Access Instagram Data with Precision and Speed! Utilize Intelligent Request Filtering for Guaranteed 99.99% Response.\nAPI description: Fetches an Instagram media download link for a given post, TV, or reel link.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "link": {
+                "type": "string",
+                "description": "The URL link of the Instagram media (post, TV, or reel).",
+                "default": "https://www.instagram.com/p/CqIbCzYMi5C/"
+            }
+        },
+        "required": [
+            "link"
+        ]
+    }
+}

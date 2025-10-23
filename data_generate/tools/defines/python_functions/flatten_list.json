@@ -1,0 +1,17 @@
+{
+    "name": "flatten_list",
+    "description": "Flattens a nested list into a single-level list.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nested_list": {
+                "type": "array",
+                "items": {},
+                "description": "The nested list to be flattened. Can contain numbers, strings, and other nested lists."
+            }
+        },
+        "required": [
+            "nested_list"
+        ]
+    }
+}

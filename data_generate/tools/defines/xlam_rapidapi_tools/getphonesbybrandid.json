@@ -1,0 +1,17 @@
+{
+    "name": "getphonesbybrandid",
+    "description": "This is a sub-function API for tool cellphones.\nTool description: Welcome to the GSMarena API! Our API allows you to easily access and consume the vast array of data available on the GSMarena website. \n\nWith our API, you can access detailed information about any phone or tablet, including technical specifications, images, and more. \n\nWith the GSMarena API, you can quickly and easily: \n• Retrieve detailed information about any phone or tablet \n• Access images of any device \n• Get full specifications and features of any device \n• Check prices, ratings, and re...\nAPI description: Use this end point to load all phone ids for a specific brand. get the brand id from the endpoint GetBrands",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "brandid": {
+                "type": "number",
+                "description": "The unique identifier for the brand whose phone IDs are to be retrieved.",
+                "default": 237.0
+            }
+        },
+        "required": [
+            "brandid"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "stock_v3_get_profile",
+    "description": "This is a sub-function API for tool ms_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc... to create a site/application such as morningstar.com\nAPI description: Fetches the company profile for a given stock using the performance ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "performanceid": {
+                "type": "string",
+                "description": "The unique identifier for the stock's performance, which can be obtained from endpoints such as `/auto-complete`, `/get-summary`, or `/get-movers`.",
+                "default": "0P0000OQN8"
+            }
+        },
+        "required": [
+            "performanceid"
+        ]
+    }
+}

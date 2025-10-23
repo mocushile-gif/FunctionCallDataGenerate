@@ -1,0 +1,17 @@
+{
+    "name": "get_specific_pizza",
+    "description": "This is a sub-function API for tool pizza_and_desserts.\nTool description: decent collection of pizzas and desserts for your next food app project..\nAPI description: Fetches a specific pizza by its ID from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the pizza to retrieve.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

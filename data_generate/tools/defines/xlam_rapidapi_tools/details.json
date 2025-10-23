@@ -1,0 +1,32 @@
+{
+    "name": "details",
+    "description": "This is a sub-function API for tool price_comparison.\nTool description: Amazon, Ebay, Target, Walmart, Google - price & product data from all marketplaces via one API. The Price Comparison API provides price & product data incl. product title, manufacturer, sellers, reviews, prices, size selection etc.\nAPI description: Fetch product details from the price comparison API using various geographical and identification parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The identifier for the product. This can be a UPC, EAN, ISBN, GTIN, or Amazon ASIN.",
+                "default": "611247373064"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country code for the query. Default is 'US'.",
+                "default": "US"
+            },
+            "longitude": {
+                "type": "string",
+                "description": "The longitude for geographical querying. Default is '-122.49493'.",
+                "default": "-122.49493"
+            },
+            "latitude": {
+                "type": "string",
+                "description": "The latitude for geographical querying. Default is '37.777805'.",
+                "default": "37.777805"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

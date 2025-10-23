@@ -1,0 +1,17 @@
+{
+    "name": "get_user_profile",
+    "description": "This is a sub-function API for tool get_9gag_api_detailed.\nTool description: Detailed 9GAG API. Scraping posts, categories, users. Includes download videos/photos.\nAPI description: Fetches the user profile from the Pinterest API using the provided username.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Pinterest username for which to retrieve the profile information.",
+                "default": "kleido007"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

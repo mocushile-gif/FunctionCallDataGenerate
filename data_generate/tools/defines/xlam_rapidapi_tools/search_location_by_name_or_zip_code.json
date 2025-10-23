@@ -1,0 +1,24 @@
+{
+    "name": "search_location_by_name_or_zip_code",
+    "description": "This is a sub-function API for tool climate_data.\nTool description: climate data worldwide\nAPI description: Search for a location by city name or zip code and retrieve forecast key information in the specified language.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "city": {
+                "type": "string",
+                "description": "Name of the city to search for. Defaults to 'New York'.",
+                "default": "New York"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language for the response. Supported values are ['en', 'fr', 'nl', 'es', 'pt', 'it', 'tr', 'gr', 'cz', 'pl', 'ru', 'cn']. Defaults to 'en'.",
+                "default": "en"
+            },
+            "zipcode": {
+                "type": "string",
+                "description": "Zip code of the city to search for. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

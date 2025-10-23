@@ -1,0 +1,15 @@
+{
+    "name": "ublacklist_txt",
+    "description": "This is a sub-function API for tool stopmodreposts_blocklist.\nTool description: The StopModReposts Blocklist in different data formats.\nAPI description: Fetches the ublacklist.txt data for a specified game using the StopModReposts API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "game": {
+                "type": "string",
+                "description": "The name of the game to fetch the blacklist for. Defaults to 'minecraft'.",
+                "default": "minecraft"
+            }
+        },
+        "required": []
+    }
+}

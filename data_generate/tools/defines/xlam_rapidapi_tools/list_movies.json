@@ -1,0 +1,55 @@
+{
+    "name": "list_movies",
+    "description": "This is a sub-function API for tool list_movies_v3.\nTool description: This Movies API contains the data of the best movies ever made in a very easy-to-use and organized format.\n\nGreat choice for REST API based Frontend Developer Projects.\n\nIn the case of accessing the complete list, the Cover image, Rank, Title, Thumbnail, Rating, Id, Year, Images, Description, Trailer, Genre, Director, Writer and ID of the movies are listed.\n\nThis is a lightweight web service, (REST interface), which provides an easy way to access our database.\n\nAn API (Application programming...\nAPI description: Used to list and search through out all the available movies. Can sort, filter, search and order the results",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "genre": {
+                "type": "string",
+                "description": "Used to filter by a given genre (default is 'all'). See http://www.imdb.com/genre/ for a full list.",
+                "default": "all"
+            },
+            "order_by": {
+                "type": "string",
+                "description": "Orders the results by either 'asc' (Ascending) or 'desc' (Descending) order (default is 'desc').",
+                "default": "desc"
+            },
+            "with_rt_ratings": {
+                "type": "boolean",
+                "description": "If True, includes Rotten Tomatoes ratings in the results (default is None).",
+                "default": true
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "Sorts the results by the specified value, such as 'date_added' (default is 'date_added').",
+                "default": "date_added"
+            },
+            "page": {
+                "type": "number",
+                "description": "used to see the next page of movies, eg limit=15 and page=2 will show you movies 15-30.",
+                "default": 1.0
+            },
+            "query_term": {
+                "type": "string",
+                "description": "Used for movie search, matching on: Movie Title, IMDB Code, Actor Name/IMDb, or Director Name/IMDb Code (default is '0').",
+                "default": "0"
+            },
+            "quality": {
+                "type": "string",
+                "description": "Used to filter by a given quality, such as '720p', '1080p', etc. (default is 'all').",
+                "default": "all"
+            },
+            "minimum_rating": {
+                "type": "number",
+                "description": "Filters movies by a given minimum IMDb rating (default is 0).",
+                "default": 0.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The limit of results per page that has been set.",
+                "default": 20.0
+            }
+        },
+        "required": []
+    }
+}

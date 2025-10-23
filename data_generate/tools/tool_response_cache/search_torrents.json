@@ -1,0 +1,72 @@
+{
+    "{'keywords': 'TV shows', 'quantity': 100}": {
+        "error": "",
+        "response": {
+            "code": "402",
+            "keyword": "TV shows",
+            "quantity": 100,
+            "message": "Sorry,quantity between 1 and 40."
+        }
+    },
+    "{'keywords': 'top 100 movies', 'quantity': 100}": {
+        "error": "",
+        "response": {
+            "code": "402",
+            "keyword": "top 100 movies",
+            "quantity": 100,
+            "message": "Sorry,quantity between 1 and 40."
+        }
+    },
+    "{'keywords': 'movie', 'quantity': 100}": {
+        "error": "",
+        "response": {
+            "code": "402",
+            "keyword": "movie",
+            "quantity": 100,
+            "message": "Sorry,quantity between 1 and 40."
+        }
+    },
+    "{'keywords': 'movie torrents', 'quantity': 100}": {
+        "error": "",
+        "response": {
+            "code": "402",
+            "keyword": "movie torrents",
+            "message": "Sorry,quantity between 1 and 40.",
+            "quantity": 100
+        }
+    },
+    "{'keywords': 'animated movies', 'quantity': 100, 'page': 1}": {
+        "error": "",
+        "response": {
+            "code": "402",
+            "keyword": "animated movies",
+            "message": "Sorry,quantity between 1 and 40.",
+            "quantity": 100
+        }
+    },
+    "{'keywords': 'anime', 'quantity': 100}": {
+        "error": "",
+        "response": {
+            "code": "402",
+            "keyword": "anime",
+            "message": "Sorry,quantity between 1 and 40.",
+            "quantity": 100
+        }
+    },
+    "{'keywords': 'John Wick: Chapter 5', 'quantity': 10}": {
+        "error": "",
+        "response": "{'code': '200', 'keyword': 'John Wick: Chapter 5', 'quantity': 10, 'result': [{'title': 'John Wick Chapter 2 2017 WEB-DL x264-FGT', 'torrent': 'https://itorrents.org/torrent/84DA6AC94322BA3D3243A41BDDB41721A57F1452.torrent', 'size': '1.05 GB', 'seeders': 2340, 'leechers': 708, 'rate': 10}, {'title': 'John Wick Chapter 2 (2017) [YTS.AG]', 'torrent': 'https://itorrents.org/torrent/B8C9A7DBA20AC83B7EB81CA10D4657E3E4BD4F76.torrent', 'size': '908.65 MB', 'seeders': 1690, 'leechers': 684, 'rate': 9}, {'title': 'John Wick Chapter 4 (2023) [1080p] [WEBRip] [5 1]', 'torrent': 'https://itorrents.org/torrent/550177581AF98D94D93AF8630FE846E91FAB290A.torrent', 'size': '3.12 GB', 'seeders': 711, 'leechers': 99, 'rate': 8}, {'title': 'John Wick Chapter 4 (2023) [1080p] [BluRay] [5 1]', 'torrent': 'https://itorrents.org/torrent/9B4E1C8DF1A1B0CCEB542AD1FD6FCF6D03694298.torrent', 'size': '3.12 GB', 'seeders': 595, 'leechers': 40, 'rate': 7}, {'title': 'John Wick Chapter 2 2017 720p HDRiP x264 AC3-MAJESTIC', 'torrent': 'https://itorrents.org/torrent/75C9C9BA35AC119BEEDE7DF38D29D8BD93FE237A.torrent', 'size': '2.89 GB', 'seeders': 557, 'leechers': 381, 'rate': 8}, {'title': 'John Wick Chapter 3 Parabellum 2019 720p AMZN WEBRip DDP5 1 x264-NTG', 'torrent': 'https://itorrents.org/torrent/E6C7661318DD2C797E687F059F6EB7DC45E8A460.torrent', 'size': '4.32 GB', 'seeders': 508, 'leechers': 172, 'rate': 7}, {'title': 'John Wick Chapter 4 2023 V2 1080p HDTS x264 AAC - HushRips', 'torrent': 'https://itorren"
+    },
+    "{'keywords': 'latest popular movies', 'quantity': 20}": {
+        "error": "",
+        "response": "{'code': '200', 'keyword': 'latest popular movies', 'quantity': 20, 'result': [{'title': 'NABAR - NEW FULL PUNJABI MOVIE - LATEST PUNJABI MOVIES 2014 720p HD- POPULAR PUN..', 'torrent': 'https://itorrents.org/torrent/2BA83ED1BDE5E1FF69B97828B1F37B274E921A01.torrent', 'size': '1.31 GB', 'seeders': 0, 'leechers': 0, 'rate': 0}]}"
+    },
+    "{'keywords': 'Guardians of the Galaxy Vol. 3', 'quantity': 5}": {
+        "error": "",
+        "response": "{'code': '200', 'keyword': 'Guardians of the Galaxy Vol. 3', 'quantity': 5, 'result': [{'title': 'Guardians of the Galaxy Vol  3 (2023) [1080p] [WEBRip] [5 1]', 'torrent': 'https://itorrents.org/torrent/43F7A2F464EE3FFD8B0A9F4CA75EC64507A7C1EB.torrent', 'size': '2.77 GB', 'seeders': 916, 'leechers': 75, 'rate': 8}, {'title': 'Guardians of the Galaxy Vol 3 2023 1080p WEB-DL DDP5 1 Atmos H 2', 'torrent': 'https://itorrents.org/torrent/0FADFCC172087A00951019312B060CCE75129833.torrent', 'size': '11.09 GB', 'seeders': 22, 'leechers': 3, 'rate': 2}, {'title': 'Guardians of the Galaxy Vol 3 2023 Trial YG', 'torrent': 'https://itorrents.org/torrent/A7B67BFB6313C63A9C3870CF8E72C89514D7DF5C.torrent', 'size': '8.54 GB', 'seeders': 379, 'leechers': 271, 'rate': 7}, {'title': 'Guardians of the Galaxy Vol  3 (2023) [720p] [WEBRip]', 'torrent': 'https://itorrents.org/torrent/041D865FAA8BEE5CAD6714F6A46210BDC3FD98EB.torrent', 'size': '1.35 GB', 'seeders': 107, 'leechers': 12, 'rate': 5}, {'title': 'Guardians of the Galaxy Vol 3 2023 1080p 10bit WEBRip 6CH x265 HEVC-PSA', 'torrent': 'https://itorrents.org/torrent/961A29CE7E90D7A926193DBC1A460B6FFFE866BE.torrent', 'size': '2.49 GB', 'seeders': 324, 'leechers': 24, 'rate': 6}]}"
+    },
+    "{'keywords': 'Fast X', 'quantity': 5}": {
+        "error": "",
+        "response": "{'code': '200', 'keyword': 'Fast X', 'quantity': 5, 'result': [{'title': 'Fast Furious 6 XviD ECSTASY', 'torrent': 'https://itorrents.org/torrent/266BDBDCA35A3B28762DF77C69AAFCECE76618D8.torrent', 'size': '681.95 MB', 'seeders': 21330, 'leechers': 23650, 'rate': 10}, {'title': 'Fast &amp; Furious 6 Jaybob DVDRip', 'torrent': 'https://itorrents.org/torrent/654CDFB1CF484DC814C1EDD4D7AB754E3634BECA.torrent', 'size': '690.95 MB', 'seeders': 20934, 'leechers': 23801, 'rate': 10}, {'title': 'The Fast and the Furious 6 FULL ViDEO ENG AUDiO CAMRip-0HKAY', 'torrent': 'https://itorrents.org/torrent/3D5CC4987FB751D3AE55AEEBA74D5D29CC0B48C4.torrent', 'size': '692.95 MB', 'seeders': 20603, 'leechers': 24693, 'rate': 10}, {'title': 'Fast Six 1080p WEB DL DD5 1 H 264 ECI', 'torrent': 'https://itorrents.org/torrent/876F4BEB7139CBB14FC7C945B1FEBF1C06DC67E1.torrent', 'size': '700.95 MB', 'seeders': 20492, 'leechers': 21186, 'rate': 10}, {'title': 'The Fast and the Furious 6 DvDrip[Eng]-FXG', 'torrent': 'https://itorrents.org/torrent/6DDCF5488BCDF0D498A52102682E46508FF27A13.torrent', 'size': '694.95 MB', 'seeders': 20289, 'leechers': 12023, 'rate': 10}]}"
+    }
+}

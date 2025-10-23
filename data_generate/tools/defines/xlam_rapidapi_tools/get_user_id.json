@@ -1,0 +1,17 @@
+{
+    "name": "get_user_id",
+    "description": "This is a sub-function API for tool twitch_api.\nTool description: Detailed API for twitch. Stream data, streamer data, chat data, streamer cards data etc.\nfor twitch.\nAPI description: Fetches the user ID for a given Twitch channel using the Twitch API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "channel": {
+                "type": "string",
+                "description": "The Twitch channel name for which to fetch the user ID.",
+                "default": "xqc"
+            }
+        },
+        "required": [
+            "channel"
+        ]
+    }
+}

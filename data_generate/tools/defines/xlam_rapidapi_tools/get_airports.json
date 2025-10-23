@@ -1,0 +1,79 @@
+{
+    "name": "get_airports",
+    "description": "This is a sub-function API for tool airportsdata.\nTool description: Get basic information from 28k+ airports and landing strips around the world. With filtering, sorting and pagination options. \nAPI description: Retrieves data of airports based on various filtering parameters and sorting options from an external API. It returns data from over 28,000 airports in the database.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lid": {
+                "type": "string",
+                "description": "U.S. FAA Location Identifier (12,566 entries), or an empty string."
+            },
+            "sortby": {
+                "type": "string",
+                "description": "Sort results by a property value. Possible values are: 'iata', 'icao', 'name', 'city', 'subd', 'country', 'tz', 'lid', and 'elevation'. Default is 'iata'.",
+                "default": "iata"
+            },
+            "name": {
+                "type": "string",
+                "description": "Filter results by name. The value should be sent as comma-separated. For example, for 'Zabrat Airport', send 'Zabrat,Airport'. Default is 'Ishigaki,Airport'.",
+                "default": "Ishigaki,Airport"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Limit to n results. Default is 50.",
+                "default": 50.0
+            },
+            "elevationover": {
+                "type": "number",
+                "description": "Filter airports with an MSL elevation, or highest point of the landing area in feet, over this value. Default is 50.",
+                "default": 50.0
+            },
+            "country": {
+                "type": "string",
+                "description": "ISO 3166-1 alpha-2 country code (plus XK for Kosovo). Default is 'JP'.",
+                "default": "JP"
+            },
+            "city": {
+                "type": "string",
+                "description": "Filter results by city. The value should be sent as comma-separated. For example, for 'Zakynthos Island', send 'Zakynthos,Island'. Default is 'Ishigaki'.",
+                "default": "Ishigaki"
+            },
+            "skip": {
+                "type": "number",
+                "description": "Skip first n results. Default is 0.",
+                "default": 0.0
+            },
+            "sortbyorder": {
+                "type": "string",
+                "description": "Specify the sorting order. Possible values are *asc* and *desc*. Results are sorted in ascending order by default. ",
+                "default": "desc"
+            },
+            "elevationunder": {
+                "type": "number",
+                "description": "Filter airports with an MSL elevation, or highest point of the landing area in feet, under this value. Default is 2000.",
+                "default": 2000.0
+            },
+            "tz": {
+                "type": "string",
+                "description": "Timezone expressed as a tz database name (IANA-compliant) or an empty string for Antarctica. Default is 'Asia/Tokyo'.",
+                "default": "Asia/Tokyo"
+            },
+            "icao": {
+                "type": "string",
+                "description": "Filter results by ICAO code. Default is 'ROIG'.",
+                "default": "ROIG"
+            },
+            "subd": {
+                "type": "string",
+                "description": "Filter results by subdivision (e.g., state, province, region, etc.). The value should be sent as comma-separated. For example, for 'Newfoundland and Labrador', send 'Newfoundland,and,Labrador'. Default is 'Okinawa'.",
+                "default": "Okinawa"
+            },
+            "iata": {
+                "type": "string",
+                "description": "Filter results by IATA code. Default is 'ISG'.",
+                "default": "ISG"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "{'stock': 'MSFT', 'apikey': 'demo', 'period': 'annual'}": {
+        "error": "",
+        "response": "{'Error Message': 'Invalid API KEY. Feel free to create a Free API Key or visit https://site.financialmodelingprep.com/faqs?search=why-is-my-api-key-invalid for more information.'}"
+    },
+    "{'stock': 'MSFT', 'apikey': 'fmpcloud_apikey_0pA92kLmN7hR8sT9xY0zQw1e2r4t5y6u7i8o0pA9', 'period': 'annual'}": {
+        "error": "",
+        "response": "{'Error Message': 'Invalid API KEY. Feel free to create a Free API Key or visit https://site.financialmodelingprep.com/faqs?search=why-is-my-api-key-invalid for more information.'}"
+    },
+    "{'stock': 'AAPL', 'apikey': 'demo', 'period': 'annual'}": {
+        "error": "",
+        "response": "{'Error Message': 'Invalid API KEY. Please retry or visit our documentation to create one FREE https://site.financialmodelingprep.com/developer/docs'}"
+    },
+    "{'stock': 'AAPL', 'apikey': 'demo', 'period': 'quarter'}": {
+        "error": "",
+        "response": "{'Error Message': 'Invalid API KEY. Please retry or visit our documentation to create one FREE https://site.financialmodelingprep.com/developer/docs'}"
+    },
+    "{'stock': 'WORK', 'apikey': 'demo', 'period': 'annual'}": {
+        "error": "",
+        "response": "{'Error Message': 'Invalid API KEY. Feel free to create a Free API Key or visit https://site.financialmodelingprep.com/faqs?search=why-is-my-api-key-invalid for more information.'}"
+    },
+    "{'stock': 'MSFT', 'apikey': 'demo', 'period': 'quarter'}": {
+        "error": "",
+        "response": "{'Error Message': 'Invalid API KEY. Feel free to create a Free API Key or visit https://site.financialmodelingprep.com/faqs?search=why-is-my-api-key-invalid for more information.'}"
+    },
+    "{'stock': 'AAPL', 'apikey': 'abc123xyz.qwerty456.UpperCaseLettersAndNumbersForRealism789', 'period': 'quarter'}": {
+        "error": "",
+        "response": "{'Error Message': 'Invalid API KEY. Feel free to create a Free API Key or visit https://site.financialmodelingprep.com/faqs?search=why-is-my-api-key-invalid for more information.'}"
+    },
+    "{'stock': 'MSFT', 'apikey': 'abc123xyz.qwerty456.UpperCaseLettersAndNumbersForRealism789', 'period': 'quarter'}": {
+        "error": "",
+        "response": "{'Error Message': 'Invalid API KEY. Feel free to create a Free API Key or visit https://site.financialmodelingprep.com/faqs?search=why-is-my-api-key-invalid for more information.'}"
+    },
+    "{'stock': 'AAPL', 'apikey': 'FMP_LIVE_9XaBc123dEfG456hIjK789lMnOpQrStUvWxYz2023', 'period': 'quarter'}": {
+        "error": "",
+        "response": "{'Error Message': 'Invalid API KEY. Feel free to create a Free API Key or visit https://site.financialmodelingprep.com/faqs?search=why-is-my-api-key-invalid for more information.'}"
+    },
+    "{'stock': 'MSFT', 'apikey': 'FMP_LIVE_9XaBc123dEfG456hIjK789lMnOpQrStUvWxYz2023', 'period': 'quarter'}": {
+        "error": "",
+        "response": "{'Error Message': 'Invalid API KEY. Feel free to create a Free API Key or visit https://site.financialmodelingprep.com/faqs?search=why-is-my-api-key-invalid for more information.'}"
+    }
+}

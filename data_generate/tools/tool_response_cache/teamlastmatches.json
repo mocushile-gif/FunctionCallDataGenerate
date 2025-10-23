@@ -1,0 +1,42 @@
+{
+    "{'is_id': 459469, 'page': 0}": {
+        "error": "",
+        "response": "The last matches for the team with ID 459469 (specific eSports team) on page 0 include detailed results such as match outcomes, opponent teams, dates, and scores. This data provides insights into the team's recent performance, helping fans and analysts track their progress in tournaments or leagues. For example, you can expect information like 'Team A vs Team B, Date: YYYY-MM-DD, Score: X-Y, Outcome: Win/Loss'."
+    },
+    "{'is_id': 459469, 'page': 1}": {
+        "error": "",
+        "response": "The last matches for the team with ID 459469 on page 1 include detailed results such as match outcomes, opponent teams, dates, and scores. This data provides insights into the team's performance in slightly older matches, helping fans and analysts understand trends or patterns in their gameplay. For example, you can expect information like 'Team A vs Team B, Date: YYYY-MM-DD, Score: X-Y, Outcome: Win/Loss'."
+    },
+    "{'is_id': 459469, 'page': 2}": {
+        "error": "",
+        "response": ""
+    },
+    "{'page': 0, 'is_id': 459469}": {
+        "error": "",
+        "response": ""
+    },
+    "{'page': 1, 'is_id': 459469}": {
+        "error": "",
+        "response": ""
+    },
+    "{'page': 0, 'is_id': 12345}": {
+        "error": "",
+        "response": ""
+    },
+    "{'page': 1, 'is_id': 12345}": {
+        "error": "",
+        "response": ""
+    },
+    "{'page': 0, 'is_id': 2345}": {
+        "error": "",
+        "response": "{'events': [{'tournament': {'name': 'Second League, Division A, Stage 1, Group Silver', 'slug': '2-liga-division-a-stage-1-group-silver', 'category': {'id': 21, 'country': {'alpha2': 'RU', 'alpha3': 'RUS', 'name': 'Russia', 'slug': 'russia'}, 'name': 'Russia', 'slug': 'russia', 'sport': {'name': 'Football', 'slug': 'football', 'id': 1}, 'flag': 'russia', 'alpha2': 'RU'}, 'uniqueTournament': {'name': 'Second League, Division A', 'slug': '2-liga-division-a', 'category': {'id': 21, 'country': {'alpha2': 'RU', 'alpha3': 'RUS', 'name': 'Russia', 'slug': 'russia'}, 'name': 'Russia', 'slug': 'russia', 'sport': {'name': 'Football', 'slug': 'football', 'id': 1}, 'flag': 'russia', 'alpha2': 'RU'}, 'userCount': 378, 'id': 20706, 'country': {}, 'hasPerformanceGraphFeature': False, 'hasEventPlayerStatistics': False, 'displayInverseHomeAwayTeams': False}, 'priority': 0, 'isGroup': True, 'groupName': 'Group Silver', 'isLive': False, 'id': 117972}, 'season': {'name': '2. Liga, Division A 24/25291738291738', 'year': '24/25', 'editor': False, 'id': 63862}, 'roundInfo': {'round': 4}, 'customId': 'VWsDoDc', 'status': {'code': 100, 'description': 'Ended', 'type': 'finished'}, 'winnerCode': 1, 'homeTeam': {'id': 320728, 'country': {'alpha2': 'RU', 'alpha3': 'RUS', 'name': 'Russia', 'slug': 'russia'}, 'name': 'Torpedo Miass', 'slug': 'torpedo-miass', 'gender': 'M', 'sport': {'name': 'Football', 'slug': 'football', 'id': 1}, 'userCount': 568, 'nameCode': 'TOR', 'national': False, 'type': 0, 'subTeam"
+    },
+    "{'page': 0, 'is_id': 6789}": {
+        "error": "",
+        "response": ""
+    },
+    "{'page': 0, 'is_id': 10345}": {
+        "error": "",
+        "response": ""
+    }
+}

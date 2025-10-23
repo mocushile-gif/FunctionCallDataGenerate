@@ -1,0 +1,17 @@
+{
+    "name": "fixtures_by_team",
+    "description": "This is a sub-function API for tool rugby_live_data.\nTool description: Rugby fixtures, results, standings and live match coverage from around the world.\nAPI description: Lists only upcoming/in play fixtures for a given team. \n\n**Note** it will not list any results, so when a match reaches result status it drops off. Use Fixtures and Results By Team OR Fixtures  And Results by Team by Season endpoint for this functionality.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "team_id": {
+                "type": "number",
+                "description": "The ID of the rugby team for which to fetch fixtures.",
+                "default": 9317.0
+            }
+        },
+        "required": [
+            "team_id"
+        ]
+    }
+}

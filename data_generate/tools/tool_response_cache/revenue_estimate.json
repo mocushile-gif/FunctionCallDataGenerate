@@ -1,0 +1,75 @@
+{
+    "{'ticker': 'AAPL'}": {
+        "error": "",
+        "response": "{'Current qtr. (Jun 2023)': {'Avg. Estimate': '81.51', 'High estimate': '94.1', 'Low estimate': '75.58', 'No. of analysts': '24', 'Sales growth (year/est)': '-1.70', 'Year ago sales': '82.96'}, 'Current year (2023)': {'Avg. Estimate': '385.15', 'High estimate': '400.79', 'Low estimate': '375.07', 'No. of analysts': '37', 'Sales growth (year/est)': '-2.30', 'Year ago sales': '394.33'}, 'Next qtr. (Sep 2023)': {'Avg. Estimate': '90.48', 'High estimate': '97.17', 'Low estimate': '82.81', 'No. of analysts': '24', 'Sales growth (year/est)': '0.40', 'Year ago sales': '90.15'}, 'Next year (2024)': {'Avg. Estimate': '410.42', 'High estimate': '428.79', 'Low estimate': '390.51', 'No. of analysts': '37', 'Sales growth (year/est)': '6.60', 'Year ago sales': '385.15'}}"
+    },
+    "{'ticker': 'CVX'}": {
+        "error": "",
+        "response": {
+            "Current qtr. (Jun 2023)": {
+                "Avg. Estimate": "49.97",
+                "High estimate": "56.85",
+                "Low estimate": "40.86",
+                "No. of analysts": "6",
+                "Sales growth (year/est)": "-27.30",
+                "Year ago sales": "68.76"
+            },
+            "Current year (2023)": {
+                "Avg. Estimate": "203.91",
+                "High estimate": "227.51",
+                "Low estimate": "174.71",
+                "No. of analysts": "10",
+                "Sales growth (year/est)": "-17.20",
+                "Year ago sales": "246.25"
+            },
+            "Next qtr. (Sep 2023)": {
+                "Avg. Estimate": "50.97",
+                "High estimate": "60.03",
+                "Low estimate": "41",
+                "No. of analysts": "7",
+                "Sales growth (year/est)": "-12.40",
+                "Year ago sales": "58.22"
+            },
+            "Next year (2024)": {
+                "Avg. Estimate": "208.52",
+                "High estimate": "237.65",
+                "Low estimate": "181.07",
+                "No. of analysts": "11",
+                "Sales growth (year/est)": "2.30",
+                "Year ago sales": "203.91"
+            }
+        }
+    },
+    "{'ticker': 'GOOG'}": {
+        "error": "",
+        "response": "{'Current qtr. (Jun 2023)': {'Avg. Estimate': '72.75', 'High estimate': '74.33', 'Low estimate': '70.69', 'No. of analysts': '30', 'Sales growth (year/est)': '4.40', 'Year ago sales': '69.69'}, 'Current year (2023)': {'Avg. Estimate': '299.73', 'High estimate': '308.16', 'Low estimate': '291.5', 'No. of analysts': '33', 'Sales growth (year/est)': '6.00', 'Year ago sales': '282.84'}, 'Next qtr. (Sep 2023)': {'Avg. Estimate': '74.29', 'High estimate': '77.42', 'Low estimate': '71.35', 'No. of analysts': '29', 'Sales growth (year/est)': '7.50', 'Year ago sales': '69.09'}, 'Next year (2024)': {'Avg. Estimate': '332.16', 'High estimate': '347.24', 'Low estimate': '312.99', 'No. of analysts': '33', 'Sales growth (year/est)': '10.80', 'Year ago sales': '299.73'}}"
+    },
+    "{'ticker': 'TSLA'}": {
+        "error": "",
+        "response": "{'revenue_estimate': [{'current_qtr_mar_2025': '23', 'current_year_2025': '49', 'metric': 'No. of analysts', 'next_qtr_jun_2025': '22', 'next_year_2026': '45'}, {'current_qtr_mar_2025': '23.37B', 'current_year_2025': '110.59B', 'metric': 'Avg. Estimate', 'next_qtr_jun_2025': '26.92B', 'next_year_2026': '132.16B'}, {'current_qtr_mar_2025': '20.63B', 'current_year_2025': '93.37B', 'metric': 'Low estimate', 'next_qtr_jun_2025': '24.69B', 'next_year_2026': '108.77B'}, {'current_qtr_mar_2025': '27.07B', 'current_year_2025': '128.06B', 'metric': 'High estimate', 'next_qtr_jun_2025': '29.69B', 'next_year_2026': '162.43B'}, {'current_qtr_mar_2025': '21.3B', 'current_year_2025': '97.69B', 'metric': 'Year ago sales', 'next_qtr_jun_2025': '25.5B', 'next_year_2026': '110.59B'}, {'current_qtr_mar_2025': '9.69%', 'current_year_2025': '13.20%', 'metric': 'Sales growth (year/est)', 'next_qtr_jun_2025': '5.56%', 'next_year_2026': '19.50%'}]}"
+    },
+    "{'ticker': 'ALB'}": {
+        "error": "",
+        "response": "{'revenue_estimate': [{'current_qtr_jun_2025': '17', 'current_year_2025': '25', 'metric': 'No. of analysts', 'next_qtr_sept_2025': '16', 'next_year_2026': '24'}, {'current_qtr_jun_2025': '1.23B', 'current_year_2025': '4.88B', 'metric': 'Avg. Estimate', 'next_qtr_sept_2025': '1.28B', 'next_year_2026': '5.4B'}, {'current_qtr_jun_2025': '1.07B', 'current_year_2025': '4.41B', 'metric': 'Low estimate', 'next_qtr_sept_2025': '1.14B', 'next_year_2026': '4.64B'}, {'current_qtr_jun_2025': '1.36B', 'current_year_2025': '5.75B', 'metric': 'High estimate', 'next_qtr_sept_2025': '1.44B', 'next_year_2026': '6.19B'}, {'current_qtr_jun_2025': '1.43B', 'current_year_2025': '5.38B', 'metric': 'Year ago sales', 'next_qtr_sept_2025': '1.35B', 'next_year_2026': '4.88B'}, {'current_qtr_jun_2025': '-13.76%', 'current_year_2025': '-9.32%', 'metric': 'Sales growth (year/est)', 'next_qtr_sept_2025': '-5.23%', 'next_year_2026': '10.83%'}]}"
+    },
+    "{'ticker': 'LVNT'}": {
+        "error": "",
+        "response": "{}"
+    },
+    "{'ticker': 'SQM'}": {
+        "error": "",
+        "response": "{'revenue_estimate': [{'current_qtr_jun_2025': '3', 'current_year_2025': '14', 'metric': 'No. of analysts', 'next_qtr_sept_2025': '3', 'next_year_2026': '15'}, {'current_qtr_jun_2025': '1.08B', 'current_year_2025': '4.4B', 'metric': 'Avg. Estimate', 'next_qtr_sept_2025': '1.11B', 'next_year_2026': '5.09B'}, {'current_qtr_jun_2025': '1.02B', 'current_year_2025': '4.06B', 'metric': 'Low estimate', 'next_qtr_sept_2025': '1.1B', 'next_year_2026': '4.38B'}, {'current_qtr_jun_2025': '1.11B', 'current_year_2025': '4.97B', 'metric': 'High estimate', 'next_qtr_sept_2025': '1.12B', 'next_year_2026': '5.92B'}, {'current_qtr_jun_2025': '1.29B', 'current_year_2025': '4.53B', 'metric': 'Year ago sales', 'next_qtr_sept_2025': '1.08B', 'next_year_2026': '4.4B'}, {'current_qtr_jun_2025': '-16.50%', 'current_year_2025': '-2.85%', 'metric': 'Sales growth (year/est)', 'next_qtr_sept_2025': '2.81%', 'next_year_2026': '15.70%'}]}"
+    },
+    "{'ticker': 'AMZN'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'ticker': '8301.T'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'ticker': 'AISW'}": {
+        "error": "",
+        "response": "{}"
+    }
+}

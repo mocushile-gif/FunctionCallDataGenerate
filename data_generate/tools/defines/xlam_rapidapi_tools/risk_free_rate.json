@@ -1,0 +1,25 @@
+{
+    "name": "risk_free_rate",
+    "description": "This is a sub-function API for tool risk_free_rate_api.\nTool description: Returns the risk-free rate for a given date. Geography and proxy (duration) are customizable. Treasury Bonds and Bills are used as source.\nAPI description: This endpoint returns the risk free rate for a specific date. Default values are:\n\ndate = yesterday\ngeography = US\nduration = 3m\n\nCurrently only US is supported. Durations supported are 3m, 5y and 10y. Historical values are supported until 1960-01-04.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "duration": {
+                "type": "string",
+                "description": "Duration for which the risk-free rate is to be fetched. Supported values are '3m' (default), '5y', and '10y'.",
+                "default": "3m"
+            },
+            "geography": {
+                "type": "string",
+                "description": "Geography for which the risk-free rate is to be fetched. Currently, only 'US' is supported. Default is 'US'.",
+                "default": "US"
+            },
+            "date": {
+                "type": "string",
+                "description": "Specific date for which the risk-free rate is to be fetched in 'YYYY-MM-DD' format. Default is '2023-05-10'.",
+                "default": "2023-05-10"
+            }
+        },
+        "required": []
+    }
+}

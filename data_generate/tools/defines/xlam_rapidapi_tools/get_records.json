@@ -1,0 +1,27 @@
+{
+    "name": "get_records",
+    "description": "This is a sub-function API for tool guinness_world_records_api.\nTool description: An API To Fetch World Records Based On A Term, Or Details For A Specific Record.\nAPI description: Fetch Guinness World Records for a given search term using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "term": {
+                "type": "string",
+                "description": "The search term to find Guinness World Records.",
+                "default": "push ups"
+            },
+            "pagenum": {
+                "type": "number",
+                "description": "Page number of the results to fetch. Defaults to 1.",
+                "default": 1.0
+            },
+            "maxresults": {
+                "type": "number",
+                "description": "Maximum number of results to return. Defaults to 20.",
+                "default": 20.0
+            }
+        },
+        "required": [
+            "term"
+        ]
+    }
+}

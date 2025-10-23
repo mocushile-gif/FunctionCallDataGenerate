@@ -1,0 +1,37 @@
+{
+    "name": "consulta_estabelecimento",
+    "description": "This is a sub-function API for tool consulta_cnpj_tempo_real.\nTool description: API Tempo Real de Consultas a Receita Federal, Simples Nacional e Cadastro de Contribuintes (SINTEGRA).\nAPI description: Queries the CNPJ for unified information from Receita Federal, Simples Nacional, and Cadastro de Contribuintes.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cnpj": {
+                "type": "string",
+                "description": "The CNPJ number to be queried.",
+                "default": "84447804000123"
+            },
+            "maxage": {
+                "type": "number",
+                "description": "Maximum age of the cached data in days. Defaults to 30.",
+                "default": 30.0
+            },
+            "simpleshistory": {
+                "type": "boolean",
+                "description": "Whether to include historical data from Simples Nacional. Defaults to None.",
+                "default": true
+            },
+            "registrations": {
+                "type": "string",
+                "description": "UFs separated by commas to include information from Cadastro de Contribuintes. Use 'BR' to consider all. Defaults to 'BR'.",
+                "default": "BR"
+            },
+            "simples": {
+                "type": "boolean",
+                "description": "Whether to include current data from Simples Nacional. Defaults to None.",
+                "default": true
+            }
+        },
+        "required": [
+            "cnpj"
+        ]
+    }
+}

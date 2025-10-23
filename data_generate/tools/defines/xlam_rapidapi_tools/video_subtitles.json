@@ -1,0 +1,17 @@
+{
+    "name": "video_subtitles",
+    "description": "This is a sub-function API for tool youtube_v2.\nTool description: Youtube API for search, videos, channels, trending, recommendation\nAPI description: Fetches the available subtitles for a given YouTube video using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "video_id": {
+                "type": "string",
+                "description": "The ID of the YouTube video for which subtitles are to be fetched.",
+                "default": "PuQFESk0BrA"
+            }
+        },
+        "required": [
+            "video_id"
+        ]
+    }
+}

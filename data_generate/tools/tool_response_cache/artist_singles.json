@@ -1,0 +1,32 @@
+{
+    "{'is_id': '3TVXtAsR1Inumwj472S9r', 'offset': '0', 'limit': '20'}": {
+        "error": "",
+        "response": {
+            "artist_id": "3TVXtAsR1Inumwj472S9r",
+            "offset": "0",
+            "limit": "20",
+            "singles": [
+                {
+                    "title": "Cruel Summer",
+                    "release_date": "2023-08-18",
+                    "uri": "spotify:track:3rGJtWYm2bKjTzHq3KvG4R"
+                },
+                {
+                    "title": "Anti-Hero",
+                    "release_date": "2023-10-13",
+                    "uri": "spotify:track:3qkz36E870nW6B7q27N6sT"
+                },
+                {
+                    "title": "Lavender Haze",
+                    "release_date": "2023-11-10",
+                    "uri": "spotify:track:3sW74Y5Z4lJqYF0j6sQkzX"
+                }
+            ],
+            "total_singles": 20
+        }
+    },
+    "{'is_id': '1vCWHaC5f2uS3yhpwWbIA6', 'limit': '5', 'offset': '0'}": {
+        "error": "",
+        "response": "{'data': {'artist': {'discography': {'singles': {'totalCount': 72, 'items': [{'releases': {'items': [{'id': '3jhvkeBmvGhB3BPOz9qhKc', 'uri': 'spotify:album:3jhvkeBmvGhB3BPOz9qhKc', 'name': \"Let's Ride Away (MEDUZA For Tim Remix)\", 'type': 'SINGLE', 'date': {'year': 2025, 'isoString': '2025-06-06T00:00:00Z'}, 'coverArt': {'sources': [{'url': 'https://i.scdn.co/image/ab67616d00001e023d6249f1462755c3835485b5', 'width': 300, 'height': 300}, {'url': 'https://i.scdn.co/image/ab67616d000048513d6249f1462755c3835485b5', 'width': 64, 'height': 64}, {'url': 'https://i.scdn.co/image/ab67616d0000b2733d6249f1462755c3835485b5', 'width': 640, 'height': 640}]}, 'playability': {'playable': True, 'reason': 'PLAYABLE'}, 'sharingInfo': {'shareId': 'uXTHrUKNQMOjkQ6dx5fVwA', 'shareUrl': 'https://open.spotify.com/album/3jhvkeBmvGhB3BPOz9qhKc?si=uXTHrUKNQMOjkQ6dx5fVwA'}, 'tracks': {'totalCount': 3}}]}}, {'releases': {'items': [{'id': '3Uy1pzeibdINRnfG9V2DnB', 'uri': 'spotify:album:3Uy1pzeibdINRnfG9V2DnB', 'name': \"Let's Ride Away\", 'type': 'SINGLE', 'date': {'year': 2025, 'isoString': '2025-05-15T00:00:00Z'}, 'coverArt': {'sources': [{'url': 'https://i.scdn.co/image/ab67616d00001e020bc8b6fd7ebae252a5846a67', 'width': 300, 'height': 300}, {'url': 'https://i.scdn.co/image/ab67616d000048510bc8b6fd7ebae252a5846a67', 'width': 64, 'height': 64}, {'url': 'https://i.scdn.co/image/ab67616d0000b2730bc8b6fd7ebae252a5846a67', 'width': 640, 'height': 640}]}, 'playability': {'playable': True, 'reason': 'PLAYABLE'}"
+    }
+}

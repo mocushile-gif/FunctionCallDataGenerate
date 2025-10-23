@@ -1,0 +1,17 @@
+{
+    "name": "isbehindcdn",
+    "description": "This is a sub-function API for tool isbehindcdn.\nTool description: Check if domain is fronted by CDN provider.\nAPI description: Checks if a domain is fronted by a CDN provider using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domainname": {
+                "type": "string",
+                "description": "The domain name to be checked.",
+                "default": "example.com"
+            }
+        },
+        "required": [
+            "domainname"
+        ]
+    }
+}

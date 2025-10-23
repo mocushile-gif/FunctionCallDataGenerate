@@ -1,0 +1,27 @@
+{
+    "name": "feeds_by_secuid",
+    "description": "This is a sub-function API for tool t_tok_bulk_profile_scrapper.\nTool description: Highly maintain and accurate TikTok API to fetch profiles or feeds in bulk.\nAPI description: Fetches feeds from TikTok using a given secUid.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The username of the TikTok account.",
+                "default": "therock"
+            },
+            "schematype": {
+                "type": "string",
+                "description": "The schema type for the feeds request.",
+                "default": "1"
+            },
+            "secuid": {
+                "type": "string",
+                "description": "The security UID of the TikTok account.",
+                "default": "MS4wLjABAAAAM3R2BtjzVT-uAtstkl2iugMzC6AtnpkojJbjiOdDDrdsTiTR75-8lyWJCY5VvDrZ"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

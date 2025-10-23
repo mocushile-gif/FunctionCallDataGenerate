@@ -1,0 +1,35 @@
+{
+    "name": "v1_qrcode",
+    "description": "This is a sub-function API for tool qr_code_by_api_ninjas.\nTool description: Generate custom QR codes for any data. See more info at https://api-ninjas.com/api/qrcode.\nAPI description: Generates a QR code image using the API Ninjas QR Code API, based on the specified input parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "data": {
+                "type": "string",
+                "description": "Data to encode in the QR code.",
+                "default": "https://api-ninjas.com"
+            },
+            "format": {
+                "type": "string",
+                "description": "Image format to return. Must be one of the following: png, jpg, jpeg, eps, svg.",
+                "default": "png"
+            },
+            "size": {
+                "type": "number",
+                "description": "Size of the QR code image to generate. The output will be a square image with (size x size) dimensions. Defaults to None."
+            },
+            "fg_color": {
+                "type": "string",
+                "description": "Foreground color of the QR code. Must be a 6-digit hex color (e.g., 00ff00 for green). Defaults to None (black)."
+            },
+            "bg_color": {
+                "type": "string",
+                "description": "Background color of the QR code. Must be a 6-digit hex color (e.g., 00ff00 for green). Defaults to None (white)."
+            }
+        },
+        "required": [
+            "data",
+            "format"
+        ]
+    }
+}

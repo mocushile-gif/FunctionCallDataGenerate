@@ -1,0 +1,20 @@
+{
+    "name": "example",
+    "description": "This is a sub-function API for tool veriphone.\nTool description: Global phone number verification in a free, fast, reliable JSON API\nAPI description: Fetch an example phone number for a specified country and type using the Veriphone API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country_code": {
+                "type": "string",
+                "description": "The example number's country in a 2 letters ISO format. Example: US, RU.  Optional: the country will be infered from the IP address if this parameter is absent or invalid.",
+                "default": "GB"
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of example phone number to return. Options include 'fixed_line', 'mobile', 'premium_rate', 'shared_cost', 'toll_free', and 'voip'. Default is 'mobile'.",
+                "default": "mobile"
+            }
+        },
+        "required": []
+    }
+}

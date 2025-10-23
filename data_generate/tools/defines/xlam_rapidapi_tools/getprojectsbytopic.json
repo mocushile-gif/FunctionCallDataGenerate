@@ -1,0 +1,23 @@
+{
+    "name": "getprojectsbytopic",
+    "description": "This is a sub-function API for tool a_i_smartable.\nTool description: The A.I. Smartable API offers the artificial intelligence news, learning resources, companies, influencers, events and other information.\nAPI description: Fetches artificial intelligence projects based on the specified topic and page number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "topic": {
+                "type": "string",
+                "description": "The topic to filter AI projects.",
+                "default": "machine-learning"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of the results to fetch.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "topic",
+            "page"
+        ]
+    }
+}

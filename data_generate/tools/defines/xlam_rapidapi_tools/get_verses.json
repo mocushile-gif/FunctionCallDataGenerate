@@ -1,0 +1,43 @@
+{
+    "name": "get_verses",
+    "description": "This is a sub-function API for tool bible_memory_verse_flashcard.\nTool description: This KJV Bible API v2 allows users to retrieve verses/chapters in 1 of 8 formats.\nAPI description: Takes parameters and returns requested verse OR Range of Verses in one of 8 text formats. \nExample:   verse_num1 = 1 , verse_num2  = 5 will return verses( 1, 2, 3, 4, 5)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text_mode": {
+                "type": "string",
+                "description": "The text format to return the verse in.",
+                "default": "half"
+            },
+            "book_name": {
+                "type": "string",
+                "description": "The name of the book of the Bible.",
+                "default": "John"
+            },
+            "uppercase_mode": {
+                "type": "boolean",
+                "description": "Whether to return the verse in uppercase. Defaults to None.",
+                "default": true
+            },
+            "verse_num2": {
+                "type": "number",
+                "description": "The ending verse number. Defaults to 5.",
+                "default": 5.0
+            },
+            "verse_num1": {
+                "type": "number",
+                "description": "The starting verse number. Defaults to 1.",
+                "default": 1.0
+            },
+            "chapter": {
+                "type": "number",
+                "description": "The chapter number of the book. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "text_mode",
+            "book_name"
+        ]
+    }
+}

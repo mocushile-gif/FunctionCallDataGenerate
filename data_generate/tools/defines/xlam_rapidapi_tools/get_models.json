@@ -1,0 +1,17 @@
+{
+    "name": "get_models",
+    "description": "This is a sub-function API for tool hsn_tsn.\nTool description: With this API you can find out the key number of over ~30,000 vehicles. The available vehicle data includes: \nInsurance classes (liability, partial, comprehensive), vehicle name, year of manufacture, power (hp), engine displacement (cc), fuel, HSN and TSN.\n\nSupported manufacturers are: \nAiways, Alfa Romeo, Alpina, Audi, Barkas, BMW, Borgward, Buick, Cadillac, Chevrolet, Chrysler, Citroën, Cupra, Dacia, Daewoo, DAF, Daihatsu, Datsun, Dodge, DS, e. GO, Fiat, Ford, Genesis, Glass, Great Wall, Ha...\nAPI description: Fetches all models from a given manufacturer using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "manufacturer": {
+                "type": "string",
+                "description": "The name of the manufacturer for which to retrieve models.",
+                "default": "Audi"
+            }
+        },
+        "required": [
+            "manufacturer"
+        ]
+    }
+}

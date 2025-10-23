@@ -1,0 +1,17 @@
+{
+    "name": "check_phone_number",
+    "description": "This is a sub-function API for tool valid_whatsapp.\nTool description: Checks if a phone number is a valid whatsapp account.\nAPI description: Checks whether a given phone number is a valid WhatsApp number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone": {
+                "type": "number",
+                "description": "The WhatsApp phone number to be checked, including the country code.",
+                "default": 34605797764.0
+            }
+        },
+        "required": [
+            "phone"
+        ]
+    }
+}

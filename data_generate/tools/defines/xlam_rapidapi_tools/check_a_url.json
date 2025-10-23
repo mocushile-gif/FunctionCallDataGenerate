@@ -1,0 +1,17 @@
+{
+    "name": "check_a_url",
+    "description": "This is a sub-function API for tool exerra_phishing_check.\nTool description: This API checks URLs to see whether they are known phishing attempts. \nAPI description: Check if the provided URL is a known phishing or scam attempt using the FraudFreeze API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "This is the URL that the API will check.\nMust be a valid HTTP(s) URL or it will throw a 400",
+                "default": "https://exerra.xyz"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

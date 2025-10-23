@@ -1,0 +1,17 @@
+{
+    "name": "author_author",
+    "description": "This is a sub-function API for tool poetry_db.\nTool description: PoetryDB is the world's first API for Next Generation internet poets\nAPI description: Fetches all poems from Poetry DB written by a specific poet.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "author": {
+                "type": "string",
+                "description": "The poet's name or a part of the poet's name.",
+                "default": "None"
+            }
+        },
+        "required": [
+            "author"
+        ]
+    }
+}

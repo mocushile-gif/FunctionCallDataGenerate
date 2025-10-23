@@ -1,0 +1,26 @@
+{
+    "name": "words",
+    "description": "This is a sub-function API for tool jibber_jabber.\nTool description: Dummy Text Generator\nAPI description: Generates and returns random words based on specified criteria using the Jibber-Jabber API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "minimumwordlength": {
+                "type": "number",
+                "description": "Minimum length of the words to generate. Defaults to None."
+            },
+            "maximumwordlength": {
+                "type": "number",
+                "description": "Maximum length of the words to generate. Defaults to None."
+            },
+            "numberofwords": {
+                "type": "number",
+                "description": "Number of words to generate. Defaults to None."
+            },
+            "wordlength": {
+                "type": "number",
+                "description": "Minimum length of the words to generate. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

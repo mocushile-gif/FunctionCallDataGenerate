@@ -1,0 +1,28 @@
+{
+    "name": "get_fuel_economy_information",
+    "description": "This is a sub-function API for tool car_utils.\nTool description: FREE resources for checking VIN, getting the market value of your car, estimating the cost of ownership in US,  checking fuel economy, and more to come.\nAPI description: Fetches fuel economy information for a specified vehicle from the official U.S. government source.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "model": {
+                "type": "string",
+                "description": "The vehicle model. Use the /models endpoint to get supported models for the specified make.",
+                "default": "Chiron"
+            },
+            "make": {
+                "type": "string",
+                "description": "The vehicle make. Use the /makes endpoint to get supported makes.",
+                "default": "Bugatti"
+            },
+            "year": {
+                "type": "string",
+                "description": "Model year. Currently supports model years from 1985 to 2023. Defaults to '2023'.",
+                "default": "2023"
+            }
+        },
+        "required": [
+            "model",
+            "make"
+        ]
+    }
+}

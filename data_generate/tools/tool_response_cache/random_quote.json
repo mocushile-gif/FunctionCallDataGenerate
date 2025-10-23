@@ -1,0 +1,24 @@
+{
+    "{'tags': 'inspirational', 'limit': 1}": {
+        "error": "",
+        "response": {
+            "quotes": [
+                {
+                    "content": "The only way to do great work is to love what you do.",
+                    "author": "Steve Jobs",
+                    "tags": [
+                        "inspirational",
+                        "motivational"
+                    ],
+                    "length": 53
+                }
+            ],
+            "parameters_used": {
+                "tags": "inspirational",
+                "limit": 1,
+                "min_length": 0,
+                "max_length": 4000
+            }
+        }
+    }
+}

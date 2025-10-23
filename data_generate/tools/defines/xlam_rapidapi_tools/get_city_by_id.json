@@ -1,0 +1,17 @@
+{
+    "name": "get_city_by_id",
+    "description": "This is a sub-function API for tool geography_v2.\nTool description: API that includes all the continents, countries and cities of the world. \nAPI description: Fetch details of a city by its ID using the RapidAPI Geography API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the city to be fetched.",
+                "default": "1796236"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

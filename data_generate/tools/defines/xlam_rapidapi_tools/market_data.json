@@ -1,0 +1,17 @@
+{
+    "name": "market_data",
+    "description": "This is a sub-function API for tool stock_sentiment_api.\nTool description: Real-time social sentiment API to track news activity related to a certain stock\nAPI description: Retrieves a list of daily stock metrics for a given ticker symbol, such as opening, closing, highest, and lowest prices.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The stock ticker symbol for which to retrieve market data.",
+                "default": "TSLA"
+            }
+        },
+        "required": [
+            "ticker"
+        ]
+    }
+}

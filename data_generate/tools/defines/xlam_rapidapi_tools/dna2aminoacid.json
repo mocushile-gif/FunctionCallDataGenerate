@@ -1,0 +1,17 @@
+{
+    "name": "dna2aminoacid",
+    "description": "This is a sub-function API for tool dna2protein.\nTool description: A set of simple end-points to convert DNA and mRNA sequences to amino-acids\nAPI description: Transforms a DNA sequence into a sequence of Amino Acids using the RapidAPI dna2protein service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "dna": {
+                "type": "string",
+                "description": "The DNA sequence used for the transformation to Amino Acids",
+                "default": "TACAAAGGCTAACGTCCTAGAGCTATT"
+            }
+        },
+        "required": [
+            "dna"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "delete_file_or_directory",
+    "description": "Delete a file or directory.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "path": {
+                "type": "string",
+                "description": "The path to the file or directory to delete. Default to './'"
+            },
+            "is_directory": {
+                "type": "boolean",
+                "description": "Whether the path is a directory. Defaults to False.",
+                "default": false
+            }
+        },
+        "required": ["path"]
+    }
+}

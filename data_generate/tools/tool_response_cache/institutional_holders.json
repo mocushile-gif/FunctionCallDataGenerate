@@ -1,0 +1,42 @@
+{
+    "{'symbol': 'TSLA'}": {
+        "error": "",
+        "response": {
+            "symbol": "TSLA",
+            "institutional_holders": [
+                {
+                    "institution": "Vanguard Group",
+                    "shares": 75243000,
+                    "percentage": 7.2,
+                    "date_reported": "2023-09-30",
+                    "change": "+2.1%"
+                },
+                {
+                    "institution": "BlackRock Inc.",
+                    "shares": 68450000,
+                    "percentage": 6.5,
+                    "date_reported": "2023-09-30",
+                    "change": "-0.8%"
+                },
+                {
+                    "institution": "State Street Corporation",
+                    "shares": 44870000,
+                    "percentage": 4.3,
+                    "date_reported": "2023-09-30",
+                    "change": "+1.5%"
+                }
+            ],
+            "total_institutions": 3,
+            "total_shares_held": 188563000,
+            "last_updated": "2023-10-25"
+        }
+    },
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'AAPL', 'name': 'Apple Inc', 'currency': 'USD', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'exchange_timezone': 'America/New_York'}, 'institutional_holders': [{'entity_name': 'Vanguard Group, Inc. (The)', 'date_reported': '2023-03-31', 'shares': 1309785362, 'value': 252081299564, 'percent_held': 0.0833}, {'entity_name': 'Blackrock Inc.', 'date_reported': '2023-03-31', 'shares': 1035008939, 'value': 199197827348, 'percent_held': 0.065799996}, {'entity_name': 'Berkshire Hathaway, Inc', 'date_reported': '2023-03-31', 'shares': 915560382, 'value': 176208757266, 'percent_held': 0.0582}, {'entity_name': 'State Street Corporation', 'date_reported': '2023-03-31', 'shares': 576281774, 'value': 110911194093, 'percent_held': 0.0366}, {'entity_name': 'FMR, LLC', 'date_reported': '2023-03-31', 'shares': 311437576, 'value': 59939277967, 'percent_held': 0.0198}, {'entity_name': 'Geode Capital Management, LLC', 'date_reported': '2023-03-31', 'shares': 285171112, 'value': 54884034130, 'percent_held': 0.018099999}, {'entity_name': 'Price (T.Rowe) Associates Inc', 'date_reported': '2023-03-31', 'shares': 234017381, 'value': 45038986718, 'percent_held': 0.0149}, {'entity_name': 'Morgan Stanley', 'date_reported': '2023-03-31', 'shares': 200615893, 'value': 38610536113, 'percent_held': 0.0128}, {'entity_name': 'Northern Trust Corporation', 'date_reported': '2023-03-31', 'shares': 173130542, 'value': 33320705275, 'percent_held': 0.011}, {'entity_name': 'Norges Bank Investment Management', 'date_reported': '2022-12-31', 'shares': 167374278, 'value': 32212854667, 'percent_held': 0.0106}]}"
+    },
+    "{'symbol': 'ADS', 'country': 'Germany'}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'ADS', 'name': 'Adidas AG', 'currency': 'EUR', 'exchange': 'XSTU', 'mic_code': 'XSTU', 'exchange_timezone': 'Europe/Berlin'}, 'institutional_holders': []}"
+    }
+}

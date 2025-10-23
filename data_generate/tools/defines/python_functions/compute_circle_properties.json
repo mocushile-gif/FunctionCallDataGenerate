@@ -1,0 +1,16 @@
+{
+    "name": "compute_circle_properties",
+    "description": "Computes the area, circumference, and diameter of a circle given its radius. The function checks if the radius is a valid positive number and returns a dictionary containing the radius, diameter, circumference, and area, all rounded to two decimal places.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "radius": {
+                "type": "number",
+                "description": "The radius of the circle. Must be a positive number."
+            }
+        },
+        "required": [
+            "radius"
+        ]
+    }
+}

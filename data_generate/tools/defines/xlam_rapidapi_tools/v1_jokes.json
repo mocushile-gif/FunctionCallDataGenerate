@@ -1,0 +1,14 @@
+{
+    "name": "v1_jokes",
+    "description": "This is a sub-function API for tool jokes_by_api_ninjas.\nTool description: Access a large collection of jokes from the internet. See more info at https://api-ninjas.com/api/jokes.\nAPI description: Fetches a set number of jokes from the API Ninjas Jokes API endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "The number of jokes to return, with a valid range of 1 to 30. Defaults to None, which returns a single joke."
+            }
+        },
+        "required": []
+    }
+}

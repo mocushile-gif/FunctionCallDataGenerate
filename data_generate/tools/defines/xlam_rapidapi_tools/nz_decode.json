@@ -1,0 +1,17 @@
+{
+    "name": "nz_decode",
+    "description": "This is a sub-function API for tool vin_decoder_v4.\nTool description: Get the most accurate data from your VIN globally or specific locale. Our VIN decoder API is used by various automotive businesses: online stores, forums, portals, blogs and VIN decoding services all around the globe. \nAPI description: Decodes a New Zealand Vehicle Identification Number (VIN) using the VIN Decoder API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vin": {
+                "type": "string",
+                "description": "The Vehicle Identification Number to decode.",
+                "default": "JMFXDGL3WNZ002145"
+            }
+        },
+        "required": [
+            "vin"
+        ]
+    }
+}

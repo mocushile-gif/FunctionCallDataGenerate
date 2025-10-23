@@ -1,0 +1,21 @@
+{
+    "name": "domain_check",
+    "description": "This is a sub-function API for tool bulk_domain_check.\nTool description: Bulk Domain Availability Check. All tlds supported. \nAPI description: Checks the availability status of one or multiple domains using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domains": {
+                "type": "string",
+                "description": "Comma-separated list of domains to check.",
+                "default": "foo.com,example.org,somefoobardomain.io"
+            },
+            "domain": {
+                "type": "string",
+                "description": "A specific domain name to check in addition to the list. Defaults to None."
+            }
+        },
+        "required": [
+            "domains"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "list_accounts",
+    "description": "This is a sub-function API for tool calltrackingmetrics.\nTool description: Track the performance of your advertising with instantly activated tracking numbers in 30 countries. Integrate with Google and track down to keyword level.\nAPI description: Fetches a list of accounts from the API, optionally paginated by a specified page number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number for paginated results. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

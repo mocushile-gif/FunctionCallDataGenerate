@@ -1,0 +1,17 @@
+{
+    "name": "ip_lookup",
+    "description": "This is a sub-function API for tool checkleakedcc_official.\nTool description: CheckLeaked.cc official api implementation to obtain results from experimental / dehashed search.\nAPI description: This function performs an IP lookup using the provided IP address and returns the geolocation details. It utilizes the IP Whois Geolocation API from RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IP address (IPv4 or IPv6) to look up.",
+                "default": "179.26.228.182"
+            }
+        },
+        "required": [
+            "ip"
+        ]
+    }
+}

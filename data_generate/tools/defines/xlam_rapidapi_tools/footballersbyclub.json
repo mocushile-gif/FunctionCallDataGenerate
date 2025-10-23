@@ -1,0 +1,17 @@
+{
+    "name": "footballersbyclub",
+    "description": "This is a sub-function API for tool premier_league_stats.\nTool description: **UPDATED FOR 2324 SEASON**\nAn API providing stats around the Premier League football league.\nAPI description: Fetches a list of footballers for a specified club using the Premier League Stats API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "club": {
+                "type": "string",
+                "description": "The name of the football club to retrieve the list of footballers for.",
+                "default": "Arsenal"
+            }
+        },
+        "required": [
+            "club"
+        ]
+    }
+}

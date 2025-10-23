@@ -1,0 +1,38 @@
+{
+    "name": "calculate_compound_interest",
+    "description": "Calculates the future value of an investment using the compound interest formula.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "principal": {
+                "type": "number",
+                "description": "The initial amount of money."
+            },
+            "annual_rate": {
+                "type": "number",
+                "description": "The annual interest rate as a decimal (e.g., 0.05 for 5%)."
+            },
+            "years": {
+                "type": "integer",
+                "description": "The number of years the money is invested."
+            },
+            "compounds_per_year": {
+                "type": "integer",
+                "description": "The number of times interest is compounded per year. Defaults to 1.",
+                "default": 1,
+                "minimum": 1
+            },
+            "precision": {
+                "type": "integer",
+                "description": "The number of decimal places to round the result. Defaults to 2.",
+                "default": 2,
+                "minimum": 0
+            }
+        },
+        "required": [
+            "principal",
+            "annual_rate",
+            "years"
+        ]
+    }
+}

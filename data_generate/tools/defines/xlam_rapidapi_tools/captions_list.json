@@ -1,0 +1,23 @@
+{
+    "name": "captions_list",
+    "description": "This is a sub-function API for tool youtube_v3_v2.\nTool description: Get youtube data without any youtube data api key\nAPI description: Returns a list of caption tracks that are associated with a specified video",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "part": {
+                "type": "string",
+                "description": "The part parameter specifies a comma-separated list of one or more caption resource properties that the API response will include.",
+                "default": "snippet"
+            },
+            "videoid": {
+                "type": "string",
+                "description": "The YouTube video ID for which the caption tracks are being requested.",
+                "default": "M7FIvfx5J10"
+            }
+        },
+        "required": [
+            "part",
+            "videoid"
+        ]
+    }
+}

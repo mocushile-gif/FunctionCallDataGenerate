@@ -1,0 +1,17 @@
+{
+    "name": "get_misinformation_score_account_twitter_account_get",
+    "description": "This is a sub-function API for tool mescalc.\nTool description: Calculates Misinformation Exposure Score for Twitter accounts\nAPI description: Retrieves the misinformation score for a given Twitter account using the Mescal API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "twitter_account": {
+                "type": "string",
+                "description": "The Twitter account ID for which to retrieve the misinformation score.",
+                "default": "{}"
+            }
+        },
+        "required": [
+            "twitter_account"
+        ]
+    }
+}

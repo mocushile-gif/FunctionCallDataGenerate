@@ -1,0 +1,17 @@
+{
+    "name": "geocoding",
+    "description": "This is a sub-function API for tool address_normalization_and_geocoding.\nTool description: Takes free text address input, standardizes and outputs rooftop latitude/longitude geocode coordinates.\nAPI description: Performs geocoding to convert an address into a standardized, normalized address and rooftop latitude/longitude coordinates using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "type": "string",
+                "description": "The physical address to be geocoded.",
+                "default": "1600 pennsylvania ave washington dc"
+            }
+        },
+        "required": [
+            "address"
+        ]
+    }
+}

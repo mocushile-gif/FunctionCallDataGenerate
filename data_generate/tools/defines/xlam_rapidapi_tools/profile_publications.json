@@ -1,0 +1,19 @@
+{
+    "name": "profile_publications",
+    "description": "This is a sub-function API for tool instagram_scraper_2023_v2.\nTool description: MEGA Instagram Scraper 2023 - get any Instagram stories, Highlights, Posts, Photos and Videos from public profiles by API Test for free :) You can get quick help via telegram app: @insta4root\nAPI description: Fetches publications from an Instagram profile using the RapidAPI Instagram Scraper.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username to fetch publications for. Default is 'kimkardashian'.",
+                "default": "kimkardashian"
+            },
+            "nextmaxid": {
+                "type": "string",
+                "description": "The nextMaxId parameter for pagination in Instagram API. Default is None."
+            }
+        },
+        "required": []
+    }
+}

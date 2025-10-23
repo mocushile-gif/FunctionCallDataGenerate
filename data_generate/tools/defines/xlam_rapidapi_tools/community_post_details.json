@@ -1,0 +1,17 @@
+{
+    "name": "community_post_details",
+    "description": "This is a sub-function API for tool youtube.\nTool description: With the YouTube Data API, you can add various YouTube features to your app. Use the API for search, videos, playlists, channels and more.\nAPI description: Fetches details of a community post from YouTube using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "Community post ID. Default is 'UgkxCWeKPiIOLsnh_5a0MPHWCmYgbhifgwIZ'.",
+                "default": "UgkxCWeKPiIOLsnh_5a0MPHWCmYgbhifgwIZ"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "{'titleno': 5470, 'episodeno': 6, 'language': 'en'}": {
+        "error": "",
+        "response": {
+            "message": {
+                "type": "response",
+                "service": "com.naver.webtoon",
+                "version": "0.0.1",
+                "code": 2002,
+                "message": "Not service titleNo : 5470 (serviceStatus!=SERVICE)"
+            }
+        }
+    },
+    "{'titleno': 5470, 'episodeno': 20}": {
+        "error": "",
+        "response": {
+            "message": {
+                "type": "response",
+                "service": "com.naver.webtoon",
+                "version": "0.0.1",
+                "code": 2002,
+                "message": "Not service titleNo : 5470 (serviceStatus!=SERVICE)"
+            }
+        }
+    },
+    "{'titleno': 5470, 'episodeno': 10}": {
+        "error": "",
+        "response": {
+            "message": {
+                "type": "response",
+                "service": "com.naver.webtoon",
+                "version": "0.0.1",
+                "code": 2002,
+                "message": "Not service titleNo : 5470 (serviceStatus!=SERVICE)"
+            }
+        }
+    },
+    "{'episodeno': 5, 'titleno': 300138, 'language': 'en'}": {
+        "error": "",
+        "response": "{'message': {'type': 'response', 'service': 'com.naver.webtoon', 'version': '0.0.1', 'result': {'challengeAuthorPatreon': {'userId': '21805004', 'userName': 'thelittletrashmaid', 'patronUrl': 'https://www.patreon.com/bePatron?utm_source=webtoons&utm_medium=link&utm_campaign=thelittletrashmaid&u=21805004&redirect_uri=http%3A%2F%2Fm.webtoons.com%2Fapp%2Fchallenge%2FpatreonCallback%3FpageType%3Dviewer%26title_no%3D300138%26episode_no%3D5', 'usePatronage': True}, 'episodeInfo': {'episodeSeq': 5, 'episodeTitle': 'Scary Shark!', 'linkUrl': 'https://www.webtoons.com/en/canvas/the-little-trashmaid/scary-shark/viewer?title_no=300138&episode_no=5', 'exposureType': 'FREE', 'previousEpisodeNo': 4, 'previousEpisodeTitle': 'Cigarette butts ', 'previousEpisodeExposureType': 'FREE', 'previousEpisodeThumbnailUrl': '/20190528_138/15589823991787gRLQ_JPEG/d20fe396-7988-4a83-a9f5-0fe0c9aaa7a4.jpg', 'nextEpisodeNo': 6, 'nextEpisodeTitle': '(single panel) Fight fight fight!', 'nextEpisodeExposureType': 'FREE', 'nextEpisodeThumbnailUrl': '/20190607_204/15598588240928Pvo7_JPEG/329aaf25-6f6c-4230-9412-604ce1689531.jpg', 'likeItCount': 168552, 'likeIt': False, 'writingAuthorName': 's0s2', 'communityAuthorList': [{'id': 'o6ocb', 'profileImageUrl': 'https://g-wcommunity.pstatic.net/20220326_271/16482384005900ceIK_JPEG/image.jpg', 'authorType': 'CREATED_BY', 'follow': False, 'pushAlarm': False}], 'creatorNote': '', 'adExposure': {'status': 'EXPOSURE', 'exposure': True}, 'catchUpInfo': {'showCatchUpNotific"
+    },
+    "{'episodeno': 1.0, 'titleno': 92315.0, 'language': 'en'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'episodeno': 3, 'titleno': 92315, 'language': 'en'}": {
+        "error": "",
+        "response": "{'message': {'type': 'response', 'service': 'com.naver.webtoon', 'version': '0.0.1', 'code': 2002, 'message': 'Not service titleNo : 92315 (serviceStatus!=SERVICE)'}}"
+    },
+    "{'episodeno': 4, 'titleno': 92315, 'language': 'en'}": {
+        "error": "",
+        "response": "{'message': {'type': 'response', 'service': 'com.naver.webtoon', 'version': '0.0.1', 'code': 2002, 'message': 'Not service titleNo : 92315 (serviceStatus!=SERVICE)'}}"
+    },
+    "{'episodeno': 5, 'titleno': 92315, 'language': 'en'}": {
+        "error": "",
+        "response": "{'message': {'type': 'response', 'service': 'com.naver.webtoon', 'version': '0.0.1', 'code': 2002, 'message': 'Not service titleNo : 92315 (serviceStatus!=SERVICE)'}}"
+    }
+}

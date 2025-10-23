@@ -1,0 +1,23 @@
+{
+    "name": "fixtures",
+    "description": "This is a sub-function API for tool golf_leaderboard_data.\nTool description: Major golf tours, fixtures, results and up to the minute leaderboard data to enhance your applications.\nAPI description: Lists tournament fixtures for a given tour_id and season_id. You'll need to query the \"Tours\" endpoint to get the correct tour_id and season_id you're looking for.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tour_id": {
+                "type": "number",
+                "description": "Identifier for the tour.",
+                "default": 2.0
+            },
+            "season_id": {
+                "type": "number",
+                "description": "Identifier for the season.",
+                "default": 2021.0
+            }
+        },
+        "required": [
+            "tour_id",
+            "season_id"
+        ]
+    }
+}

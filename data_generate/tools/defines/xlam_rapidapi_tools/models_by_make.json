@@ -1,0 +1,17 @@
+{
+    "name": "models_by_make",
+    "description": "This is a sub-function API for tool motorcycle_specs_database.\nTool description: --- DEMO http://api-motorcycle.makingdatameaningful.com/ ----\n\nThe complete Motorcycle Database with specifications for all Makes & Models [year 1900 to 2023].  Full specs & images included. Real-Time updated.\nWe provide a motorcycle database delivered through API. There are more than 35,000 moto models available along with 20+ technical information fields. One image per model is also included.  Our fast API is delivered through several endpoints in order to satisfy different request types.  ...\nAPI description: Get all models by make name\nex: /model/make-name/BMW\nsample:\n\n```\n    {\n        \"id\": 1514,\n        \"name\": \"450 Sports Enduro\"\n    },\n    {\n        \"id\": 1515,\n        \"name\": \"C 400 GT\"\n    },\n    {\n        \"id\": 1516,\n        \"name\": \"C 400 X\"\n    },\n    {\n        \"id\": 1517,\n        \"name\": \"C 600 Sport\"\n    },\n    {\n        \"id\": 1518,\n        \"name\": \"C 650 GT\"\n    },\n```",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "make": {
+                "type": "string",
+                "description": "The name of the motorcycle manufacturer (e.g., 'BMW').",
+                "default": "Yamaha"
+            }
+        },
+        "required": [
+            "make"
+        ]
+    }
+}

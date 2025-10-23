@@ -1,0 +1,28 @@
+{
+    "name": "newlyregistereddomains",
+    "description": "This is a sub-function API for tool whois_lookup_v4.\nTool description: WHOIS API (v1) returns well-parsed WHOIS records with fields in JSON formats for any domain name.\nAPI description: Fetch a list of newly registered domains from the WhoIs Lookup API, applying optional filters to the search.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "exclude": {
+                "type": "string",
+                "description": "Keywords to exclude from the domain search. Defaults to None."
+            },
+            "date": {
+                "type": "string",
+                "description": "The registration date of the domains to be searched in 'YYYY-MM-DD' format. Defaults to '2023-06-12'.",
+                "default": "2023-06-12"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of the search results to retrieve. Defaults to 1.",
+                "default": 1
+            },
+            "keywords": {
+                "type": "string",
+                "description": "Keywords that the searched domains must contain. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

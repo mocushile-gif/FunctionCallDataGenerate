@@ -1,0 +1,21 @@
+{
+    "name": "user_medias",
+    "description": "This is a sub-function API for tool instagram_cheapest.\nTool description: 2023，Real-time and cheapest Instagram data API，raw json。user，media，hashtag。最便宜的instagram api\nAPI description: Fetches media posts for a specified Instagram user.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The Instagram user ID for which to fetch media posts.",
+                "default": "13460080"
+            },
+            "next_max_id": {
+                "type": "string",
+                "description": "Pagination parameter for fetching the next set of media posts. Default is None."
+            }
+        },
+        "required": [
+            "user_id"
+        ]
+    }
+}

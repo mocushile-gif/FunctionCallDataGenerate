@@ -1,0 +1,17 @@
+{
+    "name": "search_cars_locations",
+    "description": "This is a sub-function API for tool priceline_com_provider.\nTool description: priceline.com | Lets you search hotels, cars for rent, flights. **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters **Other travel  api:** https://rapi.one\nAPI description: Searches for car rental locations by a given name using the Priceline API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the location to search for.",
+                "default": "London"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "stock_get_asset_allocation",
+    "description": "This is a sub-function API for tool webull.\nTool description: Query public data for investment products including stocks, fractional shares, options, ETFs, and ADRs as on webull.com\nAPI description: Fetches the asset allocation for a given stock ticker using the Webull API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tickerid": {
+                "type": "number",
+                "description": "The value of tickerId field returned in other endpoints, such as .../stock/search or .../market/get-common-ranking or .../market/get-top-active or .../market/get-top-gainers or etc... ",
+                "default": 913285171.0
+            }
+        },
+        "required": [
+            "tickerid"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "market_trends",
+    "description": "This is a sub-function API for tool real_time_finance_data.\nTool description: Get stocks / market quotes and trends, ETF, international exchanges / forex, crypto,  related news and analytics in real-time.\nAPI description: Get the latest market trends and relevant news. Supported trends: **Most Active**, **Gainers**, **Losers**, **Crypto**, **Currencies** and **Climate Leaders**.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "trend_type": {
+                "type": "string",
+                "description": "Trend type.\n\n**Supported trend types:**\n\n- *MARKET_INDEXES*\n- *MOST_ACTIVE*\n- *GAINERS*\n- *LOSERS*\n- *CRYPTO*\n- *CURRENCIES*\n- *CLIMATE_LEADERS*"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country for which to get trends, specified as a 2-letter country code - see [ISO 3166](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes).\n\n**Default**: *us*.",
+                "default": "us"
+            },
+            "language": {
+                "type": "string",
+                "description": "The language to use for the results, specified as a 2-letter language code - see [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).\n\n**Default**: *en*.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "trend_type"
+        ]
+    }
+}

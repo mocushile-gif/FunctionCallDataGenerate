@@ -1,0 +1,38 @@
+{
+    "name": "detect_faces",
+    "description": "Detect faces in an image using OpenCV with options to draw bounding boxes and return coordinates.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the input image file"
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output image with detected faces marked"
+        },
+        "model": {
+          "type": "string",
+          "description": "model (str): Detection model - 'haar' or 'dnn'",
+          "default": "haar"
+        },
+        "draw_faces": {
+          "type": "boolean",
+          "description": "Whether to draw rectangles around detected faces",
+          "default": true
+        },
+        "confidence_threshold": {
+          "type": "number",
+          "description": "Confidence threshold for face detection (0.0-1.0)",
+          "default": 0.5
+        },
+        "return_coordinates": {
+          "type": "boolean",
+          "description": "Whether to return face coordinates",
+          "default": false
+        }
+      },
+      "required": ["image_path"]
+    }
+  } 

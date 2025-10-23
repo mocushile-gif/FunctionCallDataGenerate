@@ -1,0 +1,51 @@
+{
+    "name": "group_t_test_from_database",
+    "description": "Perform an independent t-test (Student or Welch) on two groups using data from a SQLite database.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file."
+        },
+        "from_clause": {
+          "type": "string",
+          "description": "SQL FROM clause (e.g., table name or JOIN expression)."
+        },
+        "category_col": {
+          "type": "string",
+          "description": "Grouping column (categorical). Even if originally int, will be cast to str during grouping."
+        },
+        "value_col": {
+          "type": "string",
+          "description": "Column containing numeric values to compare."
+        },
+        "where_clause": {
+          "type": "string",
+          "description": "Optional SQL WHERE clause (without the 'WHERE' keyword)."
+        },
+        "where_params": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Optional list of parameters for the WHERE clause."
+        },
+        "group_names": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Optional: Specify exactly two group values to compare."
+        },
+        "equal_var": {
+          "type": "boolean",
+          "description": "If true, assume equal variance (Student's t-test). If false, use Welch's t-test.",
+          "default": true
+        },
+        "dropna": {
+          "type": "boolean",
+          "description": "Whether to drop rows with missing values.",
+          "default": true
+        }
+      },
+      "required": ["database_path", "from_clause", "category_col", "value_col"]
+    }
+  }
+  

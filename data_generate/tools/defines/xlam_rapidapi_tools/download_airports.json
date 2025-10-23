@@ -1,0 +1,19 @@
+{
+    "name": "download_airports",
+    "description": "This is a sub-function API for tool priceline_com_provider.\nTool description: priceline.com | Lets you search hotels, cars for rent, flights. **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters **Other travel  api:** https://rapi.one\nAPI description: Downloads a list of airports with IATA codes for flight search from the Priceline API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "resume_key": {
+                "type": "string",
+                "description": "An optional key to resume results from a given ID. Defaults to None."
+            },
+            "limit": {
+                "type": "number",
+                "description": "Limits the number of results from the response. Defaults to 500.",
+                "default": 100
+            }
+        },
+        "required": []
+    }
+}

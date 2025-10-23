@@ -1,0 +1,17 @@
+{
+    "name": "match",
+    "description": "This is a sub-function API for tool msport.\nTool description: Soccer livescore , results , fixtures , match and everything you need from 7msport \n\n(if you need additional or new feature just contact me)\nAPI description: get details of match with id\nleague ,home , away , events , substitute , stats and everything you need about the soccer match",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the basketball match for which detailed information is to be fetched.",
+                "default": "4451971"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

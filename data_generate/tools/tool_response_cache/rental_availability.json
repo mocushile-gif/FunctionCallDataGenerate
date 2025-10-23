@@ -1,0 +1,66 @@
+{
+    "{'rentalid': '12345678'}": {
+        "error": "",
+        "response": {
+            "status": false,
+            "message": "Cannot read property 'split' of undefined"
+        }
+    },
+    "{'rentalid': '123456789'}": {
+        "error": "",
+        "response": {
+            "status": false,
+            "message": "Cannot read property 'split' of undefined"
+        }
+    },
+    "{'rentalid': 'Harlem townhouse'}": {
+        "error": "",
+        "response": {
+            "status": false,
+            "message": "Cannot read property 'split' of undefined"
+        }
+    },
+    "{'rentalid': 'garden apartment in a Harlem townhouse'}": {
+        "error": "",
+        "response": {
+            "status": false,
+            "message": "Cannot read property 'split' of undefined"
+        }
+    },
+    "{'rentalid': 'garden apartment in a Harlem townhouse listed on Tripadvisor'}": {
+        "error": "",
+        "response": {
+            "status": false,
+            "message": "Cannot read property 'split' of undefined"
+        }
+    },
+    "{'rentalid': 'garden_apartment_harlem_townhouse'}": {
+        "error": "",
+        "response": {
+            "status": false,
+            "message": "Cannot read property 'split' of undefined"
+        }
+    },
+    "{'rentalid': '98765432'}": {
+        "error": "",
+        "response": {
+            "status": false,
+            "message": "Cannot read property 'split' of undefined"
+        }
+    },
+    "{'rentalid': 'Dallas'}": {
+        "error": "",
+        "response": {
+            "status": false,
+            "message": "Cannot read property 'split' of undefined"
+        }
+    },
+    "{'rentalid': 'VacationRentalReview-g60763-d24816619-Deluxe_Double_Queen_with_Balcony-New_York_City_New_York'}": {
+        "error": "",
+        "response": "{'status': False, 'timestamp': 1730696628184, 'message': {}}"
+    },
+    "{'rentalid': 'NYC-PROP-2023-78945'}": {
+        "error": "",
+        "response": "{'status': False, 'message': \"Cannot read property 'split' of undefined\"}"
+    }
+}

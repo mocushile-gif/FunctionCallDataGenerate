@@ -1,0 +1,17 @@
+{
+    "name": "get_airport_details_by_code",
+    "description": "This is a sub-function API for tool airports_finder.\nTool description: Airport Finder is a robust API designed to locate airports worldwide. It provides accurate and up-to-date information about airports, including names, IATA codes, locations, time zones, and more. With its easy integration and comprehensive data, Airport Finder simplifies the process of incorporating airport information into your application. Deploy it to enhance travel-related services, flight booking platforms, or any application that requires efficient airport search capabilities.\nAPI description: The \"Get Airport Details By Code\" API allows you to quickly retrieve comprehensive information about airports based on their IATA codes. Obtain precise details such as airport names, locations, time zones, and more with this efficient and reliable API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "string",
+                "description": "The IATA code of the airport to retrieve details for.",
+                "default": "DFW"
+            }
+        },
+        "required": [
+            "code"
+        ]
+    }
+}

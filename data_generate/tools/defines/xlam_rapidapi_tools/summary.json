@@ -1,0 +1,17 @@
+{
+    "name": "summary",
+    "description": "This is a sub-function API for tool seo_checker.\nTool description: SEO Website Checker, Extraction and Analyze/Analytic Tools Report\nI'm on telegram chat me if there a problem/request\nhttps://t.me/iiyann25\nAPI description: Fetches a summary of SEO metrics for a given URL using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the website for which the SEO summary is to be fetched.",
+                "default": "https://google.com"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

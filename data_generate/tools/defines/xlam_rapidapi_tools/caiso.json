@@ -1,0 +1,32 @@
+{
+    "name": "caiso",
+    "description": "This is a sub-function API for tool caiso.\nTool description: API for California Independent System Operator data provided from caiso.com. It includes data on energy emissions, demand, supply, and prices. Updated daily.\nAPI description: Fetches standardized CAISO (California Independent System Operator) data based on specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "Type needs to be one of \\\\\\\\\\\\\\\"co2\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"fuelsource\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"netdemand\\\\\\\\\\\\\\\", or \\\\\\\\\\\\\\\"all\\\\\\\\\\\\\\\". The \\\\\\\\\\\\\\\"all\\\\\\\\\\\\\\\" value will combine the results for the three other tables into a single CSV file with all the columns you requested.",
+                "default": "co2"
+            },
+            "enddate": {
+                "type": "string",
+                "description": "The end date for the data retrieval in the format 'YYYYMMDD'. Defaults to '20220901'.",
+                "default": "20220901"
+            },
+            "interval": {
+                "type": "string",
+                "description": "The interval for the data points in minutes. Defaults to '30'.",
+                "default": "30"
+            },
+            "startdate": {
+                "type": "string",
+                "description": "The start date for the data retrieval in the format 'YYYYMMDD'. Defaults to '20220101'.",
+                "default": "20220101"
+            }
+        },
+        "required": [
+            "type"
+        ]
+    }
+}

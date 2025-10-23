@@ -1,0 +1,48 @@
+{
+    "{'ip': '192.168.1.1'}": {
+        "error": "",
+        "response": {
+            "message": "We couldn't retrieve IP's data from the IP: 192.168.1.1. Please try again.",
+            "success": false
+        }
+    },
+    "{'ip': '192.168.0.1'}": {
+        "error": "",
+        "response": {
+            "message": "We couldn't retrieve IP's data from the IP: 192.168.0.1. Please try again.",
+            "success": false
+        }
+    },
+    "{'ip': '98.207.254.136'}": {
+        "error": "",
+        "response": "{'status': 'success', 'country': 'US', 'countryCode': 'US', 'region': 'California', 'regionName': 'California', 'city': 'Daly City', 'zip': '94015', 'lat': 37.6811, 'lon': -122.4806, 'timezone': 'America/Los_Angeles', 'isp': 'Comcast Cable Communications, LLC', 'org': 'AS7922 Comcast Cable Communications, LLC', 'as': 'AS7922 Comcast Cable Communications, LLC', 'query': '98.207.254.136', 'areaCode': '', 'dmaCode': '807', 'inEU': 0, 'euVATrate': False, 'continentCode': 'NA', 'continentName': 'North America', 'locationAccuracyRadius': '50', 'currencyCode': 'USD', 'currencySymbol': '$', 'currencySymbol_UTF8': '$', 'currencyConverter': 0, 'flag': '\ud83c\uddfa\ud83c\uddf8', 'callingCode': '1', 'languageCode': None, 'security': {'response': 'Available only in Premium and Elite plans'}, 'hostname': 'c-98-207-254-136.hsd1.ca.comcast.net', 'classType': 'class A', 'application': 'Very large networks'}"
+    },
+    "{'ip': '192.168.1.10'}": {
+        "error": "",
+        "response": "{'message': \"We couldn't retrieve IP's data from the IP: 192.168.1.10. Please try again.\", 'success': False}"
+    },
+    "{'ip': '170.187.142.247'}": {
+        "error": "",
+        "response": "{'status': 'success', 'country': 'US', 'countryCode': 'US', 'region': 'Georgia', 'regionName': 'Georgia', 'city': 'Atlanta', 'zip': '30301', 'lat': 33.7485, 'lon': -84.3871, 'timezone': 'America/New_York', 'isp': 'Akamai Technologies, Inc.', 'org': 'AS63949 Akamai Connected Cloud', 'as': 'AS63949 Akamai Connected Cloud', 'query': '170.187.142.247', 'areaCode': '', 'dmaCode': '524', 'inEU': 0, 'euVATrate': False, 'continentCode': 'NA', 'continentName': 'North America', 'locationAccuracyRadius': '20', 'currencyCode': 'USD', 'currencySymbol': None, 'currencySymbol_UTF8': '', 'currencyConverter': 0, 'flag': '\ud83c\uddfa\ud83c\uddf8', 'callingCode': '1', 'languageCode': None, 'security': {'response': 'Available only in Premium and Elite plans'}, 'hostname': '170-187-142-247.ip.linodeusercontent.com', 'classType': 'class B', 'application': 'Medium networks'}"
+    },
+    "{'ip': '93.184.216.34'}": {
+        "error": "",
+        "response": "{'status': 'success', 'country': 'US', 'countryCode': 'US', 'region': 'New York', 'regionName': 'Massachusetts', 'city': 'New York City', 'zip': '02061', 'lat': 42.1618, 'lon': -70.7939, 'timezone': 'America/New_York', 'isp': 'EDGECAST', 'org': '', 'as': '', 'query': '93.184.216.34', 'areaCode': '', 'dmaCode': '506', 'inEU': 0, 'euVATrate': False, 'continentCode': 'NA', 'continentName': 'North America', 'locationAccuracyRadius': '20', 'currencyCode': 'USD', 'currencySymbol': None, 'currencySymbol_UTF8': '', 'currencyConverter': 0, 'flag': '\ud83c\uddfa\ud83c\uddf8', 'callingCode': '1', 'languageCode': None, 'security': {'response': 'Available only in Premium and Elite plans'}, 'classType': 'class A', 'application': 'Very large networks'}"
+    },
+    "{'ip': '174.138.85.254'}": {
+        "error": "",
+        "response": "{'status': 'success', 'country': 'US', 'countryCode': 'US', 'region': 'New Jersey', 'regionName': 'New Jersey', 'city': 'Clifton', 'zip': '07014', 'lat': 40.8364, 'lon': -74.1403, 'timezone': 'America/New_York', 'isp': 'DigitalOcean, LLC', 'org': 'AS14061 DigitalOcean, LLC', 'as': 'AS14061 DigitalOcean, LLC', 'query': '174.138.85.254', 'areaCode': '', 'dmaCode': '501', 'inEU': 0, 'euVATrate': False, 'continentCode': 'NA', 'continentName': 'North America', 'locationAccuracyRadius': '20', 'currencyCode': 'USD', 'currencySymbol': None, 'currencySymbol_UTF8': '', 'currencyConverter': 0, 'flag': '\ud83c\uddfa\ud83c\uddf8', 'callingCode': '1', 'languageCode': None, 'security': {'response': 'Available only in Premium and Elite plans'}, 'hostname': '1365672.cloudwaysapps.com', 'classType': 'class B', 'application': 'Medium networks'}"
+    },
+    "{'ip': '104.21.9.56'}": {
+        "error": "",
+        "response": "{'status': 'success', 'country': 'US', 'countryCode': 'CA', 'region': 'California', 'regionName': 'Ontario', 'city': 'San Francisco', 'zip': 'M5A', 'lat': 43.6532, 'lon': -79.3832, 'timezone': 'America/Los_Angeles', 'isp': 'Cloudflare, Inc.', 'org': 'AS13335 Cloudflare, Inc.', 'as': 'AS13335 Cloudflare, Inc.', 'query': '104.21.9.56', 'areaCode': None, 'dmaCode': None, 'inEU': 0, 'euVATrate': False, 'continentCode': None, 'continentName': None, 'locationAccuracyRadius': None, 'currencyCode': None, 'currencySymbol': None, 'currencySymbol_UTF8': '', 'currencyConverter': 0, 'flag': '\ud83c\udde8\ud83c\udde6', 'callingCode': '1', 'languageCode': None, 'security': {'response': 'Available only in Premium and Elite plans'}, 'anycast': True, 'classType': 'class A', 'application': 'Very large networks'}"
+    },
+    "{'ip': '192.168.1.100'}": {
+        "error": "",
+        "response": "{'message': \"We couldn't retrieve IP's data from the IP: 192.168.1.100. Please try again.\", 'success': False}"
+    },
+    "{'ip': '113.53.192.178'}": {
+        "error": "",
+        "response": "{'status': 'success', 'country': 'TH', 'countryCode': 'TH', 'region': 'Udon Thani', 'regionName': 'Bangkok', 'city': 'Udon Thani', 'zip': '10210', 'lat': 13.8983, 'lon': 100.582, 'timezone': 'Asia/Bangkok', 'isp': 'TOT Public Company Limited', 'org': 'AS23969 TOT Public Company Limited', 'as': 'AS23969 TOT Public Company Limited', 'query': '113.53.192.178', 'areaCode': '', 'dmaCode': '', 'inEU': 0, 'euVATrate': False, 'continentCode': 'AS', 'continentName': 'Asia', 'locationAccuracyRadius': '500', 'currencyCode': 'THB', 'currencySymbol': None, 'currencySymbol_UTF8': '', 'currencyConverter': 33.6315, 'flag': '\ud83c\uddf9\ud83c\udded', 'callingCode': '66', 'languageCode': None, 'security': {'response': 'Available only in Premium and Elite plans'}, 'hostname': 'node-4y.pool-113-53.dynamic.totinternet.net', 'classType': 'class A', 'application': 'Very large networks'}"
+    }
+}

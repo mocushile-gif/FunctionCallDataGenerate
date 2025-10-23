@@ -1,0 +1,13 @@
+{
+    "{'company_id': 'restaurant_id'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "Bad Request: (restaurant_id) is not a valid Linkedin company id. You will not be charged for this request."
+        }
+    },
+    "{'company_id': '162479'}": {
+        "error": "",
+        "response": "{'data': None, 'message': 'No longer supported. You will not be charged for this request.'}"
+    }
+}

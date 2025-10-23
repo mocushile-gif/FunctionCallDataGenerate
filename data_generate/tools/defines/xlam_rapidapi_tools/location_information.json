@@ -1,0 +1,17 @@
+{
+    "name": "location_information",
+    "description": "This is a sub-function API for tool instagram_v5.\nTool description: Fast Live Instagram API.All information from Instagram consistently and quickly! It makes 3 times in the backend request for you to get 100% successful response. Need help or custom plan? https://instagapi.com - https://t.me/instagapi\nAPI description: Get Instagram location information by Instagram location id.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "locationid": {
+                "type": "string",
+                "description": "The Instagram location ID to retrieve information for.",
+                "default": "331004901"
+            }
+        },
+        "required": [
+            "locationid"
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "{'page': 1, 'per_page': 100}": {
+        "error": "",
+        "response": {
+            "total": 25,
+            "page": 1,
+            "per_page": 100,
+            "languages": [
+                {
+                    "code": "en",
+                    "name": "English"
+                },
+                {
+                    "code": "es",
+                    "name": "Spanish"
+                },
+                {
+                    "code": "fr",
+                    "name": "French"
+                },
+                {
+                    "code": "de",
+                    "name": "German"
+                },
+                {
+                    "code": "ja",
+                    "name": "Japanese"
+                },
+                {
+                    "code": "zh-CN",
+                    "name": "Chinese (Simplified)"
+                },
+                {
+                    "code": "pt-BR",
+                    "name": "Portuguese (Brazil)"
+                },
+                {
+                    "code": "ar",
+                    "name": "Arabic"
+                },
+                {
+                    "code": "ru",
+                    "name": "Russian"
+                },
+                {
+                    "code": "it",
+                    "name": "Italian"
+                }
+            ]
+        }
+    },
+    "{}": {
+        "error": "",
+        "response": "{'page': 1, 'per_page': 100, 'total': 44, 'items': [{'code': 'ar', 'name': 'Arabic', 'localization_language': 'en', 'links': [{'rel': 'self', 'href': 'https://api.textking.com/v1/language/ar'}]}, {'code': 'bg', 'name': 'Bulgarian', 'localization_language': 'en', 'links': [{'rel': 'self', 'href': 'https://api.textking.com/v1/language/bg'}]}, {'code': 'zh-CN', 'name': 'Chinese (Simplified)', 'localization_language': 'en', 'links': [{'rel': 'self', 'href': 'https://api.textking.com/v1/language/zh-CN'}]}, {'code': 'zh-TW', 'name': 'Chinese (traditional)', 'localization_language': 'en', 'links': [{'rel': 'self', 'href': 'https://api.textking.com/v1/language/zh-TW'}]}, {'code': 'hr', 'name': 'Croatian', 'localization_language': 'en', 'links': [{'rel': 'self', 'href': 'https://api.textking.com/v1/language/hr'}]}, {'code': 'cs', 'name': 'Czech', 'localization_language': 'en', 'links': [{'rel': 'self', 'href': 'https://api.textking.com/v1/language/cs'}]}, {'code': 'da', 'name': 'Danish', 'localization_language': 'en', 'links': [{'rel': 'self', 'href': 'https://api.textking.com/v1/language/da'}]}, {'code': 'nl', 'name': 'Dutch', 'localization_language': 'en', 'links': [{'rel': 'self', 'href': 'https://api.textking.com/v1/language/nl'}]}, {'code': 'nl-BE', 'name': 'Dutch (Belgium)', 'localization_language': 'en', 'links': [{'rel': 'self', 'href': 'https://api.textking.com/v1/language/nl-BE'}]}, {'code': 'nl-NL', 'name': 'Dutch (Netherlands)', 'localization_language': 'en', 'links': [{'rel': 'self', 'href': 'https://api.textking.com/v1/language/nl-NL'}]}, {'code': 'en', 'name': 'English', 'localization_language': 'en', 'links': [{'rel': 'self', 'href': 'https://api.textking.com/v1/language/en'}]}, {'code': 'en-GB', 'name': 'English (United Kingdom)', 'localization_language': 'en', 'links': [{'rel': 'self', 'href': 'https://api.textking.com/v1/language/en-GB'}]}, {'code': 'en-US', 'name': 'English (United States)', 'localization_language': 'en', 'links': [{'rel': 'self', 'href': 'https://api.textking.com/v1/language/en-US'}]}"
+    }
+}

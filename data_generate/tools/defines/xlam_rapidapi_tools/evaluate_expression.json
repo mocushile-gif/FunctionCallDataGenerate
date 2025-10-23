@@ -1,0 +1,17 @@
+{
+    "name": "evaluate_expression",
+    "description": "This is a sub-function API for tool evaluate_expression.\nTool description: Multi-purpose natural language calculator\nAPI description: Scans the given expression and returns the result of any calculation found, in plain text.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "expression": {
+                "type": "string",
+                "description": "The mathematical expression to be evaluated.",
+                "default": "$950 - 10% discount"
+            }
+        },
+        "required": [
+            "expression"
+        ]
+    }
+}

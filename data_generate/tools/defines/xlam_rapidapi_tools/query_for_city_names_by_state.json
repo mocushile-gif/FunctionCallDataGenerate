@@ -1,0 +1,17 @@
+{
+    "name": "query_for_city_names_by_state",
+    "description": "This is a sub-function API for tool de_boundaries_io.\nTool description: A Germany PostalCode Boundaries API\nAPI description: This function queries a list of city names for a given state from the RapidAPI \"Boundaries\" service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "state": {
+                "type": "string",
+                "description": "The name of the state to query for city names.",
+                "default": "berlin"
+            }
+        },
+        "required": [
+            "state"
+        ]
+    }
+}

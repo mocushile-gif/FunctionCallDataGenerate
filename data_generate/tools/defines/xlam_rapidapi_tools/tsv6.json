@@ -1,0 +1,34 @@
+{
+    "name": "tsv6",
+    "description": "This is a sub-function API for tool odam.\nTool description: ODAM\nAPI description: Fetches the variable list within the specified category of a merged data subset along with the metadata.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "dataset": {
+                "type": "string",
+                "description": "The dataset identifier.",
+                "default": "frim1"
+            },
+            "category": {
+                "type": "string",
+                "description": "The category to filter the data.",
+                "default": "factor"
+            },
+            "subset": {
+                "type": "string",
+                "description": "The data subset identifier.",
+                "default": "activome"
+            },
+            "format": {
+                "type": "string",
+                "description": "The desired output format. Default is 'tsv'.",
+                "default": "tsv"
+            }
+        },
+        "required": [
+            "dataset",
+            "category",
+            "subset"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "reviews",
+    "description": "This is a sub-function API for tool axesso_otto_data_service.\nTool description: Our Otto Data Service API provides real-time data about product details, keyword search result and reviews from the german online shop Otto.de.\nAPI description: Fetches product reviews from the Otto data service using the provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number to retrieve.",
+                "default": "1"
+            },
+            "productid": {
+                "type": "string",
+                "description": "The ID of the product to look up reviews for.",
+                "default": "417479273"
+            },
+            "sortby": {
+                "type": "string",
+                "description": "The criteria to sort the reviews by. Defaults to 'newest'.",
+                "default": "newest"
+            }
+        },
+        "required": [
+            "page",
+            "productid"
+        ]
+    }
+}

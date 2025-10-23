@@ -1,0 +1,28 @@
+{
+    "name": "theaters_list",
+    "description": "This is a sub-function API for tool flixster.\nTool description: This API helps to query for movies, actors, theaters, showtime, etc... to create a site/application, such as : rottentomatoes.com, flixster.com\nAPI description: List theaters around a specified postal code or GEO location using the Flixster API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "longitude": {
+                "type": "number",
+                "description": "The GEO longitude to search for theaters."
+            },
+            "zipcode": {
+                "type": "string",
+                "description": "The postal code to search for theaters. Default is '90002'.",
+                "default": "90002"
+            },
+            "latitude": {
+                "type": "number",
+                "description": "The GEO latitude to search for theaters."
+            },
+            "radius": {
+                "type": "number",
+                "description": "The radius (in miles) around the specified location to search for theaters. Default is 50.",
+                "default": 50.0
+            }
+        },
+        "required": []
+    }
+}

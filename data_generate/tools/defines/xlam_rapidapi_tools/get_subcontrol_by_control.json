@@ -1,0 +1,17 @@
+{
+    "name": "get_subcontrol_by_control",
+    "description": "This is a sub-function API for tool risk_management_framework.\nTool description: The Risk Management Framework (RMF) makes it easy to view and compare controls and CCIs.\nAPI description: This endpoint will return all the subcontrols/ccis owned by a control such as AC-1. In the case of AC-1, this endpoint will return AC-1.1, AC-1.2, etc.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "control": {
+                "type": "string",
+                "description": "The identifier of the control (e.g., \"AC-1\") for which subcontrols or CCIs are to be fetched.",
+                "default": "AC-1"
+            }
+        },
+        "required": [
+            "control"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "markets_equities_groups",
+    "description": "This is a sub-function API for tool seeking_alpha_finance.\nTool description: Seeking Alpha is the world’s largest investing community. Seeking Alpha’s content has unparalleled breadth and depth: from stocks, ETFs and mutual funds to commodities and cryptocurrency.   **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters\nAPI description: Fetches equities groups such as global-equity and countries-equity from the Seeking Alpha API based on the given category.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "The category of equities to fetch. For example, 'global-equity' or 'countries-equity'.",
+                "default": "countries-equity"
+            }
+        },
+        "required": [
+            "category"
+        ]
+    }
+}

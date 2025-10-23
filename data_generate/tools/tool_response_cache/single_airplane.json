@@ -1,0 +1,122 @@
+{
+    "{'is_id': 12345}": {
+        "error": "",
+        "response": []
+    },
+    "{'is_id': 123456}": {
+        "error": "",
+        "response": []
+    },
+    "{'is_id': 1}": {
+        "error": "",
+        "response": {
+            "id": 1,
+            "make": "Boeing",
+            "model": "787 Dreamliner",
+            "type": "Commercial",
+            "range": "13,530 kilometers",
+            "seats": "242 to 330 passengers",
+            "length": "63 meters",
+            "wingspan": "60.1 meters",
+            "height": "16.9 meters",
+            "max_takeoff_weight": "254,011 kilograms",
+            "cruise_speed": "Mach 0.85",
+            "engine_type": "Twinjet",
+            "introduced": "2011",
+            "primary_users": [
+                "All Nippon Airways",
+                "American Airlines",
+                "United Airlines",
+                "Qatar Airways"
+            ]
+        }
+    },
+    "{'is_id': 2}": {
+        "error": "",
+        "response": {
+            "id": 2,
+            "make": "Airbus",
+            "model": "A380",
+            "type": "Commercial",
+            "range": "15,200 kilometers",
+            "seats": "489 to 615 passengers",
+            "length": "72.7 meters",
+            "wingspan": "79.8 meters",
+            "height": "24.1 meters",
+            "max_takeoff_weight": "575,000 kilograms",
+            "cruise_speed": "Mach 0.85",
+            "engine_type": "Quadjet",
+            "introduced": "2007",
+            "primary_users": [
+                "Emirates",
+                "Singapore Airlines",
+                "Qantas",
+                "British Airways"
+            ]
+        }
+    },
+    "{'is_id': 3}": {
+        "error": "",
+        "response": {
+            "id": 3,
+            "make": "Airbus",
+            "model": "A350",
+            "type": "Commercial",
+            "range": "15,000 kilometers",
+            "seats": "300 to 350 passengers",
+            "length": "66.8 meters",
+            "wingspan": "64.8 meters",
+            "height": "17.7 meters",
+            "max_takeoff_weight": "280,000 kilograms",
+            "cruise_speed": "Mach 0.85",
+            "engine_type": "Twinjet",
+            "introduced": "2013",
+            "primary_users": [
+                "Qatar Airways",
+                "Singapore Airlines",
+                "Cathay Pacific",
+                "Lufthansa"
+            ]
+        }
+    },
+    "{'is_id': 4}": {
+        "error": "",
+        "response": {
+            "id": 4,
+            "make": "Boeing",
+            "model": "737 Max",
+            "type": "Commercial",
+            "range": "6,570 kilometers",
+            "seats": "138 to 230 passengers",
+            "length": "39.5 meters",
+            "wingspan": "35.9 meters",
+            "height": "12.3 meters",
+            "max_takeoff_weight": "82,191 kilograms",
+            "cruise_speed": "Mach 0.79",
+            "engine_type": "Twinjet",
+            "introduced": "2017",
+            "primary_users": [
+                "Southwest Airlines",
+                "American Airlines",
+                "Air Canada",
+                "China Southern Airlines"
+            ]
+        }
+    },
+    "{'is_id': 76}": {
+        "error": "",
+        "response": "[{'id': 76, 'plane': '777 200ER', 'brand': 'Boeing', 'passenger_capacity': 440, 'priceUSD': 306600000.0, 'fuel_capacity_litres': 171176.0, 'max_takeoff_weight_kg': 297550.0, 'max_landing_weight_kg': 213180.0, 'empty_weight_kg': 138100.0, 'range_km': 13080.0, 'length_ft': 209.1, 'wingspan_ft': 199.11, 'height_ft': 60.9, 'engine': '2x Pratt and Whitney PW 4090 or Rolls-Royce Tren', 'cruise_speed_kmph': 950.0, 'ceiling_ft': 43100.0, 'imgThumb': 'https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/777_200ER.jpg', 'img_attribution': 'https://commons.wikimedia.org/wiki/File:Boeing_777-200ER_KLM.jpg', 'img_creative_commons': True}]"
+    },
+    "{'is_id': 102}": {
+        "error": "",
+        "response": "[{'id': 102, 'plane': 'DC 9-40', 'brand': 'Douglas', 'passenger_capacity': 128, 'priceUSD': 5200000.0, 'fuel_capacity_litres': 11181.0, 'max_takeoff_weight_kg': 51710.0, 'max_landing_weight_kg': 46266.0, 'empty_weight_kg': 27821.0, 'range_km': 2200.0, 'length_ft': 125.7, 'wingspan_ft': 93.4, 'height_ft': 28.5, 'engine': '2x JT8D-17', 'cruise_speed_kmph': 898.0, 'ceiling_ft': 35000.0, 'imgThumb': 'https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_9-40.jpg', 'img_attribution': 'https://commons.wikimedia.org/wiki/File:Douglas_DC-9-40_%28DHL%2', 'img_creative_commons': True}]"
+    },
+    "{'is_id': 89}": {
+        "error": "",
+        "response": "[{'id': 89, 'plane': 'CRJ 900', 'brand': 'Bombardier', 'passenger_capacity': 90, 'priceUSD': 46500000.0, 'fuel_capacity_litres': 11728.0, 'max_takeoff_weight_kg': 38330.0, 'max_landing_weight_kg': 0.0, 'empty_weight_kg': 21845.0, 'range_km': 2876.0, 'length_ft': 118.11, 'wingspan_ft': 81.7, 'height_ft': 24.7, 'engine': '2 X General Electric CF34-8C5 turbofans', 'cruise_speed_kmph': 829.0, 'ceiling_ft': 41000.0, 'imgThumb': 'https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/CRJ_900.jpg', 'img_attribution': 'https://commons.wikimedia.org/wiki/File:Bombardier_CRJ-900_%E2%8', 'img_creative_commons': True}]"
+    },
+    "{'is_id': 101}": {
+        "error": "",
+        "response": "[{'id': 101, 'plane': 'DC 9-30', 'brand': 'Douglas', 'passenger_capacity': 127, 'priceUSD': 0.0, 'fuel_capacity_litres': 11181.0, 'max_takeoff_weight_kg': 48988.0, 'max_landing_weight_kg': 44906.0, 'empty_weight_kg': 25789.0, 'range_km': 2800.0, 'length_ft': 119.4, 'wingspan_ft': 93.4, 'height_ft': 27.11, 'engine': '2x JT8D-11', 'cruise_speed_kmph': 898.0, 'ceiling_ft': 35000.0, 'imgThumb': 'https://s3.us-west-004.backblazeb2.com/encurate/static/airplanes/DC_9-30.jpg', 'img_attribution': 'https://commons.wikimedia.org/wiki/File:Douglas_DC-9-30_%28North', 'img_creative_commons': True}]"
+    }
+}

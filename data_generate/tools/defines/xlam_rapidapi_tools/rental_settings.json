@@ -1,0 +1,21 @@
+{
+    "name": "rental_settings",
+    "description": "This is a sub-function API for tool airdna.\nTool description: API for Short-Term Rental Data Analytics | Vrbo & Airbnb Data | Rentalizer\nAPI description: Returns rental settings.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The location for which the rental settings are to be fetched.",
+                "default": "santa monica"
+            },
+            "currency": {
+                "type": "string",
+                "description": "The currency in which the rental settings should be returned. Defaults to None."
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

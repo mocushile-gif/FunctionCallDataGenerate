@@ -1,0 +1,27 @@
+{
+    "name": "competitions_matches",
+    "description": "This is a sub-function API for tool zeus_api.\nTool description: This API returns information on the 5 major European football leagues.\nGet standings, matches, scorers and more.\nAPI description: Retrieves the current matches for a specified league and season using the Zeus API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The identifier for the league.",
+                "default": "LI1"
+            },
+            "year": {
+                "type": "string",
+                "description": "The season year to retrieve matches for. Defaults to '2021'.",
+                "default": "2021"
+            },
+            "round": {
+                "type": "string",
+                "description": "The round number of the matches to retrieve. Defaults to '24'.",
+                "default": "24"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

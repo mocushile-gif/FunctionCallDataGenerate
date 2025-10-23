@@ -1,0 +1,65 @@
+{
+    "{'city': 'Los Angeles'}": {
+        "error": "",
+        "response": {
+            "request": {
+                "city": "Los Angeles, US"
+            },
+            "response": {
+                "time": "2023-07-18T10:29:27-07:00",
+                "year": 2023,
+                "month": 7,
+                "day": 18,
+                "hour": 10,
+                "minute": 29,
+                "second": 27,
+                "weekday": "Tuesday",
+                "week_number": 29,
+                "utc_time": "2023-07-18T17:29:27+00:00",
+                "seconds_since_epoch": 1689701367,
+                "ctime": "Tue Jul 18 10:29:27 2023",
+                "local_timezone": "PDT"
+            }
+        }
+    },
+    "{'city': 'New York'}": {
+        "error": "",
+        "response": "{'request': {'city': 'New York City, US'}, 'response': {'time': '2023-07-18T13:29:35-04:00', 'year': 2023, 'month': 7, 'day': 18, 'hour': 13, 'minute': 29, 'second': 35, 'weekday': 'Tuesday', 'week_number': 29, 'utc_time': '2023-07-18T17:29:35+00:00', 'seconds_since_epoch': 1689701375, 'ctime': 'Tue Jul 18 13:29:35 2023', 'local_timezone': 'EDT'}}"
+    },
+    "{'city': 'latitude 40.7128 and longitude -74.0060'}": {
+        "error": "",
+        "response": {
+            "detail": [
+                "city: not found"
+            ]
+        }
+    },
+    "{'city': 'Tokyo'}": {
+        "error": "",
+        "response": "{'request': {'city': 'Tokyo, JP'}, 'response': {'time': '2024-10-15T23:28:57+09:00', 'year': 2024, 'month': 10, 'day': 15, 'hour': 23, 'minute': 28, 'second': 57, 'weekday': 'Tuesday', 'week_number': 42, 'utc_time': '2024-10-15T14:28:57+00:00', 'seconds_since_epoch': 1729002537, 'ctime': 'Tue Oct 15 23:28:57 2024', 'local_timezone': 'JST'}}"
+    },
+    "{'city': 'London'}": {
+        "error": "",
+        "response": "{'request': {'city': 'London, GB'}, 'response': {'time': '2024-11-29T06:34:42+00:00', 'year': 2024, 'month': 11, 'day': 29, 'hour': 6, 'minute': 34, 'second': 42, 'weekday': 'Friday', 'week_number': 48, 'utc_time': '2024-11-29T06:34:42+00:00', 'seconds_since_epoch': 1732862082, 'ctime': 'Fri Nov 29 06:34:42 2024', 'local_timezone': 'GMT'}}"
+    },
+    "{'city': 'Houston'}": {
+        "error": "",
+        "response": "{'request': {'city': 'Houston, US'}, 'response': {'time': '2025-06-01T15:54:16-05:00', 'year': 2025, 'month': 6, 'day': 1, 'hour': 15, 'minute': 54, 'second': 16, 'weekday': 'Sunday', 'week_number': 22, 'utc_time': '2025-06-01T20:54:16+00:00', 'seconds_since_epoch': 1748811256, 'ctime': 'Sun Jun  1 15:54:16 2025', 'local_timezone': 'CDT'}}"
+    },
+    "{'city': 'Berlin'}": {
+        "error": "",
+        "response": "{'request': {'city': 'Berlin, DE'}, 'response': {'time': '2025-01-06T06:57:41+01:00', 'year': 2025, 'month': 1, 'day': 6, 'hour': 6, 'minute': 57, 'second': 41, 'weekday': 'Monday', 'week_number': 2, 'utc_time': '2025-01-06T05:57:41+00:00', 'seconds_since_epoch': 1736143061, 'ctime': 'Mon Jan  6 06:57:41 2025', 'local_timezone': 'CET'}}"
+    },
+    "{'city': 'Sydney'}": {
+        "error": "",
+        "response": "{'request': {'city': 'Sydney, AU'}, 'response': {'time': '2024-12-02T23:49:47+11:00', 'year': 2024, 'month': 12, 'day': 2, 'hour': 23, 'minute': 49, 'second': 47, 'weekday': 'Monday', 'week_number': 49, 'utc_time': '2024-12-02T12:49:47+00:00', 'seconds_since_epoch': 1733143787, 'ctime': 'Mon Dec  2 23:49:47 2024', 'local_timezone': 'AEDT'}}"
+    },
+    "{'city': 'Singapore'}": {
+        "error": "",
+        "response": "{'request': {'city': 'Singapore, SG'}, 'response': {'time': '2025-06-03T12:56:33+08:00', 'year': 2025, 'month': 6, 'day': 3, 'hour': 12, 'minute': 56, 'second': 33, 'weekday': 'Tuesday', 'week_number': 23, 'utc_time': '2025-06-03T04:56:33+00:00', 'seconds_since_epoch': 1748926593, 'ctime': 'Tue Jun  3 12:56:33 2025', 'local_timezone': '+08'}}"
+    },
+    "{'city': 'Dubai'}": {
+        "error": "",
+        "response": "{'request': {'city': 'Dubai, AE'}, 'response': {'time': '2025-06-03T08:58:03+04:00', 'year': 2025, 'month': 6, 'day': 3, 'hour': 8, 'minute': 58, 'second': 3, 'weekday': 'Tuesday', 'week_number': 23, 'utc_time': '2025-06-03T04:58:03+00:00', 'seconds_since_epoch': 1748926683, 'ctime': 'Tue Jun  3 08:58:03 2025', 'local_timezone': '+04'}}"
+    }
+}

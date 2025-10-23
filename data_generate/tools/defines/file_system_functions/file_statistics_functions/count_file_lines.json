@@ -1,0 +1,15 @@
+{
+    "name": "count_file_lines",
+    "description": "Count the number of lines or rows in a file. Supports text, CSV, and Excel files. For Excel files, it returns the row count per sheet.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "The full path to the file to be analyzed. Supported formats: .txt, .csv, .jsonl, .xls, .xlsx"
+        }
+      },
+      "required": ["file_path"]
+    }
+  }
+  

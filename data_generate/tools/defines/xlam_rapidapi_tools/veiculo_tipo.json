@@ -1,0 +1,17 @@
+{
+    "name": "veiculo_tipo",
+    "description": "This is a sub-function API for tool veiculos_api.\nTool description: Tabela FIPE - Busca por marca, modelo e versão. Atualizado: 08/08/2023\nAPI description: Retorna as marcas do tipo selecionado, os tipos disponíveis são \"carros\", \"motos\" e \"caminhoes\".",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "veiculo_tipo": {
+                "type": "string",
+                "description": "The type of vehicle for which to fetch brands. Possible values are \"carros\", \"motos\", and \"caminhoes\".",
+                "default": "carros"
+            }
+        },
+        "required": [
+            "veiculo_tipo"
+        ]
+    }
+}

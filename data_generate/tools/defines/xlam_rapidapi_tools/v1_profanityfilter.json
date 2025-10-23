@@ -1,0 +1,17 @@
+{
+    "name": "v1_profanityfilter",
+    "description": "This is a sub-function API for tool profanity_filter_by_api_ninjas.\nTool description: Detect and censor bad words in text. See more info at https://api-ninjas.com/api/profanityfilter\nAPI description: Filters profanity from the given text using the API Ninjas Profanity Filter API. Returns the censored version of the text with bad words replaced by asterisks, and indicates whether the text contains profanity.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The input text to be filtered. Maximum 1000 characters.",
+                "default": "damn it"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

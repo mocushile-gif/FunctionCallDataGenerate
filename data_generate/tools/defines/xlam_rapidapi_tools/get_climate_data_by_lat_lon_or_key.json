@@ -1,0 +1,29 @@
+{
+    "name": "get_climate_data_by_lat_lon_or_key",
+    "description": "This is a sub-function API for tool climate_data.\nTool description: climate data worldwide\nAPI description: Fetch climate data for a specific location by latitude and longitude or by city key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the location. Defaults to 45.",
+                "default": 45.0
+            },
+            "lon": {
+                "type": "number",
+                "description": "Longitude of the location. Defaults to -70.",
+                "default": -70.0
+            },
+            "key": {
+                "type": "string",
+                "description": "City key from a list of cities. Defaults to None."
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language of the response. Can be one of ['en', 'de', 'nl', 'fr', 'pl', 'gr', 'it', 'cn', 'ru', 'cz', 'pt', 'es']. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": []
+    }
+}

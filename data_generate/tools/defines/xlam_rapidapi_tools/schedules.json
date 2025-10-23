@@ -1,0 +1,22 @@
+{
+    "name": "schedules",
+    "description": "This is a sub-function API for tool live_golf_data.\nTool description: PGA Tour and LIV Tour live golf data for your application needs such as rankings, leaderboards, scorecards, and results.\nAPI description: Fetch the golf schedule for the specified organization and year.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "orgid": {
+                "type": "string",
+                "description": "Identifier for the golf organization. Choose '1' for PGA Tour or '2' for LIV Tour."
+            },
+            "year": {
+                "type": "string",
+                "description": "The year for which the schedule is being requested.",
+                "default": "2022"
+            }
+        },
+        "required": [
+            "orgid",
+            "year"
+        ]
+    }
+}

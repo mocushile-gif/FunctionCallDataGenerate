@@ -1,0 +1,15 @@
+{
+    "name": "get_post_data_download_video_photo",
+    "description": "This is a sub-function API for tool get_9gag_api_detailed.\nTool description: Detailed 9GAG API. Scraping posts, categories, users. Includes download videos/photos.\nAPI description: Fetches detailed data for a given post, including a download link for any videos associated with the post.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "post_id": {
+                "type": "string",
+                "description": "The unique identifier of the post. Defaults to 'adPXX3Q'.",
+                "default": "adPXX3Q"
+            }
+        },
+        "required": []
+    }
+}

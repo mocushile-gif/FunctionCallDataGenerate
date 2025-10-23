@@ -1,0 +1,28 @@
+{
+    "name": "body_mass_index",
+    "description": "This is a sub-function API for tool health_calculator_api.\nTool description: Welcome to the Health Calculator API (HCA). This API provides endpoints for calculating A Body Shape Index (ABSI), Adjusted Body Weight (AjBW), Basal Energy Expenditure (BEE) and Total Energy Expenditure (TEE) , Body Adiposity Index (BAI), Body Frame Size Index (BFSI), Body Mass Index (BMI), Body Fat Percentage, Basal Metabolic Rate (BMR), Daily Caloric Needs (DCN), Daily Water Intake (DWI), Estimated Average Glucose(eAG), Estimated Energy Requirement (EER), The FFMI (Fat-Free Mass Index), Ta...\nAPI description: Calculates the Body Mass Index (BMI) based on the provided weight, height, and units.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "weight": {
+                "type": "number",
+                "description": "The weight in **kilograms**. Required.",
+                "default": 80.0
+            },
+            "height": {
+                "type": "number",
+                "description": "The height in **centimeters**. Required.",
+                "default": 170.0
+            },
+            "units": {
+                "type": "string",
+                "description": "The desired units of measurement to implement in the JSON Response. Possible values are **metric** (default) or **imperial**. (Optional).",
+                "default": "metric"
+            }
+        },
+        "required": [
+            "weight",
+            "height"
+        ]
+    }
+}

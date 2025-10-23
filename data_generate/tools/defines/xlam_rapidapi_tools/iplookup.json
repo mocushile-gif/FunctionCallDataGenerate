@@ -1,0 +1,23 @@
+{
+    "name": "iplookup",
+    "description": "This is a sub-function API for tool greip.\nTool description: Deploy AI-Powered modules to prevent payment fraud\nAPI description: Perform an IP lookup using the RapidAPI IP Lookup service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IP Address you want to lookup.",
+                "default": "1.1.1.1"
+            },
+            "key": {
+                "type": "string",
+                "description": "Your API Key. Each user has a unique API Key that can be used to access the API functions. If you don't have an account yet, please create new account first.",
+                "default": "2517bc4fc3f790e8f09bc808bb63b899"
+            }
+        },
+        "required": [
+            "ip",
+            "key"
+        ]
+    }
+}

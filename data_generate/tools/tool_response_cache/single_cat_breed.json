@@ -1,0 +1,26 @@
+{
+    "{'is_id': 1}": {
+        "error": "",
+        "response": []
+    },
+    "{'is_id': 3}": {
+        "error": "",
+        "response": []
+    },
+    "{'is_id': 34.0}": {
+        "error": "",
+        "response": "[{'id': 34, 'breedName': 'Desert Lynx', 'breedType': 'Mixed Breed', 'breedDescription': 'The Desert Lynx is a mixed breed cat\u2013a cross between a number of other breeds including the American Lynx, Maine Coon, and Pixie Bob, and possibly even the bobcat. These felines are known for being outgoing, playful, and social.', 'furColor': 'Chocolate brown, Silver, Ebony, and Blue', 'origin': 'United States', 'minHeightInches': None, 'maxHeightInches': None, 'minWeightPounds': 8.0, 'maxWeightPounds': 16.0, 'minLifeSpan': 13.0, 'maxLifeSpan': 15.0, 'imgThumb': 'https://s3.us-west-004.backblazeb2.com/encurate/static/catbreed/cat-default_GGTd182.jpg', 'imgSourceURL': None, 'imgAttribution': None, 'imgCreativeCommons': False}]"
+    },
+    "{'is_id': 12.0}": {
+        "error": "",
+        "response": "[{'id': 12, 'breedName': 'Arabian Mau', 'breedType': 'Domestic', 'breedDescription': 'The Arabian Mau is a formal breed of domestic cat, originated from the early African wildcat, a short-haired landrace native to the Arabian Peninsula. It lives in the streets of the Arabian Peninsula and has adapted very well to its extreme climate.', 'furColor': 'Combinations of Black, White, and Brown', 'origin': 'Saudi Arabia', 'minHeightInches': None, 'maxHeightInches': None, 'minWeightPounds': 8.0, 'maxWeightPounds': 16.0, 'minLifeSpan': 12.0, 'maxLifeSpan': 14.0, 'imgThumb': 'https://s3.us-west-004.backblazeb2.com/encurate/static/catbreed/Arabian_Mau.jpg', 'imgSourceURL': 'https://commons.wikimedia.org/wiki/File:Bex_Arabian_Mau.jpg', 'imgAttribution': 'SolnishkoA', 'imgCreativeCommons': True}]"
+    },
+    "{'is_id': 85.0}": {
+        "error": "",
+        "response": "[{'id': 85, 'breedName': 'Ukrainian Levkoy', 'breedType': 'Mixed Breed', 'breedDescription': 'The Ukrainian Levkoy is a cat breed of distinct appearance, having inward-folding ears and little to no hair. These cats are of medium size with a longish body, appearing both muscular and slender. They have soft, elastic skin; an excess of which leads to a wrinkled appearance.', 'furColor': 'Solid, Tabby, Tabby and White, Bicolor, and Particolor, Rubber bald, Flocked, Velour, and Brush', 'origin': 'Russia', 'minHeightInches': None, 'maxHeightInches': None, 'minWeightPounds': 8.0, 'maxWeightPounds': 12.0, 'minLifeSpan': 9.0, 'maxLifeSpan': 15.0, 'imgThumb': 'https://s3.us-west-004.backblazeb2.com/encurate/media/catbreed/Ukrainian_Levkoy.jpg', 'imgSourceURL': 'https://commons.wikimedia.org/wiki/File:Ukrainian_Levkoy_%283416954579%29.jpg', 'imgAttribution': 'Nickolas Titkov', 'imgCreativeCommons': True}]"
+    },
+    "{'is_id': 5}": {
+        "error": "",
+        "response": "[{'id': 5, 'breedName': 'Abyssinian', 'breedType': 'Domestic', 'breedDescription': 'The Abyssinian is a breed of domestic short-haired cat with a distinctive \"ticked\" tabby coat, in which individual hairs are banded with different colors. They are also known simply as Abys.', 'furColor': 'Ruddy Brown, Ticked darker brown or black, Chocolate, Lilac, various Silver tones', 'origin': 'Indian Ocean, Southeast Asia', 'minHeightInches': 12.0, 'maxHeightInches': 16.0, 'minWeightPounds': 6.0, 'maxWeightPounds': 10.0, 'minLifeSpan': 9.0, 'maxLifeSpan': 15.0, 'imgThumb': 'https://s3.us-west-004.backblazeb2.com/encurate/static/catbreed/Abyssinian.jpg', 'imgSourceURL': 'https://commons.wikimedia.org/wiki/File:Abyssinian_cat_-_Patricia.jpg', 'imgAttribution': 'Oleg Royko', 'imgCreativeCommons': True}]"
+    }
+}

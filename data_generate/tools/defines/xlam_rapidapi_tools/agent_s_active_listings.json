@@ -1,0 +1,21 @@
+{
+    "name": "agent_s_active_listings",
+    "description": "This is a sub-function API for tool zillow.\nTool description: Fast and highly available API. For-sale, rental listings and agens real-time data from Zillow.\nAPI description: Fetches the active listings for a given agent from Zillow's API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zuid": {
+                "type": "string",
+                "description": "The Zillow unique identifier for the agent.",
+                "default": "X1-ZU10c5uqeoxak21_5upaj"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of the results to retrieve. Defaults to None."
+            }
+        },
+        "required": [
+            "zuid"
+        ]
+    }
+}

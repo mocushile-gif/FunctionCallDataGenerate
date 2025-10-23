@@ -1,0 +1,17 @@
+{
+    "name": "getstatsbyyear",
+    "description": "This is a sub-function API for tool trinidad_covid_19_statistics.\nTool description: This API provides Covid-19 statistics by year, month, day and most recent day in Trinidad and Tobago\nAPI description: This endpoint delivers Trinidad & Tobago Covid 19 statistics by year. For a valid response, the beginning year is 2020 and the latest year is the current year.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The year for which the Covid-19 statistics are being requested. Must be between 2020 and the current year.",
+                "default": "2020"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

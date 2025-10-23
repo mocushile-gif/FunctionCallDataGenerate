@@ -1,0 +1,17 @@
+{
+    "name": "time_zone",
+    "description": "This is a sub-function API for tool geodb_cities.\nTool description: Get global city, region, and country data. Filter and display results in multiple languages.\nAPI description: Fetch the current time for a specified time zone in ISO-6801 format (HHmmss.SSSZ).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zoneid": {
+                "type": "string",
+                "description": "The ID of the time zone for which the current time is to be fetched.",
+                "default": "America__Los_Angeles"
+            }
+        },
+        "required": [
+            "zoneid"
+        ]
+    }
+}

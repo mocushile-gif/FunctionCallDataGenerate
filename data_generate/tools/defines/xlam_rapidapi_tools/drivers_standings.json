@@ -1,0 +1,15 @@
+{
+    "name": "drivers_standings",
+    "description": "This is a sub-function API for tool fia_formula_1_championship_statistics.\nTool description: FIA Formula 1 Championship Statistics is a REST API. Gain access to statistical data about FIA F1 championships. \nAPI description: Use this endpoint to retrieve drivers standings data about a specifit F1 championship by specifying a year. If you ommit the ***year*** query parameter, a default value will be set to current year. The response data will contain information about the position in the rank list, driver's name, nationality, team and total points accumulated.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "number",
+                "description": "The championship year for which to retrieve drivers' standings. Defaults to 2020.",
+                "default": 2020.0
+            }
+        },
+        "required": []
+    }
+}

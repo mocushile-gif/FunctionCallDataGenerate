@@ -1,0 +1,82 @@
+{
+    "{'northeast': 38.0, 'southwest': 36.5, 'intersect': True}": {
+        "error": "",
+        "response": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Springfield",
+                        "place_type": "City",
+                        "state": "IL",
+                        "population": 117210
+                    },
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -89.64,
+                                    39.78
+                                ],
+                                [
+                                    -89.64,
+                                    39.75
+                                ],
+                                [
+                                    -89.61,
+                                    39.75
+                                ],
+                                [
+                                    -89.61,
+                                    39.78
+                                ],
+                                [
+                                    -89.64,
+                                    39.78
+                                ]
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Chicago",
+                        "place_type": "City",
+                        "state": "IL",
+                        "population": 2705994
+                    },
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -87.68,
+                                    41.87
+                                ],
+                                [
+                                    -87.68,
+                                    41.84
+                                ],
+                                [
+                                    -87.65,
+                                    41.84
+                                ],
+                                [
+                                    -87.65,
+                                    41.87
+                                ],
+                                [
+                                    -87.68,
+                                    41.87
+                                ]
+                            ]
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

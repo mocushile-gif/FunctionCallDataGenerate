@@ -1,0 +1,34 @@
+{
+    "{'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'TSLA': {'currentPrice': 237.97, 'currentRatio': 2.025, 'debtToEquity': 18.489, 'earningsGrowth': -0.709, 'ebitda': 13027000320, 'ebitdaMargins': 0.13335, 'financialCurrency': 'USD', 'freeCashflow': -826875008, 'grossMargins': 0.17863001, 'grossProfits': 17450000384, 'maxAge': 86400, 'numberOfAnalystOpinions': 42, 'operatingCashflow': 14922999808, 'operatingMargins': 0.06158, 'profitMargins': 0.07259, 'quickRatio': 1.427, 'recommendationKey': 'hold', 'recommendationMean': 2.60417, 'returnOnAssets': 0.04186, 'returnOnEquity': 0.1042, 'revenueGrowth': 0.021, 'revenuePerShare': 30.557, 'targetHighPrice': 465.7, 'targetLowPrice': 120.0, 'targetMeanPrice': 303.6064, 'targetMedianPrice': 302.5, 'totalCash': 36563001344, 'totalCashPerShare': 11.367, 'totalDebt': 13623000064, 'totalRevenue': 97690001408}}"
+    },
+    "{'symbol': 'AAPL', 'region': 'US'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'symbol': 'INTC', 'region': 'US'}": {
+        "error": "",
+        "response": "{'INTC': {'currentPrice': 20.48, 'currentRatio': 1.31, 'debtToEquity': 47.129, 'ebitda': 8114999808, 'ebitdaMargins': 0.15299, 'financialCurrency': 'USD', 'freeCashflow': -7000750080, 'grossMargins': 0.33122003, 'grossProfits': 17568999424, 'maxAge': 86400, 'numberOfAnalystOpinions': 35, 'operatingCashflow': 10323999744, 'operatingMargins': -0.00245, 'profitMargins': -0.36189, 'quickRatio': 0.749, 'recommendationKey': 'hold', 'recommendationMean': 3.04444, 'returnOnAssets': -0.01092, 'returnOnEquity': -0.18127, 'revenueGrowth': -0.004, 'revenuePerShare': 12.321, 'targetHighPrice': 28.3, 'targetLowPrice': 14.0, 'targetMeanPrice': 21.29, 'targetMedianPrice': 21.0, 'totalCash': 21048000512, 'totalCashPerShare': 4.825, 'totalDebt': 50150998016, 'totalRevenue': 53043998720}}"
+    },
+    "{'symbol': 'AMD', 'region': 'US'}": {
+        "error": "",
+        "response": "{'AMD': {'currentPrice': 121.73, 'currentRatio': 2.803, 'debtToEquity': 8.174, 'earningsGrowth': 5.252, 'ebitda': 5878000128, 'ebitdaMargins': 0.21181999, 'financialCurrency': 'USD', 'freeCashflow': 3355624960, 'grossMargins': 0.53578, 'grossProfits': 14867999744, 'maxAge': 86400, 'numberOfAnalystOpinions': 43, 'operatingCashflow': 3459000064, 'operatingMargins': 0.10836001, 'profitMargins': 0.080249995, 'quickRatio': 1.765, 'recommendationKey': 'buy', 'recommendationMean': 1.84, 'returnOnAssets': 0.0256, 'returnOnEquity': 0.03904, 'revenueGrowth': 0.359, 'revenuePerShare': 17.122, 'targetHighPrice': 200.0, 'targetLowPrice': 95.0, 'targetMeanPrice': 128.75629, 'targetMedianPrice': 125.0, 'totalCash': 7310000128, 'totalCashPerShare': 4.508, 'totalDebt': 4730999808, 'totalRevenue': 27750000640}}"
+    },
+    "{'symbol': 'NVDA', 'region': 'US'}": {
+        "error": "",
+        "response": "{'NVDA': {'currentPrice': 142.63, 'currentRatio': 3.388, 'debtToEquity': 12.267, 'earningsGrowth': 0.267, 'ebitda': 88247001088, 'ebitdaMargins': 0.59419996, 'financialCurrency': 'USD', 'freeCashflow': 55443001344, 'grossMargins': 0.70107, 'grossProfits': 104120000512, 'maxAge': 86400, 'numberOfAnalystOpinions': 55, 'operatingCashflow': 76158001152, 'operatingMargins': 0.49108002, 'profitMargins': 0.51694, 'quickRatio': 2.857, 'recommendationKey': 'strong_buy', 'recommendationMean': 1.4375, 'returnOnAssets': 0.53244996, 'returnOnEquity': 1.15463, 'revenueGrowth': 0.692, 'revenuePerShare': 6.059, 'targetHighPrice': 220.0, 'targetLowPrice': 100.0, 'targetMeanPrice': 172.02219, 'targetMedianPrice': 175.0, 'totalCash': 53690998784, 'totalCashPerShare': 2.2, 'totalDebt': 10284999680, 'totalRevenue': 148514996224}}"
+    },
+    "{'symbol': 'AMZN'}": {
+        "error": "",
+        "response": "{'AMZN': {'currentPrice': 217.61, 'currentRatio': 1.048, 'debtToEquity': 51.641, 'earningsGrowth': 0.622, 'ebitda': 126144004096, 'ebitdaMargins': 0.19397, 'financialCurrency': 'USD', 'freeCashflow': 39273500672, 'grossMargins': 0.49158, 'grossProfits': 319681986560, 'maxAge': 86400, 'numberOfAnalystOpinions': 65, 'operatingCashflow': 113903001600, 'operatingMargins': 0.11823, 'profitMargins': 0.1014, 'quickRatio': 0.807, 'recommendationKey': 'strong_buy', 'recommendationMean': 1.38571, 'returnOnAssets': 0.07632, 'returnOnEquity': 0.2524, 'revenueGrowth': 0.086, 'revenuePerShare': 61.785, 'targetHighPrice': 305.0, 'targetLowPrice': 195.0, 'targetMeanPrice': 239.21861, 'targetMedianPrice': 240.0, 'totalCash': 94564999168, 'totalCashPerShare': 8.907, 'totalDebt': 157952999424, 'totalRevenue': 650313007104}}"
+    },
+    "{'region': 'US', 'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'AAPL': {'currentPrice': 223.19, 'currentRatio': 0.923, 'debtToEquity': 145.0, 'earningsGrowth': 0.101, 'ebitda': 137352003584, 'ebitdaMargins': 0.34706002, 'financialCurrency': 'USD', 'freeCashflow': 93833871360, 'grossMargins': 0.46519002, 'grossProfits': 184102993920, 'maxAge': 86400, 'numberOfAnalystOpinions': 39, 'operatingCashflow': 108293996544, 'operatingMargins': 0.34459, 'profitMargins': 0.24295, 'quickRatio': 0.783, 'recommendationKey': 'buy', 'recommendationMean': 2.02222, 'returnOnAssets': 0.22518998, 'returnOnEquity': 1.3652, 'revenueGrowth': 0.04, 'revenuePerShare': 25.974, 'targetHighPrice': 325.0, 'targetLowPrice': 197.0, 'targetMeanPrice': 252.59052, 'targetMedianPrice': 255.0, 'totalCash': 53774999552, 'totalCashPerShare': 3.58, 'totalDebt': 96798998528, 'totalRevenue': 395760009216}}"
+    },
+    "{'symbol': 'TSLA', 'region': 'US'}": {
+        "error": "",
+        "response": "{'TSLA': {'currentPrice': 248.71, 'currentRatio': 2.025, 'debtToEquity': 18.489, 'earningsGrowth': -0.709, 'ebitda': 13027000320, 'ebitdaMargins': 0.13335, 'financialCurrency': 'USD', 'freeCashflow': -826875008, 'grossMargins': 0.17863001, 'grossProfits': 17450000384, 'maxAge': 86400, 'numberOfAnalystOpinions': 42, 'operatingCashflow': 14922999808, 'operatingMargins': 0.06158, 'profitMargins': 0.07259, 'quickRatio': 1.427, 'recommendationKey': 'hold', 'recommendationMean': 2.60417, 'returnOnAssets': 0.04186, 'returnOnEquity': 0.1042, 'revenueGrowth': 0.021, 'revenuePerShare': 30.557, 'targetHighPrice': 550.0, 'targetLowPrice': 120.0, 'targetMeanPrice': 338.5826, 'targetMedianPrice': 371.5, 'totalCash': 36563001344, 'totalCashPerShare': 11.367, 'totalDebt': 13623000064, 'totalRevenue': 97690001408}}"
+    }
+}

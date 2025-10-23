@@ -1,0 +1,23 @@
+{
+    "name": "get_transaction_v2",
+    "description": "This is a sub-function API for tool chain49.\nTool description: Kickstart your next crypto project - extended trezor/blockbook API with 10+ blockchains available instantly and 50+ possible on request running on the finest hardware in Germany's best datacenters at Hetzner\n\nWebsocket only via api.chain49.com endpoint possible (RapidAPI does not support it yet)\nAPI description: Get transaction returns \"normalized\" data about transaction, which has the same general structure for all supported coins. It does not return coin specific fields (for example information about Zcash shielded addresses).\n\nA note about the blockTime field:\nfor already mined transaction (confirmations > 0), the field blockTime contains time of the block\nfor transactions in mempool (confirmations == 0), the field contains time when the running instance of Blockbook was first time notified about the transaction",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "blockchain": {
+                "type": "string",
+                "description": "The name of the blockchain to query.",
+                "default": "bitcoin"
+            },
+            "txid": {
+                "type": "string",
+                "description": "The transaction ID for the desired transaction.",
+                "default": "cd8ec77174e426070d0a50779232bba7312b712e2c6843d82d963d7076c61366"
+            }
+        },
+        "required": [
+            "blockchain",
+            "txid"
+        ]
+    }
+}

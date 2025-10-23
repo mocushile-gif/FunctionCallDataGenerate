@@ -1,0 +1,17 @@
+{
+    "name": "retrieving_a_collection",
+    "description": "This is a sub-function API for tool opensea_data_query.\nTool description: (Deprecated) Get opensea data without any api key\nAPI description: Used for retrieving more in-depth information about individual collections, including real time statistics like floor price.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "collection_slug": {
+                "type": "string",
+                "description": "The unique identifier for the collection on OpenSea.",
+                "default": "ongakucraft"
+            }
+        },
+        "required": [
+            "collection_slug"
+        ]
+    }
+}

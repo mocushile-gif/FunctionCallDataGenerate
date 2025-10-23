@@ -1,0 +1,22 @@
+{
+    "name": "update_level",
+    "description": "This is a sub-function API for tool riddlie.\nTool description: API that provides access to a collection of thousands of riddles (and growing). Fetch a random riddle or a riddle of the day. You can build a perfect app to entertain kids and families for dinner times. You can also pull riddles by their ID, difficulty level and keyword of your interest. API also collects feedback such as upvotes, and flags to fine-tune the library of riddles. I will constantly be adding more riddles to the API as I come across them. \nThe Basic plan is completely FREE with a ...\nAPI description: This endpoint enables you to update the level of the Riddle. All the riddles are set to a medium level which is enumerated as \"1\".  You can suggest the level of a riddle by simply calling this endpoint with query parameters \"0\", \"1\", or \"2\". \n\"0\" is Easy\n\"1\" is Medium \n\"2\" is Hard",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the riddle to be updated.",
+                "default": "63bdef027183b71946b64ee6"
+            },
+            "level": {
+                "type": "string",
+                "description": "The suggested difficulty level of the riddle. Can be \"0\" (Easy), \"1\" (Medium), or \"2\" (Hard). Defaults to \"1\".",
+                "default": "1"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

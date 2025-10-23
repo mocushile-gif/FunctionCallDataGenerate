@@ -1,0 +1,17 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{\"status\":false,\"message\":\"Please provide full path image url\"}"
+    },
+    "{'url': 'full_path_image_url'}": {
+        "error": "",
+        "response": {
+            "status": false,
+            "message": "Please provide full path image url"
+        }
+    },
+    "{'url': 'https://covers.example.com/es/9780451526269.jpg'}": {
+        "error": "",
+        "response": ""
+    }
+}

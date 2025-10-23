@@ -1,0 +1,29 @@
+{
+    "name": "get_draw_result",
+    "description": "This is a sub-function API for tool lotto_draw_results_global.\nTool description: Up to 65 countries lotto draw results available.\nAPI description: Retrieve the draw result for a specified game in a given region and on a specific date.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "game": {
+                "type": "string",
+                "description": "The name of the game for which to retrieve the draw result. Use the **Game List** method to get available games by country in JSON format.",
+                "default": "lotto"
+            },
+            "date": {
+                "type": "string",
+                "description": "The date of the draw result to retrieve, formatted as 'YYYY-MM-DD'.",
+                "default": "2023-01-01"
+            },
+            "region": {
+                "type": "string",
+                "description": "The region or country for which to retrieve the draw result. Use the **Region List** method to get available regions in JSON format.",
+                "default": "us"
+            }
+        },
+        "required": [
+            "game",
+            "date",
+            "region"
+        ]
+    }
+}

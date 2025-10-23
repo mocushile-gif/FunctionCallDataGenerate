@@ -1,0 +1,10 @@
+{
+    "{'productid': 'B07GR5MSKD'}": {
+        "error": "",
+        "response": "The API fetches offers for the specified product from Amazon. For the product with ID 'B07GR5MSKD', the response would include details such as available discounts, promotions, bundle offers, and pricing variations from different sellers. This information helps users compare deals and make informed purchasing decisions. Ensure the product ID is valid to retrieve accurate offer data."
+    },
+    "{'productid': 'B00K3OM3PS'}": {
+        "error": "",
+        "response": "{'item': {'name': 'Coffret int\u00e9grale harry potter [Blu-ray]', 'subtitle': '', 'author': '', 'brand': '', 'product_information': {}, 'listings_link': 'https://www.amazon.com/gp/aod/ajax/ref=tmm_pap_used_aod_0?filters=%257B%2522all%2522%253Atrue%252C%2522usedLikeNew%2522%253Atrue%252C%2522usedVeryGood%2522%253Atrue%252C%2522usedGood%2522%253Atrue%257D&condition=used&asin=B00K3OM3PS&pc=dp;', 'image': '', 'average_rating': 4.7, 'total_reviews': 6421}, 'listings': [{'price_with_currency': '', 'price': None, 'shipping_price': None, 'has_prime_shipping': False, 'ships_from': '7th ART', 'sold_by': '7th ART', 'fullfilled_by_amazon': False}], 'pagination': []}"
+    }
+}

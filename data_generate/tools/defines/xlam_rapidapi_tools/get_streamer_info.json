@@ -1,0 +1,17 @@
+{
+    "name": "get_streamer_info",
+    "description": "This is a sub-function API for tool twitch_api.\nTool description: Detailed API for twitch. Stream data, streamer data, chat data, streamer cards data etc.\nfor twitch.\nAPI description: Retrieves information about a Twitch streamer using the provided channel name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "channel": {
+                "type": "string",
+                "description": "The name of the Twitch channel for which information is being retrieved.",
+                "default": "xqc"
+            }
+        },
+        "required": [
+            "channel"
+        ]
+    }
+}

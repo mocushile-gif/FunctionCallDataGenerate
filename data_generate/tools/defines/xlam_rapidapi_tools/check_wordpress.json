@@ -1,0 +1,21 @@
+{
+    "name": "check_wordpress",
+    "description": "This is a sub-function API for tool wordpress_checker.\nTool description: RESTful API that allows you to check if a website is based on WordPress and returns the version of WordPress if it is\nAPI description: Checks whether the specified URL is running WordPress using the provided User-Agent and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_agent": {
+                "type": "string",
+                "description": "The User-Agent string to include in the request headers."
+            },
+            "url": {
+                "type": "string",
+                "description": "The URL of the website to check for WordPress."
+            }
+        },
+        "required": [
+            "user_agent",
+            "url"
+        ]
+    }
+}

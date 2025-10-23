@@ -1,0 +1,42 @@
+{
+    "{'countryid': 'US', 'languagecode': 'en'}": {
+        "error": "",
+        "response": "{'data': {'capital': 'Washington, D.C.', 'code': 'US', 'callingCode': '+1', 'currencyCodes': ['USD'], 'flagImageUri': 'http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States.svg', 'name': 'United States of America', 'numRegions': 57, 'wikiDataId': 'Q30'}}"
+    },
+    "{'countryid': 'CN'}": {
+        "error": "",
+        "response": "{'data': {'capital': 'Beijing', 'code': 'CN', 'callingCode': '+86', 'currencyCodes': ['CNY'], 'flagImageUri': 'http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20People%27s%20Republic%20of%20China.svg', 'name': \"People's Republic of China\", 'numRegions': 32, 'wikiDataId': 'Q148'}}"
+    },
+    "{'countryid': 'DE', 'languagecode': 'de'}": {
+        "error": "",
+        "response": "{'data': {'capital': 'Berlin', 'code': 'DE', 'callingCode': '+49', 'currencyCodes': ['EUR'], 'flagImageUri': 'http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Germany.svg', 'name': 'Deutschland', 'numRegions': 16, 'wikiDataId': 'Q183'}}"
+    },
+    "{'countryid': 'FR', 'languagecode': 'es'}": {
+        "error": "",
+        "response": "{'data': {'capital': 'Par\u00eds', 'code': 'FR', 'callingCode': '+33', 'currencyCodes': ['EUR'], 'flagImageUri': 'http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20France%20%281958%E2%80%931976%29.svg', 'name': 'Francia', 'numRegions': 37, 'wikiDataId': 'Q142'}}"
+    },
+    "{'countryid': 'US'}": {
+        "error": "",
+        "response": "{'data': {'capital': 'Washington, D.C.', 'code': 'US', 'callingCode': '+1', 'currencyCodes': ['USD'], 'flagImageUri': 'http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States.svg', 'name': 'United States of America', 'numRegions': 57, 'wikiDataId': 'Q30'}}"
+    },
+    "{'countryid': 'US', 'asciimode': True, 'languagecode': 'es'}": {
+        "error": "",
+        "response": "{'data': {'capital': 'Washington D. C.', 'code': 'US', 'callingCode': '+1', 'currencyCodes': ['USD'], 'flagImageUri': 'http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States.svg', 'name': 'Estados Unidos', 'numRegions': 57, 'wikiDataId': 'Q30'}}"
+    },
+    "{'countryid': 'CA', 'asciimode': True, 'languagecode': 'fr'}": {
+        "error": "",
+        "response": "{'data': {'capital': 'Ottawa', 'code': 'CA', 'callingCode': '+1', 'currencyCodes': ['CAD'], 'flagImageUri': 'http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canada%20%28Pantone%29.svg', 'name': 'Canada', 'numRegions': 13, 'wikiDataId': 'Q16'}}"
+    },
+    "{'countryid': 'ES'}": {
+        "error": "",
+        "response": "{'data': {'capital': 'Madrid', 'code': 'ES', 'callingCode': '+34', 'currencyCodes': ['EUR'], 'flagImageUri': 'http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Spain.svg', 'name': 'Spain', 'numRegions': 19, 'wikiDataId': 'Q29'}}"
+    },
+    "{'countryid': 'DE'}": {
+        "error": "",
+        "response": "{'data': {'capital': 'Berlin', 'code': 'DE', 'callingCode': '+49', 'currencyCodes': ['EUR'], 'flagImageUri': 'http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Germany.svg', 'name': 'Germany', 'numRegions': 16, 'wikiDataId': 'Q183'}}"
+    },
+    "{'countryid': 'CA', 'languagecode': 'fr'}": {
+        "error": "",
+        "response": "{'data': {'capital': 'Ottawa', 'code': 'CA', 'callingCode': '+1', 'currencyCodes': ['CAD'], 'flagImageUri': 'http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canada%20%28Pantone%29.svg', 'name': 'Canada', 'numRegions': 13, 'wikiDataId': 'Q16'}}"
+    }
+}

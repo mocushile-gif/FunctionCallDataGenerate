@@ -1,0 +1,27 @@
+{
+    "name": "company_balance_sheet",
+    "description": "This is a sub-function API for tool real_time_finance_data.\nTool description: Get stocks / market quotes and trends, ETF, international exchanges / forex, crypto,  related news and analytics in real-time.\nAPI description: Get public company's **quarterly** or **annual** balance sheet. Supports the *stock* type only.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "period": {
+                "type": "string",
+                "description": "Period for which to get company's balance sheet.\n\n**Periods**: *QUARTERLY*, *ANNUAL*."
+            },
+            "symbol": {
+                "type": "string",
+                "description": "Stock symbol (ticker).\n\n**e.g.** *`MSFT:NASDAQ`*\n**e.g.** *`MSFT`*\n**e.g.** *`AAPL`*",
+                "default": "AAPL:NASDAQ"
+            },
+            "language": {
+                "type": "string",
+                "description": "The language to use for the results, specified as a 2-letter language code - see [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).\n\n**Default**: *en*.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "period",
+            "symbol"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "getmusiclenses",
+    "description": "This is a sub-function API for tool snapchat.\nTool description: Snapchat API\nAPI description: Fetches music lenses from the Snapchat API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cursor": {
+                "type": "string",
+                "description": "A string to navigate through paginated results. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

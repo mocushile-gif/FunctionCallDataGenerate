@@ -1,0 +1,17 @@
+{
+    "name": "peer_metrics_average",
+    "description": "This is a sub-function API for tool marketci_analytics.\nTool description: Stock Market Endpoint for Price Forecasts, Probability, Cash Flow Models , and Peer Comps \nAPI description: Fetches the average of company peer metrics for trailing twelve months (TTM) data via RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol of the company for which to retrieve peer metrics.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

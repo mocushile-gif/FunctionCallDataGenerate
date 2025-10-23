@@ -1,0 +1,35 @@
+{
+    "name": "chapters_list_paginated",
+    "description": "This is a sub-function API for tool manga_scrapper.\nTool description: Get webtoon / comic data from favourite scanlation websites.\nAPI description: Make request to fetch chapter collection for a specific webtoon from a specific provider.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "provider": {
+                "type": "string",
+                "description": "The slug identifying the webtoon provider. Refer to /providers for the list of providers.",
+                "default": "cosmic"
+            },
+            "webtoon": {
+                "type": "string",
+                "description": "The slug identifying the webtoon. Refer to /webtoons for the list of webtoons.",
+                "default": "eleceed"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of results to return per page, between 1 and 20.",
+                "default": 10.0
+            },
+            "page": {
+                "type": "number",
+                "description": "Specify the page to fetch.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "provider",
+            "webtoon",
+            "limit",
+            "page"
+        ]
+    }
+}

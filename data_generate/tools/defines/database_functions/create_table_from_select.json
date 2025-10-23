@@ -1,0 +1,23 @@
+{
+    "name": "create_table_from_select",
+    "description": "Create a new table in existing database from a SQL SELECT query.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file (e.g. '/path/to/my.db')"
+        },
+        "table_name": {
+          "type": "string",
+          "description": "Name of the new table to be created."
+        },
+        "sql_query": {
+          "type": "string",
+          "description": "A valid SQL SELECT query to generate data for the new table."
+        }
+      },
+      "required": ["database_path", "table_name", "sql_query"]
+    }
+  }
+  

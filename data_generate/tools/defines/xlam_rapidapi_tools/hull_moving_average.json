@@ -1,0 +1,50 @@
+{
+    "name": "hull_moving_average",
+    "description": "This is a sub-function API for tool qvantana.\nTool description: Our free API provides real-time and historical crypto trading data from 4 major exchanges, enriched with over 30 customizable trading indicators. It offers up to 5000 rows of data in a single request, ensuring comprehensive market analysis. The API is user-friendly and offers improved data fetching capabilities compared to standard exchange documentation, making it an essential tool for traders and developers alike.\nAPI description: Calculates the Hull Moving Average (HMA) indicator for a given cryptocurrency market symbol using the Qvantana API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "exchange": {
+                "type": "string",
+                "description": "Name of the cryptocurrency exchange (e.g., 'binance').",
+                "default": "binance"
+            },
+            "market": {
+                "type": "string",
+                "description": "Available markets are:\n\nspot\nusdt-perpetual\ninverse-perpetual",
+                "default": "spot"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "Trading symbol of the cryptocurrency (e.g., 'BTCUSD').",
+                "default": "btcusdt"
+            },
+            "interval": {
+                "type": "string",
+                "description": "Time interval for the HMA calculation (e.g., '1d', '1h').",
+                "default": "1m"
+            },
+            "is_from": {
+                "type": "string",
+                "description": "Start time for fetching data in UNIX timestamp format, default is '1683895800'.",
+                "default": "1683895800"
+            },
+            "backtracks": {
+                "type": "number",
+                "description": "Number of periods to look back, default is 1.",
+                "default": 1.0
+            },
+            "length": {
+                "type": "number",
+                "description": "Length of the HMA, default is 9.",
+                "default": 9.0
+            }
+        },
+        "required": [
+            "exchange",
+            "market",
+            "symbol",
+            "interval"
+        ]
+    }
+}

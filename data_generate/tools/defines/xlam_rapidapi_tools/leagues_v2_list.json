@@ -1,0 +1,17 @@
+{
+    "name": "leagues_v2_list",
+    "description": "This is a sub-function API for tool livescore_v2.\nTool description: This API helps to query for football, cricket, basketball, tennis, hockey matches, leagues, news, etc... to create a sporting site/application such as livescore.com\nAPI description: List all leagues by category (football, cricket, basketball, tennis, hockey)\n* Base for Img field is https://lsm-static-prod.livescore.com/medium . Ex : https://lsm-static-prod.livescore.com/medium/enet/9906.png",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "Category of the sport. One of the following: soccer, cricket, basketball, tennis, hockey.",
+                "default": "soccer"
+            }
+        },
+        "required": [
+            "category"
+        ]
+    }
+}

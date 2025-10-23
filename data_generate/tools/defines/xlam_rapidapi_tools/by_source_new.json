@@ -1,0 +1,17 @@
+{
+    "name": "by_source_new",
+    "description": "This is a sub-function API for tool moka_news.\nTool description: A scrapper / scraper API to get latest news every minute from more than 30 sources all over the world as a start ( sources will be increased with time to be hundreds of different sources of live news )  \nAPI description: Use this endpoint to get the recent 50 news items from a specific source from Sources list",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "source": {
+                "type": "string",
+                "description": "The news source from which to retrieve the news items, taken from the available sources list.",
+                "default": "cnn"
+            }
+        },
+        "required": [
+            "source"
+        ]
+    }
+}

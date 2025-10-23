@@ -1,0 +1,16 @@
+{
+    "name": "get_a_specific_remote_job_by_id",
+    "description": "This is a sub-function API for tool remote_jobs_api.\nTool description: Get a list of remote jobs from different resources: weworkremotely, remoteok, GitHub, StackOverflow, Twitch, Mailchimp, Figma...\nAPI description: Using the id of the job returned from /jobs route, get more details about a specific job",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the job to fetch details for."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

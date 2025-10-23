@@ -1,0 +1,22 @@
+{
+    "name": "reviews_list_best",
+    "description": "This is a sub-function API for tool the_fork_the_spoon.\nTool description: This API helps to query the best restaurant and meal around the world to create a traveling site/application such as thefork.com\nAPI description: Fetches the best reviews for a specific restaurant from the API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "id_restaurant": {
+                "type": "number",
+                "description": "The value of data/id field returned in …/restaurants/v2/list endpoint",
+                "default": 522995.0
+            },
+            "locale": {
+                "type": "string",
+                "description": "The language code for the reviews. Defaults to 'en_US'.",
+                "default": "en_US"
+            }
+        },
+        "required": [
+            "id_restaurant"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "timezone_for_location",
+    "description": "This is a sub-function API for tool world_time.\nTool description: WorldTimeAPI is a simple web service which returns the local-time for a given timezone as either JSON or plain-text. Some additional information is provided, such as whether that timezone is currently in Daylight Savings Time, when DST starts and ends, the UTC offset, etc.\nAPI description: Fetch the current time for a given location and area using the World Time API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The specific location for which to fetch the time (e.g., \"London\").",
+                "default": "London"
+            },
+            "area": {
+                "type": "string",
+                "description": "The larger area or region that the location falls within (e.g., \"Europe\").",
+                "default": "Europe"
+            }
+        },
+        "required": [
+            "location",
+            "area"
+        ]
+    }
+}

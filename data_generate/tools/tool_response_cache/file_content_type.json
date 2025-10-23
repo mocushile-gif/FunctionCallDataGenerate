@@ -1,0 +1,42 @@
+{
+    "{'source': 'https://company-images.example.com/a1b2c3d4-e5f6-7890-ghij-klmnopqrstuv/logo.png'}": {
+        "error": "",
+        "response": "{'source': 'http://google.com', 'mime_type': 'text/html', 'timestamp': '2025-06-01T14:30:51.392126', 'request_id': '9fe6dc0a-bbe0-43b2-b222-c7161e3b47e9'}"
+    },
+    "{'source': 'http://example.com/media/user_uploads/user_profile_photo_20231005_1430.jpg'}": {
+        "error": "",
+        "response": "{'source': 'http://google.com', 'mime_type': 'text/html', 'timestamp': '2025-06-02T08:23:54.980975', 'request_id': 'd61f6747-a93c-45ac-9281-266795a01540'}"
+    },
+    "{'source': 'http://example.com/media/user_uploads/user_profile_photo_20231005_1430.jpg?api_key=DEV_098f6bcd4621d373cade4e832627b4f6&timestamp=1696531800'}": {
+        "error": "",
+        "response": "{'source': 'http://google.com', 'mime_type': 'text/html', 'timestamp': '2025-06-02T08:29:26.839739', 'request_id': '92aee17c-8ba3-49d3-8ce9-d6a261621463'}"
+    },
+    "{'source': 'https://businessdocs.com/annual_report.pdf'}": {
+        "error": "",
+        "response": "{'source': 'http://google.com', 'mime_type': 'text/html', 'timestamp': '2025-06-02T10:35:10.199717', 'request_id': '4d168ff9-a06c-4c4e-8209-0a4c72e99670'}"
+    },
+    "{'source': 'https://example.com/data/report.pdf', 'cache_key': 'c7b920f57e553df2bb68272f61570210'}": {
+        "error": "",
+        "response": "{'source': 'http://google.com', 'mime_type': 'text/html', 'timestamp': '2025-06-10T06:50:35.031503', 'request_id': 'f0ed3bc0-43b4-4c43-8e62-097ac3245077'}"
+    },
+    "{'source': './excel_data/Global Superstore Orders 2016.xlsx'}": {
+        "error": "",
+        "response": "{'source': 'http://google.com', 'mime_type': 'text/html', 'timestamp': '2025-06-10T11:24:00.767818', 'request_id': '2b6bb4e2-9ce9-41a0-81d9-f2c1b403cc0f'}"
+    },
+    "{'source': './excel_data/Global Superstore Orders 2016.xlsx', 'cache_key': 'retry_cache_key_1'}": {
+        "error": "",
+        "response": "{'source': 'http://google.com', 'mime_type': 'text/html', 'timestamp': '2025-06-10T11:24:16.088242', 'request_id': '5738c853-503c-4248-a633-66fa52e25430'}"
+    },
+    "{'source': 'https://www.theguardian.com/environment/2023/10/25/climate-crisis-escalates-global-action-needed'}": {
+        "error": "",
+        "response": "{'source': 'http://google.com', 'mime_type': 'text/html', 'timestamp': '2025-06-11T05:28:50.606956', 'request_id': '9eb717d0-c3f7-436b-8809-6055ee34616c'}"
+    },
+    "{'source': 'https://www.theguardian.com/environment/2023/jul/09/meterologists-harassment-climate-crisis'}": {
+        "error": "",
+        "response": "{'source': 'http://google.com', 'mime_type': 'text/html', 'timestamp': '2025-06-11T05:31:04.887025', 'request_id': 'bdd9a48a-47cb-4e5d-8135-d892a5af9da6'}"
+    },
+    "{'source': './txt_data/Donald Trump Rally Speeches/BattleCreekDec19_2019.txt'}": {
+        "error": "",
+        "response": "{'source': 'http://google.com', 'mime_type': 'text/html', 'timestamp': '2025-06-14T21:22:09.947425', 'request_id': '355bcb24-5e18-4a9a-b49e-03ddb9ca74fe'}"
+    }
+}

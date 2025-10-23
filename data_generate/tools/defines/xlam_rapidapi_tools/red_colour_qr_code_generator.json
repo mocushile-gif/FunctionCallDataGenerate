@@ -1,0 +1,15 @@
+{
+    "name": "red_colour_qr_code_generator",
+    "description": "This is a sub-function API for tool image_qr_code_generator.\nTool description: This API generates Image QR codes\nAPI description: Generates a red-colored QR code for the given URL using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL to encode in the QR code. Defaults to 'grayhat.in'.",
+                "default": "grayhat.in"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "calculate_drawing_probability",
+    "description": "Calculates the probability of drawing at least a specified number of satisfying items from a given total using the Hypergeometric Probability Distribution.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "total_items": {
+          "type": "integer",
+          "description": "The total number of items in the pool."
+        },
+        "satisfying_items": {
+          "type": "integer",
+          "description": "The number of items that meet the desired condition (e.g., special items, correct choices)."
+        },
+        "drawn_items": {
+          "type": "integer",
+          "description": "The number of items drawn from the pool."
+        },
+        "expect_items": {
+          "type": "integer",
+          "description": "The minimum number of satisfying items required in the draw."
+        }
+      },
+      "required": ["total_items", "satisfying_items", "drawn_items", "expect_items"]
+    }
+  }
+  

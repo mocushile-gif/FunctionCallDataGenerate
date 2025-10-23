@@ -1,0 +1,17 @@
+{
+    "name": "swap_id",
+    "description": "This is a sub-function API for tool uniswap_v2_api.\nTool description: REST API of Uniswap V2\nAPI description: Fetch the information of a Swap from the given Swap ID using the Uniswap V2 API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the Swap to fetch information for.",
+                "default": "0xd259f882f051c3ef49a6f79e0a634be47ff643513c418ca753c93dcca8d4d675-0"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "name": "cities_search",
+    "description": "This is a sub-function API for tool city_and_state_search_api.\nTool description: A easy-to-use API for search cities, states, and countries from around the world.\nAPI description: This endpoint allows you to search for specific cities by name. It returns a list of cities that match the specified search query.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The query string to search for cities by name.",
+                "default": "kan"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of the search results."
+            },
+            "country_code": {
+                "type": "string",
+                "description": "The country code to filter the search results."
+            },
+            "sortorder": {
+                "type": "string",
+                "description": "The order in which to sort the search results."
+            },
+            "sortby": {
+                "type": "string",
+                "description": "The attribute to sort the search results by."
+            },
+            "country_name": {
+                "type": "string",
+                "description": "The name of the country to filter the search results."
+            },
+            "country_id": {
+                "type": "number",
+                "description": "The ID of the country to filter the search results."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of search results to return."
+            },
+            "state_code": {
+                "type": "string",
+                "description": "The state code to filter the search results."
+            },
+            "state_id": {
+                "type": "number",
+                "description": "The ID of the state to filter the search results."
+            },
+            "state_name": {
+                "type": "string",
+                "description": "The name of the state to filter the search results."
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "stories_list",
+    "description": "This is a sub-function API for tool bb_finance.\nTool description: This API helps to query for all information about finance summary, stocks, quotes, movers, etc… to create a financial site/application such as bloomberg.com\nAPI description: Retrieves a list of stories related to a specific sticker using the BB Finance API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "template": {
+                "type": "string",
+                "description": "The category of the sticker, which can be one of the following: COMMODITY, CURRENCY, INDEX, INDEXFUTURE, RATE, or STOCK.",
+                "default": "CURRENCY"
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The value of the 'id' field returned by the /market/auto-complete endpoint.",
+                "default": "usdjpy"
+            }
+        },
+        "required": [
+            "template",
+            "is_id"
+        ]
+    }
+}

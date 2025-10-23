@@ -1,0 +1,17 @@
+{
+    "name": "products_search_by_barcode",
+    "description": "This is a sub-function API for tool kohls.\nTool description: Get online shopping deals, discounts and rewards from fashion to beauty, home furniture, clothing, shoes, electronics and more...\nAPI description: Search for a product in the Kohl's database using its UPC barcode.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "upc": {
+                "type": "string",
+                "description": "The Universal Product Code of the product to be searched.",
+                "default": "194574942221"
+            }
+        },
+        "required": [
+            "upc"
+        ]
+    }
+}

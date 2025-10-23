@@ -1,0 +1,22 @@
+{
+    "name": "compress_files_to_zip",
+    "description": "Compress multiple files into a ZIP archive.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_paths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "A list of absolute file paths to be compressed into a ZIP archive."
+        },
+        "zip_name": {
+          "type": "string",
+          "description": "The name of the ZIP file to create, including the .zip extension."
+        }
+      },
+      "required": ["file_paths", "zip_name"]
+    }
+  }
+  

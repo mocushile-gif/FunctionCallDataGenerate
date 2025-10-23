@@ -1,0 +1,25 @@
+{
+    "name": "web_search_api",
+    "description": "This is a sub-function API for tool bing_search_apis.\nTool description: An AI service from Microsoft Azure that enables secure, ad-free location search for your users, displaying relevant information from web results, images, local businesses, news and images Photo.\nAPI description: Performs a web search using the Bing search engine API, and returns the search data and suggested keywords.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "size": {
+                "type": "string",
+                "description": "The number of search results to return. Defaults to '30'.",
+                "default": "30"
+            },
+            "keyword": {
+                "type": "string",
+                "description": "The search query keyword. Defaults to 'how-to-use-excel-for-free'.",
+                "default": "how-to-use-excel-for-free"
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number of the search results to retrieve. Defaults to '0'.",
+                "default": "0"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "loginuser",
+    "description": "This is a sub-function API for tool teste.\nTool description: teste\nAPI description: Logs in a user using the provided username and password, utilizing the Toolbench RapidAPI key for authorization.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "password": {
+                "type": "string",
+                "description": "The password for login in plain text."
+            },
+            "username": {
+                "type": "string",
+                "description": "The username for login."
+            }
+        },
+        "required": [
+            "password",
+            "username"
+        ]
+    }
+}

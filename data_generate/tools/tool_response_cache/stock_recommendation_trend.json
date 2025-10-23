@@ -1,0 +1,22 @@
+{
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'recommendationTrend': {'trend': [{'period': '0m', 'strongBuy': 11, 'buy': 21, 'hold': 6, 'sell': 0, 'strongSell': 0}, {'period': '-1m', 'strongBuy': 10, 'buy': 24, 'hold': 7, 'sell': 1, 'strongSell': 0}, {'period': '-2m', 'strongBuy': 10, 'buy': 24, 'hold': 7, 'sell': 1, 'strongSell': 0}, {'period': '-3m', 'strongBuy': 10, 'buy': 24, 'hold': 7, 'sell': 1, 'strongSell': 0}], 'maxAge': 86400}}"
+    },
+    "{'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'meta': {'version': 'v1.0', 'status': 200, 'copywrite': 'https://apicalls.io', 'symbol': 'TSLA', 'processedTime': '2024-12-02T16:23:53.710318Z', 'modules': 'recommendation-trend'}, 'body': {'trend': [{'period': '0m', 'strongBuy': 5, 'buy': 13, 'hold': 17, 'sell': 8, 'strongSell': 5}, {'period': '-1m', 'strongBuy': 5, 'buy': 13, 'hold': 17, 'sell': 8, 'strongSell': 5}, {'period': '-2m', 'strongBuy': 6, 'buy': 12, 'hold': 19, 'sell': 7, 'strongSell': 4}, {'period': '-3m', 'strongBuy': 5, 'buy': 13, 'hold': 18, 'sell': 7, 'strongSell': 4}], 'maxAge': 86400}}"
+    },
+    "{'symbol': 'STNT'}": {
+        "error": "",
+        "response": "{'meta': {'version': 'v1.0', 'status': 200, 'copywrite': 'https://apicalls.io', 'symbol': 'STNT', 'processedTime': '2025-06-01T08:09:02.514364Z', 'modules': 'recommendation-trend'}, 'body': {'trend': [], 'maxAge': 86400}}"
+    },
+    "{'symbol': 'MSFT'}": {
+        "error": "",
+        "response": "{'meta': {'version': 'v1.0', 'status': 200, 'copywrite': 'https://apicalls.io', 'symbol': 'MSFT', 'processedTime': '2024-09-13T22:37:07.736893Z', 'modules': 'recommendation-trend'}, 'body': {'trend': [{'period': '0m', 'strongBuy': 14, 'buy': 13, 'hold': 6, 'sell': 0, 'strongSell': 1}, {'period': '-1m', 'strongBuy': 21, 'buy': 34, 'hold': 2, 'sell': 0, 'strongSell': 0}, {'period': '-2m', 'strongBuy': 22, 'buy': 33, 'hold': 2, 'sell': 0, 'strongSell': 0}, {'period': '-3m', 'strongBuy': 20, 'buy': 27, 'hold': 6, 'sell': 0, 'strongSell': 0}], 'maxAge': 86400}}"
+    },
+    "{'symbol': 'AMZN'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    }
+}

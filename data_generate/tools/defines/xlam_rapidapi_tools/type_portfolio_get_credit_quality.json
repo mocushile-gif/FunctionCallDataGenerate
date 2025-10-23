@@ -1,0 +1,23 @@
+{
+    "name": "type_portfolio_get_credit_quality",
+    "description": "This is a sub-function API for tool ms_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc... to create a site/application such as morningstar.com\nAPI description: Retrieves the credit quality for a given security as displayed in the Portfolio tab using the Morningstar API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "securityid": {
+                "type": "string",
+                "description": "The security ID field value returned from the API endpoint .../market/v2/get-returns.",
+                "default": "F00000O2CG"
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of the security. Acceptable values are 'etf' or 'fund'.",
+                "default": "etf"
+            }
+        },
+        "required": [
+            "securityid",
+            "type"
+        ]
+    }
+}

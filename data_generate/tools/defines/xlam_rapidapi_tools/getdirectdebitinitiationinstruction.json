@@ -1,0 +1,17 @@
+{
+    "name": "getdirectdebitinitiationinstruction",
+    "description": "This is a sub-function API for tool transaction.\nTool description: Get transaction details\nAPI description: Use this operation to retrieve a direct debit initiation instruction by ID (UETR).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "uetr": {
+                "type": "string",
+                "description": "An RFC4122 UID used as a unique Payment Instruction Identifier.",
+                "default": "7dca010b-fc3b-496c-b8a4-36ffd78f674d"
+            }
+        },
+        "required": [
+            "uetr"
+        ]
+    }
+}

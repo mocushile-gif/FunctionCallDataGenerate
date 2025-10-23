@@ -1,0 +1,14 @@
+{
+    "name": "nitrous_endpoint",
+    "description": "This is a sub-function API for tool atmosphere_nitrous_oxide_levels.\nTool description: This API provides on a monthly basis, the amount of nitrous oxide in the atmosphere from 2001 to the present. Expressed as a mole fraction in dry air, parts per million (ppm).\nAPI description: Sends a GET request to the Nitrous Oxide API and returns the response data.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nitrous": {
+                "type": "string",
+                "description": "An optional query parameter to filter the results based on nitrous oxide levels."
+            }
+        },
+        "required": []
+    }
+}

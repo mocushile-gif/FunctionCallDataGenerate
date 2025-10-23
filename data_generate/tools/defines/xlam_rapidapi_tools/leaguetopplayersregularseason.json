@@ -1,0 +1,23 @@
+{
+    "name": "leaguetopplayersregularseason",
+    "description": "This is a sub-function API for tool basketapi.\nTool description: BasketAPI provides you with live basketball results, schedule and matches that are being played or was played in a date. With over 70 different basketball leagues, among which are college basketball league (NCAA Men and NCAA Women), NBA, Euroleague, A1, Serie A, Liga ACB, Eurocup, ABA Liga, NBB and many other, you can follow live scores, results, tables, statistics, fixtures, standings and previous results by quarters, halftime or final result. BasketAPI has everything you need!\nFor increased...\nAPI description: Get the top players of a specific basketball league's regular season using the tournament and season IDs.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "seasonid": {
+                "type": "number",
+                "description": "The ID of the season for which the top players in the regular season are to be retrieved.",
+                "default": 38191
+            },
+            "tournamentid": {
+                "type": "number",
+                "description": "The ID of the tournament for which the top players in the regular season are to be retrieved.",
+                "default": 132
+            }
+        },
+        "required": [
+            "seasonid",
+            "tournamentid"
+        ]
+    }
+}

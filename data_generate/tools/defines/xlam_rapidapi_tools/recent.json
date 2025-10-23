@@ -1,0 +1,24 @@
+{
+    "name": "recent",
+    "description": "This is a sub-function API for tool jailbase.\nTool description: JailBase provides mugshots and arrest information to the public for free. \r\n\r\nWe have an easy to use web api so your website or application can access our extensive county jail inmate data. Using the API, you can search for arrested and booked individuals in county jails. \r\n\r\nThe web service uses a REST interface to make calls and returns results in JSON (JSONP is also supported). Calls to the webservice do not require a developer key, however they are rate limited (see terms of use). If you have questions or comments, please contact us. \r\n\r\nUse our api to search for county jail mugshots today.\nAPI description: Fetches recent arrests from the specified source using the JailBase API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "source_id": {
+                "type": "string",
+                "description": "The ID of the specific organization to search. Use 'az-mcso' for testing. The full list of source IDs can be found at http://www.jailbase.com/api/#sources_list."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number to return, with only 10 records returned per page. Refer to total_records, current_page, and next_page values in the results for pagination details."
+            },
+            "json_callback": {
+                "type": "string",
+                "description": "If using JSONP, specify the function name here."
+            }
+        },
+        "required": [
+            "source_id"
+        ]
+    }
+}

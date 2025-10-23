@@ -1,0 +1,28 @@
+{
+    "name": "exchange",
+    "description": "This is a sub-function API for tool currency_v2.\nTool description: Find currency and bitcoin prices.\nAPI description: The currency converter service that converts the entered rate into the desired exchange rate.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "base": {
+                "type": "string",
+                "description": "The currency code to convert from (e.g., 'USD', 'EUR').",
+                "default": "USD"
+            },
+            "to": {
+                "type": "string",
+                "description": "The target currency code to convert to.",
+                "default": "EUR"
+            },
+            "int": {
+                "type": "string",
+                "description": "The amount of money to convert, default is '1'.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "base",
+            "to"
+        ]
+    }
+}

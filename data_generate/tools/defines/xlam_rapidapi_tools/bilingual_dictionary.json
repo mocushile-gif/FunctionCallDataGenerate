@@ -1,0 +1,29 @@
+{
+    "name": "bilingual_dictionary",
+    "description": "This is a sub-function API for tool webit_language.\nTool description: A.I. Text Paraphrase (Rewrite), Dictionary (Lookup, Examples, Bilingual, Synonyms, Antonyms), Key Phrases, Sentences Breaker.\nAPI description: Queries a powerful multi-language bilingual neural translation dictionary, supporting 80+ languages, to get translations.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The word or comma-separated words (up to 10 words per request) to seek bilingual translations for.",
+                "default": "merci, poisson, beaucoup"
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The ISO 639-1 language code of the source language. Supported languages include 'ar', 'az', 'be', 'bg', 'ca', 'ce', 'cs', 'cy', 'da', 'de', 'el', 'en', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fr', 'gl', 'he', 'hi', 'hr', 'hu', 'hy', 'id', 'it', 'ja', 'ka', 'kk', 'ko', 'la', 'lt', 'lv', 'mk', 'ms', 'nl', 'nn', 'no', 'pl', 'pt', 'ro', 'ru', 'sh', 'sk', 'sl', 'sr', 'sv', 'ta', 'tg', 'th', 'tr', 'tt', 'uk', 'ur', 'uz', 'vi', 'vo', 'zh'.",
+                "default": "fr"
+            },
+            "to": {
+                "type": "string",
+                "description": "Supported  ISO 639-1 language codes: 'ar', 'az', 'be', 'bg', 'ca', 'ce', 'cs', 'cy', 'da', 'de', 'el', 'en', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fr', 'gl', 'he', 'hi', 'hr', 'hu', 'hy', 'id', 'it', 'ja', 'ka', 'kk', 'ko', 'la', 'lt', 'lv', 'mk', 'ms', 'nl', 'nn', 'no', 'pl', 'pt', 'ro', 'ru', 'sh', 'sk', 'sl', 'sr', 'sv', 'ta', 'tg', 'th', 'tr', 'tt', 'uk', 'ur', 'uz', 'vi', 'vo', 'zh'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "q",
+            "is_from",
+            "to"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "downloadminecraftjar",
+    "description": "This is a sub-function API for tool minecraft_forge_optifine.\nTool description: This api is used to get version list and download for Minectaft, Forge and Optifine.\nAPI description: Downloads the Minecraft .jar file for a specified version.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "minecraftversion": {
+                "type": "string",
+                "description": "The version of Minecraft for which to download the .jar file."
+            }
+        },
+        "required": [
+            "minecraftversion"
+        ]
+    }
+}

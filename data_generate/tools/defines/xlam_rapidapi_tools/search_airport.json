@@ -1,0 +1,17 @@
+{
+    "name": "search_airport",
+    "description": "This is a sub-function API for tool skyscanner_v2.\nTool description: Skyscanner API allows users to search best flights and hotels with details and best price. This API has all needed by any developer to create a new application with some extended features.\nAPI description: This API endpoint is responsible for providing a list of Airports for the location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "Name of the location where the **Airport** is situated.",
+                "default": "london"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

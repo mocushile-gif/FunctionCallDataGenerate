@@ -1,0 +1,29 @@
+{
+    "name": "gera_vis_o_da_rua",
+    "description": "This is a sub-function API for tool consulta_cnpj_tempo_real.\nTool description: API Tempo Real de Consultas a Receita Federal, Simples Nacional e Cadastro de Contribuintes (SINTEGRA).\nAPI description: Generates a street view image for a given CNPJ using the Toolbench API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cnpj": {
+                "type": "string",
+                "description": "The CNPJ (Brazilian company identifier) for which the street view image is to be generated.",
+                "default": "37335118000180"
+            },
+            "fov": {
+                "type": "number",
+                "description": "The field of view for the street view image. Default is None."
+            },
+            "height": {
+                "type": "number",
+                "description": "The height of the street view image. Default is None."
+            },
+            "width": {
+                "type": "number",
+                "description": "The width of the street view image. Default is None."
+            }
+        },
+        "required": [
+            "cnpj"
+        ]
+    }
+}

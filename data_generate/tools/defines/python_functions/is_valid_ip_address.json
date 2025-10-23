@@ -1,0 +1,16 @@
+{
+    "name": "is_valid_ip_address",
+    "description": "Checks if a string is a valid IPv4 address.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The string to check for validity as an IPv4 address."
+            }
+        },
+        "required": [
+            "ip"
+        ]
+    }
+}

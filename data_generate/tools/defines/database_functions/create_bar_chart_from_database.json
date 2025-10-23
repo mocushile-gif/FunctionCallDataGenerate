@@ -1,0 +1,71 @@
+{
+    "name": "create_bar_chart_from_database",
+    "description": "Generate a bar chart from two columns of an SQLite database. Supports filtering, aggregation, and saving as image.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file."
+        },
+        "from_clause": {
+          "type": "string",
+          "description": "Table name or JOIN clause for the FROM part of SQL."
+        },
+        "x_column": {
+          "type": "string",
+          "description": "Column to use for x-axis (categorical)."
+        },
+        "y_column": {
+          "type": "string",
+          "description": "Column to use for y-axis (numeric values)."
+        },
+        "where_clause": {
+          "type": "string",
+          "description": "Optional WHERE clause without the 'WHERE' keyword."
+        },
+        "where_params": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Optional parameters to bind in the WHERE clause."
+        },
+        "agg_method": {
+          "type": "string",
+          "enum": ["sum", "mean", "count"],
+          "default": "sum",
+          "description": "Aggregation method to apply (sum, mean, count)."
+        },
+        "bar_color": {
+          "type": "string",
+          "default": "skyblue",
+          "description": "Color of the bars."
+        },
+        "title": {
+          "type": "string",
+          "default": "Bar Chart",
+          "description": "Title of the chart."
+        },
+        "xlabel": {
+          "type": "string",
+          "default": "X-axis",
+          "description": "Label for the x-axis."
+        },
+        "ylabel": {
+          "type": "string",
+          "default": "Y-axis",
+          "description": "Label for the y-axis."
+        },
+        "legend_label": {
+          "type": "string",
+          "description": "Optional legend label."
+        },
+        "save_path": {
+          "type": "string",
+          "default": "./bar_chart.png",
+          "description": "Path where the chart image will be saved."
+        }
+      },
+      "required": ["database_path", "from_clause", "x_column", "y_column"]
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "name": "get_all_servers",
+    "description": "This is a sub-function API for tool minecraft_servers_list.\nTool description: More than 1700 Minecraft Servers List with live status\nAPI description: Fetches a list of Minecraft servers with an optional limit on the number of servers returned.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "A string representing the maximum number of servers to return.",
+                "default": "2000"
+            }
+        },
+        "required": [
+            "limit"
+        ]
+    }
+}

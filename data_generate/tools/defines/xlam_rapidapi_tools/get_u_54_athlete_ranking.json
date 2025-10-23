@@ -1,0 +1,14 @@
+{
+    "name": "get_u_54_athlete_ranking",
+    "description": "This is a sub-function API for tool taekwondo_athlete_world_ranking.\nTool description: Taekwondo_Athlete_World_Ranking\nAPI description: Fetches the under-54 athlete ranking for Taekwondo from the provided RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The country to filter the athlete rankings. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

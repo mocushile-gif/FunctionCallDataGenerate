@@ -1,0 +1,22 @@
+{
+    "name": "songs_v2_get_details",
+    "description": "This is a sub-function API for tool shazam.\nTool description: Identify any song. Discover, artists, lyrics, videos & playlists to create a song detector site/application such as shazam.com\nAPI description: Gets detailed information about a specific song using the given song ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The value of 'songs->id' field returned from .../shazam-songs/get-details endpoint",
+                "default": "1217912247"
+            },
+            "l": {
+                "type": "string",
+                "description": "The language code for the response (default is 'en-US').",
+                "default": "en-US"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

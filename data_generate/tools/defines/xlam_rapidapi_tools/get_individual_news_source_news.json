@@ -1,0 +1,17 @@
+{
+    "name": "get_individual_news_source_news",
+    "description": "This is a sub-function API for tool climate_change_live_test.\nTool description: An API showing climate change news around the world\nAPI description: Fetches news articles related to climate change from a specific newspaper using the provided newspaper ID and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "newspaperid": {
+                "type": "string",
+                "description": "The unique identifier of the newspaper from which to retrieve news articles.",
+                "default": "nyt"
+            }
+        },
+        "required": [
+            "newspaperid"
+        ]
+    }
+}

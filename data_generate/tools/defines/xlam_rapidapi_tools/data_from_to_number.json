@@ -1,0 +1,29 @@
+{
+    "name": "data_from_to_number",
+    "description": "This is a sub-function API for tool unitconversion.\nTool description: App to easily convert units\nAPI description: Performs a data unit conversion from one unit to another using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "number": {
+                "type": "number",
+                "description": "The numerical value to be converted.",
+                "default": 1024.0
+            },
+            "to": {
+                "type": "string",
+                "description": "The unit to convert the number to.",
+                "default": "byte"
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The unit of the numerical value being converted from.",
+                "default": "bit"
+            }
+        },
+        "required": [
+            "number",
+            "to",
+            "is_from"
+        ]
+    }
+}

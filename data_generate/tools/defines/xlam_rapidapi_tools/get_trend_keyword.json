@@ -1,0 +1,20 @@
+{
+    "name": "get_trend_keyword",
+    "description": "This is a sub-function API for tool trends_keywords_in_different_regions.\nTool description: An API to access trend keywords from listed 50 regions, since 2023-05-18\nAPI description: This API provides the flexibility to filter trending keywords based on a particular date, ensuring that developers receive precise and relevant information. By specifying the date as '2023-05-16', developers can retrieve trending keywords specifically for that day, enabling them to analyze and incorporate the most recent trends into their applications.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve trending keywords. Defaults to '2023-05-18'.",
+                "default": "2023-05-18"
+            },
+            "geo": {
+                "type": "string",
+                "description": "The geographic location for which to retrieve trending keywords. Defaults to 'US'.",
+                "default": "US"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "laliga_standings",
+    "description": "This is a sub-function API for tool laliga_standings.\nTool description: Spanish LaLiga Standings & Table\nAPI description: Fetches the standings for LaLiga for a given season.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season": {
+                "type": "string",
+                "description": "The season to retrieve the standings for, e.g., '2022'. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

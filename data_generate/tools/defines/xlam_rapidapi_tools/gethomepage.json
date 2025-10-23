@@ -1,0 +1,15 @@
+{
+    "name": "gethomepage",
+    "description": "This is a sub-function API for tool radio_world_75_000_worldwide_fm_radio_stations.\nTool description: This is one of the largest collection of FM Radios API from around the world. Listen Updated 79,000+ Radio stations. All the Stations are Updating Daily & Weekly basis, New stations are Adding As soon as possible. At least 100+ Stations Are adding and 1000+ Stations are fixing to this API Weekly (This is minium ratio).\nAPI description: *We have made an option for you to display result in your landing/home page. So you don't have to work hard to achieve this.*\nGet limited radios to show in landing/home page, based on.\n- limit",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The number of radio stations to retrieve. Default is 10.",
+                "default": 10.0
+            }
+        },
+        "required": []
+    }
+}

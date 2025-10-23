@@ -1,0 +1,23 @@
+{
+    "name": "get_all_companies_paginated",
+    "description": "This is a sub-function API for tool business_and_company_name_api.\nTool description: Use this Know-Your-Business Process (KYB) API to validate registered companies and business names recognised by the Corporate Affairs Commission (CAC). You have enpoints to search, validate name availability and validate and fetch business and company registration numbers.\nAPI description: Fetches a paginated list of all companies from the CAC database using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number to fetch.",
+                "default": 1.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of companies to retrieve per page.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "page",
+            "limit"
+        ]
+    }
+}

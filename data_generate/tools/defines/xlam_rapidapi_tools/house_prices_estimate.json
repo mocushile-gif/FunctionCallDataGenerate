@@ -1,0 +1,46 @@
+{
+    "name": "house_prices_estimate",
+    "description": "This is a sub-function API for tool zoopla_v2.\nTool description: This API helps to query for properties for rent, sale in UK to create a real estate site/application such as zoopla.com\nAPI description: Estimates house prices based on given criteria and returns a list of estimated prices.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "area": {
+                "type": "string",
+                "description": "The value of suggestions/value json object returned in .../auto-complete endpoint with properties as search_type. You must use EXACTLY the value  returned by the endpoint.",
+                "default": "Greenwich Close, Crawley RH11"
+            },
+            "property_type": {
+                "type": "string",
+                "description": "The type of property. Options are 'detached', 'flat', 'terraced', 'semi_detached'."
+            },
+            "page_number": {
+                "type": "number",
+                "description": "The page index for pagination. Default is 1.",
+                "default": 1.0
+            },
+            "order_by": {
+                "type": "string",
+                "description": "The attribute by which to order the results. Options are 'price_paid', 'last_sold', 'address', 'estimated_value'. Default is 'address'.",
+                "default": "address"
+            },
+            "page_size": {
+                "type": "number",
+                "description": "The number of items per response. Maximum is 40. Default is 40.",
+                "default": 40.0
+            },
+            "ordering": {
+                "type": "string",
+                "description": "The order direction of the results. Options are 'ascending', 'descending'. Default is 'descending'.",
+                "default": "descending"
+            },
+            "identifier": {
+                "type": "string",
+                "description": "The value of suggestions/identifier json object returned in .../auto-complete endpoint with properties as search_type. You must use EXACTLY the value returned by the endpoint.",
+                "default": "west-sussex/crawley/greenwich-close"
+            }
+        },
+        "required": [
+            "area"
+        ]
+    }
+}

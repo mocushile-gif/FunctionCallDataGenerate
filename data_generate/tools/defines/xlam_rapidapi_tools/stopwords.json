@@ -1,0 +1,23 @@
+{
+    "name": "stopwords",
+    "description": "This is a sub-function API for tool free_stopwords.\nTool description: StopwordAPI.com offers an easy solution for you to retrive words that you want to remove from a string. This filtering process is common in NLP (Natural Language Processing) algoritms and whenever you want to remove words from user input in your software application. StopwordAPI.com has ordered the words into useful categories making it easy for you to only download the words you need - eventhough you do not know the language.\nAPI description: Retrieves stopwords for specified languages and categories from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "langs": {
+                "type": "string",
+                "description": "Comma-separated list of language ISO codes."
+            },
+            "details": {
+                "type": "boolean",
+                "description": "Boolean (1 or 0) indication weather you want details about each word",
+                "default": true
+            },
+            "categories": {
+                "type": "string",
+                "description": "Comma-separated list of categories. Use /categories to get category IDs."
+            }
+        },
+        "required": []
+    }
+}

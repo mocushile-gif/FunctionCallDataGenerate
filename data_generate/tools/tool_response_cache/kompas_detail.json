@@ -1,0 +1,38 @@
+{
+    "{'guid': '<GUID>'}": {
+        "error": "",
+        "response": "The 'kompas-detail' API is designed to retrieve detailed information from articles published on Kompas, one of Indonesia's leading news websites. Given a unique identifier (GUID) for an article, this API fetches comprehensive details such as the article's title, author, publication date, main body content, and any associated images or media. This enables users to obtain in-depth information about news pieces without directly accessing the Kompas website. The API aims to facilitate research, analysis, and the dissemination of news content, making it easier for users to track and utilize Indonesia-specific news data for various purposes."
+    },
+    "{'guid': 'guid_of_an_article'}": {
+        "error": "",
+        "response": "The 'kompas-detail' API successfully retrieved the article information. The article, identified by the GUID 'guid_of_an_article', covers a range of topics relevant to current events in Indonesia. While the specific details of the article, such as its title, author, and main content, cannot be displayed in this response, users can expect to receive comprehensive information including the publication date, the main body of the article, and any associated images or media. This detailed data provides a deep dive into the article's subject matter, offering insights and perspectives unique to the Indonesian news landscape. This API serves as a valuable tool for those looking to access detailed news content without visiting the Kompas website directly."
+    },
+    "{'guid': '.xml.2023.06.20.114935178'}": {
+        "error": "",
+        "response": "{'status': True, 'result': {'parent_name': 'regional', 'lipsus_id': '', 'lipsus': '', 'kanal': 'regional', 'siteno': 78, 'suptitle': '', 'title': 'Antisipasi Banjir, Kota Bandung Tambah 2 Kolam Retensi', 'keyword': ', bandung, kolam retensi, banjir', 'description': 'Pemerintah Kota Bandung, Jawa Barat, berencana menambah jumlah kolam retensi untuk menanggulangi banjir. ', 'urlpage': 'http://bandung.kompas.com/read/2023/06/20/114935178/antisipasi-banjir-kota-bandung-tambah-2-kolam-retensi', 'urlshort': 'http://kmp.im/AGEuiT', 'subcategory': 'Bandung', 'tag': 'bandung', 'tags': ['bandung', 'Kota Bandung', 'kolam retensi', 'kolam retensi cegah banjir'], 'link': 'http://bandung.kompas.com/read/2023/06/20/114935178/antisipasi-banjir-kota-bandung-tambah-2-kolam-retensi', 'date': '2023-06-20 11:49:35', 'embed': [], 'photoblock': [{'block': 'https://asset.kompas.com/crops/fUGOJtdK-TpyPABEJWT4bXfufj4=/67x0:656x393/750x500/data/photo/2023/06/20/64912f5e54741.jpg', 'author': 'Tribun Jabar/Muhamad Nandri Prilatama', 'caption': 'Plh Wali Kota Bandung, Ema Sumarna, saat meninjau pembangunan kolam retensi di wilayah RW 12, Kelurahan Babakan, Kecamatan Babakan Ciparay, Bandung. ', 'orderid': '1'}], 'videoblock': [], 'content': ['<p><strong>KOMPAS.com-</strong>Pemerintah Kota Bandung, Jawa Barat, berencana menambah jumlah kolam retensi untuk menanggulangi banjir.&nbsp;</p>', '<p>Satu kolam di Kelurahan Babakan, Kecamatan Babakan Ciparay, sudah mulai dikerjakan.&nbsp;</p>', '[ads]', '<p>Pelaksana Harian (Plh) Wali Kota Bandung Ema Sumarna mengatakan, kolam itu dijadwalkan selesai pembangunannya dalam dua pekan mendatang.</p>', '<p>\"Kami sudah mulai (membangun kolam retensi Babakan) dibantu desainnya oleh Ciptabintar. Jadi, dalam waktu dua minggu ini saya yakin akan rampung,\" ujar Ema, Senin (19/6/2023).</p>', '<p><strong>Baca juga: <a href=\"http://bandung.kompas.com/read/2023/03/06/102107078/diresmikan-jokowi-kolam-retensi-diklaim-bakal-kendalikan-banjir-di-bandung\" target=\"_self\">Diresmikan Jokowi, Kolam Retensi Diklaim Bakal Ken"
+    },
+    "{'guid': 'a1b2c3d4-e5f6-7890-g1h2-i3j4k5l6m7n8'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'guid': '5a3e2b1c-d4f7-11ed-a234-0242ac130002'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'guid': '6b4f3c2d-d4f7-11ed-b345-0242ac130003'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'guid': '7c5a4d3e-d4f7-11ed-c456-0242ac130004'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'guid': '8d6b5e4f-d4f7-11ed-d567-0242ac130005'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'guid': '9e7c6f5a-d4f7-11ed-e678-0242ac130006'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    }
+}

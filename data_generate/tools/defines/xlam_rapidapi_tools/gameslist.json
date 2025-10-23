@@ -1,0 +1,29 @@
+{
+    "name": "gameslist",
+    "description": "This is a sub-function API for tool steamgames_special_offers.\nTool description: Get Steam Games List and Data that are on Special Discounted Offers. \nContact me at: vuesdata@gmail.com or visit https://www.vuesdata.com for building custom spiders or custom requests.\nAPI description: Retrieves a list of games on special discount offers from the specified region.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "region": {
+                "type": "string",
+                "description": "The region code to fetch the game offers from.",
+                "default": "US"
+            },
+            "start": {
+                "type": "number",
+                "description": "The starting index for the list of games.",
+                "default": 0.0
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of games to retrieve starting from the `start` index.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "region",
+            "start",
+            "count"
+        ]
+    }
+}

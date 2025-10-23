@@ -1,0 +1,30 @@
+{
+    "name": "free_ofac_api",
+    "description": "This is a sub-function API for tool free_ofac_scan.\nTool description: A FREE and simple OFAC scan that returns TRUE (if the target was found) or FALSE (if the target was not found).  Use \"Complete OFAC Scan\" by Intelitruth for detailed records response.\nAPI description: This function performs an OFAC (Office of Foreign Assets Control) scan request using the Free OFAC Scan API and returns a response indicating whether a target is found.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "street_address": {
+                "type": "string",
+                "description": "Street address of the individual or business entity. Defaults to '79 ul. Sadovnicheskaya'.",
+                "default": "79 ul. Sadovnicheskaya"
+            },
+            "business_name": {
+                "type": "string",
+                "description": "Name of the business entity. Defaults to 'SME Bank'.",
+                "default": "SME Bank"
+            },
+            "first_name": {
+                "type": "string",
+                "description": "First name(s) of the individual. Defaults to 'Gener'.",
+                "default": "Gener"
+            },
+            "last_name": {
+                "type": "string",
+                "description": "Last name(s) of the individual. Defaults to 'Garcia Molina'.",
+                "default": "Garcia Molina"
+            }
+        },
+        "required": []
+    }
+}

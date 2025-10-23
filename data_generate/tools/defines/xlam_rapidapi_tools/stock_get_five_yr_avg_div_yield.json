@@ -1,0 +1,22 @@
+{
+    "name": "stock_get_five_yr_avg_div_yield",
+    "description": "This is a sub-function API for tool yh_finance_v2.\nTool description: \nAPI description: Fetches the five-year average dividend yield for a given stock symbol and region.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "Ticker Symbol ( Ex. \\\\\\\\\\\\\\\\\\\"AAPL\\\\\\\\\\\\\\\\\\\" is Ticker symbol for Apple Inc. on the stock market )",
+                "default": "AAPL"
+            },
+            "region": {
+                "type": "string",
+                "description": "The region of the stock market. Allowed values are 'US', 'BR', 'AU', 'CA', 'FR', 'DE', 'HK', 'IN', 'IT', 'ES', 'GB', 'S'. Default is 'US'.",
+                "default": "US"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

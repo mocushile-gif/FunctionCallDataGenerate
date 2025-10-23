@@ -1,0 +1,17 @@
+{
+    "name": "bus_trolley_routes",
+    "description": "This is a sub-function API for tool septa.\nTool description: Provides hackathon-style access to the SEPTA API.\r\n\r\nAllows introspection of the SEPTA locations and routes, and provides basically-realtime data on delays, alerts, vehicles, and routes.\nAPI description: Fetches and returns the bus or trolley route stops information using the SEPTA API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "req1": {
+                "type": "string",
+                "description": "The route number to fetch stops information for.",
+                "default": "23"
+            }
+        },
+        "required": [
+            "req1"
+        ]
+    }
+}

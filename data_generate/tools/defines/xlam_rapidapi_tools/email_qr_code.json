@@ -1,0 +1,67 @@
+{
+    "name": "email_qr_code",
+    "description": "This is a sub-function API for tool scanova_qr_code.\nTool description: Scanova QR Code API lets you generate custom-designed Branded QR Codes in bulk programmatically in your own mobile application or information system within few minutes.\nAPI description: Creates and returns a static QR code encoded with the provided email address. The QR code can be customized with various design parameters such as background color, eye pattern, error correction level, size, data gradient colors, and data patterns. When scanned, the QR code will prompt the user to send an email to the specified address.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "type": "string",
+                "description": "The email address to encode in the QR code.",
+                "default": "marketing@scanova.io"
+            },
+            "background_color": {
+                "type": "string",
+                "description": "The background color of the QR code. Defaults to '#FFFFFF'.",
+                "default": "#FFFFFF"
+            },
+            "eye_pattern": {
+                "type": "string",
+                "description": "The pattern of the QR code eyes. Defaults to 'RECT_RECT'.",
+                "default": "RECT_RECT"
+            },
+            "error_correction": {
+                "type": "string",
+                "description": "The error correction level of the QR code. Defaults to 'M'.",
+                "default": "M"
+            },
+            "size": {
+                "type": "string",
+                "description": "The size of the QR code. Defaults to 'm'.",
+                "default": "m"
+            },
+            "data_gradient_start_color": {
+                "type": "string",
+                "description": "The starting color for the data gradient. Defaults to '#000000'.",
+                "default": "#000000"
+            },
+            "data_gradient_style": {
+                "type": "string",
+                "description": "The style of the data gradient. Defaults to 'None'.",
+                "default": "None"
+            },
+            "data_pattern": {
+                "type": "string",
+                "description": "The pattern for the QR code data. Defaults to 'RECT'.",
+                "default": "RECT"
+            },
+            "eye_color_outer": {
+                "type": "string",
+                "description": "The outer color of the QR code eyes. Defaults to '#000000'.",
+                "default": "#000000"
+            },
+            "data_gradient_end_color": {
+                "type": "string",
+                "description": "The ending color for the data gradient. Defaults to '#000000'.",
+                "default": "#000000"
+            },
+            "eye_color_inner": {
+                "type": "string",
+                "description": "The inner color of the QR code eyes. Defaults to '#000000'.",
+                "default": "#000000"
+            }
+        },
+        "required": [
+            "address"
+        ]
+    }
+}

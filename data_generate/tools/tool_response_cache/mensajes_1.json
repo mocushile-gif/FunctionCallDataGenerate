@@ -1,0 +1,10 @@
+{
+    "{'authorization': '1234567890'}": {
+        "error": "",
+        "response": "The API has successfully fetched messages for student 1 from Colegio Santa Ana. These messages may include updates on academic performance, upcoming events, homework assignments, or other relevant notifications. Ensure the authorization token provided is valid and up-to-date to access the latest information."
+    },
+    "{'authorization': 'YRYH3G'}": {
+        "error": "",
+        "response": "{'id': '1', 'date': '2022-02-15 09:24:13', 'body': 'Esto es un mensaje', 'subject': 'Mensaje', 'sender': 'Carlos Perez', 'role': 'Profesor', 'type': 'message', 'child_name': 'Hijo 1', 'image': None, 'book_id': '1', 'web_url': 'http://www.google.com.ar', 'attachmentList': [{'name': 'Nombre del adjunto', 'url': 'http://www.google.com.ar'}]}"
+    }
+}

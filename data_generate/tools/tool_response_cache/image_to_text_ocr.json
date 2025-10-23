@@ -1,0 +1,14 @@
+{
+    "{'url': 'https://signlangresources.com/images/asl_alphabet_variations.jpg'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '7efdbf64-605b-4370-b74c-3764daea787f', 'parameters': {'url': 'https://real-time-lens-data.p.rapidapi.com/ocr', 'language': 'en', 'country': 'us'}, 'data': {}}"
+    },
+    "{'url': 'https://example.com/quote-image.png'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '716f1e11-0ce8-4994-bfd7-5b4accc6dcfd', 'parameters': {'url': 'https://real-time-lens-data.p.rapidapi.com/ocr', 'language': 'en', 'country': 'us'}, 'data': {}}"
+    },
+    "{'url': 'https://example.com/quote-image.png', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '6bfca417-0bbd-400d-8061-ce34b789cdf0', 'parameters': {'url': 'https://real-time-lens-data.p.rapidapi.com/ocr', 'language': 'en', 'country': 'us'}, 'data': {}}"
+    }
+}

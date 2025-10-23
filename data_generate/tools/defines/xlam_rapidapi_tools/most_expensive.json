@@ -1,0 +1,24 @@
+{
+    "name": "most_expensive",
+    "description": "This is a sub-function API for tool most_expensive_nft_artworks.\nTool description: Get list of most expensive and bestselling NFTs ever\nAPI description: Get most expensive artworks list.\n\n**Possible filtering by gallery: **\nArt Blocks\nAsync Art\nAuction Houses\nFoundation\nhic et nunc\nKnownOrigin\nMakersPlace\nNifty Gateway\nSuperRare",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sort": {
+                "type": "string",
+                "description": "The criterion by which to sort the artworks. Defaults to 'usd_price'.",
+                "default": "usd_price"
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number of the results to retrieve. Defaults to '1'.",
+                "default": "1"
+            },
+            "gallery": {
+                "type": "string",
+                "description": "The gallery to filter results by. Possible values include:"
+            }
+        },
+        "required": []
+    }
+}

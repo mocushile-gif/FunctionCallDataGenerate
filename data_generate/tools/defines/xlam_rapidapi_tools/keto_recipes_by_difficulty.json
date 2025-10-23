@@ -1,0 +1,17 @@
+{
+    "name": "keto_recipes_by_difficulty",
+    "description": "This is a sub-function API for tool keto_diet.\nTool description: Dataset of over 450 Ketogenic diet recipes in over 10 categories from Breakfast to Dinner.  Check out encurate.app to manage content on your mobile apps. Contact to feature your app on encurate.app website.\nAPI description: Gives all keto recipes by its difficulty (Easy, Medium or Difficult).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "difficulty": {
+                "type": "string",
+                "description": "The difficulty level of the recipes to retrieve (Easy, Medium, or Difficult).",
+                "default": "Medium"
+            }
+        },
+        "required": [
+            "difficulty"
+        ]
+    }
+}

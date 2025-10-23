@@ -1,0 +1,27 @@
+{
+    "name": "locations_v2_search_deprecated",
+    "description": "This is a sub-function API for tool hotels.\nTool description: This API helps to query rooms, price, facilities, policities, etc information from many hotels around the world to create a travelling site/application, such as : hotels.com\nAPI description: Searches for related locations and suggestions based on the provided query, locale, and currency.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "Name of the country, city, district, place, etc., to search for.",
+                "default": "new york"
+            },
+            "locale": {
+                "type": "string",
+                "description": "The language code for the search results. Defaults to 'en_US'.",
+                "default": "en_US"
+            },
+            "currency": {
+                "type": "string",
+                "description": "The currency code for the search results. Defaults to 'USD'.",
+                "default": "USD"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

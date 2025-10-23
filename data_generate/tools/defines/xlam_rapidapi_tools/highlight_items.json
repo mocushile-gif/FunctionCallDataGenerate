@@ -1,0 +1,15 @@
+{
+    "name": "highlight_items",
+    "description": "This is a sub-function API for tool ig_private_api.\nTool description: IG Private API - get any Instagram stories, Highlights, Posts, Photos and Videos from public profiles by API Test for free 😃 You can get quick help via telegram app: @insta4root\nAPI description: Fetches highlight items for a given highlight ID from a private Instagram API using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "highlightid": {
+                "type": "string",
+                "description": "The ID of the highlight to fetch information for. Default is 'highlight:18064021144190483'.",
+                "default": "highlight:18064021144190483"
+            }
+        },
+        "required": []
+    }
+}

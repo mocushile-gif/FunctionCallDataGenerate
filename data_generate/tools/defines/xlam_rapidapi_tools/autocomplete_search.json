@@ -1,0 +1,22 @@
+{
+    "name": "autocomplete_search",
+    "description": "This is a sub-function API for tool watchmode.\nTool description: Universal OTT Streaming Service Availability API (Netflix, HBO Max, Peacock, Hulu, Amazon Prime Video, AppleTV+, Disney+ & over 100 more)\nAPI description: Search for titles/and or people by name or a partial name. Useful for building an autocomplete search of titles and/or people. The results include the field result_type to indicate which type of result it is (title or person). For titles, the movie poster will be returned in image_url, for a person a headshot will be returned in image_url.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "search_value": {
+                "type": "string",
+                "description": "The phrase to search for, which can be a full title or person name, or a partial phrase. For example, searching for \"The sha\" will find the movie \"The Shawshank Redemption\".",
+                "default": "Breaking Bad"
+            },
+            "search_type": {
+                "type": "number",
+                "description": "Set this to 1 to include titles and people in results. Set this to 2 to include titles only. Set this to 3 to include movies only. Set this to 4 to include TV only. Set this to 5 to include people only. By default this is set to 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "search_value"
+        ]
+    }
+}

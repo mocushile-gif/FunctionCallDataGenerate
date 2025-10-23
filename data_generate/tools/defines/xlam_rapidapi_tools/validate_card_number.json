@@ -1,0 +1,17 @@
+{
+    "name": "validate_card_number",
+    "description": "This is a sub-function API for tool credit_card_number_validator.\nTool description: Enter the first few all numbers of a Credit Card to determine if it is valid and its details. By simply providing the first few numbers or a complete credit card number, this API will validate what card type it is and if it is likely valid using algorithms.\nAPI description: Validate a credit card number and get the card type by using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cardnumber": {
+                "type": "string",
+                "description": "The credit card number to be validated.",
+                "default": "4682776017589385"
+            }
+        },
+        "required": [
+            "cardnumber"
+        ]
+    }
+}

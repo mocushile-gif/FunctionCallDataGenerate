@@ -1,0 +1,29 @@
+{
+    "name": "texts",
+    "description": "This is a sub-function API for tool seeding_data.\nTool description: Completely APIs that helps web developers and web designers generate fake data in a fast and easy way.\nAPI description: Fetches a specified quantity of texts from the API with given locale and character length.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "quantity": {
+                "type": "number",
+                "description": "The number of text entries to retrieve.",
+                "default": 100
+            },
+            "locale": {
+                "type": "string",
+                "description": "The locale code for the desired language of the texts.",
+                "default": "it_IT"
+            },
+            "characters": {
+                "type": "number",
+                "description": "The length of each text entry in characters.",
+                "default": 250
+            }
+        },
+        "required": [
+            "quantity",
+            "locale",
+            "characters"
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "name": "add_pdf_watermark",
+    "description": "Add text or image watermark to a PDF file.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "input_path": {
+                "type": "string",
+                "description": "Path to input PDF file"
+            },
+            "watermark_text": {
+                "type": "string",
+                "description": "Text watermark content"
+            },
+            "watermark_image": {
+                "type": "string",
+                "description": "Path to image watermark file"
+            },
+            "output_path": {
+                "type": "string",
+                "description": "Path for output file (optional, auto-generated if not provided)"
+            },
+            "position": {
+                "type": "string",
+                "description": "Watermark position",
+                "enum": ["top-left", "top-right", "center", "bottom-left", "bottom-right"],
+                "default": "center"
+            },
+            "opacity": {
+                "type": "number",
+                "description": "Watermark opacity (0.0-1.0)",
+                "default": 0.5,
+                "minimum": 0.0,
+                "maximum": 1.0
+            },
+            "font_size": {
+                "type": "integer",
+                "description": "Font size for text watermark",
+                "default": 24,
+                "minimum": 1,
+                "maximum": 200
+            },
+            "font_color": {
+                "type": "string",
+                "description": "Font color (hex code)",
+                "default": "#FF0000"
+            },
+            "rotation": {
+                "type": "integer",
+                "description": "Rotation angle in degrees",
+                "enum": [0, 90, 180, 270],
+                "default": 0
+            }
+        },
+        "required": ["input_path"]
+    }
+}

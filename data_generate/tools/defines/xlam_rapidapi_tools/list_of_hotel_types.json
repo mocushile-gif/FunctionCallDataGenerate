@@ -1,0 +1,14 @@
+{
+    "name": "list_of_hotel_types",
+    "description": "This is a sub-function API for tool booking_com.\nTool description: Find all hotels, view prices, photos of the hotels, reviews. Find car rental deals. **Site:** booking.com **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters\nAPI description: Returns hotel type names and their translations from the Booking.com API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hotel_type_id": {
+                "type": "string",
+                "description": "The ID of the specific hotel type to query. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "downloader",
+    "description": "This is a sub-function API for tool mp3_downloader.\nTool description: Search mp3 files by track, artist, album.\nAPI description: This function searches for MP3 music using the given keywords and returns the results from the specified page.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keywords": {
+                "type": "string",
+                "description": "The search keywords for finding MP3 music.",
+                "default": "Ella Baila Sola "
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number of the search results to retrieve. Defaults to '1'.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "keywords"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "current_weather_data_of_a_location",
+    "description": "This is a sub-function API for tool weather_v6.\nTool description: Current weather data API, and Weather forecast API.\nAPI description: Fetch the current weather data for a given location based on longitude and latitude.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lon": {
+                "type": "string",
+                "description": "The longitude of the location.",
+                "default": "38.5"
+            },
+            "lat": {
+                "type": "string",
+                "description": "The latitude of the location.",
+                "default": "-78.5"
+            }
+        },
+        "required": [
+            "lon",
+            "lat"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "remove_outliers",
+    "description": "Removes outliers from a dataset based on Z-score. Outliers are defined as points that have a Z-score greater than the specified threshold.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "data": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "A list of numerical values from which outliers will be removed."
+            },
+            "threshold": {
+                "type": "number",
+                "description": "The Z-score threshold beyond which a point is considered an outlier. Defaults to 3.0.",
+                "default": 3.0
+            }
+        },
+        "required": [
+            "data"
+        ]
+    }
+}

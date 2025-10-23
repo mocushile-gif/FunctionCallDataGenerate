@@ -1,0 +1,17 @@
+{
+    "name": "stock_v2_get_risk_rating_breakdown",
+    "description": "This is a sub-function API for tool ms_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc... to create a site/application such as morningstar.com\nAPI description: Fetch the risk rating breakdown for a given stock performance ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "performanceid": {
+                "type": "string",
+                "description": "Value of performanceId field from …/auto-complete or /get-summary or …/get-movers endpoints",
+                "default": "0P0000OQN8"
+            }
+        },
+        "required": [
+            "performanceid"
+        ]
+    }
+}

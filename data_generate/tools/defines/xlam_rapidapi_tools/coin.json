@@ -1,0 +1,15 @@
+{
+    "name": "coin",
+    "description": "This is a sub-function API for tool circulating_supply.\nTool description: This API returns the value of given coin.\nAPI description: This endpoint returns the value of given coin as parameter.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "coin": {
+                "type": "string",
+                "description": "The cryptocurrency symbol (e.g., 'btc', 'eth') for which the value will be fetched. Default is 'btc'.",
+                "default": "btc"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "originals_titles_get_recommend",
+    "description": "This is a sub-function API for tool webtoon.\nTool description: This API provides the largest webcomics data in the world to create a comic site/application such as webtoons.com\nAPI description: Get similar comics\n*To load images, please check the tutorial at https://rapidapi.com/apidojo/api/webtoon/tutorials/how-to-load-images",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "titleno": {
+                "type": "number",
+                "description": "The title number for which recommendations are to be fetched. This corresponds to the `titleNo` field returned by the `/originals/titles/list` or `/originals/titles/list-by-rank` endpoints of the Webtoon API.",
+                "default": 3211.0
+            },
+            "language": {
+                "type": "string",
+                "description": "The language preference for the recommendations. Defaults to 'en'. Accepted values include 'en', 'zh-hant', 'de', 'fr', 'es', 'th', and 'id'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "titleno"
+        ]
+    }
+}

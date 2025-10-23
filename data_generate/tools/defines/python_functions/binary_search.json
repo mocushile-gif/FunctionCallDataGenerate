@@ -1,0 +1,24 @@
+{
+    "name": "binary_search",
+    "description": "Performs binary search on an ascending sorted list to find the index of a target value. If the target is not found, returns -1.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "arr": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                },
+                "description": "An ascending sorted list of numbers."
+            },
+            "target": {
+                "type": "number",
+                "description": "The target value to search for."
+            }
+        },
+        "required": [
+            "arr",
+            "target"
+        ]
+    }
+}

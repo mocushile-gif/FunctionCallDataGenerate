@@ -1,0 +1,42 @@
+{
+    "{'password': 'S3n5m5_2023!Test', 'to': 14155550123, 'text': 'TEST SMS from Integration Team - Verify receipt. Ref: MON-20231115', 'action': 'message_send', 'username': 'support.api@sensms.com'}": {
+        "error": "",
+        "response": "{'status': -8, 'message': 'Authentication failed', 'run_time': 0.0306}"
+    },
+    "{'password': 'S3n5m5_2023%21Test', 'to': 14155550123, 'text': 'TEST SMS from Integration Team - Verify receipt. Ref: MON-20231115', 'action': 'message_send', 'username': 'support.api@sensms.com'}": {
+        "error": "",
+        "response": "{'status': -8, 'message': 'Authentication failed', 'run_time': 0.0296}"
+    },
+    "{'password': 'S3n5m5_2023!Test@Valid', 'to': 14155550123, 'text': 'TEST SMS from Integration Team - Verify receipt. Ref: MON-20231115', 'action': 'message_send', 'username': 'support.api@sensms.com'}": {
+        "error": "",
+        "response": "{'status': -8, 'message': 'Authentication failed', 'run_time': 0.0309}"
+    },
+    "{'username': 'research.team@sens.co', 'password': 'ApiKey_123ABC_xyz', 'to': 16045550123, 'text': \"REMINDER: Tomorrow's consumer insights focus group (Project Nova) begins at 2:00 PM PST. Please arrive 10 mins early for check-in at 456 Innovation Drive, Suite 300. Bring your consent form and any preliminary notes. Compensation details: $75 honorarium + travel reimbursement. Contact analyst.jones@sens.co with questions.\", 'action': 'message_send', 'report_mask': 19}": {
+        "error": "",
+        "response": "{'status': -8, 'message': 'Authentication failed', 'run_time': 0.0308}"
+    },
+    "{'username': 'research.team@sens.co', 'password': 'ApiKey_123ABC_xyz', 'to': 16045550124, 'text': \"REMINDER: Tomorrow's consumer insights focus group (Project Nova) begins at 2:00 PM PST. Please arrive 10 mins early for check-in at 456 Innovation Drive, Suite 300. Bring your consent form and any preliminary notes. Compensation details: $75 honorarium + travel reimbursement. Contact analyst.jones@sens.co with questions.\", 'action': 'message_send', 'report_mask': 19}": {
+        "error": "",
+        "response": "{'status': -8, 'message': 'Authentication failed', 'run_time': 0.0298}"
+    },
+    "{'username': 'research.team@sens.co', 'password': 'ApiKey_123ABC_xyz', 'to': 16045550125, 'text': \"REMINDER: Tomorrow's consumer insights focus group (Project Nova) begins at 2:00 PM PST. Please arrive 10 mins early for check-in at 456 Innovation Drive, Suite 300. Bring your consent form and any preliminary notes. Compensation details: $75 honorarium + travel reimbursement. Contact analyst.jones@sens.co with questions.\", 'action': 'message_send', 'report_mask': 19}": {
+        "error": "",
+        "response": "{'status': -8, 'message': 'Authentication failed', 'run_time': 0.0448}"
+    },
+    "{'username': 'research.team@sens.co', 'password': 'ApiKey_123ABC_xyz', 'to': 16045550123, 'text': 'REMINDER: Tomorrow\u2019s consumer insights focus group (Project Nova) begins at 2:00 PM PST. Please arrive 10 mins early for check-in at 456 Innovation Drive, Suite 300. Bring your consent form and any preliminary notes. Compensation details: $75 honorarium + travel reimbursement. Contact analyst.jones@sens.co with questions.', 'action': 'message_send', 'is_from': '+16045550000', 'report_mask': 19}": {
+        "error": "",
+        "response": "{'status': -8, 'message': 'Authentication failed', 'run_time': 0.0313}"
+    },
+    "{'username': 'research.team@sens.co', 'password': 'ApiKey_123ABC_xyz', 'to': 16045550124, 'text': 'REMINDER: Tomorrow\u2019s consumer insights focus group (Project Nova) begins at 2:00 PM PST. Please arrive 10 mins early for check-in at 456 Innovation Drive, Suite 300. Bring your consent form and any preliminary notes. Compensation details: $75 honorarium + travel reimbursement. Contact analyst.jones@sens.co with questions.', 'action': 'message_send', 'is_from': '+16045550000', 'report_mask': 19}": {
+        "error": "",
+        "response": "{'status': -8, 'message': 'Authentication failed', 'run_time': 0.0289}"
+    },
+    "{'username': 'research.team@sens.co', 'password': 'ApiKey_123ABC_xyz', 'to': 16045550125, 'text': 'REMINDER: Tomorrow\u2019s consumer insights focus group (Project Nova) begins at 2:00 PM PST. Please arrive 10 mins early for check-in at 456 Innovation Drive, Suite 300. Bring your consent form and any preliminary notes. Compensation details: $75 honorarium + travel reimbursement. Contact analyst.jones@sens.co with questions.', 'action': 'message_send', 'is_from': '+16045550000', 'report_mask': 19}": {
+        "error": "",
+        "response": "{'status': -8, 'message': 'Authentication failed', 'run_time': 0.0332}"
+    },
+    "{'username': 'MarketResearchCo', 'password': 'API_KEY_12345ABCXYZ', 'to': 1234567890, 'text': 'Reminder: Please complete our survey by tomorrow to help us improve our services. Thank you!', 'action': 'message_send', 'report_mask': 19}": {
+        "error": "",
+        "response": "{'status': -8, 'message': 'Authentication failed', 'run_time': 0.0313}"
+    }
+}

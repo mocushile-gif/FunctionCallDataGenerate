@@ -1,0 +1,63 @@
+{
+    "{'performanceid': '0P0000OQN8'}": {
+        "error": "",
+        "response": {
+            "company": {
+                "name": "Microsoft Corporation",
+                "symbol": "MSFT",
+                "performanceid": "0P0000OQN8"
+            },
+            "financials": {
+                "incomeStatement": {
+                    "annual": [
+                        {
+                            "fiscalYear": 2023,
+                            "revenue": 282224000000,
+                            "netIncome": 87567000000,
+                            "eps": 12.95,
+                            "operatingIncome": 134421000000
+                        },
+                        {
+                            "fiscalYear": 2022,
+                            "revenue": 211910000000,
+                            "netIncome": 71848000000,
+                            "eps": 9.71,
+                            "operatingIncome": 103514000000
+                        }
+                    ]
+                }
+            },
+            "currency": "USD",
+            "reportType": "Restated",
+            "lastUpdated": "2024-03-15"
+        }
+    },
+    "{'performanceid': 'TSLA_US_Annual_Reported', 'datatype': 'A', 'reporttype': 'A'}": {
+        "error": "",
+        "response": "{'_meta': {'companyId': None, 'statementType': 'income-statement', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'rows': [], 'footer': {'currency': None, 'currencySymbol': '', 'orderOfMagnitude': None, 'fiscalYearEndDate': None}, 'userType': 'Premium'}"
+    },
+    "{'performanceid': '0P0000OQN8', 'datatype': 'Q', 'reporttype': 'R', 'type': 'incomeStatement'}": {
+        "error": "",
+        "response": "{'_meta': {'companyId': '0C00004EP4', 'statementType': 'income-statement', 'periodReport': 'Success', 'latestReport': 'Success', 'quarters': [{'quarter': 'Q1', 'from': 1, 'to': 3}, {'quarter': 'Q2', 'from': 4, 'to': 6}, {'quarter': 'Q3', 'from': 7, 'to': 9}, {'quarter': 'Q4', 'from': 10, 'to': 12}]}, 'columnDefs': ['Q1 2020', 'Q2 2020', 'Q3 2020', 'Q4 2020', 'Q1 2021', 'Q2 2021', 'Q3 2021', 'Q4 2021', 'Q1 2022', 'Q2 2022', 'Q3 2022', 'Q4 2022', 'Q1 2023', 'Q2 2023', 'Q3 2023', 'Q4 2023', 'Q1 2024', 'Q2 2024', 'Q3 2024', 'Q4 2024', 'Q1 2025', 'TTM'], 'filingIdList': ['333643771', '347451709', '360376911', None, '387947787', '401222086', '414067698', None, '443909171', '458825985', '474745682', None, '507979753', '526476513', '544730418', None, '584473792', '526476513', '544730418', None, '584473792', None], 'rows': [{'parentId': '', 'label': 'IncomeStatement', 'dataPointId': 'IFIS000000', 'order': 385, 'subLevel': [{'parentId': 'IFIS000000385', 'label': 'Gross Profit', 'dataPointId': 'IFIS000590', 'order': 386, 'datum': [1234.0, 1267.0, 2063.0, 2066.0, 2215.0, 2884.0, 3660.0, 4847.0, 5460.0, 4234.0, 5382.0, 5777.0, 4511.0, 4533.0, 4178.0, 4438.0, 3696.0, 4578.0, 4997.0, 4179.0, 3153.0, 16907.0], 'subLevel': [{'parentId': 'IFIS000590386', 'label': 'Total Revenue', 'dataPointId': 'IFIS001170', 'order': 387, 'collapsed': True, 'datum': [5985.0, 6036.0, 8771.0, 10744.0, 10389.0, 11958.0, 13757.0, 17719.0, 18756.0, 16934.0, 21454.0, 24318.0, 23329.0, 24927.0, 23350.0, 25167.0, 21301.0, 25500.0, 25182.0, 25707.0, 19335.0, 95724.0], 'subLevel': [{'parentId': 'IFIS001170387', 'label': 'Business Revenue', 'dataPointId': 'IFIS001839', 'order': 388, 'collapsed': True, 'datum': [5985.0, 6036.0, 8771.0, 10744.0, 10389.0, 11958.0, 13757.0, 17719.0, 18756.0, 16934.0, 21454.0, 24318.0, 23329.0, 24927.0, 23350.0, 25167.0, 21301.0, 25500.0, 25182.0, 25707.0, 19335.0, 95724.0]}]}, {'parentId': 'IFIS000590386', 'label': 'Cost of Revenue', 'dataPointId': 'IFIS000200', 'order': 392, 'datum': [-4751.0, -4769.0, -6708.0, -8678.0, -8174.0"
+    },
+    "{'performanceid': '0P0000OQN8', 'datatype': 'Q', 'type': 'incomeStatement'}": {
+        "error": "",
+        "response": "{'_meta': {'companyId': '0C00004EP4', 'statementType': 'income-statement', 'periodReport': 'Success', 'latestReport': 'Success', 'quarters': [{'quarter': 'Q1', 'from': 1, 'to': 3}, {'quarter': 'Q2', 'from': 4, 'to': 6}, {'quarter': 'Q3', 'from': 7, 'to': 9}, {'quarter': 'Q4', 'from': 10, 'to': 12}]}, 'columnDefs': ['Q1 2020', 'Q2 2020', 'Q3 2020', 'Q4 2020', 'Q1 2021', 'Q2 2021', 'Q3 2021', 'Q4 2021', 'Q1 2022', 'Q2 2022', 'Q3 2022', 'Q4 2022', 'Q1 2023', 'Q2 2023', 'Q3 2023', 'Q4 2023', 'Q1 2024', 'Q2 2024', 'Q3 2024', 'Q4 2024', 'Q1 2025', 'TTM'], 'filingIdList': ['276564176', '290478791', '305166809', None, '333643771', '347451709', '360376911', None, '387947787', '401222086', '414067698', None, '443909171', '458825985', '474745682', None, '507979753', '526476513', '544730418', None, '584473792', None], 'rows': [{'parentId': '', 'label': 'IncomeStatement', 'dataPointId': 'IFIS000000', 'order': 385, 'subLevel': [{'parentId': 'IFIS000000385', 'label': 'Gross Profit', 'dataPointId': 'IFIS000590', 'order': 386, 'datum': [1234.0, 1267.0, 2063.0, 2066.0, 2215.0, 2884.0, 3660.0, 4847.0, 5460.0, 4234.0, 5382.0, 5777.0, 4511.0, 4533.0, 4178.0, 4438.0, 3696.0, 4578.0, 4997.0, 4179.0, 3153.0, 16907.0], 'subLevel': [{'parentId': 'IFIS000590386', 'label': 'Total Revenue', 'dataPointId': 'IFIS001170', 'order': 387, 'collapsed': True, 'datum': [5985.0, 6036.0, 8771.0, 10744.0, 10389.0, 11958.0, 13757.0, 17719.0, 18756.0, 16934.0, 21454.0, 24318.0, 23329.0, 24927.0, 23350.0, 25167.0, 2130"
+    },
+    "{'performanceid': 'AAPLQ67890', 'type': 'balanceSheet', 'datatype': 'A'}": {
+        "error": "",
+        "response": "{'_meta': {'companyId': None, 'statementType': 'balance-sheet', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'rows': [], 'footer': {'currency': None, 'currencySymbol': '', 'orderOfMagnitude': None, 'fiscalYearEndDate': None}, 'userType': 'Premium'}"
+    },
+    "{'datatype': 'Q', 'performanceid': '0P0000OQN8', 'type': 'incomeStatement'}": {
+        "error": "",
+        "response": "{'_meta': {'companyId': '0C00004EP4', 'statementType': 'income-statement', 'periodReport': 'Success', 'latestReport': 'Success', 'quarters': [{'quarter': 'Q1', 'from': 1, 'to': 3}, {'quarter': 'Q2', 'from': 4, 'to': 6}, {'quarter': 'Q3', 'from': 7, 'to': 9}, {'quarter': 'Q4', 'from': 10, 'to': 12}]}, 'columnDefs': ['Q1 2020', 'Q2 2020', 'Q3 2020', 'Q4 2020', 'Q1 2021', 'Q2 2021', 'Q3 2021', 'Q4 2021', 'Q1 2022', 'Q2 2022', 'Q3 2022', 'Q4 2022', 'Q1 2023', 'Q2 2023', 'Q3 2023', 'Q4 2023', 'Q1 2024', 'Q2 2024', 'Q3 2024', 'Q4 2024', 'Q1 2025', 'TTM'], 'filingIdList': ['276564176', '290478791', '305166809', None, '333643771', '347451709', '360376911', None, '387947787', '401222086', '414067698', None, '443909171', '458825985', '474745682', None, '507979753', '526476513', '544730418', None, '584473792', None], 'rows': [{'parentId': '', 'label': 'IncomeStatement', 'dataPointId': 'IFIS000000', 'order': 385, 'subLevel': [{'parentId': 'IFIS000000385', 'label': 'Gross Profit', 'dataPointId': 'IFIS000590', 'order': 386, 'datum': [1234.0, 1267.0, 2063.0, 2066.0, 2215.0, 2884.0, 3660.0, 4847.0, 5460.0, 4234.0, 5382.0, 5777.0, 4511.0, 4533.0, 4178.0, 4438.0, 3696.0, 4578.0, 4997.0, 4179.0, 3153.0, 16907.0], 'subLevel': [{'parentId': 'IFIS000590386', 'label': 'Total Revenue', 'dataPointId': 'IFIS001170', 'order': 387, 'collapsed': True, 'datum': [5985.0, 6036.0, 8771.0, 10744.0, 10389.0, 11958.0, 13757.0, 17719.0, 18756.0, 16934.0, 21454.0, 24318.0, 23329.0, 24927.0, 23350.0, 25167.0, 2130"
+    },
+    "{'datatype': 'Q', 'performanceid': '0P0000OQN8', 'type': 'incomeStatement', 'reporttype': 'R'}": {
+        "error": "",
+        "response": "{'_meta': {'companyId': '0C00004EP4', 'statementType': 'income-statement', 'periodReport': 'Success', 'latestReport': 'Success', 'quarters': [{'quarter': 'Q1', 'from': 1, 'to': 3}, {'quarter': 'Q2', 'from': 4, 'to': 6}, {'quarter': 'Q3', 'from': 7, 'to': 9}, {'quarter': 'Q4', 'from': 10, 'to': 12}]}, 'columnDefs': ['Q1 2020', 'Q2 2020', 'Q3 2020', 'Q4 2020', 'Q1 2021', 'Q2 2021', 'Q3 2021', 'Q4 2021', 'Q1 2022', 'Q2 2022', 'Q3 2022', 'Q4 2022', 'Q1 2023', 'Q2 2023', 'Q3 2023', 'Q4 2023', 'Q1 2024', 'Q2 2024', 'Q3 2024', 'Q4 2024', 'Q1 2025', 'TTM'], 'filingIdList': ['333643771', '347451709', '360376911', None, '387947787', '401222086', '414067698', None, '443909171', '458825985', '474745682', None, '507979753', '526476513', '544730418', None, '584473792', '526476513', '544730418', None, '584473792', None], 'rows': [{'parentId': '', 'label': 'IncomeStatement', 'dataPointId': 'IFIS000000', 'order': 385, 'subLevel': [{'parentId': 'IFIS000000385', 'label': 'Gross Profit', 'dataPointId': 'IFIS000590', 'order': 386, 'datum': [1234.0, 1267.0, 2063.0, 2066.0, 2215.0, 2884.0, 3660.0, 4847.0, 5460.0, 4234.0, 5382.0, 5777.0, 4511.0, 4533.0, 4178.0, 4438.0, 3696.0, 4578.0, 4997.0, 4179.0, 3153.0, 16907.0], 'subLevel': [{'parentId': 'IFIS000590386', 'label': 'Total Revenue', 'dataPointId': 'IFIS001170', 'order': 387, 'collapsed': True, 'datum': [5985.0, 6036.0, 8771.0, 10744.0, 10389.0, 11958.0, 13757.0, 17719.0, 18756.0, 16934.0, 21454.0, 24318.0, 23329.0, 24927.0, 23350.0, 25167.0, 2130"
+    },
+    "{'datatype': 'Q', 'performanceid': '0P0000OQN8', 'type': 'incomeStatement', 'reporttype': 'A'}": {
+        "error": "",
+        "response": "{'_meta': {'companyId': '0C00004EP4', 'statementType': 'income-statement', 'periodReport': 'Success', 'latestReport': 'Success', 'quarters': [{'quarter': 'Q1', 'from': 1, 'to': 3}, {'quarter': 'Q2', 'from': 4, 'to': 6}, {'quarter': 'Q3', 'from': 7, 'to': 9}, {'quarter': 'Q4', 'from': 10, 'to': 12}]}, 'columnDefs': ['Q1 2020', 'Q2 2020', 'Q3 2020', 'Q4 2020', 'Q1 2021', 'Q2 2021', 'Q3 2021', 'Q4 2021', 'Q1 2022', 'Q2 2022', 'Q3 2022', 'Q4 2022', 'Q1 2023', 'Q2 2023', 'Q3 2023', 'Q4 2023', 'Q1 2024', 'Q2 2024', 'Q3 2024', 'Q4 2024', 'Q1 2025', 'TTM'], 'filingIdList': ['276564176', '290478791', '305166809', None, '333643771', '347451709', '360376911', None, '387947787', '401222086', '414067698', None, '443909171', '458825985', '474745682', None, '507979753', '526476513', '544730418', None, '584473792', None], 'rows': [{'parentId': '', 'label': 'IncomeStatement', 'dataPointId': 'IFIS000000', 'order': 385, 'subLevel': [{'parentId': 'IFIS000000385', 'label': 'Gross Profit', 'dataPointId': 'IFIS000590', 'order': 386, 'datum': [1234.0, 1267.0, 2063.0, 2066.0, 2215.0, 2884.0, 3660.0, 4847.0, 5460.0, 4234.0, 5382.0, 5777.0, 4511.0, 4533.0, 4178.0, 4438.0, 3696.0, 4578.0, 4997.0, 4179.0, 3153.0, 16907.0], 'subLevel': [{'parentId': 'IFIS000590386', 'label': 'Total Revenue', 'dataPointId': 'IFIS001170', 'order': 387, 'collapsed': True, 'datum': [5985.0, 6036.0, 8771.0, 10744.0, 10389.0, 11958.0, 13757.0, 17719.0, 18756.0, 16934.0, 21454.0, 24318.0, 23329.0, 24927.0, 23350.0, 25167.0, 2130"
+    }
+}

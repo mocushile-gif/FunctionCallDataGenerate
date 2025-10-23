@@ -1,0 +1,25 @@
+{
+    "name": "retrieve_collection_pricing_chart",
+    "description": "This is a sub-function API for tool blur.\nTool description: Unofficial API for blur.io - 1,000+  requests/min\n\nSimple & high performance Blur API, backed by rotating proxies & API keys\n\nCheck out my Opensea / Looksrare / x2y2 API as well\nhttps://rapidapi.com/openseatools/api/opensea15\n\n- Crypto Payments Available\n\n- Lifetime Unlimited Requests Licenses Available\n\n- Private Plans with 16 / 32 / 64 / 128  requests/second Available\n\n- Ready made bots written in node.js already configured to work with RapidApi Available.\n\nJoin our Discord to inquire & fin...\nAPI description: This endpoint is used to retrieve collection pricing chart data\n\nTo be able to use the blur endpoints you need an authToken.\nYou can generate one by using the 'Retrieve authchallenge' endpoint with your wallet address in the body of the request.\nOnce you get the response, sign the 'message' string with ethers.js\nconst signature = await ethersSigner.signMessage(response.data.message);\nThen use the 'Retrieve authtoken' endpoint to get your authToken, by inputting the response parameters from 'Retrieve authcha",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "spanms": {
+                "type": "string",
+                "description": "The time span in milliseconds to retrieve the pricing data for. Default is '86400000' (24 hours).",
+                "default": "86400000"
+            },
+            "collectionid": {
+                "type": "string",
+                "description": "The ID of the NFT collection to retrieve data for. Default is '0xed5af388653567af2f388e6224dc7c4b3241c544'.",
+                "default": "0xed5af388653567af2f388e6224dc7c4b3241c544"
+            },
+            "intervalms": {
+                "type": "string",
+                "description": "The time interval in milliseconds for data points in the chart. Default is '300000' (5 minutes).",
+                "default": "300000"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "name": "fights",
+    "description": "This is a sub-function API for tool spectation_sports_events_api.\nTool description: View upcoming events, fighters, fights and more from Spectation Sports.\nAPI description: Fetches fights for either upcoming or previous events from the Spectation Sports Events API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "outcome": {
+                "type": "string",
+                "description": "The outcome of the fights to filter by. Defaults to None."
+            },
+            "sport": {
+                "type": "string",
+                "description": "The type of sport to filter the fights by. Defaults to None."
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of fights to fetch (e.g., 'upcoming' or 'previous'). Defaults to 'upcoming'.",
+                "default": "upcoming"
+            },
+            "category": {
+                "type": "string",
+                "description": "The category or weight division of the fights. Defaults to None."
+            },
+            "event": {
+                "type": "number",
+                "description": "The ID of the event to fetch fights for. Defaults to None."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of results to retrieve. Defaults to 1.",
+                "default": 1.0
+            },
+            "fighter": {
+                "type": "number",
+                "description": "The ID of the fighter to fetch fights for. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

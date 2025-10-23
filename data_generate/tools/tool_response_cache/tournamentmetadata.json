@@ -1,0 +1,32 @@
+{
+    "{'uniquetournamentid': 789101112}": {
+        "error": "",
+        "response": {
+            "tournament_id": 789101112,
+            "name": "Global Soccer Championship 2023",
+            "sport": "Soccer",
+            "start_date": "2023-11-01",
+            "end_date": "2023-12-15",
+            "status": "Ongoing",
+            "participants": 32,
+            "current_stage": "Quarterfinals",
+            "top_teams": [
+                "Team Alpha",
+                "Team Bravo",
+                "Team Charlie"
+            ],
+            "matches_played": 48,
+            "live_update": {
+                "match_id": 78912,
+                "home_team": "Team Delta",
+                "away_team": "Team Echo",
+                "score": "2-1",
+                "status": "2nd Half"
+            },
+            "venue_countries": [
+                "Country X",
+                "Country Y"
+            ]
+        }
+    }
+}

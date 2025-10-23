@@ -1,0 +1,19 @@
+{
+    "name": "get_nba_betting_odds",
+    "description": "This is a sub-function API for tool tank01_fantasy_stats.\nTool description: NBA (National Basketball League) Live In Game Fantasy Stats - NBA.  Delivering Accurate Real Time Game Statistics. Updated Rosters/Player Information, Current Schedules, and Updated Standings immediately after every game.  Very Useful for Fantasy Basketball Apps. NOW ALSO WITH BETTING / GAMBLING ODDS\n\nIncludes player news, fantasy news, and top headlines, all updated multiple times an hour.\n\nAPI description: This grabs NBA betting/gambling lines and odds from some of the most popular online sportsbooks (fanduel, betrivers, betmgm, caesars, pointsbet, etc). \n\nYou can call this for specific game or a specific date.  Check out the example responses here for the type of data you can expect back.   Some of the sportsbooks do not offer live betting, so data from those sportsbooks will not be returned after the game starts.  \n\n\nEither gameDate or gameID is required.\nExamples of what the calls can look like:\n/getNBABet",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "gameid": {
+                "type": "string",
+                "description": "The unique identifier for a specific game. Defaults to None."
+            },
+            "gamedate": {
+                "type": "string",
+                "description": "The date for which to retrieve betting odds, in the format YYYYMMDD. Defaults to '20230304'.",
+                "default": "20230304"
+            }
+        },
+        "required": []
+    }
+}

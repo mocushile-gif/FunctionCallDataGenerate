@@ -1,0 +1,46 @@
+{
+    "{'q': 'Niamey, Niger'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><data><request><type>City</type><query>Niamey, Niger</query></request><time_zone><localtime>2023-07-11 07:38</localtime><utcOffset>1.0</utcOffset><zone>Africa/Niamey</zone></time_zone></data>"
+    },
+    "{'q': 'Niamey'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><data><request><type>City</type><query>Niamey</query></request><time_zone><localtime>2023-07-11 15:55</localtime><utcOffset>1.0</utcOffset><zone>Africa/Niamey</zone></time_zone></data>"
+    },
+    "{'q': \"Segop's Location, South Africa\"}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><data><request><type>City</type><query>Segop's Location, South Africa</query></request><time_zone><localtime>2023-08-16 01:02</localtime><utcOffset>2.0</utcOffset><zone>Africa/Johannesburg</zone></time_zone></data>"
+    },
+    "{'q': 'location'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><data><request><type>City</type><query>location</query></request><time_zone><localtime>2023-08-16 01:03</localtime><utcOffset>2.0</utcOffset><zone>Africa/Johannesburg</zone></time_zone></data>"
+    },
+    "{'q': '52.5,13.43'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><data><request><type>Coordinates</type><query>52.5,13.43</query></request><time_zone><localtime>2023-10-05 14:30</localtime><utcOffset>2.0</utcOffset><zone>Europe/Berlin</zone></time_zone></data>"
+    },
+    "{'q': '53,-0.13'}": {
+        "error": "",
+        "response": {
+            "localtime": "2023-10-05 14:30",
+            "utcOffset": "1.0",
+            "zone": "Europe/London"
+        }
+    },
+    "{'q': 'Tokyo'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><data><request><type>City</type><query>Tokyo</query></request><time_zone><localtime>2024-10-16 00:05</localtime><utcOffset>9.0</utcOffset><zone>Asia/Tokyo</zone></time_zone></data>"
+    },
+    "{'q': 'Sydney'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><data><request><type>City</type><query>Sydney</query></request><time_zone><localtime>2025-01-18 04:04</localtime><utcOffset>11.0</utcOffset><zone>Australia/Sydney</zone></time_zone></data>"
+    },
+    "{'q': 'New York City'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><data><request><type>City</type><query>New York, United States of America</query></request><time_zone><localtime>2025-01-17 18:18</localtime><utcOffset>-5.0</utcOffset><zone>America/New_York</zone></time_zone></data>"
+    },
+    "{'q': 'London'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><data><request><type>City</type><query>London</query></request><time_zone><localtime>2024-08-30 23:03</localtime><utcOffset>1.0</utcOffset><zone>Europe/London</zone></time_zone></data>"
+    }
+}

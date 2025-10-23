@@ -1,0 +1,17 @@
+{
+    "name": "fight",
+    "description": "This is a sub-function API for tool spectation_sports_events_api.\nTool description: View upcoming events, fighters, fights and more from Spectation Sports.\nAPI description: Fetches details of a single fight by its ID using the Spectation Sports Events API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the fight to fetch details for.",
+                "default": 728.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

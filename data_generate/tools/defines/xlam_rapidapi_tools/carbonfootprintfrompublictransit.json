@@ -1,0 +1,23 @@
+{
+    "name": "carbonfootprintfrompublictransit",
+    "description": "This is a sub-function API for tool carbonfootprint.\nTool description: Calculate the carbon footprint in various situations, such as travel and hydro usage.\nAPI description: Calculates the CO2 emissions in kilograms from the use of public transportation based on the distance traveled and type of transit.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "distance": {
+                "type": "string",
+                "description": "The distance traveled in kilometers.",
+                "default": "1000"
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of transportation, one of: 'Taxi', 'ClassicBus', 'EcoBus', 'Coach', 'NationalTrain', 'LightRail', 'Subway', 'FerryOnFoot', 'FerryInCar'.",
+                "default": "Taxi"
+            }
+        },
+        "required": [
+            "distance",
+            "type"
+        ]
+    }
+}

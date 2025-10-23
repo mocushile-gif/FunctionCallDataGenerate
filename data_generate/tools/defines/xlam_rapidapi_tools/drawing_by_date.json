@@ -1,0 +1,17 @@
+{
+    "name": "drawing_by_date",
+    "description": "This is a sub-function API for tool fantasy_5.\nTool description: Do you live for the Fantasy 5? Well, you’ve just found your match! Get the latest winning numbers and statistics for your game!\nAPI description: Fetches the winning Fantasy 5 number set for a specific drawing date.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "Must be a date field in the form of MM-DD-YYYY. Please no slashes \\\\\\\"\\\\\\\\\\\\\\\".",
+                "default": "01-01-2023"
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

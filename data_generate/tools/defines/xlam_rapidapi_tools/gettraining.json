@@ -1,0 +1,23 @@
+{
+    "name": "gettraining",
+    "description": "This is a sub-function API for tool dream_diffusion.\nTool description: Train Stable Diffusion models in 8 minutes and generate custom images.\nAPI description: Fetches the training status based on the given training UUID and API keys.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x_api_key": {
+                "type": "string",
+                "description": "API key for the Dream Diffusion service.",
+                "default": "3f9a50f3-db4c-4b52-9b15-709fcaddb6a7"
+            },
+            "training_uuid": {
+                "type": "string",
+                "description": "Unique identifier of the training whose status is being queried.",
+                "default": "95a0cdaa-0b16-45f7-9da6-ce4f43835d0d"
+            }
+        },
+        "required": [
+            "x_api_key",
+            "training_uuid"
+        ]
+    }
+}

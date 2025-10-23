@@ -1,0 +1,15 @@
+{
+    "name": "bus_detours",
+    "description": "This is a sub-function API for tool septa.\nTool description: Provides hackathon-style access to the SEPTA API.\r\n\r\nAllows introspection of the SEPTA locations and routes, and provides basically-realtime data on delays, alerts, vehicles, and routes.\nAPI description: Fetches the bus detours from the SEPTA API based on the specified route number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "req1": {
+                "type": "number",
+                "description": "The route number for which to retrieve detour information. Defaults to 2.",
+                "default": 2.0
+            }
+        },
+        "required": []
+    }
+}

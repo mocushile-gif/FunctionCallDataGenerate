@@ -1,0 +1,23 @@
+{
+    "name": "leaguehomestandings",
+    "description": "This is a sub-function API for tool baseballapi.\nTool description: Check baseball live scores on BaseballAPi every game in real time. BaseballApi covers all major leagues and offers information and odds for each. Follow most popular leagues such as MLB, LMB, Pro Yakyu - NPB and others.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Get the home standings of a specific baseball league for a specific season.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tournamentid": {
+                "type": "number",
+                "description": "The unique tournament ID for which you want to retrieve the home standings.",
+                "default": 19442
+            },
+            "seasonid": {
+                "type": "number",
+                "description": "The ID of the season for which you want to retrieve the home standings.",
+                "default": 49349
+            }
+        },
+        "required": [
+            "tournamentid",
+            "seasonid"
+        ]
+    }
+}

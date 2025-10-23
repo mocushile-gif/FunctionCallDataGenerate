@@ -1,0 +1,100 @@
+{
+    "{'latitude': 41.8781, 'longitude': -87.6298, 'radius': 50}": {
+        "error": "",
+        "response": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Illinois",
+                        "abbreviation": "IL"
+                    },
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -88.0,
+                                    41.5
+                                ],
+                                [
+                                    -87.0,
+                                    42.0
+                                ],
+                                [
+                                    -88.5,
+                                    42.5
+                                ],
+                                [
+                                    -88.0,
+                                    41.5
+                                ]
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Indiana",
+                        "abbreviation": "IN"
+                    },
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -86.5,
+                                    41.0
+                                ],
+                                [
+                                    -85.5,
+                                    41.8
+                                ],
+                                [
+                                    -87.0,
+                                    41.3
+                                ],
+                                [
+                                    -86.5,
+                                    41.0
+                                ]
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "Wisconsin",
+                        "abbreviation": "WI"
+                    },
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -88.5,
+                                    43.0
+                                ],
+                                [
+                                    -87.5,
+                                    42.5
+                                ],
+                                [
+                                    -89.0,
+                                    42.0
+                                ],
+                                [
+                                    -88.5,
+                                    43.0
+                                ]
+                            ]
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

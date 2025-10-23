@@ -1,0 +1,17 @@
+{
+    "name": "searchzodiacbysign",
+    "description": "This is a sub-function API for tool zodiac_sign_api.\nTool description: Gives data on Zodiac signs, their personality traits and dates\nAPI description: Search Zodiac by sign. This returns the value of the selected sign",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sign": {
+                "type": "string",
+                "description": "The zodiac sign to search for. Ensure the first letter is capitalized.",
+                "default": "Gemini"
+            }
+        },
+        "required": [
+            "sign"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "top_free_ios_apps",
+    "description": "This is a sub-function API for tool app_store.\nTool description: Unofficial Apple App Store Api\nAPI description: Retrieves a list of the top free iOS apps from the App Store using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lang": {
+                "type": "string",
+                "description": "The language code for the results (default is 'en').",
+                "default": "en"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country code for the results (default is 'us').",
+                "default": "us"
+            },
+            "num": {
+                "type": "number",
+                "description": "The number of application results to return (default is 100, with a max of 200).",
+                "default": 100.0
+            },
+            "category": {
+                "type": "string",
+                "description": "The category ID to filter the applications (default is '6016').",
+                "default": "6016"
+            }
+        },
+        "required": []
+    }
+}

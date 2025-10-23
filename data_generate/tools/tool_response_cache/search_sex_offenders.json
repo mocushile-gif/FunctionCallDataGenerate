@@ -1,0 +1,44 @@
+{
+    "{'radius': '50', 'lat': '39.9042', 'lng': '-116.4074'}": {
+        "error": "",
+        "response": {
+            "offenders": []
+        }
+    },
+    "{'lastname': 'Smith', 'state': 'Pennsylvania'}": {
+        "error": "",
+        "response": "{'offenders': []}"
+    },
+    "{'lat': 37.7749, 'lng': -122.4194, 'radius': 1, 'state': 'California'}": {
+        "error": "",
+        "response": "{'offenders': [{'name': 'DAVID MURRAY SIMONS', 'firstName': 'DAVID', 'firstName_nicknames': ['dave', 'davey', 'day'], 'middleName': 'MURRAY', 'lastName': 'SIMONS', 'dob': '1959-03-31T00:00:00.000Z', 'address': '1288 MISSION ST', 'city': 'SAN FRANCISCO', 'state': 'California', 'zipcode': '94103', 'sex': 'Male', 'age': '66', 'eyeColor': 'Blue', 'hairColor': 'Gray/Partially Gray', 'height': '5\\'11\"', 'weight': '172 lbs.', 'race': '', 'ethnicity': '', 'marks': 'hand, left', 'riskLevel': '', 'crime': 'Crime:  ORAL COPULATION, Statute:  288a', 'registrationDate': None, 'content': ' <br><b>Zip Code: </b>94103<br><b>Sex: </b>Male<br><b>Date of birth: </b>03/31/1959<br><b>Eye color: </b>Blue<br><b>Hair color: </b>Gray/Partially Gray<br><b>Height: </b>5&apos;11&quot;<br><b>Weight: </b> 172 lbs.<br><b>Marks/Scars/Tattoos: </b>hand, left\\t \\t <br><b>Ethnicity: </b>White<br>', 'lat': 37.7765223, 'lng': -122.4147783, 'offenderUrl': 'http://meganslaw.ca.gov/NSOPMoreInfo?handler=OpenOffenderMoreInfo&amp;id=1869424101801', 'offenderImageUrl': 'http://meganslaw.ca.gov/api/NSOPI?f=1869424101801', 'offenderImageUrlR2': 'https://photos.offenders.io/7921bf6b-4820-5c32-8f62-5984540800c9', 'jurisdiction': 'CA', 'isAbsconder': None, 'isPredator': None, 'updatedAt': '2025-05-15T16:18:03.745Z', 'createdAt': None, 'uuid': '7921bf6b-4820-5c32-8f62-5984540800c9', 'sources': [{'id': 'nsopw', 'name': 'National Sex Offender Public Website', 'url': 'https://www.nsopw.gov/'}]}, {'name': 'DAVID MURRAY SIMONS', "
+    },
+    "{'lat': 34.0522, 'lng': -118.2437, 'radius': 0.3}": {
+        "error": "",
+        "response": "{'offenders': []}"
+    },
+    "{'lat': 39.7498563, 'lng': -89.536712, 'radius': 2}": {
+        "error": "",
+        "response": "{'offenders': []}"
+    },
+    "{'lat': 39.8006593, 'lng': -89.64493449999999, 'radius': 5}": {
+        "error": "",
+        "response": "{'offenders': []}"
+    },
+    "{'lat': 37.397568, 'lng': -122.06492, 'radius': 0.5, 'city': 'San Jose', 'state': 'California'}": {
+        "error": "",
+        "response": "{'offenders': []}"
+    },
+    "{'lat': 37.397568, 'lng': -122.06492, 'radius': 1.0, 'city': 'San Jose', 'state': 'California'}": {
+        "error": "",
+        "response": "{'offenders': []}"
+    },
+    "{'lat': 37.3328, 'lng': -121.8856, 'radius': 1.0, 'city': 'San Jose', 'state': 'California'}": {
+        "error": "",
+        "response": "{'offenders': [{'name': 'DAVID GREGORY STEWART', 'firstName': 'DAVID', 'firstName_nicknames': ['dave', 'davey', 'day'], 'middleName': 'GREGORY', 'lastName': 'STEWART', 'dob': '1954-08-17T00:00:00.000Z', 'address': '546 WEST JULIAN ST', 'city': 'SAN JOSE', 'state': 'California', 'zipcode': '95110', 'sex': 'Male', 'age': '70', 'eyeColor': 'Brown', 'hairColor': 'Black', 'height': '6\\'04\"', 'weight': '220 lbs.', 'race': 'BLACK', 'ethnicity': '', 'marks': 'wrist, left\\t burn\\t ; wrist, right\\t \\t ; eyebrow, left/left eye area', 'riskLevel': '1', 'crime': 'Crime:  ORAL COPULATION WITH A MINOR UNDER 14 YEARS OF AGE OR BY FORCE OR FEAR, Statute:  288a(c)', 'registrationDate': None, 'content': ' <br><b>Risk level: </b> 1<br><b>Zip Code: </b>95110<br><b>Sex: </b>Male<br><b>Date of birth: </b>08/17/1954<br><b>Eye color: </b>Brown<br><b>Hair color: </b>Black<br><b>Height: </b>6&apos;04&quot;<br><b>Weight: </b> 220 lbs.<br><b>Marks/Scars/Tattoos: </b>wrist, left\\t burn\\t ; wrist, right\\t \\t ; eyebrow, left/left eye area\\t \\t <br><b>Ethnicity: </b>Black<br>', 'lat': 37.335335, 'lng': -121.9030926, 'offenderUrl': 'http://meganslaw.ca.gov/NSOPMoreInfo?handler=OpenOffenderMoreInfo&amp;id=7149921700278', 'offenderImageUrl': 'http://meganslaw.ca.gov/api/NSOPI?f=7149921700278', 'offenderImageUrlR2': 'https://photos.offenders.io/b8393eee-fb44-583e-9d6c-0cc4f09c4f07', 'jurisdiction': 'CA', 'isAbsconder': None, 'isPredator': None, 'updatedAt': '2025-06-03T21:05:02.377Z', 'createdAt': None, 'uuid': "
+    },
+    "{'lastname': 'Stewart', 'city': 'San Jose', 'state': 'California'}": {
+        "error": "",
+        "response": "{'offenders': []}"
+    }
+}

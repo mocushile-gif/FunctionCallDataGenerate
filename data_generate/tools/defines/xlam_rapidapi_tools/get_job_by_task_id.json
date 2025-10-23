@@ -1,0 +1,17 @@
+{
+    "name": "get_job_by_task_id",
+    "description": "This is a sub-function API for tool midjourney_best_experience.\nTool description: Connect your project to midjourney | mj contain generate、upsample、variation...\nAPI description: you can get the generate job  and  action job status by the task_id, and the task_id will expired at 24 hours after",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "task_id": {
+                "type": "string",
+                "description": "The unique identifier for the task. This ID will expire 24 hours after its creation.",
+                "default": "6ddd8121-2ae4-af61-b73d-eaefc8318d09"
+            }
+        },
+        "required": [
+            "task_id"
+        ]
+    }
+}

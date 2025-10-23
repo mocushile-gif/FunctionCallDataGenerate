@@ -1,0 +1,57 @@
+{
+    "name": "create_histogram_from_database",
+    "description": "Generate a histogram from a numeric column in an SQLite database table or JOIN query, with optional filtering and bin settings.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file."
+        },
+        "from_clause": {
+          "type": "string",
+          "description": "Main table or JOIN clause to select from."
+        },
+        "column_to_plot": {
+          "type": "string",
+          "description": "Name of the numeric column to generate the histogram from."
+        },
+        "where_clause": {
+          "type": "string",
+          "description": "Optional WHERE clause (without the 'WHERE' keyword)."
+        },
+        "where_params": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Optional parameters to bind into the WHERE clause."
+        },
+        "bins": {
+          "type": "integer",
+          "default": 10,
+          "description": "Number of bins in the histogram."
+        },
+        "title": {
+          "type": "string",
+          "default": "Histogram",
+          "description": "Title of the histogram chart."
+        },
+        "xlabel": {
+          "type": "string",
+          "default": "Values",
+          "description": "Label for the x-axis."
+        },
+        "ylabel": {
+          "type": "string",
+          "default": "Frequency",
+          "description": "Label for the y-axis."
+        },
+        "save_path": {
+          "type": "string",
+          "default": "./histogram_chart.png",
+          "description": "Path where the chart image will be saved."
+        }
+      },
+      "required": ["database_path", "from_clause", "column_to_plot"]
+    }
+  }
+  

@@ -1,0 +1,33 @@
+{
+    "name": "alerts_and_jams",
+    "description": "This is a sub-function API for tool waze.\nTool description: Get alerts, traffic jams information and driving directions from Waze/Google in real-time.\nAPI description: Get real-time alerts and jams from Waze in a geographic rectangular area defined by bottom-left and top-right latitude, longitude pairs.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "top_right": {
+                "type": "string",
+                "description": "Top-right corner of the geographic rectangular area for which to get alerts and traffic jams. Specified as latitude, longitude pair.",
+                "default": "40.772787404902594,-73.76818084716798"
+            },
+            "bottom_left": {
+                "type": "string",
+                "description": "Bottom-left corner of the geographic rectangular area for which to get alerts and traffic jams. Specified as latitude, longitude pair.",
+                "default": "40.66615391742187,-74.13732147216798"
+            },
+            "max_alerts": {
+                "type": "number",
+                "description": "Maximum number of alerts to fetch (to avoid fetching alerts set it to `0`).\nDefault: `20`",
+                "default": 20.0
+            },
+            "max_jams": {
+                "type": "number",
+                "description": "Maximum number of traffic jams to fetch (to avoid fetching traffic jams, set it to `0`).\nDefault: `20`",
+                "default": 20.0
+            }
+        },
+        "required": [
+            "top_right",
+            "bottom_left"
+        ]
+    }
+}

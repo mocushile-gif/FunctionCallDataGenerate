@@ -1,0 +1,17 @@
+{
+    "name": "get_price_history_by_id",
+    "description": "This is a sub-function API for tool steam_market_and_store.\nTool description: Welcome to the Steam Market API, your gateway to a treasure trove of information about the vibrant world of gaming on Steam! 😄🎮 Our API provides a seamless experience for developers and gamers alike, offering a range of powerful endpoints to retrieve all the juicy details about the Steam market and store.  Need up-to-date pricing information for a specific game or item? Look no further! 📈💰 Our endpoints deliver real-time market data, including current prices, historical trends, and volume sta...\nAPI description: For a given ID, get the price history together with the number of items sold.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "Retrieve this ID from the Get Items IDs by query endpoint",
+                "default": "730---Dreams %26 Nightmares Case"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

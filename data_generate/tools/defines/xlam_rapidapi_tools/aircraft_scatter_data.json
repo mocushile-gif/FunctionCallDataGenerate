@@ -1,0 +1,23 @@
+{
+    "name": "aircraft_scatter_data",
+    "description": "This is a sub-function API for tool aircraftscatter.\nTool description: Aircraft Scatter API by ADSBexchange.com\nAPI description: Fetch aircraft data above 10,000 feet within 1000 kilometers from the specified latitude and longitude.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "Latitude coordinate for the center point of the search radius.",
+                "default": 51.533
+            },
+            "lon": {
+                "type": "number",
+                "description": "Longitude coordinate for the center point of the search radius.",
+                "default": -0.0926
+            }
+        },
+        "required": [
+            "lat",
+            "lon"
+        ]
+    }
+}

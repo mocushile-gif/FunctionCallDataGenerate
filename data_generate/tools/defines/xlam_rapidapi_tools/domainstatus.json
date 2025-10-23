@@ -1,0 +1,18 @@
+{
+    "name": "domainstatus",
+    "description": "This is a sub-function API for tool tomba.\nTool description: Search or verify lists of email addresses in seconds\nAPI description: Retrieves the domain status to determine if it is a webmail or disposable email provider.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to check against the domain status."
+            },
+            "domain": {
+                "type": "string",
+                "description": "The domain to check for its status."
+            }
+        },
+        "required": []
+    }
+}

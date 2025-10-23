@@ -1,0 +1,17 @@
+{
+    "name": "get_ratings_by_restaurant",
+    "description": "This is a sub-function API for tool wyre_data.\nTool description: UK - search for all restaurants, pubs, bars, cafes, coffee shops and nightclubs in the UK. Find establishment names, addresses, postcodes, food hygiene ratings, local authorities, latitudes, longitudes and plenty more.\nAPI description: Fetch the Food Hygiene Rating for a given restaurant using the Wyre Data API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "restaurant": {
+                "type": "string",
+                "description": "The name or identifier of the restaurant for which the rating is to be fetched.",
+                "default": "Shovels Inn"
+            }
+        },
+        "required": [
+            "restaurant"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "name": "data_country",
+    "description": "This is a sub-function API for tool sports_odds_betapi.\nTool description: Sports data and odds Bets Api for all sports: football, basketball, hockey, tennis, cricket, eSports\nAPI description: Fetch data related to sports odds based on the provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "package": {
+                "type": "string",
+                "description": "The package to use in the query string.",
+                "default": "4a788ec11cd42226e2fdcbd62253379c"
+            },
+            "typeodds": {
+                "type": "string",
+                "description": "The type of odds (e.g., 'line', 'live').",
+                "default": "line"
+            },
+            "sportid": {
+                "type": "number",
+                "description": "The ID of the sport (e.g., 1, 2, 3) or 0 for all sports.",
+                "default": 1.0
+            },
+            "langodds": {
+                "type": "string",
+                "description": "The language for the odds (e.g., 'en', 'ru', 'fr').",
+                "default": "en"
+            },
+            "typeparams": {
+                "type": "string",
+                "description": "The type of parameters (e.g., 'sports', 'countries', 'tournaments').",
+                "default": "countries"
+            }
+        },
+        "required": [
+            "package",
+            "typeodds",
+            "sportid",
+            "langodds",
+            "typeparams"
+        ]
+    }
+}

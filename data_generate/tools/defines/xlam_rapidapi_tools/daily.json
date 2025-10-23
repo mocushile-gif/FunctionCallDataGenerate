@@ -1,0 +1,42 @@
+{
+    "name": "daily",
+    "description": "This is a sub-function API for tool foreca_weather.\nTool description: Everything you need to build a weather app\nAPI description: Fetches daily weather forecast for a given location using the Foreca Weather API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The location for which you want to fetch the weather forecast.",
+                "default": "102643743"
+            },
+            "alt": {
+                "type": "number",
+                "description": "Altitude in meters. Defaults to 0.",
+                "default": 0.0
+            },
+            "dataset": {
+                "type": "string",
+                "description": "The dataset to use for the forecast. Defaults to 'full'.",
+                "default": "full"
+            },
+            "tempunit": {
+                "type": "string",
+                "description": "The temperature unit for the response. Defaults to 'C' for Celsius.",
+                "default": "C"
+            },
+            "windunit": {
+                "type": "string",
+                "description": "The wind speed unit for the response. Defaults to 'MS' for meters per second.",
+                "default": "MS"
+            },
+            "periods": {
+                "type": "number",
+                "description": "Number of time steps for the forecast. Defaults to 8, with a maximum of 12.",
+                "default": 8.0
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

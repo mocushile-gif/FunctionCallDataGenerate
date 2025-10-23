@@ -1,0 +1,23 @@
+{
+    "name": "v1_airlines",
+    "description": "This is a sub-function API for tool airlines_by_api_ninjas.\nTool description: General and detailed fleet information for over 1,000 airlines. See more info  at https://api-ninjas.com/api/airlines.\nAPI description: API Ninjas Airlines API endpoint. At least one of the optional parameters must be provided.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "iata": {
+                "type": "string",
+                "description": "International Air Transport Association (IATA) 2-character airline code. Defaults to None."
+            },
+            "name": {
+                "type": "string",
+                "description": "Airline name. Supports partial matching (e.g., 'United' will match 'United Airlines'). Defaults to 'Singapore Airlines'.",
+                "default": "Singapore Airlines"
+            },
+            "icao": {
+                "type": "string",
+                "description": "International Civil Aviation Organization (ICAO) 3-character airline code. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

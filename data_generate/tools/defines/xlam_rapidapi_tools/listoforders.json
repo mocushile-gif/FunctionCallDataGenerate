@@ -1,0 +1,49 @@
+{
+    "name": "listoforders",
+    "description": "This is a sub-function API for tool sandbox_mktplace_eu_04_orders.\nTool description: sandbox.mktplace.eu - 04 orders\nAPI description: API Instructions: https://www.mktplace.eu/api-instructions-i-32.html\n\nSell on mktplace.eu: https://www.mktplace.eu/sell-on-mktplace-i-25.html",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cache_control": {
+                "type": "string",
+                "description": "Value for the Cache-Control header.",
+                "default": "no-cache"
+            },
+            "content_type": {
+                "type": "string",
+                "description": "Value for the Content-Type header.",
+                "default": "application/json"
+            },
+            "secret": {
+                "type": "string",
+                "description": "Secret key for additional authentication."
+            },
+            "token": {
+                "type": "string",
+                "description": "Authentication token for the Ecombr API."
+            },
+            "e_mail": {
+                "type": "string",
+                "description": "Email address associated with the seller account."
+            },
+            "action": {
+                "type": "string",
+                "description": "The action to be performed on the orders.",
+                "default": "orders_list"
+            },
+            "status": {
+                "type": "string",
+                "description": "Status of the orders to filter."
+            }
+        },
+        "required": [
+            "cache_control",
+            "content_type",
+            "secret",
+            "token",
+            "e_mail",
+            "action",
+            "status"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "points",
+    "description": "This is a sub-function API for tool live_golf_data.\nTool description: PGA Tour and LIV Tour live golf data for your application needs such as rankings, leaderboards, scorecards, and results.\nAPI description: Fetch official FedExCup points earned per player for a given `tournId` and `year`. Note that PGA Tour non-members will not be officially ranked.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tournid": {
+                "type": "string",
+                "description": "The tournament ID for which to fetch the points.",
+                "default": "475"
+            },
+            "year": {
+                "type": "string",
+                "description": "The year for which to fetch the points.",
+                "default": "2022"
+            }
+        },
+        "required": [
+            "tournid",
+            "year"
+        ]
+    }
+}

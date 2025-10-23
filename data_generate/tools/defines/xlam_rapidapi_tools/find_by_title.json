@@ -1,0 +1,17 @@
+{
+    "name": "find_by_title",
+    "description": "This is a sub-function API for tool movies_details.\nTool description: we will provide movies details\nAPI description: Fetches movie details based on the given title from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The title of the movie to search for.",
+                "default": "game of thr"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

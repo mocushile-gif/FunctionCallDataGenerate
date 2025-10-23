@@ -1,0 +1,17 @@
+{
+    "name": "city_details",
+    "description": "This is a sub-function API for tool city_and_state_search_api.\nTool description: A easy-to-use API for search cities, states, and countries from around the world.\nAPI description: Fetch detailed information about a specific city using its ID from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the city for which detailed information is to be retrieved.",
+                "default": "132782"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

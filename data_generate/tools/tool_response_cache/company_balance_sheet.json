@@ -1,0 +1,156 @@
+{
+    "{'symbol': 'AAPL', 'period': 'QUARTERLY'}": {
+        "error": "",
+        "response": {
+            "status": "OK",
+            "request_id": "3fe64be4-a2e4-47dd-b7d6-3258ef159de5",
+            "data": {
+                "symbol": "AAPL:NASDAQ",
+                "type": "stock",
+                "balance_sheet": [
+                    {
+                        "year": 2023,
+                        "quarter": 2,
+                        "currency": "USD",
+                        "cash_and_short_term_investments": 14.88,
+                        "total_assets": 332160000000,
+                        "total_liabilities": 270002000000,
+                        "total_equity": 62158000000,
+                        "shares_outstanding": 15728702000,
+                        "price_to_book": 49.1114,
+                        "return_on_assets_percent": 20.86,
+                        "return_on_capital_percent": 41.69
+                    },
+                    {
+                        "year": 2023,
+                        "quarter": 1,
+                        "currency": "USD",
+                        "cash_and_short_term_investments": 15.79,
+                        "total_assets": 346747000000,
+                        "total_liabilities": 290020000000,
+                        "total_equity": 56727000000,
+                        "shares_outstanding": 15821946000,
+                        "price_to_book": 54.1872,
+                        "return_on_assets_percent": 25.74,
+                        "return_on_capital_percent": 51.31
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 4,
+                        "currency": "USD",
+                        "cash_and_short_term_investments": 15.96,
+                        "total_assets": 352755000000,
+                        "total_liabilities": 302083000000,
+                        "total_equity": 50672000000,
+                        "shares_outstanding": 15908118000,
+                        "price_to_book": 61.0031,
+                        "return_on_assets_percent": 18.06,
+                        "return_on_capital_percent": 34.48
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 3,
+                        "currency": "USD",
+                        "cash_and_short_term_investments": 15.71,
+                        "total_assets": 336309000000,
+                        "total_liabilities": 278202000000,
+                        "total_equity": 58107000000,
+                        "shares_outstanding": 16070752000,
+                        "price_to_book": 53.7368,
+                        "return_on_assets_percent": 16.8,
+                        "return_on_capital_percent": 31.6
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 2,
+                        "currency": "USD",
+                        "cash_and_short_term_investments": 17.02,
+                        "total_assets": 350662000000,
+                        "total_liabilities": 283263000000,
+                        "total_equity": 67399000000,
+                        "shares_outstanding": 16185181000,
+                        "price_to_book": 46.6322,
+                        "return_on_assets_percent": 20.48,
+                        "return_on_capital_percent": 39.23
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 1,
+                        "currency": "USD",
+                        "cash_and_short_term_investments": 16.03,
+                        "total_assets": 381191000000,
+                        "total_liabilities": 309259000000,
+                        "total_equity": 71932000000,
+                        "shares_outstanding": 16319441000,
+                        "price_to_book": 44.0886,
+                        "return_on_assets_percent": 28.33,
+                        "return_on_capital_percent": 52.6
+                    },
+                    {
+                        "year": 2021,
+                        "quarter": 4,
+                        "currency": "USD",
+                        "cash_and_short_term_investments": 11.6,
+                        "total_assets": 351002000000,
+                        "total_liabilities": 287912000000,
+                        "total_equity": 63090000000,
+                        "shares_outstanding": 16406397000,
+                        "price_to_book": 50.5182,
+                        "return_on_assets_percent": 17.47,
+                        "return_on_capital_percent": 29.78
+                    },
+                    {
+                        "year": 2021,
+                        "quarter": 3,
+                        "currency": "USD",
+                        "cash_and_short_term_investments": 10.77,
+                        "total_assets": 329840000000,
+                        "total_liabilities": 265560000000,
+                        "total_equity": 64280000000,
+                        "shares_outstanding": 16530166000,
+                        "price_to_book": 49.9974,
+                        "return_on_assets_percent": 18.09,
+                        "return_on_capital_percent": 29.88
+                    }
+                ],
+                "period": "QUARTERLY"
+            }
+        }
+    },
+    "{'symbol': 'TSLA', 'period': 'ANNUAL', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'c132b84c-7502-44fb-8ebd-1b67f15a5117', 'data': {'symbol': 'TSLA:NASDAQ', 'type': 'stock', 'balance_sheet': [{'date': '2024-12-31', 'year': 2024, 'month': 12, 'day': 31, 'currency': 'USD', 'cash_and_short_term_investments': 36563000000, 'total_assets': 122070000000, 'total_liabilities': 48390000000, 'total_equity': 73680000000, 'shares_outstanding': 3216517037, 'price_to_book': 15.8108, 'return_on_assets_percent': 4.19, 'return_on_capital_percent': 5.97}, {'date': '2023-12-31', 'year': 2023, 'month': 12, 'day': 31, 'currency': 'USD', 'cash_and_short_term_investments': 29094000000, 'total_assets': 106618000000, 'total_liabilities': 43009000000, 'total_equity': 63609000000, 'shares_outstanding': 3184790415, 'price_to_book': 18.2222, 'return_on_assets_percent': 5.88, 'return_on_capital_percent': 8.9}, {'date': '2022-12-31', 'year': 2022, 'month': 12, 'day': 31, 'currency': 'USD', 'cash_and_short_term_investments': 22185000000, 'total_assets': 82338000000, 'total_liabilities': 36440000000, 'total_equity': 45898000000, 'shares_outstanding': 3164102701, 'price_to_book': 25.3666, 'return_on_assets_percent': 11.85, 'return_on_capital_percent': 18.58}, {'date': '2021-12-31', 'year': 2021, 'month': 12, 'day': 31, 'currency': 'USD', 'cash_and_short_term_investments': 17707000000, 'total_assets': 62131000000, 'total_liabilities': 30548000000, 'total_equity': 31583000000, 'shares_outstanding': 3100522833, 'price_to_book': 36.7998, 'return_on_assets_percent':"
+    },
+    "{'period': 'ANNUAL', 'symbol': 'MSFT:NASDAQ', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '68a7a3ce-a662-4b30-b945-83ba61cd6bee', 'data': {'symbol': 'MSFT:NASDAQ', 'type': 'stock', 'balance_sheet': [{'date': '2024-6-30', 'year': 2024, 'month': 6, 'day': 30, 'currency': 'USD', 'cash_and_short_term_investments': 75531000000, 'total_assets': 512163000000, 'total_liabilities': 243686000000, 'total_equity': 268477000000, 'shares_outstanding': 7433038381, 'price_to_book': 11.5918, 'return_on_assets_percent': 14.8, 'return_on_capital_percent': 20.98}, {'date': '2023-6-30', 'year': 2023, 'month': 6, 'day': 30, 'currency': 'USD', 'cash_and_short_term_investments': 111256000000, 'total_assets': 411976000000, 'total_liabilities': 205753000000, 'total_equity': 206223000000, 'shares_outstanding': 7429763722, 'price_to_book': 15.084, 'return_on_assets_percent': 14.27, 'return_on_capital_percent': 20.89}, {'date': '2022-6-30', 'year': 2022, 'month': 6, 'day': 30, 'currency': 'USD', 'cash_and_short_term_investments': 104749000000, 'total_assets': 364840000000, 'total_liabilities': 198298000000, 'total_equity': 166542000000, 'shares_outstanding': 7457891872, 'price_to_book': 18.762, 'return_on_assets_percent': 14.92, 'return_on_capital_percent': 22.21}, {'date': '2021-6-30', 'year': 2021, 'month': 6, 'day': 30, 'currency': 'USD', 'cash_and_short_term_investments': 130256000000, 'total_assets': 333779000000, 'total_liabilities': 191791000000, 'total_equity': 141988000000, 'shares_outstanding': 7514891248, 'price_to_book': 22.1706, 'return_on_assets_percent': 13.76, 'return_on_capital_percent': 20.58}, {'date': '2020-6-30', 'year': 2020, 'month': 6, 'day': 30, 'currency': 'USD', 'cash_and_short_term_investments': 136492000000, 'total_assets': 301311000000, 'total_liabilities': 183007000000, 'total_equity': 118304000000, 'shares_outstanding': 7567652935, 'price_to_book': 26.7806, 'return_on_assets_percent': 11.26, 'return_on_capital_percent': 17.01}, {'date': '2019-6-30', 'year': 2019, 'month': 6, 'day': 30, 'currency': 'USD', 'cash_and_short_term_investments': 133832000000, 'total_assets':"
+    },
+    "{'period': 'ANNUAL', 'symbol': 'MSFT:NASDAQ'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'db5d407a-3f50-4148-a78b-5972ce2f4cac', 'data': {'symbol': 'MSFT:NASDAQ', 'type': 'stock', 'balance_sheet': [{'date': '2024-6-30', 'year': 2024, 'month': 6, 'day': 30, 'currency': 'USD', 'cash_and_short_term_investments': 75531000000, 'total_assets': 512163000000, 'total_liabilities': 243686000000, 'total_equity': 268477000000, 'shares_outstanding': 7433038381, 'price_to_book': 11.9781, 'return_on_assets_percent': 14.8, 'return_on_capital_percent': 20.98}, {'date': '2023-6-30', 'year': 2023, 'month': 6, 'day': 30, 'currency': 'USD', 'cash_and_short_term_investments': 111256000000, 'total_assets': 411976000000, 'total_liabilities': 205753000000, 'total_equity': 206223000000, 'shares_outstanding': 7429763722, 'price_to_book': 15.5867, 'return_on_assets_percent': 14.27, 'return_on_capital_percent': 20.89}, {'date': '2022-6-30', 'year': 2022, 'month': 6, 'day': 30, 'currency': 'USD', 'cash_and_short_term_investments': 104749000000, 'total_assets': 364840000000, 'total_liabilities': 198298000000, 'total_equity': 166542000000, 'shares_outstanding': 7457891872, 'price_to_book': 19.3873, 'return_on_assets_percent': 14.92, 'return_on_capital_percent': 22.21}, {'date': '2021-6-30', 'year': 2021, 'month': 6, 'day': 30, 'currency': 'USD', 'cash_and_short_term_investments': 130256000000, 'total_assets': 333779000000, 'total_liabilities': 191791000000, 'total_equity': 141988000000, 'shares_outstanding': 7514891248, 'price_to_book': 22.9094, 'return_on_assets_percent': 13.76, 'return_on_capital_percent': 20.58}, {'date': '2020-6-30', 'year': 2020, 'month': 6, 'day': 30, 'currency': 'USD', 'cash_and_short_term_investments': 136492000000, 'total_assets': 301311000000, 'total_liabilities': 183007000000, 'total_equity': 118304000000, 'shares_outstanding': 7567652935, 'price_to_book': 27.6731, 'return_on_assets_percent': 11.26, 'return_on_capital_percent': 17.01}, {'date': '2019-6-30', 'year': 2019, 'month': 6, 'day': 30, 'currency': 'USD', 'cash_and_short_term_investments': 133832000000, 'total_assets"
+    },
+    "{'period': 'QUARTERLY', 'symbol': 'MSFT:NASDAQ'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '7208fbcf-b5b9-4467-81fd-6b97ac48282e', 'data': {'symbol': 'MSFT:NASDAQ', 'type': 'stock', 'balance_sheet': [{'date': '2025-9-30', 'year': 2025, 'month': 9, 'day': 30, 'quarter': 1, 'currency': 'USD', 'cash_and_short_term_investments': 78429000000, 'total_assets': 523013000000, 'total_liabilities': 235290000000, 'total_equity': 287723000000, 'shares_outstanding': 7434880776, 'price_to_book': 10.5027, 'return_on_assets_percent': 14.76, 'return_on_capital_percent': 20.34}, {'date': '2024-6-30', 'year': 2024, 'month': 6, 'day': 30, 'quarter': 4, 'currency': 'USD', 'cash_and_short_term_investments': 75531000000, 'total_assets': 512163000000, 'total_liabilities': 243686000000, 'total_equity': 268477000000, 'shares_outstanding': 7433038381, 'price_to_book': 11.2531, 'return_on_assets_percent': 14.01, 'return_on_capital_percent': 19.24}, {'date': '2024-3-31', 'year': 2024, 'month': 3, 'day': 31, 'quarter': 3, 'currency': 'USD', 'cash_and_short_term_investments': 80013000000, 'total_assets': 484275000000, 'total_liabilities': 231123000000, 'total_equity': 253152000000, 'shares_outstanding': 7432305794, 'price_to_book': 11.9304, 'return_on_assets_percent': 14.44, 'return_on_capital_percent': 19.45}, {'date': '2024-12-31', 'year': 2024, 'month': 12, 'day': 31, 'quarter': 2, 'currency': 'USD', 'cash_and_short_term_investments': 80982000000, 'total_assets': 470558000000, 'total_liabilities': 232290000000, 'total_equity': 238268000000, 'shares_outstanding': 7430436229, 'price_to_book': 12.6747, 'return_on_assets_percent': 14.75, 'return_on_capital_percent': 19.99}, {'date': '2024-9-30', 'year': 2024, 'month': 9, 'day': 30, 'quarter': 1, 'currency': 'USD', 'cash_and_short_term_investments': 143945000000, 'total_assets': 445785000000, 'total_liabilities': 225071000000, 'total_equity': 220714000000, 'shares_outstanding': 7432262329, 'price_to_book': 13.6818, 'return_on_assets_percent': 15.68, 'return_on_capital_percent': 21.97}, {'date': '2023-6-30', 'year': 2023, 'month': 6, 'day': 30, 'quarter': "
+    },
+    "{'period': 'ANNUAL', 'symbol': 'AAPL:NASDAQ', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '569fe0b1-a05d-4663-942c-54da5130b265', 'data': {'symbol': 'AAPL:NASDAQ', 'type': 'stock', 'balance_sheet': [{'year': 2023, 'currency': 'USD', 'cash_and_short_term_investments': 61555000000, 'total_assets': 352583000000, 'total_liabilities': 290437000000, 'total_equity': 62146000000, 'shares_outstanding': 15552752000, 'price_to_book': 56.88, 'return_on_assets_percent': 20.26, 'return_on_capital_percent': 38.7}, {'year': 2022, 'currency': 'USD', 'cash_and_short_term_investments': 48304000000, 'total_assets': 352755000000, 'total_liabilities': 302083000000, 'total_equity': 50672000000, 'shares_outstanding': 15908118000, 'price_to_book': 71.5472, 'return_on_assets_percent': 21.21, 'return_on_capital_percent': 39}, {'year': 2021, 'currency': 'USD', 'cash_and_short_term_investments': 62639000000, 'total_assets': 351002000000, 'total_liabilities': 287912000000, 'total_equity': 63090000000, 'shares_outstanding': 16406397000, 'price_to_book': 59.25, 'return_on_assets_percent': 20.18, 'return_on_capital_percent': 35.17}, {'year': 2020, 'currency': 'USD', 'cash_and_short_term_investments': 90943000000, 'total_assets': 323888000000, 'total_liabilities': 258549000000, 'total_equity': 65339000000, 'shares_outstanding': 17001802000, 'price_to_book': 59.0961, 'return_on_assets_percent': 12.51, 'return_on_capital_percent': 21.46}, {'year': 2019, 'currency': 'USD', 'cash_and_short_term_investments': 100557000000, 'total_assets': 338516000000, 'total_liabilities': 248028000000, 'total_equity': 90488000000, 'shares_outstanding': 17773060000, 'price_to_book': 44.6994, 'return_on_assets_percent': 11.35, 'return_on_capital_percent': 19.02}, {'year': 2018, 'currency': 'USD', 'cash_and_short_term_investments': 66301000000, 'total_assets': 365725000000, 'total_liabilities': 258578000000, 'total_equity': 107147000000, 'shares_outstanding': 18981592000, 'price_to_book': 40.4121, 'return_on_assets_percent': 11.96, 'return_on_capital_percent': 18.8}, {'year': 2017, 'currency': 'USD', 'cash_and_short_term_invest"
+    },
+    "{'period': 'ANNUAL', 'symbol': 'GOOGL:NASDAQ'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '1e5b78c4-4b99-4d01-99e7-9b475586a833', 'data': {'symbol': 'GOOGL:NASDAQ', 'type': 'stock', 'balance_sheet': [{'date': '2024-12-31', 'year': 2024, 'month': 12, 'day': 31, 'currency': 'USD', 'cash_and_short_term_investments': 95657000000, 'total_assets': 450256000000, 'total_liabilities': 125172000000, 'total_equity': 325084000000, 'shares_outstanding': 12190000000, 'price_to_book': 6.4515, 'return_on_assets_percent': 16.74, 'return_on_capital_percent': 21.42}, {'date': '2023-12-31', 'year': 2023, 'month': 12, 'day': 31, 'currency': 'USD', 'cash_and_short_term_investments': 110916000000, 'total_assets': 402392000000, 'total_liabilities': 119013000000, 'total_equity': 283379000000, 'shares_outstanding': 12433000000, 'price_to_book': 7.5523, 'return_on_assets_percent': 13.73, 'return_on_capital_percent': 17.58}, {'date': '2022-12-31', 'year': 2022, 'month': 12, 'day': 31, 'currency': 'USD', 'cash_and_short_term_investments': 113762000000, 'total_assets': 365264000000, 'total_liabilities': 109120000000, 'total_equity': 256144000000, 'shares_outstanding': 12807000000, 'price_to_book': 8.6172, 'return_on_assets_percent': 12.91, 'return_on_capital_percent': 16.52}, {'date': '2021-12-31', 'year': 2021, 'month': 12, 'day': 31, 'currency': 'USD', 'cash_and_short_term_investments': 139649000000, 'total_assets': 359268000000, 'total_liabilities': 107633000000, 'total_equity': 251635000000, 'shares_outstanding': 13219426420, 'price_to_book': 9.0389, 'return_"
+    },
+    "{'period': 'ANNUAL', 'symbol': '7182:TYO', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'fc3081d4-8694-4153-9076-d9d8d9427fac', 'data': {'symbol': '7182:TYO', 'type': 'stock', 'balance_sheet': [{'date': '2025-3-31', 'year': 2025, 'month': 3, 'day': 31, 'currency': 'JPY', 'cash_and_short_term_investments': 73102863000000, 'total_assets': 233601531000000, 'total_liabilities': 224510541000000, 'total_equity': 9090990000000, 'shares_outstanding': 3599956860, 'price_to_book': 0.617, 'return_on_assets_percent': 0.18, 'return_on_capital_percent': None}, {'date': '2024-3-31', 'year': 2024, 'month': 3, 'day': 31, 'currency': 'JPY', 'cash_and_short_term_investments': 67467167000000, 'total_assets': 233907990000000, 'total_liabilities': 224200069000000, 'total_equity': 9707921000000, 'shares_outstanding': 3616152756, 'price_to_book': 0.5796, 'return_on_assets_percent': 0.15, 'return_on_capital_percent': None}, {'date': '2023-3-31', 'year': 2023, 'month': 3, 'day': 31, 'currency': 'JPY', 'cash_and_short_term_investments': 78262031000000, 'total_assets': 229582232000000, 'total_liabilities': 219930359000000, 'total_equity': 9651873000000, 'shares_outstanding': 3616095517, 'price_to_book': 0.5911, 'return_on_assets_percent': 0.14, 'return_on_capital_percent': None}, {'date': '2022-3-31', 'year': 2022, 'month': 3, 'day': 31, 'currency': 'JPY', 'cash_and_short_term_investments': 76529473000000, 'total_assets': 232954480000000, 'total_liabilities': 222652220000000, 'total_equity': 10302260000000, 'shares_outstanding': 3748789117, 'price_to_book': 0"
+    },
+    "{'period': 'QUARTERLY', 'symbol': '7182:TYO', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '2b088ad2-ff64-4b52-9a19-9c834f2e89b2', 'data': {'symbol': '7182:TYO', 'type': 'stock', 'balance_sheet': [{'date': '2025-3-31', 'year': 2025, 'month': 3, 'day': 31, 'quarter': 4, 'currency': 'JPY', 'cash_and_short_term_investments': 73102863000000, 'total_assets': 233601531000000, 'total_liabilities': 224510541000000, 'total_equity': 9090990000000, 'shares_outstanding': 3599956860, 'price_to_book': 0.617, 'return_on_assets_percent': None, 'return_on_capital_percent': None}, {'date': '2025-12-31', 'year': 2025, 'month': 12, 'day': 31, 'quarter': 3, 'currency': 'JPY', 'cash_and_short_term_investments': 78625384000000, 'total_assets': 243210798000000, 'total_liabilities': 233802715000000, 'total_equity': 9408083000000, 'shares_outstanding': 3616468060, 'price_to_book': 0.5985, 'return_on_assets_percent': None, 'return_on_capital_percent': None}, {'date': '2025-9-30', 'year': 2025, 'month': 9, 'day': 30, 'quarter': 2, 'currency': 'JPY', 'cash_and_short_term_investments': 74338662000000, 'total_assets': 238333917000000, 'total_liabilities': 228788361000000, 'total_equity': 9545556000000, 'shares_outstanding': 3616468097, 'price_to_book': 0.5897, 'return_on_assets_percent': 0.21, 'return_on_capital_percent': None}, {'date': '2025-6-30', 'year': 2025, 'month': 6, 'day': 30, 'quarter': 1, 'currency': 'JPY', 'cash_and_short_term_investments': 69202197000000, 'total_assets': 238692788000000, 'total_liabilities': 229420159000000, 'total_equity': 9272629000"
+    },
+    "{'period': 'QUARTERLY', 'symbol': 'MSFT:NASDAQ', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '6500ec9c-5892-42d3-9b6a-5245dad3a099', 'data': {'symbol': 'MSFT:NASDAQ', 'type': 'stock', 'balance_sheet': [{'year': 2024, 'quarter': 4, 'currency': 'USD', 'cash_and_short_term_investments': 75531000000, 'total_assets': 512163000000, 'total_liabilities': 243686000000, 'total_equity': 268477000000, 'shares_outstanding': 7433038381, 'price_to_book': 11.4705, 'return_on_assets_percent': 14.01, 'return_on_capital_percent': 19.24}, {'year': 2024, 'quarter': 3, 'currency': 'USD', 'cash_and_short_term_investments': 80013000000, 'total_assets': 484275000000, 'total_liabilities': 231123000000, 'total_equity': 253152000000, 'shares_outstanding': 7432305794, 'price_to_book': 12.1609, 'return_on_assets_percent': 14.44, 'return_on_capital_percent': 19.45}, {'year': 2024, 'quarter': 2, 'currency': 'USD', 'cash_and_short_term_investments': 80982000000, 'total_assets': 470558000000, 'total_liabilities': 232290000000, 'total_equity': 238268000000, 'shares_outstanding': 7430436229, 'price_to_book': 12.9195, 'return_on_assets_percent': 14.75, 'return_on_capital_percent': 19.99}, {'year': 2024, 'quarter': 1, 'currency': 'USD', 'cash_and_short_term_investments': 143945000000, 'total_assets': 445785000000, 'total_liabilities': 225071000000, 'total_equity': 220714000000, 'shares_outstanding': 7432262329, 'price_to_book': 13.9461, 'return_on_assets_percent': 15.68, 'return_on_capital_percent': 21.97}, {'year': 2023, 'quarter': 4, 'currency': 'USD', 'cash_and_short_term_investments': 111256000000, 'total_assets': 411976000000, 'total_liabilities': 205753000000, 'total_equity': 206223000000, 'shares_outstanding': 7429763722, 'price_to_book': 14.9261, 'return_on_assets_percent': 15.31, 'return_on_capital_percent': 21.67}, {'year': 2023, 'quarter': 3, 'currency': 'USD', 'cash_and_short_term_investments': 104419000000, 'total_assets': 380088000000, 'total_liabilities': 185405000000, 'total_equity': 194683000000, 'shares_outstanding': 7435487575, 'price_to_book': 15.8212, 'return_on_assets_percent': 15.01, 'ret"
+    }
+}

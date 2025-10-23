@@ -1,0 +1,21 @@
+{
+    "name": "feed_by_username",
+    "description": "This is a sub-function API for tool instagram_1.\nTool description: Collect instagram data with no headaches - more APIs are available, please request any that are not yet available!\nAPI description: Fetches the current Instagram feed for a given username.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username for which to fetch the feed.",
+                "default": "therock"
+            },
+            "raw": {
+                "type": "boolean",
+                "description": "If set to True or '1', returns the raw, unprocessed data feed. Defaults to None."
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

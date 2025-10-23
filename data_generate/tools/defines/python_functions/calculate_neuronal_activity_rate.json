@@ -1,0 +1,25 @@
+{
+    "name": "calculate_neuronal_activity_rate",
+    "description": "Calculates the neuronal activity rate based on the synaptic input rate, synaptic weight, and decay constant.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "synaptic_input_rate": {
+          "description": "The rate of synaptic inputs per second.",
+          "type": "number",
+          "default": 1.0
+        },
+        "synaptic_weight": {
+          "description": "The weight of the synaptic input, denoting its influence.",
+          "type": "number",
+          "default": 0.1
+        },
+        "decay_constant": {
+          "description": "The rate at which the neuron's potential decays.",
+          "type": "number",
+          "default": 1.0
+        }
+      },
+      "required": []
+    }
+}

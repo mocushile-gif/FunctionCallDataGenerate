@@ -1,0 +1,50 @@
+{
+    "name": "list_all_bot_category_groups",
+    "description": "This is a sub-function API for tool lemurbot.\nTool description: Meet Lemurbot - Your Personal AI Chatbot Companion! With advanced features like creating, training and chatting, Lemurbot makes it easy and fun for users to interact and learn from an intelligent conversationalist. Plus, with ChatGPT integration and the ability to create multiple bots, the possibilities for learning and entertainment are endless!\nAPI description: Get a list of category groups which are linked to user owned bots (not locked bots).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category_group": {
+                "type": "string",
+                "description": "Category group slug of the category group in the bot category group."
+            },
+            "dir": {
+                "type": "string",
+                "description": "Direction of the ordering. Default is 'asc'.",
+                "default": "asc"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of records to return. Default is 20.",
+                "default": 20
+            },
+            "order": {
+                "type": "string",
+                "description": "the search field you wish to order by - the available field names are the sames ones you can search by",
+                "default": "id"
+            },
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the bot category group."
+            },
+            "bot": {
+                "type": "string",
+                "description": "Bot slug of the bot in the bot category group."
+            },
+            "category_group_id": {
+                "type": "number",
+                "description": "category_group_id of the category group"
+            },
+            "bot_id": {
+                "type": "number",
+                "description": "The ID of the bot category group."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of results to start from. Default is 1.",
+                "default": 1
+            }
+        },
+        "required": []
+    }
+}

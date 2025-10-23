@@ -1,0 +1,209 @@
+{
+    "{'symbol': 'AAPL', 'interval': '1day'}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "symbol": "AAPL",
+                "interval": "1day",
+                "currency": "USD",
+                "exchange_timezone": "America/New_York",
+                "exchange": "NASDAQ",
+                "mic_code": "XNGS",
+                "type": "Common Stock",
+                "indicator": {
+                    "name": "AROON - Aroon Indicator",
+                    "time_period": 14
+                }
+            },
+            "values": [
+                {
+                    "datetime": "2023-07-17",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "28.57143"
+                },
+                {
+                    "datetime": "2023-07-14",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "35.71429"
+                },
+                {
+                    "datetime": "2023-07-13",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "42.85714"
+                },
+                {
+                    "datetime": "2023-07-12",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "50.00000"
+                },
+                {
+                    "datetime": "2023-07-11",
+                    "aroon_down": "7.14286",
+                    "aroon_up": "57.14286"
+                },
+                {
+                    "datetime": "2023-07-10",
+                    "aroon_down": "14.28571",
+                    "aroon_up": "64.28571"
+                },
+                {
+                    "datetime": "2023-07-07",
+                    "aroon_down": "21.42857",
+                    "aroon_up": "71.42857"
+                },
+                {
+                    "datetime": "2023-07-06",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "78.57143"
+                },
+                {
+                    "datetime": "2023-07-05",
+                    "aroon_down": "7.14286",
+                    "aroon_up": "85.71429"
+                },
+                {
+                    "datetime": "2023-07-03",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "92.85714"
+                },
+                {
+                    "datetime": "2023-06-30",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "100.00000"
+                },
+                {
+                    "datetime": "2023-06-29",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "100.00000"
+                },
+                {
+                    "datetime": "2023-06-28",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "100.00000"
+                },
+                {
+                    "datetime": "2023-06-27",
+                    "aroon_down": "7.14286",
+                    "aroon_up": "100.00000"
+                },
+                {
+                    "datetime": "2023-06-26",
+                    "aroon_down": "14.28571",
+                    "aroon_up": "100.00000"
+                },
+                {
+                    "datetime": "2023-06-23",
+                    "aroon_down": "21.42857",
+                    "aroon_up": "100.00000"
+                },
+                {
+                    "datetime": "2023-06-22",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "100.00000"
+                },
+                {
+                    "datetime": "2023-06-21",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "85.71429"
+                },
+                {
+                    "datetime": "2023-06-20",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "92.85714"
+                },
+                {
+                    "datetime": "2023-06-16",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "100.00000"
+                },
+                {
+                    "datetime": "2023-06-15",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "100.00000"
+                },
+                {
+                    "datetime": "2023-06-14",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "50.00000"
+                },
+                {
+                    "datetime": "2023-06-13",
+                    "aroon_down": "7.14286",
+                    "aroon_up": "57.14286"
+                },
+                {
+                    "datetime": "2023-06-12",
+                    "aroon_down": "14.28571",
+                    "aroon_up": "64.28571"
+                },
+                {
+                    "datetime": "2023-06-09",
+                    "aroon_down": "21.42857",
+                    "aroon_up": "71.42857"
+                },
+                {
+                    "datetime": "2023-06-08",
+                    "aroon_down": "28.57143",
+                    "aroon_up": "78.57143"
+                },
+                {
+                    "datetime": "2023-06-07",
+                    "aroon_down": "0.00000",
+                    "aroon_up": "85.71429"
+                },
+                {
+                    "datetime": "2023-06-06",
+                    "aroon_down": "7.14286",
+                    "aroon_up": "92.85714"
+                },
+                {
+                    "datetime": "2023-06-05",
+                    "aroon_down": "14.28571",
+                    "aroon_up": "100.00000"
+                },
+                {
+                    "datetime": "2023-06-02",
+                    "aroon_down": "21.42857",
+                    "aroon_up": "100.00000"
+                }
+            ],
+            "status": "ok"
+        }
+    },
+    "{'symbol': 'MSFT', 'interval': '1day', 'format': 'json'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'symbol': 'TSLA', 'interval': '1day', 'time_period': 14, 'format': 'json'}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'TSLA', 'interval': '1day', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'AROON - Aroon Indicator', 'time_period': 14}}, 'values': [{'datetime': '2025-05-30', 'aroon_down': '0', 'aroon_up': '92.85714'}, {'datetime': '2025-05-29', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-28', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-27', 'aroon_down': '7.14286', 'aroon_up': '100'}, {'datetime': '2025-05-23', 'aroon_down': '14.28571', 'aroon_up': '78.57143'}, {'datetime': '2025-05-22', 'aroon_down': '21.42857', 'aroon_up': '85.71429'}, {'datetime': '2025-05-21', 'aroon_down': '28.57143', 'aroon_up': '92.85714'}, {'datetime': '2025-05-20', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-19', 'aroon_down': '7.14286', 'aroon_up': '92.85714'}, {'datetime': '2025-05-16', 'aroon_down': '14.28571', 'aroon_up': '100'}, {'datetime': '2025-05-15', 'aroon_down': '0', 'aroon_up': '92.85714'}, {'datetime': '2025-05-14', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-13', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-12', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-09', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-08', 'aroon_down': '7.14286', 'aroon_up': '42.85714'}, {'datetime': '2025-05-07', 'aroon_down': '14.28571', 'aroon_up': '50'}, {'datetime': '2025-05-06', 'aroon_do"
+    },
+    "{'symbol': 'AMZN', 'interval': '1day', 'time_period': 14, 'format': 'json'}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'AMZN', 'interval': '1day', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'AROON - Aroon Indicator', 'time_period': 14}}, 'values': [{'datetime': '2025-05-30', 'aroon_down': '0', 'aroon_up': '14.28571'}, {'datetime': '2025-05-29', 'aroon_down': '0', 'aroon_up': '21.42857'}, {'datetime': '2025-05-28', 'aroon_down': '0', 'aroon_up': '28.57143'}, {'datetime': '2025-05-27', 'aroon_down': '0', 'aroon_up': '35.71429'}, {'datetime': '2025-05-23', 'aroon_down': '7.14286', 'aroon_up': '42.85714'}, {'datetime': '2025-05-22', 'aroon_down': '14.28571', 'aroon_up': '50'}, {'datetime': '2025-05-21', 'aroon_down': '21.42857', 'aroon_up': '57.14286'}, {'datetime': '2025-05-20', 'aroon_down': '0', 'aroon_up': '64.28571'}, {'datetime': '2025-05-19', 'aroon_down': '7.14286', 'aroon_up': '71.42857'}, {'datetime': '2025-05-16', 'aroon_down': '14.28571', 'aroon_up': '78.57143'}, {'datetime': '2025-05-15', 'aroon_down': '21.42857', 'aroon_up': '85.71429'}, {'datetime': '2025-05-14', 'aroon_down': '28.57143', 'aroon_up': '92.85714'}, {'datetime': '2025-05-13', 'aroon_down': '35.71429', 'aroon_up': '100'}, {'datetime': '2025-05-12', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-09', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-08', 'aroon_down': '7.14286', 'aroon_up': '100'}, {'datetime': '2025-05-07', 'aroon_down': '14.28571', 'aroon_up': '78.57143'"
+    },
+    "{'symbol': 'AAPL', 'interval': '1day', 'time_period': 14, 'format': 'json'}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'AAPL', 'interval': '1day', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'AROON - Aroon Indicator', 'time_period': 14}}, 'values': [{'datetime': '2025-05-30', 'aroon_down': '71.42857', 'aroon_up': '21.42857'}, {'datetime': '2025-05-29', 'aroon_down': '78.57143', 'aroon_up': '28.57143'}, {'datetime': '2025-05-28', 'aroon_down': '0', 'aroon_up': '35.71429'}, {'datetime': '2025-05-27', 'aroon_down': '7.14286', 'aroon_up': '42.85714'}, {'datetime': '2025-05-23', 'aroon_down': '14.28571', 'aroon_up': '50'}, {'datetime': '2025-05-22', 'aroon_down': '21.42857', 'aroon_up': '57.14286'}, {'datetime': '2025-05-21', 'aroon_down': '28.57143', 'aroon_up': '0'}, {'datetime': '2025-05-20', 'aroon_down': '35.71429', 'aroon_up': '7.14286'}, {'datetime': '2025-05-19', 'aroon_down': '42.85714', 'aroon_up': '14.28571'}, {'datetime': '2025-05-16', 'aroon_down': '50', 'aroon_up': '21.42857'}, {'datetime': '2025-05-15', 'aroon_down': '57.14286', 'aroon_up': '28.57143'}, {'datetime': '2025-05-14', 'aroon_down': '64.28571', 'aroon_up': '35.71429'}, {'datetime': '2025-05-13', 'aroon_down': '71.42857', 'aroon_up': '42.85714'}, {'datetime': '2025-05-12', 'aroon_down': '78.57143', 'aroon_up': '50'}, {'datetime': '2025-05-09', 'aroon_down': '0', 'aroon_up': '57.14286'}, {'datetime': '2025-05-08', 'aroon_down': '7.14286', 'aroon_up': '64.28571'}, {'datetime': '2025-05-07', 'aroon_down'"
+    },
+    "{'symbol': 'MSFT', 'interval': '1day', 'time_period': 14, 'format': 'json'}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'MSFT', 'interval': '1day', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'AROON - Aroon Indicator', 'time_period': 14}}, 'values': [{'datetime': '2025-05-30', 'aroon_down': '0', 'aroon_up': '85.71429'}, {'datetime': '2025-05-29', 'aroon_down': '0', 'aroon_up': '92.85714'}, {'datetime': '2025-05-28', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-27', 'aroon_down': '7.14286', 'aroon_up': '100'}, {'datetime': '2025-05-23', 'aroon_down': '14.28571', 'aroon_up': '92.85714'}, {'datetime': '2025-05-22', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-21', 'aroon_down': '0', 'aroon_up': '85.71429'}, {'datetime': '2025-05-20', 'aroon_down': '0', 'aroon_up': '92.85714'}, {'datetime': '2025-05-19', 'aroon_down': '7.14286', 'aroon_up': '100'}, {'datetime': '2025-05-16', 'aroon_down': '14.28571', 'aroon_up': '92.85714'}, {'datetime': '2025-05-15', 'aroon_down': '21.42857', 'aroon_up': '100'}, {'datetime': '2025-05-14', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-13', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-12', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-09', 'aroon_down': '0', 'aroon_up': '92.85714'}, {'datetime': '2025-05-08', 'aroon_down': '7.14286', 'aroon_up': '100'}, {'datetime': '2025-05-07', 'aroon_down': '14.28571', 'aroon_up': '85.71429'}, {'datetime': '2025-05-06', 'aroon_dow"
+    },
+    "{'symbol': 'BTC/USD', 'interval': '1day', 'time_period': 20}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'BTC/USD', 'interval': '1day', 'currency_base': 'Bitcoin', 'currency_quote': 'US Dollar', 'exchange': 'Coinbase Pro', 'type': 'Digital Currency', 'indicator': {'name': 'AROON - Aroon Indicator', 'time_period': 20}}, 'values': [{'datetime': '2025-06-01', 'aroon_down': '0', 'aroon_up': '50'}, {'datetime': '2025-05-31', 'aroon_down': '5', 'aroon_up': '55'}, {'datetime': '2025-05-30', 'aroon_down': '10', 'aroon_up': '60'}, {'datetime': '2025-05-29', 'aroon_down': '15', 'aroon_up': '65'}, {'datetime': '2025-05-28', 'aroon_down': '0', 'aroon_up': '70'}, {'datetime': '2025-05-27', 'aroon_down': '0', 'aroon_up': '75'}, {'datetime': '2025-05-26', 'aroon_down': '0', 'aroon_up': '80'}, {'datetime': '2025-05-25', 'aroon_down': '5', 'aroon_up': '85'}, {'datetime': '2025-05-24', 'aroon_down': '10', 'aroon_up': '90'}, {'datetime': '2025-05-23', 'aroon_down': '15', 'aroon_up': '95'}, {'datetime': '2025-05-22', 'aroon_down': '20', 'aroon_up': '100'}, {'datetime': '2025-05-21', 'aroon_down': '25', 'aroon_up': '100'}, {'datetime': '2025-05-20', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-19', 'aroon_down': '5', 'aroon_up': '100'}, {'datetime': '2025-05-18', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-17', 'aroon_down': '5', 'aroon_up': '75'}, {'datetime': '2025-05-16', 'aroon_down': '10', 'aroon_up': '80'}, {'datetime': '2025-05-15', 'aroon_down': '15', 'aroon_up': '85'}, {'datetime': '2025-05-14', 'aroon_down': '0', 'aroon_up': '90'}, {'dat"
+    },
+    "{'symbol': 'ETH/USD', 'interval': '1day', 'time_period': 20}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'ETH/USD', 'interval': '1day', 'currency_base': 'Ethereum', 'currency_quote': 'US Dollar', 'exchange': 'Huobi', 'type': 'Digital Currency', 'indicator': {'name': 'AROON - Aroon Indicator', 'time_period': 20}}, 'values': [{'datetime': '2025-06-01', 'aroon_down': '30', 'aroon_up': '5'}, {'datetime': '2025-05-31', 'aroon_down': '35', 'aroon_up': '10'}, {'datetime': '2025-05-30', 'aroon_down': '0', 'aroon_up': '15'}, {'datetime': '2025-05-29', 'aroon_down': '0', 'aroon_up': '20'}, {'datetime': '2025-05-28', 'aroon_down': '0', 'aroon_up': '25'}, {'datetime': '2025-05-27', 'aroon_down': '0', 'aroon_up': '30'}, {'datetime': '2025-05-26', 'aroon_down': '0', 'aroon_up': '35'}, {'datetime': '2025-05-25', 'aroon_down': '5', 'aroon_up': '40'}, {'datetime': '2025-05-24', 'aroon_down': '10', 'aroon_up': '45'}, {'datetime': '2025-05-23', 'aroon_down': '15', 'aroon_up': '50'}, {'datetime': '2025-05-22', 'aroon_down': '20', 'aroon_up': '55'}, {'datetime': '2025-05-21', 'aroon_down': '25', 'aroon_up': '60'}, {'datetime': '2025-05-20', 'aroon_down': '0', 'aroon_up': '65'}, {'datetime': '2025-05-19', 'aroon_down': '5', 'aroon_up': '70'}, {'datetime': '2025-05-18', 'aroon_down': '10', 'aroon_up': '75'}, {'datetime': '2025-05-17', 'aroon_down': '15', 'aroon_up': '80'}, {'datetime': '2025-05-16', 'aroon_down': '20', 'aroon_up': '85'}, {'datetime': '2025-05-15', 'aroon_down': '25', 'aroon_up': '90'}, {'datetime': '2025-05-14', 'aroon_down': '0', 'aroon_up': '95'}, {'datetime': '2"
+    },
+    "{'symbol': 'SOL/USD', 'interval': '1day', 'time_period': 20}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'SOL/USD', 'interval': '1day', 'currency_base': 'Solana', 'currency_quote': 'US Dollar', 'exchange': 'Coinbase Pro', 'type': 'Digital Currency', 'indicator': {'name': 'AROON - Aroon Indicator', 'time_period': 20}}, 'values': [{'datetime': '2025-06-01', 'aroon_down': '100', 'aroon_up': '55'}, {'datetime': '2025-05-31', 'aroon_down': '100', 'aroon_up': '60'}, {'datetime': '2025-05-30', 'aroon_down': '100', 'aroon_up': '65'}, {'datetime': '2025-05-29', 'aroon_down': '50', 'aroon_up': '70'}, {'datetime': '2025-05-28', 'aroon_down': '0', 'aroon_up': '75'}, {'datetime': '2025-05-27', 'aroon_down': '0', 'aroon_up': '80'}, {'datetime': '2025-05-26', 'aroon_down': '0', 'aroon_up': '85'}, {'datetime': '2025-05-25', 'aroon_down': '5', 'aroon_up': '90'}, {'datetime': '2025-05-24', 'aroon_down': '10', 'aroon_up': '95'}, {'datetime': '2025-05-23', 'aroon_down': '15', 'aroon_up': '100'}, {'datetime': '2025-05-22', 'aroon_down': '20', 'aroon_up': '60'}, {'datetime': '2025-05-21', 'aroon_down': '25', 'aroon_up': '65'}, {'datetime': '2025-05-20', 'aroon_down': '0', 'aroon_up': '70'}, {'datetime': '2025-05-19', 'aroon_down': '5', 'aroon_up': '75'}, {'datetime': '2025-05-18', 'aroon_down': '10', 'aroon_up': '80'}, {'datetime': '2025-05-17', 'aroon_down': '15', 'aroon_up': '85'}, {'datetime': '2025-05-16', 'aroon_down': '20', 'aroon_up': '90'}, {'datetime': '2025-05-15', 'aroon_down': '25', 'aroon_up': '95'}, {'datetime': '2025-05-14', 'aroon_down': '30', 'aroon_up': '100'}, {"
+    },
+    "{'symbol': 'BNB/USD', 'interval': '1day', 'time_period': 20}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'BNB/USD', 'interval': '1day', 'currency_base': 'Binance Coin', 'currency_quote': 'US Dollar', 'exchange': 'Binance', 'type': 'Digital Currency', 'indicator': {'name': 'AROON - Aroon Indicator', 'time_period': 20}}, 'values': [{'datetime': '2025-06-01', 'aroon_down': '35', 'aroon_up': '75'}, {'datetime': '2025-05-31', 'aroon_down': '40', 'aroon_up': '80'}, {'datetime': '2025-05-30', 'aroon_down': '45', 'aroon_up': '85'}, {'datetime': '2025-05-29', 'aroon_down': '0', 'aroon_up': '90'}, {'datetime': '2025-05-28', 'aroon_down': '0', 'aroon_up': '95'}, {'datetime': '2025-05-27', 'aroon_down': '0', 'aroon_up': '100'}, {'datetime': '2025-05-26', 'aroon_down': '0', 'aroon_up': '30'}, {'datetime': '2025-05-25', 'aroon_down': '0', 'aroon_up': '35'}, {'datetime': '2025-05-24', 'aroon_down': '5', 'aroon_up': '40'}, {'datetime': '2025-05-23', 'aroon_down': '10', 'aroon_up': '45'}, {'datetime': '2025-05-22', 'aroon_down': '15', 'aroon_up': '50'}, {'datetime': '2025-05-21', 'aroon_down': '20', 'aroon_up': '55'}, {'datetime': '2025-05-20', 'aroon_down': '25', 'aroon_up': '60'}, {'datetime': '2025-05-19', 'aroon_down': '30', 'aroon_up': '65'}, {'datetime': '2025-05-18', 'aroon_down': '35', 'aroon_up': '70'}, {'datetime': '2025-05-17', 'aroon_down': '40', 'aroon_up': '75'}, {'datetime': '2025-05-16', 'aroon_down': '45', 'aroon_up': '80'}, {'datetime': '2025-05-15', 'aroon_down': '50', 'aroon_up': '85'}, {'datetime': '2025-05-14', 'aroon_down': '55', 'aroon_up': '90'}, {'da"
+    }
+}

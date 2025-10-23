@@ -1,0 +1,27 @@
+{
+    "name": "news_list_by_ticker",
+    "description": "This is a sub-function API for tool webull.\nTool description: Query public data for investment products including stocks, fractional shares, options, ETFs, and ADRs as on webull.com\nAPI description: Retrieves a list of news articles for a specified ticker ID from the Webull API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tickerid": {
+                "type": "number",
+                "description": "The value of tickerId field returned in other endpoints, such as .../stock/search or .../market/get-common-ranking or .../market/get-top-active or .../market/get-top-gainers or etc... ",
+                "default": 913256135.0
+            },
+            "pagesize": {
+                "type": "number",
+                "description": "The number of news articles to retrieve per page. Default is 20, maximum is 20.",
+                "default": 20.0
+            },
+            "currentnewsid": {
+                "type": "number",
+                "description": "The ID of the last news article returned in the previous request. Pass 0 for the first query. Default is 0.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "tickerid"
+        ]
+    }
+}

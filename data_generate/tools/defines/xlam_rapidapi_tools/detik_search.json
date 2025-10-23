@@ -1,0 +1,29 @@
+{
+    "name": "detik_search",
+    "description": "This is a sub-function API for tool indonesia_news.\nTool description: We are focused on delivering data from major news websites in Indonesia.\nAPI description: Search for news articles on detik.com using specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number of the results to retrieve.",
+                "default": 1.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of results to return per page.",
+                "default": 10.0
+            },
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to search for in news articles.",
+                "default": "detik"
+            }
+        },
+        "required": [
+            "page",
+            "limit",
+            "keyword"
+        ]
+    }
+}

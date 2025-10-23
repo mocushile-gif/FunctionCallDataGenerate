@@ -1,0 +1,16 @@
+{
+    "name": "get_a_conversation_turn",
+    "description": "This is a sub-function API for tool lemurbot.\nTool description: Meet Lemurbot - Your Personal AI Chatbot Companion! With advanced features like creating, training and chatting, Lemurbot makes it easy and fun for users to interact and learn from an intelligent conversationalist. Plus, with ChatGPT integration and the ability to create multiple bots, the possibilities for learning and entertainment are endless!\nAPI description: Fetch a specific conversation turn by its ID and return its details.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the conversation turn to fetch."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

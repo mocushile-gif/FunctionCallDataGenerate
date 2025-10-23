@@ -1,0 +1,15 @@
+{
+    "name": "latest",
+    "description": "This is a sub-function API for tool stapi_showerthoughts.\nTool description: stapi or showerthoughts api is an api which makes use of the posts on subreddit r/showerthoughts and fetches results for the end user.\nAPI description: chose a number between 1 to 500 and based on that all the latest showerthoughts on the subReddit will be fetched.\n\nif the number is not specified a total of 100 showerthougts are returned by default.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "num": {
+                "type": "number",
+                "description": "The number of showerthoughts to fetch. Defaults to 10. Must be between 1 and 500.",
+                "default": 10.0
+            }
+        },
+        "required": []
+    }
+}

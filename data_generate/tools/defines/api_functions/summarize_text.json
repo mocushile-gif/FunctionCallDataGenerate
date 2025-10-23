@@ -1,0 +1,31 @@
+{
+  "name": "summarize_text",
+  "description": "Generate a summary of the input text using extractive or abstractive methods.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "text": {
+        "type": "string",
+        "description": "Text to summarize"
+      },
+      "max_length": {
+        "type": "integer",
+        "description": "Maximum length of summary in characters (50-500)",
+        "default": 150,
+        "minimum": 50,
+        "maximum": 500
+      },
+      "method": {
+        "type": "string",
+        "description": "Summarization method",
+        "enum": ["extractive", "abstractive"],
+        "default": "extractive"
+      },
+      "output_path": {
+        "type": "string",
+        "description": "Path for the output summary file. If not provided, will create auto-named file."
+      }
+    },
+    "required": ["text"]
+  }
+} 

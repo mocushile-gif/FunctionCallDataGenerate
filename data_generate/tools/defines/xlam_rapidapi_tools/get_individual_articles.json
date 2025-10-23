@@ -1,0 +1,17 @@
+{
+    "name": "get_individual_articles",
+    "description": "This is a sub-function API for tool new_climate.\nTool description: Climate data sd\nAPI description: Retrieves individual articles from a specified newspaper using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "newspaperid": {
+                "type": "string",
+                "description": "The unique identifier for the newspaper from which to retrieve the articles.",
+                "default": "thetimes"
+            }
+        },
+        "required": [
+            "newspaperid"
+        ]
+    }
+}

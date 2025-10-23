@@ -1,0 +1,15 @@
+{
+    "name": "random_profiles",
+    "description": "This is a sub-function API for tool fake_data_generator.\nTool description: With this API you can generate fake random data with different predefined layouts or define your own layout.\nAPI description: Generates a list of fake user profiles given a specified size using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "size": {
+                "type": "number",
+                "description": "A string indicating the number of fake user profiles to generate. Defaults to '1'.",
+                "default": 5.0
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "chat",
+    "description": "This is a sub-function API for tool ai_chatbot.\nTool description: An AI Chatbot for your aplication.\nAPI description: Communicates with the AI chatbot via RapidAPI and returns the chatbot's response.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "uid": {
+                "type": "string",
+                "description": "User Identification for personalized response and response continuity.",
+                "default": "user1"
+            },
+            "message": {
+                "type": "string",
+                "description": "Message that the chatbot has to respond to.",
+                "default": "What's your name?"
+            }
+        },
+        "required": [
+            "uid",
+            "message"
+        ]
+    }
+}

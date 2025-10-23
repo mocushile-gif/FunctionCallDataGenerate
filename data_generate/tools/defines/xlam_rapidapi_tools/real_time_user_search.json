@@ -1,0 +1,26 @@
+{
+    "name": "real_time_user_search",
+    "description": "This is a sub-function API for tool social_media_data_tt.\nTool description: Social Media Data API in Real-Time.  -Get very useful and unique information.  -I'm on Telegram https://t.me/logicBuilder News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Search for influencers by the keyword. \n\n- Very useful data will be returned in the response, if user is verified or not, users country and more",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The search keyword. For example: 'amazon'.",
+                "default": "amazon"
+            },
+            "skip": {
+                "type": "number",
+                "description": "Skip N number of records in search result:\n\n- Each response will have a value **has_more** if it is true then you can send next response with the same keyword but for example set **skip** value to 100\n- It depends from the keyword it self, some keyword can find thousands of users"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of records to return. Default is 30, and the maximum allowed value is 30.",
+                "default": 30.0
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

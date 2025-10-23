@@ -1,0 +1,103 @@
+
+    <html>
+    <head>
+        <title>工具调用数据统计报告</title>
+        <style>
+            body {font-family: Arial, sans-serif; background-color: #f4f4f9; color: #333;}
+            table {width: 45%; border-collapse: collapse; margin: 0 20px;}
+            th, td {border: 1px solid #ddd; padding: 8px; transition: background-color 0.3s ease;}
+            th {background-color: #333; color: #fff; text-align: center;}
+            td {background-color: #fff; text-align: center;}
+            a {color: #004080; text-decoration: underline; border-bottom: 2px solid transparent; transition: border-bottom 0.3s;}
+            a:hover {border-bottom: 2px solid #004080;}
+            .highlight {font-weight: bold; background-color: #FFFF00;}
+            .charts, .intent-section, .tables {display: flex; justify-content: space-around; width: 100%;}
+            .charts div, .tables table, .intent-section table, .intent-section div {
+                flex: 1 1 30%;
+                margin: 10px;
+                min-width: 300px;
+            }
+            .charts iframe, .intent-section iframe {
+                width: 100%;
+                height: auto;
+                aspect-ratio: 16 / 9;
+                border: none;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>工具调用数据统计报告</h1>
+
+        <h2>数据总量：398</h2>
+
+        <h2>1. 涉及工具总数目以及调用量Top 20的工具</h2>
+        <p>涉及工具总数：897</p>
+        <table border="1">
+            <tr><th>工具名称</th><th>调用量</th><th>占比</th></tr>
+            <tr><td>display_directory_tree</td><td>36</td><td>4.00%</td></tr><tr><td>read_file_contents</td><td>16</td><td>1.78%</td></tr><tr><td>get_unique_values</td><td>14</td><td>1.56%</td></tr><tr><td>get_column_average</td><td>12</td><td>1.33%</td></tr><tr><td>get_column_names</td><td>12</td><td>1.33%</td></tr><tr><td>get_directory_memory_usage</td><td>11</td><td>1.22%</td></tr><tr><td>query_chinese_provincial_oil_price</td><td>11</td><td>1.22%</td></tr><tr><td>get_database_size</td><td>10</td><td>1.11%</td></tr><tr><td>get_database_info</td><td>9</td><td>1.00%</td></tr><tr><td>calculate_average</td><td>9</td><td>1.00%</td></tr><tr><td>get_table_info</td><td>8</td><td>0.89%</td></tr><tr><td>select_from_tables</td><td>8</td><td>0.89%</td></tr><tr><td>get_ip_information</td><td>7</td><td>0.78%</td></tr><tr><td>viewrecords</td><td>7</td><td>0.78%</td></tr><tr><td>get_column_min_max_values</td><td>7</td><td>0.78%</td></tr><tr><td>get_all_table_names</td><td>7</td><td>0.78%</td></tr><tr><td>get_weather_forcast</td><td>7</td><td>0.78%</td></tr><tr><td>is_anagram_phrase</td><td>7</td><td>0.78%</td></tr><tr><td>code_postal_par_code</td><td>6</td><td>0.67%</td></tr><tr><td>v1_convert</td><td>6</td><td>0.67%</td></tr>
+        </table>
+
+        <h2>2. 每条数据给定的工具个数统计</h2>
+        <table border="1">
+            <tr><th>工具名称</th><th>调用量</th><th>占比</th></tr>
+            <tr><td>3</td><td>64</td><td>16.08%</td></tr><tr><td>6</td><td>55</td><td>13.82%</td></tr><tr><td>4</td><td>44</td><td>11.06%</td></tr><tr><td>2</td><td>59</td><td>14.82%</td></tr><tr><td>1</td><td>80</td><td>20.10%</td></tr><tr><td>8</td><td>16</td><td>4.02%</td></tr><tr><td>5</td><td>55</td><td>13.82%</td></tr><tr><td>7</td><td>8</td><td>2.01%</td></tr><tr><td>9</td><td>9</td><td>2.26%</td></tr><tr><td>10</td><td>6</td><td>1.51%</td></tr><tr><td>12</td><td>2</td><td>0.50%</td></tr>
+        </table>
+
+        <h2>2. 共现频率Top 20的工具对</h2>
+        <table border="1">
+            <tr><th>工具1</th><th>工具2</th><th>共现次数</th><th>占比</th></tr>
+            <tr><td>display_directory_tree</td><td>read_file_contents</td><td>5</td><td>2.04%</td></tr><tr><td>get_all_table_names</td><td>get_table_info</td><td>4</td><td>1.63%</td></tr><tr><td>get_table_info</td><td>get_column_average</td><td>4</td><td>1.63%</td></tr><tr><td>get_database_info</td><td>get_column_average</td><td>3</td><td>1.22%</td></tr><tr><td>read_file_contents</td><td>display_directory_tree</td><td>3</td><td>1.22%</td></tr><tr><td>display_directory_tree</td><td>move_or_rename_file_or_directory</td><td>3</td><td>1.22%</td></tr><tr><td>get_unique_values</td><td>get_column_min_max_values</td><td>2</td><td>0.82%</td></tr><tr><td>get_table_info</td><td>execute_sql_command</td><td>2</td><td>0.82%</td></tr><tr><td>get_column_names</td><td>get_table_creation_sql</td><td>2</td><td>0.82%</td></tr><tr><td>select_from_tables</td><td>get_all_table_names</td><td>2</td><td>0.82%</td></tr><tr><td>select_from_tables</td><td>get_table_info</td><td>2</td><td>0.82%</td></tr><tr><td>get_all_table_names</td><td>get_column_average</td><td>2</td><td>0.82%</td></tr><tr><td>get_column_average</td><td>get_column_min_max_values</td><td>2</td><td>0.82%</td></tr><tr><td>get_database_info</td><td>get_column_min_max_values</td><td>2</td><td>0.82%</td></tr><tr><td>display_directory_tree</td><td>delete_file_or_directory</td><td>2</td><td>0.82%</td></tr><tr><td>display_directory_tree</td><td>count_file_lines</td><td>2</td><td>0.82%</td></tr><tr><td>convert_json_to_csv</td><td>display_directory_tree</td><td>2</td><td>0.82%</td></tr><tr><td>display_directory_tree</td><td>count_files_in_dir</td><td>2</td><td>0.82%</td></tr><tr><td>display_directory_tree</td><td>search_files_contents_contain_keywords</td><td>2</td><td>0.82%</td></tr><tr><td>matchh2hduel</td><td>body_mass_index</td><td>1</td><td>0.41%</td></tr>
+        </table>
+
+        <h2>3. 每条数据中工具调用总数量及占比</h2>
+        <table border="1">
+            <tr><th>工具调用总数量</th><th>数量</th><th>占比</th></tr>
+            <tr><td>2</td><td>121</td><td>30.40%</td></tr><tr><td>1</td><td>90</td><td>22.61%</td></tr><tr><td>0</td><td>55</td><td>13.82%</td></tr><tr><td>3</td><td>47</td><td>11.81%</td></tr><tr><td>4</td><td>38</td><td>9.55%</td></tr><tr><td>5</td><td>21</td><td>5.28%</td></tr><tr><td>6</td><td>16</td><td>4.02%</td></tr><tr><td>7</td><td>7</td><td>1.76%</td></tr><tr><td>8</td><td>2</td><td>0.50%</td></tr><tr><td>9</td><td>1</td><td>0.25%</td></tr>
+        </table>
+
+        <h3>每条数据中调用不同工具的总数量及占比</h2>
+        <table border="1">
+            <tr><th>调用不同工具总数量</th><th>数量</th><th>占比</th></tr>
+            <tr><td>1</td><td>201</td><td>50.50%</td></tr><tr><td>2</td><td>110</td><td>27.64%</td></tr><tr><td>0</td><td>55</td><td>13.82%</td></tr><tr><td>3</td><td>23</td><td>5.78%</td></tr><tr><td>4</td><td>6</td><td>1.51%</td></tr><tr><td>5</td><td>3</td><td>0.75%</td></tr>
+        </table>
+
+        <h2>4. 工具调用中单工具调用、平行工具调用数量及占比</h2>
+        <table border="1">
+            <tr><th>调用类型</th><th>数量</th><th>占比</th></tr>
+            <tr><td>总调用次数</td><td>665</td><td>100%</td></tr>
+            <tr><td>单工具调用（仅给了单个工具）</td><td>81</td><td>12.18%</td></tr>
+            <tr><td>单工具调用（但给了多个工具）</td><td>356</td><td>53.53%</td></tr>
+            <tr><td>平行工具调用</td><td>134</td><td>20.15%</td></tr>
+            <tr><td>多工具调用</td><td>94</td><td>14.14%</td></tr>
+        </table>
+
+        <h3>工具调用个数分布 (每次调用时调用的工具个数)</h3>
+        <table border="1">
+            <tr><th>调用个数</th><th>数量</th><th>占比</th></tr>
+            <tr><td>1</td><td>437</td><td>65.71%</td></tr><tr><td>2</td><td>224</td><td>33.68%</td></tr><tr><td>4</td><td>3</td><td>0.45%</td></tr><tr><td>3</td><td>1</td><td>0.15%</td></tr>
+        </table>
+
+        <h2>5. 轮次中工具调用、串联工具调用数量及占比</h2>
+        <table border="1">
+            <tr><th>轮次</th><th>数量</th><th>占比</th></tr>
+            <tr><td>总轮次</td><td>1116</td><td>100%</td></tr>
+            <tr><td>有工具调用的轮次</td><td>525</td><td>47.04%</td></tr>
+            <tr><td>有串联工具调用的轮次</td><td>109</td><td>9.77%</td></tr>
+        </table>
+
+        <h3>工具调用序列分布 (每轮中连续调用工具的序列长度)</h3>
+        <table border="1">
+            <tr><th>调用序列长度</th><th>数量</th><th>占比</th></tr>
+            <tr><td>0</td><td>591</td><td>52.96%</td></tr><tr><td>2</td><td>80</td><td>7.17%</td></tr><tr><td>1</td><td>416</td><td>37.28%</td></tr><tr><td>3</td><td>27</td><td>2.42%</td></tr><tr><td>4</td><td>2</td><td>0.18%</td></tr>
+        </table>
+
+        <h2>6. 轮次统计及占比 (Top 20)</h2>
+        <table border="1">
+            <tr><th>轮次数量</th><th>数量</th><th>占比</th></tr>
+            <tr><td>2</td><td>219</td><td>55.03%</td></tr><tr><td>3</td><td>87</td><td>21.86%</td></tr><tr><td>4</td><td>51</td><td>12.81%</td></tr><tr><td>5</td><td>35</td><td>8.79%</td></tr><tr><td>6</td><td>4</td><td>1.01%</td></tr><tr><td>7</td><td>2</td><td>0.50%</td></tr>
+        </table>
+    </body>
+    </html>
+    

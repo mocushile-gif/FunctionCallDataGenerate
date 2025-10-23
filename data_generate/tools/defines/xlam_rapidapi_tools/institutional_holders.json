@@ -1,0 +1,25 @@
+{
+    "name": "institutional_holders",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Returns the amount of the company’s available stock owned by institutions (pension funds, insurance companies, investment firms, private foundations, endowments, or other large entities that manage funds on behalf of others).\n\nAvailability: Mega plan\nData weighting: 1500 API credits per symbol",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol of the company.",
+                "default": "AAPL"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country in which the company is located. Defaults to None."
+            },
+            "exchange": {
+                "type": "string",
+                "description": "The stock exchange where the company's shares are traded. Defaults to None."
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

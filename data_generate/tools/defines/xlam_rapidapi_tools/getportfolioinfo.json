@@ -1,0 +1,16 @@
+{
+    "name": "getportfolioinfo",
+    "description": "This is a sub-function API for tool trader_wagon.\nTool description: Trader Wagon API is specially designed to obtain traders' positions (portfolio).\nAPI description: Retrieves portfolio information for a given portfolio ID from the Trader Wagon API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "portfolioid": {
+                "type": "number",
+                "description": "The portfolio ID of the trader."
+            }
+        },
+        "required": [
+            "portfolioid"
+        ]
+    }
+}

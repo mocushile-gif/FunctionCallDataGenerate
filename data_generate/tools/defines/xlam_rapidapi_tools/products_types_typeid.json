@@ -1,0 +1,16 @@
+{
+    "name": "products_types_typeid",
+    "description": "This is a sub-function API for tool national_weather_service.\nTool description: National Weather Service API (api.weather.gov) NOAA (National Oceanic and Atmospheric Administration) provides national weather data as well as past data.\nAPI description: Returns a list of products for a given product type ID by making a request to the National Weather Service API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "typeid": {
+                "type": "string",
+                "description": "An ID representing a valid product type."
+            }
+        },
+        "required": [
+            "typeid"
+        ]
+    }
+}

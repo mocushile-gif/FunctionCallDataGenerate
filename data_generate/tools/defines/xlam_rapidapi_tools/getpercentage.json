@@ -1,0 +1,23 @@
+{
+    "name": "getpercentage",
+    "description": "This is a sub-function API for tool text_similarity_calculator.\nTool description: This calculates the similarity between two texts in percentage. It is an implementation as described in Programming Classics: Implementing the World's Best Algorithms by Ian Oliver). Note that this implementation does not use a stack as in Oliver's pseudo code, but recursive calls which may or may not speed up the whole process. Note also that the complexity of this algorithm is O(N**3) where N is the length of the longest string.\r\n\r\nFor more details: \r\nhttps://en.wikipedia.org/wiki/Approximate_string_matching\nAPI description: Calculate the percentage of match between two texts using the Text Similarity Calculator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ftext": {
+                "type": "string",
+                "description": "The first text to compare.",
+                "default": "This is text numer one."
+            },
+            "stext": {
+                "type": "string",
+                "description": "The second text to compare.",
+                "default": "This is text number two."
+            }
+        },
+        "required": [
+            "ftext",
+            "stext"
+        ]
+    }
+}

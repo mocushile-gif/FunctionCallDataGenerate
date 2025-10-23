@@ -1,0 +1,72 @@
+{
+  "name": "create_scatter_plot",
+  "description": "Generate a customizable scatter plot from a list of data or a file (CSV, Excel, JSON, JSONL). Supports x/y source selection, styling, and file saving.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "x_data": {
+        "type": "array",
+        "items": { "type": "number" },
+        "description": "X-axis data values (used if file_path is not specified)"
+      },
+      "y_data": {
+        "type": "array",
+        "items": { "type": "number" },
+        "description": "Y-axis data values (used if file_path is not specified)"
+      },
+      "file_path": {
+        "type": "string",
+        "description": "Path to the input file (.csv, .xlsx, .json, .jsonl)"
+      },
+      "sheet_name": {
+        "type": ["string", "integer"],
+        "default": 0,
+        "description": "Sheet name or index (for Excel files only)"
+      },
+      "x_source": {
+        "type": ["string", "integer"],
+        "description": "Column name or row index to use as x-axis from file"
+      },
+      "y_source": {
+        "type": ["string", "integer"],
+        "description": "Column name or row index to use as y-axis from file"
+      },
+      "color": {
+        "type": "string",
+        "default": "blue",
+        "description": "Marker color"
+      },
+      "marker": {
+        "type": "string",
+        "default": "o",
+        "description": "Marker style (e.g., 'o', '^', 's')"
+      },
+      "title": {
+        "type": "string",
+        "default": "Scatter Plot",
+        "description": "Chart title"
+      },
+      "xlabel": {
+        "type": "string",
+        "default": "X-axis",
+        "description": "Label for x-axis"
+      },
+      "ylabel": {
+        "type": "string",
+        "default": "Y-axis",
+        "description": "Label for y-axis"
+      },
+      "grid": {
+        "type": "boolean",
+        "default": true,
+        "description": "Whether to display grid lines"
+      },
+      "save_path": {
+        "type": "string",
+        "default": "./scatter_plot.png",
+        "description": "Path to save the scatter plot image"
+      }
+    },
+    "required": []
+  }
+}

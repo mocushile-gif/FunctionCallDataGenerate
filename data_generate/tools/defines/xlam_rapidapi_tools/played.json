@@ -1,0 +1,25 @@
+{
+    "name": "played",
+    "description": "This is a sub-function API for tool csgo_matches_and_tournaments.\nTool description: \nAPI description: Fetches the most recently played CS:GO matches from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "content_type": {
+                "type": "string",
+                "description": "The content type for the request. Default is 'application/json'.",
+                "default": "application/json"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of matches to retrieve. Default is 10.",
+                "default": 10.0
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of the results to retrieve. Default is 1.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

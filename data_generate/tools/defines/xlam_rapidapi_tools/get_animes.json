@@ -1,0 +1,74 @@
+{
+    "name": "get_animes",
+    "description": "This is a sub-function API for tool animes.\nTool description: Get all data from your favorite anime, and the chapter or tomo of the manga or  the light novel that the anime adapted\nAPI description: This endpoint allows for the retrieval of data about anime. The query parameters include q (the search query), limit (the number of results per page), offset (the number of results to skip), ascending (sort order), order (sort order), `media_type `(anime type), studio (studio name), source (source material), status (`currently_airing `or `finished_airing`), genre, season, `year_equal `(equal to a year specified), `year_less `(less than a year specified), `year_greater `(greater than a year specified), langu",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year_greater": {
+                "type": "number",
+                "description": "Find the animes with the year greater than the given one\n"
+            },
+            "media_type": {
+                "type": "string",
+                "description": "The media type of the anime.\nThey are:\n\n- music,\n- tv,\n- ona,\n- ova,\n- movie,\n- special"
+            },
+            "studio": {
+                "type": "string",
+                "description": "Filter the animes by the studio"
+            },
+            "year_less": {
+                "type": "number",
+                "description": "Find the animes with the year less than the given one\n"
+            },
+            "nsfw": {
+                "type": "string",
+                "description": "Activate the nsfw content. If you don't want it, don't use it"
+            },
+            "status": {
+                "type": "string",
+                "description": "Filter the animes by the actual status of the anime.\n\n- currently_airing,\n- finished_airing,\n- ` not_yet_aired`"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Limit the number of data recieved"
+            },
+            "q": {
+                "type": "string",
+                "description": "Search for animes by title in English or Japanese."
+            },
+            "genre": {
+                "type": "string",
+                "description": "Filter the animes by the genre"
+            },
+            "sort": {
+                "type": "boolean",
+                "description": "Specify sort order, True for ascending and False for descending."
+            },
+            "offset": {
+                "type": "number",
+                "description": "Recieve the data after the number of the offset."
+            },
+            "season": {
+                "type": "string",
+                "description": "Filter the animes by their season"
+            },
+            "fields": {
+                "type": "string",
+                "description": "Get the fields that you want.\nDisponible fields:  \n\n- * (to all data)\n- id,\n- title, \n- main_picture,\n- start_date,\n- end_data,\n- synopsis,\n- mean,\n- rank,\n- popularity,\n- `num_list_users,`\n- `num_scoring_users`,\n- status,\n- genres,\n- num_episodes,\n- source,\n- studios,\n- volume,\n- chapter,\n- light_novel,\n- media_type,\n- mal_id,\n- broadcast,\n- statistics,\n- related_manga,\n- related_anime,\n- season,\n- year,\n- title_english,\n- title_japanese,\n- synonyms"
+            },
+            "year_equal": {
+                "type": "number",
+                "description": "Filter by animes released in the specified year."
+            },
+            "source": {
+                "type": "string",
+                "description": "Filter the anime by the source.\nThey are:\n\n- manga,\n- visual_novel,\n- novel,\n- `4_koma_manga`,\n- book,\n- card_game,\n- game,\n- light_novel,\n- mixed_media,\n- music,\n- novel,\n- original,\n- web_manga,\n- web_novel,\n- visual_novel,\n- picture_book,\n- other"
+            },
+            "order": {
+                "type": "string",
+                "description": "Order the data with the field tha you want"
+            }
+        },
+        "required": []
+    }
+}

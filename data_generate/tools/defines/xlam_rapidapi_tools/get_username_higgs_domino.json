@@ -1,0 +1,17 @@
+{
+    "name": "get_username_higgs_domino",
+    "description": "This is a sub-function API for tool id_game_checker.\nTool description: Validate or GET username with ID. Available for Free Fire Global, Mobile Legends, PUBGM Global, Higgs Domino, AoV, Jawaker etc.\nAPI description: Fetches the username for a given Higgs Domino ID using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The Higgs Domino ID for which the username is requested.",
+                "default": 55666.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

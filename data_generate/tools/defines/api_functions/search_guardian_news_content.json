@@ -1,0 +1,27 @@
+{
+    "name": "search_guardian_news_content",
+    "description": "Search news content from The Guardian using the Guardian API based on a search query and additional filters.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "The search query (e.g., 'debate')."
+        },
+        "page": {
+          "type": "integer",
+          "description": "The page number for paginated results. Default is 1.",
+          "default": 1
+        },
+        "from_date": {
+          "type": "string",
+          "description": "The date filter for the content, format: 'YYYY-MM-DD'. Optional."
+        },
+        "tag": {
+          "type": "string",
+          "description": "A specific tag to filter the results (e.g., 'politics/politics'). Optional."
+        }
+      },
+      "required": ["query"]
+    }
+}

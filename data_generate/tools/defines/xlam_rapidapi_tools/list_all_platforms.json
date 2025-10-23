@@ -1,0 +1,35 @@
+{
+    "name": "list_all_platforms",
+    "description": "This is a sub-function API for tool is_this_coin_a_scam.\nTool description: Get access to real-time data on all major cryptocurrencies, including ratings, red flags, trending analytics, community metrics and more.\nAPI description: Get a list of platforms. You can search slug, name and symbol. You can perform wildcard searches",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "Search all platform symbols. Wildcard searches can be performed using the * character (e.g., symbol=*TH). Multiple items can be searched at once by sending a comma-separated list (e.g., symbol=TOK,*TH). Default is 'ETH'.",
+                "default": "ETH"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Limit the number of records returned. Default is 10.",
+                "default": 10
+            },
+            "name": {
+                "type": "string",
+                "description": "Search all platform names. Wildcard searches can be performed using the * character (e.g., name=*platform). Multiple items can be searched at once by sending a comma-separated list (e.g., name=ethereum,*token). Default is 'ethereum'.",
+                "default": "ethereum"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number to start from. Default is 10.",
+                "default": 10
+            },
+            "slug": {
+                "type": "string",
+                "description": "Search all platform slugs. Wildcard searches can be performed using the * character (e.g., slug=*token). Multiple items can be searched at once by sending a comma-separated list (e.g., slug=ethereum,*token). Default is 'ethereum'.",
+                "default": "ethereum"
+            }
+        },
+        "required": []
+    }
+}

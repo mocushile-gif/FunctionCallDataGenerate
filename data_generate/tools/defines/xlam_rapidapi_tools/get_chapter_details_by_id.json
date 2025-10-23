@@ -1,0 +1,16 @@
+{
+    "name": "get_chapter_details_by_id",
+    "description": "This is a sub-function API for tool bhagavad_gita_v3.\nTool description: This is api for the Bhagavad Gita book. A Hindu scripture.\nAPI description: Fetch details of a Bhagavad Gita chapter by its ID using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chapterid": {
+                "type": "string",
+                "description": "The ID of the Bhagavad Gita chapter to fetch details for."
+            }
+        },
+        "required": [
+            "chapterid"
+        ]
+    }
+}

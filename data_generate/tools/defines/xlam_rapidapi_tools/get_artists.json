@@ -1,0 +1,17 @@
+{
+    "name": "get_artists",
+    "description": "This is a sub-function API for tool spotify_data.\nTool description: Spotify Data\nAPI description: Fetches information about one or more artists from the Spotify API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ids": {
+                "type": "string",
+                "description": "A comma-separated string of artist IDs for which information is to be fetched.",
+                "default": "2w9zwq3AktTeYYMuhMjju8"
+            }
+        },
+        "required": [
+            "ids"
+        ]
+    }
+}

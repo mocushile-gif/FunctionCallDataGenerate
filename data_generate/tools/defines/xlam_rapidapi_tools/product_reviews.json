@@ -1,0 +1,54 @@
+{
+    "name": "product_reviews",
+    "description": "This is a sub-function API for tool real_time_amazon_data.\nTool description: Fast and Simple product searches, data and reviews on Amazon.com in real-time.\nAPI description: Fetches and paginates through product reviews on Amazon for a given product.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "asin": {
+                "type": "string",
+                "description": "Product ASIN for which to get reviews.",
+                "default": "B07ZPKN6YR"
+            },
+            "query": {
+                "type": "string",
+                "description": "Find reviews matching a search query."
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "Return reviews in a specific sort order.\n\n**Default:** `TOP_REVIEWS`\n\n**Allowed values:** `TOP_REVIEWS, MOST_RECENT`\n"
+            },
+            "verified_purchases_only": {
+                "type": "boolean",
+                "description": "Only return reviews by reviewers who made a verified purchase.",
+                "default": true
+            },
+            "page_size": {
+                "type": "number",
+                "description": "Number of reviews to return per page. Allowed values range from `1` to `20`. Default is `10`.",
+                "default": 10.0
+            },
+            "page": {
+                "type": "number",
+                "description": "Page number of results to return. Default is `1`.",
+                "default": 1.0
+            },
+            "star_rating": {
+                "type": "string",
+                "description": "Only return reviews with a specific star rating.\n\n**Default:** `ALL`\n\n**Allowed values:** `ALL, 5_STARS, 4_STARS, 3_STARS, 2_STARS, 1_STARS, POSITIVE, CRITICAL`\n"
+            },
+            "images_or_videos_only": {
+                "type": "boolean",
+                "description": "Only return reviews containing images and / or videos.",
+                "default": true
+            },
+            "country": {
+                "type": "string",
+                "description": "Marketplace country, language, and currency. Default is `US`. Allowed values are `US`, `AU`, `BR`, `CA`, `CN`, `FR`, `DE`, `IN`, `IT`, `MX`, `NL`, `SG`, `ES`, `TR`, `AE`, `GB`, `JP`.",
+                "default": "US"
+            }
+        },
+        "required": [
+            "asin"
+        ]
+    }
+}

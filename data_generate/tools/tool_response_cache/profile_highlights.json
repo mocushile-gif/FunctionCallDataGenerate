@@ -1,0 +1,39 @@
+{
+    "{'username': 'kimkardashian'}": {
+        "error": "",
+        "response": [
+            {
+                "highlight_id": "hl12345",
+                "title": "Travel Adventures",
+                "timestamp": "2023-09-15T08:30:00Z",
+                "media": [
+                    {
+                        "media_id": "m67890",
+                        "url": "https://example.com/media/kimkardashian/travel1.jpg",
+                        "type": "image",
+                        "timestamp": "2023-09-14T15:20:00Z"
+                    },
+                    {
+                        "media_id": "m67891",
+                        "url": "https://example.com/media/kimkardashian/video2.mp4",
+                        "type": "video",
+                        "timestamp": "2023-09-13T20:45:00Z"
+                    }
+                ]
+            },
+            {
+                "highlight_id": "hl12346",
+                "title": "Daily Life",
+                "timestamp": "2023-09-16T12:15:00Z",
+                "media": [
+                    {
+                        "media_id": "m67892",
+                        "url": "https://example.com/media/kimkardashian/daily3.jpg",
+                        "type": "image",
+                        "timestamp": "2023-09-16T10:00:00Z"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "getzip",
+    "description": "This is a sub-function API for tool schweizer_postleitzahlen.\nTool description: API to get political towns from a ZIP-code (Postleitzahl)\nA ZIP-code can belong to multiple towns.\nThe data is updated daily.\nAPI description: Fetch town information based on a provided ZIP code (Postleitzahl) using the RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zip": {
+                "type": "number",
+                "description": "The ZIP code for which to fetch town information.",
+                "default": 3052.0
+            }
+        },
+        "required": [
+            "zip"
+        ]
+    }
+}

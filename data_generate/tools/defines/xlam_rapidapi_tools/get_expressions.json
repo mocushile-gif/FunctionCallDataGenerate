@@ -1,0 +1,22 @@
+{
+    "name": "get_expressions",
+    "description": "This is a sub-function API for tool dicolink.\nTool description: Dicolink API lets you retrieve information about French words, including definitions, synonyms, antonyms, quotes, expressions, lexical field, scrabble score, and much more...\nAPI description: Fetch expressions that include a specified word from the Dicolink API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mot": {
+                "type": "string",
+                "description": "The word for which to retrieve expressions.",
+                "default": "cheval"
+            },
+            "limite": {
+                "type": "string",
+                "description": "The maximum number of expressions to retrieve. Defaults to '10'.",
+                "default": "10"
+            }
+        },
+        "required": [
+            "mot"
+        ]
+    }
+}

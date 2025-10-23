@@ -1,0 +1,17 @@
+{
+    "name": "get_detailed_response",
+    "description": "This is a sub-function API for tool advanced_movie_search.\nTool description: Search for movies via advanced queries like genre, name, etc. And get all their details\nAPI description: Fetches detailed information for a given movie from the Advanced Movie Search API using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "movie_id": {
+                "type": "number",
+                "description": "The unique identifier for the movie whose details are to be fetched.",
+                "default": 399566.0
+            }
+        },
+        "required": [
+            "movie_id"
+        ]
+    }
+}

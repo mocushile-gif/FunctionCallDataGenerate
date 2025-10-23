@@ -1,0 +1,35 @@
+{
+    "{'year': 2024, 'side': 'offense'}": {
+        "error": "",
+        "response": {
+            "year": 2024,
+            "side": "offense",
+            "teams": [
+                {
+                    "team": "Kansas City Chiefs",
+                    "city": "Kansas City",
+                    "passing_yards": 5200,
+                    "passing_attempts": 650,
+                    "touchdowns": 42,
+                    "completion_percentage": 68.5
+                },
+                {
+                    "team": "Philadelphia Eagles",
+                    "city": "Philadelphia",
+                    "passing_yards": 4950,
+                    "passing_attempts": 620,
+                    "touchdowns": 38,
+                    "completion_percentage": 67.1
+                },
+                {
+                    "team": "Green Bay Packers",
+                    "city": "Green Bay",
+                    "passing_yards": 4700,
+                    "passing_attempts": 600,
+                    "touchdowns": 35,
+                    "completion_percentage": 65.8
+                }
+            ]
+        }
+    }
+}

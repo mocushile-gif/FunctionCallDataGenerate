@@ -1,0 +1,18 @@
+{
+    "{'securities_code': 12345678}": {
+        "error": "",
+        "response": []
+    },
+    "{'securities_code': 123456}": {
+        "error": "",
+        "response": []
+    },
+    "{'securities_code': 880727}": {
+        "error": "",
+        "response": []
+    },
+    "{'securities_code': 7203}": {
+        "error": "",
+        "response": "[{'company_name': 'TOYOTA MOTOR CORPORATION', 'edinet_code': 'E02144', 'securities_code': '7203', 'securities_report_submission_date': '2016-06-24', 'beginning_of_year': '2015-04-01', 'ending_of_year': '2016-03-31', 'consolidated_management_indicators': {'revenue': 28403118000000, 'operating_revenue': None, 'operating_income': None, 'ordinary_income': None, 'income_before_tax': 2983381000000, 'net_income': None, 'net_income_attributable_to_owners_of_parent': None, 'comprehensive_income': 1517486000000, 'comprehensive_income_attributable_to_owners_of_parent': None, 'net_assets': None, 'total_assets': 47427597000000, 'net_assets_per_share': None, 'basic_earnings_loss_per_share': 741.36, 'diluted_earnings_per_share': 735.36, 'equity_to_asset_ratio': 0.353, 'price_earnings_ratio': 8.0, 'rate_of_return_on_equity': None, 'cash_flows_from_used_in_operating_activities': 4460857000000, 'cash_flows_from_used_in_investing_activities': -3182544000000, 'cash_flows_from_used_in_financing_activities': -423571000000, 'cash_and_cash_equivalents': 2939428000000, 'number_of_employees': 348877, 'average_number_of_temporary_workers': 86843}, 'nonconsolidated_management_indicators': {'revenue': 11585822000000, 'operating_revenue': None, 'ordinary_income': None, 'net_income': 1810370000000, 'capital_stock': 635401000000, 'net_assets': 10859443000000, 'total_assets': 16100209000000, 'net_assets_per_share': 3417.07, 'basic_earnings_loss_per_share': 581.08, 'equity_to_assets': None, 'price_earnings_ratio': 10.2, 'payout_ratio': 0.361, 'cash_flows_from_used_in_operating_activities': None, 'cash_flows_from_used_in_investing_activities': None, 'cash_flows_from_used_in_financing_activities': None, 'cash_and_cash_equivalents': None, 'number_of_employees': 72721, 'average_number_of_temporary_workers': 10371, 'total_share_holder_return': None, 'total_return_on_share_price_index': None}, 'r_and_d_capital_investment_expenses': {'r_and_d': None, 'capital_investment': None}}, {'company_name': 'TOYOTA MOTOR CORPORATION', 'edinet_code': 'E02144', 'sec"
+    }
+}

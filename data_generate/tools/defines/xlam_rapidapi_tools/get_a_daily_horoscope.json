@@ -1,0 +1,23 @@
+{
+    "name": "get_a_daily_horoscope",
+    "description": "This is a sub-function API for tool horoscope_api.\nTool description: Horoscope API - Professional Horoscopes as a simple JSON API - Access 12 horoscopes every day, written by professional astrologers. Important: Only Portuguese (PT) language is currently available.\nAPI description: Fetches the daily horoscope for a given horoscope sign using the specified language and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "signid": {
+                "type": "string",
+                "description": "The identifier for the horoscope sign.",
+                "default": "aquario"
+            },
+            "langid": {
+                "type": "string",
+                "description": "The language identifier for the horoscope.",
+                "default": "pt"
+            }
+        },
+        "required": [
+            "signid",
+            "langid"
+        ]
+    }
+}

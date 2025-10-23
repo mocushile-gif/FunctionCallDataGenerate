@@ -1,0 +1,42 @@
+{
+    "{'iata': 'AA'}": {
+        "error": "",
+        "response": "The airline with the IATA code 'AA' is American Airlines. It is one of the largest airlines in the world, headquartered in Fort Worth, Texas, USA. American Airlines operates an extensive domestic and international network, serving hundreds of destinations across the globe. It is a founding member of the Oneworld alliance and is known for its large fleet, which includes aircraft such as the Boeing 737, Airbus A321, and Boeing 777. The airline focuses on providing a wide range of services, including premium cabins, loyalty programs, and global connectivity."
+    },
+    "{'name': 'Lufthansa'}": {
+        "error": "",
+        "response": "[{'iata': 'LH', 'icao': 'DLH', 'fleet': {'A20N': 30, 'A21N': 14, 'A319': 35, 'A320': 52, 'A321': 51, 'A333': 13, 'A343': 17, 'A346': 10, 'A359': 22, 'B744': 8, 'B748': 19, 'B789': 1, 'CRJ9': 28, 'E190': 9, 'total': 309}, 'logo_url': 'https://api-ninjas.com/images/airline_logos/lufthansa.jpg', 'name': 'Lufthansa'}, {'iata': '-', 'icao': 'GEC', 'fleet': {'A321': 2, 'B77L': 11, 'total': 13}, 'name': 'Lufthansa Cargo'}]"
+    },
+    "{'name': 'British Airways'}": {
+        "error": "",
+        "response": "[{'iata': 'BA', 'icao': 'BAW', 'fleet': {'A20N': 17, 'A21N': 10, 'A319': 30, 'A320': 67, 'A321': 18, 'A35K': 12, 'A388': 12, 'B772': 43, 'B77W': 16, 'B788': 12, 'B789': 18, 'B78X': 7, 'E190': 23, 'J328': 3, 'total': 288}, 'logo_url': 'https://api-ninjas.com/images/airline_logos/british_airways.jpg', 'name': 'British Airways'}]"
+    },
+    "{'name': 'Emirates'}": {
+        "error": "",
+        "response": "[{'iata': 'EK', 'icao': 'UAE', 'fleet': {'A388': 122, 'B77L': 21, 'B77W': 124, 'total': 267}, 'logo_url': 'https://api-ninjas.com/images/airline_logos/emirates.jpg', 'name': 'Emirates'}]"
+    },
+    "{'name': 'Delta Airlines'}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'iata': 'DL'}": {
+        "error": "",
+        "response": "[]"
+    },
+    "{'name': 'Singapore Airlines'}": {
+        "error": "",
+        "response": "[{'iata': 'SQ', 'icao': 'SIA', 'fleet': {'A359': 59, 'A388': 17, 'B38M': 15, 'B738': 9, 'B744': 7, 'B772': 1, 'B773': 2, 'B77W': 27, 'B78X': 18, 'total': 155}, 'logo_url': 'https://api-ninjas.com/images/airline_logos/singapore_airlines.jpg', 'name': 'Singapore Airlines'}]"
+    },
+    "{'name': 'Air France'}": {
+        "error": "",
+        "response": "[{'iata': 'AF', 'icao': 'AFR', 'fleet': {'A318': 12, 'A319': 30, 'A320': 42, 'A321': 19, 'A332': 15, 'A359': 20, 'B772': 20, 'B77L': 2, 'B77W': 43, 'B789': 10, 'BCS3': 10, 'CRJX': 14, 'E170': 14, 'E190': 19, 'total': 270}, 'logo_url': 'https://api-ninjas.com/images/airline_logos/air_france.jpg', 'name': 'Air France'}]"
+    },
+    "{'name': 'Delta'}": {
+        "error": "",
+        "response": "[{'iata': 'DL', 'icao': 'DAL', 'fleet': {'A21N': 4, 'A319': 57, 'A320': 54, 'A321': 127, 'A332': 11, 'A333': 31, 'A339': 16, 'A359': 24, 'B712': 58, 'B738': 77, 'B739': 159, 'B752': 111, 'B753': 16, 'B763': 41, 'B764': 21, 'BCS1': 45, 'BCS3': 11, 'CRJ2': 72, 'CRJ7': 26, 'CRJ9': 164, 'E170': 14, 'E75L': 69, 'E75S': 48, 'total': 1256}, 'logo_url': 'https://api-ninjas.com/images/airline_logos/delta_air_lines.jpg', 'name': 'Delta Air Lines'}, {'iata': '-', 'icao': 'DPJ', 'fleet': {'ASTR': 1, 'BE40': 30, 'BE4W': 1, 'C25B': 11, 'C55B': 1, 'C56X': 15, 'C680': 1, 'C750': 3, 'CL30': 1, 'CL35': 1, 'CL60': 4, 'GLF4': 1, 'HA4T': 1, 'LJ60': 4, 'total': 75}, 'logo_url': 'https://api-ninjas.com/images/airline_logos/delta_private_jets.jpg', 'name': 'Delta Private Jets'}]"
+    },
+    "{'name': 'EgyptAir'}": {
+        "error": "",
+        "response": "[{'iata': 'MS', 'icao': 'MSR', 'fleet': {'A20N': 8, 'A332': 1, 'A333': 4, 'B738': 29, 'B77W': 6, 'B789': 6, 'BCS3': 10, 'total': 64}, 'logo_url': 'https://api-ninjas.com/images/airline_logos/egyptair.jpg', 'name': 'EgyptAir'}, {'iata': '-', 'icao': 'MSX', 'fleet': {'A306': 1, 'A332': 3, 'total': 4}, 'name': 'EgyptAir Cargo'}]"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "sources",
+    "description": "This is a sub-function API for tool watchmode.\nTool description: Universal OTT Streaming Service Availability API (Netflix, HBO Max, Peacock, Hulu, Amazon Prime Video, AppleTV+, Disney+ & over 100 more)\nAPI description: Return a listing of all streaming sources that Watchmode supports. Optionally filter by type of source (subscription, free, etc).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "regions": {
+                "type": "string",
+                "description": "Pass one of the region values (eg. US), or multiple regions comma delimited to only return sources active in those regions. Currently supported regions: US, GB, CA, AU",
+                "default": "US,CA"
+            },
+            "types": {
+                "type": "string",
+                "description": "Pass one of the following values, or multiple comma separated values to only return certain types of streaming sources:\nsub, free, purchase, tve. \\\\\\\"sub\\\\\\\" means the service is a subscription service, \\\\\\\"tve\\\\\\\" means the service is a TV channel app.",
+                "default": "sub,free"
+            }
+        },
+        "required": []
+    }
+}

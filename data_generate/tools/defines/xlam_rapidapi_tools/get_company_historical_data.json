@@ -1,0 +1,23 @@
+{
+    "name": "get_company_historical_data",
+    "description": "This is a sub-function API for tool stoxx.\nTool description: Retrieve live and historical information for publicly traded companies\nAPI description: Provides access to daily historical company pricing data over a given period of months\n\nA sample output for each day:\n`{\n\"changePercent\":0\n\"close\":115.1465\n\"date\":\"2022-05-27\"\n\"high\":115.187\n\"low\":112.628\n\"open\":113.55\n\"symbol\":\"AMZN\"\n\"updated\":1654726813000\n\"volume\":93660160\n}`",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The stock ticker symbol of the company to fetch historical data for.",
+                "default": "amzn"
+            },
+            "months": {
+                "type": "string",
+                "description": "The number of months of historical data to retrieve.",
+                "default": "3"
+            }
+        },
+        "required": [
+            "ticker",
+            "months"
+        ]
+    }
+}

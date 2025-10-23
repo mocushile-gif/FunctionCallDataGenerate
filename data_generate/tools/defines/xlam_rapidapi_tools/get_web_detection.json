@@ -1,0 +1,17 @@
+{
+    "name": "get_web_detection",
+    "description": "This is a sub-function API for tool web_detection.\nTool description: Extract list of entities, full matches urls, partial matches urls, visual matches urls, pages, locale and dimensions from image using (google vision web detection)\nAPI description: the **important** thing is that you should use **image** as a query name\nExample (url?**image**=“image_url”)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "image": {
+                "type": "string",
+                "description": "The URL of the image to be analyzed.",
+                "default": "https://avatars.mds.yandex.net/get-mpic/5215925/img_id4862938180215999126.jpeg/orig"
+            }
+        },
+        "required": [
+            "image"
+        ]
+    }
+}

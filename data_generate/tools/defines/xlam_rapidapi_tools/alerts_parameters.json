@@ -1,0 +1,66 @@
+{
+    "name": "alerts_parameters",
+    "description": "This is a sub-function API for tool national_weather_service.\nTool description: National Weather Service API (api.weather.gov) NOAA (National Oceanic and Atmospheric Administration) provides national weather data as well as past data.\nAPI description: A list of alerts that can be filtered by parameters. If no parameters are provided, then all alerts are returned. The ATOM format returns items in CAP-ATOM.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start": {
+                "type": "string",
+                "description": "start, Start time (ISO8601DateTime)"
+            },
+            "end": {
+                "type": "string",
+                "description": "end, End time (ISO8601DateTime)"
+            },
+            "status": {
+                "type": "string",
+                "description": "status, Event status (alert, update, cancel)"
+            },
+            "zone_type": {
+                "type": "string",
+                "description": "zone_type, Zone type (land or marine)"
+            },
+            "active": {
+                "type": "string",
+                "description": "Active alerts indicator (1 for active, 0 for inactive)."
+            },
+            "type": {
+                "type": "string",
+                "description": "type, Event type (list forthcoming)"
+            },
+            "point": {
+                "type": "string",
+                "description": "Geographic point in \"latitude,longitude\" format."
+            },
+            "state": {
+                "type": "string",
+                "description": "State/marine code (list forthcoming)"
+            },
+            "zone": {
+                "type": "string",
+                "description": "zone, Zone Id (forecast or county, list forthcoming)"
+            },
+            "urgency": {
+                "type": "string",
+                "description": "Urgency of the alert (e.g., expected, immediate)."
+            },
+            "region": {
+                "type": "string",
+                "description": "region, Region code (list forthcoming)"
+            },
+            "certainty": {
+                "type": "string",
+                "description": "Certainty of the event (e.g., likely, observed)."
+            },
+            "severity": {
+                "type": "string",
+                "description": "Severity of the event (e.g., minor, moderate, severe)."
+            },
+            "limit": {
+                "type": "string",
+                "description": "Limit the number of results (integer)."
+            }
+        },
+        "required": []
+    }
+}

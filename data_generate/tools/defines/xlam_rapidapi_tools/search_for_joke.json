@@ -1,0 +1,15 @@
+{
+    "name": "search_for_joke",
+    "description": "This is a sub-function API for tool jokes.\nTool description: This API provides 1536 English funny jokes.\nAPI description: Fetch a joke based on the provided search text.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search query text to find jokes. Defaults to 'Did you hear about the butcher who backed'.",
+                "default": "Did you hear about the butcher who backed"
+            }
+        },
+        "required": []
+    }
+}

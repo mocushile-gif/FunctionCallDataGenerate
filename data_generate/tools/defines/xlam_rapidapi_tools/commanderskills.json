@@ -1,0 +1,14 @@
+{
+    "name": "commanderskills",
+    "description": "This is a sub-function API for tool gotw.\nTool description: GoTW commander skills\nAPI description: Fetches the details of a specific commander skill from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "skill": {
+                "type": "string",
+                "description": "The specific commander skill to query. If not provided, the function will use a default value."
+            }
+        },
+        "required": []
+    }
+}

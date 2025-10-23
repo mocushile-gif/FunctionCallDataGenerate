@@ -1,0 +1,9 @@
+{
+  "name": "check_disk_usage",
+  "description": "Check the disk usage and return a formatted string (only including total, used, and free usage).",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

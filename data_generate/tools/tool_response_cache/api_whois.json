@@ -1,0 +1,168 @@
+{
+    "{'host': 'wikipedia.org'}": {
+        "error": "",
+        "response": {
+            "startAddress": "198.35.26.0",
+            "endAddress": "198.35.27.255",
+            "ipVersion": "v4",
+            "name": "WIKIMEDIA",
+            "type": "DIRECT ALLOCATION",
+            "lastChanged": "2021-12-14T20:28:36-05:00",
+            "registered": "2013-07-16T18:48:37-04:00",
+            "registrant": [
+                {
+                    "handle": "WIKIM",
+                    "vcard": [
+                        [
+                            "version",
+                            {},
+                            "text",
+                            "4.0"
+                        ],
+                        [
+                            "fn",
+                            {},
+                            "text",
+                            "Wikimedia Foundation Inc."
+                        ],
+                        [
+                            "adr",
+                            {
+                                "label": "1 Montgomery Street\nSuite 1600\nSan Francisco\nCA\n94104\nUnited States"
+                            },
+                            "text",
+                            [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "",
+                                "",
+                                ""
+                            ]
+                        ],
+                        [
+                            "kind",
+                            {},
+                            "text",
+                            "org"
+                        ]
+                    ],
+                    "roles": [
+                        "registrant"
+                    ],
+                    "lastChanged": "2022-11-07T04:52:46-05:00",
+                    "registered": "2006-05-30T14:12:34-04:00"
+                }
+            ],
+            "status": [
+                "active"
+            ],
+            "cidr0_cidrs": [
+                {
+                    "v4prefix": "198.35.26.0",
+                    "length": 23
+                }
+            ]
+        }
+    },
+    "{'host': '192.168.1.1'}": {
+        "error": "",
+        "response": "Internal Server Error"
+    },
+    "{'host': 'yahoo.com'}": {
+        "error": "",
+        "response": {
+            "startAddress": "34.192.0.0",
+            "endAddress": "34.255.255.255",
+            "ipVersion": "v4",
+            "name": "AT-88-Z",
+            "type": "DIRECT ALLOCATION",
+            "lastChanged": "2016-09-12T15:01:56-04:00",
+            "registered": "2016-09-12T15:01:56-04:00",
+            "registrant": [
+                {
+                    "handle": "AT-88-Z",
+                    "vcard": [
+                        [
+                            "version",
+                            {},
+                            "text",
+                            "4.0"
+                        ],
+                        [
+                            "fn",
+                            {},
+                            "text",
+                            "Amazon Technologies Inc."
+                        ],
+                        [
+                            "adr",
+                            {
+                                "label": "410 Terry Ave N.\nSeattle\nWA\n98109\nUnited States"
+                            },
+                            "text",
+                            [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "",
+                                "",
+                                ""
+                            ]
+                        ],
+                        [
+                            "kind",
+                            {},
+                            "text",
+                            "org"
+                        ]
+                    ],
+                    "roles": [
+                        "registrant"
+                    ],
+                    "lastChanged": "2022-09-30T16:20:16-04:00",
+                    "registered": "2011-12-08T13:34:25-05:00"
+                }
+            ],
+            "status": [
+                "active"
+            ],
+            "cidr0_cidrs": [
+                {
+                    "v4prefix": "34.192.0.0",
+                    "length": 10
+                }
+            ]
+        }
+    },
+    "{'host': 'troubledomain.com'}": {
+        "error": "",
+        "response": "Internal Server Error"
+    },
+    "{'host': 'example.org'}": {
+        "error": "",
+        "response": "{'startAddress': '96.6.0.0', 'endAddress': '96.7.255.255', 'ipVersion': 'v4', 'name': 'AKAMAI-200703', 'type': 'DIRECT ALLOCATION', 'lastChanged': '2017-12-22T22:27:35-05:00', 'registered': '2007-03-14T13:02:08-04:00', 'registrant': [{'handle': 'AKAMAI', 'vcard': [['version', {}, 'text', '4.0'], ['fn', {}, 'text', 'Akamai Technologies, Inc.'], ['adr', {'label': '145 Broadway\\nCambridge\\nMA\\n02142\\nUnited States'}, 'text', ['', '', '', '', '', '', '']], ['kind', {}, 'text', 'org']], 'roles': ['registrant'], 'lastChanged': '2023-10-24T10:48:16-04:00', 'registered': '1999-01-21T00:00:00-05:00'}], 'status': ['active'], 'cidr0_cidrs': [{'v4prefix': '96.6.0.0', 'length': 15}]}"
+    },
+    "{'host': 'akamai.com'}": {
+        "error": "",
+        "response": "{'startAddress': '23.32.0.0', 'endAddress': '23.67.255.255', 'ipVersion': 'v4', 'name': 'AKAMAI', 'type': 'DIRECT ALLOCATION', 'lastChanged': '2012-03-02T08:03:18-05:00', 'registered': '2011-05-16T15:49:09-04:00', 'registrant': [{'handle': 'AKAMAI', 'vcard': [['version', {}, 'text', '4.0'], ['fn', {}, 'text', 'Akamai Technologies, Inc.'], ['adr', {'label': '145 Broadway\\nCambridge\\nMA\\n02142\\nUnited States'}, 'text', ['', '', '', '', '', '', '']], ['kind', {}, 'text', 'org']], 'roles': ['registrant'], 'lastChanged': '2023-10-24T10:48:16-04:00', 'registered': '1999-01-21T00:00:00-05:00'}], 'status': ['active'], 'cidr0_cidrs': [{'v4prefix': '23.32.0.0', 'length': 11}, {'v4prefix': '23.64.0.0', 'length': 14}]}"
+    },
+    "{'host': 'cloudflare.com'}": {
+        "error": "",
+        "response": "{'startAddress': '104.16.0.0', 'endAddress': '104.31.255.255', 'ipVersion': 'v4', 'name': 'CLOUDFLARENET', 'type': 'DIRECT ALLOCATION', 'lastChanged': '2024-09-04T06:51:26-04:00', 'registered': '2014-03-28T11:30:55-04:00', 'registrant': [{'handle': 'CLOUD14', 'vcard': [['version', {}, 'text', '4.0'], ['fn', {}, 'text', 'Cloudflare, Inc.'], ['adr', {'label': '101 Townsend Street\\nSan Francisco\\nCA\\n94107\\nUnited States'}, 'text', ['', '', '', '', '', '', '']], ['kind', {}, 'text', 'org']], 'roles': ['registrant'], 'lastChanged': '2024-11-25T11:09:46-05:00', 'registered': '2010-07-09T14:10:42-04:00'}], 'status': ['active'], 'cidr0_cidrs': [{'v4prefix': '104.16.0.0', 'length': 12}]}"
+    },
+    "{'host': 'techinnovate.com'}": {
+        "error": "",
+        "response": "Internal Server Error"
+    },
+    "{'host': 'secureapi.net'}": {
+        "error": "",
+        "response": "Internal Server Error"
+    },
+    "{'host': 'streaminghub.com'}": {
+        "error": "",
+        "response": "{'startAddress': '172.64.0.0', 'endAddress': '172.71.255.255', 'ipVersion': 'v4', 'name': 'CLOUDFLARENET', 'type': 'DIRECT ALLOCATION', 'lastChanged': '2024-09-04T07:54:28-04:00', 'registered': '2015-02-25T20:57:09-05:00', 'registrant': [{'handle': 'CLOUD14', 'vcard': [['version', {}, 'text', '4.0'], ['fn', {}, 'text', 'Cloudflare, Inc.'], ['adr', {'label': '101 Townsend Street\\nSan Francisco\\nCA\\n94107\\nUnited States'}, 'text', ['', '', '', '', '', '', '']], ['kind', {}, 'text', 'org']], 'roles': ['registrant'], 'lastChanged': '2024-11-25T11:09:46-05:00', 'registered': '2010-07-09T14:10:42-04:00'}], 'status': ['active'], 'cidr0_cidrs': [{'v4prefix': '172.64.0.0', 'length': 13}]}"
+    }
+}

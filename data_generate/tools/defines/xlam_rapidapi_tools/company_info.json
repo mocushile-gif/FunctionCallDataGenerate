@@ -1,0 +1,17 @@
+{
+    "name": "company_info",
+    "description": "This is a sub-function API for tool finshorts.\nTool description: Finshorts is a platform where you can access companies Stock Quote, Company Info, Historical Prices Chart, Historical  Dividends, Cash flow statement in realtime\nAPI description: Retrieves real-time company information using the Finshorts API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The query string representing the company name or ticker symbol.",
+                "default": "aapl"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

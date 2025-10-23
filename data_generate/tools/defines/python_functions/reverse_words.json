@@ -1,0 +1,33 @@
+{
+    "name": "reverse_words",
+    "description": "Reverses the order of words in a sentence. Optionally allows splitting by a custom delimiter, excluding specific words, and preserving the case of each word.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "sentence": {
+          "type": "string",
+          "description": "The input sentence whose words will be reversed."
+        },
+        "split_by": {
+          "type": "string",
+          "description": "The delimiter to split words by. Default is a space.",
+          "default": " "
+        },
+        "exclude": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "A list of words to exclude from reversal. These words will remain in their original position.",
+          "default": null
+        },
+        "preserve_case": {
+          "type": "boolean",
+          "description": "If True, preserves the original case of the words. Default is True.",
+          "default": true
+        }
+      },
+      "required": ["sentence"]
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "name": "domain",
+    "description": "This is a sub-function API for tool university_domains.\nTool description: Check if a domain name belongs to a college or university.\nAPI description: Checks if a given domain is disposable using the Mailcheck API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain to check for disposability.",
+                "default": "schreiner.edu"
+            }
+        },
+        "required": [
+            "domain"
+        ]
+    }
+}

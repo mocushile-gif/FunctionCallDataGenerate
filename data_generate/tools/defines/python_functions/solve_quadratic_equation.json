@@ -1,0 +1,26 @@
+{
+    "name": "solve_quadratic_equation",
+    "description": "Solves the quadratic equation ax^2 + bx + c = 0 and returns the two solutions (roots). The function handles both real and complex roots.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "a": {
+                "type": "number",
+                "description": "The coefficient of x^2."
+            },
+            "b": {
+                "type": "number",
+                "description": "The coefficient of x."
+            },
+            "c": {
+                "type": "number",
+                "description": "The constant term."
+            }
+        },
+        "required": [
+            "a",
+            "b",
+            "c"
+        ]
+    }
+}

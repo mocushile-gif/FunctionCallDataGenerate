@@ -1,0 +1,17 @@
+{
+    "name": "random_skin_from_weapon",
+    "description": "This is a sub-function API for tool cs_skin_api.\nTool description: retrieve image, price, weapon, class for every released Skin in CS:GO or CS2\nAPI description: retrieve name, price, icon, class and weapon for a random counterstrike skin from a specific weapon\n(prices for field tested condition in USD)\n\n(replace weapon_name)\n\nExample: /api/random/AWP",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "weapon_name": {
+                "type": "string",
+                "description": "The name of the weapon for which to retrieve a random skin.",
+                "default": "AWP"
+            }
+        },
+        "required": [
+            "weapon_name"
+        ]
+    }
+}

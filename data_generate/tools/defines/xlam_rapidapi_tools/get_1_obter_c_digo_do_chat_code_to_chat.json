@@ -1,0 +1,23 @@
+{
+    "name": "get_1_obter_c_digo_do_chat_code_to_chat",
+    "description": "This is a sub-function API for tool compras_net_api.\nTool description: Compras Net Api\nAPI description: This function retrieves the chat code by querying the \"compras-net\" API using the provided UASG code and process number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "co_uasg": {
+                "type": "number",
+                "description": "Code of the UASG (Unified System of General Services Code) of the organization.",
+                "default": 980369.0
+            },
+            "numprp": {
+                "type": "number",
+                "description": "Number of the process to be consulted.",
+                "default": 632021.0
+            }
+        },
+        "required": [
+            "co_uasg",
+            "numprp"
+        ]
+    }
+}

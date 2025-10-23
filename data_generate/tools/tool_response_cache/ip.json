@@ -1,0 +1,26 @@
+{
+    "{'ip': '192.168.1.1'}": {
+        "error": "",
+        "response": {
+            "ip": "192.168.1.1",
+            "geo_location": {
+                "country": "Private Network",
+                "region": "N/A",
+                "city": "N/A",
+                "latitude": "N/A",
+                "longitude": "N/A",
+                "time_zone": "N/A",
+                "zip_code": "N/A",
+                "flag": "N/A"
+            },
+            "additional_info": {
+                "ip_blacklist_status": "Not applicable for private IPs",
+                "currencies": "N/A",
+                "languages": "N/A",
+                "tld": "N/A",
+                "host": "N/A"
+            },
+            "note": "The IP address '192.168.1.1' is a private IP address and does not have associated geo-location or reputation data as it is reserved for internal network use."
+        }
+    }
+}

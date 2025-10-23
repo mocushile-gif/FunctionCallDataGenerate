@@ -1,0 +1,22 @@
+{
+    "name": "filter_group_giveaways",
+    "description": "This is a sub-function API for tool gamerpower.\nTool description: Find all free games, loot and giveaways with this giveaway tracker API powered by GamerPower.com! Access programmatically the best giveaways in gaming!\nAPI description: Filters and groups giveaways based on the provided platform and type, using the provided API key to make the request.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "platform": {
+                "type": "string",
+                "description": "The platform for which to filter the giveaways (e.g., 'pc', 'ps4', 'xbox').",
+                "default": "epic-games-store.steam.android"
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of giveaway to filter (default is 'game.loot').",
+                "default": "game.loot"
+            }
+        },
+        "required": [
+            "platform"
+        ]
+    }
+}

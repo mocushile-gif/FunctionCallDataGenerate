@@ -1,0 +1,30 @@
+{
+    "name": "user_post_videos",
+    "description": "This is a sub-function API for tool tiktok_download_video.\nTool description: Tiktok Best Spider. Fast. HD Quality. Without Watermark Download. Video Full Detail. Signature X-Argus,X-Ladon,X-Gorgon \nmail: nb429429@gmail.com\n\nAPI description: get user post videos for latest\nget user feed\nunique_id or user_id is not empty",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "count": {
+                "type": "string",
+                "description": "The number of videos to fetch, with a maximum limit of 35. Default is '10'.",
+                "default": "10"
+            },
+            "unique_id": {
+                "type": "string",
+                "description": "The unique identifier of the TikTok user. Default is '@tiktok'.",
+                "default": "@tiktok"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "The cursor position for pagination. Default is '0'.",
+                "default": "0"
+            },
+            "user_id": {
+                "type": "string",
+                "description": "The user ID of the TikTok user. Default is '107955'.",
+                "default": "107955"
+            }
+        },
+        "required": []
+    }
+}

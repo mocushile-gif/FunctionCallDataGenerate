@@ -1,0 +1,14 @@
+{
+    "name": "get_champions",
+    "description": "This is a sub-function API for tool league_of_legends_api.\nTool description: An league of Legnds API to get all champions, chamption details, champion rotations, league queue, game from summoner, some informtions in a summoner. \nAll information is translated into 28 languages! \nAvailable for all regions!\nAPI description: Fetches a list of all champions from the League of Legends API, optionally in a specified language.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lang": {
+                "type": "string",
+                "description": "The language in which to retrieve the champion information. Defaults to None, which retrieves information in English."
+            }
+        },
+        "required": []
+    }
+}

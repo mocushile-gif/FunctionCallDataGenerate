@@ -1,0 +1,33 @@
+{
+    "name": "fx",
+    "description": "This is a sub-function API for tool forexgo.\nTool description: Introducing ForexGo API - the powerful currency exchange solution for developers. Effortlessly integrate real-time forex rates and conversion capabilities into your applications with our easy-to-use API. Enhance your projects with accurate and up-to-date exchange data, empowering users across the globe to make informed financial decisions. Get started with ForexGo API today!\nAPI description: Introducing ForexGo API - the powerful currency exchange solution for developers. Effortlessly integrate real-time forex rates and conversion capabilities into your applications with our easy-to-use API. Enhance your projects with accurate and up-to-date exchange data, empowering users across the globe to make informed financial decisions. Get started with ForexGo API today!",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "amount": {
+                "type": "number",
+                "description": "The amount of currency to be converted.",
+                "default": 10.0
+            },
+            "is_from": {
+                "type": "string",
+                "description": "Supported currencies are listed below.\n\nEUR, USD, JPY, BGN, CZK, DKK, GBP, HUF, PLN, RON, SEK, CHF, ISK, NOK, TRY, AUD, BRL, CAD, CNY, HKD, IDR, ILS, INR, KRW, MXN, MYR, NZD, PHP, SGD, THB, ZAR",
+                "default": "EUR"
+            },
+            "to": {
+                "type": "string",
+                "description": "Supported currencies are listed below.\n\nEUR, USD, JPY, BGN, CZK, DKK, GBP, HUF, PLN, RON, SEK, CHF, ISK, NOK, TRY, AUD, BRL, CAD, CNY, HKD, IDR, ILS, INR, KRW, MXN, MYR, NZD, PHP, SGD, THB, ZAR",
+                "default": "USD"
+            },
+            "date": {
+                "type": "string",
+                "description": "The date for historical conversion rates in ISO format (YYYY-MM-DDTHH:mm:ss.sssZ). Defaults to None for real-time rates."
+            }
+        },
+        "required": [
+            "amount",
+            "is_from",
+            "to"
+        ]
+    }
+}

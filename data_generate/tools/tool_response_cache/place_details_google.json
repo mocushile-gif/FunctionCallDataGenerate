@@ -1,0 +1,24 @@
+{
+    "{'is_id': 'ChIJCxzX9tpwhlQRIFVwULOI2FM'}": {
+        "error": "",
+        "response": {
+            "place_id": "ChIJCxzX9tpwhlQRIFVwULOI2FM",
+            "name": "Sample Caf\u00e9 & Bistro",
+            "address": "123 Main Street, Tech City, TC 09876",
+            "contact": {
+                "phone": "+1-555-123-4567",
+                "website": "https://samplecafe.com"
+            },
+            "opening_hours": {
+                "today": "8:00 AM \u2013 9:00 PM",
+                "status": "Open Now",
+                "special_notes": "Closed on Mondays for maintenance."
+            },
+            "services": [
+                "Free Wi-Fi",
+                "Takeout",
+                "Seating Available"
+            ]
+        }
+    }
+}

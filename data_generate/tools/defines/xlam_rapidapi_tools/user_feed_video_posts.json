@@ -1,0 +1,31 @@
+{
+    "name": "user_feed_video_posts",
+    "description": "This is a sub-function API for tool social_media_data_tt.\nTool description: Social Media Data API in Real-Time.  -Get very useful and unique information.  -I'm on Telegram https://t.me/logicBuilder News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Get current user feed. \n\n- Before testing don't forget to fill out the username **OR** sec_uid inputs\n- Endpoint will return an array of objects with very useful metadata. \n- Direct urls to the video , statistics and more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The influencer username. For example: **charlidamelio**\n\n- **NOTE:** By using **sec_uid** instead of the **username** request will be executed faster\n- To use **sec_uid** use input field **BELOW**",
+                "default": "amazon"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of records to return. Default is 100. The maximum number of records is 500."
+            },
+            "max_cursor": {
+                "type": "number",
+                "description": "Pagination cursor for fetching additional videos. Use the `max_cursor` value received from the previous request to get more videos."
+            },
+            "sec_uid": {
+                "type": "string",
+                "description": "**NOTE:** By using **sec_uid**, request will be executed faster then if you will use username\n\n**NOTE:** **sec_uid** can be obtained from the **User Information** endpoint\n\n**NOTE:** **sec_uid** example: MS4wLjABAAAAv7iSuuXDJGDvJkmH_vz1qkDZYo1apxgzaxdBSeIuPiM"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country code to filter the feed."
+            }
+        },
+        "required": []
+    }
+}

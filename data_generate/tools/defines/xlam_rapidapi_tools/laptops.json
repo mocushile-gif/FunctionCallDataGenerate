@@ -1,0 +1,14 @@
+{
+    "name": "laptops",
+    "description": "This is a sub-function API for tool amazon_api_v2.\nTool description: Amazon_API\nAPI description: Retrieves information about laptops from the Amazon API using optional brand name filtering.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name_brand": {
+                "type": "string",
+                "description": "The brand name to filter the laptops by. If not provided, all laptop brands will be considered."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": {
+            "AAPL": {
+                "52WeekChange": 31.621456,
+                "SandP52WeekChange": 14.127123,
+                "beta": 1.292349,
+                "bookValue": 3.953,
+                "category": null,
+                "dateShortInterest": 1686787200,
+                "earningsQuarterlyGrowth": -0.034,
+                "enterpriseToEbitda": 24.662,
+                "enterpriseToRevenue": 7.928,
+                "enterpriseValue": 3052891799552,
+                "floatShares": 15711872289,
+                "forwardEps": 6.58,
+                "forwardPE": 28.658056,
+                "fundFamily": null,
+                "heldPercentInsiders": 0.00071000005,
+                "heldPercentInstitutions": 0.61232,
+                "impliedSharesOutstanding": 15728700416,
+                "lastDividendDate": "-",
+                "lastDividendValue": 0.24,
+                "lastFiscalYearEnd": 1663977600,
+                "lastSplitDate": "-",
+                "lastSplitFactor": "4:1",
+                "legalType": null,
+                "maxAge": 1,
+                "mostRecentQuarter": 1680307200,
+                "netIncomeToCommon": 94321000448,
+                "nextFiscalYearEnd": 1695513600,
+                "pegRatio": 4.01,
+                "priceHint": 2,
+                "priceToBook": 47.70301,
+                "profitMargins": 0.24493,
+                "sharesOutstanding": 15728700416,
+                "sharesPercentSharesOut": 0.0077,
+                "sharesShort": 121254451,
+                "sharesShortPreviousMonthDate": "-",
+                "sharesShortPriorMonth": 109878751,
+                "shortPercentOfFloat": 0.0077,
+                "shortRatio": 2.03,
+                "trailingEps": 5.89
+            }
+        }
+    },
+    "{'symbol': 'TM', 'region': 'US'}": {
+        "error": "",
+        "response": "{'TM': {'52WeekChange': -0.10180515, 'SandP52WeekChange': 0.1189177, 'beta': 0.248, 'bookValue': 2753.086, 'category': None, 'dateShortInterest': 1747267200, 'earningsQuarterlyGrowth': -0.334, 'enterpriseToEbitda': 4.151, 'enterpriseToRevenue': 0.608, 'enterpriseValue': 29206985572352, 'floatShares': 11110641745, 'forwardEps': 15.78, 'fundFamily': None, 'heldPercentInsiders': 0.0, 'heldPercentInstitutions': 0.01812, 'impliedSharesOutstanding': 1360630016, 'lastDividendDate': '-', 'lastDividendValue': 2.601, 'lastFiscalYearEnd': 1743379200, 'lastSplitDate': '-', 'lastSplitFactor': '11:10', 'latestShareClass': None, 'leadInvestor': None, 'legalType': None, 'maxAge': 1, 'mostRecentQuarter': 1743379200, 'netIncomeToCommon': 4765085859840, 'nextFiscalYearEnd': 1774915200, 'priceHint': 2, 'priceToBook': 0.069220506, 'profitMargins': 0.0992, 'sharesOutstanding': 1303270016, 'sharesPercentSharesOut': 0.0008, 'sharesShort': 1074282, 'sharesShortPreviousMonthDate': '-', 'sharesShortPriorMonth': 1159122, 'shortPercentOfFloat': 0.0008, 'shortRatio': 2.77, 'trailingEps': 24.68}}"
+    },
+    "{'symbol': 'AAPL', 'region': 'US'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'symbol': 'F', 'region': 'US'}": {
+        "error": "",
+        "response": "{'F': {'52WeekChange': -0.14848238, 'SandP52WeekChange': 0.1189177, 'beta': 1.509, 'bookValue': 11.225, 'category': None, 'dateShortInterest': 1747267200, 'earningsQuarterlyGrowth': -0.646, 'enterpriseToEbitda': 16.987, 'enterpriseToRevenue': 0.941, 'enterpriseValue': 172090572800, 'floatShares': 3868426482, 'forwardEps': 1.75, 'forwardPE': 7.1212406, 'fundFamily': None, 'heldPercentInsiders': 0.00294, 'heldPercentInstitutions': 0.62149, 'impliedSharesOutstanding': 3976549888, 'lastDividendDate': '-', 'lastDividendValue': 0.15, 'lastFiscalYearEnd': 1735603200, 'lastSplitDate': '-', 'lastSplitFactor': '1748175:1000000', 'latestShareClass': None, 'leadInvestor': None, 'legalType': None, 'maxAge': 1, 'mostRecentQuarter': 1743379200, 'netIncomeToCommon': 5017999872, 'nextFiscalYearEnd': 1767139200, 'priceHint': 2, 'priceToBook': 0.8846325, 'profitMargins': 0.02744, 'sharesOutstanding': 3905700096, 'sharesPercentSharesOut': 0.0388, 'sharesShort': 154208907, 'sharesShortPreviousMonthDate': '-', 'sharesShortPriorMonth': 160498612, 'shortPercentOfFloat': 0.044099998, 'shortRatio': 1.42, 'trailingEps': 1.25}}"
+    },
+    "{'symbol': 'MSFT', 'region': 'US'}": {
+        "error": "",
+        "response": "{'MSFT': {'52WeekChange': 0.23251796, 'SandP52WeekChange': 0.23012733, 'beta': 0.896, 'bookValue': 36.115, 'category': None, 'dateShortInterest': 1723680000, 'earningsQuarterlyGrowth': 0.097, 'enterpriseToEbitda': 23.959, 'enterpriseToRevenue': 12.651, 'enterpriseValue': 3101085401088, 'floatShares': 7422706458, 'forwardEps': 15.22, 'forwardPE': 27.306831, 'fundFamily': None, 'heldPercentInsiders': 0.00054000004, 'heldPercentInstitutions': 0.73739, 'impliedSharesOutstanding': 7433039872, 'lastDividendDate': '-', 'lastDividendValue': 0.75, 'lastFiscalYearEnd': 1719705600, 'lastSplitDate': '-', 'lastSplitFactor': '2:1', 'legalType': None, 'maxAge': 1, 'mostRecentQuarter': 1719705600, 'netIncomeToCommon': 88135999488, 'nextFiscalYearEnd': 1751241600, 'pegRatio': 2.17, 'priceHint': 2, 'priceToBook': 11.507959, 'profitMargins': 0.35956, 'sharesOutstanding': 7433039872, 'sharesPercentSharesOut': 0.0074, 'sharesShort': 54789102, 'sharesShortPreviousMonthDate': '-', 'sharesShortPriorMonth': 61931266, 'shortPercentOfFloat': 0.0074, 'shortRatio': 2.37, 'trailingEps': 11.8}}"
+    },
+    "{'symbol': 'DIS', 'region': 'US'}": {
+        "error": "",
+        "response": "{'DIS': {'52WeekChange': 0.10862374, 'SandP52WeekChange': 0.119305134, 'beta': 1.552, 'bookValue': 57.934, 'category': None, 'dateShortInterest': 1747267200, 'enterpriseToEbitda': 12.878, 'enterpriseToRevenue': 2.618, 'enterpriseValue': 246227304448, 'floatShares': 1795391263, 'forwardEps': 5.15, 'forwardPE': 18.344818, 'fundFamily': None, 'heldPercentInsiders': 0.00061, 'heldPercentInstitutions': 0.73289, 'impliedSharesOutstanding': 1797750016, 'lastDividendDate': '-', 'lastDividendValue': 0.5, 'lastFiscalYearEnd': 1727481600, 'lastSplitDate': '-', 'lastSplitFactor': '10000:9865', 'latestShareClass': None, 'leadInvestor': None, 'legalType': None, 'maxAge': 1, 'mostRecentQuarter': 1743206400, 'netIncomeToCommon': 8910000128, 'nextFiscalYearEnd': 1759017600, 'priceHint': 2, 'priceToBook': 1.9802327, 'profitMargins': 0.09475, 'sharesOutstanding': 1797750016, 'sharesPercentSharesOut': 0.012, 'sharesShort': 21566194, 'sharesShortPreviousMonthDate': '-', 'sharesShortPriorMonth': 22768907, 'shortPercentOfFloat': 0.012, 'shortRatio': 1.76, 'trailingEps': 4.9}}"
+    },
+    "{'region': 'US', 'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'AAPL': {'52WeekChange': -0.09332162, 'SandP52WeekChange': 0.09203708, 'beta': 1.211, 'bookValue': 4.471, 'category': None, 'dateShortInterest': 1748563200, 'earningsQuarterlyGrowth': 0.048, 'enterpriseToEbitda': 21.783, 'enterpriseToRevenue': 7.555, 'enterpriseValue': 3024904519680, 'floatShares': 14911480604, 'forwardEps': 8.31, 'forwardPE': 25.00089, 'fundFamily': None, 'heldPercentInsiders': 0.02085, 'heldPercentInstitutions': 0.62893003, 'impliedSharesOutstanding': 15118999552, 'lastDividendDate': '-', 'lastDividendValue': 0.26, 'lastFiscalYearEnd': 1727481600, 'lastSplitDate': '-', 'lastSplitFactor': '4:1', 'latestShareClass': None, 'leadInvestor': None, 'legalType': None, 'maxAge': 1, 'mostRecentQuarter': 1743206400, 'netIncomeToCommon': 97294000128, 'nextFiscalYearEnd': 1759017600, 'priceHint': 2, 'priceToBook': 43.938713, 'profitMargins': 0.24301, 'sharesOutstanding': 14935799808, 'sharesPercentSharesOut': 0.0063, 'sharesShort': 94828443, 'sharesShortPreviousMonthDate': '-', 'sharesShortPriorMonth': 108598767, 'shortPercentOfFloat': 0.0064, 'shortRatio': 1.67, 'trailingEps': 6.42}}"
+    },
+    "{'region': 'US', 'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'TSLA': {'52WeekChange': 0.73554206, 'SandP52WeekChange': 0.09203708, 'beta': 2.461, 'bookValue': 23.184, 'category': None, 'dateShortInterest': 1748563200, 'earningsQuarterlyGrowth': -0.706, 'enterpriseToEbitda': 81.65, 'enterpriseToRevenue': 10.705, 'enterpriseValue': 1024706281472, 'floatShares': 2803294819, 'forwardEps': 3.24, 'forwardPE': 114.23725, 'fundFamily': None, 'heldPercentInsiders': 0.12889, 'heldPercentInstitutions': 0.50166, 'impliedSharesOutstanding': 3220960000, 'lastFiscalYearEnd': 1735603200, 'lastSplitDate': '-', 'lastSplitFactor': '3:1', 'latestShareClass': None, 'leadInvestor': None, 'legalType': None, 'maxAge': 1, 'mostRecentQuarter': 1743379200, 'netIncomeToCommon': 6106999808, 'nextFiscalYearEnd': 1767139200, 'priceHint': 2, 'priceToBook': 14.03166, 'profitMargins': 0.063829996, 'sharesOutstanding': 3220960000, 'sharesPercentSharesOut': 0.0239, 'sharesShort': 76998079, 'sharesShortPreviousMonthDate': '-', 'sharesShortPriorMonth': 81317940, 'shortPercentOfFloat': 0.0274, 'shortRatio': 0.73, 'trailingEps': 1.76}}"
+    },
+    "{'region': 'US', 'symbol': 'AMZN'}": {
+        "error": "",
+        "response": "{'AMZN': {'52WeekChange': 0.1523416, 'SandP52WeekChange': 0.09203708, 'beta': 1.334, 'bookValue': 28.82, 'category': None, 'dateShortInterest': 1748563200, 'earningsQuarterlyGrowth': 0.642, 'enterpriseToEbitda': 18.449, 'enterpriseToRevenue': 3.579, 'enterpriseValue': 2327219011584, 'floatShares': 9571703330, 'forwardEps': 6.15, 'forwardPE': 29.19461, 'fundFamily': None, 'heldPercentInsiders': 0.08721, 'heldPercentInstitutions': 0.65486, 'impliedSharesOutstanding': 10616399872, 'lastFiscalYearEnd': 1735603200, 'lastSplitDate': '-', 'lastSplitFactor': '20:1', 'latestShareClass': None, 'leadInvestor': None, 'legalType': None, 'maxAge': 1, 'mostRecentQuarter': 1743379200, 'netIncomeToCommon': 65943998464, 'nextFiscalYearEnd': 1767139200, 'priceHint': 2, 'priceToBook': 7.3594728, 'profitMargins': 0.1014, 'sharesOutstanding': 10616399872, 'sharesPercentSharesOut': 0.0058, 'sharesShort': 61355415, 'sharesShortPreviousMonthDate': '-', 'sharesShortPriorMonth': 65739202, 'shortPercentOfFloat': 0.0064, 'shortRatio': 1.36, 'trailingEps': 6.13}}"
+    }
+}

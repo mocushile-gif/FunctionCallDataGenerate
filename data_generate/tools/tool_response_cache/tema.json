@@ -1,0 +1,647 @@
+{
+    "{'symbol': 'AAPL', 'interval': '1min'}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "symbol": "AAPL",
+                "interval": "1min",
+                "currency": "USD",
+                "exchange_timezone": "America/New_York",
+                "exchange": "NASDAQ",
+                "mic_code": "XNGS",
+                "type": "Common Stock",
+                "indicator": {
+                    "name": "TEMA - Triple Exponential Moving Average",
+                    "series_type": "close",
+                    "time_period": 9
+                }
+            },
+            "values": [
+                {
+                    "datetime": "2023-07-14 15:59:00",
+                    "tema": "190.59704"
+                },
+                {
+                    "datetime": "2023-07-14 15:58:00",
+                    "tema": "190.46637"
+                },
+                {
+                    "datetime": "2023-07-14 15:57:00",
+                    "tema": "190.44834"
+                },
+                {
+                    "datetime": "2023-07-14 15:56:00",
+                    "tema": "190.45768"
+                },
+                {
+                    "datetime": "2023-07-14 15:55:00",
+                    "tema": "190.43363"
+                },
+                {
+                    "datetime": "2023-07-14 15:54:00",
+                    "tema": "190.42647"
+                },
+                {
+                    "datetime": "2023-07-14 15:53:00",
+                    "tema": "190.44923"
+                },
+                {
+                    "datetime": "2023-07-14 15:52:00",
+                    "tema": "190.45703"
+                },
+                {
+                    "datetime": "2023-07-14 15:51:00",
+                    "tema": "190.44709"
+                },
+                {
+                    "datetime": "2023-07-14 15:50:00",
+                    "tema": "190.43235"
+                },
+                {
+                    "datetime": "2023-07-14 15:49:00",
+                    "tema": "190.39380"
+                },
+                {
+                    "datetime": "2023-07-14 15:48:00",
+                    "tema": "190.42851"
+                },
+                {
+                    "datetime": "2023-07-14 15:47:00",
+                    "tema": "190.43952"
+                },
+                {
+                    "datetime": "2023-07-14 15:46:00",
+                    "tema": "190.50725"
+                },
+                {
+                    "datetime": "2023-07-14 15:45:00",
+                    "tema": "190.50311"
+                },
+                {
+                    "datetime": "2023-07-14 15:44:00",
+                    "tema": "190.45292"
+                },
+                {
+                    "datetime": "2023-07-14 15:43:00",
+                    "tema": "190.45810"
+                },
+                {
+                    "datetime": "2023-07-14 15:42:00",
+                    "tema": "190.43884"
+                },
+                {
+                    "datetime": "2023-07-14 15:41:00",
+                    "tema": "190.37249"
+                },
+                {
+                    "datetime": "2023-07-14 15:40:00",
+                    "tema": "190.32974"
+                },
+                {
+                    "datetime": "2023-07-14 15:39:00",
+                    "tema": "190.26986"
+                },
+                {
+                    "datetime": "2023-07-14 15:38:00",
+                    "tema": "190.22688"
+                },
+                {
+                    "datetime": "2023-07-14 15:37:00",
+                    "tema": "190.25649"
+                },
+                {
+                    "datetime": "2023-07-14 15:36:00",
+                    "tema": "190.26183"
+                },
+                {
+                    "datetime": "2023-07-14 15:35:00",
+                    "tema": "190.26353"
+                },
+                {
+                    "datetime": "2023-07-14 15:34:00",
+                    "tema": "190.26344"
+                },
+                {
+                    "datetime": "2023-07-14 15:33:00",
+                    "tema": "190.20881"
+                },
+                {
+                    "datetime": "2023-07-14 15:32:00",
+                    "tema": "190.23626"
+                },
+                {
+                    "datetime": "2023-07-14 15:31:00",
+                    "tema": "190.21736"
+                },
+                {
+                    "datetime": "2023-07-14 15:30:00",
+                    "tema": "190.25191"
+                }
+            ],
+            "status": "ok"
+        }
+    },
+    "{'interval': '1day', 'symbol': 'ETH/BTC', 'time_period': 9, 'series_type': 'close'}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "symbol": "ETH/BTC",
+                "interval": "1day",
+                "currency_base": "Ethereum",
+                "currency_quote": "Bitcoin",
+                "exchange": "Huobi",
+                "type": "Digital Currency",
+                "indicator": {
+                    "name": "TEMA - Triple Exponential Moving Average",
+                    "series_type": "close",
+                    "time_period": 9
+                }
+            },
+            "values": [
+                {
+                    "datetime": "2023-07-18",
+                    "tema": "0.06382"
+                },
+                {
+                    "datetime": "2023-07-17",
+                    "tema": "0.06383"
+                },
+                {
+                    "datetime": "2023-07-16",
+                    "tema": "0.06386"
+                },
+                {
+                    "datetime": "2023-07-15",
+                    "tema": "0.06373"
+                },
+                {
+                    "datetime": "2023-07-14",
+                    "tema": "0.06334"
+                },
+                {
+                    "datetime": "2023-07-13",
+                    "tema": "0.06259"
+                },
+                {
+                    "datetime": "2023-07-12",
+                    "tema": "0.06154"
+                },
+                {
+                    "datetime": "2023-07-11",
+                    "tema": "0.06155"
+                },
+                {
+                    "datetime": "2023-07-10",
+                    "tema": "0.06179"
+                },
+                {
+                    "datetime": "2023-07-09",
+                    "tema": "0.06179"
+                },
+                {
+                    "datetime": "2023-07-08",
+                    "tema": "0.06188"
+                },
+                {
+                    "datetime": "2023-07-07",
+                    "tema": "0.06216"
+                },
+                {
+                    "datetime": "2023-07-06",
+                    "tema": "0.06254"
+                },
+                {
+                    "datetime": "2023-07-05",
+                    "tema": "0.06302"
+                },
+                {
+                    "datetime": "2023-07-04",
+                    "tema": "0.06311"
+                },
+                {
+                    "datetime": "2023-07-03",
+                    "tema": "0.06300"
+                },
+                {
+                    "datetime": "2023-07-02",
+                    "tema": "0.06291"
+                },
+                {
+                    "datetime": "2023-07-01",
+                    "tema": "0.06239"
+                },
+                {
+                    "datetime": "2023-06-30",
+                    "tema": "0.06184"
+                },
+                {
+                    "datetime": "2023-06-29",
+                    "tema": "0.06063"
+                },
+                {
+                    "datetime": "2023-06-28",
+                    "tema": "0.06079"
+                },
+                {
+                    "datetime": "2023-06-27",
+                    "tema": "0.06116"
+                },
+                {
+                    "datetime": "2023-06-26",
+                    "tema": "0.06121"
+                },
+                {
+                    "datetime": "2023-06-25",
+                    "tema": "0.06148"
+                },
+                {
+                    "datetime": "2023-06-24",
+                    "tema": "0.06130"
+                },
+                {
+                    "datetime": "2023-06-23",
+                    "tema": "0.06183"
+                },
+                {
+                    "datetime": "2023-06-22",
+                    "tema": "0.06254"
+                },
+                {
+                    "datetime": "2023-06-21",
+                    "tema": "0.06304"
+                },
+                {
+                    "datetime": "2023-06-20",
+                    "tema": "0.06364"
+                },
+                {
+                    "datetime": "2023-06-19",
+                    "tema": "0.06443"
+                }
+            ],
+            "status": "ok"
+        }
+    },
+    "{'interval': '1day', 'symbol': 'AAPL', 'time_period': 9, 'series_type': 'close'}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "symbol": "AAPL",
+                "interval": "1day",
+                "currency": "USD",
+                "exchange_timezone": "America/New_York",
+                "exchange": "NASDAQ",
+                "mic_code": "XNGS",
+                "type": "Common Stock",
+                "indicator": {
+                    "name": "TEMA - Triple Exponential Moving Average",
+                    "series_type": "close",
+                    "time_period": 9
+                }
+            },
+            "values": [
+                {
+                    "datetime": "2023-07-18",
+                    "tema": "192.90039"
+                },
+                {
+                    "datetime": "2023-07-17",
+                    "tema": "191.90083"
+                },
+                {
+                    "datetime": "2023-07-14",
+                    "tema": "190.07466"
+                },
+                {
+                    "datetime": "2023-07-13",
+                    "tema": "189.73800"
+                },
+                {
+                    "datetime": "2023-07-12",
+                    "tema": "189.33651"
+                },
+                {
+                    "datetime": "2023-07-11",
+                    "tema": "189.31195"
+                },
+                {
+                    "datetime": "2023-07-10",
+                    "tema": "190.55539"
+                },
+                {
+                    "datetime": "2023-07-07",
+                    "tema": "192.03379"
+                },
+                {
+                    "datetime": "2023-07-06",
+                    "tema": "192.65384"
+                },
+                {
+                    "datetime": "2023-07-05",
+                    "tema": "192.61810"
+                },
+                {
+                    "datetime": "2023-07-03",
+                    "tema": "192.75901"
+                },
+                {
+                    "datetime": "2023-06-30",
+                    "tema": "191.93141"
+                },
+                {
+                    "datetime": "2023-06-29",
+                    "tema": "189.32954"
+                },
+                {
+                    "datetime": "2023-06-28",
+                    "tema": "188.48316"
+                },
+                {
+                    "datetime": "2023-06-27",
+                    "tema": "187.31362"
+                },
+                {
+                    "datetime": "2023-06-26",
+                    "tema": "186.30693"
+                },
+                {
+                    "datetime": "2023-06-23",
+                    "tema": "186.76941"
+                },
+                {
+                    "datetime": "2023-06-22",
+                    "tema": "186.30691"
+                },
+                {
+                    "datetime": "2023-06-21",
+                    "tema": "185.23706"
+                },
+                {
+                    "datetime": "2023-06-20",
+                    "tema": "185.77244"
+                },
+                {
+                    "datetime": "2023-06-16",
+                    "tema": "185.66928"
+                },
+                {
+                    "datetime": "2023-06-15",
+                    "tema": "185.42008"
+                },
+                {
+                    "datetime": "2023-06-14",
+                    "tema": "184.04472"
+                },
+                {
+                    "datetime": "2023-06-13",
+                    "tema": "183.32388"
+                },
+                {
+                    "datetime": "2023-06-12",
+                    "tema": "182.54585"
+                },
+                {
+                    "datetime": "2023-06-09",
+                    "tema": "180.84439"
+                },
+                {
+                    "datetime": "2023-06-08",
+                    "tema": "180.24550"
+                },
+                {
+                    "datetime": "2023-06-07",
+                    "tema": "179.51510"
+                },
+                {
+                    "datetime": "2023-06-06",
+                    "tema": "180.36189"
+                },
+                {
+                    "datetime": "2023-06-05",
+                    "tema": "180.48003"
+                }
+            ],
+            "status": "ok"
+        }
+    },
+    "{'interval': '1day', 'symbol': 'AAPL', 'outputsize': 9, 'time_period': 9}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "symbol": "AAPL",
+                "interval": "1day",
+                "currency": "USD",
+                "exchange_timezone": "America/New_York",
+                "exchange": "NASDAQ",
+                "mic_code": "XNGS",
+                "type": "Common Stock",
+                "indicator": {
+                    "name": "TEMA - Triple Exponential Moving Average",
+                    "series_type": "close",
+                    "time_period": 9
+                }
+            },
+            "values": [
+                {
+                    "datetime": "2023-07-18",
+                    "tema": "192.92235"
+                },
+                {
+                    "datetime": "2023-07-17",
+                    "tema": "191.90083"
+                },
+                {
+                    "datetime": "2023-07-14",
+                    "tema": "190.07466"
+                },
+                {
+                    "datetime": "2023-07-13",
+                    "tema": "189.73800"
+                },
+                {
+                    "datetime": "2023-07-12",
+                    "tema": "189.33651"
+                },
+                {
+                    "datetime": "2023-07-11",
+                    "tema": "189.31195"
+                },
+                {
+                    "datetime": "2023-07-10",
+                    "tema": "190.55539"
+                },
+                {
+                    "datetime": "2023-07-07",
+                    "tema": "192.03379"
+                },
+                {
+                    "datetime": "2023-07-06",
+                    "tema": "192.65384"
+                }
+            ],
+            "status": "ok"
+        }
+    },
+    "{'interval': '1day', 'symbol': 'AAPL'}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "symbol": "AAPL",
+                "interval": "1day",
+                "currency": "USD",
+                "exchange_timezone": "America/New_York",
+                "exchange": "NASDAQ",
+                "mic_code": "XNGS",
+                "type": "Common Stock",
+                "indicator": {
+                    "name": "TEMA - Triple Exponential Moving Average",
+                    "series_type": "close",
+                    "time_period": 9
+                }
+            },
+            "values": [
+                {
+                    "datetime": "2023-07-18",
+                    "tema": "192.92235"
+                },
+                {
+                    "datetime": "2023-07-17",
+                    "tema": "191.90083"
+                },
+                {
+                    "datetime": "2023-07-14",
+                    "tema": "190.07466"
+                },
+                {
+                    "datetime": "2023-07-13",
+                    "tema": "189.73800"
+                },
+                {
+                    "datetime": "2023-07-12",
+                    "tema": "189.33651"
+                },
+                {
+                    "datetime": "2023-07-11",
+                    "tema": "189.31195"
+                },
+                {
+                    "datetime": "2023-07-10",
+                    "tema": "190.55539"
+                },
+                {
+                    "datetime": "2023-07-07",
+                    "tema": "192.03379"
+                },
+                {
+                    "datetime": "2023-07-06",
+                    "tema": "192.65384"
+                },
+                {
+                    "datetime": "2023-07-05",
+                    "tema": "192.61810"
+                },
+                {
+                    "datetime": "2023-07-03",
+                    "tema": "192.75901"
+                },
+                {
+                    "datetime": "2023-06-30",
+                    "tema": "191.93141"
+                },
+                {
+                    "datetime": "2023-06-29",
+                    "tema": "189.32954"
+                },
+                {
+                    "datetime": "2023-06-28",
+                    "tema": "188.48316"
+                },
+                {
+                    "datetime": "2023-06-27",
+                    "tema": "187.31362"
+                },
+                {
+                    "datetime": "2023-06-26",
+                    "tema": "186.30693"
+                },
+                {
+                    "datetime": "2023-06-23",
+                    "tema": "186.76941"
+                },
+                {
+                    "datetime": "2023-06-22",
+                    "tema": "186.30691"
+                },
+                {
+                    "datetime": "2023-06-21",
+                    "tema": "185.23706"
+                },
+                {
+                    "datetime": "2023-06-20",
+                    "tema": "185.77244"
+                },
+                {
+                    "datetime": "2023-06-16",
+                    "tema": "185.66928"
+                },
+                {
+                    "datetime": "2023-06-15",
+                    "tema": "185.42008"
+                },
+                {
+                    "datetime": "2023-06-14",
+                    "tema": "184.04472"
+                },
+                {
+                    "datetime": "2023-06-13",
+                    "tema": "183.32388"
+                },
+                {
+                    "datetime": "2023-06-12",
+                    "tema": "182.54585"
+                },
+                {
+                    "datetime": "2023-06-09",
+                    "tema": "180.84439"
+                },
+                {
+                    "datetime": "2023-06-08",
+                    "tema": "180.24550"
+                },
+                {
+                    "datetime": "2023-06-07",
+                    "tema": "179.51510"
+                },
+                {
+                    "datetime": "2023-06-06",
+                    "tema": "180.36189"
+                },
+                {
+                    "datetime": "2023-06-05",
+                    "tema": "180.48003"
+                }
+            ],
+            "status": "ok"
+        }
+    },
+    "{'symbol': 'TSLA', 'interval': '1day', 'outputsize': 14}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'TSLA', 'interval': '1day', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'TEMA - Triple Exponential Moving Average', 'series_type': 'close', 'time_period': 9}}, 'values': [{'datetime': '2025-05-30', 'tema': '354.54790'}, {'datetime': '2025-05-29', 'tema': '359.39688'}, {'datetime': '2025-05-28', 'tema': '357.17733'}, {'datetime': '2025-05-27', 'tema': '354.17442'}, {'datetime': '2025-05-23', 'tema': '344.30501'}, {'datetime': '2025-05-22', 'tema': '346.26475'}, {'datetime': '2025-05-21', 'tema': '347.28670'}, {'datetime': '2025-05-20', 'tema': '352.78641'}, {'datetime': '2025-05-19', 'tema': '353.093461'}, {'datetime': '2025-05-16', 'tema': '353.40258'}, {'datetime': '2025-05-15', 'tema': '346.25846'}, {'datetime': '2025-05-14', 'tema': '338.95203'}, {'datetime': '2025-05-13', 'tema': '322.39706'}, {'datetime': '2025-05-12', 'tema': '305.84457'}], 'status': 'ok'}"
+    },
+    "{'symbol': 'ETH/BTC', 'interval': '1day', 'outputsize': 14}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'ETH/BTC', 'interval': '1day', 'currency_base': 'Ethereum', 'currency_quote': 'Bitcoin', 'exchange': 'Huobi', 'type': 'Digital Currency', 'indicator': {'name': 'TEMA - Triple Exponential Moving Average', 'series_type': 'close', 'time_period': 9}}, 'values': [{'datetime': '2025-06-01', 'tema': '0.024213019'}, {'datetime': '2025-05-31', 'tema': '0.024360766'}, {'datetime': '2025-05-30', 'tema': '0.024474511'}, {'datetime': '2025-05-29', 'tema': '0.024495802'}, {'datetime': '2025-05-28', 'tema': '0.024092840'}, {'datetime': '2025-05-27', 'tema': '0.023731578'}, {'datetime': '2025-05-26', 'tema': '0.023258061'}, {'datetime': '2025-05-25', 'tema': '0.023304474'}, {'datetime': '2025-05-24', 'tema': '0.023389042'}, {'datetime': '2025-05-23', 'tema': '0.023489662'}, {'datetime': '2025-05-22', 'tema': '0.023622276'}, {'datetime': '2025-05-21', 'tema': '0.023589044'}, {'datetime': '2025-05-20', 'tema': '0.023920619'}, {'datetime': '2025-05-19', 'tema': '0.024209856'}], 'status': 'ok'}"
+    },
+    "{'interval': '1day', 'symbol': 'TSLA', 'outputsize': 30, 'time_period': 9}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'TSLA', 'interval': '1day', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'TEMA - Triple Exponential Moving Average', 'series_type': 'close', 'time_period': 9}}, 'values': [{'datetime': '2025-05-30', 'tema': '354.54790'}, {'datetime': '2025-05-29', 'tema': '359.39688'}, {'datetime': '2025-05-28', 'tema': '357.17733'}, {'datetime': '2025-05-27', 'tema': '354.17442'}, {'datetime': '2025-05-23', 'tema': '344.30501'}, {'datetime': '2025-05-22', 'tema': '346.26475'}, {'datetime': '2025-05-21', 'tema': '347.28670'}, {'datetime': '2025-05-20', 'tema': '352.78641'}, {'datetime': '2025-05-19', 'tema': '353.093461'}, {'datetime': '2025-05-16', 'tema': '353.40258'}, {'datetime': '2025-05-15', 'tema': '346.25846'}, {'datetime': '2025-05-14', 'tema': '338.95203'}, {'datetime': '2025-05-13', 'tema': '322.39706'}, {'datetime': '2025-05-12', 'tema': '305.84457'}, {'datetime': '2025-05-09', 'tema': '291.27223'}, {'datetime': '2025-05-08', 'tema': '283.46697'}, {'datetime': '2025-05-07', 'tema': '281.25806'}, {'datetime': '2025-05-06', 'tema': '284.047065'}, {'datetime': '2025-05-05', 'tema': '288.56544'}, {'datetime': '2025-05-02', 'tema': '291.16788'}, {'datetime': '2025-05-01', 'tema': '289.096759'}, {'datetime': '2025-04-30', 'tema': '290.021836'}, {'datetime': '2025-04-29', 'tema': '289.13855'}, {'datetime': '2025-04-28', 'tema': '279.18621'}, {'datetime': '2025-04-25'"
+    },
+    "{'interval': '1h', 'symbol': 'BTC/USD', 'time_period': 9}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'BTC/USD', 'interval': '1h', 'currency_base': 'Bitcoin', 'currency_quote': 'US Dollar', 'exchange': 'Coinbase Pro', 'type': 'Digital Currency', 'indicator': {'name': 'TEMA - Triple Exponential Moving Average', 'series_type': 'close', 'time_period': 9}}, 'values': [{'datetime': '2025-06-09 23:00:00', 'tema': '110218.35106'}, {'datetime': '2025-06-09 22:00:00', 'tema': '110061.074576'}, {'datetime': '2025-06-09 21:00:00', 'tema': '109557.37673'}, {'datetime': '2025-06-09 20:00:00', 'tema': '108876.76851'}, {'datetime': '2025-06-09 19:00:00', 'tema': '108731.059768'}, {'datetime': '2025-06-09 18:00:00', 'tema': '108524.74192'}, {'datetime': '2025-06-09 17:00:00', 'tema': '108284.46694'}, {'datetime': '2025-06-09 16:00:00', 'tema': '107948.53937'}, {'datetime': '2025-06-09 15:00:00', 'tema': '107873.54435'}, {'datetime': '2025-06-09 14:00:00', 'tema': '107785.56139'}, {'datetime': '2025-06-09 13:00:00', 'tema': '107615.93690'}, {'datetime': '2025-06-09 12:00:00', 'tema': '107765.55252'}, {'datetime': '2025-06-09 11:00:00', 'tema': '107394.66779'}, {'datetime': '2025-06-09 10:00:00', 'tema': '106766.26433'}, {'datetime': '2025-06-09 09:00:00', 'tema': '106194.30681'}, {'datetime': '2025-06-09 08:00:00', 'tema': '105735.52626'}, {'datetime': '2025-06-09 07:00:00', 'tema': '105540.22343'}, {'datetime': '2025-06-09 06:00:00', 'tema': '105530.15136'}, {'datetime': '2025-06-09 05:00:00', 'tema': '105426.83796'}, {'datetime': '2025-06-09 04:00:00', 'tema': '105512.20"
+    },
+    "{'interval': '4h', 'symbol': 'ETH/USD', 'time_period': 9}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'ETH/USD', 'interval': '4h', 'currency_base': 'Ethereum', 'currency_quote': 'US Dollar', 'exchange': 'Huobi', 'type': 'Digital Currency', 'indicator': {'name': 'TEMA - Triple Exponential Moving Average', 'series_type': 'close', 'time_period': 9}}, 'values': [{'datetime': '2025-06-09 20:00:00', 'tema': '2611.28472'}, {'datetime': '2025-06-09 16:00:00', 'tema': '2556.012843'}, {'datetime': '2025-06-09 12:00:00', 'tema': '2528.34776'}, {'datetime': '2025-06-09 08:00:00', 'tema': '2520.33921'}, {'datetime': '2025-06-09 04:00:00', 'tema': '2502.20795'}, {'datetime': '2025-06-09 00:00:00', 'tema': '2511.33177'}, {'datetime': '2025-06-08 20:00:00', 'tema': '2521.86925'}, {'datetime': '2025-06-08 16:00:00', 'tema': '2527.65896'}, {'datetime': '2025-06-08 12:00:00', 'tema': '2519.94228'}, {'datetime': '2025-06-08 08:00:00', 'tema': '2520.36055'}, {'datetime': '2025-06-08 04:00:00', 'tema': '2520.71544'}, {'datetime': '2025-06-08 00:00:00', 'tema': '2520.28556'}, {'datetime': '2025-06-07 20:00:00', 'tema': '2520.71048'}, {'datetime': '2025-06-07 16:00:00', 'tema': '2510.94216'}, {'datetime': '2025-06-07 12:00:00', 'tema': '2501.46513'}, {'datetime': '2025-06-07 08:00:00', 'tema': '2484.61756'}, {'datetime': '2025-06-07 04:00:00', 'tema': '2477.34304'}, {'datetime': '2025-06-07 00:00:00', 'tema': '2470.62209'}, {'datetime': '2025-06-06 20:00:00', 'tema': '2463.73178'}, {'datetime': '2025-06-06 16:00:00', 'tema': '2465.0098601'}, {'datetime': '2025-06-06 12:00:00', 't"
+    }
+}

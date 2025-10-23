@@ -1,0 +1,16 @@
+{
+    "name": "get_all_app_keys",
+    "description": "This is a sub-function API for tool aaaa.\nTool description: aaa\nAPI description: Fetch all keys for a specified application using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "appid": {
+                "type": "string",
+                "description": "A number associated with a specific App. You can get the API ID by using the \"Get All Apps\" endpoint."
+            }
+        },
+        "required": [
+            "appid"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "games_by_category_or_tag",
+    "description": "This is a sub-function API for tool free_to_play_games_database.\nTool description: Free-to-play games database powered by FreeToGame.com!\nAPI description: Fetches a list of games based on the given category or tag from the MMO Games API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "The category or tag of the games to fetch (e.g., \"mmorpg\", \"shooter\", \"pvp\", \"mmofps\").",
+                "default": "shooter"
+            }
+        },
+        "required": [
+            "category"
+        ]
+    }
+}

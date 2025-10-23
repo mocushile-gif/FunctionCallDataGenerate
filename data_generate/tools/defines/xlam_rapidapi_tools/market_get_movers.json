@@ -1,0 +1,22 @@
+{
+    "name": "market_get_movers",
+    "description": "This is a sub-function API for tool bb_finance.\nTool description: This API helps to query for all information about finance summary, stocks, quotes, movers, etc… to create a financial site/application such as bloomberg.com\nAPI description: Fetch the latest information on market movers based on a specified template.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID value returned from the market auto-complete endpoint, used to specify the market segment.",
+                "default": "nky:ind"
+            },
+            "template": {
+                "type": "string",
+                "description": "A string representing the category of market movers to retrieve. Possible values are 'COMMODITY', 'CURRENCY', 'INDEX', 'INDEXFUTURE', 'RATE', or 'STOCK'. Defaults to 'INDEX'.",
+                "default": "INDEX"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

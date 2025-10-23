@@ -1,0 +1,17 @@
+{
+    "name": "getcertdetails",
+    "description": "This is a sub-function API for tool certficate.\nTool description: Get the SSL certificate details of any public host. The binding of the certificate should be on port 443\nAPI description: Gets the certificate details of a given domain using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domainname": {
+                "type": "string",
+                "description": "The domain name for which to retrieve the certificate details.",
+                "default": "google.com"
+            }
+        },
+        "required": [
+            "domainname"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "license_plate_lookup",
+    "description": "This is a sub-function API for tool license_plate_lookup.\nTool description: Check VIN by US license plate and state. \nVIN decoder from [VIN decoder](https://rapidapi.com/dominonet-lTpEE6zONeS/api/vin-decoder19).\n[View documents](https://rapidapi.com/dominonet-lTpEE6zONeS/api/vin-decoder19/details)\n\nAPI description: Perform a license plate lookup using the provided license plate number and state code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "license_plate": {
+                "type": "string",
+                "description": "The license plate number to look up.",
+                "default": "S8TAN"
+            },
+            "state_code": {
+                "type": "string",
+                "description": "**Run a License Plate Search By State**\nAL,AK,AZ,AR,CA,CO,CT,DE,DC,FL,GA,HI,ID,IL,IN,IA,KS,KY,LA,ME,MD,MA,MI,MN,MS,MO,MT,NE,NV,NH,NJ,NM,NY,NC,ND,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VT,VA,WA,WV,WI,WY",
+                "default": "AL"
+            }
+        },
+        "required": [
+            "license_plate",
+            "state_code"
+        ]
+    }
+}

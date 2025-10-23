@@ -1,0 +1,27 @@
+{
+    "name": "get_nft_owner",
+    "description": "This is a sub-function API for tool uniblock.\nTool description: Unified Blockchain API, use one, use them all. \n\n \n\nFrom NFTs, DeFi, Wallets, GameFi, Tokens, or simply launching contracts, we've got tools to help build them both easier and faster.\n\nUniblockis a suite of blockchain tooling to support developers in building any blockchain project.\nAPI description: Fetches the owner of a specific ERC-721 NFT using the provided chain ID, NFT contract address, and NFT ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chainid": {
+                "type": "number",
+                "description": "The chain ID of the blockchain network on which the NFT resides.",
+                "default": 1.0
+            },
+            "nftaddress": {
+                "type": "string",
+                "description": "Enter the address of the NFT contract."
+            },
+            "nftid": {
+                "type": "string",
+                "description": "Enter the NFT ID of the specific NFT to query."
+            }
+        },
+        "required": [
+            "chainid",
+            "nftaddress",
+            "nftid"
+        ]
+    }
+}

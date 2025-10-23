@@ -1,0 +1,22 @@
+{
+    "name": "validate_a_token",
+    "description": "This is a sub-function API for tool token2go.\nTool description: It is a  RESTful API intended to generate unique and verifiable tokens (cryptographic id codes). Use this tokens as an URL parameter in your marketing or customer service campaigns to validate requests that occurs in a timely period previously defined by your system\nAPI description: Submit a token (t=token) or a link (t=link) id in order to check if  it is a valid one. To be a valid token it must have a valid signature and not expired.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The identifier for either a token or a link."
+            },
+            "t": {
+                "type": "string",
+                "description": "The actual token or link to validate.",
+                "default": "link"
+            }
+        },
+        "required": [
+            "is_id",
+            "t"
+        ]
+    }
+}

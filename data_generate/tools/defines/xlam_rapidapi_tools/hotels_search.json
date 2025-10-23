@@ -1,0 +1,96 @@
+{
+    "name": "hotels_search",
+    "description": "This is a sub-function API for tool booking_com.\nTool description: Find all hotels, view prices, photos of the hotels, reviews. Find car rental deals. **Site:** booking.com **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters\nAPI description: Get available hotels by the filter. Indicate the `destination_id` and `dest_type` -> use **@Search locations** endpoint, check-in and check-out date, number of adults and children. For possible filters use **@Filters for search** endpoint. Use `page_number` to paginate and navigate through the result pages! <br/> Comparable to: ![Search locations](https://i.imgur.com/PCuK81r.png)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "order_by": {
+                "type": "string",
+                "description": "Criteria to order the search results.",
+                "default": "popularity"
+            },
+            "adults_number": {
+                "type": "number",
+                "description": "Number of adults for the hotel booking.",
+                "default": 2.0
+            },
+            "checkin_date": {
+                "type": "string",
+                "description": "Check-in date in the format YYYY-MM-DD.",
+                "default": "2023-09-27"
+            },
+            "filter_by_currency": {
+                "type": "string",
+                "description": "Currency to display prices in.",
+                "default": "AED"
+            },
+            "dest_id": {
+                "type": "number",
+                "description": "Destination id, use `Search locations` to find a place, field `dest_id` and `dest_type`",
+                "default": -553173
+            },
+            "locale": {
+                "type": "string",
+                "description": "Locale setting for the search.",
+                "default": "en-gb"
+            },
+            "checkout_date": {
+                "type": "string",
+                "description": "Check-out date in the format YYYY-MM-DD.",
+                "default": "2023-09-28"
+            },
+            "units": {
+                "type": "string",
+                "description": "Measurement units to use (e.g., metric or imperial).",
+                "default": "metric"
+            },
+            "room_number": {
+                "type": "number",
+                "description": "Number of rooms to book.",
+                "default": 1.0
+            },
+            "dest_type": {
+                "type": "string",
+                "description": "Type of the destination (e.g., city, hotel, etc.).",
+                "default": "city"
+            },
+            "include_adjacency": {
+                "type": "boolean",
+                "description": "Include nearby places. If there are few hotels in the selected location, nearby locations will be added. You should pay attention to the `primary_count` parameter - it is the number of hotels from the beginning of the array that matches the strict filter.",
+                "default": true
+            },
+            "children_number": {
+                "type": "number",
+                "description": "Number of children for the hotel booking. Defaults to 2.",
+                "default": 2.0
+            },
+            "page_number": {
+                "type": "number",
+                "description": "Page number for paginated results. Defaults to 0.",
+                "default": 0.0
+            },
+            "children_ages": {
+                "type": "string",
+                "description": "The age of every child. If children will be staying in the room, please indicate their ages separated by commas. 0-less than a year",
+                "default": "5,0"
+            },
+            "categories_filter_ids": {
+                "type": "string",
+                "description": "Search filter IDs. For possible filters use `@Filters for search` ex: `price::USD-140-190`, or `price::USD-150-min` or `price::USD-150-max`",
+                "default": "class::2,class::4,free_cancellation::1"
+            }
+        },
+        "required": [
+            "order_by",
+            "adults_number",
+            "checkin_date",
+            "filter_by_currency",
+            "dest_id",
+            "locale",
+            "checkout_date",
+            "units",
+            "room_number",
+            "dest_type"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "query_for_city_boundary_by_name",
+    "description": "This is a sub-function API for tool de_boundaries_io.\nTool description: A Germany PostalCode Boundaries API\nAPI description: Queries the city boundary information by the given city name using the Boundaries API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the city for which to query boundary information.",
+                "default": "Karlsruhe"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

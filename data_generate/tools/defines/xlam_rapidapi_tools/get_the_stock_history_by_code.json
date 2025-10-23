@@ -1,0 +1,23 @@
+{
+    "name": "get_the_stock_history_by_code",
+    "description": "This is a sub-function API for tool stocks.\nTool description: Get the the stocks informations using a REST API simple and free.\nAPI description: Retrieves the stock history for a given stock code and date using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The specific date to get the stock history for, in 'YYYY-MM-DD' format.",
+                "default": "2023-02-01"
+            },
+            "stockcode": {
+                "type": "string",
+                "description": "The stock code for which to retrieve the historical data.",
+                "default": "GOOG"
+            }
+        },
+        "required": [
+            "date",
+            "stockcode"
+        ]
+    }
+}

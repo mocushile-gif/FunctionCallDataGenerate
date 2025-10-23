@@ -1,0 +1,17 @@
+{
+    "name": "getpopulationbycountrycode",
+    "description": "This is a sub-function API for tool world_population.\nTool description: Get interesting information about countries' population\nAPI description: Get the population's data of a country by its country code (ISO 3166-1 alpha-3 format). More information at https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "countrycode": {
+                "type": "string",
+                "description": "The ISO 3166-1 alpha-3 code representing the country.",
+                "default": "ESP"
+            }
+        },
+        "required": [
+            "countrycode"
+        ]
+    }
+}

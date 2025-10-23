@@ -1,0 +1,17 @@
+{
+    "name": "consulta_por_cnpj",
+    "description": "This is a sub-function API for tool consulta_cpf_cnpj_brasil.\nTool description: api consulta cpf cnpj diretamente na base do serasa, otimize suas aplicações\nAPI description: **Consulta dados e informações do CNPJ, a demanda de informações está sempre sendo atualizada para melhor atende-los **",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cnpj": {
+                "type": "string",
+                "description": "The CNPJ number to be queried.",
+                "default": "15754475000140"
+            }
+        },
+        "required": [
+            "cnpj"
+        ]
+    }
+}

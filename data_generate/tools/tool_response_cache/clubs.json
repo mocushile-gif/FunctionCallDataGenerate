@@ -1,0 +1,38 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{\"code\":200,\"status\":\"SUCCESS\",\"results\":[{\"name\":\"Arsenal\",\"teamType\":\"FIRST\",\"grounds\":[{\"name\":\"Emirates Stadium\",\"city\":\"London\",\"capacity\":60272,\"location\":{\"latitude\":51.5548,\"longitude\":-0.108533},\"source\":\"OPTA\",\"id\":52}],\"shortName\":\"Arsenal\",\"id\":1,\"abbr\":\"ARS\"}]}"
+    },
+    "{'abbr': 'MUN', 'name': 'Manchester United'}": {
+        "error": "",
+        "response": "{'code': 200, 'status': 'SUCCESS', 'results': [{'name': 'Manchester United', 'teamType': 'FIRST', 'grounds': [{'name': 'Old Trafford', 'city': 'Manchester', 'capacity': 75635, 'location': {'latitude': 53.4626, 'longitude': -2.29103}, 'source': 'OPTA', 'id': 42}], 'shortName': 'Man Utd', 'id': 12, 'abbr': 'MUN'}]}"
+    },
+    "{'abbr': 'ARS', 'name': 'Arsenal'}": {
+        "error": "",
+        "response": "{'code': 200, 'status': 'SUCCESS', 'results': [{'name': 'Arsenal', 'teamType': 'FIRST', 'grounds': [{'name': 'Emirates Stadium', 'city': 'London', 'capacity': 60272, 'location': {'latitude': 51.5548, 'longitude': -0.108533}, 'source': 'OPTA', 'id': 52}], 'shortName': 'Arsenal', 'id': 1, 'abbr': 'ARS'}]}"
+    },
+    "{'name': 'Arsenal'}": {
+        "error": "",
+        "response": "{'code': 200, 'status': 'SUCCESS', 'results': [{'name': 'Arsenal', 'teamType': 'FIRST', 'grounds': [{'name': 'Emirates Stadium', 'city': 'London', 'capacity': 60272, 'location': {'latitude': 51.5548, 'longitude': -0.108533}, 'source': 'OPTA', 'id': 52}], 'shortName': 'Arsenal', 'id': 1, 'abbr': 'ARS'}]}"
+    },
+    "{'name': 'Manchester United'}": {
+        "error": "",
+        "response": "{'code': 200, 'status': 'SUCCESS', 'results': []}"
+    },
+    "{'abbr': 'MUN'}": {
+        "error": "",
+        "response": "{'code': 200, 'status': 'SUCCESS', 'results': []}"
+    },
+    "{'name': 'Manchester City', 'abbr': 'MCI'}": {
+        "error": "",
+        "response": "{'code': 200, 'status': 'SUCCESS', 'results': [{'name': 'Manchester City', 'teamType': 'FIRST', 'grounds': [{'name': 'Etihad Stadium', 'city': 'Manchester', 'capacity': 55000, 'location': {'latitude': 53.4832, 'longitude': -2.20042}, 'source': 'OPTA', 'id': 457}], 'shortName': 'Man City', 'id': 11, 'abbr': 'MCI'}]}"
+    },
+    "{'name': 'Liverpool', 'abbr': 'LIV'}": {
+        "error": "",
+        "response": "{'code': 200, 'status': 'SUCCESS', 'results': [{'name': 'Liverpool', 'teamType': 'FIRST', 'grounds': [{'name': 'Anfield', 'city': 'Liverpool', 'capacity': 54074, 'location': {'latitude': 53.4313, 'longitude': -2.96158}, 'source': 'OPTA', 'id': 901}], 'shortName': 'Liverpool', 'id': 10, 'abbr': 'LIV'}]}"
+    },
+    "{'abbr': 'ARS'}": {
+        "error": "",
+        "response": "{'code': 200, 'status': 'SUCCESS', 'results': [{'name': 'Arsenal', 'teamType': 'FIRST', 'grounds': [{'name': 'Emirates Stadium', 'city': 'London', 'capacity': 60272, 'location': {'latitude': 51.5548, 'longitude': -0.108533}, 'source': 'OPTA', 'id': 52}], 'shortName': 'Arsenal', 'id': 1, 'abbr': 'ARS'}]}"
+    }
+}

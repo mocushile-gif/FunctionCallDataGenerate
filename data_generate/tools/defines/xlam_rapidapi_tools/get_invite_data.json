@@ -1,0 +1,17 @@
+{
+    "name": "get_invite_data",
+    "description": "This is a sub-function API for tool discord_lookup.\nTool description: Easily lookup Discord users by ID, invite data & joins by invite code and hidden vanity data\nAPI description: Fetch detailed data for a given Discord invite code using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "invite": {
+                "type": "string",
+                "description": "The Discord invite code to fetch data for.",
+                "default": "minecraft"
+            }
+        },
+        "required": [
+            "invite"
+        ]
+    }
+}

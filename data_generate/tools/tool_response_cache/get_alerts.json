@@ -1,0 +1,23 @@
+{
+    "{'req1': 'Broad Street Line'}": {
+        "error": "",
+        "response": [
+            {
+                "alert_id": "BST-2023-09-001",
+                "severity": "Minor",
+                "effect": "Delays",
+                "header": "Track Maintenance on Broad Street Line",
+                "description": "Delays of approximately 15 minutes are expected between City Hall and 69th Street stations due to track maintenance. Trains may operate single-track with flagman.",
+                "url": "https://septa.org/alerts/bst-maintenance-0923.html"
+            },
+            {
+                "alert_id": "BST-2023-09-002",
+                "severity": "Advisory",
+                "effect": "Station Access",
+                "header": "30th Street Station Entrance Closure",
+                "description": "The Spruce Street entrance is closed for safety inspections. Use Market Street entrance instead.",
+                "url": "https://septa.org/alerts/30th-st-closure.html"
+            }
+        ]
+    }
+}

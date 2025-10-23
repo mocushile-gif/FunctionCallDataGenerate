@@ -1,0 +1,43 @@
+{
+    "name": "maxindex",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Fetches the index of the highest value over a specified period (MAXINDEX) using the Twelve Data API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "interval": {
+                "type": "string",
+                "description": "Interval between two consecutive points in the time series. Supported values: `1min`, `5min`, `15min`, `30min`, `45min`, `1h`, `2h`, `4h`, `1day`, `1week`, `1month`.",
+                "default": "1min"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "Instrument symbol, which can be any equity, index, ETF, forex, or cryptocurrency (e.g., `AAPL`, `EUR/USD`, `ETH/BTC`).",
+                "default": "AAPL"
+            },
+            "time_period": {
+                "type": "number",
+                "description": "The number of data points to consider. Defaults to 9.",
+                "default": 9
+            },
+            "series_type": {
+                "type": "string",
+                "description": "Type of series data to retrieve. Supported values: `open`, `high`, `low`, `close`. Defaults to 'close'.",
+                "default": "close"
+            },
+            "outputsize": {
+                "type": "number",
+                "description": "The amount of data to retrieve. Default is 30 if no date parameters are set, otherwise it is set to maximum.",
+                "default": 30
+            },
+            "format": {
+                "type": "string",
+                "description": "The format to receive the data in. Supported values: `CSV`, `JSON`. Defaults to 'json'.",
+                "default": "json"
+            }
+        },
+        "required": [
+            "interval",
+            "symbol"
+        ]
+    }
+}

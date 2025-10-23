@@ -1,0 +1,33 @@
+{
+    "name": "get_reply_comment_by_id",
+    "description": "This is a sub-function API for tool tiktok_video_no_watermark_v2.\nTool description: The API helps you to download and get the video download link without the Tiktok logo quickly, completely and in detail. Contact me: phamvandienofficial@gmail.com if you are interested in the source code\n***\nIf you encounter any errors, please contact me so I can fix it quickly.\n***\nContact me: phamvandienofficial@gmail.com\nAPI description: Fetch a list of reply comments from TikTok for a given comment and video ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cid": {
+                "type": "number",
+                "description": "The ID of the comment for which to fetch reply comments.",
+                "default": 7.178309240628659e+18
+            },
+            "aweme_id": {
+                "type": "number",
+                "description": "The ID of the TikTok video associated with the comment.",
+                "default": 7.178094165614464e+18
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of reply comments to retrieve, with a maximum value of 30. Default is 5.",
+                "default": 5.0
+            },
+            "cursor": {
+                "type": "number",
+                "description": "The cursor position for paginating through the comments. Default is 0.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "cid",
+            "aweme_id"
+        ]
+    }
+}

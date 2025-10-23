@@ -1,0 +1,17 @@
+{
+    "name": "consulta_empresa",
+    "description": "This is a sub-function API for tool consulta_cnpj_tempo_real.\nTool description: API Tempo Real de Consultas a Receita Federal, Simples Nacional e Cadastro de Contribuintes (SINTEGRA).\nAPI description: Fetches company information based on the given CNPJ ID using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The first 8 digits of the CNPJ used to identify the company.",
+                "default": "37335118"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

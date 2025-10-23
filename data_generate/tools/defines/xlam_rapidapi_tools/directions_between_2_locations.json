@@ -1,0 +1,40 @@
+{
+    "name": "directions_between_2_locations",
+    "description": "This is a sub-function API for tool egypt_api.\nTool description: The Egypt Lookup API users to retrieve in realtime the latitude, longitude, and address of a location in Egypt. The API utilizes the OpenStreetMap and Project-OSRM to retrieve up-to-date location data.\nAPI description: This endpoint returns information about the route between two locations in terms of distance, duration, and steps.\n\nBelow Example: **Directions from Alexandria to Cairo**",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start_lat": {
+                "type": "number",
+                "description": "Latitude of the starting point (required)",
+                "default": 31.1991806
+            },
+            "end_lon": {
+                "type": "number",
+                "description": "Longitude of the ending point (required)",
+                "default": 31.23788289124186
+            },
+            "start_lon": {
+                "type": "number",
+                "description": "Longitude of the starting point (required)",
+                "default": 29.8951716
+            },
+            "end_lat": {
+                "type": "number",
+                "description": "Latitude of the ending point (required)",
+                "default": 30.02313795
+            },
+            "distance_unit": {
+                "type": "string",
+                "description": "Unit of distance measurement, valid options are **km** (default), and **mi**.",
+                "default": "km"
+            }
+        },
+        "required": [
+            "start_lat",
+            "end_lon",
+            "start_lon",
+            "end_lat"
+        ]
+    }
+}

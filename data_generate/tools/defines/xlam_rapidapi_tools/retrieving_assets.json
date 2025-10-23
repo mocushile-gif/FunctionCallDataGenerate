@@ -1,0 +1,57 @@
+{
+    "name": "retrieving_assets",
+    "description": "This is a sub-function API for tool opensea_data_query.\nTool description: (Deprecated) Get opensea data without any api key\nAPI description: To retrieve assets from our API, call the `/assets` endpoint with the desired filter parameters.\n\nAuctions created on OpenSea don't use an escrow contract, which enables gas-free auctions and allows users to retain ownership of their items while they're on sale. So this is just a heads up in case you notice some assets from opensea.io not appearing in the API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "owner": {
+                "type": "string",
+                "description": "The wallet address of the owner of the assets. Default is None."
+            },
+            "order_direction": {
+                "type": "string",
+                "description": "The order of the results. Can be 'asc' or 'desc'. Default is 'desc'.",
+                "default": "desc"
+            },
+            "asset_contract_address": {
+                "type": "string",
+                "description": "The contract address for the assets. Default is None."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of assets to return. Default is 20.",
+                "default": 20.0
+            },
+            "collection_slug": {
+                "type": "string",
+                "description": "The collection slug to filter assets. Default is None."
+            },
+            "cursor": {
+                "type": "string",
+                "description": "A cursor to paginate results. Default is None."
+            },
+            "token_ids": {
+                "type": "number",
+                "description": "Specific token IDs to filter assets. Default is None."
+            },
+            "asset_contract_addresses": {
+                "type": "string",
+                "description": "Specific contract addresses to filter assets. Default is None."
+            },
+            "collection": {
+                "type": "string",
+                "description": "The collection name to filter assets. Default is 'ongakucraft'.",
+                "default": "ongakucraft"
+            },
+            "include_orders": {
+                "type": "boolean",
+                "description": "Whether to include order information for the assets. Default is None."
+            },
+            "collection_editor": {
+                "type": "string",
+                "description": "The editor of the collection to filter assets. Default is None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "sign_info",
+    "description": "This is a sub-function API for tool onlyfans.\nTool description: apis for onlyfans\nAPI description: Fetches and returns the sign information from the OnlyFans API using the provided user agent and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "useragent": {
+                "type": "string",
+                "description": "The user agent string to be used in the API request."
+            }
+        },
+        "required": [
+            "useragent"
+        ]
+    }
+}

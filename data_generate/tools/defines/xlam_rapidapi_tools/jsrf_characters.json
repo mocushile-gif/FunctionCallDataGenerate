@@ -1,0 +1,25 @@
+{
+    "name": "jsrf_characters",
+    "description": "This is a sub-function API for tool jet_set_radio_api.\nTool description: A data provider for all things Jet Set Radio in JSON format!\nAPI description: Fetches a list of JSRF (Jet Set Radio Future) characters based on given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of items to return in the response. Default is '5'.",
+                "default": "5"
+            },
+            "orderby": {
+                "type": "string",
+                "description": "The order in which to sort items. Possible values are 'asc' (ascending) and 'desc' (descending). Default is 'asc'. This parameter has an effect only if `sortby` is also provided.",
+                "default": "asc"
+            },
+            "sortby": {
+                "type": "string",
+                "description": "The field by which to sort the items. Possible values include any field on the document such as 'name' or 'stats'. Default is 'name'.",
+                "default": "name"
+            }
+        },
+        "required": []
+    }
+}

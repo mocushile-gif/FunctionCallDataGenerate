@@ -1,0 +1,17 @@
+{
+    "name": "ip_geolocation_lookup",
+    "description": "This is a sub-function API for tool ip_geolocation_lookup.\nTool description: API returns location data such as country, region, city, zip and more\nAPI description: API returns location data such as country, region, city, zip, timezone, isp, asn and org and more",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IPv4 address for which geolocation data is to be retrieved.",
+                "default": "193.114.112.1"
+            }
+        },
+        "required": [
+            "ip"
+        ]
+    }
+}

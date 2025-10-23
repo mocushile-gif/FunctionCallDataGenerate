@@ -1,0 +1,17 @@
+{
+    "name": "user_by_screen_name",
+    "description": "This is a sub-function API for tool twitter_data.\nTool description: Twitter public and private data API for search, Tweets, users, followers, images, media and more.\nAPI description: Fetch user details from the Twitter API using a given screen name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The screen name of the Twitter user.",
+                "default": "elonmusk"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

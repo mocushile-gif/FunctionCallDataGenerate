@@ -1,0 +1,16 @@
+{
+    "name": "industry_list",
+    "description": "This is a sub-function API for tool sitedomain.\nTool description: site adm domain\nAPI description: Gets a list of industries based on the provided alias from the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "alias": {
+                "type": "string",
+                "description": "An alias used to specify which industry list to fetch."
+            }
+        },
+        "required": [
+            "alias"
+        ]
+    }
+}

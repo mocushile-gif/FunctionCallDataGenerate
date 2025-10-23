@@ -1,0 +1,37 @@
+{
+    "name": "estimate_body_fat_percentage",
+    "description": "Estimates body fat percentage using the US Navy method based on waist, neck, and height measurements. For females, hip circumference is also required.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "waist_cm": {
+                "type": "number",
+                "description": "Waist circumference in centimeters."
+            },
+            "neck_cm": {
+                "type": "number",
+                "description": "Neck circumference in centimeters."
+            },
+            "height_cm": {
+                "type": "number",
+                "description": "Height in centimeters."
+            },
+            "sex": {
+                "type": "string",
+                "description": "Biological sex, either \"male\" or \"female\".",
+                "enum": ["male", "female"]
+            },
+            "hip_cm": {
+                "type": "number",
+                "description": "Hip circumference in centimeters, required for females.",
+                "default": null
+            }
+        },
+        "required": [
+            "waist_cm",
+            "neck_cm",
+            "height_cm",
+            "sex"
+        ]
+    }
+}

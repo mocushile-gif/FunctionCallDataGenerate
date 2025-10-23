@@ -1,0 +1,23 @@
+{
+    "name": "convert_image",
+    "description": "Convert image to different color mode (RGB, RGBA, L, P, CMYK, YCbCr, LAB, HSV, I, F).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the input image file"
+        },
+        "mode": {
+          "type": "string",
+          "description": "Target color mode",
+          "enum": ["RGB", "RGBA", "L", "P", "CMYK", "YCbCr", "LAB", "HSV", "I", "F"]
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output image. If not provided, will create auto-named file."
+        }
+      },
+      "required": ["image_path", "mode"]
+    }
+  } 

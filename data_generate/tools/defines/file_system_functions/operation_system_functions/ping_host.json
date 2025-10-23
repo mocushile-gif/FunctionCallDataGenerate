@@ -1,0 +1,24 @@
+{
+    "name": "ping_host",
+    "description": "Ping a host and return the results, including latency and packet loss.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "host": {
+                "type": "string",
+                "description": "The host (IP address or domain) to ping."
+            },
+            "count": {
+                "type": "integer",
+                "description": "The number of ping attempts. Defaults to 4.",
+                "default": 4
+            },
+            "timeout": {
+                "type": "integer",
+                "description": "The timeout for each ping in seconds. Defaults to 2.",
+                "default": 2
+            }
+        },
+        "required": ["host"]
+    }
+}

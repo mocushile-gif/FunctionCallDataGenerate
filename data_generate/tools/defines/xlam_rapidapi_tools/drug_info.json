@@ -1,0 +1,17 @@
+{
+    "name": "drug_info",
+    "description": "This is a sub-function API for tool drug_info_and_price_history.\nTool description: An API to rapidly retrieve information about drug prices and history across a variety of sources\nAPI description: Fetches information about a specified drug using the RapidAPI Drug Info and Price History API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "drug": {
+                "type": "string",
+                "description": "The name of the drug to retrieve information for.",
+                "default": "advil"
+            }
+        },
+        "required": [
+            "drug"
+        ]
+    }
+}

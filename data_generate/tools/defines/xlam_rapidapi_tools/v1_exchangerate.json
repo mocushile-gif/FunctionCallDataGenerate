@@ -1,0 +1,17 @@
+{
+    "name": "v1_exchangerate",
+    "description": "This is a sub-function API for tool exchange_rate_by_api_ninjas.\nTool description: Get current exchange rates for currency pairs. See more info at https://api-ninjas.com/api/exchangerate.\nAPI description: Retrieves the exchange rate for a given currency pair using the API Ninjas Exchange Rate API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pair": {
+                "type": "string",
+                "description": "Currency pair to query. Must be in the form of **(currency1)_(currency2)** (e.g. **USD_EUR**)",
+                "default": "USD_EUR"
+            }
+        },
+        "required": [
+            "pair"
+        ]
+    }
+}

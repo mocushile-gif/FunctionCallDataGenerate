@@ -1,0 +1,59 @@
+{
+    "{'statecode': 'KU', 'countrycode': 'AL'}": {
+        "error": "",
+        "response": [
+            {
+                "id": "151",
+                "name": "Bajram Curri",
+                "state_code": "KU",
+                "country_code": "AL",
+                "latitude": "42.35734000",
+                "longitude": "20.07679000"
+            },
+            {
+                "id": "215",
+                "name": "Krum\u00eb",
+                "state_code": "KU",
+                "country_code": "AL",
+                "latitude": "42.19694000",
+                "longitude": "20.41333000"
+            },
+            {
+                "id": "217",
+                "name": "Kuk\u00ebs",
+                "state_code": "KU",
+                "country_code": "AL",
+                "latitude": "42.07694000",
+                "longitude": "20.42194000"
+            },
+            {
+                "id": "247",
+                "name": "Rrethi i Hasit",
+                "state_code": "KU",
+                "country_code": "AL",
+                "latitude": "42.16667000",
+                "longitude": "20.33333000"
+            },
+            {
+                "id": "251",
+                "name": "Rrethi i Kuk\u00ebsit",
+                "state_code": "KU",
+                "country_code": "AL",
+                "latitude": "42.00000000",
+                "longitude": "20.33333000"
+            }
+        ]
+    },
+    "{'statecode': 'US', 'countrycode': 'US'}": {
+        "error": "",
+        "response": []
+    },
+    "{'countrycode': 'US', 'statecode': 'FL'}": {
+        "error": "",
+        "response": "[{'id': '110972', 'name': 'Aberdeen', 'state_code': 'FL', 'country_code': 'US', 'latitude': '26.55063000', 'longitude': '-80.14866000'}, {'id': '111084', 'name': 'Alachua', 'state_code': 'FL', 'country_code': 'US', 'latitude': '29.75163000', 'longitude': '-82.42483000'}, {'id': '111085', 'name': 'Alachua County', 'state_code': 'FL', 'country_code': 'US', 'latitude': '29.67476000', 'longitude': '-82.35770000'}, {'id': '111086', 'name': 'Alafaya', 'state_code': 'FL', 'country_code': 'US', 'latitude': '28.56410000', 'longitude': '-81.21140000'}, {'id': '111177', 'name': 'Allapattah', 'state_code': 'FL', 'country_code': 'US', 'latitude': '25.81454000', 'longitude': '-80.22394000'}, {'id': '111237', 'name': 'Altamonte Springs', 'state_code': 'FL', 'country_code': 'US', 'latitude': '28.66111000', 'longitude': '-81.36562000'}, {'id': '111250', 'name': 'Alturas', 'state_code': 'FL', 'country_code': 'US', 'latitude': '27.87169000', 'longitude': '-81.71508000'}, {'id': '111255', 'name': 'Alva', 'state_code': 'FL', 'country_code': 'US', 'latitude': '26.71562000', 'longitude': '-81.61008000'}, {'id': '111321', 'name': 'Andover', 'state_code': 'FL', 'country_code': 'US', 'latitude': '25.96843000', 'longitude': '-80.21283000'}, {'id': '111348', 'name': 'Anna Maria', 'state_code': 'FL', 'country_code': 'US', 'latitude': '27.53115000', 'longitude': '-82.73343000'}, {'id': '111382', 'name': 'Apalachicola', 'state_code': 'FL', 'country_code': 'US', 'latitude': '29.72600000', 'longitude': '-84.98560000'}, {'id': '111388', 'name': 'Apollo Beach', 'state_code': 'FL', 'country_code': 'US', 'latitude': '27.77308000', 'longitude': '-82.40759000'}, {'id': '111389', 'name': 'Apopka', 'state_code': 'FL', 'country_code': 'US', 'latitude': '28.67617000', 'longitude': '-81.51186000'}, {'id': '111420', 'name': 'Arcadia', 'state_code': 'FL', 'country_code': 'US', 'latitude': '27.21588000', 'longitude': '-81.85842000'}, {'id': '111429', 'name': 'Archer', 'state_code': 'FL', 'country_code': 'US', 'latitude': '29.52997000', 'longitude': '-82.51900"
+    },
+    "{'countrycode': 'US', 'statecode': 'NY'}": {
+        "error": "",
+        "response": "[{'id': '111014', 'name': 'Adams', 'state_code': 'NY', 'country_code': 'US', 'latitude': '43.80923000', 'longitude': '-76.02409000'}, {'id': '111016', 'name': 'Adams Center', 'state_code': 'NY', 'country_code': 'US', 'latitude': '43.86006000', 'longitude': '-76.00548000'}, {'id': '111037', 'name': 'Addison', 'state_code': 'NY', 'country_code': 'US', 'latitude': '42.10285000', 'longitude': '-77.23359000'}, {'id': '111071', 'name': 'Airmont', 'state_code': 'NY', 'country_code': 'US', 'latitude': '41.10093000', 'longitude': '-74.11625000'}, {'id': '111078', 'name': 'Akron', 'state_code': 'NY', 'country_code': 'US', 'latitude': '43.02089000', 'longitude': '-78.49530000'}, {'id': '111082', 'name': 'Alabama', 'state_code': 'NY', 'country_code': 'US', 'latitude': '43.09645000', 'longitude': '-78.39086000'}, {'id': '111108', 'name': 'Albany', 'state_code': 'NY', 'country_code': 'US', 'latitude': '42.65258000', 'longitude': '-73.75623000'}, {'id': '111112', 'name': 'Albany County', 'state_code': 'NY', 'country_code': 'US', 'latitude': '42.60018000', 'longitude': '-73.97356000'}, {'id': '111119', 'name': 'Albertson', 'state_code': 'NY', 'country_code': 'US', 'latitude': '40.77343000', 'longitude': '-73.64318000'}, {'id': '111128', 'name': 'Albion', 'state_code': 'NY', 'country_code': 'US', 'latitude': '43.24645000', 'longitude': '-78.19363000'}, {'id': '111136', 'name': 'Alden', 'state_code': 'NY', 'country_code': 'US', 'latitude': '42.90006000', 'longitude': '-78.49197000'}, {'id': '111157', 'name': 'Alexandria Bay', 'state_code': 'NY', 'country_code': 'US', 'latitude': '44.33588000', 'longitude': '-75.91773000'}, {'id': '111160', 'name': 'Alfred', 'state_code': 'NY', 'country_code': 'US', 'latitude': '42.25424000', 'longitude': '-77.79055000'}, {'id': '111180', 'name': 'Allegany', 'state_code': 'NY', 'country_code': 'US', 'latitude': '42.09006000', 'longitude': '-78.49419000'}, {'id': '111182', 'name': 'Allegany County', 'state_code': 'NY', 'country_code': 'US', 'latitude': '42.25739000', 'longitude': '-78.02756000'}, {'"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "getfscore",
+    "description": "This is a sub-function API for tool piotrosky_f_score.\nTool description: The Piotroski score is a discrete score between zero and nine that reflects nine criteria used to determine the strength of a firm's financial position. The Piotroski score is used to determine the best value stocks, with nine being the best and zero being the worst.\nAPI description: Fetches the Piotroski F-Score for a given stock ticker using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The stock ticker symbol for which the F-Score is to be retrieved.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "ticker"
+        ]
+    }
+}

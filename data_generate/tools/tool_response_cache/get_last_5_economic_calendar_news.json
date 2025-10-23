@@ -1,0 +1,82 @@
+{
+    "{'content_type': 'application/json'}": {
+        "error": "",
+        "response": [
+            {
+                "title": "US Non-Farm Payrolls Exceed Expectations",
+                "date": "2023-10-06T08:30:00Z",
+                "source": "Bloomberg",
+                "actual_data": "+315k jobs created",
+                "processed_data": {
+                    "sentiment": "positive",
+                    "uniqueness_score": 0.85
+                },
+                "summary": "US labor market shows resilience with higher-than-expected job growth in September.",
+                "indicators": {
+                    "economic_impact": "high",
+                    "relevance_to_crypto": "moderate"
+                }
+            },
+            {
+                "title": "Eurozone CPI Inflation Slows to 5.3%",
+                "date": "2023-10-05T07:00:00Z",
+                "source": "Reuters",
+                "actual_data": "5.3% YoY (vs 5.6% forecast)",
+                "processed_data": {
+                    "sentiment": "neutral",
+                    "uniqueness_score": 0.72
+                },
+                "summary": "Eurozone inflation eases slightly, below ECB's target but remains elevated.",
+                "indicators": {
+                    "economic_impact": "high",
+                    "relevance_to_crypto": "low"
+                }
+            },
+            {
+                "title": "China Manufacturing PMI Contracts Further",
+                "date": "2023-10-04T01:30:00Z",
+                "source": "CNBC",
+                "actual_data": "49.2 (below 50 threshold)",
+                "processed_data": {
+                    "sentiment": "negative",
+                    "uniqueness_score": 0.91
+                },
+                "summary": "Chinese manufacturing sector weakens, signaling potential global demand concerns.",
+                "indicators": {
+                    "economic_impact": "high",
+                    "relevance_to_crypto": "high"
+                }
+            },
+            {
+                "title": "UK BoE Holds Rates at 5.25%",
+                "date": "2023-10-03T12:00:00Z",
+                "source": "Financial Times",
+                "actual_data": "No rate change announced",
+                "processed_data": {
+                    "sentiment": "neutral",
+                    "uniqueness_score": 0.68
+                },
+                "summary": "Bank of England maintains rates amid inflation and growth balancing act.",
+                "indicators": {
+                    "economic_impact": "medium",
+                    "relevance_to_crypto": "low"
+                }
+            },
+            {
+                "title": "Japan Trade Deficit Narrows to \u00a5792 Billion",
+                "date": "2023-10-02T02:30:00Z",
+                "source": "Reuters",
+                "actual_data": "\u00a5792B deficit (vs \u00a5850B forecast)",
+                "processed_data": {
+                    "sentiment": "positive",
+                    "uniqueness_score": 0.78
+                },
+                "summary": "Japan's trade deficit shrinks as exports rebound slightly from previous lows.",
+                "indicators": {
+                    "economic_impact": "medium",
+                    "relevance_to_crypto": "moderate"
+                }
+            }
+        ]
+    }
+}

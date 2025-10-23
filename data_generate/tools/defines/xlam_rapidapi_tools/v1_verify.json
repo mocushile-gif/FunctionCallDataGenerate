@@ -1,0 +1,17 @@
+{
+    "name": "v1_verify",
+    "description": "This is a sub-function API for tool quick_email_verification.\nTool description: Improve your mail deliverability rates and protect your IP reputation by using our Free Email Verification Service. Need further help? You can contact us at https://quickemailverification.com/contact-us\nAPI description: Validates an email address using the QuickEmailVerification API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "Enter email address to validate",
+                "default": "youremail@domain.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

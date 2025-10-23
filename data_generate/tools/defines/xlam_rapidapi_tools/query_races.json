@@ -1,0 +1,54 @@
+{
+    "name": "query_races",
+    "description": "This is a sub-function API for tool horse_racing.\nTool description: Horse racing API - UK & Ireland races. Racecards, results, stats, Odds comparator and more. \nAPI description: Queries horse races based on various filter criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "order_by_date": {
+                "type": "string",
+                "description": "Results ordered by date of the race, either \"asc\" for ascending or \"desc\" for descending."
+            },
+            "date_to": {
+                "type": "string",
+                "description": "Upper bound date for the races to be queried."
+            },
+            "class_to": {
+                "type": "number",
+                "description": "Maximum race class."
+            },
+            "distance_to": {
+                "type": "string",
+                "description": "Upper bound distance for the races to be queried."
+            },
+            "distance_from": {
+                "type": "string",
+                "description": "Lower bound distance for the races to be queried."
+            },
+            "id_horse": {
+                "type": "number",
+                "description": "Horse id. If you populate this field the query search races where this horse run."
+            },
+            "course": {
+                "type": "string",
+                "description": "Racecourse name (e.g., Cheltenham, Ascot, Newmarket)."
+            },
+            "class_from": {
+                "type": "number",
+                "description": "Minimum race class."
+            },
+            "page": {
+                "type": "number",
+                "description": "Page number for pagination."
+            },
+            "date_from": {
+                "type": "string",
+                "description": "Lower bound date for the races to be queried."
+            },
+            "name": {
+                "type": "string",
+                "description": "Race name or a text on the race name. Like \\\"Novice\\\", \\\"Handicap chase\\\", \\\"Hurdle\\\", ...."
+            }
+        },
+        "required": []
+    }
+}

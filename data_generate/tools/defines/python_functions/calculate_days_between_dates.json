@@ -1,0 +1,21 @@
+{
+    "name": "calculate_days_between_dates",
+    "description": "Calculates the number of days between two dates provided in \"YYYY-MM-DD\" format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start_date": {
+                "type": "string",
+                "description": "The start date in \"YYYY-MM-DD\" format."
+            },
+            "end_date": {
+                "type": "string",
+                "description": "The end date in \"YYYY-MM-DD\" format."
+            }
+        },
+        "required": [
+            "start_date",
+            "end_date"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "latest_contracts_for_symbol",
+    "description": "This is a sub-function API for tool futures.\nTool description: Get daily and historical futures prices for 26 major financial assets and their monthly futures contracts. Lithium, WTI Oil, Brent Crude, Wheat, etc.\nAPI description: This endpoint returns each of the latest futures contracts for a given symbol for the next twelve months.\n\nUse the optional *<month>* parameter to return the latest contract for a given month.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The symbol for which to retrieve futures contracts.",
+                "default": "CL"
+            },
+            "month": {
+                "type": "number",
+                "description": "The month for which to return the latest contract (default is 7).",
+                "default": 7.0
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

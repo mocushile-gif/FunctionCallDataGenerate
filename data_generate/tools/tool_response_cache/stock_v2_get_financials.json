@@ -1,0 +1,315 @@
+{
+    "{'performanceid': '0P0000OQN8'}": {
+        "error": "",
+        "response": {
+            "incomeStatement": {
+                "_meta": {
+                    "companyId": "0C00004EP4",
+                    "statementType": "income-statement",
+                    "periodReport": "Success",
+                    "latestReport": "Success"
+                },
+                "columnDefs": [
+                    "2020",
+                    "2021",
+                    "2022",
+                    "TTM"
+                ],
+                "filingIdList": [
+                    "320461313",
+                    "375838426",
+                    "430039925",
+                    null
+                ],
+                "columnDefs_labels": [
+                    "20201231",
+                    "20211231",
+                    "20221231",
+                    "20230331"
+                ],
+                "rows": [
+                    {
+                        "label": "Total Revenue",
+                        "dataPointId": "IFIS001170",
+                        "datum": [
+                            31.54,
+                            53.82,
+                            81.46,
+                            86.04
+                        ]
+                    },
+                    {
+                        "label": "Total Operating Profit/Loss",
+                        "dataPointId": "IFIS001230",
+                        "datum": [
+                            1.99,
+                            6.5,
+                            13.83,
+                            12.89
+                        ]
+                    },
+                    {
+                        "label": "Net Income Available to Common Stockholders",
+                        "dataPointId": "IFIS001100",
+                        "datum": [
+                            0.69,
+                            5.52,
+                            12.58,
+                            11.78
+                        ]
+                    },
+                    {
+                        "label": "EBITDA",
+                        "dataPointId": "SAL0000003",
+                        "datum": [
+                            4.22,
+                            9.63,
+                            17.66,
+                            16.97
+                        ]
+                    },
+                    {
+                        "label": "Diluted EPS",
+                        "dataPointId": "IFIS000280",
+                        "datum": [
+                            0.21,
+                            1.63,
+                            3.62,
+                            3.4
+                        ]
+                    },
+                    {
+                        "label": "Normalized EPS",
+                        "dataPointId": "IFIS101213",
+                        "datum": [
+                            0.21,
+                            1.63,
+                            3.67,
+                            3.45
+                        ]
+                    }
+                ],
+                "footer": {
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "orderOfMagnitude": "Billion",
+                    "fiscalYearEndDate": "12-31"
+                }
+            },
+            "balanceSheet": {
+                "_meta": {
+                    "companyId": "0C00004EP4",
+                    "statementType": "balance-sheet",
+                    "periodReport": "Success",
+                    "latestReport": "Success"
+                },
+                "columnDefs": [
+                    "2020",
+                    "2021",
+                    "2022",
+                    "Q1 2023"
+                ],
+                "filingIdList": [
+                    "320461313",
+                    "375838426",
+                    "430039925",
+                    "443909171"
+                ],
+                "columnDefs_labels": [
+                    "20201231",
+                    "20211231",
+                    "20221231",
+                    "20230331"
+                ],
+                "rows": [
+                    {
+                        "label": "Total Assets",
+                        "dataPointId": "IFBS002270",
+                        "datum": [
+                            52.15,
+                            62.13,
+                            82.34,
+                            86.83
+                        ]
+                    },
+                    {
+                        "label": "Total Liabilities",
+                        "dataPointId": "IFBS002646",
+                        "datum": [
+                            28.47,
+                            30.55,
+                            36.44,
+                            37.6
+                        ]
+                    },
+                    {
+                        "label": "Total Debt",
+                        "dataPointId": "SAL0000001",
+                        "datum": [
+                            13.28,
+                            8.87,
+                            5.75,
+                            5.57
+                        ]
+                    },
+                    {
+                        "label": "Total Equity",
+                        "dataPointId": "IFBS002220",
+                        "datum": [
+                            23.68,
+                            31.58,
+                            45.9,
+                            49.24
+                        ]
+                    },
+                    {
+                        "label": "Cash, Cash Equivalents and Short Term Investments",
+                        "dataPointId": "IFBS000350",
+                        "datum": [
+                            19.38,
+                            17.71,
+                            22.19,
+                            22.4
+                        ]
+                    },
+                    {
+                        "label": "Working Capital",
+                        "dataPointId": "SAL0000004",
+                        "datum": [
+                            12.47,
+                            7.4,
+                            14.21,
+                            15.56
+                        ]
+                    }
+                ],
+                "footer": {
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "orderOfMagnitude": "Billion",
+                    "fiscalYearEndDate": "12-31"
+                }
+            },
+            "cashFlow": {
+                "_meta": {
+                    "companyId": "0C00004EP4",
+                    "statementType": "cash-flow",
+                    "periodReport": "Success",
+                    "latestReport": "Success"
+                },
+                "columnDefs": [
+                    "2020",
+                    "2021",
+                    "2022",
+                    "TTM"
+                ],
+                "filingIdList": [
+                    "320461313",
+                    "375838426",
+                    "430039925",
+                    null
+                ],
+                "columnDefs_labels": [
+                    "20201231",
+                    "20211231",
+                    "20221231",
+                    "20230331"
+                ],
+                "rows": [
+                    {
+                        "label": "Cash Flow from Operating Activities, Indirect",
+                        "dataPointId": "IFCF000150",
+                        "datum": [
+                            5.94,
+                            11.5,
+                            14.72,
+                            13.24
+                        ]
+                    },
+                    {
+                        "label": "Cash Flow from Investing Activities",
+                        "dataPointId": "IFCF000140",
+                        "datum": [
+                            -3.13,
+                            -7.87,
+                            -11.97,
+                            -12.29
+                        ]
+                    },
+                    {
+                        "label": "Cash Flow from Financing Activities",
+                        "dataPointId": "IFCF000130",
+                        "datum": [
+                            9.97,
+                            -5.2,
+                            -3.53,
+                            -1.85
+                        ]
+                    },
+                    {
+                        "label": "Capital Expenditure",
+                        "dataPointId": "SAL0000005",
+                        "datum": [
+                            -3.24,
+                            -8.01,
+                            -7.17,
+                            -7.46
+                        ]
+                    },
+                    {
+                        "label": "Free Cash Flow",
+                        "dataPointId": "SAL0000002",
+                        "datum": [
+                            2.7,
+                            3.48,
+                            7.55,
+                            5.78
+                        ]
+                    }
+                ],
+                "footer": {
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "orderOfMagnitude": "Billion",
+                    "fiscalYearEndDate": "12-31"
+                }
+            }
+        }
+    },
+    "{'performanceid': '0P0000OQN8', 'reporttype': 'A', 'interval': 'quarterly'}": {
+        "error": "",
+        "response": "{'incomeStatement': {'_meta': {'companyId': '0C00004EP4', 'statementType': 'income-statement', 'periodReport': 'Success', 'latestReport': 'Success'}, 'columnDefs': ['Q3 2024', 'Q4 2024', 'Q1 2025', 'TTM'], 'filingIdList': ['544730418', None, '584473792', None], 'columnDefs_labels': ['20240930', '20241231', '20250331', '20250331'], 'rows': [{'label': 'Total Revenue', 'dataPointId': 'IFIS001170', 'datum': [25.18, 25.71, 19.34, 95.72]}, {'label': 'Total Operating Profit/Loss', 'dataPointId': 'IFIS001230', 'datum': [2.77, 1.59, 0.49, 7.08]}, {'label': 'Net Income Available to Common Stockholders', 'dataPointId': 'IFIS001100', 'datum': [2.17, 2.31, 0.41, 6.37]}, {'label': 'EBITDA', 'dataPointId': 'SAL0000003', 'datum': [4.22, 4.36, 2.13, 13.63]}, {'label': 'Diluted EPS', 'dataPointId': 'IFIS000280', 'datum': [0.62, 0.66, 0.12, 1.75]}, {'label': 'Normalized EPS', 'dataPointId': 'IFIS101213', 'datum': [0.63, 0.66, 0.14, 1.93]}], 'footer': {'currency': 'USD', 'currencySymbol': '$', 'orderOfMagnitude': 'Billion', 'fiscalYearEndDate': '12-31'}}, 'balanceSheet': {'_meta': {'companyId': '0C00004EP4', 'statementType': 'balance-sheet', 'periodReport': 'Success', 'latestReport': 'OK'}, 'columnDefs': ['Q2 2024', 'Q3 2024', 'Q4 2024', 'Q1 2025'], 'filingIdList': ['526476513', '544730418', '565164865', '584473792'], 'columnDefs_labels': ['20240630', '20240930', '20241231', '20250331'], 'rows': [{'label': 'Total Assets', 'dataPointId': 'IFBS002270', 'datum': [112.83, 119.85, 122.07, 125.11]}, {'label': 'Total Liabilities', 'dataPointId': 'IFBS002646', 'datum': [45.57, 49.14, 48.39, 49.69]}, {'label': 'Total Debt', 'dataPointId': 'SAL0000001', 'datum': [12.52, 12.78, 13.62, 13.13]}, {'label': 'Total Equity', 'dataPointId': 'IFBS002220', 'datum': [67.26, 70.71, 73.68, 75.42]}, {'label': 'Cash, Cash Equivalents and Short Term Investments', 'dataPointId': 'IFBS000350', 'datum': [30.72, 33.65, 36.56, 37.0]}, {'label': 'Working Capital', 'dataPointId': 'SAL0000004', 'datum': [25.25, 25.8, 29.54, 29.64]}], 'footer': {'currency': 'USD', 'c"
+    },
+    "{'performanceid': 'AAPL-US-EQUITY', 'reporttype': 'A', 'interval': 'annual'}": {
+        "error": "",
+        "response": "{'incomeStatement': {'_meta': {'companyId': None, 'statementType': 'income-statement', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}, 'balanceSheet': {'_meta': {'companyId': None, 'statementType': 'balance-sheet', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}, 'cashFlow': {'_meta': {'companyId': None, 'statementType': 'cash-flow', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}}"
+    },
+    "{'performanceid': 'AAPL', 'reporttype': 'A', 'interval': 'annual'}": {
+        "error": "",
+        "response": "{'incomeStatement': {'_meta': {'companyId': None, 'statementType': 'income-statement', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}, 'balanceSheet': {'_meta': {'companyId': None, 'statementType': 'balance-sheet', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}, 'cashFlow': {'_meta': {'companyId': None, 'statementType': 'cash-flow', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}}"
+    },
+    "{'performanceid': '32019', 'reporttype': 'A', 'interval': 'annual'}": {
+        "error": "",
+        "response": "{'incomeStatement': {'_meta': {'companyId': None, 'statementType': 'income-statement', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}, 'balanceSheet': {'_meta': {'companyId': None, 'statementType': 'balance-sheet', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}, 'cashFlow': {'_meta': {'companyId': None, 'statementType': 'cash-flow', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}}"
+    },
+    "{'performanceid': '0P0000OQN8', 'reporttype': 'A', 'interval': 'annual'}": {
+        "error": "",
+        "response": "{'incomeStatement': {'_meta': {'companyId': '0C00004EP4', 'statementType': 'income-statement', 'periodReport': 'Success', 'latestReport': 'Success'}, 'columnDefs': ['2021', '2022', '2023', 'TTM'], 'filingIdList': ['375838426', '430039925', '491383580', None], 'columnDefs_labels': ['20211231', '20221231', '20231231', '20240630'], 'rows': [{'label': 'Total Revenue', 'dataPointId': 'IFIS001170', 'datum': [53.82, 81.46, 96.77, 95.32]}, {'label': 'Total Operating Profit/Loss', 'dataPointId': 'IFIS001230', 'datum': [6.5, 13.83, 8.89, 7.23]}, {'label': 'Net Income Available to Common Stockholders', 'dataPointId': 'IFIS001100', 'datum': [5.52, 12.58, 15.0, 12.39]}, {'label': 'EBITDA', 'dataPointId': 'SAL0000003', 'datum': [9.63, 17.66, 14.8, 12.93]}, {'label': 'Diluted EPS', 'dataPointId': 'IFIS000280', 'datum': [1.63, 3.62, 4.3, 3.56]}, {'label': 'Normalized EPS', 'dataPointId': 'IFIS101213', 'datum': [1.63, 3.67, 4.3, 3.7]}], 'footer': {'currency': 'USD', 'currencySymbol': '$', 'orderOfMagnitude': 'Billion', 'fiscalYearEndDate': '12-31'}}, 'balanceSheet': {'_meta': {'companyId': '0C00004EP4', 'statementType': 'balance-sheet', 'periodReport': 'Success', 'latestReport': 'Success'}, 'columnDefs': ['2021', '2022', '2023', 'Q2 2024'], 'filingIdList': ['375838426', '430039925', '491383580', '526476513'], 'columnDefs_labels': ['20211231', '20221231', '20231231', '20240630'], 'rows': [{'label': 'Total Assets', 'dataPointId': 'IFBS002270', 'datum': [62.13, 82.34, 106.62, 112.83]}, {'label': 'Total Liabilities', 'dataPointId': 'IFBS002646', 'datum': [30.55, 36.44, 43.01, 45.57]}, {'label': 'Total Debt', 'dataPointId': 'SAL0000001', 'datum': [8.87, 5.75, 9.57, 12.52]}, {'label': 'Total Equity', 'dataPointId': 'IFBS002220', 'datum': [31.58, 45.9, 63.61, 67.26]}, {'label': 'Cash, Cash Equivalents and Short Term Investments', 'dataPointId': 'IFBS000350', 'datum': [17.71, 22.19, 29.09, 30.72]}, {'label': 'Working Capital', 'dataPointId': 'SAL0000004', 'datum': [7.4, 14.21, 20.87, 25.25]}], 'footer': {'currency': 'USD', 'currencySymbo"
+    },
+    "{'performanceid': '0P0000OQN8', 'reporttype': 'R', 'interval': 'quarterly'}": {
+        "error": "",
+        "response": "{'incomeStatement': {'_meta': {'companyId': '0C00004EP4', 'statementType': 'income-statement', 'periodReport': 'Success', 'latestReport': 'Success'}, 'columnDefs': ['Q1 2024', 'Q2 2024', 'Q3 2024', 'TTM'], 'filingIdList': ['507979753', '526476513', '544730418', None], 'columnDefs_labels': ['20240331', '20240630', '20240930', '20240930'], 'rows': [{'label': 'Total Revenue', 'dataPointId': 'IFIS001170', 'datum': [21.3, 25.5, 25.18, 97.15]}, {'label': 'Total Operating Profit/Loss', 'dataPointId': 'IFIS001230', 'datum': [1.17, 2.23, 2.77, 8.23]}, {'label': 'Net Income Available to Common Stockholders', 'dataPointId': 'IFIS001100', 'datum': [1.17, 1.48, 2.17, 12.74]}, {'label': 'EBITDA', 'dataPointId': 'SAL0000003', 'datum': [2.88, 3.25, 4.22, 13.83]}, {'label': 'Diluted EPS', 'dataPointId': 'IFIS000280', 'datum': [0.34, 0.42, 0.62, 3.65]}, {'label': 'Normalized EPS', 'dataPointId': 'IFIS101213', 'datum': [0.34, 0.56, 0.63, 3.8]}], 'footer': {'currency': 'USD', 'currencySymbol': '$', 'orderOfMagnitude': 'Billion', 'fiscalYearEndDate': '12-31'}}, 'balanceSheet': {'_meta': {'companyId': '0C00004EP4', 'statementType': 'balance-sheet', 'periodReport': 'Success', 'latestReport': 'OK'}, 'columnDefs': ['Q4 2023', 'Q1 2024', 'Q2 2024', 'Q3 2024'], 'filingIdList': ['491383580', '507979753', '526476513', '544730418'], 'columnDefs_labels': ['20231231', '20240331', '20240630', '20240930'], 'rows': [{'label': 'Total Assets', 'dataPointId': 'IFBS002270', 'datum': [106.62, 109.23, 112.83, 119.85]}, {'label': 'Total Liabilities', 'dataPointId': 'IFBS002646', 'datum': [43.01, 44.05, 45.57, 49.14]}, {'label': 'Total Debt', 'dataPointId': 'SAL0000001', 'datum': [9.57, 9.91, 12.52, 12.78]}, {'label': 'Total Equity', 'dataPointId': 'IFBS002220', 'datum': [63.61, 65.18, 67.26, 70.71]}, {'label': 'Cash, Cash Equivalents and Short Term Investments', 'dataPointId': 'IFBS000350', 'datum': [29.09, 26.86, 30.72, 33.65]}, {'label': 'Working Capital', 'dataPointId': 'SAL0000004', 'datum': [20.87, 21.08, 25.25, 25.8]}], 'footer': {'currency': 'USD'"
+    },
+    "{'performanceid': '0P0000OQN8', 'interval': 'quarterly'}": {
+        "error": "",
+        "response": "{'incomeStatement': {'_meta': {'companyId': '0C00004EP4', 'statementType': 'income-statement', 'periodReport': 'Success', 'latestReport': 'Success'}, 'columnDefs': ['Q3 2024', 'Q4 2024', 'Q1 2025', 'TTM'], 'filingIdList': ['544730418', None, '584473792', None], 'columnDefs_labels': ['20240930', '20241231', '20250331', '20250331'], 'rows': [{'label': 'Total Revenue', 'dataPointId': 'IFIS001170', 'datum': [25.18, 25.71, 19.34, 95.72]}, {'label': 'Total Operating Profit/Loss', 'dataPointId': 'IFIS001230', 'datum': [2.77, 1.59, 0.49, 7.08]}, {'label': 'Net Income Available to Common Stockholders', 'dataPointId': 'IFIS001100', 'datum': [2.17, 2.31, 0.41, 6.37]}, {'label': 'EBITDA', 'dataPointId': 'SAL0000003', 'datum': [4.22, 4.36, 2.13, 13.63]}, {'label': 'Diluted EPS', 'dataPointId': 'IFIS000280', 'datum': [0.62, 0.66, 0.12, 1.75]}, {'label': 'Normalized EPS', 'dataPointId': 'IFIS101213', 'datum': [0.63, 0.66, 0.14, 1.93]}], 'footer': {'currency': 'USD', 'currencySymbol': '$', 'orderOfMagnitude': 'Billion', 'fiscalYearEndDate': '12-31'}}, 'balanceSheet': {'_meta': {'companyId': '0C00004EP4', 'statementType': 'balance-sheet', 'periodReport': 'Success', 'latestReport': 'OK'}, 'columnDefs': ['Q2 2024', 'Q3 2024', 'Q4 2024', 'Q1 2025'], 'filingIdList': ['526476513', '544730418', '565164865', '584473792'], 'columnDefs_labels': ['20240630', '20240930', '20241231', '20250331'], 'rows': [{'label': 'Total Assets', 'dataPointId': 'IFBS002270', 'datum': [112.83, 119.85, 122.07, 125.11]}, {'label': 'Total Liabilities', 'dataPointId': 'IFBS002646', 'datum': [45.57, 49.14, 48.39, 49.69]}, {'label': 'Total Debt', 'dataPointId': 'SAL0000001', 'datum': [12.52, 12.78, 13.62, 13.13]}, {'label': 'Total Equity', 'dataPointId': 'IFBS002220', 'datum': [67.26, 70.71, 73.68, 75.42]}, {'label': 'Cash, Cash Equivalents and Short Term Investments', 'dataPointId': 'IFBS000350', 'datum': [30.72, 33.65, 36.56, 37.0]}, {'label': 'Working Capital', 'dataPointId': 'SAL0000004', 'datum': [25.25, 25.8, 29.54, 29.64]}], 'footer': {'currency': 'USD', 'c"
+    },
+    "{'performanceid': '0P0000D12X', 'reporttype': 'A', 'interval': 'annual'}": {
+        "error": "",
+        "response": "{'incomeStatement': {'_meta': {'companyId': None, 'statementType': 'income-statement', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}, 'balanceSheet': {'_meta': {'companyId': None, 'statementType': 'balance-sheet', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}, 'cashFlow': {'_meta': {'companyId': None, 'statementType': 'cash-flow', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}}"
+    },
+    "{'performanceid': '0P0000XM34', 'reporttype': 'A', 'interval': 'annual'}": {
+        "error": "",
+        "response": "{'incomeStatement': {'_meta': {'companyId': None, 'statementType': 'income-statement', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}, 'balanceSheet': {'_meta': {'companyId': None, 'statementType': 'balance-sheet', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}, 'cashFlow': {'_meta': {'companyId': None, 'statementType': 'cash-flow', 'periodReport': 'no data available', 'latestReport': 'no data available'}, 'columnDefs': [], 'filingIdList': [], 'columnDefs_labels': [], 'rows': [], 'footer': {}}}"
+    }
+}

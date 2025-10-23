@@ -1,0 +1,62 @@
+{
+    "name": "product_fulfillment",
+    "description": "This is a sub-function API for tool target_com_shopping_api.\nTool description: Realtime APIs support entire shopping flow on Target.com.\n(Free trial enabled)\n\nAPI description: Fetches product fulfillment information from Target's API based on provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tcin": {
+                "type": "string",
+                "description": "Target product id.\nValue comes from product search API.\n",
+                "default": "51952757"
+            },
+            "accept": {
+                "type": "string",
+                "description": "Content types that are acceptable for the response (default is 'application/json').",
+                "default": "application/json"
+            },
+            "cache_control": {
+                "type": "string",
+                "description": "Cache control settings (default is 'no-cache').",
+                "default": "no-cache"
+            },
+            "authority": {
+                "type": "string",
+                "description": "Authority hosting the API (default is 'redsky.target.com').",
+                "default": "redsky.target.com"
+            },
+            "accept_language": {
+                "type": "string",
+                "description": "List of acceptable languages for the response (default is 'en-US,en;q=0.9').",
+                "default": "en-US,en;q=0.9"
+            },
+            "zip": {
+                "type": "string",
+                "description": "The zipcode of the user's search location (default is '94611').",
+                "default": "94611"
+            },
+            "state": {
+                "type": "string",
+                "description": "State code of the user's location (default is 'CA').",
+                "default": "CA"
+            },
+            "longitude": {
+                "type": "string",
+                "description": "User's longitude information (default is '-122.200').",
+                "default": "-122.200"
+            },
+            "store_id": {
+                "type": "string",
+                "description": "The id of the Target store from which the fulfillment information is being retrieved.\nValue comes from nearby stores api.\n(optional)",
+                "default": "3330"
+            },
+            "latitude": {
+                "type": "string",
+                "description": "User's latitude information (default is '37.820').",
+                "default": "37.820"
+            }
+        },
+        "required": [
+            "tcin"
+        ]
+    }
+}

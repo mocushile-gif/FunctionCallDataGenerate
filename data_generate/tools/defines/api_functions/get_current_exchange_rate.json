@@ -1,0 +1,19 @@
+{
+    "name": "get_current_exchange_rate",
+    "description": "Fetches the exchange rates between a base currency and one or more target currencies using the API Layer.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "base_currency": {
+          "type": "string",
+          "description": "The base currency code (e.g., 'USD' for US Dollar, 'EUR' for Euro)."
+        },
+        "target_currency": {
+          "type": "string",
+          "description": "The target currency code or a list of target currency codes (e.g., 'EUR', 'GBP', or ['EUR', 'GBP', 'CAD'])."
+        }
+      },
+      "required": ["base_currency", "target_currency"]
+    }
+  }
+  

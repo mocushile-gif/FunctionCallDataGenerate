@@ -1,0 +1,17 @@
+{
+    "name": "transaction_id",
+    "description": "This is a sub-function API for tool uniswap_v2_api.\nTool description: REST API of Uniswap V2\nAPI description: Retrieve the information of a transaction using its ID from the Uniswap V2 API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the transaction to retrieve information for.",
+                "default": "0xd259f882f051c3ef49a6f79e0a634be47ff643513c418ca753c93dcca8d4d675"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

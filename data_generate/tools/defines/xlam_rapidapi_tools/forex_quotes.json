@@ -1,0 +1,23 @@
+{
+    "name": "forex_quotes",
+    "description": "This is a sub-function API for tool real_time_quotes.\nTool description: Real-time and historical data of stocks, cryptocurrencies and forex based on multiple data sources such as Yahoo Finance\nAPI description: Fetches the real-time price of a forex currency pair.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "target": {
+                "type": "string",
+                "description": "The target currency code (e.g., 'USD').",
+                "default": "USD"
+            },
+            "source": {
+                "type": "string",
+                "description": "The source currency code (e.g., 'EUR').",
+                "default": "EUR"
+            }
+        },
+        "required": [
+            "target",
+            "source"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "{'zpid': '20485700'}": {
+        "error": "",
+        "response": "{'transitScore': None, 'walkScore': None, 'bikeScore': None}"
+    },
+    "{'zpid': '30594820'}": {
+        "error": "",
+        "response": "{'transitScore': None, 'walkScore': {'ws_link': 'https://www.walkscore.com/score/loc/lat=40.664864/lng=-73.945915/?utm_source=zillow2.com&utm_medium=ws_api&utm_campaign=ws_api', 'walkscore': 90, 'description': \"Walker's Paradise\"}, 'bikeScore': {'bikescore': 78, 'description': 'Very Bikeable'}}"
+    },
+    "{'zpid': '20485701'}": {
+        "error": "",
+        "response": "{'transitScore': {'ws_link': 'https://www.walkscore.com/score/loc/lat=34.0186/lng=-118.5028/?utm_source=zillow2.com&utm_medium=ts_api&utm_campaign=ts_api', 'transit_score': 71, 'description': 'Excellent Transit'}, 'walkScore': {'ws_link': 'https://www.walkscore.com/score/loc/lat=34.01864/lng=-118.502754/?utm_source=zillow2.com&utm_medium=ws_api&utm_campaign=ws_api', 'walkscore': 88, 'description': 'Very Walkable'}, 'bikeScore': {'bikescore': 73, 'description': 'Very Bikeable'}}"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "receive_the_credit_card_data",
+    "description": "This is a sub-function API for tool fake_valid_cc_data_generator.\nTool description: The API provides you valid and real credit card data for the providers: amex, diners, discover, jcb, maestro,  mastercard and visa\nAPI description: Receive the requested credit card data set consisting of:\n\n- type\n- firstname\n- lastname\n- cc\n- valid_date\n- cvc\n\n**The following providers are valid and can be generated**\n***amex,diners,discover',jcb',jcb15,jcb16,maestro,mastercard,visa,visa13,visa16,visa19***",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "visa_type": {
+                "type": "string",
+                "description": "Type of visa card to generate. Defaults to 'visa'. Valid options include 'amex', 'diners', 'discover', 'jcb', 'jcb15', 'jcb16', 'maestro', 'mastercard', 'visa', 'visa13', 'visa16', 'visa19'.",
+                "default": "visa"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "extract_patterns_from_text",
+    "description": "Extract text patterns from a file using regular expressions and count the frequency of each match for each pattern.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "Path to the input text file."
+        },
+        "patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of regular expression patterns to search for in the text."
+        },
+        "limit": {
+          "type": "integer",
+          "description": "Optional limit on the number of top unique matches to return per pattern, based on frequency.",
+          "default": null
+        }
+      },
+      "required": ["file_path", "patterns"]
+    }
+  }
+  

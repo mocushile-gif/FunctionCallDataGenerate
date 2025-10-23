@@ -1,0 +1,29 @@
+{
+    "{'is_id': 9864379}": {
+        "error": "",
+        "response": {
+            "match_id": 9864379,
+            "league": "MLB",
+            "teams": {
+                "home": "New York Yankees",
+                "away": "Boston Red Sox"
+            },
+            "score": {
+                "home": 3,
+                "away": 2
+            },
+            "status": "In Progress - Top of 7th Inning",
+            "start_time": "2023-08-25T20:05:00Z",
+            "venue": "Yankee Stadium, New York",
+            "current_play": "Batter: Alex Bregman (Yankees), Pitcher: Nathan Eovaldi (Red Sox)",
+            "odds": {
+                "home_win": "1.85",
+                "away_win": "2.10"
+            }
+        }
+    },
+    "{'is_id': 987654}": {
+        "error": "",
+        "response": "{'event': {'tournament': {'name': 'Premier League', 'slug': 'premier-liga', 'category': {'id': 21, 'country': {'alpha2': 'RU', 'alpha3': 'RUS', 'name': 'Russia', 'slug': 'russia'}, 'name': 'Russia', 'slug': 'russia', 'sport': {'name': 'Football', 'slug': 'football', 'id': 1}, 'flag': 'russia', 'alpha2': 'RU'}, 'uniqueTournament': {'name': 'Russian Premier League', 'slug': 'premier-liga', 'primaryColorHex': '#2580C3', 'secondaryColorHex': '#E94A51', 'category': {'id': 21, 'country': {'alpha2': 'RU', 'alpha3': 'RUS', 'name': 'Russia', 'slug': 'russia'}, 'name': 'Russia', 'slug': 'russia', 'sport': {'name': 'Football', 'slug': 'football', 'id': 1}, 'flag': 'russia', 'alpha2': 'RU'}, 'userCount': 31786, 'id': 203, 'country': {}, 'hasPerformanceGraphFeature': True, 'hasEventPlayerStatistics': True, 'displayInverseHomeAwayTeams': False, 'fieldTranslations': {'nameTranslation': {'ar': '\u0627\u0644\u062f\u0648\u0631\u064a \u0627\u0644\u0631\u0648\u0633\u064a \u0627\u0644\u0645\u0645\u062a\u0627\u0632', 'hi': '\u0930\u0936\u093f\u092f\u0928 \u092a\u094d\u0930\u0940\u092e\u093f\u092f\u0930 \u0932\u0940\u0917', 'bn': '\u09b0\u09be\u09b6\u09bf\u09af\u09bc\u09be\u09a8 \u09aa\u09cd\u09b0\u09bf\u09ae\u09bf\u09af\u09bc\u09be\u09b0 \u09b2\u09c0\u0997'}, 'shortNameTranslation': {}}}, 'priority': 91, 'isGroup': False, 'competitionType': 1, 'isLive': False, 'id': 53, 'fieldTranslations': {'nameTranslation': {'ar': '\u0627\u0644\u062f\u0648\u0631\u064a \u0627\u0644\u0625\u0646\u062c\u0644\u064a\u0632\u064a \u0627\u0644\u0645\u0645\u062a\u0627\u0632', 'hi': '\u092a\u094d\u0930\u0940\u092e\u093f\u092f\u0930 \u0932\u0940\u0917', 'bn': '\u09aa\u09cd\u09b0\u09bf\u09ae\u09bf\u09af\u09bc\u09be\u09b0 \u09b2\u09c0\u0997'}, 'shortNameTranslation': {}}}, 'season': {'name': 'Premier League 2009', 'year': '2009', 'editor': False, 'id': 1978}, 'roundInfo': {'round': 24}, 'customId': 'zWsKW', 'status': {'code': 100, 'description': 'Ended', 'type': 'finished'}, 'winnerCode': 1, 'homeTeam': {'name': 'Tom Tomsk',"
+    }
+}

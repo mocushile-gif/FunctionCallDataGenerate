@@ -1,0 +1,24 @@
+{
+    "name": "date_converter_timezone",
+    "description": "This is a sub-function API for tool dateclock.\nTool description: Complete Converter Date Report also Between, Birthday and many more!\n#date #birthday #between #query #islamic #calendar\nI’m on telegram chat me if there a problem/request\nhttps://t.me/franc0jr\nAPI description: Converts a given date to a specified timezone using the DateClock API and returns the response.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "format": {
+                "type": "string",
+                "description": "Specifies the format of the output date. Defaults to None."
+            },
+            "date": {
+                "type": "string",
+                "description": "The date to be converted. Defaults to '7 Days Ago'.",
+                "default": "7 Days Ago"
+            },
+            "tz": {
+                "type": "string",
+                "description": "The target timezone for the date conversion. Defaults to 'UTC+8'.",
+                "default": "UTC+8"
+            }
+        },
+        "required": []
+    }
+}

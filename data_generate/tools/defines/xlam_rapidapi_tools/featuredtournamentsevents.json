@@ -1,0 +1,17 @@
+{
+    "name": "featuredtournamentsevents",
+    "description": "This is a sub-function API for tool sportifyapi.\nTool description: Real-time sports data platform providing comprehensive information on tournaments, matches, players, and live scores for various sports.  \nAPI description: Fetches featured events for a given unique tournament from the Sportify API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "uniquetournamentid": {
+                "type": "number",
+                "description": "The unique identifier for the tournament whose featured events are to be fetched.",
+                "default": 23.0
+            }
+        },
+        "required": [
+            "uniquetournamentid"
+        ]
+    }
+}

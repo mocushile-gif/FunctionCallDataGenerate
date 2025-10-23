@@ -1,0 +1,22 @@
+{
+    "name": "get_matches_on_a_specific_date",
+    "description": "This is a sub-function API for tool fifa_2022_schedule_and_stats.\nTool description: Get the latest FIFA World Cup Schedule and Stats \nAPI description: Parameters:\n1.  date - Date to query the matches\n2. utc_offset - Change the utc offset of the date to suit your timezone.\n\nReturns the matches on the specified date and timezone.\nWorks for both historical, live, and future dates.\nMatch data consists of date, time, home team, away team, and many more, see the example response for an example.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to query the matches, in the format 'YYYY-MM-DD'.",
+                "default": "2022-11-22"
+            },
+            "utc_offset": {
+                "type": "number",
+                "description": "The UTC offset to cater to the required timezone. Default is 8. Must be between -12 to 14.",
+                "default": 8.0
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

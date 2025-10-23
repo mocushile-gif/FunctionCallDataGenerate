@@ -1,0 +1,45 @@
+{
+    "{'imdb_id': 1201607, 'with_cast': True, 'with_images': True}": {
+        "error": "",
+        "response": {
+            "movie_id": 1201607,
+            "title": "Harry Potter and the Deathly Hallows: Part 2",
+            "year": 2011,
+            "rating": 8.1,
+            "genre": [
+                "Adventure",
+                "Fantasy",
+                "Drama"
+            ],
+            "description": "Harry, Ron, and Hermione continue their quest to destroy the remaining Horcruxes, leading to the final battle against Voldemort.",
+            "director": "David Yates",
+            "writer": [
+                "Steve Kloves",
+                "J.K. Rowling"
+            ],
+            "cast": [
+                {
+                    "name": "Daniel Radcliffe",
+                    "role": "Harry Potter"
+                },
+                {
+                    "name": "Emma Watson",
+                    "role": "Hermione Granger"
+                },
+                {
+                    "name": "Rupert Grint",
+                    "role": "Ron Weasley"
+                }
+            ],
+            "images": [
+                "https://example.com/image1.jpg",
+                "https://example.com/image2.jpg",
+                "https://example.com/image3.jpg"
+            ],
+            "trailer": "https://example.com/trailer.mp4",
+            "thumbnail": "https://example.com/thumbnail.jpg",
+            "cover_image": "https://example.com/cover.jpg",
+            "rank": 1
+        }
+    }
+}

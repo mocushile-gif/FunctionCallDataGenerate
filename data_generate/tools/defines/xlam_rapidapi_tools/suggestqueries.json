@@ -1,0 +1,17 @@
+{
+    "name": "suggestqueries",
+    "description": "This is a sub-function API for tool auto_suggest_queries.\nTool description: This is a Free Query Suggest API which provides suggestions for search queries based on a given keyword\nAPI description: Fetches suggestions based on the given query using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query for which suggestions are to be fetched.",
+                "default": "How to"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

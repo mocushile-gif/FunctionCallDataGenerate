@@ -1,0 +1,43 @@
+{
+    "name": "product_details",
+    "description": "This is a sub-function API for tool target_com_shopping_api.\nTool description: Realtime APIs support entire shopping flow on Target.com.\n(Free trial enabled)\n\nAPI description: Returns detailed product information.\nIncluding:\n```\nproduct variants (with different dimension like size, color and etc.\nratings and reviews\nitem images/videos\nprice\npromotion\nchild products\n```",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tcin": {
+                "type": "string",
+                "description": "Target product ID which is obtained from the product search API.",
+                "default": "16251811"
+            },
+            "store_id": {
+                "type": "string",
+                "description": "The id of the store which product details data is being retrieved from. (Required, CANNOT be empty)\nValue comes from nearby store API.\n\nExample: 3330",
+                "default": "3330"
+            },
+            "zip": {
+                "type": "string",
+                "description": "User's zip code. Defaults to '94611'.",
+                "default": "94611"
+            },
+            "state": {
+                "type": "string",
+                "description": "State code of the user's location. Defaults to 'CA'.",
+                "default": "CA"
+            },
+            "latitude": {
+                "type": "string",
+                "description": "User's latitude information. Defaults to '37.820'.",
+                "default": "37.820"
+            },
+            "longitude": {
+                "type": "string",
+                "description": "User's longitude information. Defaults to '-122.200'.",
+                "default": "-122.200"
+            }
+        },
+        "required": [
+            "tcin",
+            "store_id"
+        ]
+    }
+}

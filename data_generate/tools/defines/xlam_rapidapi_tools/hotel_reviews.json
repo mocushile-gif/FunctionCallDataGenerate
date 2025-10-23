@@ -1,0 +1,40 @@
+{
+    "name": "hotel_reviews",
+    "description": "This is a sub-function API for tool priceline_com_provider.\nTool description: priceline.com | Lets you search hotels, cars for rent, flights. **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters **Other travel  api:** https://rapi.one\nAPI description: Fetches a list of hotel reviews based on the provided parameters using the Priceline API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hotel_id": {
+                "type": "string",
+                "description": "The PPN Hotel ID identifying the desired property.",
+                "default": "700022612"
+            },
+            "languages": {
+                "type": "string",
+                "description": "Comma-separated language codes to filter the reviews by language. Defaults to 'en,fr'.",
+                "default": "en,fr"
+            },
+            "order_by": {
+                "type": "string",
+                "description": "Comma-separated sorting order metrics. Valid options include creation_date, average_rating, or verified_guest followed by .asc or .desc."
+            },
+            "offset": {
+                "type": "number",
+                "description": "Used with limit to only retrieve a subset of all results at a time. Determines the nuber of properties to skip (starting at 0) before returning results."
+            },
+            "limit": {
+                "type": "number",
+                "description": "Limits the number of reviews returned. Defaults to 100.",
+                "default": 100
+            },
+            "only_verified_guests": {
+                "type": "boolean",
+                "description": "Set on to only include only reviews with verified_guests. A verified guest is a guest that has had a review verified by aaa. Valid Options: 0 = Off, 1 = On.",
+                "default": false
+            }
+        },
+        "required": [
+            "hotel_id"
+        ]
+    }
+}

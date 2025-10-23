@@ -1,0 +1,17 @@
+{
+    "name": "upvote_riddle",
+    "description": "This is a sub-function API for tool riddlie.\nTool description: API that provides access to a collection of thousands of riddles (and growing). Fetch a random riddle or a riddle of the day. You can build a perfect app to entertain kids and families for dinner times. You can also pull riddles by their ID, difficulty level and keyword of your interest. API also collects feedback such as upvotes, and flags to fine-tune the library of riddles. I will constantly be adding more riddles to the API as I come across them. \nThe Basic plan is completely FREE with a ...\nAPI description: Registers an upvote for a riddle using the Riddlie API. This function sends a GET request to the Riddlie API to upvote a riddle identified by `is_id`. The upvote helps in better serving the riddles in the future.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The identifier of the riddle to upvote.",
+                "default": "63bdef027183b71946b64ee6"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

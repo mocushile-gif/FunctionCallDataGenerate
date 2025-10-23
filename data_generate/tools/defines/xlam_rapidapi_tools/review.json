@@ -1,0 +1,21 @@
+{
+    "name": "review",
+    "description": "This is a sub-function API for tool worldwide_recipes.\nTool description: Over 2 MILLION recipes, nutrition, ingredients, users and reviews worldwide.\nAPI description: Fetches reviews for a given recipe from the Worldwide Recipes API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "recipe_id": {
+                "type": "string",
+                "description": "The unique identifier of the recipe.",
+                "default": "8282fe1d-1222-4da0-9d12-cfb97f50944e"
+            },
+            "offset": {
+                "type": "number",
+                "description": "The offset for pagination of reviews. Defaults to None."
+            }
+        },
+        "required": [
+            "recipe_id"
+        ]
+    }
+}

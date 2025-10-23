@@ -1,0 +1,16 @@
+{
+    "name": "getfaqs",
+    "description": "This is a sub-function API for tool election2020_smartable.\nTool description: The Election API offers the 2020 U.S. election news, events, important people, FAQs, and other information. The data is tagged with democratic voice and republican voice, so it's up to the user to decide which opinion to follow.\nAPI description: Fetch FAQs for a specified page from the Election 2020 Smartable API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The identifier for the specific FAQ page to retrieve."
+            }
+        },
+        "required": [
+            "page"
+        ]
+    }
+}

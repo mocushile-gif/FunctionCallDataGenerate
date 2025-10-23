@@ -1,0 +1,25 @@
+{
+    "name": "tiktok_url_shortener",
+    "description": "This is a sub-function API for tool scraptik.\nTool description: ScrapTik is the #1 TikTok scraping API solution and allows you to unlock TikTok data effortlessly. As the most stable and always-maintained option available, ScrapTik empowers you to seamlessly access data from the TikTok mobile app, including user, post, music, search, feeds, comments, followers, and trends.\n\nOur comprehensive toolkit also includes advanced features like X-Argus, X-Ladon, X-Gorgon generation, challenge resolution, and device registration.\n\nWith frequent updates and a commitm...\nAPI description: This function shortens a TikTok URL using the ScrapTik API and allows for optional specification of device and proxy.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The TikTok URL to shorten.",
+                "default": "https://m.tiktok.com/v/6977803984228584709.html"
+            },
+            "device": {
+                "type": "string",
+                "description": "The type of device for the request. Defaults to None."
+            },
+            "tok_proxy": {
+                "type": "string",
+                "description": "The proxy to use for the request. Defaults to None."
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

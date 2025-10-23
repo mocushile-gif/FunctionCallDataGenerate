@@ -1,0 +1,22 @@
+{
+    "name": "subtitlelist",
+    "description": "This is a sub-function API for tool youtube_video_subtitles_list.\nTool description: Youtube video subtitle list\nAPI description: Fetches a list of subtitles for a given YouTube video.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "videoid": {
+                "type": "string",
+                "description": "The unique identifier for the YouTube video.",
+                "default": "JY-_GRi56KQ"
+            },
+            "locale": {
+                "type": "string",
+                "description": "The locale for the subtitles. Defaults to 'EN'.",
+                "default": "EN"
+            }
+        },
+        "required": [
+            "videoid"
+        ]
+    }
+}

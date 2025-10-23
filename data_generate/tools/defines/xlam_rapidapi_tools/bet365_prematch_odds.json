@@ -1,0 +1,16 @@
+{
+    "name": "bet365_prematch_odds",
+    "description": "This is a sub-function API for tool betsapi.\nTool description: bet365 events/scores/stats/odds\nAPI description: Fetches prematch odds from the Bet365 API using the provided fixture ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fi": {
+                "type": "number",
+                "description": "Fixture ID for which to fetch the prematch odds."
+            }
+        },
+        "required": [
+            "fi"
+        ]
+    }
+}

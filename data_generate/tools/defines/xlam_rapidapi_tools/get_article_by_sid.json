@@ -1,0 +1,17 @@
+{
+    "name": "get_article_by_sid",
+    "description": "This is a sub-function API for tool malaysia_kini.\nTool description: Live News by Malaysia Kini\nAPI description: Return news article content based on sid stated in **Get Latest Article List** method.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sid": {
+                "type": "number",
+                "description": "Article id number return by **Get Latest Article List** method (stated as **sid**)",
+                "default": 565154.0
+            }
+        },
+        "required": [
+            "sid"
+        ]
+    }
+}

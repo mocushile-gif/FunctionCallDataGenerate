@@ -1,0 +1,17 @@
+{
+    "name": "origin",
+    "description": "This is a sub-function API for tool dogbreeddb.\nTool description: Get the basic metadata on all breeds of dogs from around the world. Check out encurate.app to manage content on your mobile apps. Contact to feature your app on encurate.app website.\nAPI description: Fetches a list of all dog breeds from a given country of origin using the Dog Breed Database API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "origin": {
+                "type": "string",
+                "description": "The country of origin to filter the dog breeds.",
+                "default": "germany"
+            }
+        },
+        "required": [
+            "origin"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_user_activity_pins",
+    "description": "This is a sub-function API for tool pinterest_scraper.\nTool description: Stable Pinterest API. I get full information about pins, download links in all qualities. Active work is underway to add new features\nAPI description: Retrieve activity pins for a given Pinterest username using the Pinterest Scraper API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Pinterest username for which to retrieve activity pins.",
+                "default": "nasa"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "suggest_region",
+    "description": "This is a sub-function API for tool airdna.\nTool description: API for Short-Term Rental Data Analytics | Vrbo & Airbnb Data | Rentalizer\nAPI description: Fetches suggested regions based on a given location using the Airdna API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The location keyword to search for suggested regions.",
+                "default": "santa monica"
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "players",
+    "description": "This is a sub-function API for tool live_golf_data.\nTool description: PGA Tour and LIV Tour live golf data for your application needs such as rankings, leaderboards, scorecards, and results.\nAPI description: Fetch a PGA Tour player by his last name, first name, playerId, or a combination of these parameters.\n\nYou must provide at least one search parameter to the API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lastname": {
+                "type": "string",
+                "description": "The last name of the player. Default is 'Morikawa'.",
+                "default": "Morikawa"
+            },
+            "playerid": {
+                "type": "string",
+                "description": "The ID of the player. Default is '50525'.",
+                "default": "50525"
+            },
+            "firstname": {
+                "type": "string",
+                "description": "The first name of the player. Default is 'Collin'.",
+                "default": "Collin"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "wrt_transformer",
+    "description": "This is a sub-function API for tool walnut_topic.\nTool description: AI powered topic extraction from texts.\nAPI description: Gets the text and set of possible topics separated by a comma.\n\nReturns the ranking of topics from most relevant to least relevant.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The input text on which the topic relevance will be assessed.",
+                "default": "My tablet is not working and I want a refund as soon as possible!"
+            },
+            "topics": {
+                "type": "string",
+                "description": "A comma-separated string of topics to rank based on their relevance to the given text.",
+                "default": "furniture,eletronics,books,billing,promotion,urgent,design"
+            }
+        },
+        "required": [
+            "text",
+            "topics"
+        ]
+    }
+}

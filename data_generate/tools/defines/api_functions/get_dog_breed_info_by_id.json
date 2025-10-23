@@ -1,0 +1,19 @@
+{
+    "name": "get_dog_breed_info_by_id",
+    "description": "Get specific dog breed information by ID from the Dog API.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "breed_id": {
+          "type": "integer",
+          "description": "Breed ID to retrieve information for",
+          "minimum": 1
+        },
+        "save_to": {
+          "type": "string",
+          "description": "File path to save the result as JSON"
+        }
+      },
+      "required": ["breed_id"]
+    }
+  } 

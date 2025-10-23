@@ -1,0 +1,25 @@
+{
+    "name": "games",
+    "description": "This is a sub-function API for tool jet_set_radio_api.\nTool description: A data provider for all things Jet Set Radio in JSON format!\nAPI description: Returns a list of games from the Jet Set Radio API with optional parameters for limiting and sorting the results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "Limit the number of items returned in the response. Defaults to '5'.",
+                "default": "5"
+            },
+            "orderby": {
+                "type": "string",
+                "description": "Possible Values:\n - `asc`\n - `desc`\n\nsortBy must be present for this to take effect. \nThe default value is `asc`\n",
+                "default": "asc"
+            },
+            "sortby": {
+                "type": "string",
+                "description": "Field by which to sort the results. Possible values are any field on the document, such as 'name' or 'stats'. Defaults to 'name'.",
+                "default": "name"
+            }
+        },
+        "required": []
+    }
+}

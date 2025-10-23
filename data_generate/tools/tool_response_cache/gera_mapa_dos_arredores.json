@@ -1,0 +1,90 @@
+{
+    "{'cnpj': '37335118000180', 'height': 600, 'width': 800}": {
+        "error": "",
+        "response": {
+            "code": 400,
+            "message": "request validation failed",
+            "constraints": [
+                "width must not be greater than 640"
+            ]
+        }
+    },
+    "{'cnpj': '37335118000180', 'height': 600, 'width': 800, 'zoom': 15, 'scale': 1, 'type': 'roadmap'}": {
+        "error": "",
+        "response": {
+            "code": 400,
+            "message": "request validation failed",
+            "constraints": [
+                "width must not be greater than 640"
+            ]
+        }
+    },
+    "{'cnpj': '84447804000123', 'height': 400, 'width': 800, 'zoom': 15}": {
+        "error": "",
+        "response": {
+            "code": 400,
+            "message": "request validation failed",
+            "constraints": [
+                "width must not be greater than 640"
+            ]
+        }
+    },
+    "{'cnpj': '12345678901234', 'height': 500, 'width': 500, 'zoom': 15}": {
+        "error": "",
+        "response": {
+            "code": 400,
+            "message": "request validation failed",
+            "constraints": [
+                "taxId must be a numeric string that obeys digit verification algorithm"
+            ]
+        }
+    },
+    "{'cnpj': '01001000'}": {
+        "error": "",
+        "response": {
+            "code": 400,
+            "message": "request validation failed",
+            "constraints": [
+                "taxId must be a numeric string that obeys digit verification algorithm"
+            ]
+        }
+    },
+    "{'cnpj': '12345678901234'}": {
+        "error": "",
+        "response": {
+            "code": 400,
+            "message": "request validation failed",
+            "constraints": [
+                "taxId must be a numeric string that obeys digit verification algorithm"
+            ]
+        }
+    },
+    "{'cnpj': '01002000'}": {
+        "error": "",
+        "response": {
+            "code": 400,
+            "message": "request validation failed",
+            "constraints": [
+                "taxId must be a numeric string that obeys digit verification algorithm"
+            ]
+        }
+    },
+    "{'cnpj': 'XXXXXXXXXXXXXX'}": {
+        "error": "",
+        "response": {
+            "code": 400,
+            "message": "request validation failed",
+            "constraints": [
+                "taxId must be a numeric string that obeys digit verification algorithm"
+            ]
+        }
+    },
+    "{'cnpj': '37335118000180', 'zoom': 12}": {
+        "error": "",
+        "response": "\ufffdPNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0002\ufffd\u0000\u0000\u0002\ufffd\b\u0003\u0000\u0000\u0000;\u00139\u0011\u0000\u0000\u0002\ufffdPLTE\u0000\u0005\u0000\u0000\u0011\r\t\u0019\u0005\u0000\u0019\u001d\u0010\u000e\b\u0014\u0013\f\u0015\u0015\u0012\u0019\u0017\u0011\u001c\u0019\u0015\u0019\u0019\u001c\u0019)\u0005\u0011%\u0015\u001c'\u001c\u00159)\"\u001e\u0019%%\u0011$!\u001c(#\u001e,,\u0019!9\u00112\"\u0002:-\n3)\u001f!##*&!,)#**)):)3,%51,;5-99%=9+552559951<:3<<9.A.1@59L=H5\u0015D=!A</C91D?;]=$P@\u001d@D1DC=LD5ID>LL5TD-\\H!TL9X@9[K<YR=dL5lX1EEDDDHLF@JJBOMILTDSLAQQLP\\HXS@YQI\\[LTSSXTPYXT\\[X\\dTdTDd\\DaYIjZClXHb\\R`\\Xt\\L|\\@ldLa`\\dhXiaQidYtdDrbRphTrj[xdP|lTyjZ|p\\bdbhd`jjdhhlerepl`plhtpdqplpxdzqaxth\u007fxe|xlrrpt~txwvyxt{{x\u0019t\ufffd\u0015\ufffdt\\\ufffd\\l\ufffdp5\ufffd\ufffd\u0005\ufffd\ufffd\t\ufffd\ufffd%\ufffd\ufffd|\ufffd\ufffdx\ufffd\ufffdX\ufffd\ufffd\ufffd\u0014\u0012\ufffd2'\ufffd>3\ufffd5)\ufffd<1\ufffdG8\ufffd@5\ufffdSE\ufffddL\ufffdh@\ufffdhX\ufffdtL\ufffdt\\\ufffdtT\ufffdp\\\ufffdtX\ufffdrb\ufffdxd\ufffdzi\ufffdt`\ufffdxa\ufffdzi\ufffd|p\ufffd|x\ufffdt`\ufffd|d\ufffdSJ\ufffdxX\ufffdi`\ufffd \u001b\ufffd:.\ufffd7,\ufffd>1\ufffdB4\ufffdh\ufffd\ufffd\ufffdl\ufffd\ufffd|\ufffd\ufffdq\ufffd\ufffd}\ufffd\ufffdl\ufffd\ufffd`\ufffd\ufffdl\ufffd\ufffdr\ufffd\ufffdx\ufffd\ufffdx\ufffd\ufffdt\ufffd\ufffdt\ufffd\ufffd{\ufffd\ufffd|\ufffd\ufffdl\ufffd\ufffdh\ufffd\ufffdr\ufffd\ufffdx\ufffd\ufffd|\ufffd\ufffdh\ufffd\ufffdx\ufffd\ufffdt\ufffd\ufffdx\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0310\ufffd\u05d7\ufffd\u3800\ufffd\ufffd\ufffd\ufffd\ufffd\u021f\ufffd\u0238\ufffd\u0238\ufffd\u06f4\ufffd\ufffd\u0114\ufffd\u0114\ufffd\u021c\ufffd\u0228\ufffd\ufffd\ufffd\ufffd\u0324\ufffd\u05ec\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdD\ufffd\u0013$\u0000\u0000\u0000\u0001bKGD\ufffdK\t\ufffd\ufffd\u0000\u0000 \u0000IDATx\ufffd|\ufffd_L\u001a\ufffd\ufffd?\ufffd\ufffds\ufffd6\ufffd&n\u001b\u0013\u0012b\ufffd1VcR5\ufffd,\ufffd\u0018\u04b8\ufffd\ufffdE\u0002\ufffd\ufffd \ufffdF\u02e6j1\ufffd\u042b\ufffd9\u0379\ufffd\ufffd0\"S\ufffd\ufffdR\b\ufffd\ufffd\ufffd\u0014f\ufffd\ufffd\u001e\u0011\u0007\u001d\ufffd\f\ufffd\u0019\ufffdB\u04dbsR\ufffd]\ufffdiML\ufffd\ufffd\u0017\ufffdg\ufffd=\ufffd\ufffd\ufffd\ufffd7E\u0006f\u001e\ufffd?\ufffd\ufffdy\ufffdy\ufffd=\ufffdR\ufffd\u00f5\u001f~\ufffd\ufffd\ufffd\ufffdo5\ufffd\ufffd\u0016X\ufffd\ufffd7\\\ufffd\ufffd\ufffd\ufffdny\ufffdd~\ufffd\ufffdVu\ufffdj\ufffdu\ufffd\ufffd\ufffd5\ufffd\ufffd\ufffd\ufffd\ufffd^\ufffdi}\ufffd\ufffd8\ufffd\u0003\ufffd\ufffd\ufffd\u007f\ufffd\"<\ufffd\ufffd\u0007.>\ufffd\ufffd\u037d\ufffdg\ufffd\ufffd\ufffd~\ufffd\ufffd\ufffd|\ufffd\ufffd\u0511\u04f4A9\u0002\ufffdA\ufffd\ufffdA\u001eA\ufffd6\ufffdi2;\ufffd\ufffd2\ufffd\ufffdM\ufffd\ufffd\ufffd\ufffd_=\u007f\ufffd\ufffd<\ufffd9T\ufffdQ\u05f0\ufffd\ufffd\ufffd\ufffd\u0010\u001b\ufffd\ufffd\r\u0006\u0005#\ufffdc\u000e\ufffd\u026c\ufffd\ufffdn\ufffd~\ufffd\ufffd\u001fo\ufffd\u001a\ufffdm-\u0004\ufffd\ufffd]\u0014\ufffdZ\ufffd\ufffd]\ufffd\ufffd\ufffd\ufffd\ufffdw\u04c8/T|\ufffd,\ufffd\ufffd\ufffd\u06f7E~kK\ufffdP<\ufffd\ud65d\ufffdxu\ue79e\ufffdL\ufffd\ufffd=(\ufffd.j\ufffd\u0013D\ufffd\u0010\u001b\ufffd\ufffd$9\ufffdX9\ufffd\ufffd\u0010\u0012\u04cf\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd@8\u0004\ufffdu]\u0218\ufffd\ufffd:\ufffd\ufffd7\ufffd\ufffd\u0017\ufffd\u0012jeM%\ufffd\ufffd:)\ufffd$\ufffdq\ufffd\u001c\ufffd\u001d&q\ufffdB#\u0006\ufffdBQA\ufffd\ufffdW\u0012\u0001\ufffd\ufffd\ufffd\by\ufffd\"\u001c\u0007\u000e\ufffd'H\ufffd~l{'\ufffd\ufffd\u06ef\ufffd\ufffd\ufffdlV\u0013\ufffdZi\n\ufffd\ufffd\u000e\ufffdu\ufffd=w\ufffdK\ufffd\u01a6\ufffd\ufffd\ufffdve\ufffdHn\ufffd\ufffd(d2YOnU\u01f4\u0006\u000b\ufffd\u0015\\\ufffd7LzN\ufffd\u0016b\ufffd\ufffd\ufffdd\u001bBQJ\ufffd\u073chkBx\u0002\u0582\ufffdj\u0004+\ufffds\ufffd\ufffd;\ufffd\ufffd\ufffd/N/\ufffd\ufffd\n\ufffd\ufffd\ufffd\ufffdc\ufffd!\ufffdZ\u0497|\u001b\ufffd\ufffdY\u0467\ufffd\ufffd\ufffd\ufffd\u033a\ufffd\ufffdR8\ufffd\u0015l\ufffdF?\ufffdz\ufffdd\ufffd\n\u0013v2\u0017\ufffdL: \ufffd\u0659\ufffd\rNE\u000biJ\ufffd\ufffd\ufffd_,>\tu\ufffd|\u0460\ufffd\ufffdQHwD\ufffd\ufffd\ufffd<\u0003\ufffd\ufffd\ufffd\u0016#\b\ufffdmY\u0013M?\ufffd\ufffd\ufffd\u0015D\ufffd,i\u0003\ufffd\ufffd\ufffd\ufffd\u0444\ufffd\ufffd=\ufffd\u0004\ufffd\ufffd*['\ufffd\f\ufffd\ufffd7\ufffd.'\ufffd\ufffd\n(\ufffd\u0461P\ufffd\ufffd\u000f\ufffd\ufffdR\ufffd._:9\ufffdb\ufffdw\ufffd$K\"\ufffd\ufffd\ufffdb0d\u03af\u000fB0\ufffdaA4z\ufffd\ufffd\ufffd%\u00006\ufffd\ufffd\ufffd|\ufffd\ufffd_\u0001\u0016\ufffd\"\ufffdj\ufffdii\u000f\ufffd\\\ufffd\ufffd\ufffdp-\ufffd;<"
+    },
+    "{'cnpj': '00123456000178'}": {
+        "error": "",
+        "response": "{'code': 400, 'message': 'request validation failed', 'constraints': ['taxId must be a string that obeys cnpj verification algorithm']}"
+    }
+}

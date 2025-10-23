@@ -1,0 +1,33 @@
+{
+    "name": "query_file_with_sql",
+    "description": "Execute an SQL-like query on a local data file (CSV, Excel, JSON, or JSONL), with optional result export.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "Path to the input data file. Supported formats: .csv, .xlsx, .xls, .json, .jsonl"
+        },
+        "sql_query": {
+          "type": "string",
+          "description": "SQL query to run on the file. The table name must match the `table_name` parameter (default is 'data')."
+        },
+        "table_name": {
+          "type": "string",
+          "description": "Name of the in-memory table to create from the file for SQL querying.",
+          "default": "data"
+        },
+        "sheet_name": {
+          "type": ["string", "integer"],
+          "description": "Sheet name or index to load when the input is an Excel file. Ignored for other formats.",
+          "default": 0
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Optional path to save the query result. Supported formats: .csv, .xlsx, .json, .jsonl"
+        }
+      },
+      "required": ["file_path", "sql_query"]
+    }
+  }
+  

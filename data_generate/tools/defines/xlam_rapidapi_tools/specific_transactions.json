@@ -1,0 +1,23 @@
+{
+    "name": "specific_transactions",
+    "description": "This is a sub-function API for tool crypto_whale_transactions.\nTool description: Get latest huge crypto transactions for most popular blockchains\nAPI description: Fetch detailed information about a specific cryptocurrency transaction using the provided hash and symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hash": {
+                "type": "string",
+                "description": "The transaction hash used to uniquely identify the cryptocurrency transaction.",
+                "default": "ac6f1a0b388e2814f2e2036c7c81524cfae7e3432a8e503fe5d07ebb453ee310"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The symbol of the cryptocurrency (e.g., BTC, ETH) for which the transaction information is to be retrieved.",
+                "default": "btc"
+            }
+        },
+        "required": [
+            "hash",
+            "symbol"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "{'link': 'https://example.com/another_image.jpg'}": {
+        "error": "",
+        "response": false
+    },
+    "{'link': 'https://example.com/another_image.png'}": {
+        "error": "",
+        "response": false
+    },
+    "{'link': 'https://example.com/next_image.jpg'}": {
+        "error": "",
+        "response": false
+    },
+    "{'link': 'image_link'}": {
+        "error": "",
+        "response": false
+    },
+    "{'link': 'https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/439441979_7346848675351766_1016398378892252213_n.jpg?stp=c108.314.406.406a_dst-jpg_e15_s150x150&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=1&_nc_ohc=qTF6DdCBQYAQ7kNvgGJC2Wr&edm=ALbqBD0BAAAA&ccb=7-5&oh=00_AYBAjrVFClnSbqdSdD0wPlJLQmR_Q37-EFosYCSkIcfyeA&oe=66E9683F&_nc_sid=847350'}": {
+        "error": "",
+        "response": "False"
+    },
+    "{'link': 'https://cdn77-pic.xvideos-cdn.com/videos/thumbs169poster/c5/d0/e4/c5d0e4cd6124e1d2f5b3add1f582ca13/c5d0e4cd6124e1d2f5b3add1f582ca13.30.jpg'}": {
+        "error": "",
+        "response": "[{'className': 'Porn', 'probability': 0.9929075241088867}, {'className': 'Sexy', 'probability': 0.002984800608828664}, {'className': 'Hentai', 'probability': 0.002632501535117626}, {'className': 'Neutral', 'probability': 0.0014369783457368612}, {'className': 'Drawing', 'probability': 3.809928966802545e-05}]"
+    },
+    "{'link': 'https://likee.com/images/12345.jpg'}": {
+        "error": "",
+        "response": "False"
+    },
+    "{'link': 'https://likee.com/images/12346.jpg'}": {
+        "error": "",
+        "response": "False"
+    },
+    "{'link': 'https://likee.com/images/12347.jpg'}": {
+        "error": "",
+        "response": "False"
+    },
+    "{'link': 'https://likee.com/images/12348.jpg'}": {
+        "error": "",
+        "response": "False"
+    }
+}

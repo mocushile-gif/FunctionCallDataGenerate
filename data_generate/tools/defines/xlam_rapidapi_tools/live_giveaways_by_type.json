@@ -1,0 +1,17 @@
+{
+    "name": "live_giveaways_by_type",
+    "description": "This is a sub-function API for tool gamerpower.\nTool description: Find all free games, loot and giveaways with this giveaway tracker API powered by GamerPower.com! Access programmatically the best giveaways in gaming!\nAPI description: Retrieve live giveaways from the GamerPower API based on the specified type.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of giveaways to retrieve (e.g., game, loot, beta).",
+                "default": "game"
+            }
+        },
+        "required": [
+            "type"
+        ]
+    }
+}

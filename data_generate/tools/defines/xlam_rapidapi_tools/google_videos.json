@@ -1,0 +1,67 @@
+{
+    "name": "google_videos",
+    "description": "This is a sub-function API for tool google_search_2.\nTool description: Serpdog(https://serpdog.io) is a Google Search API that allows you to access Google Search Results in real time. It solves the problem of proxies and captchas for a smooth scraping journey. Serpdog supports results in both HTML and JSON format.\n\nGet your free trial by registering at https://api.serpdog.io\n\nIf you want to buy our plan, I recommend you to please visit https://serpdog.io/pricing for more information. \nAPI description: Fetches the JSON data of video results from the Google Search API based on the given search parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query string.",
+                "default": "football"
+            },
+            "uule": {
+                "type": "string",
+                "description": "Encoded location parameter."
+            },
+            "duration": {
+                "type": "string",
+                "description": "Video duration filter."
+            },
+            "safe": {
+                "type": "string",
+                "description": "Safe search setting."
+            },
+            "hl": {
+                "type": "string",
+                "description": "Language of the search results (default is 'en_us').",
+                "default": "en_us"
+            },
+            "num": {
+                "type": "string",
+                "description": "Number of results to return (default is '10').",
+                "default": "10"
+            },
+            "lr": {
+                "type": "string",
+                "description": "Language restriction for the search."
+            },
+            "device": {
+                "type": "string",
+                "description": "Device type (default is 'desktop').",
+                "default": "desktop"
+            },
+            "tbs": {
+                "type": "string",
+                "description": "Restrict results based on time."
+            },
+            "nfpr": {
+                "type": "string",
+                "description": "Enables or disables personal results (default is '0').",
+                "default": "0"
+            },
+            "gl": {
+                "type": "string",
+                "description": "Country restrict for the search (default is 'us').",
+                "default": "us"
+            },
+            "page": {
+                "type": "string",
+                "description": "Page number for the search results (default is '0').",
+                "default": "0"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "{'coin': 'Bitcoin', 'type': 'detail'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'coin': 'Bitcoin', 'type': 'futures'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'coin': 'Bitcoin', 'type': 'swaps'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'coin': 'BTC', 'type': 'detail'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'coin': 'ETH', 'type': 'detail'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    },
+    "{'type': 'summary'}": {
+        "error": "",
+        "response": "{'message': 'This endpoint is disabled for your subscription'}"
+    }
+}

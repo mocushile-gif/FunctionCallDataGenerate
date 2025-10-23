@@ -1,0 +1,17 @@
+{
+    "name": "convert_planet_angle_to_planet_degree",
+    "description": "This is a sub-function API for tool yawin_indian_astrology.\nTool description: Indian astrology API for planet positions, ascension calculations, and prediction findings, Basic tools that help in astrological calculations\nAPI description: Convert a Planet Angle to  Degree Format . (Angle is 67.34.0, converted to Degree as 67.5666666667)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "angle": {
+                "type": "string",
+                "description": "The planet angle string to be converted (e.g., '67.34.0').",
+                "default": "67.34.0"
+            }
+        },
+        "required": [
+            "angle"
+        ]
+    }
+}

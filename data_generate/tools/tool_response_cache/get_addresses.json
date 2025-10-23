@@ -1,0 +1,36 @@
+{
+    "{'limit': '20', 'network': 'ETH_MAINNET'}": {
+        "error": "",
+        "response": {
+            "addresses": [
+                "0xAbcD...1234",
+                "0x5678...EfAb",
+                "0x9012...cDdE",
+                "0xaBcD...f123",
+                "0x4567...8901",
+                "0x2aBc...dEfF",
+                "0x98a7...BcDe",
+                "0x3eFf...4aBc",
+                "0x7654...3210",
+                "0x8888...9999",
+                "0x1337...beef",
+                "0xdead...beef",
+                "0x0000...cafe",
+                "0xface...b00c",
+                "0x55aa...bbcc",
+                "0x1122...3344",
+                "0x5567...890a",
+                "0xfeed...face",
+                "0x0aBc...dEfF",
+                "0x1a2b...3c4d"
+            ],
+            "total_count": 1450,
+            "network": "ETH_MAINNET",
+            "parameters": {
+                "limit": "20",
+                "offset": "0",
+                "network": "ETH_MAINNET"
+            }
+        }
+    }
+}

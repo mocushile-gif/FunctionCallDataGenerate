@@ -1,0 +1,17 @@
+{
+    "name": "find_food_by_id",
+    "description": "This is a sub-function API for tool food_nutrition_information.\nTool description: search and find foods with their nutritional information\nAPI description: Retrieves a single food item by its FDC ID using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fooid": {
+                "type": "number",
+                "description": "The FDC ID of the food item.",
+                "default": 1497465.0
+            }
+        },
+        "required": [
+            "fooid"
+        ]
+    }
+}

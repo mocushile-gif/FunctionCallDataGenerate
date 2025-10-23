@@ -1,0 +1,23 @@
+{
+    "name": "view_sms_history",
+    "description": "This is a sub-function API for tool virtual_number.\nTool description: Receive SMS for phone verification\nAPI description: Retrieves all received SMS messages for a given phone number and country ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "number": {
+                "type": "string",
+                "description": "The phone number for which to view SMS messages.",
+                "default": "79034134722"
+            },
+            "countryid": {
+                "type": "string",
+                "description": "The country ID associated with the phone number.",
+                "default": "7"
+            }
+        },
+        "required": [
+            "number",
+            "countryid"
+        ]
+    }
+}

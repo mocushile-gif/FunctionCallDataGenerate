@@ -1,0 +1,23 @@
+{
+    "name": "dns_lookup",
+    "description": "This is a sub-function API for tool whois_lookup_v3.\nTool description: This API pulls up-to-date records from the original data sources in real time, so you can have access to fresh data.\nAPI description: This endpoint pulls DNS data from a domain\n\nParameters:\n> domain - The domain to search\n> rtype - The type of record to pull. Records availables: A, PTR, MX, CNAME, TXT,NS.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "domain": {
+                "type": "string",
+                "description": "The domain to search for DNS records.",
+                "default": "google.com"
+            },
+            "rtype": {
+                "type": "string",
+                "description": "The type of DNS record to fetch. Available records: A, PTR, MX, CNAME, TXT, NS.",
+                "default": "NS"
+            }
+        },
+        "required": [
+            "domain",
+            "rtype"
+        ]
+    }
+}

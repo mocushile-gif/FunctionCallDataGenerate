@@ -1,0 +1,51 @@
+{
+    "name": "v1_airports",
+    "description": "This is a sub-function API for tool airports_by_api_ninjas.\nTool description: Access vital data for 30,000 different airports worldwide. See more info at https://api-ninjas.com/api/airports.\nAPI description: Fetches information from the API Ninjas Airports API endpoint based on specified search criteria. At least one of the optional parameters must be provided.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "offset": {
+                "type": "number",
+                "description": "Number of results to offset for pagination."
+            },
+            "max_elevation": {
+                "type": "number",
+                "description": "Maximum airport elevation in feet."
+            },
+            "region": {
+                "type": "string",
+                "description": "Administrative region such as state or province within a country (e.g., California)."
+            },
+            "min_elevation": {
+                "type": "number",
+                "description": "Minimum airport elevation in feet."
+            },
+            "city": {
+                "type": "string",
+                "description": "Airport city (e.g., London)."
+            },
+            "country": {
+                "type": "string",
+                "description": "airport country. Must be 2-character ISO-2 country code (e.g. GB)"
+            },
+            "timezone": {
+                "type": "string",
+                "description": "Airport timezone (e.g., Europe/London)."
+            },
+            "name": {
+                "type": "string",
+                "description": "Airport name. This parameter supports partial matching (e.g., Heathrow will match London Heathrow Airport). Defaults to 'London Heathrow'.",
+                "default": "London Heathrow"
+            },
+            "icao": {
+                "type": "string",
+                "description": "International Civil Aviation Organization (ICAO) 4-character airport code."
+            },
+            "iata": {
+                "type": "string",
+                "description": "International Air Transport Association (IATA) 3-character airport code."
+            }
+        },
+        "required": []
+    }
+}

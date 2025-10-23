@@ -1,0 +1,17 @@
+{
+    "name": "get_railway_period_for_utc_date",
+    "description": "This is a sub-function API for tool railway_periods.\nTool description: An API to calculate the railway period of a UTC date in milliseconds since epoch (Unix timestamp).\nAPI description: This endpoint will return railway period between:\n{\"millis\":\"0\",\"railwayPeriod\":\"1969-1970 P10\"} (01/01/1970 00:00:00)\nAnd\n{\"millis\":\"8640000000000\",\"railwayPeriod\":\"2243-2244 P8\"} (17/10/2243 00:00:00)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "millis": {
+                "type": "number",
+                "description": "The UTC date in milliseconds since the Unix epoch.",
+                "default": 1654470000000.0
+            }
+        },
+        "required": [
+            "millis"
+        ]
+    }
+}

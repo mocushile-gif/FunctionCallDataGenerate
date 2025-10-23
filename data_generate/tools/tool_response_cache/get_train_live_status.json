@@ -1,0 +1,176 @@
+{
+    "{'trainno': '12484'}": {
+        "error": "",
+        "response": {
+            "status": true,
+            "message": "Success",
+            "timestamp": 1688145392364,
+            "data": {
+                "user_id": 0,
+                "train_start_date": "2023-06-29",
+                "train_number": "12484",
+                "train_name": "AMRITSAR - KOCHUVELI SF Express",
+                "title": "Incorrect Start Day",
+                "success": true,
+                "std": "2023-06-29 05:55",
+                "spent_time": 0.044,
+                "source": "ASR",
+                "seo_train_name": "Asr Kcvl Express",
+                "run_days": "SUN",
+                "notification_date": "2023-06-30",
+                "new_message": "This train runs only on SUN",
+                "journey_time": 3395,
+                "is_run_day": false,
+                "ir_train_name": "ASR KCVL SF EXP",
+                "destination": "KCVL",
+                "at_src_dstn": true,
+                "at_src": true,
+                "at_dstn": false
+            }
+        }
+    },
+    "{'trainno': '12910'}": {
+        "error": "",
+        "response": {
+            "status": true,
+            "message": "Success",
+            "timestamp": 1688452175271,
+            "data": {
+                "user_id": 0,
+                "train_start_date": "2023-07-03",
+                "train_number": "12910",
+                "train_name": "HAZRAT NIZAMUDDIN - MUMBAI BANDRA T Garib Rath Exp",
+                "title": "Incorrect Start Day",
+                "success": true,
+                "std": "2023-07-03 16:30",
+                "spent_time": 0.019,
+                "source": "NZM",
+                "seo_train_name": "Bdts Garib Rath",
+                "run_days": "SUN,WED,FRI",
+                "notification_date": "2023-07-04",
+                "new_message": "This train runs only on SUN,WED,FRI",
+                "journey_time": 1005,
+                "is_run_day": false,
+                "ir_train_name": "BDTS GARIBRATH",
+                "destination": "BDTS",
+                "at_src_dstn": true,
+                "at_src": true,
+                "at_dstn": false
+            }
+        }
+    },
+    "{'trainno': '22209'}": {
+        "error": "",
+        "response": {
+            "status": true,
+            "message": "Success",
+            "timestamp": 1689010503682,
+            "data": {
+                "user_id": 0,
+                "train_start_date": "2023-07-09",
+                "train_number": "22209",
+                "train_name": "MUMBAI CENTRAL - NEW DELHI AC Duronto Exp",
+                "title": "Incorrect Start Day",
+                "success": true,
+                "std": "2023-07-09 23:00",
+                "spent_time": 0.022,
+                "source": "MMCT",
+                "seo_train_name": "Ndls Duronto Express",
+                "run_days": "MON,FRI",
+                "notification_date": "2023-07-10",
+                "new_message": "This train runs only on MON,FRI",
+                "journey_time": 1015,
+                "is_run_day": false,
+                "ir_train_name": "NDLS DURONTO",
+                "destination": "NDLS",
+                "at_src_dstn": true,
+                "at_src": true,
+                "at_dstn": false
+            }
+        }
+    },
+    "{'trainno': '54321'}": {
+        "error": "",
+        "response": {
+            "status": true,
+            "message": "Success",
+            "timestamp": 1689410339634,
+            "data": {
+                "user_id": 0,
+                "train_start_date": "2023-07-14",
+                "train_number": "54321",
+                "train_name": "BALAMAU - SITAPUR Passenger (UnReserved)",
+                "title": "Awaiting Update.",
+                "success": true,
+                "std": "2023-07-14 07:45",
+                "spent_time": 0.133,
+                "source": "BLM",
+                "seo_train_name": "BALAMAU - SITAPUR Passenger (UnReserved)",
+                "run_days": "SUN,MON,TUE,WED,THU,FRI,SAT",
+                "notification_date": "2023-07-15",
+                "new_message": "Train starts at 07:45 but we are still waiting for an update. If you are on this train, please use GPS for faster updates.",
+                "journey_time": 268,
+                "is_run_day": true,
+                "ir_train_name": "BALAMAU - SITAPUR Passenger (UnReserved)",
+                "destination": "STRK",
+                "awaiting_update_min": 1823,
+                "awaiting_update": true,
+                "at_src_dstn": true,
+                "at_src": true,
+                "at_dstn": false
+            }
+        }
+    },
+    "{'trainno': 'ABCDE12345'}": {
+        "error": "",
+        "response": {
+            "status": true,
+            "message": "Success",
+            "timestamp": 1689420028264,
+            "data": {
+                "train_number": "ABCDE12345",
+                "train_name": "ABCDE12345",
+                "title": "Oops",
+                "success": false,
+                "spent_time": 0.008,
+                "seo_train_name": "ABCDE12345",
+                "message": "Wrong train number or start date",
+                "ir_train_name": "ABCDE12345"
+            }
+        }
+    },
+    "{'trainno': '1234'}": {
+        "error": "",
+        "response": {
+            "status": true,
+            "message": "Success",
+            "timestamp": 1689576047254,
+            "data": {
+                "train_number": "1234",
+                "train_name": "1234",
+                "title": "Oops",
+                "success": false,
+                "spent_time": 0.005,
+                "seo_train_name": "1234",
+                "message": "Please enter a valid train number",
+                "ir_train_name": "1234"
+            }
+        }
+    },
+    "{'trainno': '12233', 'startday': '0'}": {
+        "error": "",
+        "response": "{'status': True, 'message': 'Success', 'timestamp': 1748832853027, 'data': {'success': False, 'title': 'Oops', 'train_number': '12233', 'train_name': 'KATHGODAM - JAMMU TAWI Garib Rath Express', 'ir_train_name': 'JAMMU GARIB RATH', 'seo_train_name': 'JAMMU GARIB RATH', 'message': 'This train has already expired', 'new_message': 'This train has already expired', 'spent_time': 0.0041}}"
+    },
+    "{'trainno': '19038', 'startday': '0'}": {
+        "error": "",
+        "response": "{'status': True, 'message': 'Success', 'timestamp': 1738186033402, 'data': {'success': True, 'user_id': 0, 'train_number': '19038', 'train_name': 'Avadh Express', 'gps_unable': True, 'train_start_date': '2025-01-30', 'notification_date': '2025-01-30', 'at_src_dstn': True, 'at_src': True, 'at_dstn': False, 'is_run_day': True, 'source': 'BJU', 'destination': 'BDTS', 'source_stn_name': 'BARAUNI JN', 'dest_stn_name': 'MUMBAI BANDRA TERMINUS', 'run_days': 'MON,TUE,WED,THU,FRI,SAT,SUN', 'journey_time': 2685, 'std': '2025-01-30 07:20', 'pantry_available': True, 'title': 'Train starts at 07:20', 'new_message': \"Train hasn't started yet. But all looks good.\", 'awaiting_update': False, 'spent_time': 0.1305}}"
+    },
+    "{'trainno': '54321', 'startday': '2'}": {
+        "error": "",
+        "response": "{'status': True, 'message': 'Success', 'timestamp': 1749463811208, 'data': {'success': True, 'user_id': 0, 'train_number': '54321', 'train_name': 'BALAMAU - SITAPUR Passenger (UnReserved)', 'gps_unable': False, 'train_start_date': '2025-06-07', 'notification_date': '2025-06-09', 'at_src_dstn': False, 'at_src': False, 'at_dstn': False, 'is_run_day': True, 'source': 'BLM', 'destination': 'STRK', 'source_stn_name': 'BALAMAU JN', 'dest_stn_name': 'SITAPUR', 'run_days': 'SUN,MON,TUE,WED,THU,FRI,SAT', 'journey_time': 268, 'std': '2025-06-07 07:45', 'pantry_available': False, 'data_from': 'mntes', 'halt': 110, 'new_alert_id': 0, 'new_alert_msg': '', 'diverted_stations': None, 'instance_alert': 0, 'related_alert': 0, 'late_update': True, 'is_ry_eta': True, 'update_time': '2025-06-07 12:12:00 +0530', 'distance_from_source': 63, 'total_distance': 64, 'avg_speed': 0, 'si_no': 11, 'current_station_code': 'SPC', 'current_station_name': 'SITAPUR CITY~', 'status': 'D', 'eta': '10:10', 'etd': '12:00', 'delay': 0, 'ahead_distance': 3, 'ahead_distance_text': '3 kms ahead', 'status_as_of': 'As of 51 hrs 28 mins ago', 'platform_number': 1, 'cur_stn_sta': '10:10', 'cur_stn_std': '12:00', 'stoppage_number': 11, 'a_day': 0, 'status_as_of_min': 3088, 'dfp_carousel': {}, 'upcoming_stations': [{'si_no': 12, 'station_code': 'STRK', 'station_name': 'SITAPUR KUTCHERY HALT', 'is_diverted_station': False, 'distance_from_source': 63, 'distance_from_current_station': 0, 'distance_from_current_station_txt': '"
+    },
+    "{'trainno': '12547', 'startday': '1'}": {
+        "error": "",
+        "response": "{'status': True, 'message': 'Success', 'timestamp': 1749464564303, 'data': {'success': True, 'user_id': 0, 'train_number': '12547', 'train_name': 'Agra Cantt. - Sabarmati SF Express', 'gps_unable': True, 'train_start_date': '2025-06-08', 'notification_date': '2025-06-09', 'at_src_dstn': True, 'at_src': True, 'at_dstn': False, 'is_run_day': False, 'source': 'AGC', 'destination': 'SBIB', 'source_stn_name': 'AGRA CANTT', 'dest_stn_name': 'SABARMATI BG', 'run_days': 'MON,TUE,THU,FRI', 'journey_time': 825, 'std': '2025-06-08 22:00', 'pantry_available': False, 'title': 'Incorrect Start Day', 'new_message': 'This train runs only on MON,TUE,THU,FRI', 'spent_time': 0.0096}}"
+    }
+}

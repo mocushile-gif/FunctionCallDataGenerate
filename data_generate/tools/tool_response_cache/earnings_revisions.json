@@ -1,0 +1,159 @@
+{
+    "{\n  \"ticker\": \"AAPL\"\n}": {
+        "error": "",
+        "response": "{\"Current qtr. (Jun 2023)\":{\"Down last 30 days\":0.0,\"Down last 7 days\":0.0,\"Up last 30 days\":1.0,\"Up last 7 days\":0.0},\"Current year (2023)\":{\"Down last 30 days\":0.0,\"Down last 7 days\":0.0,\"Up last 30 days\":6.0,\"Up last 7 days\":1.0},\"Next qtr. (Sep 2023)\":{\"Down last 30 days\":0.0,\"Down last 7 days\":0.0,\"Up last 30 days\":1.0,\"Up last 7 days\":0.0},\"Next year (2024)\":{\"Down last 30 days\":0.0,\"Down last 7 days\":0.0,\"Up last 30 days\":6.0,\"Up last 7 days\":1.0}}"
+    },
+    "{'ticker': 'AAPL'}": {
+        "error": "",
+        "response": {
+            "Current qtr. (Jun 2023)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 1.0,
+                "Up last 7 days": 0.0
+            },
+            "Current year (2023)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 4.0,
+                "Up last 7 days": 0.0
+            },
+            "Next qtr. (Sep 2023)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 1.0,
+                "Up last 7 days": 0.0
+            },
+            "Next year (2024)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 4.0,
+                "Up last 7 days": 0.0
+            }
+        }
+    },
+    "{'ticker': 'GOOG'}": {
+        "error": "",
+        "response": {
+            "Current qtr. (Jun 2023)": {
+                "Down last 30 days": 1.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 4.0,
+                "Up last 7 days": 1.0
+            },
+            "Current year (2023)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 6.0,
+                "Up last 7 days": 1.0
+            },
+            "Next qtr. (Sep 2023)": {
+                "Down last 30 days": 1.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 2.0,
+                "Up last 7 days": 0.0
+            },
+            "Next year (2024)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 5.0,
+                "Up last 7 days": 1.0
+            }
+        }
+    },
+    "{'ticker': 'MSFT'}": {
+        "error": "",
+        "response": {
+            "Current qtr. (Jun 2023)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 1.0,
+                "Up last 7 days": 1.0
+            },
+            "Current year (2023)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 0.0,
+                "Up last 7 days": 0.0
+            },
+            "Next qtr. (Sep 2023)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 1.0,
+                "Up last 7 days": 1.0
+            },
+            "Next year (2024)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 3.0,
+                "Up last 7 days": 2.0
+            }
+        }
+    },
+    "{'ticker': 'TSLA'}": {
+        "error": "",
+        "response": "{'eps_revisions': [{'metric': 'Up last 7 days'}, {'current_year_2025': '1', 'metric': 'Up last 30 days', 'next_qtr_jun_2025': '1', 'next_year_2026': '1'}, {'current_qtr_mar_2025': '2', 'current_year_2025': '7', 'metric': 'Down last 7 days', 'next_qtr_jun_2025': '2', 'next_year_2026': '5'}, {'current_qtr_mar_2025': '13', 'current_year_2025': '18', 'metric': 'Down last 30 days', 'next_qtr_jun_2025': '12', 'next_year_2026': '14'}]}"
+    },
+    "{'ticker': 'AMZN'}": {
+        "error": "",
+        "response": {
+            "Current qtr. (Jun 2023)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 3.0,
+                "Up last 7 days": 1.0
+            },
+            "Current year (2023)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 7.0,
+                "Up last 7 days": 2.0
+            },
+            "Next qtr. (Sep 2023)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 4.0,
+                "Up last 7 days": 1.0
+            },
+            "Next year (2024)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 8.0,
+                "Up last 7 days": 2.0
+            }
+        }
+    },
+    "{'ticker': 'GOOGL'}": {
+        "error": "",
+        "response": {
+            "Current qtr. (Jun 2023)": {
+                "Down last 30 days": 1.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 4.0,
+                "Up last 7 days": 1.0
+            },
+            "Current year (2023)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 6.0,
+                "Up last 7 days": 1.0
+            },
+            "Next qtr. (Sep 2023)": {
+                "Down last 30 days": 1.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 2.0,
+                "Up last 7 days": 0.0
+            },
+            "Next year (2024)": {
+                "Down last 30 days": 0.0,
+                "Down last 7 days": 0.0,
+                "Up last 30 days": 5.0,
+                "Up last 7 days": 1.0
+            }
+        }
+    },
+    "{'ticker': 'NVDA'}": {
+        "error": "",
+        "response": "{'eps_revisions': [{'current_qtr_jul_2025': '16', 'current_year_2026': '15', 'metric': 'Up last 7 days', 'next_qtr_oct_2025': '19', 'next_year_2027': '31'}, {'current_qtr_jul_2025': '10', 'current_year_2026': '9', 'metric': 'Up last 30 days', 'next_qtr_oct_2025': '3', 'next_year_2027': '30'}, {'current_qtr_jul_2025': '15', 'current_year_2026': '5', 'metric': 'Down last 7 days', 'next_qtr_oct_2025': '12', 'next_year_2027': '5'}, {'current_qtr_jul_2025': '22', 'current_year_2026': '2', 'metric': 'Down last 30 days', 'next_qtr_oct_2025': '9', 'next_year_2027': '6'}]}"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "get_7_latest",
+    "description": "This is a sub-function API for tool stockyapiexchange.\nTool description: Based on the request parameters, StockyAPIExchange can provide relevant information to the user, such as stock details, summary, charts, history, daily, or latest data. The API can also use autocomplete to suggest stock names or ticker symbols as the user types the keyword, making it easier for the front end develepor to create the perfect Tool\nAPI description: This feature provides the most recent information about a stock, including its current price, percentage change, and trading volume. It's updated in real-time as new data becomes available.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The stock symbol or keyword to search for. Defaults to 'GOOG'.",
+                "default": "GOOG"
+            }
+        },
+        "required": []
+    }
+}

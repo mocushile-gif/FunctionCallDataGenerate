@@ -1,0 +1,17 @@
+{
+    "name": "packages_v2_track",
+    "description": "This is a sub-function API for tool trackingmore_v2.\nTool description: All-in-one global package tracking tool. Support track and trace international 472 couriers.\nAPI description: Retrieves tracking information for a specific package using the TrackingMore API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "trackingnumber": {
+                "type": "string",
+                "description": "The tracking number of the package.",
+                "default": "NY323068698GB"
+            }
+        },
+        "required": [
+            "trackingnumber"
+        ]
+    }
+}

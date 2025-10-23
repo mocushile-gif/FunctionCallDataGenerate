@@ -1,0 +1,17 @@
+{
+    "name": "asoy",
+    "description": "This is a sub-function API for tool us_presidential_election.\nTool description: API for US Presidential Election results, by state (from 1976-) and county (eventually, from 2000-)\nAPI description: Returns JSON block of results for All States, One Year (ASOY), for the specified US Presidential Election year (i.e., 2008).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "number",
+                "description": "The election year to retrieve results for (e.g., 2008).",
+                "default": 2000.0
+            }
+        },
+        "required": [
+            "year"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "similar",
+    "description": "This is a sub-function API for tool webit_image_search.\nTool description: Powerful web image search with rating, reverse search by image and multi-lingual capabilities.\nAPI description: Search for visually similar images to a given image ID from a previous search result.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "image_id": {
+                "type": "string",
+                "description": "The \\\"image_id\\\" of an image from search results to search similar images by.\n\nThe used image_id corresponds to the following image:\n![](https://img.freepik.com/free-photo/3d-aesthetics-with-shapes-vaporwave-style_23-2148981118.jpg?size=262&ext=jpg)",
+                "default": "7TJ6HT2DAUMDFITP4LSIJLWICKWRCQOE"
+            },
+            "number": {
+                "type": "number",
+                "description": "The number of similar images to retrieve. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "image_id"
+        ]
+    }
+}

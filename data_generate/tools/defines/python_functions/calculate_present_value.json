@@ -1,0 +1,26 @@
+{
+    "name": "calculate_present_value",
+    "description": "Calculates the Present Value (PV) of a future sum based on the future value, interest rate, and number of periods.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "future_value": {
+                "type": "number",
+                "description": "The future value of the sum."
+            },
+            "rate": {
+                "type": "number",
+                "description": "The interest rate as a percentage (e.g., 4.5 for 4.5%)."
+            },
+            "periods": {
+                "type": "integer",
+                "description": "The number of periods."
+            }
+        },
+        "required": [
+            "future_value",
+            "rate",
+            "periods"
+        ]
+    }
+}

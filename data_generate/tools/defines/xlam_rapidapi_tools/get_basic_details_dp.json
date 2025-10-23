@@ -1,0 +1,17 @@
+{
+    "name": "get_basic_details_dp",
+    "description": "This is a sub-function API for tool instagram_dp_download.\nTool description: Download Instagram profile dp and basic details\nAPI description: Retrieves basic details and Instagram display picture (DP) download link for a given user.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "Username or profile link of the Instagram account.",
+                "default": "deepikapadukone"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

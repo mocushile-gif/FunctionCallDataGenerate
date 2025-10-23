@@ -1,0 +1,34 @@
+{
+    "name": "investor_grades",
+    "description": "This is a sub-function API for tool crypto_market_data_from_token_metrics.\nTool description: Build cryptocurrency trading strategies based on tested data that actually matters with the Token Metrics Data API.\nAPI description: Fetches investor grades for specified cryptocurrency tokens within a date range.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "startdate": {
+                "type": "string",
+                "description": "The start date for the data in the format 'YYYY-MM-DD'.",
+                "default": "2023-01-11"
+            },
+            "enddate": {
+                "type": "string",
+                "description": "The end date for the data in the format 'YYYY-MM-DD'.",
+                "default": "2023-01-10"
+            },
+            "tokens": {
+                "type": "string",
+                "description": "A comma-separated list of cryptocurrency tokens for which to fetch investor grades.",
+                "default": "3375, 3306"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of results to return. Default is '1000'.",
+                "default": "1000"
+            }
+        },
+        "required": [
+            "startdate",
+            "enddate",
+            "tokens"
+        ]
+    }
+}

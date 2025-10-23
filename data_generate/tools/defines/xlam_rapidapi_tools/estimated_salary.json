@@ -1,0 +1,28 @@
+{
+    "name": "estimated_salary",
+    "description": "This is a sub-function API for tool jsearch.\nTool description: Fast and Simple searches for jobs posted on LinkedIn, Indeed, Glassdoor, ZipRecruiter, Dice and others, all in a single API.\nAPI description: Fetch the estimated salary for a given job title within a specified radius around a particular location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The geographic location to search within for the salary estimation.",
+                "default": "New-York, NY, USA"
+            },
+            "job_title": {
+                "type": "string",
+                "description": "The job title for which the salary estimation is to be fetched.",
+                "default": "NodeJS Developer"
+            },
+            "radius": {
+                "type": "number",
+                "description": "The radius in kilometers within which to search from the provided location. Default is 100 km.",
+                "default": 100.0
+            }
+        },
+        "required": [
+            "location",
+            "job_title"
+        ]
+    }
+}

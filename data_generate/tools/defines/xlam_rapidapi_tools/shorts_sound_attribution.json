@@ -1,0 +1,35 @@
+{
+    "name": "shorts_sound_attribution",
+    "description": "This is a sub-function API for tool yt_api.\nTool description: An all-in-one Youtube API solution. It provides both data and stream or download info. API solutions for video, shorts, channel, search, playlist, trending, comments, shorts sound attribution, hashtag, URL resolving, etc\nAPI description: Fetches the Shorts original sound attribution listing from the YouTube API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x_cachebypass": {
+                "type": "string",
+                "description": "Cache bypass value, must be set to '1' if used."
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language code for localized results, such as 'en', 'gb', 'hi', etc."
+            },
+            "geo": {
+                "type": "string",
+                "description": "ISO 3166-2 country code of the region, such as 'US' (default), 'UK', 'CA', 'IN', etc."
+            },
+            "params": {
+                "type": "string",
+                "description": "Attribution parameter available in the Shorts info endpoint; defaults to a specific encoded string.",
+                "default": "8gU1CjMSMQoLMzFaR01oWjFlejgSCzMxWkdNaFoxZXo4GgtTQWoxZktNZVMyOCIICLiCBxICCCI%3D"
+            },
+            "token": {
+                "type": "string",
+                "description": "Pagination token for retrieving additional results."
+            },
+            "is_id": {
+                "type": "string",
+                "description": "If the params value is not available then Shorts Video Id may be provided."
+            }
+        },
+        "required": []
+    }
+}

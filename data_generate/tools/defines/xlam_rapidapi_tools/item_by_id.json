@@ -1,0 +1,17 @@
+{
+    "name": "item_by_id",
+    "description": "This is a sub-function API for tool yc_hacker_news_official.\nTool description: The official hacker news API\nAPI description: Stories, comments, jobs, Ask HNs and even polls are just items. They're identified by their ids, which are unique integers.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the item to retrieve.",
+                "default": "10000"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

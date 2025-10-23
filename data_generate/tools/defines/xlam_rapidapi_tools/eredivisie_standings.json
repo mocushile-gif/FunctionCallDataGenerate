@@ -1,0 +1,14 @@
+{
+    "name": "eredivisie_standings",
+    "description": "This is a sub-function API for tool eredivisie_standings.\nTool description: Dutch Eredivisie Standings & Table\nAPI description: Fetches Eredivisie standings for a given season using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season": {
+                "type": "string",
+                "description": "The season for which to fetch the standings, e.g., '2022'. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

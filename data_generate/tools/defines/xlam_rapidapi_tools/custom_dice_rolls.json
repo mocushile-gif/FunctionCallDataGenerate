@@ -1,0 +1,25 @@
+{
+    "name": "custom_dice_rolls",
+    "description": "This is a sub-function API for tool dice_roll_simulator.\nTool description: Roll as many dice of any size as many times you want with the ultimate dice rolling API.\nAPI description: Roll any number of dice with a specified number of sides a specified number of times using the Dice Roll Simulator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "dice": {
+                "type": "number",
+                "description": "The number of dice to roll. Defaults to 3.",
+                "default": 3.0
+            },
+            "sides": {
+                "type": "number",
+                "description": "The number of sides on each die. Defaults to 8.",
+                "default": 8.0
+            },
+            "rolls": {
+                "type": "string",
+                "description": "The number of times to roll the dice. Defaults to '2'.",
+                "default": "2"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "top_competitions",
+    "description": "This is a sub-function API for tool allscores.\nTool description: Beware! Our live match updates may be faster than other API's.\nEnjoy our 24/7 wide coverage of real time scores data for 10 different sports and over 2,000 competitions worldwide, including Real-time Stats, Breaking News, In-Play Insights, Lineups, Live Tables, Fixtures, Social Buzz, Odds and much more.\nSupported 10 Sports Types: Football, Rugby, Tennis, Basketball, Cricket, Ice Hockey, Baseball, Volleyball, American football and Handball.\nAPI description: Fetches the top competitions from the AllScores API based on the specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "timezone": {
+                "type": "string",
+                "description": "The name of the timezone to use for the request.",
+                "default": "America/Chicago"
+            },
+            "langid": {
+                "type": "number",
+                "description": "The language ID for the response data.",
+                "default": 1
+            },
+            "sport": {
+                "type": "number",
+                "description": "The identifier for the sport category.",
+                "default": 1
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of top competitions to return.",
+                "default": 5
+            }
+        },
+        "required": [
+            "timezone",
+            "langid",
+            "sport",
+            "limit"
+        ]
+    }
+}

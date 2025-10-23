@@ -1,0 +1,14 @@
+{
+    "name": "list_of_room_types",
+    "description": "This is a sub-function API for tool booking_com.\nTool description: Find all hotels, view prices, photos of the hotels, reviews. Find car rental deals. **Site:** booking.com **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters\nAPI description: Returns data related to room types from the Booking.com API. This function optionally takes a room type ID and an API key to fetch specific room type details.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "room_type_id": {
+                "type": "string",
+                "description": "The ID of the room type to be retrieved. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

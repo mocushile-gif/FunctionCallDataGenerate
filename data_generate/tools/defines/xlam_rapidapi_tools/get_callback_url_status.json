@@ -1,0 +1,17 @@
+{
+    "name": "get_callback_url_status",
+    "description": "This is a sub-function API for tool weblasso.\nTool description: Scan the web for a diverse range of data including subdomains, IP Addresses, web technologies and emails!\nAPI description: Check if a callback URL is able to receive scan results (ensure that the callback URL accepts POST requests).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "callback_url": {
+                "type": "string",
+                "description": "The URL to be checked for its ability to receive scan results.",
+                "default": "https://my-callback-url.com"
+            }
+        },
+        "required": [
+            "callback_url"
+        ]
+    }
+}

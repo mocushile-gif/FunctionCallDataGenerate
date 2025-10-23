@@ -1,0 +1,26 @@
+{
+    "name": "resize_image",
+    "description": "Resize image to specified dimensions while maintaining aspect ratio if only one dimension is provided.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the input image file"
+        },
+        "width": {
+          "type": "integer",
+          "description": "New width in pixels. If not provided, maintains aspect ratio based on height."
+        },
+        "height": {
+          "type": "integer",
+          "description": "New height in pixels. If not provided, maintains aspect ratio based on width."
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output image. If not provided, will create auto-named file."
+        }
+      },
+      "required": ["image_path"]
+    }
+  } 

@@ -1,0 +1,45 @@
+{
+    "name": "get_index_price_kline",
+    "description": "This is a sub-function API for tool bybit.\nTool description: Public Data Bybit. Cryptocurrency prices and charts. Derivatives, Futures, Spot, USDC Contract\nAPI description: Fetches the index price kline data for a specified symbol and category within a given time range.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The symbol for which the kline data is to be fetched.",
+                "default": "BTCUSDT"
+            },
+            "category": {
+                "type": "string",
+                "description": "The derivatives products category. Possible values are 'linear' and 'inverse', including inverse futures.",
+                "default": "linear"
+            },
+            "interval": {
+                "type": "string",
+                "description": "The interval for the kline data. Possible values are '1', '3', '5', '15', '30', '60', '120', '240', '360', '720', 'D', 'M', and 'W'.",
+                "default": "D"
+            },
+            "end": {
+                "type": "number",
+                "description": "The end timestamp point for the query results, in milliseconds.",
+                "default": 1652544000000.0
+            },
+            "start": {
+                "type": "number",
+                "description": "The start timestamp point for the query results, in milliseconds.",
+                "default": 1652112000000.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "Limit for data size per page, max size is 200. Default as showing 200 pieces of data per page"
+            }
+        },
+        "required": [
+            "symbol",
+            "category",
+            "interval",
+            "end",
+            "start"
+        ]
+    }
+}

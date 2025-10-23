@@ -1,0 +1,31 @@
+{
+    "name": "by_geographic_coordinates",
+    "description": "This is a sub-function API for tool rapidweather.\nTool description: The proprietary convolutional neural network collects and processes wide range of data sources to cover any location and consider the local nuances of climate.\n\nWe collect and process weather data from different sources such as global and local weather models, satellites, radars and vast network of weather stations.\n\nFor each point on the globe, RapidWeather provides historical, current and forecasted weather data via light-speed APIs.\nAPI description: Fetches weather data based on geographic coordinates.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lon": {
+                "type": "number",
+                "description": "Geographical coordinates (latitude, longitude)",
+                "default": 139.0
+            },
+            "lat": {
+                "type": "number",
+                "description": "Geographical coordinates (latitude, longitude)",
+                "default": 35.0
+            },
+            "units": {
+                "type": "string",
+                "description": "Units of measurement. **standard**, **metric **and **imperial **units are available. If you do not use the **units **parameter, **standard **units will be applied by default."
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language for the output. Defaults to the API's default language if not specified."
+            }
+        },
+        "required": [
+            "lon",
+            "lat"
+        ]
+    }
+}

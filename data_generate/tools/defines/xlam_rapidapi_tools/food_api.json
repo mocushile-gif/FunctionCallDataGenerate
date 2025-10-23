@@ -1,0 +1,22 @@
+{
+    "name": "food_api",
+    "description": "This is a sub-function API for tool dietagram.\nTool description: Find nutrition facts by food name or by UPC (barcode). API supports English, Russian, Polish, Spanish, Bulgarian, Ukrainian\nAPI description: Fetches food information based on the given name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the food item for which information is being retrieved.",
+                "default": "Jabłko"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Lang is necessary for search in the certain lang food base.  It will be detected automatically or you could set manually from this set of values (\\\\\\\"en\\\\\\\", \\\\\\\"ru\\\\\\\", \\\\\\\"pl\\\\\\\", \\\\\\\"bg\\\\\\\", \\\\\\\"de\\\\\\\", \\\\\\\"es\\\\\\\", \\\\\\\"ua\\\\\\\", \\\\\\\"by\\\\\\\")",
+                "default": "pl"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

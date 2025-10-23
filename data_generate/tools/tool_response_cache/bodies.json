@@ -1,0 +1,49 @@
+{
+    "{'json': '[{\"field\": \"type\", \"op\": \"in\", \"val\": [\"SUV\"]}, {\"field\": \"year\", \"op\": \"in\", \"val\": [2020]}, {\"field\": \"doors\", \"op\": \">=\", \"val\": 4}]', 'verbose': 'yes', 'limit': 10}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "id": "12345",
+                    "type": "SUV",
+                    "doors": 4,
+                    "year": 2020,
+                    "make": "Toyota",
+                    "model": "RAV4",
+                    "trim": "XLE",
+                    "body_style": "Sport Utility Vehicle"
+                },
+                {
+                    "id": "67890",
+                    "type": "SUV",
+                    "doors": 5,
+                    "year": 2020,
+                    "make": "Honda",
+                    "model": "CR-V",
+                    "trim": "EX-L",
+                    "body_style": "Compact SUV"
+                },
+                {
+                    "id": "24680",
+                    "type": "SUV",
+                    "doors": 4,
+                    "year": 2020,
+                    "make": "Ford",
+                    "model": "Escape",
+                    "trim": "Titanium",
+                    "body_style": "Midsize SUV"
+                }
+            ],
+            "pagination": {
+                "page": 1,
+                "total": 15,
+                "next": "/api/bodies?page=2",
+                "previous": null
+            }
+        }
+    },
+    "{'type': 'SUV', 'verbose': 'yes', 'limit': 5}": {
+        "error": "",
+        "response": "{'collection': {'url': '/api/bodies?verbose=yes&direction=asc&limit=5&sort=id&type=SUV', 'count': 5, 'pages': 3738, 'total': 18689, 'next': '/api/bodies?verbose=yes&type=SUV&page=2&sort=id&direction=asc&limit=5', 'prev': '', 'first': '/api/bodies?verbose=yes&direction=asc&limit=5&sort=id&type=SUV', 'last': '/api/bodies?verbose=yes&type=SUV&page=3738&sort=id&direction=asc&limit=5'}, 'data': [{'id': 5, 'make_model_trim_id': 5, 'type': 'SUV', 'doors': 5, 'length': '198.4', 'width': '78.4', 'seats': 7, 'height': '67.1', 'wheel_base': '113.8', 'front_track': None, 'rear_track': None, 'ground_clearance': '7.3', 'cargo_capacity': '18.1', 'max_cargo_capacity': '95.0', 'curb_weight': 4271, 'gross_weight': None, 'max_payload': None, 'max_towing_capacity': 3500, 'make_model_trim': {'id': 5, 'make_model_id': 2, 'year': 2023, 'name': 'Base', 'description': '4dr SUV (3.5L 6cyl 10A)', 'msrp': 49550, 'invoice': 48301, 'created': '2023-06-29T20:57:41-04:00', 'modified': '2023-06-29T21:30:33-04:00', 'make_model': {'id': 2, 'make_id': 1, 'name': 'MDX', 'make': {'id': 1, 'name': 'Acura'}}}}, {'id': 6, 'make_model_trim_id': 6, 'type': 'SUV', 'doors': 5, 'length': '198.4', 'width': '78.4', 'seats': 7, 'height': '67.1', 'wheel_base': '113.8', 'front_track': None, 'rear_track': None, 'ground_clearance': '7.3', 'cargo_capacity': '18.1', 'max_cargo_capacity': '95.0', 'curb_weight': 4565, 'gross_weight': None, 'max_payload': None, 'max_towing_capacity': 5000, 'make_model_trim': {'id': 6, 'make_model_id"
+    }
+}

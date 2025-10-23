@@ -1,0 +1,17 @@
+{
+    "name": "get_hourly_forecast",
+    "description": "This is a sub-function API for tool cloud_cast.\nTool description: Cloudcast is a simple and efficient API built with Node.js and Express, designed to provide real-time weather information for any city in the world. It is able to fetch and deliver current weather conditions including temperature, humidity, wind speed, and other vital meteorological data.\nAPI description: Retrieves the hourly weather forecast for a specified city using the RapidAPI Cloud Cast service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "city": {
+                "type": "string",
+                "description": "The name of the city for which to retrieve the hourly weather forecast.",
+                "default": "New York"
+            }
+        },
+        "required": [
+            "city"
+        ]
+    }
+}

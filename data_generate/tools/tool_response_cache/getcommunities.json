@@ -1,0 +1,24 @@
+{
+    "{'page': 5.0}": {
+        "error": "",
+        "response": {
+            "page": 5,
+            "total_pages": 20,
+            "communities": [
+                {
+                    "name": "Global DEI Network",
+                    "description": "A community focused on advancing DEI strategies in multinational corporations.",
+                    "members": 1500,
+                    "link": "https://powerbi.com/dei-global"
+                },
+                {
+                    "name": "Tech Inclusion Collective",
+                    "description": "Platform for tech professionals to share DEI best practices and innovation.",
+                    "members": 850,
+                    "link": "https://powerbi.com/tech-inclusion"
+                }
+            ],
+            "pagination_info": "Page 5 of 20, showing 2 communities per page"
+        }
+    }
+}

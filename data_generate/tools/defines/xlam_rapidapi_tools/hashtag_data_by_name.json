@@ -1,0 +1,17 @@
+{
+    "name": "hashtag_data_by_name",
+    "description": "This is a sub-function API for tool tiktok_solutions.\nTool description: Best TikTok solutions for scrap info\nAPI description: Fetches data for a specified TikTok hashtag using the given challenge name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "challenge_name": {
+                "type": "string",
+                "description": "The name of the TikTok hashtag challenge to retrieve data for.",
+                "default": "food"
+            }
+        },
+        "required": [
+            "challenge_name"
+        ]
+    }
+}

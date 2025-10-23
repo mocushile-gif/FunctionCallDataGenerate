@@ -1,0 +1,29 @@
+{
+    "name": "crimes_with_no_location",
+    "description": "This is a sub-function API for tool data_police_uk.\nTool description: This is the unofficial documentation for the Data.Police.UK API.\nAPI description: Fetches a list of crimes from a specified police force on a given date and category, where the crimes have no specified location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date of the crimes to retrieve in 'YYYY-MM' format.",
+                "default": "2011-09"
+            },
+            "force": {
+                "type": "string",
+                "description": "The identifier for the police force responsible for handling the crimes.",
+                "default": "warwickshire"
+            },
+            "category": {
+                "type": "string",
+                "description": "The category of the crimes to retrieve.",
+                "default": "all-crime"
+            }
+        },
+        "required": [
+            "date",
+            "force",
+            "category"
+        ]
+    }
+}

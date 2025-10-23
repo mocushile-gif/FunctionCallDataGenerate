@@ -1,0 +1,16 @@
+{
+    "name": "get_zodiac_sign_and_traits",
+    "description": "Returns the zodiac sign and associated personality traits based on the birthdate provided in \"YYYY-MM-DD\" format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "birthdate": {
+                "type": "string",
+                "description": "The birthdate in \"YYYY-MM-DD\" format."
+            }
+        },
+        "required": [
+            "birthdate"
+        ]
+    }
+}

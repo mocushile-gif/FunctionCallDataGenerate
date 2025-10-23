@@ -1,0 +1,17 @@
+{
+    "name": "get_weak_certs",
+    "description": "This is a sub-function API for tool iotvas.\nTool description: IOTVAS API enables you to detect IoT devices in the network and provides detailed firmware risk analysis without requiring the user to upload the firmware file.\nAPI description: Fetches weak certificates for a given firmware hash from the IoT Security API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "firmware_hash": {
+                "type": "string",
+                "description": "SHA2 hash of the device firmware.",
+                "default": "52841661d61e00649451cc471e9b56d169df8041926b1252bb3fd0710c27b12c"
+            }
+        },
+        "required": [
+            "firmware_hash"
+        ]
+    }
+}

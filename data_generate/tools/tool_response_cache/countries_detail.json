@@ -1,0 +1,118 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "code": "0",
+            "msg": "ok",
+            "info": {
+                "support_language_list": [
+                    {
+                        "language": "es",
+                        "languageTip": "Espa\u00f1ol"
+                    },
+                    {
+                        "language": "en",
+                        "languageTip": "English"
+                    }
+                ],
+                "language_full_name_in_header": {
+                    "language": "",
+                    "languageTip": "Auto"
+                },
+                "suppport_currency_list": [
+                    {
+                        "code": "USD",
+                        "symbol_left": "$",
+                        "symbol_right": "",
+                        "value": "1.0",
+                        "country_flag": "image/currency/USD.jpg",
+                        "default": "1",
+                        "decimal_place": "2",
+                        "dec_point": ".",
+                        "thousands_sep": ","
+                    },
+                    {
+                        "code": "EUR",
+                        "symbol_left": "",
+                        "symbol_right": "\u20ac",
+                        "value": "0.924984",
+                        "country_flag": "image/currency/EUR.jpg",
+                        "default": "0",
+                        "decimal_place": "2",
+                        "dec_point": ".",
+                        "thousands_sep": ","
+                    },
+                    {
+                        "code": "GBP",
+                        "symbol_left": "GBP\u00a3",
+                        "symbol_right": "",
+                        "value": "0.789952",
+                        "country_flag": "image/currency/GBP.jpg",
+                        "default": "0",
+                        "decimal_place": "2",
+                        "dec_point": ".",
+                        "thousands_sep": ","
+                    },
+                    {
+                        "code": "CHF",
+                        "symbol_left": "CHF",
+                        "symbol_right": "",
+                        "value": "0.901632",
+                        "country_flag": "image/currency/CHF.jpg",
+                        "default": "0",
+                        "decimal_place": "2",
+                        "dec_point": ",",
+                        "thousands_sep": "."
+                    },
+                    {
+                        "code": "CAD",
+                        "symbol_left": "CA$",
+                        "symbol_right": "",
+                        "value": "1.345352",
+                        "country_flag": "image/currency/CAD.jpg",
+                        "default": "0",
+                        "decimal_place": "2",
+                        "dec_point": ".",
+                        "thousands_sep": ","
+                    },
+                    {
+                        "code": "MXN",
+                        "symbol_left": "$MXN",
+                        "symbol_right": "",
+                        "value": "17.482517",
+                        "country_flag": "image/currency/MXN.jpg",
+                        "default": "0",
+                        "decimal_place": "2",
+                        "dec_point": ".",
+                        "thousands_sep": ","
+                    }
+                ],
+                "current_country_full_name": "United States"
+            }
+        }
+    },
+    "{'region': 'CA'}": {
+        "error": "",
+        "response": "{'code': '0', 'msg': 'ok', 'info': {'support_language_list': [{'language': 'en', 'languageTip': 'English'}, {'language': 'fr', 'languageTip': 'Fran\u00e7ais'}], 'language_full_name_in_header': {'language': '', 'languageTip': 'Auto'}, 'suppport_currency_list': [{'code': 'USD', 'symbol_left': '$', 'symbol_right': '', 'value': '1.0', 'country_flag': 'image/currency/USD.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'EUR', 'symbol_left': '', 'symbol_right': '\u20ac', 'value': '0.983961', 'country_flag': 'image/currency/EUR.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'GBP', 'symbol_left': '\u00a3', 'symbol_right': '', 'value': '0.824538', 'country_flag': 'image/currency/GBP.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'CAD', 'symbol_left': 'CA$', 'symbol_right': '', 'value': '1.452011', 'country_flag': 'image/currency/CAD.jpg', 'default': '1', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}], 'current_country_full_name': 'Canada'}}"
+    },
+    "{'region': 'IT'}": {
+        "error": "",
+        "response": "{'code': '0', 'msg': 'ok', 'info': {'support_language_list': [{'language': 'en', 'languageTip': 'English'}, {'language': 'it', 'languageTip': 'Italiano'}], 'language_full_name_in_header': {'language': '', 'languageTip': 'Auto'}, 'suppport_currency_list': [{'code': 'USD', 'symbol_left': '$', 'symbol_right': '', 'value': '1.0', 'country_flag': 'image/currency/USD.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'EUR', 'symbol_left': '', 'symbol_right': '\u20ac', 'value': '0.953925', 'country_flag': 'image/currency/EUR.jpg', 'default': '1', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'GBP', 'symbol_left': '\u00a3', 'symbol_right': '', 'value': '0.793588', 'country_flag': 'image/currency/GBP.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'NOK', 'symbol_left': '', 'symbol_right': 'kr', 'value': '11.248594', 'country_flag': 'image/currency/NOK.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'CHF', 'symbol_left': 'CHF', 'symbol_right': '', 'value': '0.888731', 'country_flag': 'image/currency/CHF.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': ',', 'thousands_sep': '.'}, {'code': 'AED', 'symbol_left': 'AED', 'symbol_right': '', 'value': '3.67323', 'country_flag': 'image/currency/AED.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}], 'current_country_full_name': 'Italy'}}"
+    },
+    "{'region': 'AU'}": {
+        "error": "",
+        "response": "{'code': '0', 'msg': 'ok', 'info': {'support_language_list': [{'language': 'en', 'languageTip': 'English'}], 'language_full_name_in_header': {'language': '', 'languageTip': 'Auto'}, 'suppport_currency_list': [{'code': 'USD', 'symbol_left': '$', 'symbol_right': '', 'value': '1.0', 'country_flag': 'image/currency/USD.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'EUR', 'symbol_left': '', 'symbol_right': '\u20ac', 'value': '0.983961', 'country_flag': 'image/currency/EUR.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'GBP', 'symbol_left': '\u00a3', 'symbol_right': '', 'value': '0.824538', 'country_flag': 'image/currency/GBP.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'AUD', 'symbol_left': 'AU$', 'symbol_right': '', 'value': '1.637465', 'country_flag': 'image/currency/AUD.jpg', 'default': '1', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'CHF', 'symbol_left': 'CHF', 'symbol_right': '', 'value': '0.923702', 'country_flag': 'image/currency/CHF.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': ',', 'thousands_sep': '.'}, {'code': 'BRL', 'symbol_left': 'R$', 'symbol_right': '', 'value': '6.1077', 'country_flag': 'image/currency/BRL.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': ',', 'thousands_sep': ''}, {'code': 'NZD', 'symbol_left': 'NZ$', 'symbol_right': '', 'value': '1.813894', 'country_flag': 'image/currency/NZD.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}], 'current_country_full_name': 'Australia'}}"
+    },
+    "{'region': 'JP'}": {
+        "error": "",
+        "response": "{'code': '0', 'msg': 'ok', 'info': {'support_language_list': [{'language': 'ja', 'languageTip': '\u65e5\u672c\u8a9e'}, {'language': 'en', 'languageTip': 'English'}], 'language_full_name_in_header': {'language': '', 'languageTip': 'Auto'}, 'suppport_currency_list': [{'code': 'JOD', 'symbol_left': 'JOD', 'symbol_right': '', 'value': '0.711', 'country_flag': 'images2/pics/currency/JOD.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'MYR', 'symbol_left': 'RM', 'symbol_right': '', 'value': '4.5189', 'country_flag': 'images2/pics/currency/MYR.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'PHP', 'symbol_left': '\u20b1', 'symbol_right': '', 'value': '59.171598', 'country_flag': 'images2/pics/currency/PHP.jpg', 'default': '0', 'decimal_place': '0', 'dec_point': '', 'thousands_sep': ','}, {'code': 'KRW', 'symbol_left': '', 'symbol_right': '\uc6d0', 'value': '1470.73', 'country_flag': 'images2/pics/currency/KRW.jpg', 'default': '0', 'decimal_place': '0', 'dec_point': '', 'thousands_sep': ','}, {'code': 'USD', 'symbol_left': '$', 'symbol_right': '', 'value': '1.0', 'country_flag': 'image/currency/USD.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'EUR', 'symbol_left': '', 'symbol_right': '\u20ac', 'value': '0.983961', 'country_flag': 'image/currency/EUR.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'SAR', 'symbol_left': 'SR', 'symbol_right': '', 'value': '3.7539', 'country_flag': 'image/currency/SAR.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'JPY', 'symbol_left': '\u00a5', 'symbol_right': '', 'value': '158.730159', 'country_flag': 'image/currency/JPY.jpg', 'default': '1', 'decimal_place': '0', 'dec_point': '', 'thousands_sep': ','}, {'code': 'HKD', 'symbol_left': 'HK$', 'symbol_right': '', 'value': '7.830854', 'country_flag': 'image/currency/HKD.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': "
+    },
+    "{'region': 'KR'}": {
+        "error": "",
+        "response": "{'code': '0', 'msg': 'ok', 'info': {'support_language_list': [{'language': 'ko', 'languageTip': '\ud55c\uad6d\uc5b4'}, {'language': 'en', 'languageTip': 'English'}], 'language_full_name_in_header': {'language': '', 'languageTip': 'Auto'}, 'suppport_currency_list': [{'code': 'KRW', 'symbol_left': '', 'symbol_right': '\uc6d0', 'value': '1470.73', 'country_flag': 'images2/pics/currency/KRW.jpg', 'default': '1', 'decimal_place': '0', 'dec_point': '', 'thousands_sep': ','}, {'code': 'USD', 'symbol_left': '$', 'symbol_right': '', 'value': '1.0', 'country_flag': 'image/currency/USD.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}], 'current_country_full_name': 'South Korea'}}"
+    },
+    "{'region': 'NZ'}": {
+        "error": "",
+        "response": "{'code': '0', 'msg': 'ok', 'info': {'support_language_list': [{'language': 'en', 'languageTip': 'English'}], 'language_full_name_in_header': {'language': '', 'languageTip': 'Auto'}, 'suppport_currency_list': [{'code': 'USD', 'symbol_left': '$', 'symbol_right': '', 'value': '1.0', 'country_flag': 'image/currency/USD.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'EUR', 'symbol_left': '', 'symbol_right': '\u20ac', 'value': '0.983961', 'country_flag': 'image/currency/EUR.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'GBP', 'symbol_left': '\u00a3', 'symbol_right': '', 'value': '0.824538', 'country_flag': 'image/currency/GBP.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'AUD', 'symbol_left': 'AU$', 'symbol_right': '', 'value': '1.637465', 'country_flag': 'image/currency/AUD.jpg', 'default': '0', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}, {'code': 'NZD', 'symbol_left': 'NZ$', 'symbol_right': '', 'value': '1.813894', 'country_flag': 'image/currency/NZD.jpg', 'default': '1', 'decimal_place': '2', 'dec_point': '.', 'thousands_sep': ','}], 'current_country_full_name': 'New Zealand'}}"
+    }
+}

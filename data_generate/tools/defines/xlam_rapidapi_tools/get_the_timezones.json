@@ -1,0 +1,19 @@
+{
+    "name": "get_the_timezones",
+    "description": "This is a sub-function API for tool location.\nTool description: Get the locations using a REST API simple and free.\nAPI description: Fetches the list of timezones from the specified RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number of the results to retrieve. Defaults to '1'.",
+                "default": "1"
+            },
+            "name": {
+                "type": "string",
+                "description": "The name filter to apply to the timezones. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

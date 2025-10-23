@@ -1,0 +1,31 @@
+{
+    "name": "webcams_list_limit_limit_offset",
+    "description": "This is a sub-function API for tool webcams_travel.\nTool description: The World's Largest Landscape Webcam API ***** Get webcams by categories, country, region or just nearby your location ***** Get timelapse slideshows for every webcam ***** Get an uncluttered webcam layer for your map\nAPI description: This is a modifier. Returns the list of webcams sliced by {limit}. The optional offset is given by {offset}. Required: {limit}. The maximum value for {limit} is 50. {offset} defaults to 0. If limit is not given, then a default of limit=10 is applied.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "Maximum number of webcams in the result list. The maximum allowable value is 50."
+            },
+            "offset": {
+                "type": "number",
+                "description": "Offset for the first item in the result list. Defaults to 0.",
+                "default": 0.0
+            },
+            "lang": {
+                "type": "string",
+                "description": "Localize the results to this language, if available. Default: \"en\".",
+                "default": "en"
+            },
+            "show": {
+                "type": "string",
+                "description": "Content to be listed in the response. Possible values are: \"webcams\", \"categories\", \"continents\", \"countries\", \"regions\", \"properties\". Default is \"webcams\".",
+                "default": "webcams:image,location"
+            }
+        },
+        "required": [
+            "limit"
+        ]
+    }
+}

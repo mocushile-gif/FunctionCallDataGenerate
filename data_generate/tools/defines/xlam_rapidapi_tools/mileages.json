@@ -1,0 +1,85 @@
+{
+    "name": "mileages",
+    "description": "This is a sub-function API for tool car_api.\nTool description: Search vehicles sold in the United States by year, make, model, trim, engine, body, mileage, VIN decoder and more.\nAPI description: To include additional information about the returned body (such as year, make, model and trim) request with the query parameter as verbose=yes.\n\nFor complex queries you may use the json field to send an array of URL encoded JSON conditions, example:\n\n[{\"field\": \"combined_mpg\", \"op\": \">=\", \"val\": 20}, {\"field\": \"combined_mpg\", \"op\": \"<=\", \"val\": 30}]\n\nAllowed operators are: `>`, `<`, `>=`, `<=`, `in`, `not in`, `like`, `not like`, `is null` and `not null`.\n\nAllowed json search fields are: year, make, model, ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "make_model_id": {
+                "type": "string",
+                "description": "The ID of the make and model."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of results to limit the response to."
+            },
+            "make_model_trim_id": {
+                "type": "string",
+                "description": "The ID of the make, model, and trim."
+            },
+            "trim": {
+                "type": "string",
+                "description": "The trim level of the car."
+            },
+            "json": {
+                "type": "string",
+                "description": "An array of URL encoded JSON conditions for complex queries."
+            },
+            "range_highway": {
+                "type": "string",
+                "description": "The range of highway mileage."
+            },
+            "sort": {
+                "type": "string",
+                "description": "The field to sort the results by. Default is 'id'.",
+                "default": "id"
+            },
+            "direction": {
+                "type": "string",
+                "description": "The direction to sort by ('asc' or 'desc'). Default is 'asc'.",
+                "default": "asc"
+            },
+            "range_city": {
+                "type": "string",
+                "description": "The range of city mileage."
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for paginated results."
+            },
+            "combined_mpg": {
+                "type": "string",
+                "description": "The combined miles per gallon value."
+            },
+            "verbose": {
+                "type": "string",
+                "description": "Include make, model and trim information in the results. Default is 'yes'.",
+                "default": "yes"
+            },
+            "epa_highway_mpg": {
+                "type": "string",
+                "description": "The EPA highway miles per gallon value."
+            },
+            "epa_city_mpg": {
+                "type": "string",
+                "description": "The EPA city miles per gallon value."
+            },
+            "model": {
+                "type": "string",
+                "description": "The car model."
+            },
+            "year": {
+                "type": "string",
+                "description": "The year of the car."
+            },
+            "make_id": {
+                "type": "string",
+                "description": "The ID of the car make."
+            },
+            "make": {
+                "type": "string",
+                "description": "The car make."
+            }
+        },
+        "required": []
+    }
+}

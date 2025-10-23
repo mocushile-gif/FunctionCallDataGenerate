@@ -1,0 +1,50 @@
+{
+    "name": "crops_list",
+    "description": "This is a sub-function API for tool crops.\nTool description: Plants for agricultural purposes in Spain: info about taxonomy, growing period, fruit type, categorization, and other. Total of 293 species. Being possible to filter by any of the characteristics mentioned above.\nAPI description: This endpoint returns back all crops that are grown in Spain, being possible to filter them through query string (see Optional Parameters).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "subcategory": {
+                "type": "string",
+                "description": "Optional. The subcategory of the crop. Default is 'De invierno'.",
+                "default": "De invierno"
+            },
+            "family": {
+                "type": "string",
+                "description": "Optional. The family of the crop. Default is 'Poaceae'.",
+                "default": "Poaceae"
+            },
+            "commonname": {
+                "type": "string",
+                "description": "Optional. The common name of the crop. Default is 'Trigo'.",
+                "default": "Trigo"
+            },
+            "speciename": {
+                "type": "string",
+                "description": "Optional. The species name of the crop. Default is 'Triticum'.",
+                "default": "Triticum"
+            },
+            "consistency": {
+                "type": "string",
+                "description": "Optional. The consistency of the crop. Default is 'herbácea'.",
+                "default": "herbácea"
+            },
+            "cropcycle": {
+                "type": "string",
+                "description": "Optional. The crop cycle of the crop. Default is 'anual'.",
+                "default": "anual"
+            },
+            "fruittype": {
+                "type": "string",
+                "description": "Optional. The type of fruit of the crop. Default is 'cariopsis'.",
+                "default": "cariopsis"
+            },
+            "category": {
+                "type": "string",
+                "description": "Optional. The subcategory of the crop. Default is 'De invierno'.",
+                "default": "Cereales de grano"
+            }
+        },
+        "required": []
+    }
+}

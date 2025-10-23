@@ -1,0 +1,25 @@
+{
+    "name": "list_album_tracks",
+    "description": "This is a sub-function API for tool spotify_scraper.\nTool description: An all-in-one scraper for scraping everything on Spotify, and a highly available download solution for tracks, lyrics and episode previews.\nAPI description: Fetches a list of tracks for a given album from the Spotify API, with optional pagination support.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "albumid": {
+                "type": "string",
+                "description": "The unique identifier for the album.",
+                "default": "5Otajf16kZ0zkVZWhu7LtO"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of tracks to return per request. Defaults to None."
+            },
+            "offset": {
+                "type": "number",
+                "description": "The number of tracks to skip before starting to collect the result set. Defaults to None."
+            }
+        },
+        "required": [
+            "albumid"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "spac_sec_filings",
+    "description": "This is a sub-function API for tool spachero_spac_database.\nTool description: Official spacHero  SPAC API  with live rankings, SPAC target names, merger meetings, warrant redemption deadlines, price targets, SEC filings, investor presentations and more.\nAPI description: Fetches the latest SPAC SEC filings, optionally filtered by a given SPAC symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The SPAC symbol to filter the SEC filings by. Defaults to 'ITAC'.",
+                "default": "ITAC"
+            }
+        },
+        "required": []
+    }
+}

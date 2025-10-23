@@ -1,0 +1,17 @@
+{
+    "name": "amenities",
+    "description": "This is a sub-function API for tool airbnb_listings.\nTool description: Join the over 300 users/customers and access all Airbnb data updated daily.\nGet Airbnb listings details, future prices and availability, reviews, and more using listing IDs, geo coordinates or \"market\". \nData analytics endpoints are also available to get detailed info around all airbnb accomodations.\nWe guarantee a 24-hour response time for all inquiries. If a feature you need is not there please contact us and we will evaluate if it is possible to fullfill your needs.\n\nWhile our data are not...\nAPI description: Retrieves amenities IDs and descriptions from the Airbnb Listings API, returning up to 50 results starting from the specified offset.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "offset": {
+                "type": "number",
+                "description": "The index to start retrieving the amenities from.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "offset"
+        ]
+    }
+}

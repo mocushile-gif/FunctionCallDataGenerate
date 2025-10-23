@@ -1,0 +1,26 @@
+{
+    "name": "calculate_annualized_return",
+    "description": "Calculates the annualized return (AR) over a given number of years based on the beginning and ending values.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "beginning_value": {
+                "type": "number",
+                "description": "The value at the beginning of the period."
+            },
+            "ending_value": {
+                "type": "number",
+                "description": "The value at the end of the period."
+            },
+            "years": {
+                "type": "integer",
+                "description": "The number of years over which the return is calculated."
+            }
+        },
+        "required": [
+            "beginning_value",
+            "ending_value",
+            "years"
+        ]
+    }
+}

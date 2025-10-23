@@ -1,0 +1,34 @@
+{
+    "{'date': '2021-12-01', 'range': '1-10'}": {
+        "error": "",
+        "response": {
+            "notice": "This endpoint is available on the Ultra plan and above. If you want to access this endpoint, please upgrade your plan."
+        }
+    },
+    "{'date': '2021-12-01', 'range': 'Weekly'}": {
+        "error": "",
+        "response": {
+            "notice": "This endpoint is available on the Ultra plan and above. If you want to access this endpoint, please upgrade your plan."
+        }
+    },
+    "{'date': '2021-12-01', 'range': '10'}": {
+        "error": "",
+        "response": {
+            "notice": "This endpoint is available on the Ultra plan and above. If you want to access this endpoint, please upgrade your plan."
+        }
+    },
+    "{'date': '2022-01-01', 'range': '10'}": {
+        "error": "",
+        "response": {
+            "notice": "This endpoint is available on the Ultra plan and above. If you want to access this endpoint, please upgrade your plan."
+        }
+    },
+    "{'date': '2024-05-15', 'range': '1-5'}": {
+        "error": "",
+        "response": "{'notice': 'This endpoint is available on the Ultra plan and above. If you want to access this endpoint, please upgrade your plan.'}"
+    },
+    "{'date': '2025-05-31', 'range': '1-10'}": {
+        "error": "",
+        "response": "{'notice': 'This endpoint is available on the Ultra plan and above. If you want to access this endpoint, please upgrade your plan.'}"
+    }
+}

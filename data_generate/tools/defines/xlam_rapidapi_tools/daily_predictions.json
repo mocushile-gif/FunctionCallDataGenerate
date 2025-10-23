@@ -1,0 +1,27 @@
+{
+    "name": "daily_predictions",
+    "description": "This is a sub-function API for tool today_football_prediction.\nTool description: Daily Football Prediction & Betting Tips with AI powered analysis and probability statistics. High efficiency, average bookie odds, profit-loss calculation, value betting.  Limitted Time: Ultra Plan is only $4.99/mo\n\nAPI description: Returns **Daily Football Predictions** with pagination support. \nSearch/filter can be used by **date**, **league**, **market-type**.\n\n* Use **predictions/{matchId}/details** endpoint to see more information about any particular match prediction.\n* Use **predictions/scores** endpoint to get score prediction and average goals.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "league": {
+                "type": "string",
+                "description": "The league identifier for filtering predictions. Example: '1'."
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number for pagination. Example: '1'.",
+                "default": "1"
+            },
+            "market": {
+                "type": "string",
+                "description": "The market type for filtering predictions. Example: '1X2', 'OU25', 'bts'."
+            },
+            "date": {
+                "type": "string",
+                "description": "The date for filtering predictions in the format 'YYYY-MM-DD'. Example: '2022-08-13'."
+            }
+        },
+        "required": []
+    }
+}

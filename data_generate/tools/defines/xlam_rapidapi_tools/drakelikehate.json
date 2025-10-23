@@ -1,0 +1,23 @@
+{
+    "name": "drakelikehate",
+    "description": "This is a sub-function API for tool memeados.\nTool description: Generate custom image, gif and video memes.\nAPI description: Generate a \"Drake Likes and Hates\" meme by sending specified texts to the Memeados RapidAPI and receiving the generated meme data.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text2": {
+                "type": "string",
+                "description": "The text to be displayed in the \"hate\" section of the meme.",
+                "default": "This text is liked."
+            },
+            "text1": {
+                "type": "string",
+                "description": "The text to be displayed in the \"like\" section of the meme.",
+                "default": "This text is hated"
+            }
+        },
+        "required": [
+            "text2",
+            "text1"
+        ]
+    }
+}

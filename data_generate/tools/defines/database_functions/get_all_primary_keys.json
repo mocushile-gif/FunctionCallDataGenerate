@@ -1,0 +1,15 @@
+{
+    "name": "get_all_primary_keys",
+    "description": "Retrieve the primary key columns for all tables in a given SQLite database.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file (e.g., 'database/chinook.db')."
+        }
+      },
+      "required": ["database_path"]
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "name": "get_1688_product_detail",
+    "description": "This is a sub-function API for tool taobao_tmall_product_detail.\nTool description: \nAPI description: Fetches detail of a product from 1688 using the provided product ID and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the product to fetch details for from 1688.",
+                "default": 601513403951
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

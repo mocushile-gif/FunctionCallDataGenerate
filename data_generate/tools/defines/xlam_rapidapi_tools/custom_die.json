@@ -1,0 +1,15 @@
+{
+    "name": "custom_die",
+    "description": "This is a sub-function API for tool dice_roll_simulator.\nTool description: Roll as many dice of any size as many times you want with the ultimate dice rolling API.\nAPI description: Simulates rolling a custom die with a specified number of sides using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sides": {
+                "type": "number",
+                "description": "The number of sides on the custom die. Default is 8.",
+                "default": 8.0
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_plus_one",
+    "description": "This is a sub-function API for tool plus_one.\nTool description: This tool allows you to perform an increment by one on your integer\nAPI description: This function takes an integer `number` and uses the RapidAPI service to get the number incremented by one.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "number": {
+                "type": "number",
+                "description": "The integer to be incremented.",
+                "default": 15.0
+            }
+        },
+        "required": [
+            "number"
+        ]
+    }
+}

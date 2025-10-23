@@ -1,0 +1,78 @@
+{
+    "name": "take_screenshot",
+    "description": "This is a sub-function API for tool screenshot_maker.\nTool description: Take perfect screenshot from websites. Powered by nodejs\n\nThe service work through proxy servers. \nUse proxyCountry : europe\nOr proxyState : france | spain\notherwise it will pick one randomly\nAPI description: collect all parameteres, load the webpage and take screenshot at the end.\nThis API save on a S3 bucket and return the url.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "targeturl": {
+                "type": "string",
+                "description": "The URL of the webpage to capture.",
+                "default": "https://www.mio-ip.it/"
+            },
+            "islandscape": {
+                "type": "string",
+                "description": "Specifies if the viewport should be in landscape mode. Default is None."
+            },
+            "proxycountry": {
+                "type": "string",
+                "description": "The proxy country to route the request through. Default is None."
+            },
+            "isfullyloaded": {
+                "type": "string",
+                "description": "Specifies whether to consider navigation finished based on no more than 0 network connections for at least 500 ms. Default is None."
+            },
+            "clickcount": {
+                "type": "number",
+                "description": "Number of times to click on the selector. Default is 1.",
+                "default": 1.0
+            },
+            "fullpage": {
+                "type": "string",
+                "description": "Indicates if the screenshot should cover the entire page from header to footer. Default is None."
+            },
+            "clickselector": {
+                "type": "string",
+                "description": "This method fetches an element with selector, scrolls it into view if needed, and then uses Page.mouse to click in the center of the element. If there's no element matching selector, the method throws an error."
+            },
+            "hastouch": {
+                "type": "string",
+                "description": "Specifies if the viewport supports touch events. Default is None."
+            },
+            "clickdelay": {
+                "type": "number",
+                "description": "Delay (in milliseconds) before each click action. Default is 500.",
+                "default": 500.0
+            },
+            "clickbutton": {
+                "type": "string",
+                "description": "Specifies the mouse button to use for the click action (e.g., 'left' or 'right'). Default is None."
+            },
+            "devicescalefactor": {
+                "type": "number",
+                "description": "Device scaling factor to use. Default is 1.",
+                "default": 1.0
+            },
+            "ismobile": {
+                "type": "string",
+                "description": "Whether the meta viewport tag should be taken into account. Default is None."
+            },
+            "pagewidth": {
+                "type": "number",
+                "description": "Width of the browser page in pixels. Default is 1024.",
+                "default": 1024.0
+            },
+            "pageheight": {
+                "type": "number",
+                "description": "Height of the browser page in pixels. Default is 1024.",
+                "default": 1024.0
+            },
+            "removables": {
+                "type": "string",
+                "description": "CSS selectors for HTML elements to be removed before taking the screenshot. Default is None."
+            }
+        },
+        "required": [
+            "targeturl"
+        ]
+    }
+}

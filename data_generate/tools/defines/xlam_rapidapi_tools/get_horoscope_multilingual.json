@@ -1,0 +1,32 @@
+{
+    "name": "get_horoscope_multilingual",
+    "description": "This is a sub-function API for tool horoscopes_ai.\nTool description: Horoscopes by AI in multilingual.\nAPI description: Fetches horoscope information in the specified language for a given sign, period, and type.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "language": {
+                "type": "string",
+                "description": "en: English, \nzh-t: Chinese (transditional), \nzh-s: Chinese (simplified),\nes: Spanish,\nhi: Hindu,\nfr: French,\nja: Japanese,\nko: Korean"
+            },
+            "period": {
+                "type": "string",
+                "description": "The period for which the horoscope is requested (e.g., 'daily', 'weekly')."
+            },
+            "sign": {
+                "type": "string",
+                "description": "The astrological sign for which the horoscope is requested (e.g., 'aries', 'taurus')."
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of horoscope information to be fetched, depending on the period. Use the **Get Types** method to get available types for the selected period.",
+                "default": "general"
+            }
+        },
+        "required": [
+            "language",
+            "period",
+            "sign",
+            "type"
+        ]
+    }
+}

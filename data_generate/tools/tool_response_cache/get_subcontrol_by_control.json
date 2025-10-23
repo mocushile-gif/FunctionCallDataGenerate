@@ -1,0 +1,53 @@
+{
+    "{'control': 'AC-1'}": {
+        "error": "",
+        "response": "{'status': 'success', 'data': [{'Id': 247, 'SubControlNumber': 'AC-1.1', 'ImplemGuid': 'DoD has defined the personnel or roles as all personnel. ', 'AssessProc': 'The organization being inspected/assessed is automatically compliant with this CCI because they are covered at the DoD level.  DoD has defined the personnel or roles as all personnel.', 'RecomCompEvid': 'Automatically compliant', 'CCI_Id': 1432, 'Control_Id': None}, {'Id': 248, 'SubControlNumber': 'AC-1.2', 'ImplemGuid': 'DoD has defined the personnel or roles as all personnel. ', 'AssessProc': 'The organization being inspected/assessed is automatically compliant with this CCI because they are covered at the DoD level.  DoD has defined the personnel or roles as all personnel.', 'RecomCompEvid': 'Automatically compliant', 'CCI_Id': 1433, 'Control_Id': None}, {'Id': 249, 'SubControlNumber': 'AC-1.3', 'ImplemGuid': 'The organization being inspected/assessed develops and documents an access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance. ', 'AssessProc': 'The organization conducting the inspection/assessment obtains and examines the access control policy to ensure the organization being inspected/assessed develops and documents an access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance.', 'RecomCompEvid': '1.) Signed and dated copy of access control policy that defines the purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance.', 'CCI_Id': 1, 'Control_Id': None}, {'Id': 250, 'SubControlNumber': 'AC-1.4', 'ImplemGuid': 'The organization being inspected/assessed disseminates via an information sharing capability to all personnel.  DoD has defined the personnel or roles as all personnel. ', 'AssessProc': \"The organization conducting the inspection/assessment examines the access control p"
+    },
+    "{'control': 'all'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": []
+        }
+    },
+    "{'control': 'cost_of_living'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": []
+        }
+    },
+    "{'control': 'restaurant'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": []
+        }
+    },
+    "{'control': '000001'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": []
+        }
+    },
+    "{'control': 'AC-2.2'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": []
+        }
+    },
+    "{'control': 'AC-2'}": {
+        "error": "",
+        "response": "{'status': 'success', 'data': [{'Id': 257, 'SubControlNumber': 'AC-2.1', 'ImplemGuid': 'The organization being inspected/assessed defines and documents the information system account types that support the organizational missions/business functions.  DoD has determined the information system account types are not appropriate to define at the Enterprise level. ', 'AssessProc': 'The organization conducting the inspection/assessment obtains and examines the documented information system account types to ensure the organization being inspected/assessed defines the information system account types that support the organizational missions/business functions.  DoD has determined the information system account types are not appropriate to define at the Enterprise level.', 'RecomCompEvid': '1.) Signed and dated documentation that defines the information system account types that support the organizational missions/business functions.', 'CCI_Id': 1435, 'Control_Id': None}, {'Id': 258, 'SubControlNumber': 'AC-2.2', 'ImplemGuid': 'The account types are defined per AC-2, CCI  2110. ', 'AssessProc': 'The account types are defined per AC-2, CCI  2110.', 'RecomCompEvid': '1.) Signed and dated documentation that identifies and selects the account types defined per AC-2, CCI 2110.', 'CCI_Id': 1436, 'Control_Id': None}, {'Id': 259, 'SubControlNumber': 'AC-2.3', 'ImplemGuid': 'The organization being inspected/assessed documents personnel responsible for the management of system accounts. ', 'AssessProc': 'The organization conducting the inspection/assessment obtains and examines the documented appointment of management personnel to ensure that the organization being inspected/assessed has documented personnel responsible for the management of system accounts.', 'RecomCompEvid': '1.) Signed and dated document identifying information system account types.\\n2.) Signed and dated document which lists and describes all appointed management personnel (name and title), including account managers.\\n3.) Sample of 2875 identifying supervisor o"
+    },
+    "{'control': 'AC-3'}": {
+        "error": "",
+        "response": "{'message': \"API doesn't exists\"}"
+    },
+    "{'control': 'AC-4'}": {
+        "error": "",
+        "response": "{'message': \"API doesn't exists\"}"
+    }
+}

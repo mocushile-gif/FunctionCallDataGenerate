@@ -1,0 +1,15 @@
+{
+    "name": "blocks",
+    "description": "This is a sub-function API for tool mcapi.\nTool description: Retrieve information about Minecraft's blocks, items, recipes and advancements.\nAPI description: Retrieve blocks information:\n\n- **block_id** such as \"minecraft:stone\"\n- **block_group** such as \"Natural\"\n- **light_emission** such as 15 for torches or 0 for non-emitting blocks (MC unit)\n- **burn_chance** to indicate the probability of the block catching fire \n- **flammable** is true if the block can catch fire otherwise is false\n- **hardness** to indicate how hard a block is (MC unit)\n- **blast_resistance** to indicate how strong is the block against explosions\n- **friction** is a float value that repre",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "block_id": {
+                "type": "string",
+                "description": "The ID of the Minecraft block to retrieve information for. Defaults to 'minecraft:stone'.",
+                "default": "minecraft:stone"
+            }
+        },
+        "required": []
+    }
+}

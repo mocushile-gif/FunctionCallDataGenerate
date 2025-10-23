@@ -1,0 +1,17 @@
+{
+    "name": "get_answer_to_question",
+    "description": "This is a sub-function API for tool question_answered.\nTool description: Ask a question and get an answer. Example: When did World War two end? answer -  September 2, 1945\nAPI description: Fetches the answer to a given question from the Question Answered API using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "questionasked": {
+                "type": "string",
+                "description": "The question to be answered.",
+                "default": "how far away is the sun from earth?"
+            }
+        },
+        "required": [
+            "questionasked"
+        ]
+    }
+}

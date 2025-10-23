@@ -1,0 +1,21 @@
+{
+    "name": "transaction",
+    "description": "This is a sub-function API for tool binance_smart_chain.\nTool description: All-In-One access to the BSC blockchain data!\n\nMore features are coming soon!\n\nFeedback and feature requests should be sent to:\nangleitnerchristoph123@gmail.com\nAPI description: Fetches full data for a specific transaction on the Optimism blockchain.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hash": {
+                "type": "string",
+                "description": "The hash of the transaction to scan.",
+                "default": "0x675e20f06597d976c23cef8fd6ff8f9c56b75af711a22d8c2d936b49cc3ac2d9"
+            },
+            "network": {
+                "type": "string",
+                "description": "The network to use (mainnet or testnet). Defaults to None."
+            }
+        },
+        "required": [
+            "hash"
+        ]
+    }
+}

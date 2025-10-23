@@ -1,0 +1,29 @@
+{
+    "name": "get_verse_by_bookname",
+    "description": "This is a sub-function API for tool bible_search.\nTool description: Retrieve chapters and verses from the Old Testament and New Testament of the KJV. This API does not include the false gnostic books of the bible called the Pauline and Petrine epistles.\nAPI description: Fetches a specific verse from the Bible given the verse ID, book name, and chapter ID using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "verseid": {
+                "type": "number",
+                "description": "The ID of the verse to retrieve.",
+                "default": 1.0
+            },
+            "bookname": {
+                "type": "string",
+                "description": "The name of the book in the Bible.",
+                "default": "Revelation"
+            },
+            "chapterid": {
+                "type": "number",
+                "description": "The chapter number within the specified book.",
+                "default": 12.0
+            }
+        },
+        "required": [
+            "verseid",
+            "bookname",
+            "chapterid"
+        ]
+    }
+}

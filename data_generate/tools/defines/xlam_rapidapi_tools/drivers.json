@@ -1,0 +1,17 @@
+{
+    "name": "drivers",
+    "description": "This is a sub-function API for tool f1_live_motorsport_data.\nTool description: Formula 1 data for the ultimate motorsport fanatic!\nAPI description: Fetches a list of all drivers for a given season using the F1 Live Motorsport Data API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season_id": {
+                "type": "number",
+                "description": "The ID of the season for which to list the drivers.",
+                "default": 2020.0
+            }
+        },
+        "required": [
+            "season_id"
+        ]
+    }
+}

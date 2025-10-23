@@ -1,0 +1,24 @@
+{
+    "name": "check_file_null_values",
+    "description": "Check the number and percentage of missing (NULL) values for each column in a CSV, Excel, JSON, or JSONL file.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "Path to the input file (.csv, .xlsx, .json, or .jsonl)."
+        },
+        "sheet_name": {
+          "type": ["string", "integer"],
+          "description": "Sheet name or index (only used for Excel files).",
+          "default": 0
+        },
+        "save_to_file": {
+          "type": "string",
+          "description": "Optional path to save the result as .csv, .xlsx, .json, or .jsonl."
+        }
+      },
+      "required": ["file_path"]
+    }
+  }
+  

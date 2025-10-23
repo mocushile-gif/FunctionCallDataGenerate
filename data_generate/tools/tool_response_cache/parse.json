@@ -1,0 +1,25 @@
+{
+    "{'q': '(01)035555191234563(10)LOT2023Q3(15)12345678(11)230415(17)230410(21)SN-9X8Y7(92)ABC123(93)0000'}": {
+        "error": "",
+        "response": {
+            "parsed_data": {
+                "GTIN": "035555191234563",
+                "Lot/Batch": "LOT2023Q3",
+                "ProductionDate": "12345678",
+                "ExpirationDate": "2023-04-15",
+                "PackagingDate": "2023-04-10",
+                "SerialNumber": "SN-9X8Y7",
+                "CustomerPartNumber": "ABC123",
+                "AdditionalInfo": "0000"
+            },
+            "validation_errors": [
+                "GTIN (01) must be 14 digits (invalid length)",
+                "ProductionDate (15) must be 6 digits (YYMMDD format)"
+            ]
+        }
+    },
+    "{'q': '(01)12345678901231(10)ABCD-123(30)27(11)211015'}": {
+        "error": "",
+        "response": "{'parser': {'request': {'data': '(01)12345678901231(10)ABCD-123(30)27(11)211015', 'service-level': 20, 'invocation-id': 'e0ae42d6-30ca-44e9-a2d7-38a725a71097', 'source': 'GS1_HRI', 'genspec-compliance': '20.0', 'doc-version': '0.2'}, 'response': {'state': True, 'application-identifiers': [{'AI01': {'identifier': '01', 'datacontent': '12345678901231', 'hri': '(01)12345678901231', 'mri': '0112345678901231', 'rendered-content': {'description': 'GTIN 12345678901231', 'issuing country': 'None, restricted circulation within geographic region'}, 'description': 'Global Trade Item Number (GTIN)', 'datatitle': 'GTIN', 'state': True, 'aiformat': {'identifierlength': 2, 'mindatalength': 14, 'maxdatalength': 14, 'allowalphanumeric': False, 'terminatorrequired': False, 'gs1formatstring': 'N2+N14', 'datatype': 'IDENTIFIER', 'unit': 'NONE'}, 'messages': []}}, {'AI10': {'identifier': '10', 'datacontent': 'ABCD-123', 'hri': '(10)ABCD-123', 'mri': '10ABCD-123\\x1d', 'rendered-content': {'description': 'BATCH/LOT ABCD-123'}, 'description': 'Batch or lot number', 'datatitle': 'BATCH/LOT', 'state': True, 'aiformat': {'identifierlength': 2, 'mindatalength': 1, 'maxdatalength': 20, 'allowalphanumeric': True, 'terminatorrequired': True, 'gs1formatstring': 'N2+X..20', 'datatype': 'TEXT', 'unit': 'NONE'}, 'messages': []}}, {'AI30': {'identifier': '30', 'datacontent': '27', 'hri': '(30)27', 'mri': '3027\\x1d', 'rendered-content': {'description': 'VAR. COUNT 27'}, 'description': 'Count of items (variable measure trade item)', 'datatitle': 'VAR. COUNT', 'state': True, 'aiformat': {'identifierlength': 2, 'mindatalength': 1, 'maxdatalength': 8, 'allowalphanumeric': False, 'terminatorrequired': True, 'gs1formatstring': 'N2+N..8', 'datatype': 'NUMBER', 'unit': 'NONE'}, 'messages': []}}, {'AI11': {'identifier': '11', 'datacontent': '211015', 'hri': '(11)211015', 'mri': '11211015', 'rendered-content': {'description': 'PROD DATE 2021-10-15T00:00:00'}, 'description': 'Production date (YYMMDD)', 'datatitle': 'PROD DATE', 'state': True, 'aiformat': {'ide"
+    }
+}

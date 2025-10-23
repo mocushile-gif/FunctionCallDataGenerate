@@ -1,0 +1,15 @@
+{
+    "name": "school_detail",
+    "description": "This is a sub-function API for tool indonesia_school_list.\nTool description: This API provides School List in Indonesia by Province (Propinsi), City (Kabupaten), and District (Kecamatan).\nAPI description: Fetch detailed information about a school using the encrypted school ID (sekolah_id_enkrip).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sekolah_id_enkrip": {
+                "type": "string",
+                "description": "The encrypted ID of the school for which details are to be fetched. Default is '5DB43D89E6BFB0F76FBC'.",
+                "default": "5DB43D89E6BFB0F76FBC"
+            }
+        },
+        "required": []
+    }
+}

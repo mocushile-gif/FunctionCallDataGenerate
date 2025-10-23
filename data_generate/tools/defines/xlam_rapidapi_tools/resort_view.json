@@ -1,0 +1,17 @@
+{
+    "name": "resort_view",
+    "description": "This is a sub-function API for tool ski_resorts_and_conditions.\nTool description: Ski Resorts and Conditions\nAPI description: Fetches and returns information about a specific resort using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the resort to fetch information for.",
+                "default": "whistler-blackcomb"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

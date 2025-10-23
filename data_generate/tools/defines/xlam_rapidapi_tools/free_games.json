@@ -1,0 +1,15 @@
+{
+    "name": "free_games",
+    "description": "This is a sub-function API for tool epic_games_store_free_games.\nTool description: Unofficial API for scraping Free Games Offers from the Epic Games Store\nAPI description: Returns all free games currently on offer and upcoming free games from the Epic Games Store.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "Country code for local offers (e.g., 'US', 'DE', 'ES'). Defaults to 'US'.",
+                "default": "US"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "get_train_data_mrt_id_id_get",
+    "description": "This is a sub-function API for tool aqls_b2c_system.\nTool description: AQLS for railway transport queue line management\nAPI description: Fetch train data using MRT ID from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The MRT ID to fetch the train data for."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

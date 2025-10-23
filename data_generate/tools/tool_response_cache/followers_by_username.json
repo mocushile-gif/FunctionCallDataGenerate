@@ -1,0 +1,25 @@
+{
+    "{'username': 'deepikapadukone', 'corsenabled': 'false'}": {
+        "error": "",
+        "response": {
+            "users": [
+                {
+                    "pk": 123456789,
+                    "username": "example_follower1",
+                    "full_name": "Follower One",
+                    "profile_pic_url": "https://example.com/pic1.jpg",
+                    "is_private": false
+                },
+                {
+                    "pk": 987654321,
+                    "username": "example_follower2",
+                    "full_name": "Follower Two",
+                    "profile_pic_url": "https://example.com/pic2.jpg",
+                    "is_private": true
+                }
+            ],
+            "next_max_id": "QVFDX19TVEFUX19CQUtTMTIzNDU2Nzg5",
+            "total_count": 5000
+        }
+    }
+}

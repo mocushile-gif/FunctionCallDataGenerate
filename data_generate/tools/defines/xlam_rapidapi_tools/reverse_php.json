@@ -1,0 +1,29 @@
+{
+    "name": "reverse_php",
+    "description": "This is a sub-function API for tool geokeo_forward_geocoding.\nTool description: Geocoding Api for Forward geocoding and Reverse Geocoding with 2500 free api requests\nAPI description: Blazing fast geocoding open service with world wide coverage and 24x7 Support.Quickly start deploying your apps with our affordable and accurate geocoding api.Support for all languages java, python, php, c, c++, React, Angular etc.Sign up without any credit card and get 2500 free api requests daily.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "api": {
+                "type": "string",
+                "description": "get your api key for free for 2500 api requests at [https://geokeo.com](https://geokeo.com)",
+                "default": "api key from geokeo"
+            },
+            "lng": {
+                "type": "string",
+                "description": "The longitude coordinate for the reverse geocoding request.",
+                "default": "-73.9856"
+            },
+            "lat": {
+                "type": "string",
+                "description": "The latitude coordinate for the reverse geocoding request.",
+                "default": "40.74842"
+            }
+        },
+        "required": [
+            "api",
+            "lng",
+            "lat"
+        ]
+    }
+}

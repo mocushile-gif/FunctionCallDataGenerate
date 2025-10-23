@@ -1,0 +1,25 @@
+{
+    "name": "video_comments",
+    "description": "This is a sub-function API for tool tiktok_scraper_v2.\nTool description: Get basic tiktok user info and medias. Cheap and stable. Telegram https://t.me/JoTucker2022\nAPI description: Fetches comments for a given TikTok video.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "video_url": {
+                "type": "string",
+                "description": "The URL of the TikTok video for which comments are to be retrieved.",
+                "default": "https://www.tiktok.com/@tiktok/video/6974862859000073478"
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of comments to retrieve. If not provided, all available comments will be retrieved."
+            },
+            "cursor": {
+                "type": "number",
+                "description": "Pagination cursor for fetching comments. Defaults to None, indicating the start of the comments."
+            }
+        },
+        "required": [
+            "video_url"
+        ]
+    }
+}

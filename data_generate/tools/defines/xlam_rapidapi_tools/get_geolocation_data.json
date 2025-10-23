@@ -1,0 +1,17 @@
+{
+    "name": "get_geolocation_data",
+    "description": "This is a sub-function API for tool shw_geolocation_api.\nTool description: API to fetch country information for given IP Address\nAPI description: Fetches geolocation data for a given IP address using the SHW Geolocation API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IP address to fetch geolocation data for.",
+                "default": "8.8.8.8"
+            }
+        },
+        "required": [
+            "ip"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "execute_linux_system_command",
+  "description": "Executes a Linux system command and returns the output or error.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "command": {
+        "type": "string",
+        "description": "The Linux system command to execute."
+      }
+    },
+    "required": ["command"]
+  }
+}
+

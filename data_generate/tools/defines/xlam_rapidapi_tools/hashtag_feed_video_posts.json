@@ -1,0 +1,27 @@
+{
+    "name": "hashtag_feed_video_posts",
+    "description": "This is a sub-function API for tool social_media_data_tt.\nTool description: Social Media Data API in Real-Time.  -Get very useful and unique information.  -I'm on Telegram https://t.me/logicBuilder News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Get current hashtag feed. \n\n- Before testing don't forget to fill out the name **OR** hashtag_id inputs\n- Endpoint will return an array of objects with very useful metadata. \n- Direct urls to the video , statistics and more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The number of records to return. Default is 100, with a maximum limit of 500."
+            },
+            "hashtag_id": {
+                "type": "string",
+                "description": "**NOTE:** By using **hashtag_id**, request will be executed faster then if you will use hashtag name\n\n**NOTE:** **hashtag_id** can be obtained from the **/live/hashtag** endpoint\n\n**NOTE:** **hashtag_id** example: 4232322"
+            },
+            "max_cursor": {
+                "type": "string",
+                "description": "A pagination cursor to get additional videos. Use the `max_cursor` value received in the previous response to get more videos."
+            },
+            "name": {
+                "type": "string",
+                "description": "Hashtag name. For example: **duett**\n\n- **NOTE:** By using **hashtag_id** instead of the hashtag **name** request will be executed faster\n- To use **hashtag_id** use input field **BELOW**",
+                "default": "summer"
+            }
+        },
+        "required": []
+    }
+}

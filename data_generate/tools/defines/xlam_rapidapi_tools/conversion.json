@@ -1,0 +1,23 @@
+{
+    "name": "conversion",
+    "description": "This is a sub-function API for tool sciphercrypto.\nTool description: SCipherCrypto a cryptocurrency market data API. It returns the conversion rates of over 2000 cryptocurrencies, allowing developers to easily obtain real-time cryptocurrency exchange rates for their applications.\nAPI description: example from \"BTC\" (Bitcoin) to \"USDT\" (Tether)\nThis JSON response contains data for the cryptocurrency example:Ethereum (ETH), including its name, algorithm, block number, launch date, and market performance ratings. It also includes conversion information for ETH to USDT, such as the current market cap, total volume, and conversion rate. use the correct symbol in order to get an accurate data.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tsym": {
+                "type": "string",
+                "description": "The target cryptocurrency symbol to convert to.",
+                "default": "USDT"
+            },
+            "fsyms": {
+                "type": "string",
+                "description": "The source cryptocurrency symbol to convert from.",
+                "default": "ETH"
+            }
+        },
+        "required": [
+            "tsym",
+            "fsyms"
+        ]
+    }
+}

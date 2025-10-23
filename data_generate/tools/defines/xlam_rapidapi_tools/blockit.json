@@ -1,0 +1,17 @@
+{
+    "name": "blockit",
+    "description": "This is a sub-function API for tool blockit.\nTool description: BlockIt\nBlockIt is detect IP Address a Proxy, Tor, Hosting, Cloud, Bogon and etc.\nAPI description: Detect if an IP address is associated with a proxy, Tor, hosting service, cloud service, or is a Bogon IP.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IP address to be checked.",
+                "default": "34.95.185.149"
+            }
+        },
+        "required": [
+            "ip"
+        ]
+    }
+}

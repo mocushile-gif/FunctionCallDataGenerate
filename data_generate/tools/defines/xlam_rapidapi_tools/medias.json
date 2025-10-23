@@ -1,0 +1,26 @@
+{
+    "name": "medias",
+    "description": "This is a sub-function API for tool instagram_v6.\nTool description: instagram api\nAPI description: Retrieves media posts from a specified Instagram user using the Instagram RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The ID of the Instagram user whose media posts are to be retrieved.",
+                "default": "25025320"
+            },
+            "batch_size": {
+                "type": "number",
+                "description": "The number of media posts to retrieve in a single batch, ranging from 1 to 50. Defaults to 20.",
+                "default": 20.0
+            },
+            "next_cursor": {
+                "type": "string",
+                "description": "The cursor for fetching the next set of media posts in pagination. Defaults to None."
+            }
+        },
+        "required": [
+            "user_id"
+        ]
+    }
+}

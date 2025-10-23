@@ -1,0 +1,14 @@
+{
+    "name": "generate_wallet",
+    "description": "This is a sub-function API for tool webit_blockchain.\nTool description: Get blockchain data from Ethereum, Polygon, Binance, Solana mainnets, including Ropsten, Rinkey, Goerly, Kovan, Mumbai testnets.\nAPI description: Generate a new crypto wallet.\n\nSupported blockchains are Ethereum, Polygon, Binance mainnets and Ropsten, Rinkey, Goerly, Kovan, Mumbai testnets.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chain": {
+                "type": "string",
+                "description": "Blockchain to generate wallet for.\n\nGenerated wallet can be used to sign transactions or imported into MetaMask and other wallet applications through the returned `private_key`.\n\nSupported values:\n- `ethereum`;\n- `binance`;\n- `polygon`;\n- `ethereum-ropsten`;\n- `ethereum-rinkeby`;\n- `ethereum-goerli`;\n- `ethereum-kovan`;\n- `binance-testnet`;\n- `polygon-mumbai`.\n\nIf no parameter is provided, `ethereum` parameter is set to default."
+            }
+        },
+        "required": []
+    }
+}

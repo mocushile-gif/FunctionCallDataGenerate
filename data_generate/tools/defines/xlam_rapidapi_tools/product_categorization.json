@@ -1,0 +1,22 @@
+{
+    "name": "product_categorization",
+    "description": "This is a sub-function API for tool product_categorization.\nTool description: Determine products and organization of products into their respective categories. Predict product price base on name of product or product title.\nAPI description: Categorizes a product based on its title and optional price using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string",
+                "description": "The title of the product to be categorized.",
+                "default": "Abstract Egghead Plus Size Female Mannequin - Matte White Item "
+            },
+            "price": {
+                "type": "number",
+                "description": "The price of the product. Default is 200.",
+                "default": 200.0
+            }
+        },
+        "required": [
+            "title"
+        ]
+    }
+}

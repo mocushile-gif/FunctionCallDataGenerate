@@ -1,0 +1,17 @@
+{
+    "name": "nationalize",
+    "description": "This is a sub-function API for tool genderize_nationalize.\nTool description: Get name gender and nationality.\nAPI description: Fetches the nationality of the provided name using the Genderize-Nationalize API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name for which to determine the nationality.",
+                "default": "jad"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

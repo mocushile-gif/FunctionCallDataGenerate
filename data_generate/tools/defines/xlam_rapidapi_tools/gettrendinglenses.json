@@ -1,0 +1,14 @@
+{
+    "name": "gettrendinglenses",
+    "description": "This is a sub-function API for tool snapchat.\nTool description: Snapchat API\nAPI description: Fetches the trending lenses from Snapchat using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cursor": {
+                "type": "string",
+                "description": "A cursor for pagination. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "flip_image",
+    "description": "Flip image horizontally or vertically.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the input image file"
+        },
+        "direction": {
+          "type": "string",
+          "description": "Flip direction",
+          "enum": ["horizontal", "vertical"],
+          "default": "horizontal"
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output image. If not provided, will create auto-named file."
+        }
+      },
+      "required": ["image_path"]
+    }
+  } 

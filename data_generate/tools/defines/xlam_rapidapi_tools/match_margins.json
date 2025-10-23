@@ -1,0 +1,17 @@
+{
+    "name": "match_margins",
+    "description": "This is a sub-function API for tool basketball_data.\nTool description: Broadage Basketball API can deliver any type of data for a basketball match, tournament or team; including livescores, play-by-play, boxscore, match statistics & many more. Our Basketball Coverage includes 100+ tournaments from all around the world with in-depth coverage, giving you the opportunity to present the best sports data to users located anywhere.  <br>This is a limited version in RapidApi. <a href=\"https://www.broadage.com/signup/api/free?utm_source=rapidapi&utm_medium=click&utm_campaign=soccer_api\" target=”_blank”>Please, click here to start your Free Trial and try the endpoints with live data now!</a>\nAPI description: Fetches the average match margin statistics for a given team using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "teamid": {
+                "type": "number",
+                "description": "The ID of the team for which to fetch the match margin statistics.",
+                "default": 1442.0
+            }
+        },
+        "required": [
+            "teamid"
+        ]
+    }
+}

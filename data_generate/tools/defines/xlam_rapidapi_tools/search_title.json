@@ -1,0 +1,16 @@
+{
+    "name": "search_title",
+    "description": "This is a sub-function API for tool open_library.\nTool description: An unofficial API for Open Library.\nAPI description: Searches for books by a given title using the Open Library API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string",
+                "description": "The title of the book to search for."
+            }
+        },
+        "required": [
+            "title"
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "{'slug': 'bitcoin', 'community': True, 'repo': True, 'explorers': True}": {
+        "error": "",
+        "response": {
+            "coin_profile": {
+                "name": "Bitcoin",
+                "symbol": "BTC",
+                "price": "$29,500.00",
+                "market_cap": "$570B",
+                "community": {
+                    "twitter_followers": "12.3M",
+                    "reddit_subscribers": "2.1M",
+                    "telegram_members": "850K"
+                },
+                "repo": {
+                    "github_repos": [
+                        {
+                            "name": "Bitcoin Core",
+                            "stars": "15K",
+                            "commits": "25,000+"
+                        }
+                    ]
+                },
+                "explorers": [
+                    "blockchain.com",
+                    "blockchair.com",
+                    "mempool.space"
+                ],
+                "contracts": {
+                    "mainnet_address": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+                    "audits": "No critical vulnerabilities found (2023)"
+                },
+                "news": [
+                    "Bitcoin ETF approval update",
+                    "Taproot activation milestone",
+                    "Regulatory developments in EU"
+                ],
+                "flags": "No significant red flags detected",
+                "exchanges": [
+                    "Binance",
+                    "Coinbase",
+                    "Kraken"
+                ],
+                "links": {
+                    "website": "bitcoin.org",
+                    "whitepaper": "bitcoin.pdf"
+                },
+                "tags": [
+                    "Store of Value",
+                    "DeFi",
+                    "Blockchain"
+                ]
+            }
+        }
+    },
+    "{'slug': 'bitcoin'}": {
+        "error": "",
+        "response": "{'success': True, 'data': {'slug': 'bitcoin', 'name': 'Bitcoin', 'symbol': 'BTC', 'type': 'coin', 'icon': 'https://cdn.isthiscoinascam.com/logo/b/bitcoin-128xc4ac498a20a03d7b1cb2ba36b2220e1d.png', 'genesis_at': '2009-01-03', 'description': 'The first line of the Bitcoin white paper, written by the anonymous creator Satoshi Nakamoto, reads, \u201cA purely peer-to-peer version of electronic cash, which would allow online payments to be sent directly from one party to another without going through a financial institution.\u201d Bitcoin launched on Jan. 3, 2009, launching the cryptocurrency revolution. Bitcoin is a purely decentralized digital currency, confirming transactions on its own blockchain, which makes it unlike any other asset that came before it.', 'technology': {'title': '1stgen blockchain', 'infrastructure': 'Blockchain', 'generation': '1st'}, 'meta': {'capsize': 'Mega Cap', 'category': 'Cryptocurrency', 'style': 'Conservative'}, 'score': {'title': 'Strong', 'rating': 'A', 'marketcap_rank': 1, 'percentage': 96, 'status': 'Active'}, 'platform': [], 'updated_at': '2023-04-09T09:50:12.000000Z'}, 'message': 'Profile retrieved successfully'}"
+    }
+}

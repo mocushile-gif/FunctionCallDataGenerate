@@ -1,0 +1,17 @@
+{
+    "name": "user_stories_by_pk",
+    "description": "This is a sub-function API for tool instagram_api_v2.\nTool description: instagram scraping, all endpoints\nAPI description: Fetches user stories based on the given primary key from the Instagram API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pk": {
+                "type": "number",
+                "description": "The primary key of the user for which stories are to be fetched.",
+                "default": 18428658.0
+            }
+        },
+        "required": [
+            "pk"
+        ]
+    }
+}

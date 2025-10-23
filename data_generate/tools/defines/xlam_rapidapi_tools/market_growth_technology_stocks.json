@@ -1,0 +1,15 @@
+{
+    "name": "market_growth_technology_stocks",
+    "description": "This is a sub-function API for tool mboum_finance.\nTool description: Mboum Finance Official API for stocks, options, ETFs, mutual funds, SEC Data, news, screeners and more! \nAPI description: Retrieves a list of technology stocks with revenue and earnings growth in excess of 25% from the mboum-finance API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start": {
+                "type": "number",
+                "description": "The starting index for the list of stocks. Defaults to 0.",
+                "default": 0.0
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "agents_get_profile",
+    "description": "This is a sub-function API for tool realty_in_us.\nTool description: This API helps to query properties for sale, rent, sold,etc… to create a real estate site/application such as realtor.com\nAPI description: Fetches the profile information for a real estate agent using their NRDS ID and advertiser ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nrds_id": {
+                "type": "string",
+                "description": "The NRDS ID of the agent, typically returned from the /agents/list endpoint.",
+                "default": "150577018"
+            },
+            "advertiser_id": {
+                "type": "number",
+                "description": "The advertiser ID of the agent, typically returned from the /agents/list endpoint.",
+                "default": 1633379.0
+            }
+        },
+        "required": [
+            "nrds_id",
+            "advertiser_id"
+        ]
+    }
+}

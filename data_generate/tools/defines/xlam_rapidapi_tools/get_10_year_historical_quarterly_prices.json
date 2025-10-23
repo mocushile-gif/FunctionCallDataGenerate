@@ -1,0 +1,17 @@
+{
+    "name": "get_10_year_historical_quarterly_prices",
+    "description": "This is a sub-function API for tool stock_prices.\nTool description: Returns the adjusted open, high, low, and close price for a given symbol.  Volume, dividend, and stock split information is also included for each symbol.\nAPI description: 10 Year quarterly historically adjusted Open, High, Low, and Close prices.  Quarterly Volume, Dividend, and Split information is also included.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The stock ticker symbol for which the historical data is to be fetched.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "ticker"
+        ]
+    }
+}

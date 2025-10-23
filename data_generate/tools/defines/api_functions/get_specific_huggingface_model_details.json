@@ -1,0 +1,18 @@
+{
+    "name": "get_specific_huggingface_model_details",
+    "description": "Get detailed information about a specific Hugging Face model including metadata, statistics, and configuration.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "model_id": {
+          "type": "string",
+          "description": "The model ID (e.g., 'gpt2', 'bert-base-uncased')"
+        },
+        "save_to": {
+          "type": "string",
+          "description": "Optional path to save the result JSON to a file"
+        }
+      },
+      "required": ["model_id"]
+    }
+  } 

@@ -1,0 +1,38 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "status": true,
+            "message": "Success",
+            "timestamp": 1688973421406,
+            "data": [
+                {
+                    "id": "1",
+                    "title": "Airbnb Plus",
+                    "subtitle": "Every Plus home is reviewed for quality"
+                },
+                {
+                    "id": "2",
+                    "title": "Airbnb Luxe",
+                    "subtitle": "Handpicked luxury homes with personally arranged services"
+                }
+            ]
+        }
+    },
+    "{'languageid': 'en'}": {
+        "error": "",
+        "response": "{'status': False, 'message': {}, 'timestamp': 1726076556893}"
+    },
+    "{'languageid': 'es'}": {
+        "error": "",
+        "response": "{'status': False, 'message': {}, 'timestamp': 1735620176250}"
+    },
+    "{'languageid': 'fr'}": {
+        "error": "",
+        "response": "{'status': False, 'message': {}, 'timestamp': 1735676920638}"
+    },
+    "{'languageid': 'ja'}": {
+        "error": "",
+        "response": "{'status': False, 'message': {}, 'timestamp': 1736035960526}"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "full_stock_price",
+    "description": "This is a sub-function API for tool yh_finance_complete.\nTool description: This API helps you to query stocks, quotes, movers and other financial summary.\nAPI description: Fetches the current stock price for a given symbol using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol to query."
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

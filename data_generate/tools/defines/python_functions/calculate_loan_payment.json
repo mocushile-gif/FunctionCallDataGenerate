@@ -1,0 +1,32 @@
+{
+    "name": "calculate_loan_payment",
+    "description": "Calculates the monthly payment for a loan based on the principal, interest rate, and term. The function returns a dictionary containing the monthly payment and the total repayment amount.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "loan_amount": {
+                "type": "number",
+                "description": "The total loan amount."
+            },
+            "annual_interest_rate": {
+                "type": "number",
+                "description": "The annual interest rate as a percentage (e.g., 5 for 5%)."
+            },
+            "loan_term_years": {
+                "type": "integer",
+                "description": "The loan term in years."
+            },
+            "precision": {
+                "type": "integer",
+                "description": "The number of decimal places to round the result to. Defaults to 2.",
+                "default": 2,
+                "minimum": 0
+            }
+        },
+        "required": [
+            "loan_amount",
+            "annual_interest_rate",
+            "loan_term_years"
+        ]
+    }
+}

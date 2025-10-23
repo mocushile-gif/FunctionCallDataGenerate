@@ -1,0 +1,23 @@
+{
+    "name": "by_state_city",
+    "description": "This is a sub-function API for tool homeless_shelter.\nTool description: Introducing our National Registered Homeless Shelters API for the United States, featuring an extensive and up-to-date database.\nAPI description: Searches for homeless shelters in a specified state and city using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "state": {
+                "type": "string",
+                "description": "Full state name (e.g., 'Washington') or abbreviation (e.g., 'WA').",
+                "default": "Washington"
+            },
+            "city": {
+                "type": "string",
+                "description": "City name (e.g., 'Bellevue').",
+                "default": "Bellevue"
+            }
+        },
+        "required": [
+            "state",
+            "city"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "github",
+    "description": "This is a sub-function API for tool username_availability.\nTool description: Check if a username is available on multiple social networks like Twitter, Reddit, YouTube, Tumblr, and more. If you would like a new platform, or a new feature, please send us a message or use the discussion board. This project is in active development and new platforms will be added in the near future.\nAPI description: Checks if a given GitHub username is available using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The GitHub username to check.",
+                "default": "pharrell"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

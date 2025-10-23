@@ -1,0 +1,15 @@
+{
+    "name": "elhighlights",
+    "description": "This is a sub-function API for tool football_highlight.\nTool description: Best Live\nAPI description: Fetches football highlights from a specified API endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The API endpoint URL for fetching highlights. Defaults to 'https://acrtadeon.elhighlights.com/embed/0nvR19fByJZmp'.",
+                "default": "https://acrtadeon.elhighlights.com/embed/0nvR19fByJZmp"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_number_by_country_id",
+    "description": "This is a sub-function API for tool virtual_number.\nTool description: Receive SMS for phone verification\nAPI description: Fetches the list of currently available numbers for a given country ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "countryid": {
+                "type": "string",
+                "description": "The ID of the country for which to fetch the available numbers.",
+                "default": "7"
+            }
+        },
+        "required": [
+            "countryid"
+        ]
+    }
+}

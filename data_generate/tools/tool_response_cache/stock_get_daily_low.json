@@ -1,0 +1,46 @@
+{
+    "{'symbol': 'AAPL', 'region': 'US'}": {
+        "error": "",
+        "response": {
+            "value": "187.45"
+        }
+    },
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": {
+            "value": "187.45"
+        }
+    },
+    "{'symbol': 'TSLA', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '232.8001'}"
+    },
+    "{'symbol': 'AAPL', 'region': 'FR'}": {
+        "error": "",
+        "response": "{'value': '196.78'}"
+    },
+    "{'symbol': 'AAPL', 'region': 'DE'}": {
+        "error": "",
+        "response": "{'value': '196.78'}"
+    },
+    "{'symbol': 'NFLX', 'region': 'US'}": {
+        "error": "",
+        "response": "{'value': '1180.925'}"
+    },
+    "{'symbol': 'AMZN', 'region': 'GB'}": {
+        "error": "",
+        "response": "{'value': '202.68'}"
+    },
+    "{'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'value': '333.33'}"
+    },
+    "{'region': 'US', 'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'value': '209.58'}"
+    },
+    "{'region': 'DE', 'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'value': '291.1401'}"
+    }
+}

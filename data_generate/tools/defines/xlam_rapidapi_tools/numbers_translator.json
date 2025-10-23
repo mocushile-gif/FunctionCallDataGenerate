@@ -1,0 +1,15 @@
+{
+    "name": "numbers_translator",
+    "description": "This is a sub-function API for tool numbers_translator.\nTool description: Convert numerical numbers to words. For example 23879908709817834 will give you \"Twenty-three quadrillion eight hundred seventy-nine trillion nine hundred eight billion seven hundred nine million eight hundred seventeen thousand eight hundred thirty-four\".\nAPI description: Converts a numerical text string into its spelled-out form using an external API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "Numerical text to be converted. Defaults to '23879908709817834'.",
+                "default": "23879908709817834"
+            }
+        },
+        "required": []
+    }
+}

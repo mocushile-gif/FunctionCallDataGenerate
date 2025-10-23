@@ -1,0 +1,26 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{'result': [{'name': 'Tea/Coffee maker', 'room_facility_type_id': 1, 'facility_type_id': 7}, {'name': 'Internet facilities', 'room_facility_type_id': 2, 'facility_type_id': 3}, {'name': 'Minibar', 'room_facility_type_id': 3, 'facility_type_id': 7}, {'name': 'Shower', 'room_facility_type_id': 4, 'facility_type_id': 5}, {'name': 'Bath', 'room_facility_type_id': 5, 'facility_type_id': 5}, {'name': 'Safety deposit box', 'room_facility_type_id': 6, 'facility_type_id': 4}, {'name': 'Pay-per-view channels', 'room_facility_type_id': 7, 'facility_type_id': 6}, {'name': 'TV', 'room_facility_type_id': 8, 'facility_type_id': 6}, {'name': 'Telephone', 'room_facility_type_id': 9, 'facility_type_id': 6}, {'name': 'Fax', 'room_facility_type_id': 10, 'facility_type_id': 6}, {'name': 'Air conditioning', 'room_facility_type_id': 11, 'facility_type_id': 4}, {'name': 'Hairdryer', 'room_facility_type_id': 12, 'facility_type_id': 5}, {'name': 'Wake up service/Alarm clock', 'room_facility_type_id': 13, 'facility_type_id': 8}, {'name': 'Hot tub', 'room_facility_type_id': 14, 'facility_type_id': 4}, {'name': 'Iron', 'room_facility_type_id': 15, 'facility_type_id': 4}, {'name': 'Kitchenette', 'room_facility_type_id': 16, 'facility_type_id': 7}, {'name': 'Balcony', 'room_facility_type_id': 17, 'facility_type_id': 9}, {'name': 'Pants press', 'room_facility_type_id': 18, 'facility_type_id': 4}, {'name': 'Bathrobe', 'room_facility_type_id': 19, 'facility_type_id': 5}, {'name': 'Spa bath', 'room_facility_type_id': 20, 'facility_type_id': 5}, {'name': 'Radio', 'room_facility_type_id': 21, 'facility_type_id': 6}, {'name': 'Refrigerator', 'room_facility_type_id': 22, 'facility_type_id': 7}, {'name': 'Desk', 'room_facility_type_id': 23, 'facility_type_id': 4}, {'name': 'Shared bathroom', 'room_facility_type_id': 24, 'facility_type_id': 5}, {'name': 'Ironing facilities', 'room_facility_type_id': 25, 'facility_type_id': 4}, {'name': 'Seating Area', 'room_facility_type_id': 26, 'facility_type_id': 4}, {'name': 'Free toiletries', 'room_facility_type_id"
+    },
+    "{'facility_type_id': '11'}": {
+        "error": "",
+        "response": "{'result': []}"
+    },
+    "{'room_facility_type_id': '11'}": {
+        "error": "",
+        "response": "{'result': [{'name': 'Air conditioning', 'room_facility_type_id': 11, 'facility_type_id': 4}]}"
+    },
+    "{'facility_type_id': '3'}": {
+        "error": "",
+        "response": "{'result': [{'name': 'Internet facilities', 'room_facility_type_id': 2, 'facility_type_id': 3}, {'name': 'Wireless Internet', 'room_facility_type_id': 46, 'facility_type_id': 3}]}"
+    },
+    "{'facility_type_id': '5'}": {
+        "error": "",
+        "response": "{'result': [{'name': 'Shower', 'room_facility_type_id': 4, 'facility_type_id': 5}, {'name': 'Bath', 'room_facility_type_id': 5, 'facility_type_id': 5}, {'name': 'Hairdryer', 'room_facility_type_id': 12, 'facility_type_id': 5}, {'name': 'Bathrobe', 'room_facility_type_id': 19, 'facility_type_id': 5}, {'name': 'Spa bath', 'room_facility_type_id': 20, 'facility_type_id': 5}, {'name': 'Shared bathroom', 'room_facility_type_id': 24, 'facility_type_id': 5}, {'name': 'Free toiletries', 'room_facility_type_id': 27, 'facility_type_id': 5}, {'name': 'Toilet', 'room_facility_type_id': 31, 'facility_type_id': 5}, {'name': 'Private bathroom', 'room_facility_type_id': 38, 'facility_type_id': 5}, {'name': 'Shared toilet', 'room_facility_type_id': 42, 'facility_type_id': 5}, {'name': 'Slippers', 'room_facility_type_id': 43, 'facility_type_id': 5}, {'name': 'Bath or shower', 'room_facility_type_id': 69, 'facility_type_id': 5}, {'name': 'Additional toilet', 'room_facility_type_id': 72, 'facility_type_id': 5}, {'name': 'Sauna', 'room_facility_type_id': 92, 'facility_type_id': 5}, {'name': 'Bidet', 'room_facility_type_id': 100, 'facility_type_id': 5}, {'name': 'Additional bathroom', 'room_facility_type_id': 118, 'facility_type_id': 5}, {'name': 'Toilet paper', 'room_facility_type_id': 141, 'facility_type_id': 5}, {'name': 'Toothbrush', 'room_facility_type_id': 176, 'facility_type_id': 5}, {'name': 'Shampoo', 'room_facility_type_id': 177, 'facility_type_id': 5}, {'name': 'Conditioner', 'room_faci"
+    },
+    "{'room_facility_type_id': '14'}": {
+        "error": "",
+        "response": "{'result': [{'name': 'Hot tub', 'room_facility_type_id': 14, 'facility_type_id': 4}]}"
+    }
+}

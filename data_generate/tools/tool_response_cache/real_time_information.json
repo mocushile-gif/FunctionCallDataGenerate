@@ -1,0 +1,63 @@
+{
+    "{'cmd': 'etd', 'orig': 'SFO'}": {
+        "error": "",
+        "response": {
+            "stations": [
+                {
+                    "abbr": "SFO",
+                    "name": "San Francisco International Airport",
+                    "etd": [
+                        {
+                            "destination": "Daly City",
+                            "direction": "Southbound",
+                            "estimations": [
+                                {
+                                    "minutes": "10",
+                                    "length": "10 cars",
+                                    "platform": "1"
+                                },
+                                {
+                                    "minutes": "25",
+                                    "length": "8 cars",
+                                    "platform": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "destination": "Concord",
+                            "direction": "Northbound",
+                            "estimations": [
+                                {
+                                    "minutes": "14",
+                                    "length": "6 cars",
+                                    "platform": "3"
+                                },
+                                {
+                                    "minutes": "30",
+                                    "length": "10 cars",
+                                    "platform": "4"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "{'cmd': 'etd', 'orig': 'ALL'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?><root><uri><![CDATA[http://api.bart.gov/api/etd.aspx?cmd=etd&orig=ALL]]></uri><date>07/10/2023</date>\n<time>11:35:03 AM PDT</time>\n<station><name>Lake Merritt</name><abbr>LAKE</abbr><etd><destination>Berryessa</destination><abbreviation>BERY</abbreviation><limited>0</limited><estimate><minutes>Leaving</minutes><platform>1</platform><direction>South</direction><length>8</length><color>ORANGE</color><hexcolor>#ff9933</hexcolor><bikeflag>1</bikeflag><delay>61</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate><estimate><minutes>5</minutes><platform>1</platform><direction>North</direction><length>10</length><color>GREEN</color><hexcolor>#339933</hexcolor><bikeflag>1</bikeflag><delay>570</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate><estimate><minutes>11</minutes><platform>1</platform><direction>North</direction><length>10</length><color>GREEN</color><hexcolor>#339933</hexcolor><bikeflag>1</bikeflag><delay>0</delay><cancelflag>1</cancelflag><dynamicflag>0</dynamicflag></estimate></etd><etd><destination>Daly City</destination><abbreviation>DALY</abbreviation><limited>0</limited><estimate><minutes>7</minutes><platform>2</platform><direction>South</direction><length>10</length><color>GREEN</color><hexcolor>#339933</hexcolor><bikeflag>1</bikeflag><delay>0</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate><estimate><minutes>12</minutes><platform>2</platform><direction>South</direction><length>8</length><color>BLUE</color><hexcolor>#0099cc</hexcolor><bikeflag>1</bikeflag><delay>0</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate><estimate><minutes>22</minutes><platform>2</platform><direction>South</direction><length>10</length><color>GREEN</color><hexcolor>#339933</hexcolor><bikeflag>1</bikeflag><delay>0</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate></etd><etd><destination>Dublin/Pleasanton</destination><abbreviation>DUBL</abbreviation><limited>0</limited><estimate><minut"
+    },
+    "{'cmd': 'etd', 'orig': 'DALY'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?><root><uri><![CDATA[http://api.bart.gov/api/etd.aspx?cmd=etd&orig=DALY]]></uri><date>07/18/2023</date>\n<time>01:09:50 AM PDT</time>\n<station><name>Daly City</name><abbr>DALY</abbr><etd><destination>Millbrae</destination><abbreviation>MLBR</abbreviation><limited>0</limited><estimate><minutes>28</minutes><platform>3</platform><direction>South</direction><length>10</length><color>WHITE</color><hexcolor>#ffffff</hexcolor><bikeflag>1</bikeflag><delay>718</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate></etd></station><message></message></root>"
+    },
+    "{'cmd': 'etd', 'orig': 'FRMT'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?><root><uri><![CDATA[http://api.bart.gov/api/etd.aspx?cmd=etd&orig=FRMT]]></uri><date>07/11/2023</date>\n<time>08:01:47 AM PDT</time>\n<station><name>Fremont</name><abbr>FRMT</abbr><etd><destination>Berryessa</destination><abbreviation>BERY</abbreviation><limited>0</limited><estimate><minutes>4</minutes><platform>1</platform><direction>North</direction><length>10</length><color>GREEN</color><hexcolor>#339933</hexcolor><bikeflag>1</bikeflag><delay>112</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate><estimate><minutes>6</minutes><platform>1</platform><direction>South</direction><length>8</length><color>ORANGE</color><hexcolor>#ff9933</hexcolor><bikeflag>1</bikeflag><delay>0</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate><estimate><minutes>18</minutes><platform>1</platform><direction>North</direction><length>10</length><color>GREEN</color><hexcolor>#339933</hexcolor><bikeflag>1</bikeflag><delay>0</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate></etd><etd><destination>Daly City</destination><abbreviation>DALY</abbreviation><limited>0</limited><estimate><minutes>7</minutes><platform>2</platform><direction>South</direction><length>10</length><color>GREEN</color><hexcolor>#339933</hexcolor><bikeflag>1</bikeflag><delay>0</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate><estimate><minutes>22</minutes><platform>2</platform><direction>South</direction><length>10</length><color>GREEN</color><hexcolor>#339933</hexcolor><bikeflag>1</bikeflag><delay>0</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate><estimate><minutes>37</minutes><platform>2</platform><direction>South</direction><length>10</length><color>GREEN</color><hexcolor>#339933</hexcolor><bikeflag>1</bikeflag><delay>0</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate></etd><etd><destination>Richmond</destination><abbreviation>RICH</abbreviation><limited>0</limited><estimate><minutes>4</minutes><pla"
+    },
+    "{'cmd': 'etd', 'orig': 'SFIA'}": {
+        "error": "",
+        "response": "<?xml version=\"1.0\" encoding=\"utf-8\"?><root><uri><![CDATA[http://api.bart.gov/api/etd.aspx?cmd=etd&orig=SFIA]]></uri><date>07/15/2023</date>\n<time>05:36:17 AM PDT</time>\n<station><name>San Francisco Int'l Airport</name><abbr>SFIA</abbr><etd><destination>Antioch</destination><abbreviation>ANTC</abbreviation><limited>0</limited><estimate><minutes>21</minutes><platform>1</platform><direction>North</direction><length>10</length><color>YELLOW</color><hexcolor>#ffff33</hexcolor><bikeflag>1</bikeflag><delay>80</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate></etd><etd><destination>Pittsburg/Bay Point</destination><abbreviation>PITT</abbreviation><limited>0</limited><estimate><minutes>6</minutes><platform>1</platform><direction>North</direction><length>10</length><color>YELLOW</color><hexcolor>#ffff33</hexcolor><bikeflag>1</bikeflag><delay>136</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate><estimate><minutes>37</minutes><platform>1</platform><direction>North</direction><length>10</length><color>YELLOW</color><hexcolor>#ffff33</hexcolor><bikeflag>1</bikeflag><delay>0</delay><cancelflag>0</cancelflag><dynamicflag>0</dynamicflag></estimate></etd></station><message></message></root>"
+    }
+}

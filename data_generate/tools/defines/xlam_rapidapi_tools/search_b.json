@@ -1,0 +1,17 @@
+{
+    "name": "search_b",
+    "description": "This is a sub-function API for tool seo_api.\nTool description: Simple SERP API with accurate, real-time search engine results by location, device, and language. Data for SEO, news, scholar, images, and videos.\nAPI description: Performs a search query using the SEO API on a secondary search engine.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query string.",
+                "default": "q=coffee+shop"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

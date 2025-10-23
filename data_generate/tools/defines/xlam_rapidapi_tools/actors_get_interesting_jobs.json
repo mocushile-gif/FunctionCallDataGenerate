@@ -1,0 +1,17 @@
+{
+    "name": "actors_get_interesting_jobs",
+    "description": "This is a sub-function API for tool online_movie_database.\nTool description: This API helps to query for all information about films, actors, characters,etc... to create a movie/series/streaming content site/application\nAPI description: Retrieves interesting jobs for a specified actor or actress using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nconst": {
+                "type": "string",
+                "description": "The unique identifier for the actor/actress, which should start with \"nm\" (e.g., \"nm0001667\"). This can typically be found using the /actors/list-born-today or /actors/list-most-popular-celebs endpoints.",
+                "default": "nm0001667"
+            }
+        },
+        "required": [
+            "nconst"
+        ]
+    }
+}

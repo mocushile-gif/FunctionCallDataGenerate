@@ -1,0 +1,17 @@
+{
+    "name": "view_user_list",
+    "description": "This is a sub-function API for tool python_libraries_tst.\nTool description: Testing for mock api endpointss\nAPI description: Retrieves the list of favorite libraries for a given user based on their user ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "userid": {
+                "type": "string",
+                "description": "The unique identifier of the user.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "userid"
+        ]
+    }
+}

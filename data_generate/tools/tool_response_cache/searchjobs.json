@@ -1,0 +1,56 @@
+{
+    "{'location': 'Michigan', 'keyword': 'entrepreneur', 'offset': 0}": {
+        "error": "",
+        "response": {
+            "Error": "Jobs API returned no data, You have entered ''entrepreneur'' and 'Michigan' as search keyword. Please check the keyword you entered and try again."
+        }
+    },
+    "{'location': 'Michigan', 'keyword': 'entrepreneur', 'offset': 10}": {
+        "error": "",
+        "response": {
+            "Error": "Jobs API returned no data, You have entered ''entrepreneur'' and 'Michigan' as search keyword. Please check the keyword you entered and try again."
+        }
+    },
+    "{'keyword': 'entrepreneur', 'location': 'Tallinn', 'offset': 0}": {
+        "error": "",
+        "response": {
+            "Error": "Jobs API returned no data, You have entered ''entrepreneur'' and 'Tallinn' as search keyword. Please check the keyword you entered and try again."
+        }
+    },
+    "{'location': 'Stockholm', 'keyword': 'entrepreneur', 'offset': 0}": {
+        "error": "",
+        "response": {
+            "Error": "Jobs API returned no data, You have entered ''entrepreneur'' and 'Stockholm' as search keyword. Please check the keyword you entered and try again."
+        }
+    },
+    "{'location': 'Stockholm', 'keyword': 'startup', 'offset': 0}": {
+        "error": "",
+        "response": {
+            "Error": "Jobs API returned no data, You have entered ''startup'' and 'Stockholm' as search keyword. Please check the keyword you entered and try again."
+        }
+    },
+    "{'location': 'Stockholm', 'keyword': 'business', 'offset': 0}": {
+        "error": "",
+        "response": {
+            "Error": "Jobs API returned no data, You have entered ''business'' and 'Stockholm' as search keyword. Please check the keyword you entered and try again."
+        }
+    },
+    "{'location': 'Tallinn', 'keyword': 'Python', 'offset': 0}": {
+        "error": "",
+        "response": {
+            "Error": "Jobs API returned no data, You have entered ''Python'' and 'Tallinn' as search keyword. Please check the keyword you entered and try again."
+        }
+    },
+    "{'location': 'Helsinki', 'keyword': 'Java developer', 'offset': 0.0}": {
+        "error": "",
+        "response": "[{'company_logo_url': 'https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/0fa041766388e801af9df38db401e16a', 'company_name': 'Kyndryl', 'company_rating': '0/5', 'company_review_link': 'No Review Link', 'company_reviews': 0, 'date': '13-03-25', 'job_location': 'Espoo', 'job_title': 'Samlink Senior Java Developer', 'job_url': 'https://fi.indeed.com/m/viewjob?jk=bef6a37c18d2bf7f&from=serp&tk=1islqnav4gqpj82e&xkcb=SoAB67M3xV9Sut20Lx0LbzkdCdPP', 'multiple_hiring': 'No Multiple Hiring', 'next_page': 'False', 'page_number': 1, 'position': 1, 'salary': 'No Salary Mentioned', 'urgently_hiring': 'Not Urgently Hiring'}, {'company_logo_url': 'No Logo', 'company_name': 'twoday Finland', 'company_rating': '0/5', 'company_review_link': 'No Review Link', 'company_reviews': 0, 'date': '12-09-24', 'job_location': 'Helsinki', 'job_title': 'Java Developer', 'job_url': 'https://fi.indeed.com/m/viewjob?jk=638b2cefabbb8d09&from=serp&tk=1islqnav4gqpj82e&xkcb=SoC167M3xV9Sut20Lx0KbzkdCdPP', 'multiple_hiring': 'No Multiple Hiring', 'next_page': 'False', 'page_number': 1, 'position': 2, 'salary': 'No Salary Mentioned', 'urgently_hiring': 'Not Urgently Hiring'}, {'company_logo_url': 'https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/e1bd47363c07b64a9578dbf71edbf4e4', 'company_name': 'Accenture', 'company_rating': '4/5', 'company_review_link': 'No Review Link', 'company_reviews': 27855, 'date': '04-10-24', 'job_location': 'Helsinki', 'job_title': 'Senior Java Full Stack Developer', 'job"
+    },
+    "{'location': 'Helsinki', 'keyword': 'Python developer', 'offset': 0.0}": {
+        "error": "",
+        "response": "[{'company_logo_url': 'No Logo', 'company_name': '720 Degrees Oy', 'company_rating': '0/5', 'company_review_link': 'No Review Link', 'company_reviews': 0, 'date': '15-09-22', 'job_location': 'Helsinki', 'job_title': 'Python Developer', 'job_url': 'https://fi.indeed.com/m/viewjob?jk=04d7cdd395ae1f3e&from=serp&tk=1isothn4h2kqf0dq&xkcb=SoA967M3xYzJPCRUGp0JbzkdCdPP', 'multiple_hiring': 'No Multiple Hiring', 'next_page': 'False', 'page_number': 1, 'position': 1, 'salary': 'No Salary Mentioned', 'urgently_hiring': 'Not Urgently Hiring'}, {'company_logo_url': 'No Logo', 'company_name': 'Nordhealth', 'company_rating': '0/5', 'company_review_link': 'No Review Link', 'company_reviews': 0, 'date': '26-04-24', 'job_location': 'Helsinki', 'job_title': 'Senior Python Backend Developer', 'job_url': 'https://fi.indeed.com/m/viewjob?jk=52b1093a6abb07c8&from=serp&tk=1isothn4h2kqf0dq&xkcb=SoCJ67M3xYzJPCRUGp0IbzkdCdPP', 'multiple_hiring': 'No Multiple Hiring', 'next_page': 'False', 'page_number': 1, 'position': 2, 'salary': 'No Salary Mentioned', 'urgently_hiring': 'Not Urgently Hiring'}, {'company_logo_url': 'No Logo', 'company_name': 'Rakettitiede Oy', 'company_rating': '0/5', 'company_review_link': 'No Review Link', 'company_reviews': 0, 'date': '15-03-24', 'job_location': 'Helsinki', 'job_title': 'Full Stack Developer', 'job_url': 'https://fi.indeed.com/m/viewjob?jk=69edd9f6fa0026b2&from=serp&tk=1isothn4h2kqf0dq&xkcb=SoAH67M3xYzJPCRUGp0PbzkdCdPP', 'multiple_hiring': 'No Multiple Hiring', 'ne"
+    },
+    "{'keyword': 'Python developer', 'location': 'Helsinki', 'offset': 0}": {
+        "error": "",
+        "response": "[{'company_logo_url': 'No Logo', 'company_name': '720 Degrees Oy', 'company_rating': '0/5', 'company_review_link': 'No Review Link', 'company_reviews': 0, 'date': '15-09-22', 'job_location': 'Helsinki', 'job_title': 'Python Developer', 'job_url': 'https://fi.indeed.com/m/viewjob?jk=04d7cdd395ae1f3e&from=serp&tk=1iie30ec3l01c89a&xkcb=SoBT67M32OOOFDR7iJ0LbzkdCdPP', 'multiple_hiring': 'No Multiple Hiring', 'next_page': 'False', 'page_number': 1, 'position': 1, 'salary': 'No Salary Mentioned', 'urgently_hiring': 'Not Urgently Hiring'}, {'company_logo_url': 'No Logo', 'company_name': 'twoday Finland', 'company_rating': '0/5', 'company_review_link': 'No Review Link', 'company_reviews': 0, 'date': '12-09-24', 'job_location': 'Helsinki', 'job_title': '.Net / Python Developer', 'job_url': 'https://fi.indeed.com/m/viewjob?jk=69476334e9663c4e&from=serp&tk=1iie30ec3l01c89a&xkcb=SoDn67M32OOOFDR7iJ0KbzkdCdPP', 'multiple_hiring': 'No Multiple Hiring', 'next_page': 'False', 'page_number': 1, 'position': 2, 'salary': 'No Salary Mentioned', 'urgently_hiring': 'Not Urgently Hiring'}, {'company_logo_url': 'No Logo', 'company_name': 'Nordhealth', 'company_rating': '0/5', 'company_review_link': 'No Review Link', 'company_reviews': 0, 'date': '26-04-24', 'job_location': 'Helsinki', 'job_title': 'Senior Python Backend Developer', 'job_url': 'https://fi.indeed.com/m/viewjob?jk=52b1093a6abb07c8&from=serp&tk=1iie30ec3l01c89a&xkcb=SoB667M32OOOFDR7iJ0JbzkdCdPP', 'multiple_hiring': 'No Multiple Hiring', 'next_page': 'False', 'page_number': 1, 'position': 3, 'salary': 'No Salary Mentioned', 'urgently_hiring': 'Not Urgently Hiring'}, {'company_logo_url': 'https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/e1bd47363c07b64a9578dbf71edbf4e4', 'company_name': 'Accenture', 'company_rating': '4/5', 'company_review_link': 'No Review Link', 'company_reviews': 27439, 'date': '15-10-24', 'job_location': 'Helsinki', 'job_title': 'Azure Full Stack Developer', 'job_url': 'https://fi.indeed.com/m/viewjob?jk=56273230205dc60c&from=serp&tk=1iie30ec3l01"
+    }
+}

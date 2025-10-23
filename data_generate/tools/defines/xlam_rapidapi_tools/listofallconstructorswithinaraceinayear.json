@@ -1,0 +1,23 @@
+{
+    "name": "listofallconstructorswithinaraceinayear",
+    "description": "This is a sub-function API for tool formula_1_fixed.\nTool description: F1\nAPI description: This endpoint is to obtain a list of all constructors in a particular race(round) of a season(year)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year of the Formula 1 season.",
+                "default": "year"
+            },
+            "round": {
+                "type": "string",
+                "description": "The specific race (round) within the season.",
+                "default": "round"
+            }
+        },
+        "required": [
+            "year",
+            "round"
+        ]
+    }
+}

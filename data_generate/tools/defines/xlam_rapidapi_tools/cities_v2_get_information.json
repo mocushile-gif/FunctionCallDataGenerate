@@ -1,0 +1,47 @@
+{
+    "name": "cities_v2_get_information",
+    "description": "This is a sub-function API for tool airvisual.\nTool description: Query for Air Pollution Data, Weather information, Health Recommendations, etc... as on the official application\nAPI description: Fetches information about a specific city using its identifier.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The value of id field (type is city) that returned in …/v2/auto-complete endpoint",
+                "default": "hW7vArorRd8cT9h6v"
+            },
+            "x_units_temperature": {
+                "type": "string",
+                "description": "Unit for temperature. One of 'fahrenheit' or 'celsius'. Defaults to 'celsius'.",
+                "default": "celsius"
+            },
+            "x_aqi_index": {
+                "type": "string",
+                "description": "AQI (Air Quality Index) standard. One of 'us' or 'cn'. Defaults to 'us'.",
+                "default": "us"
+            },
+            "x_user_timezone": {
+                "type": "string",
+                "description": "User's timezone. Defaults to 'Asia/Singapore'.",
+                "default": "Asia/Singapore"
+            },
+            "x_user_lang": {
+                "type": "string",
+                "description": "User's language. Defaults to 'en-US'.",
+                "default": "en-US"
+            },
+            "x_units_pressure": {
+                "type": "string",
+                "description": "Unit for pressure. One of 'hg' or 'mbar'. Defaults to 'mbar'.",
+                "default": "mbar"
+            },
+            "x_units_distance": {
+                "type": "string",
+                "description": "Unit for distance. One of 'miles' or 'kilometer'. Defaults to 'kilometer'.",
+                "default": "kilometer"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

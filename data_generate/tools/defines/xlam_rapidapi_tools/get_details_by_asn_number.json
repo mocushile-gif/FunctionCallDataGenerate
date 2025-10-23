@@ -1,0 +1,17 @@
+{
+    "name": "get_details_by_asn_number",
+    "description": "This is a sub-function API for tool asn_details.\nTool description: Get details about Autonomous System Numbers (ASN), find ASN of IPs/CIDRs, find ASNs of each country etc\nAPI description: Fetch details related to a given Autonomous System Number (ASN) such as IP ranges, country, organization, and CIDR.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "asn_number": {
+                "type": "number",
+                "description": "The ASN number for which details need to be retrieved.",
+                "default": 100.0
+            }
+        },
+        "required": [
+            "asn_number"
+        ]
+    }
+}

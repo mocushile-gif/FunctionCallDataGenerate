@@ -1,0 +1,17 @@
+{
+    "name": "players_at_position",
+    "description": "This is a sub-function API for tool national_football_players.\nTool description: All active national football players, positions, teams, and numbers. Great for frontend player searches. \nAPI description: Returns all of the players at specified position. Only use abbreviated position names for position (i.e. QB, RB, WR, etc). See list of current positions @ /position",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "position": {
+                "type": "string",
+                "description": "The abbreviated position name to query players for (e.g., QB, RB, WR).",
+                "default": "QB"
+            }
+        },
+        "required": [
+            "position"
+        ]
+    }
+}

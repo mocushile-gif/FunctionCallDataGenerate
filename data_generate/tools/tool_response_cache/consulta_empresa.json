@@ -1,0 +1,42 @@
+{
+    "{'is_id': '12345678'}": {
+        "error": "",
+        "response": {
+            "company_name": "Example Company Ltda",
+            "cnpj": "12345678",
+            "status": "Active",
+            "address": {
+                "street": "Rua Exemplo",
+                "number": "123",
+                "city": "S\u00e3o Paulo",
+                "state": "SP",
+                "zip_code": "01000-000"
+            },
+            "registration_date": "2005-06-15",
+            "legal_nature": "Limited Liability Company",
+            "tax_regime": "Simples Nacional",
+            "activities": [
+                {
+                    "code": "6201-5/00",
+                    "description": "Development of computer programs"
+                },
+                {
+                    "code": "4744-0/01",
+                    "description": "Retail sale of computers and peripherals"
+                }
+            ]
+        }
+    },
+    "{'is_id': '37335118'}": {
+        "error": "",
+        "response": "{'id': 37335118, 'name': 'CNPJA TECNOLOGIA LTDA', 'equity': 1000, 'nature': {'id': 2062, 'text': 'Sociedade Empres\u00e1ria Limitada'}, 'size': {'id': 1, 'acronym': 'ME', 'text': 'Microempresa'}, 'simples': {'optant': True, 'since': '2020-06-05'}, 'simei': {'optant': False, 'since': None}, 'members': [{'since': '2020-06-05', 'person': {'id': '0ee5ad51-e58d-4400-a68a-1ae0aaf394c6', 'name': 'Etienne Rodrigues Bechara', 'type': 'NATURAL', 'taxId': '***538418**', 'age': '31-40'}, 'role': {'id': 49, 'text': 'S\u00f3cio-Administrador'}, 'company': 37335118}, {'since': '2020-06-05', 'person': {'id': '84cda86b-7b46-4be3-9b2e-4c374da9879b', 'name': 'Camila Pedrosa Alves', 'type': 'NATURAL', 'taxId': '***708668**', 'age': '31-40'}, 'role': {'id': 22, 'text': 'S\u00f3cio'}, 'company': 37335118}], 'offices': [{'taxId': '37335118000180', 'alias': 'Cnpja', 'founded': '2020-06-05', 'head': True, 'company': 37335118, 'statusDate': '2020-06-05', 'status': {'id': 2, 'text': 'Ativa'}, 'mainActivity': {'id': 6311900, 'text': 'Tratamento de dados, provedores de servi\u00e7os de aplica\u00e7\u00e3o e servi\u00e7os de hospedagem na internet'}}]}"
+    },
+    "{'is_id': '45678901'}": {
+        "error": "",
+        "response": "{'id': 45678901, 'name': 'ANTONIO APARECIDO POLI', 'equity': None, 'nature': {'id': 2135, 'text': 'Empres\u00e1rio (Individual)'}, 'size': {'id': 5, 'acronym': 'DEMAIS', 'text': 'Demais'}, 'simples': {'optant': False, 'since': None}, 'simei': {'optant': False, 'since': None}, 'members': [], 'offices': [{'taxId': '45678901000175', 'alias': None, 'founded': '1981-03-28', 'head': True, 'company': 45678901, 'statusDate': '2008-12-31', 'status': {'id': 8, 'text': 'Baixada'}, 'reason': {'id': 71, 'text': 'Inaptid\u00e3o (Lei 11.941/2009 Art.54)'}, 'mainActivity': {'id': 5611203, 'text': 'Lanchonetes, casas de ch\u00e1, de sucos e similares'}}]}"
+    },
+    "{'is_id': '35123456'}": {
+        "error": "",
+        "response": "{'id': 35123456, 'name': 'CLEITON PEREIRA DE SOUSA 33755414813', 'equity': 5000, 'nature': {'id': 2135, 'text': 'Empres\u00e1rio (Individual)'}, 'size': {'id': 1, 'acronym': 'ME', 'text': 'Microempresa'}, 'simples': {'optant': True, 'since': '2019-10-08'}, 'simei': {'optant': True, 'since': '2019-10-08'}, 'members': [], 'offices': [{'taxId': '35123456000123', 'alias': None, 'founded': '2019-10-08', 'head': True, 'company': 35123456, 'statusDate': '2022-01-14', 'status': {'id': 4, 'text': 'Inapta'}, 'reason': {'id': 63, 'text': 'Omiss\u00e3o De Declara\u00e7\u00f5es'}, 'mainActivity': {'id': 7319002, 'text': 'Promo\u00e7\u00e3o de vendas'}}]}"
+    }
+}

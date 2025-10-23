@@ -1,0 +1,17 @@
+{
+    "name": "challenge",
+    "description": "This is a sub-function API for tool tiktok_v3.\nTool description: TikTok API\nAPI description: Fetch the challenge details from TikTok based on a provided hashtag.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hashtag": {
+                "type": "string",
+                "description": "The hashtag of the challenge to fetch details for.",
+                "default": "fyp"
+            }
+        },
+        "required": [
+            "hashtag"
+        ]
+    }
+}

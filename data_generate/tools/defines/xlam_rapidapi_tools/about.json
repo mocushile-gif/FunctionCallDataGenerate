@@ -1,0 +1,14 @@
+{
+    "name": "about",
+    "description": "This is a sub-function API for tool arespass.\nTool description: AresPass is a password analyzer that calculates its entropy and shows a complete report that includes the password fragments having low randomness. Among the analysis carried out are multi-language word search, keyboard sequence search or irregular entropy distribution, to mention some of them.\nAPI description: Fetches metadata from the AresPass API and returns it in the specified format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "outputformat": {
+                "type": "string",
+                "description": "**The format of the returned metadata.**\n\nAllowed values are *json*, *xml* and *yaml*.\n\nThe default value is *xml*.\n"
+            }
+        },
+        "required": []
+    }
+}

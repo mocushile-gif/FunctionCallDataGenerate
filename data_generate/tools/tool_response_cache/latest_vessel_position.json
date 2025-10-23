@@ -1,0 +1,69 @@
+{
+    "{'mmsi': '987654321'}": {
+        "error": "",
+        "response": {
+            "mmsi": "987654321",
+            "imo": "0",
+            "name": "ELECTRIK AVENUE",
+            "callSign": "NSV30",
+            "type": 37,
+            "deviceType": null,
+            "dimensionToBow": "4",
+            "dimensionToStern": "5",
+            "dimensionToPort": "2",
+            "dimensionToStarboard": "1",
+            "draught": "0",
+            "positions": [
+                {
+                    "id": "305261865",
+                    "timestamp": "2023-07-04T04:26:27.000Z",
+                    "latitude": "25.951460",
+                    "longitude": "50.612840",
+                    "cog": 1.1,
+                    "sog": 0,
+                    "heading": 511,
+                    "navStatus": "15",
+                    "destination": "",
+                    "eta": "00-00 24:60",
+                    "vesselMmsi": "987654321"
+                }
+            ]
+        }
+    },
+    "{'mmsi': '244110352'}": {
+        "error": "",
+        "response": "{'mmsi': '244110352', 'imo': '0', 'name': 'COMPASS', 'callSign': 'PE2565', 'type': 80, 'deviceType': None, 'dimensionToBow': '110', 'dimensionToStern': '0', 'dimensionToPort': '5', 'dimensionToStarboard': '5', 'draught': '1.5', 'positions': [{'id': '310544027', 'timestamp': '2023-07-04T12:47:53.000Z', 'latitude': '52.411650', 'longitude': '4.786630', 'cog': 97.5, 'sog': 0, 'heading': 511, 'navStatus': '5', 'destination': 'AMSTERDAM PETROLEUMH', 'eta': '07-03 23:26', 'vesselMmsi': '244110352'}]}"
+    },
+    "{'mmsi': '235678901'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'mmsi': '257385000'}": {
+        "error": "",
+        "response": "{'mmsi': '257385000', 'imo': '8813972', 'name': 'KEGUMS', 'callSign': 'LAIR7', 'type': 70, 'deviceType': None, 'dimensionToBow': '85', 'dimensionToStern': '19', 'dimensionToPort': '8', 'dimensionToStarboard': '7', 'draught': '5', 'positions': [{'id': '4464451362', 'timestamp': '2025-06-10T05:18:39.000Z', 'latitude': '58.082970', 'longitude': '6.800650', 'cog': 200.4, 'sog': 0, 'heading': 254, 'navStatus': '5', 'destination': 'FARSUND', 'eta': '06-09 14:00', 'vesselMmsi': '257385000'}]}"
+    },
+    "{'mmsi': '123456789'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'mmsi': '0123456789'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'mmsi': '636012345'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'mmsi': '367912345'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'mmsi': '317007013'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'mmsi': '9833440'}": {
+        "error": "",
+        "response": ""
+    }
+}

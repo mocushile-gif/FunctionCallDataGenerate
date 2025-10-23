@@ -1,0 +1,22 @@
+{
+    "name": "specifications_by_group",
+    "description": "This is a sub-function API for tool motorcycle_specs_database.\nTool description: --- DEMO http://api-motorcycle.makingdatameaningful.com/ ----\n\nThe complete Motorcycle Database with specifications for all Makes & Models [year 1900 to 2023].  Full specs & images included. Real-Time updated.\nWe provide a motorcycle database delivered through API. There are more than 35,000 moto models available along with 20+ technical information fields. One image per model is also included.  Our fast API is delivered through several endpoints in order to satisfy different request types.  ...\nAPI description: ArticleGetSpecificationGroup\n{specs} => engineAndTransmission\n{specs} => chassisSuspensionBrakesAndWheels\n{specs} => physicalMeasuresAndCapacities\n{specs} => otherSpecifications",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "specs": {
+                "type": "string",
+                "description": "The type of specification group to fetch (e.g., engineAndTransmission, chassisSuspensionBrakesAndWheels, physicalMeasuresAndCapacities, otherSpecifications).",
+                "default": "engineAndTransmission"
+            },
+            "article": {
+                "type": "string",
+                "description": "The identifier for the motorcycle article."
+            }
+        },
+        "required": [
+            "specs",
+            "article"
+        ]
+    }
+}

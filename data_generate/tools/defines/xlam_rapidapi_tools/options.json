@@ -1,0 +1,17 @@
+{
+    "name": "options",
+    "description": "This is a sub-function API for tool stock_and_options.\nTool description: No. 1 rated U.S listed stock and options data provider with the lowest cost. The cloud based API has a simple interface and return easy to consume data in JSON format for options prices.\nAPI description: Fetch stock and options data for a given stock ticker symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The stock ticker symbol for which to fetch data.",
+                "default": "aapl"
+            }
+        },
+        "required": [
+            "ticker"
+        ]
+    }
+}

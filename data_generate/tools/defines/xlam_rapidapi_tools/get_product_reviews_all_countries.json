@@ -1,0 +1,27 @@
+{
+    "name": "get_product_reviews_all_countries",
+    "description": "This is a sub-function API for tool amazon_web_scraping_api.\nTool description: Provides access to amazon product details, customer reviews, product images, videos, and more, with support for all Amazon websites across the globe. Whether you're a developer building an e-commerce app or a business looking to enhance your customer experience, our API has got you covered. Try it today and start integrating Amazon product data into your application or website.\n\nCheckout our channel of telegram: https://t.me/+EkKIVZiiDQthMmYx\nAPI description: Fetches product reviews for a specific product from different countries using the ASIN code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "asin": {
+                "type": "string",
+                "description": "The Amazon Standard Identification Number (ASIN) of the product.",
+                "default": "B091J3NYVF"
+            },
+            "languagecode": {
+                "type": "string",
+                "description": "The language code for the reviews. Defaults to 'EN'.",
+                "default": "EN"
+            },
+            "countrycode": {
+                "type": "string",
+                "description": "The country code for the reviews. Defaults to 'US'.",
+                "default": "US"
+            }
+        },
+        "required": [
+            "asin"
+        ]
+    }
+}

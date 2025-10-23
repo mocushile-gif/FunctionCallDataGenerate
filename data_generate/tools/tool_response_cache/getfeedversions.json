@@ -1,0 +1,14 @@
+{
+    "{'feed': 'sfmta/60', 'page': '1'}": {
+        "error": "",
+        "response": "{'status': 'EMPTYKEY', 'ts': 1742226484, 'msg': 'Visit https://transitfeeds.com/api for information about managing API keys'}"
+    },
+    "{'feed': 'sfmta/60'}": {
+        "error": "",
+        "response": "{'status': 'EMPTYKEY', 'ts': 1737162184, 'msg': 'Visit https://transitfeeds.com/api for information about managing API keys'}"
+    },
+    "{'feed': 'ratp/12345'}": {
+        "error": "",
+        "response": "{'status': 'EMPTYKEY', 'ts': 1749860489, 'msg': 'Visit https://transitfeeds.com/api for information about managing API keys'}"
+    }
+}

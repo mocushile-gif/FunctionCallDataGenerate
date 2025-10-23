@@ -1,0 +1,27 @@
+{
+    "name": "search_related_sites",
+    "description": "This is a sub-function API for tool advanced_serp_operators.\nTool description: Real-Time & Accurate Advanced Search Engine Results. REST API for SERP and SEO data. - More at: bishopi.io\nAPI description: Finds sites related to a specified URL using the Advanced SERP Operators API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "website": {
+                "type": "string",
+                "description": "The URL of the website for which to find related sites.",
+                "default": "facebook.com"
+            },
+            "location": {
+                "type": "string",
+                "description": "The proxy location for the search. Supported countries are 'US', 'CA', 'IE', 'GB', 'FR', 'DE', 'SE', 'IN', 'JP', 'KR', 'SG', 'AU', 'BR'. Defaults to 'us'.",
+                "default": "us"
+            },
+            "max_results": {
+                "type": "number",
+                "description": "The maximum number of related sites to return. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "website"
+        ]
+    }
+}

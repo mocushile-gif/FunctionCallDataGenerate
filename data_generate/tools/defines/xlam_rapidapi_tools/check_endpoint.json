@@ -1,0 +1,21 @@
+{
+    "name": "check_endpoint",
+    "description": "This is a sub-function API for tool abuse_ip_check.\nTool description: Abuse IP Check is a project dedicated to helping combat the spread of hackers, spammers, and abusive activity on the internet.\n\nOur mission is to help make Web safer by providing a central blacklist for webmasters, system administrators, and other interested parties to report and find IP addresses that have been associated with malicious activity online.\n\nYou can report an IP address associated with malicious activity, or check to see if an IP address has been reported, by using the search bo...\nAPI description: The check endpoint accepts a single IP address (v4 or v6). Optionally you may set the maxAgeInDays parameter to only return reports within the last x amount of days.\n\nThe desired data is stored in the data property. Here you can inspect details regarding the IP address queried, such as version, country of origin, usage type, ISP, and domain name. And of course, there is the valuable abusive reports.\n\nGeolocation, usage type, ISP, and domain name are sourced from the IP2Location™ IP Address Geolocation Datab",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ipaddress": {
+                "type": "string",
+                "description": "The IP address to be checked.",
+                "default": "118.25.6.39"
+            },
+            "maxageindays": {
+                "type": "string",
+                "description": "The maximum age of the reports in days (default is None). If not specified, reports up to 30 days old are returned. Must be between 1 and 365 if provided."
+            }
+        },
+        "required": [
+            "ipaddress"
+        ]
+    }
+}

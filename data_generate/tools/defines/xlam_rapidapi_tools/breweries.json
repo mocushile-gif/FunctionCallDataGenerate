@@ -1,0 +1,34 @@
+{
+    "name": "breweries",
+    "description": "This is a sub-function API for tool open_brewery_db.\nTool description: Looking for a Beer API? Open Brewery DB is a free API for public information on breweries, cideries, brewpubs, and bottleshops. Currently it is focused to the United States, but future plans are to import world-wide data.\nAPI description: Fetches a list of breweries from the Open Brewery DB API based on given search criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "by_state": {
+                "type": "string",
+                "description": "Search for breweries by state. Defaults to 'NY'.",
+                "default": "NY"
+            },
+            "by_name": {
+                "type": "string",
+                "description": "Search for breweries by name. Defaults to 'cooper'.",
+                "default": "cooper"
+            },
+            "by_type": {
+                "type": "string",
+                "description": "Filter breweries by type. Must be one of: 'micro', 'regional', 'brewpub', 'large', 'planning', 'bar', 'contract', 'proprietor'. Defaults to 'micro'.",
+                "default": "micro"
+            },
+            "sort": {
+                "type": "string",
+                "description": "Sort the breweries. Use '+' for ascending order and '-' for descending order. Comma-separated values can be used to sort by multiple fields. Defaults to None."
+            },
+            "by_tag": {
+                "type": "string",
+                "description": "Filter breweries by tag. Must be one of: 'dog-friendly', 'patio', 'food-service', 'food-truck', 'tours'. Defaults to 'patio'.",
+                "default": "patio"
+            }
+        },
+        "required": []
+    }
+}

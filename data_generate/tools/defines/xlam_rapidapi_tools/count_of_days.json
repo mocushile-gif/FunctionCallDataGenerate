@@ -1,0 +1,17 @@
+{
+    "name": "count_of_days",
+    "description": "This is a sub-function API for tool enoch_calendar.\nTool description: Access the Biblical Holydays and Sabbaths using the Enoch Calendar\nAPI description: Fetches the count of days in the current Hebrew year from a given date string or today's date.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "datestring": {
+                "type": "string",
+                "description": "The date for which the number of days in the current Hebrew year is to be determined.",
+                "default": "2021-03-30"
+            }
+        },
+        "required": [
+            "datestring"
+        ]
+    }
+}

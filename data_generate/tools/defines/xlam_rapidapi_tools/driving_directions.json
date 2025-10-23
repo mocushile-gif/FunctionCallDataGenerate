@@ -1,0 +1,31 @@
+{
+    "name": "driving_directions",
+    "description": "This is a sub-function API for tool waze.\nTool description: Get alerts, traffic jams information and driving directions from Waze/Google in real-time.\nAPI description: Fetches driving directions and routes between specified source and destination coordinates using the Waze/Google API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "source_coordinates": {
+                "type": "string",
+                "description": "Geographic coordinates (latitude, longitude pair) of the starting point.",
+                "default": "32.0852999,34.78176759999999"
+            },
+            "destination_coordinates": {
+                "type": "string",
+                "description": "Geographic coordinates (latitude, longitude pair) of the destination.",
+                "default": "32.7940463,34.989571"
+            },
+            "return_route_coordinates": {
+                "type": "boolean",
+                "description": "Whether to return route coordinate pairs (`route_coordinates` field)"
+            },
+            "arrival_timestamp": {
+                "type": "number",
+                "description": "Unix timestamp (seconds since epoch) of the desired arrival time. Defaults to None, which returns directions for the current time."
+            }
+        },
+        "required": [
+            "source_coordinates",
+            "destination_coordinates"
+        ]
+    }
+}

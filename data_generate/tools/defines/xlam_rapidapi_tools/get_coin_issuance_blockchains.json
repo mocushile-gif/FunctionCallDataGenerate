@@ -1,0 +1,27 @@
+{
+    "name": "get_coin_issuance_blockchains",
+    "description": "This is a sub-function API for tool coinranking.\nTool description: A simple API for Cryptocurrency Prices - 28k+ users - Real-Time & Historical - Crypto Market Data - Coins - Exchanges - Free & Paid\nAPI description: Get the issuance blockchains on which the coin is issued.\nThis endpoint requires the **ultra** plan or higher.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "uuid": {
+                "type": "string",
+                "description": "UUID of the coin for which the blockchains are being requested.",
+                "default": "Qwsogvtv82FCd"
+            },
+            "offset": {
+                "type": "number",
+                "description": "Offset. Used for pagination\n\nDefault value: 0",
+                "default": 0.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "Maximum number of results to return. Default is 50, with a valid range of 0-100.",
+                "default": 50.0
+            }
+        },
+        "required": [
+            "uuid"
+        ]
+    }
+}

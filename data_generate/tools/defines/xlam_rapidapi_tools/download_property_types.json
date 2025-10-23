@@ -1,0 +1,19 @@
+{
+    "name": "download_property_types",
+    "description": "This is a sub-function API for tool priceline_com_provider.\nTool description: priceline.com | Lets you search hotels, cars for rent, flights. **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters **Other travel  api:** https://rapi.one\nAPI description: Downloads a list of property types from the Priceline API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "Limits the number of results from the response. Defaults to 100.",
+                "default": 100
+            },
+            "resume_key": {
+                "type": "string",
+                "description": "Resume results from the given ID. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

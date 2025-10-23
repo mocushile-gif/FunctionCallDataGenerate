@@ -1,0 +1,19 @@
+{
+    "name": "getfeedversions",
+    "description": "This is a sub-function API for tool transitfeeds.\nTool description: An extensive collection of official public transit data from around the world, including GTFS, GTFS-RealTime and more.\nAPI description: Retrieve a list of feed versions from the TransitFeeds API, optionally filtering the results based on the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "feed": {
+                "type": "string",
+                "description": "The feed ID to restrict results to. Defaults to 'sfmta/60'.",
+                "default": "sfmta/60"
+            },
+            "page": {
+                "type": "string",
+                "description": "The page of results to return. If None, the first page is returned."
+            }
+        },
+        "required": []
+    }
+}

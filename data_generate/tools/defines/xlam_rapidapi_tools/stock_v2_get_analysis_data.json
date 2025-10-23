@@ -1,0 +1,17 @@
+{
+    "name": "stock_v2_get_analysis_data",
+    "description": "This is a sub-function API for tool ms_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc... to create a site/application such as morningstar.com\nAPI description: Fetch analysis data for a specific stock using Morningstar API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "performanceid": {
+                "type": "string",
+                "description": "The performance ID of the stock, obtained from endpoints such as auto-complete, get-summary, or get-movers.",
+                "default": "0P0000OQN8"
+            }
+        },
+        "required": [
+            "performanceid"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "album_tracks",
+    "description": "This is a sub-function API for tool spotify_data.\nTool description: Spotify Data\nAPI description: Fetches the tracks of a specified album from the Spotify API using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier for the album.",
+                "default": "3IBcauSj5M2A6lTeffJzdv"
+            },
+            "offset": {
+                "type": "number",
+                "description": "The starting point for the track list. Defaults to 0.",
+                "default": 0.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of tracks to return. Defaults to 300.",
+                "default": 300.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

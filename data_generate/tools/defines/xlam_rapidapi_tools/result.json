@@ -1,0 +1,22 @@
+{
+    "name": "result",
+    "description": "This is a sub-function API for tool sports_betting_api.\nTool description: Get up and running in less than 5 minutes with our comprehensive developer documentation. Get Start - https://bet365soft.com/docs\nAPI description: This function retrieves the result of a sports event using the specified language and event ID, by querying the Sports Betting API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lang": {
+                "type": "string",
+                "description": "Language code for the results (e.g., 'en' for English).",
+                "default": "en"
+            },
+            "evt": {
+                "type": "number",
+                "description": "Event ID for which the result is to be fetched."
+            }
+        },
+        "required": [
+            "lang",
+            "evt"
+        ]
+    }
+}

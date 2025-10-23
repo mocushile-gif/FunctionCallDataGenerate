@@ -1,0 +1,15 @@
+{
+    "name": "totd_tracks_by_page",
+    "description": "This is a sub-function API for tool trackmania.\nTool description: Get Stats, Matches and Leaderboards from Trackmania (Unofficial).\nAPI description: Fetches the Track of the Day (TOTD) tracks from the Trackmania API by page number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The result page, each containing 50 results. Default page is `0`.",
+                "default": 0.0
+            }
+        },
+        "required": []
+    }
+}

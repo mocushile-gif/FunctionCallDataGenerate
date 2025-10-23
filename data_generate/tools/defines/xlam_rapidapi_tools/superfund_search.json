@@ -1,0 +1,29 @@
+{
+    "name": "superfund_search",
+    "description": "This is a sub-function API for tool epa_superfunds.\nTool description: An intuitive endpoint to query the EPA Superfunds list. Query epaId, epaIdLink, frsLink, name, address, city, state, zipcode, county, federalFacilityStatus, nplStatus, lat, lng.\nAPI description: Search for Superfund sites based on provided latitude, longitude, and radius.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "radius": {
+                "type": "string",
+                "description": "The radius within which to search for Superfund sites.",
+                "default": "2"
+            },
+            "lat": {
+                "type": "string",
+                "description": "The latitude coordinate for the center of the search.",
+                "default": "37.391935"
+            },
+            "lng": {
+                "type": "string",
+                "description": "The longitude coordinate for the center of the search.",
+                "default": "-122.079515"
+            }
+        },
+        "required": [
+            "radius",
+            "lat",
+            "lng"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "register_device_information",
+    "description": "This is a sub-function API for tool tiktok_video_feature_summary.\nTool description: Contains TikTok && Douyin HD videos without watermark and user, post, music, search, feeds, comments, followers, and trends. And if you need any help you can send me private message or Email : labppabp@hotmail.com, Telegram (https://t.me/voyagell)\n\nAPI description: Registers a device by sending its information to a specified endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "aid": {
+                "type": "number",
+                "description": "App identifier for the device.",
+                "default": 1180.0
+            },
+            "version": {
+                "type": "string",
+                "description": "Version code of the app. Defaults to '250304'.",
+                "default": "250304"
+            },
+            "os": {
+                "type": "string",
+                "description": "Operating system version of the device. Defaults to '7.1.2'.",
+                "default": "7.1.2"
+            }
+        },
+        "required": [
+            "aid"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "listallairports",
+    "description": "This is a sub-function API for tool world_airports_directory.\nTool description: API returns all matching airpot details based on the most relevant keyword of city, airport code, city code etc. among collection of all airports around the world.\nAPI description: Fetches a list of airports from the World Airports Directory API using the provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of airports to return.",
+                "default": 20
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve.",
+                "default": 1
+            },
+            "sortby": {
+                "type": "string",
+                "description": "Valid format to sort is `field:order`\ne.g. `name:asc`, `name:desc`\nwhere `asc` for sorting in ascending order\n`desc` for sorting in descending order",
+                "default": "name:asc"
+            }
+        },
+        "required": [
+            "limit",
+            "page",
+            "sortby"
+        ]
+    }
+}

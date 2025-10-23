@@ -1,0 +1,29 @@
+{
+    "name": "planet_vector_tiles",
+    "description": "This is a sub-function API for tool maptoolkit.\nTool description: A toolkit for maps: Map tiles, address search (geocoding), routing, static maps & elevation\nAPI description: Retrieves global planet vector tiles in Protocolbuffer Binary Format (PBF) from the specified map service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "y": {
+                "type": "string",
+                "description": "The y coordinate (tile row) of the map tile.",
+                "default": "1"
+            },
+            "x": {
+                "type": "string",
+                "description": "The x coordinate (tile column) of the map tile.",
+                "default": "1"
+            },
+            "z": {
+                "type": "string",
+                "description": "The zoom level of the map tile.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "y",
+            "x",
+            "z"
+        ]
+    }
+}

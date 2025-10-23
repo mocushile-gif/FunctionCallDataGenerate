@@ -1,0 +1,17 @@
+{
+    "name": "rulesets",
+    "description": "This is a sub-function API for tool spellout.\nTool description: This API allows converting numbers to spelled-out format in any language, e.g.: 1234 -> “one thousand two hundred thirty-four”.\nAPI description: Fetches the list of available rule sets for the specified language from the API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lang": {
+                "type": "string",
+                "description": "2 letter ICO 639 language code. Specifies language for which all availible rule sets will be provided. Use /v1/languages endpoint to list all supported languages.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "lang"
+        ]
+    }
+}

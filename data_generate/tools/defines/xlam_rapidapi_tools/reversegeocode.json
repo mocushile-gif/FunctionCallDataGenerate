@@ -1,0 +1,22 @@
+{
+    "name": "reversegeocode",
+    "description": "This is a sub-function API for tool trueway_geocoding.\nTool description: Forward and Reverse Geocoding\nAPI description: Obtain the human-readable address for a given geographical location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The latitude and longitude coordinates (comma-separated) for which to obtain the address.",
+                "default": "37.7879493,-122.3961974"
+            },
+            "language": {
+                "type": "string",
+                "description": "The language in which to return results. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

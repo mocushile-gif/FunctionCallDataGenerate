@@ -1,0 +1,17 @@
+{
+    "name": "spac_calendar",
+    "description": "This is a sub-function API for tool spachero_spac_database.\nTool description: Official spacHero  SPAC API  with live rankings, SPAC target names, merger meetings, warrant redemption deadlines, price targets, SEC filings, investor presentations and more.\nAPI description: Get important SPAC dates such as merger meetings dates, warrant redemption deadlines, definitive agreement dates, unit split (estimate), SPAC deadline (estimate).\n\nAvailable options: merger, split, deadline, redemption",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of SPAC date information desired. Available options are 'merger', 'split', 'deadline', and 'redemption'.",
+                "default": "redemption"
+            }
+        },
+        "required": [
+            "type"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_by_tvdb_id",
+    "description": "This is a sub-function API for tool mdblist.\nTool description: Get Movies and TV Shows data with ratings from multiple providers in JSON format\nAPI description: Fetches TV Show information from the MDB List API using the given TVDB ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tv": {
+                "type": "number",
+                "description": "The TVDB ID of the TV Show to fetch information for.",
+                "default": 273181.0
+            }
+        },
+        "required": [
+            "tv"
+        ]
+    }
+}

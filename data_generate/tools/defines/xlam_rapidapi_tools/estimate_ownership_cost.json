@@ -1,0 +1,27 @@
+{
+    "name": "estimate_ownership_cost",
+    "description": "This is a sub-function API for tool car_utils.\nTool description: FREE resources for checking VIN, getting the market value of your car, estimating the cost of ownership in US,  checking fuel economy, and more to come.\nAPI description: Estimates the ownership cost for a vehicle over the next 5 years based on the vehicle's VIN, annual mileage, and starting mileage.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vin": {
+                "type": "string",
+                "description": "[Vehicle identification number](https://www.autocheck.com/vehiclehistory/vin-basics).",
+                "default": "5N3AA08D68N901917"
+            },
+            "mileage_year": {
+                "type": "number",
+                "description": "An estimate of many miles you will drive every year for the next 5 years. Defaults to 15000.",
+                "default": 15000.0
+            },
+            "mileage_start": {
+                "type": "number",
+                "description": "The starting mileage of the car. Defaults to 50,000 if unspecified.",
+                "default": 50000.0
+            }
+        },
+        "required": [
+            "vin"
+        ]
+    }
+}

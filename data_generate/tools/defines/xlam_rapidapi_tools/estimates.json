@@ -1,0 +1,17 @@
+{
+    "name": "estimates",
+    "description": "This is a sub-function API for tool holistic_finance_stock_data.\nTool description: Provides stock data based on multiple sources such as Yahoo Finance.\nAPI description: Retrieves estimates for a specified stock symbol using the Holistic Finance API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to retrieve estimates.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

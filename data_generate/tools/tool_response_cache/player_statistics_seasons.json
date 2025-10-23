@@ -1,0 +1,192 @@
+{
+    "{'player_id': 12345}": {
+        "error": "",
+        "response": {
+            "detail": "Object not found"
+        }
+    },
+    "{'player_id': 67890}": {
+        "error": "",
+        "response": {
+            "data": {
+                "uniqueTournamentSeasons": [
+                    {
+                        "uniqueTournament": {
+                            "name": "A Lyga",
+                            "slug": "a-lyga",
+                            "primaryColorHex": "#ad0106",
+                            "secondaryColorHex": "#e00305",
+                            "category": {
+                                "name": "Lithuania",
+                                "slug": "lithuania",
+                                "sport": {
+                                    "name": "Football",
+                                    "slug": "football",
+                                    "id": 1
+                                },
+                                "id": 160,
+                                "flag": "lithuania",
+                                "alpha2": "LT"
+                            },
+                            "userCount": 3015,
+                            "id": 198,
+                            "displayInverseHomeAwayTeams": false
+                        },
+                        "seasons": [
+                            {
+                                "name": "A Lyga 2023",
+                                "year": "2023",
+                                "editor": false,
+                                "seasonCoverageInfo": {},
+                                "id": 48778
+                            },
+                            {
+                                "name": "A Lyga 2022",
+                                "year": "2022",
+                                "editor": false,
+                                "id": 40735
+                            },
+                            {
+                                "name": "A Lyga 2020",
+                                "year": "2020",
+                                "editor": false,
+                                "id": 27581
+                            },
+                            {
+                                "name": "A Lyga 2018",
+                                "year": "2018",
+                                "editor": false,
+                                "id": 16079
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueTournament": {
+                            "name": "World Championship Qual. UEFA",
+                            "slug": "world-championship-qual-uefa",
+                            "primaryColorHex": "#9a1133",
+                            "secondaryColorHex": "#c11541",
+                            "category": {
+                                "name": "Europe",
+                                "slug": "europe",
+                                "sport": {
+                                    "name": "Football",
+                                    "slug": "football",
+                                    "id": 1
+                                },
+                                "id": 1465,
+                                "flag": "europe"
+                            },
+                            "userCount": 166914,
+                            "id": 11,
+                            "displayInverseHomeAwayTeams": false
+                        },
+                        "seasons": [
+                            {
+                                "name": "World Cup 2018, Qualification, UEFA",
+                                "year": "2018",
+                                "editor": false,
+                                "id": 10585
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueTournament": {
+                            "name": "Virsliga",
+                            "slug": "virsliga",
+                            "primaryColorHex": "#fc0515",
+                            "secondaryColorHex": "#b5b5b5",
+                            "category": {
+                                "name": "Latvia",
+                                "slug": "latvia",
+                                "sport": {
+                                    "name": "Football",
+                                    "slug": "football",
+                                    "id": 1
+                                },
+                                "id": 163,
+                                "flag": "latvia",
+                                "alpha2": "LV"
+                            },
+                            "userCount": 3992,
+                            "id": 197,
+                            "displayInverseHomeAwayTeams": false
+                        },
+                        "seasons": [
+                            {
+                                "name": "Virsliga 2017",
+                                "year": "2017",
+                                "editor": false,
+                                "id": 12968
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueTournament": {
+                            "name": "UEFA Europa League",
+                            "slug": "uefa-europa-league",
+                            "secondaryColorHex": "#f37d25",
+                            "category": {
+                                "name": "Europe",
+                                "slug": "europe",
+                                "sport": {
+                                    "name": "Football",
+                                    "slug": "football",
+                                    "id": 1
+                                },
+                                "id": 1465,
+                                "flag": "europe"
+                            },
+                            "userCount": 577601,
+                            "id": 679,
+                            "displayInverseHomeAwayTeams": false
+                        },
+                        "seasons": [
+                            {
+                                "name": "UEFA Europa League 13/14",
+                                "year": "13/14",
+                                "editor": false,
+                                "id": 6361
+                            }
+                        ]
+                    }
+                ],
+                "typesMap": {
+                    "198": {
+                        "40735": [
+                            "overall"
+                        ],
+                        "27581": [
+                            "overall"
+                        ],
+                        "48778": [
+                            "overall"
+                        ],
+                        "16079": [
+                            "overall"
+                        ]
+                    },
+                    "197": {
+                        "12968": [
+                            "overall"
+                        ]
+                    },
+                    "679": {
+                        "6361": [
+                            "overall"
+                        ]
+                    },
+                    "11": {
+                        "10585": [
+                            "overall"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "{'player_id': 12994}": {
+        "error": "",
+        "response": "{'data': {'uniqueTournamentSeasons': [{'uniqueTournament': {'name': 'World Championship', 'slug': 'world-championship', 'primaryColorHex': '#d20a11', 'secondaryColorHex': '#e8bb57', 'category': {'name': 'World', 'slug': 'world', 'sport': {'name': 'Football', 'slug': 'football', 'id': 1}, 'id': 1468, 'flag': 'international'}, 'userCount': 1177167, 'id': 16, 'displayInverseHomeAwayTeams': False}, 'seasons': [{'name': 'World Cup 2022', 'year': '2022', 'editor': False, 'id': 41087}, {'name': 'World Cup 2018', 'year': '2018', 'editor': False, 'id': 15586}, {'name': 'World Cup 2014', 'year': '2014', 'editor': False, 'id': 7528}, {'name': 'World Cup 2010', 'year': '2010', 'editor': False, 'id': 2531}, {'name': 'World Cup 2006', 'year': '2006', 'editor': False, 'id': 16}]}, {'uniqueTournament': {'name': 'Ligue 1', 'slug': 'ligue-1', 'primaryColorHex': '#091c3e', 'secondaryColorHex': '#a9c011', 'category': {'name': 'France', 'slug': 'france', 'sport': {'name': 'Football', 'slug': 'football', 'id': 1}, 'id': 7, 'flag': 'france', 'alpha2': 'FR'}, 'userCount': 495446, 'id': 34, 'displayInverseHomeAwayTeams': False}, 'seasons': [{'name': 'Ligue 1 22/23', 'year': '22/23', 'editor': False, 'seasonCoverageInfo': {}, 'id': 42273}, {'name': 'Ligue 1 21/22', 'year': '21/22', 'editor': False, 'id': 37167}]}, {'uniqueTournament': {'name': 'UEFA Champions League', 'slug': 'uefa-champions-league', 'primaryColorHex': '#062b5c', 'secondaryColorHex': '#086aab', 'category': {'name': 'Europe', 'slug': 'europe', 'sport': {'name': 'Football', 'slug': 'football', 'id': 1}, 'id': 1465, 'flag': 'europe'}, 'userCount': 1119850, 'id': 7, 'displayInverseHomeAwayTeams': False}, 'seasons': [{'name': 'UEFA Champions League 22/23', 'year': '22/23', 'editor': False, 'seasonCoverageInfo': {}, 'id': 41897}, {'name': 'UEFA Champions League 21/22', 'year': '21/22', 'editor': False, 'id': 36886}, {'name': 'UEFA Champions League 20/21', 'year': '20/21', 'editor': False, 'id': 29267}, {'name': 'UEFA Champions League 19/20', 'year': '19/20', 'editor': False, 'i"
+    }
+}

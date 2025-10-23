@@ -1,0 +1,23 @@
+{
+    "name": "public_holidays",
+    "description": "This is a sub-function API for tool public_holiday.\nTool description: An API for Public Holidays & Bank Holidays\nAPI description: Returns the public holidays from a given year and country.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "countrycode": {
+                "type": "string",
+                "description": "The code of the country for which to fetch public holidays (e.g., 'US' for the United States).",
+                "default": "US"
+            },
+            "year": {
+                "type": "string",
+                "description": "The year for which to fetch public holidays.",
+                "default": "2019"
+            }
+        },
+        "required": [
+            "countrycode",
+            "year"
+        ]
+    }
+}

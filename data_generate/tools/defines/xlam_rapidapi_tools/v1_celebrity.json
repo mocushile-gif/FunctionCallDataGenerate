@@ -1,0 +1,35 @@
+{
+    "name": "v1_celebrity",
+    "description": "This is a sub-function API for tool celebrity_by_api_ninjas.\nTool description: Get information on all your favorite celebrities. See more info at https://api-ninjas.com/api/celebrity.\nAPI description: Fetches information about celebrities using the API Ninjas Celebrity API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "Name of the celebrity you wish to search for. This field is case-insensitive. Default is 'Michael Jordan'.",
+                "default": "Michael Jordan"
+            },
+            "min_height": {
+                "type": "string",
+                "description": "Minimum height of celebrities in meters (e.g. '1.65'). Default is None."
+            },
+            "min_net_worth": {
+                "type": "number",
+                "description": "Minimum net worth of celebrities. Default is None."
+            },
+            "nationality": {
+                "type": "string",
+                "description": "Nationality of celebrities, specified as an ISO 3166 Alpha-2 country code (e.g. 'US'). Default is None."
+            },
+            "max_net_worth": {
+                "type": "number",
+                "description": "Maximum net worth of celebrities. Default is None."
+            },
+            "max_height": {
+                "type": "string",
+                "description": "Maximum height of celebrities in meters (e.g. '1.80'). Default is None."
+            }
+        },
+        "required": []
+    }
+}

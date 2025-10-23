@@ -1,0 +1,17 @@
+{
+    "name": "bin",
+    "description": "This is a sub-function API for tool credit_card_bin_checker_validator.\nTool description: Credit Card BIN Checker/Validator consists of 900,000 BINs worldwide that allows you to quickly and easily check the Bank Identification Number (BIN) of a credit or debit card. With just 6, 8 or 9 BIN length (depending on the bank), you can integrate the API into your website or application to verify card information and prevent fraudulent transactions.\nAPI description: Queries the BIN (Bank Identification Number) information using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "bin": {
+                "type": "string",
+                "description": "The BIN (Bank Identification Number) to be checked.",
+                "default": "557054"
+            }
+        },
+        "required": [
+            "bin"
+        ]
+    }
+}

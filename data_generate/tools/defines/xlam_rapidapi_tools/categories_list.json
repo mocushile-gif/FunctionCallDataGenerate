@@ -1,0 +1,23 @@
+{
+    "name": "categories_list",
+    "description": "This is a sub-function API for tool hm_hennes_mauritz.\nTool description: H&M API helps to query for all information about regions, categories, products, etc... as on official websites\nAPI description: Retrieves a list of categories from the ASOS API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The country code that is gotten from /regions/list endpoint",
+                "default": "us"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code that is gotten from /regions/list endpoint",
+                "default": "en"
+            }
+        },
+        "required": [
+            "country",
+            "lang"
+        ]
+    }
+}

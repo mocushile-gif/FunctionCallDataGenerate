@@ -1,0 +1,17 @@
+{
+    "name": "actors_get_all_images",
+    "description": "This is a sub-function API for tool online_movie_database.\nTool description: This API helps to query for all information about films, actors, characters,etc... to create a movie/series/streaming content site/application\nAPI description: Returns all images of a specific actor or actress based on their unique identifier (nconst).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "nconst": {
+                "type": "string",
+                "description": "You need to extract the value started with \"nm\" returned in …/actors/list-born-today or …/actors/list-most-popular-celebs endpoint. Ex : nm0001667",
+                "default": "nm0001667"
+            }
+        },
+        "required": [
+            "nconst"
+        ]
+    }
+}

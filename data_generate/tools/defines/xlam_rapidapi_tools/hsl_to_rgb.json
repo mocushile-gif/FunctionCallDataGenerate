@@ -1,0 +1,29 @@
+{
+    "name": "hsl_to_rgb",
+    "description": "This is a sub-function API for tool convexity.\nTool description: Convexity is an Color-convertor API that offers endpoints for converting between different color representations, including RGB, HSL, and CMYK\nAPI description: Converts HSL color values to RGB color values using an external API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "s": {
+                "type": "number",
+                "description": "Saturation component of the HSL color value (0-100).",
+                "default": 78.0
+            },
+            "h": {
+                "type": "number",
+                "description": "Hue component of the HSL color value (0-360).",
+                "default": 250.0
+            },
+            "l": {
+                "type": "number",
+                "description": "Lightness component of the HSL color value (0-100).",
+                "default": 45.0
+            }
+        },
+        "required": [
+            "s",
+            "h",
+            "l"
+        ]
+    }
+}

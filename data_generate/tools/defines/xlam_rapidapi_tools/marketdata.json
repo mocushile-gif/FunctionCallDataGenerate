@@ -1,0 +1,17 @@
+{
+    "name": "marketdata",
+    "description": "This is a sub-function API for tool marktdaten_deutschland.\nTool description: Prognose des regionalen Strompreises\nAPI description: Fetches regional electricity price forecast based on a provided German zip code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zip": {
+                "type": "string",
+                "description": "The postal code in Germany for which to retrieve the electricity price forecast.",
+                "default": "69256"
+            }
+        },
+        "required": [
+            "zip"
+        ]
+    }
+}

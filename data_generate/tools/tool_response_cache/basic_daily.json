@@ -1,0 +1,16 @@
+{
+    "{'date': '2025-05-11'}": {
+        "error": "",
+        "response": {
+            "date": "2025-05-11",
+            "download_url": "https://daily-sec-financial-statement-dataset.p.rapidapi.com/daily_files/2025-05-11.zip",
+            "filings_count": 142,
+            "includes": [
+                "10-Q",
+                "10-K"
+            ],
+            "status": "available",
+            "note": "This file contains daily submissions older than 21 days as per basic subscription terms. Data structure aligns with SEC AQFS format without TAG files and limited SUB attributes."
+        }
+    }
+}

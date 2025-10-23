@@ -1,0 +1,16 @@
+{
+    "name": "gettodaysforecast",
+    "description": "This is a sub-function API for tool simple_surf_forecast_api.\nTool description: Surf forecast api very simple to use\nAPI description: Fetches today's surf forecast for a given spot using the Simple Surf Forecast API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "spotid": {
+                "type": "string",
+                "description": "The unique identifier for the surf spot."
+            }
+        },
+        "required": [
+            "spotid"
+        ]
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "{'date': '2022-12-01', 'range': '1-20'}": {
+        "error": "",
+        "response": {
+            "info": {
+                "category": "Billboard",
+                "chart": "HOT TRENDING SONGS POWERED BY TWITTER",
+                "date": "2022-12-03",
+                "source": "Billboard-API"
+            },
+            "content": {
+                "1": {
+                    "rank": "1",
+                    "title": "Dreamers (Music From The FIFA World Cup Qatar 2022)",
+                    "artist": "Jung Kook",
+                    "weeks at no.1": "1",
+                    "award": false,
+                    "last week": "None",
+                    "peak position": "1",
+                    "weeks on chart": "1",
+                    "detail": "new"
+                },
+                "2": {
+                    "rank": "2",
+                    "title": "Birthday",
+                    "artist": "Red Velvet",
+                    "award": false,
+                    "last week": "None",
+                    "peak position": "2",
+                    "weeks on chart": "1",
+                    "detail": "new"
+                },
+                "3": {
+                    "rank": "3",
+                    "title": "Bibi Vengeance",
+                    "artist": "BIBI",
+                    "award": false,
+                    "last week": "None",
+                    "peak position": "3",
+                    "weeks on chart": "1",
+                    "detail": "new"
+                },
+                "4": {
+                    "rank": "4",
+                    "title": "Adieu",
+                    "artist": "Rammstein",
+                    "award": false,
+                    "last week": "None",
+                    "peak position": "4",
+                    "weeks on chart": "1",
+                    "detail": "new"
+                },
+                "5": {
+                    "rank": "5",
+                    "title": "JOTTO",
+                    "artist": "BIBI",
+                    "award": false,
+                    "last week": "None",
+                    "peak position": "5",
+                    "weeks on chart": "1",
+                    "detail": "new"
+                },
+                "6": {
+                    "rank": "6",
+                    "title": "Lucky Like That",
+                    "artist": "Girls' Generation",
+                    "award": false,
+                    "last week": "None",
+                    "peak position": "6",
+                    "weeks on chart": "1",
+                    "detail": "new"
+                },
+                "7": {
+                    "rank": "7",
+                    "title": "Lowlife Princess",
+                    "artist": "BIBI",
+                    "award": false,
+                    "last week": "None",
+                    "peak position": "7",
+                    "weeks on chart": "1",
+                    "detail": "new"
+                },
+                "8": {
+                    "rank": "8",
+                    "title": "Liar",
+                    "artist": "Camila Cabello",
+                    "award": false,
+                    "last week": "None",
+                    "peak position": "8",
+                    "weeks on chart": "1",
+                    "detail": "new"
+                },
+                "9": {
+                    "rank": "9",
+                    "title": "More",
+                    "artist": "Mark Tuan",
+                    "award": false,
+                    "last week": "None",
+                    "peak position": "9",
+                    "weeks on chart": "1",
+                    "detail": "new"
+                },
+                "10": {
+                    "rank": "10",
+                    "title": "No Tears",
+                    "artist": "Mark Tuan",
+                    "award": false,
+                    "last week": "None",
+                    "peak position": "10",
+                    "weeks on chart": "1",
+                    "detail": "new"
+                }
+            },
+            "notice": "This plan is only available up to the top 10 in the ranking. For more ranking information, please upgrade your plan."
+        }
+    },
+    "{'date': '2025-06-01', 'range': '1-3'}": {
+        "error": "",
+        "response": "{'ERROR': 'Please check the endpoint address and parameters.', 'notice': 'The Billboard-API is updated weekly and the Billboard chart is based on Saturday.'}"
+    },
+    "{'date': '2025-05-25', 'range': '1-3'}": {
+        "error": "",
+        "response": "{'ERROR': 'Please check the endpoint address and parameters.', 'notice': 'The Billboard-API is updated weekly and the Billboard chart is based on Saturday.'}"
+    },
+    "{'date': '2025-06-02', 'range': '1-10'}": {
+        "error": "",
+        "response": "{'ERROR': 'Please check the endpoint address and parameters.', 'notice': 'The Billboard-API is updated weekly and the Billboard chart is based on Saturday.'}"
+    },
+    "{'date': '2025-05-31', 'range': '1-10'}": {
+        "error": "",
+        "response": "{'ERROR': 'Please check the endpoint address and parameters.', 'notice': 'The Billboard-API is updated weekly and the Billboard chart is based on Saturday.'}"
+    },
+    "{'date': '2025-06-01', 'range': '1-10'}": {
+        "error": "",
+        "response": "{'ERROR': 'Please check the endpoint address and parameters.', 'notice': 'The Billboard-API is updated weekly and the Billboard chart is based on Saturday.'}"
+    },
+    "{'date': '2025-05-25', 'range': '1-10'}": {
+        "error": "",
+        "response": "{'ERROR': 'Please check the endpoint address and parameters.', 'notice': 'The Billboard-API is updated weekly and the Billboard chart is based on Saturday.'}"
+    },
+    "{'date': '2025-06-01', 'range': '1-20'}": {
+        "error": "",
+        "response": "{'ERROR': 'Please check the endpoint address and parameters.', 'notice': 'The Billboard-API is updated weekly and the Billboard chart is based on Saturday.'}"
+    },
+    "{'date': '2021-11-06', 'range': '1-10'}": {
+        "error": "",
+        "response": "{'info': {'category': 'Billboard', 'chart': 'HOT TRENDING SONGS POWERED BY TWITTER', 'date': '2021-11-06', 'source': 'Billboard-API'}, 'content': {'1': {'rank': '1', 'title': 'Butter', 'artist': 'BTS', 'weeks at no.1': '1', 'award': False, 'last week': '7', 'peak position': '1', 'weeks on chart': '2', 'detail': 'up'}, '2': {'rank': '2', 'title': 'Rock With You', 'artist': 'SEVENTEEN', 'award': False, 'last week': 'None', 'peak position': '2', 'weeks on chart': '1', 'detail': 'new'}, '3': {'rank': '3', 'title': 'Permission To Dance', 'artist': 'BTS', 'award': False, 'last week': '1', 'peak position': '1', 'weeks on chart': '2', 'detail': 'down'}, '4': {'rank': '4', 'title': 'Money', 'artist': 'Lisa', 'award': False, 'last week': '2', 'peak position': '2', 'weeks on chart': '2', 'detail': 'down'}, '5': {'rank': '5', 'title': 'Lalisa', 'artist': 'Lisa', 'award': False, 'last week': '3', 'peak position': '3', 'weeks on chart': '2', 'detail': 'down'}, '6': {'rank': '6', 'title': 'Savage', 'artist': 'aespa', 'award': False, 'last week': '6', 'peak position': '6', 'weeks on chart': '2', 'detail': 'same'}, '7': {'rank': '7', 'title': 'Spaceman', 'artist': 'Mew Suppasit', 'award': False, 'last week': 'None', 'peak position': '7', 'weeks on chart': '1', 'detail': 'new'}, '8': {'rank': '8', 'title': 'Tamed-Dashed', 'artist': 'ENHYPEN', 'award': False, 'last week': '5', 'peak position': '5', 'weeks on chart': '2', 'detail': 'down'}, '9': {'rank': '9', 'title': 'My Universe', 'artist': 'Coldplay x BTS', 'award': False, 'last week': '4', 'peak position': '4', 'weeks on chart': '2', 'detail': 'down'}, '10': {'rank': '10', 'title': 'Dynamite', 'artist': 'BTS', 'award': False, 'last week': '12', 'peak position': '10', 'weeks on chart': '2', 'detail': 'up'}}}"
+    },
+    "{'date': '2021-12-01', 'range': '1-10'}": {
+        "error": "",
+        "response": "{'info': {'category': 'Billboard', 'chart': 'HOT TRENDING SONGS POWERED BY TWITTER', 'date': '2021-12-04', 'source': 'Billboard-API'}, 'content': {'1': {'rank': '1', 'title': 'Butter', 'artist': 'BTS', 'weeks at no.1': '5', 'award': False, 'last week': '1', 'peak position': '1', 'weeks on chart': '6', 'detail': 'same'}, '2': {'rank': '2', 'title': 'My Universe', 'artist': 'Coldplay x BTS', 'award': False, 'last week': '8', 'peak position': '2', 'weeks on chart': '6', 'detail': 'up'}, '3': {'rank': '3', 'title': 'Spaceman', 'artist': 'Mew Suppasit', 'award': False, 'last week': '2', 'peak position': '2', 'weeks on chart': '5', 'detail': 'down'}, '4': {'rank': '4', 'title': 'Fly Away', 'artist': 'Dimash Kudaibergen', 'award': False, 'last week': '3', 'peak position': '3', 'weeks on chart': '4', 'detail': 'down'}, '5': {'rank': '5', 'title': 'Permission To Dance', 'artist': 'BTS', 'award': False, 'last week': '13', 'peak position': '1', 'weeks on chart': '6', 'detail': 'up'}, '6': {'rank': '6', 'title': 'Be With Me', 'artist': 'Dimash Kudaibergen', 'award': False, 'last week': '6', 'peak position': '6', 'weeks on chart': '2', 'detail': 'same'}, '7': {'rank': '7', 'title': 'Gifted.', 'artist': 'BE:FIRST', 'award': False, 'last week': '7', 'peak position': '7', 'weeks on chart': '3', 'detail': 'same'}, '8': {'rank': '8', 'title': 'Bazinga', 'artist': 'SB19', 'award': False, 'last week': '10', 'peak position': '5', 'weeks on chart': '4', 'detail': 'up'}, '9': {'rank': '9', 'title':"
+    }
+}

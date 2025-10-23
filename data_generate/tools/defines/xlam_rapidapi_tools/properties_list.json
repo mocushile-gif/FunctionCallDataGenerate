@@ -1,0 +1,198 @@
+{
+    "name": "properties_list",
+    "description": "This is a sub-function API for tool idealista_v2.\nTool description: Query for rent and sale properties in Spain, Italy, Portugal\nAPI description: List properties for sale or rent in Italy, Spain, Portugal with options and filters",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "operation": {
+                "type": "string",
+                "description": "Type of operation, either \"rent\" or \"sale\".",
+                "default": "rent"
+            },
+            "locationname": {
+                "type": "string",
+                "description": "Name of the location as returned by the auto-complete endpoint.",
+                "default": "Caffarella, Roma"
+            },
+            "locationid": {
+                "type": "string",
+                "description": "The value of locationId field returned in .../auto-complete endpoint. Do NOT use together with zoiId parameter ",
+                "default": "0-EU-IT-RM-01-001-097-09-003"
+            },
+            "country": {
+                "type": "string",
+                "description": "Country code, one of \"it\", \"es\", \"pt\". Defaults to \"it\".",
+                "default": "it"
+            },
+            "childrenallowed": {
+                "type": "boolean",
+                "description": "Specifies if children are allowed. Defaults to None."
+            },
+            "floorheights": {
+                "type": "string",
+                "description": "One of the following topFloor|intermediateFloor|groundFloor (separated by comma for multiple values. Ex :  topFloor,groundFloor)"
+            },
+            "hashousekeeper": {
+                "type": "boolean",
+                "description": "Indicates if a housekeeper is available. Defaults to None."
+            },
+            "couplesallowed": {
+                "type": "boolean",
+                "description": "Specifies if couples are allowed. Defaults to None."
+            },
+            "garden": {
+                "type": "boolean",
+                "description": "Indicates if the property has a garden. Defaults to None."
+            },
+            "privatetoilet": {
+                "type": "boolean",
+                "description": "Indicates if the property has a private toilet. Defaults to None."
+            },
+            "terrace": {
+                "type": "boolean",
+                "description": "Indicates if the property has a terrace. Defaults to None."
+            },
+            "swimmingpool": {
+                "type": "boolean",
+                "description": "Indicates if the property has a swimming pool. Defaults to None."
+            },
+            "privateowner": {
+                "type": "boolean",
+                "description": "Indicates if the owner is private. Defaults to None."
+            },
+            "elevator": {
+                "type": "boolean",
+                "description": "Indicates if the property has an elevator. Defaults to None."
+            },
+            "airconditioning": {
+                "type": "boolean",
+                "description": "Indicates if the property has air conditioning. Defaults to None."
+            },
+            "accessible": {
+                "type": "boolean",
+                "description": "Specifies if the property is accessible. Defaults to None."
+            },
+            "gaypartners": {
+                "type": "boolean",
+                "description": "Specifies if gay partners are allowed. Defaults to None."
+            },
+            "distance": {
+                "type": "number",
+                "description": "Radius to look for properties within. Defaults to None."
+            },
+            "ispoi": {
+                "type": "boolean",
+                "description": "true|false - Whether or not is it a point of interest, this parameter only works with zoiId parameter"
+            },
+            "maxitems": {
+                "type": "number",
+                "description": "Maximum number of items per response for paging purposes. Defaults to 40.",
+                "default": 40.0
+            },
+            "zoiid": {
+                "type": "string",
+                "description": "The value of zoiId field returned in .../auto-complete endpoint. Do NOT use together with locationId parameter "
+            },
+            "locale": {
+                "type": "string",
+                "description": "Locale code, one of \"en\", \"es\", \"it\", \"pt\", \"de\", \"fr\", \"ro\", \"ru\", \"pl\", \"sv\", \"fi\", \"nb\", \"nl\". Defaults to \"en\".",
+                "default": "en"
+            },
+            "sort": {
+                "type": "string",
+                "description": "Sorting order, either \"asc\" or \"desc\". Defaults to \"asc\".",
+                "default": "asc"
+            },
+            "numpage": {
+                "type": "number",
+                "description": "Page index for paging purposes. Defaults to 1.",
+                "default": 1.0
+            },
+            "maxprice": {
+                "type": "number",
+                "description": "Maximum price. Defaults to None."
+            },
+            "minprice": {
+                "type": "number",
+                "description": "Minimum price. Defaults to None."
+            },
+            "shape": {
+                "type": "string",
+                "description": "The value of shape field returned in .../zois/detail endpoint. Simply pass the json object as string. Do NOT use together with locationId or zoiId. Ex : {\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"coordinates\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":[[[[9.20289,45.469786,0],...,[9.20289,45.469786,0]]]],\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"type\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"MultiPolygon\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}"
+            },
+            "propertytype": {
+                "type": "string",
+                "description": "Type of property, one of \"homes\", \"bedrooms\", \"newDevelopments\", \"offices\", \"premises\", \"garages\", \"lands\", \"storageRooms\", \"buildings\". Defaults to None."
+            },
+            "auction": {
+                "type": "string",
+                "description": "Auction filter, either empty or one of \"excludeAuctions\", \"onlyAuctions\". Defaults to None."
+            },
+            "bedtype": {
+                "type": "string",
+                "description": "Type of bed, one of \"none\", \"single\", \"double\", \"twoBeds\". Defaults to None."
+            },
+            "ownernotliving": {
+                "type": "boolean",
+                "description": "Specifies if the owner does not live in the property. Defaults to None."
+            },
+            "newgender": {
+                "type": "string",
+                "description": "Gender of the new tenant, either \"male\" or \"female\". Defaults to None."
+            },
+            "gallery": {
+                "type": "boolean",
+                "description": "Indicates if the property has a gallery. Defaults to None."
+            },
+            "storeroom": {
+                "type": "boolean",
+                "description": "Indicates if the property has a storeroom. Defaults to None."
+            },
+            "builtinwardrobes": {
+                "type": "boolean",
+                "description": "Indicates if the property has built-in wardrobes. Defaults to None."
+            },
+            "maxsize": {
+                "type": "number",
+                "description": "Maximum area size. Defaults to None."
+            },
+            "minsize": {
+                "type": "number",
+                "description": "Minimum area size. Defaults to None."
+            },
+            "garage": {
+                "type": "boolean",
+                "description": "Indicates if the property has a garage. Defaults to None."
+            },
+            "luxury": {
+                "type": "boolean",
+                "description": "Indicates if the property is a luxury one. Defaults to None."
+            },
+            "housemates": {
+                "type": "string",
+                "description": "One of the following 2|3|4 (separated by comma for multiple values, Ex : 3,4)"
+            },
+            "sincedate": {
+                "type": "string",
+                "description": "Date filter, one of \"Y\", \"W\", \"M\" (Last 48 hours, Last week, Last month). Defaults to None."
+            },
+            "petspolicy": {
+                "type": "string",
+                "description": "Pets policy, either \"allowed\" or \"disallowed\". Defaults to None."
+            },
+            "showruledouts": {
+                "type": "boolean",
+                "description": "Indicates if ruled out properties should be shown. Defaults to None."
+            },
+            "smokingpolicy": {
+                "type": "string",
+                "description": "Smoking policy, either \"allowed\" or \"disallowed\". Defaults to None."
+            }
+        },
+        "required": [
+            "operation",
+            "locationname",
+            "locationid"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "{'statename': 'Karachi, Pakistan'}": {
+        "error": "",
+        "response": []
+    },
+    "{'statename': 'north carolina'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'statename': 'california'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'statename': 'Texas'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'statename': 'California'}": {
+        "error": "",
+        "response": "[{'title': 'California Gun Laws', 'url': 'https://www.nraila.org/gun-laws/state-gun-laws/california/', 'source': 'nra'}, {'title': 'California', 'url': 'https://www.atf.gov/file/157956/download/', 'source': 'atf'}, {'title': 'California Municipal A-L', 'url': 'https://www.atf.gov/file/157961/download', 'source': 'atf'}, {'title': 'California Municipal M-Z', 'url': 'https://www.atf.gov/file/157966/download', 'source': 'atf'}, {'title': 'California', 'url': 'https://www.statefirearmlaws.org/states/CA', 'source': 'statefirearmlaws.org'}, {'title': 'California', 'url': 'https://gunlawsuits.org/gun-laws/california/', 'source': 'gunlawsuits.org'}]"
+    },
+    "{'statename': 'nevada'}": {
+        "error": "",
+        "response": "[{'title': 'Nevada Gun Laws', 'url': 'https://www.nraila.org/gun-laws/state-gun-laws/nevada/', 'source': 'nra'}, {'title': 'Nevada', 'url': 'https://www.atf.gov/firearms/docs/undefined/statelawsandpublishedordinances2022-nevadapdf/download', 'source': 'atf'}, {'title': 'Nevada', 'url': 'https://worldpopulationreview.com/states/nevada', 'source': 'worldpopulationreview.com'}]"
+    }
+}

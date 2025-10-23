@@ -1,0 +1,16 @@
+{
+    "name": "downloadoptimize",
+    "description": "This is a sub-function API for tool minecraft_forge_optifine.\nTool description: This api is used to get version list and download for Minectaft, Forge and Optifine.\nAPI description: Downloads the specified OptiFine version using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "optifineversion": {
+                "type": "string",
+                "description": "The version of OptiFine to be downloaded."
+            }
+        },
+        "required": [
+            "optifineversion"
+        ]
+    }
+}

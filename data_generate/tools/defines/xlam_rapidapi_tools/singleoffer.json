@@ -1,0 +1,17 @@
+{
+    "name": "singleoffer",
+    "description": "This is a sub-function API for tool lbc_shark.\nTool description: Api of leboncoin\nif you need this api contact me on private XD\nAPI description: Fetch a single offer by its ID from the external API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the offer to be retrieved.",
+                "default": "1874583655"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "blogs_by_category",
+    "description": "This is a sub-function API for tool blogsapi.\nTool description: Get evergreen blogs for your mobile apps.\nAPI description: Fetches all blogs from a given category by its ID using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "number",
+                "description": "The ID of the category to fetch blogs from.",
+                "default": 5.0
+            }
+        },
+        "required": [
+            "category"
+        ]
+    }
+}

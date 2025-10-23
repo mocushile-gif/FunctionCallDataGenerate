@@ -1,0 +1,17 @@
+{
+    "name": "get_district_capital_by_id",
+    "description": "This is a sub-function API for tool district_capitals_in_ghana.\nTool description: This API contains all district capitals in Ghana.\nAPI description: Gets the capital of a district in Ghana by district ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the district.",
+                "default": 2.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

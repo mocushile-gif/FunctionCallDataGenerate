@@ -1,0 +1,24 @@
+{
+    "name": "captcha_generator",
+    "description": "This is a sub-function API for tool captcha_generator.\nTool description: A captcha generator tool with different settings for difficulty.\nAPI description: This is a captcha generator tool that gives you an image of 270x80 pixels and the text solution. It has different settings that allows you to configure the captcha difficulty, and even create a captcha with a custom text solution.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fontname": {
+                "type": "string",
+                "description": "The font to be used for the CAPTCHA text. Supported font names are 'sora', 'noto-sans', and 'ubuntu'. Default is 'sora'.",
+                "default": "sora"
+            },
+            "noise_number": {
+                "type": "number",
+                "description": "The amount of noise to include in the CAPTCHA image. Default is 10.",
+                "default": 10.0
+            },
+            "text": {
+                "type": "string",
+                "description": "Custom text to be used as the CAPTCHA solution. If not provided, a random text solution will be generated."
+            }
+        },
+        "required": []
+    }
+}

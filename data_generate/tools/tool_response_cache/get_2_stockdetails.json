@@ -1,0 +1,48 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "ticker": "GOOG",
+            "companyName": "Alphabet Inc - Class C",
+            "exchangeCode": "NASDAQ",
+            "description": "Google Inc. (Google) is a global technology company. The Company's business is primarily focused around key areas, such as search, advertising, operating systems and platforms, enterprise and hardware products. The Company generates revenue primarily by delivering online advertising. The Company also generates revenues from Motorola by selling hardware products. The Company provides its products and services in more than 100 languages and in more than 50 countries, regions, and territories. Effective May 16, 2014, Google Inc acquired Quest Visual Inc. Effective May 20, 2014, Google Inc acquired Enterproid Inc, doing business as Divide. In June 2014, Google Inc acquired mDialog Corp. Effective June 25, 2014, Google Inc acquired Appurify Inc, a San Francisco-based developer of mobile bugging application software.",
+            "startDate": "2014-03-27"
+        }
+    },
+    "{'keyword': 'AMZN'}": {
+        "error": "",
+        "response": "{'ticker': 'AMZN', 'companyName': 'Amazon.com Inc', 'exchangeCode': 'NASDAQ', 'description': 'At Amazon Games, our ambition is to create bold new experiences that foster community in and around our games. Our team of game industry veterans is building within the sandbox of Prime Gaming, Twitch, Amazon retail, Amazon Web Services (AWS), and more to push boundaries and deliver captivating experiences to our players. Amazon Games is developing AAA multiplayer games based on original IPs, including New World, with our studios and teams in Orange County, San Diego, Montreal, and Seattle. Amazon Games also publishes best-in-class third-party games, leading with Lost Ark from Smilegate RPG. About Bandai Namco Online Inc. \u201cOnline games from Japan to the world\u201d Bandai Namco Online Inc. is a rapidly growing company within the Bandai Namco Group that specializes in the online game business, with a full range of functions from development and operation to publishing. Our company continues to develop a variety of contents and services for all devices, including the team shooter GUNDAM EVOLUTION, the online action RPG BLUE PROTOCOL, and our original IP IDOLiSH7. Upholding our slogan, \u201cOnline games from Japan to the world,\u201d we are committed to challenging ourselves to create online games with a unique Japanese twist. While focusing on the production of online games, we will continue to collaborate with other companies both within and outside of the Bandai Namco Group in order to develop a wide variety of entertainment that goes beyond games.', 'startDate': '1997-05-15'}"
+    },
+    "{'keyword': 'JPM'}": {
+        "error": "",
+        "response": "{'ticker': 'JPM', 'companyName': 'JPMorgan Chase & Company', 'exchangeCode': 'NYSE', 'description': 'JPMorgan Chase & Co. is a leading financial services firm based in the United States of America (\u201cU.S.\u201d), with operations worldwide. JPMorgan Chase had $4.4 trillion in assets and $351 billion in stockholders\u2019 equity as of March 31, 2025. The Firm is a leader in investment banking, financial services for consumers and small businesses, commercial banking, financial transaction processing and asset management. Under the J.P. Morgan and Chase brands, the Firm serves millions of customers in the U.S., and many of the world\u2019s most prominent corporate, institutional and government clients globally.', 'startDate': '1983-12-30'}"
+    },
+    "{'keyword': 'TSLA'}": {
+        "error": "",
+        "response": "{'ticker': 'TSLA', 'companyName': 'Tesla Inc', 'exchangeCode': 'NASDAQ', 'description': 'Tesla Motors, Inc. (Tesla) designs, develops, manufactures and sells electric vehicles and advanced electric vehicle powertrain components. Tesla owns its sales and service network. The Company is engaged in commercially producing a federally-compliant electric vehicle, the Tesla Roadster. addition to developing its Model S and future vehicle manufacturing capabilities at the Tesla Factory, the Company is designing, developing and manufacturing lithium-ion battery packs, electric motors, gearboxes and components both for its vehicles and for its original equipment manufacturer customers. These activities occur at its electric powertrain manufacturing facility in Palo Alto, California and at the Tesla Factory. The Company provides services for the development of electric powertrain components and sells electric powertrain components to other automotive manufacturers.', 'startDate': '2010-06-29'}"
+    },
+    "{'keyword': 'NVDA'}": {
+        "error": "",
+        "response": "{'ticker': 'NVDA', 'companyName': 'NVIDIA Corp', 'exchangeCode': 'NASDAQ', 'description': 'NVIDIA is the world leader in accelerated computing.', 'startDate': '1999-01-22'}"
+    },
+    "{'keyword': 'logistics company'}": {
+        "error": "",
+        "response": "{}"
+    },
+    "{'keyword': 'DHL'}": {
+        "error": "",
+        "response": "{}"
+    },
+    "{'keyword': 'FedEx'}": {
+        "error": "",
+        "response": "{}"
+    },
+    "{'keyword': 'UPS'}": {
+        "error": "",
+        "response": "{'ticker': 'UPS', 'companyName': 'United Parcel Service Inc - Class B', 'exchangeCode': 'NYSE', 'description': 'United Parcel Service, Inc. (UPS) is a package delivery company. The Company delivers packages each business day for 1.1 million shipping customers to 7.7 million consignees in over 220 countries and territories. During the year ended December 31, 2012, it delivered an average of 16.3 million pieces per day worldwide, or a total of 4.1 billion packages. It serves the global market for logistics services, which include transportation, distribution, forwarding, ground, ocean and air freight, brokerage and financing. The Company has three segments: U.S. Domestic Package, International Package and Supply Chain & Freight. In February 2012, it acquired Kiala S.A.', 'startDate': '1999-11-10'}"
+    },
+    "{'keyword': 'GOOG'}": {
+        "error": "",
+        "response": "{'ticker': 'GOOG', 'companyName': 'Alphabet Inc - Class C', 'exchangeCode': 'NASDAQ', 'description': \"Google Inc. (Google) is a global technology company. The Company's business is primarily focused around key areas, such as search, advertising, operating systems and platforms, enterprise and hardware products. The Company generates revenue primarily by delivering online advertising. The Company also generates revenues from Motorola by selling hardware products. The Company provides its products and services in more than 100 languages and in more than 50 countries, regions, and territories. Effective May 16, 2014, Google Inc acquired Quest Visual Inc. Effective May 20, 2014, Google Inc acquired Enterproid Inc, doing business as Divide. In June 2014, Google Inc acquired mDialog Corp. Effective June 25, 2014, Google Inc acquired Appurify Inc, a San Francisco-based developer of mobile bugging application software.\", 'startDate': '2014-03-27'}"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "{'customer_a_id': 'customer_a_id', 'screening_a_id': 'screening_a_id', 'match_id': 'match_id'}": {
+        "error": "",
+        "response": {
+            "id": "838c9963-0988-4d27-9749-8795b9556d9b",
+            "type": "resource_not_found",
+            "message": "Cannot find a resource /customers/customer_a_id/screenings/screening_a_id/matches/match_id/associations"
+        }
+    },
+    "{'customer_a_id': '1234', 'screening_a_id': 'screening_id', 'match_id': 'match_id'}": {
+        "error": "",
+        "response": {
+            "id": "7dadd9ec-9397-4eed-bf6e-119ad34cdbd4",
+            "type": "resource_not_found",
+            "message": "Cannot find a resource /customers/1234/screenings/screening_id/matches/match_id/associations"
+        }
+    },
+    "{'customer_a_id': '456', 'screening_a_id': '012', 'match_id': '789'}": {
+        "error": "",
+        "response": {
+            "id": "f5612d53-dfe4-4517-8099-fd21eca48006",
+            "type": "resource_not_found",
+            "message": "Cannot find a resource /customers/456/screenings/012/matches/789/associations"
+        }
+    },
+    "{'customer_a_id': '789', 'screening_a_id': '456', 'match_id': '123'}": {
+        "error": "",
+        "response": {
+            "id": "715ef224-dfd4-446b-9fdb-987e38546d0f",
+            "type": "resource_not_found",
+            "message": "Cannot find a resource /customers/789/screenings/456/matches/123/associations"
+        }
+    },
+    "{'authorization': 'Bearer {{accessTokenUser}}', 'content_type': 'application/json', 'customer_a_id': 'CUST-EComm-2023-0045', 'screening_a_id': 'SCRN-CUST-EComm-2023-0045-07B', 'match_id': 'MATCH-SCRN-07B-2024Q1-9X'}": {
+        "error": "",
+        "response": "{'id': '593efa42-ae22-4964-989d-11dbe43e91ac', 'type': 'resource_not_found', 'message': 'Cannot find a resource /customers/CUST-EComm-2023-0045/screenings/SCRN-CUST-EComm-2023-0045-07B/matches/MATCH-SCRN-07B-2024Q1-9X/associations'}"
+    },
+    "{'authorization': 'Bearer {{accessTokenUser}}', 'content_type': 'application/json', 'customer_a_id': 'C12345', 'screening_a_id': 'scr-2a4b5f8d1c', 'match_id': 'mt-9a7e3c0d'}": {
+        "error": "",
+        "response": "{'id': 'c4813430-b3b4-4344-9823-7ffe44556d66', 'type': 'resource_not_found', 'message': 'Cannot find a resource /customers/C12345/screenings/scr-2a4b5f8d1c/matches/mt-9a7e3c0d/associations'}"
+    },
+    "{'authorization': 'Bearer {{accessTokenUser}}', 'content_type': 'application/json', 'customer_a_id': 'C67890', 'screening_a_id': 'scr-2a4b5f8d1c', 'match_id': 'mt-9a7e3c0d'}": {
+        "error": "",
+        "response": "{'id': '452dd047-9fce-4cd0-9a8f-f5e104bd1cac', 'type': 'resource_not_found', 'message': 'Cannot find a resource /customers/C67890/screenings/scr-2a4b5f8d1c/matches/mt-9a7e3c0d/associations'}"
+    },
+    "{'authorization': 'Bearer a1b2c3d4-e5f6-7890-g1h2-i3j4k5l6m7n8', 'content_type': 'application/json', 'customer_a_id': '1002', 'match_id': '9864379', 'screening_a_id': 'SCR-2023-Q3'}": {
+        "error": "",
+        "response": "{'id': '17a79ceb-ec2a-44b6-a7ba-c7d71e0c7a12', 'type': 'resource_not_found', 'message': 'Cannot find a resource /customers/1002/screenings/SCR-2023-Q3/matches/9864379/associations'}"
+    }
+}

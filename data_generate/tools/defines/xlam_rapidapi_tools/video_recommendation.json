@@ -1,0 +1,17 @@
+{
+    "name": "video_recommendation",
+    "description": "This is a sub-function API for tool youtube_v2.\nTool description: Youtube API for search, videos, channels, trending, recommendation\nAPI description: This endpoint returns a list of recommended videos based on a given a video ID",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "video_id": {
+                "type": "string",
+                "description": "The YouTube video ID for which recommendations are to be fetched.",
+                "default": "Y_AJvHdgu9A"
+            }
+        },
+        "required": [
+            "video_id"
+        ]
+    }
+}

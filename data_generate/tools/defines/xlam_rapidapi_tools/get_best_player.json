@@ -1,0 +1,17 @@
+{
+    "name": "get_best_player",
+    "description": "This is a sub-function API for tool viperscore.\nTool description: ViperScore is the cheapest sports API for all hobby and business projects with over 25 endpoints, 20+ sports and 5100+ leagues! We serve comprehensive data blazing fast with a clear structure and a well thought out scheme. You get the best live results and fast information for every game and we constantly develop the API further and include more data.\nAPI description: Retrieves the best player of each team for a given game, including their rating.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "gameid": {
+                "type": "string",
+                "description": "The unique identifier for the game.",
+                "default": "9576185"
+            }
+        },
+        "required": [
+            "gameid"
+        ]
+    }
+}

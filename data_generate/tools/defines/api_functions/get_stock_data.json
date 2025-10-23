@@ -1,0 +1,31 @@
+{
+    "name": "get_stock_data",
+    "description": "Fetches stock data for a given symbol from Alpha Vantage API, with options for different time units and intervals.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "symbol": {
+          "type": "string",
+          "description": "The stock ticker symbol (e.g., 'AAPL' for Apple, 'GOOG' for Google)."
+        },
+        "time_unit": {
+          "type": "string",
+          "enum": ["day", "week", "month", "intraday"],
+          "description": "The time unit for the stock data. Options include 'day', 'week', 'month', or 'intraday'.",
+          "default": "day"
+        },
+        "limit": {
+          "type": "integer",
+          "description": "The number of data points to return.",
+          "default": 100
+        },
+        "interval": {
+          "type": "string",
+          "enum": ["1min", "5min", "15min", "30min", "60min"],
+          "description": "Only applicable when 'time_unit' is 'intraday'. The interval between two consecutive data points. Options include '1min', '5min', '15min', '30min', '60min'.",
+          "default": "5min"
+        }
+      },
+      "required": ["symbol"]
+    }
+}

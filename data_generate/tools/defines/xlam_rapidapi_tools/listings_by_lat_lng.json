@@ -1,0 +1,45 @@
+{
+    "name": "listings_by_lat_lng",
+    "description": "This is a sub-function API for tool airbnb_listings.\nTool description: Join the over 300 users/customers and access all Airbnb data updated daily.\nGet Airbnb listings details, future prices and availability, reviews, and more using listing IDs, geo coordinates or \"market\". \nData analytics endpoints are also available to get detailed info around all airbnb accomodations.\nWe guarantee a 24-hour response time for all inquiries. If a feature you need is not there please contact us and we will evaluate if it is possible to fullfill your needs.\n\nWhile our data are not...\nAPI description: Retrieve listings ids, distance from starting point and last updated dates for prices, availability and ratings in a range from a given geographical point. Returns 50 results. Can be filtered on bedrooms and max guest capacity",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the point from which to search for listings.",
+                "default": 28.0852473
+            },
+            "lng": {
+                "type": "number",
+                "description": "Longitude of the point from which to search for listings.",
+                "default": -16.7349705
+            },
+            "offset": {
+                "type": "number",
+                "description": "The index to start the search from.",
+                "default": 0.0
+            },
+            "range": {
+                "type": "number",
+                "description": "The range in meters from the latitude and longitude point to search within.",
+                "default": 500.0
+            },
+            "bedrooms": {
+                "type": "number",
+                "description": "The number of bedrooms required in the listings. Defaults to 1.",
+                "default": 1.0
+            },
+            "maxguestcapacity": {
+                "type": "number",
+                "description": "The maximum guest capacity required in the listings. Defaults to 2.",
+                "default": 2.0
+            }
+        },
+        "required": [
+            "lat",
+            "lng",
+            "offset",
+            "range"
+        ]
+    }
+}

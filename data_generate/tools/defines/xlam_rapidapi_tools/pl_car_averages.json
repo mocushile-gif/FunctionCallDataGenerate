@@ -1,0 +1,29 @@
+{
+    "name": "pl_car_averages",
+    "description": "This is a sub-function API for tool car_averages.\nTool description: The Car Price and Odometer Averages API is a powerful and comprehensive endpoint designed to provide users with valuable insights into the average pricing and odometer readings for various makes, models, and years of vehicles in different locales. This API is perfect for automotive businesses, car enthusiasts, and individuals seeking to make informed decisions when purchasing or selling vehicles.\n\nBy using this API, you can access a wealth of information related to vehicle pricing and odomete...\nAPI description: Fetches and returns Polish car averages for a given vehicle's year, make, and model.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year of the car.",
+                "default": "2012"
+            },
+            "make": {
+                "type": "string",
+                "description": "The make of the car.",
+                "default": "bmw"
+            },
+            "model": {
+                "type": "string",
+                "description": "The model of the car.",
+                "default": "5 series"
+            }
+        },
+        "required": [
+            "year",
+            "make",
+            "model"
+        ]
+    }
+}

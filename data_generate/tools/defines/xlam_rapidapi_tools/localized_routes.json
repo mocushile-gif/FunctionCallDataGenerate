@@ -1,0 +1,20 @@
+{
+    "name": "localized_routes",
+    "description": "This is a sub-function API for tool betsports.\nTool description: BetSports Api\nAPI description: Fetches localized routing data from the Betsport API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "referer": {
+                "type": "string",
+                "description": "The referer URL to be included in the API request headers. Default is 'https://www.mozzartbet.com.co/es'.",
+                "default": "https://www.mozzartbet.com.co/es"
+            },
+            "host": {
+                "type": "string",
+                "description": "The host to be included in the API request headers. Default is 'www.mozzartbet.com.co'.",
+                "default": "www.mozzartbet.com.co"
+            }
+        },
+        "required": []
+    }
+}

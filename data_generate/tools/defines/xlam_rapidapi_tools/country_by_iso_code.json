@@ -1,0 +1,26 @@
+{
+    "name": "country_by_iso_code",
+    "description": "This is a sub-function API for tool referential.\nTool description: The fastest API to access countries, states, cities, continents, dial and zip codes in up to 20 languages. A collection of data APIs to support forms, signups, search and lookup. Our endpoints are optimized for speed and size. Our data is regularly maintained and comes from International Standardization bodies, the United Nations, government surveys and GIS datasets. We do not scrape WikiPedia etc\nAPI description: Fetches information about a country using its 2-letter ISO code, localized to a specified language.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "iso_code": {
+                "type": "string",
+                "description": "The 2-letter ISO country code.",
+                "default": "US"
+            },
+            "fields": {
+                "type": "string",
+                "description": "A comma-delimited list of fields to include in the response. Defaults to None."
+            },
+            "lang": {
+                "type": "string",
+                "description": "The 2-letter ISO language code for localizing the country name. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "iso_code"
+        ]
+    }
+}

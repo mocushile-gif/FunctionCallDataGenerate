@@ -1,0 +1,23 @@
+{
+    "name": "type_sustainability_get_product_involvement",
+    "description": "This is a sub-function API for tool ms_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc... to create a site/application such as morningstar.com\nAPI description: Fetches product involvement information from the Sustainability tab for a given ETF or fund.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "One of the following values: 'etf' or 'fund'. Specifies the type of the financial product.",
+                "default": "etf"
+            },
+            "securityid": {
+                "type": "string",
+                "description": "The value of the securityId field returned in the API endpoint ../market/v2/get-returns.",
+                "default": "F00000O2CG"
+            }
+        },
+        "required": [
+            "type",
+            "securityid"
+        ]
+    }
+}

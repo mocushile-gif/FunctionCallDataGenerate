@@ -1,0 +1,15 @@
+{
+    "name": "getlivemenustreaming",
+    "description": "This is a sub-function API for tool sport_odds.\nTool description: Sport Odds by BetsSports\nAPI description: Fetches live menu streaming data from the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "skinname": {
+                "type": "string",
+                "description": "The name of the skin to use for the request. Defaults to 'betbiga'.",
+                "default": "betbiga"
+            }
+        },
+        "required": []
+    }
+}

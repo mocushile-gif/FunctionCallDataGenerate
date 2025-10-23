@@ -1,0 +1,110 @@
+{
+    "{'area': 'West Sussex', 'property_type': 'flat'}": {
+        "error": "",
+        "response": {
+            "country": "England",
+            "result_count": 0,
+            "longitude": -0.199575,
+            "area_name": "Greenwich Close, Crawley RH11",
+            "street": "Greenwich Close",
+            "town": "Crawley",
+            "latitude": 51.099318,
+            "county": "West Sussex",
+            "bounding_box": {
+                "longitude_min": "-0.199575",
+                "latitude_min": "51.099318",
+                "longitude_max": "-0.199575",
+                "latitude_max": "51.099318"
+            },
+            "postcode": "RH11",
+            "property": []
+        }
+    },
+    "{'area': 'West Sussex', 'property_type': 'detached'}": {
+        "error": "",
+        "response": {
+            "country": "England",
+            "result_count": 0,
+            "longitude": -0.199575,
+            "area_name": "Greenwich Close, Crawley RH11",
+            "street": "Greenwich Close",
+            "town": "Crawley",
+            "latitude": 51.099318,
+            "county": "West Sussex",
+            "bounding_box": {
+                "longitude_min": "-0.199575",
+                "latitude_min": "51.099318",
+                "longitude_max": "-0.199575",
+                "latitude_max": "51.099318"
+            },
+            "postcode": "RH11",
+            "property": []
+        }
+    },
+    "{'area': 'Greenwich Close, Crawley RH11', 'property_type': 'detached'}": {
+        "error": "",
+        "response": {
+            "country": "England",
+            "result_count": 0,
+            "longitude": -0.199575,
+            "area_name": "Greenwich Close, Crawley RH11",
+            "street": "Greenwich Close",
+            "town": "Crawley",
+            "latitude": 51.099318,
+            "county": "West Sussex",
+            "bounding_box": {
+                "longitude_min": "-0.199575",
+                "latitude_min": "51.099318",
+                "longitude_max": "-0.199575",
+                "latitude_max": "51.099318"
+            },
+            "postcode": "RH11",
+            "property": []
+        }
+    },
+    "{'area': 'Greenwich Close, Crawley RH11', 'property_type': 'flat'}": {
+        "error": "",
+        "response": {
+            "country": "England",
+            "result_count": 0,
+            "longitude": -0.199575,
+            "area_name": "Greenwich Close, Crawley RH11",
+            "street": "Greenwich Close",
+            "town": "Crawley",
+            "latitude": 51.099318,
+            "county": "West Sussex",
+            "bounding_box": {
+                "longitude_min": "-0.199575",
+                "latitude_min": "51.099318",
+                "longitude_max": "-0.199575",
+                "latitude_max": "51.099318"
+            },
+            "postcode": "RH11",
+            "property": []
+        }
+    },
+    "{'area': 'Greenwich Close, Crawley RH11', 'property_type': 'detached', 'order_by': 'estimated_value'}": {
+        "error": "",
+        "response": "{'country': 'England', 'result_count': 0, 'longitude': -0.199575, 'area_name': 'Greenwich Close, Crawley RH11', 'street': 'Greenwich Close', 'town': 'Crawley', 'latitude': 51.099318, 'county': 'West Sussex', 'bounding_box': {'longitude_min': '-0.199575', 'latitude_min': '51.099318', 'longitude_max': '-0.199575', 'latitude_max': '51.099318'}, 'postcode': 'RH11', 'property': []}"
+    },
+    "{'area': 'Greenwich Close, Crawley RH11', 'property_type': 'semi_detached', 'order_by': 'price_paid'}": {
+        "error": "",
+        "response": "{'country': 'England', 'result_count': 0, 'longitude': -0.199575, 'area_name': 'Greenwich Close, Crawley RH11', 'street': 'Greenwich Close', 'town': 'Crawley', 'latitude': 51.099318, 'county': 'West Sussex', 'bounding_box': {'longitude_min': '-0.199575', 'latitude_min': '51.099318', 'longitude_max': '-0.199575', 'latitude_max': '51.099318'}, 'postcode': 'RH11', 'property': []}"
+    },
+    "{'area': 'Greenwich Close, Crawley RH11', 'property_type': 'terraced', 'order_by': 'price_paid'}": {
+        "error": "",
+        "response": "{'country': 'England', 'result_count': 1, 'longitude': -0.199575, 'area_name': 'Greenwich Close, Crawley RH11', 'street': 'Greenwich Close', 'town': 'Crawley', 'latitude': 51.099318, 'county': 'West Sussex', 'bounding_box': {'longitude_min': '-0.199575', 'latitude_min': '51.099318', 'longitude_max': '-0.199575', 'latitude_max': '51.099318'}, 'postcode': 'RH11', 'property': [{'percent_change_3year': 0, 'last_sale_price': 99000, 'street': 'Greenwich Close', 'town': 'Crawley', 'rental_estimate_value_lower': 1050, 'tenure': 'freehold', 'change_5year': 8842, 'estimate_value': 270000, 'latitude': '51.09945', 'change_3year': 0, 'estimate_value_upper': 324000, 'num_beds': 4, 'address': '9 Greenwich Close, Crawley RH11 9LZ', 'property_type': 'Mid Terrace House', 'last_sale_date': '2006-07-31', 'percent_change_2year': 0, 'longitude': '-0.199649', 'percent_change_5year': 3.27, 'percent_change_4year': 0, 'confidence_rating': '2.6', 'change_3month': 0, 'uprn': 100061777797, 'details_url': 'https://www.zoopla.co.uk/property/9-greenwich-close/crawley/rh11-9lz/19627537', 'rental_value': '1148', 'change_4year': 0, 'percent_change_1year': 0, 'county': 'West Sussex', 'temptme_status': 0, 'change_2year': 0, 'num_baths': None, 'rental_estimate_value_upper': 1250, 'percent_change_6month': 0, 'value_history': [{'price_change': 0, 'direction': 'up', 'percent_change': 0, 'interval_months': '3'}, {'price_change': 0, 'direction': 'up', 'percent_change': 0, 'interval_months': '6'}, {'price_change': 0, '"
+    },
+    "{'area': 'Greenwich Close, Crawley RH11', 'property_type': 'semi_detached', 'identifier': 'west-sussex/crawley/greenwich-close'}": {
+        "error": "",
+        "response": "{'country': 'England', 'result_count': 0, 'longitude': -0.199575, 'area_name': 'Greenwich Close, Crawley RH11', 'street': 'Greenwich Close', 'town': 'Crawley', 'latitude': 51.099318, 'county': 'West Sussex', 'bounding_box': {'longitude_min': '-0.199575', 'latitude_min': '51.099318', 'longitude_max': '-0.199575', 'latitude_max': '51.099318'}, 'postcode': 'RH11', 'property': []}"
+    },
+    "{'area': 'Greenwich Close, Crawley RH11', 'property_type': 'flat', 'order_by': 'price_paid', 'ordering': 'descending', 'identifier': 'west-sussex/crawley/greenwich-close'}": {
+        "error": "",
+        "response": "{'country': 'England', 'result_count': 0, 'longitude': -0.199575, 'area_name': 'Greenwich Close, Crawley RH11', 'street': 'Greenwich Close', 'town': 'Crawley', 'latitude': 51.099318, 'county': 'West Sussex', 'bounding_box': {'longitude_min': '-0.199575', 'latitude_min': '51.099318', 'longitude_max': '-0.199575', 'latitude_max': '51.099318'}, 'postcode': 'RH11', 'property': []}"
+    },
+    "{'area': 'Crawley', 'property_type': 'flat', 'order_by': 'price_paid', 'ordering': 'descending'}": {
+        "error": "",
+        "response": "{'country': 'England', 'result_count': 0, 'longitude': -0.199575, 'area_name': 'Greenwich Close, Crawley RH11', 'street': 'Greenwich Close', 'town': 'Crawley', 'latitude': 51.099318, 'county': 'West Sussex', 'bounding_box': {'longitude_min': '-0.199575', 'latitude_min': '51.099318', 'longitude_max': '-0.199575', 'latitude_max': '51.099318'}, 'postcode': 'RH11', 'property': []}"
+    }
+}

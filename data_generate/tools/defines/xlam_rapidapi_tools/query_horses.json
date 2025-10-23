@@ -1,0 +1,17 @@
+{
+    "name": "query_horses",
+    "description": "This is a sub-function API for tool horse_racing.\nTool description: Horse racing API - UK & Ireland races. Racecards, results, stats, Odds comparator and more. \nAPI description: Search horses by name. \nOnce you get \"*id_horse*\" from this query, you can get horses stats from \"**Horse stats**\" endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the horse to search for. Must be a minimum of 3 characters.",
+                "default": "ZANAHIYR"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

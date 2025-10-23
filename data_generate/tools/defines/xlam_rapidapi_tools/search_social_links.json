@@ -1,0 +1,22 @@
+{
+    "name": "search_social_links",
+    "description": "This is a sub-function API for tool social_links_search.\nTool description: Search for social profile links on the web in real-time - get Facebook, TikTok, Instagram, Snapchat, Twitter, LinkedIn, Youtube channels, Pinterest and Github profile given a query.\nAPI description: Get social profile links by search query or keywords. The following social networks are supported: Facebook, TikTok, Instagram, Snapchat, Twitter, Youtube, LinkedIn, GitHub and Pinterest.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query or keywords to find social profile links.",
+                "default": "John Smith"
+            },
+            "social_networks": {
+                "type": "string",
+                "description": "Find social links for the specified social networks, specified as a comma delimited list of the following values: `facebook`, `tiktok`, `instagram`, `snapchat`, `twitter`, `youtube`, `linkedin`, `github`, `pinterest`.\n\n**Default:** *facebook,tiktok,instagram,snapchat,twitter,youtube,linkedin,github*",
+                "default": "facebook,tiktok,instagram,snapchat,twitter,youtube,linkedin,github,pinterest"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

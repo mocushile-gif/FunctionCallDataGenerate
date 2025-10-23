@@ -1,0 +1,39 @@
+{
+    "name": "cars",
+    "description": "This is a sub-function API for tool car_data.\nTool description: Use this API to pull relevant automobile data such as the car make, model, type, and year.\nAPI description: Fetches and filters a list of cars from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number to retrieve.",
+                "default": "0"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of results to return per page.",
+                "default": "10"
+            },
+            "make": {
+                "type": "string",
+                "description": "Filter cars by make (manufacturer)."
+            },
+            "year": {
+                "type": "string",
+                "description": "Filter cars by year of manufacture."
+            },
+            "model": {
+                "type": "string",
+                "description": "Filter cars by model."
+            },
+            "type": {
+                "type": "string",
+                "description": "Filter cars by type (e.g., SUV, sedan)."
+            }
+        },
+        "required": [
+            "page",
+            "limit"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "order_by_descending",
+    "description": "This is a sub-function API for tool dogbreeddb.\nTool description: Get the basic metadata on all breeds of dogs from around the world. Check out encurate.app to manage content on your mobile apps. Contact to feature your app on encurate.app website.\nAPI description: Fetches a list of resources from the Cat Breed Database API sorted in descending order based on the provided ordering parameter.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ordering": {
+                "type": "string",
+                "description": "The criterion by which to sort the list in descending order.",
+                "default": "-breedName"
+            }
+        },
+        "required": [
+            "ordering"
+        ]
+    }
+}

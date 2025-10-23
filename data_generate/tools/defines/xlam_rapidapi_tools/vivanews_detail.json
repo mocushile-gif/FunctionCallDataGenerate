@@ -1,0 +1,17 @@
+{
+    "name": "vivanews_detail",
+    "description": "This is a sub-function API for tool indonesia_news.\nTool description: We are focused on delivering data from major news websites in Indonesia.\nAPI description: Fetches and returns the detailed news information from Vivanews by the given ID using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the Vivanews article to fetch details for.",
+                "default": 1612364.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

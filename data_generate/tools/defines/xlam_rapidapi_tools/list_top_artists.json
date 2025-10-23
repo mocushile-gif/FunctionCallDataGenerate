@@ -1,0 +1,22 @@
+{
+    "name": "list_top_artists",
+    "description": "This is a sub-function API for tool spotify_scraper.\nTool description: An all-in-one scraper for scraping everything on Spotify, and a highly available download solution for tracks, lyrics and episode previews.\nAPI description: This endpoint lists weekly or daily top artists at any time and in any country.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "Time span for the chart, either `weekly` or `daily`. Defaults to `weekly`."
+            },
+            "date": {
+                "type": "string",
+                "description": "Date for the chart in `YYYY-MM-DD` format. Leave blank to get the latest chart."
+            },
+            "region": {
+                "type": "string",
+                "description": "`global` or region code (ISO 3166 alpha-2, e.g., `US`). Defaults to `global`."
+            }
+        },
+        "required": []
+    }
+}

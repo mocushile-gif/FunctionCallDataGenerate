@@ -1,0 +1,29 @@
+{
+    "name": "competitions_details",
+    "description": "This is a sub-function API for tool livescore_sports.\nTool description: LiveScore Sports | The number one destination for real time scores for Football, Cricket, Tennis, Basketball, Hockey and more. Support: tipsters@rapi.one / t.me/api_tipsters You can make a website like: soccerway.com, aiscore.com, tipsscore.com, livescore.com \nAPI description: Fetches the details of a competition based on the given competition ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "timezone": {
+                "type": "number",
+                "description": "Offset from UTC indicating the timezone.",
+                "default": 0.0
+            },
+            "competition_id": {
+                "type": "number",
+                "description": "Unique identifier for the competition.",
+                "default": 65.0
+            },
+            "locale": {
+                "type": "string",
+                "description": "Locale to use for the competition details.",
+                "default": "EN"
+            }
+        },
+        "required": [
+            "timezone",
+            "competition_id",
+            "locale"
+        ]
+    }
+}

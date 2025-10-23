@@ -1,0 +1,17 @@
+{
+    "name": "straddle",
+    "description": "This is a sub-function API for tool stock_and_options.\nTool description: No. 1 rated U.S listed stock and options data provider with the lowest cost. The cloud based API has a simple interface and return easy to consume data in JSON format for options prices.\nAPI description: Fetches options data in straddle format for a given stock ticker using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "Stock ticker symbol for which to fetch the straddle options data.",
+                "default": "msft"
+            }
+        },
+        "required": [
+            "ticker"
+        ]
+    }
+}

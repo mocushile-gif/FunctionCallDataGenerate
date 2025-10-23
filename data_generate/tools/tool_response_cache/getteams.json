@@ -1,0 +1,51 @@
+{
+    "{'season': 20242025, 'expand': 'team.roster'}": {
+        "error": "",
+        "response": [
+            {
+                "team_id": 10,
+                "name": "Toronto Maple Leafs",
+                "abbreviation": "TOR",
+                "roster": [
+                    {
+                        "player_id": 8478423,
+                        "name": "Auston Matthews",
+                        "position": "C"
+                    },
+                    {
+                        "player_id": 8476532,
+                        "name": "Mitch Marner",
+                        "position": "C"
+                    },
+                    {
+                        "player_id": 8479012,
+                        "name": "John Tavares",
+                        "position": "C"
+                    }
+                ]
+            },
+            {
+                "team_id": 20,
+                "name": "Boston Bruins",
+                "abbreviation": "BOS",
+                "roster": [
+                    {
+                        "player_id": 8471234,
+                        "name": "Patrice Bergeron",
+                        "position": "C"
+                    },
+                    {
+                        "player_id": 8475678,
+                        "name": "David Pastr\u0148\u00e1k",
+                        "position": "RW"
+                    },
+                    {
+                        "player_id": 8479098,
+                        "name": "Charlie McAvoy",
+                        "position": "D"
+                    }
+                ]
+            }
+        ]
+    }
+}

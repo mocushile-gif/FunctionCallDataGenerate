@@ -1,0 +1,114 @@
+{
+    "{'player_id': 12345}": {
+        "error": "",
+        "response": {
+            "data": []
+        }
+    },
+    "{'player_id': 67890}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "team": {
+                        "name": "Lithuania",
+                        "slug": "lithuania",
+                        "shortName": "Lithuania",
+                        "gender": "M",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "userCount": 7525,
+                        "nameCode": "LTU",
+                        "ranking": 145,
+                        "disabled": false,
+                        "national": true,
+                        "type": 0,
+                        "id": 4776,
+                        "teamColors": {
+                            "primary": "#fcd91e",
+                            "secondary": "#316b3e",
+                            "text": "#316b3e"
+                        }
+                    },
+                    "appearances": 10,
+                    "goals": 0,
+                    "debutTimestamp": 1464480000
+                }
+            ]
+        }
+    },
+    "{'player_id': 54321}": {
+        "error": "",
+        "response": {
+            "data": []
+        }
+    },
+    "{'player_id': 98765}": {
+        "error": "",
+        "response": {
+            "detail": "Object not found"
+        }
+    },
+    "{'player_id': 45678}": {
+        "error": "",
+        "response": {
+            "detail": "Object not found"
+        }
+    },
+    "{'player_id': 23456}": {
+        "error": "",
+        "response": {
+            "data": []
+        }
+    },
+    "{'player_id': 1234}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "team": {
+                        "name": "Greece",
+                        "slug": "greece",
+                        "shortName": "Greece",
+                        "gender": "M",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "userCount": 51332,
+                        "nameCode": "GRE",
+                        "ranking": 49,
+                        "disabled": false,
+                        "national": true,
+                        "type": 0,
+                        "id": 4710,
+                        "teamColors": {
+                            "primary": "#ffffff",
+                            "secondary": "#005bae",
+                            "text": "#005bae"
+                        }
+                    },
+                    "appearances": 77,
+                    "goals": 12,
+                    "debutTimestamp": 858124800
+                }
+            ]
+        }
+    },
+    "{'player_id': 12994.0}": {
+        "error": "",
+        "response": "{'data': [{'team': {'id': 4819, 'name': 'Argentina', 'slug': 'argentina', 'shortName': 'Argentina', 'gender': 'M', 'sport': {'name': 'Football', 'slug': 'football', 'id': 1}, 'userCount': 1652500, 'nameCode': 'ARG', 'ranking': 1, 'disabled': False, 'national': True, 'type': 0, 'teamColors': {'primary': '#66ccff', 'secondary': '#ffffff', 'text': '#ffffff'}, 'fieldTranslations': {'nameTranslation': {'ar': '\u0627\u0644\u0623\u0631\u062c\u0646\u062a\u064a\u0646', 'ru': '\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430', 'hi': '\u0905\u0930\u094d\u091c\u0947\u0902\u091f\u0940\u0928\u093e', 'bn': '\u0986\u09b0\u09cd\u099c\u09c7\u09a8\u09cd\u099f\u09bf\u09a8\u09be'}, 'shortNameTranslation': {}}}, 'appearances': 191, 'goals': 112, 'debutTimestamp': 1124236800}]}"
+    },
+    "{'player_id': 12994}": {
+        "error": "",
+        "response": "{'data': [{'team': {'name': 'Argentina', 'slug': 'argentina', 'shortName': 'Argentina', 'gender': 'M', 'sport': {'name': 'Football', 'slug': 'football', 'id': 1}, 'userCount': 1594686, 'nameCode': 'ARG', 'ranking': 1, 'disabled': True, 'national': False, 'type': 0, 'id': 4819, 'teamColors': {'primary': '#66ccff', 'secondary': '#ffffff', 'text': '#ffffff'}, 'fieldTranslations': {'nameTranslation': {'ar': '\u0627\u0644\u0623\u0631\u062c\u0646\u062a\u064a\u0646', 'ru': '\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430'}, 'shortNameTranslation': {}}}, 'appearances': 130, 'goals': 180, 'debutTimestamp': 1124236800}]}"
+    },
+    "{'player_id': 13000}": {
+        "error": "",
+        "response": "{'data': []}"
+    }
+}

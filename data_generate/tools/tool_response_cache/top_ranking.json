@@ -1,0 +1,85 @@
+{
+    "{'sortby': 'ONE_HOUR_VOLUME', 'time': 'ONE_HOUR', 'chain': 'Ethereum', 'count': 10}": {
+        "error": "",
+        "response": {
+            "collections": [
+                {
+                    "rank": 1,
+                    "name": "Bored Ape Yacht Club",
+                    "chain": "Ethereum",
+                    "one_hour_volume": "450.8 ETH",
+                    "one_day_volume": "2,300 ETH"
+                },
+                {
+                    "rank": 2,
+                    "name": "CryptoPunks",
+                    "chain": "Ethereum",
+                    "one_hour_volume": "320.5 ETH",
+                    "one_day_volume": "1,800 ETH"
+                },
+                {
+                    "rank": 3,
+                    "name": "Art Blocks",
+                    "chain": "Ethereum",
+                    "one_hour_volume": "280.3 ETH",
+                    "one_day_volume": "1,500 ETH"
+                },
+                {
+                    "rank": 4,
+                    "name": "Cool Cats",
+                    "chain": "Ethereum",
+                    "one_hour_volume": "190.7 ETH",
+                    "one_day_volume": "1,100 ETH"
+                },
+                {
+                    "rank": 5,
+                    "name": "CloneX",
+                    "chain": "Ethereum",
+                    "one_hour_volume": "150.2 ETH",
+                    "one_day_volume": "850 ETH"
+                },
+                {
+                    "rank": 6,
+                    "name": "Doodles",
+                    "chain": "Ethereum",
+                    "one_hour_volume": "120.9 ETH",
+                    "one_day_volume": "700 ETH"
+                },
+                {
+                    "rank": 7,
+                    "name": "Moonbirds",
+                    "chain": "Ethereum",
+                    "one_hour_volume": "98.4 ETH",
+                    "one_day_volume": "600 ETH"
+                },
+                {
+                    "rank": 8,
+                    "name": "World of Women",
+                    "chain": "Ethereum",
+                    "one_hour_volume": "75.3 ETH",
+                    "one_day_volume": "450 ETH"
+                },
+                {
+                    "rank": 9,
+                    "name": "Meebits",
+                    "chain": "Ethereum",
+                    "one_hour_volume": "62.1 ETH",
+                    "one_day_volume": "380 ETH"
+                },
+                {
+                    "rank": 10,
+                    "name": "Autoglyphs",
+                    "chain": "Ethereum",
+                    "one_hour_volume": "49.8 ETH",
+                    "one_day_volume": "320 ETH"
+                }
+            ],
+            "criteria": {
+                "sorted_by": "ONE_HOUR_VOLUME",
+                "timeframe": "ONE_HOUR",
+                "chain_filter": "Ethereum",
+                "total_returned": 10
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "calculate_median",
+    "description": "Calculates the median of a list of numbers. The function sorts the list and then finds the middle value for an odd number of elements, or the average of the two middle values for an even number of elements.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "numbers": {
+                "type": "array",
+                "items": {
+                    "type": [
+                        "integer",
+                        "number"
+                    ]
+                },
+                "description": "The list of numbers (integers or floats) to calculate the median for."
+            }
+        },
+        "required": [
+            "numbers"
+        ]
+    }
+}

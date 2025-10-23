@@ -1,0 +1,50 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "dishes": [
+                {
+                    "name": "Exquisa Joghurt",
+                    "caloric": "169",
+                    "type": "",
+                    "fat": "14",
+                    "carbon": "3",
+                    "protein": "7",
+                    "category_id": "101"
+                }
+            ]
+        }
+    },
+    "{'name': '4019300005154'}": {
+        "error": "",
+        "response": "{'dishes': [{'name': 'Exquisa Joghurt', 'caloric': '169', 'type': '', 'fat': '14', 'carbon': '3', 'protein': '7', 'category_id': '101'}]}"
+    },
+    "{'name': '049000028502'}": {
+        "error": "",
+        "response": "{'dishes': []}"
+    },
+    "{'name': '8809680022346'}": {
+        "error": "",
+        "response": "{'dishes': []}"
+    },
+    "{'name': '012345678912'}": {
+        "error": "",
+        "response": "{'dishes': []}"
+    },
+    "{'name': '0123456789012'}": {
+        "error": "",
+        "response": "{'dishes': [{'name': 'Peanut Butter Crunch', 'caloric': '52.941176470588', 'type': '', 'fat': '0', 'carbon': '2.9411764705882', 'protein': '10.588235294118', 'category_id': '101'}]}"
+    },
+    "{'name': '049000021108'}": {
+        "error": "",
+        "response": "{'dishes': []}"
+    },
+    "{'name': '049000021122'}": {
+        "error": "",
+        "response": "{'dishes': []}"
+    },
+    "{'name': '5012345678900'}": {
+        "error": "",
+        "response": "{'dishes': [{'name': 'Flacon daviin', 'caloric': 68, 'type': '', 'fat': 0, 'carbon': 8.5, 'protein': 0.1, 'category_id': '101'}]}"
+    }
+}

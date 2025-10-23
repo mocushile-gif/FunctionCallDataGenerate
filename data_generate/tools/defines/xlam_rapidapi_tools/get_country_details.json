@@ -1,0 +1,17 @@
+{
+    "name": "get_country_details",
+    "description": "This is a sub-function API for tool gis_engine.\nTool description: Provide regions, cities and districts per countries\nAPI description: Fetch detailed information about a country using its 2-letter country code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country_code": {
+                "type": "string",
+                "description": "The 2-letter code representing the country.",
+                "default": "ph"
+            }
+        },
+        "required": [
+            "country_code"
+        ]
+    }
+}

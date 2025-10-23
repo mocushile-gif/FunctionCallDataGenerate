@@ -1,0 +1,22 @@
+{
+    "{'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'summary': {'recommendationTrend': {'trend': [{'period': '0m', 'strongBuy': 4, 'buy': 4, 'hold': 8, 'sell': 6, 'strongSell': 1}, {'period': '-1m', 'strongBuy': 7, 'buy': 14, 'hold': 17, 'sell': 2, 'strongSell': 3}, {'period': '-2m', 'strongBuy': 9, 'buy': 13, 'hold': 15, 'sell': 2, 'strongSell': 3}, {'period': '-3m', 'strongBuy': 10, 'buy': 16, 'hold': 11, 'sell': 3, 'strongSell': 2}], 'maxAge': 86400}}}"
+    },
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'recommendationTrend': {'trend': [{'period': '0m', 'strongBuy': 11, 'buy': 21, 'hold': 6, 'sell': 0, 'strongSell': 0}, {'period': '-1m', 'strongBuy': 12, 'buy': 19, 'hold': 12, 'sell': 1, 'strongSell': 0}, {'period': '-2m', 'strongBuy': 10, 'buy': 19, 'hold': 13, 'sell': 1, 'strongSell': 0}, {'period': '-3m', 'strongBuy': 10, 'buy': 24, 'hold': 7, 'sell': 1, 'strongSell': 0}], 'maxAge': 86400}}"
+    },
+    "{'symbol': 'AMZN'}": {
+        "error": "",
+        "response": "{'recommendationTrend': {'trend': [{'period': '0m', 'strongBuy': 18, 'buy': 45, 'hold': 3, 'sell': 0, 'strongSell': 1}, {'period': '-1m', 'strongBuy': 18, 'buy': 45, 'hold': 3, 'sell': 0, 'strongSell': 1}, {'period': '-2m', 'strongBuy': 17, 'buy': 46, 'hold': 4, 'sell': 0, 'strongSell': 0}, {'period': '-3m', 'strongBuy': 16, 'buy': 46, 'hold': 4, 'sell': 0, 'strongSell': 0}], 'maxAge': 86400}}"
+    },
+    "{'symbol': 'MSFT'}": {
+        "error": "",
+        "response": "{'recommendationTrend': {'trend': [{'period': '0m', 'strongBuy': 13, 'buy': 37, 'hold': 5, 'sell': 0, 'strongSell': 0}, {'period': '-1m', 'strongBuy': 13, 'buy': 37, 'hold': 5, 'sell': 0, 'strongSell': 0}, {'period': '-2m', 'strongBuy': 13, 'buy': 37, 'hold': 5, 'sell': 0, 'strongSell': 0}, {'period': '-3m', 'strongBuy': 14, 'buy': 39, 'hold': 3, 'sell': 0, 'strongSell': 0}], 'maxAge': 86400}}"
+    },
+    "{'symbol': 'PYPL'}": {
+        "error": "",
+        "response": "{'recommendationTrend': {'trend': [{'period': '0m', 'strongBuy': 7, 'buy': 15, 'hold': 21, 'sell': 3, 'strongSell': 0}, {'period': '-1m', 'strongBuy': 7, 'buy': 16, 'hold': 21, 'sell': 2, 'strongSell': 0}, {'period': '-2m', 'strongBuy': 7, 'buy': 15, 'hold': 22, 'sell': 2, 'strongSell': 0}, {'period': '-3m', 'strongBuy': 7, 'buy': 15, 'hold': 22, 'sell': 0, 'strongSell': 0}], 'maxAge': 86400}}"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "name": "autocomplete_places",
+    "description": "This is a sub-function API for tool spott.\nTool description: Search cities, countries and administrative divisions by name, autocompletion or IP.\nAPI description: Returns a list of places that match a given prefix and specified filter properties, useful for creating \"search as you type\" inputs.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "Maximum number of places to return. Used together with \\\"skip\\\" to paginate results. Defaults to 10, maximum is 100.",
+                "default": 10.0
+            },
+            "skip": {
+                "type": "number",
+                "description": "Amount of places to ignore before beginning to return results. Used together with \\\"limit\\\" to paginate results. Defaults to 0.",
+                "default": 0.0
+            },
+            "language": {
+                "type": "string",
+                "description": "Specifies a language (ISO 639-1) to get the localized name of the place. If translation is not available, \\\"localizedName\\\" property will be null."
+            },
+            "country": {
+                "type": "string",
+                "description": "Filters places by their country \\\"id\\\". It's possible to specify multiple values separating them with commas (Ex. ?country=US,CA,MX).",
+                "default": "US,CA"
+            },
+            "admindivision1": {
+                "type": "string",
+                "description": "Filters places by their adminDivision1 \\\"id\\\". It's possible to specify multiple values separating them with commas (Ex. ?country=US.CA,US.DE)."
+            },
+            "accuracyradiuskm": {
+                "type": "number",
+                "description": "Maximum radius from the point specified by \\\"latitude\\\" and \\\"longitude\\\" to filter places located within the area. The value must be expressed in Kilometers. Defaults to 100km."
+            },
+            "latitude": {
+                "type": "number",
+                "description": "Latitude component of a coordinates set to filter places by their location. This parameter is ignored if \\\"longitude\\\" is not specified."
+            },
+            "admindivision2": {
+                "type": "string",
+                "description": "Filters places by their adminDivision2 \\\"id\\\". It's possible to specify multiple values separating them with commas."
+            },
+            "q": {
+                "type": "string",
+                "description": "Query string to find places whose names start with this prefix. Defaults to 'Sea'.",
+                "default": "Sea"
+            },
+            "longitude": {
+                "type": "number",
+                "description": "Longitude component of a coordinates set to filter places by their location. This parameter is ignored if \\\"latitude\\\" is not specified."
+            },
+            "type": {
+                "type": "string",
+                "description": "Filters places by their type. Multiple values can be specified, separated by commas. Valid types are 'CITY', 'ADMIN_DIVISION_1', 'ADMIN_DIVISION_2', and 'COUNTRY'. Defaults to 'CITY'.",
+                "default": "CITY"
+            }
+        },
+        "required": []
+    }
+}

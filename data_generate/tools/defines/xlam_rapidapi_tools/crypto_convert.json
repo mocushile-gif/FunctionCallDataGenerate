@@ -1,0 +1,25 @@
+{
+    "name": "crypto_convert",
+    "description": "This is a sub-function API for tool currencies_and_countries.\nTool description: Convert currencies, get country informations.\nAPI description: Converts a specified amount from one cryptocurrency to another using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_from": {
+                "type": "string",
+                "description": "The cryptocurrency to convert from (default is 'ETH').",
+                "default": "ETH"
+            },
+            "to": {
+                "type": "string",
+                "description": "The cryptocurrency to convert to (default is 'BTC').",
+                "default": "BTC"
+            },
+            "amount": {
+                "type": "string",
+                "description": "The amount of cryptocurrency to convert (default is '100').",
+                "default": "100"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_user_data",
+    "description": "This is a sub-function API for tool discord_lookup.\nTool description: Easily lookup Discord users by ID, invite data & joins by invite code and hidden vanity data\nAPI description: Fetches user data by their ID. Automatically handles rate limits and bypasses them and it parses their creation date automatically",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the user whose data is being fetched.",
+                "default": "25458687581618176"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "athlete_large_image",
+    "description": "This is a sub-function API for tool allscores.\nTool description: Beware! Our live match updates may be faster than other API's.\nEnjoy our 24/7 wide coverage of real time scores data for 10 different sports and over 2,000 competitions worldwide, including Real-time Stats, Breaking News, In-Play Insights, Lineups, Live Tables, Fixtures, Social Buzz, Odds and much more.\nSupported 10 Sports Types: Football, Rugby, Tennis, Basketball, Cricket, Ice Hockey, Baseball, Volleyball, American football and Handball.\nAPI description: Fetches the large image for a specific athlete in the PNG format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "athleteid": {
+                "type": "number",
+                "description": "The ID of the athlete whose large image is to be fetched.",
+                "default": 64139
+            },
+            "imageversion": {
+                "type": "number",
+                "description": "The version of the image to be fetched.",
+                "default": 12
+            }
+        },
+        "required": [
+            "athleteid",
+            "imageversion"
+        ]
+    }
+}

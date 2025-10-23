@@ -1,0 +1,67 @@
+{
+    "name": "restaurants_v2_list",
+    "description": "This is a sub-function API for tool the_fork_the_spoon.\nTool description: This API helps to query the best restaurant and meal around the world to create a traveling site/application such as thefork.com\nAPI description: Lists restaurants based on various query parameters and filters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "queryplacevaluecityid": {
+                "type": "number",
+                "description": "The value of id_city field returned in …/locations/v2/list endpoint",
+                "default": 348156.0
+            },
+            "filterpricestart": {
+                "type": "string",
+                "description": "Minimum price of the meal."
+            },
+            "queryplacevaluecoordinateslatitude": {
+                "type": "number",
+                "description": "The latitude of GEO location to look for around restaurants. Ex : 45.4642035"
+            },
+            "sort": {
+                "type": "string",
+                "description": "Sorting criteria, allowed values are 'quality', 'promotion', 'price', 'popularity', 'avg_rate', 'new_restaurant'."
+            },
+            "querypromotiononly": {
+                "type": "boolean",
+                "description": "Filter to include only promotions (True or False)."
+            },
+            "filterrestauranttagidlist": {
+                "type": "string",
+                "description": "Look for suitable value of meta/tagCategories/tags/id returend right in this endpoint, separated by comma for multiple value. Ex : 387,513"
+            },
+            "filtersaletypetagidlist": {
+                "type": "string",
+                "description": "Look for suitable value of meta/filters/saleTypeTag/id returend right in this endpoint, separated by comma for multiple value. Ex : 1,3"
+            },
+            "filterratestart": {
+                "type": "number",
+                "description": "Minimum rating of the restaurants."
+            },
+            "filtergroupedpromotion": {
+                "type": "string",
+                "description": "Filter by grouped promotions, allowed values are '20', '25', '30', '40', '50', separated by commas."
+            },
+            "pagenumber": {
+                "type": "number",
+                "description": "Page number for pagination (default is 1).",
+                "default": 1.0
+            },
+            "queryplacevaluecoordinateslongitude": {
+                "type": "number",
+                "description": "The longitude of GEO location to look for around restaurants. Ex : 9.189982"
+            },
+            "pagesize": {
+                "type": "number",
+                "description": "Number of results per page (default is 10).",
+                "default": 10.0
+            },
+            "filterpriceend": {
+                "type": "number",
+                "description": "Maximum price of the meal."
+            }
+        },
+        "required": [
+            "queryplacevaluecityid"
+        ]
+    }
+}

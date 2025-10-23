@@ -1,0 +1,22 @@
+{
+    "name": "list_top_tracks",
+    "description": "This is a sub-function API for tool spotify_scraper.\nTool description: An all-in-one scraper for scraping everything on Spotify, and a highly available download solution for tracks, lyrics and episode previews.\nAPI description: Fetches the weekly or daily top tracks from Spotify for a specified region and date.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "region": {
+                "type": "string",
+                "description": "The region code in ISO 3166 alpha-2 format (e.g., 'US'). Defaults to 'global'."
+            },
+            "type": {
+                "type": "string",
+                "description": "The time span for the chart. Defaults to 'weekly'."
+            },
+            "date": {
+                "type": "string",
+                "description": "The date in 'YYYY-MM-DD' format. Leave blank to get the latest chart."
+            }
+        },
+        "required": []
+    }
+}

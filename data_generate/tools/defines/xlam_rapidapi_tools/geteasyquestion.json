@@ -1,0 +1,17 @@
+{
+    "name": "geteasyquestion",
+    "description": "This is a sub-function API for tool leetcodeapi.\nTool description: The API fetches basic information of a LeetCode profile based on the provided username.\nAPI description: Fetches the number of easy questions solved by a specified user from the LeetCode API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The LeetCode username of the user to fetch the information for.",
+                "default": "mujtabah258"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

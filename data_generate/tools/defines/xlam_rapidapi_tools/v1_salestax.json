@@ -1,0 +1,23 @@
+{
+    "name": "v1_salestax",
+    "description": "This is a sub-function API for tool sales_tax_by_api_ninjas.\nTool description: Calculate US sales tax by city or zip code. See more info at https://api-ninjas.com/api/salestax\nAPI description: API Ninjas Sales Tax API endpoint. Returns one or more sales tax breakdowns by ZIP code according to the specified parameters. Each breakdown includes the state sales tax (if any), county sales tax (if any), city sales tax (if any), and any additional special sales taxes. All tax values are presented in decimals (e.g. 0.1 means 10% tax).\n\nExactly one of the following must be set: zip_code or (city + state)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "state": {
+                "type": "string",
+                "description": "The name of the state for which sales tax information is required."
+            },
+            "city": {
+                "type": "string",
+                "description": "The name of the city for which sales tax information is required."
+            },
+            "zip_code": {
+                "type": "string",
+                "description": "A valid US ZIP code for which sales tax information is required. Defaults to '90210'.",
+                "default": "90210"
+            }
+        },
+        "required": []
+    }
+}

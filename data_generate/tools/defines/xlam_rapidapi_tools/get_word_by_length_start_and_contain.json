@@ -1,0 +1,29 @@
+{
+    "name": "get_word_by_length_start_and_contain",
+    "description": "This is a sub-function API for tool random_word_api.\nTool description: This easy-to-use, 100% free API randomely picks out words from the entire english dictionnary with many parameters. Supports selecting words of a certain length or that start with a certain letter or a certain string of characters, or both, and much more!\nAPI description: Returns a random word that is a certain amount of characters long, starts with a certain string and contains a certain string.\nFor example, if the length is 7, the start \"fru\" and the substring \"le\", you will get a 7 letter long word that begins with fru and contains le, like \"frumple\".",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start": {
+                "type": "string",
+                "description": "The starting substring of the word.",
+                "default": "fru"
+            },
+            "length": {
+                "type": "number",
+                "description": "The length of the word.",
+                "default": 7.0
+            },
+            "substring": {
+                "type": "string",
+                "description": "The substring that the word must contain.",
+                "default": "le"
+            }
+        },
+        "required": [
+            "start",
+            "length",
+            "substring"
+        ]
+    }
+}

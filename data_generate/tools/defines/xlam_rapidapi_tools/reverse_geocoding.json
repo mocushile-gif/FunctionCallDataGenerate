@@ -1,0 +1,17 @@
+{
+    "name": "reverse_geocoding",
+    "description": "This is a sub-function API for tool reverse_geocoding_v3.\nTool description: Translate locations on the map into human-readable addresses.\nAPI description: Translates location coordinates into human-readable addresses using the Reverse Geocoding API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The location coordinates to be translated into a readable address.",
+                "default": "40.7624284 -73.973794"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

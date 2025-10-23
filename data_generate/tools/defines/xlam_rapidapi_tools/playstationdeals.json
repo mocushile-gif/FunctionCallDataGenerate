@@ -1,0 +1,17 @@
+{
+    "name": "playstationdeals",
+    "description": "This is a sub-function API for tool playstation_store_deals_api.\nTool description: Get Playstation Store Deals data that are on Deals which you can find here: https://store.playstation.com/en-us/category/35027334-375e-423b-b500-0d4d85eff784/1?FULL_GAME=storeDisplayClassification\n\nContact me at: vuesdata@gmail.com or visit https://www.vuesdata.com for building custom spiders or custom requests.\nAPI description: There is only 1 parameter for this API endpoint.\n\n1. playstation_deals/?count=0\n\ncount = 0 (Min is 0, starting of the list. Max value depends on the total number of games available.)\nNote: Since its a List of Items, If the maximum number of games available on deals is 771 then you have to enter (771-1) = 770 to get the last game on the deal.\n\nThis will provide you with the game data as given below which contains name, price, platform, discount percent, discounted price, total no. of games, etc..:\n\n{\n  \"name",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "count": {
+                "type": "number",
+                "description": "The number of games to fetch from the deals list. The minimum value is 0, and the maximum value depends on the total number of games available.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "count"
+        ]
+    }
+}

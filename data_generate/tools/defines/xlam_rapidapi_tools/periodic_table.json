@@ -1,0 +1,14 @@
+{
+    "name": "periodic_table",
+    "description": "This is a sub-function API for tool periodictable.\nTool description: It provides detailed information about periodic table\nAPI description: It gives detailed information about elements in the periodic table.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "all": {
+                "type": "string",
+                "description": "If provided, specifies the type of information to retrieve about all elements in the periodic table. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

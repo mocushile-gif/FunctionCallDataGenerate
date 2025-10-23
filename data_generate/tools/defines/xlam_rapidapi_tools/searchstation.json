@@ -1,0 +1,32 @@
+{
+    "name": "searchstation",
+    "description": "This is a sub-function API for tool radio_world_75_000_worldwide_fm_radio_stations.\nTool description: This is one of the largest collection of FM Radios API from around the world. Listen Updated 79,000+ Radio stations. All the Stations are Updating Daily & Weekly basis, New stations are Adding As soon as possible. At least 100+ Stations Are adding and 1000+ Stations are fixing to this API Weekly (This is minium ratio).\nAPI description: Search Radio station by keywords.\n- keyword = radio name, country name\n- limit = item limitation per page ***default 10***\n- page = page number to be displayed ***default 1***\n- order = order by ASCENDING/DISASCENDING  *(use only ASC or DESC)* ***default ASC***",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The search keyword which could be a radio station name or a country name.",
+                "default": "hello"
+            },
+            "order": {
+                "type": "string",
+                "description": "The order in which to display the results. Use 'ASC' for ascending or 'DESC' for descending. Default is 'ASC'.",
+                "default": "ASC"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of the results to display. Default is 1.",
+                "default": 1.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The limit of items to display per page. Default is 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

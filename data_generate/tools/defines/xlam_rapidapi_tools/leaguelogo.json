@@ -1,0 +1,17 @@
+{
+    "name": "leaguelogo",
+    "description": "This is a sub-function API for tool americanfootballapi.\nTool description: Here at the AmericanFootballApi you can find all the results and live scores from the biggest and most popular American football league in the world - NFL and when regular NFL season is finished, follow live scores of NFL playoffs and Superbowl. In addition to NFL we will also provide you with the livescores, results, standings and schedules for the NCAA College American football and Canadian CFL.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/alls...\nAPI description: This operation retrieves the logo image for an American Football league, given its unique tournament ID. The image is returned in PNG format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tournamentid": {
+                "type": "number",
+                "description": "The unique tournament ID of the league whose logo you want to retrieve.",
+                "default": 9464
+            }
+        },
+        "required": [
+            "tournamentid"
+        ]
+    }
+}

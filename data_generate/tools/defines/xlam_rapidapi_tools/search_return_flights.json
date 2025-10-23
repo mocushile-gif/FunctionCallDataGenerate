@@ -1,0 +1,25 @@
+{
+    "name": "search_return_flights",
+    "description": "This is a sub-function API for tool priceline_com_provider.\nTool description: priceline.com | Lets you search hotels, cars for rent, flights. **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters **Other travel  api:** https://rapi.one\nAPI description: Gets all the return flights for a given contract/return bundle from FlightDepartures through the getFlightReturns endpoint",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sid": {
+                "type": "string",
+                "description": "Session ID. A random string to identify the session, e.g., 'j10k11l12m13n14'."
+            },
+            "ppn_bundle": {
+                "type": "string",
+                "description": "ppn_bundle is a unique ID that ppn uses to identify a specific rate. This is the return bundle that is provided by FlightDepartures only."
+            },
+            "convert_currency": {
+                "type": "string",
+                "description": "The requested currency for the results, in ISO 4217 format. Defaults to None."
+            }
+        },
+        "required": [
+            "sid",
+            "ppn_bundle"
+        ]
+    }
+}

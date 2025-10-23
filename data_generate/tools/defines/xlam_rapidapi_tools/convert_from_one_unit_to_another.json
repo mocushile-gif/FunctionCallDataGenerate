@@ -1,0 +1,35 @@
+{
+    "name": "convert_from_one_unit_to_another",
+    "description": "This is a sub-function API for tool measurement_unit_converter.\nTool description: Say goodbye to the hassle of unit conversions with our Measurement Unit Converter API.\n\n\nAPI description: ### Converts the Given Quantity in One Unit to Another\n\nThis API call performs the actual unit conversion. You specify the measurement type, the source unit, the target unit, and the value to convert. Additionally, you can use the abbreviation, plural, or singular forms for the query parameters to specify units.\n\n#### Usage \nMake a GET request to /measurement where <measurement> is the type of measurement (e.g., length, mass). Use query parameters to specify the conversion details:\n\n- **value**: The numeric",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "to": {
+                "type": "string",
+                "description": "The target unit for conversion. Can be specified in abbreviation, singular, or plural forms (e.g., 'km', 'kilometer', 'kilometers').",
+                "default": "km"
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The source unit for conversion. Can be specified in abbreviation, singular, or plural forms (e.g., 'm', 'meter', 'meters').",
+                "default": "m"
+            },
+            "value": {
+                "type": "number",
+                "description": "The numeric value to be converted.",
+                "default": 1200.0
+            },
+            "measure": {
+                "type": "string",
+                "description": "The type of measurement (e.g., 'length', 'mass').",
+                "default": "length"
+            }
+        },
+        "required": [
+            "to",
+            "is_from",
+            "value",
+            "measure"
+        ]
+    }
+}

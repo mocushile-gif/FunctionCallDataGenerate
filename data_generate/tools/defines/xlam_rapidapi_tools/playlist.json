@@ -1,0 +1,17 @@
+{
+    "name": "playlist",
+    "description": "This is a sub-function API for tool cheap_youtube_api.\nTool description: 100% Uptime & Reliable | Blazing fast | Fully Featured | 1000x cheaper than Youtube API v3\nAPI description: Get playlist\nexample:\n/playlists/PLV3BLrRejJR_8XjiMrbev1_7RjIZTg1qb",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the YouTube playlist.",
+                "default": "PLV3BLrRejJR_8XjiMrbev1_7RjIZTg1qb"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

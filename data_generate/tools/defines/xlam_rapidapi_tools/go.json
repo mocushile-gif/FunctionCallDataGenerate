@@ -1,0 +1,32 @@
+{
+    "name": "go",
+    "description": "This is a sub-function API for tool fast_reading.\nTool description: Fast Reading (Bionic Reading) - is a shallow method of reading facilitating the reading process by guiding the eyes through text with artificial fixation points. As a result, the reader is only focusing on the highlighted initial letters and lets the brain center complete the word.\nAPI description: Convert raw text to a Bionized Reading format using the specified parameters via a RapidAPI request.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "txt": {
+                "type": "string",
+                "description": "The raw text to be converted.",
+                "default": "Fast Reading - is a shallow method of reading facilitating the reading process by guiding the eyes through text with artificial fixation points. As a result, the reader is only focusing on the highlighted initial letters and lets the brain center complete the word."
+            },
+            "fix": {
+                "type": "number",
+                "description": "The word fixation level to be applied. Default is 5.",
+                "default": 5.0
+            },
+            "lng": {
+                "type": "string",
+                "description": "The language code for text conversion. Supported values are 'en', 'ru', and 'es'. Default is 'en'.",
+                "default": "en"
+            },
+            "model": {
+                "type": "string",
+                "description": "The model for text processing. Supported values range from 'm1' to 'm11'. Default is 'm1'.",
+                "default": "m1"
+            }
+        },
+        "required": [
+            "txt"
+        ]
+    }
+}

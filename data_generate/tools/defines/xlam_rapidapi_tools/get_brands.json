@@ -1,0 +1,22 @@
+{
+    "name": "get_brands",
+    "description": "This is a sub-function API for tool cigars.\nTool description: Data about Cigar brands, Cigars, and country data\nAPI description: Fetches cigar brands from the RapidAPI endpoint, allowing for pagination and optional search filtering.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve for pagination.",
+                "default": 1.0
+            },
+            "search": {
+                "type": "string",
+                "description": "A search term to filter cigar brands. Defaults to 'Dominican'.",
+                "default": "Dominican"
+            }
+        },
+        "required": [
+            "page"
+        ]
+    }
+}

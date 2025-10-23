@@ -1,0 +1,16 @@
+{
+    "name": "titles_seasons_seriesid",
+    "description": "This is a sub-function API for tool moviesdatabase.\nTool description: MoviesDatabase provides complete and updated data for over 9 million titles ( movies, series and episodes) and 11 million actors / crew and cast members\nAPI description: Fetches the seasons information of a TV series from the Movies Database API using the given series ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "seriesid": {
+                "type": "string",
+                "description": "The IMDb ID of the TV series for which to fetch seasons information."
+            }
+        },
+        "required": [
+            "seriesid"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_station_information",
+    "description": "This is a sub-function API for tool noaa_tides.\nTool description: United States NOAA tide height and time predictions in JSON format.\nAPI description: Get information about a NOAA tide station using its ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The station ID to retrieve information for.",
+                "default": "8570283"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

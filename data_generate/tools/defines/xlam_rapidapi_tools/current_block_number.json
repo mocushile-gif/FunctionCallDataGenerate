@@ -1,0 +1,14 @@
+{
+    "name": "current_block_number",
+    "description": "This is a sub-function API for tool binance_smart_chain.\nTool description: All-In-One access to the BSC blockchain data!\n\nMore features are coming soon!\n\nFeedback and feature requests should be sent to:\nangleitnerchristoph123@gmail.com\nAPI description: Fetch the current block number of the Optimism blockchain.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "network": {
+                "type": "string",
+                "description": "The network to query, either \"mainnet\" or \"testnet\". Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

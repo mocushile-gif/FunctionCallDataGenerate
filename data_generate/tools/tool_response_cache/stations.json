@@ -1,0 +1,42 @@
+{
+    "{'states': 'CA,TX,FL'}": {
+        "error": "",
+        "response": "{'correlationId': '64beeaaa', 'parameterErrors': [{'parameter': 'query.states', 'message': 'Query parameter \"states\" is not recognized'}], 'title': 'Bad Request', 'type': 'https://api.weather.gov/problems/BadRequest', 'status': 400, 'detail': 'Bad Request', 'instance': 'https://api.weather.gov/requests/64beeaaa'}"
+    },
+    "{'states': 'TX,FL'}": {
+        "error": "",
+        "response": "{'correlationId': '1503fac8', 'parameterErrors': [{'parameter': 'query.states', 'message': 'Query parameter \"states\" is not recognized'}], 'title': 'Bad Request', 'type': 'https://api.weather.gov/problems/BadRequest', 'status': 400, 'detail': 'Bad Request', 'instance': 'https://api.weather.gov/requests/1503fac8'}"
+    },
+    "{'limit': 15, 'states': 'CA'}": {
+        "error": "",
+        "response": "{'correlationId': 'af1bb03', 'parameterErrors': [{'parameter': 'query.states', 'message': 'Query parameter \"states\" is not recognized'}], 'title': 'Bad Request', 'type': 'https://api.weather.gov/problems/BadRequest', 'status': 400, 'detail': 'Bad Request', 'instance': 'https://api.weather.gov/requests/af1bb03'}"
+    },
+    "{'limit': 15}": {
+        "error": "",
+        "response": "{'@context': ['https://geojson.org/geojson-ld/geojson-context.jsonld', {'@version': '1.1', 'wx': 'https://api.weather.gov/ontology#', 's': 'https://schema.org/', 'geo': 'http://www.opengis.net/ont/geosparql#', 'unit': 'http://codes.wmo.int/common/unit/', '@vocab': 'https://api.weather.gov/ontology#', 'geometry': {'@id': 's:GeoCoordinates', '@type': 'geo:wktLiteral'}, 'city': 's:addressLocality', 'state': 's:addressRegion', 'distance': {'@id': 's:Distance', '@type': 's:QuantitativeValue'}, 'bearing': {'@type': 's:QuantitativeValue'}, 'value': {'@id': 's:value'}, 'unitCode': {'@id': 's:unitCode', '@type': '@id'}, 'forecastOffice': {'@type': '@id'}, 'forecastGridData': {'@type': '@id'}, 'publicZone': {'@type': '@id'}, 'county': {'@type': '@id'}, 'observationStations': {'@container': '@list', '@type': '@id'}}], 'type': 'FeatureCollection', 'features': [{'id': 'https://api.weather.gov/stations/0007W', 'type': 'Feature', 'geometry': {'type': 'Point', 'coordinates': [-84.1787, 30.53099]}, 'properties': {'@id': 'https://api.weather.gov/stations/0007W', '@type': 'wx:ObservationStation', 'elevation': {'unitCode': 'wmoUnit:m', 'value': 49.0728}, 'stationIdentifier': '0007W', 'name': 'Montford Middle', 'timeZone': 'America/New_York', 'forecast': 'https://api.weather.gov/zones/forecast/FLZ017', 'county': 'https://api.weather.gov/zones/county/FLC073', 'fireWeatherZone': 'https://api.weather.gov/zones/fire/FLZ017'}}, {'id': 'https://api.weather.gov/stations/000PG', 'type': 'Feature', 'geome"
+    },
+    "{'states': 'CA,NY'}": {
+        "error": "",
+        "response": "{'correlationId': '48a52a0d', 'parameterErrors': [{'parameter': 'query.states', 'message': 'Query parameter \"states\" is not recognized'}], 'title': 'Bad Request', 'type': 'https://api.weather.gov/problems/BadRequest', 'status': 400, 'detail': 'Bad Request', 'instance': 'https://api.weather.gov/requests/48a52a0d'}"
+    },
+    "{'states': 'CA'}": {
+        "error": "",
+        "response": "{'correlationId': '6f11edf2', 'parameterErrors': [{'parameter': 'query.states', 'message': 'Query parameter \"states\" is not recognized'}], 'title': 'Bad Request', 'type': 'https://api.weather.gov/problems/BadRequest', 'status': 400, 'detail': 'Bad Request', 'instance': 'https://api.weather.gov/requests/6f11edf2'}"
+    },
+    "{'states': 'NY'}": {
+        "error": "",
+        "response": "{'correlationId': '6f142edb', 'parameterErrors': [{'parameter': 'query.states', 'message': 'Query parameter \"states\" is not recognized'}], 'title': 'Bad Request', 'type': 'https://api.weather.gov/problems/BadRequest', 'status': 400, 'detail': 'Bad Request', 'instance': 'https://api.weather.gov/requests/6f142edb'}"
+    },
+    "{'limit': 5, 'states': 'TX'}": {
+        "error": "",
+        "response": "{'correlationId': '62259873', 'parameterErrors': [{'parameter': 'query.states', 'message': 'Query parameter \"states\" is not recognized'}], 'title': 'Bad Request', 'type': 'https://api.weather.gov/problems/BadRequest', 'status': 400, 'detail': 'Bad Request', 'instance': 'https://api.weather.gov/requests/62259873'}"
+    },
+    "{'states': 'all'}": {
+        "error": "",
+        "response": "{'correlationId': '6ac76bd1', 'parameterErrors': [{'parameter': 'query.states', 'message': 'Query parameter \"states\" is not recognized'}], 'title': 'Bad Request', 'type': 'https://api.weather.gov/problems/BadRequest', 'status': 400, 'detail': 'Bad Request', 'instance': 'https://api.weather.gov/requests/6ac76bd1'}"
+    },
+    "{'states': 'CA,NY,TX'}": {
+        "error": "",
+        "response": "{'correlationId': '849dc850', 'parameterErrors': [{'parameter': 'query.states', 'message': 'Query parameter \"states\" is not recognized'}], 'title': 'Bad Request', 'type': 'https://api.weather.gov/problems/BadRequest', 'status': 400, 'detail': 'Bad Request', 'instance': 'https://api.weather.gov/requests/849dc850'}"
+    }
+}

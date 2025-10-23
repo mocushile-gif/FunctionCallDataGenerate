@@ -1,0 +1,53 @@
+{
+  "name": "filter_numeric_data",
+  "description": "Filter rows from an Excel or CSV file based on multiple threshold conditions applied to a numeric or datetime column.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "file_path": {
+        "type": "string",
+        "description": "Path to the Excel or CSV file to filter."
+      },
+      "sheet_name": {
+        "type": ["string", "integer"],
+        "description": "Name or index of the Excel sheet to read. Ignored for CSV files.",
+        "default": 0
+      },
+      "column_name": {
+        "type": "string",
+        "description": "The column on which to apply the filtering conditions. Must be numeric or datetime."
+      },
+      "thresholds": {
+        "type": "array",
+        "items": { "type": "number" },
+        "description": "A list of threshold values to apply to the column."
+      },
+      "conditions": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            "greater_than",
+            "less_than",
+            "equal_to",
+            "greater_than_or_equal_to",
+            "less_than_or_equal_to",
+            "not_equal_to"
+          ]
+        },
+        "description": "A list of filtering conditions corresponding to the thresholds. Must match in length."
+      },
+      "logical_operator": {
+        "type": "string",
+        "enum": ["and", "or"],
+        "description": "Logical operator to combine multiple filter conditions (AND/OR).",
+        "default": "or"
+      },
+      "save_as": {
+        "type": "string",
+        "description": "Optional path to save the filtered results as a .csv or .xlsx file."
+      }
+    },
+    "required": ["file_path", "column_name", "thresholds"]
+  }
+}

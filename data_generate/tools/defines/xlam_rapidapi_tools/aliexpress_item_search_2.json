@@ -1,0 +1,64 @@
+{
+    "name": "aliexpress_item_search_2",
+    "description": "This is a sub-function API for tool aliexpress_datahub.\nTool description: 🥇#1 Data Provider. Real-Time product data API you've been looking for. No manual rules or web-scraper maintenance is required.\nAPI description: Searches for items on AliExpress with various filtering options and returns the results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "endprice": {
+                "type": "number",
+                "description": "Maximum price of the items to be searched."
+            },
+            "sort": {
+                "type": "string",
+                "description": "Sorting option for the search results."
+            },
+            "brandid": {
+                "type": "string",
+                "description": "See '**brandList**' from the response of this Endpoint and from '*Item Search 2 Filters*' Endpoint for this filter value. Eg.: '200002136' and for multiple separate with coma Eg.: '200002136,658490794'"
+            },
+            "page": {
+                "type": "number",
+                "description": "Page number for pagination. Defaults to 1.",
+                "default": 1.0
+            },
+            "attr": {
+                "type": "string",
+                "description": "See '**attributeList**'  from '*Item Search 2 Filters*' Endpoint for this filter value. Multiple values are separated with semicolons Eg.: 200000480:200004386;1186:200000072"
+            },
+            "startprice": {
+                "type": "number",
+                "description": "Minimum price of the items to be searched."
+            },
+            "locale": {
+                "type": "string",
+                "description": "Locale parameter is used to display the titles and other content in selected language. All values are being validated and only the ones from the list are supported. Full list of supporting locale options, please use '**Locale List'** at '**Base**' group endpoints."
+            },
+            "switches": {
+                "type": "string",
+                "description": "See '**switchesList**' from the response of this Endpoint and from '*Item Search 2 Filters*' Endpoint for this filter value. Eg.: 'freeShipping' and for multiple separate with coma Eg.: 'freeShipping,sale'. "
+            },
+            "catid": {
+                "type": "string",
+                "description": "See '**caregoryList**' from '*Item Search 2 Filters*' Endpoint for this filter value. . Eg.: 200002136\n\n"
+            },
+            "q": {
+                "type": "string",
+                "description": "Search query. Defaults to 'iphone'.",
+                "default": "iphone"
+            },
+            "loc": {
+                "type": "string",
+                "description": "See '**locationList**' from '*Item Search 2 Filters*' Endpoint for this filter value. Eg.: US\n"
+            },
+            "currency": {
+                "type": "string",
+                "description": "Currency parameter is used to display the product price in selected currency. All values are being validated and only the ones from the list are supported. Full list of supporting currencies, please use '**Currency List**' at '**Base**' group endpoints."
+            },
+            "region": {
+                "type": "string",
+                "description": "Region parameter is used to accurately get the shipping costs and other promo/deals for specific geo location. All values are being validated and only the ones from the list are supported. Full list of supporting locale options, please use '**Country List**' at '**Base**' group endpoints."
+            }
+        },
+        "required": []
+    }
+}

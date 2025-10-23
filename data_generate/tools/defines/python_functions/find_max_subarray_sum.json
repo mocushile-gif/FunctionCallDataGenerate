@@ -1,0 +1,22 @@
+{
+    "name": "find_max_subarray_sum",
+    "description": "Finds the maximum sum of a contiguous subarray within a list of numbers using different methods, and returns the subarray corresponding to that maximum sum along with the execution time.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "nums": {
+          "description": "The input list of integers.",
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "method": {
+          "description": "The method to use ('kadane', 'brute_force', or 'divide_conquer').",
+          "type": "string",
+          "default": "kadane"
+        }
+      },
+      "required": ["nums"]
+    }
+}

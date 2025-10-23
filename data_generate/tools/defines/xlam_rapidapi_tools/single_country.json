@@ -1,0 +1,17 @@
+{
+    "name": "single_country",
+    "description": "This is a sub-function API for tool pageantdb.\nTool description: Metadata on publicly available information on various pageant contests. \nAPI description: Fetch all details of a country by its ID from the PageantDB API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the country to retrieve details for.",
+                "default": 5.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

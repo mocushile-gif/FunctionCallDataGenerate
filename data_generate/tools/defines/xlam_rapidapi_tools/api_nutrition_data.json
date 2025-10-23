@@ -1,0 +1,21 @@
+{
+    "name": "api_nutrition_data",
+    "description": "This is a sub-function API for tool edamam_nutrition_analysis.\nTool description: The Nutrition Analysis API and Database uses Natural Language Processing and semantically structured data. \nAPI description: This returns the nutritional analysis for the specified food text by extracting information from a short unstructured food text (usually an ingredient line and returns the following structured data for the text: quantity, measure and food,) and if available: diet, health and allergen labels for the text.  With the built in food logging feature, this allows for change of context. For example, “rice” will normally be matched to raw rice while, with the food logging feature on, it will match to ready to eat ‘c",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ingr": {
+                "type": "string",
+                "description": "The unstructured food text (usually an ingredient line) to be analyzed."
+            },
+            "nutrition_type": {
+                "type": "string",
+                "description": "Specifies the context for the food item. Defaults to 'cooking'.",
+                "default": "cooking"
+            }
+        },
+        "required": [
+            "ingr"
+        ]
+    }
+}

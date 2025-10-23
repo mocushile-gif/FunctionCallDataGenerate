@@ -1,0 +1,28 @@
+{
+    "name": "get_forecastdata_by_lat_lon",
+    "description": "This is a sub-function API for tool weather_forecast_14_days.\nTool description: weather forecast world wide  14 days 6hourly\nAPI description: Fetches a 14-day weather forecast for a given location specified by latitude and longitude.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the location.",
+                "default": 51.5
+            },
+            "lon": {
+                "type": "number",
+                "description": "Longitude of the location.",
+                "default": -0.6
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language for the forecast data. Defaults to 'en'. It can be one of [en, de, nl, fr, pl, gr, it, cn, ru, cz, pt, es].",
+                "default": "en"
+            }
+        },
+        "required": [
+            "lat",
+            "lon"
+        ]
+    }
+}

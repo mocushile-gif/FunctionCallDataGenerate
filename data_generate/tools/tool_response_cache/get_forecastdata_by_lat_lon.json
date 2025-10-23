@@ -1,0 +1,43 @@
+{
+    "{'lat': 35.68, 'lon': 139.77, 'lang': 'es'}": {
+        "error": "",
+        "response": {
+            "location": "Tokyo, Japan",
+            "forecast": [
+                {
+                    "date": "2023-10-01",
+                    "time": "00:00",
+                    "temperature_c": 22.5,
+                    "condition": "Despejado",
+                    "wind_speed": 15,
+                    "wind_direction": "Noreste"
+                },
+                {
+                    "date": "2023-10-01",
+                    "time": "06:00",
+                    "temperature_c": 20.3,
+                    "condition": "Parcialmente nublado",
+                    "wind_speed": 12,
+                    "wind_direction": "Sureste"
+                },
+                {
+                    "date": "2023-10-02",
+                    "time": "12:00",
+                    "temperature_c": 24.1,
+                    "condition": "Lluvia ligera",
+                    "wind_speed": 8,
+                    "wind_direction": "Oeste"
+                },
+                {
+                    "date": "2023-10-03",
+                    "time": "18:00",
+                    "temperature_c": 19.8,
+                    "condition": "Nublado",
+                    "wind_speed": 20,
+                    "wind_direction": "Noroeste"
+                }
+            ],
+            "note": "Predicci\u00f3n cada 6 horas por 14 d\u00edas. Datos en espa\u00f1ol."
+        }
+    }
+}

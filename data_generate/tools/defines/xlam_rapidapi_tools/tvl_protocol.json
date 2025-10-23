@@ -1,0 +1,16 @@
+{
+    "name": "tvl_protocol",
+    "description": "This is a sub-function API for tool defi_data.\nTool description: Free to use API to retrieve data about TVL and coins\nAPI description: Fetch the Total Value Locked (TVL) for a specified DeFi protocol from the RapidAPI Toolbench.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "protocol": {
+                "type": "string",
+                "description": "The slug identifier for the DeFi protocol."
+            }
+        },
+        "required": [
+            "protocol"
+        ]
+    }
+}

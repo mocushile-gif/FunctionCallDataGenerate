@@ -1,0 +1,33 @@
+{
+    "{'hair': 'blonde', 'max_waist': '24', 'max_rank': '50'}": {
+        "error": "",
+        "response": {
+            "count": 2,
+            "next": null,
+            "previous": null,
+            "results": [
+                {
+                    "name": "Aria Giovanni",
+                    "rank": 10,
+                    "hair": "blonde",
+                    "waist": 23,
+                    "cup_size": "DD",
+                    "age": 28,
+                    "ethnicity": "Caucasian",
+                    "nationality": "American"
+                },
+                {
+                    "name": "Lexi Belle",
+                    "rank": 45,
+                    "hair": "blonde",
+                    "waist": 24,
+                    "cup_size": "E",
+                    "age": 26,
+                    "ethnicity": "Caucasian",
+                    "nationality": "Canadian"
+                }
+            ],
+            "page": 1
+        }
+    }
+}

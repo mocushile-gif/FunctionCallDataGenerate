@@ -1,0 +1,42 @@
+{
+    "{'stableonly': True, 'chains': 'solana,avalanche'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'sortfield': 'volume', 'sorttype': 'desc', 'take': 50}": {
+        "error": "",
+        "response": ""
+    },
+    "{'stableonly': True, 'chains': 'solana,avalanche', 'take': 100}": {
+        "error": "",
+        "response": ""
+    },
+    "{'sortfield': 'volume_24h', 'sorttype': 'desc', 'take': 50}": {
+        "error": "",
+        "response": ""
+    },
+    "{'stableonly': True, 'chains': 'solana,avalanche', 'sortfield': 'market_cap', 'sorttype': 'desc', 'take': 100}": {
+        "error": "",
+        "response": ""
+    },
+    "{'sortfield': 'market_cap', 'sorttype': 'desc', 'take': 50}": {
+        "error": "",
+        "response": ""
+    },
+    "{'stableonly': True, 'sortfield': 'market_cap', 'sorttype': 'desc', 'take': 10}": {
+        "error": "",
+        "response": ""
+    },
+    "{'sortfield': 'market_cap', 'sorttype': 'desc', 'take': 10}": {
+        "error": "",
+        "response": ""
+    },
+    "{'sortfield': 'price', 'sorttype': 'asc', 'take': 50}": {
+        "error": "",
+        "response": ""
+    },
+    "{'stableonly': True, 'take': 10, 'sortfield': 'market_cap', 'sorttype': 'desc'}": {
+        "error": "",
+        "response": ""
+    }
+}

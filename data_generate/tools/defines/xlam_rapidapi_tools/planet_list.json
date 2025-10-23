@@ -1,0 +1,15 @@
+{
+    "name": "planet_list",
+    "description": "This is a sub-function API for tool stars_api.\nTool description: API to serve information about stars and planets scraped from wikipedia. Get to know over 200 stars and surrounding planets, in just a few lines of code.\nAPI description: Fetches the list of planets surrounding a given star using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "starid": {
+                "type": "string",
+                "description": "The ID of the star for which to fetch the planets. Defaults to '4'.",
+                "default": "4"
+            }
+        },
+        "required": []
+    }
+}

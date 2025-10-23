@@ -1,0 +1,17 @@
+{
+    "name": "get_zip_code_detail",
+    "description": "This is a sub-function API for tool zip_code_master.\nTool description: Profile and demographic data for every US ZIP code in JSON format.\nAPI description: Retrieve a detailed profile and demographic data for the provided ZIP code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zip": {
+                "type": "string",
+                "description": "The ZIP code for which to retrieve detailed information.",
+                "default": "10001"
+            }
+        },
+        "required": [
+            "zip"
+        ]
+    }
+}

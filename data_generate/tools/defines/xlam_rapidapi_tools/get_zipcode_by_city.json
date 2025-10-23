@@ -1,0 +1,17 @@
+{
+    "name": "get_zipcode_by_city",
+    "description": "This is a sub-function API for tool redfin_base.\nTool description: [IMPROVED SEARCH API]  API Redfin offers a powerful search feature that allows users to easily find their desired properties. With the search tool, users can refine their search based on location, price range, property type, and various other criteria. They can also customize their search by specifying the number of bedrooms and bathrooms, square footage, and other specific features they are looking for in a home. Redfin's search feature provides accurate and up-to-date results, helping users...\nAPI description: Retrieve the ZIP code for a given city using the Redfin Base API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "city": {
+                "type": "string",
+                "description": "The name of the city for which to retrieve the ZIP code.",
+                "default": "Holtsville"
+            }
+        },
+        "required": [
+            "city"
+        ]
+    }
+}

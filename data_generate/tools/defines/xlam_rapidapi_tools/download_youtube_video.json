@@ -1,0 +1,17 @@
+{
+    "name": "download_youtube_video",
+    "description": "This is a sub-function API for tool youtube_videos_downloader.\nTool description: This API is a YouTube video downloader that allows users to download both short and long videos from YouTube.\nAPI description: This API endpoint allows users to download YouTube videos by providing the video URL as input.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the YouTube video to be downloaded.",
+                "default": "https://youtube.com/shorts/8E5Pxn5AVGE?feature=share"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

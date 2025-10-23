@@ -1,0 +1,122 @@
+{
+    "{'timezone': 'EST', 'gameid': 0, 'langid': 1}": {
+        "error": "",
+        "response": {
+            "lastUpdateId": 4522808376,
+            "requestedUpdateId": -1,
+            "ttl": 5
+        }
+    },
+    "{'langid': 1, 'timezone': 'America/New_York', 'gameid': 123456}": {
+        "error": "",
+        "response": {
+            "lastUpdateId": 4528686438,
+            "requestedUpdateId": -1,
+            "ttl": 5
+        }
+    },
+    "{'langid': 1, 'timezone': 'America/New_York', 'gameid': 987654321}": {
+        "error": "",
+        "response": {
+            "lastUpdateId": 4528686503,
+            "requestedUpdateId": -1,
+            "ttl": 5
+        }
+    },
+    "{'langid': 1, 'timezone': 'America/New_York', 'gameid': 123456789}": {
+        "error": "",
+        "response": {
+            "lastUpdateId": 4528686538,
+            "requestedUpdateId": -1,
+            "ttl": 5
+        }
+    },
+    "{'timezone': 'America/New_York', 'gameid': 456789, 'langid': 1}": {
+        "error": "",
+        "response": {
+            "lastUpdateId": 4528687091,
+            "requestedUpdateId": -1,
+            "ttl": 5
+        }
+    },
+    "{'timezone': 'America/New_York', 'gameid': 12345, 'langid': 1}": {
+        "error": "",
+        "response": {
+            "lastUpdateId": 4528687190,
+            "requestedUpdateId": -1,
+            "ttl": 5
+        }
+    },
+    "{'timezone': 'America/New_York', 'gameid': 123456, 'langid': 1}": {
+        "error": "",
+        "response": {
+            "lastUpdateId": 4528687195,
+            "requestedUpdateId": -1,
+            "ttl": 5
+        }
+    },
+    "{'langid': 1, 'timezone': 'America/New_York', 'gameid': 456789}": {
+        "error": "",
+        "response": {
+            "lastUpdateId": 4528687227,
+            "requestedUpdateId": -1,
+            "ttl": 5
+        }
+    },
+    "{'gameid': 12345, 'langid': 1, 'timezone': 'America/New_York'}": {
+        "error": "",
+        "response": {
+            "lastUpdateId": 4528687740,
+            "requestedUpdateId": -1,
+            "ttl": 5
+        }
+    },
+    "{'langid': 1, 'timezone': 'America/New_York', 'gameid': 12345}": {
+        "error": "",
+        "response": {
+            "lastUpdateId": 4528687740,
+            "requestedUpdateId": -1,
+            "ttl": 5
+        }
+    },
+    "{'timezone': 'America/New_York', 'gameid': 0, 'langid': 1}": {
+        "error": "",
+        "response": {
+            "lastUpdateId": 4528914629,
+            "requestedUpdateId": -1,
+            "ttl": 5
+        }
+    },
+    "{'timezone': 'GMT', 'gameid': 9876, 'langid': 1}": {
+        "error": "",
+        "response": {
+            "lastUpdateId": 4528988140,
+            "requestedUpdateId": -1,
+            "ttl": 5
+        }
+    },
+    "{'timezone': 'GMT', 'gameid': 9877, 'langid': 1}": {
+        "error": "",
+        "response": {
+            "lastUpdateId": 4528988189,
+            "requestedUpdateId": -1,
+            "ttl": 5
+        }
+    },
+    "{'timezone': 'GMT', 'gameid': 9878, 'langid': 1}": {
+        "error": "",
+        "response": {
+            "lastUpdateId": 4528988257,
+            "requestedUpdateId": -1,
+            "ttl": 5
+        }
+    },
+    "{'gameid': 3627363, 'langid': 1, 'timezone': 'America/Chicago'}": {
+        "error": "",
+        "response": "{'competitions': [{'color': '#006BB7', 'competitorsType': 0, 'countryId': 18, 'currentPhaseName': 'Playoffs', 'currentPhaseNum': 2, 'currentSeasonNum': 83, 'currentStageNum': 7, 'currentStageType': 3, 'hasActiveGames': True, 'hasBrackets': True, 'hasStandings': True, 'hasStandingsGroups': False, 'id': 103, 'imageVersion': 3, 'liveGames': 0, 'name': 'NBA', 'nameForURL': 'nba', 'popularityRank': 13078483, 'sportId': 2, 'totalGames': 1}, {'competitorsType': 0, 'countryId': 18, 'currentSeasonNum': 3, 'currentStageNum': -1, 'currentStageType': -1, 'hasBrackets': False, 'id': 7244, 'imageVersion': 6, 'name': 'NBA Summer League', 'nameForURL': 'nba-summer-league', 'popularityRank': 148085, 'sportId': 2}], 'countries': [{'id': 18, 'imageVersion': 1, 'liveGames': 0, 'name': 'USA', 'nameForURL': 'usa', 'sportTypes': [1, 2, 4, 6, 7, 8, 9], 'totalGames': 1}, {'id': 366, 'imageVersion': 3, 'name': 'Wisconsin (USA)', 'nameForURL': 'wisconsin-(usa)'}, {'id': 66, 'imageVersion': 1, 'name': 'Canada', 'nameForURL': 'canada', 'sportTypes': [1, 2, 4, 6, 9, 11]}, {'id': 13, 'imageVersion': 1, 'name': 'Greece', 'nameForURL': 'greece', 'sportTypes': [1, 2, 5, 8]}, {'id': 36, 'imageVersion': 1, 'name': 'Australia', 'nameForURL': 'australia', 'sportTypes': [1, 2, 4, 9, 11]}, {'id': 78, 'imageVersion': 1, 'name': 'Georgia', 'nameForURL': 'georgia', 'sportTypes': [1]}, {'id': 83, 'imageVersion': 1, 'name': 'Nigeria', 'nameForURL': 'nigeria', 'sportTypes': [1]}, {'id': 73, 'imageVersion': 1, 'name': 'Cameroon', 'nameForURL': 'cameroon', 'sportTypes': [1, 2]}, {'id': 166, 'imageVersion': 1, 'name': 'United Kingdom', 'nameForURL': 'united-kingdom', 'sportTypes': [2]}, {'id': 198, 'imageVersion': 1, 'name': 'St. Lucia', 'nameForURL': 'st.-lucia'}, {'id': 2, 'imageVersion': 1, 'name': 'Spain', 'nameForURL': 'spain', 'sportTypes': [1, 2, 5, 8, 9]}], 'game': {'awayCompetitor': {'color': '#CE1141', 'countryId': 66, 'id': 1305, 'imageVersion': 1, 'isQualified': False, 'isWinner': False, 'lineups': {'hasFieldPositions': False, 'members': [{'formatio"
+    },
+    "{'gameid': 3627364, 'langid': 1, 'timezone': 'America/Chicago'}": {
+        "error": "",
+        "response": "{'competitions': [{'color': '#006BB7', 'competitorsType': 0, 'countryId': 18, 'currentPhaseName': 'Playoffs', 'currentPhaseNum': 2, 'currentSeasonNum': 83, 'currentStageNum': 7, 'currentStageType': 3, 'hasActiveGames': True, 'hasBrackets': True, 'hasStandings': True, 'hasStandingsGroups': False, 'id': 103, 'imageVersion': 3, 'liveGames': 0, 'name': 'NBA', 'nameForURL': 'nba', 'popularityRank': 13078483, 'sportId': 2, 'totalGames': 1}, {'competitorsType': 0, 'countryId': 18, 'currentSeasonNum': 3, 'currentStageNum': -1, 'currentStageType': -1, 'hasBrackets': False, 'id': 7244, 'imageVersion': 6, 'name': 'NBA Summer League', 'nameForURL': 'nba-summer-league', 'popularityRank': 148085, 'sportId': 2}], 'countries': [{'id': 18, 'imageVersion': 1, 'liveGames': 0, 'name': 'USA', 'nameForURL': 'usa', 'sportTypes': [1, 2, 4, 6, 7, 8, 9], 'totalGames': 1}, {'id': 324, 'imageVersion': 2, 'name': 'Colorado (USA)', 'nameForURL': 'colorado-(usa)'}, {'id': 355, 'imageVersion': 2, 'name': 'Oregon (USA)', 'nameForURL': 'oregon-(usa)'}, {'id': 66, 'imageVersion': 1, 'name': 'Canada', 'nameForURL': 'canada', 'sportTypes': [1, 2, 4, 6, 9, 11]}, {'id': 85, 'imageVersion': 1, 'name': 'Serbia', 'nameForURL': 'serbia', 'sportTypes': [1, 2]}, {'id': 46, 'imageVersion': 1, 'name': 'Slovenia', 'nameForURL': 'slovenia', 'sportTypes': [1, 2, 5]}, {'id': 36, 'imageVersion': 1, 'name': 'Australia', 'nameForURL': 'australia', 'sportTypes': [1, 2, 4, 9, 11]}, {'id': 57, 'imageVersion': 1, 'name': 'Bosnia Herzegovina', 'nameForURL': 'bosnia-herzegovina', 'sportTypes': [1, 2]}, {'id': 133, 'imageVersion': 1, 'name': 'Senegal', 'nameForURL': 'senegal', 'sportTypes': [1]}], 'game': {'awayCompetitor': {'color': '#E03A3E', 'countryId': 355, 'id': 1324, 'imageVersion': 1, 'isQualified': False, 'isWinner': False, 'lineups': {'hasFieldPositions': False, 'members': [{'formation': {'id': 22, 'name': 'Center', 'shortName': 'C'}, 'hasStats': True, 'id': 560787, 'position': {'id': 8, 'name': 'Center', 'shortName': 'C'}, 'stats': [{'categoryId': 1, 'imageId': "
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "extract_zip",
+    "description": "Extract a ZIP archive to a directory.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zip_file": {
+                "type": "string",
+                "description": "The path to the ZIP file."
+            },
+            "dest_dir": {
+                "type": "string",
+                "description": "The destination directory where files will be extracted. Default to './'"
+            }
+        },
+        "required": ["zip_file", "dest_dir"]
+    }
+}

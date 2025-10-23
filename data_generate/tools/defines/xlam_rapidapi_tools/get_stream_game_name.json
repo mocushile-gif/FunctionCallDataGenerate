@@ -1,0 +1,17 @@
+{
+    "name": "get_stream_game_name",
+    "description": "This is a sub-function API for tool gwyo_twitch.\nTool description: This API gives access to informations about a User / Channel, and Streams on Twitch.\nAPI description: Get  Stream Game Name (by username or id)\n( return an empty JSON object if not currently LIVE )",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "userid": {
+                "type": "string",
+                "description": "The Twitch user ID for which to fetch the current game name.",
+                "default": "xqcow"
+            }
+        },
+        "required": [
+            "userid"
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "select_from_tables",
+  "description": "Perform a SELECT query on a SQLite database table or join clause, with optional WHERE/GROUP BY/ORDER BY, and support for saving results or creating temp tables.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "database_path": {
+        "type": "string",
+        "description": "Path to the SQLite database file."
+      },
+      "from_clause": {
+        "type": "string",
+        "description": "Main table or JOIN clause to select from."
+      },
+      "columns": {
+        "oneOf": [
+            {
+                "type": "string",
+                "description": "A comma-separated string of columns to select."
+            },
+            {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                },
+                "description": "A list of column names to select."
+            }
+        ],
+        "description": "The columns to select. Can be provided as a comma-separated string or a list of column names. Defaults to '*' (all columns).",
+        "default": "*"
+    },
+      "where_clause": {
+        "type": "string",
+        "description": "Optional WHERE clause without the 'WHERE' keyword."
+      },
+      "where_params": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Optional parameters to bind into the WHERE clause."
+      },
+      "order_by": {
+        "type": "string",
+        "description": "ORDER BY clause to sort the result."
+      },
+      "limit": {
+        "type": "integer",
+        "description": "Maximum number of rows to return."
+      },
+      "group_by": {
+        "oneOf": [
+          {
+              "type": "string",
+              "description": "A comma-separated string of columns."
+          },
+          {
+              "type": "array",
+              "items": {
+                  "type": "string"
+              },
+              "description": "A list of column names."
+          }
+      ],
+        "description": "GROUP BY clause to aggregate data by one or more columns."
+      },
+      "distinct": {
+        "type": "boolean",
+        "default": false,
+        "description": "Whether to use SELECT DISTINCT to eliminate duplicate rows."
+      },
+      "save_to_file": {
+        "type": "string",
+        "description": "Optional file path to save results (.csv or .xlsx)."
+      },
+      "create_temp_table": {
+        "type": "string",
+        "description": "Optional name of a temp table to store query results inside the database."
+      }
+    },
+    "required": ["database_path", "from_clause"]
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "companies",
+    "description": "This is a sub-function API for tool seeding_data.\nTool description: Completely APIs that helps web developers and web designers generate fake data in a fast and easy way.\nAPI description: Fetch a specified quantity of companies for a given locale from the RapidAPI endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "quantity": {
+                "type": "number",
+                "description": "The number of companies to retrieve.",
+                "default": 100
+            },
+            "locale": {
+                "type": "string",
+                "description": "The locale code for the data, e.g., 'en_US'.",
+                "default": "en_US"
+            }
+        },
+        "required": [
+            "quantity",
+            "locale"
+        ]
+    }
+}

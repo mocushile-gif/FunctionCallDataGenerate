@@ -1,0 +1,46 @@
+{
+    "{'product_id': 329817465207}": {
+        "error": "",
+        "response": {
+            "product_id": 329817465207,
+            "title": "Wireless Bluetooth Headphones with Noise Cancellation",
+            "price": {
+                "original": 69.99,
+                "discounted": 49.99,
+                "currency": "USD"
+            },
+            "description": "High-quality wireless headphones with 20-hour battery life, touch controls, and active noise cancellation. Compatible with iOS and Android.",
+            "images": [
+                "https://image1.jpg",
+                "https://image2.jpg",
+                "https://image3.jpg"
+            ],
+            "videos": [
+                "https://video1.mp4"
+            ],
+            "specs": {
+                "color": [
+                    "Black",
+                    "White",
+                    "Blue"
+                ],
+                "connectivity": "Bluetooth 5.0",
+                "battery_life": "20 hours",
+                "weight": "235g"
+            },
+            "rating": 4.7,
+            "reviews_count": 1450,
+            "seller_info": {
+                "name": "TechGear Store",
+                "rating": 4.9,
+                "response_rate": "98%"
+            },
+            "shipping": {
+                "available_regions": [
+                    "Global"
+                ],
+                "estimated_days": "5-7 business days"
+            }
+        }
+    }
+}

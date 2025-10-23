@@ -1,0 +1,22 @@
+{
+    "name": "query_for_ldu_boundary",
+    "description": "This is a sub-function API for tool ca_boundaries_io.\nTool description: CA Postal Code(ex. T6H, or A0A0A1 ), FSA and LDU, Boundaries API: A simple & very fast API that will allow you to integrate multiple GeoJson CA FSA and LDU level boundaries result into your apps and systems. This API is designed to be used programatically for optimal performance. When using the MashApe UI for queries expect significant latency issues on large result sets!\nAPI description: Query the boundaries for a given LDU (Local Delivery Unit) postal code in Canada using the VanitySoft Canada Postal Boundaries API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "postal_ldu": {
+                "type": "string",
+                "description": "The LDU postal code to query.",
+                "default": "L0R 1B7"
+            },
+            "resolution": {
+                "type": "number",
+                "description": "The resolution of the boundary data. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "postal_ldu"
+        ]
+    }
+}

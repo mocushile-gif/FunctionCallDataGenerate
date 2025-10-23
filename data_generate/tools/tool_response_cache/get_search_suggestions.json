@@ -1,0 +1,80 @@
+{
+    "{'query': 'fine dining'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": {
+                "coins": [],
+                "exchanges": [],
+                "markets": []
+            }
+        }
+    },
+    "{'query': 'fine dining restaurants'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": {
+                "coins": [],
+                "exchanges": [],
+                "markets": []
+            }
+        }
+    },
+    "{'query': 'romantic dinner ideas and recipes'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": {
+                "coins": [],
+                "exchanges": [],
+                "markets": []
+            }
+        }
+    },
+    "{'query': 'fine dining restaurants in [city]'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": {
+                "coins": [],
+                "exchanges": [],
+                "markets": []
+            }
+        }
+    },
+    "{'query': 'romantic dinner ideas'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": {
+                "coins": [],
+                "exchanges": [],
+                "markets": []
+            }
+        }
+    },
+    "{'query': 'popular coins'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": {
+                "coins": [],
+                "exchanges": [],
+                "markets": []
+            }
+        }
+    },
+    "{'query': 'cryptocurrency'}": {
+        "error": "",
+        "response": "{'status': 'success', 'data': {'coins': [{'uuid': 'gfTpE54-X', 'iconUrl': 'https://cdn.coinranking.com/mMjTil9J4pm/koda-cryptocurrency.png', 'name': 'Koda Cryptocurrency', 'symbol': 'KODA', 'price': '0.000023733866321016'}, {'uuid': '-lmMMxMcvrAMK', 'iconUrl': 'https://cdn.coinranking.com/IrohUZQb_Fk/legends-cryptocurrency.svg', 'name': 'Legends Cryptocurrency', 'symbol': 'LGD', 'price': None}, {'uuid': 'JPQ58brCyT6aP', 'iconUrl': 'https://cdn.coinranking.com/qyZAKhkNRmn/global-cryptocurrency.svg', 'name': 'Global Cryptocurrency', 'symbol': 'GCC', 'price': None}, {'uuid': 'OPG-u0ha', 'iconUrl': 'https://cdn.coinranking.com/DNtszggeb/cryptocurrency.svg', 'name': 'Cryptocurrency', 'symbol': 'CCY', 'price': None}, {'uuid': 'W069ao5I', 'iconUrl': 'https://cdn.coinranking.com/LMxcanfQr/cryptocurrency-exchange-alliance-token.svg', 'name': 'Cryptocurrency eXchange Alliance Token', 'symbol': 'CXAT', 'price': None}, {'uuid': 'zFmq-jrYz', 'iconUrl': 'https://cdn.coinranking.com/H365__Njr/8887.png', 'name': 'Cryptocurrency Top 10 Tokens Index', 'symbol': 'CC10', 'price': None}, {'uuid': 'yBpb55Xmq', 'iconUrl': 'https://cdn.coinranking.com/Z5Eqwp1t2/ccn.png', 'name': 'CryptoCurrencyNetwork', 'symbol': 'CCN', 'price': None}, {'uuid': 'uq5b_KPKA3', 'iconUrl': 'https://cdn.coinranking.com/vORb3WjkLkc/kapex-cryptocurrency-token.png', 'name': 'KAPEX Cryptocurrency Token', 'symbol': 'KAPEX', 'price': None}], 'exchanges': [], 'markets': [{'uuid': 'FDC68-FbDlX', 'baseSymbol': 'KODA', 'quoteSymbol': 'WBNB', 'baseUuid': 'gfTpE54-X', 'quoteUuid': '2A4JPCpoL', 'exchangeIconUrl': 'https://cdn.coinranking.com/VoIomL27S/UNISWAP.PNG', 'exchangeName': 'Uniswap v2 (BSC)', 'exchangeUuid': '0rwsOIOzqO', 'recommended': True}, {'uuid': 'k2ghYyaM7', 'baseSymbol': 'KODA', 'quoteSymbol': 'WBNB', 'baseUuid': 'gfTpE54-X', 'quoteUuid': '2A4JPCpoL', 'exchangeIconUrl': 'https://cdn.coinranking.com/54BZJWiXf/pancakeswap.png', 'exchangeName': 'PancakeSwap v2 (BSC)', 'exchangeUuid': 'kBIDsvuKWyHx', 'recommended': True}], 'fiat': [], 'categories': []}}"
+    },
+    "{'query': 'Bitcoin'}": {
+        "error": "",
+        "response": "{'status': 'success', 'data': {'coins': [{'uuid': 'Qwsogvtv82FCd', 'iconUrl': 'https://cdn.coinranking.com/bOabBYkcX/bitcoin_btc.svg', 'name': 'Bitcoin', 'symbol': 'BTC', 'price': '30390.926949670597'}, {'uuid': 'ZlZpzOJo43mIo', 'iconUrl': 'https://cdn.coinranking.com/By8ziihX7/bch.svg', 'name': 'Bitcoin Cash', 'symbol': 'BCH', 'price': '281.33821882689017'}, {'uuid': 'VcMY11NONHSA0', 'iconUrl': 'https://cdn.coinranking.com/388ehh6kq/bitcoin-sv-1.svg', 'name': 'Bitcoin SV', 'symbol': 'BSV', 'price': '42.78240060258051'}, {'uuid': '1rnjJ1rInKP5K', 'iconUrl': 'https://cdn.coinranking.com/BkLedkw-G/btg.svg', 'name': 'Bitcoin Gold', 'symbol': 'BTG', 'price': '13.4889209228811'}, {'uuid': 'h0XuVJXY', 'iconUrl': 'https://cdn.coinranking.com/0Ss-HT19O/btcv.svg', 'name': 'Bitcoin Vault', 'symbol': 'BTCV', 'price': '6.405710661196081'}, {'uuid': 'wPUcJNw024C_y', 'iconUrl': 'https://cdn.coinranking.com/ByN45aEm7/bcd.svg', 'name': 'Bitcoin Diamond', 'symbol': 'BCD', 'price': '0.07914730272891957'}, {'uuid': 'bS_59f03V', 'iconUrl': 'https://cdn.coinranking.com/mR6e9rFPH/btsssss.png', 'name': 'Bitcoin Standard Hashrate Token', 'symbol': 'BTCST', 'price': '0.35749620373195395'}, {'uuid': 'h-3RuRkxHtpby', 'iconUrl': 'https://cdn.coinranking.com/XejvJsgah/btcz.png', 'name': 'BitcoinZ', 'symbol': 'BTCZ', 'price': '0.000123112923729177'}], 'exchanges': [], 'markets': [{'uuid': 'MP77r-vKf4', 'baseSymbol': 'BTC', 'quoteSymbol': 'USDT', 'baseUuid': 'Qwsogvtv82FCd', 'quoteUuid': 'HIVsRcGKkPFtW', 'exchangeIconUrl': 'https://cdn.coinranking.com/mDTK5qrmq/binance.svg', 'exchangeName': 'Binance', 'exchangeUuid': '-zdvbieRdZ', 'recommended': True}, {'uuid': 'BfkLiwAInu', 'baseSymbol': 'BTC', 'quoteSymbol': 'USD', 'baseUuid': 'Qwsogvtv82FCd', 'quoteUuid': 'yhjMzLPhuIDl', 'exchangeIconUrl': 'https://cdn.coinranking.com/eTtnk9dDn/coinbase.svg', 'exchangeName': 'Coinbase Pro', 'exchangeUuid': 'qn5ZJmPFP', 'recommended': True}, {'uuid': 'SLsduV8whx', 'baseSymbol': 'BTC', 'quoteSymbol': 'USDT', 'baseUuid': 'Qwsogvtv82FCd', 'quoteUuid': 'HIVsRcGK"
+    },
+    "{'query': 'Litecoin', 'referencecurrencyuuid': '5k-_VTxqtCEI'}": {
+        "error": "",
+        "response": "{'status': 'success', 'data': {'coins': [{'uuid': 'D7B1x_ks7WhV5', 'iconUrl': 'https://cdn.coinranking.com/BUvPxmc9o/ltcnew.svg', 'name': 'Litecoin', 'symbol': 'LTC', 'price': '72.77966656809235'}, {'uuid': 'YGZdZSKtq', 'iconUrl': 'https://cdn.coinranking.com/JUEzMo3IU/LrysCc5Q_400x400.png', 'name': 'Binance-Peg Litecoin', 'symbol': 'LTC', 'price': '72.66211148646653'}, {'uuid': 'OFwy36145', 'iconUrl': 'https://cdn.coinranking.com/qXkTFPEYv/lester.png', 'name': 'Litecoin Mascot', 'symbol': 'LESTER', 'price': '0.0007561718717003385'}, {'uuid': 'BbYujaroo-koz', 'iconUrl': 'https://cdn.coinranking.com/ilXIywUcWt/litecoin-cash.svg', 'name': 'Litecoin Cash', 'symbol': 'LTCH', 'price': None}, {'uuid': 'M7oSnepswEb3', 'iconUrl': 'https://cdn.coinranking.com/L7VOtrKmt/litecoin-classic.svg', 'name': 'LiteCoin Classic', 'symbol': 'LTCC', 'price': None}, {'uuid': '4x6-usYjW3ZO3', 'iconUrl': 'https://cdn.coinranking.com/kgxV3Owd53J/litecoin-plus.svg', 'name': 'Litecoin Plus', 'symbol': 'LCP', 'price': None}, {'uuid': 'r5ZolwBacAiPi', 'iconUrl': 'https://cdn.coinranking.com/EP6Mx4ih8Ak/litecoindark.svg', 'name': 'LitecoinDark', 'symbol': 'LTCD', 'price': None}, {'uuid': 'H3FMUj6D8Y8y2', 'iconUrl': 'https://cdn.coinranking.com/UgTCzbAz8C/litecoinx.svg', 'name': 'LitecoinX', 'symbol': 'LTCX', 'price': None}], 'exchanges': [], 'markets': [{'uuid': 'm10cBWbI6l', 'baseSymbol': 'LTC', 'quoteSymbol': 'USDT', 'baseUuid': 'D7B1x_ks7WhV5', 'quoteUuid': 'HIVsRcGKkPFtW', 'exchangeIconUrl': 'https://c"
+    }
+}

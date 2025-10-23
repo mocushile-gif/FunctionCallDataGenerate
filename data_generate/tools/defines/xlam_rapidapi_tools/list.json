@@ -1,0 +1,68 @@
+{
+    "name": "list",
+    "description": "This is a sub-function API for tool onlyfans.\nTool description: apis for onlyfans\nAPI description: Used to get a full list of expired user details\n\nMust hit the auth endpoint first!\nAlso best to hit the count endpoint beforehand.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sort": {
+                "type": "string",
+                "description": "Sorting order for the results."
+            },
+            "signend": {
+                "type": "string",
+                "description": "End signature for authentication."
+            },
+            "signstart": {
+                "type": "string",
+                "description": "Start signature for authentication."
+            },
+            "apptoken": {
+                "type": "string",
+                "description": "Application token for API access."
+            },
+            "xbc": {
+                "type": "string",
+                "description": "XBC token for API access."
+            },
+            "timezone": {
+                "type": "string",
+                "description": "Timezone used for the query.",
+                "default": "America/Los_Angeles"
+            },
+            "useragent": {
+                "type": "string",
+                "description": "User agent string for the API request."
+            },
+            "field": {
+                "type": "string",
+                "description": "Specific field to query for information."
+            },
+            "offset": {
+                "type": "string",
+                "description": "Offset for pagination, must be divisible by 200."
+            },
+            "sess": {
+                "type": "string",
+                "description": "Session identifier for the request."
+            },
+            "auth_id": {
+                "type": "string",
+                "description": "Authentication ID for the user.",
+                "default": "729369"
+            }
+        },
+        "required": [
+            "sort",
+            "signend",
+            "signstart",
+            "apptoken",
+            "xbc",
+            "timezone",
+            "useragent",
+            "field",
+            "offset",
+            "sess",
+            "auth_id"
+        ]
+    }
+}

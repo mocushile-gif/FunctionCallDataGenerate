@@ -1,0 +1,16 @@
+{
+    "name": "domain_detail",
+    "description": "This is a sub-function API for tool sitedomain.\nTool description: site adm domain\nAPI description: Fetches the domain detail for a given domain ID using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "did": {
+                "type": "number",
+                "description": "The domain ID for which the details are to be fetched."
+            }
+        },
+        "required": [
+            "did"
+        ]
+    }
+}

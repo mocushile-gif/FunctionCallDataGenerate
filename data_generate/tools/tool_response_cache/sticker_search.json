@@ -1,0 +1,21 @@
+{
+    "{'q': 'J. Sinner', 'limit': '1'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "id": "xyz123",
+                    "title": "J. Sinner Celebrates Sticker",
+                    "url": "https://media.giphy.com/media/xyz123/sticker.gif",
+                    "rating": "pg",
+                    "type": "sticker"
+                }
+            ],
+            "pagination": {
+                "offset": 0,
+                "count": 1,
+                "total_count": 50
+            }
+        }
+    }
+}

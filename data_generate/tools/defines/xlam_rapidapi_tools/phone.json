@@ -1,0 +1,16 @@
+{
+    "name": "phone",
+    "description": "This is a sub-function API for tool phone_validation.\nTool description: Mobile phone validation with extended checks\nAPI description: Fetches information about a given phone number using the phone-validation API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone": {
+                "type": "string",
+                "description": "Provided number should be in E.164 format. (E.164 numbers can have a maximum of fifteen digits and are usually written as follows: [+][country code][subscriber number including area code].)"
+            }
+        },
+        "required": [
+            "phone"
+        ]
+    }
+}

@@ -1,0 +1,649 @@
+{
+    "{\n  \"alias\": \"popular\"\n}": {
+        "error": "",
+        "response": "{\"data\":[{\"cid\":71,\"codeName\":\"Aerospace -- 航太\"},{\"cid\":51,\"codeName\":\"Agricultural &amp; Foods -- 農產及食品\"},{\"cid\":56,\"codeName\":\"Apparel &amp; Accessories -- 服飾及配件\"},{\"cid\":69,\"codeName\":\"Automobiles &amp; Motorcycles -- 汽機車\"},{\"cid\":54,\"codeName\":\"Beauty &amp; Personal Care -- 美容及個人用品\"},{\"cid\":70,\"codeName\":\"Bicycles -- 自行車\"},{\"cid\":53,\"codeName\":\"Chemicals -- 化學品\"},{\"cid\":67,\"codeName\":\"Computer -- 電腦\"},{\"cid\":76,\"codeName\":\"Construction -- 建材及衛浴設備\"},{\"cid\":64,\"codeName\":\"Consumer Electronics -- 消費性電子\"},{\"cid\":63,\"codeName\":\"Electrical &amp; Electronics -- 電機及電子\"},{\"cid\":77,\"codeName\":\"Furniture -- 家具\"},{\"cid\":83,\"codeName\":\"Gifts &amp; Crafts -- 禮品及藝品\"},{\"cid\":59,\"codeName\":\"Hardware -- 五金\"},{\"cid\":65,\"codeName\":\"Home Appliances -- 家庭用電器\"},{\"cid\":78,\"codeName\":\"Houseware -- 家庭用品\"}]}"
+    },
+    "{\n  \"alias\": \"tech\"\n}": {
+        "error": "",
+        "response": "{\"data\":[{\"cid\":71,\"codeName\":\"Aerospace -- 航太\"},{\"cid\":51,\"codeName\":\"Agricultural &amp; Foods -- 農產及食品\"},{\"cid\":56,\"codeName\":\"Apparel &amp; Accessories -- 服飾及配件\"},{\"cid\":69,\"codeName\":\"Automobiles &amp; Motorcycles -- 汽機車\"},{\"cid\":54,\"codeName\":\"Beauty &amp; Personal Care -- 美容及個人用品\"},{\"cid\":70,\"codeName\":\"Bicycles -- 自行車\"},{\"cid\":53,\"codeName\":\"Chemicals -- 化學品\"},{\"cid\":67,\"codeName\":\"Computer -- 電腦\"},{\"cid\":76,\"codeName\":\"Construction -- 建材及衛浴設備\"},{\"cid\":64,\"codeName\":\"Consumer Electronics -- 消費性電子\"},{\"cid\":63,\"codeName\":\"Electrical &amp; Electronics -- 電機及電子\"},{\"cid\":77,\"codeName\":\"Furniture -- 家具\"},{\"cid\":83,\"codeName\":\"Gifts &amp; Crafts -- 禮品及藝品\"},{\"cid\":59,\"codeName\":\"Hardware -- 五金\"},{\"cid\":65,\"codeName\":\"Home Appliances -- 家庭用電器\"},{\"cid\":78,\"codeName\":\"Houseware -- 家庭用品\"}]}"
+    },
+    "{'alias': 'cannabis'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "cid": 71,
+                    "codeName": "Aerospace -- 航太"
+                },
+                {
+                    "cid": 51,
+                    "codeName": "Agricultural &amp; Foods -- 農產及食品"
+                },
+                {
+                    "cid": 56,
+                    "codeName": "Apparel &amp; Accessories -- 服飾及配件"
+                },
+                {
+                    "cid": 69,
+                    "codeName": "Automobiles &amp; Motorcycles -- 汽機車"
+                },
+                {
+                    "cid": 54,
+                    "codeName": "Beauty &amp; Personal Care -- 美容及個人用品"
+                },
+                {
+                    "cid": 70,
+                    "codeName": "Bicycles -- 自行車"
+                },
+                {
+                    "cid": 53,
+                    "codeName": "Chemicals -- 化學品"
+                },
+                {
+                    "cid": 67,
+                    "codeName": "Computer -- 電腦"
+                },
+                {
+                    "cid": 76,
+                    "codeName": "Construction -- 建材及衛浴設備"
+                },
+                {
+                    "cid": 64,
+                    "codeName": "Consumer Electronics -- 消費性電子"
+                },
+                {
+                    "cid": 63,
+                    "codeName": "Electrical &amp; Electronics -- 電機及電子"
+                },
+                {
+                    "cid": 77,
+                    "codeName": "Furniture -- 家具"
+                },
+                {
+                    "cid": 83,
+                    "codeName": "Gifts &amp; Crafts -- 禮品及藝品"
+                },
+                {
+                    "cid": 59,
+                    "codeName": "Hardware -- 五金"
+                },
+                {
+                    "cid": 65,
+                    "codeName": "Home Appliances -- 家庭用電器"
+                },
+                {
+                    "cid": 78,
+                    "codeName": "Houseware -- 家庭用品"
+                }
+            ]
+        }
+    },
+    "{'alias': 'tourism'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "cid": 71,
+                    "codeName": "Aerospace -- 航太"
+                },
+                {
+                    "cid": 51,
+                    "codeName": "Agricultural &amp; Foods -- 農產及食品"
+                },
+                {
+                    "cid": 56,
+                    "codeName": "Apparel &amp; Accessories -- 服飾及配件"
+                },
+                {
+                    "cid": 69,
+                    "codeName": "Automobiles &amp; Motorcycles -- 汽機車"
+                },
+                {
+                    "cid": 54,
+                    "codeName": "Beauty &amp; Personal Care -- 美容及個人用品"
+                },
+                {
+                    "cid": 70,
+                    "codeName": "Bicycles -- 自行車"
+                },
+                {
+                    "cid": 53,
+                    "codeName": "Chemicals -- 化學品"
+                },
+                {
+                    "cid": 67,
+                    "codeName": "Computer -- 電腦"
+                },
+                {
+                    "cid": 76,
+                    "codeName": "Construction -- 建材及衛浴設備"
+                },
+                {
+                    "cid": 64,
+                    "codeName": "Consumer Electronics -- 消費性電子"
+                },
+                {
+                    "cid": 63,
+                    "codeName": "Electrical &amp; Electronics -- 電機及電子"
+                },
+                {
+                    "cid": 77,
+                    "codeName": "Furniture -- 家具"
+                },
+                {
+                    "cid": 83,
+                    "codeName": "Gifts &amp; Crafts -- 禮品及藝品"
+                },
+                {
+                    "cid": 59,
+                    "codeName": "Hardware -- 五金"
+                },
+                {
+                    "cid": 65,
+                    "codeName": "Home Appliances -- 家庭用電器"
+                },
+                {
+                    "cid": 78,
+                    "codeName": "Houseware -- 家庭用品"
+                }
+            ]
+        }
+    },
+    "{'alias': 'tourist_attractions'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "cid": 71,
+                    "codeName": "Aerospace -- 航太"
+                },
+                {
+                    "cid": 51,
+                    "codeName": "Agricultural &amp; Foods -- 農產及食品"
+                },
+                {
+                    "cid": 56,
+                    "codeName": "Apparel &amp; Accessories -- 服飾及配件"
+                },
+                {
+                    "cid": 69,
+                    "codeName": "Automobiles &amp; Motorcycles -- 汽機車"
+                },
+                {
+                    "cid": 54,
+                    "codeName": "Beauty &amp; Personal Care -- 美容及個人用品"
+                },
+                {
+                    "cid": 70,
+                    "codeName": "Bicycles -- 自行車"
+                },
+                {
+                    "cid": 53,
+                    "codeName": "Chemicals -- 化學品"
+                },
+                {
+                    "cid": 67,
+                    "codeName": "Computer -- 電腦"
+                },
+                {
+                    "cid": 76,
+                    "codeName": "Construction -- 建材及衛浴設備"
+                },
+                {
+                    "cid": 64,
+                    "codeName": "Consumer Electronics -- 消費性電子"
+                },
+                {
+                    "cid": 63,
+                    "codeName": "Electrical &amp; Electronics -- 電機及電子"
+                },
+                {
+                    "cid": 77,
+                    "codeName": "Furniture -- 家具"
+                },
+                {
+                    "cid": 83,
+                    "codeName": "Gifts &amp; Crafts -- 禮品及藝品"
+                },
+                {
+                    "cid": 59,
+                    "codeName": "Hardware -- 五金"
+                },
+                {
+                    "cid": 65,
+                    "codeName": "Home Appliances -- 家庭用電器"
+                },
+                {
+                    "cid": 78,
+                    "codeName": "Houseware -- 家庭用品"
+                }
+            ]
+        }
+    },
+    "{'alias': 'technology'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "cid": 71,
+                    "codeName": "Aerospace -- 航太"
+                },
+                {
+                    "cid": 51,
+                    "codeName": "Agricultural &amp; Foods -- 農產及食品"
+                },
+                {
+                    "cid": 56,
+                    "codeName": "Apparel &amp; Accessories -- 服飾及配件"
+                },
+                {
+                    "cid": 69,
+                    "codeName": "Automobiles &amp; Motorcycles -- 汽機車"
+                },
+                {
+                    "cid": 54,
+                    "codeName": "Beauty &amp; Personal Care -- 美容及個人用品"
+                },
+                {
+                    "cid": 70,
+                    "codeName": "Bicycles -- 自行車"
+                },
+                {
+                    "cid": 53,
+                    "codeName": "Chemicals -- 化學品"
+                },
+                {
+                    "cid": 67,
+                    "codeName": "Computer -- 電腦"
+                },
+                {
+                    "cid": 76,
+                    "codeName": "Construction -- 建材及衛浴設備"
+                },
+                {
+                    "cid": 64,
+                    "codeName": "Consumer Electronics -- 消費性電子"
+                },
+                {
+                    "cid": 63,
+                    "codeName": "Electrical &amp; Electronics -- 電機及電子"
+                },
+                {
+                    "cid": 77,
+                    "codeName": "Furniture -- 家具"
+                },
+                {
+                    "cid": 83,
+                    "codeName": "Gifts &amp; Crafts -- 禮品及藝品"
+                },
+                {
+                    "cid": 59,
+                    "codeName": "Hardware -- 五金"
+                },
+                {
+                    "cid": 65,
+                    "codeName": "Home Appliances -- 家庭用電器"
+                },
+                {
+                    "cid": 78,
+                    "codeName": "Houseware -- 家庭用品"
+                }
+            ]
+        }
+    },
+    "{'alias': 'manufacturing'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "cid": 71,
+                    "codeName": "Aerospace -- 航太"
+                },
+                {
+                    "cid": 51,
+                    "codeName": "Agricultural &amp; Foods -- 農產及食品"
+                },
+                {
+                    "cid": 56,
+                    "codeName": "Apparel &amp; Accessories -- 服飾及配件"
+                },
+                {
+                    "cid": 69,
+                    "codeName": "Automobiles &amp; Motorcycles -- 汽機車"
+                },
+                {
+                    "cid": 54,
+                    "codeName": "Beauty &amp; Personal Care -- 美容及個人用品"
+                },
+                {
+                    "cid": 70,
+                    "codeName": "Bicycles -- 自行車"
+                },
+                {
+                    "cid": 53,
+                    "codeName": "Chemicals -- 化學品"
+                },
+                {
+                    "cid": 67,
+                    "codeName": "Computer -- 電腦"
+                },
+                {
+                    "cid": 76,
+                    "codeName": "Construction -- 建材及衛浴設備"
+                },
+                {
+                    "cid": 64,
+                    "codeName": "Consumer Electronics -- 消費性電子"
+                },
+                {
+                    "cid": 63,
+                    "codeName": "Electrical &amp; Electronics -- 電機及電子"
+                },
+                {
+                    "cid": 77,
+                    "codeName": "Furniture -- 家具"
+                },
+                {
+                    "cid": 83,
+                    "codeName": "Gifts &amp; Crafts -- 禮品及藝品"
+                },
+                {
+                    "cid": 59,
+                    "codeName": "Hardware -- 五金"
+                },
+                {
+                    "cid": 65,
+                    "codeName": "Home Appliances -- 家庭用電器"
+                },
+                {
+                    "cid": 78,
+                    "codeName": "Houseware -- 家庭用品"
+                }
+            ]
+        }
+    },
+    "{'alias': 'web_hosting'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "cid": 71,
+                    "codeName": "Aerospace -- 航太"
+                },
+                {
+                    "cid": 51,
+                    "codeName": "Agricultural &amp; Foods -- 農產及食品"
+                },
+                {
+                    "cid": 56,
+                    "codeName": "Apparel &amp; Accessories -- 服飾及配件"
+                },
+                {
+                    "cid": 69,
+                    "codeName": "Automobiles &amp; Motorcycles -- 汽機車"
+                },
+                {
+                    "cid": 54,
+                    "codeName": "Beauty &amp; Personal Care -- 美容及個人用品"
+                },
+                {
+                    "cid": 70,
+                    "codeName": "Bicycles -- 自行車"
+                },
+                {
+                    "cid": 53,
+                    "codeName": "Chemicals -- 化學品"
+                },
+                {
+                    "cid": 67,
+                    "codeName": "Computer -- 電腦"
+                },
+                {
+                    "cid": 76,
+                    "codeName": "Construction -- 建材及衛浴設備"
+                },
+                {
+                    "cid": 64,
+                    "codeName": "Consumer Electronics -- 消費性電子"
+                },
+                {
+                    "cid": 63,
+                    "codeName": "Electrical &amp; Electronics -- 電機及電子"
+                },
+                {
+                    "cid": 77,
+                    "codeName": "Furniture -- 家具"
+                },
+                {
+                    "cid": 83,
+                    "codeName": "Gifts &amp; Crafts -- 禮品及藝品"
+                },
+                {
+                    "cid": 59,
+                    "codeName": "Hardware -- 五金"
+                },
+                {
+                    "cid": 65,
+                    "codeName": "Home Appliances -- 家庭用電器"
+                },
+                {
+                    "cid": 78,
+                    "codeName": "Houseware -- 家庭用品"
+                }
+            ]
+        }
+    },
+    "{'alias': 'web hosting'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "cid": 71,
+                    "codeName": "Aerospace -- 航太"
+                },
+                {
+                    "cid": 51,
+                    "codeName": "Agricultural &amp; Foods -- 農產及食品"
+                },
+                {
+                    "cid": 56,
+                    "codeName": "Apparel &amp; Accessories -- 服飾及配件"
+                },
+                {
+                    "cid": 69,
+                    "codeName": "Automobiles &amp; Motorcycles -- 汽機車"
+                },
+                {
+                    "cid": 54,
+                    "codeName": "Beauty &amp; Personal Care -- 美容及個人用品"
+                },
+                {
+                    "cid": 70,
+                    "codeName": "Bicycles -- 自行車"
+                },
+                {
+                    "cid": 53,
+                    "codeName": "Chemicals -- 化學品"
+                },
+                {
+                    "cid": 67,
+                    "codeName": "Computer -- 電腦"
+                },
+                {
+                    "cid": 76,
+                    "codeName": "Construction -- 建材及衛浴設備"
+                },
+                {
+                    "cid": 64,
+                    "codeName": "Consumer Electronics -- 消費性電子"
+                },
+                {
+                    "cid": 63,
+                    "codeName": "Electrical &amp; Electronics -- 電機及電子"
+                },
+                {
+                    "cid": 77,
+                    "codeName": "Furniture -- 家具"
+                },
+                {
+                    "cid": 83,
+                    "codeName": "Gifts &amp; Crafts -- 禮品及藝品"
+                },
+                {
+                    "cid": 59,
+                    "codeName": "Hardware -- 五金"
+                },
+                {
+                    "cid": 65,
+                    "codeName": "Home Appliances -- 家庭用電器"
+                },
+                {
+                    "cid": 78,
+                    "codeName": "Houseware -- 家庭用品"
+                }
+            ]
+        }
+    },
+    "{'alias': 'web-hosting'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "cid": 71,
+                    "codeName": "Aerospace -- 航太"
+                },
+                {
+                    "cid": 51,
+                    "codeName": "Agricultural &amp; Foods -- 農產及食品"
+                },
+                {
+                    "cid": 56,
+                    "codeName": "Apparel &amp; Accessories -- 服飾及配件"
+                },
+                {
+                    "cid": 69,
+                    "codeName": "Automobiles &amp; Motorcycles -- 汽機車"
+                },
+                {
+                    "cid": 54,
+                    "codeName": "Beauty &amp; Personal Care -- 美容及個人用品"
+                },
+                {
+                    "cid": 70,
+                    "codeName": "Bicycles -- 自行車"
+                },
+                {
+                    "cid": 53,
+                    "codeName": "Chemicals -- 化學品"
+                },
+                {
+                    "cid": 67,
+                    "codeName": "Computer -- 電腦"
+                },
+                {
+                    "cid": 76,
+                    "codeName": "Construction -- 建材及衛浴設備"
+                },
+                {
+                    "cid": 64,
+                    "codeName": "Consumer Electronics -- 消費性電子"
+                },
+                {
+                    "cid": 63,
+                    "codeName": "Electrical &amp; Electronics -- 電機及電子"
+                },
+                {
+                    "cid": 77,
+                    "codeName": "Furniture -- 家具"
+                },
+                {
+                    "cid": 83,
+                    "codeName": "Gifts &amp; Crafts -- 禮品及藝品"
+                },
+                {
+                    "cid": 59,
+                    "codeName": "Hardware -- 五金"
+                },
+                {
+                    "cid": 65,
+                    "codeName": "Home Appliances -- 家庭用電器"
+                },
+                {
+                    "cid": 78,
+                    "codeName": "Houseware -- 家庭用品"
+                }
+            ]
+        }
+    },
+    "{'alias': 'logodesign'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "cid": 71,
+                    "codeName": "Aerospace -- 航太"
+                },
+                {
+                    "cid": 51,
+                    "codeName": "Agricultural &amp; Foods -- 農產及食品"
+                },
+                {
+                    "cid": 56,
+                    "codeName": "Apparel &amp; Accessories -- 服飾及配件"
+                },
+                {
+                    "cid": 69,
+                    "codeName": "Automobiles &amp; Motorcycles -- 汽機車"
+                },
+                {
+                    "cid": 54,
+                    "codeName": "Beauty &amp; Personal Care -- 美容及個人用品"
+                },
+                {
+                    "cid": 70,
+                    "codeName": "Bicycles -- 自行車"
+                },
+                {
+                    "cid": 53,
+                    "codeName": "Chemicals -- 化學品"
+                },
+                {
+                    "cid": 67,
+                    "codeName": "Computer -- 電腦"
+                },
+                {
+                    "cid": 76,
+                    "codeName": "Construction -- 建材及衛浴設備"
+                },
+                {
+                    "cid": 64,
+                    "codeName": "Consumer Electronics -- 消費性電子"
+                },
+                {
+                    "cid": 63,
+                    "codeName": "Electrical &amp; Electronics -- 電機及電子"
+                },
+                {
+                    "cid": 77,
+                    "codeName": "Furniture -- 家具"
+                },
+                {
+                    "cid": 83,
+                    "codeName": "Gifts &amp; Crafts -- 禮品及藝品"
+                },
+                {
+                    "cid": 59,
+                    "codeName": "Hardware -- 五金"
+                },
+                {
+                    "cid": 65,
+                    "codeName": "Home Appliances -- 家庭用電器"
+                },
+                {
+                    "cid": 78,
+                    "codeName": "Houseware -- 家庭用品"
+                }
+            ]
+        }
+    }
+}

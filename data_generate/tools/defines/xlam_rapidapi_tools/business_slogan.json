@@ -1,0 +1,17 @@
+{
+    "name": "business_slogan",
+    "description": "This is a sub-function API for tool business_starter_api.\nTool description: API that generates a name, slogan and idea for a business\nAPI description: Generates a business slogan for the given business name using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the business for which to generate the slogan.",
+                "default": "MyBusiness"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

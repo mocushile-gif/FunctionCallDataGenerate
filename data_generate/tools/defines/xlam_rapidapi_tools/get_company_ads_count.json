@@ -1,0 +1,17 @@
+{
+    "name": "get_company_ads_count",
+    "description": "This is a sub-function API for tool fresh_linkedin_profile_data.\nTool description: Reliable API for all LinkedIn Scraping Needs: profiles, companies, activities/posts, and job posts. This API scrapes data directly from LinkedIn upon request so that you'll get real-time data. Say goodbye to stale data!\n\nWe're active and responsive on this platform, please don't hesitate to drop a message in the Discussions or PM channels.\nAPI description: Fetch the number of ads a specific company has posted on LinkedIn using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "company_id": {
+                "type": "string",
+                "description": "The unique identifier of the company whose ad count is to be fetched.",
+                "default": "162479"
+            }
+        },
+        "required": [
+            "company_id"
+        ]
+    }
+}

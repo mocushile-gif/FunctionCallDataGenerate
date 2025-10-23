@@ -1,0 +1,21 @@
+{
+    "name": "upgrade_downgrade_history",
+    "description": "This is a sub-function API for tool yh_finance_complete.\nTool description: This API helps you to query stocks, quotes, movers and other financial summary.\nAPI description: Fetches the upgrade and downgrade history for a given stock symbol from the Yahoo Finance Complete API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which the upgrade and downgrade history is to be fetched."
+            },
+            "is_from": {
+                "type": "string",
+                "description": "The starting date for the history in the format 'YYYY-MM-DD'."
+            }
+        },
+        "required": [
+            "symbol",
+            "is_from"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "feeds_list_similarities",
+    "description": "This is a sub-function API for tool yummly.\nTool description: API to query data about recipe, plan, ingredients, etc... as on official site\nAPI description: Fetches a list of similar recipes based on the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier for the recipe, typically obtained from feeds/list or feeds/search API responses.",
+                "default": "15-Minute-Baked-Salmon-with-Lemon-9029477"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of items to return per response.",
+                "default": 18.0
+            },
+            "start": {
+                "type": "number",
+                "description": "The offset for items to be ignored in the response, useful for paging.",
+                "default": 0.0
+            },
+            "apifeedtype": {
+                "type": "string",
+                "description": "The type of feed to query, generally returned in feeds/list or feeds/search API responses. Default is 'moreFrom'.",
+                "default": "moreFrom"
+            },
+            "authorid": {
+                "type": "string",
+                "description": "The author ID, typically returned in feeds/list or feeds/search API responses. Default is 'Yummly'.",
+                "default": "Yummly"
+            }
+        },
+        "required": [
+            "is_id",
+            "limit",
+            "start"
+        ]
+    }
+}

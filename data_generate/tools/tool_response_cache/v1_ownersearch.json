@@ -1,0 +1,65 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{\"count\":0,\"items\":[]}"
+    },
+    "{\n  \"postcode\": \"95066\"\n}": {
+        "error": "",
+        "response": "{\"count\":1,\"items\":[{\"name\":\"NETFLIX, INC.\",\"address1\":\"5617 SCOTTS VALLEY DR.\",\"address2\":null,\"city\":\"SCOTTS VALLEY\",\"state\":\"CA\",\"country\":\"US\",\"postcode\":\"95066\",\"trademarks\":[{\"keyword\":\"NETFLICKS\",\"registration_number\":\"0000000\",\"serial_number\":\"75412576\"}]}]}"
+    },
+    "{'postcode': '95066'}": {
+        "error": "",
+        "response": {
+            "count": 1,
+            "items": [
+                {
+                    "name": "NETFLIX, INC.",
+                    "address1": "5617 SCOTTS VALLEY DR.",
+                    "address2": null,
+                    "city": "SCOTTS VALLEY",
+                    "state": "CA",
+                    "country": "US",
+                    "postcode": "95066",
+                    "trademarks": [
+                        {
+                            "keyword": "NETFLICKS",
+                            "registration_number": "0000000",
+                            "serial_number": "75412576"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "{'postcode': '12345'}": {
+        "error": "",
+        "response": {
+            "count": 0,
+            "items": []
+        }
+    },
+    "{'search_keyword': 'RouteOptix', 'postcode': 'null'}": {
+        "error": "",
+        "response": "{'count': 0, 'items': []}"
+    },
+    "{'search_keyword': 'streaming service', 'postcode': '90210'}": {
+        "error": "",
+        "response": "{'count': 0, 'items': []}"
+    },
+    "{'search_keyword': 'streaming service', 'postcode': '10001'}": {
+        "error": "",
+        "response": "{'count': 0, 'items': []}"
+    },
+    "{'search_keyword': 'video on demand platform', 'postcode': '90069'}": {
+        "error": "",
+        "response": "{'count': 0, 'items': []}"
+    },
+    "{'search_keyword': 'stream', 'postcode': '10016'}": {
+        "error": "",
+        "response": "{'count': 1, 'items': [{'name': 'STREAMYARD, INC.', 'address1': '169 Madison Ave, Ste 11218', 'address2': None, 'city': 'New York', 'state': 'NY', 'country': 'US', 'postcode': '10016', 'trademarks': [{'keyword': '#THEYARD', 'registration_number': '0000000', 'serial_number': '90495673'}, {'keyword': 'S', 'registration_number': '6636528', 'serial_number': '90495698'}, {'keyword': 'S STREAMYARD', 'registration_number': '6756920', 'serial_number': '90495685'}, {'keyword': 'STREAMYARD', 'registration_number': '6770789', 'serial_number': '90495657'}]}]}"
+    },
+    "{'search_keyword': 'stream', 'postcode': '90210'}": {
+        "error": "",
+        "response": "{'count': 0, 'items': []}"
+    }
+}

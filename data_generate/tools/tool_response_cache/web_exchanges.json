@@ -1,0 +1,33 @@
+{
+    "{'sort': 'usd_volume_30d', 'direction': 'desc', 'filter_zero_volume': True}": {
+        "error": "",
+        "response": [
+            {
+                "exchange_name": "Uniswap V3",
+                "chain": "ethereum",
+                "usd_volume_30d": "450,000,000",
+                "liquidity": "1,200,000,000"
+            },
+            {
+                "exchange_name": "PancakeSwap",
+                "chain": "binance-smart-chain",
+                "usd_volume_30d": "320,000,000",
+                "liquidity": "850,000,000"
+            },
+            {
+                "exchange_name": "Curve Finance",
+                "chain": "ethereum",
+                "usd_volume_30d": "280,000,000",
+                "liquidity": "970,000,000"
+            }
+        ]
+    },
+    "{'chain_slug': 'ethereum', 'sort': 'usd_volume_30d', 'direction': 'desc'}": {
+        "error": "",
+        "response": "{'exchanges': [{'exchange_id': '3681', 'exchange_slug': 'uniswap-v3', 'chain_slug': 'ethereum', 'chain_name': 'Ethereum', 'human_readable_name': 'Uniswap v3', 'chain_id': 1, 'address': '0x1f98431c8ad98523631ae4a59f267346ea31f984', 'usd_volume_30d': 20969160875.021667, 'exchange_type': 'uniswap_v3', 'notable': True, 'pair_count': 32460}, {'exchange_id': '1', 'exchange_slug': 'uniswap-v2', 'chain_slug': 'ethereum', 'chain_name': 'Ethereum', 'human_readable_name': 'Uniswap v2', 'chain_id': 1, 'address': '0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f', 'usd_volume_30d': 7087160526.420667, 'exchange_type': 'uniswap_v2', 'notable': True, 'pair_count': 431807}, {'exchange_id': '314', 'exchange_slug': 'twap', 'chain_slug': 'ethereum', 'chain_name': 'Ethereum', 'human_readable_name': 'Twap', 'chain_id': 1, 'address': '0xc480b33ee5229de3fbdfad1d2dcd3f3bad0c56c6', 'usd_volume_30d': 245682559.2506125, 'exchange_type': 'uniswap_v2', 'notable': True, 'pair_count': 15}, {'exchange_id': '22', 'exchange_slug': 'sushi', 'chain_slug': 'ethereum', 'chain_name': 'Ethereum', 'human_readable_name': 'Sushi', 'chain_id': 1, 'address': '0xc0aee478e3658e2610c5f7a4a2e1777ce9e4f2ac', 'usd_volume_30d': 97821046.21642695, 'exchange_type': 'uniswap_v2', 'notable': True, 'pair_count': 4267}, {'exchange_id': '231', 'exchange_slug': 'shiba-swap', 'chain_slug': 'ethereum', 'chain_name': 'Ethereum', 'human_readable_name': 'Shiba Swap', 'chain_id': 1, 'address': '0x115934131916c8b277dd010ee02de363c09d037c', 'usd_volume_30d': 17480096.248549037, 'exchange_type': 'uniswap_v2', 'notable': True, 'pair_count': 1018}, {'exchange_id': '3745', 'exchange_slug': '0x1097053fd2ea711dad45caccc45eff7548fcb362', 'chain_slug': 'ethereum', 'chain_name': 'Ethereum', 'human_readable_name': 'Unknown 0x1097053fd2ea711dad45caccc45eff7548fcb362', 'chain_id': 1, 'address': '0x1097053fd2ea711dad45caccc45eff7548fcb362', 'usd_volume_30d': 11300330.145227592, 'exchange_type': 'uniswap_v2', 'notable': True, 'pair_count': 3197}, {'exchange_id': '7575', 'exchange_slug': '0xfe87e130e2"
+    },
+    "{'chain_slug': 'ethereum', 'direction': 'desc', 'sort': 'usd_volume_30d'}": {
+        "error": "",
+        "response": "{'exchanges': [{'exchange_id': '3681', 'exchange_slug': 'uniswap-v3', 'chain_slug': 'ethereum', 'chain_name': 'Ethereum', 'human_readable_name': 'Uniswap v3', 'chain_id': 1, 'address': '0x1f98431c8ad98523631ae4a59f267346ea31f984', 'usd_volume_30d': 20759431453.232986, 'exchange_type': 'uniswap_v3', 'notable': True, 'pair_count': 32501}, {'exchange_id': '1', 'exchange_slug': 'uniswap-v2', 'chain_slug': 'ethereum', 'chain_name': 'Ethereum', 'human_readable_name': 'Uniswap v2', 'chain_id': 1, 'address': '0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f', 'usd_volume_30d': 6904717561.1919155, 'exchange_type': 'uniswap_v2', 'notable': True, 'pair_count': 432393}, {'exchange_id': '314', 'exchange_slug': 'twap', 'chain_slug': 'ethereum', 'chain_name': 'Ethereum', 'human_readable_name': 'Twap', 'chain_id': 1, 'address': '0xc480b33ee5229de3fbdfad1d2dcd3f3bad0c56c6', 'usd_volume_30d': 247639008.4450624, 'exchange_type': 'uniswap_v2', 'notable': True, 'pair_count': 15}, {'exchange_id': '22', 'exchange_slug': 'sushi', 'chain_slug': 'ethereum', 'chain_name': 'Ethereum', 'human_readable_name': 'Sushi', 'chain_id': 1, 'address': '0xc0aee478e3658e2610c5f7a4a2e1777ce9e4f2ac', 'usd_volume_30d': 96345506.92449068, 'exchange_type': 'uniswap_v2', 'notable': True, 'pair_count': 4269}, {'exchange_id': '231', 'exchange_slug': 'shiba-swap', 'chain_slug': 'ethereum', 'chain_name': 'Ethereum', 'human_readable_name': 'Shiba Swap', 'chain_id': 1, 'address': '0x115934131916c8b277dd010ee02de363c09d037c', 'usd_vo"
+    }
+}

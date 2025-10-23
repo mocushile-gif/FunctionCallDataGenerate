@@ -1,0 +1,17 @@
+{
+    "name": "detection_of_plates_and_faces",
+    "description": "This is a sub-function API for tool plate_detection.\nTool description: Universal plate detection\nAPI description: In order to protect personal data, you can detect license plates and faces in the pictures you have.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "image": {
+                "type": "string",
+                "description": "The URL or path to the image file where license plates and faces detection and blurring need to be applied.",
+                "default": "Base64 data of image"
+            }
+        },
+        "required": [
+            "image"
+        ]
+    }
+}

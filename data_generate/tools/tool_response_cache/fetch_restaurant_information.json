@@ -1,0 +1,50 @@
+{
+    "{'query': 'popular restaurants in Chennai'}": {
+        "error": "",
+        "response": {
+            "data": "Unable to find restaurant"
+        }
+    },
+    "{'query': 'Pune restaurants'}": {
+        "error": "",
+        "response": {
+            "data": "Unable to find restaurant"
+        }
+    },
+    "{'query': 'Mumbai restaurants'}": {
+        "error": "",
+        "response": {
+            "data": "Unable to find restaurant"
+        }
+    },
+    "{'query': 'Bangalore restaurants'}": {
+        "error": "",
+        "response": {
+            "data": "Unable to find restaurant"
+        }
+    },
+    "{'query': 'Bella Italia Ristorante Rome'}": {
+        "error": "",
+        "response": "{'data': 'Unable to find restaurant'}"
+    },
+    "{'query': 'Bella Italia Rome'}": {
+        "error": "",
+        "response": "{'data': 'Unable to find restaurant'}"
+    },
+    "{'query': 'La Paella Madrid'}": {
+        "error": "",
+        "response": "{'data': 'Unable to find restaurant'}"
+    },
+    "{'query': 'La Paella Madrid, Sol neighborhood'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'query': 'La Paella de Madrid Gourmet, Calle de Alcal\u00e1 123, 28014 Madrid, Spain'}": {
+        "error": "",
+        "response": "{'data': 'Unable to find restaurant'}"
+    },
+    "{'query': \"Grandama's Cafe Pune\"}": {
+        "error": "",
+        "response": ""
+    }
+}

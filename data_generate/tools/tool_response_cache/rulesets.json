@@ -1,0 +1,607 @@
+{
+    "{'lang': 'fr'}": {
+        "error": "",
+        "response": [
+            {
+                "ruleset": "spellout-cardinal-feminine",
+                "sample": "mille deux cent trente-quatre"
+            },
+            {
+                "ruleset": "spellout-cardinal-masculine",
+                "sample": "mille deux cent trente-quatre"
+            },
+            {
+                "ruleset": "spellout-numbering",
+                "sample": "mille deux cent trente-quatre"
+            },
+            {
+                "ruleset": "spellout-numbering-year",
+                "sample": "douze-cent trente-quatre"
+            },
+            {
+                "ruleset": "spellout-ordinal-feminine",
+                "sample": "mille deux cent trente-quatrième"
+            },
+            {
+                "ruleset": "spellout-ordinal-feminine-plural",
+                "sample": "mille deux cent trente-quatrièmes"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine",
+                "sample": "mille deux cent trente-quatrième"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine-plural",
+                "sample": "mille deux cent trente-quatrièmes"
+            }
+        ]
+    },
+    "{'lang': 'de'}": {
+        "error": "",
+        "response": [
+            {
+                "ruleset": "spellout-cardinal-feminine",
+                "sample": "ein­tausend­zwei­hundert­vier­und­dreißig"
+            },
+            {
+                "ruleset": "spellout-cardinal-m",
+                "sample": "ein­tausend­zwei­hundert­vier­und­dreißig"
+            },
+            {
+                "ruleset": "spellout-cardinal-masculine",
+                "sample": "ein­tausend­zwei­hundert­vier­und­dreißig"
+            },
+            {
+                "ruleset": "spellout-cardinal-n",
+                "sample": "ein­tausend­zwei­hundert­vier­und­dreißig"
+            },
+            {
+                "ruleset": "spellout-cardinal-neuter",
+                "sample": "ein­tausend­zwei­hundert­vier­und­dreißig"
+            },
+            {
+                "ruleset": "spellout-cardinal-r",
+                "sample": "ein­tausend­zwei­hundert­vier­und­dreißig"
+            },
+            {
+                "ruleset": "spellout-cardinal-s",
+                "sample": "ein­tausend­zwei­hundert­vier­und­dreißig"
+            },
+            {
+                "ruleset": "spellout-numbering",
+                "sample": "ein­tausend­zwei­hundert­vier­und­dreißig"
+            },
+            {
+                "ruleset": "spellout-numbering-year",
+                "sample": "zwölf­hundert­vier­und­dreißig"
+            },
+            {
+                "ruleset": "spellout-ordinal",
+                "sample": "ein­tausend­zwei­hundert­vier­und­dreißigste"
+            },
+            {
+                "ruleset": "spellout-ordinal-m",
+                "sample": "ein­tausend­zwei­hundert­vier­und­dreißigstem"
+            },
+            {
+                "ruleset": "spellout-ordinal-n",
+                "sample": "ein­tausend­zwei­hundert­vier­und­dreißigsten"
+            },
+            {
+                "ruleset": "spellout-ordinal-r",
+                "sample": "ein­tausend­zwei­hundert­vier­und­dreißigster"
+            },
+            {
+                "ruleset": "spellout-ordinal-s",
+                "sample": "ein­tausend­zwei­hundert­vier­und­dreißigstes"
+            }
+        ]
+    },
+    "{'lang': 'es'}": {
+        "error": "",
+        "response": [
+            {
+                "ruleset": "spellout-cardinal-feminine",
+                "sample": "mil dos­cientas treinta y cuatro"
+            },
+            {
+                "ruleset": "spellout-cardinal-masculine",
+                "sample": "mil doscientos treinta y cuatro"
+            },
+            {
+                "ruleset": "spellout-numbering",
+                "sample": "mil doscientos treinta y cuatro"
+            },
+            {
+                "ruleset": "spellout-numbering-year",
+                "sample": "mil doscientos treinta y cuatro"
+            },
+            {
+                "ruleset": "spellout-ordinal-feminine",
+                "sample": "milésima ducentésima trigésima cuarta"
+            },
+            {
+                "ruleset": "spellout-ordinal-feminine-plural",
+                "sample": "milésima ducentésima trigésima cuartas"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine",
+                "sample": "milésimo ducentésimo trigésimo cuarto"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine-adjective",
+                "sample": "milésimo ducentésimo trigésimo cuarto"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine-plural",
+                "sample": "milésimo ducentésimo trigésimo cuartos"
+            }
+        ]
+    },
+    "{'lang': 'en'}": {
+        "error": "",
+        "response": [
+            {
+                "ruleset": "spellout-cardinal",
+                "sample": "one thousand two hundred thirty-four"
+            },
+            {
+                "ruleset": "spellout-cardinal-verbose",
+                "sample": "one thousand two hundred and thirty-four"
+            },
+            {
+                "ruleset": "spellout-numbering",
+                "sample": "one thousand two hundred thirty-four"
+            },
+            {
+                "ruleset": "spellout-numbering-verbose",
+                "sample": "one thousand two hundred and thirty-four"
+            },
+            {
+                "ruleset": "spellout-numbering-year",
+                "sample": "twelve thirty-four"
+            },
+            {
+                "ruleset": "spellout-ordinal",
+                "sample": "one thousand two hundred thirty-fourth"
+            },
+            {
+                "ruleset": "spellout-ordinal-verbose",
+                "sample": "one thousand two hundred and thirty-fourth"
+            }
+        ]
+    },
+    "{'lang': 'it'}": {
+        "error": "",
+        "response": [
+            {
+                "ruleset": "spellout-cardinal-feminine",
+                "sample": "mille­due­cento­trenta­quattro"
+            },
+            {
+                "ruleset": "spellout-cardinal-masculine",
+                "sample": "mille­due­cento­trenta­quattro"
+            },
+            {
+                "ruleset": "spellout-numbering",
+                "sample": "mille­due­cento­trenta­quattro"
+            },
+            {
+                "ruleset": "spellout-numbering-year",
+                "sample": "mille­due­cento­trenta­quattro"
+            },
+            {
+                "ruleset": "spellout-ordinal-feminine",
+                "sample": "mille­due­cento­trenta­quattresima"
+            },
+            {
+                "ruleset": "spellout-ordinal-feminine-plural",
+                "sample": "mille­due­cento­trenta­quattresima"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine",
+                "sample": "mille­due­cento­trenta­quattresimo"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine-plural",
+                "sample": "mille­due­cento­trenta­quattresimo"
+            }
+        ]
+    },
+    "{'lang': 'ab'}": {
+        "error": "",
+        "response": "Language 'ab' is not supported"
+    },
+    "{'lang': 'ar'}": {
+        "error": "",
+        "response": [
+            {
+                "ruleset": "spellout-cardinal-feminine",
+                "sample": "ألف ومائتان وأربعة وثلاثون"
+            },
+            {
+                "ruleset": "spellout-cardinal-masculine",
+                "sample": "ألف ومائتان وأربعة وثلاثون"
+            },
+            {
+                "ruleset": "spellout-numbering",
+                "sample": "ألف ومائتان وأربعة وثلاثون"
+            },
+            {
+                "ruleset": "spellout-numbering-year",
+                "sample": "ألف ومائتان وأربعة وثلاثون"
+            },
+            {
+                "ruleset": "spellout-ordinal-feminine",
+                "sample": "الألف ومائتان وأربعة وثلاثون"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine",
+                "sample": "الألف ومائتان وأربعة وثلاثون"
+            }
+        ]
+    },
+    "{'lang': 'aa'}": {
+        "error": "",
+        "response": "Language 'aa' is not supported"
+    },
+    "{'lang': 'af'}": {
+        "error": "",
+        "response": [
+            {
+                "ruleset": "spellout-cardinal",
+                "sample": "duisend tweehonderd vier-en-dertig"
+            },
+            {
+                "ruleset": "spellout-numbering",
+                "sample": "duisend tweehonderd vier-en-dertig"
+            },
+            {
+                "ruleset": "spellout-numbering-year",
+                "sample": "twaalf vier-en-dertig"
+            },
+            {
+                "ruleset": "spellout-ordinal",
+                "sample": "een duisend twee honderd vier-en-dertigste"
+            }
+        ]
+    },
+    "{'lang': 'pt'}": {
+        "error": "",
+        "response": [
+            {
+                "ruleset": "spellout-cardinal-feminine",
+                "sample": "mil duzentas e trinta e quatro"
+            },
+            {
+                "ruleset": "spellout-cardinal-masculine",
+                "sample": "mil duzentos e trinta e quatro"
+            },
+            {
+                "ruleset": "spellout-numbering",
+                "sample": "mil duzentos e trinta e quatro"
+            },
+            {
+                "ruleset": "spellout-numbering-year",
+                "sample": "mil duzentos e trinta e quatro"
+            },
+            {
+                "ruleset": "spellout-ordinal-feminine",
+                "sample": "milésima ducentésima trigésima quarta"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine",
+                "sample": "milésimo ducentésimo trigésimo quarto"
+            }
+        ]
+    },
+    "{'lang': 'am'}": {
+        "error": "",
+        "response": [
+            {
+                "ruleset": "spellout-cardinal",
+                "sample": "ሺ ሁለት መቶ ሦስት አስር አራት"
+            },
+            {
+                "ruleset": "spellout-numbering",
+                "sample": "ሺ ሁለት መቶ ሦስት አስር አራት"
+            },
+            {
+                "ruleset": "spellout-numbering-year",
+                "sample": "አስር ሁለት መቶ ሦስት አስር አራት"
+            },
+            {
+                "ruleset": "spellout-ordinal",
+                "sample": "ሺ ሁለት መቶ ሦስት አስር አራትኛ"
+            }
+        ]
+    },
+    "{'lang': 'sq'}": {
+        "error": "",
+        "response": [
+            {
+                "ruleset": "spellout-cardinal-feminine",
+                "sample": "një mijë e dyqind e tridhjetë e katër"
+            },
+            {
+                "ruleset": "spellout-cardinal-masculine",
+                "sample": "një mijë e dyqind e tridhjetë e katër"
+            },
+            {
+                "ruleset": "spellout-numbering",
+                "sample": "një mijë e dyqind e tridhjetë e katër"
+            },
+            {
+                "ruleset": "spellout-numbering-year",
+                "sample": "një mijë e dyqind e tridhjetë e katër"
+            }
+        ]
+    },
+    "{'lang': 'ru'}": {
+        "error": "",
+        "response": [
+            {
+                "ruleset": "spellout-cardinal-feminine",
+                "sample": "одна тысяча двести тридцать четыре"
+            },
+            {
+                "ruleset": "spellout-cardinal-feminine-ablative",
+                "sample": "одной тысячей двумястами тридцатью четырьмя"
+            },
+            {
+                "ruleset": "spellout-cardinal-feminine-accusative",
+                "sample": "одну тысячу двести тридцать четыре"
+            },
+            {
+                "ruleset": "spellout-cardinal-feminine-dative",
+                "sample": "одной тысяче двумстам тридцати четырем"
+            },
+            {
+                "ruleset": "spellout-cardinal-feminine-genitive",
+                "sample": "одной тысячи двухсот тридцати четырех"
+            },
+            {
+                "ruleset": "spellout-cardinal-feminine-locative",
+                "sample": "одной тысяче двухстах тридцати четырех"
+            },
+            {
+                "ruleset": "spellout-cardinal-masculine",
+                "sample": "одна тысяча двести тридцать четыре"
+            },
+            {
+                "ruleset": "spellout-cardinal-masculine-ablative",
+                "sample": "одной тысячей двумястами тридцатью четырьмя"
+            },
+            {
+                "ruleset": "spellout-cardinal-masculine-accusative",
+                "sample": "одну тысячу двести тридцать четыре"
+            },
+            {
+                "ruleset": "spellout-cardinal-masculine-dative",
+                "sample": "одной тысяче двумстам тридцати четырем"
+            },
+            {
+                "ruleset": "spellout-cardinal-masculine-genitive",
+                "sample": "одной тысячи двухсот тридцати четырех"
+            },
+            {
+                "ruleset": "spellout-cardinal-masculine-locative",
+                "sample": "одной тысяче двухстах тридцать четырех"
+            },
+            {
+                "ruleset": "spellout-cardinal-neuter",
+                "sample": "одна тысяча двести тридцать четыре"
+            },
+            {
+                "ruleset": "spellout-cardinal-neuter-ablative",
+                "sample": "одной тысячей двумястами тридцатью четырьмя"
+            },
+            {
+                "ruleset": "spellout-cardinal-neuter-accusative",
+                "sample": "одну тысячу двести тридцать четыре"
+            },
+            {
+                "ruleset": "spellout-cardinal-neuter-dative",
+                "sample": "одной тысяче двумстам тридцати четырем"
+            },
+            {
+                "ruleset": "spellout-cardinal-neuter-genitive",
+                "sample": "одной тысячи двухсот тридцати четырех"
+            },
+            {
+                "ruleset": "spellout-cardinal-neuter-locative",
+                "sample": "одной тысяче двухстах тридцати четырех"
+            },
+            {
+                "ruleset": "spellout-cardinal-plural",
+                "sample": "одна тысяча двести тридцать четыре"
+            },
+            {
+                "ruleset": "spellout-cardinal-plural-ablative",
+                "sample": "одной тысячей двумястами тридцатью четырьмя"
+            },
+            {
+                "ruleset": "spellout-cardinal-plural-accusative",
+                "sample": "одну тысячу двести тридцать четыре"
+            },
+            {
+                "ruleset": "spellout-cardinal-plural-dative",
+                "sample": "одной тысяче двумстам тридцати четырем"
+            },
+            {
+                "ruleset": "spellout-cardinal-plural-genitive",
+                "sample": "одной тысячи двухсот тридцати четырех"
+            },
+            {
+                "ruleset": "spellout-cardinal-plural-locative",
+                "sample": "одной тысяче двухстах тридцати четырех"
+            },
+            {
+                "ruleset": "spellout-numbering",
+                "sample": "одна тысяча двести тридцать четыре"
+            },
+            {
+                "ruleset": "spellout-numbering-year",
+                "sample": "одна тысяча двести тридцать четвертого"
+            },
+            {
+                "ruleset": "spellout-ordinal-feminine",
+                "sample": "одна тысяча двести тридцать четвертая"
+            },
+            {
+                "ruleset": "spellout-ordinal-feminine-ablative",
+                "sample": "одна тысяча двести тридцать четвертой"
+            },
+            {
+                "ruleset": "spellout-ordinal-feminine-accusative",
+                "sample": "одна тысяча двести тридцать четвертую"
+            },
+            {
+                "ruleset": "spellout-ordinal-feminine-dative",
+                "sample": "одна тысяча двести тридцать четвертой"
+            },
+            {
+                "ruleset": "spellout-ordinal-feminine-genitive",
+                "sample": "одна тысяча двести тридцать четвертой"
+            },
+            {
+                "ruleset": "spellout-ordinal-feminine-locative",
+                "sample": "одна тысяча двести тридцать четвертой"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine",
+                "sample": "одна тысяча двести тридцать четвертый"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine-ablative",
+                "sample": "одна тысяча двести тридцать четвертым"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine-accusative",
+                "sample": "одна тысяча двести тридцать четвертый"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine-dative",
+                "sample": "одна тысяча двести тридцать четвертому"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine-genitive",
+                "sample": "одна тысяча двести тридцать четвертого"
+            },
+            {
+                "ruleset": "spellout-ordinal-masculine-locative",
+                "sample": "одна тысяча двести тридцать четвертом"
+            },
+            {
+                "ruleset": "spellout-ordinal-neuter",
+                "sample": "одна тысяча двести тридцать четвертое"
+            },
+            {
+                "ruleset": "spellout-ordinal-neuter-ablative",
+                "sample": "одна тысяча двести тридцать четвертым"
+            },
+            {
+                "ruleset": "spellout-ordinal-neuter-accusative",
+                "sample": "одна тысяча двести тридцать четвертое"
+            },
+            {
+                "ruleset": "spellout-ordinal-neuter-dative",
+                "sample": "одна тысяча двести тридцать четвертому"
+            },
+            {
+                "ruleset": "spellout-ordinal-neuter-genitive",
+                "sample": "одна тысяча двести тридцать четвертого"
+            },
+            {
+                "ruleset": "spellout-ordinal-neuter-locative",
+                "sample": "одна тысяча двести тридцать четвертом"
+            },
+            {
+                "ruleset": "spellout-ordinal-plural",
+                "sample": "одна тысяча двести тридцать четвертые"
+            },
+            {
+                "ruleset": "spellout-ordinal-plural-ablative",
+                "sample": "одна тысяча двести тридцать четвертыми"
+            },
+            {
+                "ruleset": "spellout-ordinal-plural-accusative",
+                "sample": "одна тысяча двести тридцать четвертые"
+            },
+            {
+                "ruleset": "spellout-ordinal-plural-dative",
+                "sample": "одна тысяча двести тридцать четвертым"
+            },
+            {
+                "ruleset": "spellout-ordinal-plural-genitive",
+                "sample": "одна тысяча двести тридцать четвертых"
+            },
+            {
+                "ruleset": "spellout-ordinal-plural-locative",
+                "sample": "одна тысяча двести тридцать четвертых"
+            }
+        ]
+    },
+    "{'lang': 'zh'}": {
+        "error": "",
+        "response": [
+            {
+                "ruleset": "spellout-cardinal",
+                "sample": "一千二百三十四"
+            },
+            {
+                "ruleset": "spellout-cardinal-alternate2",
+                "sample": "一千两百三十四"
+            },
+            {
+                "ruleset": "spellout-cardinal-financial",
+                "sample": "壹仟贰佰叁拾肆"
+            },
+            {
+                "ruleset": "spellout-numbering",
+                "sample": "一千二百三十四"
+            },
+            {
+                "ruleset": "spellout-numbering-days",
+                "sample": "一千二百三十四"
+            },
+            {
+                "ruleset": "spellout-numbering-year",
+                "sample": "一二三四"
+            },
+            {
+                "ruleset": "spellout-ordinal",
+                "sample": "第一千二百三十四"
+            }
+        ]
+    },
+    "{'lang': 'ja'}": {
+        "error": "",
+        "response": [
+            {
+                "ruleset": "spellout-cardinal",
+                "sample": "千二百三十四"
+            },
+            {
+                "ruleset": "spellout-cardinal-financial",
+                "sample": "壱千弐百参拾四"
+            },
+            {
+                "ruleset": "spellout-numbering",
+                "sample": "千二百三十四"
+            },
+            {
+                "ruleset": "spellout-numbering-year",
+                "sample": "一二三四"
+            },
+            {
+                "ruleset": "spellout-numbering-year-latn",
+                "sample": "1234"
+            },
+            {
+                "ruleset": "spellout-ordinal",
+                "sample": "第千二百三十四"
+            }
+        ]
+    }
+}

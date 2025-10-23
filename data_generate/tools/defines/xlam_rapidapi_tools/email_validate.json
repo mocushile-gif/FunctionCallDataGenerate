@@ -1,0 +1,17 @@
+{
+    "name": "email_validate",
+    "description": "This is a sub-function API for tool email_validate.\nTool description: Parse, validate and clean an email address. This API performs the following functions: Syntax Checks - Check if the email address is RFC822 / RFC2822 compliant. DNS Checks - Check if the email address domain resolves correctly and has valid MX (mail exchanger) records. Typo Fixing - Fix common domain, TLD (top-level domain) and freemail email address typos. Freemail Check - Determine if the email address is a freemail registered email address (i.e. not a commercial address)\nAPI description: Validate a single email address in real-time using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to be validated.",
+                "default": "office@mashape.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

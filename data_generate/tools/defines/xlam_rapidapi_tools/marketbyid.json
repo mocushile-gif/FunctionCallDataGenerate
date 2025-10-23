@@ -1,0 +1,16 @@
+{
+    "name": "marketbyid",
+    "description": "This is a sub-function API for tool bravenewcoin.\nTool description: Latest and historic cryptocurrency market data\nAPI description: Retrieves the details of an individual market. Supply the unique identifier (UUID) of the market.\n\nThe full list of all market UUIDs can be obtained from the Market endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "UUID. The unique resource identifier of a market e.g.  BTC/USD = 6ea0d2ef-6dd0-4adb-ad32-f7f3db58ccbe"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "user_by_rest_id",
+    "description": "This is a sub-function API for tool twitter_v2_v2.\nTool description: Twitter public and private data API for search, Tweets, users, followers, images, media and more.\nAPI description: Fetches user information from Twitter using a REST API by user ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The user ID to fetch information for.",
+                "default": "44196397"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

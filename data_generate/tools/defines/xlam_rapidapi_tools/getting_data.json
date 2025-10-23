@@ -1,0 +1,15 @@
+{
+    "name": "getting_data",
+    "description": "This is a sub-function API for tool data_visualisation.\nTool description: nothing to describe\nAPI description: This function retrieves supermarket sales data from three different cities using the provided RapidAPI keys.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x_rapidapi_key": {
+                "type": "string",
+                "description": "The RapidAPI key for accessing the `data_visualisation_` API. Defaults to 'demo'.",
+                "default": "demo"
+            }
+        },
+        "required": []
+    }
+}

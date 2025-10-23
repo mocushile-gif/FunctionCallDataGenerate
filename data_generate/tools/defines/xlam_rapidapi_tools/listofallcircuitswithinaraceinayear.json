@@ -1,0 +1,23 @@
+{
+    "name": "listofallcircuitswithinaraceinayear",
+    "description": "This is a sub-function API for tool formula_1_fixed.\nTool description: F1\nAPI description: Fetches a list of all circuits within a race for a given year from the Formula 1 API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "round": {
+                "type": "string",
+                "description": "The round number/name of the race within the year.",
+                "default": "round"
+            },
+            "year": {
+                "type": "string",
+                "description": "The year of the race season.",
+                "default": "year"
+            }
+        },
+        "required": [
+            "round",
+            "year"
+        ]
+    }
+}

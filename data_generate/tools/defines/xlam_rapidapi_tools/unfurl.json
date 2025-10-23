@@ -1,0 +1,17 @@
+{
+    "name": "unfurl",
+    "description": "This is a sub-function API for tool unfurl_api_written_in_go.\nTool description: Simplest API to unfurl URL descriptions, titles, images, and products, from all sites without being blocked. Fast and reliable.\nAPI description: Fetches and previews metadata for a given URL using the Unfurl API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL to be unfurled.",
+                "default": "youtube.com"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

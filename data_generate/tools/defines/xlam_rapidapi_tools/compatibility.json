@@ -1,0 +1,23 @@
+{
+    "name": "compatibility",
+    "description": "This is a sub-function API for tool horoscope_astrology.\nTool description: The Horoscope API Server provides daily horoscope predictions for all zodiac signs. Users can access the API to retrieve daily astrological forecasts for their specific sun sign, as well as general horoscope information for the entire zodiac. The API is designed to be simple and easy to use, allowing developers to integrate horoscope content into their own applications and websites. The predictions are generated using algorithms that consider the position of the planets and other astrological...\nAPI description: Calculates the compatibility between two astrological signs using the Horoscope Astrology API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sign1": {
+                "type": "string",
+                "description": "- aries\n- taurus\n- gemini\n- cancer\n- leo\n- virgo\n- libra\n- scorpio\n- sagittarius\n- capricorn\n- aquarius\n- pisces",
+                "default": "Libra"
+            },
+            "sign2": {
+                "type": "string",
+                "description": "- aries\n- taurus\n- gemini\n- cancer\n- leo\n- virgo\n- libra\n- scorpio\n- sagittarius\n- capricorn\n- aquarius\n- pisces",
+                "default": "Aries"
+            }
+        },
+        "required": [
+            "sign1",
+            "sign2"
+        ]
+    }
+}

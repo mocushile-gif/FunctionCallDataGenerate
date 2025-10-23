@@ -1,0 +1,15 @@
+{
+    "name": "article_index",
+    "description": "This is a sub-function API for tool test_apideno.\nTool description: test api deno\nAPI description: Fetches an indexed list of articles from the RapidAPI endpoint with an optional limit on the number of articles returned.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of articles to return. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

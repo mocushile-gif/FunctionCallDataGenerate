@@ -1,0 +1,17 @@
+{
+    "name": "partenaire_par_id",
+    "description": "This is a sub-function API for tool partenaires_mobilis.\nTool description: Connaître et localiser les partenaires Mobilis de l'OPT-NC\nAPI description: Fetches a partner's details by their ID from the designated API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the partner to be fetched, as provided by the API.",
+                "default": "14"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_emails",
+    "description": "This is a sub-function API for tool get_emails_from_url.\nTool description: Get all unique email address by url.\nAPI description: Retrieve emails from a given URL using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL from which to extract email addresses.",
+                "default": "https://google.com"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

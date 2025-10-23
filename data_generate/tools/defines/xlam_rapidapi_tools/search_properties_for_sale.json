@@ -1,0 +1,106 @@
+{
+    "name": "search_properties_for_sale",
+    "description": "This is a sub-function API for tool realtor.\nTool description: Query real time data of US real estate properties and agents\nAPI description: Search properties for sale by Address, School, City, Zip or Neighborhood. Filter the results using different parameter filters",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The location to search for properties (e.g., Address, School, City, Zip, or Neighborhood).",
+                "default": "santa monica"
+            },
+            "beds_min": {
+                "type": "number",
+                "description": "Minimum number of bedrooms."
+            },
+            "baths_max": {
+                "type": "number",
+                "description": "Maximum number of bathrooms."
+            },
+            "year_built_max": {
+                "type": "number",
+                "description": "Maximum year the property was built."
+            },
+            "year_built_min": {
+                "type": "number",
+                "description": "Minimum year the property was built."
+            },
+            "list_date_min": {
+                "type": "string",
+                "description": "Minimum listing date (formatted as 'YYYY-MM-DD')."
+            },
+            "open_house_max": {
+                "type": "string",
+                "description": "Maximum open house date (formatted as 'YYYY-MM-DD')."
+            },
+            "has_tour": {
+                "type": "boolean",
+                "description": "Whether the property has a virtual tour."
+            },
+            "list_price_min": {
+                "type": "number",
+                "description": "Minimum listing price."
+            },
+            "hoa_fee_optional_max": {
+                "type": "number",
+                "description": "Maximum optional HOA fee."
+            },
+            "list_date_max": {
+                "type": "string",
+                "description": "Maximum listing date (formatted as 'YYYY-MM-DD')."
+            },
+            "list_price_max": {
+                "type": "number",
+                "description": "Maximum listing price."
+            },
+            "baths_min": {
+                "type": "number",
+                "description": "Minimum number of bathrooms."
+            },
+            "open_house_min": {
+                "type": "string",
+                "description": "Minimum open house date (formatted as 'YYYY-MM-DD')."
+            },
+            "type": {
+                "type": "string",
+                "description": "Property type comma-separated or empty for all types:\nsingle_family\nmulti_family\nland\ntownhomes\nduplex_triplex\nmobile\ncondos\ncondo_townhome_rowhome_coop\ncondo_townhome\nfarm\n",
+                "default": "single_family,condos"
+            },
+            "sort": {
+                "type": "string",
+                "description": "Sort properties by :\nNewest_Listing \nHighest_Price \nLowest_Price\nOpen_House_Date\nRecently-Reduced\nLargest_Sqft\nLot_Size"
+            },
+            "beds_max": {
+                "type": "number",
+                "description": "Maximum number of bedrooms."
+            },
+            "page": {
+                "type": "number",
+                "description": "Page number for paginated results."
+            },
+            "lot_sqft_min": {
+                "type": "number",
+                "description": "Minimum lot square footage."
+            },
+            "lot_sqft_max": {
+                "type": "number",
+                "description": "Maximum lot square footage."
+            },
+            "hoa_fee_optional_min": {
+                "type": "number",
+                "description": "Minimum optional HOA fee."
+            },
+            "sqft_max": {
+                "type": "number",
+                "description": "Maximum lot square footage."
+            },
+            "sqft_min": {
+                "type": "number",
+                "description": "Minimum lot square footage."
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

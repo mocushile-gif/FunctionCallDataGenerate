@@ -1,0 +1,10 @@
+{
+    "{'chain_id': 'eth', 'is_id': '0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb', 'limit': '20', 'start': '0'}": {
+        "error": "",
+        "response": "The top holders for the specified protocol ID '0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb' on the Ethereum chain (chain_id: 'eth') have been retrieved. The data includes up to 20 holders starting from index 0. These holders represent the accounts with the highest ownership of tokens within the specified protocol. This information is useful for analyzing token distribution, identifying influential holders, and understanding the overall ownership structure of the NFT collection."
+    },
+    "{'chain_id': 'eth', 'is_id': '0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb'}": {
+        "error": "",
+        "response": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<title>429 Too Many Requests</title>\n<h1>Too Many Requests</h1>\n<p>too many requests</p>\n"
+    }
+}

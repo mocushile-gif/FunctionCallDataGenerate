@@ -1,0 +1,17 @@
+{
+    "name": "get_private_keys",
+    "description": "This is a sub-function API for tool iotvas.\nTool description: IOTVAS API enables you to detect IoT devices in the network and provides detailed firmware risk analysis without requiring the user to upload the firmware file.\nAPI description: Fetches the private keys associated with a given firmware hash from the IoT VAS service using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "firmware_hash": {
+                "type": "string",
+                "description": "SHA2 hash of the device firmware.",
+                "default": "90e3e68e1c61850f20c50e551816d47d484d7feb46890f5bc0a0e0dab3e3ba0b"
+            }
+        },
+        "required": [
+            "firmware_hash"
+        ]
+    }
+}

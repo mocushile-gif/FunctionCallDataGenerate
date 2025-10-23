@@ -1,0 +1,50 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "target": {
+                "first_name": "Gener",
+                "last_name": "Garcia Molina",
+                "business_name": "SME Bank",
+                "street_address": "79 ul. Sadovnicheskaya"
+            },
+            "records_found": "TRUE"
+        }
+    },
+    "{'street_address': '79 ul. Sadovnicheskaya', 'business_name': 'SME Bank'}": {
+        "error": "",
+        "response": "{'target': {'first_name': 'Gener', 'last_name': 'Garcia Molina', 'business_name': 'SME Bank', 'street_address': '79 ul. Sadovnicheskaya'}, 'records_found': 'FALSE'}"
+    },
+    "{'first_name': 'Carol', 'last_name': 'Viescas'}": {
+        "error": "",
+        "response": "{'target': {'first_name': 'Carol', 'last_name': 'Viescas', 'business_name': 'SME Bank', 'street_address': '79 ul. Sadovnicheskaya'}, 'records_found': 'FALSE'}"
+    },
+    "{'first_name': 'Hesper', 'last_name': 'Duke'}": {
+        "error": "",
+        "response": "{'target': {'first_name': 'Hesper', 'last_name': 'Duke', 'business_name': 'SME Bank', 'street_address': '79 ul. Sadovnicheskaya'}, 'records_found': 'FALSE'}"
+    },
+    "{'business_name': 'SME Bank', 'street_address': '79 ul. Sadovnicheskaya'}": {
+        "error": "",
+        "response": "{'target': {'first_name': 'Gener', 'last_name': 'Garcia Molina', 'business_name': 'SME Bank', 'street_address': '79 ul. Sadovnicheskaya'}, 'records_found': 'FALSE'}"
+    },
+    "{'business_name': 'Tech Solutions Inc', 'street_address': '123 Innovation Drive'}": {
+        "error": "",
+        "response": "{'target': {'first_name': 'Gener', 'last_name': 'Garcia Molina', 'business_name': 'Tech Solutions Inc', 'street_address': '123 Innovation Drive'}, 'records_found': 'FALSE'}"
+    },
+    "{'first_name': 'Maria', 'last_name': 'Chen', 'street_address': '789 Bamboo Lane'}": {
+        "error": "",
+        "response": "{'target': {'first_name': 'Maria', 'last_name': 'Chen', 'business_name': 'SME Bank', 'street_address': '789 Bamboo Lane'}, 'records_found': 'FALSE'}"
+    },
+    "{'business_name': 'SME Bank', 'street_address': '79 ul. Sadovnicheskaya', 'first_name': '', 'last_name': ''}": {
+        "error": "",
+        "response": "{'target': {'business_name': 'SME Bank', 'street_address': '79 ul. Sadovnicheskaya'}, 'records_found': 'FALSE'}"
+    },
+    "{'business_name': 'GlobalTrade Solutions LLC', 'street_address': '88 Financial Plaza, Dubai', 'first_name': '', 'last_name': ''}": {
+        "error": "",
+        "response": "{'target': {'business_name': 'GlobalTrade Solutions LLC', 'street_address': '88 Financial Plaza, Dubai'}, 'records_found': 'FALSE'}"
+    },
+    "{'business_name': 'Pacific Equity Holdings', 'street_address': '101 Marina Boulevard, Singapore', 'first_name': '', 'last_name': ''}": {
+        "error": "",
+        "response": "{'target': {'business_name': 'Pacific Equity Holdings', 'street_address': '101 Marina Boulevard, Singapore'}, 'records_found': 'FALSE'}"
+    }
+}

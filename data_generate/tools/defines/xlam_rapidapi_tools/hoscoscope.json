@@ -1,0 +1,21 @@
+{
+    "name": "hoscoscope",
+    "description": "This is a sub-function API for tool horostory.\nTool description: Are you looking for a way to add some astrological flair to your app or website? Do you want to offer your users personalized horoscopes, zodiac compatibility, numerology, tarot readings, and more? If so, you have come to the right place!\n\nHorostory is the leading Horoscope API that delivers accurate and engaging zodiac and astrology content. Whether you need daily, weekly, or monthly horoscopes, or detailed astrological calculations and interpretations, Horostory has it all.\nAPI description: Retrieves the horoscope for a specific sign and date using the Horostory API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve the horoscope, formatted as 'YYYY-MM-DD'."
+            },
+            "sign": {
+                "type": "string",
+                "description": "The astrological sign for which to retrieve the horoscope."
+            }
+        },
+        "required": [
+            "date",
+            "sign"
+        ]
+    }
+}

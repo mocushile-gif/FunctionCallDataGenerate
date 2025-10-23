@@ -1,0 +1,16 @@
+{
+    "name": "get_models_by_make_id",
+    "description": "This is a sub-function API for tool car_specs.\nTool description: Fast, simple and reliable API to retrieve car data. Contains data on almost all car manufacturers and models, updated regularly.\nAPI description: Fetches a list of all car models for a given car make ID using the RapidAPI Car Specs API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "makeid": {
+                "type": "number",
+                "description": "The ID of the car make for which to retrieve the models."
+            }
+        },
+        "required": [
+            "makeid"
+        ]
+    }
+}

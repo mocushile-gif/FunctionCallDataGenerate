@@ -1,0 +1,16 @@
+{
+    "name": "draw_cards",
+    "description": "Shuffles a standard deck of 52 cards and draws a specified number of cards from the top.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "num_draw": {
+                "type": "integer",
+                "description": "The number of cards to be drawn. Defaults to 1.",
+                "default": 1,
+                "minimum": 1
+            }
+        },
+        "required": []
+    }
+}

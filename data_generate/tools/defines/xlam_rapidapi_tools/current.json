@@ -1,0 +1,42 @@
+{
+    "name": "current",
+    "description": "This is a sub-function API for tool foreca_weather.\nTool description: Everything you need to build a weather app\nAPI description: Fetch the current weather information for a specified location using the Foreca Weather API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The location for which the current weather is to be retrieved.",
+                "default": "102643743"
+            },
+            "windunit": {
+                "type": "string",
+                "description": "The unit for wind speed in the response. Default is 'MS'.",
+                "default": "MS"
+            },
+            "alt": {
+                "type": "number",
+                "description": "The altitude in meters. Default is 0.",
+                "default": 0.0
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language (ISO 639-1 codes). Options: de, en, es, fr, it, pl, ru, fi, sv, nl, ko, pt, th, tr, zh, zh_TW (Chinese in Taiwan), zh_CN (Chinese in China). (default en)",
+                "default": "en"
+            },
+            "tz": {
+                "type": "string",
+                "description": "The time zone for the response, specified using IANA time zone database names. Default is 'Europe/London'.",
+                "default": "Europe/London"
+            },
+            "tempunit": {
+                "type": "string",
+                "description": "The unit for temperature in the response. Default is 'C'.",
+                "default": "C"
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

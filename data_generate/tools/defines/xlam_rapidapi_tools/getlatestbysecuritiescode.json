@@ -1,0 +1,17 @@
+{
+    "name": "getlatestbysecuritiescode",
+    "description": "This is a sub-function API for tool jp_funda.\nTool description: JP Funda API is an API that provides fundamental information based on the securities report data of Japanese companies in Json format.\nAPI description: ### Return latest securities report data of the company specified with securities code.\nNote: If  the company doesn't  have a consolidated subsidiary,  all of consolidated management indicators become null.　But you can obtain data instead of consolidated management indicators from non consolidated management indicators",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "securities_code": {
+                "type": "number",
+                "description": "The securities code representing the company.",
+                "default": 7203.0
+            }
+        },
+        "required": [
+            "securities_code"
+        ]
+    }
+}

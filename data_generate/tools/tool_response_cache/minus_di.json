@@ -1,0 +1,180 @@
+{
+    "{'symbol': 'AAPL', 'interval': '1week', 'time_period': 14}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "symbol": "AAPL",
+                "interval": "1week",
+                "currency": "USD",
+                "exchange_timezone": "America/New_York",
+                "exchange": "NASDAQ",
+                "mic_code": "XNGS",
+                "type": "Common Stock",
+                "indicator": {
+                    "name": "MINUS_DI - Minus Directional Indicator",
+                    "time_period": 14
+                }
+            },
+            "values": [
+                {
+                    "datetime": "2023-06-26",
+                    "minus_di": "8.68757"
+                },
+                {
+                    "datetime": "2023-06-19",
+                    "minus_di": "9.53929"
+                },
+                {
+                    "datetime": "2023-06-12",
+                    "minus_di": "10.02988"
+                },
+                {
+                    "datetime": "2023-06-05",
+                    "minus_di": "10.64676"
+                },
+                {
+                    "datetime": "2023-05-29",
+                    "minus_di": "11.47608"
+                },
+                {
+                    "datetime": "2023-05-22",
+                    "minus_di": "12.21115"
+                },
+                {
+                    "datetime": "2023-05-15",
+                    "minus_di": "12.84267"
+                },
+                {
+                    "datetime": "2023-05-08",
+                    "minus_di": "13.58448"
+                },
+                {
+                    "datetime": "2023-05-01",
+                    "minus_di": "14.03724"
+                },
+                {
+                    "datetime": "2023-04-24",
+                    "minus_di": "15.36007"
+                },
+                {
+                    "datetime": "2023-04-17",
+                    "minus_di": "16.37104"
+                },
+                {
+                    "datetime": "2023-04-10",
+                    "minus_di": "16.97893"
+                },
+                {
+                    "datetime": "2023-04-03",
+                    "minus_di": "16.17569"
+                },
+                {
+                    "datetime": "2023-03-27",
+                    "minus_di": "16.87303"
+                },
+                {
+                    "datetime": "2023-03-20",
+                    "minus_di": "18.17514"
+                },
+                {
+                    "datetime": "2023-03-13",
+                    "minus_di": "19.40703"
+                },
+                {
+                    "datetime": "2023-03-06",
+                    "minus_di": "20.89492"
+                },
+                {
+                    "datetime": "2023-02-27",
+                    "minus_di": "22.42998"
+                },
+                {
+                    "datetime": "2023-02-20",
+                    "minus_di": "22.26107"
+                },
+                {
+                    "datetime": "2023-02-13",
+                    "minus_di": "19.31691"
+                },
+                {
+                    "datetime": "2023-02-06",
+                    "minus_di": "20.15341"
+                },
+                {
+                    "datetime": "2023-01-30",
+                    "minus_di": "21.08319"
+                },
+                {
+                    "datetime": "2023-01-23",
+                    "minus_di": "23.80871"
+                },
+                {
+                    "datetime": "2023-01-16",
+                    "minus_di": "25.59971"
+                },
+                {
+                    "datetime": "2023-01-09",
+                    "minus_di": "26.55901"
+                },
+                {
+                    "datetime": "2023-01-02",
+                    "minus_di": "27.92416"
+                },
+                {
+                    "datetime": "2022-12-26",
+                    "minus_di": "28.05624"
+                },
+                {
+                    "datetime": "2022-12-19",
+                    "minus_di": "26.56584"
+                },
+                {
+                    "datetime": "2022-12-12",
+                    "minus_di": "25.04628"
+                },
+                {
+                    "datetime": "2022-12-05",
+                    "minus_di": "23.45737"
+                }
+            ],
+            "status": "ok"
+        }
+    },
+    "{'symbol': 'AAPL', 'interval': '1min', 'outputsize': 1}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "symbol": "AAPL",
+                "interval": "1min",
+                "currency": "USD",
+                "exchange_timezone": "America/New_York",
+                "exchange": "NASDAQ",
+                "mic_code": "XNGS",
+                "type": "Common Stock",
+                "indicator": {
+                    "name": "MINUS_DI - Minus Directional Indicator",
+                    "time_period": 9
+                }
+            },
+            "values": [
+                {
+                    "datetime": "2023-07-14 15:59:00",
+                    "minus_di": "20.29992"
+                }
+            ],
+            "status": "ok"
+        }
+    },
+    "{'symbol': 'TSLA', 'interval': '1day', 'outputsize': 30, 'time_period': 9, 'format': 'CSV'}": {
+        "error": "",
+        "response": "datetime;minus_di\n2025-05-30;17.26025\n2025-05-29;10.96388\n2025-05-28;12.0082236\n2025-05-27;12.85299\n2025-05-23;15.45197\n2025-05-22;16.67407\n2025-05-21;18.13341\n2025-05-20;12.85177\n2025-05-19;14.18293\n2025-05-16;9.043382\n2025-05-15;9.66446\n2025-05-14;8.92642\n2025-05-13;9.93713\n2025-05-12;11.43976\n2025-05-09;13.53566\n2025-05-08;15.94477\n2025-05-07;17.65148\n2025-05-06;18.29318\n2025-05-05;17.30616\n2025-05-02;15.16385\n2025-05-01;16.65035\n2025-04-30;17.79602\n2025-04-29;14.72023\n2025-04-28;15.95079\n2025-04-25;18.13402\n2025-04-24;21.28986\n2025-04-23;22.61282\n2025-04-22;25.54385\n2025-04-21;27.82595\n2025-04-17;22.23835\n"
+    },
+    "{'symbol': 'TSLA', 'interval': '1day', 'outputsize': 30, 'time_period': 9}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'TSLA', 'interval': '1day', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'MINUS_DI - Minus Directional Indicator', 'time_period': 9}}, 'values': [{'datetime': '2025-05-30', 'minus_di': '17.26025'}, {'datetime': '2025-05-29', 'minus_di': '10.96388'}, {'datetime': '2025-05-28', 'minus_di': '12.0082236'}, {'datetime': '2025-05-27', 'minus_di': '12.85299'}, {'datetime': '2025-05-23', 'minus_di': '15.45197'}, {'datetime': '2025-05-22', 'minus_di': '16.67407'}, {'datetime': '2025-05-21', 'minus_di': '18.13341'}, {'datetime': '2025-05-20', 'minus_di': '12.85177'}, {'datetime': '2025-05-19', 'minus_di': '14.18293'}, {'datetime': '2025-05-16', 'minus_di': '9.043382'}, {'datetime': '2025-05-15', 'minus_di': '9.66446'}, {'datetime': '2025-05-14', 'minus_di': '8.92642'}, {'datetime': '2025-05-13', 'minus_di': '9.93713'}, {'datetime': '2025-05-12', 'minus_di': '11.43976'}, {'datetime': '2025-05-09', 'minus_di': '13.53566'}, {'datetime': '2025-05-08', 'minus_di': '15.94477'}, {'datetime': '2025-05-07', 'minus_di': '17.65148'}, {'datetime': '2025-05-06', 'minus_di': '18.29318'}, {'datetime': '2025-05-05', 'minus_di': '17.30616'}, {'datetime': '2025-05-02', 'minus_di': '15.16385'}, {'datetime': '2025-05-01', 'minus_di': '16.65035'}, {'datetime': '2025-04-30', 'minus_di': '17.79602'}, {'datetime': '2025-04-29', 'minus_di': '14.72023'}, {'datetime': '2025-04-28', 'minus_di"
+    },
+    "{'symbol': 'TSLA', 'interval': '1day', 'outputsize': 32, 'time_period': 9}": {
+        "error": "",
+        "response": "{'meta': {'symbol': 'TSLA', 'interval': '1day', 'currency': 'USD', 'exchange_timezone': 'America/New_York', 'exchange': 'NASDAQ', 'mic_code': 'XNGS', 'type': 'Common Stock', 'indicator': {'name': 'MINUS_DI - Minus Directional Indicator', 'time_period': 9}}, 'values': [{'datetime': '2025-05-30', 'minus_di': '17.26025'}, {'datetime': '2025-05-29', 'minus_di': '10.96388'}, {'datetime': '2025-05-28', 'minus_di': '12.0082236'}, {'datetime': '2025-05-27', 'minus_di': '12.85299'}, {'datetime': '2025-05-23', 'minus_di': '15.45197'}, {'datetime': '2025-05-22', 'minus_di': '16.67407'}, {'datetime': '2025-05-21', 'minus_di': '18.13341'}, {'datetime': '2025-05-20', 'minus_di': '12.85177'}, {'datetime': '2025-05-19', 'minus_di': '14.18293'}, {'datetime': '2025-05-16', 'minus_di': '9.043382'}, {'datetime': '2025-05-15', 'minus_di': '9.66446'}, {'datetime': '2025-05-14', 'minus_di': '8.92642'}, {'datetime': '2025-05-13', 'minus_di': '9.93713'}, {'datetime': '2025-05-12', 'minus_di': '11.43976'}, {'datetime': '2025-05-09', 'minus_di': '13.53566'}, {'datetime': '2025-05-08', 'minus_di': '15.94477'}, {'datetime': '2025-05-07', 'minus_di': '17.65148'}, {'datetime': '2025-05-06', 'minus_di': '18.29318'}, {'datetime': '2025-05-05', 'minus_di': '17.30616'}, {'datetime': '2025-05-02', 'minus_di': '15.16385'}, {'datetime': '2025-05-01', 'minus_di': '16.65035'}, {'datetime': '2025-04-30', 'minus_di': '17.79602'}, {'datetime': '2025-04-29', 'minus_di': '14.72023'}, {'datetime': '2025-04-28', 'minus_di"
+    }
+}

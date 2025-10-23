@@ -1,0 +1,32 @@
+{
+    "{'country': 'South Korea'}": {
+        "error": "",
+        "response": {
+            "rankings": [
+                {
+                    "athlete": "Lee Min-Jae",
+                    "rank": 1,
+                    "country": "South Korea",
+                    "points": 892.5,
+                    "last_competition": "2023 World Taekwondo Championships"
+                },
+                {
+                    "athlete": "Park So-Youn",
+                    "rank": 3,
+                    "country": "South Korea",
+                    "points": 785.0,
+                    "last_competition": "2023 Asian TaekwondoQualifier"
+                },
+                {
+                    "athlete": "Kim Tae-Hoon",
+                    "rank": 5,
+                    "country": "South Korea",
+                    "points": 678.3,
+                    "last_competition": "2023 Grand Prix Final"
+                }
+            ],
+            "category": "Under-54kg",
+            "last_updated": "2023-11-15"
+        }
+    }
+}

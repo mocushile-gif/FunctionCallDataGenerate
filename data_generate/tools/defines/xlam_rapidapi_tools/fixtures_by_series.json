@@ -1,0 +1,17 @@
+{
+    "name": "fixtures_by_series",
+    "description": "This is a sub-function API for tool cricket_live_data.\nTool description: Fixtures, Results, and scorecards for the worlds most popular cricket tournaments\nAPI description: Fetches fixtures and results for a given cricket series using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "series_id": {
+                "type": "number",
+                "description": "The unique identifier for the cricket series.",
+                "default": 606.0
+            }
+        },
+        "required": [
+            "series_id"
+        ]
+    }
+}

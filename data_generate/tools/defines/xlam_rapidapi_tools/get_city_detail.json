@@ -1,0 +1,16 @@
+{
+    "name": "get_city_detail",
+    "description": "This is a sub-function API for tool geoapi.\nTool description: APIs to get data based on city and countries name.\n- Get Country Details : Get country deatils with country name. Use prefix = true for prefix match.\n- Get Cities in a Country :  Get cities in a country wiht population minimum and maximum filter. \n- Get City Detail :  Get city details with city name.\nAPI description: Fetch detailed information about a city using its name via the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the city for which details are to be fetched."
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

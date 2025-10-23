@@ -1,0 +1,17 @@
+{
+    "name": "icecream_ingredient",
+    "description": "This is a sub-function API for tool recipe_finder.\nTool description: This recipe API allows users to search for recipes by ingredient. It returns a JSON response with the matching recipes, including the name, list of ingredients, and instructions.\nAPI description: This API endpoint allows users to retrieve a random icecream recipe that contains a specific ingredient. Users can make a GET request to the endpoint with the name of the ingredient as a query parameter, and the API will return a JSON response with the given recipe, including the name, list of ingredients, and instructions.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ingredient": {
+                "type": "string",
+                "description": "The specific ingredient to include in the ice cream recipe search.",
+                "default": "blueberry"
+            }
+        },
+        "required": [
+            "ingredient"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "global_search_by_query",
+    "description": "This is a sub-function API for tool instagram_looter.\nTool description: Access Instagram Data with Precision and Speed! Utilize Intelligent Request Filtering for Guaranteed 99.99% Response.\nAPI description: Performs a global search on Instagram based on the given query.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search term to be used in the Instagram search.",
+                "default": "iq"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

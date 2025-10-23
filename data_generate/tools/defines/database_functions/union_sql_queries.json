@@ -1,0 +1,36 @@
+{
+    "name": "union_sql_queries",
+    "description": "Combine results of two SQL SELECT queries using a set operation like UNION, INTERSECT, or EXCEPT. Supports saving results to file or temporary table.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file."
+        },
+        "sql1": {
+          "type": "string",
+          "description": "The first SQL SELECT query."
+        },
+        "sql2": {
+          "type": "string",
+          "description": "The second SQL SELECT query."
+        },
+        "operator": {
+          "type": "string",
+          "enum": ["UNION", "UNION ALL", "INTERSECT", "EXCEPT"],
+          "description": "SQL set operator used to combine the two queries. Must be one of: UNION, UNION ALL, INTERSECT, EXCEPT."
+        },
+        "save_to_file": {
+          "type": "string",
+          "description": "Optional file path (.csv or .xlsx) to save the combined query result."
+        },
+        "create_temp_table": {
+          "type": "string",
+          "description": "Optional name of the temporary table to store the combined query result."
+        }
+      },
+      "required": ["database_path", "sql1", "sql2", "operator"]
+    }
+  }
+  

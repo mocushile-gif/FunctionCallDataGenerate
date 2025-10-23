@@ -1,0 +1,17 @@
+{
+    "name": "get_user_pins",
+    "description": "This is a sub-function API for tool pinterest_apis.\nTool description: API search user, get user profile, user pins\nAPI description: Retrieves the Pinterest pins of a specified user.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Pinterest username whose pins are to be fetched.",
+                "default": "0869178429hau"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

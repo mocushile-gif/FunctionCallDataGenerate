@@ -1,0 +1,17 @@
+{
+    "name": "measure_units",
+    "description": "This is a sub-function API for tool measurement_unit_converter.\nTool description: Say goodbye to the hassle of unit conversions with our Measurement Unit Converter API.\n\n\nAPI description: ### GET Enum Array of All Units of the Given Type\n\nThis call fetches an array of all units associated with a specific measurement type, which you can use for conversions in the fourth API call. \n\nFor example, to get units for length, make a GET request to **/length/units**. The response will contain an array of units you can use for conversions.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "measure": {
+                "type": "string",
+                "description": "The type of measurement for which units are to be fetched (e.g., 'length', 'weight').",
+                "default": "length"
+            }
+        },
+        "required": [
+            "measure"
+        ]
+    }
+}

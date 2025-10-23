@@ -1,0 +1,17 @@
+{
+    "name": "bans_esports",
+    "description": "This is a sub-function API for tool sofascores.\nTool description: SofaScores has everything, from simple live scores to deep statistics and detailed player analysis. We cover 20+ sports, more than 5000 leagues, tournaments and special events.   We use the best sources for statistics and calculate precise player ratings. Heatmaps visually represent player effort on the field. Find all transfers, player strengths and weaknesses. Ratings and video of matches.  Partners and customers: (Opta sports) statsperform.com , sofascore.com, aiscore.com  Support:  [tipst...\nAPI description: Fetches the esports bans for a given event using the provided event ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "event_id": {
+                "type": "number",
+                "description": "The ID of the esports event to fetch bans for.",
+                "default": 10289011.0
+            }
+        },
+        "required": [
+            "event_id"
+        ]
+    }
+}

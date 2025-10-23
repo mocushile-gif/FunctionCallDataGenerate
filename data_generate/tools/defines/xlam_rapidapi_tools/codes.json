@@ -1,0 +1,17 @@
+{
+    "name": "codes",
+    "description": "This is a sub-function API for tool postali.\nTool description: Mexico zip codes / Códigos postales de México\nAPI description: This function searches for information based on the provided code using the Postali API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "string",
+                "description": "The code to be searched.",
+                "default": "66446"
+            }
+        },
+        "required": [
+            "code"
+        ]
+    }
+}

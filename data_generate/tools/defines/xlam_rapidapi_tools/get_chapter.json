@@ -1,0 +1,32 @@
+{
+    "name": "get_chapter",
+    "description": "This is a sub-function API for tool bible_memory_verse_flashcard.\nTool description: This KJV Bible API v2 allows users to retrieve verses/chapters in 1 of 8 formats.\nAPI description: Fetches and returns a specific chapter from the Bible given the book name and various optional parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "book_name": {
+                "type": "string",
+                "description": "The name of the book from the Bible (e.g., 'Genesis', 'Job').",
+                "default": "genesis"
+            },
+            "uppercase_mode": {
+                "type": "boolean",
+                "description": "If True, the text will be returned in uppercase. Defaults to None.",
+                "default": true
+            },
+            "text_mode": {
+                "type": "string",
+                "description": "The mode of text to return. Defaults to 'vowels'.",
+                "default": "vowels"
+            },
+            "chapter": {
+                "type": "number",
+                "description": "The specific chapter number to fetch. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "book_name"
+        ]
+    }
+}

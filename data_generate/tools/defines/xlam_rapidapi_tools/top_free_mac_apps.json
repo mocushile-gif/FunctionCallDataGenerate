@@ -1,0 +1,30 @@
+{
+    "name": "top_free_mac_apps",
+    "description": "This is a sub-function API for tool app_store.\nTool description: Unofficial Apple App Store Api\nAPI description: Fetches a list of the top free Mac apps from the RapidAPI App Store.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lang": {
+                "type": "string",
+                "description": "The language for the app descriptions. Default is 'en'.",
+                "default": "en"
+            },
+            "category": {
+                "type": "string",
+                "description": "The category ID for the apps. Default is '6016'.",
+                "default": "6016"
+            },
+            "country": {
+                "type": "string",
+                "description": "The country code for the App Store. Default is 'us'.",
+                "default": "us"
+            },
+            "num": {
+                "type": "number",
+                "description": "The number of results to return. Default is 100. Maximum is 200.",
+                "default": 100.0
+            }
+        },
+        "required": []
+    }
+}

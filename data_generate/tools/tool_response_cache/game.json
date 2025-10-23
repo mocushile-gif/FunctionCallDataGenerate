@@ -1,0 +1,80 @@
+{
+    "{'gamepk': '12345'}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "version": "v1.0",
+                "status": 200
+            },
+            "results": {
+                "game": {
+                    "pk": 0
+                },
+                "datetime": {
+                    "dayNight": "day"
+                },
+                "status": {
+                    "abstractGameState": "Other",
+                    "codedGameState": "X",
+                    "statusCode": "X",
+                    "abstractGameCode": "O"
+                },
+                "teams": {
+                    "away": {
+                        "id": 0
+                    },
+                    "home": {
+                        "id": 0
+                    }
+                },
+                "players": [],
+                "weather": [],
+                "gameInfo": [],
+                "flags": [],
+                "alerts": [],
+                "probablePitchers": []
+            }
+        }
+    },
+    "{'gamepk': '202010200'}": {
+        "error": "",
+        "response": {
+            "meta": {
+                "version": "v1.0",
+                "status": 200
+            },
+            "results": {
+                "game": {
+                    "pk": 0
+                },
+                "datetime": {
+                    "dayNight": "day"
+                },
+                "status": {
+                    "abstractGameState": "Other",
+                    "codedGameState": "X",
+                    "statusCode": "X",
+                    "abstractGameCode": "O"
+                },
+                "teams": {
+                    "away": {
+                        "id": 0
+                    },
+                    "home": {
+                        "id": 0
+                    }
+                },
+                "players": [],
+                "weather": [],
+                "gameInfo": [],
+                "flags": [],
+                "alerts": [],
+                "probablePitchers": []
+            }
+        }
+    },
+    "{'gamepk': '633282'}": {
+        "error": "",
+        "response": "{'meta': {'version': 'v1.0', 'status': 200}, 'results': {'game': {'pk': 633282, 'type': 'R', 'doubleHeader': 'N', 'id': '2021/07/11/chamlb-balmlb-1', 'gamedayType': 'P', 'tiebreaker': 'N', 'gameNumber': 1, 'calendarEventID': '14-633282-2021-07-11', 'season': '2021', 'seasonDisplay': '2021'}, 'datetime': {'dateTime': '2021-07-11T17:05:00Z', 'originalDate': '2021-07-11', 'officialDate': '2021-07-11', 'dayNight': 'day', 'time': '1:05', 'ampm': 'PM'}, 'status': {'abstractGameState': 'Final', 'codedGameState': 'F', 'detailedState': 'Final', 'statusCode': 'F', 'startTimeTBD': False, 'abstractGameCode': 'F'}, 'teams': {'away': {'springLeague': {'id': 114, 'name': 'Cactus League', 'abbreviation': 'CL'}, 'allStarStatus': 'N', 'id': 145, 'name': 'Chicago White Sox', 'season': 2021, 'venue': {'id': 4, 'name': 'Guaranteed Rate Field'}, 'springVenue': {'id': 3809}, 'teamCode': 'cha', 'fileCode': 'cws', 'abbreviation': 'CWS', 'teamName': 'White Sox', 'locationName': 'Chicago', 'firstYearOfPlay': '1901', 'league': {'id': 103, 'name': 'American League'}, 'division': {'id': 202, 'name': 'American League Central'}, 'sport': {'id': 1, 'name': 'Major League Baseball'}, 'shortName': 'Chi White Sox', 'record': {'gamesPlayed': 89, 'wildCardGamesBack': '-', 'leagueGamesBack': '-', 'springLeagueGamesBack': '-', 'sportGamesBack': '-', 'divisionGamesBack': '-', 'conferenceGamesBack': '-', 'leagueRecord': {'wins': 54, 'losses': 35, 'ties': 0, 'pct': '.607'}, 'records': [], 'divisionLeader': False, 'wins': 54, 'losses': 35, 'winningPercentage': '.607'}, 'franchiseName': 'Chicago', 'clubName': 'White Sox', 'active': True}, 'home': {'springLeague': {'id': 115, 'name': 'Grapefruit League', 'abbreviation': 'GL'}, 'allStarStatus': 'N', 'id': 110, 'name': 'Baltimore Orioles', 'season': 2021, 'venue': {'id': 2, 'name': 'Oriole Park at Camden Yards'}, 'springVenue': {'id': 2508}, 'teamCode': 'bal', 'fileCode': 'bal', 'abbreviation': 'BAL', 'teamName': 'Orioles', 'locationName': 'Baltimore', 'firstYearOfPlay': '1901', 'league': {'id': 103, 'name': 'A"
+    }
+}

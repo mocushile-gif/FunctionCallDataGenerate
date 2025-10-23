@@ -1,0 +1,42 @@
+{
+    "{'country': 'US', 'lang': 'en', 'topic': 'science', 'media': 'True'}": {
+        "error": "",
+        "response": "Here are the latest 100 science-related headlines from the United States in English. Each article includes media information, such as the main image and additional images used in the article. These articles cover a range of scientific topics, including recent discoveries, advancements in technology, environmental studies, and more. This curated list ensures you stay updated on the most relevant and trending science news from the US."
+    },
+    "{'topic': 'tech', 'lang': 'en'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'topic': 'tech', 'lang': 'en', 'media': 'False'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'topic': 'sport', 'country': 'US', 'lang': 'en'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'topic': 'sport', 'country': 'US', 'lang': 'en', 'media': 'True'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'lang': 'en', 'topic': 'tech', 'country': 'US', 'media': 'True'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'lang': 'es', 'country': 'MX'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'lang': 'en', 'country': 'US', 'topic': 'tech', 'media': 'True'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'lang': 'es', 'country': 'MX', 'topic': 'entertainment', 'media': 'True'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'topic': 'tech', 'lang': 'en', 'media': 'True'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    }
+}

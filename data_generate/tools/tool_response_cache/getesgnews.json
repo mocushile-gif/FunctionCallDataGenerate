@@ -1,0 +1,46 @@
+{
+    "{'date': '2023-06-30'}": {
+        "error": "",
+        "response": {
+            "request_id": 34612,
+            "status": "Failed",
+            "message": "Incorrect date format, should be DD/MM/YYYY"
+        }
+    },
+    "{'companyname': 'Tesla'}": {
+        "error": "",
+        "response": "{'request_id': 59704, 'status': 'Failed', 'message': \"companyname: 'Tesla' not available. You can use the companynames API to see the available values\"}"
+    },
+    "{'companyname': 'Tesla Inc.'}": {
+        "error": "",
+        "response": "{'request_id': 60328, 'status': 'Failed', 'message': \"companyname: 'Tesla Inc.' not available. You can use the companynames API to see the available values\"}"
+    },
+    "{'isin': 'US88160R1014'}": {
+        "error": "",
+        "response": "{'request_id': 60329, 'status': 'Failed', 'message': \"Bad request syntax or unsupported method - Please include only one of the following parameters: ['companyname', 'isin', 'sedol']\"}"
+    },
+    "{'companyname': 'GradeTracker Inc.', 'date': '27/05/2025'}": {
+        "error": "",
+        "response": "{'request_id': 60330, 'status': 'Failed', 'message': \"Incorrect date format for param 'date', please use YYYY-MM-DD\"}"
+    },
+    "{'companyname': 'GradeTracker Inc.', 'date': '2025-05-27'}": {
+        "error": "",
+        "response": "{'request_id': 60331, 'status': 'Failed', 'message': \"companyname: 'GradeTracker Inc.' not available. You can use the companynames API to see the available values\"}"
+    },
+    "{'companyname': 'Vertex CleanTech Inc.', 'date': '03/06/2025'}": {
+        "error": "",
+        "response": "{'request_id': 60337, 'status': 'Failed', 'message': \"Incorrect date format for param 'date', please use YYYY-MM-DD\"}"
+    },
+    "{'companyname': 'Altice USA, Inc.', 'date': '2025-06-03'}": {
+        "error": "",
+        "response": "{'request_id': 60338, 'status': 'Failed', 'message': \"companyname: 'Altice USA, Inc.' not available. You can use the companynames API to see the available values\"}"
+    },
+    "{'companyname': 'NextCompany Inc.', 'date': '2025-06-03'}": {
+        "error": "",
+        "response": "{'request_id': 60339, 'status': 'Failed', 'message': \"companyname: 'NextCompany Inc.' not available. You can use the companynames API to see the available values\"}"
+    },
+    "{'companyname': 'Vertex CleanTech Inc.', 'date': '2025-06-03'}": {
+        "error": "",
+        "response": "{'request_id': 60340, 'status': 'Failed', 'message': \"companyname: 'Vertex CleanTech Inc.' not available. You can use the companynames API to see the available values\"}"
+    }
+}

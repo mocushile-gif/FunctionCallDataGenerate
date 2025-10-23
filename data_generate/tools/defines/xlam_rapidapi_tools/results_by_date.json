@@ -1,0 +1,17 @@
+{
+    "name": "results_by_date",
+    "description": "This is a sub-function API for tool cricket_live_data.\nTool description: Fixtures, Results, and scorecards for the worlds most popular cricket tournaments\nAPI description: Fetches cricket match results for a specified date using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve cricket match results, in YYYY-MM-DD format.",
+                "default": "2020-09-20"
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

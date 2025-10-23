@@ -1,0 +1,40 @@
+{
+    "name": "searchdomain",
+    "description": "This is a sub-function API for tool pages_hosted_on_domain.\nTool description: Find web pages hosted on a domain, including historic pages. \nAPI description: Fetches webpage data from the \"pages-hosted-on-domain\" API based on the provided filters and parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "matchtype": {
+                "type": "string",
+                "description": "The type of match to be used. Default is 'prefix'.",
+                "default": "prefix"
+            },
+            "collapse": {
+                "type": "string",
+                "description": "The field to be collapsed. Default is 'urlkey'.",
+                "default": "urlkey"
+            },
+            "url": {
+                "type": "string",
+                "description": "The URL to search for. Default is 'httpsimage.com'.",
+                "default": "httpsimage.com"
+            },
+            "fl": {
+                "type": "string",
+                "description": "The fields to include in the response. Default is 'timestamp:4,original,urlkey'.",
+                "default": "timestamp:4,original,urlkey"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to return. Default is 100000.",
+                "default": 100000.0
+            },
+            "filter": {
+                "type": "string",
+                "description": "The filter to apply to the results. Default is 'statuscode:200'.",
+                "default": "statuscode:200"
+            }
+        },
+        "required": []
+    }
+}

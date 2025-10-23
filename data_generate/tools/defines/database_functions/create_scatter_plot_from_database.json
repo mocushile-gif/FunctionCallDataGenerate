@@ -1,0 +1,70 @@
+{
+    "name": "create_scatter_plot_from_database",
+    "description": "Generate a scatter plot from two columns of an SQLite database table or JOIN query.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "Path to the SQLite database file."
+        },
+        "from_clause": {
+          "type": "string",
+          "description": "Table or JOIN clause to select data from."
+        },
+        "x_column": {
+          "type": "string",
+          "description": "Column to use for x-axis values."
+        },
+        "y_column": {
+          "type": "string",
+          "description": "Column to use for y-axis values."
+        },
+        "where_clause": {
+          "type": "string",
+          "description": "Optional WHERE clause (excluding the 'WHERE' keyword)."
+        },
+        "where_params": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Optional list of parameters for WHERE clause."
+        },
+        "color": {
+          "type": "string",
+          "default": "blue",
+          "description": "Color of the scatter markers."
+        },
+        "marker": {
+          "type": "string",
+          "default": "o",
+          "description": "Marker style for scatter points (e.g., 'o', '^', 's')."
+        },
+        "title": {
+          "type": "string",
+          "default": "Line Chart",
+          "description": "Title of the chart."
+        },
+        "xlabel": {
+          "type": "string",
+          "default": "X-axis",
+          "description": "Label for the x-axis."
+        },
+        "ylabel": {
+          "type": "string",
+          "default": "Y-axis",
+          "description": "Label for the y-axis."
+        },
+        "legend_label": {
+          "type": "string",
+          "description": "Optional legend label for the scatter series."
+        },
+        "save_path": {
+          "type": "string",
+          "default": "./scatter_plot.png",
+          "description": "Path where the chart image will be saved."
+        }
+      },
+      "required": ["database_path", "from_clause", "x_column", "y_column"]
+    }
+  }
+  

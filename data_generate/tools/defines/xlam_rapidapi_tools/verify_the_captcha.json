@@ -1,0 +1,23 @@
+{
+    "name": "verify_the_captcha",
+    "description": "This is a sub-function API for tool captcha.\nTool description: Feeling nostalgic? Generate the same old alphanumeric captchas.\nAPI description: Verifies the given CAPTCHA using the provided uuid and Toolbench RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "captcha": {
+                "type": "string",
+                "description": "The value of the CAPTCHA to be verified.",
+                "default": "Captcha Text"
+            },
+            "uuid": {
+                "type": "string",
+                "description": "The unique identifier for the CAPTCHA session.",
+                "default": "UUID"
+            }
+        },
+        "required": [
+            "captcha",
+            "uuid"
+        ]
+    }
+}

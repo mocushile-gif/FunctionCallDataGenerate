@@ -1,0 +1,51 @@
+{
+  "name": "add_text_to_image",
+  "description": "Add text overlay to an image with customizable font, size, color, and position.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "image_path": {
+        "type": "string",
+        "description": "Path to the input image file"
+      },
+      "text": {
+        "type": "string",
+        "description": "Text to add to the image"
+      },
+      "position": {
+        "type": "array",
+        "items": {"type": "integer"},
+        "minItems": 2,
+        "maxItems": 2,
+        "description": "Position (x, y) where to place the text",
+        "default": [10, 10]
+      },
+      "font_size": {
+        "type": "integer",
+        "description": "Font size in pixels (8-72)",
+        "default": 24,
+        "minimum": 8,
+        "maximum": 72
+      },
+      "font_color": {
+        "type": "string",
+        "description": "Font color (hex color or color name)",
+        "default": "white"
+      },
+      "font_name": {
+        "type": "string",
+        "description": "Font name or path to font file",
+        "default": "arial.ttf"
+      },
+      "background_color": {
+        "type": "string",
+        "description": "Background color for text box (hex color or color name)"
+      },
+      "output_path": {
+        "type": "string",
+        "description": "Path for the output image. If not provided, will create auto-named file."
+      }
+    },
+    "required": ["image_path", "text"]
+  }
+} 

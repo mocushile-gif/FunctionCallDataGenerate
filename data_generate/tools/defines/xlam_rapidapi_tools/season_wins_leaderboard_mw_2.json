@@ -1,0 +1,22 @@
+{
+    "name": "season_wins_leaderboard_mw_2",
+    "description": "This is a sub-function API for tool cod_api_2_0.\nTool description: Provides an easy access to the COD api leaderboard endpoints.\nAPI description: Fetches season wins information for a specified number of players on the MW 2 leaderboard.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "Number of players to fetch the leaderboard information for, ranging from 1 to 2000.",
+                "default": 2000.0
+            },
+            "season": {
+                "type": "string",
+                "description": "The season for which to fetch the wins information. Defaults to 's1'.",
+                "default": "s1"
+            }
+        },
+        "required": [
+            "limit"
+        ]
+    }
+}

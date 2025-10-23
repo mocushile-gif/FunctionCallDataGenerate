@@ -1,0 +1,29 @@
+{
+    "name": "get_signals",
+    "description": "This is a sub-function API for tool greenlight.\nTool description: BUY/SELL signals and trends from a range of popular technical indicators (24 total)\nAPI description: **Provides BUY/SELL signals and trends for BTC/USDT, ETH/USDT, TRX/USDT 1 hour timeframe.**\n- Types of signals: BUY, SELL, HOLD\n- Types of trends: UP, DOWN, FLAT\n**Use telegram bot for extended functionality**\nAny pair, 6 different timeframes, indicator settings and much more:\nhttps://t.me/crypto_greenlight_bot?start=CEB66C31",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "coin": {
+                "type": "string",
+                "description": "The cryptocurrency pair to get signals for (e.g., BTC, ETH, TRX).",
+                "default": "BTC"
+            },
+            "exchange": {
+                "type": "string",
+                "description": "The exchange to get signals from (e.g., Binance, Bybit, Huobi, Kucoin, Coinex, MXC, Gate).",
+                "default": "Bybit"
+            },
+            "market_type": {
+                "type": "string",
+                "description": "The market type to get signals for (e.g., SPOT, FUTURES).",
+                "default": "SPOT"
+            }
+        },
+        "required": [
+            "coin",
+            "exchange",
+            "market_type"
+        ]
+    }
+}

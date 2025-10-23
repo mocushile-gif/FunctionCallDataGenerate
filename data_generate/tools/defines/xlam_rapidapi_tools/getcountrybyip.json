@@ -1,0 +1,17 @@
+{
+    "name": "getcountrybyip",
+    "description": "This is a sub-function API for tool countrybyip.\nTool description: Get country code by providing IP address (IPV4 & IPV6). We aim to provide output at lightning speed.\nAPI description: Retrieves the country information for a given IP address using the Country by IP API. Both IPv4 and IPv6 are supported.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IP address for which to retrieve the country information.",
+                "default": "4.98.25.25"
+            }
+        },
+        "required": [
+            "ip"
+        ]
+    }
+}

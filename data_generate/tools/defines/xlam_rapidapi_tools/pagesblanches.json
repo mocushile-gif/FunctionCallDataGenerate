@@ -1,0 +1,29 @@
+{
+    "name": "pagesblanches",
+    "description": "This is a sub-function API for tool les_pagesjaunes_les_pagesblanche_france.\nTool description: Extraire les données du Pages Jaunes et Pages Blanches scraping email et téléphone \nAPI description: This function retrieves data from the Pages Blanches API for extracting email and phone information based on the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pbpage": {
+                "type": "number",
+                "description": "The page number of the search results to retrieve.",
+                "default": 1.0
+            },
+            "pbkeyword": {
+                "type": "string",
+                "description": "The search keyword or term for the Pages Blanches query.",
+                "default": "Patrick"
+            },
+            "pblocation": {
+                "type": "string",
+                "description": "The location to filter the search results.",
+                "default": "Paris"
+            }
+        },
+        "required": [
+            "pbpage",
+            "pbkeyword",
+            "pblocation"
+        ]
+    }
+}

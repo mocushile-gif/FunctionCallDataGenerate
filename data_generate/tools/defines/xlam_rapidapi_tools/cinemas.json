@@ -1,0 +1,15 @@
+{
+    "name": "cinemas",
+    "description": "This is a sub-function API for tool argentina_movie_theatres.\nTool description: This api will give you data about the movies and showtimes of the 3 main theatre chains in Argentina\nAPI description: Fetches a list of cinemas based on the specified brand using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "brand": {
+                "type": "string",
+                "description": "The brand of the cinema to filter the results. Default is 'hoyts'.",
+                "default": "hoyts"
+            }
+        },
+        "required": []
+    }
+}

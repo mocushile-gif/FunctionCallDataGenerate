@@ -1,0 +1,184 @@
+{
+    "{}": {
+        "error": "",
+        "response": [
+            {
+                "BodyPartExamined": "CHEST"
+            },
+            {
+                "BodyPartExamined": "BREAST"
+            },
+            {
+                "BodyPartExamined": "PROSTATE"
+            },
+            {
+                "BodyPartExamined": "COLON"
+            },
+            {
+                "BodyPartExamined": "PHANTOM"
+            },
+            {},
+            {
+                "BodyPartExamined": "KIDNEY"
+            },
+            {
+                "BodyPartExamined": "Kidney"
+            },
+            {
+                "BodyPartExamined": "OVARY"
+            },
+            {
+                "BodyPartExamined": "LIVER"
+            },
+            {
+                "BodyPartExamined": "LUNG"
+            },
+            {
+                "BodyPartExamined": "BLADDER"
+            },
+            {
+                "BodyPartExamined": "THYROID"
+            },
+            {
+                "BodyPartExamined": "RECTUM"
+            },
+            {
+                "BodyPartExamined": "UTERUS"
+            },
+            {
+                "BodyPartExamined": "ESOPHAGUS"
+            },
+            {
+                "BodyPartExamined": "STOMACH"
+            },
+            {
+                "BodyPartExamined": "CERVIX"
+            },
+            {
+                "BodyPartExamined": "CHESTABDPELVIS"
+            },
+            {
+                "BodyPartExamined": "LEG"
+            },
+            {
+                "BodyPartExamined": "TSPINE"
+            },
+            {
+                "BodyPartExamined": "ABDOMEN"
+            },
+            {
+                "BodyPartExamined": "MEDIASTINUM"
+            },
+            {
+                "BodyPartExamined": "SKULL"
+            },
+            {
+                "BodyPartExamined": "EXTREMITY"
+            },
+            {
+                "BodyPartExamined": "PANCREAS"
+            },
+            {
+                "BodyPartExamined": "Phantom"
+            },
+            {
+                "BodyPartExamined": "THORAX"
+            },
+            {
+                "BodyPartExamined": "HEART"
+            },
+            {
+                "BodyPartExamined": "BRAIN"
+            },
+            {
+                "BodyPartExamined": "LSSPINE"
+            },
+            {
+                "BodyPartExamined": "PELVIS"
+            },
+            {
+                "BodyPartExamined": "J brzuszna"
+            },
+            {
+                "BodyPartExamined": "FUSION"
+            },
+            {
+                "BodyPartExamined": "SEG"
+            },
+            {
+                "BodyPartExamined": "CHESTABDOMEN"
+            },
+            {
+                "BodyPartExamined": "BRAIN W/WO_AH32"
+            },
+            {
+                "BodyPartExamined": "OUTSIDE FIL"
+            },
+            {
+                "BodyPartExamined": "ABDOMENPELVIS"
+            },
+            {
+                "BodyPartExamined": "CHEST (THORAX) "
+            },
+            {
+                "BodyPartExamined": "HEAD"
+            },
+            {
+                "BodyPartExamined": "Pelvis"
+            },
+            {
+                "BodyPartExamined": "WO INTER"
+            },
+            {
+                "BodyPartExamined": "WHOLEBODY"
+            },
+            {
+                "BodyPartExamined": "Thorax"
+            },
+            {
+                "BodyPartExamined": "HEADNECK"
+            },
+            {
+                "BodyPartExamined": "OTHER"
+            },
+            {
+                "BodyPartExamined": "UNKNOWN"
+            },
+            {
+                "BodyPartExamined": "CSPINE"
+            },
+            {
+                "BodyPartExamined": "NECKCHESTABDPELV"
+            },
+            {
+                "BodyPartExamined": "NECK"
+            },
+            {
+                "BodyPartExamined": "BODY"
+            },
+            {
+                "BodyPartExamined": "ADRENAL"
+            },
+            {
+                "BodyPartExamined": "NECKCHESTABDPEL"
+            },
+            {
+                "BodyPartExamined": "SPINE"
+            },
+            {
+                "BodyPartExamined": "LSPINE"
+            },
+            {
+                "BodyPartExamined": "FOOT"
+            }
+        ]
+    },
+    "{'modality': 'CT', 'format': 'JSON'}": {
+        "error": "",
+        "response": "[{'BodyPartExamined': 'CHEST'}, {'BodyPartExamined': 'BREAST'}, {'BodyPartExamined': 'PROSTATE'}, {'BodyPartExamined': 'COLON'}, {'BodyPartExamined': 'PHANTOM'}, {}, {'BodyPartExamined': 'KIDNEY'}, {'BodyPartExamined': 'Kidney'}, {'BodyPartExamined': 'OVARY'}, {'BodyPartExamined': 'LIVER'}, {'BodyPartExamined': 'LUNG'}, {'BodyPartExamined': 'BLADDER'}, {'BodyPartExamined': 'THYROID'}, {'BodyPartExamined': 'RECTUM'}, {'BodyPartExamined': 'UTERUS'}, {'BodyPartExamined': 'ESOPHAGUS'}, {'BodyPartExamined': 'STOMACH'}, {'BodyPartExamined': 'CHESTABDPELVIS'}, {'BodyPartExamined': 'LOWERLIMB'}, {'BodyPartExamined': 'ABDOMEN'}, {'BodyPartExamined': 'MEDIASTINUM'}, {'BodyPartExamined': 'EXTREMITY'}, {'BodyPartExamined': 'PANCREAS'}, {'BodyPartExamined': 'Phantom'}, {'BodyPartExamined': 'THORAX'}, {'BodyPartExamined': 'HEART'}, {'BodyPartExamined': 'PELVIS'}, {'BodyPartExamined': 'CHESTABDOMEN'}, {'BodyPartExamined': 'OUTSIDE FIL'}, {'BodyPartExamined': 'ABDOMENPELVIS'}, {'BodyPartExamined': 'HEAD'}, {'BodyPartExamined': 'WO INTER'}, {'BodyPartExamined': 'WHOLEBODY'}, {'BodyPartExamined': 'Thorax'}, {'BodyPartExamined': 'ADRENAL'}, {'BodyPartExamined': 'NECKCHESTABDPELV'}, {'BodyPartExamined': 'HEADNECK'}, {'BodyPartExamined': 'BONE'}, {'BodyPartExamined': 'NECKCHESTABDOMEN'}, {'BodyPartExamined': 'NECK'}, {'BodyPartExamined': 'SPINE'}, {'BodyPartExamined': 'FOOT'}, {'BodyPartExamined': 'LSPINE'}, {'BodyPartExamined': 'FEMORALA'}, {'BodyPartExamined': 'NECKCHEST'}]"
+    },
+    "{'modality': 'PET', 'format': 'JSON'}": {
+        "error": "",
+        "response": "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    }
+}

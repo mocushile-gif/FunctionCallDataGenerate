@@ -1,0 +1,17 @@
+{
+    "name": "get_album_metadata",
+    "description": "This is a sub-function API for tool spotify_scraper.\nTool description: An all-in-one scraper for scraping everything on Spotify, and a highly available download solution for tracks, lyrics and episode previews.\nAPI description: Fetches full metadata details of a specified album using the Spotify Scraper API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "albumid": {
+                "type": "string",
+                "description": "The unique ID of the album for which metadata is to be retrieved.",
+                "default": "5Otajf16kZ0zkVZWhu7LtO"
+            }
+        },
+        "required": [
+            "albumid"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "today",
+    "description": "This is a sub-function API for tool uncovered_treasure.\nTool description: The Uncovered Treasure API has more than 25,000 revealed truths from every Book and chapter in the Bible as recorded by Phil Largent over the last 25 years.\nAPI description: Fetches the treasure of the day from the Uncovered Treasure API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "callback": {
+                "type": "string",
+                "description": "Optional JSONP callback for the request. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

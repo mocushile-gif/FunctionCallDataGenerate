@@ -1,0 +1,32 @@
+{
+    "name": "search_foods_using_keywords",
+    "description": "This is a sub-function API for tool food_nutrition_information.\nTool description: search and find foods with their nutritional information\nAPI description: Search for foods using the given keywords and optional filters such as brand owner, page size, and page number.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search term to query for foods.",
+                "default": "cheese"
+            },
+            "brandowner": {
+                "type": "string",
+                "description": "The brand owner of the foods. Default is 'Kar Nut Products Company'.",
+                "default": "Kar Nut Products Company"
+            },
+            "pagesize": {
+                "type": "string",
+                "description": "The number of results per page. Default is '1'.",
+                "default": "1"
+            },
+            "pagenumber": {
+                "type": "string",
+                "description": "The page number to retrieve. Default is '1'.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "symbols_faq",
+    "description": "This is a sub-function API for tool seeking_alpha_finance.\nTool description: Seeking Alpha is the world’s largest investing community. Seeking Alpha’s content has unparalleled breadth and depth: from stocks, ETFs and mutual funds to commodities and cryptocurrency.   **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters\nAPI description: Get Answers to common questions on a topic by Ticker slug. Ex.: https://seekingalpha.com/symbol/NVDA",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker_slug": {
+                "type": "string",
+                "description": "The ticker symbol for which to fetch FAQ answers (e.g., 'NVDA').",
+                "default": "NVDA"
+            }
+        },
+        "required": [
+            "ticker_slug"
+        ]
+    }
+}

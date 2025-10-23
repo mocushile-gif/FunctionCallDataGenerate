@@ -1,0 +1,22 @@
+{
+    "name": "transactions",
+    "description": "This is a sub-function API for tool real_estate_records.\nTool description: Real estate transaction records for New York City and whole New Jersey. Public records have been collected from various sites, standardized using Here.com API, with geolocation information for your consumption. \nAPI description: Show transactions given a zipcode. The API returns 50 records each time in descending order by date and supports pagination. This API requires a subscription cost.\n\nThe returned data shows the summary of information. To get further detail (such as the unit of a building that posts the most recent transaction, use summary API.\n\nSample data of the API when query zipcode 10019 is:\n \"data\": [\n    {\n      \"_id\": {\n        \"STREET_NUMBER\": \"310\",\n        \"STREET\": \"W 56th St\",\n        \"PROPERTY_TYPE\": \"SINGLE RES",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zipcode": {
+                "type": "string",
+                "description": "The zipcode for which the transaction data is to be retrieved.",
+                "default": "10019"
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number for pagination. Defaults to '1'.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "zipcode"
+        ]
+    }
+}

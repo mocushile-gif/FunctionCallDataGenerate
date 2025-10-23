@@ -1,0 +1,15 @@
+{
+    "name": "trainers_win_rate",
+    "description": "This is a sub-function API for tool horse_racing_usa.\nTool description: Horse Racing API - USA races\nAPI description: Fetches trainers' win rate statistics from the past specified number of days.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "last_days": {
+                "type": "string",
+                "description": "The number of past days to consider for the statistics. Defaults to 7 days if not specified.",
+                "default": "10"
+            }
+        },
+        "required": []
+    }
+}

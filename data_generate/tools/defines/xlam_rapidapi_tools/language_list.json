@@ -1,0 +1,17 @@
+{
+    "name": "language_list",
+    "description": "This is a sub-function API for tool real_time_news_data.\nTool description: Exceptionally Fast and Simple API to get top news globally or per topic and search for news by query and geographic area in real-time.\nAPI description: Fetches the list of valid languages for the given country using the Real Time News Data API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "Country code of the country to get languages for. See [all available country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).",
+                "default": "US"
+            }
+        },
+        "required": [
+            "country"
+        ]
+    }
+}

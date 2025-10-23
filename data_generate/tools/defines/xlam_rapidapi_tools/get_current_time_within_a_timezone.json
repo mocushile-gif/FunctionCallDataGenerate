@@ -1,0 +1,17 @@
+{
+    "name": "get_current_time_within_a_timezone",
+    "description": "This is a sub-function API for tool world_clock.\nTool description: An API to get the current time. REST Services that will return current date/time in JSON for any registered time zone.\nAPI description: Fetch the current time within a specified timezone using the RapidAPI World Clock API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "time_zone": {
+                "type": "string",
+                "description": "The timezone identifier for which to fetch the current time (see: https://www.timeanddate.com/time/zones/).",
+                "default": "est"
+            }
+        },
+        "required": [
+            "time_zone"
+        ]
+    }
+}

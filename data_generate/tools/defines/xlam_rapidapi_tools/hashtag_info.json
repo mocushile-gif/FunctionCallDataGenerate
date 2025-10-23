@@ -1,0 +1,17 @@
+{
+    "name": "hashtag_info",
+    "description": "This is a sub-function API for tool instagram_data.\nTool description: Real-time Instagram data API. Get very useful and unique information directly from Instagram. \n  I'm on Telegram https://t.me/logicBuilder \n News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Fetches information about a specific TikTok hashtag using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hashtag": {
+                "type": "string",
+                "description": "The TikTok hashtag for which to retrieve information.",
+                "default": "summer"
+            }
+        },
+        "required": [
+            "hashtag"
+        ]
+    }
+}

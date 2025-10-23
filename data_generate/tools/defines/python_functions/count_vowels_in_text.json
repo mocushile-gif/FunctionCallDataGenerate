@@ -1,0 +1,16 @@
+{
+    "name": "count_vowels_in_text",
+    "description": "Counts the number of vowels (a, e, i, o, u) in a given text and provides a breakdown. Ignores punctuation and considers vowels case-insensitively.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The input text to count vowels in."
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

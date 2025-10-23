@@ -1,0 +1,42 @@
+{
+    "name": "search_video_list_by_keywords",
+    "description": "This is a sub-function API for tool tiktok_download_video.\nTool description: Tiktok Best Spider. Fast. HD Quality. Without Watermark Download. Video Full Detail. Signature X-Argus,X-Ladon,X-Gorgon \nmail: nb429429@gmail.com\n\nAPI description: Search for videos on TikTok by specified keywords and additional filtering options.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keywords": {
+                "type": "string",
+                "description": "Keywords to search videos for.",
+                "default": "踊ってみた"
+            },
+            "sort_type": {
+                "type": "string",
+                "description": "\nSort by\n\n0 - Relevance\n1 - Like count\n3 - Date posted",
+                "default": "0"
+            },
+            "publish_time": {
+                "type": "string",
+                "description": "\nPublish time filter\n\n0 - ALL\n1 - Past 24 hours\n7 - This week\n30 - This month\n90 - Last 3 months\n180 - Last 6 months",
+                "default": "0"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "Pagination cursor for navigating results. Defaults to '0'.",
+                "default": "0"
+            },
+            "region": {
+                "type": "string",
+                "description": "ISO region code to filter results by location. Defaults to 'US'.",
+                "default": "US"
+            },
+            "count": {
+                "type": "string",
+                "description": "Number of results to retrieve. Defaults to '10'.",
+                "default": "10"
+            }
+        },
+        "required": [
+            "keywords"
+        ]
+    }
+}

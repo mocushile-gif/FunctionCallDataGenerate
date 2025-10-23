@@ -1,0 +1,17 @@
+{
+    "name": "search_restaurants_by_local_authority",
+    "description": "This is a sub-function API for tool wyre_data.\nTool description: UK - search for all restaurants, pubs, bars, cafes, coffee shops and nightclubs in the UK. Find establishment names, addresses, postcodes, food hygiene ratings, local authorities, latitudes, longitudes and plenty more.\nAPI description: Fetches all restaurants within a specified local authority using the Wyre Data API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "localauthority": {
+                "type": "string",
+                "description": "The name of the local authority to search for restaurants in.",
+                "default": "wyre"
+            }
+        },
+        "required": [
+            "localauthority"
+        ]
+    }
+}

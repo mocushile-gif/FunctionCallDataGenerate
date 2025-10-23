@@ -1,0 +1,29 @@
+{
+    "name": "crimes_at_location",
+    "description": "This is a sub-function API for tool data_police_uk.\nTool description: This is the unofficial documentation for the Data.Police.UK API.\nAPI description: Returns just the crimes which occurred at the specified location, rather than those within a radius. If given latitude and longitude, finds the nearest pre-defined location and returns the crimes which occurred there.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve crime data in 'YYYY-MM-DD' format.",
+                "default": "2012-02"
+            },
+            "lat": {
+                "type": "string",
+                "description": "The latitude of the location.",
+                "default": "52.629729"
+            },
+            "lng": {
+                "type": "string",
+                "description": "The longitude of the location.",
+                "default": "-1.131592"
+            }
+        },
+        "required": [
+            "date",
+            "lat",
+            "lng"
+        ]
+    }
+}

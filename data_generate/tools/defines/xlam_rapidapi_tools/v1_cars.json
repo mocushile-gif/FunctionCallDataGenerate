@@ -1,0 +1,67 @@
+{
+    "name": "v1_cars",
+    "description": "This is a sub-function API for tool cars_by_api_ninjas.\nTool description: Get detailed data on tens of thousands of vehicle models from dozens of automakers. See more info at https://api-ninjas.com/api/cars.\nAPI description: Fetches car details from the API Ninjas Cars API endpoint based on given search criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "model": {
+                "type": "string",
+                "description": "Model of the vehicle. Default is 'corolla'.",
+                "default": "corolla"
+            },
+            "max_city_mpg": {
+                "type": "number",
+                "description": "Maximum city fuel efficiency in miles per gallon."
+            },
+            "min_comb_mpg": {
+                "type": "number",
+                "description": "Minimum combination (city + highway) fuel efficiency in miles per gallon."
+            },
+            "max_hwy_mpg": {
+                "type": "number",
+                "description": "Maximum highway fuel efficiency in miles per gallon."
+            },
+            "fuel_type": {
+                "type": "string",
+                "description": "Type of fuel used. Possible values include 'gas', 'diesel', 'electricity'."
+            },
+            "limit": {
+                "type": "string",
+                "description": "How many results to return. Must be between **1** and **30**. Default is **5**"
+            },
+            "drive": {
+                "type": "string",
+                "description": "Drive transmission. Possible values include 'fwd' (front-wheel drive), 'rwd' (rear-wheel drive), 'awd' (all-wheel drive), '4wd' (four-wheel drive)."
+            },
+            "max_comb_mpg": {
+                "type": "number",
+                "description": "Maximum combination (city + highway) fuel efficiency in miles per gallon."
+            },
+            "make": {
+                "type": "string",
+                "description": "Vehicle manufacturer."
+            },
+            "transmission": {
+                "type": "string",
+                "description": "Type of transmission. Possible values include 'manual', 'automatic'."
+            },
+            "year": {
+                "type": "string",
+                "description": "Vehicle model year."
+            },
+            "min_hwy_mpg": {
+                "type": "number",
+                "description": "Minimum highway fuel efficiency in miles per gallon."
+            },
+            "min_city_mpg": {
+                "type": "number",
+                "description": "Minimum city fuel efficiency in miles per gallon."
+            },
+            "cylinders": {
+                "type": "number",
+                "description": "Number of cylinders. Possible values include 2, 3, 4, 5, 6, 8, 10, 12, 16."
+            }
+        },
+        "required": []
+    }
+}

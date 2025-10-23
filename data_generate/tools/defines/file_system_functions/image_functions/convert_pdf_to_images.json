@@ -1,0 +1,31 @@
+{
+  "name": "convert_pdf_to_images",
+  "description": "Convert PDF pages to images with specified resolution and format.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "pdf_path": {
+        "type": "string",
+        "description": "Path to the input PDF file"
+      },
+      "output_dir": {
+        "type": "string",
+        "description": "Directory to save output images. If not provided, will create auto-named directory."
+      },
+      "dpi": {
+        "type": "integer",
+        "description": "Resolution for image conversion (72-600)",
+        "default": 200,
+        "minimum": 72,
+        "maximum": 600
+      },
+      "format": {
+        "type": "string",
+        "description": "Output image format",
+        "enum": ["PNG", "JPEG", "TIFF"],
+        "default": "PNG"
+      }
+    },
+    "required": ["pdf_path"]
+  }
+} 

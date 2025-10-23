@@ -1,0 +1,29 @@
+{
+    "name": "translation",
+    "description": "This is a sub-function API for tool ginger.\nTool description: Ginger goes beyond spelling and grammar. It takes into account full sentences to suggest context-based corrections. This drastically speeds up your writing - especially for long emails or documents!. This API can also translate to the extensive language list backed by Google Translator and Bing Translator which Uses AI and Deep Neural Networks to improve translations.\nAPI description: Translates a given text from one language to another using the Ginger API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to be translated.",
+                "default": "How are you?"
+            },
+            "tolanguage": {
+                "type": "string",
+                "description": "The language to which the text will be translated.",
+                "default": "fr"
+            },
+            "fromlanguage": {
+                "type": "string",
+                "description": "The language from which the text will be translated.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "text",
+            "tolanguage",
+            "fromlanguage"
+        ]
+    }
+}

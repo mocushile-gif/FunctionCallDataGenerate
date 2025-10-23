@@ -1,0 +1,28 @@
+{
+    "name": "nearby_superchargers",
+    "description": "This is a sub-function API for tool nearby_tesla_superchargers.\nTool description: Find nearby Tesla Superchargers. Global.\nAPI description: Fetches nearby Tesla superchargers within a specified radius around given coordinates.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lng": {
+                "type": "number",
+                "description": "Longitude of the center point to search for superchargers.",
+                "default": -122.348906
+            },
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the center point to search for superchargers.",
+                "default": 47.619957
+            },
+            "radius": {
+                "type": "number",
+                "description": "Radius in kilometers to search within, default is 20 km.",
+                "default": 20.0
+            }
+        },
+        "required": [
+            "lng",
+            "lat"
+        ]
+    }
+}

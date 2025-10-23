@@ -1,0 +1,23 @@
+{
+    "name": "web_snapshot",
+    "description": "This is a sub-function API for tool pragmavantapi.\nTool description: Practical API for streamlined business and cloud applications.\nAPI description: Fetches a snapshot of a webpage as an image using the Pragmavant API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "accept": {
+                "type": "string",
+                "description": "The MIME type that is acceptable for the response.",
+                "default": "image/png"
+            },
+            "source": {
+                "type": "string",
+                "description": "The URL of the webpage to capture.",
+                "default": "https://www.yahoo.com"
+            }
+        },
+        "required": [
+            "accept",
+            "source"
+        ]
+    }
+}

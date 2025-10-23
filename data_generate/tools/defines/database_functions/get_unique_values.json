@@ -1,0 +1,22 @@
+{
+    "name": "get_unique_values",
+    "description": "Retrieve unique values of a specified column in a table within a SQLite database.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "database_path": {
+                "type": "string",
+                "description": "The path to the database."
+            },
+            "table_name": {
+                "type": "string",
+                "description": "The name of the table to query."
+            },
+            "column_name": {
+                "type": "string",
+                "description": "The name of the column to retrieve unique values from."
+            }
+        },
+        "required": ["database_path", "table_name", "column_name"]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "history_prices",
+    "description": "This is a sub-function API for tool macrotrends_finance.\nTool description: Stocks API helps to query for the Financials Statement/Sheet that has over 10 years of finacial data.\nAPI description: This gives you the Date, Open, High, Low, Close, Adj Close, Volume prices of the stock\n\nQUERY PARAMETER: symbol the ticker symbol of the company you want to see.\n\nQUERY PARAMETER: range = ['1y', '5y', 'max']",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "range": {
+                "type": "string",
+                "description": "The time period for which to fetch stock prices. Choices are ['1y', '5y', 'max']. Defaults to '1y'.",
+                "default": "1y"
+            },
+            "symbol": {
+                "type": "string",
+                "description": "The ticker symbol of the company. Defaults to 'TSLA'.",
+                "default": "TSLA"
+            }
+        },
+        "required": []
+    }
+}

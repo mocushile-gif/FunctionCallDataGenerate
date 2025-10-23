@@ -1,0 +1,27 @@
+{
+    "name": "properties_detail",
+    "description": "This is a sub-function API for tool idealista_v2.\nTool description: Query for rent and sale properties in Spain, Italy, Portugal\nAPI description: Retrieves detailed information about a property using the Idealista API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "propertycode": {
+                "type": "number",
+                "description": "The unique code of the property to retrieve details for, as obtained from the properties list endpoint.",
+                "default": 19899037.0
+            },
+            "country": {
+                "type": "string",
+                "description": "The country code to use for the API request. One of the following: 'it', 'es', 'pt'. Defaults to 'it'.",
+                "default": "it"
+            },
+            "language": {
+                "type": "string",
+                "description": "The language code to use for the API response. One of the following: 'en', 'es', 'it', 'pt', 'de', 'fr', 'ro', 'ru', 'pl', 'sv', 'fi', 'nb', 'nl'. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "propertycode"
+        ]
+    }
+}

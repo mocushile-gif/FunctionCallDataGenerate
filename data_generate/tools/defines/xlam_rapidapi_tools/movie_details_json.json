@@ -1,0 +1,24 @@
+{
+    "name": "movie_details_json",
+    "description": "This is a sub-function API for tool yts_am_torrent.\nTool description: This is a lightweight web service, (REST interface), which provides an easy way to access the YTS website.  An API (Application programming interface) is a protocol intended to be used as an interface by software components to communicate with each other.  Our API supports many methods, so there should not be a problem coding some nice applications. \nAPI description: Fetches detailed information about a specific movie from the YTS API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "movie_id": {
+                "type": "number",
+                "description": "The ID of the movie."
+            },
+            "with_cast": {
+                "type": "boolean",
+                "description": "When set the data returned will include the added information about the cast"
+            },
+            "with_images": {
+                "type": "boolean",
+                "description": "When set the data returned will include the added image URLs"
+            }
+        },
+        "required": [
+            "movie_id"
+        ]
+    }
+}

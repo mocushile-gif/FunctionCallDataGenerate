@@ -1,0 +1,17 @@
+{
+    "name": "get_channel_broadcaster_type",
+    "description": "This is a sub-function API for tool gwyo_twitch.\nTool description: This API gives access to informations about a User / Channel, and Streams on Twitch.\nAPI description: Fetch the broadcaster type of a Twitch channel using the given user ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "userid": {
+                "type": "string",
+                "description": "The user ID of the Twitch channel to get the broadcaster type for.",
+                "default": "julie"
+            }
+        },
+        "required": [
+            "userid"
+        ]
+    }
+}

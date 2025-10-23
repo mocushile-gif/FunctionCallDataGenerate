@@ -1,0 +1,17 @@
+{
+    "name": "search_zip_codes",
+    "description": "This is a sub-function API for tool mexico_zip_codes.\nTool description: \nAPI description: Searches for valid Mexican zip codes that start with the given digits using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "codigo_postal": {
+                "type": "string",
+                "description": "Starting digits of the postal code to search for.",
+                "default": "646"
+            }
+        },
+        "required": [
+            "codigo_postal"
+        ]
+    }
+}

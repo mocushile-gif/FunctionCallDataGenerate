@@ -1,0 +1,139 @@
+{
+    "name": "feeds_search",
+    "description": "This is a sub-function API for tool yummly.\nTool description: API to query data about recipe, plan, ingredients, etc... as on official site\nAPI description: Search for recipes by name and optional filters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start": {
+                "type": "number",
+                "description": "The offset of items to be ignored in the response for paging.",
+                "default": 0.0
+            },
+            "maxresult": {
+                "type": "number",
+                "description": "The number of items returned per response.",
+                "default": 18.0
+            },
+            "fibtgmax": {
+                "type": "number",
+                "description": "Maximum amount of fiber (in grams)."
+            },
+            "camax": {
+                "type": "number",
+                "description": "Maximum amount of calcium (in milligrams)."
+            },
+            "cholemax": {
+                "type": "number",
+                "description": "Maximum amount of cholesterol (in milligrams)."
+            },
+            "allowedattribute": {
+                "type": "string",
+                "description": "The value of id field returned in tags/list (separated by comma for multiple value)",
+                "default": "diet-lacto-vegetarian,diet-low-fodmap"
+            },
+            "sweetmax": {
+                "type": "number",
+                "description": "How much sweet the meal is, such as 0.8 (0 to 1)"
+            },
+            "kmax": {
+                "type": "number",
+                "description": "Maximum amount of potassium (in milligrams)."
+            },
+            "namax": {
+                "type": "string",
+                "description": "Maximum amount of sodium (in milligrams)."
+            },
+            "q": {
+                "type": "string",
+                "description": "Query string to search for specific food or ingredient.",
+                "default": "chicken soup"
+            },
+            "enerc_kcalmax": {
+                "type": "number",
+                "description": "Maximum amount of calories (in kcal)."
+            },
+            "femax": {
+                "type": "number",
+                "description": "Maximum amount of iron (in milligrams)."
+            },
+            "fat_kcalmax": {
+                "type": "number",
+                "description": "Maximum amount of calories from fat (in kcal).",
+                "default": 1000.0
+            },
+            "maxtotaltimeinseconds": {
+                "type": "number",
+                "description": "Maximum total time to prepare the dish (in seconds).",
+                "default": 7200.0
+            },
+            "piquantmax": {
+                "type": "number",
+                "description": "How much piquant the meal is, such as 0.8 (0 to 1)"
+            },
+            "vita_iumax": {
+                "type": "number",
+                "description": "Maximum amount of vitamin A (in IU)."
+            },
+            "vitcmax": {
+                "type": "number",
+                "description": "Maximum amount of vitamin C (in milligrams)."
+            },
+            "meatymax": {
+                "type": "number",
+                "description": "How much meaty the meal is, such as 0.8 (0 to 1)"
+            },
+            "fasatmax": {
+                "type": "number",
+                "description": "Maximum amount of saturated fat (in grams)."
+            },
+            "sweetmin": {
+                "type": "number",
+                "description": "How much sweet the meal is, such as 0.8 (0 to 1)"
+            },
+            "piquantmin": {
+                "type": "number",
+                "description": "How much piquant the meal is, such as 0.8 (0 to 1)"
+            },
+            "fatmax": {
+                "type": "number",
+                "description": "Maximum amount of total fat (in grams)."
+            },
+            "sourmin": {
+                "type": "number",
+                "description": "How much sour the meal is, such as 0.8 (0 to 1)"
+            },
+            "meatymin": {
+                "type": "number",
+                "description": "How much meaty the meal is, such as 0.2 (0 to 1)"
+            },
+            "sourmax": {
+                "type": "number",
+                "description": "How much sour the meal is, such as 0.8 (0 to 1)"
+            },
+            "chocdfmax": {
+                "type": "number",
+                "description": "Maximum amount of carbohydrates (in grams)."
+            },
+            "saltymin": {
+                "type": "number",
+                "description": "How much salty the meal is, such as 0.8 (0 to 1)"
+            },
+            "sugarmax": {
+                "type": "number",
+                "description": "Maximum amount of sugar (in grams)."
+            },
+            "procntmax": {
+                "type": "number",
+                "description": "Maximum amount of protein (in grams)."
+            },
+            "saltymax": {
+                "type": "number",
+                "description": "How much salty the meal is, such as 0.8 (0 to 1)"
+            }
+        },
+        "required": [
+            "start",
+            "maxresult"
+        ]
+    }
+}

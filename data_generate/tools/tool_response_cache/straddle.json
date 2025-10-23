@@ -1,0 +1,78 @@
+{
+    "{'ticker': 'BTC'}": {
+        "error": "",
+        "response": {
+            "stock": {
+                "avgTotalVolume": 2606,
+                "calculationPrice": "previousclose",
+                "close": null,
+                "closeSource": "official",
+                "closeTime": null,
+                "currency": "USD",
+                "delayedPrice": null,
+                "delayedPriceTime": null,
+                "extendedChange": 0,
+                "extendedChangePercent": 0,
+                "extendedPrice": 99.11,
+                "extendedPriceTime": 1620691200023,
+                "highSource": "Close",
+                "highTime": 1620676800142,
+                "lastTradeTime": 1620674710996,
+                "latestSource": "InterData real time price",
+                "latestTime": "May 10, 2021",
+                "latestUpdate": 1620619200000,
+                "latestVolume": 0,
+                "lowSource": "Close",
+                "lowTime": 1620676800142,
+                "marketCap": 59466000,
+                "oddLotDelayedPrice": 99.1,
+                "oddLotDelayedPriceTime": 1620676304801,
+                "open": null,
+                "openTime": null,
+                "openSource": "official",
+                "peRatio": null,
+                "previousVolume": 2968,
+                "primaryExchange": "NYSE ARCA",
+                "symbol": "BTC",
+                "volume": null,
+                "week52High": 100.89,
+                "week52Low": 98.46,
+                "ytdChange": -0.010260891274497586,
+                "isUSMarketOpen": false,
+                "shortName": "Piton Investment Management - ClearShares Piton Intermediate Fixed Inc",
+                "regularMarketPrice": 99.11,
+                "regularMarketOpen": null,
+                "regularMarketDayHigh": 99.11,
+                "regularMarketDayLow": 99.11,
+                "regularMarketPreviousClose": 99.11,
+                "regularMarketChange": 0,
+                "regularMarketChangePercent": 0,
+                "bid": null,
+                "ask": null,
+                "askSize": null,
+                "bidSize": null,
+                "lastUpdated": "07/11/2023",
+                "marketPercent": null,
+                "realtimePrice": null,
+                "realtimeSize": null
+            },
+            "options": []
+        }
+    },
+    "{'ticker': 'GOOGL'}": {
+        "error": "",
+        "response": "{'stock': {'symbol': 'GOOGL', 'name': 'Alphabet Inc.', 'price': 191.79, 'changesPercentage': 1.2458, 'change': 2.36, 'dayLow': 189.975, 'dayHigh': 193.21, 'yearHigh': 201.42, 'yearLow': 130.67, 'marketCap': 2354466537334, 'priceAvg50': 178.4232, 'priceAvg200': 169.6972, 'exchange': 'NASDAQ', 'volume': 17470614, 'avgVolume': 27485129, 'open': 191.37, 'previousClose': 189.43, 'eps': 7.53, 'pe': 25.47, 'earningsAnnouncement': '2025-01-28T21:00:00.000+0000', 'sharesOutstanding': 12276273723, 'timestamp': 1735938001, 'shortName': 'Alphabet Inc.', 'regularMarketPrice': 191.79, 'regularMarketOpen': 191.37, 'regularMarketDayHigh': 193.21, 'regularMarketDayLow': 189.975, 'regularMarketPreviousClose': 189.43, 'regularMarketChange': 2.36, 'regularMarketChangePercent': 1.2458, 'bid': 191.78, 'ask': 191.79999999999998, 'close': 189.43, 'marketPercent': 1.2458, 'realtimePrice': 191.79, 'latestSource': 'InterData Real Time Price', 'lastUpdated': '01/05/2025'}, 'options': [{'2025-01-10': {'calls': [{'call_symbol': 'GOOGL250110C00100000', 'strike': 100.0, 'call_last': 91.08, 'call_bid': 91.0, 'call_ask': 93.25, 'call_open_interest': 9.0, 'call_volume': 4.0, 'call_change': 0.0, 'call_percentChange': 0.0, 'call_iv': 2.4922}, {'call_symbol': 'GOOGL250110C00105000', 'strike': 105.0, 'call_last': 86.58, 'call_bid': 85.9, 'call_ask': 88.25, 'call_open_interest': 2.0, 'call_volume': 1.0, 'call_change': 0.0, 'call_percentChange': 0.0, 'call_iv': 2.2656}, {'call_symbol': 'GOOGL250110C00110000', 'strike': 110.0, 'call_last': 81.22, 'call_bid': 80.9, 'call_ask': 83.7, 'call_open_interest': 28.0, 'call_volume': 8.0, 'call_change': 0.0, 'call_percentChange': 0.0, 'call_iv': 2.3174}, {'call_symbol': 'GOOGL250110C00115000', 'strike': 115.0, 'call_last': 77.35, 'call_bid': 75.95, 'call_ask': 78.25, 'call_open_interest': 1.0, 'call_volume': 1.0, 'call_change': 0.0, 'call_percentChange': 0.0, 'call_iv': 1.9844}, {'call_symbol': 'GOOGL250110C00120000', 'strike': 120.0, 'call_last': 72.16, 'call_bid': 71.0, 'call_ask': 73.6, 'call_open_interest': 3."
+    },
+    "{'ticker': 'AAPL'}": {
+        "error": "",
+        "response": "{'stock': {'avgTotalVolume': 54969989, 'calculationPrice': 'tops', 'close': 188.255, 'closeSource': 'official', 'closeTime': 1689011710263, 'currency': 'USD', 'delayedPrice': None, 'delayedPriceTime': None, 'extendedChange': None, 'extendedChangePercent': None, 'extendedPrice': None, 'extendedPriceTime': None, 'highSource': None, 'highTime': None, 'lastTradeTime': 1689011710263, 'latestSource': 'InterData real time price', 'latestTime': '1:55:10 PM', 'latestUpdate': 1689011710263, 'latestVolume': 38476339, 'lowSource': None, 'lowTime': None, 'marketCap': 2961006795010, 'oddLotDelayedPrice': None, 'oddLotDelayedPriceTime': None, 'open': None, 'openTime': 1688995800143, 'openSource': 'official', 'peRatio': 32.02, 'previousVolume': 46814998, 'primaryExchange': 'NASDAQ', 'symbol': 'AAPL', 'volume': 816458, 'week52High': 194.48, 'week52Low': 123.64, 'ytdChange': 0.4611487431303712, 'isUSMarketOpen': True, 'shortName': 'Apple Inc', 'regularMarketPrice': 188.255, 'regularMarketOpen': 189.26, 'regularMarketDayHigh': None, 'regularMarketDayLow': None, 'regularMarketPreviousClose': 190.68, 'regularMarketChange': -2.425, 'regularMarketChangePercent': -0.01272, 'bid': 188.3, 'ask': 188.32, 'askSize': 200, 'bidSize': 100, 'lastUpdated': '07/10/2023', 'marketPercent': 0.02121974234606884, 'realtimePrice': 188.255, 'realtimeSize': 100}, 'options': [{'2023-07-14': {'calls': [{'call_symbol': 'AAPL230714C00060000', 'strike': 60.0, 'call_last': 128.15, 'call_bid': 128.05, 'call_ask': 128.1, 'call_open_interest': 6.0, 'call_volume': 2.0, 'call_change': -2.01, 'call_percentChange': -1.54, 'call_iv': 0.0}, {'call_symbol': 'AAPL230714C00065000', 'strike': 65.0, 'call_last': 124.8, 'call_bid': 123.1, 'call_ask': 123.2, 'call_open_interest': 9.0, 'call_volume': 0.0, 'call_change': 0.0, 'call_percentChange': 0.0, 'call_iv': 0.0}, {'call_symbol': 'AAPL230714C00075000', 'strike': 75.0, 'call_last': 116.0, 'call_bid': 113.05, 'call_ask': 113.1, 'call_open_interest': 7.0, 'call_volume': 7.0, 'call_change': 0.0, 'call_percentChange': 0.0, 'cal"
+    },
+    "{'ticker': 'MSFT'}": {
+        "error": "",
+        "response": "{'stock': {'avgTotalVolume': 23527424, 'calculationPrice': 'iexlasttrade', 'close': 359.63, 'closeSource': 'official', 'closeTime': 1689710399285, 'currency': 'USD', 'delayedPrice': None, 'delayedPriceTime': None, 'extendedChange': None, 'extendedChangePercent': None, 'extendedPrice': None, 'extendedPriceTime': None, 'highSource': None, 'highTime': None, 'lastTradeTime': 1689710399941, 'latestSource': 'InterData real time price', 'latestTime': 'July 18, 2023', 'latestUpdate': 1689710399285, 'latestVolume': 64519042, 'lowSource': None, 'lowTime': None, 'marketCap': 2674024396597, 'oddLotDelayedPrice': None, 'oddLotDelayedPriceTime': None, 'open': None, 'openTime': 1689687000639, 'openSource': 'official', 'peRatio': 38.96, 'previousVolume': 20363927, 'primaryExchange': 'NASDAQ', 'symbol': 'MSFT', 'volume': 1393380, 'week52High': 351.47, 'week52Low': 211.37, 'ytdChange': 0.49175960891483395, 'isUSMarketOpen': False, 'shortName': 'Microsoft Corporation', 'regularMarketPrice': 359.63, 'regularMarketOpen': 345.91, 'regularMarketDayHigh': None, 'regularMarketDayLow': None, 'regularMarketPreviousClose': 345.73, 'regularMarketChange': 13.9, 'regularMarketChangePercent': 0.0402, 'bid': 0, 'ask': 0, 'askSize': 0, 'bidSize': 0, 'lastUpdated': '07/18/2023', 'marketPercent': 0.02159641490027084, 'realtimePrice': 359.63, 'realtimeSize': 100}, 'options': [{'2023-07-21': {'calls': [{'call_symbol': 'MSFT230721C00115000', 'strike': 115.0, 'call_last': 246.2, 'call_bid': 243.85, 'call_ask': 247.0, 'call_open_interest': 9.0, 'call_volume': 26.0, 'call_change': 17.0, 'call_percentChange': 7.42, 'call_iv': 5.4277}, {'call_symbol': 'MSFT230721C00120000', 'strike': 120.0, 'call_last': 240.9, 'call_bid': 238.85, 'call_ask': 241.5, 'call_open_interest': 9.0, 'call_volume': 2.0, 'call_change': 14.75, 'call_percentChange': 6.52, 'call_iv': 4.9922}, {'call_symbol': 'MSFT230721C00125000', 'strike': 125.0, 'call_last': 239.0, 'call_bid': 233.85, 'call_ask': 236.65, 'call_open_interest': 4.0, 'call_volume': 4.0, 'call_change': 17.41, 'call_perce"
+    },
+    "{'ticker': 'msft'}": {
+        "error": "",
+        "response": "{'stock': {'avgTotalVolume': 26057938, 'calculationPrice': 'close', 'close': 338.03, 'closeSource': 'official', 'closeTime': 1688403643911, 'currency': 'USD', 'delayedPrice': 337.94, 'delayedPriceTime': 1688403599201, 'extendedChange': 0, 'extendedChangePercent': 0, 'extendedPrice': 337.99, 'extendedPriceTime': 1688417996678, 'highSource': '15 minute delayed price', 'highTime': 1688403599872, 'lastTradeTime': 1688403643911, 'latestSource': 'InterData real time price', 'latestTime': 'July 3, 2023', 'latestUpdate': 1688403600211, 'latestVolume': 12508692, 'lowSource': '15 minute delayed price', 'lowTime': 1688396992276, 'marketCap': 2513120445474, 'oddLotDelayedPrice': 337.93, 'oddLotDelayedPriceTime': 1688403599201, 'open': 339.09, 'openTime': 1688391000774, 'openSource': 'official', 'peRatio': 36.62, 'previousVolume': 26832756, 'primaryExchange': 'NASDAQ', 'symbol': 'MSFT', 'volume': 208217, 'week52High': 351.47, 'week52Low': 211.37, 'ytdChange': 0.42227921071315055, 'isUSMarketOpen': False, 'shortName': 'Microsoft Corporation', 'regularMarketPrice': 337.99, 'regularMarketOpen': 339.03, 'regularMarketDayHigh': 340.9, 'regularMarketDayLow': 336.571, 'regularMarketPreviousClose': 340.54, 'regularMarketChange': -2.55, 'regularMarketChangePercent': -0.00749, 'bid': 0, 'ask': 0, 'askSize': 0, 'bidSize': 0, 'lastUpdated': '07/04/2023', 'marketPercent': 0.0166457851868125, 'realtimePrice': 338.03, 'realtimeSize': 1}, 'options': [{'2023-07-07': {'calls': [{'call_symbol': 'MSFT230707C00200000', 'strike': 200.0, 'call_last': 126.82, 'call_bid': 136.7, 'call_ask': 139.6, 'call_open_interest': 0.0, 'call_volume': 0.0, 'call_change': 0.0, 'call_percentChange': 0.0, 'call_iv': 2.0977}, {'call_symbol': 'MSFT230707C00215000', 'strike': 215.0, 'call_last': 122.47, 'call_bid': 121.95, 'call_ask': 124.2, 'call_open_interest': 0.0, 'call_volume': 0.0, 'call_change': 5.32, 'call_percentChange': 4.54, 'call_iv': 1.7031}, {'call_symbol': 'MSFT230707C00220000', 'strike': 220.0, 'call_last': 117.71, 'call_bid': 117.0, 'call_ask': 119.3, "
+    }
+}

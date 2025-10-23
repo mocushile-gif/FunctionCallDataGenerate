@@ -1,0 +1,17 @@
+{
+    "name": "birthday",
+    "description": "This is a sub-function API for tool dateclock.\nTool description: Complete Converter Date Report also Between, Birthday and many more!\n#date #birthday #between #query #islamic #calendar\nI’m on telegram chat me if there a problem/request\nhttps://t.me/franc0jr\nAPI description: Fetches detailed information about a given birthday date using the DateClock API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The birthday date in 'YYYY-MM-DD' format.",
+                "default": "1993-12-24"
+            }
+        },
+        "required": [
+            "date"
+        ]
+    }
+}

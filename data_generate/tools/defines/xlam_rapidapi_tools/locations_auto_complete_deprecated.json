@@ -1,0 +1,25 @@
+{
+    "name": "locations_auto_complete_deprecated",
+    "description": "This is a sub-function API for tool the_fork_the_spoon.\nTool description: This API helps to query the best restaurant and meal around the world to create a traveling site/application such as thefork.com\nAPI description: Fetch location suggestions based on a term or phrase, with optional location-based sorting.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The term or phrase to search for location suggestions (e.g., city, district, country name).",
+                "default": "milan"
+            },
+            "latitude": {
+                "type": "number",
+                "description": "The latitude of the end user's location, used for sorting purposes. Defaults to None."
+            },
+            "longitude": {
+                "type": "number",
+                "description": "The longitude of the end user's location, used for sorting purposes. Defaults to None."
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

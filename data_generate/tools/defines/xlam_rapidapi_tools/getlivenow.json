@@ -1,0 +1,15 @@
+{
+    "name": "getlivenow",
+    "description": "This is a sub-function API for tool sport_odds.\nTool description: Sport Odds by BetsSports\nAPI description: Fetches live sports betting data from the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "skinname": {
+                "type": "string",
+                "description": "The name of the skin to filter the live data (default is 'betbiga').",
+                "default": "betbiga"
+            }
+        },
+        "required": []
+    }
+}

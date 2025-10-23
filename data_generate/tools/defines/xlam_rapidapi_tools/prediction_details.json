@@ -1,0 +1,17 @@
+{
+    "name": "prediction_details",
+    "description": "This is a sub-function API for tool today_football_prediction.\nTool description: Daily Football Prediction & Betting Tips with AI powered analysis and probability statistics. High efficiency, average bookie odds, profit-loss calculation, value betting.  Limitted Time: Ultra Plan is only $4.99/mo\n\nAPI description: Fetches and returns detailed prediction information for a given football match.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "match_id": {
+                "type": "string",
+                "description": "The unique identifier for the football match.",
+                "default": "62fb54c82c9a2e8d643c7965"
+            }
+        },
+        "required": [
+            "match_id"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "postcodes",
+    "description": "This is a sub-function API for tool postcodejp_api.\nTool description: Japan postal code and address. Please check https://postcode-jp.com for details.\nAPI description: This function fetches information about a given Japanese postcode using the PostcodeJP API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "postcode": {
+                "type": "string",
+                "description": "The postcode for which information is to be fetched.",
+                "default": "1000001"
+            }
+        },
+        "required": [
+            "postcode"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "reverse_search_by_image",
+    "description": "This is a sub-function API for tool webit_image_search.\nTool description: Powerful web image search with rating, reverse search by image and multi-lingual capabilities.\nAPI description: Reverse search by Image between billion of images.\n\nThis endpoint supports \"URL\" parameter only. For \"image\" file upload, use POST endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL to search images by. A default URL from Wikipedia containing the following pizza has been used.\n\n![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/260px-Eq_it-na_pizza-margherita_sep2005_sml.jpg)",
+                "default": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/260px-Eq_it-na_pizza-margherita_sep2005_sml.jpg"
+            },
+            "number": {
+                "type": "number",
+                "description": "The maximum number of search results to return. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

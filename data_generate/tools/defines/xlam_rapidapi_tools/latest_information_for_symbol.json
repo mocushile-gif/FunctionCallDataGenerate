@@ -1,0 +1,14 @@
+{
+    "name": "latest_information_for_symbol",
+    "description": "This is a sub-function API for tool bybit.\nTool description: Public Data Bybit. Cryptocurrency prices and charts. Derivatives, Futures, Spot, USDC Contract\nAPI description: Fetch the latest ticker information for a given symbol from the Bybit API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The market symbol to retrieve information for."
+            }
+        },
+        "required": []
+    }
+}

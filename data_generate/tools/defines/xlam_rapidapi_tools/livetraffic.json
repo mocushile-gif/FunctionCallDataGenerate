@@ -1,0 +1,21 @@
+{
+    "name": "livetraffic",
+    "description": "This is a sub-function API for tool adsbx_flight_sim_traffic.\nTool description: ADSBexchange.com traffic feed for flight simulators\nAPI description: Retrieves information about all aircraft within a 25-nautical mile radius of the specified latitude and longitude.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the center point (-90 to 90)."
+            },
+            "lon": {
+                "type": "number",
+                "description": "Longitude of the center point (-180 to 180). Note: Longitude in the US is typically negative."
+            }
+        },
+        "required": [
+            "lat",
+            "lon"
+        ]
+    }
+}

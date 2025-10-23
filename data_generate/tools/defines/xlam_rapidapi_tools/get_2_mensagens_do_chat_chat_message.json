@@ -1,0 +1,17 @@
+{
+    "name": "get_2_mensagens_do_chat_chat_message",
+    "description": "This is a sub-function API for tool compras_net_api.\nTool description: Compras Net Api\nAPI description: Fetches chat messages from the \"compras-net\" API based on the given chat code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cod": {
+                "type": "number",
+                "description": "Código do Chat (Pode ser obtido no outro endpoint)",
+                "default": 1104281.0
+            }
+        },
+        "required": [
+            "cod"
+        ]
+    }
+}

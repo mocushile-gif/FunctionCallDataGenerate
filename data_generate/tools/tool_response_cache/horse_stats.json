@@ -1,0 +1,36 @@
+{
+    "{'id_horse': '233'}": {
+        "error": "",
+        "response": {
+            "horse_id": "233",
+            "name": "Thunder Strike",
+            "age": 5,
+            "stats": {
+                "total_starts": 32,
+                "wins": 12,
+                "places": 8,
+                "shows": 5,
+                "win_percentage": "37.5%",
+                "earnings": "$452,000"
+            },
+            "recent_performances": [
+                {
+                    "race_date": "2023-10-15",
+                    "track": "Belmont Park",
+                    "finish_position": 1,
+                    "distance": "1.5M",
+                    "jockey": "J. Smith"
+                },
+                {
+                    "race_date": "2023-10-01",
+                    "track": "Pimlico",
+                    "finish_position": 3,
+                    "distance": "1M",
+                    "jockey": "A. Garcia"
+                }
+            ],
+            "trainer": "M. Johnson",
+            "breeder": "Sunset Farms"
+        }
+    }
+}

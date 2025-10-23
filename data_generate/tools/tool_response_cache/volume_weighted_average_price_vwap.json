@@ -1,0 +1,15 @@
+{
+    "{'exchange': 'binance', 'symbol': 'btcusdt', 'interval': '1h', 'market': 'spot', 'backtracks': 24, 'is_from': '1717267200'}": {
+        "error": "",
+        "response": {
+            "vwap": 61045.72,
+            "period_start": "1717267200",
+            "period_end": "1717353600",
+            "total_volume": 9845.67,
+            "price_at_end": 61230.45,
+            "calculation_basis": "24 hourly intervals (1h) on Binance spot market",
+            "symbol": "BTCUSDT",
+            "market_type": "spot"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "getusers",
+    "description": "This is a sub-function API for tool user_demo.\nTool description: -\nAPI description: Fetches user information from the RapidAPI user-demo service, optionally filtered by email and name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "Email address to filter the users."
+            },
+            "name": {
+                "type": "string",
+                "description": "Name to filter the users."
+            }
+        },
+        "required": []
+    }
+}

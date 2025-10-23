@@ -1,0 +1,20 @@
+{
+    "name": "competitions",
+    "description": "This is a sub-function API for tool premier_league_upcoming_matches.\nTool description: This API will provide you information about future matches of different clubs in Premier League\nAPI description: This API will return an array of **5 biggest competitions** in which all clubs in* Premier League* are able to participate",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "abbr": {
+                "type": "string",
+                "description": "Abbreviation of the league (default is 'EN_PR').",
+                "default": "EN_PR"
+            },
+            "name": {
+                "type": "string",
+                "description": "Name of the league (default is 'Premier League').",
+                "default": "Premier League"
+            }
+        },
+        "required": []
+    }
+}

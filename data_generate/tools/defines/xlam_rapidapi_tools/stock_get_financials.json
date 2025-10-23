@@ -1,0 +1,17 @@
+{
+    "name": "stock_get_financials",
+    "description": "This is a sub-function API for tool bb_finance.\nTool description: This API helps to query for all information about finance summary, stocks, quotes, movers, etc… to create a financial site/application such as bloomberg.com\nAPI description: Fetches financial information for a given stock.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The identifier of the stock. Use the market/auto-complete API to get the correct values.",
+                "default": "aapl:us"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

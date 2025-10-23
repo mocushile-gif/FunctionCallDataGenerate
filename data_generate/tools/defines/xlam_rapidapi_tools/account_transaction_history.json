@@ -1,0 +1,21 @@
+{
+    "name": "account_transaction_history",
+    "description": "This is a sub-function API for tool binance_smart_chain.\nTool description: All-In-One access to the BSC blockchain data!\n\nMore features are coming soon!\n\nFeedback and feature requests should be sent to:\nangleitnerchristoph123@gmail.com\nAPI description: Retrieves an array of all transactions associated with a specific address on the Optimism blockchain.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "type": "string",
+                "description": "The blockchain address to query for transaction history.",
+                "default": "0x0000000000000000000000000000000000000123"
+            },
+            "network": {
+                "type": "string",
+                "description": "The network to query, either 'mainnet' or 'testnet'. Defaults to None."
+            }
+        },
+        "required": [
+            "address"
+        ]
+    }
+}

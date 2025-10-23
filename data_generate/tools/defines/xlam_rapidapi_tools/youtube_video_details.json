@@ -1,0 +1,17 @@
+{
+    "name": "youtube_video_details",
+    "description": "This is a sub-function API for tool youtube_video_details.\nTool description: YouTube Video Details API\nAPI description: Fetches detailed information about a YouTube video using the provided video ID or URL.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "**Video ID** or **Video URL**\n\ne.g. `SmM0653YvXU`\ne.g. `https://youtu.be/SmM0653YvXU`\ne.g. `https://www.youtube.com/watch?v=SmM0653YvXU`",
+                "default": "SmM0653YvXU"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

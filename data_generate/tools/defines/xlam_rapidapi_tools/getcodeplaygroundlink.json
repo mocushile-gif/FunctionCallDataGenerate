@@ -1,0 +1,23 @@
+{
+    "name": "getcodeplaygroundlink",
+    "description": "This is a sub-function API for tool flow_study.\nTool description: search in flow block chain \nAPI description: Generates a link to the code playground for a specific contract using the provided contract address and name, and an optional API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "contract_address": {
+                "type": "string",
+                "description": "The address of the smart contract.",
+                "default": "0x011b6f1425389550"
+            },
+            "contract_name": {
+                "type": "string",
+                "description": "The name of the smart contract.",
+                "default": "NWayUtilityCoin"
+            }
+        },
+        "required": [
+            "contract_address",
+            "contract_name"
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "{'authorization': 'Bearer YOUR_TEST_TOKEN', 'msg': 'API authentication test message'}": {
+        "error": "",
+        "response": {
+            "message": "API authentication test message",
+            "status": "success",
+            "token_validation": "Bearer token received and processed",
+            "echoed_payload": "API authentication test message",
+            "timestamp": "2023-09-25T14:30:45Z"
+        }
+    }
+}

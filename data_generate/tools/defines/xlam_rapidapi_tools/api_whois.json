@@ -1,0 +1,25 @@
+{
+    "name": "api_whois",
+    "description": "This is a sub-function API for tool retrieve_dns_entries.\nTool description: The API enables you to make fast DNS and WHOIS lookups.\nAPI description: Fetch WHOIS data for a given IP address, host, or URL using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ip": {
+                "type": "string",
+                "description": "The IP address to query WHOIS information for. Defaults to '8.8.8.8'.",
+                "default": "8.8.8.8"
+            },
+            "host": {
+                "type": "string",
+                "description": "The host name to query WHOIS information for. Defaults to 'google.com'.",
+                "default": "google.com"
+            },
+            "url": {
+                "type": "string",
+                "description": "The URL to query WHOIS information for. Defaults to 'http://google.com'.",
+                "default": "http://google.com"
+            }
+        },
+        "required": []
+    }
+}

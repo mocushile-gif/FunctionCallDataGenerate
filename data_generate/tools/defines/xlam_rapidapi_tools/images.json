@@ -1,0 +1,22 @@
+{
+    "name": "images",
+    "description": "This is a sub-function API for tool web_search_apis.\nTool description: Web Search API - Web pages, News, Images, Videos, Podcasts and Autocomplete.\nAPI description: Fetches the URLs for a specified number of random WikiHow images.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "",
+                "default": "python"
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of image URLs to retrieve (maximum 100).",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

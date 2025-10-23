@@ -1,0 +1,17 @@
+{
+    "name": "job",
+    "description": "This is a sub-function API for tool seo_api.\nTool description: Simple SERP API with accurate, real-time search engine results by location, device, and language. Data for SEO, news, scholar, images, and videos.\nAPI description: Perform Job Search\n\nCurrently only supports jobs in North America\n\nParameters\n----------\nquery : Position Title and Location (optional). The query should be url encoded\n\nReturns\n-------\njson: a list of jobs with their link to apply, description, and title for each job opportunity",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "A URL-encoded query string specifying the position title and optionally the location. Refer to https://moz.com/blog/the-ultimate-guide-to-the-google-search-parameters for more information on query encoding.",
+                "default": "q=nurse+practitioner"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

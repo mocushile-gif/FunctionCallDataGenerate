@@ -1,0 +1,30 @@
+{
+    "{'skinname': 'betbiga'}": {
+        "error": "",
+        "response": {
+            "event_types": [
+                {
+                    "id": 100,
+                    "name": "Match Odds"
+                },
+                {
+                    "id": 101,
+                    "name": "Over/Under 2.5 Goals"
+                },
+                {
+                    "id": 102,
+                    "name": "Asian Handicap"
+                },
+                {
+                    "id": 103,
+                    "name": "Correct Score"
+                }
+            ],
+            "meta": {
+                "skinname_used": "betbiga",
+                "total_event_types": 4,
+                "last_updated": "2023-09-15T14:30:00Z"
+            }
+        }
+    }
+}

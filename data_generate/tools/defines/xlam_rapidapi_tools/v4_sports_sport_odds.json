@@ -1,0 +1,38 @@
+{
+    "name": "v4_sports_sport_odds",
+    "description": "This is a sub-function API for tool live_sports_odds.\nTool description: Odds data API for NFL, NBA, MLB, EPL, AFL and loads more, from US, UK, EU and Aussie bookmakers. Get started for free!\nAPI description: Returns list of live and upcoming games for a given sport, showing bookmaker odds for the specified region and markets. Set the `sport` to a `sport_key` from the /sports endpoint. Alternatively if `sport=upcoming`, it will return a list of the next 8 upcoming games across all sports, as well as any live games. For more info, see [list of available sports](https://the-odds-api.com/sports-odds-data/sports-apis.html) and [list of available bookmakers](https://the-odds-api.com/sports-odds-data/bookmaker-apis.ht",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sport": {
+                "type": "string",
+                "description": "The sport key for which to return games and odds. If `sport` is set to 'upcoming', it will return the next 8 upcoming games across all sports and any live games.",
+                "default": "upcoming"
+            },
+            "regions": {
+                "type": "string",
+                "description": "Determines which bookmakers appear in the response. Can be a comma delimited list of regions. Each region will count as 1 request against the usage quota for each market. Most use cases will only need to specify one region. For a list of bookmakers by region, see https://the-odds-api.com/sports-odds-data/bookmaker-apis.html",
+                "default": "us"
+            },
+            "oddsformat": {
+                "type": "string",
+                "description": "Format of the returned odds. Defaults to 'decimal'.",
+                "default": "decimal"
+            },
+            "markets": {
+                "type": "string",
+                "description": "The odds market to return. Can be a comma delimited list of odds markets. Defaults to h2h (head to head / moneyline). Outrights only avaialable for select sports. Note each market counts as 1 request against the usage quota.",
+                "default": "h2h,spreads"
+            },
+            "dateformat": {
+                "type": "string",
+                "description": "Format of the returned timestamps. Can be 'iso' (ISO8601) or 'unix' timestamp (seconds since epoch). Defaults to 'iso'.",
+                "default": "iso"
+            }
+        },
+        "required": [
+            "sport",
+            "regions"
+        ]
+    }
+}

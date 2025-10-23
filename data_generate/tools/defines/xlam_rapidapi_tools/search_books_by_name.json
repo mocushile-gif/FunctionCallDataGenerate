@@ -1,0 +1,17 @@
+{
+    "name": "search_books_by_name",
+    "description": "This is a sub-function API for tool hapi_books.\nTool description: HAPI Books is an API about books. It gives information about thousands of books from all around the world. Search by name, by genre, get the best books by year, and more!\nAPI description: Giving a book name (where spaces must be replaced by '+') you will receive a list of corresponding books. This list can return up to 20 books related to the input.\nEach book has information such as Name, Authors, Cover image URL, Launched Year, and many more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "book_name": {
+                "type": "string",
+                "description": "The name of the book to search for, with spaces replaced by '+'.",
+                "default": "the+walking+dead"
+            }
+        },
+        "required": [
+            "book_name"
+        ]
+    }
+}

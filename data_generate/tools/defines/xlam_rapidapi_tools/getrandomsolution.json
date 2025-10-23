@@ -1,0 +1,17 @@
+{
+    "name": "getrandomsolution",
+    "description": "This is a sub-function API for tool pocket_cube_solver.\nTool description: Returns the list of all optimal solutions ( QTM not HTM ) for a given pocket cube ( 2x2x2 ) position.\nAPI description: Fetches a JSON data consisting of a random optimal solution for a given cube position.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "position": {
+                "type": "string",
+                "description": "The cube position for which to retrieve the random optimal solution.",
+                "default": "GBWGYOGYRYOORWROBRWYGWBB"
+            }
+        },
+        "required": [
+            "position"
+        ]
+    }
+}

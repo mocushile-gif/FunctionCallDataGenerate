@@ -1,0 +1,17 @@
+{
+    "name": "get_the_next_dividend_payout_date",
+    "description": "This is a sub-function API for tool sundayfinance.\nTool description: - PAYOUT DATE IS FIXED-\n\nFeed it a ticker and return next payout date or yield  in response.\n\n/payout example: \nhttps://sundayfinance.p.rapidapi.com/stock/agnc\noutput:\n{\"result\":[\"agnc,14.56%\"]}\n\n/yield example: \nhttps://sundayfinance.p.rapidapi.com/yield/aapl\noutput:\n{\"result\":[\"aapl,16 Feb 2023 (Thu)\"]}\n\nAPI description: Fetches the next dividend payout date for a given stock ticker using the Sunday Finance API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The stock ticker symbol to lookup for the next dividend payout date.",
+                "default": "aapl"
+            }
+        },
+        "required": [
+            "ticker"
+        ]
+    }
+}

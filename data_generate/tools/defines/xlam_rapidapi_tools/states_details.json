@@ -1,0 +1,17 @@
+{
+    "name": "states_details",
+    "description": "This is a sub-function API for tool city_and_state_search_api.\nTool description: A easy-to-use API for search cities, states, and countries from around the world.\nAPI description: This endpoint allows you to retrieve detailed information about a specific state by ID",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the state for which to retrieve details.",
+                "default": "4022"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "head_to_head",
+    "description": "This is a sub-function API for tool football_prediction.\nTool description: The Football Prediction API provides predictions for upcoming football matches, average bookie odds, results for past matches and prediction performance statistics for past results.\nAPI description: Fetches and returns head-to-head statistics and previous encounters for the home and away team of an upcoming match.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "(use predictions endpoint to get list of IDs)",
+                "default": 81930.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "Limits the search to only X previous encounters. The default is 10, with a maximum of 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

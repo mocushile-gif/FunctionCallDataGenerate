@@ -1,0 +1,23 @@
+{
+    "name": "raceresult",
+    "description": "This is a sub-function API for tool formula_1_fixed.\nTool description: F1\nAPI description: This endpoint gives the result for a specific race (round) in a season(year).\n\n\nIf the results for the specified race are not yet available the RaceTable element in the response will be empty.\n\n",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "round": {
+                "type": "string",
+                "description": "The round number or name of the race in the F1 season.",
+                "default": "round"
+            },
+            "year": {
+                "type": "string",
+                "description": "The year of the F1 season.",
+                "default": "year"
+            }
+        },
+        "required": [
+            "round",
+            "year"
+        ]
+    }
+}

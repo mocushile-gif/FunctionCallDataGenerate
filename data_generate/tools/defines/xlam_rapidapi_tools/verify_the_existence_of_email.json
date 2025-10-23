@@ -1,0 +1,17 @@
+{
+    "name": "verify_the_existence_of_email",
+    "description": "This is a sub-function API for tool email_existence_validator.\nTool description: API which checks if email really exist on server or not.\nIt check for different parameters for giving end results .\nCheck for MX records, SMTP deliverability, Disposable check and many more.\nAPI description: endpoint which takes email and output result in JSON about existence of email on server.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to verify.",
+                "default": "username@example.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

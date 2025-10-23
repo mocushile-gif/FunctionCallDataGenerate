@@ -1,0 +1,29 @@
+{
+    "name": "keywordsearch",
+    "description": "This is a sub-function API for tool google_keyword_scraper.\nTool description: Google Keyword Research\nAPI description: Fetches popular keywords for a given language and country from the Google Keyword Scraper API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "glanguage": {
+                "type": "string",
+                "description": "you will use alpha code for any language you need: \n\nAfrikaans => \\\"af\\\"\nAlbanian => \\\"sq\\\"\nAmharic => \\\"sm\\\"\nArabic => \\\"ar\\\"\nAzerbaijani => \\\"az\\\"\nBasque => \\\"eu\\\"\nBelarusian => \\\"be\\\"\nBengali => \\\"bn\\\"\nBihari => \\\"bh\\\"\nBosnian => \\\"bs\\\"\nBulgarian => \\\"bg\\\"\nCatalan => \\\"ca\\\"\nChinese (Simplified) => \\\"zh-CN\\\"\nChinese (Traditional) => \\\"zh-TW\\\"\nCroatian => \\\"hr\\\"\nCzech => \\\"cs\\\"\nDanish => \\\"da\\\"\nDutch => \\\"nl\\\"\nEnglish => \\\"en\\\"\nEsperanto => \\\"eo\\\"\nEstonian => \\\"et\\\"\nFaroese => \\\"fo\\\"\nFinnish => \\\"fi\\\"\nFren",
+                "default": "en"
+            },
+            "gcountry": {
+                "type": "string",
+                "description": "you will use only the alpha code of any country \n\nAfghanistan =>  \\\"af\\\"\nAlbania =>  \\\"al\\\"\nAlgeria =>  \\\"dz\\\"\nAmerican Samoa =>  \\\"as\\\"\nAndorra =>  \\\"ad\\\"\nAngola =>  \\\"ao\\\"\nAnguilla =>  \\\"ai\\\"\nAntarctica =>  \\\"aq\\\"\nAntigua and Barbuda =>  \\\"ag\\\"\nArgentina =>  \\\"ar\\\"\nArmenia =>  \\\"am\\\"\nAruba =>  \\\"aw\\\"\nAustralia =>  \\\"au\\\"\nAustria =>  \\\"at\\\"\nAzerbaijan =>  \\\"az\\\"\nBahamas =>  \\\"bs\\\"\nBahrain =>  \\\"bh\\\"\nBangladesh =>  \\\"bd\\\"\nBarbados =>  \\\"bb\\\"\nBelarus =>  \\\"by\\\"\nBelgium =>  \\\"be\\\"\nBelize =>  \\\"bz\\\"\nBenin =>  ",
+                "default": "ua"
+            },
+            "gkeyword": {
+                "type": "string",
+                "description": "The keyword for which to fetch popular keywords.",
+                "default": "ukraine war"
+            }
+        },
+        "required": [
+            "glanguage",
+            "gcountry",
+            "gkeyword"
+        ]
+    }
+}

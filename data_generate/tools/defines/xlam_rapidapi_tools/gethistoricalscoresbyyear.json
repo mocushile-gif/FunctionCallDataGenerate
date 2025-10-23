@@ -1,0 +1,34 @@
+{
+    "name": "gethistoricalscoresbyyear",
+    "description": "This is a sub-function API for tool gaialens_historical_esg_scores.\nTool description: Data-driven and transparent historical ESG scores for over 17,000 companies\nAPI description: This API returns historical Environmental, Social, Governance and Overall scores for companies on a scale of 0 to 100 based on the year provided in the request.  In addition to this, the API also provides other relevant metrics like Global Rank, Industry Rank and more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year for which to fetch the historical scores (must be less than or equal to 2020).",
+                "default": "2020"
+            },
+            "content_type": {
+                "type": "string",
+                "description": "The type of content to return. Default is None."
+            },
+            "sedol": {
+                "type": "string",
+                "description": "The SEDOL identifier of the company. Default is None."
+            },
+            "isin": {
+                "type": "string",
+                "description": "The ISIN identifier of the company. Default is None."
+            },
+            "companyname": {
+                "type": "string",
+                "description": "The name of the company. Default is 'Apple Inc.'.",
+                "default": "Apple Inc."
+            }
+        },
+        "required": [
+            "year"
+        ]
+    }
+}

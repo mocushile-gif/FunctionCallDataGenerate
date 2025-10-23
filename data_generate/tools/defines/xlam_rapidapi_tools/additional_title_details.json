@@ -1,0 +1,17 @@
+{
+    "name": "additional_title_details",
+    "description": "This is a sub-function API for tool ott_details.\nTool description: Get Streaming details of Movie and TV Shows. We support 150+ Streaming platforms in US and India such as HBO, YouTube, Netflix , Primve Video, Hotstar, Hulu, etc . (use our OTT Providers endpoint to get the full list OTT providers we support) . In additon to streaming info we also provide basic details on any given movie title. \nAPI description: Get  additional details for a movie or tv show like reviews  , quotes , plotsummary , number of votes , trailer url  , cast details etc.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "imdbid": {
+                "type": "string",
+                "description": "The IMDb ID of the movie or TV show.",
+                "default": "tt7286456"
+            }
+        },
+        "required": [
+            "imdbid"
+        ]
+    }
+}

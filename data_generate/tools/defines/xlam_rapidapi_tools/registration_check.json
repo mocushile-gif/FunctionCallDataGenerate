@@ -1,0 +1,17 @@
+{
+    "name": "registration_check",
+    "description": "This is a sub-function API for tool sa_rego_check.\nTool description: returns the registration details of your South Australia-registered vehicle or boat.\nInformation returned from this check includes:\nMake\nPrimary Colour\nExpiry Date \nbody or hull type\ncompulsory third-party (CTP) insurer (vehicles only)\nheavy vehicle details (gross vehicle, combination, or trailer mass).\nAPI description: Information returned from this check includes:\n\nMake\nPrimary Colour\nExpiry Date \nbody or hull type\ncompulsory third-party (CTP) insurer (vehicles only)\nheavy vehicle details (gross vehicle, combination, or trailer mass).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "rego": {
+                "type": "string",
+                "description": "The registration number of the vehicle to be checked.",
+                "default": "CC831Y"
+            }
+        },
+        "required": [
+            "rego"
+        ]
+    }
+}

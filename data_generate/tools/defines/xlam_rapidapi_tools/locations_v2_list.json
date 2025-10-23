@@ -1,0 +1,32 @@
+{
+    "name": "locations_v2_list",
+    "description": "This is a sub-function API for tool the_fork_the_spoon.\nTool description: This API helps to query the best restaurant and meal around the world to create a traveling site/application such as thefork.com\nAPI description: Fetch a list of locations from the specified Google place ID and additional geolocation parameters using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "google_place_id": {
+                "type": "string",
+                "description": "The value of data/geolocation/id/id fields returned in …/locations/auto-complete endpoint",
+                "default": "ChIJu46S-ZZhLxMROG5lkwZ3D7k"
+            },
+            "geo_text": {
+                "type": "string",
+                "description": "The text description of the geographical location. Defaults to 'Roma, Metropolitan City of Rome, Italy'.",
+                "default": "Roma, Metropolitan City of Rome, Italy"
+            },
+            "geo_ref": {
+                "type": "boolean",
+                "description": "A boolean flag for additional geolocation referencing. Defaults to None.",
+                "default": true
+            },
+            "geo_type": {
+                "type": "string",
+                "description": "The type of geographical entity (e.g., 'locality'). Defaults to 'locality'.",
+                "default": "locality"
+            }
+        },
+        "required": [
+            "google_place_id"
+        ]
+    }
+}

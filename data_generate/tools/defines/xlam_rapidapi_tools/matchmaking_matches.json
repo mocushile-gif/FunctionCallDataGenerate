@@ -1,0 +1,20 @@
+{
+    "name": "matchmaking_matches",
+    "description": "This is a sub-function API for tool trackmania.\nTool description: Get Stats, Matches and Leaderboards from Trackmania (Unofficial).\nAPI description: Fetch recent matchmaking matches with optional pagination and result limit.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of match results to return. Default is 50.",
+                "default": 50.0
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for pagination, each containing 50 results. Default is 0.",
+                "default": 0.0
+            }
+        },
+        "required": []
+    }
+}

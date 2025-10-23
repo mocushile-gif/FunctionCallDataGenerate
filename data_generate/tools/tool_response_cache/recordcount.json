@@ -1,0 +1,38 @@
+{
+    "{'rows': 0}": {
+        "error": "",
+        "response": {
+            "status": "ok",
+            "message-type": "work-list",
+            "message-version": "1.0.0",
+            "message": {
+                "facets": {},
+                "total-results": 146579387,
+                "items": [],
+                "items-per-page": 0,
+                "query": {
+                    "start-index": 0,
+                    "search-terms": null
+                }
+            }
+        }
+    },
+    "{'rows': 10000}": {
+        "error": "",
+        "response": {
+            "status": "failed",
+            "message-type": "validation-failure",
+            "message": [
+                {
+                    "type": "integer-not-valid",
+                    "value": "10000",
+                    "message": "Integer specified as 10000 but must be a positive integer less than or equal to 1000. "
+                }
+            ]
+        }
+    },
+    "{'rows': 50}": {
+        "error": "",
+        "response": "{'status': 'ok', 'message-type': 'work-list', 'message-version': '1.0.0', 'message': {'facets': {}, 'total-results': 146627707, 'items': [{'indexed': {'date-parts': [[2022, 4, 3]], 'date-time': '2022-04-03T01:45:59Z', 'timestamp': 1648950359167}, 'reference-count': 0, 'publisher': 'American Society of Clinical Oncology (ASCO)', 'issue': '18_suppl', 'content-domain': {'domain': [], 'crossmark-restriction': False}, 'short-container-title': ['JCO'], 'published-print': {'date-parts': [[2007, 6, 20]]}, 'abstract': '<jats:p> 3507 </jats:p><jats:p> Purpose: To detect IGF-1R on circulating tumor cells (CTCs) as a biomarker in the clinical development of a monoclonal human antibody, CP-751,871, targeting IGF-1R. Experimental Design: An automated sample preparation and analysis system for enumerating CTCs (Celltracks) was adapted for detecting IGF-1R positive CTCs with a diagnostic antibody targeting a different IGF-1R epitope to CP-751,871. This assay was utilized in three phase I trials of CP-751,871 as a single agent or with chemotherapy and was validated using cell lines and blood samples from healthy volunteers and patients with metastatic carcinoma. Results: There was no interference between the analytical and therapeutic antibodies. CP-751,871 was well tolerated as a single agent, and in combination with docetaxel or carboplatin and paclitaxel, at doses ranging from 0.05 mg/kg to 20 mg/kg. Eighty patients were enrolled on phase 1 studies of CP-751,871, with 47 (59%) patients having CTCs detected during the study. Prior to treatment 26 patients (33%) had CTCs, with 23 having detectable IGF-1R positive CTCs. CP-751,871 alone, and CP-751,871 with cytotoxic chemotherapy, decreased CTCs and IGF-1R positive CTCs; these increased towards the end of the 21-day cycle in some patients, falling again with retreatment. CTCs were commonest in advanced hormone refractory prostate cancer (11/20). Detectable IGF-1R expression on CTCs before treatment with CP-751,871 and docetaxel was associated with a higher frequency of PSA declin"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "{'url': 'www.example.com'}": {
+        "error": "",
+        "response": {
+            "message": "Website is not based on WordPress",
+            "status": "success"
+        }
+    },
+    "{'url': 'https://example.com'}": {
+        "error": "",
+        "response": {
+            "message": "Website is not based on WordPress",
+            "status": "success"
+        }
+    },
+    "{'url': 'https://www.mysite.com'}": {
+        "error": "",
+        "response": {
+            "message": "Website is not based on WordPress",
+            "status": "success"
+        }
+    },
+    "{'url': 'https://www.mycompanywebsite.com'}": {
+        "error": "",
+        "response": {
+            "message": "Website is not based on WordPress",
+            "status": "success"
+        }
+    },
+    "{'url': 'https://www.friendsblog.com'}": {
+        "error": "",
+        "response": {
+            "message": "Website is not based on WordPress",
+            "status": "success"
+        }
+    },
+    "{'user_agent': 'Mozilla/5.0', 'url': 'https://customerportal.nationtrustbank.com/secure-access/'}": {
+        "error": "",
+        "response": "{'message': 'Website is not based on WordPress', 'status': 'success'}"
+    },
+    "{'url': 'https://exampleblog.com', 'user_agent': 'Mozilla/5.0'}": {
+        "error": "",
+        "response": "{'message': 'Website is not based on WordPress', 'status': 'success'}"
+    },
+    "{'url': 'https://www.examplewebsite.com', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}": {
+        "error": "",
+        "response": "{'message': 'Website is not based on WordPress', 'status': 'success'}"
+    },
+    "{'url': 'https://www.trumpcampaignspeeches.com', 'user_agent': 'Mozilla/5.0'}": {
+        "error": "",
+        "response": "{'message': 'Website is not based on WordPress', 'status': 'success'}"
+    },
+    "{'url': 'https://example.com', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}": {
+        "error": "",
+        "response": "{'message': 'Website is not based on WordPress', 'status': 'success'}"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "{'username': '<username>'}": {
+        "error": "",
+        "response": {
+            "time_gen": 4.35
+        }
+    },
+    "{'username': \"{'time_gen': 1.08}\"}": {
+        "error": "",
+        "response": {
+            "time_gen": 1
+        }
+    },
+    "{'username': \"{'time_gen': 0.86}\"}": {
+        "error": "",
+        "response": {
+            "time_gen": 0.46
+        }
+    },
+    "{'username': '<user_username>'}": {
+        "error": "",
+        "response": {
+            "time_gen": 1.01
+        }
+    },
+    "{'username': 'nasa'}": {
+        "error": "",
+        "response": "{'status': 'success', 'code': 0, 'message': 'ok', 'endpoint_name': 'v3_get_user_handler', 'data': {'explicitly_followed_by_me': False, 'is_private_profile': False, 'native_pin_count': 0, 'show_impressum': False, 'profile_reach': 3022790, 'has_catalog': False, 'image_small_url': 'https://i.pinimg.com/30x30_RS/37/a1/75/37a175e6d2431425576f0b8f81389394.jpg', 'should_show_messaging': True, 'seo_description': 'NASA | Explore the universe and discover our home planet with the official NASA boards on Pinterest. Visit us at www.nasa.gov', 'pin_count': 10250, 'profile_views': 7547825, 'is_verified_merchant': False, 'has_showcase': True, 'board_count': 82, 'image_xlarge_url': 'https://i.pinimg.com/280x280_RS/37/a1/75/37a175e6d2431425576f0b8f81389394.jpg', 'follower_count': 534724, 'seo_title': 'NASA (nasa) - Profile | Pinterest', 'joined_communities_count': 0, 'interest_following_count': None, 'image_large_url': 'https://i.pinimg.com/140x140_RS/37/a1/75/37a175e6d2431425576f0b8f81389394.jpg', 'following_count': 5, 'story_pin_count': 15, 'first_name': 'NASA', 'last_pin_save_time': 'Thu, 29 Jun 2023 14:12:00 +0000', 'profile_cover': {'video': None, 'type': 'profilecoversource', 'images': {'originals': {'url': 'https://i.pinimg.com/originals/73/4d/3e/734d3ec276c33b5ea4987894d4fc9a33.jpg', 'width': 2048, 'height': 1152}, '474x': {'url': 'https://i.pinimg.com/474x/73/4d/3e/734d3ec276c33b5ea4987894d4fc9a33.jpg', 'width': 474, 'height': 266}, '1200x': {'url': 'https://i.pinimg.com/1200x/73/4d/3e/734d3ec276c33b5ea4987894d4fc9a33.jpg', 'width': 1200, 'height': 675}, '750x': {'url': 'https://i.pinimg.com/750x/73/4d/3e/734d3ec276c33b5ea4987894d4fc9a33.jpg', 'width': 750, 'height': 421}}, 'source': 'image', 'source_id': None}, 'indexed': True, 'full_name': 'NASA', 'seo_canonical_domain': 'www.pinterest.com', 'website_url': 'http://www.nasa.gov/', 'show_creator_profile': True, 'is_inspirational_merchant': False, 'show_discovered_feed': True, 'domain_verified': True, 'has_custom_board_sorting_order': True, 'type': 'user', 'ads_only_profi"
+    },
+    "{'username': 'elonmusk'}": {
+        "error": "",
+        "response": "{'status': 'success', 'code': 0, 'message': 'ok', 'endpoint_name': 'v3_get_user_handler', 'data': {'node_id': 'VXNlcjo0MjYzNjQ0MjcxMzA4OTg4Njg=', 'domain_verified': False, 'has_custom_board_sorting_order': False, 'video_pin_count': 0, 'board_count': 2, 'follower_count': 56, 'impressum_url': None, 'story_pin_count': 0, 'verified_identity': [], 'profile_cover': {'id': '426364427130898868'}, 'should_show_messaging': True, 'is_partner': False, 'interest_following_count': 5, 'image_xlarge_url': 'https://i.pinimg.com/280x280_RS/ca/8e/ac/ca8eac1a2f8ad22809486cae9360e75f.jpg', 'should_default_comments_off': False, 'eligible_profile_tabs': [{'id': '17589363686202', 'type': 'profiletab', 'tab_type': 1, 'name': 'Created', 'is_default': False}, {'id': '17589363686265', 'type': 'profiletab', 'tab_type': 0, 'name': 'Saved', 'is_default': True}], 'ads_only_profile_site': None, 'seo_noindex_reason': None, 'joined_communities_count': 0, 'pin_count': 36, 'type': 'user', 'partner': None, 'has_shopping_showcase': False, 'username': 'elonmusk', 'is_inspirational_merchant': False, 'last_name': 'Verma', 'instagram_data': None, 'indexed': True, 'group_board_count': 0, 'listed_website_url': None, 'pins_done_count': 0, 'website_url': None, 'show_discovered_feed': None, 'is_primary_website_verified': False, 'full_name': 'Vihaan Verma', 'last_pin_save_time': 'Sun, 17 Jul 2016 16:16:34 +0000', 'show_impressum': False, 'seo_description': \"See what Vihaan Verma (elonmusk) has discovered on Pinterest, the world's biggest collection of ideas.\", 'storefront_search_enabled': False, 'show_engagement_tab': False, 'seo_title': 'Vihaan Verma (elonmusk) - Profile | Pinterest', 'is_ads_only_profile': False, 'following_count': 8, 'explicit_user_following_count': 2, 'domain_url': None, 'first_name': 'Vihaan', 'is_tastemaker': False, 'has_published_pins': False, 'native_pin_count': 0, 'profile_discovered_public': None, 'is_private_profile': False, 'profile_reach': -1, 'has_catalog': False, 'blocked_by_me': False, 'about': '', 'show_creator_profile': False,"
+    },
+    "{'username': 'EliteJack'}": {
+        "error": "",
+        "response": "{'time_gen': 1.52}"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "calendars_get_economic_calendar",
+    "description": "This is a sub-function API for tool trading_view.\nTool description: This API helps you to query for data which is obtained by professional providers who have direct and extensive access to stock quotes, futures, popular indices, Forex, Bitcoin and CFDs to create a financial community site/application, such as : tradingview.com\nAPI description: Fetch the economic calendar for a specified date range and set of countries.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_from": {
+                "type": "string",
+                "description": "The start date in the format yyyy-MM-dd (e.g., '2022-08-21')."
+            },
+            "to": {
+                "type": "string",
+                "description": "The end date in the format yyyy-MM-dd (e.g., '2022-09-05')."
+            },
+            "minimportance": {
+                "type": "number",
+                "description": "The minimum importance level of events to fetch. Valid values are -1, 0, or 1."
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the response. Default is 'en'.",
+                "default": "en"
+            },
+            "countries": {
+                "type": "string",
+                "description": "One of the following : US|EU|JP|AU|DE|GB|CA|FR|IT|NZ|ES|MX|CH|TR|ZA. Separated by comma for multiple options",
+                "default": "US,EU,JP,AU,DE,GB,CA,FR,IT,NZ,ES,MX,CH,TR,ZA"
+            }
+        },
+        "required": [
+            "is_from",
+            "to"
+        ]
+    }
+}

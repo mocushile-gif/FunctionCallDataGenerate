@@ -1,0 +1,17 @@
+{
+    "name": "get_all_restaurant_locations",
+    "description": "This is a sub-function API for tool restaurants_near_me_usa.\nTool description: USA Restaurants database. Find restaurants near you by querying this complete and comprehensive restaurant API. The API will return 10 results per page. Please use the \"page\" field for pagination.\nAPI description: Fetches a list of restaurant locations from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve data from.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "page"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_coin_metrics_by_ticker",
+    "description": "This is a sub-function API for tool crowdsense.\nTool description: The most comprehensive real-time alpha-generating data feed API for cryptocurrencies, that analyzes social media sentiment, weighted sentiment, mentions, reach, top coins, spikes, influencer posts, and other chatter updates. Based on 100,000,000s of feeds per day from billions of unique sources across Twitter, Telegram, and Reddit for 1000+ cryptocurrencies. Start now for free...\nAPI description: Retrieve coin´s  real time social media metrics by Coin ticker\nIn the case you want to retrieve historical data check \"Get Coin Historical Metrics by Name\" or \"Get Coin Historical Metrics by Ticker\"\n\n**Input:** \n- Security Ticker: Coin Ticker (Required)\n\n**Output:**\n\n- Sentiment\n- Sentiment change\n- Followers\n- Followers change\n- Mentions\n- Mentions change\n- Security ticker\n- Security name\n- DataTimeStamp\n\n**Definitions:**\n\n•\tMentions - Number of posts related to the coin in tracked social media sources in ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "securityticker": {
+                "type": "string",
+                "description": "The ticker symbol of the cryptocurrency for which you want to retrieve metrics.",
+                "default": "eth"
+            }
+        },
+        "required": [
+            "securityticker"
+        ]
+    }
+}

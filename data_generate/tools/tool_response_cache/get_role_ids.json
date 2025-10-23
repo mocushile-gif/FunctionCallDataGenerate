@@ -1,0 +1,51 @@
+{
+    "{'document_id': 'PROJ-AGREEMENT-2023-Q4'}": {
+        "error": "",
+        "response": {
+            "document_id": "PROJ-AGREEMENT-2023-Q4",
+            "metadata": {
+                "file_name": "Project_Agreement_Q4_2023.pdf",
+                "size": "2.1MB",
+                "extension": "pdf"
+            },
+            "roles": [
+                {
+                    "role_id": "SIGNER-001",
+                    "name": "Client Signer",
+                    "type": "signer",
+                    "required": true
+                },
+                {
+                    "role_id": "APPROVER-002",
+                    "name": "Internal Approver",
+                    "type": "approver",
+                    "required": true
+                }
+            ],
+            "fields": [
+                {
+                    "type": "signature",
+                    "role_id": "SIGNER-001",
+                    "position": "page_1_bottom"
+                },
+                {
+                    "type": "text",
+                    "label": "Project_Name",
+                    "default": "Q4 Innovation Project"
+                }
+            ],
+            "invites": [
+                {
+                    "invite_id": "INV-789",
+                    "role_id": "SIGNER-001",
+                    "status": "pending",
+                    "email": "client@company.com"
+                }
+            ],
+            "timestamps": {
+                "created": "2023-10-05T08:30:00Z",
+                "last_updated": "2023-10-05T09:15:00Z"
+            }
+        }
+    }
+}

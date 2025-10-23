@@ -1,0 +1,17 @@
+{
+    "name": "get_podcast_episodes",
+    "description": "This is a sub-function API for tool anchor_data_scrapper.\nTool description: Anchor Data Scrapper is the easiest way to get access to podcasts from a specific user in a JSON format.\nAPI description: Fetch podcast episodes including audio, image, and description using the username of the podcast.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The username of the anchor podcast user. For example, for the URL https://anchor.fm/financialfreedomtribe, the username is \"financialfreedomtribe\".",
+                "default": "financialfreedomtribe"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

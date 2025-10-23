@@ -1,0 +1,20 @@
+{
+    "name": "get_6_daily",
+    "description": "This is a sub-function API for tool stockyapiexchange.\nTool description: Based on the request parameters, StockyAPIExchange can provide relevant information to the user, such as stock details, summary, charts, history, daily, or latest data. The API can also use autocomplete to suggest stock names or ticker symbols as the user types the keyword, making it easier for the front end develepor to create the perfect Tool\nAPI description: This feature provides up-to-date information about a stock's performance during a trading day. It includes the stock's opening and closing prices, as well as its high, low, and trading volume for the day.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "startdate": {
+                "type": "string",
+                "description": "The start date for the stock data in 'YYYY-MM-DD' format. Defaults to '2023-02-01'.",
+                "default": "2023-02-01"
+            },
+            "keyword": {
+                "type": "string",
+                "description": "The stock symbol or keyword to query. Defaults to 'GOOG'.",
+                "default": "GOOG"
+            }
+        },
+        "required": []
+    }
+}

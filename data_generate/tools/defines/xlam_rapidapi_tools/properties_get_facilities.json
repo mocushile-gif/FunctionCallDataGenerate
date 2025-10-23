@@ -1,0 +1,22 @@
+{
+    "name": "properties_get_facilities",
+    "description": "This is a sub-function API for tool booking.\nTool description: This API helps to query rooms, price, facilities, policities, etc information from many hotels around the world to create a travel site such as : booking.com\nAPI description: Fetches the facilities of a property given its hotel ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hotel_ids": {
+                "type": "number",
+                "description": "The value of the hotel_id field from the properties/list API.",
+                "default": 1528418.0
+            },
+            "languagecode": {
+                "type": "string",
+                "description": "The language code for the response. Default is 'en-us'. Possible values include en, en-us, ar, bg, ca, cs, da, de, el, es, es-ar, et, fi, fr, he, hr, hu, id, is, it, ja, ko, lt, lv, ms, nl, no, pl, pt, pt-br, ro, ru, sk, sl, sr, sv, th, tl, tr, uk, vi, zh, zh-tw.",
+                "default": "en-us"
+            }
+        },
+        "required": [
+            "hotel_ids"
+        ]
+    }
+}

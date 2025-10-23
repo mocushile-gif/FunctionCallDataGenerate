@@ -1,0 +1,24 @@
+{
+    "{'binnum': 535177}": {
+        "error": "",
+        "response": "{'bin_number': 535177, 'bank': 'Finansbank A.S.', 'scheme': 'MASTERCARD', 'type': 'Debit', 'country': 'Turkey'}"
+    },
+    "{'binnum': 456565}": {
+        "error": "",
+        "response": {
+            "bin_number": 456565,
+            "bank": "Nuevo Banco Industrial De Azul, S.A.",
+            "scheme": "VISA",
+            "type": "Credit",
+            "country": "Argentina"
+        }
+    },
+    "{'binnum': 411111}": {
+        "error": "",
+        "response": "{'bin_number': 411111, 'bank': 'Jpmorgan Chase Bank, N.A.', 'scheme': 'VISA', 'type': 'Credit', 'country': 'United States'}"
+    },
+    "{'binnum': 491725}": {
+        "error": "",
+        "response": "{'bin_number': 491725, 'bank': 'Probank', 'scheme': 'VISA', 'type': 'Debit', 'country': 'United States'}"
+    }
+}

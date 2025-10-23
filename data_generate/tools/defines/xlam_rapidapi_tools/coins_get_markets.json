@@ -1,0 +1,33 @@
+{
+    "name": "coins_get_markets",
+    "description": "This is a sub-function API for tool investing_cryptocurrency_markets.\nTool description: These APIs provide data of all cryptocurrencies, markets, ideal for tracking prices and exchange rates.\nAPI description: Fetches market information for a specific cryptocurrency pair in a specified currency.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cur2": {
+                "type": "number",
+                "description": "The ID of the currency to get market information for. This value is returned from the /get-meta-data endpoint.",
+                "default": 12.0
+            },
+            "pair_id": {
+                "type": "number",
+                "description": "The ID of the cryptocurrency pair. This value is obtained from endpoints like coins/list, coins/search, or coins/list-pairs.",
+                "default": 1057391.0
+            },
+            "time_utc_offset": {
+                "type": "number",
+                "description": "The UTC offset in seconds. For example, UTC+8 corresponds to 28800 seconds. Defaults to 28800.",
+                "default": 28800.0
+            },
+            "lang_id": {
+                "type": "number",
+                "description": "The ID of the language. This value is returned from the /get-meta-data endpoint. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "cur2",
+            "pair_id"
+        ]
+    }
+}

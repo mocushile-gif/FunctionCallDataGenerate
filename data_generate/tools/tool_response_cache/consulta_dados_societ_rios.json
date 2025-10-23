@@ -1,0 +1,19 @@
+{
+    "{'id_socio': 'HEALTHPARTNER2025'}": {
+        "error": "",
+        "response": {
+            "socio_id": "HEALTHPARTNER2025",
+            "nome_completo": "Healthcare Solutions LTDA",
+            "cargo": "Administrador",
+            "data_registro": "2020-03-15",
+            "status": "Ativo",
+            "cnpj_empresa": "12.345.678/0001-90",
+            "percentual_participacao": "45%",
+            "qualificacao_socio": "Pessoa Jur\u00eddica - Empresa Privada"
+        }
+    },
+    "{'id_socio': 'CONTATOS_ID_SOCIO'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    }
+}

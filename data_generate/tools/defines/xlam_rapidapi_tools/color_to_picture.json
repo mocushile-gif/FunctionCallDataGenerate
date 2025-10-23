@@ -1,0 +1,30 @@
+{
+    "name": "color_to_picture",
+    "description": "This is a sub-function API for tool color_to_picture_api.\nTool description: Takes prompt of picture mode (L,RGB,RGBA), color in hex (example: ff03bc), width (example: 200), height (example: 200) and makes new image in single color\nAPI description: Takes prompt of picture mode (L,RGB,RGBA), color in hex (example: ff03bc), width (example: 200), height (example: 200) and makes new image in single color)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "height": {
+                "type": "string",
+                "description": "The height of the image in pixels. Default is '200'.",
+                "default": "200"
+            },
+            "color": {
+                "type": "string",
+                "description": "The color of the image in hex format (e.g., 'ff0000'). Default is 'ff0000'.",
+                "default": "ff0000"
+            },
+            "width": {
+                "type": "string",
+                "description": "The width of the image in pixels. Default is '200'.",
+                "default": "200"
+            },
+            "mode": {
+                "type": "string",
+                "description": "The mode of the image (e.g., 'L', 'RGB', 'RGBA'). Default is 'RGB'.",
+                "default": "RGB"
+            }
+        },
+        "required": []
+    }
+}

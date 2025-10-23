@@ -1,0 +1,14 @@
+{
+    "{'width': 1000, 'height': 1000, 'backgroundimage': 'https://source.unsplash.com/1000x1000/'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "image_url": "https://source.unsplash.com/1000x1000/",
+            "dimensions": {
+                "width": 1000,
+                "height": 1000
+            },
+            "message": "Image successfully generated with custom 1000x1000 resolution using the provided background URL."
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "year_fractions",
+    "description": "This is a sub-function API for tool date_calculator.\nTool description: This API helps to perform some computations on dates: accrual factors, maturity dates, contract dates,  and other due dates, datetime delta, time zones conversion, recurring dates, and much more. \nAPI description: Calculates the year fraction between two dates based on the specified day count convention using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start_date": {
+                "type": "string",
+                "description": "The start date of the period time in YYYY-MM-DD format",
+                "default": "2021-03-31"
+            },
+            "end_date": {
+                "type": "string",
+                "description": "The end date of the period time in YYYY-MM-DD format",
+                "default": "2021-04-30"
+            },
+            "dcc_types": {
+                "type": "string",
+                "description": "The day count convention to be used for the calculation (e.g., '30/360', 'ACT/360', etc.).",
+                "default": "Actual360"
+            }
+        },
+        "required": [
+            "start_date",
+            "end_date",
+            "dcc_types"
+        ]
+    }
+}

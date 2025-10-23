@@ -1,0 +1,29 @@
+{
+    "name": "video_related_contents",
+    "description": "This is a sub-function API for tool youtube.\nTool description: With the YouTube Data API, you can add various YouTube features to your app. Use the API for search, videos, playlists, channels and more.\nAPI description: Fetches related video contents from YouTube using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cursor": {
+                "type": "string",
+                "description": "Token for pagination to retrieve the next set of results."
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The YouTube video ID for which related contents are to be fetched (default is 'kJQP7kiw5Fk').",
+                "default": "kJQP7kiw5Fk"
+            },
+            "gl": {
+                "type": "string",
+                "description": "Country code for the response (default is 'US').",
+                "default": "US"
+            },
+            "hl": {
+                "type": "string",
+                "description": "Language code for the response (default is 'en').",
+                "default": "en"
+            }
+        },
+        "required": []
+    }
+}

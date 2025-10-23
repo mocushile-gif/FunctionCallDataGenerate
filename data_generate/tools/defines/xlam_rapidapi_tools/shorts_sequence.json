@@ -1,0 +1,31 @@
+{
+    "name": "shorts_sequence",
+    "description": "This is a sub-function API for tool yt_api.\nTool description: An all-in-one Youtube API solution. It provides both data and stream or download info. API solutions for video, shorts, channel, search, playlist, trending, comments, shorts sound attribution, hashtag, URL resolving, etc\nAPI description: Fetches a sequence of YouTube Shorts videos based on provided parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "x_cachebypass": {
+                "type": "string",
+                "description": "Cache bypass, the value must be '1'. Defaults to None."
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language code for localized results, e.g., 'en', 'gb', 'hi'. Defaults to None."
+            },
+            "geo": {
+                "type": "string",
+                "description": "ISO 3166-2 country code of the region, e.g., 'US' (default), 'UK', 'CA', 'IN'. Defaults to None."
+            },
+            "params": {
+                "type": "string",
+                "description": "Sequence continuation parameter, either 'sequenceContiuation' from Shorts Info Endpoint's response for WHATTOWATCH or 'continuation' from the previous request's response. Defaults to a predefined sequence continuation value.",
+                "default": "GhEKCzBJNkZXMkZYX2I4GAAgASoCGA9CAGIEUkRTSA%3D%3D.Cgt4QTg3Z0ltOWdScyi56NqeBg%3D%3D"
+            },
+            "is_id": {
+                "type": "string",
+                "description": "If the params value is not available, a Shorts Video ID may be provided (not recommended). Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

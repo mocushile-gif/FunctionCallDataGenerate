@@ -1,0 +1,22 @@
+{
+    "name": "get_campaign_from_url",
+    "description": "This is a sub-function API for tool fomoapi.\nTool description: The #1 Social Proof API, Boost Your Conversions\nAPI description: Fetches campaign data from the Fomo API based on a specified campaign ID and optional URL.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the campaign.",
+                "default": "Lead"
+            },
+            "url": {
+                "type": "string",
+                "description": "The URL to be included in the query. Defaults to 'gogofodo.com'.",
+                "default": "gogofodo.com"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

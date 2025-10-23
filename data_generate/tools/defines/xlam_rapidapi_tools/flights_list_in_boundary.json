@@ -1,0 +1,64 @@
+{
+    "name": "flights_list_in_boundary",
+    "description": "This is a sub-function API for tool flight_radar.\nTool description: The world's most popular flight tracker API which helps you to create Flight tracker application, such as : flightradar24.com\nAPI description: Fetches a list of flights within a specified geographical bounding box and returns flight information based on various optional filters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "bl_lng": {
+                "type": "number",
+                "description": "The bottom left longitude of the bounding box.",
+                "default": 100.641975
+            },
+            "tr_lat": {
+                "type": "number",
+                "description": "The top right latitude of the bounding box.",
+                "default": 13.771029
+            },
+            "bl_lat": {
+                "type": "number",
+                "description": "The bottom left latitude of the bounding box.",
+                "default": 13.607884
+            },
+            "tr_lng": {
+                "type": "number",
+                "description": "The top right longitude of the bounding box.",
+                "default": 100.861566
+            },
+            "type": {
+                "type": "string",
+                "description": "Filter by the value of the 'Code' field returned in the aircrafts/list endpoint."
+            },
+            "speed": {
+                "type": "string",
+                "description": "Filter by speed. The format is min,max (e.g., \"0,460\")."
+            },
+            "airline": {
+                "type": "string",
+                "description": "Filter by the value of the 'ICAO' field returned in the airlines/list endpoint."
+            },
+            "altitude": {
+                "type": "string",
+                "description": "Filter by altitude. The format is min,max (e.g., \"0,48000\")."
+            },
+            "airport": {
+                "type": "string",
+                "description": "The value of 'icao' field returned in .../airports/list endpoint"
+            },
+            "reg": {
+                "type": "string",
+                "description": "Filter by registration (e.g., \"D-AIHV\")."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of flights per response (default is 300; max is 300).",
+                "default": 300.0
+            }
+        },
+        "required": [
+            "bl_lng",
+            "tr_lat",
+            "bl_lat",
+            "tr_lng"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "people_id",
+    "description": "This is a sub-function API for tool studio_ghibli.\nTool description: The Studio Ghibli API catalogs the people, places, and things found in the worlds of Ghibli. It was created to help users discover resources, consume them via HTTP requests, and interact with them in whatever way makes sense. Navigation can be found on the left sidebar, and the right sidebar shows examples of returned objects for successful calls.\nAPI description: Fetches and returns information about a person from the TVmaze API using the given person ID and RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the person to retrieve information for from the TVmaze API.",
+                "default": "ba924631-068e-4436-b6de-f3283fa848f0"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

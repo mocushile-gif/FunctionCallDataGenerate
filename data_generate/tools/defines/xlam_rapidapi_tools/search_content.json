@@ -1,0 +1,16 @@
+{
+    "name": "search_content",
+    "description": "This is a sub-function API for tool url_content_extractor.\nTool description: Provide a URL and get the content in return\nAPI description: Searches for content based on a provided query using the RapidAPI content extractor.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query string."
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

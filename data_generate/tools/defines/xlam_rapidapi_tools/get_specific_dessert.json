@@ -1,0 +1,17 @@
+{
+    "name": "get_specific_dessert",
+    "description": "This is a sub-function API for tool pizza_and_desserts.\nTool description: decent collection of pizzas and desserts for your next food app project..\nAPI description: Fetch a specific dessert's details using its ID from the Pizza and Desserts API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the dessert to fetch.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

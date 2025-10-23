@@ -1,0 +1,66 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "jokes": [
+                {
+                    "id": 6474,
+                    "joke": "Yo momma's so fat that NASA shot a rocket into her ass looking for water."
+                }
+            ],
+            "available": 1
+        }
+    },
+    "{'keywords': 'teamwork'}": {
+        "error": "",
+        "response": {
+            "jokes": [
+                {
+                    "id": 46054,
+                    "joke": "Teamwork means never having to take all the blame yourself."
+                }
+            ],
+            "available": 1
+        }
+    },
+    "{'keywords': 'rocket'}": {
+        "error": "",
+        "response": {
+            "jokes": [
+                {
+                    "id": 6474,
+                    "joke": "Yo momma's so fat that NASA shot a rocket into her ass looking for water."
+                }
+            ],
+            "available": 1
+        }
+    },
+    "{'keywords': 'rocket', 'min_rating': 8, 'number': 1, 'include_tags': 'one_liner', 'exclude_tags': 'nsfw'}": {
+        "error": "",
+        "response": "{'jokes': [{'id': 6474, 'joke': \"Yo momma's so fat that NASA shot a rocket into her ass looking for water.\"}], 'available': 1}"
+    },
+    "{'keywords': 'space', 'min_rating': 9, 'number': 5, 'include_tags': 'one_liner', 'exclude_tags': 'nsfw'}": {
+        "error": "",
+        "response": "{'jokes': [], 'available': 0}"
+    },
+    "{'keywords': 'space,astronaut,planet', 'min_rating': 9, 'number': 5, 'include_tags': 'one_liner', 'exclude_tags': 'nsfw'}": {
+        "error": "",
+        "response": "{'jokes': [], 'available': 0}"
+    },
+    "{'keywords': 'space,astronaut,planet,moon,alien,star,galaxy', 'min_rating': 9, 'number': 5, 'include_tags': 'one_liner', 'exclude_tags': 'nsfw'}": {
+        "error": "",
+        "response": "{'jokes': [], 'available': 0}"
+    },
+    "{'keywords': 'space,astronaut,planet,moon,alien,star,galaxy', 'min_rating': 8, 'number': 5, 'include_tags': 'one_liner', 'exclude_tags': 'nsfw'}": {
+        "error": "",
+        "response": "{'jokes': [], 'available': 0}"
+    },
+    "{'keywords': 'rocket', 'min_rating': 8, 'number': 5, 'include_tags': 'one_liner', 'exclude_tags': 'nsfw'}": {
+        "error": "",
+        "response": "{'jokes': [{'id': 6474, 'joke': \"Yo momma's so fat that NASA shot a rocket into her ass looking for water.\"}], 'available': 1}"
+    },
+    "{'keywords': 'astronaut', 'min_rating': 8, 'number': 5, 'include_tags': 'one_liner', 'exclude_tags': 'nsfw'}": {
+        "error": "",
+        "response": "{'jokes': [{'id': 6469, 'joke': \"Yo momma's so fat that she and the great wall of China are used as reference points when astronauts look back at the Earth.\"}], 'available': 1}"
+    }
+}

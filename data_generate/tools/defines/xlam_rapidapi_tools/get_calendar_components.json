@@ -1,0 +1,23 @@
+{
+    "name": "get_calendar_components",
+    "description": "This is a sub-function API for tool enoch_calendar.\nTool description: Access the Biblical Holydays and Sabbaths using the Enoch Calendar\nAPI description: Get the calendar components to build the current Hebrew month calendar from the supplied Hebrew month number, if supplied, or the first Hebrew month and, a supplied year, or this year",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "month": {
+                "type": "number",
+                "description": "The Hebrew month number.",
+                "default": 7.0
+            },
+            "year": {
+                "type": "number",
+                "description": "The year for the Hebrew calendar.",
+                "default": 2021.0
+            }
+        },
+        "required": [
+            "month",
+            "year"
+        ]
+    }
+}

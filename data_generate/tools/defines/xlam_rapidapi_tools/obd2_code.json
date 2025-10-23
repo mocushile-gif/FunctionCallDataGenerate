@@ -1,0 +1,17 @@
+{
+    "name": "obd2_code",
+    "description": "This is a sub-function API for tool car_code.\nTool description: This is a simple API that will return the human readable version of DTC codes (OBD-II Trouble Codes).\nAPI description: Retrieve the human-readable version of a requested OBD2 code using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "string",
+                "description": "The OBD2 code to be translated into human-readable format.",
+                "default": "P0001"
+            }
+        },
+        "required": [
+            "code"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "find_longest_palindromic_substring",
+    "description": "Finds the longest palindromic substring in a given string. A palindromic substring reads the same backward as forward. The function supports both odd and even length palindromes.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "s": {
+                "type": "string",
+                "description": "The input string to search for the longest palindromic substring."
+            }
+        },
+        "required": [
+            "s"
+        ]
+    }
+}

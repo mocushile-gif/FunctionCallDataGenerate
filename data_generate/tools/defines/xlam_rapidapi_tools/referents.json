@@ -1,0 +1,35 @@
+{
+    "name": "referents",
+    "description": "This is a sub-function API for tool genius_song_lyrics.\nTool description: Genius - Song Lyrics, Artists, Albums, Knowledge & More API\nAPI description: Referents are the sections of a piece of content to which annotations are attached. Each referent is associated with a web page or a song and may have one or more annotations. Referents can be searched by the document they are attached to or by the user that created them.\n\nReferents by content item or user responsible for an included annotation.\n\nYou may pass only one of song_id and web_page_id, not both.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "song_id": {
+                "type": "string",
+                "description": "ID of a song to get referents for. Default is '2396871'.",
+                "default": "2396871"
+            },
+            "page": {
+                "type": "number",
+                "description": "Paginated offset, for example, per_page=5&page=3 returns items 11–15."
+            },
+            "created_by_id": {
+                "type": "string",
+                "description": "ID of a user to get referents for."
+            },
+            "text_format": {
+                "type": "string",
+                "description": "Format for text bodies related to the document. One or more of `dom`, `plain`, `markdown`, and `html`, separated by commas (defaults to html)."
+            },
+            "per_page": {
+                "type": "number",
+                "description": "Number of results to return per request."
+            },
+            "web_page_id": {
+                "type": "string",
+                "description": "ID of a web page to get referents for."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "get_place_by_my_ip",
+    "description": "This is a sub-function API for tool spott.\nTool description: Search cities, countries and administrative divisions by name, autocompletion or IP.\nAPI description: Returns the place related to the IP where the request was performed. Returns \"Not Found\" error when no place is related to the IP.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "language": {
+                "type": "string",
+                "description": "Specifies a language (ISO 639-1) to get the localized name of the place. If translation is not available, \"localizedName\" property will be null."
+            }
+        },
+        "required": []
+    }
+}

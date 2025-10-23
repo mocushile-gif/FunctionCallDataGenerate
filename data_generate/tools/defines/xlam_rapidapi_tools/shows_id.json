@@ -1,0 +1,23 @@
+{
+    "name": "shows_id",
+    "description": "This is a sub-function API for tool streamlinewatch_streaming_guide.\nTool description: StreamlineWatch's streaming guide APIs for Movies and Shows\nAPI description: Fetches show information from the TVMaze API using a given show ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "platform": {
+                "type": "string",
+                "description": "Retrieve sources from the specified platform.\n*required, possible values: ios, android, androidtv, web*",
+                "default": "web"
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the show to retrieve information for.",
+                "default": "82856"
+            }
+        },
+        "required": [
+            "platform",
+            "is_id"
+        ]
+    }
+}

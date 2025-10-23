@@ -1,0 +1,24 @@
+{
+    "name": "convert_currency_api",
+    "description": "Converts an amount from one currency to another using the CurrencyLayer API.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "from_currency": {
+          "type": "string",
+          "description": "The base currency code (e.g., 'USD', 'EUR')."
+        },
+        "to_currency": {
+          "type": "string",
+          "description": "The target currency code (e.g., 'GBP', 'CAD')."
+        },
+        "amount": {
+          "type": "number",
+          "description": "The amount of money to convert.",
+          "default": 100
+        }
+      },
+      "required": ["from_currency", "to_currency"]
+    }
+  }
+  

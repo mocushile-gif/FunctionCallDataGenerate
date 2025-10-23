@@ -1,0 +1,22 @@
+{
+    "name": "equity_related_indices",
+    "description": "This is a sub-function API for tool investing_financial_stocks.\nTool description: get all investing.com stocks realtime data in multi language and filters\nAPI description: Fetches and returns equity-related indices for a given stock slug.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The stock identifier used to fetch related indices.",
+                "default": "saudi-aramco"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the response. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "slug"
+        ]
+    }
+}

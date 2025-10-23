@@ -1,0 +1,17 @@
+{
+    "name": "similar_hashtags",
+    "description": "This is a sub-function API for tool hashtag.\nTool description: Generate hashtags based on image, text and get the post count detail of that hashtag\nAPI description: Fetches related hashtags for a given keyword using the Hashtag API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The keyword for which related hashtags are to be fetched.",
+                "default": "insta"
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "{'date': '2025-06-01'}": {
+        "error": "",
+        "response": {
+            "date": "2025-06-01",
+            "reports_available": {
+                "form_type_10k": 145,
+                "form_type_10q": 89
+            },
+            "files": [
+                {
+                    "filename": "20250601_10k.zip",
+                    "url": "https://daily-sec-financial-statement-dataset.p.rapidapi.com/premium/20250601_10k.zip",
+                    "checksum": "sha256:abc123...",
+                    "size_bytes": 154823710
+                },
+                {
+                    "filename": "20250601_10q.zip",
+                    "url": "https://daily-sec-financial-statement-dataset.p.rapidapi.com/premium/20250601_10q.zip",
+                    "checksum": "sha256:def456...",
+                    "size_bytes": 98765432
+                }
+            ],
+            "notes": "Data reflects beta-phase update frequency (weekly updates). SUB files include CIK, company name, form type, and filing date. No TAG files included. Structured per SEC AQFS guidelines."
+        }
+    }
+}

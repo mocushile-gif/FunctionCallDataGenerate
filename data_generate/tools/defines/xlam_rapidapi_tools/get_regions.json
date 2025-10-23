@@ -1,0 +1,17 @@
+{
+    "name": "get_regions",
+    "description": "This is a sub-function API for tool gis_engine.\nTool description: Provide regions, cities and districts per countries\nAPI description: Get regions  per country\n\n- country_code can be fetch from Get Countries endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country_code": {
+                "type": "string",
+                "description": "The ISO code of the country for which regions are to be fetched. The country code can be obtained from the \"Get Countries\" endpoint.",
+                "default": "ph"
+            }
+        },
+        "required": [
+            "country_code"
+        ]
+    }
+}

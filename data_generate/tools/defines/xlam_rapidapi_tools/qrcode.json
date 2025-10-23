@@ -1,0 +1,17 @@
+{
+    "name": "qrcode",
+    "description": "This is a sub-function API for tool qr_code_v18.\nTool description: API that returns a downloadable QR Code as a png from an input text param\nAPI description: Generates a QR code from the provided text using the QR Code API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The input text to be converted into a QR code.",
+                "default": "https://google.com"
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

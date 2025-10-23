@@ -1,0 +1,17 @@
+{
+    "name": "tokenize",
+    "description": "This is a sub-function API for tool tokenizer.\nTool description: Format preserving tokenization.  Replace you sensitive data with tokens that cannot be decrypted only detokinzed!\nAPI description: Tokenizes a value passed to the endpoint.  The value must be 1KB or smaller and the follow characters are not allowed:\n- The forward slash (/) character\n- The backslash (\\) character\n- The number sign (#) character\n- The question mark (?) character\n- Control characters from U+0000 to U+001F, including:\n     - The horizontal tab (\\t) character\n     - The linefeed (\\n) character\n     - The carriage return (\\r) character\n- Control characters from U+007F to U+009F",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "value": {
+                "type": "string",
+                "description": "The text to be tokenized. The value must be 1KB or smaller and must not include any of the following characters: forward slash (/), backslash (\\), number sign (#), question mark (?), or control characters ranging from U+0000 to U+001F (including horizontal tab, linefeed, and carriage return), and from U+007F to U+009F.",
+                "default": "TextIWantToTokenize"
+            }
+        },
+        "required": [
+            "value"
+        ]
+    }
+}

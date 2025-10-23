@@ -1,0 +1,16 @@
+{
+    "name": "get_a_specific_game",
+    "description": "This is a sub-function API for tool free_nba.\nTool description: Unofficial NBA API for Historical NBA Data\nAPI description: Retrieves information for a specific game using the Free NBA API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the game to retrieve."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

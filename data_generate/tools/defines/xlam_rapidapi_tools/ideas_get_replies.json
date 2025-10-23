@@ -1,0 +1,28 @@
+{
+    "name": "ideas_get_replies",
+    "description": "This is a sub-function API for tool trading_view.\nTool description: This API helps you to query for data which is obtained by professional providers who have direct and extensive access to stock quotes, futures, popular indices, Forex, Bitcoin and CFDs to create a financial community site/application, such as : tradingview.com\nAPI description: Fetch replies relating to an idea post and its comments from the trading-view API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID associated with the idea.",
+                "default": "9069097"
+            },
+            "uuid": {
+                "type": "string",
+                "description": "The unique identifier for the idea, typically the value of the image_url field returned in the /ideas/list endpoint.",
+                "default": "jfQJOSwt"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the response. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "is_id",
+            "uuid"
+        ]
+    }
+}

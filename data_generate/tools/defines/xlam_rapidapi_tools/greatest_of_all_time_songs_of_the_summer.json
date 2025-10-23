@@ -1,0 +1,15 @@
+{
+    "name": "greatest_of_all_time_songs_of_the_summer",
+    "description": "This is a sub-function API for tool billboard_v2.\nTool description: Billboard API: Billboard Hot 100, Billboard 200, Artist 100, Billboard Global 200, Top Artists, Year-End Hot 100 Songs, Year-End Billboard Global 200, Year-End Billboard 200 Albums, Year-End Top Artists, Greatest of All Time Artists, Greatest of All Time Songs of the Summer, Greatest of All Time Hot 100 Songs and much more!\nAPI description: Fetches the Greatest of All Time Songs of the Summer chart from the Billboard API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "range": {
+                "type": "string",
+                "description": "The range of songs to retrieve. Default is '1-10'.",
+                "default": "1-10"
+            }
+        },
+        "required": []
+    }
+}

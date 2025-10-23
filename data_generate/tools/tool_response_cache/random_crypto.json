@@ -1,0 +1,52 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "id": 8931,
+                    "name": "NEO",
+                    "price": "$5,737.90",
+                    "symbol": "NEO",
+                    "uid": "2e80a5a7-f98f-3d99-6245-54efd6103b73"
+                },
+                {
+                    "id": 6552,
+                    "name": "MazaCoin",
+                    "price": "$963.10",
+                    "symbol": "MZC",
+                    "uid": "5d9354fa-6f2e-f246-5cbc-7e726d12cfc2"
+                },
+                {
+                    "id": 5262,
+                    "name": "Burstcoin",
+                    "price": "$243.38",
+                    "symbol": "BURST",
+                    "uid": "f29a1cb5-a237-70ef-b24a-fabad894e1c7"
+                },
+                {
+                    "id": 758,
+                    "name": "Decred",
+                    "price": "$187.86",
+                    "symbol": "DRC",
+                    "uid": "82d5aaee-da43-eb78-c8c2-751f34c2be7c"
+                },
+                {
+                    "id": 2569,
+                    "name": "Dogecoin",
+                    "price": "$75,102.58",
+                    "symbol": "DOGE",
+                    "uid": "eeecc7e7-f38b-42d9-8876-8ea690505fcf"
+                }
+            ],
+            "info": {
+                "disclaimer": "This data is randomly generated. Results generated that turn out to be valid in real life are purely coincidental.",
+                "version": "1.0.0"
+            }
+        }
+    },
+    "{'size': 5}": {
+        "error": "",
+        "response": "{'data': [{'id': 2657, 'name': 'Vertcoin', 'price': '$729.83', 'symbol': 'VTC', 'uid': 'b6434713-117a-4254-d7d2-e06a414ff27b'}, {'id': 4236, 'name': 'Feathercoin', 'price': '$5,093.65', 'symbol': 'FTH', 'uid': '7a83144b-ad97-e7ca-f845-43a81e3be7f0'}, {'id': 6158, 'name': 'XEM', 'price': '$447.87', 'symbol': 'NEM', 'uid': '71af1d6d-817d-28f1-d27b-7b2f0a43fa79'}, {'id': 2930, 'name': 'Ripple', 'price': '$90,861.78', 'symbol': 'XRP', 'uid': '882c5858-058c-0d80-25f4-81f791ecac7f'}, {'id': 5062, 'name': 'Tether', 'price': '$0.66', 'symbol': 'USDT', 'uid': 'c3b335c7-8e8c-fbb6-ba9d-30635386f3a9'}], 'info': {'disclaimer': 'This data is randomly generated. Results generated that turn out to be valid in real life are purely coincidental.', 'version': '1.0.0'}}"
+    }
+}

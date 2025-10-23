@@ -1,0 +1,21 @@
+{
+    "name": "time_zone_api",
+    "description": "This is a sub-function API for tool world_weather_online_api.\nTool description: Free Weather API and Geo API for worldwide locations, hourly weather, 14-day weather, historical weather, and Marine and Ski weather API for developers and businesses in XML and JSON format.\nAPI description: The Time Zone API method retrieves current local time and UTC offset hour and minute for a specified location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "Location query such as city name, coordinates, or IP address.",
+                "default": "53,-0.13"
+            },
+            "format": {
+                "type": "string",
+                "description": "Desired response format, default is None."
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

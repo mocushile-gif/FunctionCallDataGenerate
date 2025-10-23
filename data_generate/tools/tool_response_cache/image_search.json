@@ -1,0 +1,83 @@
+{
+    "{'url': 'https://i.imgur.com/sports_event.jpg', 'language': 'en'}": {
+        "error": "",
+        "response": {
+            "visual_matches": [
+                {
+                    "image_url": "https://i.imgur.com/sports_event_similar1.jpg",
+                    "similarity_score": 0.92
+                },
+                {
+                    "image_url": "https://i.imgur.com/sports_event_similar2.jpg",
+                    "similarity_score": 0.88
+                }
+            ],
+            "knowledge_graph": {
+                "event_type": "Soccer Match",
+                "location": "National Stadium",
+                "participants": [
+                    "Team A",
+                    "Team B"
+                ],
+                "related_topics": [
+                    "Sports tournaments",
+                    "Athletic events"
+                ]
+            },
+            "products": [
+                {
+                    "product_name": "Official Match Ball",
+                    "price": "$49.99",
+                    "retailer": "SportsGearStore.com"
+                },
+                {
+                    "product_name": "Team A Jersey",
+                    "price": "$79.50",
+                    "retailer": "ProClothing.com"
+                }
+            ],
+            "text_detections": [
+                {
+                    "text": "Score: 2-1",
+                    "bounding_box": {
+                        "x": 120,
+                        "y": 340,
+                        "width": 200,
+                        "height": 50
+                    }
+                },
+                {
+                    "text": "Final Minute",
+                    "bounding_box": {
+                        "x": 50,
+                        "y": 50,
+                        "width": 150,
+                        "height": 30
+                    }
+                }
+            ],
+            "object_detections": [
+                {
+                    "object": "Soccer Ball",
+                    "confidence": 0.95,
+                    "position": {
+                        "x": 300,
+                        "y": 200
+                    }
+                },
+                {
+                    "object": "Goal Post",
+                    "confidence": 0.89,
+                    "position": {
+                        "x": 50,
+                        "y": 100
+                    }
+                }
+            ]
+        }
+    },
+    "{'url': 'https://i.imgur.com/HBrB8p0.png', 'country': 'us', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '01daddb1-f38e-4224-9437-d932bca39438', 'parameters': {'url': 'https://real-time-lens-data.p.rapidapi.com/search', 'language': 'en', 'country': 'us'}, 'data': {}}"
+    }
+}

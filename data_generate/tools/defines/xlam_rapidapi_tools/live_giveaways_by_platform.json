@@ -1,0 +1,17 @@
+{
+    "name": "live_giveaways_by_platform",
+    "description": "This is a sub-function API for tool gamerpower.\nTool description: Find all free games, loot and giveaways with this giveaway tracker API powered by GamerPower.com! Access programmatically the best giveaways in gaming!\nAPI description: Insert platform eg: pc, steam, epic-games-store, uplay, gog, icthio, ps4, xbox-one, switch, android, ios, vr, battlenet",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "platform": {
+                "type": "string",
+                "description": "The gaming platform to fetch giveaways for (e.g., pc, steam, epic-games-store, uplay, gog, itch.io, ps4, xbox-one, switch, android, ios, vr, battlenet).",
+                "default": "pc"
+            }
+        },
+        "required": [
+            "platform"
+        ]
+    }
+}

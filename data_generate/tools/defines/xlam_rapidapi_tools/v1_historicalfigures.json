@@ -1,0 +1,19 @@
+{
+    "name": "v1_historicalfigures",
+    "description": "This is a sub-function API for tool historical_figures_by_api_ninjas.\nTool description: Get vital information on the most famous people in history. See more info at https://api-ninjas.com/api/historicalfigures.\nAPI description: API Ninjas Historical Figures API endpoint. Returns a list of up to 10 people that match the search parameters. Either **name** and/or **title** parameter is required.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "offset": {
+                "type": "number",
+                "description": "The number of results to skip for pagination. Defaults to None."
+            },
+            "name": {
+                "type": "string",
+                "description": "The name of the historical figure to search for. Partial names are also accepted (e.g., \"julius\" will match \"Julius Caesar\"). Defaults to 'julius caesar'.",
+                "default": "julius caesar"
+            }
+        },
+        "required": []
+    }
+}

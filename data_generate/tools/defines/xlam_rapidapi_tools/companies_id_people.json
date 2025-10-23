@@ -1,0 +1,17 @@
+{
+    "name": "companies_id_people",
+    "description": "This is a sub-function API for tool german_company_data_v2.\nTool description: Enrich your CRM / MAS / ERP system with credible data about all incorporated companies from  Germany.\nAPI description: This endpoint returns the information about people associated with the company with the given identifier. The information includes names, roles, email addresses, and phone numbers, if available.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The identifier of the company whose associated people's information is to be retrieved.",
+                "default": "DEVFCLQFW054"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

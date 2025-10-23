@@ -1,0 +1,40 @@
+{
+    "name": "products",
+    "description": "This is a sub-function API for tool facebook_marketplace.\nTool description: Get complete Facebook Marketplace data to include number sold, number saved, title, description, location and category of current and past listings on FBMP. \n\nWe are the ONLY provider of Facebook Marketplace data anywhere!\nAPI description: Fetch products from the Facebook Marketplace using the RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "no_of_save": {
+                "type": "number",
+                "description": "Minimum number of saves for the listed items. Defaults to 25.",
+                "default": 25.0
+            },
+            "min_sales": {
+                "type": "number",
+                "description": "Minimum number of sales for the listed items. Defaults to 5.",
+                "default": 5.0
+            },
+            "min_price": {
+                "type": "string",
+                "description": "Minimum price for the listed items. Defaults to '2.00'.",
+                "default": "2.00"
+            },
+            "category": {
+                "type": "string",
+                "description": "Category of the listed items. Defaults to 'Apparel'.",
+                "default": "Apparel"
+            },
+            "city": {
+                "type": "string",
+                "description": "City where the items are listed. Defaults to 'New York'.",
+                "default": "New York"
+            },
+            "page": {
+                "type": "number",
+                "description": "Page number for pagination. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

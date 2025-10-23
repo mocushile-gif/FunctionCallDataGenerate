@@ -1,0 +1,17 @@
+{
+    "name": "marks_men_points",
+    "description": "This is a sub-function API for tool scoring_tables_api.\nTool description: This API uses the World Athletics scoring tables and pulls the marks required for certain point values.\nAPI description: Fetches the men's marks corresponding to a given points value using the Scoring Tables API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "points": {
+                "type": "number",
+                "description": "A point value between 1 and 1400 to retrieve men's marks.",
+                "default": 1400.0
+            }
+        },
+        "required": [
+            "points"
+        ]
+    }
+}

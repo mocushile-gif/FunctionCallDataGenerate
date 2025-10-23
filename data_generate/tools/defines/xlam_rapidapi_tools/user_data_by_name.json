@@ -1,0 +1,17 @@
+{
+    "name": "user_data_by_name",
+    "description": "This is a sub-function API for tool tiktok_solutions.\nTool description: Best TikTok solutions for scrap info\nAPI description: Fetches user data from TikTok Solutions API for a given username.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The username of the TikTok user whose data is to be retrieved.",
+                "default": "mrbeast"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

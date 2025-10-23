@@ -1,0 +1,15 @@
+{
+    "name": "profile_info",
+    "description": "This is a sub-function API for tool instagram_scraper_2023_v2.\nTool description: MEGA Instagram Scraper 2023 - get any Instagram stories, Highlights, Posts, Photos and Videos from public profiles by API Test for free :) You can get quick help via telegram app: @insta4root\nAPI description: Retrieves profile information from Instagram using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username for which profile information is to be retrieved. Defaults to 'kimkardashian'.",
+                "default": "kimkardashian"
+            }
+        },
+        "required": []
+    }
+}

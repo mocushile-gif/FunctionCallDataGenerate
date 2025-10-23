@@ -1,0 +1,30 @@
+{
+    "{'media_id': '3089561820519690447'}": {
+        "error": "",
+        "response": {
+            "media_id": "3089561820519690447",
+            "owner": {
+                "username": "example_user",
+                "profile_pic_url": "https://example.com/profile.jpg",
+                "follower_count": 12500
+            },
+            "reel_media": {
+                "media_type": "video",
+                "media_url": "https://example.com/reel.mp4",
+                "thumbnail_url": "https://example.com/thumbnail.jpg",
+                "caption": "Check out my latest adventure! \ud83c\udf0d",
+                "like_count": 2450,
+                "comment_count": 132,
+                "timestamp": "2023-10-15T14:30:00Z"
+            },
+            "insights": {
+                "view_count": 89000,
+                "engagement_rate": "4.7%",
+                "top_locations": [
+                    "Los Angeles, CA",
+                    "New York, NY"
+                ]
+            }
+        }
+    }
+}

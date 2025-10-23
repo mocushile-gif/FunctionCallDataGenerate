@@ -1,0 +1,17 @@
+{
+    "name": "get_stream_mature_content_status",
+    "description": "This is a sub-function API for tool gwyo_twitch.\nTool description: This API gives access to informations about a User / Channel, and Streams on Twitch.\nAPI description: Get Stream Mature Content Status (using username or id)\n( return an empty JSON object if not currently LIVE )",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "userid": {
+                "type": "string",
+                "description": "The Twitch username or ID of the user whose stream status is to be checked.",
+                "default": "julie"
+            }
+        },
+        "required": [
+            "userid"
+        ]
+    }
+}

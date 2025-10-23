@@ -1,0 +1,39 @@
+{
+    "name": "retrieve_owners",
+    "description": "This is a sub-function API for tool opensea_data_query.\nTool description: (Deprecated) Get opensea data without any api key\nAPI description: This endpoint is used to obtain the entire list of owners for an NFT. Results will also include the quantity owned.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "token_id": {
+                "type": "string",
+                "description": "The unique identifier of the NFT.",
+                "default": "309"
+            },
+            "asset_contract_address": {
+                "type": "string",
+                "description": "The contract address of the NFT asset.",
+                "default": "0x4372f4d950d30c6f12c7228ade77d6cc019404c9"
+            },
+            "order_by": {
+                "type": "string",
+                "description": "The field by which to sort the results. Defaults to 'created_date'."
+            },
+            "cursor": {
+                "type": "string",
+                "description": "An opaque value used for pagination to retrieve the next set of results. Defaults to None."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to return. Defaults to '20'."
+            },
+            "order_direction": {
+                "type": "string",
+                "description": "The direction to sort the results, either 'asc' for ascending or 'desc' for descending. Defaults to 'desc'."
+            }
+        },
+        "required": [
+            "token_id",
+            "asset_contract_address"
+        ]
+    }
+}

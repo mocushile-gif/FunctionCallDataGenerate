@@ -1,0 +1,14 @@
+{
+    "name": "bcaa",
+    "description": "This is a sub-function API for tool amazon_api_v2.\nTool description: Amazon_API\nAPI description: Fetches Branched-Chain Amino Acids (BCAA) product details from Amazon API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "product_name_brand": {
+                "type": "string",
+                "description": "Name or brand of the BCAA product to look up. Default is None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "get_jokes",
+    "description": "This is a sub-function API for tool jokes.\nTool description: This API provides 1536 English funny jokes.\nAPI description: Retrieve a list of jokes from an API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "Number of results per request between 0 and 30. Defaults to 20.",
+                "default": 20.0
+            },
+            "page": {
+                "type": "number",
+                "description": "Current page number for paginated results. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

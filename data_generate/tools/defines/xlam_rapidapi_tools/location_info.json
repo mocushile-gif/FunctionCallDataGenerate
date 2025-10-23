@@ -1,0 +1,17 @@
+{
+    "name": "location_info",
+    "description": "This is a sub-function API for tool foreca_weather.\nTool description: Everything you need to build a weather app\nAPI description: Retrieve metadata for a specified location using the Foreca Weather API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The location for which to retrieve metadata.",
+                "default": "101275339"
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

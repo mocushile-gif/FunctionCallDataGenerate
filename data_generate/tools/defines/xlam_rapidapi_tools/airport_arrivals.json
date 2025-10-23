@@ -1,0 +1,25 @@
+{
+    "name": "airport_arrivals",
+    "description": "This is a sub-function API for tool flight_fare_search.\nTool description: Elevate your travel game with Flight Fare Search API! Get real-time flight data, fares, and airport info for seamless travel planning. Transform your app into a powerful travel companion with Flight Fare Search.\nAPI description: Fetch the flight arrivals for a specified airport on a given date, optionally filtered by carrier.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "airportcode": {
+                "type": "string",
+                "description": "The IATA code of the airport.",
+                "default": "LHR"
+            },
+            "carriercode": {
+                "type": "string",
+                "description": "The IATA code of the airline carrier. Defaults to None."
+            },
+            "date": {
+                "type": "string",
+                "description": "The date for which to fetch the arrivals, in the format YYYY-MM-DD. Defaults to None."
+            }
+        },
+        "required": [
+            "airportcode"
+        ]
+    }
+}

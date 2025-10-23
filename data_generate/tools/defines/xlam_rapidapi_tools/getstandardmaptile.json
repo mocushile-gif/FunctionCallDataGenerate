@@ -1,0 +1,29 @@
+{
+    "name": "getstandardmaptile",
+    "description": "This is a sub-function API for tool maptiles.\nTool description: Map Tiles for interactive online maps based on data by OpenStreetMap contributors with labels in English, French or Spanish. \nAPI description: Standard tiles with labels in local language for a place (untranslated and untransliterated) as known from OpenStreetMap",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "y": {
+                "type": "number",
+                "description": "Y-number of tile (see documentation)",
+                "default": 3.0
+            },
+            "x": {
+                "type": "number",
+                "description": "X-number of tile (see documentation)",
+                "default": 6.0
+            },
+            "z": {
+                "type": "number",
+                "description": "zoom (from 0 up to zoom 19)",
+                "default": 3.0
+            }
+        },
+        "required": [
+            "y",
+            "x",
+            "z"
+        ]
+    }
+}

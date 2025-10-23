@@ -1,0 +1,21 @@
+{
+    "name": "users_favorite_get",
+    "description": "This is a sub-function API for tool songmeanings.\nTool description: Easily follow and track your favorite artists on SongMeanings!\r\nBe the first to know about new lyrics, song meanings & more!\nAPI description: Retrieve a user's favorite items from the SongMeanings API based on the specified type.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sm_uid": {
+                "type": "string",
+                "description": "The user ID for which to retrieve favorites."
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of favorites to retrieve; can be 'artists' or 'lyrics'. Defaults to 'lyrics'.",
+                "default": "lyrics"
+            }
+        },
+        "required": [
+            "sm_uid"
+        ]
+    }
+}

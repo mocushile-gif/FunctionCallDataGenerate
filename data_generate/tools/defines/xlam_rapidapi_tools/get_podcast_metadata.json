@@ -1,0 +1,17 @@
+{
+    "name": "get_podcast_metadata",
+    "description": "This is a sub-function API for tool spotify_scraper.\nTool description: An all-in-one scraper for scraping everything on Spotify, and a highly available download solution for tracks, lyrics and episode previews.\nAPI description: Fetch full details of a podcast using its Show ID from Spotify's metadata API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "showid": {
+                "type": "string",
+                "description": "The unique identifier for the podcast show.",
+                "default": "4oTBzqC3DHbaKNFq2YXpQw"
+            }
+        },
+        "required": [
+            "showid"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_quote_by_id",
+    "description": "This is a sub-function API for tool quotes_v2.\nTool description: We  provide developers with a vast collection of inspirational, thought-provoking, and entertaining quotes. \nAPI description: Fetches quote information by ID from the RapidAPI Quotes API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the quote to retrieve.",
+                "default": "10"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

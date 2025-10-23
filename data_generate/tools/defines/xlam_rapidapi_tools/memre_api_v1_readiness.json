@@ -1,0 +1,21 @@
+{
+    "name": "memre_api_v1_readiness",
+    "description": "This is a sub-function API for tool learning_engine.\nTool description: Easily integrate Memre adaptive learning software with your internal systems to optimize memory retention, build lasting knowledge, and create expertise.\nAPI description: Get the readiness status of a user for a specified item from the memre API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The ID of the user whose readiness status is being queried."
+            },
+            "item_id": {
+                "type": "string",
+                "description": "The ID of the item for which the readiness status is being queried."
+            }
+        },
+        "required": [
+            "user_id",
+            "item_id"
+        ]
+    }
+}

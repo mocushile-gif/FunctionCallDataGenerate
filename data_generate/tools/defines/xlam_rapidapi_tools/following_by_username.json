@@ -1,0 +1,25 @@
+{
+    "name": "following_by_username",
+    "description": "This is a sub-function API for tool instagram_pro.\nTool description: Insatgram API Pro Version\nAPI description: Retrieve the list of users that the specified Instagram user is following, up to 1000 records.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username for which to retrieve the following list.",
+                "default": "therock"
+            },
+            "corsenabled": {
+                "type": "string",
+                "description": "Whether CORS is enabled. Defaults to None."
+            },
+            "nextmaxid": {
+                "type": "string",
+                "description": "The next maximum ID for pagination. Defaults to None."
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

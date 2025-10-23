@@ -1,0 +1,33 @@
+{
+    "name": "web_candles",
+    "description": "This is a sub-function API for tool open_defi.\nTool description: Open DeFi API gives you access to decentralised exchange trading data, liquidity and tokens across multiple blockchains.\nAPI description: \nFetch candle data for a single trading pair.\n\nYou need to resolve the symbolic trading pair name to `pair_id` primary key with `/pairs` or `/pair-details`\nto call this API endpoint.\n\nCandle response size is limited to 10,000 candles. Only the first 10,000 candles\nsince the start timestamp is returned.\n\n[Inspired by Bitfinex API](https://docs.bitfinex.com/reference#rest-public-candles).\n",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "time_bucket": {
+                "type": "string",
+                "description": "The time bucket to use for the candle size, e.g., '1m', '5m', '1h'.",
+                "default": "1h"
+            },
+            "pair_id": {
+                "type": "number",
+                "description": "\nPrimary key for the trading pair\n\nFor tests and demos use id `1` which is ETH/USDC pair on Uniswap v2,\nas it is the first deployed Uniswap v2 compatible pool.\n",
+                "default": 1
+            },
+            "start": {
+                "type": "string",
+                "description": "\nWhen the candle fetch period starts.\n\nUse UNIX UTC timestamp, as ISO 8601 formatted string.\n[Read more information about the time format](https://docs.python.org/3/library/datetime.html#datetime.datetime.fromisoformat).\n\nIf not specific this will be resolved to now() - time_bucket * 100, or getting the last 100 candles.\n\nThis range parameter is inclusive.\n",
+                "default": "2020-05-18 00:00"
+            },
+            "end": {
+                "type": "string",
+                "description": "\nWhen the candle fetch period ends.\n\nUse UNIX UTC timestamp, as ISO 8601 formatted string.\n\nIf not specific this will be resolved to now().\n\nThis range parameter is inclusive.\n",
+                "default": "2020-05-19 00:00"
+            }
+        },
+        "required": [
+            "time_bucket",
+            "pair_id"
+        ]
+    }
+}

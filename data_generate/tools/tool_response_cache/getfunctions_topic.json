@@ -1,0 +1,25 @@
+{
+    "{'topic': 'security', 'page': 1}": {
+        "error": "",
+        "response": {
+            "functions": [
+                {
+                    "name": "USERPRINCIPALNAME",
+                    "description": "Returns the user principal name (UPN) of the current user.",
+                    "syntax": "USERPRINCIPALNAME()"
+                },
+                {
+                    "name": "HASACCESS",
+                    "description": "Checks if the current user has access to a specified workspace or dataset.",
+                    "syntax": "HASACCESS( <Workspace>, <Dataset> )"
+                },
+                {
+                    "name": "ENCODEURL",
+                    "description": "Encodes a text string for use in URLs, ensuring security and proper formatting.",
+                    "syntax": "ENCODEURL( <Text> )"
+                }
+            ],
+            "next_page": 2
+        }
+    }
+}

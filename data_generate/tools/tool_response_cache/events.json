@@ -1,0 +1,25 @@
+{
+    "{'countries': 'JP', 'is_from': '2025-06-01'}": {
+        "error": "",
+        "response": [
+            {
+                "date": "2025-06-03",
+                "event": "Japan GDP Report Q2 Preliminary",
+                "country": "JP",
+                "impact": "High"
+            },
+            {
+                "date": "2025-06-15",
+                "event": "Bank of Japan Rate Decision",
+                "country": "JP",
+                "impact": "High"
+            },
+            {
+                "date": "2025-06-20",
+                "event": "Core Consumer Price Index (May)",
+                "country": "JP",
+                "impact": "Medium"
+            }
+        ]
+    }
+}

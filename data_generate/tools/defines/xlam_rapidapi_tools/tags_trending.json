@@ -1,0 +1,17 @@
+{
+    "name": "tags_trending",
+    "description": "This is a sub-function API for tool biztoc.\nTool description: Official BizToc.com API — The Web's most comprehensive hub for business & finance news.\nAPI description: Get list of trending tags for `{page_id}`, sorted by popularity. The `{tag}` can be used for the **Tag/News** endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page_id": {
+                "type": "string",
+                "description": "The ID of the page for which to retrieve trending tags.",
+                "default": "main"
+            }
+        },
+        "required": [
+            "page_id"
+        ]
+    }
+}

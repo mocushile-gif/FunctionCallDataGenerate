@@ -1,0 +1,17 @@
+{
+    "name": "search_for_a_product",
+    "description": "This is a sub-function API for tool pricer.\nTool description: real time price comparison api \nAPI description: Searches for a product by name using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The product name or search query.",
+                "default": "iphone"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

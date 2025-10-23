@@ -1,0 +1,17 @@
+{
+    "name": "rate_word",
+    "description": "This is a sub-function API for tool humor_jokes_and_memes.\nTool description: Humor API lets you search through 50,000 jokes, over 200,000 memes, and gifs. From Chuck Norris, over Knock Knock to Yo Mama jokes, you'll find something for every occasion.\nAPI description: Rate the funniness of a word.\nSee https://humorapi.com/docs/#Rate-Word for more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "word": {
+                "type": "string",
+                "description": "The word to be rated.",
+                "default": "cookie"
+            }
+        },
+        "required": [
+            "word"
+        ]
+    }
+}

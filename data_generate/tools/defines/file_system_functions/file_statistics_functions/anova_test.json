@@ -1,0 +1,28 @@
+{
+    "name": "anova_test",
+    "description": "Perform one-way ANOVA to compare means across multiple groups. Assumes the dependent variable is normally distributed within each group.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string",
+          "description": "Path to the file containing the dataset (CSV, Excel, JSON, or JSONL)."
+        },
+        "category_col": {
+          "type": "string",
+          "description": "Name of the column containing group labels (categorical)."
+        },
+        "value_col": {
+          "type": "string",
+          "description": "Name of the column containing numeric values to compare between groups."
+        },
+        "sheet_name": {
+          "type": ["string", "integer"],
+          "description": "Sheet name or index (used only for Excel files). Default is 0.",
+          "default": 0
+        }
+      },
+      "required": ["file_path", "category_col", "value_col"]
+    }
+  }
+  

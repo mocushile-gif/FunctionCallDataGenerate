@@ -1,0 +1,16 @@
+{
+    "name": "get_latest_article_list",
+    "description": "This is a sub-function API for tool malaysia_kini.\nTool description: Live News by Malaysia Kini\nAPI description: Fetches a list of the latest news articles for a specified language from the Malaysia Kini API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "language": {
+                "type": "string",
+                "description": "The language code for which to fetch the latest news articles. Supported languages include English ('en'), Malay ('my'), and Chinese ('zh')."
+            }
+        },
+        "required": [
+            "language"
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "name": "days_from_date",
+    "description": "This is a sub-function API for tool futures.\nTool description: Get daily and historical futures prices for 26 major financial assets and their monthly futures contracts. Lithium, WTI Oil, Brent Crude, Wheat, etc.\nAPI description: This endpoint returns futures contracts for the date falling on the number of days from the date you specified. This is useful for getting contracts closest to a date without having to determine the last date the contract was traded.\n\nConsider wanting contracts for WTI Crude that were traded 30 days before Christmas 2021, with Thanksgiving in the US being November 25, which date were contracts last traded? Specifying the dateFrom parameter as \"2021-12-25\" and the daysFrom parameter as 30 removes the guess w",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The symbol for the futures contract you are interested in.",
+                "default": "CL"
+            },
+            "daysfrom": {
+                "type": "number",
+                "description": "The number of days from the reference date (`datefrom`).",
+                "default": 30.0
+            },
+            "datefrom": {
+                "type": "string",
+                "description": "The reference date in \"YYYY-MM-DD\" format from which days are counted.",
+                "default": "2021-12-25"
+            },
+            "month": {
+                "type": "number",
+                "description": "The specific month for the contract (default is 7).",
+                "default": 7.0
+            },
+            "offset": {
+                "type": "number",
+                "description": "The parameter for paginating results (default is None)."
+            },
+            "format": {
+                "type": "string",
+                "description": "The desired format for the response (default is 'json').",
+                "default": "json"
+            },
+            "inpast": {
+                "type": "boolean",
+                "description": "Set to True if looking for past contracts; False for future contracts (default is None).",
+                "default": true
+            }
+        },
+        "required": [
+            "symbol",
+            "daysfrom",
+            "datefrom"
+        ]
+    }
+}

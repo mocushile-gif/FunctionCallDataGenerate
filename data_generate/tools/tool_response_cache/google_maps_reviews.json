@@ -1,0 +1,25 @@
+{
+    "{'data_id': '0x8f6e9b8d345c2a1f:0x123456789abcdef', 'sort_by': 'newest'}": {
+        "error": "",
+        "response": {
+            "reviews": [
+                {
+                    "author": "Sarah Johnson",
+                    "rating": 5,
+                    "text": "Amazing service! The staff was incredibly helpful and the ambiance was perfect for a family dinner.",
+                    "timestamp": "2 hours ago"
+                },
+                {
+                    "author": "Michael Brown",
+                    "rating": 4,
+                    "text": "Great experience overall, though the wait time was a bit long. The food quality was exceptional.",
+                    "timestamp": "5 hours ago"
+                }
+            ],
+            "next_page_token": "CpQBEhAc...",
+            "sort_by": "newest",
+            "language": "en_us",
+            "total_reviews": 152
+        }
+    }
+}

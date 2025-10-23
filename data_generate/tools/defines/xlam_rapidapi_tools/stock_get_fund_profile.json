@@ -1,0 +1,17 @@
+{
+    "name": "stock_get_fund_profile",
+    "description": "This is a sub-function API for tool webull.\nTool description: Query public data for investment products including stocks, fractional shares, options, ETFs, and ADRs as on webull.com\nAPI description: Fetch the fund profile information for a given stock using the provided ticker ID and API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tickerid": {
+                "type": "number",
+                "description": "The value of tickerId field returned in other endpoints, such as .../stock/search or .../market/get-common-ranking or .../market/get-top-active or .../market/get-top-gainers or etc... ",
+                "default": 913285171.0
+            }
+        },
+        "required": [
+            "tickerid"
+        ]
+    }
+}

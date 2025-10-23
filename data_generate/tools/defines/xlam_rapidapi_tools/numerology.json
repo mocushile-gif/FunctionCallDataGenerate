@@ -1,0 +1,17 @@
+{
+    "name": "numerology",
+    "description": "This is a sub-function API for tool horoscope_astrology.\nTool description: The Horoscope API Server provides daily horoscope predictions for all zodiac signs. Users can access the API to retrieve daily astrological forecasts for their specific sun sign, as well as general horoscope information for the entire zodiac. The API is designed to be simple and easy to use, allowing developers to integrate horoscope content into their own applications and websites. The predictions are generated using algorithms that consider the position of the planets and other astrological...\nAPI description: Calculates the numerology information of a given name by making a request to the horoscope-astrology API using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "n": {
+                "type": "string",
+                "description": "The name for which numerology information is to be calculated.",
+                "default": "7"
+            }
+        },
+        "required": [
+            "n"
+        ]
+    }
+}

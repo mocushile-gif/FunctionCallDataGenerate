@@ -1,0 +1,15 @@
+{
+    "name": "album_metadata",
+    "description": "This is a sub-function API for tool spotify_data.\nTool description: Spotify Data\nAPI description: Fetches metadata for a specified album from the Spotify API using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The Spotify album ID. Defaults to '3IBcauSj5M2A6lTeffJzdv'.",
+                "default": "3IBcauSj5M2A6lTeffJzdv"
+            }
+        },
+        "required": []
+    }
+}

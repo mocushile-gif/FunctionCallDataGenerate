@@ -1,0 +1,41 @@
+{
+    "{'from_to': 'btc_eth'}": {
+        "error": "",
+        "response": "{'minAmount': 0.000105, 'maxAmount': None}"
+    },
+    "{'from_to': 'BTC_ETH'}": {
+        "error": "",
+        "response": {
+            "minAmount": 0.000105,
+            "maxAmount": null
+        }
+    },
+    "{'from_to': 'btc_eth', 'api_key': 'your_api_key'}": {
+        "error": "",
+        "response": "{'minAmount': 0.000105, 'maxAmount': None}"
+    },
+    "{'api_key': 'your_api_key', 'from_to': 'btc_eth'}": {
+        "error": "",
+        "response": "{'minAmount': 4.434e-05, 'maxAmount': None}"
+    },
+    "{'api_key': 'your_api_key', 'from_to': 'ltc_eth'}": {
+        "error": "",
+        "response": "{'minAmount': 0.0073039, 'maxAmount': None}"
+    },
+    "{'from_to': 'eth_btc'}": {
+        "error": "",
+        "response": "{'minAmount': 0.00044084, 'maxAmount': None}"
+    },
+    "{'from_to': 'eth_xrp'}": {
+        "error": "",
+        "response": "{'minAmount': 0.00010691, 'maxAmount': None}"
+    },
+    "{'from_to': 'eth_ada'}": {
+        "error": "",
+        "response": "{'minAmount': 0.00109398, 'maxAmount': None}"
+    },
+    "{'from_to': 'eth_sol'}": {
+        "error": "",
+        "response": "{'minAmount': 0.00016903, 'maxAmount': None}"
+    }
+}

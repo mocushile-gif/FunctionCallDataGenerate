@@ -1,0 +1,20 @@
+{
+    "name": "get_voice",
+    "description": "This is a sub-function API for tool anime_voice_waifu_ai_api.\nTool description: With this app, you can easily convert Japanese text to voice\nAPI description: Generates a voice response from the given text using the Anime Voice Waifu AI via RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "description": "The text to be converted into voice."
+            },
+            "speaker": {
+                "type": "string",
+                "description": "The speaker's voice to use for conversion. Defaults to None."
+            }
+        },
+        "required": [
+            "text"
+        ]
+    }
+}

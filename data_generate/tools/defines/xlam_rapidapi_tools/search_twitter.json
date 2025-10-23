@@ -1,0 +1,33 @@
+{
+    "name": "search_twitter",
+    "description": "This is a sub-function API for tool twitter_v5.\nTool description: Introducing a powerful Twitter API with 14 endpoints to help you access valuable Twitter data. With our API, you can easily retrieve user followers and followings, post likes, comments, quoted tweets, and retweets. You can also search for top, latest, videos, photos, and people, and access user tweets, replies, media, likes, and info by username or ID. Additionally, our autocomplete function helps you complete typed values with ease. Get started with our Twitter API today!\nAPI description: Search Twitter based on the specified type, count, and query criteria, with optional cursor for pagination and API key for authorization.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of search to perform (Top, Latest, Videos, Photos, or People).",
+                "default": "Top"
+            },
+            "count": {
+                "type": "string",
+                "description": "The number of search results to return.",
+                "default": "20"
+            },
+            "query": {
+                "type": "string",
+                "description": "The search query string.",
+                "default": "Mr Beast"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "The cursor for pagination to fetch the next set of results. Defaults to None."
+            }
+        },
+        "required": [
+            "type",
+            "count",
+            "query"
+        ]
+    }
+}

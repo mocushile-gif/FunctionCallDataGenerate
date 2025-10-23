@@ -1,0 +1,26 @@
+{
+    "name": "webcams_list_property_property_property",
+    "description": "This is a sub-function API for tool webcams_travel.\nTool description: The World's Largest Landscape Webcam API ***** Get webcams by categories, country, region or just nearby your location ***** Get timelapse slideshows for every webcam ***** Get an uncluttered webcam layer for your map\nAPI description: This is a modifier. Returns a list of webcams according to the listed {property}. Multiple {property} must be separated by comma. Required: at least one {property}. Possible values are \"editors\" (featured from the editors), \"hd\" (high resolution webcams), and \"live\" (webcams with a live stream).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "property": {
+                "type": "string",
+                "description": "The property to filter webcams by. Multiple properties can be separated by comma. Possible values are \"editors\" (featured from the editors), \"hd\" (high resolution webcams), and \"live\" (webcams with a live stream). At least one property is required."
+            },
+            "lang": {
+                "type": "string",
+                "description": "Localizes the results to the specified language, if available. Default is 'en'.",
+                "default": "en"
+            },
+            "show": {
+                "type": "string",
+                "description": "Specifies the content to be listed in the response. Possible values are \"webcams\", \"categories\", \"continents\", \"countries\", \"regions\", \"properties\". Default is 'webcams:image,location'.",
+                "default": "webcams:image,location"
+            }
+        },
+        "required": [
+            "property"
+        ]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "{'country': 'CN', 'year': 2023}": {
+        "error": "",
+        "response": {
+            "request": {
+                "country": "China",
+                "country_code": "CN",
+                "year": 2023
+            },
+            "response": {
+                "holidays": {
+                    "2023-01-01": "New Year's Day",
+                    "2023-01-22": "Chinese New Year (Spring Festival)",
+                    "2023-01-23": "Chinese New Year (Spring Festival)",
+                    "2023-01-24": "Chinese New Year (Spring Festival)",
+                    "2023-04-05": "Tomb-Sweeping Day",
+                    "2023-05-01": "Labour Day",
+                    "2023-06-22": "Dragon Boat Festival",
+                    "2023-09-29": "Mid-Autumn Festival",
+                    "2023-10-01": "National Day",
+                    "2023-10-02": "National Day",
+                    "2023-10-03": "National Day"
+                }
+            }
+        }
+    },
+    "{'country': 'Japan', 'year': 2024}": {
+        "error": "",
+        "response": "{'request': {'country': 'Japan', 'country_code': 'JP', 'year': 2024}, 'response': {'holidays': {'2024-01-01': '\u5143\u65e5', '2024-01-08': '\u6210\u4eba\u306e\u65e5', '2024-02-11': '\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5', '2024-02-12': '\u632f\u66ff\u4f11\u65e5', '2024-02-23': '\u5929\u7687\u8a95\u751f\u65e5', '2024-03-20': '\u6625\u5206\u306e\u65e5', '2024-04-29': '\u662d\u548c\u306e\u65e5', '2024-05-03': '\u61b2\u6cd5\u8a18\u5ff5\u65e5', '2024-05-04': '\u307f\u3069\u308a\u306e\u65e5', '2024-05-05': '\u3053\u3069\u3082\u306e\u65e5', '2024-05-06': '\u632f\u66ff\u4f11\u65e5', '2024-07-15': '\u6d77\u306e\u65e5', '2024-08-11': '\u5c71\u306e\u65e5', '2024-08-12': '\u632f\u66ff\u4f11\u65e5', '2024-09-16': '\u656c\u8001\u306e\u65e5', '2024-09-22': '\u79cb\u5206\u306e\u65e5', '2024-09-23': '\u632f\u66ff\u4f11\u65e5', '2024-10-14': '\u30b9\u30dd\u30fc\u30c4\u306e\u65e5', '2024-11-03': '\u6587\u5316\u306e\u65e5', '2024-11-04': '\u632f\u66ff\u4f11\u65e5', '2024-11-23': '\u52e4\u52b4\u611f\u8b1d\u306e\u65e5'}}}"
+    },
+    "{'country': 'USA', 'year': 2025}": {
+        "error": "",
+        "response": "{'request': {'country': 'United States', 'country_code': 'US', 'year': 2025}, 'response': {'holidays': {'2025-01-01': \"New Year's Day\", '2025-01-20': 'Martin Luther King Jr. Day', '2025-02-17': \"Washington's Birthday\", '2025-05-26': 'Memorial Day', '2025-06-19': 'Juneteenth National Independence Day', '2025-07-04': 'Independence Day', '2025-09-01': 'Labor Day', '2025-10-13': 'Columbus Day', '2025-11-11': 'Veterans Day', '2025-11-27': 'Thanksgiving', '2025-12-25': 'Christmas Day'}}}"
+    },
+    "{'country': 'USA', 'year': 2026}": {
+        "error": "",
+        "response": "{'request': {'country': 'United States', 'country_code': 'US', 'year': 2026}, 'response': {'holidays': {'2026-01-01': \"New Year's Day\", '2026-01-19': 'Martin Luther King Jr. Day', '2026-02-16': \"Washington's Birthday\", '2026-05-25': 'Memorial Day', '2026-06-19': 'Juneteenth National Independence Day', '2026-07-03': 'Independence Day (Observed)', '2026-07-04': 'Independence Day', '2026-09-07': 'Labor Day', '2026-10-12': 'Columbus Day', '2026-11-11': 'Veterans Day', '2026-11-26': 'Thanksgiving', '2026-12-25': 'Christmas Day'}}}"
+    },
+    "{'country': 'United States', 'year': 2024}": {
+        "error": "",
+        "response": "{'request': {'country': 'United States', 'country_code': 'US', 'year': 2024}, 'response': {'holidays': {'2024-01-01': \"New Year's Day\", '2024-01-15': 'Martin Luther King Jr. Day', '2024-02-19': \"Washington's Birthday\", '2024-05-27': 'Memorial Day', '2024-06-19': 'Juneteenth National Independence Day', '2024-07-04': 'Independence Day', '2024-09-02': 'Labor Day', '2024-10-14': 'Columbus Day', '2024-11-11': 'Veterans Day', '2024-11-28': 'Thanksgiving', '2024-12-25': 'Christmas Day'}}}"
+    },
+    "{'country': 'Germany', 'year': 2024}": {
+        "error": "",
+        "response": "{'request': {'country': 'Germany', 'country_code': 'DE', 'year': 2024}, 'response': {'holidays': {'2024-01-01': 'Neujahr', '2024-03-29': 'Karfreitag', '2024-04-01': 'Ostermontag', '2024-05-01': 'Erster Mai', '2024-05-09': 'Christi Himmelfahrt', '2024-05-20': 'Pfingstmontag', '2024-10-03': 'Tag der Deutschen Einheit', '2024-12-25': 'Erster Weihnachtstag', '2024-12-26': 'Zweiter Weihnachtstag'}}}"
+    },
+    "{'country': 'Canada', 'year': 2023}": {
+        "error": "",
+        "response": "{'request': {'country': 'Canada', 'country_code': 'CA', 'year': 2023}, 'response': {'holidays': {'2023-01-01': \"New Year's Day\", '2023-01-02': \"New Year's Day (Observed)\", '2023-02-20': 'Family Day', '2023-04-07': 'Good Friday', '2023-04-10': 'Easter Monday', '2023-05-22': 'Victoria Day', '2023-07-01': 'Canada Day', '2023-07-03': 'Canada Day (Observed)', '2023-08-07': 'Civic Holiday', '2023-09-04': 'Labour Day', '2023-10-09': 'Thanksgiving', '2023-12-25': 'Christmas Day', '2023-12-26': 'Boxing Day'}}}"
+    },
+    "{'country': 'Vietnam', 'year': 2025}": {
+        "error": "",
+        "response": "{'request': {'country': 'Viet Nam', 'country_code': 'VN', 'year': 2025}, 'response': {'holidays': {'2025-01-01': \"International New Year's Day\", '2025-01-28': \"Vietnamese New Year's Eve\", '2025-01-29': 'Vietnamese New Year', '2025-01-30': 'The second day of Tet Holiday', '2025-01-31': 'The third day of Tet Holiday', '2025-02-01': 'The forth day of Tet Holiday', '2025-02-02': 'The fifth day of Tet Holiday', '2025-04-07': 'Hung Kings Commemoration Day', '2025-04-30': 'Liberation Day/Reunification Day', '2025-05-01': 'International Labor Day', '2025-09-02': 'Independence Day'}}}"
+    },
+    "{'country': 'India', 'year': 2025}": {
+        "error": "",
+        "response": "{'request': {'country': 'India', 'country_code': 'IN', 'year': 2025}, 'response': {'holidays': {'2025-01-14': 'Makar Sankranti / Pongal', '2025-01-26': 'Republic Day', '2025-03-14': 'Holi', '2025-05-01': 'Labour Day', '2025-08-15': 'Independence Day', '2025-10-02': 'Gandhi Jayanti', '2025-10-21': 'Diwali', '2025-12-25': 'Christmas'}}}"
+    },
+    "{'country': 'Canada', 'year': 2025}": {
+        "error": "",
+        "response": "{'request': {'country': 'Canada', 'country_code': 'CA', 'year': 2025}, 'response': {'holidays': {'2025-01-01': \"New Year's Day\", '2025-02-17': 'Family Day', '2025-04-18': 'Good Friday', '2025-04-21': 'Easter Monday', '2025-05-19': 'Victoria Day', '2025-07-01': 'Canada Day', '2025-08-04': 'Civic Holiday', '2025-09-01': 'Labour Day', '2025-10-13': 'Thanksgiving', '2025-12-25': 'Christmas Day', '2025-12-26': 'Boxing Day'}}}"
+    }
+}

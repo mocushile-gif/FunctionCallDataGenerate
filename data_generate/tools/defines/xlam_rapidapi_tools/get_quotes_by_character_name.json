@@ -1,0 +1,22 @@
+{
+    "name": "get_quotes_by_character_name",
+    "description": "This is a sub-function API for tool anime_quotes_v4.\nTool description: An API for serving high-quality anime quotes\nAPI description: Fetch quotes from the Anime Quotes API for a given character name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the character for whom to fetch quotes.",
+                "default": "Naruto"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve, used for pagination. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "leagueeventsbyroundandslug",
+    "description": "This is a sub-function API for tool handballapi.\nTool description: HandballAPI offers a schedule for live matches and results for top national and international leagues and tournaments. Handball World championship, handball European championship, handball Champions league, LNH Division 1, EHF European league and other leagues are all covered.\nAPI description: Fetches match details for a specified round and slug in a handball unique tournament season.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The round slug.",
+                "default": "quarterfinal"
+            },
+            "tournamentid": {
+                "type": "number",
+                "description": "The unique tournament ID for which you want to retrieve the league's events.",
+                "default": 30
+            },
+            "round": {
+                "type": "number",
+                "description": "The round number.",
+                "default": 27
+            },
+            "seasonid": {
+                "type": "number",
+                "description": "The season ID for which you want to retrieve the league's events.",
+                "default": 42851
+            }
+        },
+        "required": [
+            "slug",
+            "tournamentid",
+            "round",
+            "seasonid"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "geocode_v1_json",
+    "description": "This is a sub-function API for tool opencage_geocoder.\nTool description: Worldwide forward and reverse address geocoding. Uses multiple geocoders, based on open data.\nAPI description: Fetches geocoding information from the OpenCage Geocoder API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "A query string that can be either specific coordinates (\"latitude,longitude\") or an address.",
+                "default": "Berlin"
+            },
+            "key": {
+                "type": "string",
+                "description": "The API key obtained from registering at https://geocoder.opencagedata.com/.",
+                "default": "OPENCAGE-API-Key"
+            },
+            "language": {
+                "type": "string",
+                "description": "an IETF format language code (such as es for Spanish or pt-BR for Brazilian Portuguese); if this is omitted a code of en (English) will be assumed",
+                "default": "en"
+            }
+        },
+        "required": [
+            "q",
+            "key"
+        ]
+    }
+}

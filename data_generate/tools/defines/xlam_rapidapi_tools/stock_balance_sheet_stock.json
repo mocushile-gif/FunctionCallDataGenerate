@@ -1,0 +1,17 @@
+{
+    "name": "stock_balance_sheet_stock",
+    "description": "This is a sub-function API for tool mboum_finance.\nTool description: Mboum Finance Official API for stocks, options, ETFs, mutual funds, SEC Data, news, screeners and more! \nAPI description: Fetches the balance sheet data for a given stock symbol using the mboum-finance API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to retrieve balance sheet data.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

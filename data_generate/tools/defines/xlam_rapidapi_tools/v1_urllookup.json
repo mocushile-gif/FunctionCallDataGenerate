@@ -1,0 +1,17 @@
+{
+    "name": "v1_urllookup",
+    "description": "This is a sub-function API for tool url_lookup_by_api_ninjas.\nTool description: Lookup location information for any URL domain. See more info at https://api-ninjas.com/api/urllookup.\nAPI description: Queries the API Ninjas URL Lookup endpoint to retrieve information about a given URL.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The valid URL to check. It supports schemes (e.g. http://example.com) as well as schemeless (e.g. example.com) formats.",
+                "default": "https://example.com"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

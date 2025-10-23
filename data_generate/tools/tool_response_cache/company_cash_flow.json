@@ -1,0 +1,140 @@
+{
+    "{'symbol': 'AAPL:NASDAQ', 'period': 'QUARTERLY'}": {
+        "error": "",
+        "response": {
+            "status": "OK",
+            "request_id": "cec04e25-7147-4a27-b5a7-cbe181a25de2",
+            "data": {
+                "symbol": "AAPL:NASDAQ",
+                "type": "stock",
+                "cash_flow": [
+                    {
+                        "year": 2023,
+                        "quarter": 2,
+                        "currency": "USD",
+                        "net_income": 24160000000,
+                        "cash_from_operations": 28560000000,
+                        "cash_from_investing": 2319000000,
+                        "cash_from_financing": -25724000000,
+                        "net_change_in_cash": 5155000000,
+                        "free_cash_flow": 21864500000
+                    },
+                    {
+                        "year": 2023,
+                        "quarter": 1,
+                        "currency": "USD",
+                        "net_income": 29998000000,
+                        "cash_from_operations": 34005000000,
+                        "cash_from_investing": -1445000000,
+                        "cash_from_financing": -35563000000,
+                        "net_change_in_cash": -3003000000,
+                        "free_cash_flow": 28190125000
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 4,
+                        "currency": "USD",
+                        "net_income": 20721000000,
+                        "cash_from_operations": 24127000000,
+                        "cash_from_investing": -1217000000,
+                        "cash_from_financing": -26794000000,
+                        "net_change_in_cash": -3884000000,
+                        "free_cash_flow": 20182875000
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 3,
+                        "currency": "USD",
+                        "net_income": 19442000000,
+                        "cash_from_operations": 22892000000,
+                        "cash_from_investing": 4234000000,
+                        "cash_from_financing": -27445000000,
+                        "net_change_in_cash": -319000000,
+                        "free_cash_flow": 13559125000
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 2,
+                        "currency": "USD",
+                        "net_income": 25010000000,
+                        "cash_from_operations": 28166000000,
+                        "cash_from_investing": -9265000000,
+                        "cash_from_financing": -28351000000,
+                        "net_change_in_cash": -9450000000,
+                        "free_cash_flow": 22797000000
+                    },
+                    {
+                        "year": 2022,
+                        "quarter": 1,
+                        "currency": "USD",
+                        "net_income": 34630000000,
+                        "cash_from_operations": 46966000000,
+                        "cash_from_investing": -16106000000,
+                        "cash_from_financing": -28159000000,
+                        "net_change_in_cash": 2701000000,
+                        "free_cash_flow": 33676250000
+                    },
+                    {
+                        "year": 2021,
+                        "quarter": 4,
+                        "currency": "USD",
+                        "net_income": 20551000000,
+                        "cash_from_operations": 20200000000,
+                        "cash_from_investing": 835000000,
+                        "cash_from_financing": -20382000000,
+                        "net_change_in_cash": 653000000,
+                        "free_cash_flow": 13312250000
+                    },
+                    {
+                        "year": 2021,
+                        "quarter": 3,
+                        "currency": "USD",
+                        "net_income": 21744000000,
+                        "cash_from_operations": 21094000000,
+                        "cash_from_investing": 3572000000,
+                        "cash_from_financing": -29396000000,
+                        "net_change_in_cash": -4730000000,
+                        "free_cash_flow": 14599125000
+                    }
+                ],
+                "period": "QUARTERLY"
+            }
+        }
+    },
+    "{'period': 'QUARTERLY', 'symbol': 'MSFT:NASDAQ'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'c7aab739-6781-4a28-b405-ff9339c3077a', 'data': {'symbol': 'MSFT:NASDAQ', 'type': 'stock', 'cash_flow': [{'date': '2024-6-30', 'year': 2024, 'month': 6, 'day': 30, 'quarter': 4, 'currency': 'USD', 'net_income': 22036000000, 'cash_from_operations': 37195000000, 'cash_from_investing': -14848000000, 'cash_from_financing': -23563000000, 'net_change_in_cash': -1319000000, 'free_cash_flow': 12843500000}, {'date': '2024-3-31', 'year': 2024, 'month': 3, 'day': 31, 'quarter': 3, 'currency': 'USD', 'net_income': 21939000000, 'cash_from_operations': 31917000000, 'cash_from_investing': -10700000000, 'cash_from_financing': -18808000000, 'net_change_in_cash': 2329000000, 'free_cash_flow': 16965250000}, {'date': '2024-12-31', 'year': 2024, 'month': 12, 'day': 31, 'quarter': 2, 'currency': 'USD', 'net_income': 21870000000, 'cash_from_operations': 18853000000, 'cash_from_investing': -71925000000, 'cash_from_financing': -10147000000, 'net_change_in_cash': -63147000000, 'free_cash_flow': 8727375000}, {'date': '2024-9-30', 'year': 2024, 'month': 9, 'day': 30, 'quarter': 1, 'currency': 'USD', 'net_income': 22291000000, 'cash_from_operations': 30583000000, 'cash_from_investing': 503000000, 'cash_from_financing': 14761000000, 'net_change_in_cash': 45748000000, 'free_cash_flow': 18169125000}, {'date': '2023-6-30', 'year': 2023, 'month': 6, 'day': 30, 'quarter': 4, 'currency': 'USD', 'net_income': 20081000000, 'cash_from_operations': 28770000000, 'cash_from_investing': -9134000000, 'cash_from_financing': -11413000000, 'net_change_in_cash': 8142000000, 'free_cash_flow': 17636250000}, {'date': '2023-3-31', 'year': 2023, 'month': 3, 'day': 31, 'quarter': 3, 'currency': 'USD', 'net_income': 18299000000, 'cash_from_operations': 24441000000, 'cash_from_investing': -3264000000, 'cash_from_financing': -10290000000, 'net_change_in_cash': 10916000000, 'free_cash_flow': 13553250000}, {'date': '2023-12-31', 'year': 2023, 'month': 12, 'day': 31, 'quarter': 2, 'currency': 'USD', 'net_income': 16425000000, 'cash_from_oper"
+    },
+    "{'period': 'QUARTERLY', 'symbol': 'TSLA:NASDAQ'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'd21747b8-831a-428f-8817-12e00ff6cf50', 'data': {'symbol': 'TSLA:NASDAQ', 'type': 'stock', 'cash_flow': [{'date': '2025-3-31', 'year': 2025, 'month': 3, 'day': 31, 'quarter': 1, 'currency': 'USD', 'net_income': 409000000, 'cash_from_operations': 2156000000, 'cash_from_investing': -1651000000, 'cash_from_financing': -332000000, 'net_change_in_cash': 213000000, 'free_cash_flow': 1299250000}, {'date': '2024-12-31', 'year': 2024, 'month': 12, 'day': 31, 'quarter': 4, 'currency': 'USD', 'net_income': 2317000000, 'cash_from_operations': 4814000000, 'cash_from_investing': -7603000000, 'cash_from_financing': 985000000, 'net_change_in_cash': -1937000000, 'free_cash_flow': -772625000}, {'date': '2024-9-30', 'year': 2024, 'month': 9, 'day': 30, 'quarter': 3, 'currency': 'USD', 'net_income': 2167000000, 'cash_from_operations': 6255000000, 'cash_from_investing': -2875000000, 'cash_from_financing': 132000000, 'net_change_in_cash': 3620000000, 'free_cash_flow': 2230625000}, {'date': '2024-6-30', 'year': 2024, 'month': 6, 'day': 30, 'quarter': 2, 'currency': 'USD', 'net_income': 1478000000, 'cash_from_operations': 3612000000, 'cash_from_investing': -3225000000, 'cash_from_financing': 2540000000, 'net_change_in_cash': 2890000000, 'free_cash_flow': 602750000}, {'date': '2024-3-31', 'year': 2024, 'month': 3, 'day': 31, 'quarter': 1, 'currency': 'USD', 'net_income': 1390000000, 'cash_from_operations': 242000000, 'cash_from_investing': -5084000000, 'cash_from_financ"
+    },
+    "{'language': 'en', 'period': 'ANNUAL', 'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '77e94919-4f9d-44c7-b096-6dcf6e650b73', 'data': {'symbol': 'TSLA:NASDAQ', 'type': 'stock', 'cash_flow': [{'date': '2024-12-31', 'year': 2024, 'month': 12, 'day': 31, 'currency': 'USD', 'net_income': 7091000000, 'cash_from_operations': 14923000000, 'cash_from_investing': -18787000000, 'cash_from_financing': 3853000000, 'net_change_in_cash': -152000000, 'free_cash_flow': -826875000}, {'date': '2023-12-31', 'year': 2023, 'month': 12, 'day': 31, 'currency': 'USD', 'net_income': 14997000000, 'cash_from_operations': 13256000000, 'cash_from_investing': -15584000000, 'cash_from_financing': 2589000000, 'net_change_in_cash': 265000000, 'free_cash_flow': 2230375000}, {'date': '2022-12-31', 'year': 2022, 'month': 12, 'day': 31, 'currency': 'USD', 'net_income': 12556000000, 'cash_from_operations': 14724000000, 'cash_from_investing': -11973000000, 'cash_from_financing': -3527000000, 'net_change_in_cash': -1220000000, 'free_cash_flow': 4004125000}, {'date': '2021-12-31', 'year': 2021, 'month': 12, 'day': 31, 'currency': 'USD', 'net_income': 5519000000, 'cash_from_operations': 11497000000, 'cash_from_investing': -7868000000, 'cash_from_financing': -5203000000, 'net_change_in_cash': -1757000000, 'free_cash_flow': 6221000000}, {'date': '2020-12-31', 'year': 2020, 'month': 12, 'day': 31, 'currency': 'USD', 'net_income': 721000000, 'cash_from_operations': 5943000000, 'cash_from_investing': -3132000000, 'cash_from_financing': 9973000000, 'net_change_in_cash': 131180"
+    },
+    "{'language': 'en', 'period': 'ANNUAL', 'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '6cf94f11-7689-402d-bfa9-f94bf7b11cbe', 'data': {'symbol': 'AAPL:NASDAQ', 'type': 'stock', 'cash_flow': [{'date': '2024-9-28', 'year': 2024, 'month': 9, 'day': 28, 'currency': 'USD', 'net_income': 93736000000, 'cash_from_operations': 118254000000, 'cash_from_investing': 2935000000, 'cash_from_financing': -121983000000, 'net_change_in_cash': -794000000, 'free_cash_flow': 110846000000}, {'date': '2023-9-30', 'year': 2023, 'month': 9, 'day': 30, 'currency': 'USD', 'net_income': 96995000000, 'cash_from_operations': 110543000000, 'cash_from_investing': 3705000000, 'cash_from_financing': -108488000000, 'net_change_in_cash': 5760000000, 'free_cash_flow': 84638125000}, {'date': '2022-9-24', 'year': 2022, 'month': 9, 'day': 24, 'currency': 'USD', 'net_income': 99803000000, 'cash_from_operations': 122151000000, 'cash_from_investing': -22354000000, 'cash_from_financing': -110749000000, 'net_change_in_cash': -10952000000, 'free_cash_flow': 92047125000}, {'date': '2021-9-25', 'year': 2021, 'month': 9, 'day': 25, 'currency': 'USD', 'net_income': 94680000000, 'cash_from_operations': 104038000000, 'cash_from_investing': -14545000000, 'cash_from_financing': -93353000000, 'net_change_in_cash': -3860000000, 'free_cash_flow': 73295000000}, {'date': '2020-9-26', 'year': 2020, 'month': 9, 'day': 26, 'currency': 'USD', 'net_income': 57411000000, 'cash_from_operations': 80674000000, 'cash_from_investing': -4289000000, 'cash_from_financing': -86820000000, 'net_change_in_cash': -10435000000, 'free_cash_flow': 60387375000}, {'date': '2019-9-28', 'year': 2019, 'month': 9, 'day': 28, 'currency': 'USD', 'net_income': 55256000000, 'cash_from_operations': 69391000000, 'cash_from_investing': 45896000000, 'cash_from_financing': -90976000000, 'net_change_in_cash': 24311000000, 'free_cash_flow': 42914250000}, {'date': '2018-9-29', 'year': 2018, 'month': 9, 'day': 29, 'currency': 'USD', 'net_income': 59531000000, 'cash_from_operations': 77434000000, 'cash_from_investing': 16066000000, 'cash_from_financing': -8787600000"
+    },
+    "{'language': 'en', 'period': 'ANNUAL', 'symbol': 'MSFT'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '01ec6e27-cd7f-4b14-a3c0-03866e7906cb', 'data': {'symbol': 'MSFT:NASDAQ', 'type': 'stock', 'cash_flow': [{'date': '2024-6-30', 'year': 2024, 'month': 6, 'day': 30, 'currency': 'USD', 'net_income': 88136000000, 'cash_from_operations': 118548000000, 'cash_from_investing': -96970000000, 'cash_from_financing': -37757000000, 'net_change_in_cash': -16389000000, 'free_cash_flow': 56705250000}, {'date': '2023-6-30', 'year': 2023, 'month': 6, 'day': 30, 'currency': 'USD', 'net_income': 72361000000, 'cash_from_operations': 87582000000, 'cash_from_investing': -22680000000, 'cash_from_financing': -43935000000, 'net_change_in_cash': 20773000000, 'free_cash_flow': 47364000000}, {'date': '2022-6-30', 'year': 2022, 'month': 6, 'day': 30, 'currency': 'USD', 'net_income': 72738000000, 'cash_from_operations': 89035000000, 'cash_from_investing': -30311000000, 'cash_from_financing': -58876000000, 'net_change_in_cash': -293000000, 'free_cash_flow': 49479000000}, {'date': '2021-6-30', 'year': 2021, 'month': 6, 'day': 30, 'currency': 'USD', 'net_income': 61271000000, 'cash_from_operations': 76740000000, 'cash_from_investing': -27577000000, 'cash_from_financing': -48486000000, 'net_change_in_cash': 648000000, 'free_cash_flow': 41337250000}, {'date': '2020-6-30', 'year': 2020, 'month': 6, 'day': 30, 'currency': 'USD', 'net_income': 44281000000, 'cash_from_operations': 60675000000, 'cash_from_investing': -12223000000, 'cash_from_financing': -46031000000, 'net_change_in_cash': 2220000000, 'free_cash_flow': 34258000000}, {'date': '2019-6-30', 'year': 2019, 'month': 6, 'day': 30, 'currency': 'USD', 'net_income': 39240000000, 'cash_from_operations': 52185000000, 'cash_from_investing': -15773000000, 'cash_from_financing': -36887000000, 'net_change_in_cash': -590000000, 'free_cash_flow': 30932625000}, {'date': '2018-6-30', 'year': 2018, 'month': 6, 'day': 30, 'currency': 'USD', 'net_income': 16571000000, 'cash_from_operations': 43884000000, 'cash_from_investing': -6061000000, 'cash_from_financing': -33590000000, 'n"
+    },
+    "{'period': 'QUARTERLY', 'symbol': 'TSLA:NASDAQ', 'language': 'en'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '28fa3267-8a98-4c15-b507-4d32b34b4bdf', 'data': {'symbol': 'TSLA:NASDAQ', 'type': 'stock', 'cash_flow': [{'date': '2025-3-31', 'year': 2025, 'month': 3, 'day': 31, 'quarter': 1, 'currency': 'USD', 'net_income': 409000000, 'cash_from_operations': 2156000000, 'cash_from_investing': -1651000000, 'cash_from_financing': -332000000, 'net_change_in_cash': 213000000, 'free_cash_flow': 1299250000}, {'date': '2024-12-31', 'year': 2024, 'month': 12, 'day': 31, 'quarter': 4, 'currency': 'USD', 'net_income': 2317000000, 'cash_from_operations': 4814000000, 'cash_from_investing': -7603000000, 'cash_from_financing': 985000000, 'net_change_in_cash': -1937000000, 'free_cash_flow': -772625000}, {'date': '2024-9-30', 'year': 2024, 'month': 9, 'day': 30, 'quarter': 3, 'currency': 'USD', 'net_income': 2167000000, 'cash_from_operations': 6255000000, 'cash_from_investing': -2875000000, 'cash_from_financing': 132000000, 'net_change_in_cash': 3620000000, 'free_cash_flow': 2230625000}, {'date': '2024-6-30', 'year': 2024, 'month': 6, 'day': 30, 'quarter': 2, 'currency': 'USD', 'net_income': 1478000000, 'cash_from_operations': 3612000000, 'cash_from_investing': -3225000000, 'cash_from_financing': 2540000000, 'net_change_in_cash': 2890000000, 'free_cash_flow': 602750000}, {'date': '2024-3-31', 'year': 2024, 'month': 3, 'day': 31, 'quarter': 1, 'currency': 'USD', 'net_income': 1390000000, 'cash_from_operations': 242000000, 'cash_from_investing': -5084000000, 'cash_from_financ"
+    },
+    "{'language': 'es', 'period': 'QUARTERLY', 'symbol': 'TSLA:NASDAQ'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': '8eae82e3-58c9-43e8-9e89-eea8a26f0f05', 'data': {'symbol': 'TSLA:NASDAQ', 'type': 'stock', 'cash_flow': [{'date': '2025-3-31', 'year': 2025, 'month': 3, 'day': 31, 'quarter': 1, 'currency': 'USD', 'net_income': 409000000, 'cash_from_operations': 2156000000, 'cash_from_investing': -1651000000, 'cash_from_financing': -332000000, 'net_change_in_cash': 213000000, 'free_cash_flow': 1299250000}, {'date': '2024-12-31', 'year': 2024, 'month': 12, 'day': 31, 'quarter': 4, 'currency': 'USD', 'net_income': 2317000000, 'cash_from_operations': 4814000000, 'cash_from_investing': -7603000000, 'cash_from_financing': 985000000, 'net_change_in_cash': -1937000000, 'free_cash_flow': -772625000}, {'date': '2024-9-30', 'year': 2024, 'month': 9, 'day': 30, 'quarter': 3, 'currency': 'USD', 'net_income': 2167000000, 'cash_from_operations': 6255000000, 'cash_from_investing': -2875000000, 'cash_from_financing': 132000000, 'net_change_in_cash': 3620000000, 'free_cash_flow': 2230625000}, {'date': '2024-6-30', 'year': 2024, 'month': 6, 'day': 30, 'quarter': 2, 'currency': 'USD', 'net_income': 1478000000, 'cash_from_operations': 3612000000, 'cash_from_investing': -3225000000, 'cash_from_financing': 2540000000, 'net_change_in_cash': 2890000000, 'free_cash_flow': 602750000}, {'date': '2024-3-31', 'year': 2024, 'month': 3, 'day': 31, 'quarter': 1, 'currency': 'USD', 'net_income': 1390000000, 'cash_from_operations': 242000000, 'cash_from_investing': -5084000000, 'cash_from_financ"
+    },
+    "{'language': 'en', 'period': 'QUARTERLY', 'symbol': 'AAPL:NASDAQ'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'd5e5e4a8-3738-4d88-a8f9-b8cc5f8521d9', 'data': {'symbol': 'AAPL:NASDAQ', 'type': 'stock', 'cash_flow': [{'date': '2025-3-29', 'year': 2025, 'month': 3, 'day': 29, 'quarter': 2, 'currency': 'USD', 'net_income': 24780000000, 'cash_from_operations': 23952000000, 'cash_from_investing': 2917000000, 'cash_from_financing': -29006000000, 'net_change_in_cash': -2137000000, 'free_cash_flow': 24027125000}, {'date': '2025-12-28', 'year': 2025, 'month': 12, 'day': 28, 'quarter': 1, 'currency': 'USD', 'net_income': 36330000000, 'cash_from_operations': 29935000000, 'cash_from_investing': 9792000000, 'cash_from_financing': -39371000000, 'net_change_in_cash': 356000000, 'free_cash_flow': 16188000000}, {'date': '2024-9-28', 'year': 2024, 'month': 9, 'day': 28, 'quarter': 4, 'currency': 'USD', 'net_income': 14736000000, 'cash_from_operations': 26811000000, 'cash_from_investing': 1445000000, 'cash_from_financing': -24948000000, 'net_change_in_cash': 3308000000, 'free_cash_flow': 34538375000}, {'date': '2024-6-29', 'year': 2024, 'month': 6, 'day': 29, 'quarter': 3, 'currency': 'USD', 'net_income': 21448000000, 'cash_from_operations': 28858000000, 'cash_from_investing': -127000000, 'cash_from_financing': -36017000000, 'net_change_in_cash': -7286000000, 'free_cash_flow': 22498000000}, {'date': '2024-3-30', 'year': 2024, 'month': 3, 'day': 30, 'quarter': 2, 'currency': 'USD', 'net_income': 23636000000, 'cash_from_operations': 22690000000, 'cash_from_investing': -31000"
+    },
+    "{'language': 'en', 'period': 'QUARTERLY', 'symbol': 'MSFT:NASDAQ'}": {
+        "error": "",
+        "response": "{'status': 'OK', 'request_id': 'e2c69a03-36da-46b4-ba62-81d3d169556a', 'data': {'symbol': 'MSFT:NASDAQ', 'type': 'stock', 'cash_flow': [{'date': '2025-3-31', 'year': 2025, 'month': 3, 'day': 31, 'quarter': 3, 'currency': 'USD', 'net_income': 25824000000, 'cash_from_operations': 37044000000, 'cash_from_investing': -12714000000, 'cash_from_financing': -13036000000, 'net_change_in_cash': 11346000000, 'free_cash_flow': 19824125000}, {'date': '2025-12-31', 'year': 2025, 'month': 12, 'day': 31, 'quarter': 2, 'currency': 'USD', 'net_income': 24108000000, 'cash_from_operations': 22291000000, 'cash_from_investing': -14112000000, 'cash_from_financing': -11243000000, 'net_change_in_cash': -3358000000, 'free_cash_flow': -595375000}, {'date': '2025-9-30', 'year': 2025, 'month': 9, 'day': 30, 'quarter': 1, 'currency': 'USD', 'net_income': 24667000000, 'cash_from_operations': 34180000000, 'cash_from_investing': -15201000000, 'cash_from_financing': -16576000000, 'net_change_in_cash': 2525000000, 'free_cash_flow': 22744750000}, {'date': '2024-6-30', 'year': 2024, 'month': 6, 'day': 30, 'quarter': 4, 'currency': 'USD', 'net_income': 22036000000, 'cash_from_operations': 37195000000, 'cash_from_investing': -14848000000, 'cash_from_financing': -23563000000, 'net_change_in_cash': -1319000000, 'free_cash_flow': 12843500000}, {'date': '2024-3-31', 'year': 2024, 'month': 3, 'day': 31, 'quarter': 3, 'currency': 'USD', 'net_income': 21939000000, 'cash_from_operations': 31917000000, 'cash_from_investing"
+    }
+}

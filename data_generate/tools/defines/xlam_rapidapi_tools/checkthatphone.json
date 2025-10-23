@@ -1,0 +1,22 @@
+{
+    "name": "checkthatphone",
+    "description": "This is a sub-function API for tool checkthatphone.\nTool description: Real-time phone validation and data lookup for U.S. numbers. \nAll-in-one: carrier look-up, line type, portability status, geoIP, timezone, and routing.\nAPI description: Validates a given United States phone number and optionally checks its details like carrier look-up, line type, portability status, geoIP, and timezone using an external API service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone": {
+                "type": "string",
+                "description": "The United States phone number to validate.",
+                "default": "8182925409"
+            },
+            "ip": {
+                "type": "string",
+                "description": "The IP address to associate with the request. Defaults to '172.95.90.55'.",
+                "default": "172.95.90.55"
+            }
+        },
+        "required": [
+            "phone"
+        ]
+    }
+}

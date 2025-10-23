@@ -1,0 +1,22 @@
+{
+    "name": "search_by_name",
+    "description": "This is a sub-function API for tool advanced_movie_search.\nTool description: Search for movies via advanced queries like genre, name, etc. And get all their details\nAPI description: Searches for a movie by its title using the provided query string.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The movie title or keyword to search for.",
+                "default": "kong"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number of results to retrieve. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

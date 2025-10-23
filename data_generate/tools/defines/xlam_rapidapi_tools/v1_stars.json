@@ -1,0 +1,47 @@
+{
+    "name": "v1_stars",
+    "description": "This is a sub-function API for tool stars_by_api_ninjas.\nTool description: Get key statistics for thousands of stars discovered in the known universe. See more info at https://api-ninjas.com/api/stars.\nAPI description: Fetches a list of stars matching specified parameters with a maximum of 30 results per request. To access more than 30 results, use the offset parameter to paginate through multiple API calls.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "min_distance_light_year": {
+                "type": "number",
+                "description": "Minimum distance of the star from Earth in light years."
+            },
+            "min_apparent_magnitude": {
+                "type": "number",
+                "description": "Minimum apparent magnitude (brightness) of the star."
+            },
+            "constellation": {
+                "type": "number",
+                "description": "Identifier of the constellation the star belongs to."
+            },
+            "max_apparent_magnitude": {
+                "type": "number",
+                "description": "Maximum apparent magnitude (brightness) of the star."
+            },
+            "offset": {
+                "type": "number",
+                "description": "number of results to offset for pagination."
+            },
+            "name": {
+                "type": "string",
+                "description": "Name of the star. Note that many star names contain Greek characters. Default is 'vega'.",
+                "default": "vega"
+            },
+            "max_absolute_magnitude": {
+                "type": "number",
+                "description": "Maximum absolute magnitude (brightness) of the star."
+            },
+            "min_absolute_magnitude": {
+                "type": "number",
+                "description": "Minimum absolute magnitude (brightness) of the star."
+            },
+            "max_distance_light_year": {
+                "type": "number",
+                "description": "Maximum distance of the star from Earth in light years."
+            }
+        },
+        "required": []
+    }
+}

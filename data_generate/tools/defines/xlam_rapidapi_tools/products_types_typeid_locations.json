@@ -1,0 +1,16 @@
+{
+    "name": "products_types_typeid_locations",
+    "description": "This is a sub-function API for tool national_weather_service.\nTool description: National Weather Service API (api.weather.gov) NOAA (National Oceanic and Atmospheric Administration) provides national weather data as well as past data.\nAPI description: A list of locations that have issues products for a type. Example: /products/types/AFD/locations",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "typeid": {
+                "type": "string",
+                "description": "typeId: an id of a valid product type (list forthcoming)"
+            }
+        },
+        "required": [
+            "typeid"
+        ]
+    }
+}

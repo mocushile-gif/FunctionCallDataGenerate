@@ -1,0 +1,17 @@
+{
+    "name": "categoryflag",
+    "description": "This is a sub-function API for tool esportapi.\nTool description: ESportApi offers eSports results for League of Legends, Dota 2, Counter-Strike providing also eSports standings and tournament live scores.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Fetches the flag image of a specific category in PNG format from the Motorsport API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "flag": {
+                "type": "string",
+                "description": "The name of the flag category to fetch.",
+                "default": "jp"
+            }
+        },
+        "required": [
+            "flag"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "title_title",
+    "description": "This is a sub-function API for tool poetry_db.\nTool description: PoetryDB is the world's first API for Next Generation internet poets\nAPI description: Fetches all poems from Poetry DB that match the specified title.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string",
+                "description": "The title of the poem, or part of the title, to search for in the Poetry DB.",
+                "default": "Sonnet 18"
+            }
+        },
+        "required": [
+            "title"
+        ]
+    }
+}

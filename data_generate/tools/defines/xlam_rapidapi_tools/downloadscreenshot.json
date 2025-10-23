@@ -1,0 +1,17 @@
+{
+    "name": "downloadscreenshot",
+    "description": "This is a sub-function API for tool helioviewer_v1.\nTool description: Helioviewer is an open-source project for the visualization of solar and heliospheric data, funded by ESA and NASA.\nAPI description: Download a custom screenshot (that was generated using the `takeScreenshot` API endpoint).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "Unique screenshot identifier (provided by the response to a `takeScreenshot` request).",
+                "default": 3240748.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

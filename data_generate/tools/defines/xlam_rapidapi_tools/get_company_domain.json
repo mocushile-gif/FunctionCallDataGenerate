@@ -1,0 +1,17 @@
+{
+    "name": "get_company_domain",
+    "description": "This is a sub-function API for tool company_domain_finder.\nTool description: Finds the matching domain given a company name\nAPI description: Retrieve the domain associated with a given company name using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "company_name": {
+                "type": "string",
+                "description": "The name of the company whose domain is to be retrieved.",
+                "default": "vercel"
+            }
+        },
+        "required": [
+            "company_name"
+        ]
+    }
+}

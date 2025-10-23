@@ -1,0 +1,68 @@
+{
+    "name": "text_qr_code",
+    "description": "This is a sub-function API for tool scanova_qr_code.\nTool description: Scanova QR Code API lets you generate custom-designed Branded QR Codes in bulk programmatically in your own mobile application or information system within few minutes.\nAPI description: This request returns a Static QR Code (standard or custom-designed) encoded with specified text. When scanned, the QR Code prompts the scanning device to display the text.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "data": {
+                "type": "string",
+                "description": "The text to be encoded in the QR code.",
+                "default": "Word"
+            },
+            "size": {
+                "type": "string",
+                "description": "The size of the QR code.",
+                "default": "m"
+            },
+            "data_gradient_end_color": {
+                "type": "string",
+                "description": "The end color for the data gradient. Defaults to '#000000'.",
+                "default": "#000000"
+            },
+            "eye_pattern": {
+                "type": "string",
+                "description": "The pattern of the eye modules of the QR code. Defaults to 'RECT_RECT'.",
+                "default": "RECT_RECT"
+            },
+            "data_pattern": {
+                "type": "string",
+                "description": "The pattern of the data modules of the QR code. Defaults to 'RECT'.",
+                "default": "RECT"
+            },
+            "data_gradient_start_color": {
+                "type": "string",
+                "description": "The start color for the data gradient. Defaults to '#000000'.",
+                "default": "#000000"
+            },
+            "error_correction": {
+                "type": "string",
+                "description": "The error correction level. Defaults to 'M'.",
+                "default": "M"
+            },
+            "data_gradient_style": {
+                "type": "string",
+                "description": "The style of the data gradient. Defaults to 'None'.",
+                "default": "None"
+            },
+            "eye_color_inner": {
+                "type": "string",
+                "description": "The inner color of the eye modules. Defaults to '#000000'.",
+                "default": "#000000"
+            },
+            "eye_color_outer": {
+                "type": "string",
+                "description": "The outer color of the eye modules. Defaults to '#000000'.",
+                "default": "#000000"
+            },
+            "background_color": {
+                "type": "string",
+                "description": "The background color of the QR code. Defaults to '#FFFFFF'.",
+                "default": "#FFFFFF"
+            }
+        },
+        "required": [
+            "data",
+            "size"
+        ]
+    }
+}

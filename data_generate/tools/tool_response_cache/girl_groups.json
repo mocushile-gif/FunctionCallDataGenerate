@@ -1,0 +1,124 @@
+{
+    "{'q': 'girl groups', 'limit': 100, 'offset': 0}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "message": "Data fetched successfully",
+            "data": [],
+            "count": 0
+        }
+    },
+    "{'q': 'girl groups', 'by': 'Company', 'limit': 10, 'offset': 0}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "message": "Data fetched successfully",
+            "data": [],
+            "count": 0
+        }
+    },
+    "{'q': 'ChoColat', 'by': 'Group Name'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "message": "Data fetched successfully",
+            "data": [
+                {
+                    "Group Profile": null,
+                    "Group Name": "ChoColat",
+                    "Short Group Name": null,
+                    "Korean Name": "\uc1fc\ucf5c\ub77c",
+                    "Date of Debut": "2011-08-16",
+                    "Company": "Paramount",
+                    "Members": "5",
+                    "Orginal Members": "5",
+                    "Fanclub Name": "Chocolatier",
+                    "Active": "No"
+                }
+            ],
+            "count": 1
+        }
+    },
+    "{'q': 'ChoColat'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "message": "Data fetched successfully",
+            "data": [
+                {
+                    "Group Profile": null,
+                    "Group Name": "ChoColat",
+                    "Short Group Name": null,
+                    "Korean Name": "\uc1fc\ucf5c\ub77c",
+                    "Date of Debut": "2011-08-16",
+                    "Company": "Paramount",
+                    "Members": "5",
+                    "Orginal Members": "5",
+                    "Fanclub Name": "Chocolatier",
+                    "Active": "No"
+                }
+            ],
+            "count": 1
+        }
+    },
+    "{'q': 'ChoColat', 'by': 'Group Name', 'limit': 1}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "message": "Data fetched successfully",
+            "data": [
+                {
+                    "Group Profile": null,
+                    "Group Name": "ChoColat",
+                    "Short Group Name": null,
+                    "Korean Name": "\uc1fc\ucf5c\ub77c",
+                    "Date of Debut": "2011-08-16",
+                    "Company": "Paramount",
+                    "Members": "5",
+                    "Orginal Members": "5",
+                    "Fanclub Name": "Chocolatier",
+                    "Active": "No"
+                }
+            ],
+            "count": 1
+        }
+    },
+    "{'q': 'Blackpink'}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "message": "Data fetched successfully",
+            "data": [
+                {
+                    "Group Profile": null,
+                    "Group Name": "BLACKPINK",
+                    "Short Group Name": null,
+                    "Korean Name": "\ube14\ub799\ud551\ud06c",
+                    "Date of Debut": "2016-08-08",
+                    "Company": "YG",
+                    "Members": "4",
+                    "Orginal Members": "4",
+                    "Fanclub Name": null,
+                    "Active": "Yes"
+                }
+            ],
+            "count": 1
+        }
+    },
+    "{'q': 'HYBE Corporation', 'by': 'Company'}": {
+        "error": "",
+        "response": "{'status': 'success', 'message': 'Data fetched successfully', 'data': [], 'count': 0}"
+    },
+    "{'q': 'Big Hit Music', 'by': 'Company'}": {
+        "error": "",
+        "response": "{'status': 'success', 'message': 'Data fetched successfully', 'data': [], 'count': 0}"
+    },
+    "{'q': 'Pledis Entertainment', 'by': 'Company'}": {
+        "error": "",
+        "response": "{'status': 'success', 'message': 'Data fetched successfully', 'data': [], 'count': 0}"
+    },
+    "{'q': 'Twice', 'by': 'Group Name', 'limit': 1}": {
+        "error": "",
+        "response": "{'status': 'success', 'message': 'Data fetched successfully', 'data': [{'Group Profile': 'https://dbkpop.com/group/twice/', 'Group Name': 'TWICE', 'Short Group Name': None, 'Korean Name': '\ud2b8\uc640\uc774\uc2a4', 'Date of Debut': '2015-10-20', 'Company': 'JYP', 'Members': '9', 'Orginal Members': '9', 'Fanclub Name': 'Once', 'Active': 'Yes'}], 'count': 1}"
+    }
+}

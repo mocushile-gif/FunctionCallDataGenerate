@@ -1,0 +1,14 @@
+{
+    "name": "us_az",
+    "description": "This is a sub-function API for tool us_gas_prices.\nTool description: Simplest and most comprehensive API for average gas price data in the US.\nAPI description: Returns current gas price data for Arizona. Historical data starting from 2023-06-01 can be queried by adding the `date` parameter to this endpoint. In order to return XML instead of the default JSON format, simply add the `Accept: application/xml` header to your request.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for historical gas price data in the format 'YYYY-MM-DD'. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

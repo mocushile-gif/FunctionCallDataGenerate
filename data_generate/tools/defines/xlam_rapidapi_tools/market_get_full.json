@@ -1,0 +1,17 @@
+{
+    "name": "market_get_full",
+    "description": "This is a sub-function API for tool bb_finance.\nTool description: This API helps to query for all information about finance summary, stocks, quotes, movers, etc… to create a financial site/application such as bloomberg.com\nAPI description: Retrieves comprehensive information about specified stock tickers using the Bloomberg Finance API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "A comma-separated string of ticker IDs corresponding to the desired stocks. These IDs are returned by the `/market/auto-complete` endpoint.",
+                "default": "adsmi:ind,aex:ind,co1:com,gc1:com"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

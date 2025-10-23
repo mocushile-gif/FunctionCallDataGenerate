@@ -1,0 +1,17 @@
+{
+    "name": "competitions_id",
+    "description": "This is a sub-function API for tool zeus_api.\nTool description: This API returns information on the 5 major European football leagues.\nGet standings, matches, scorers and more.\nAPI description: Retrieves information about a specific competition using its ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the competition to be retrieved.",
+                "default": "LAL"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "estimate_market_value",
+    "description": "This is a sub-function API for tool car_utils.\nTool description: FREE resources for checking VIN, getting the market value of your car, estimating the cost of ownership in US,  checking fuel economy, and more to come.\nAPI description: Estimates the market value of a car given its VIN and optionally its mileage using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vin": {
+                "type": "string",
+                "description": "[Vehicle identification number](https://www.autocheck.com/vehiclehistory/vin-basics).",
+                "default": "5N3AA08D68N901917"
+            },
+            "mileage": {
+                "type": "number",
+                "description": "Current mileage of the car.  If unspecified, an estimate will be used.",
+                "default": 50000.0
+            }
+        },
+        "required": [
+            "vin"
+        ]
+    }
+}

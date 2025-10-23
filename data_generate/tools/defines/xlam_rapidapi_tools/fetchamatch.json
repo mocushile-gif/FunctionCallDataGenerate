@@ -1,0 +1,41 @@
+{
+    "name": "fetchamatch",
+    "description": "This is a sub-function API for tool cleardil.\nTool description: The End-to-End KYC compliance solution An integrated platform to effortlessly meet all your Anti-Money Laundering and KYC requirements - on the back of a modern Web Portal and a developer-friendly API.\nAPI description: Fetches match details from the specified screening and customer IDs using the provided API credentials.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "authorization": {
+                "type": "string",
+                "description": "Authorization token for the API.",
+                "default": "Bearer {{accessTokenUser}}"
+            },
+            "content_type": {
+                "type": "string",
+                "description": "The content type for the request.",
+                "default": "application/json"
+            },
+            "customer_a_id": {
+                "type": "string",
+                "description": "The customer ID for whom the match is being fetched.",
+                "default": "customer_a_id"
+            },
+            "match_1_id": {
+                "type": "string",
+                "description": "The ID of the match to fetch details for.",
+                "default": "match_1_id"
+            },
+            "screening_a_id": {
+                "type": "string",
+                "description": "The ID of the screening in which the match was found.",
+                "default": "screening_a_id"
+            }
+        },
+        "required": [
+            "authorization",
+            "content_type",
+            "customer_a_id",
+            "match_1_id",
+            "screening_a_id"
+        ]
+    }
+}

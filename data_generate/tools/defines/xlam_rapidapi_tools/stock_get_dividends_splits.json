@@ -1,0 +1,17 @@
+{
+    "name": "stock_get_dividends_splits",
+    "description": "This is a sub-function API for tool webull.\nTool description: Query public data for investment products including stocks, fractional shares, options, ETFs, and ADRs as on webull.com\nAPI description: Fetches stock dividends and splits data for a given ticker ID using the Webull API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tickerid": {
+                "type": "number",
+                "description": "The ticker ID of the stock for which to fetch dividends and splits data. This is the value of the tickerId field returned from endpoints such as /stock/search, /market/get-common-ranking, /market/get-top-active, and /market/get-top-gainers.",
+                "default": 913255598.0
+            }
+        },
+        "required": [
+            "tickerid"
+        ]
+    }
+}

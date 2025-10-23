@@ -1,0 +1,17 @@
+{
+    "name": "get_user_playlists",
+    "description": "This is a sub-function API for tool spotify_v2.\nTool description: Get Spotify Tracks & Playlist Details\nAPI description: Fetch all public playlists of a specific user from the Spotify API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "user_id": {
+                "type": "string",
+                "description": "The ID of the user whose playlists are to be fetched.",
+                "default": "cruilla"
+            }
+        },
+        "required": [
+            "user_id"
+        ]
+    }
+}

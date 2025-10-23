@@ -1,0 +1,159 @@
+{
+    "{'q': 'Miami Beach'}": {
+        "error": "",
+        "response": [
+            {
+                "id": "4164143",
+                "geonameId": 4164143,
+                "type": "CITY",
+                "name": "Miami Beach",
+                "population": 92312,
+                "elevation": 1,
+                "timezoneId": "America/New_York",
+                "country": {
+                    "id": "US",
+                    "geonameId": 6252001,
+                    "name": "United States of America"
+                },
+                "adminDivision1": {
+                    "id": "US.FL",
+                    "geonameId": 4155751,
+                    "name": "Florida"
+                },
+                "adminDivision2": {
+                    "id": "US.FL.086",
+                    "geonameId": 4164238,
+                    "name": "Miami-Dade County"
+                },
+                "score": 25.125807,
+                "coordinates": {
+                    "latitude": 25.7906,
+                    "longitude": -80.1301
+                }
+            },
+            {
+                "id": "4166233",
+                "geonameId": 4166233,
+                "type": "CITY",
+                "name": "North Miami Beach",
+                "population": 43971,
+                "elevation": 3,
+                "timezoneId": "America/New_York",
+                "country": {
+                    "id": "US",
+                    "geonameId": 6252001,
+                    "name": "United States of America"
+                },
+                "adminDivision1": {
+                    "id": "US.FL",
+                    "geonameId": 4155751,
+                    "name": "Florida"
+                },
+                "adminDivision2": {
+                    "id": "US.FL.086",
+                    "geonameId": 4164238,
+                    "name": "Miami-Dade County"
+                },
+                "score": 24.803719,
+                "coordinates": {
+                    "latitude": 25.9331,
+                    "longitude": -80.1626
+                }
+            },
+            {
+                "id": "4174383",
+                "geonameId": 4174383,
+                "type": "CITY",
+                "name": "Sunny Isles Beach",
+                "population": 22123,
+                "elevation": 1,
+                "timezoneId": "America/New_York",
+                "country": {
+                    "id": "US",
+                    "geonameId": 6252001,
+                    "name": "United States of America"
+                },
+                "adminDivision1": {
+                    "id": "US.FL",
+                    "geonameId": 4155751,
+                    "name": "Florida"
+                },
+                "adminDivision2": {
+                    "id": "US.FL.086",
+                    "geonameId": 4164238,
+                    "name": "Miami-Dade County"
+                },
+                "score": 8.344864,
+                "coordinates": {
+                    "latitude": 25.9506,
+                    "longitude": -80.1228
+                }
+            },
+            {
+                "id": "4156918",
+                "geonameId": 4156918,
+                "type": "CITY",
+                "name": "Golden Beach",
+                "population": 972,
+                "elevation": 0,
+                "timezoneId": "America/New_York",
+                "country": {
+                    "id": "US",
+                    "geonameId": 6252001,
+                    "name": "United States of America"
+                },
+                "adminDivision1": {
+                    "id": "US.FL",
+                    "geonameId": 4155751,
+                    "name": "Florida"
+                },
+                "adminDivision2": {
+                    "id": "US.FL.086",
+                    "geonameId": 4164238,
+                    "name": "Miami-Dade County"
+                },
+                "score": 6.988113,
+                "coordinates": {
+                    "latitude": 25.9651,
+                    "longitude": -80.1223
+                }
+            }
+        ]
+    },
+    "{'type': 'COUNTRY'}": {
+        "error": "",
+        "response": []
+    },
+    "{'q': 'tech', 'type': 'CITY,COUNTRY', 'limit': 10, 'country': 'US,CA,IN,DE'}": {
+        "error": "",
+        "response": "[{'id': '4904056', 'geonameId': 4904056, 'type': 'CITY', 'name': 'Northbrook', 'population': 33663, 'elevation': 197, 'timezoneId': 'America/Chicago', 'country': {'id': 'US', 'geonameId': 6252001, 'name': 'United States of America'}, 'adminDivision1': {'id': 'US.IL', 'geonameId': 4896861, 'name': 'Illinois'}, 'adminDivision2': {'id': 'US.IL.031', 'geonameId': 4888671, 'name': 'Cook'}, 'score': 8.527166, 'coordinates': {'latitude': 42.12753, 'longitude': -87.82895}}, {'id': '4315342', 'geonameId': 4315342, 'type': 'CITY', 'name': 'Baldwin', 'population': 2345, 'elevation': 5, 'timezoneId': 'America/Chicago', 'country': {'id': 'US', 'geonameId': 6252001, 'name': 'United States of America'}, 'adminDivision1': {'id': 'US.LA', 'geonameId': 4331987, 'name': 'Louisiana'}, 'adminDivision2': {'id': 'US.LA.101', 'geonameId': 4340232, 'name': 'Saint Mary Parish'}, 'score': 7.370328, 'coordinates': {'latitude': 29.83798, 'longitude': -91.54428}}, {'id': '2823737', 'geonameId': 2823737, 'type': 'CITY', 'name': 'Techentin', 'population': 629, 'elevation': 75, 'timezoneId': 'Europe/Berlin', 'country': {'id': 'DE', 'geonameId': 2921044, 'name': 'Germany'}, 'adminDivision1': {'id': 'DE.12', 'geonameId': 2872567, 'name': 'Mecklenburg-Vorpommern'}, 'score': 6.7993402, 'coordinates': {'latitude': 53.58731, 'longitude': 11.9878}}, {'id': '2823740', 'geonameId': 2823740, 'type': 'CITY', 'name': 'Techelsdorf', 'population': 163, 'elevation': 39, 'timezoneId': 'Europe/Berlin', 'country': {'id': 'DE', 'geonameId': 2921044, 'name': 'Germany'}, 'adminDivision1': {'id': 'DE.10', 'geonameId': 2838632, 'name': 'Schleswig-Holstein'}, 'score': 6.2148438, 'coordinates': {'latitude': 54.21667, 'longitude': 10.05}}]"
+    },
+    "{'q': 'Tennis', 'type': 'CITY', 'country': '', 'limit': 10}": {
+        "error": "",
+        "response": "[{'id': '2953325', 'geonameId': 2953325, 'type': 'CITY', 'name': 'Bad Tennstedt', 'population': 2480, 'elevation': 172, 'timezoneId': 'Europe/Berlin', 'country': {'id': 'DE', 'geonameId': 2921044, 'name': 'Germany'}, 'adminDivision1': {'id': 'DE.15', 'geonameId': 2822542, 'name': 'Free State of Thuringia'}, 'score': 7.3946266, 'coordinates': {'latitude': 51.15447, 'longitude': 10.83873}}]"
+    },
+    "{'q': 'Melbourne', 'type': 'CITY', 'country': 'AU', 'limit': 1}": {
+        "error": "",
+        "response": "[{'id': '2158177', 'geonameId': 2158177, 'type': 'CITY', 'name': 'Melbourne', 'population': 4246375, 'elevation': 25, 'timezoneId': 'Australia/Melbourne', 'country': {'id': 'AU', 'geonameId': 2077456, 'name': 'Australia'}, 'adminDivision1': {'id': 'AU.07', 'geonameId': 2145234, 'name': 'Victoria'}, 'adminDivision2': {'id': 'AU.07.24600', 'geonameId': 7839805, 'name': 'Melbourne'}, 'score': 11.628018, 'coordinates': {'latitude': -37.814, 'longitude': 144.96332}}]"
+    },
+    "{'q': 'Paris', 'type': 'CITY', 'country': 'FR', 'limit': 1}": {
+        "error": "",
+        "response": "[{'id': '2988507', 'geonameId': 2988507, 'type': 'CITY', 'name': 'Paris', 'population': 2138551, 'elevation': 42, 'timezoneId': 'Europe/Paris', 'country': {'id': 'FR', 'geonameId': 3017382, 'name': 'France'}, 'adminDivision1': {'id': 'FR.11', 'geonameId': 3012874, 'name': '\u00cele-de-France Region'}, 'adminDivision2': {'id': 'FR.11.75', 'geonameId': 2968815, 'name': 'Paris'}, 'score': 12.33012, 'coordinates': {'latitude': 48.85341, 'longitude': 2.3488}}]"
+    },
+    "{'q': 'London', 'type': 'CITY', 'country': 'GB', 'limit': 1}": {
+        "error": "",
+        "response": "[{'id': '2643743', 'geonameId': 2643743, 'type': 'CITY', 'name': 'London', 'population': 8961989, 'elevation': 25, 'timezoneId': 'Europe/London', 'country': {'id': 'GB', 'geonameId': 2635167, 'name': 'United Kingdom'}, 'adminDivision1': {'id': 'GB.ENG', 'geonameId': 6269131, 'name': 'England'}, 'adminDivision2': {'id': 'GB.ENG.GLA', 'geonameId': 2648110, 'name': 'Greater London'}, 'score': 11.878344, 'coordinates': {'latitude': 51.50853, 'longitude': -0.12574}}]"
+    },
+    "{'q': 'Indian Wells', 'type': 'CITY', 'country': 'US', 'limit': 1}": {
+        "error": "",
+        "response": "[{'id': '5359426', 'geonameId': 5359426, 'type': 'CITY', 'name': 'Indian Wells', 'population': 5289, 'elevation': 27, 'timezoneId': 'America/Los_Angeles', 'country': {'id': 'US', 'geonameId': 6252001, 'name': 'United States of America'}, 'adminDivision1': {'id': 'US.CA', 'geonameId': 5332921, 'name': 'California'}, 'adminDivision2': {'id': 'US.CA.065', 'geonameId': 5387890, 'name': 'Riverside'}, 'score': 56.44037, 'coordinates': {'latitude': 33.71791, 'longitude': -116.34311}}]"
+    },
+    "{'q': 'Cincinnati', 'type': 'CITY', 'country': 'US', 'limit': 1}": {
+        "error": "",
+        "response": "[{'id': '4508722', 'geonameId': 4508722, 'type': 'CITY', 'name': 'Cincinnati', 'population': 296943, 'elevation': 191, 'timezoneId': 'America/New_York', 'country': {'id': 'US', 'geonameId': 6252001, 'name': 'United States of America'}, 'adminDivision1': {'id': 'US.OH', 'geonameId': 5165418, 'name': 'Ohio'}, 'adminDivision2': {'id': 'US.OH.061', 'geonameId': 4513583, 'name': 'Hamilton'}, 'score': 9.472674, 'coordinates': {'latitude': 39.12711, 'longitude': -84.51439}}]"
+    },
+    "{'q': 'New', 'country': 'US', 'type': 'CITY'}": {
+        "error": "",
+        "response": "[{'id': '5128581', 'geonameId': 5128581, 'type': 'CITY', 'name': 'New York', 'population': 8804190, 'elevation': 10, 'timezoneId': 'America/New_York', 'country': {'id': 'US', 'geonameId': 6252001, 'name': 'United States of America'}, 'adminDivision1': {'id': 'US.NY', 'geonameId': 5128638, 'name': 'New York'}, 'score': 11.912495, 'coordinates': {'latitude': 40.71427, 'longitude': -74.00597}}, {'id': '5120034', 'geonameId': 5120034, 'type': 'CITY', 'name': 'Harlem', 'population': 116345, 'elevation': 8, 'timezoneId': 'America/New_York', 'country': {'id': 'US', 'geonameId': 6252001, 'name': 'United States of America'}, 'adminDivision1': {'id': 'US.NY', 'geonameId': 5128638, 'name': 'New York'}, 'adminDivision2': {'id': 'US.NY.061', 'geonameId': 5128594, 'name': 'New York County'}, 'score': 11.258303, 'coordinates': {'latitude': 40.80788, 'longitude': -73.94542}}, {'id': '5391811', 'geonameId': 5391811, 'type': 'CITY', 'name': 'San Diego', 'population': 1394928, 'elevation': 20, 'timezoneId': 'America/Los_Angeles', 'country': {'id': 'US', 'geonameId': 6252001, 'name': 'United States of America'}, 'adminDivision1': {'id': 'US.CA', 'geonameId': 5332921, 'name': 'California'}, 'adminDivision2': {'id': 'US.CA.073', 'geonameId': 5391832, 'name': 'San Diego County'}, 'score': 11.144552, 'coordinates': {'latitude': 32.71571, 'longitude': -117.16472}}, {'id': '5391959', 'geonameId': 5391959, 'type': 'CITY', 'name': 'San Francisco', 'population': 864816, 'elevation': 16, 'timezoneId': 'Am"
+    }
+}

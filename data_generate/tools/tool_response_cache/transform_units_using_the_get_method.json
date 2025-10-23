@@ -1,0 +1,44 @@
+{
+    "{}": {
+        "error": "",
+        "response": "{\"from\":\"Square kilometer\",\"to\":\"Square mile\",\"input\":1,\"result\":0.386102}"
+    },
+    "{'value': 10, 'is_from': 'speed', 'to': 'temperature'}": {
+        "error": "",
+        "response": {
+            "message": "invalid unit"
+        }
+    },
+    "{'is_from': 'Square kilometer', 'to': 'Square mile', 'type': 'area', 'value': 50}": {
+        "error": "",
+        "response": "{'from': 'Square kilometer', 'to': 'Square mile', 'input': 50, 'result': 19.305108}"
+    },
+    "{'value': 5.0, 'is_from': 'Square kilometer', 'to': 'Square mile', 'type': 'area'}": {
+        "error": "",
+        "response": "{'from': 'Square kilometer', 'to': 'Square mile', 'input': 5, 'result': 1.930511}"
+    },
+    "{'value': 15.0, 'to': 'Square mile', 'type': 'area', 'is_from': 'Square kilometer'}": {
+        "error": "",
+        "response": "{'from': 'Square kilometer', 'to': 'Square mile', 'input': 15, 'result': 5.791532}"
+    },
+    "{'is_from': 'Square kilometer', 'to': 'Square mile', 'type': 'area', 'value': 3.0}": {
+        "error": "",
+        "response": "{'from': 'Square kilometer', 'to': 'Square mile', 'input': 3, 'result': 1.158306}"
+    },
+    "{'is_from': 'Acre', 'to': 'Hectare', 'type': 'area', 'value': 15.0}": {
+        "error": "",
+        "response": "{'from': 'Acre', 'to': 'Hectare', 'input': 15, 'result': 6.070285}"
+    },
+    "{'is_from': 'Square kilometer', 'to': 'Square mile', 'type': 'area', 'value': 301338}": {
+        "error": "",
+        "response": "{'from': 'Square kilometer', 'to': 'Square mile', 'input': 301338, 'result': 116347.251817}"
+    },
+    "{'is_from': 'Square kilometer', 'to': 'Square mile', 'type': 'area', 'value': 200}": {
+        "error": "",
+        "response": "{'from': 'Square kilometer', 'to': 'Square mile', 'input': 200, 'result': 77.220431}"
+    },
+    "{'value': 5, 'is_from': 'liter', 'to': 'gallon', 'type': 'volume'}": {
+        "error": "",
+        "response": "{'message': 'invalid unit'}"
+    }
+}

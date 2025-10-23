@@ -1,0 +1,35 @@
+{
+    "name": "v1_worldtime",
+    "description": "This is a sub-function API for tool world_time_by_api_ninjas.\nTool description: Get the current time for any location in the world. See more info at https://api-ninjas.com/api/worldtime\nAPI description: API Ninjas World Time API endpoint. Returns the current date and time by city/state/country, location coordinates (latitude/longitude), or timezone.\n\nOne of the following parameter combinations must be set:\nlat + lon,\ncity (state and country optional),\ntimezone",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "timezone": {
+                "type": "string",
+                "description": "Timezone of the desired location (e.g., 'Europe/London')."
+            },
+            "lon": {
+                "type": "string",
+                "description": "Longitude of the desired location."
+            },
+            "lat": {
+                "type": "string",
+                "description": "Latitude of the desired location."
+            },
+            "state": {
+                "type": "string",
+                "description": "US state name or 2-letter abbreviation (for United States cities only)."
+            },
+            "country": {
+                "type": "string",
+                "description": "Country name or 2-letter country code."
+            },
+            "city": {
+                "type": "string",
+                "description": "City name.",
+                "default": "London"
+            }
+        },
+        "required": []
+    }
+}

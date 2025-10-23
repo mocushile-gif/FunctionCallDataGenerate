@@ -1,0 +1,17 @@
+{
+    "name": "search_results",
+    "description": "This is a sub-function API for tool youtube_search_unlimited.\nTool description: Get YouTube Search Results Without API Key or Quota Restrictions\nAPI description: Get Top 22 YouTube Search Results with Video ID, URL, Thumbnail, Title & Duration. No API Key/No Quota Limits",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search query string to use for retrieving YouTube search results.",
+                "default": "interview preparation"
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

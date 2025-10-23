@@ -1,0 +1,20 @@
+{
+    "name": "list_target_languages",
+    "description": "This is a sub-function API for tool textking_translation.\nTool description: The TEXTKING Translation API is a RESTful web service to access and manage translation projects on https://www.textking.com. You can use the translation API to integrate high quality human translation into your own software and streamline your translation workflow.\nAPI description: Retrieves a paginated list of target languages from the API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "Return search results starting at a given page. Used for paging through more than one page of results.",
+                "default": 1.0
+            },
+            "per_page": {
+                "type": "number",
+                "description": "An integer value defining how many entries should be returned. Only values between 1 and 100 (both inclusive) are allowed. If not given, this defaults to 100.",
+                "default": 100.0
+            }
+        },
+        "required": []
+    }
+}

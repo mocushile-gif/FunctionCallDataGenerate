@@ -1,0 +1,15 @@
+{
+    "name": "getrandomuser",
+    "description": "This is a sub-function API for tool random_chunk_api.\nTool description: A simple random picker for names, movies, TV shows, quotes, and numbers. A simple JSON object, user object, and array generator.\nAPI description: Fetches random user data such as name, e-mail, etc., from the specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "count": {
+                "type": "number",
+                "description": "The number of user records to retrieve. Defaults to -2 if not specified.",
+                "default": -2.0
+            }
+        },
+        "required": []
+    }
+}

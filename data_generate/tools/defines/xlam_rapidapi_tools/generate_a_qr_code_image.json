@@ -1,0 +1,53 @@
+{
+    "name": "generate_a_qr_code_image",
+    "description": "This is a sub-function API for tool qrickit_qr_code_qreator.\nTool description: Dynamically generate QR Codes  (URL, Calendar Events, Contact, Text, Email, etc,) for integration in your own website, applications, and other business or personal usage.\nAPI description: Format of GET request to generate QR Code image. See documentation at https://qrickit.com/qrickit_apps/qrickit_api.php",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "d": {
+                "type": "string",
+                "description": "Data for QR Code (e.g. URL, text, vCard data, iCal data, etc.) See documentation at https://qrickit.com/qrickit_apps/qrickit_api.php for instructions.",
+                "default": "YourData"
+            },
+            "logotext": {
+                "type": "string",
+                "description": "Header Text: logotext=Any text about 15 to 35 characters maximum depending on the size of your QR Code. Color of header text is the same as QR Code color (fgdcolor). In cases where data is very large, text will not fit and should not be used. Text can be urlencoded to avoid problems with special characters. "
+            },
+            "t": {
+                "type": "string",
+                "description": "Header text, typically 15 to 35 characters maximum, displayed at the top of the QR Code."
+            },
+            "fgdcolor": {
+                "type": "string",
+                "description": "QR Code Color: fgdcolor=The color of your QR Code expressed in HTML Hex# (i.e. FFFFFF for white, 000000 for black, etc.). If nothing is specified, the default is black (000000)."
+            },
+            "qrsize": {
+                "type": "number",
+                "description": "Size of image in pixels. Default = 150 (i.e. 150 pixel square) . Min = 80. Max = 1480."
+            },
+            "lang": {
+                "type": "string",
+                "description": "Set to \"jp\" if your optional footer text (addtext) uses Japanese characters. Otherwise leave blank."
+            },
+            "e": {
+                "type": "string",
+                "description": "Error Correction: e=The level of error correction capability. The choices are L (Low) 7%, M (Medium) 15%, Q (Quartile) 25%, and H (High) 30% represented as l, m, q, and h respectively. If nothing is specified, the default error correction level is M (Medium). The higher the error correction means more of the QR Code can still be read if it is damaged (or covered/hidden). However, the higher the error correction, the less data the QR Code can hold.  Usually you don't have to specify anything here unless you "
+            },
+            "addtext": {
+                "type": "string",
+                "description": "Footer Text: addtext=Any text about 15 to 60 characters maximum depending on the size of your QR Code. In cases where data is very large, text will not fit an d should not be used. Text can be urlencoded to avoid problems with special characters. If using Japanese characters please set \"lang\" parameter to \"jp\" (i.e. lang=jp). Otherwise leave \"lang\" blank."
+            },
+            "txtcolor": {
+                "type": "string",
+                "description": "Footer Text Color: txtcolor=The color of your optional footer text expressed in HTML Hex# (i.e. FFFFFF for white, 000000 for black, etc.). If nothing is specified, the default is black (000000). "
+            },
+            "bgdcolor": {
+                "type": "string",
+                "description": "Background Color: bgdcolor=The color of the background expressed in HTML Hex# (i.e. FFFFFF for white, 000000 for black, etc.). If nothing is specified, the default is white (FFFFFF)."
+            }
+        },
+        "required": [
+            "d"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_playlist",
+    "description": "This is a sub-function API for tool spotify_data.\nTool description: Spotify Data\nAPI description: Fetches playlist details from the Spotify Data API using the provided playlist ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the playlist to fetch.",
+                "default": "37i9dQZF1DX4Wsb4d7NKfP"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

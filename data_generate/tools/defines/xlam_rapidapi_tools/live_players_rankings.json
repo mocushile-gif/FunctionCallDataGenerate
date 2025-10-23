@@ -1,0 +1,17 @@
+{
+    "name": "live_players_rankings",
+    "description": "This is a sub-function API for tool ultimate_tennis.\nTool description:  Welcome to the Ultimate Tennis API!  It provides all the information you need about the tennis world, including all the details related to players and tournaments(live scores, matches, statistics), from both the ATP and tha WTA circuits, both singles and doubles . We also provide live bettings odds for every match in every tennis category. You can easily build your tennis related portal or enhance your Ml/AI projects.   \nAPI description: With this endpoint, you can retrieve info about the live tennis rankings for a given number of players, with position/points/info about the last match played in the current active tournament. Please note that in the ATP circuit the official leaderboard is updated every Monday.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "n_player": {
+                "type": "string",
+                "description": "The number of players for which to retrieve the live rankings, with a maximum of 500.",
+                "default": "50"
+            }
+        },
+        "required": [
+            "n_player"
+        ]
+    }
+}

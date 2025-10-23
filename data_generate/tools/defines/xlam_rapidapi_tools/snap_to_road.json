@@ -1,0 +1,29 @@
+{
+    "name": "snap_to_road",
+    "description": "This is a sub-function API for tool mymappi.\nTool description: REST Location APIs such as Geocoding, Roads, Directions and Places.\nAPI description: Given a geographical coordinate, it retrieves the another coordinate which is snapped to the nearest road. This means that the snapped coordinate is found by calculating the intersection between the longitudinal axis of the nearest road segment and the perpendicular line between the provided coordinate and this longitudinal axis.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the geographical coordinate.",
+                "default": 40.409246
+            },
+            "lon": {
+                "type": "number",
+                "description": "Longitude of the geographical coordinate.",
+                "default": -3.677144
+            },
+            "apikey": {
+                "type": "string",
+                "description": "API key for authenticating with the MyMappi service.",
+                "default": "YOUR_API_KEY"
+            }
+        },
+        "required": [
+            "lat",
+            "lon",
+            "apikey"
+        ]
+    }
+}

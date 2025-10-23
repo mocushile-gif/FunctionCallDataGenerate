@@ -1,0 +1,22 @@
+{
+    "name": "basic_phone_number_validation",
+    "description": "This is a sub-function API for tool scout.\nTool description: Telephone Number Insight including Validity, Robocall/SPAM, Reputation, LNP, Carrier, Timezone, and Geographic Information\nAPI description: **Basic Phone Number Validation**\n\n- determine if a phone number is in a valid format \n\n- determine if a phone number is impossible for a particular region\n\n- properly format the number for various scenarios like international or local dialing\n\n- attempts to determine line type\n\n- determines country and country code",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "dialcode": {
+                "type": "string",
+                "description": "The phone number to be validated and formatted.",
+                "default": "+12125551234"
+            },
+            "country_code": {
+                "type": "string",
+                "description": "The ISO 3166-1 alpha-2 country code. Defaults to 'US'.",
+                "default": "US"
+            }
+        },
+        "required": [
+            "dialcode"
+        ]
+    }
+}

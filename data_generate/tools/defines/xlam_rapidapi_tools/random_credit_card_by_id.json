@@ -1,0 +1,17 @@
+{
+    "name": "random_credit_card_by_id",
+    "description": "This is a sub-function API for tool fake_data_generator.\nTool description: With this API you can generate fake random data with different predefined layouts or define your own layout.\nAPI description: Retrieve fake credit card details by ID using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID used to retrieve the fake credit card details.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

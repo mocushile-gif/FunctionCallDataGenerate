@@ -1,0 +1,17 @@
+{
+    "name": "game_lookup",
+    "description": "This is a sub-function API for tool cheapshark_game_deals.\nTool description: CheapShark is a price comparison website for digital PC Games. We keep track of prices across multiple stores including Steam, GreenManGaming, Fanatical, and many others.\nAPI description: Fetches detailed information for a specific game from the CheapShark API, including a list of all deals associated with the game.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The unique identifier for the game to look up.",
+                "default": 612.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

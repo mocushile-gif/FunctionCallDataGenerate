@@ -1,0 +1,25 @@
+{
+    "name": "get_angle_of_a_clock",
+    "description": "Calculates the angle between the hour and minute hands of a clock, supporting both 12-hour and 24-hour formats.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hour": {
+                "type": "integer",
+                "description": "The hour value. Must be between 0 and 23.",
+                "minimum": 0,
+                "maximum": 23
+            },
+            "minute": {
+                "type": "integer",
+                "description": "The minute value. Must be between 0 and 59.",
+                "minimum": 0,
+                "maximum": 59
+            }
+        },
+        "required": [
+            "hour",
+            "minute"
+        ]
+    }
+}

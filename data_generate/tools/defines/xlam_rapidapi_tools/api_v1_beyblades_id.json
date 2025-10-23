@@ -1,0 +1,16 @@
+{
+    "name": "api_v1_beyblades_id",
+    "description": "This is a sub-function API for tool beyblade_api.\nTool description: A Beyblade API, providing access to information about various Beyblades, their product information, parts and other related data\nAPI description: Fetches details of a Beyblade based on its ID using the Beyblade API v1.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the Beyblade to retrieve."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

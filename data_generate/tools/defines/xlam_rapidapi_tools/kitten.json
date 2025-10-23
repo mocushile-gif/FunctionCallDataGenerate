@@ -1,0 +1,23 @@
+{
+    "name": "kitten",
+    "description": "This is a sub-function API for tool placekitten.\nTool description: A quick and simple service for getting pictures of kittens for use as placeholders in your designs or code. Just put your image size (width & height) after our URL and you'll get a placeholder.\nAPI description: Fetches a kitten image of specified width and height using the Placekitten API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "width": {
+                "type": "string",
+                "description": "The width of the kitten image.",
+                "default": "200"
+            },
+            "height": {
+                "type": "string",
+                "description": "The height of the kitten image.",
+                "default": "300"
+            }
+        },
+        "required": [
+            "width",
+            "height"
+        ]
+    }
+}

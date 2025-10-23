@@ -1,0 +1,42 @@
+{
+  "name": "pearson_correlation_from_database",
+  "description": "Perform Pearson correlation test between two numeric columns from a SQLite database.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "database_path": {
+        "type": "string",
+        "description": "Path to the SQLite database file."
+      },
+      "from_clause": {
+        "type": "string",
+        "description": "SQL FROM clause (table or JOIN)."
+      },
+      "x_col": {
+        "type": "string",
+        "description": "First numeric column name."
+      },
+      "y_col": {
+        "type": "string",
+        "description": "Second numeric column name."
+      },
+      "where_clause": {
+        "type": "string",
+        "description": "Optional WHERE clause (without the 'WHERE' keyword)."
+      },
+      "where_params": {
+        "type": "array",
+        "description": "Optional list of parameters for the WHERE clause.",
+        "items": {
+          "type": "string"
+        }
+      },
+      "drop_na": {
+        "type": "boolean",
+        "description": "Whether to drop rows with NA values in either column.",
+        "default": false
+      }
+    },
+    "required": ["database_path", "from_clause", "x_col", "y_col"]
+  }
+}

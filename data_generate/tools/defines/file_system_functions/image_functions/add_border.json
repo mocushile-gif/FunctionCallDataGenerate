@@ -1,0 +1,43 @@
+{
+    "name": "add_border",
+    "description": "Add border to an image with various styles including solid, dashed, dotted, and double borders.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the input image file"
+        },
+        "border_width": {
+          "type": "integer",
+          "description": "Width of the border in pixels",
+          "default": 20
+        },
+        "border_color": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "description": "Border color as RGB values (R, G, B)",
+          "default": [255, 255, 255]
+        },
+        "border_style": {
+          "type": "string",
+          "description": "Border style",
+          "enum": ["solid", "dashed", "dotted", "double"],
+          "default": "solid"
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output image"
+        },
+        "border_position": {
+          "type": "string",
+          "description": "Border position",
+          "enum": ["all", "top", "bottom", "left", "right"],
+          "default": "all"
+        }
+      },
+      "required": ["image_path"]
+    }
+  } 

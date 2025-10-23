@@ -1,0 +1,17 @@
+{
+    "name": "manufacturing_year_detection",
+    "description": "This is a sub-function API for tool tesla_vin_identifier.\nTool description: Project TEMPA - This API is capable of resolving Tesla's VIN Identifier\nAPI description: Detects the manufacturing year of the vehicle based on the provided VIN identifier using the Tesla VIN Identifier API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vin_identifier": {
+                "type": "string",
+                "description": "The Vehicle Identification Number (VIN) of the vehicle to identify the manufacturing year for.",
+                "default": "0f7885c2af1a6ef9"
+            }
+        },
+        "required": [
+            "vin_identifier"
+        ]
+    }
+}

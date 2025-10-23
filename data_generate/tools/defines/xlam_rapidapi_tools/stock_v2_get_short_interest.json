@@ -1,0 +1,17 @@
+{
+    "name": "stock_v2_get_short_interest",
+    "description": "This is a sub-function API for tool ms_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc... to create a site/application such as morningstar.com\nAPI description: Fetches the short interest data for a given stock identified by its performance ID from the Morning Star API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "performanceid": {
+                "type": "string",
+                "description": "The performance ID of the stock obtained from endpoints like /auto-complete, /get-summary, or /get-movers.",
+                "default": "0P0000OQN8"
+            }
+        },
+        "required": [
+            "performanceid"
+        ]
+    }
+}

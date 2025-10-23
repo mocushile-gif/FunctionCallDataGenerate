@@ -1,0 +1,17 @@
+{
+    "name": "get_stats",
+    "description": "This is a sub-function API for tool world_of_tanks_stats.\nTool description: Your can get information about a player like wn8.\nAPI description: Fetches the World of Tanks player stats including WN8, WN7, battles, victories, defeats, kills, draws, average tier, tanks spotted, and battles survived.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the World of Tanks player for whom the stats are being requested.",
+                "default": "PasiHD"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "binance_charts",
+    "description": "This is a sub-function API for tool candlestick_chart.\nTool description: This API returns candlestick charts images (base64) so you can use them wherever you want!\nAPI description: This endpoint creates candlestick charts for any cryptocurrency listed on [Binance](https://www.binance.com) that you want!",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "Symbol for the traiding pair\n\nYou can see every traiding pair available [here](https://coinmarketcap.com/en/exchanges/binance)",
+                "default": "BTCUSDT"
+            },
+            "content_type": {
+                "type": "string",
+                "description": "Type of content for the query. Defaults to 'application/x-www-form-urlencoded'.",
+                "default": "application/x-www-form-urlencoded"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Number of candles to include in the chart. Defaults to 16. Maximum is 1000.",
+                "default": 16.0
+            },
+            "interval": {
+                "type": "string",
+                "description": "Time interval for each candle.\n\n- Default: 1m\n\n## Time intervals\n- m: Minutes\n- h: Hours\n- d: Days\n- w: Weeks\n- M: Months\n\nList of intervals:\n- 1m\n- 3m\n- 5m\n- 15m\n- 30m\n- 1h\n- 2h\n- 4h\n- 6h\n- 8h\n- 12h\n- 1d\n- 3d\n- 1w\n- 1M",
+                "default": "1m"
+            },
+            "lastprice": {
+                "type": "number",
+                "description": "The last price that the chart must have. This could be useful if there is some delay between your analysis and the call to this API, and that delay could make a difference between the numbers and the chart. If not given, the chart will be created with Binance last price\n\n- Type: Number",
+                "default": 57500.0
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

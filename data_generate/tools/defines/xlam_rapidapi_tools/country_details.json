@@ -1,0 +1,25 @@
+{
+    "name": "country_details",
+    "description": "This is a sub-function API for tool geodb_cities.\nTool description: Get global city, region, and country data. Filter and display results in multiple languages.\nAPI description: Fetches the details for a specific country from the GeoDB API, including information on the number of regions.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "countryid": {
+                "type": "string",
+                "description": "An ISO-3166 country code or WikiData id representing the country.",
+                "default": "US"
+            },
+            "asciimode": {
+                "type": "boolean",
+                "description": "If set to True, display results using ASCII characters."
+            },
+            "languagecode": {
+                "type": "string",
+                "description": "The language code to display the results in the specified language."
+            }
+        },
+        "required": [
+            "countryid"
+        ]
+    }
+}

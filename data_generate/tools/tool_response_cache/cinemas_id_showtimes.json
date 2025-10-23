@@ -1,0 +1,40 @@
+{
+    "{'is_id': 'CIN0045BUE'}": {
+        "error": "",
+        "response": {
+            "cinema_id": "CIN0045BUE",
+            "cinema_name": "CineCenter Palermo",
+            "location": "Buenos Aires",
+            "showtimes": [
+                {
+                    "movie_title": "Spider-Man: Across the Spider-Verse",
+                    "times": [
+                        "14:30",
+                        "17:45",
+                        "20:00",
+                        "22:15"
+                    ],
+                    "date": "2023-10-25"
+                },
+                {
+                    "movie_title": "Oppenheimer",
+                    "times": [
+                        "15:15",
+                        "18:30",
+                        "21:45"
+                    ],
+                    "date": "2023-10-25"
+                },
+                {
+                    "movie_title": "Barbie",
+                    "times": [
+                        "16:00",
+                        "19:00",
+                        "22:00"
+                    ],
+                    "date": "2023-10-25"
+                }
+            ]
+        }
+    }
+}

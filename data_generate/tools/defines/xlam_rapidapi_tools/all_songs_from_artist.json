@@ -1,0 +1,17 @@
+{
+    "name": "all_songs_from_artist",
+    "description": "This is a sub-function API for tool halsey_lyric_snippets.\nTool description: An API that allows users to view short excerpts of Halsey's songs.\nAPI description: This endpoint retrieves all songs by the specified artist and returns them in the response.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "artist": {
+                "type": "string",
+                "description": "The name of the artist whose songs are to be retrieved.",
+                "default": "Halsey"
+            }
+        },
+        "required": [
+            "artist"
+        ]
+    }
+}

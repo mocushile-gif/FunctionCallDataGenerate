@@ -1,0 +1,34 @@
+{
+    "name": "keyword_search_at_coordinates",
+    "description": "This is a sub-function API for tool google_local_rank_tracker.\nTool description: Real-Time overview of your Google Local Ranking across multiple coordinate points in a Grid View. Accurate and fast SERP results and ranking of your business by keyword and location. Get results for a single geopoint coordinate or for an entire grid. See how you stack up against your competitors and Track your progress over time. \nAPI description: Performs a keyword search at specific geographic coordinates for businesses using the Google Local Rank Tracker API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The **Google Place ID** of the business or the **Business Name** to match against in results. Use the **match_type** parameter to specify.",
+                "default": "web design"
+            },
+            "lng": {
+                "type": "number",
+                "description": "Grid **center** coordinate point **longitude** value.",
+                "default": -121.938314
+            },
+            "lat": {
+                "type": "number",
+                "description": "Grid **center** coordinate point **latitude** value.",
+                "default": 37.341759
+            },
+            "zoom": {
+                "type": "number",
+                "description": "Google Maps **zoom level **to use for search on each grid point.\n\n**Allowed values**: 0-18.\n**Default**: 13.",
+                "default": 13.0
+            }
+        },
+        "required": [
+            "query",
+            "lng",
+            "lat"
+        ]
+    }
+}

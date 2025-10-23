@@ -1,0 +1,29 @@
+{
+    "{'sid': 'sess_2025abc', 'ppn_bundle': 'flt_bnd_4567'}": {
+        "error": "",
+        "response": {
+            "flights": [
+                {
+                    "flight_id": "FL123X",
+                    "departure": "2023-12-25T08:30:00",
+                    "return": "2023-12-30T19:45:00",
+                    "airline": "SkyExpress",
+                    "price": 285.5,
+                    "currency": "USD",
+                    "duration": "7h 15m"
+                },
+                {
+                    "flight_id": "FL456Y",
+                    "departure": "2023-12-25T12:15:00",
+                    "return": "2023-12-30T22:00:00",
+                    "airline": "BlueWings",
+                    "price": 310.0,
+                    "currency": "USD",
+                    "duration": "6h 50m"
+                }
+            ],
+            "session_id": "sess_2025abc",
+            "bundle_id": "flt_bnd_4567"
+        }
+    }
+}

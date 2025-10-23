@@ -1,0 +1,34 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "status": "success",
+            "data": {
+                "address": "99957ecaa84e1a83100131b4f64d5c066a93e3b6",
+                "private_key": "aa2bf38b197d0b0c8701ea1f071e7e9a7d53844ec0fde6aaf46857a61551c875",
+                "public_key": "feb1fad6b7e63e162dea7b1463b46a87a2eae7ef85682acbbc2415ce7f6f9bde20732d6f50b66e396b3c59aadccd5d565355f051d7fc4449c771e93c1483cc8d"
+            },
+            "message": "No \"chain\" has been selected. Default \"ethereum\" chain has been set."
+        }
+    },
+    "{'chain': 'ethereum'}": {
+        "error": "",
+        "response": "{'status': 'success', 'data': {'address': 'ce903af15095a53ee45e4b3fd40d27b9cdc8676c', 'private_key': 'f61daadccc1f8346f4651ddbc67ce17d41717455dc283b3b74b0bd2e9531c644', 'public_key': 'c6d82c9c8a1658f8b6b0225fed94265e20554f2e927ff996fcb25ef29526d30d8266a1e8a6d3f2f9a514f2b325345fafd3e21cccf273c428f675aeccb17cbc1a'}, 'message': None}"
+    },
+    "{'chain': 'binance'}": {
+        "error": "",
+        "response": "{'status': 'success', 'data': {'address': '3b201ff2ebf8be21afb9b0bc7c43977da86cff81', 'private_key': 'eea2ddbd3060faf1a324c9b7c88def38949b1efa763b1c6a7036cff209f30314', 'public_key': '9357e73c6df4bb97f32b1ae41425e008461422b9d14d2d303b3b55229deb8379791c0ff284559ae058bdc75b2788d038b63489f55ab263031c6f7b119bc17e28'}, 'message': None}"
+    },
+    "{'chain': 'ethereum-ropsten'}": {
+        "error": "",
+        "response": "{'status': 'success', 'data': {'address': 'a8b525bc2b5811e8e25a5adf9eab92417bec53c5', 'private_key': '59ead77f5506096c0466a4c1bd1bdbedcc5bfc17beabf4b3bca8b074cb9bfe17', 'public_key': '94c02c0776597b1c2fd018dfb6c808685e6c0dbc0c4c6343dc2f1ba5156317f4a19f90c411daf0c7d63fb42d853e580983c9f3a00c6746e58c5f804d6ca30263'}, 'message': None}"
+    },
+    "{'chain': 'polygon-mumbai'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'chain': 'polygon'}": {
+        "error": "",
+        "response": "{'status': 'success', 'data': {'address': '01a9db5bf7940fd50730d061345b7b10277ce465', 'private_key': '05cb046cf7cbc48a2b753152c136c08496c6487d3f3b18bf94fb68e1b4b8129d', 'public_key': '1d74be6485bc9d1d4e0ec8fb1263712b1b07a6847eb395f298f13e5fcb26dbe3f0b2ac398425fd9104dbf0c7871a3a0a4eec05cc6a976a0d774cb810de09c839'}, 'message': None}"
+    }
+}

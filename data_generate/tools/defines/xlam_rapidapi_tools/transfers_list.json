@@ -1,0 +1,52 @@
+{
+    "name": "transfers_list",
+    "description": "This is a sub-function API for tool transfermarket.\nTool description: This API helps to query for transfer news, latest or record transfers, rumors, player market value, etc... to create a sporting site/application such as transfermarkt.com\nAPI description: Fetches a list of football player transfers based on various filter criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "competitionid": {
+                "type": "string",
+                "description": "The ID of the competition. Should be obtained from the /search or /competitions/list endpoints. Do not use together with clubid.",
+                "default": "IT1"
+            },
+            "positiongroup": {
+                "type": "string",
+                "description": "The position group of the players. Possible values are 'Abwehr', 'Mittelfeld', 'Sturm'."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of items per response for paging purposes. Defaults to 30.",
+                "default": 30.0
+            },
+            "maxvalue": {
+                "type": "number",
+                "description": "The maximum market value of players. Example: 151000000."
+            },
+            "positionid": {
+                "type": "number",
+                "description": "One of the following 1-Goalkeeper|2-Sweeper|3-Centre-Back|4-Left-Back|5-Right-Back|6-Defensive Midfield|7-Central Midfield|8-Right Midfield|9-Left Midfield|10-Attacking Midfield|11-Left Winger|12-Right Winger|13-Second Striker|14-Centre-Forward"
+            },
+            "clubid": {
+                "type": "number",
+                "description": "The ID of the club. Should be obtained from the /search or /clubs/list-by-competition endpoints. Do not use together with competitionid."
+            },
+            "minvalue": {
+                "type": "number",
+                "description": "The minimum market value of players. Example: 9000000."
+            },
+            "offset": {
+                "type": "number",
+                "description": "The offset for paging purposes. Defaults to 0.",
+                "default": 0.0
+            },
+            "domain": {
+                "type": "string",
+                "description": "The domain for the request. Possible values are 'com', 'de', 'be', 'es', 'it', 'nl', 'pl', 'pt', 'com.tr', and 'world'. Defaults to 'de'.",
+                "default": "de"
+            }
+        },
+        "required": [
+            "competitionid"
+        ]
+    }
+}

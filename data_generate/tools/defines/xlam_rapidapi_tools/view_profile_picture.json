@@ -1,0 +1,17 @@
+{
+    "name": "view_profile_picture",
+    "description": "This is a sub-function API for tool instagram_profile_picture_viewer.\nTool description: Fetch Full HD Profile Picture and Some Basic Details of anyone on Instagram.\n\n\n\n\n\n\n\n\nTags: Instagram Insta Profile Info DP Details Insta DP Insta Profile Photo\nAPI description: Retrieve the full HD profile picture of a specified Instagram user by their username.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "description": "The Instagram username of the user whose profile picture is to be retrieved.",
+                "default": "instagram"
+            }
+        },
+        "required": [
+            "username"
+        ]
+    }
+}

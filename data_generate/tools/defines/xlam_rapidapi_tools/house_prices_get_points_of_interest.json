@@ -1,0 +1,17 @@
+{
+    "name": "house_prices_get_points_of_interest",
+    "description": "This is a sub-function API for tool zoopla_v2.\nTool description: This API helps to query for properties for rent, sale in UK to create a real estate site/application such as zoopla.com\nAPI description: Fetches the nearest points of interest for a given property using the Zoopla API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "property_id": {
+                "type": "number",
+                "description": "The ID of the property for which to retrieve points of interest. This is usually obtained from the `/house-prices/estimate` endpoint.",
+                "default": 27175510.0
+            }
+        },
+        "required": [
+            "property_id"
+        ]
+    }
+}

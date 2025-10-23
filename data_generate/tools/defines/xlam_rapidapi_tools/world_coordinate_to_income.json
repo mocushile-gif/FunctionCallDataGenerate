@@ -1,0 +1,23 @@
+{
+    "name": "world_coordinate_to_income",
+    "description": "This is a sub-function API for tool world_coordinates_to_income.\nTool description: Get sub-city level individual per-capita USD/yr income data from across the globe.\nUseful in LTV & user valuation modeling.\nAPI description: Fetches per capita income data for a given set of geographic coordinates (longitude and latitude) using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lon": {
+                "type": "number",
+                "description": "Longitude of the geographic coordinate.",
+                "default": 0.0
+            },
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the geographic coordinate.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "lon",
+            "lat"
+        ]
+    }
+}

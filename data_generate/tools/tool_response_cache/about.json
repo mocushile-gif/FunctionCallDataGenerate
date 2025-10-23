@@ -1,0 +1,18 @@
+{
+    "{'outputformat': 'json'}": {
+        "error": "",
+        "response": {
+            "tool_name": "AresPass",
+            "tool_description": "AresPass is a password analyzer that calculates its entropy and provides a detailed report highlighting password fragments with low randomness. It performs analyses such as multi-language word search, keyboard sequence detection, and irregular entropy distribution.",
+            "api_name": "about",
+            "api_description": "Fetches metadata from the AresPass API and returns it in the specified format.",
+            "output_format": "json",
+            "default_output_format": "xml",
+            "allowed_output_formats": [
+                "json",
+                "xml",
+                "yaml"
+            ]
+        }
+    }
+}

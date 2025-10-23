@@ -1,0 +1,36 @@
+{
+    "name": "describe_image",
+    "description": "Generate a detailed description of an image using Zhipu AI GLM-4V vision models with fallback to local analysis.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the input image file"
+        },
+        "max_tokens": {
+          "type": "integer",
+          "description": "Maximum number of tokens for the description",
+          "default": 300
+        },
+        "detail_level": {
+          "type": "string",
+          "description": "Detail level for AI analysis",
+          "enum": ["low", "high", "auto"],
+          "default": "auto"
+        },
+        "language": {
+          "type": "string",
+          "description": "Language for the description",
+          "enum": ["en", "zh"],
+          "default": "en"
+        },
+        "include_metadata": {
+          "type": "boolean",
+          "description": "Whether to include image metadata",
+          "default": true
+        }
+      },
+      "required": ["image_path"]
+    }
+  } 

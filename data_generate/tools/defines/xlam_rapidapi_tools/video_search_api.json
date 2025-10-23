@@ -1,0 +1,30 @@
+{
+    "name": "video_search_api",
+    "description": "This is a sub-function API for tool petey_vid_video_search_api.\nTool description: Access Petey Vid search engine, search over 600 million videos from 70+ platform providers\nAPI description: Performs a search on the Petey Vid index using specified parameters and the Petey Vid Video Search API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The query string for the search (e.g., keywords or phrases).",
+                "default": "trump"
+            },
+            "dur": {
+                "type": "string",
+                "description": "The duration filter for the search (e.g., 'short', 'medium', 'long'). Defaults to None."
+            },
+            "sort": {
+                "type": "string",
+                "description": "The sort order for the search results (e.g., 'relevance', 'date'). Defaults to None."
+            },
+            "media": {
+                "type": "string",
+                "description": "The media filter for the search results, typically indicating media type (default is 'Y'). Defaults to 'Y'.",
+                "default": "Y"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

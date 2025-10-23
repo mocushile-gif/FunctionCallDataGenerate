@@ -1,0 +1,26 @@
+{
+    "name": "calculate_dice_roll_probability",
+    "description": "Calculates the probability of rolling a specific sum with a given number of dice, each having a certain number of faces.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "target_sum": {
+                "type": "integer",
+                "description": "The target sum to calculate the probability for."
+            },
+            "num_dice": {
+                "type": "integer",
+                "description": "The number of dice being rolled."
+            },
+            "num_faces": {
+                "type": "integer",
+                "description": "The number of faces on each die. Defaults to 6.",
+                "default": 6
+            }
+        },
+        "required": [
+            "target_sum",
+            "num_dice"
+        ]
+    }
+}

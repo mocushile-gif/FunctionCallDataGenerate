@@ -1,0 +1,17 @@
+{
+    "name": "get_entire_surah_chapter",
+    "description": "This is a sub-function API for tool al_quran.\nTool description: Quickly retrieve original Arabic text, translation, transliteration and Word Search from the Koran /Quran\nAPI description: Possible values: ***1-114*** \nResponds with entire Surah/Chapter of the Koran including all verses in the Surah and some additional information.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chapterid": {
+                "type": "number",
+                "description": "The unique identifier for a Surah (chapter) in the Koran. Must be between 1 and 114, inclusive.",
+                "default": 114.0
+            }
+        },
+        "required": [
+            "chapterid"
+        ]
+    }
+}

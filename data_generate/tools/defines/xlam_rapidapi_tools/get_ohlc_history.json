@@ -1,0 +1,17 @@
+{
+    "name": "get_ohlc_history",
+    "description": "This is a sub-function API for tool ohlc_history_forex.\nTool description: Api to fetch forex Open High Low Close prices for a variety of currency pairs \nAPI description: Fetches the OHLC (Open, High, Low, Close) history data for a specified currency pair.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The currency pair symbol for which to retrieve OHLC history.",
+                "default": "eur-usd"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "trending_games",
+    "description": "This is a sub-function API for tool all_in_one_crypto_swiss_knife.\nTool description: Coins, NFTS, Portfolio tracker, Whales, airdrops, news, tweets, YT videos, reddit posts, DeFi protocols,, games, podcasts, events, gas price and more!\nAPI description: get trending play 2 earn games",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pagesize": {
+                "type": "string",
+                "description": "The number of results to return per page. Defaults to '20'.",
+                "default": "20"
+            },
+            "page": {
+                "type": "string",
+                "description": "The page number to retrieve. Defaults to '1'.",
+                "default": "1"
+            }
+        },
+        "required": []
+    }
+}

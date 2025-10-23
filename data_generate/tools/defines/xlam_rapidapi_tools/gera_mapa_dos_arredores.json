@@ -1,0 +1,38 @@
+{
+    "name": "gera_mapa_dos_arredores",
+    "description": "This is a sub-function API for tool consulta_cnpj_tempo_real.\nTool description: API Tempo Real de Consultas a Receita Federal, Simples Nacional e Cadastro de Contribuintes (SINTEGRA).\nAPI description: Generates a map of the surroundings for a given CNPJ (Brazilian company identifier). This function allows customization of the map through various parameters such as height, zoom, width, scale, and type.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cnpj": {
+                "type": "string",
+                "description": "The CNPJ of the company to generate the map for.",
+                "default": "37335118000180"
+            },
+            "height": {
+                "type": "number",
+                "description": "The height of the map. Defaults to None."
+            },
+            "zoom": {
+                "type": "number",
+                "description": "The zoom level of the map. Defaults to None."
+            },
+            "width": {
+                "type": "number",
+                "description": "The width of the map. Defaults to None."
+            },
+            "scale": {
+                "type": "number",
+                "description": "The scale of the map. Defaults to None."
+            },
+            "type": {
+                "type": "string",
+                "description": "The type of the map (e.g., 'hybrid'). Defaults to 'hybrid'.",
+                "default": "hybrid"
+            }
+        },
+        "required": [
+            "cnpj"
+        ]
+    }
+}

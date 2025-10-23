@@ -1,0 +1,20 @@
+{
+    "name": "get_country_info",
+    "description": "This is a sub-function API for tool currencies_and_countries.\nTool description: Convert currencies, get country informations.\nAPI description: You can get country info by using countryName or Iso Name (DE).\nExample :\n\n```\n                       params: {param: 'iso', value: 'DE'}\n                       params: {param: 'countryName', value: 'Germany'}\n```\n\nThese two is gets the same result which is the information of germany. \nExample response:\n\n```\n{\"iso\":\"DE\"\n\"currency\":\"EUR\"\n\"symbol\":\"€\"\n\"countryName\":\"Germany\"\n\"dateFormat\":\"dd.MM.yyyy\"}\n```\n\nExample2:\n\n```\n                       params: {param: 'currency', value: 'USD'}\n                       p",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "value": {
+                "type": "string",
+                "description": "The value to query by, such as an ISO code (e.g., 'DE') or a country name (e.g., 'Germany'). Defaults to 'DE'.",
+                "default": "DE"
+            },
+            "param": {
+                "type": "string",
+                "description": "The parameter type for the query, such as 'ISO' for ISO codes or 'countryName' for country names. Defaults to 'ISO'.",
+                "default": "ISO"
+            }
+        },
+        "required": []
+    }
+}

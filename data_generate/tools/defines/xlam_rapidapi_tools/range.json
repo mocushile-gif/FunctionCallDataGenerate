@@ -1,0 +1,30 @@
+{
+    "name": "range",
+    "description": "This is a sub-function API for tool chess_puzzles_v2.\nTool description: Quickly access 1.000.000+ chess puzzles!\nAPI description: Fetches random chess puzzles within a specified rating range.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "number_of_puzzles": {
+                "type": "number",
+                "description": "The number of puzzles to retrieve. Defaults to 1.",
+                "default": 1.0
+            },
+            "max_deviation": {
+                "type": "number",
+                "description": "The maximum possible rating deviation. Defaults to 100.",
+                "default": 100.0
+            },
+            "min": {
+                "type": "number",
+                "description": "The minimum rating a puzzle can have. Defaults to 1200.",
+                "default": 1200.0
+            },
+            "max": {
+                "type": "number",
+                "description": "The maximum rating a puzzle can have. Defaults to 1600.",
+                "default": 1600.0
+            }
+        },
+        "required": []
+    }
+}

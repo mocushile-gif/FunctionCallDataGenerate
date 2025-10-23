@@ -1,0 +1,17 @@
+{
+    "name": "production_years_by_model_id",
+    "description": "This is a sub-function API for tool motorcycle_specs_database.\nTool description: --- DEMO http://api-motorcycle.makingdatameaningful.com/ ----\n\nThe complete Motorcycle Database with specifications for all Makes & Models [year 1900 to 2023].  Full specs & images included. Real-Time updated.\nWe provide a motorcycle database delivered through API. There are more than 35,000 moto models available along with 20+ technical information fields. One image per model is also included.  Our fast API is delivered through several endpoints in order to satisfy different request types.  ...\nAPI description: Retrieves the production years for a motorcycle model based on its model ID from the Motorcycle Specs Database API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "modelid": {
+                "type": "string",
+                "description": "The unique identifier of the motorcycle model.",
+                "default": "15894"
+            }
+        },
+        "required": [
+            "modelid"
+        ]
+    }
+}

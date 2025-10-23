@@ -1,0 +1,24 @@
+{
+    "name": "flightstatistics",
+    "description": "This is a sub-function API for tool flightera_flight_data.\nTool description: Flight status, on-time performance and statistics by Flightera\nAPI description: Returns statistics for a flight number with one entry per route flown. Statistics are updated daily.\nThe query can be filtered by route.\nStatistics are always as of today, please contact us if you require historical statistics.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "flnr": {
+                "type": "string",
+                "description": "The flight number to request statistics for."
+            },
+            "aptfrom": {
+                "type": "string",
+                "description": "The IATA code of the departure airport. Defaults to None."
+            },
+            "aptto": {
+                "type": "string",
+                "description": "The IATA code of the arrival airport. Defaults to None."
+            }
+        },
+        "required": [
+            "flnr"
+        ]
+    }
+}

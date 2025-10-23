@@ -1,0 +1,39 @@
+{
+    "name": "get_random_images",
+    "description": "Get random images using the Unsplash API.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Search term / category"
+        },
+        "count": {
+          "type": "integer",
+          "description": "Number of images to retrieve (1–30)",
+          "minimum": 1,
+          "maximum": 30,
+          "default": 1
+        },
+        "color": {
+          "type": "string",
+          "description": "Filter by color. Valid values are: black_and_white, black, white, yellow, orange, red, purple, magenta, green, teal, and blue."
+        },
+        "orientation": {
+          "type": "string",
+          "description": "Image orientation (landscape, portrait, squarish)",
+          "enum": ["landscape", "portrait", "squarish"]
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path to save results JSON"
+        },
+        "download_dir": {
+          "type": "string",
+          "description": "Directory to save downloaded images"
+        }
+      },
+      "required": []
+    }
+  }
+  

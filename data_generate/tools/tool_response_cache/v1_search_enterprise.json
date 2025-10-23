@@ -1,0 +1,105 @@
+{
+    "{'q': 'climate change', 'country': 'world', 'page_size': 5}": {
+        "error": "",
+        "response": {
+            "status": "No matches for your search.",
+            "user_input": {
+                "q": "climate change",
+                "search_in": "title_summary_en",
+                "link_begins_with": null,
+                "lang": "en",
+                "country": "world",
+                "from": "2023-07-04 00:00:00",
+                "to": null,
+                "ranked_only": "True",
+                "from_rank": null,
+                "to_rank": null,
+                "sort_by": "relevancy",
+                "page": 1,
+                "size": 5,
+                "sources": null,
+                "not_sources": null,
+                "topic": null,
+                "media": "True"
+            }
+        }
+    },
+    "{'q': 'technology business', 'topic': 'tech', 'sort_by': 'relevancy', 'to_rank': 1}": {
+        "error": "",
+        "response": {
+            "status": "No matches for your search.",
+            "user_input": {
+                "q": "technology business",
+                "search_in": "title_summary_en",
+                "link_begins_with": null,
+                "lang": "en",
+                "country": null,
+                "from": "2023-07-11 00:00:00",
+                "to": null,
+                "ranked_only": "True",
+                "from_rank": null,
+                "to_rank": 1,
+                "sort_by": "relevancy",
+                "page": 1,
+                "size": 50,
+                "sources": null,
+                "not_sources": null,
+                "topic": "tech",
+                "media": "True"
+            }
+        }
+    },
+    "{'q': 'technology business', 'topic': 'tech', 'to_rank': 1}": {
+        "error": "",
+        "response": {
+            "status": "No matches for your search.",
+            "user_input": {
+                "q": "technology business",
+                "search_in": "title_summary_en",
+                "link_begins_with": null,
+                "lang": "en",
+                "country": null,
+                "from": "2023-07-11 00:00:00",
+                "to": null,
+                "ranked_only": "True",
+                "from_rank": null,
+                "to_rank": 1,
+                "sort_by": "relevancy",
+                "page": 1,
+                "size": 50,
+                "sources": null,
+                "not_sources": null,
+                "topic": "tech",
+                "media": "True"
+            }
+        }
+    },
+    "{'q': 'PEACECALL NIG LIMITED', 'topic': 'finance', 'lang': 'en', 'ranked_only': 'True', 'sort_by': 'date'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'q': 'GLOBAL TECH SOLUTIONS', 'topic': 'finance', 'lang': 'en', 'ranked_only': 'True', 'sort_by': 'date'}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'q': 'serverless architecture innovations', 'topic': 'tech', 'sort_by': 'date', 'lang': 'en', 'page_size': 10}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'q': 'serverless architecture innovations', 'topic': 'tech', 'sort_by': 'date', 'lang': 'en', 'page_size': 5}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'q': 'serverless API design best practices', 'sort_by': 'date', 'topic': 'tech', 'lang': 'en', 'is_from': '2025-05-25', 'page_size': 5}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'q': 'serverless API design best practices', 'sort_by': 'date', 'topic': 'tech', 'lang': 'en', 'is_from': '2025-05-30', 'page_size': 3}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    },
+    "{'q': 'AI ethics', 'is_from': '2025-05-02', 'to': '2025-06-02', 'sort_by': 'date', 'topic': 'tech', 'lang': 'en', 'page_size': 5}": {
+        "error": "",
+        "response": "{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}"
+    }
+}

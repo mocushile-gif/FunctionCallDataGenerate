@@ -1,0 +1,36 @@
+{
+    "{'q': 'US', 'category': 'Cryptocurrency'}": {
+        "error": "",
+        "response": [
+            {
+                "exchange": "Binance.US",
+                "country": "United States",
+                "category": "Cryptocurrency",
+                "description": "A US-based cryptocurrency exchange offering trading pairs in BTC/USD, ETH/USD, and altcoin/USD pairs. Supports spot trading and leveraged tokens.",
+                "base_currencies": [
+                    "USD",
+                    "USDT"
+                ]
+            },
+            {
+                "exchange": "Coinbase Pro",
+                "country": "United States",
+                "category": "Cryptocurrency",
+                "description": "A regulated US exchange providing spot trading for major cryptocurrencies against USD. Known for compliance with SEC and CFTC regulations.",
+                "base_currencies": [
+                    "USD"
+                ]
+            },
+            {
+                "exchange": "Kraken",
+                "country": "United States (Delaware)",
+                "category": "Cryptocurrency",
+                "description": "A global exchange with US operations, offering advanced trading tools and margin trading in USD-denominated crypto pairs.",
+                "base_currencies": [
+                    "USD",
+                    "USDC"
+                ]
+            }
+        ]
+    }
+}

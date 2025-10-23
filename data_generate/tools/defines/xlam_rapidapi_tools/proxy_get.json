@@ -1,0 +1,25 @@
+{
+    "name": "proxy_get",
+    "description": "This is a sub-function API for tool proxy_list.\nTool description: Returns list of HTTP, HTTPS, SOCKS4, SOCKS5 proxies. Checks proxies each minute. Finds more than 7000 working proxies from multiple sources. \nAPI description: Returns the list of proxies based on the given parameters. The list is updated every 1 minute. API returns only working at the time of check proxies.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of proxy to retrieve. Possible values are 'http', 'https', 'socks4', 'socks5'. Default is 'http'.",
+                "default": "http"
+            },
+            "country": {
+                "type": "string",
+                "description": "A two-letter country code to filter proxies by country. For more information about country codes, refer to https://www.nationsonline.org/oneworld/country_code_list.htm. Default is 'US'.",
+                "default": "US"
+            },
+            "anonymity": {
+                "type": "string",
+                "description": "The level of anonymity required. Possible values are 'high', 'anonymous', 'transparent'. Default is 'high'.",
+                "default": "high"
+            }
+        },
+        "required": []
+    }
+}

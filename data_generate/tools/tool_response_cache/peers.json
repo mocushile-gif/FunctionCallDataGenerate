@@ -1,0 +1,22 @@
+{
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "{'symbol': 'AAPL', 'peers': ['MSFT', 'HPQ', 'GOOG', 'AMZN', 'NFLX']}"
+    },
+    "{'symbol': 'MSFT'}": {
+        "error": "",
+        "response": "{'symbol': 'MSFT', 'peers': ['ORCL', 'IBM', 'GOOGL', 'HPQ', 'CSCO', 'AAPL', 'SAP']}"
+    },
+    "{'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "{'symbol': 'TSLA', 'peers': ['NKLA', 'AMZN', 'RIVN', 'SPCE', 'AAPL']}"
+    },
+    "{'symbol': 'META'}": {
+        "error": "",
+        "response": "{'symbol': 'META', 'peers': ['PERK-CA', 'PERI', 'PIKL', 'PINS']}"
+    },
+    "{'symbol': 'NFLX'}": {
+        "error": "",
+        "response": "{'symbol': 'NFLX', 'peers': ['AMZN', 'GOOGL', 'BCE', 'FOXA', 'DIS']}"
+    }
+}

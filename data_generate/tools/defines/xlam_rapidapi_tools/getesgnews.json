@@ -1,0 +1,31 @@
+{
+    "name": "getesgnews",
+    "description": "This is a sub-function API for tool gaialens_esg_news.\nTool description: Real-time ESG news API\nAPI description: ESG news API with a state of the art algorithm tracking thousands of news sources, social media and NGOs in real-time. The results include ESG specific topics including SASB and UN SDGs and a few other important ESG themes such as Modern Slavery and Gender Equality.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "content_type": {
+                "type": "string",
+                "description": "The content type for the news search. Defaults to None."
+            },
+            "date": {
+                "type": "string",
+                "description": "The date for the news search in DD/MM/YYYY format. Defaults to None."
+            },
+            "companyname": {
+                "type": "string",
+                "description": "The name of the company to search for news articles. Defaults to 'Apple Inc.'.",
+                "default": "Apple Inc."
+            },
+            "sedol": {
+                "type": "string",
+                "description": "The SEDOL (Stock Exchange Daily Official List) number to use for the news search. Defaults to None."
+            },
+            "isin": {
+                "type": "string",
+                "description": "The ISIN (International Securities Identification Number) to use for the news search. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

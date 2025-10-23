@@ -1,0 +1,19 @@
+{
+    "name": "get_the_continents",
+    "description": "This is a sub-function API for tool location.\nTool description: Get the locations using a REST API simple and free.\nAPI description: Fetches a list of continents from the specified API endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "Optional continent name to filter the results."
+            },
+            "page": {
+                "type": "string",
+                "description": "Optional page number for pagination. Defaults to '1'.",
+                "default": "1"
+            }
+        },
+        "required": []
+    }
+}

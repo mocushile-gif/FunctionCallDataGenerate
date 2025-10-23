@@ -1,0 +1,16 @@
+{
+    "name": "summary_details",
+    "description": "This is a sub-function API for tool yh_finance_complete.\nTool description: This API helps you to query stocks, quotes, movers and other financial summary.\nAPI description: Fetches and returns a detailed summary of any public stock using a given stock symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to fetch the summary details."
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

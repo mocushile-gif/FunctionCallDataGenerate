@@ -1,0 +1,16 @@
+{
+    "name": "decimal_to_binary",
+    "description": "Converts a decimal number to its binary equivalent.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "a": {
+                "type": "integer",
+                "description": "The decimal number to be converted to binary."
+            }
+        },
+        "required": [
+            "a"
+        ]
+    }
+}

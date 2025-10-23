@@ -1,0 +1,15 @@
+{
+    "name": "vehicle_attributes",
+    "description": "This is a sub-function API for tool car_api.\nTool description: Search vehicles sold in the United States by year, make, model, trim, engine, body, mileage, VIN decoder and more.\nAPI description: Fetches all available options for a given vehicle attribute using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "attribute": {
+                "type": "string",
+                "description": "The attribute options to be returned. Defaults to 'bodies.type'.",
+                "default": "bodies.type"
+            }
+        },
+        "required": []
+    }
+}

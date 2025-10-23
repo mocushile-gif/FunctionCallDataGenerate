@@ -1,0 +1,21 @@
+{
+    "name": "calculate_photoelectric_effect_energy",
+    "description": "Calculates the kinetic energy of an ejected electron in the photoelectric effect based on the frequency of the incident light and the work function of the material.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "frequency": {
+                "type": "number",
+                "description": "The frequency of the incident light in Hz."
+            },
+            "work_function": {
+                "type": "number",
+                "description": "The work function of the material in eV."
+            }
+        },
+        "required": [
+            "frequency",
+            "work_function"
+        ]
+    }
+}

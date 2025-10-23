@@ -1,0 +1,17 @@
+{
+    "name": "convert",
+    "description": "This is a sub-function API for tool webp_image_converter.\nTool description: Convert any image to a webp image.\nAPI description: Converts an image from a given URL to the WebP format using the RapidAPI WebP Image Converter.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "image_url": {
+                "type": "string",
+                "description": "The URL of the image to be converted.",
+                "default": "https://static.vecteezy.com/packs/media/components/global/search-explore-nav/img/vectors/term-bg-1-666de2d941529c25aa511dc18d727160.jpg"
+            }
+        },
+        "required": [
+            "image_url"
+        ]
+    }
+}

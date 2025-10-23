@@ -1,0 +1,28 @@
+{
+    "name": "tournaments",
+    "description": "This is a sub-function API for tool live_golf_data.\nTool description: PGA Tour and LIV Tour live golf data for your application needs such as rankings, leaderboards, scorecards, and results.\nAPI description: Fetch tournament information, such as metadata, players, courses, and earnings. Query the `schedule` endpoint to retrieve the necessary `tournId` and `year` parameters. This info will be updated with a players entry list the Friday before the tournament.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "orgid": {
+                "type": "string",
+                "description": "Identifier for the organization. Choose '1' for PGA Tour or '2' for LIV Tour."
+            },
+            "tournid": {
+                "type": "string",
+                "description": "The tournament ID retrieved from the `schedule` endpoint.",
+                "default": "475"
+            },
+            "year": {
+                "type": "string",
+                "description": "The year of the tournament.",
+                "default": "2022"
+            }
+        },
+        "required": [
+            "orgid",
+            "tournid",
+            "year"
+        ]
+    }
+}

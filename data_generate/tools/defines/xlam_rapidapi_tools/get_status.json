@@ -1,0 +1,21 @@
+{
+    "name": "get_status",
+    "description": "This is a sub-function API for tool sms77io.\nTool description: Send SMS & text-to-speech messages, perform phone number lookups and much more via seven.io.\nAPI description: Retrieve the delivery status report for a given message ID using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "msg_id": {
+                "type": "number",
+                "description": "The unique identifier of the SMS message. This can be obtained by setting the parameter `JSON`, `return_msg_id` or `details` to `1` when sending the SMS via the API. It can also be retrieved from the message journal in the user area."
+            },
+            "p": {
+                "type": "string",
+                "description": "The API Key for authentication."
+            }
+        },
+        "required": [
+            "msg_id",
+            "p"
+        ]
+    }
+}

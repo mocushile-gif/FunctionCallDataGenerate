@@ -1,0 +1,32 @@
+{
+    "name": "qnas_list",
+    "description": "This is a sub-function API for tool kohls.\nTool description: Get online shopping deals, discounts and rewards from fashion to beauty, home furniture, clothing, shoes, electronics and more...\nAPI description: Fetches a list of questions and answers related to a specific product from the RapidAPI Kohls service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "productid": {
+                "type": "string",
+                "description": "The identifier of the product for which to list questions and answers.",
+                "default": "4201989"
+            },
+            "sort": {
+                "type": "string",
+                "description": "The sorting order of the results. Default is 'SubmissionTime:desc'. Options include 'LastApprovedAnswerSubmissionTime:desc', 'LastApprovedAnswerSubmissionTime:asc', 'SubmissionTime:desc', and 'SubmissionTime:asc'.",
+                "default": "SubmissionTime:desc"
+            },
+            "offset": {
+                "type": "number",
+                "description": "The offset for paging through the results. Default is 0.",
+                "default": 0.0
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to return. Default is 6.",
+                "default": 6.0
+            }
+        },
+        "required": [
+            "productid"
+        ]
+    }
+}

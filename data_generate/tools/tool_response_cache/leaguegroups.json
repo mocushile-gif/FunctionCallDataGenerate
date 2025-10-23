@@ -1,0 +1,14 @@
+{
+    "{'tournamentid': 30, 'seasonid': 42851}": {
+        "error": "",
+        "response": "{'groups': [{'groupName': 'Group A', 'tournamentId': 2465}, {'groupName': 'Group B', 'tournamentId': 2466}]}"
+    },
+    "{'tournamentid': 34, 'seasonid': 42851}": {
+        "error": "",
+        "response": ""
+    },
+    "{'seasonid': 42851, 'tournamentid': 30}": {
+        "error": "",
+        "response": "{'groups': [{'tournamentId': 2465, 'groupName': 'Group A'}, {'tournamentId': 2466, 'groupName': 'Group B'}]}"
+    }
+}

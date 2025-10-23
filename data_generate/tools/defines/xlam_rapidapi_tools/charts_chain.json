@@ -1,0 +1,17 @@
+{
+    "name": "charts_chain",
+    "description": "This is a sub-function API for tool defi_data.\nTool description: Free to use API to retrieve data about TVL and coins\nAPI description: Retrieves the historical Total Value Locked (TVL) data for a specified blockchain chain.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chain": {
+                "type": "string",
+                "description": "The slug identifier of the blockchain chain. This can be obtained from the /v1/tvl/chains endpoint or the chains property on /v1/tvl/protocols.",
+                "default": "Ethereum"
+            }
+        },
+        "required": [
+            "chain"
+        ]
+    }
+}

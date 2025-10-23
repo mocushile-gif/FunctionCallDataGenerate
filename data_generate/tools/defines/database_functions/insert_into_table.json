@@ -1,0 +1,33 @@
+{
+    "name": "insert_into_table",
+    "description": "Insert values into a specified SQLite table. If the table does not exist, it will be automatically created with the specified columns.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "The path to the SQLite database file."
+        },
+        "table_name": {
+          "type": "string",
+          "description": "The name of the table to insert values into. If the table does not exist, it will be created."
+        },
+        "columns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "A list of column names to insert values into. These columns will also be used to define the table schema if the table is created."
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "type": ["string", "number", "null"]
+          },
+          "description": "A list of values to insert into the specified columns. The order must match the columns list."
+        }
+      },
+      "required": ["database_path", "table_name", "columns", "values"]
+    }
+  }
+  

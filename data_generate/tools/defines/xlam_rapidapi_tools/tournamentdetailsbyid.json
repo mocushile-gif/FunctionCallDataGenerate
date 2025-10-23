@@ -1,0 +1,17 @@
+{
+    "name": "tournamentdetailsbyid",
+    "description": "This is a sub-function API for tool sportifyapi.\nTool description: Real-time sports data platform providing comprehensive information on tournaments, matches, players, and live scores for various sports.  \nAPI description: Retrieves tournament details using a unique tournament ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "uniquetournamentid": {
+                "type": "number",
+                "description": "The unique identifier for the tournament.",
+                "default": 23.0
+            }
+        },
+        "required": [
+            "uniquetournamentid"
+        ]
+    }
+}

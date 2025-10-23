@@ -1,0 +1,21 @@
+{
+    "name": "convert_url_to_image",
+    "description": "This is a sub-function API for tool cloudlayer_io.\nTool description: Generate PDFs, Images, and more from HTML and URLs\nAPI description: Make a GET request to convert url to image, accepts simple options as query strings in URL (use POST endpoint for advanced options).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL to be converted to an image.",
+                "default": "https://google.com"
+            },
+            "timeout": {
+                "type": "number",
+                "description": "The request timeout in milliseconds. Defaults to None."
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

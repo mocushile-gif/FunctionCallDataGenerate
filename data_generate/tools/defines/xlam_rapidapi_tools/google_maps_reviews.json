@@ -1,0 +1,34 @@
+{
+    "name": "google_maps_reviews",
+    "description": "This is a sub-function API for tool google_search_2.\nTool description: Serpdog(https://serpdog.io) is a Google Search API that allows you to access Google Search Results in real time. It solves the problem of proxies and captchas for a smooth scraping journey. Serpdog supports results in both HTML and JSON format.\n\nGet your free trial by registering at https://api.serpdog.io\n\nIf you want to buy our plan, I recommend you to please visit https://serpdog.io/pricing for more information. \nAPI description: Fetches and returns JSON data of Google Maps reviews based on the specified parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "data_id": {
+                "type": "string",
+                "description": "Unique identifier representing the location or place on Google Maps for which reviews are fetched.",
+                "default": "0x89c25090129c363d:0x40c6a5770d25022b"
+            },
+            "next_page_token": {
+                "type": "string",
+                "description": "Token to fetch the next page of results, if applicable. Default is None."
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "Criteria to sort the reviews by. Could be relevance, newest, etc. Default is None."
+            },
+            "topic_id": {
+                "type": "string",
+                "description": "Identifier for a specific topic to filter reviews by. Default is None."
+            },
+            "hl": {
+                "type": "string",
+                "description": "Language code to return the reviews in, formatted as language_country (e.g., 'en_us'). Default is 'en_us'.",
+                "default": "en_us"
+            }
+        },
+        "required": [
+            "data_id"
+        ]
+    }
+}

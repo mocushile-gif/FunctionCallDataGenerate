@@ -1,0 +1,17 @@
+{
+    "name": "search_users",
+    "description": "This is a sub-function API for tool tiktok_scraping.\nTool description: ⚡️ Fast Loading TikTok API - Easy to use!  📊 Best for Data Scraping  📞 Support 24/7  ℹ️ Contact us for custom plans\nAPI description: Search for users on TikTok based on the provided keyword.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to search for users on TikTok.",
+                "default": "bill"
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "name": "rent_zestimate_and_comparable_properties",
+    "description": "This is a sub-function API for tool zillow_v2.\nTool description: Access US and CA property data in JSON, CSV, or Excel formats. Search listings, compare zestimate home values, and discover agent details.\nAPI description: Returns a property's rent zestimate and it's comparable properties in the same area.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "type": "string",
+                "description": "The address of the property for which the rent zestimate is being requested.",
+                "default": "1545 Yale St, Santa Monica, CA 90404"
+            },
+            "bedrooms": {
+                "type": "string",
+                "description": "[SIMILARFLOORPLANS] \nFilter for number of bedrooms: (To choose multiple values separate with comma eg : 0,1,2)\nPossible values:\n**0\n1\n2\n3\n4plus**\n"
+            },
+            "pets": {
+                "type": "string",
+                "description": "[SIMILARFLOORPLANS] \nFilter for Pets: (To choose multiple values separate with comma eg : dogs,cats)\nPossible values:\n**any (Default)\ndogs\ncats**\n"
+            },
+            "amenities": {
+                "type": "string",
+                "description": "[SIMILARFLOORPLANS] \nFilter for amenities: (To choose multiple values separate with comma eg : cooling,parking)\nPossible values:\n**any (Default)\ncooling\nheating\nparking**\n"
+            },
+            "laundry": {
+                "type": "string",
+                "description": "[SIMILARFLOORPLANS] \nFilter for Laundry: (To choose multiple values separate with comma eg : inUnit,shared)\nPossible values:\n**any (Default)\ninUnit\nshared**\n"
+            },
+            "propertytypes": {
+                "type": "string",
+                "description": "[SIMILARFLOORPLANS] \nFilter for Property Types: (To choose multiple values separate with comma eg : house,condo)\nPossible values:\n**any (Default)\napartment\nhouse\ntownhouse\ncondo**\n"
+            },
+            "activetypes": {
+                "type": "string",
+                "description": "SimilarFloorPlans filter:\nPossible values:\nany (Default)\nactive (Active Rentals)\ninactive (Inactive Rentals)\n"
+            },
+            "deactivateddays": {
+                "type": "string",
+                "description": "[SIMILARFLOORPLANS]\nFilter for inactive rentals within X days:\nPossible values:\n30 (Within 30 days (max))\n15 (Within 15 days)\n7 (Within 7 days)\n"
+            },
+            "activateddays": {
+                "type": "string",
+                "description": "[SIMILARFLOORPLANS]\nFilter for Active Rentals within X days:\nPossible values:\nany (Default)\n30 (Within 30 days)\n15 (Within 15 days)\n7 (Within 7 days)\n"
+            },
+            "distanceinmiles": {
+                "type": "string",
+                "description": "[SIMILARFLOORPLANS] \nFilter for distance in Miles: \nPossible values:\n**any\n1\n2\n3\n4\n5**\n"
+            }
+        },
+        "required": [
+            "address"
+        ]
+    }
+}

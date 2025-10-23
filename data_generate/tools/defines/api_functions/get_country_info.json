@@ -1,0 +1,24 @@
+{
+    "name": "get_country_info",
+    "description": "Get comprehensive country information including capital, population, currencies, languages, and more from restcountries API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "Country name to search for (e.g., 'China', 'Brazil', 'Japan', 'United States')",
+                "default": "Japan"
+            },
+            "include_details": {
+                "type": "boolean",
+                "description": "Whether to include detailed country information",
+                "default": true
+            },
+            "output_path": {
+                "type": "string",
+                "description": "Path to save country information as JSON file (optional)"
+            }
+        },
+        "required": []
+    }
+}

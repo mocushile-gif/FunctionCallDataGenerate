@@ -1,0 +1,23 @@
+{
+    "name": "treeequivalent",
+    "description": "This is a sub-function API for tool carbonfootprint.\nTool description: Calculate the carbon footprint in various situations, such as travel and hydro usage.\nAPI description: Calculate the number of trees required to create a given weight of paper.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "weight": {
+                "type": "string",
+                "description": "The weight of the paper.",
+                "default": "200"
+            },
+            "unit": {
+                "type": "string",
+                "description": "The unit of measurement for the weight (e.g., 'kg' or 'lb').",
+                "default": "kg"
+            }
+        },
+        "required": [
+            "weight",
+            "unit"
+        ]
+    }
+}

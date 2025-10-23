@@ -1,0 +1,17 @@
+{
+    "name": "emailverifier",
+    "description": "This is a sub-function API for tool tomba.\nTool description: Search or verify lists of email addresses in seconds\nAPI description: Verify the deliverability of an email address using the Tomba API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address you want to verify.",
+                "default": "b.mohamed@tomba.io"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "get_supported_coins_handler",
+    "description": "This is a sub-function API for tool fan_crypto_coins.\nTool description: Get data on all crypto coins related to sports teams through this API!\nAPI description: Fetches supported cryptocurrency coins from the RapidAPI Fan Crypto Coins endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cursor": {
+                "type": "string",
+                "description": "Pagination string for fetching the next set of coins. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

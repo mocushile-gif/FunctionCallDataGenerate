@@ -1,0 +1,25 @@
+{
+    "name": "listallcountries",
+    "description": "This is a sub-function API for tool world_cities_and_countries.\nTool description: The fastest and most updated API with rich data that allow you search cities from more than 2 million records. Also allows to search country data with other additional info.\nAPI description: Retrieves a list of all countries from the API with optional pagination and sorting.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "Page number to retrieve. Defaults to 1.",
+                "default": 1
+            },
+            "sortby": {
+                "type": "string",
+                "description": "Valid format to sort is `field:order`\ne.g. `name:asc`, `name:desc` for country name sorting\n\nwhere `asc` for sorting in ascending order\n`desc` for sorting in descending order",
+                "default": "name:asc"
+            },
+            "limit": {
+                "type": "number",
+                "description": "Maximum number of results per page. Defaults to 200.",
+                "default": 200
+            }
+        },
+        "required": []
+    }
+}

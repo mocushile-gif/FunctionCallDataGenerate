@@ -1,0 +1,39 @@
+{
+    "name": "minutely",
+    "description": "This is a sub-function API for tool ai_weather_by_meteosource.\nTool description: Accurate hyper-local weather forecasts, powered by our cutting-edge machine learning (ML) models. Historical weather, current weather, weather statistics , and hour-by-hour forecast - all weather data updated in real-time!\nAPI description: **Minute-by-minute** precipitation forecast for the next 60 minutes. Updated in **real-time** based on our **AI nowcasting models**. **Define your location** using GPS coordinates or `place_id` from `Location endpoints`.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "place_id": {
+                "type": "string",
+                "description": "Identifier of a place. To obtain the `place_id` for the location you want, please use `Location endpoints`. **Alternatively, you can specify the location by parameters `lat` and `lon`.**"
+            },
+            "timezone": {
+                "type": "string",
+                "description": "Timezone to be used for the date fields. If not specified, local timezone of the forecast location will be used. The format is according to the tzinfo database, so values like `Europe/Prague` or `UTC` can be used. Alternatively you may use the value `auto` in which case the local timezone of the location is used. The full list of valid timezone strings can be found [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List).\n",
+                "default": "auto"
+            },
+            "lat": {
+                "type": "string",
+                "description": "Latitude in format 12N, 12.3N, 12.3, or 13S, 13.2S, -13.4. **Alternatively, you can specify the location by parameter `place_id`.**",
+                "default": "37.81021"
+            },
+            "language": {
+                "type": "string",
+                "description": "The language of text summaries (variable names are never translated). Available languages are:\n\n- `en`: English\n- `es`: Spanish\n- `fr`: French\n- `de`: German\n- `pl`: Polish\n- `cs`: Czech\n",
+                "default": "en"
+            },
+            "units": {
+                "type": "string",
+                "description": "Unit system to be used. The available values are:\n\n- `auto`: Select the system automatically, based on the forecast location.\n- `metric`: Metric (SI) units (`°C`, `mm/h`, `m/s`, `cm`, `km`, `hPa`).\n- `us`: Imperial units (`°F`, `in/h`, `mph`, `in`, `mi`, `Hg`).\n- `uk`: Same as `metric`, except that visibility is in `miles` and wind speeds are in `mph`.\n- `ca`: Same as `metric`, except that wind speeds are in `km/h` and pressure is in `kPa`.\n",
+                "default": "auto"
+            },
+            "lon": {
+                "type": "string",
+                "description": "Longitude in format 12E, 12.3E, 12.3, or 13W, 13.2W, -13.4. **Alternatively, you can specify the location by parameter `place_id`.**",
+                "default": "-122.42282"
+            }
+        },
+        "required": []
+    }
+}

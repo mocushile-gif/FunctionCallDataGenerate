@@ -1,0 +1,32 @@
+{
+    "name": "cities_get_information_deprecated",
+    "description": "This is a sub-function API for tool airvisual.\nTool description: Query for Air Pollution Data, Weather information, Health Recommendations, etc... as on the official application\nAPI description: Fetches information about a specific city based on its ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The value of id field (type is city) that received from .../auto-complete API",
+                "default": "hW7vArorRd8cT9h6v"
+            },
+            "aqiindex": {
+                "type": "string",
+                "description": "The AQI index to use (default is 'us'). Options are 'us' or 'cn'.",
+                "default": "us"
+            },
+            "timezone": {
+                "type": "string",
+                "description": "The timezone to use (default is 'Asia/Singapore').",
+                "default": "Asia/Singapore"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language for the response (default is 'en_US').",
+                "default": "en_US"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

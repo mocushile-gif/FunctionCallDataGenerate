@@ -1,0 +1,17 @@
+{
+    "name": "single_airplane",
+    "description": "This is a sub-function API for tool airplanesdb.\nTool description: Get the basic specifications on all types of commercial airplanes.\nAPI description: Fetches details of a single airplane using its ID from the Airplane Database API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the airplane to retrieve details for.",
+                "default": 76.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

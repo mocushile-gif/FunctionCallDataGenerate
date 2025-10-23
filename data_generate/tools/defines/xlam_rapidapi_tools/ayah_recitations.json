@@ -1,0 +1,21 @@
+{
+    "name": "ayah_recitations",
+    "description": "This is a sub-function API for tool quran_com.\nTool description: The default API of Quran.com website\nAPI description: Fetches the list of recitations for a specific Ayah by its key and recitation ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "recitation_id": {
+                "type": "number",
+                "description": "Recitation Id, you can get list of all ayah by ayah recitations using this endpoint #endpoint:HLbauN2sdGitPQPPL"
+            },
+            "ayah_key": {
+                "type": "string",
+                "description": "The key of the Ayah, which is a combination of the Surah number and Ayah number (e.g., '1:1' for the first Ayah of the first Surah)."
+            }
+        },
+        "required": [
+            "recitation_id",
+            "ayah_key"
+        ]
+    }
+}

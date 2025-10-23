@@ -1,0 +1,17 @@
+{
+    "name": "latest_spac_deals_ipos_closings",
+    "description": "This is a sub-function API for tool spachero_spac_database.\nTool description: Official spacHero  SPAC API  with live rankings, SPAC target names, merger meetings, warrant redemption deadlines, price targets, SEC filings, investor presentations and more.\nAPI description: Returns a list of latest SPAC events, such as deals, ipos, closings, rumors.\n\n**Available options are: ** ipo, closings, deals, rumor",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "event": {
+                "type": "string",
+                "description": "The type of SPAC event to retrieve. Options include 'ipo', 'closings', 'deals', and 'rumor'.",
+                "default": "deals"
+            }
+        },
+        "required": [
+            "event"
+        ]
+    }
+}

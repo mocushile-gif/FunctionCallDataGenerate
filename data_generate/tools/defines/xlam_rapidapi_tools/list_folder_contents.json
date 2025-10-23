@@ -1,0 +1,25 @@
+{
+    "name": "list_folder_contents",
+    "description": "This is a sub-function API for tool git_pager.\nTool description: Easility perform CRUD (Create, Read, Update and Delete) operations on any Github repo!\nAPI description: Retrieves the contents of a specified Github repository folder using the Git Pager API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "repo": {
+                "type": "string",
+                "description": "The repository name in the format 'owner/repo'. Defaults to 'gina305/switch-code'.",
+                "default": "gina305/switch-code"
+            },
+            "path": {
+                "type": "string",
+                "description": "The filepath within the repository. Defaults to '/'.",
+                "default": "/"
+            },
+            "key": {
+                "type": "string",
+                "description": "The access token for Github API authentication.",
+                "default": "REMOVED_TOKENRmbK5iIkWiuCINAk9adv12mZvUTNQn49E9xL"
+            }
+        },
+        "required": []
+    }
+}

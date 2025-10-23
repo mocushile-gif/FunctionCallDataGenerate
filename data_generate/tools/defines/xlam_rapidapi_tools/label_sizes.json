@@ -1,0 +1,27 @@
+{
+    "name": "label_sizes",
+    "description": "This is a sub-function API for tool print_your_own_labels_and_stickers.\nTool description: Help your customers print their own labels and stickers, from your own website and under your own branding.\nAPI description: Returns a list of label sizes in the format [width]x[height].\n\nThese sizes are rounded, meaning that they can represent a few other sizes that are close to them. For example size 4\"x3\", will represent 3.75\"x3\",  4\"x3.25\" and so on.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "format": {
+                "type": "string",
+                "description": "Its value can be either \n**Letter**\nor \n**A4** \nThey represent the two world standard printer paper sizes, respectively 8.5 inch by 11 inch and 210 mm by 297 mm.",
+                "default": "letter"
+            },
+            "shape": {
+                "type": "string",
+                "description": "The label shape. Defaults to 'square'.",
+                "default": "square"
+            },
+            "brand": {
+                "type": "string",
+                "description": "Label manufacturer's name.\nThis is the current list of possible values. We will continue adding new brands.\nAvery\nHerma\nOnlinelabels\nUline\nMegastar\nSheetlabels",
+                "default": "avery"
+            }
+        },
+        "required": [
+            "format"
+        ]
+    }
+}

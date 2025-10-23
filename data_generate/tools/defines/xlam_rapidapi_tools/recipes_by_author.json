@@ -1,0 +1,25 @@
+{
+    "name": "recipes_by_author",
+    "description": "This is a sub-function API for tool worldwide_recipes.\nTool description: Over 2 MILLION recipes, nutrition, ingredients, users and reviews worldwide.\nAPI description: Fetches recipes by a given author profile from the Worldwide Recipes API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "profile_name": {
+                "type": "string",
+                "description": "The name of the author's profile to fetch recipes for.",
+                "default": "gonna-want-seconds"
+            },
+            "q": {
+                "type": "string",
+                "description": "An optional query string to filter recipes."
+            },
+            "start": {
+                "type": "number",
+                "description": "For pagination, eg: \n\n- Page 1 = start:0\n- Page 2 = start:20\n- Page 3 = start:40\n\nand so on..."
+            }
+        },
+        "required": [
+            "profile_name"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "v1",
+    "description": "This is a sub-function API for tool tweetfeed.\nTool description: Free feed with IOCs -  malicious URLs, domains, IPs, and hashes. [Website: https://tweetfeed.live]\nAPI description: Retrieves filtered observations from the Version 1 endpoint based on specified time and filters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "time": {
+                "type": "string",
+                "description": "Select 1 of these timeframes:\n\n**today** - Today starting 00:00 UTC)\n**week** - Last 7 days\n**month** - Last 30 days\n**year** - Last 365 days",
+                "default": "today"
+            },
+            "filter1": {
+                "type": "string",
+                "description": "Can be an specific user, type or tag:\n\nType → **url** / **domain** / **ip** / **sha256** / **md5**\nTag → **phishing** / **ransomware** / **CobaltStrike** ...\nUser → **@malwrhunterteam** / **@1ZRR4H** / **@MBThreatIntel** / ... (don't forget the @)",
+                "default": "phishing"
+            },
+            "filter2": {
+                "type": "string",
+                "description": "Can be an specific user, type or tag:\n\nType → **url** / **domain** / **ip** / **sha256** / **md5**\nTag → **phishing** / **ransomware** / **CobaltStrike** ...\nUser → **@malwrhunterteam** / **@1ZRR4H** / **@MBThreatIntel** / ... (don't forget the @)",
+                "default": "url"
+            }
+        },
+        "required": [
+            "time"
+        ]
+    }
+}

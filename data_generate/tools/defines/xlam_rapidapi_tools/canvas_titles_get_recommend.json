@@ -1,0 +1,22 @@
+{
+    "name": "canvas_titles_get_recommend",
+    "description": "This is a sub-function API for tool webtoon.\nTool description: This API provides the largest webcomics data in the world to create a comic site/application such as webtoons.com\nAPI description: Get similar comics\n*To load images, please check the tutorial at https://rapidapi.com/apidojo/api/webtoon/tutorials/how-to-load-images",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "titleno": {
+                "type": "number",
+                "description": "The value of the `titleNo` field returned from the `/canvas/titles/list`, `/canvas/search`, or `/canvas/home` endpoint.",
+                "default": 300138.0
+            },
+            "language": {
+                "type": "string",
+                "description": "The language code for the response. One of the following: 'en', 'zh-hant', 'de', 'fr', 'es', 'th', 'id'. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "titleno"
+        ]
+    }
+}

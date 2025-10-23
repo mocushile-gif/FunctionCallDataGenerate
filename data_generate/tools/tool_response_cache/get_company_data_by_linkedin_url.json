@@ -1,0 +1,38 @@
+{
+    "{'linkedin_url': 'https://www.linkedin.com/company/example-competitor'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The url was not found on Linkedin"
+        }
+    },
+    "{'linkedin_url': 'https://www.linkedin.com/company/example-competitor/'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The url was not found on Linkedin"
+        }
+    },
+    "{'linkedin_url': 'https://www.linkedin.com/company/baobab-beach-resort-spa'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The url was not found on Linkedin"
+        }
+    },
+    "{'linkedin_url': 'https://www.linkedin.com/company/AliceBoutique'}": {
+        "error": "",
+        "response": {
+            "data": null,
+            "message": "The url was not found on Linkedin"
+        }
+    },
+    "{'linkedin_url': 'https://www.linkedin.com/company/apple/'}": {
+        "error": "",
+        "response": "{'data': {'affiliated_companies': [], 'company_id': '162479', 'company_name': 'Apple', 'description': 'We\u2019re a diverse collective of thinkers and doers, continually reimagining what\u2019s possible to help us all do what we love in new ways. And the same innovation that goes into our products also applies to our practices \u2014 strengthening our commitment to leave the world better than we found it. This is where your work can make a difference in people\u2019s lives. Including your own.\\n\\nApple is an equal opportunity employer that is committed to inclusion and diversity. Visit apple.com/careers to learn more.', 'domain': 'apple.com', 'email': '', 'employee_count': 162194, 'employee_range': '10001+', 'follower_count': 17617808, 'funding_info': {'crunchbase_url': 'https://www.crunchbase.com/organization/apple', 'last_funding_round_amount': None, 'last_funding_round_currency': None, 'last_funding_round_month': 4, 'last_funding_round_type': 'Post IPO equity', 'last_funding_round_year': 2021, 'num_funding_rounds': None}, 'hq_address_line1': '1 Apple Park Way', 'hq_address_line2': '', 'hq_city': 'Cupertino', 'hq_country': 'US', 'hq_full_address': '1 Apple Park Way, Cupertino, California 95014, US', 'hq_postalcode': '95014', 'hq_region': 'California', 'industries': ['Computers and Electronics Manufacturing'], 'linkedin_url': 'https://www.linkedin.com/company/apple/', 'locations': [{'city': 'Cupertino', 'country': 'US', 'full_address': '1 Apple Park Way, Cupertino, California 95014, US', 'is_headquarter': True, 'line1': '1 Apple Park Way', 'line2': '', 'region': 'California', 'zipcode': '95014'}], 'logo_url': 'https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1735776000&v=beta&t=bTPr3rMKE6Fl9GpSQOQ3uULJoMqTBfMkw28O2t048ok', 'phone': '', 'specialties': 'Innovative Product Development, World-Class Operations, Retail, Telephone Support', 'tagline': '', 'website': 'http://www.apple.com/careers', 'year_founded': 1976}, 'message': 'ok'}"
+    },
+    "{'linkedin_url': 'https://www.linkedin.com/company/tesla'}": {
+        "error": "",
+        "response": "{'data': {'affiliated_companies': [], 'company_id': '8819091', 'company_name': 'Tesla', 'description': 'Tesla is an internet company.\\n\\nFollow us to receive our company updates and job postings.', 'domain': '', 'email': '', 'employee_count': 68, 'employee_range': '51-200', 'follower_count': 378, 'funding_info': {'crunchbase_url': '', 'last_funding_round_amount': None, 'last_funding_round_currency': None, 'last_funding_round_month': None, 'last_funding_round_type': None, 'last_funding_round_year': None, 'num_funding_rounds': None}, 'hq_address_line1': '', 'hq_address_line2': '', 'hq_city': 'K\u00f8benhavn', 'hq_country': 'DK', 'hq_full_address': 'K\u00f8benhavn, DK', 'hq_postalcode': '', 'hq_region': '', 'industries': ['Software Development'], 'linkedin_url': 'https://www.linkedin.com/company/tesla/', 'locations': [{'city': 'K\u00f8benhavn', 'country': 'DK', 'full_address': 'K\u00f8benhavn, DK', 'is_headquarter': True, 'line1': '', 'line2': '', 'region': '', 'zipcode': ''}], 'logo_url': '', 'phone': '', 'specialties': '', 'tagline': '', 'website': '', 'year_founded': ''}, 'message': 'ok'}"
+    }
+}

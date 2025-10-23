@@ -1,0 +1,17 @@
+{
+    "name": "get_one_anime_by_ranking",
+    "description": "This is a sub-function API for tool anime_db.\nTool description: Complete anime data. Ranking, synopsis, genre, search by title. Over 20k data updated everyday\nAPI description: Fetches the details of an anime based on its ranking from the Anime DB API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "rank": {
+                "type": "number",
+                "description": "The ranking position of the desired anime.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "rank"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "{'date': '2025-05', 'force': 'warwickshire', 'category': 'cyber-crime'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'date': '2025-05', 'force': 'warwickshire', 'category': 'all-crime'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'date': '2025-05', 'force': 'metropolitan', 'category': 'all-crime'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'category': 'violent-crime', 'date': '2021-06', 'force': 'warwickshire'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'category': 'violent-crime', 'date': '2023-01', 'force': 'warwickshire'}": {
+        "error": "",
+        "response": "[{'category': 'violent-crime', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Unable to prosecute suspect', 'date': '2023-01'}, 'persistent_id': 'a7b22fc5cad6f0be5d4cd1ad765a297807126b2433196b917663d70dae589ca9', 'id': 107906511, 'location_subtype': '', 'month': '2023-01'}, {'category': 'violent-crime', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Status update unavailable', 'date': '2023-05'}, 'persistent_id': '05b02fb1072ca92b5b2e3a83c7a4f7d73deb51751ae7d6e91942cb7a10a75593', 'id': 107907116, 'location_subtype': '', 'month': '2023-01'}, {'category': 'violent-crime', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Investigation complete; no suspect identified', 'date': '2023-07'}, 'persistent_id': '0a976d5001544856ad321006a2412fe1754767a15c1a1141b7a1519d2516a4c8', 'id': 107906751, 'location_subtype': '', 'month': '2023-01'}, {'category': 'violent-crime', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Unable to prosecute suspect', 'date': '2023-02'}, 'persistent_id': '30f4171d6156ddf2c70f8a60ab31d221313003467a55d3f82bbf105008b0b83a', 'id': 107906093, 'location_subtype': '', 'month': '2023-01'}, {'category': 'violent-crime', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Unable to prosecute suspect', 'date': '2023-04'}, 'persistent_id': '5bcee6c06cea465fb6f79490d5b2beef402acfbec541b9b05c0a5c17b2749e3a', 'id': 107904534, 'location_subtype': '', 'month': '2023-01'}, {'category': 'violent-crime', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Status update unavailable', 'date': '2023-05'}, 'persistent_id': '8791ce95ee9ac8a6780e5866f7e0d61589ba27195fd9c510ba52e8eef8871369', 'id': 107905219, 'location_subtype': '', 'month': '2023-01'}, {'category': 'violent-crime', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Status update unavailable"
+    },
+    "{'category': 'theft', 'date': '2023-06', 'force': 'metropolitan'}": {
+        "error": "",
+        "response": "[{'category': 'bicycle-theft', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Investigation complete; no suspect identified', 'date': '2023-06'}, 'persistent_id': '910c1c8a00dc9fef38e5cdf5837dbabea4cafd672f198acc0ebcafc2b47193b4', 'id': 110825775, 'location_subtype': '', 'month': '2023-06'}, {'category': 'bicycle-theft', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Investigation complete; no suspect identified', 'date': '2023-06'}, 'persistent_id': 'beb13f64f440e275de04236201066bea807c66a59f082a990a44cb77b1e005cd', 'id': 110826281, 'location_subtype': '', 'month': '2023-06'}, {'category': 'bicycle-theft', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Investigation complete; no suspect identified', 'date': '2023-06'}, 'persistent_id': '978d6d8cd76567f244fd3439db45aa5ad3312e51ff22708a48c61e9aab4d0e3b', 'id': 110824900, 'location_subtype': '', 'month': '2023-06'}, {'category': 'bicycle-theft', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Investigation complete; no suspect identified', 'date': '2023-07'}, 'persistent_id': '4b74ebee7520de6c58e41da792996841b25d3e21d712c8e60a4154c6f264f11d', 'id': 110825638, 'location_subtype': '', 'month': '2023-06'}, {'category': 'bicycle-theft', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Investigation complete; no suspect identified', '"
+    },
+    "{'category': 'burglary', 'date': '2023-07', 'force': 'metropolitan'}": {
+        "error": "",
+        "response": "[{'category': 'burglary', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Investigation complete; no suspect identified', 'date': '2023-08'}, 'persistent_id': '9ca2994b3fc5c4336a1f6fdfd6b68fc603f642056b935b4aa1fb20f33aa638b7', 'id': 111957186, 'location_subtype': '', 'month': '2023-07'}, {'category': 'burglary', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Investigation complete; no suspect identified', 'date': '2023-09'}, 'persistent_id': '6332299926e0aa4c4dbc9c5adb0d1f37351eb61b020df188e9ac7d6ad2b92f8c', 'id': 111957668, 'location_subtype': '', 'month': '2023-07'}, {'category': 'burglary', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Investigation complete; no suspect identified', 'date': '2023-07'}, 'persistent_id': '13b4f9e9e1e00e1971b927538609cf16c24eb10890d27f5e6216854dc84fb42e', 'id': 111956734, 'location_subtype': '', 'month': '2023-07'}, {'category': 'burglary', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Investigation complete; no suspect identified', 'date': '2023-11'}, 'persistent_id': '984843c4fc18de9fd2267b3fbc9333db930508530eebdb7761e935f6ca6a3971', 'id': 111957582, 'location_subtype': '', 'month': '2023-07'}, {'category': 'burglary', 'location_type': None, 'location': None, 'context': '', 'outcome_status': {'category': 'Investigation complete; no suspect identified', 'date': '2023-10'}, 'persi"
+    }
+}

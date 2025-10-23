@@ -1,0 +1,29 @@
+{
+    "name": "fetch_email_of_a_person",
+    "description": "This is a sub-function API for tool email_finder.\nTool description: Find email of anyone from their first name, last name, and domain\nAPI description: Fetch the email address of a person based on their first name, last name, and domain using the Email Finder API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "first_name": {
+                "type": "string",
+                "description": "The first name of the person whose email is being fetched.",
+                "default": "John"
+            },
+            "domain": {
+                "type": "string",
+                "description": "The domain associated with the email address.",
+                "default": "google.com"
+            },
+            "last_name": {
+                "type": "string",
+                "description": "The last name of the person whose email is being fetched.",
+                "default": "Doe"
+            }
+        },
+        "required": [
+            "first_name",
+            "domain",
+            "last_name"
+        ]
+    }
+}

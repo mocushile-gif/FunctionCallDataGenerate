@@ -1,0 +1,25 @@
+{
+    "name": "take_image_screenshot",
+    "description": "This is a sub-function API for tool web_capture.\nTool description: Take screenshots of any website or generate a pdf either from the website or an HTML file.\nAPI description: Get Screenshot of any website by providing URL and the  image ratio (width, height)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "width": {
+                "type": "number",
+                "description": "The width of the screenshot in pixels. Defaults to 1024.",
+                "default": 1024.0
+            },
+            "url": {
+                "type": "string",
+                "description": "The URL of the website to be captured. Defaults to 'https://google.com'.",
+                "default": "https://google.com"
+            },
+            "height": {
+                "type": "number",
+                "description": "The height of the screenshot in pixels. Defaults to 780.",
+                "default": 780.0
+            }
+        },
+        "required": []
+    }
+}

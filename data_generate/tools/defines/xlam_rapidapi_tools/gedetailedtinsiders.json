@@ -1,0 +1,17 @@
+{
+    "name": "gedetailedtinsiders",
+    "description": "This is a sub-function API for tool insiders.\nTool description: Detailed inside transactions for publicly listed companies. Includes SEC URLS to original documents. Updated every 30 seconds \nAPI description: Fetch detailed insider trading information for a given stock ticker.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The stock ticker symbol for which to fetch insider trading details.",
+                "default": "BRK.A"
+            }
+        },
+        "required": [
+            "ticker"
+        ]
+    }
+}

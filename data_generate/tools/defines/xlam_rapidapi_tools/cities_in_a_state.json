@@ -1,0 +1,23 @@
+{
+    "name": "cities_in_a_state",
+    "description": "This is a sub-function API for tool referential_db.\nTool description: Get global countries, states, and cities data. Filter and display results in multiple languages.\nAPI description: Fetches the list of cities in a given state.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "statecode": {
+                "type": "string",
+                "description": "The code of the state for which the cities are to be fetched.",
+                "default": "CA"
+            },
+            "countrycode": {
+                "type": "string",
+                "description": "The code of the country where the state is located.",
+                "default": "US"
+            }
+        },
+        "required": [
+            "statecode",
+            "countrycode"
+        ]
+    }
+}

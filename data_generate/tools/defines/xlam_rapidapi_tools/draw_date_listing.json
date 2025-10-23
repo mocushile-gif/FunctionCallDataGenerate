@@ -1,0 +1,15 @@
+{
+    "name": "draw_date_listing",
+    "description": "This is a sub-function API for tool thai_lottery_result.\nTool description: Thai lottery results API, Provided by Thailand-API.com\nAPI description: Fetches a listing of Thai lottery draw dates from the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number of the results to fetch. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

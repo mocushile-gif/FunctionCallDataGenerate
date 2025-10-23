@@ -1,0 +1,17 @@
+{
+    "name": "get_author_information_by_id",
+    "description": "This is a sub-function API for tool hapi_books.\nTool description: HAPI Books is an API about books. It gives information about thousands of books from all around the world. Search by name, by genre, get the best books by year, and more!\nAPI description: Get a large variety of information of an Author such as the name, a brief biography, the list of books, and more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "author_id": {
+                "type": "string",
+                "description": "The unique identifier of the author.",
+                "default": "239579"
+            }
+        },
+        "required": [
+            "author_id"
+        ]
+    }
+}

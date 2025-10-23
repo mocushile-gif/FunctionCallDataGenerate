@@ -1,0 +1,15 @@
+{
+    "name": "qr_endpoint",
+    "description": "This is a sub-function API for tool qr_code_api_updated.\nTool description: QR Code API updated version for any website\nmore to come in such format\nAPI description: Generates a QR code for the given URL using the RapidAPI QR code service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The website URL to encode in the QR code. Defaults to 'www.google.com'.",
+                "default": "www.google.com"
+            }
+        },
+        "required": []
+    }
+}

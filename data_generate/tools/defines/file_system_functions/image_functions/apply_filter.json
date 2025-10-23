@@ -1,0 +1,23 @@
+{
+    "name": "apply_filter",
+    "description": "Apply various filters to image (blur, sharpen, edge_enhance, emboss, find_edges, smooth, smooth_more).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the input image file"
+        },
+        "filter_type": {
+          "type": "string",
+          "description": "Type of filter to apply",
+          "enum": ["blur", "sharpen", "edge_enhance", "emboss", "find_edges", "smooth", "smooth_more"]
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output image. If not provided, will create auto-named file."
+        }
+      },
+      "required": ["image_path", "filter_type"]
+    }
+  } 

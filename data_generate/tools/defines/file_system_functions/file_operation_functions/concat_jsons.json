@@ -1,0 +1,26 @@
+{
+    "name": "concat_jsons",
+    "description": "Merges multiple JSON files that match a pattern into one. The function searches for files based on the provided pattern, reads their content, and combines them into a single JSON file. The merged file can be saved to a specified directory or the directory of the first matched file.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pattern": {
+                "type": "string",
+                "description": "The file search pattern (e.g., \"data/*.json\")."
+            },
+            "save_dir": {
+                "type": "string",
+                "description": "The directory to save the merged file. If not provided, the merged file will be saved in the same directory as the first matched file.",
+                "default": "./"
+            },
+            "file_name": {
+                "type": "string",
+                "description": "The name of the merged file. Defaults to \"concat_data.json\".",
+                "default": "concat_data.json"
+            }
+        },
+        "required": [
+            "pattern"
+        ]
+    }
+}

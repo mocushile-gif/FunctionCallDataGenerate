@@ -1,0 +1,17 @@
+{
+    "name": "statistics",
+    "description": "This is a sub-function API for tool crazytimeapi.\nTool description: CrazyTimeAPI is a real-time API that provides developers with a way to integrate live data into their applications.This API is designed to be fast, reliable, and easy to use, allowing developers to quickly and easily access real-time game outcome data so they can integrate in any strategy\nAPI description: Stats of wheelResults:\n\"count\"\n\"percentage\"\n\"lastOccurredAt\"\n\"lastSeenBefore\"\n\"hotFrequencyPercentage\": 1.11\nNote that Duration is Hourly basis 1,2,3,.......72 ect",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "duration": {
+                "type": "number",
+                "description": "The duration in hours for which the statistics are to be retrieved.",
+                "default": 3.0
+            }
+        },
+        "required": [
+            "duration"
+        ]
+    }
+}

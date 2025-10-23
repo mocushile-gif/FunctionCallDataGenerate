@@ -1,0 +1,23 @@
+{
+    "name": "copy_file_or_directory",
+    "description": "Copy a file or directory to a new location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "src": {
+                "type": "string",
+                "description": "The source file or directory to copy. Default to './'"
+            },
+            "dest": {
+                "type": "string",
+                "description": "The destination file or directory path where the file or directory will be copied. Default to './'"
+            },
+            "overwrite": {
+                "type": "boolean",
+                "description": "Whether to overwrite the destination if it exists. Defaults to False.",
+                "default": false
+            }
+        },
+        "required": ["src", "dest"]
+    }
+}

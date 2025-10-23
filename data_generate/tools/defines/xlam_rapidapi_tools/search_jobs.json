@@ -1,0 +1,40 @@
+{
+    "name": "search_jobs",
+    "description": "This is a sub-function API for tool open_to_work_remote_api.\nTool description: Open To Work Remote API:\n\nI build a powerful Job Search API for developers.\n\nHere you'll find a great list of remote jobs.\n\nIt contains accurate sources and allows different filters.\n\nFor more info:\nhttps://api.opentoworkremote.com/\n\nAnd if you have any doubt, contact me:\nhttps://www.opentoworkremote.com/contact\n\nMore Links:\nhttps://linktr.ee/maurobonfietti\n\nAPI description: # Open To Work Remote - API\n\n## Search Jobs:\n\nThis endpoint allows you to search for jobs.\n\nYou can search for jobs by filtering by title, tags, salary, location, and company name. All the information comes paginated.\n\n*[Click 3 Dots Button To View More Details About All Params]*\n\n### Parameters and Filters:\n\n**page:** Select the page.\n**perPage:** Quantity of jobs shown per page.\n**title:** Allows search jobs by title/role.\n**tag:** Allows search jobs by tags/categories.\n**location:** Allows search jobs by",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "salarymin": {
+                "type": "string",
+                "description": "Minimum salary to filter jobs by. Defaults to '100'.",
+                "default": "100"
+            },
+            "company": {
+                "type": "string",
+                "description": "Company name to filter jobs by. Defaults to 'SpaceX'.",
+                "default": "SpaceX"
+            },
+            "title": {
+                "type": "string",
+                "description": "Job title or role to filter jobs by. Defaults to 'PHP'.",
+                "default": "PHP"
+            },
+            "location": {
+                "type": "string",
+                "description": "Location to filter jobs by. Defaults to 'remote'.",
+                "default": "remote"
+            },
+            "page": {
+                "type": "string",
+                "description": "Page number for paginated results. Defaults to '1'.",
+                "default": "1"
+            },
+            "perpage": {
+                "type": "string",
+                "description": "Number of jobs to show per page. Defaults to '5'.",
+                "default": "5"
+            }
+        },
+        "required": []
+    }
+}

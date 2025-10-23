@@ -1,0 +1,32 @@
+{
+    "{'username': 'kimkardashian'}": {
+        "error": "",
+        "response": {
+            "username": "kimkardashian",
+            "igtv_channel": {
+                "total_videos": 25,
+                "recent_videos": [
+                    {
+                        "title": "Behind the Scenes of SKIMS",
+                        "views": 1200000,
+                        "likes": 85000,
+                        "comments": 3200,
+                        "upload_date": "2023-10-01",
+                        "video_url": "https://instagram.com/igtv/video1"
+                    },
+                    {
+                        "title": "Family Moments",
+                        "views": 950000,
+                        "likes": 67000,
+                        "comments": 2100,
+                        "upload_date": "2023-09-25",
+                        "video_url": "https://instagram.com/igtv/video2"
+                    }
+                ],
+                "pagination": {
+                    "next_max_id": "ABC123XYZ"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "generate_qr_code",
+    "description": "This is a sub-function API for tool qrx1.\nTool description: Generate one time use QR-codes.\nAPI description: ## Generates a QR code that can only be used once.\n\n - If the QR code is not used within 3minutes it will be invalidated.\n - Timeout can be altered with the timeout parameter (maximum lifetime is 60minutes).\n - Fully customizable",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "data": {
+                "type": "string",
+                "description": "The data to be encoded into the QR code.",
+                "default": "https://wikipedia.org"
+            }
+        },
+        "required": [
+            "data"
+        ]
+    }
+}

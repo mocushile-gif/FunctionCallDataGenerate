@@ -1,0 +1,18 @@
+{
+    "name": "get_all_motivational_quotes",
+    "description": "This is a sub-function API for tool motivational_content.\nTool description: Get motivational quotes and motivational pictures.\nAPI description: This endpoint fetches all the motivational quotes. However, you can do pagination as well using the 'skip' and 'limit' parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "skip": {
+                "type": "number",
+                "description": "The number of items to skip before starting to collect the result set."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The number of quotes to return."
+            }
+        },
+        "required": []
+    }
+}

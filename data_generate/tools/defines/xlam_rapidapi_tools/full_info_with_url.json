@@ -1,0 +1,17 @@
+{
+    "name": "full_info_with_url",
+    "description": "This is a sub-function API for tool tiktok_full_info_without_watermark.\nTool description: Fast .. Stable .. Without Watermark APi gives you full info about tiktok posts and videos without watermark\nAPI description: tiktok videos with full info \nvideo without watermark\ncover / music\nshare / likes / comments\nauthor  info  like connected  youtube channel / IG  / avatar thumbnail / statistics about the video including comments number / likes \nsupport for  all tiktok links ( vm.tiktok.com / vt.tiktok.com / m.tiktok.com / web / t.tiktok.com)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the TikTok video to fetch information for.",
+                "default": "https://www.tiktok.com/@mehdi_amri_10/video/7060576901613587718"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

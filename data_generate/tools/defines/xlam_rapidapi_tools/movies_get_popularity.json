@@ -1,0 +1,28 @@
+{
+    "name": "movies_get_popularity",
+    "description": "This is a sub-function API for tool flixster.\nTool description: This API helps to query for movies, actors, theaters, showtime, etc... to create a site/application, such as : rottentomatoes.com, flixster.com\nAPI description: Fetches popular movies based on location parameters such as zipcode, radius, longitude, and latitude, using the Flixster API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zipcode": {
+                "type": "string",
+                "description": "The postal code of the area to search in. Defaults to '90002'.",
+                "default": "90002"
+            },
+            "radius": {
+                "type": "number",
+                "description": "The radius (in miles) around the given zipcode to include in the search. Defaults to 50.",
+                "default": 50.0
+            },
+            "longitude": {
+                "type": "number",
+                "description": "The geographical longitude to search movies around. Defaults to None."
+            },
+            "latitude": {
+                "type": "number",
+                "description": "The geographical latitude to search movies around. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

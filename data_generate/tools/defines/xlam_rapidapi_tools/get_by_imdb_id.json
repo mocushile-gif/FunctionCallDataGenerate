@@ -1,0 +1,17 @@
+{
+    "name": "get_by_imdb_id",
+    "description": "This is a sub-function API for tool mdblist.\nTool description: Get Movies and TV Shows data with ratings from multiple providers in JSON format\nAPI description: Fetch movie or TV show information by IMDb ID using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "i": {
+                "type": "string",
+                "description": "A valid IMDb ID for the movie or TV show.",
+                "default": "tt0073195"
+            }
+        },
+        "required": [
+            "i"
+        ]
+    }
+}

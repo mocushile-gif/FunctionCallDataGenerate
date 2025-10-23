@@ -1,0 +1,46 @@
+{
+    "name": "search_leaderboard",
+    "description": "This is a sub-function API for tool binance_futures_leaderboard.\nTool description: Binance Futures Leaderboard API is an API for querying the leaderboard of the Binance Futures Exchange.\n\nAny questions or issues please contact me on Telegram:  [@DevNullZer0](https://t.me/devnullzer0) or via [devnullzer0@proton.me](mailto:devnullzer0@proton.me)\nAPI description: Search the Binance Futures leaderboard based on various criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "istrader": {
+                "type": "boolean",
+                "description": "Include only copytraders if True.",
+                "default": true
+            },
+            "statisticstype": {
+                "type": "string",
+                "description": "The statistics type to filter the leaderboard.",
+                "enum": [
+                    "ROI",
+                    "PNL"
+                ]
+            },
+            "periodtype": {
+                "type": "string",
+                "description": "The period type to filter the leaderboard.",
+                "enum": [
+                    "DAILY",
+                    "WEEKLY",
+                    "MONTHLY",
+                    "ALL"
+                ]
+            },
+            "isshared": {
+                "type": "boolean",
+                "description": "Include shared positions if True.",
+                "default": true
+            },
+            "tradetype": {
+                "type": "string",
+                "description": "The trade type to filter the leaderboard. 'PERPETUAL' represents USDⓈ-M, and 'DELIVERY' represents COIN-M.",
+                "enum": [
+                    "PERPETUAL",
+                    "DELIVERY"
+                ]
+            }
+        },
+        "required": []
+    }
+}

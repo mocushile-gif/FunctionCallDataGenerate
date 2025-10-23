@@ -1,0 +1,14 @@
+{
+    "name": "serie_a_standings",
+    "description": "This is a sub-function API for tool serie_a_standings.\nTool description: Italian Serie A Standings & Table\nAPI description: Fetches the Serie A football standings for a given season using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season": {
+                "type": "string",
+                "description": "The season year for which the standings are to be fetched (e.g., '2022'). Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

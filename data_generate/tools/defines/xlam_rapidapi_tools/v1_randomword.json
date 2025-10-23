@@ -1,0 +1,15 @@
+{
+    "name": "v1_randomword",
+    "description": "This is a sub-function API for tool random_word_by_api_ninjas.\nTool description: Random word generator full of unique, interesting words. See more info at https://api-ninjas.com/api/randomword\nAPI description: API Ninjas Random Word API endpoint. Returns a random word.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of word to return. Possible values are 'noun', 'verb', 'adjective', 'adverb'. Defaults to 'verb'.",
+                "default": "verb"
+            }
+        },
+        "required": []
+    }
+}

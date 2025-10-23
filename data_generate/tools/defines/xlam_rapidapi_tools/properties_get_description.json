@@ -1,0 +1,32 @@
+{
+    "name": "properties_get_description",
+    "description": "This is a sub-function API for tool booking.\nTool description: This API helps to query rooms, price, facilities, policities, etc information from many hotels around the world to create a travel site such as : booking.com\nAPI description: Retrieve the description of a property based on its ID from the properties API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hotel_ids": {
+                "type": "number",
+                "description": "The value of the hotel ID from the properties/list API.",
+                "default": 1528418.0
+            },
+            "check_out": {
+                "type": "string",
+                "description": "The check-out date in 'YYYY-MM-DD' format. Default is '2019-03-15'.",
+                "default": "2019-03-15"
+            },
+            "languagecode": {
+                "type": "string",
+                "description": "Language code for the description. Default is 'en-us'. Options include 'en', 'en-us', 'ar', 'bg', 'ca', 'cs', 'da', 'de', 'el', 'es', 'es-ar', 'et', 'fi', 'fr', 'he', 'hr', 'hu', 'id', 'is', 'it', 'ja', 'ko', 'lt', 'lv', 'ms', 'nl', 'no', 'pl', 'pt', 'pt-br', 'ro', 'ru', 'sk', 'sl', 'sr', 'sv', 'th', 'tl', 'tr', 'uk', 'vi', 'zh', 'zh-tw'.",
+                "default": "en-us"
+            },
+            "check_in": {
+                "type": "string",
+                "description": "The check-in date in 'YYYY-MM-DD' format. Default is '2019-03-13'.",
+                "default": "2019-03-13"
+            }
+        },
+        "required": [
+            "hotel_ids"
+        ]
+    }
+}

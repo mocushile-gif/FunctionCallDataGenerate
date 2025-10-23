@@ -1,0 +1,27 @@
+{
+    "name": "stock_v2_get_financials",
+    "description": "This is a sub-function API for tool ms_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc... to create a site/application such as morningstar.com\nAPI description: Fetches financial data for a given stock based on performance ID, report type, and interval.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "performanceid": {
+                "type": "string",
+                "description": "Value of the performanceId field obtained from endpoints like /auto-complete, /get-summary, or /get-movers.",
+                "default": "0P0000OQN8"
+            },
+            "reporttype": {
+                "type": "string",
+                "description": "Type of report to retrieve. 'R' for Restated, 'A' for As originally reported. Defaults to 'A'.",
+                "default": "A"
+            },
+            "interval": {
+                "type": "string",
+                "description": "Interval for the financial data. Choices are 'quarterly' or 'annual'. Defaults to 'annual'.",
+                "default": "annual"
+            }
+        },
+        "required": [
+            "performanceid"
+        ]
+    }
+}

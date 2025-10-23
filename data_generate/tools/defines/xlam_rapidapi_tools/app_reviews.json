@@ -1,0 +1,48 @@
+{
+    "name": "app_reviews",
+    "description": "This is a sub-function API for tool store_apps.\nTool description: Extremely Comprehensive API to search and list apps/games top charts on the Google Play Apps Store, including extensive app details and reviews in real-time.\nAPI description: Fetches app reviews from a specified app store using various filters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "app_id": {
+                "type": "string",
+                "description": "App Id of the app for which to get reviews.",
+                "default": "com.snapchat.android"
+            },
+            "device": {
+                "type": "string",
+                "description": "Only return reviews made on a specific device type. Allowed values are `PHONE`, `TABLET`, `CHROMEBOOK`. Default is `PHONE`."
+            },
+            "region": {
+                "type": "string",
+                "description": "The country code of country/region to use, specified as a 2-letter country code - see [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n**Default**: `us`.",
+                "default": "us"
+            },
+            "sort_by": {
+                "type": "string",
+                "description": "How to sort the reviews in the results. Allowed values are `MOST_RELEVANT`, `NEWEST`, `RATING`. Default is `MOST_RELEVANT`."
+            },
+            "rating": {
+                "type": "string",
+                "description": "Only return reviews with a certain star rating. Allowed values are `ANY`, `ONE_STAR`, `TWO_STARS`, `THREE_STARS`, `FOUR_STARS`, `FIVE_STARS`. Default is `ANY`."
+            },
+            "limit": {
+                "type": "number",
+                "description": "Maximum number of reviews in the results. Default is 10.",
+                "default": 10.0
+            },
+            "cursor": {
+                "type": "string",
+                "description": "Specify a cursor from the previous request to get the next set of results."
+            },
+            "language": {
+                "type": "string",
+                "description": "The language to use, specified as a 2-letter language code - see [ISO 639-1 alpha-2](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).\n**Default**: `en`.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "app_id"
+        ]
+    }
+}

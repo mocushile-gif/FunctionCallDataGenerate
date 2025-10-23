@@ -1,0 +1,28 @@
+{
+    "name": "cash_flow_statement",
+    "description": "This is a sub-function API for tool fmpcloud.\nTool description: Access stock prices. Financial statements, real stock price values. SEC EDGAR API with all filings in real time. Free stock API to discover financial data instantly more at https://fmpcloud.io/ \nAPI description: Retrieves the cash flow statement for a given stock in JSON format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "stock": {
+                "type": "string",
+                "description": "The stock symbol to retrieve the cash flow statement for.",
+                "default": "AAPL"
+            },
+            "apikey": {
+                "type": "string",
+                "description": "Your API key from https://fmpcloud.io/register.",
+                "default": "demo"
+            },
+            "period": {
+                "type": "string",
+                "description": "The period of the statement, either 'quarter' or 'annual'. Defaults to 'quarter'.",
+                "default": "quarter"
+            }
+        },
+        "required": [
+            "stock",
+            "apikey"
+        ]
+    }
+}

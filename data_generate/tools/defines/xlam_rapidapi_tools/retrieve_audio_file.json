@@ -1,0 +1,17 @@
+{
+    "name": "retrieve_audio_file",
+    "description": "This is a sub-function API for tool melrose_labs_voice_api.\nTool description: The Voice API is used for text-to-speech, speech-to-text and inbound/outbound voice routing.  The Voice API is part of the <a href=\"https://melroselabs.com/services/voice-gateway/\">Voice Gateway</a> from Melrose Labs.\nAPI description: Retrieve an audio file in MP3 format from a previously submitted text-to-speech conversion.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "transactionid": {
+                "type": "string",
+                "description": "The transaction ID for the previously submitted text-to-speech conversion.",
+                "default": "string"
+            }
+        },
+        "required": [
+            "transactionid"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "hashtag_metadata_information",
+    "description": "This is a sub-function API for tool tiktok_data.\nTool description: Social Media Data API in Real-Time.   -Get very useful and unique information.  -I'm on Telegram https://t.me/logicBuilder News and announcements Telegram Channel https://t.me/logicApi\nAPI description: Retrieves metadata information for a given hashtag using the RapidAPI Toolbench.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hashtag": {
+                "type": "string",
+                "description": "The name of the hashtag for which to retrieve metadata. For example: 'summer'.",
+                "default": "summer"
+            }
+        },
+        "required": [
+            "hashtag"
+        ]
+    }
+}

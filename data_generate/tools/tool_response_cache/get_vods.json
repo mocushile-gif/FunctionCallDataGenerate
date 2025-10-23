@@ -1,0 +1,26 @@
+{
+    "{'tournamentid': '107458367237283414'}": {
+        "error": "",
+        "response": "{'data': {'schedule': {'events': [{'startTime': '2022-02-05T21:30:00Z', 'state': 'completed', 'blockName': 'Week 1', 'league': {'name': 'LCS'}, 'match': {'id': '107458367241215653', 'type': 'normal', 'teams': [{'name': 'Evil Geniuses LG', 'code': 'EG', 'image': 'http://static.lolesports.com/teams/1592590374862_EvilGeniusesEG-01-FullonDark.png', 'result': {'gameWins': 1}}, {'name': 'TSM', 'code': 'TSM', 'image': 'http://static.lolesports.com/teams/1672824696002_White-Logo-Mark.png', 'result': {'gameWins': 0}}], 'strategy': {'type': 'bestOf', 'count': 1}}, 'games': [{'id': '107458367241215654', 'state': 'completed', 'vods': [{'parameter': 'ZCBIBPJ-CI8', 'startMillis': None, 'endMillis': None}, {'parameter': '1288232053', 'startMillis': 6074000, 'endMillis': 8029000}]}]}, {'startTime': '2022-02-05T22:30:00Z', 'state': 'completed', 'blockName': 'Week 1', 'league': {'name': 'LCS'}, 'match': {'id': '107458367241084543', 'type': 'normal', 'teams': [{'name': 'CLG', 'code': 'CLG', 'image': 'http://static.lolesports.com/teams/1592590248482_CounterLogicGamingCLG-01-FullonDark.png', 'result': {'gameWins': 0}}, {'name': 'FlyQuest', 'code': 'FLY', 'image': 'http://static.lolesports.com/teams/flyquest-new-on-dark.png', 'result': {'gameWins': 1}}], 'strategy': {'type': 'bestOf', 'count': 1}}, 'games': [{'id': '107458367241084544', 'state': 'completed', 'vods': [{'parameter': 'h4KdIXQzxkI', 'startMillis': None, 'endMillis': None}, {'parameter': '1288232053', 'startMillis': 10079000, 'endMillis': 12978000}]}]}, {'startTime': '2022-02-05T23:30:00Z', 'state': 'completed', 'blockName': 'Week 1', 'league': {'name': 'LCS'}, 'match': {'id': '107458367241084519', 'type': 'normal', 'teams': [{'name': 'Team Liquid Honda', 'code': 'TL', 'image': 'http://static.lolesports.com/teams/1631820014208_tl-2021-worlds.png', 'result': {'gameWins': 0}}, {'name': '100 Thieves', 'code': '100', 'image': 'http://static.lolesports.com/teams/1631819887423_100t-2021-worlds.png', 'result': {'gameWins': 1}}], 'strategy': {'type': 'bestOf', 'count': 1}}, 'games"
+    },
+    "{'tournamentid': '115432198765432109'}": {
+        "error": "",
+        "response": "{'data': {'schedule': {'events': []}, 'nextUnstartedMatch': {'events': []}}}"
+    },
+    "{'tournamentid': '117890123456789012'}": {
+        "error": "",
+        "response": "{'data': {'schedule': {'events': []}, 'nextUnstartedMatch': {'events': []}}}"
+    },
+    "{'tournamentid': '16026'}": {
+        "error": "",
+        "response": "{'data': {'schedule': {'events': []}, 'nextUnstartedMatch': {'events': []}}}"
+    },
+    "{'tournamentid': '107458367237283415'}": {
+        "error": "",
+        "response": "{'data': {'schedule': {'events': []}, 'nextUnstartedMatch': {'events': []}}}"
+    },
+    "{'tournamentid': '107458367237283416'}": {
+        "error": "",
+        "response": "{'data': {'schedule': {'events': []}, 'nextUnstartedMatch': {'events': []}}}"
+    }
+}

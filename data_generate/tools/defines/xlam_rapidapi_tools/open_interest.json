@@ -1,0 +1,27 @@
+{
+    "name": "open_interest",
+    "description": "This is a sub-function API for tool bybit.\nTool description: Public Data Bybit. Cryptocurrency prices and charts. Derivatives, Futures, Spot, USDC Contract\nAPI description: Gets the total amount of unsettled contracts. In other words, the total number of contracts held in open positions.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The trading symbol for which to retrieve open interest data.",
+                "default": "BTCUSD"
+            },
+            "period": {
+                "type": "string",
+                "description": "The data recording period, which can be one of '5min', '15min', '30min', '1h', '4h', or '1d'.",
+                "default": "5min"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of data points to return. The default is 50, with a maximum allowable value of 200."
+            }
+        },
+        "required": [
+            "symbol",
+            "period"
+        ]
+    }
+}

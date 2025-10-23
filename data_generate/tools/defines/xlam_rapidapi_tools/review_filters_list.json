@@ -1,0 +1,37 @@
+{
+    "name": "review_filters_list",
+    "description": "This is a sub-function API for tool booking.\nTool description: This API helps to query rooms, price, facilities, policities, etc information from many hotels around the world to create a travel site such as : booking.com\nAPI description: Fetch supported options metadata for filtering hotel reviews.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hotel_id": {
+                "type": "number",
+                "description": "The unique identifier of the hotel from the properties list API.",
+                "default": 1790664.0
+            },
+            "languagecode": {
+                "type": "string",
+                "description": "One of the followings : en|en-us|ar|bg|ca|cs|da|de|el|es|es-ar|et|fi|fr|he|hr|hu|id|is|it|ja|ko|lt|lv|ms|nl|no|pl|pt|pt-br|ro|ru|sk|sl|sr|sv|th|tl|tr|uk|vi|zh|zh-tw",
+                "default": "en-us"
+            },
+            "filter_language": {
+                "type": "string",
+                "description": "One of the followings (separated by comma for multiple values): en|en-us|ar|bg|ca|cs|da|de|el|es|es-ar|et|fi|fr|he|hr|hu|id|is|it|ja|ko|lt|lv|ms|nl|no|pl|pt|pt-br|ro|ru|sk|sl|sr|sv|th|tl|tr|uk|vi|zh|zh-tw",
+                "default": "en,nl"
+            },
+            "filter_customer_type": {
+                "type": "string",
+                "description": "One of the followings (separated by comma for multiple values) : couple|family_with_children|review_category_group_of_friends|solo_traveller",
+                "default": "couple,family_with_children"
+            },
+            "user_sort": {
+                "type": "string",
+                "description": "One of the followings : sort_most_relevant|sort_recent_desc|sort_recent_asc|sort_score_desc|sort_score_asc",
+                "default": "sort_most_relevant"
+            }
+        },
+        "required": [
+            "hotel_id"
+        ]
+    }
+}

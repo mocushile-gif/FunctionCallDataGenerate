@@ -1,0 +1,31 @@
+{
+    "name": "soil_data_by_lat_lng",
+    "description": "This is a sub-function API for tool ambee_soil_data.\nTool description: Global real-time soil API. Integrate soil API for global real-time soil information. Test an API call. Get accurate & actionable data insights. \nAPI description: Fetches the latest soil data readings for a specified latitude and longitude.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lng": {
+                "type": "number",
+                "description": "Longitude of the location.",
+                "default": 78.96
+            },
+            "lat": {
+                "type": "number",
+                "description": "Latitude of the location.",
+                "default": 20.59
+            },
+            "pollutants": {
+                "type": "string",
+                "description": "Specific pollutants to filter the data. Defaults to None."
+            },
+            "limit": {
+                "type": "number",
+                "description": "Maximum number of records to retrieve. Defaults to None."
+            }
+        },
+        "required": [
+            "lng",
+            "lat"
+        ]
+    }
+}

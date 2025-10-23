@@ -1,0 +1,16 @@
+{
+    "name": "related",
+    "description": "This is a sub-function API for tool vod_app.\nTool description: API for video on demand app\nAPI description: Fetch related shows for a given show identifier using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "show_slug": {
+                "type": "string",
+                "description": "The unique identifier or slug of the show for which related shows are to be fetched."
+            }
+        },
+        "required": [
+            "show_slug"
+        ]
+    }
+}

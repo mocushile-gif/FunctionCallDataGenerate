@@ -1,0 +1,17 @@
+{
+    "name": "get_data_entity_uid",
+    "description": "This is a sub-function API for tool ofac_service.\nTool description: Searches an entity from OFAC's Sanctions List with fuzzy logic on its name search field to look for potential matches on the Specially Designated Nationals (SDN) List and on its Non-SDN Consolidated Sanctions List.\nAPI description: Fetches an entity record from the OFAC service using a unique identifier (UID).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "uid": {
+                "type": "number",
+                "description": "The unique identifier of the entity to retrieve.",
+                "default": 7178.0
+            }
+        },
+        "required": [
+            "uid"
+        ]
+    }
+}

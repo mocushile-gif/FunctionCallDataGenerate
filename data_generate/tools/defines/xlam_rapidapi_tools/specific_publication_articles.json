@@ -1,0 +1,17 @@
+{
+    "name": "specific_publication_articles",
+    "description": "This is a sub-function API for tool green_gold.\nTool description: An API aggregating news articles related to green technology, stocks, start-ups, and trends.\nAPI description: Fetches news articles from a specific publication using the provided newspaper ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "newspaperid": {
+                "type": "string",
+                "description": "The ID of the newspaper to fetch articles from.",
+                "default": "guardian"
+            }
+        },
+        "required": [
+            "newspaperid"
+        ]
+    }
+}

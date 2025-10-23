@@ -1,0 +1,32 @@
+{
+    "name": "get_all_games",
+    "description": "This is a sub-function API for tool free_nba.\nTool description: Unofficial NBA API for Historical NBA Data\nAPI description: This endpoint retrieves all games.  Seasons are represented by the year they began. For example, 2018 represents season 2018-2019.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number for pagination. Defaults to '0'.",
+                "default": "0"
+            },
+            "per_page": {
+                "type": "string",
+                "description": "The number of results returned per call for pagination. Defaults to '25'.",
+                "default": "25"
+            },
+            "team_ids": {
+                "type": "string",
+                "description": "A comma-separated string of team IDs to filter the games."
+            },
+            "date": {
+                "type": "string",
+                "description": "A specific date to filter games, formatted as 'YYYY-MM-DD'."
+            },
+            "seasons": {
+                "type": "string",
+                "description": "A comma-separated string of seasons represented by the starting year (e.g., '2018' for the 2018-2019 season)."
+            }
+        },
+        "required": []
+    }
+}

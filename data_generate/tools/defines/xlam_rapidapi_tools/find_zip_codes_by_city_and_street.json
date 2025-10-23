@@ -1,0 +1,34 @@
+{
+    "name": "find_zip_codes_by_city_and_street",
+    "description": "This is a sub-function API for tool polish_zip_codes.\nTool description: Poczta polska - zip codes\nAPI description: Fetch zip codes for a given city and street using the Polish Zip Codes API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "accept": {
+                "type": "string",
+                "description": "Requested content type.",
+                "default": "application/json"
+            },
+            "city": {
+                "type": "string",
+                "description": "Name of the city to search for zip codes.",
+                "default": "Wrocław"
+            },
+            "street": {
+                "type": "string",
+                "description": "Name of the street to search for zip codes.",
+                "default": "Komuny paryskiej"
+            },
+            "x_traceid": {
+                "type": "string",
+                "description": "A traceId that is copied to the API response header. Default is 'optional_abc123'.",
+                "default": "optional_abc123"
+            }
+        },
+        "required": [
+            "accept",
+            "city",
+            "street"
+        ]
+    }
+}

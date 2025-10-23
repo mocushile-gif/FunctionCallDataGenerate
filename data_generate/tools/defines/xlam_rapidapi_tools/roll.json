@@ -1,0 +1,32 @@
+{
+    "name": "roll",
+    "description": "This is a sub-function API for tool diceforge.\nTool description: DiceForge is a powerful and versatile dice rolling API designed for tabletop RPG enthusiasts and game developers alike. With an intuitive interface and support for a wide range of dice configurations, DiceForge makes it easy to generate random outcomes for any scenario. Whether you're rolling character stats, simulating combat encounters, or resolving skill checks, DiceForge delivers reliable and customizable results to enhance your gaming experience. Level up your next adventure with DiceFor...\nAPI description: Rolls a set of dice and returns the results.\n\nMethods: GET, POST\n\nParameters:\n\nsides (integer): A list of integers representing the number of sides for each die.\ncount (integer): A list of integers representing the number of times to roll each die. Defaults to 1 if not provided.\nmodifier (integer): A list of integers representing the modifier to apply to the total of each die roll.\nadvantage (boolean): If set to true, rolls each die twice and takes the higher result.\ndisadvantage (boolean): If set to true, ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "sides": {
+                "type": "number",
+                "description": "The number of sides on the die.",
+                "default": 6.0
+            },
+            "count": {
+                "type": "number",
+                "description": "The number of times to roll each die. Defaults to 1.",
+                "default": 1.0
+            },
+            "advantage": {
+                "type": "boolean",
+                "description": "If set to True, rolls each die twice and takes the higher result. Defaults to None.",
+                "default": true
+            },
+            "modifier": {
+                "type": "number",
+                "description": "A modifier to apply to the total of each die roll. Defaults to 5.",
+                "default": 5.0
+            }
+        },
+        "required": [
+            "sides"
+        ]
+    }
+}

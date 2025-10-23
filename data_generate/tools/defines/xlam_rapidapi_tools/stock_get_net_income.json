@@ -1,0 +1,22 @@
+{
+    "name": "stock_get_net_income",
+    "description": "This is a sub-function API for tool yh_finance_v2.\nTool description: \nAPI description: Fetches the net income of a given stock symbol from the Yahoo Finance API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "Ticker Symbol ( Ex. \\\\\"AAPL\\\\\" is Ticker symbol for Apple Inc. on the stock market )",
+                "default": "AAPL"
+            },
+            "region": {
+                "type": "string",
+                "description": "The region of the stock market. Defaults to 'US'. Allowed values are 'US', 'BR', 'AU', 'CA', 'FR', 'DE', 'HK', 'IN', 'IT', 'ES', 'GB', and 'S'.",
+                "default": "US"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "explore",
+    "description": "This is a sub-function API for tool worldwide_recipes.\nTool description: Over 2 MILLION recipes, nutrition, ingredients, users and reviews worldwide.\nAPI description: Fetches a list of recipes from the Worldwide Recipes API with optional pagination support.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "start": {
+                "type": "number",
+                "description": "The starting point for pagination. Page 1 corresponds to start=0, Page 2 to start=20, and so on."
+            }
+        },
+        "required": []
+    }
+}

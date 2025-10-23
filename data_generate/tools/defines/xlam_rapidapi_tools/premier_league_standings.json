@@ -1,0 +1,14 @@
+{
+    "name": "premier_league_standings",
+    "description": "This is a sub-function API for tool premier_league_standings.\nTool description: English Premier League Standings & Table\nAPI description: Fetches the Premier League standings data for a given season using the RapidAPI Premier League Standings API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season": {
+                "type": "string",
+                "description": "The season for which the standings are to be retrieved, specified as a string (e.g., '2022'). If not provided, the current season's standings will be fetched."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_the_awarded_books_of_a_year",
+    "description": "This is a sub-function API for tool hapi_books.\nTool description: HAPI Books is an API about books. It gives information about thousands of books from all around the world. Search by name, by genre, get the best books by year, and more!\nAPI description: Returns the list of the best books of a year by its winning category.\nEach returned book has its Name, Winning Category, Cover Image and more.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "string",
+                "description": "The year for which to retrieve the list of awarded books.",
+                "default": "2021"
+            }
+        },
+        "required": [
+            "year"
+        ]
+    }
+}

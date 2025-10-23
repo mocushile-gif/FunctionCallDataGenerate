@@ -1,0 +1,31 @@
+{
+    "name": "business_photos",
+    "description": "This is a sub-function API for tool local_business_data.\nTool description: Extremely comprehensive and up-to-date local business search - get business reviews and rating, photos, phone, address / location, website, opening hours, emails / social profiles and 30+ additional fields.\nAPI description: Fetches photos of a business using its unique Business Id through the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "business_id": {
+                "type": "string",
+                "description": "The unique identifier of the business. This can be a google_id, business_id, or google_place_id. Examples of valid IDs include `0x880fd393d427a591:0x8cba02d713a995ed` and `ChIJkaUn1JPTD4gR7ZWpE9cCuow`.",
+                "default": "0x89c259b5a9bd152b:0x31453e62a3be9f76"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of business photos to return. Acceptable values range from 1 to 10000. Defaults to 5.",
+                "default": 5.0
+            },
+            "fields": {
+                "type": "string",
+                "description": "A comma separated list of review fields to include in the response (field projection). By default all fields are returned.\n\n**e.g.** `type,photo_url`"
+            },
+            "region": {
+                "type": "string",
+                "description": "Query Google Maps from a particular region or country. For a list of supported region/country codes see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes (Alpha-2 code).\n\n**Default:** *`us`*",
+                "default": "us"
+            }
+        },
+        "required": [
+            "business_id"
+        ]
+    }
+}

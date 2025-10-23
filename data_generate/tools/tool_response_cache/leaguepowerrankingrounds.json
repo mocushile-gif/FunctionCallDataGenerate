@@ -1,0 +1,22 @@
+{
+    "{'tournamentid': 16, 'seasonid': 41087}": {
+        "error": "",
+        "response": "{'powerRankingRounds': [{'id': 82, 'round': {'cupRoundType': 2, 'name': 'Semifinal', 'round': 2, 'slug': 'semifinal'}}, {'id': 81, 'round': {'cupRoundType': 4, 'name': 'Quarterfinal', 'round': 4, 'slug': 'quarterfinal'}}, {'id': 80, 'round': {'cupRoundType': 8, 'name': 'Round of 16', 'round': 8, 'slug': 'round-of-16'}}, {'id': 79, 'round': {'round': 3}}, {'id': 78, 'round': {'round': 2}}, {'id': 77, 'round': {'round': 1}}]}"
+    },
+    "{'tournamentid': 39, 'seasonid': 41087}": {
+        "error": "",
+        "response": ""
+    },
+    "{'tournamentid': 16, 'seasonid': 41086}": {
+        "error": "",
+        "response": ""
+    },
+    "{'tournamentid': 16, 'seasonid': 41085}": {
+        "error": "",
+        "response": ""
+    },
+    "{'seasonid': 41087, 'tournamentid': 16}": {
+        "error": "",
+        "response": "{'powerRankingRounds': [{'round': {'round': 2, 'name': 'Semifinal', 'slug': 'semifinal', 'cupRoundType': 2}, 'id': 82}, {'round': {'round': 4, 'name': 'Quarterfinal', 'slug': 'quarterfinal', 'cupRoundType': 4}, 'id': 81}, {'round': {'round': 8, 'name': 'Round of 16', 'slug': 'round-of-16', 'cupRoundType': 8}, 'id': 80}, {'round': {'round': 3}, 'id': 79}, {'round': {'round': 2}, 'id': 78}, {'round': {'round': 1}, 'id': 77}]}"
+    }
+}

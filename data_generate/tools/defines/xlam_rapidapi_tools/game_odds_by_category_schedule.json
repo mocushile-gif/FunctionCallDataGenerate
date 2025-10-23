@@ -1,0 +1,23 @@
+{
+    "name": "game_odds_by_category_schedule",
+    "description": "This is a sub-function API for tool sportsbook_odds.\nTool description: LIVE ODDS W/ PLAYER PROPS from Fanduel, DraftKings, Caesars, BetMGM, Bovada, BetOnline, WynnBet, PointsBet, Sugarhouse/BetRivers, SuperBook, FoxBet, BallyBet and more to come soon.\n\nLeagues: MLB, NBA, NFL, NHL, NCAA Football, NCAA Basketball.\nAPI description: If you query the category schedule and do not include a \"sport\" and \"category\" parameter it will return all possible values of sport and their respective categories. If you do include those parameters it will return a schedule of all sites for that sport and category. Remember that the categories are hashes, 0 is moneylines, 1 is spreads, 2 is over under, etc. There are a lot of categories, refer to the deconstruct ID code to determine which is which.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "The category of the odds. For example, 0 for moneylines, 1 for spreads, 2 for over/under, etc.",
+                "default": "0"
+            },
+            "sport": {
+                "type": "string",
+                "description": "The sport for which to fetch the game odds schedule.",
+                "default": "Baseball"
+            }
+        },
+        "required": [
+            "category",
+            "sport"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "getwebsite",
+    "description": "This is a sub-function API for tool convert_company_name_to_website_url.\nTool description: Convert Company Names to Website URL\nAPI description: Fetch the website URL for a given company name using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The company name for which to retrieve the website URL.",
+                "default": "github"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

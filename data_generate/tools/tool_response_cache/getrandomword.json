@@ -1,0 +1,22 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "success": true,
+            "message": null,
+            "data": {
+                "id": "f-300",
+                "word": "fresh",
+                "type": "adjective"
+            }
+        }
+    },
+    "{'type': 'adjective', 'count': 5}": {
+        "error": "",
+        "response": "{'success': True, 'message': None, 'data': [{'id': 'b-194', 'word': 'bighearted', 'type': 'adjective'}, {'id': 'b-420', 'word': 'built', 'type': 'adjective'}, {'id': 'z-17', 'word': 'zany', 'type': 'adjective'}, {'id': 'j-0', 'word': 'jabbing', 'type': 'adjective'}, {'id': 'a-142', 'word': 'agonized', 'type': 'adjective'}]}"
+    },
+    "{'type': 'noun', 'count': 3}": {
+        "error": "",
+        "response": "{'success': True, 'message': None, 'data': [{'id': 'g-73', 'word': 'genitures', 'type': 'noun'}, {'id': 'p-310', 'word': 'poll', 'type': 'noun'}, {'id': 's-133', 'word': 'seat', 'type': 'noun'}]}"
+    }
+}

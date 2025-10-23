@@ -1,0 +1,26 @@
+{
+    "name": "timeline",
+    "description": "This is a sub-function API for tool papercliff.\nTool description: Papercliff looks at the world's largest news agencies, reads articles, identifies and shares keywords\nAPI description: Fetches the 100 most recent articles and their keywords using the Papercliff RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_from": {
+                "type": "string",
+                "description": "Narrows down the results to articles published after the provided date-time in UTC. The format should be `yyyy-MM-dd'T'HH:mm`. Example value: `2022-09-18T13:45`. Date-times older than a week do not affect the result."
+            },
+            "terms": {
+                "type": "string",
+                "description": "Narrows down the results to articles that contain all the provided keywords. The terms should consist of one to three words separated by a dash.  Example value: `election-campaign`."
+            },
+            "offset": {
+                "type": "number",
+                "description": "Omits a number of articles from the result."
+            },
+            "to": {
+                "type": "string",
+                "description": "Narrows down the results to articles published before the provided date-time in UTC. The format should be `yyyy-MM-dd'T'HH:mm`. Example value: `2022-09-18T15:30`. Date-times of the future do not affect the result."
+            }
+        },
+        "required": []
+    }
+}

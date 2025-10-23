@@ -1,0 +1,51 @@
+{
+    "name": "image_anime_diffusion",
+    "description": "This is a sub-function API for tool image_diffusion.\nTool description: Diffusion APIs\nAPI description: Generates anime-style images based on the given parameters using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "steps": {
+                "type": "number",
+                "description": "The number of diffusion steps, with a maximum of 50.",
+                "default": 25.0
+            },
+            "image_num": {
+                "type": "number",
+                "description": "The number of images to generate, with a maximum of 4.",
+                "default": 1.0
+            },
+            "width": {
+                "type": "number",
+                "description": "The width of the generated image(s), with a maximum of 1024 pixels.",
+                "default": 512.0
+            },
+            "cfg": {
+                "type": "number",
+                "description": "The configuration scale for image generation, with a maximum of 20.",
+                "default": 7.5
+            },
+            "height": {
+                "type": "number",
+                "description": "The height of the generated image(s), with a maximum of 1024 pixels.",
+                "default": 512.0
+            },
+            "prompt": {
+                "type": "string",
+                "description": "A textual description of the desired image content.",
+                "default": "1girl"
+            },
+            "negative_prompt": {
+                "type": "string",
+                "description": "A textual description of elements to avoid in the image. This parameter is not required in version 2."
+            }
+        },
+        "required": [
+            "steps",
+            "image_num",
+            "width",
+            "cfg",
+            "height",
+            "prompt"
+        ]
+    }
+}

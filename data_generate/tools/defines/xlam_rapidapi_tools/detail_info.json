@@ -1,0 +1,17 @@
+{
+    "name": "detail_info",
+    "description": "This is a sub-function API for tool suggestuse.\nTool description: This api provides access to information about alternatives to various applications, for computers, smartphones or online services.\nAPI description: Fetches detailed information of an application using its slug from the SuggestUse API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "The application's unique identifier used to fetch its details.",
+                "default": "dropbox"
+            }
+        },
+        "required": [
+            "slug"
+        ]
+    }
+}

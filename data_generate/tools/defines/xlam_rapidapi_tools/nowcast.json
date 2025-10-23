@@ -1,0 +1,47 @@
+{
+    "name": "nowcast",
+    "description": "This is a sub-function API for tool foreca_weather.\nTool description: Everything you need to build a weather app\nAPI description: Fetches a 3-hour weather forecast in 15-minute time steps for a given location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "location": {
+                "type": "string",
+                "description": "The geographic location for which the forecast is requested.",
+                "default": "102643743"
+            },
+            "dataset": {
+                "type": "string",
+                "description": "The set of weather variables to include in the response (default is 'full').",
+                "default": "full"
+            },
+            "windunit": {
+                "type": "string",
+                "description": "The unit for wind speed in the response, such as 'MS' (meters per second) (default is 'MS').",
+                "default": "MS"
+            },
+            "tz": {
+                "type": "string",
+                "description": "The time zone for the response, using IANA time zone database names (default is 'Europe/London').",
+                "default": "Europe/London"
+            },
+            "tempunit": {
+                "type": "string",
+                "description": "The unit for temperature in the response, such as 'C' (Celsius) (default is 'C').",
+                "default": "C"
+            },
+            "alt": {
+                "type": "number",
+                "description": "The altitude of the location in meters (default is 0).",
+                "default": 0.0
+            },
+            "periods": {
+                "type": "number",
+                "description": "The number of 15-minute time steps to include, with a maximum of 12 (default is 8).",
+                "default": 8.0
+            }
+        },
+        "required": [
+            "location"
+        ]
+    }
+}

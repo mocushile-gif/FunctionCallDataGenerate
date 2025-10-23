@@ -1,0 +1,15 @@
+{
+    "name": "get_coordinates",
+    "description": "This is a sub-function API for tool geolocate.\nTool description: The Geocoding Flask API is a simple and efficient way to convert addresses and places into their corresponding latitude and longitude coordinates.\nAPI description: This function sends a GET request to the \"/geocode\" endpoint to obtain the geographical coordinates of a given address using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "type": "string",
+                "description": "The address or place to geocode. Defaults to '1600 Amphitheatre Parkway, Mountain View, CA'.",
+                "default": "1600 Amphitheatre Parkway, Mountain View, CA"
+            }
+        },
+        "required": []
+    }
+}

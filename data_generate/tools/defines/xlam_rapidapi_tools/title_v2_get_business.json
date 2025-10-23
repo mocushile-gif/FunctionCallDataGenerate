@@ -1,0 +1,17 @@
+{
+    "name": "title_v2_get_business",
+    "description": "This is a sub-function API for tool online_movie_database.\nTool description: This API helps to query for all information about films, actors, characters,etc... to create a movie/series/streaming content site/application\nAPI description: Retrieves box office information for a given movie title from the online movie database using the provided API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tconst": {
+                "type": "string",
+                "description": "The identifier for the movie title, starting with 'tt'. This value can be obtained from the `/title/auto-complete` or `/title/find` endpoints.",
+                "default": "tt0796366"
+            }
+        },
+        "required": [
+            "tconst"
+        ]
+    }
+}

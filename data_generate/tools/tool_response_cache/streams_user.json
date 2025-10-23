@@ -1,0 +1,60 @@
+{
+    "{'is_id': 'market_trends', 'limit': 10, 'filter': 'AT'}": {
+        "error": "",
+        "response": {
+            "user": {
+                "username": "market_trends",
+                "id": "123456",
+                "followers": 15000,
+                "following": 200
+            },
+            "messages": [
+                {
+                    "id": 987654,
+                    "body": "Breaking: $AAPL reports record Q2 earnings, up 20% YoY. Bulls are in control!",
+                    "symbols": [
+                        "AAPL"
+                    ],
+                    "created_at": "2023-09-15T14:30:00Z",
+                    "entities": {
+                        "links": [
+                            "https://example.com/aapl-report"
+                        ],
+                        "charts": true
+                    }
+                },
+                {
+                    "id": 987653,
+                    "body": "BTC/USD dips below $20k but shows bullish RSI divergence. Watch $ETH for support.",
+                    "symbols": [
+                        "BTC",
+                        "ETH"
+                    ],
+                    "created_at": "2023-09-15T14:25:00Z",
+                    "entities": {
+                        "videos": [
+                            "https://example.com/crypto-analysis"
+                        ]
+                    }
+                },
+                {
+                    "id": 987652,
+                    "body": "Key resistance at $150 for $TSLA \u2013 breakout could trigger 15% rally. Chart attached.",
+                    "symbols": [
+                        "TSLA"
+                    ],
+                    "created_at": "2023-09-15T14:10:00Z",
+                    "entities": {
+                        "charts": true
+                    }
+                }
+            ],
+            "count": 10,
+            "max_id": 987650
+        }
+    },
+    "{'is_id': 'zerobeta', 'limit': 30}": {
+        "error": "",
+        "response": "{'user': {'id': 52, 'username': 'zerobeta', 'name': 'Justin Paterno', 'avatar_url': 'https://avatars.stocktwits.com/production/52/thumb-1546958920.png', 'avatar_url_ssl': 'https://avatars.stocktwits.com/production/52/thumb-1546958920.png', 'join_date': '2009-07-17', 'official': True, 'identity': 'Official', 'classification': ['suggested', 'official'], 'search_regions': [], 'followers': 3281, 'following': 1032, 'ideas': 5612, 'watchlist_stocks_count': 74, 'like_count': 2909, 'plus_tier': '', 'premium_room': '', 'trade_app': True, 'trade_status': 'PENDING_MFA'}, 'cursor': {'more': True, 'since': 296853522, 'max': 178108576}, 'regions': [], 'filters': [], 'messages': [{'id': 296853522, 'body': 'Maybe we all have been spending too much time staring at charts that we forgot what dips to buy.', 'created_at': '2021-03-01T00:06:23Z', 'user': {'id': 52, 'username': 'zerobeta', 'name': 'Justin Paterno', 'avatar_url': 'https://avatars.stocktwits.com/production/52/thumb-1546958920.png', 'avatar_url_ssl': 'https://avatars.stocktwits.com/production/52/thumb-1546958920.png', 'join_date': '2009-07-17', 'official': True, 'identity': 'Official', 'classification': ['suggested', 'official'], 'search_regions': [], 'followers': 3281, 'following': 1032, 'ideas': 5612, 'watchlist_stocks_count': 74, 'like_count': 2909, 'plus_tier': '', 'premium_room': '', 'trade_app': True, 'trade_status': 'PENDING_MFA'}, 'source': {'id': 1149, 'title': 'StockTwits for iOS', 'url': 'http://www.stocktwits.com/mobile'}, 'conversation': {'parent_message_id': 296853522, 'in_reply_to_message_id': None, 'parent': True, 'replies': 1}, 'likes': {'total': 2, 'user_ids': [5944896, 586789]}, 'reshares': {'reshared_count': 1, 'user_ids': [7054536]}, 'mentioned_users': [], 'entities': {'chart': {'thumb': 'https://charts.stocktwits-cdn.com/cdn-cgi/image/fit=contain,width=175,height=98/production/original_296853522.png', 'large': 'https://charts.stocktwits-cdn.com/cdn-cgi/image/fit=scale-down,width=575/production/original_296853522.png', 'original': 'https://charts.sto"
+    }
+}

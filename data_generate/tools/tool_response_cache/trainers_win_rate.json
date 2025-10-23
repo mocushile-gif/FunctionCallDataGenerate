@@ -1,0 +1,30 @@
+{
+    "{'last_days': '30'}": {
+        "error": "",
+        "response": {
+            "last_days": 30,
+            "trainers_stats": [
+                {
+                    "trainer_name": "John Smith",
+                    "total_races": 45,
+                    "wins": 15,
+                    "win_rate": "33.33%"
+                },
+                {
+                    "trainer_name": "Emily Davis",
+                    "total_races": 32,
+                    "wins": 10,
+                    "win_rate": "31.25%"
+                },
+                {
+                    "trainer_name": "Michael Wilson",
+                    "total_races": 58,
+                    "wins": 18,
+                    "win_rate": "31.03%"
+                }
+            ],
+            "overall_avg_win_rate": "28.7%",
+            "top_performer": "John Smith"
+        }
+    }
+}

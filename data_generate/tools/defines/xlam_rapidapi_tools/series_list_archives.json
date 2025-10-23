@@ -1,0 +1,25 @@
+{
+    "name": "series_list_archives",
+    "description": "This is a sub-function API for tool cricbuzz_cricket.\nTool description: This API helps to query for live cricket scores, commentary, latest cricket news and editorials, schedules of upcoming matches, rankings, stats, records, etc\nAPI description: Fetch archived series from the CricBuzz API based on the specified type and optional parameters for pagination and year.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of series to fetch. Must be one of the following: 'international', 'league', 'domestic', 'women'.",
+                "default": "international"
+            },
+            "lastid": {
+                "type": "number",
+                "description": "For pagination purposes. Specify `None` to load the first page or provide the ID of the last item from the previous page."
+            },
+            "year": {
+                "type": "number",
+                "description": "The year for which the series archives are to be fetched. Defaults to `None`."
+            }
+        },
+        "required": [
+            "type"
+        ]
+    }
+}

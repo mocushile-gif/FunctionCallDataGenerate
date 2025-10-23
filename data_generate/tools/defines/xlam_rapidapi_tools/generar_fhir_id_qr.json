@@ -1,0 +1,17 @@
+{
+    "name": "generar_fhir_id_qr",
+    "description": "This is a sub-function API for tool selector_tipo_consultas.\nTool description: decide el tipo de consulta\nAPI description: Recibe el id de fhir como string y lo convierte en codigo qr",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "fhir_id": {
+                "type": "string",
+                "description": "The FHIR ID to be converted into a QR code.",
+                "default": "a554c619-bc73-4080-9cc9-74da38789d48"
+            }
+        },
+        "required": [
+            "fhir_id"
+        ]
+    }
+}

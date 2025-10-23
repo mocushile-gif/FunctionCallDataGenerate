@@ -1,0 +1,28 @@
+{
+    "name": "get_team_roster",
+    "description": "This is a sub-function API for tool tank01_fantasy_stats.\nTool description: NBA (National Basketball League) Live In Game Fantasy Stats - NBA.  Delivering Accurate Real Time Game Statistics. Updated Rosters/Player Information, Current Schedules, and Updated Standings immediately after every game.  Very Useful for Fantasy Basketball Apps. NOW ALSO WITH BETTING / GAMBLING ODDS\n\nIncludes player news, fantasy news, and top headlines, all updated multiple times an hour.\n\nAPI description: This call returns the current or historical* roster of any team, using the teamID that can be found in \"getNBATeams\" call.\n\nRosters are updated a few times throughout the day.  Usually once per hour and before each game starts.\n \nCall needs to look like this:\n/getNBATeamRoster?teamID=1\nor\n/getNBATeamRoster?teamAbv=ATL\n\n\nThat will return a list of the team's current roster players in the body.\n\nHistorical rosters are saved on a daily basis as of 20230505 and moving forward. \n\nAdd parameter archiveDate to the",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "teamid": {
+                "type": "string",
+                "description": "The ID of the team, ranging from 1 to 30."
+            },
+            "statstoget": {
+                "type": "string",
+                "description": "Specifies whether to fetch 'totals' or 'averages'. Defaults to 'averages'.",
+                "default": "averages"
+            },
+            "archivedate": {
+                "type": "string",
+                "description": "A specific date in the format YYYYMMDD to fetch historical data. Historical data is available from 20230505 onwards."
+            },
+            "teamabv": {
+                "type": "string",
+                "description": "The abbreviation of the team, e.g., CHI, BOS, ATL. Defaults to 'SAC'.",
+                "default": "SAC"
+            }
+        },
+        "required": []
+    }
+}

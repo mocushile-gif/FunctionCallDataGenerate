@@ -1,0 +1,18 @@
+{
+    "name": "find_files_with_extension",
+    "description": "Find all files with a specific extension in a directory.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "directory": {
+                "type": "string",
+                "description": "The directory to search. Default to './'"
+            },
+            "extension": {
+                "type": "string",
+                "description": "The file extension to search for (e.g., '.txt')."
+            }
+        },
+        "required": ["directory", "extension"]
+    }
+}

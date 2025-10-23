@@ -1,0 +1,26 @@
+{
+    "name": "get_products_in_category",
+    "description": "This is a sub-function API for tool demo_project_v3.\nTool description: This Project is created by the onboarding process\nAPI description: Fetches products from a specified category using the Toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "skip": {
+                "type": "number",
+                "description": "The number of products to skip before starting to collect the result set."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of products to retrieve."
+            },
+            "category": {
+                "type": "string",
+                "description": "The category of products to fetch."
+            }
+        },
+        "required": [
+            "skip",
+            "limit",
+            "category"
+        ]
+    }
+}

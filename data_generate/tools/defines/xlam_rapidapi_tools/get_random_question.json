@@ -1,0 +1,15 @@
+{
+    "name": "get_random_question",
+    "description": "This is a sub-function API for tool drinking.\nTool description: API that provides with drinking questions and challenges.\nAPI description: Fetches a random question from the API, with an optional parameter to specify the type of the challenge.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The type of question to fetch. Options include 'funny' and 'dirty'. Defaults to 'dirty'.",
+                "default": "dirty"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "peers",
+    "description": "This is a sub-function API for tool marketci_analytics.\nTool description: Stock Market Endpoint for Price Forecasts, Probability, Cash Flow Models , and Peer Comps \nAPI description: Retrieves a list of company peers given a stock symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for the company."
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

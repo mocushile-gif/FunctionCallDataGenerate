@@ -1,0 +1,27 @@
+{
+    "name": "news_search",
+    "description": "This is a sub-function API for tool webull.\nTool description: Query public data for investment products including stocks, fractional shares, options, ETFs, and ADRs as on webull.com\nAPI description: Search for news articles that match a given keyword.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "The term or phrase to search for in news articles.",
+                "default": "apple"
+            },
+            "pageindex": {
+                "type": "number",
+                "description": "The index of the page to retrieve. Default is 1.",
+                "default": 1.0
+            },
+            "pagesize": {
+                "type": "number",
+                "description": "The number of results per page. Maximum is 20. Default is 20.",
+                "default": 20.0
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

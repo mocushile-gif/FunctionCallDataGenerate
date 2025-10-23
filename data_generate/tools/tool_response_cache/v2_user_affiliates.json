@@ -1,0 +1,276 @@
+{
+    "{'is_id': 34743251, 'count': 20}": {
+        "error": "",
+        "response": "{'data': {'user': {'result': {'__typename': 'User', 'timeline': {'timeline': {'instructions': [{'type': 'TimelineAddEntries', 'entries': [{'entryId': 'user-9490952', 'sortIndex': '1848424628666499072', 'content': {'entryType': 'TimelineTimelineItem', '__typename': 'TimelineTimelineItem', 'itemContent': {'itemType': 'TimelineUser', '__typename': 'TimelineUser', 'user_results': {'result': {'__typename': 'User', 'id': 'VXNlcjo5NDkwOTUy', 'rest_id': '9490952', 'affiliates_highlighted_label': {'label': {'url': {'url': 'https://twitter.com/SpaceX', 'urlType': 'DeepLink'}, 'badge': {'url': 'https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_bigger.jpg'}, 'description': 'SpaceX', 'userLabelType': 'BusinessLabel', 'userLabelDisplayType': 'Badge'}}, 'has_graduated_access': True, 'is_blue_verified': True, 'profile_image_shape': 'Circle', 'legacy': {'can_dm': True, 'can_media_tag': True, 'created_at': 'Wed Oct 17 02:31:18 +0000 2007', 'default_profile': False, 'default_profile_image': False, 'description': 'Chad Gibbs - @SpaceX employee working on @Starlink', 'entities': {'description': {'urls': []}, 'url': {'urls': [{'display_url': 'Starlink.com', 'expanded_url': 'http://Starlink.com', 'url': 'https://t.co/bMhXzjWTfo', 'indices': [0, 23]}]}}, 'fast_followers_count': 0, 'favourites_count': 171, 'followers_count': 6155, 'friends_count': 156, 'has_custom_timelines': True, 'is_translator': False, 'listed_count': 38, 'location': 'Los Angeles', 'media_count': 23, 'name': 'Chad Gibbs', 'normal_followers_count': 6155, 'pinned_tweet_ids_str': [], 'possibly_sensitive': False, 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/9490952/1708968789', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1382154659020763138/93ebzelh_normal.jpg', 'profile_interstitial_type': '', 'screen_name': 'chadgibbs88', 'statuses_count': 402, 'translator_type': 'none', 'url': 'https://t.co/bMhXzjWTfo', 'verified': False, 'want_retweets': False, 'withheld_in_countries': []}}}, 'userDisplayType': 'User'}, 'clientEvent"
+    },
+    "{'is_id': 34743251, 'count': 20, 'cursor': '1848424628666499072'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": {
+                    "result": {
+                        "__typename": "User",
+                        "timeline": {
+                            "timeline": {
+                                "instructions": [
+                                    {
+                                        "type": "TimelineAddEntries",
+                                        "entries": [
+                                            {
+                                                "entryId": "user-9490952",
+                                                "sortIndex": "1848424628666499072",
+                                                "content": {
+                                                    "entryType": "TimelineTimelineItem",
+                                                    "__typename": "TimelineTimelineItem",
+                                                    "itemContent": {
+                                                        "itemType": "TimelineUser",
+                                                        "__typename": "TimelineUser",
+                                                        "user_results": {
+                                                            "result": {
+                                                                "__typename": "User",
+                                                                "id": "VXNlcjo5NDkwOTUy",
+                                                                "rest_id": "9490952",
+                                                                "affiliates_highlighted_label": {
+                                                                    "label": {
+                                                                        "url": {
+                                                                            "url": "https://twitter.com/SpaceX",
+                                                                            "urlType": "DeepLink"
+                                                                        },
+                                                                        "badge": {
+                                                                            "url": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_bigger.jpg"
+                                                                        },
+                                                                        "description": "SpaceX",
+                                                                        "userLabelType": "BusinessLabel",
+                                                                        "userLabelDisplayType": "Badge"
+                                                                    }
+                                                                },
+                                                                "has_graduated_access": true,
+                                                                "is_blue_verified": true,
+                                                                "profile_image_shape": "Circle",
+                                                                "legacy": {
+                                                                    "can_dm": true,
+                                                                    "can_media_tag": true,
+                                                                    "created_at": "Wed Oct 17 02:31:18 +0000 2007",
+                                                                    "default_profile": false,
+                                                                    "default_profile_image": false,
+                                                                    "description": "Chad Gibbs - @SpaceX employee working on @Starlink",
+                                                                    "entities": {
+                                                                        "description": {
+                                                                            "urls": []
+                                                                        },
+                                                                        "url": {
+                                                                            "urls": [
+                                                                                {
+                                                                                    "display_url": "Starlink.com",
+                                                                                    "expanded_url": "http://Starlink.com",
+                                                                                    "url": "https://t.co/bMhXzjWTfo",
+                                                                                    "indices": [
+                                                                                        0,
+                                                                                        23
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "fast_followers_count": 0,
+                                                                    "favourites_count": 171,
+                                                                    "followers_count": 6155,
+                                                                    "friends_count": 156,
+                                                                    "has_custom_timelines": true,
+                                                                    "is_translator": false,
+                                                                    "listed_count": 38,
+                                                                    "location": "Los Angeles",
+                                                                    "media_count": 23,
+                                                                    "name": "Chad Gibbs",
+                                                                    "normal_followers_count": 6155,
+                                                                    "pinned_tweet_ids_str": [],
+                                                                    "possibly_sensitive": false,
+                                                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/9490952/1708968789",
+                                                                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1382154659020763138/93ebzelh_normal.jpg",
+                                                                    "profile_interstitial_type": "",
+                                                                    "screen_name": "chadgibbs88",
+                                                                    "statuses_count": 402,
+                                                                    "translator_type": "none",
+                                                                    "url": "https://t.co/bMhXzjWTfo",
+                                                                    "verified": false
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "{'count': 20, 'is_id': 34743251}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user_affiliates": [
+                    {
+                        "id": "9490952",
+                        "screen_name": "chadgibbs88",
+                        "name": "Chad Gibbs",
+                        "description": "Chad Gibbs - @SpaceX employee working on @Starlink",
+                        "location": "Los Angeles",
+                        "followers_count": 6155,
+                        "friends_count": 156,
+                        "statuses_count": 402,
+                        "profile_image_url": "https://pbs.twimg.com/profile_images/1382154659020763138/93ebzelh_normal.jpg",
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/9490952/1708968789",
+                        "verified": false,
+                        "affiliates_highlighted_label": {
+                            "description": "SpaceX",
+                            "badge_url": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_bigger.jpg",
+                            "url": "https://twitter.com/SpaceX"
+                        }
+                    },
+                    {
+                        "id": "12345678",
+                        "screen_name": "anotheruser",
+                        "name": "Another User",
+                        "description": "Affiliated with SpaceX projects.",
+                        "location": "California",
+                        "followers_count": 3200,
+                        "friends_count": 200,
+                        "statuses_count": 150,
+                        "profile_image_url": "https://pbs.twimg.com/profile_images/1234567890/example_normal.jpg",
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/12345678/1708968789",
+                        "verified": true,
+                        "affiliates_highlighted_label": {
+                            "description": "SpaceX",
+                            "badge_url": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_bigger.jpg",
+                            "url": "https://twitter.com/SpaceX"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "{'count': 20, 'cursor': 'abc123xyz', 'is_id': 34743251}": {
+        "error": "",
+        "response": {
+            "data": {
+                "user": {
+                    "result": {
+                        "__typename": "User",
+                        "timeline": {
+                            "timeline": {
+                                "instructions": [
+                                    {
+                                        "type": "TimelineAddEntries",
+                                        "entries": [
+                                            {
+                                                "entryId": "user-12345678",
+                                                "sortIndex": "1848424628666499072",
+                                                "content": {
+                                                    "entryType": "TimelineTimelineItem",
+                                                    "__typename": "TimelineTimelineItem",
+                                                    "itemContent": {
+                                                        "itemType": "TimelineUser",
+                                                        "__typename": "TimelineUser",
+                                                        "user_results": {
+                                                            "result": {
+                                                                "__typename": "User",
+                                                                "id": "VXNlcjoxMjM0NTY3OA==",
+                                                                "rest_id": "12345678",
+                                                                "affiliates_highlighted_label": {
+                                                                    "label": {
+                                                                        "url": {
+                                                                            "url": "https://twitter.com/ExampleAffiliate",
+                                                                            "urlType": "DeepLink"
+                                                                        },
+                                                                        "badge": {
+                                                                            "url": "https://pbs.twimg.com/profile_images/example_badge.jpg"
+                                                                        },
+                                                                        "description": "Example Affiliate",
+                                                                        "userLabelType": "BusinessLabel",
+                                                                        "userLabelDisplayType": "Badge"
+                                                                    }
+                                                                },
+                                                                "has_graduated_access": true,
+                                                                "is_blue_verified": true,
+                                                                "profile_image_shape": "Circle",
+                                                                "legacy": {
+                                                                    "can_dm": true,
+                                                                    "can_media_tag": true,
+                                                                    "created_at": "Mon Jan 01 00:00:00 +0000 2010",
+                                                                    "default_profile": false,
+                                                                    "default_profile_image": false,
+                                                                    "description": "Example User - affiliated with Example Affiliate",
+                                                                    "entities": {
+                                                                        "description": {
+                                                                            "urls": []
+                                                                        },
+                                                                        "url": {
+                                                                            "urls": [
+                                                                                {
+                                                                                    "display_url": "example.com",
+                                                                                    "expanded_url": "http://example.com",
+                                                                                    "url": "https://t.co/example",
+                                                                                    "indices": [
+                                                                                        0,
+                                                                                        23
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "fast_followers_count": 100,
+                                                                    "favourites_count": 500,
+                                                                    "followers_count": 10000,
+                                                                    "friends_count": 200,
+                                                                    "has_custom_timelines": true,
+                                                                    "is_translator": false,
+                                                                    "listed_count": 50,
+                                                                    "location": "New York, USA",
+                                                                    "media_count": 100,
+                                                                    "name": "Example User",
+                                                                    "normal_followers_count": 10000,
+                                                                    "pinned_tweet_ids_str": [],
+                                                                    "possibly_sensitive": false,
+                                                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/example_banner.jpg",
+                                                                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/example_profile.jpg",
+                                                                    "profile_interstitial_type": "",
+                                                                    "screen_name": "exampleuser",
+                                                                    "statuses_count": 1500,
+                                                                    "translator_type": "none",
+                                                                    "url": "https://t.co/example",
+                                                                    "verified": false,
+                                                                    "want_retweets": false
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "{'is_id': 34743251}": {
+        "error": "",
+        "response": "{'data': {'user': {'result': {'__typename': 'User', 'timeline': {'timeline': {'instructions': [{'type': 'TimelineAddEntries', 'entries': [{'entryId': 'user-9490952', 'sortIndex': '1884465981305126912', 'content': {'entryType': 'TimelineTimelineItem', '__typename': 'TimelineTimelineItem', 'itemContent': {'itemType': 'TimelineUser', '__typename': 'TimelineUser', 'user_results': {'result': {'__typename': 'User', 'id': 'VXNlcjo5NDkwOTUy', 'rest_id': '9490952', 'affiliates_highlighted_label': {'label': {'url': {'url': 'https://twitter.com/SpaceX', 'urlType': 'DeepLink'}, 'badge': {'url': 'https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_bigger.jpg'}, 'description': 'SpaceX', 'userLabelType': 'BusinessLabel', 'userLabelDisplayType': 'Badge'}}, 'has_graduated_access': True, 'is_blue_verified': True, 'profile_image_shape': 'Circle', 'legacy': {'can_dm': True, 'can_media_tag': True, 'created_at': 'Wed Oct 17 02:31:18 +0000 2007', 'default_profile': False, 'default_profile_image': False, 'description': 'Chad Gibbs - @SpaceX employee working on @Starlink', 'entities': {'description': {'urls': []}, 'url': {'urls': [{'display_url': 'Starlink.com', 'expanded_url': 'http://Starlink.com', 'url': 'https://t.co/bMhXzjWTfo', 'indices': [0, 23]}]}}, 'fast_followers_count': 0, 'favourites_count': 177, 'followers_count': 6770, 'friends_count': 157, 'has_custom_timelines': True, 'is_translator': False, 'listed_count': 42, 'location': 'Los Angeles', 'media_count': 23, 'name': 'Chad Gibbs', 'normal_followers_count': 6770, 'pinned_tweet_ids_str': [], 'possibly_sensitive': False, 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/9490952/1708968789', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1382154659020763138/93ebzelh_normal.jpg', 'profile_interstitial_type': '', 'screen_name': 'chadgibbs88', 'statuses_count': 406, 'translator_type': 'none', 'url': 'https://t.co/bMhXzjWTfo', 'verified': False, 'want_retweets': False, 'withheld_in_countries': []}}}, 'userDisplayType': 'User'}, 'clientEvent"
+    },
+    "{'is_id': 76561198087654321, 'count': 30}": {
+        "error": "",
+        "response": "{'data': {'user': {}}}"
+    },
+    "{'is_id': 76561198023456789, 'count': 30}": {
+        "error": "",
+        "response": "{'data': {'user': {}}}"
+    }
+}

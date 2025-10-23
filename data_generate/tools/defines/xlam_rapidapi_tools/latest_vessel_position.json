@@ -1,0 +1,17 @@
+{
+    "name": "latest_vessel_position",
+    "description": "This is a sub-function API for tool vessels.\nTool description: Track vessels with AIS data API\nAPI description: Fetches the latest position of a vessel based on its MMSI using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mmsi": {
+                "type": "string",
+                "description": "The Maritime Mobile Service Identity (MMSI) of the vessel.",
+                "default": "244110352"
+            }
+        },
+        "required": [
+            "mmsi"
+        ]
+    }
+}

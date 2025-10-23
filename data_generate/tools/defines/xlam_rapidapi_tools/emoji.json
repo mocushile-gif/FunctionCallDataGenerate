@@ -1,0 +1,17 @@
+{
+    "name": "emoji",
+    "description": "This is a sub-function API for tool emoji.\nTool description: Get all emojis at one place. Single API to get any emoji.\nAPI description: This endpoint takes a 'GET' request with name / string as a parameter and returns emoji associated with the name.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name for which the emoji is to be fetched.",
+                "default": "cat_face"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

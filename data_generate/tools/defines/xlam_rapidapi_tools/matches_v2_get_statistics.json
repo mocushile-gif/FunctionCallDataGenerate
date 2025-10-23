@@ -1,0 +1,23 @@
+{
+    "name": "matches_v2_get_statistics",
+    "description": "This is a sub-function API for tool livescore_v2.\nTool description: This API helps to query for football, cricket, basketball, tennis, hockey matches, leagues, news, etc... to create a sporting site/application such as livescore.com\nAPI description: Fetches the statistics for a match based on the provided category and event ID (eid). ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "The sport category of the match. Accepted values are 'soccer', 'cricket', 'basketball', 'tennis', or 'hockey'.",
+                "default": "soccer"
+            },
+            "eid": {
+                "type": "number",
+                "description": "The value of Eid field returned in .../matches/v2/list-by-league or .../matches/v2/list-by-date or .../matches/v2/list-live or .../competitions/detail endpoint",
+                "default": 702093.0
+            }
+        },
+        "required": [
+            "category",
+            "eid"
+        ]
+    }
+}

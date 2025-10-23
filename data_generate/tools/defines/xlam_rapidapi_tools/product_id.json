@@ -1,0 +1,29 @@
+{
+    "name": "product_id",
+    "description": "This is a sub-function API for tool aliexpress_unofficial.\nTool description: DEPRECATED. Will deleted after 2023-03-01\nAPI description: Fetches product details from the AliExpress API using the provided product ID and optional parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the product to fetch details for.",
+                "default": 4000886597329.0
+            },
+            "locale": {
+                "type": "string",
+                "description": "The locale to be used for the request (e.g., 'en_US')."
+            },
+            "currency": {
+                "type": "string",
+                "description": "The currency for price conversion (e.g., 'USD')."
+            },
+            "country": {
+                "type": "string",
+                "description": "The country for regional adjustments (e.g., 'US')."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

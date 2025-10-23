@@ -1,0 +1,17 @@
+{
+    "name": "get_comments_from_product_id",
+    "description": "This is a sub-function API for tool trendyol_data.\nTool description: ARDIC's Trendyol data retrieval service.\nAPI description: Retrieve comments for a given product ID from the Trendyol API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "product_id": {
+                "type": "string",
+                "description": "The unique identifier for the product whose comments are to be retrieved.",
+                "default": "685539438"
+            }
+        },
+        "required": [
+            "product_id"
+        ]
+    }
+}

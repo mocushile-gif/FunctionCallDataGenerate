@@ -1,0 +1,17 @@
+{
+    "name": "token_id",
+    "description": "This is a sub-function API for tool uniswap_v2_api.\nTool description: REST API of Uniswap V2\nAPI description: Fetches the information of a Token by its address using the Uniswap V2 API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The address or ID of the Token to fetch information for.",
+                "default": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

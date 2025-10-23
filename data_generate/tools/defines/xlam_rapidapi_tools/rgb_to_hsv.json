@@ -1,0 +1,29 @@
+{
+    "name": "rgb_to_hsv",
+    "description": "This is a sub-function API for tool convexity.\nTool description: Convexity is an Color-convertor API that offers endpoints for converting between different color representations, including RGB, HSL, and CMYK\nAPI description: Converts an RGB color code to an HSV color code using the Convexity API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "r": {
+                "type": "number",
+                "description": "Red component of the RGB color (0-255).",
+                "default": 127.0
+            },
+            "g": {
+                "type": "number",
+                "description": "Green component of the RGB color (0-255).",
+                "default": 255.0
+            },
+            "b": {
+                "type": "number",
+                "description": "Blue component of the RGB color (0-255).",
+                "default": 212.0
+            }
+        },
+        "required": [
+            "r",
+            "g",
+            "b"
+        ]
+    }
+}

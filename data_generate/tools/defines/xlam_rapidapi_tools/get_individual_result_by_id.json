@@ -1,0 +1,17 @@
+{
+    "name": "get_individual_result_by_id",
+    "description": "This is a sub-function API for tool robberydata.\nTool description: Get Robbery Sample Data and Use the format in your project\nAPI description: Fetches individual result data by a given ID from the Robbery Data API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the individual whose result data is to be fetched.",
+                "default": "10"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

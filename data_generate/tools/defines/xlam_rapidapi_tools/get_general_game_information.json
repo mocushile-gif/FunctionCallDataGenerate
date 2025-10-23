@@ -1,0 +1,15 @@
+{
+    "name": "get_general_game_information",
+    "description": "This is a sub-function API for tool tank01_mlb_live_in_game_real_time_statistics.\nTool description: Tank01 back with an API providing you with MLB (Major League Baseball) STATS!! \nLIVE, IN-GAME, REAL TIME, statistics.  \n\nWITH BETTING / GAMBLING ODDS AND PLAYER PROP BETS\n\nGame schedules, game times, and rosters are updated every hour as well.\n\nIncludes player news, fantasy news, and top headlines, all updated multiple times an hour.\n\nPerfect to support your fantasy site or any application that needs MLB data in real time.\nAPI description: This returns very basic information about each game.  The some data points that you will get from this call which you won't get from other calls are the time that the game starts, the game ID and link  for mlb.com and espn.com, and the game status (Postponed/scheduled/completed/in-progress/etc).  All game start times are in Eastern time zone.  \n\nExample:\n\n/getMLBGameInfo?gameID=20220409_CHW@DET\n\nwill return:\n\n```\n\n{\n\"statusCode\":200\n\"body\":\"{\"espnID\": \"401354266\", \"mlbLink\": \"https://www.mlb.com/gameday/whi",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "gameid": {
+                "type": "string",
+                "description": "The unique identifier for the NBA game. This can be retrieved from calls like `getNBAGamesForDate` or `getNBATeamSchedule`.",
+                "default": "20230410_CHW@MIN"
+            }
+        },
+        "required": []
+    }
+}

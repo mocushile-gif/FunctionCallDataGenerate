@@ -1,0 +1,27 @@
+{
+    "name": "basic_search",
+    "description": "This is a sub-function API for tool kubric_the_comprehensive_movie_news_api.\nTool description: Stay up-to-date with Kubric, your ultimate movie news API. Access top sources, search by title or keyword, and experience visually engaging cinema updates and insights.\nAPI description: Performs a basic search for movie news articles using the `/news/basic/search` endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The query term for the search, typically a keyword related to movie news.",
+                "default": "superman"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to return. Default is 10.",
+                "default": 10.0
+            },
+            "offset": {
+                "type": "number",
+                "description": "The number of results to skip before returning results. Default is 0.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

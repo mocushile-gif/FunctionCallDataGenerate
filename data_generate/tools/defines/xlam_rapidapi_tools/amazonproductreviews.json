@@ -1,0 +1,29 @@
+{
+    "name": "amazonproductreviews",
+    "description": "This is a sub-function API for tool amazon_product_reviews.\nTool description: Amazon Product Reviews\nContact me at: vuesdata@gmail.com or visit https://www.vuesdata.com for building custom spiders or custom requests.\nAPI description: It will accept three parameters asin, domain, pageNum.\nFor Ex:\nasin: B087N3LWRB  (you can find it in the product page of amazon)\ndomain: amazon.co.uk  (put the domain without www, currently we only provide amazon.com, amazon.in and amazon.co.uk)\npageNum: 1 (min 1 and max depends on the number of reviews on the product.  Each page give 10 reviews)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pagenum": {
+                "type": "number",
+                "description": "The page number of reviews to retrieve. Each page contains 10 reviews.",
+                "default": 1.0
+            },
+            "domain": {
+                "type": "string",
+                "description": "The Amazon domain to query reviews from (e.g., 'amazon.com', 'amazon.in', 'amazon.co.uk').",
+                "default": "amazon.com"
+            },
+            "asin": {
+                "type": "string",
+                "description": "The Amazon Standard Identification Number (ASIN) of the product to retrieve reviews for.",
+                "default": "B01H6GUCCQ"
+            }
+        },
+        "required": [
+            "pagenum",
+            "domain",
+            "asin"
+        ]
+    }
+}

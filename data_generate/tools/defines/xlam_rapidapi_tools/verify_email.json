@@ -1,0 +1,17 @@
+{
+    "name": "verify_email",
+    "description": "This is a sub-function API for tool email_verifier.\nTool description: A simple API to verify email addresses in making sure they are valid and real, for ensuring you are sending emails to actual people!\nAPI description: Verifies a single email address using the RapidAPI email verification service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to be verified.",
+                "default": "abc1@gmail.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

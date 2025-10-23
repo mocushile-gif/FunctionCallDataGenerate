@@ -1,0 +1,17 @@
+{
+    "name": "get_current_status_for_given_flag",
+    "description": "This is a sub-function API for tool flag_status.\nTool description: US and state flag half-staff events in JSON format.\nAPI description: Fetches the current status for a given flag code using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "string",
+                "description": "The flag code for which the status is to be fetched.",
+                "default": "WV"
+            }
+        },
+        "required": [
+            "code"
+        ]
+    }
+}

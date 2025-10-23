@@ -1,0 +1,17 @@
+{
+    "name": "code_postal_par_code",
+    "description": "This is a sub-function API for tool bps.\nTool description: Les boîtes postales (BPs), codes postaux, localités,communes, codes cedex de Nouvelle-Calédonie.\nAPI description: Fetches information associated with a given postal code in New Caledonia using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "string",
+                "description": "The postal code for which to retrieve information.",
+                "default": "98827"
+            }
+        },
+        "required": [
+            "code"
+        ]
+    }
+}

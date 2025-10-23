@@ -1,0 +1,17 @@
+{
+    "name": "concerts",
+    "description": "This is a sub-function API for tool spotify.\nTool description: Spotify Data API for Millions of songs & podcasts, artists, albums, playlists and more.\nAPI description: Fetches concert information using the Spotify API through RapidAPI, filtered by the specified geographical location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "gl": {
+                "type": "string",
+                "description": "The geographical location filter to apply when fetching concert information.",
+                "default": "US"
+            }
+        },
+        "required": [
+            "gl"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "getcity",
+    "description": "This is a sub-function API for tool city_list.\nTool description: List of all countries and cities\nAPI description: Retrieves a list of cities for a given ISO code using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "iso": {
+                "type": "string",
+                "description": "The ISO code representing the country.",
+                "default": "iq"
+            }
+        },
+        "required": [
+            "iso"
+        ]
+    }
+}

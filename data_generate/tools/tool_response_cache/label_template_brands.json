@@ -1,0 +1,22 @@
+{
+    "{'format': 'A4'}": {
+        "error": "",
+        "response": "['AALABELS', 'APLI', 'AVERY', 'EUROPE100', 'HERMA', 'KEONLABELS', 'MEGASTAR', 'ODDY']"
+    },
+    "{'format': 'Letter'}": {
+        "error": "",
+        "response": "['ALTROLABELS', 'AVERY', 'ONLINELABELS', 'SHEETLABELS', 'TOWNSTIX', 'ULINE']"
+    },
+    "{'format': 'letter'}": {
+        "error": "",
+        "response": "['ALTROLABELS', 'AVERY', 'ONLINELABELS', 'SHEETLABELS', 'TOWNSTIX', 'ULINE']"
+    },
+    "{'format': 'Avery 22806'}": {
+        "error": "",
+        "response": []
+    },
+    "{'format': 'a4'}": {
+        "error": "",
+        "response": "[{'color': '#006da2', 'displayName': 'AALabels&reg;', 'name': 'AALABELS', 'pageFormats': [{'code': 'A4', 'description': 'Metric common format', 'height': 297.0, 'unit': 2, 'width': 210.0}], 'printName': 'AA Labels', 'url': 'https://www.aalabels.com'}, {'color': 'df1217', 'displayName': 'Apli&reg;', 'name': 'APLI', 'pageFormats': [{'code': 'A4', 'description': 'Metric common format', 'height': 297.0, 'unit': 2, 'width': 210.0}], 'printName': 'Apli', 'url': 'https://www.apli.com/en/labels'}, {'color': '#0039a6', 'displayName': 'Avery&reg;', 'name': 'AVERY', 'pageFormats': [{'code': 'Letter', 'description': 'Imperial common format', 'height': 11.0, 'unit': 1, 'width': 8.5}, {'code': 'A4', 'description': 'Metric common format', 'height': 297.0, 'unit': 2, 'width': 210.0}], 'printName': 'Avery', 'url': 'https://www.avery.com/'}, {'color': '#357ebd', 'displayName': 'Europe100&reg;', 'name': 'EUROPE100', 'pageFormats': [{'code': 'A4', 'description': 'Metric common format', 'height': 297.0, 'unit': 2, 'width': 210.0}], 'printName': 'Europe100', 'url': 'https://www.europe100.eu'}, {'color': '#f80', 'displayName': 'Herma&reg;', 'name': 'HERMA', 'pageFormats': [{'code': 'A4', 'description': 'Metric common format', 'height': 297.0, 'unit': 2, 'width': 210.0}], 'printName': 'Herma', 'url': 'https://www.herma.com'}, {'displayName': 'KeonLabels&reg;', 'name': 'KEONLABELS', 'pageFormats': [{'code': 'A4', 'description': 'Metric common format', 'height': 297.0, 'unit': 2, 'width': 210.0}], 'printName': 'Keon Labels', 'url': 'https://keonlabels.com.au'}, {'color': '#310c46', 'displayName': 'LabelPlanet&reg;', 'name': 'LABELPLANET', 'pageFormats': [{'code': 'A4', 'description': 'Metric common format', 'height': 297.0, 'unit': 2, 'width': 210.0}], 'printName': 'LabelPlanet', 'url': 'https://www.labelplanet.co.uk'}, {'displayName': 'Lyreco&reg;', 'name': 'LYRECO', 'pageFormats': [{'code': 'A4', 'description': 'Metric common format', 'height': 297.0, 'unit': 2, 'width': 210.0}], 'printName': 'Lyreco', 'url': 'https://www.lyreco.com'}, "
+    }
+}

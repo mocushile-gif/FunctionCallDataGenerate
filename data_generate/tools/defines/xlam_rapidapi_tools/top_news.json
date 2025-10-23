@@ -1,0 +1,15 @@
+{
+    "name": "top_news",
+    "description": "This is a sub-function API for tool crypto_news_v2.\nTool description: Get the latest crypto news direct from your preferred sources. (non-scraped)\nAPI description: Get the top latest news from CoinDesk.\n\nSelect number of articles to return. Maximum limit depends on the provider which is usually 50+ articles for CoinDesk. The first articles are the latest.\n\nExample URLs:\n/news/top/5\n/news/top/20\n/news/top/1000  (if only 50 articles are available then 50 is returned)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "num": {
+                "type": "number",
+                "description": "The number of news articles to fetch. By default, it is set to 5.",
+                "default": 5.0
+            }
+        },
+        "required": []
+    }
+}

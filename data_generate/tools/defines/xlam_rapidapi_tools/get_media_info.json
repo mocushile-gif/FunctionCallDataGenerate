@@ -1,0 +1,17 @@
+{
+    "name": "get_media_info",
+    "description": "This is a sub-function API for tool instagram_v7.\nTool description: Get information from Instagram reliably\nAPI description: Retrieve information about a media item from Instagram API by providing the media ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the media item to retrieve information for.",
+                "default": "2789566164107201469_25025320"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

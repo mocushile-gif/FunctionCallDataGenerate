@@ -1,0 +1,23 @@
+{
+    "name": "tournament_matches_by_date",
+    "description": "This is a sub-function API for tool tennis_live_data.\nTool description: Tennis data for top competitions around the world including tournaments, matches, results, and rankings.\nAPI description: Lists all matches for a given `tournament_id` on a given `date`. This is a quick summary view of matches on the given date without result or detailed player info.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to retrieve the matches, formatted as 'YYYY-MM-DD'.",
+                "default": "2020-01-06"
+            },
+            "tournament_id": {
+                "type": "number",
+                "description": "The ID of the tournament.",
+                "default": 1143.0
+            }
+        },
+        "required": [
+            "date",
+            "tournament_id"
+        ]
+    }
+}

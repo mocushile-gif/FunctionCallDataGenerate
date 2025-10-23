@@ -1,0 +1,17 @@
+{
+    "name": "get_country_by_id",
+    "description": "This is a sub-function API for tool geography_v2.\nTool description: API that includes all the continents, countries and cities of the world. \nAPI description: Fetches and returns data for a single country based on its identifier.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The unique identifier for the country.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

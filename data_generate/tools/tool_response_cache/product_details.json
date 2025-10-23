@@ -1,0 +1,74 @@
+{
+    "{'tcin': '64946258', 'store_id': '3330', 'zip': '94611', 'state': 'CA', 'latitude': '37.820', 'longitude': '-122.200'}": {
+        "error": "",
+        "response": {
+            "product_id": "64946258",
+            "product_name": "Premium Organic Cotton T-Shirt",
+            "variants": [
+                {
+                    "attribute": "size",
+                    "options": [
+                        "S",
+                        "M",
+                        "L",
+                        "XL"
+                    ]
+                },
+                {
+                    "attribute": "color",
+                    "options": [
+                        "Navy",
+                        "White",
+                        "Black"
+                    ]
+                }
+            ],
+            "ratings_reviews": {
+                "average_rating": 4.3,
+                "total_reviews": 187,
+                "rating_breakdown": {
+                    "5 Stars": 124,
+                    "4 Stars": 45,
+                    "3 Stars": 12,
+                    "2 Stars": 4,
+                    "1 Star": 2
+                }
+            },
+            "media": {
+                "primary_image": "https://images.target.com/buy/64946258.jpg",
+                "video_url": "https://videos.target.com/64946258.mp4",
+                "gallery": [
+                    "img1.jpg",
+                    "img2.jpg",
+                    "img3.jpg"
+                ]
+            },
+            "price": {
+                "current": "$29.99",
+                "original": "$39.99",
+                "discount": "25% off",
+                "currency": "USD"
+            },
+            "promotions": [
+                {
+                    "code": "SUMMER25",
+                    "description": "Get 25% off on all summer essentials",
+                    "end_date": "2023-08-31"
+                }
+            ],
+            "child_products": [
+                {
+                    "tcin": "64946259",
+                    "name": "T-Shirt Bundle (3-Pack)",
+                    "price": "$74.97"
+                }
+            ],
+            "store_availability": {
+                "store_id": "3330",
+                "zip": "94611",
+                "in_stock": 12,
+                "pickup_available": true
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "search_emails",
+    "description": "This is a sub-function API for tool email_search.\nTool description: Simple and Powerful web search for emails - get emails found on the web for a given query and an email domain in real-time.\nAPI description: Search the web for emails using a query and email domain and get up to 5,000 email addresses.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email_domain": {
+                "type": "string",
+                "description": "Email domain - typically a company domain (e.g. wsgr.com) or an email provider domain (e.g. gmail.com).",
+                "default": "gmail.com"
+            },
+            "query": {
+                "type": "string",
+                "description": "Search query.\n\n`e.g.` *`steve smith san francisco ca usa`*\n`e.g.` *`facebook ceo`*\n`e.g.` *`jack blogger new york`*\n`e.g.` *`car dealer california usa`*",
+                "default": "car dealer california usa"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of emails to return. Defaults to 100. Accepts values from 1 to 5000.",
+                "default": 100.0
+            }
+        },
+        "required": [
+            "email_domain",
+            "query"
+        ]
+    }
+}

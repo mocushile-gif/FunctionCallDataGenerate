@@ -1,0 +1,15 @@
+{
+    "name": "teams_coaches_teamids",
+    "description": "This is a sub-function API for tool baseball.\nTool description: Baseball Leagues &amp; Cups with Livescore, Odds, Statistics, Historical Data, and more ...\nAPI description: Query baseball team coaches by team IDs using the RapidAPI baseball API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "teamids": {
+                "type": "string",
+                "description": "A string representing one or more team IDs, separated by commas. Defaults to '145'.",
+                "default": "145"
+            }
+        },
+        "required": []
+    }
+}

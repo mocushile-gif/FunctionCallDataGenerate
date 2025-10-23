@@ -1,0 +1,21 @@
+{
+    "name": "camelizer_get_prices",
+    "description": "This is a sub-function API for tool price_tracking_tools.\nTool description: This API currently helps to query for prices of products from Amazon. We will support more other sites/brands soon. Stay tune!\nAPI description: Retrieves the latest prices, and the historical highest and lowest prices of a product from Amazon using its ASIN code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "asin": {
+                "type": "string",
+                "description": "The asin number of a product from Amazon, and must be in the correct format. Ex : B08QB93S6R"
+            },
+            "locale": {
+                "type": "string",
+                "description": "The locale code to specify the Amazon region. Defaults to 'us'. Options include 'au', 'ca', 'fr', 'de', 'it', 'es', 'uk', 'us'.",
+                "default": "us"
+            }
+        },
+        "required": [
+            "asin"
+        ]
+    }
+}

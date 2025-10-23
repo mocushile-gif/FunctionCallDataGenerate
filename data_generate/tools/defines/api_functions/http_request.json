@@ -1,0 +1,37 @@
+{
+    "name": "http_request",
+    "description": "Send an HTTP request to a specified URL and return the response content, status code, and headers.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "The full URL to send the request to, including scheme (e.g., https://)."
+        },
+        "method": {
+          "type": "string",
+          "enum": ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"],
+          "description": "The HTTP method to use. Default is GET."
+        },
+        "headers": {
+          "type": "object",
+          "description": "Optional HTTP headers to include in the request.",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "data": {
+          "type": "object",
+          "description": "Optional request body for POST, PUT, or PATCH requests. Will be sent as JSON.",
+          "additionalProperties": true
+        },
+        "timeout": {
+          "type": "integer",
+          "description": "Timeout for the HTTP request in seconds. Default is 30.",
+          "default": 30
+        }
+      },
+      "required": ["url"]
+    }
+  }
+  

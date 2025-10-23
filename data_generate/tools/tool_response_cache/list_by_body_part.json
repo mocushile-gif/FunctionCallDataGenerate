@@ -1,0 +1,54 @@
+{
+    "{'bodypart': 'shoulder'}": {
+        "error": "",
+        "response": [
+            {
+                "name": "Dumbbell Shoulder Press",
+                "type": "strength",
+                "difficulty": "intermediate",
+                "equipment": "dumbbells",
+                "description": "A compound exercise targeting the anterior/deltoids, with secondary engagement of traps and triceps. Performed seated or standing."
+            },
+            {
+                "name": "Lateral Raises",
+                "type": "isolation",
+                "difficulty": "beginner",
+                "equipment": "dumbbells/cable machine",
+                "description": "Targets medial deltoids for shoulder width. Raise weights laterally to shoulder height while maintaining slight elbow bend."
+            },
+            {
+                "name": "Barbell Upright Row",
+                "type": "compound",
+                "difficulty": "intermediate",
+                "equipment": "barbell",
+                "description": "Works lateral and posterior deltoids, traps, and upper back. Lifts barbell vertically while keeping elbows high."
+            },
+            {
+                "name": "Face Pulls",
+                "type": "functional",
+                "difficulty": "advanced",
+                "equipment": "cable machine",
+                "description": "Targets rear deltoids and rotator cuff muscles. Pulls rope attachment towards face with elbows wide."
+            },
+            {
+                "name": "Arnold Press",
+                "type": "rotational press",
+                "difficulty": "advanced",
+                "equipment": "dumbbells",
+                "description": "Combines shoulder press with rotational movement. Starts with palms inward, rotates hands upward during lift."
+            }
+        ]
+    },
+    "{'bodypart': 'back'}": {
+        "error": "",
+        "response": "[{'bodyPart': 'back', 'equipment': 'cable', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/6Ncy74qPjJrg63', 'id': '0007', 'name': 'alternate lateral pulldown', 'target': 'lats'}, {'bodyPart': 'back', 'equipment': 'body weight', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/y0MlzBiPk6trqq', 'id': '3293', 'name': 'archer pull up', 'target': 'lats'}, {'bodyPart': 'back', 'equipment': 'leverage machine', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/DGwVmWb0M0J-c8', 'id': '0015', 'name': 'assisted parallel close grip pull-up', 'target': 'lats'}, {'bodyPart': 'back', 'equipment': 'leverage machine', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/4Bl6nJ94-QCOZv', 'id': '0017', 'name': 'assisted pull-up', 'target': 'lats'}, {'bodyPart': 'back', 'equipment': 'leverage machine', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/X7qNtEW5Z9w6rE', 'id': '1431', 'name': 'assisted standing chin-up', 'target': 'lats'}, {'bodyPart': 'back', 'equipment': 'leverage machine', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/4aoQQd-7UmLL7O', 'id': '1432', 'name': 'assisted standing pull-up', 'target': 'lats'}, {'bodyPart': 'back', 'equipment': 'stability ball', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/lxOiZ89G8aYrI2', 'id': '1314', 'name': 'back extension on exercise ball', 'target': 'spine'}, {'bodyPart': 'back', 'equipment': 'body weight', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/EDOgcQ9dojFP3n', 'id': '3297', 'name': 'back lever', 'target': 'upper back'}, {'bodyPart': 'back', 'equipment': 'body weight', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/SrMr5RwYySJIRw', 'id': '1405', 'name': 'back pec stretch', 'target': 'lats'}, {'bodyPart': 'back', 'equipment': 'band', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/IAOQvGxjijLCZl', 'id': '0970', 'name': 'band assisted pull-up', 'target': 'lats'}, {'bodyPart': 'back', 'equipment': 'band', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/10IY915d42kxVu', 'id': '0974', 'name': 'band close-grip pulldown"
+    },
+    "{'bodypart': 'chest'}": {
+        "error": "",
+        "response": "[{'bodyPart': 'chest', 'equipment': 'body weight', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/FsU4YFlaDqu489', 'id': '3294', 'name': 'archer push up', 'target': 'pectorals'}, {'bodyPart': 'chest', 'equipment': 'leverage machine', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/DGjgmcsFgirZAB', 'id': '0009', 'name': 'assisted chest dip (kneeling)', 'target': 'pectorals'}, {'bodyPart': 'chest', 'equipment': 'assisted', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/UT66079NihgAk3', 'id': '1716', 'name': 'assisted seated pectoralis major stretch with stability ball', 'target': 'pectorals'}, {'bodyPart': 'chest', 'equipment': 'leverage machine', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/6LRNwkd4AeQuvF', 'id': '2364', 'name': 'assisted wide-grip chest dip (kneeling)', 'target': 'pectorals'}, {'bodyPart': 'chest', 'equipment': 'band', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/kksCVTf1fFPjL0', 'id': '1254', 'name': 'band bench press', 'target': 'pectorals'}, {'bodyPart': 'chest', 'equipment': 'band', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/1mxn9iOZCwg06O', 'id': '0989', 'name': 'band one arm twisting chest press', 'target': 'pectorals'}, {'bodyPart': 'chest', 'equipment': 'barbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/hiFPz2UhadUVlu', 'id': '0025', 'name': 'barbell bench press', 'target': 'pectorals'}, {'bodyPart': 'chest', 'equipment': 'barbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/tGdspcsyjixGUS', 'id': '0033', 'name': 'barbell decline bench press', 'target': 'pectorals'}, {'bodyPart': 'chest', 'equipment': 'barbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/oZm-RSj8YxIWz0', 'id': '1255', 'name': 'barbell decline pullover', 'target': 'pectorals'}, {'bodyPart': 'chest', 'equipment': 'barbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/Qwd0vHsdd7OqR5', 'id': '0036', 'name': 'barbell decline wide-grip press', 'target': 'pectorals'}, {'bodyPart': 'chest', 'equipment': 'barbell', 'gifUrl': 'https://edb"
+    },
+    "{'bodypart': 'shoulders'}": {
+        "error": "",
+        "response": "[{'bodyPart': 'shoulders', 'equipment': 'band', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/mgxMek6PjhRZNI', 'id': '0977', 'name': 'band front lateral raise', 'target': 'delts'}, {'bodyPart': 'shoulders', 'equipment': 'band', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/IbVrD5WUaZK20P', 'id': '0978', 'name': 'band front raise', 'target': 'delts'}, {'bodyPart': 'shoulders', 'equipment': 'band', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/HzsYAmfhDTPw0o', 'id': '0993', 'name': 'band reverse fly', 'target': 'delts'}, {'bodyPart': 'shoulders', 'equipment': 'band', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/msyf0x8yGAps1I', 'id': '0997', 'name': 'band shoulder press', 'target': 'delts'}, {'bodyPart': 'shoulders', 'equipment': 'band', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/KE3ve3sRxKNMRU', 'id': '1022', 'name': 'band standing rear delt row', 'target': 'delts'}, {'bodyPart': 'shoulders', 'equipment': 'band', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/mvKjOPN5zEJyrs', 'id': '1012', 'name': 'band twisting overhead press', 'target': 'delts'}, {'bodyPart': 'shoulders', 'equipment': 'band', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/evLiuHglR7Ud07', 'id': '1017', 'name': 'band y-raise', 'target': 'delts'}, {'bodyPart': 'shoulders', 'equipment': 'barbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/g7Fy-JWgg-fOls', 'id': '0041', 'name': 'barbell front raise', 'target': 'delts'}, {'bodyPart': 'shoulders', 'equipment': 'barbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/Kkiyw43VAi5ZWj', 'id': '0067', 'name': 'barbell one arm snatch', 'target': 'delts'}, {'bodyPart': 'shoulders', 'equipment': 'barbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/2FCUdvqcJxBeEZ', 'id': '0075', 'name': 'barbell rear delt raise', 'target': 'delts'}, {'bodyPart': 'shoulders', 'equipment': 'barbell', 'gifUrl': 'https://edb-4rme8.ondigitalocean.app/image/zBmsrBHHmXxQNT', 'id': '0076', 'name': 'barbell rear delt row', 'target': 'delts'}, {'bo"
+    }
+}

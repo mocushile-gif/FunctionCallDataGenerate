@@ -1,0 +1,30 @@
+{
+    "name": "get_address_transactions",
+    "description": "This is a sub-function API for tool address_monitor.\nTool description: Monitor EVM network address transactions and get prompt and reliable webhook call with transaction details\nAPI description: Fetches transactions for a given address from the specified network.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "network": {
+                "type": "string",
+                "description": "The blockchain network to query (default is 'BSC_TESTNET').",
+                "default": "BSC_TESTNET"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of transactions to return (default is '10').",
+                "default": "10"
+            },
+            "offset": {
+                "type": "string",
+                "description": "The number of transactions to skip before starting to return results (default is '0').",
+                "default": "0"
+            },
+            "monitoraddressid": {
+                "type": "string",
+                "description": "The ID of the address to monitor (default is '8485d9c3-7f52-4ba7-8ec2-41543effa6ae').",
+                "default": "8485d9c3-7f52-4ba7-8ec2-41543effa6ae"
+            }
+        },
+        "required": []
+    }
+}

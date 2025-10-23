@@ -1,0 +1,17 @@
+{
+    "name": "tax_rate",
+    "description": "This is a sub-function API for tool simple_taxrate_retrieval.\nTool description: Sales tax by zip code made easy and fast.\nAPI description: Retrieve the tax rate for a given zip code using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zipcode": {
+                "type": "string",
+                "description": "The zip code for which to retrieve the tax rate.",
+                "default": "90210"
+            }
+        },
+        "required": [
+            "zipcode"
+        ]
+    }
+}

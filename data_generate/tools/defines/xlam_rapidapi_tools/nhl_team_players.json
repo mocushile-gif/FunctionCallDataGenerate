@@ -1,0 +1,17 @@
+{
+    "name": "nhl_team_players",
+    "description": "This is a sub-function API for tool nhl_api.\nTool description: This API provides instant access to the latest data for all operations and players in the NHL. It features scores, odds, bookmakers' stats, standings, and historical data.\nAPI description: Fetches the roster information for a specific NHL team using the RapidAPI endpoint.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "teamid": {
+                "type": "string",
+                "description": "The unique identifier for the NHL team whose roster information is to be fetched.",
+                "default": "17"
+            }
+        },
+        "required": [
+            "teamid"
+        ]
+    }
+}

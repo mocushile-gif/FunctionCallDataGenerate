@@ -1,0 +1,22 @@
+{
+    "name": "get_antonyms",
+    "description": "This is a sub-function API for tool dicolink.\nTool description: Dicolink API lets you retrieve information about French words, including definitions, synonyms, antonyms, quotes, expressions, lexical field, scrabble score, and much more...\nAPI description: Fetches antonyms for a given word using the Dicolink API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "mot": {
+                "type": "string",
+                "description": "The word for which to find antonyms.",
+                "default": "autre"
+            },
+            "limite": {
+                "type": "number",
+                "description": "The maximum number of antonyms to return. Defaults to 10.",
+                "default": 10.0
+            }
+        },
+        "required": [
+            "mot"
+        ]
+    }
+}

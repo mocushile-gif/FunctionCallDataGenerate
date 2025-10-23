@@ -1,0 +1,25 @@
+{
+    "{'newspaperid': 'scmp'}": {
+        "error": "",
+        "response": {
+            "source": "South China Morning Post (SCMP)",
+            "articles": [
+                {
+                    "title": "China Announces New Economic Stimulus Package",
+                    "summary": "The Chinese government unveils a $500 billion stimulus plan targeting infrastructure and tech innovation.",
+                    "url": "https://example.com/scmp-article1"
+                },
+                {
+                    "title": "Japan's Central Bank Holds Rates Amid Economic Uncertainty",
+                    "summary": "The Bank of Japan maintains interest rates at historic lows to support post-pandemic recovery.",
+                    "url": "https://example.com/scmp-article2"
+                },
+                {
+                    "title": "South Korea's Tech Sector Sees Record Growth in Q2",
+                    "summary": "Korean tech giants report surge in semiconductor exports driven by global AI demand.",
+                    "url": "https://example.com/scmp-article3"
+                }
+            ]
+        }
+    }
+}

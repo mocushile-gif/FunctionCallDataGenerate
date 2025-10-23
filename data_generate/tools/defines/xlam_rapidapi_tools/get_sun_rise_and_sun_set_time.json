@@ -1,0 +1,34 @@
+{
+    "name": "get_sun_rise_and_sun_set_time",
+    "description": "This is a sub-function API for tool yawin_indian_astrology.\nTool description: Indian astrology API for planet positions, ascension calculations, and prediction findings, Basic tools that help in astrological calculations\nAPI description: Fetches the sunrise and sunset times for a given date and location, optionally considering a specific timezone.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "description": "The date for which to find sunrise and sunset times in 'YYYY-MM-DD' format.",
+                "default": "2023-04-14"
+            },
+            "latitude": {
+                "type": "number",
+                "description": "The latitude of the location.",
+                "default": 12.9716
+            },
+            "longitude": {
+                "type": "number",
+                "description": "The longitude of the location.",
+                "default": 77.5946
+            },
+            "timezone": {
+                "type": "string",
+                "description": "The timezone to consider for the sunrise and sunset times. Default is 'Asia/Calcutta'.",
+                "default": "Asia/Calcutta"
+            }
+        },
+        "required": [
+            "date",
+            "latitude",
+            "longitude"
+        ]
+    }
+}

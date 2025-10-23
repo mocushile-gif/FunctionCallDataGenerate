@@ -1,0 +1,19 @@
+{
+    "{'zip': '90210'}": {
+        "error": "",
+        "response": {
+            "median_household_income": 152000,
+            "median_family_income": 178500,
+            "per_capita_income": 67500,
+            "income_distribution": {
+                "less_30k": "5.2%",
+                "30k-60k": "12.4%",
+                "60k-100k": "28.7%",
+                "100k-150k": "31.5%",
+                "over_150k": "22.2%"
+            },
+            "poverty_rate": "8.1%",
+            "median_home_value": 1850000
+        }
+    }
+}

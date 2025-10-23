@@ -1,0 +1,17 @@
+{
+    "name": "get_product_s_reviews",
+    "description": "This is a sub-function API for tool amazon_data_scraper_v2.\nTool description: Amazon Data Scraper is the easiest way to get access to products, price, sales and reviews data from amazon in JSON format\nAPI description: Fetches reviews for a specified product using the Amazon Data Scraper API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "productid": {
+                "type": "string",
+                "description": "The unique identifier of the product whose reviews are to be fetched.",
+                "default": "B00K3OM3PS"
+            }
+        },
+        "required": [
+            "productid"
+        ]
+    }
+}

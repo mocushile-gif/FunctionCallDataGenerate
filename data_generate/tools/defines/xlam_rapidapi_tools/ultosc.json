@@ -1,0 +1,48 @@
+{
+    "name": "ultosc",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: Fetches the Ultimate Oscillator (ULTOSC) data for a given financial instrument using the Twelve Data API. The Ultimate Oscillator takes into account three different time periods to enhance the quality of overbought and oversold signals.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "Instrument symbol, can be any equity, index, ETF, forex, or cryptocurrency (e.g., 'AAPL', 'EUR/USD', 'ETH/BTC').",
+                "default": "AAPL"
+            },
+            "interval": {
+                "type": "string",
+                "description": "Interval between two consecutive points in the time series. Supported values are '1min', '5min', '15min', '30min', '45min', '1h', '2h', '4h', '1day', '1week', and '1month'.",
+                "default": "1min"
+            },
+            "time_period_1": {
+                "type": "number",
+                "description": "First time period for the oscillator calculation. Defaults to 7.",
+                "default": 7
+            },
+            "time_period_2": {
+                "type": "number",
+                "description": "Second time period for the oscillator calculation. Defaults to 14.",
+                "default": 14
+            },
+            "format": {
+                "type": "string",
+                "description": "Output format, either 'CSV' or 'JSON'. Defaults to 'json'.",
+                "default": "json"
+            },
+            "time_period_3": {
+                "type": "number",
+                "description": "Third time period for the oscillator calculation. Defaults to 28.",
+                "default": 28
+            },
+            "outputsize": {
+                "type": "number",
+                "description": "Default `30` when no date parameters are set, otherwise set to maximum",
+                "default": 30
+            }
+        },
+        "required": [
+            "symbol",
+            "interval"
+        ]
+    }
+}

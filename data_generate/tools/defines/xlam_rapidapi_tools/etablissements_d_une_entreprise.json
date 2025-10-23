@@ -1,0 +1,17 @@
+{
+    "name": "etablissements_d_une_entreprise",
+    "description": "This is a sub-function API for tool ridet_nc.\nTool description: API permettant d'obtenir les informations sur une entreprise ou un établissement en Nouvelle-Calédonie\nAPI description: Fetch the establishments of a company in New Caledonia using the RID provided.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "rid": {
+                "type": "string",
+                "description": "The unique identifier (RID) of the company.",
+                "default": "0132720"
+            }
+        },
+        "required": [
+            "rid"
+        ]
+    }
+}

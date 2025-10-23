@@ -1,0 +1,25 @@
+{
+    "name": "duckduckgo_websearch",
+    "description": "Perform a DuckDuckGo web search and return a list of results.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "The search query string. Must be non-empty."
+        },
+        "num_results": {
+          "type": "integer",
+          "description": "Maximum number of results to return (default is 5).",
+          "default": 5
+        },
+        "timeout_seconds": {
+          "type": "integer",
+          "description": "Timeout in seconds for the search operation (default is 20).",
+          "default": 20
+        }
+      },
+      "required": ["query"]
+    }
+  }
+  

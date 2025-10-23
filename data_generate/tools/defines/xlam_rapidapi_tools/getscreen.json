@@ -1,0 +1,16 @@
+{
+    "name": "getscreen",
+    "description": "This is a sub-function API for tool maytapi_whatsapp.\nTool description: Send and receive messages from WhatsApp via Maytapi. It is a stable and reliable solution. See more:  https://maytapi.com/\nAPI description: Fetches a screenshot of the screen in the current session for the given phone ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone_id": {
+                "type": "string",
+                "description": "The unique identifier of the phone whose screen session is to be captured."
+            }
+        },
+        "required": [
+            "phone_id"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_beers_by_single_country",
+    "description": "This is a sub-function API for tool beers_list.\nTool description: A list of beers from many European countries\nAPI description: Available Countries are:\n- denmark\n- sweden\n- belgium\n- spain\n- portugal\n- ireland\n- luxembourg\n- norway\n- finland\n- switzerland\n- czech\n- italy\n- poland\n- malta",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "beerid": {
+                "type": "string",
+                "description": "The identifier of the beer to fetch details for.",
+                "default": "italy"
+            }
+        },
+        "required": [
+            "beerid"
+        ]
+    }
+}

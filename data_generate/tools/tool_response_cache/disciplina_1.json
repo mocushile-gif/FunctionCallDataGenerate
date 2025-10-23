@@ -1,0 +1,10 @@
+{
+    "{}": {
+        "error": "",
+        "response": "[{\"date\":\"2022-02-15 09:24:13\",\"stage\":\"Primaria\",\"incidence\":\"Advertencia\",\"description\":\"Pegar a un compa\u00f1ero\"},{\"date\":\"2022-02-16 09:24:13\",\"stage\":\"Primaria\",\"incidence\":\"Advertencia\",\"description\":\"Hablar en clase\"}]"
+    },
+    "{'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1hbiBCcmVpdHoiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2NTEyMzg0NjAsImV4cCI6MTY1MTgzODQ2MH0.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c'}": {
+        "error": "",
+        "response": "[{'date': '2022-02-15 09:24:13', 'stage': 'Primaria', 'incidence': 'Advertencia', 'description': 'Pegar a un compa\u00f1ero'}, {'date': '2022-02-16 09:24:13', 'stage': 'Primaria', 'incidence': 'Advertencia', 'description': 'Hablar en clase'}]"
+    }
+}

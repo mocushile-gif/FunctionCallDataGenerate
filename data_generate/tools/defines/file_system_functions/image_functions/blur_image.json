@@ -1,0 +1,31 @@
+{
+    "name": "blur_image",
+    "description": "Apply blur effect to an image with different blur types including gaussian, box, and motion blur.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the input image file"
+        },
+        "blur_type": {
+          "type": "string",
+          "description": "Type of blur effect to apply",
+          "enum": ["gaussian", "box", "motion"],
+          "default": "gaussian"
+        },
+        "radius": {
+          "type": "number",
+          "description": "Blur radius/intensity (0.1-50.0)",
+          "default": 5.0,
+          "minimum": 0.1,
+          "maximum": 50.0
+        },
+        "output_path": {
+          "type": "string",
+          "description": "Path for the output image. If not provided, will create auto-named file."
+        }
+      },
+      "required": ["image_path"]
+    }
+  } 

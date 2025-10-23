@@ -1,0 +1,22 @@
+{
+    "{'symbol': 'BINANCE:ETHUSDT', 'studies': 'RSI,MACD', 'interval': '1w', 'theme': 'dark'}": {
+        "error": "",
+        "response": {
+            "chart_url": "https://chart-img.com/advanced-chart/BINANCE:ETHUSDT/1w/dark",
+            "parameters": {
+                "symbol": "BINANCE:ETHUSDT",
+                "studies": [
+                    "RSI",
+                    "MACD"
+                ],
+                "interval": "1w",
+                "theme": "dark",
+                "format": "png",
+                "timezone": "Etc/UTC",
+                "width": 800,
+                "height": 600
+            },
+            "status": "Chart generated successfully with RSI and MACD indicators on weekly interval (dark theme). Image in PNG format (800x600px, UTC timezone)"
+        }
+    }
+}

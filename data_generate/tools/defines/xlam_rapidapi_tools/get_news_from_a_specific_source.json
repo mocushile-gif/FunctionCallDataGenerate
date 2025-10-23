@@ -1,0 +1,17 @@
+{
+    "name": "get_news_from_a_specific_source",
+    "description": "This is a sub-function API for tool pollution_news_api.\nTool description: An API service returning news articles about pollution in african countries.\nTry using another project of mine to summarize the articles - \nhttps://soft-summarizer.vercel.app/ \nAPI description: This Endpoint would return news on pollution in african countries from a specific news source",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "newspaperid": {
+                "type": "string",
+                "description": "The identifier of the news source to fetch pollution news from.",
+                "default": "sei"
+            }
+        },
+        "required": [
+            "newspaperid"
+        ]
+    }
+}

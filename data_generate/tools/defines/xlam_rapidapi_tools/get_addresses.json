@@ -1,0 +1,25 @@
+{
+    "name": "get_addresses",
+    "description": "This is a sub-function API for tool address_monitor.\nTool description: Monitor EVM network address transactions and get prompt and reliable webhook call with transaction details\nAPI description: Fetches addresses from the address-monitor API with specified query parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of addresses to fetch. Defaults to '100'.",
+                "default": "100"
+            },
+            "offset": {
+                "type": "string",
+                "description": "The number of addresses to skip before starting to fetch. Defaults to '0'.",
+                "default": "0"
+            },
+            "network": {
+                "type": "string",
+                "description": "The network type for which addresses are to be fetched (e.g., 'BSC_TESTNET'). Defaults to 'BSC_TESTNET'.",
+                "default": "BSC_TESTNET"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "change_owner",
+  "description": "Change the owner and group of a file or directory.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "path": {
+        "type": "string",
+        "description": "The path to the file or directory. Default to './'"
+      },
+      "user_id": {
+        "type": "integer",
+        "description": "The new owner's user ID."
+      },
+      "group_id": {
+        "type": "integer",
+        "description": "The new group's group ID."
+      }
+    },
+    "required": ["path", "user_id", "group_id"]
+  }
+}

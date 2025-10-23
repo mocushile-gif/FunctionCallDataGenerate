@@ -1,0 +1,32 @@
+{
+    "name": "leaderboards",
+    "description": "This is a sub-function API for tool live_golf_data.\nTool description: PGA Tour and LIV Tour live golf data for your application needs such as rankings, leaderboards, scorecards, and results.\nAPI description: Fetch the most recent leaderboard for a given `tournId`, `year`,  and `roundId`. Query the `schedule` endpoint for the desired `tournId` and `year`.\n\nLeaderboards are available 1-2 days before the event begins.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "orgid": {
+                "type": "string",
+                "description": "Identifier for the organizing body. Choose '1' for PGA Tour or '2' for LIV Tour."
+            },
+            "tournid": {
+                "type": "string",
+                "description": "The tournament ID for which the leaderboard is to be fetched.",
+                "default": "475"
+            },
+            "year": {
+                "type": "string",
+                "description": "The year of the tournament.",
+                "default": "2022"
+            },
+            "roundid": {
+                "type": "number",
+                "description": "The round ID to filter the leaderboard by a specific round. Defaults to None."
+            }
+        },
+        "required": [
+            "orgid",
+            "tournid",
+            "year"
+        ]
+    }
+}

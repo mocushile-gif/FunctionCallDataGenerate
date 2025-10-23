@@ -1,0 +1,42 @@
+{
+    "{'reference': '789012'}": {
+        "error": "",
+        "response": "{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'Bad Request', 'status': 400, 'traceId': '|76db5df4-4a7071812ffed1b5.'}"
+    },
+    "{'reference': 'PNS-9H2B3R7W-20231015-ABC123'}": {
+        "error": "",
+        "response": "{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'Bad Request', 'status': 400, 'traceId': '|76db9543-4a7071812ffed1b5.'}"
+    },
+    "{'reference': 'PNS-4K5L8M9N-20231120-DEF456'}": {
+        "error": "",
+        "response": "{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'Bad Request', 'status': 400, 'traceId': '|76db956a-4a7071812ffed1b5.'}"
+    },
+    "{'reference': 'PNS-2023-09-15-UK-AB12345C'}": {
+        "error": "",
+        "response": "{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'Bad Request', 'status': 400, 'traceId': '|76db95d7-4a7071812ffed1b5.'}"
+    },
+    "{'reference': 'PNS-2023-09-15-UK-AB12345D'}": {
+        "error": "",
+        "response": "{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'Bad Request', 'status': 400, 'traceId': '|76db9617-4a7071812ffed1b5.'}"
+    },
+    "{'reference': 'PNS-2023-XYZ789'}": {
+        "error": "",
+        "response": "{'trackingResponses': [], 'serviceCentre': {'name': 'Pack & Send Customer Service', 'phone': '1300 668 000 (Option 2)', 'email': 'customerservice@packsend.com.au', 'websiteAddress': 'https://www.packsend.com.au', 'address': {'line1': '', 'line2': '', 'cityOrSuburb': '', 'postCodeOrZipCode': '', 'stateOrRegion': '', 'country': ''}}, 'brandingInfo': None}"
+    },
+    "{'reference': '123456789'}": {
+        "error": "",
+        "response": "{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'Bad Request', 'status': 400, 'traceId': '|afdcfbf5-4d95c022153f9afe.'}"
+    },
+    "{'reference': '987654321'}": {
+        "error": "",
+        "response": "{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'Bad Request', 'status': 400, 'traceId': '|569cf419-47810bae524b39fe.'}"
+    },
+    "{'reference': 'REF12345'}": {
+        "error": "",
+        "response": "{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'Bad Request', 'status': 400, 'traceId': '|76e32aee-4a7071812ffed1b5.'}"
+    },
+    "{'reference': 'REF67890'}": {
+        "error": "",
+        "response": "{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'Bad Request', 'status': 400, 'traceId': '|76e32aef-4a7071812ffed1b5.'}"
+    }
+}

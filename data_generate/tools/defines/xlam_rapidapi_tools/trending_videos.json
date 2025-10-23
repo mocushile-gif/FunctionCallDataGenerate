@@ -1,0 +1,25 @@
+{
+    "name": "trending_videos",
+    "description": "This is a sub-function API for tool youtube_v2.\nTool description: Youtube API for search, videos, channels, trending, recommendation\nAPI description: Fetches a list of trending YouTube videos based on the given parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The country code for which to retrieve trending videos. Defaults to 'us'.",
+                "default": "us"
+            },
+            "lang": {
+                "type": "string",
+                "description": "The language code for the video titles and descriptions. Defaults to 'en'.",
+                "default": "en"
+            },
+            "section": {
+                "type": "string",
+                "description": "The section of trending videos to retrieve. Possible values are \"Now\", \"Music\", \"Movies\", \"Gaming\". Defaults to 'Now'.",
+                "default": "Now"
+            }
+        },
+        "required": []
+    }
+}

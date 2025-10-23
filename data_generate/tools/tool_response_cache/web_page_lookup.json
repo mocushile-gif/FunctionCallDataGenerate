@@ -1,0 +1,18 @@
+{
+    "{'raw_annotatable_url': 'https://bitcoin.org/'}": {
+        "error": "",
+        "response": "{'status': 'missing_required_parameters', 'required_parameters': [{'key': 'canonical_url', 'type': 'string'}, {'key': 'og_url', 'type': 'string'}]}"
+    },
+    "{'raw_annotatable_url': 'https://api.securetechcorp.com/v2/docs/index.html?env=prod&amp;access_token=redacted'}": {
+        "error": "",
+        "response": "{'status': 'missing_required_parameters', 'required_parameters': [{'key': 'canonical_url', 'type': 'string'}, {'key': 'og_url', 'type': 'string'}]}"
+    },
+    "{'raw_annotatable_url': 'https://api.securetechcorp.com/v2/docs/index.html?env=prod&amp;access_token=redacted', 'og_url': 'https://api.securetechcorp.com/v2/docs/index.html?env=prod&amp;access_token=redacted', 'canonical_url': 'https://api.securetechcorp.com/v2/docs/index.html?env=prod&amp;access_token=redacted'}": {
+        "error": "",
+        "response": "{'web_page': {'_type': 'web_page', 'api_path': None, 'domain': 'api.securetechcorp.com', 'id': None, 'normalized_url': '//api.securetechcorp.com/v2/docs/index.html?env=prod&amp%3Baccess_token=redacted', 'protected': False, 'share_url': 'http://genius.it/api.securetechcorp.com/v2/docs/index.html?env=prod&amp%3Baccess_token=redacted', 'title': 'api.securetechcorp.com', 'url': 'https://genius.com/api.securetechcorp.com/v2/docs/index.html?env=prod&amp%3Baccess_token=redacted', 'web_site_id': None, 'annotation_count': 0, 'draft_annotation_count': 0}}"
+    },
+    "{'raw_annotatable_url': 'https://www.youtube.com/watch?v=3x2aG7z9K1E&list=PLwF7L40y89YQd3tZ7X5kY9aB2c4d5e7F&pp=ygUNYnJvd2luZ2FuY2ltYWw%3D'}": {
+        "error": "",
+        "response": "{'status': 'missing_required_parameters', 'required_parameters': [{'key': 'canonical_url', 'type': 'string'}, {'key': 'og_url', 'type': 'string'}]}"
+    }
+}

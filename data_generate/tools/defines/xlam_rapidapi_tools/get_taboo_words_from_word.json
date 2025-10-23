@@ -1,0 +1,22 @@
+{
+    "name": "get_taboo_words_from_word",
+    "description": "This is a sub-function API for tool taboo_api.\nTool description: Provides a number of different categories to choose from. You can get a random word and its taboo words or you can get taboo words for the word or phrase you provide.\nAPI description: Provide your own word and get the taboo words back.\n\nOptionally pass a parameter which will control the amount of taboo words to be returned, \"forbiddenWordLimit\" defaults to 4 and has a max of 10",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "word": {
+                "type": "string",
+                "description": "The word for which to retrieve taboo words.",
+                "default": "laptop"
+            },
+            "forbiddenwordlimit": {
+                "type": "number",
+                "description": "The number of taboo words to return, defaults to 5 and has a maximum of 10.",
+                "default": 5.0
+            }
+        },
+        "required": [
+            "word"
+        ]
+    }
+}

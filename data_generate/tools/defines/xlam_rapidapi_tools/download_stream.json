@@ -1,0 +1,21 @@
+{
+    "name": "download_stream",
+    "description": "This is a sub-function API for tool ytstream_download_youtube_videos.\nTool description: Download or stream YouTube Videos/MP4.\nAPI description: Downloads or streams video information from YouTube using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "YouTube Video ID to stream or download information.",
+                "default": "UxxajLWwzqY"
+            },
+            "cgeo": {
+                "type": "string",
+                "description": "Country code in ISO 3166 format of the end user. Defaults to None."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

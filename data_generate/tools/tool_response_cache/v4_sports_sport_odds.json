@@ -1,0 +1,114 @@
+{
+    "{'sport': 'nfl', 'regions': 'us', 'markets': 'h2h,spreads'}": {
+        "error": "",
+        "response": {
+            "data": [
+                {
+                    "id": "nfl:12345",
+                    "sport_key": "nfl",
+                    "teams": [
+                        "New England Patriots",
+                        "Miami Dolphins"
+                    ],
+                    "commence_time": "2023-11-20T19:00:00Z",
+                    "odds": {
+                        "bookmakers": [
+                            {
+                                "key": "draftkings",
+                                "title": "DraftKings",
+                                "markets": {
+                                    "h2h": [
+                                        2.1,
+                                        1.8
+                                    ],
+                                    "spreads": [
+                                        -3.5,
+                                        3.5
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "fanduel",
+                                "title": "FanDuel",
+                                "markets": {
+                                    "h2h": [
+                                        2.05,
+                                        1.85
+                                    ],
+                                    "spreads": [
+                                        -3.0,
+                                        4.0
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "nfl:67890",
+                    "sport_key": "nfl",
+                    "teams": [
+                        "Kansas City Chiefs",
+                        "Las Vegas Raiders"
+                    ],
+                    "commence_time": "2023-11-20T22:00:00Z",
+                    "odds": {
+                        "bookmakers": [
+                            {
+                                "key": "caesars",
+                                "title": "Caesars",
+                                "markets": {
+                                    "h2h": [
+                                        1.9,
+                                        2.2
+                                    ],
+                                    "spreads": [
+                                        -2.5,
+                                        2.5
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "notes": "Data sourced from US bookmakers. Markets include head-to-head (h2h) and spreads. Each market contributes to API usage quota."
+        }
+    },
+    "{'sport': 'upcoming', 'regions': 'uk', 'oddsformat': 'decimal', 'markets': 'h2h', 'dateformat': 'iso'}": {
+        "error": "",
+        "response": "[{'id': 'e6e0baee7fc87d72e3833cbdd16fcf8a', 'sport_key': 'baseball_ncaa', 'sport_title': 'NCAA Baseball', 'commence_time': '2025-06-02T22:05:47Z', 'home_team': 'Ole Miss Rebels', 'away_team': 'Murray St Racers', 'bookmakers': [{'key': 'betway', 'title': 'Betway', 'last_update': '2025-06-03T01:39:27Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-03T01:39:27Z', 'outcomes': [{'name': 'Murray St Racers', 'price': 1.5}, {'name': 'Ole Miss Rebels', 'price': 2.4}]}]}]}, {'id': 'd3c58f2f32e2c96ddb0f95aadb250648', 'sport_key': 'baseball_ncaa', 'sport_title': 'NCAA Baseball', 'commence_time': '2025-06-02T22:06:34Z', 'home_team': 'Tennessee Volunteers', 'away_team': 'Wake Forest Demon Deacons', 'bookmakers': [{'key': 'betway', 'title': 'Betway', 'last_update': '2025-06-03T01:33:56Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-03T01:33:56Z', 'outcomes': [{'name': 'Tennessee Volunteers', 'price': 1.01}, {'name': 'Wake Forest Demon Deacons', 'price': 13.0}]}]}]}, {'id': '93ae5fcbf33448d9a7134c79e8e7d675', 'sport_key': 'baseball_mlb', 'sport_title': 'MLB', 'commence_time': '2025-06-02T23:11:00Z', 'home_team': 'Boston Red Sox', 'away_team': 'Los Angeles Angels', 'bookmakers': [{'key': 'paddypower', 'title': 'Paddy Power', 'last_update': '2025-06-03T01:40:04Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-03T01:40:04Z', 'outcomes': [{'name': 'Boston Red Sox', 'price': 4.5}, {'name': 'Los Angeles Angels', 'price': 1.18}]}]}, {'key': 'betway', 'title': 'Betway', 'last_updat"
+    },
+    "{'sport': 'upcoming', 'regions': 'uk', 'oddsformat': 'decimal', 'markets': 'h2h,spreads', 'dateformat': 'iso'}": {
+        "error": "",
+        "response": "[{'id': 'e6e0baee7fc87d72e3833cbdd16fcf8a', 'sport_key': 'baseball_ncaa', 'sport_title': 'NCAA Baseball', 'commence_time': '2025-06-02T22:05:47Z', 'home_team': 'Ole Miss Rebels', 'away_team': 'Murray St Racers', 'bookmakers': [{'key': 'betway', 'title': 'Betway', 'last_update': '2025-06-03T01:46:00Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-03T01:46:00Z', 'outcomes': [{'name': 'Murray St Racers', 'price': 1.62}, {'name': 'Ole Miss Rebels', 'price': 2.15}]}]}]}, {'id': 'd3c58f2f32e2c96ddb0f95aadb250648', 'sport_key': 'baseball_ncaa', 'sport_title': 'NCAA Baseball', 'commence_time': '2025-06-02T22:06:34Z', 'home_team': 'Tennessee Volunteers', 'away_team': 'Wake Forest Demon Deacons', 'bookmakers': [{'key': 'betway', 'title': 'Betway', 'last_update': '2025-06-03T01:33:56Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-03T01:33:56Z', 'outcomes': [{'name': 'Tennessee Volunteers', 'price': 1.01}, {'name': 'Wake Forest Demon Deacons', 'price': 13.0}]}]}]}, {'id': '93ae5fcbf33448d9a7134c79e8e7d675', 'sport_key': 'baseball_mlb', 'sport_title': 'MLB', 'commence_time': '2025-06-02T23:11:00Z', 'home_team': 'Boston Red Sox', 'away_team': 'Los Angeles Angels', 'bookmakers': [{'key': 'paddypower', 'title': 'Paddy Power', 'last_update': '2025-06-03T01:45:32Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-03T01:45:32Z', 'outcomes': [{'name': 'Boston Red Sox', 'price': 2.62}, {'name': 'Los Angeles Angels', 'price': 1.44}]}]}, {'key': 'sport888', 'title': '888sport', 'las"
+    },
+    "{'sport': 'soccer', 'regions': 'eu', 'markets': 'h2h,spreads'}": {
+        "error": "",
+        "response": "[{'id': 'b9a5bb32ae5498d33bb3015296b2ec58', 'sport_key': 'soccer_chile_campeonato', 'sport_title': 'Primera Divisi\u00f3n - Chile', 'commence_time': '2025-06-03T19:00:00Z', 'home_team': 'Uni\u00f3n Espa\u00f1ola', 'away_team': 'Deportes Limache', 'bookmakers': [{'key': 'winamax_de', 'title': 'Winamax (DE)', 'last_update': '2025-06-03T07:11:17Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-03T07:11:17Z', 'outcomes': [{'name': 'Deportes Limache', 'price': 2.95}, {'name': 'Uni\u00f3n Espa\u00f1ola', 'price': 2.2}, {'name': 'Draw', 'price': 3.55}]}]}, {'key': 'winamax_fr', 'title': 'Winamax (FR)', 'last_update': '2025-06-03T07:11:31Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-03T07:11:31Z', 'outcomes': [{'name': 'Deportes Limache', 'price': 2.85}, {'name': 'Uni\u00f3n Espa\u00f1ola', 'price': 2.1}, {'name': 'Draw', 'price': 3.4}]}]}, {'key': 'coolbet', 'title': 'Coolbet', 'last_update': '2025-06-03T07:11:31Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-03T07:11:31Z', 'outcomes': [{'name': 'Deportes Limache', 'price': 3.15}, {'name': 'Uni\u00f3n Espa\u00f1ola', 'price': 2.15}, {'name': 'Draw', 'price': 3.75}]}]}, {'key': 'onexbet', 'title': '1xBet', 'last_update': '2025-06-03T07:11:37Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-03T07:11:37Z', 'outcomes': [{'name': 'Deportes Limache', 'price': 2.95}, {'name': 'Uni\u00f3n Espa\u00f1ola', 'price': 2.23}, {'name': 'Draw', 'price': 3.65}]}, {'key': 'spreads', 'last_update': '2025-06-03T07:11:37Z', 'outcomes': [{'name': 'Deportes Limache', 'price': 2.17, '"
+    },
+    "{'sport': 'upcoming', 'regions': 'us', 'markets': 'h2h,spreads'}": {
+        "error": "",
+        "response": "[{'id': 'a84e1d83e93554ecf0ff32b6ca2af4ce', 'sport_key': 'baseball_kbo', 'sport_title': 'KBO', 'commence_time': '2025-06-03T05:00:00Z', 'home_team': 'Hanwha Eagles', 'away_team': 'KT Wiz', 'bookmakers': [{'key': 'betrivers', 'title': 'BetRivers', 'last_update': '2025-06-03T07:14:38Z', 'markets': [{'key': 'spreads', 'last_update': '2025-06-03T07:14:38Z', 'outcomes': [{'name': 'Hanwha Eagles', 'price': 2.88, 'point': -9.5}, {'name': 'KT Wiz', 'price': 1.35, 'point': 9.5}]}]}, {'key': 'bovada', 'title': 'Bovada', 'last_update': '2025-06-03T07:05:51Z', 'markets': [{'key': 'spreads', 'last_update': '2025-06-03T07:05:51Z', 'outcomes': [{'name': 'Hanwha Eagles', 'price': 1.8, 'point': -9.0}, {'name': 'KT Wiz', 'price': 1.95, 'point': 9.0}]}]}, {'key': 'draftkings', 'title': 'DraftKings', 'last_update': '2025-06-03T07:14:38Z', 'markets': [{'key': 'spreads', 'last_update': '2025-06-03T07:14:38Z', 'outcomes': [{'name': 'Hanwha Eagles', 'price': 2.6, 'point': -9.5}, {'name': 'KT Wiz', 'price': 1.48, 'point': 9.5}]}]}, {'key': 'fanduel', 'title': 'FanDuel', 'last_update': '2025-06-03T07:13:53Z', 'markets': [{'key': 'spreads', 'last_update': '2025-06-03T07:13:53Z', 'outcomes': [{'name': 'Hanwha Eagles', 'price': 2.65, 'point': -9.5}, {'name': 'KT Wiz', 'price': 1.45, 'point': 9.5}]}]}, {'key': 'fanatics', 'title': 'Fanatics', 'last_update': '2025-06-03T07:14:42Z', 'markets': [{'key': 'spreads', 'last_update': '2025-06-03T07:14:42Z', 'outcomes': [{'name': 'Hanwha Eagles', 'price': 2.55, 'point': -9.5}, {'name': 'KT Wiz', 'price': 1.44, 'point': 9.5}]}]}, {'key': 'betmgm', 'title': 'BetMGM', 'last_update': '2025-06-03T07:14:40Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-03T07:14:40Z', 'outcomes': [{'name': 'Hanwha Eagles', 'price': 1.01}, {'name': 'KT Wiz', 'price': 34.0}]}, {'key': 'spreads', 'last_update': '2025-06-03T07:14:40Z', 'outcomes': [{'name': 'Hanwha Eagles', 'price': 2.8, 'point': -9.5}, {'name': 'KT Wiz', 'price': 1.43, 'point': 9.5}]}]}]}, {'id': '67a366bddb7db2b030757afd11e88586', 'sport_key': 'baseball"
+    },
+    "{'sport': 'americanfootball_nfl', 'regions': 'us', 'markets': 'h2h,spreads'}": {
+        "error": "",
+        "response": "[{'id': '03dd880f071a65053e37000d3d826e14', 'sport_key': 'americanfootball_nfl', 'sport_title': 'NFL', 'commence_time': '2025-01-11T21:31:00Z', 'home_team': 'Houston Texans', 'away_team': 'Los Angeles Chargers', 'bookmakers': [{'key': 'fanduel', 'title': 'FanDuel', 'last_update': '2025-01-06T20:43:28Z', 'markets': [{'key': 'h2h', 'last_update': '2025-01-06T20:43:28Z', 'outcomes': [{'name': 'Houston Texans', 'price': 2.24}, {'name': 'Los Angeles Chargers', 'price': 1.68}]}, {'key': 'spreads', 'last_update': '2025-01-06T20:43:28Z', 'outcomes': [{'name': 'Houston Texans', 'price': 1.95, 'point': 2.5}, {'name': 'Los Angeles Chargers', 'price': 1.87, 'point': -2.5}]}]}, {'key': 'draftkings', 'title': 'DraftKings', 'last_update': '2025-01-06T20:43:07Z', 'markets': [{'key': 'h2h', 'last_update': '2025-01-06T20:43:07Z', 'outcomes': [{'name': 'Houston Texans', 'price': 2.36}, {'name': 'Los Angeles Chargers', 'price': 1.62}]}, {'key': 'spreads', 'last_update': '2025-01-06T20:43:07Z', 'outcomes': [{'name': 'Houston Texans', 'price': 2.0, 'point': 2.5}, {'name': 'Los Angeles Chargers', 'price': 1.83, 'point': -2.5}]}]}, {'key': 'betonlineag', 'title': 'BetOnline.ag', 'last_update': '2025-01-06T20:43:08Z', 'markets': [{'key': 'h2h', 'last_update': '2025-01-06T20:43:08Z', 'outcomes': [{'name': 'Houston Texans', 'price': 2.35}, {'name': 'Los Angeles Chargers', 'price': 1.65}]}, {'key': 'spreads', 'last_update': '2025-01-06T20:43:08Z', 'outcomes': [{'name': 'Houston Texans', 'price': 1.84, 'point': 3.0}, {'name': 'Los Angeles Chargers', 'price': 1.99, 'point': -3.0}]}]}, {'key': 'lowvig', 'title': 'LowVig.ag', 'last_update': '2025-01-06T20:43:07Z', 'markets': [{'key': 'h2h', 'last_update': '2025-01-06T20:43:07Z', 'outcomes': [{'name': 'Houston Texans', 'price': 2.35}, {'name': 'Los Angeles Chargers', 'price': 1.65}]}, {'key': 'spreads', 'last_update': '2025-01-06T20:43:07Z', 'outcomes': [{'name': 'Houston Texans', 'price': 1.87, 'point': 3.0}, {'name': 'Los Angeles Chargers', 'price': 2.04, 'point': -3.0}]}]}, {'key': 'betrivers"
+    },
+    "{'sport': 'upcoming', 'regions': 'us,uk', 'markets': 'h2h,spreads'}": {
+        "error": "",
+        "response": "[{'id': '3588e4438d319c259c2258800db5db37', 'sport_key': 'cricket_odi', 'sport_title': 'One Day Internationals', 'commence_time': '2025-06-10T10:00:00Z', 'home_team': 'Netherlands', 'away_team': 'Nepal', 'bookmakers': [{'key': 'leovegas', 'title': 'LeoVegas', 'last_update': '2025-06-10T17:39:12Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-10T17:39:12Z', 'outcomes': [{'name': 'Nepal', 'price': 1.51}, {'name': 'Netherlands', 'price': 2.25}]}]}, {'key': 'casumo', 'title': 'Casumo', 'last_update': '2025-06-10T17:38:50Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-10T17:38:50Z', 'outcomes': [{'name': 'Nepal', 'price': 1.56}, {'name': 'Netherlands', 'price': 2.35}]}]}, {'key': 'livescorebet', 'title': 'LiveScore Bet', 'last_update': '2025-06-10T17:38:53Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-10T17:38:53Z', 'outcomes': [{'name': 'Nepal', 'price': 1.55}, {'name': 'Netherlands', 'price': 2.32}]}]}, {'key': 'unibet_uk', 'title': 'Unibet', 'last_update': '2025-06-10T17:38:53Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-10T17:38:53Z', 'outcomes': [{'name': 'Nepal', 'price': 1.56}, {'name': 'Netherlands', 'price': 2.35}]}]}, {'key': 'grosvenor', 'title': 'Grosvenor', 'last_update': '2025-06-10T17:39:16Z', 'markets': [{'key': 'h2h', 'last_update': '2025-06-10T17:39:16Z', 'outcomes': [{'name': 'Nepal', 'price': 1.54}, {'name': 'Netherlands', 'price': 2.3}]}]}, {'key': 'virginbet', 'title': 'Virgin Bet', 'last_update': '2025-06-10T17:39:07Z', 'markets"
+    },
+    "{'sport': 'soccer', 'regions': 'us', 'markets': 'h2h,spreads'}": {
+        "error": "",
+        "response": "[{'id': '01bc652572d481b3b250f3755aee8abf', 'sport_key': 'soccer_italy_serie_a', 'sport_title': 'Serie A - Italy', 'commence_time': '2024-10-31T17:30:00Z', 'home_team': 'Genoa', 'away_team': 'Fiorentina', 'bookmakers': [{'key': 'fanduel', 'title': 'FanDuel', 'last_update': '2024-10-31T10:21:55Z', 'markets': [{'key': 'h2h', 'last_update': '2024-10-31T10:21:55Z', 'outcomes': [{'name': 'Fiorentina', 'price': 1.65}, {'name': 'Genoa', 'price': 5.2}, {'name': 'Draw', 'price': 3.7}]}]}, {'key': 'betmgm', 'title': 'BetMGM', 'last_update': '2024-10-31T10:23:24Z', 'markets': [{'key': 'h2h', 'last_update': '2024-10-31T10:23:24Z', 'outcomes': [{'name': 'Fiorentina', 'price': 1.74}, {'name': 'Genoa', 'price': 4.75}, {'name': 'Draw', 'price': 3.7}]}]}, {'key': 'mybookieag', 'title': 'MyBookie.ag', 'last_update': '2024-10-31T10:20:43Z', 'markets': [{'key': 'h2h', 'last_update': '2024-10-31T10:20:43Z', 'outcomes': [{'name': 'Fiorentina', 'price': 1.67}, {'name': 'Genoa', 'price': 4.8}, {'name': 'Draw', 'price': 3.8}]}, {'key': 'spreads', 'last_update': '2024-10-31T10:20:43Z', 'outcomes': [{'name': 'Fiorentina', 'price': 1.65, 'point': -0.5}, {'name': 'Genoa', 'price': 2.15, 'point': 0.5}]}]}, {'key': 'bovada', 'title': 'Bovada', 'last_update': '2024-10-31T10:23:05Z', 'markets': [{'key': 'h2h', 'last_update': '2024-10-31T10:23:05Z', 'outcomes': [{'name': 'Fiorentina', 'price': 1.69}, {'name': 'Genoa', 'price': 4.9}, {'name': 'Draw', 'price': 3.85}]}, {'key': 'spreads', 'last_update': '2024-10-31T10:23:05Z', 'outcomes': [{'name': 'Fiorentina', 'price': 1.89, 'point': -0.75}, {'name': 'Genoa', 'price': 1.93, 'point': 0.75}]}]}, {'key': 'draftkings', 'title': 'DraftKings', 'last_update': '2024-10-31T10:23:23Z', 'markets': [{'key': 'h2h', 'last_update': '2024-10-31T10:23:23Z', 'outcomes': [{'name': 'Fiorentina', 'price': 1.65}, {'name': 'Genoa', 'price': 4.9}, {'name': 'Draw', 'price': 3.7}]}]}, {'key': 'betrivers', 'title': 'BetRivers', 'last_update': '2024-10-31T10:23:05Z', 'markets': [{'key': 'h2h', 'last_update': '2024-10-31T10:2"
+    },
+    "{'regions': 'us', 'sport': 'basketball_nba'}": {
+        "error": "",
+        "response": "[{'id': '92cf7db605a734b10e69eabf56e1eac9', 'sport_key': 'basketball_nba', 'sport_title': 'NBA', 'commence_time': '2024-10-22T23:30:00Z', 'home_team': 'Boston Celtics', 'away_team': 'New York Knicks', 'bookmakers': [{'key': 'draftkings', 'title': 'DraftKings', 'last_update': '2024-10-10T09:34:20Z', 'markets': [{'key': 'h2h', 'last_update': '2024-10-10T09:34:20Z', 'outcomes': [{'name': 'Boston Celtics', 'price': 1.54}, {'name': 'New York Knicks', 'price': 2.54}]}, {'key': 'spreads', 'last_update': '2024-10-10T09:34:20Z', 'outcomes': [{'name': 'Boston Celtics', 'price': 1.91, 'point': -4.5}, {'name': 'New York Knicks', 'price': 1.91, 'point': 4.5}]}]}, {'key': 'fanduel', 'title': 'FanDuel', 'last_update': '2024-10-10T09:34:25Z', 'markets': [{'key': 'h2h', 'last_update': '2024-10-10T09:34:25Z', 'outcomes': [{'name': 'Boston Celtics', 'price': 1.52}, {'name': 'New York Knicks', 'price': 2.62}]}, {'key': 'spreads', 'last_update': '2024-10-10T09:34:25Z', 'outcomes': [{'name': 'Boston Celtics', 'price': 1.89, 'point': -4.5}, {'name': 'New York Knicks', 'price': 1.93, 'point': 4.5}]}]}, {'key': 'williamhill_us', 'title': 'Caesars', 'last_update': '2024-10-10T09:31:34Z', 'markets': [{'key': 'h2h', 'last_update': '2024-10-10T09:31:34Z', 'outcomes': [{'name': 'Boston Celtics', 'price': 1.53}, {'name': 'New York Knicks', 'price': 2.58}]}, {'key': 'spreads', 'last_update': '2024-10-10T09:31:34Z', 'outcomes': [{'name': 'Boston Celtics', 'price': 1.95, 'point': -5.0}, {'name': 'New York Knicks', 'price': 1.87, 'point': 5.0}]}]}, {'key': 'betmgm', 'title': 'BetMGM', 'last_update': '2024-10-10T09:34:30Z', 'markets': [{'key': 'h2h', 'last_update': '2024-10-10T09:34:30Z', 'outcomes': [{'name': 'Boston Celtics', 'price': 1.53}, {'name': 'New York Knicks', 'price': 2.55}]}, {'key': 'spreads', 'last_update': '2024-10-10T09:34:30Z', 'outcomes': [{'name': 'Boston Celtics', 'price': 1.87, 'point': -4.5}, {'name': 'New York Knicks', 'price': 1.95, 'point': 4.5}]}]}, {'key': 'betonlineag', 'title': 'BetOnline.ag', 'last_update': '2024-10-1"
+    },
+    "{'regions': 'us', 'sport': 'americanfootball_nfl'}": {
+        "error": "",
+        "response": "[{'id': 'b08196b0745d9e2e0bebfe8627fc5a1f', 'sport_key': 'americanfootball_nfl', 'sport_title': 'NFL', 'commence_time': '2024-09-27T00:15:00Z', 'home_team': 'New York Giants', 'away_team': 'Dallas Cowboys', 'bookmakers': [{'key': 'draftkings', 'title': 'DraftKings', 'last_update': '2024-09-25T08:40:50Z', 'markets': [{'key': 'h2h', 'last_update': '2024-09-25T08:40:50Z', 'outcomes': [{'name': 'Dallas Cowboys', 'price': 1.38}, {'name': 'New York Giants', 'price': 3.15}]}, {'key': 'spreads', 'last_update': '2024-09-25T08:40:50Z', 'outcomes': [{'name': 'Dallas Cowboys', 'price': 1.91, 'point': -6.0}, {'name': 'New York Giants', 'price': 1.91, 'point': 6.0}]}]}, {'key': 'williamhill_us', 'title': 'Caesars', 'last_update': '2024-09-25T08:38:42Z', 'markets': [{'key': 'h2h', 'last_update': '2024-09-25T08:38:42Z', 'outcomes': [{'name': 'Dallas Cowboys', 'price': 1.38}, {'name': 'New York Giants', 'price': 3.1}]}, {'key': 'spreads', 'last_update': '2024-09-25T08:38:42Z', 'outcomes': [{'name': 'Dallas Cowboys', 'price': 1.87, 'point': -5.5}, {'name': 'New York Giants', 'price': 1.95, 'point': 5.5}]}]}, {'key': 'betus', 'title': 'BetUS', 'last_update': '2024-09-25T08:40:50Z', 'markets': [{'key': 'h2h', 'last_update': '2024-09-25T08:40:50Z', 'outcomes': [{'name': 'Dallas Cowboys', 'price': 1.42}, {'name': 'New York Giants', 'price': 3.03}]}, {'key': 'spreads', 'last_update': '2024-09-25T08:40:50Z', 'outcomes': [{'name': 'Dallas Cowboys', 'price': 1.91, 'point': -5.5}, {'name': 'New York Giants', 'price': 1.91, 'point': 5.5}]}]}, {'key': 'fanduel', 'title': 'FanDuel', 'last_update': '2024-09-25T08:40:52Z', 'markets': [{'key': 'h2h', 'last_update': '2024-09-25T08:40:52Z', 'outcomes': [{'name': 'Dallas Cowboys', 'price': 1.4}, {'name': 'New York Giants', 'price': 3.05}]}, {'key': 'spreads', 'last_update': '2024-09-25T08:40:52Z', 'outcomes': [{'name': 'Dallas Cowboys', 'price': 1.91, 'point': -5.5}, {'name': 'New York Giants', 'price': 1.91, 'point': 5.5}]}]}, {'key': 'betrivers', 'title': 'BetRivers', 'last_update': '2024-09-25T0"
+    }
+}

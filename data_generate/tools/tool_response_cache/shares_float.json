@@ -1,0 +1,42 @@
+{
+    "{'symbol': 'AAPL'}": {
+        "error": "",
+        "response": "[{'symbol': 'AAPL', 'date': '2024-08-20 23:41:00', 'freeFloat': 99.8295, 'floatShares': 15178177009, 'outstandingShares': 15204100000}]"
+    },
+    "{'symbol': 'MSFT'}": {
+        "error": "",
+        "response": "[{'symbol': 'MSFT', 'date': '2024-09-13 08:41:21', 'freeFloat': 98.532, 'floatShares': 7323922972, 'outstandingShares': 7433040000}]"
+    },
+    "{'symbol': 'GOOGL'}": {
+        "error": "",
+        "response": "[{'symbol': 'GOOGL', 'date': '2024-11-01 17:12:40', 'freeFloat': 99.7574, 'floatShares': 12249001642, 'outstandingShares': 12278789986}]"
+    },
+    "{'symbol': 'AMZN'}": {
+        "error": "",
+        "response": "[{'symbol': 'AMZN', 'date': '2024-12-29 21:02:05', 'freeFloat': 89.2706, 'floatShares': 9386803590, 'outstandingShares': 10515000000}]"
+    },
+    "{'symbol': 'TSLA'}": {
+        "error": "",
+        "response": "[{'symbol': 'TSLA', 'date': '2024-12-01 16:09:22', 'freeFloat': 87.0776, 'floatShares': 2795243206, 'outstandingShares': 3210060000}]"
+    },
+    "{'symbol': 'OKTA'}": {
+        "error": "",
+        "response": "[{'symbol': 'OKTA', 'date': '2025-06-01 12:23:40', 'freeFloat': 99.4344, 'floatShares': 166217526, 'outstandingShares': 167163000}]"
+    },
+    "{'symbol': 'NVDA'}": {
+        "error": "",
+        "response": "[{'symbol': 'NVDA', 'date': '2025-01-02 05:24:20', 'freeFloat': 96.0096, 'floatShares': 23512751040, 'outstandingShares': 24490000000}]"
+    },
+    "{'symbol': 'AMD'}": {
+        "error": "",
+        "response": "[{'symbol': 'AMD', 'date': '2025-06-01 08:46:01', 'freeFloat': 99.3922, 'floatShares': 1611545130, 'outstandingShares': 1621400000}]"
+    },
+    "{'symbol': 'SIE'}": {
+        "error": "",
+        "response": "No data found - please ensure to provide a correct path and valid request parameters - If you are looking for historical or time related data, please note that there is no trading on bank holidays and weekends "
+    },
+    "{'symbol': 'SIE.F'}": {
+        "error": "",
+        "response": "No data found - please ensure to provide a correct path and valid request parameters - If you are looking for historical or time related data, please note that there is no trading on bank holidays and weekends "
+    }
+}

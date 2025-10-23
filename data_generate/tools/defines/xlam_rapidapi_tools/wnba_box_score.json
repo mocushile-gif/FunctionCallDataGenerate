@@ -1,0 +1,17 @@
+{
+    "name": "wnba_box_score",
+    "description": "This is a sub-function API for tool wnba_api.\nTool description: This API offer every basketball fan an easy way to stay on top of the latest data for all operations and players in the WNBA. It covers scores, stats, standings, and statistics.\nAPI description: This endpoint returns the WNBA game box score data for a specified game.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier for the WNBA game.",
+                "default": "401244185"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "{'itemid': 3256804591426248, 'currency': 'USD', 'region': 'US'}": {
+        "error": "",
+        "response": {
+            "itemid": 3256804591426248,
+            "currency": "USD",
+            "region": "US",
+            "product_details": {
+                "title": "Wireless Bluetooth Headphones",
+                "price": {
+                    "current_price": 29.99,
+                    "original_price": 49.99,
+                    "currency": "USD"
+                },
+                "shipping_cost": 5.99,
+                "availability": "In Stock",
+                "ratings": {
+                    "average_rating": 4.5,
+                    "total_reviews": 1250
+                },
+                "promotions": {
+                    "discount": "40% off",
+                    "coupon_available": true
+                },
+                "seller_info": {
+                    "name": "TopTech Store",
+                    "rating": 4.8,
+                    "total_sales": 15000
+                }
+            }
+        }
+    }
+}

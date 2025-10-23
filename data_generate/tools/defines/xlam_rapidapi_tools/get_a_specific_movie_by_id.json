@@ -1,0 +1,17 @@
+{
+    "name": "get_a_specific_movie_by_id",
+    "description": "This is a sub-function API for tool imdb_top_100_movies.\nTool description: This is a simple API for IMDb top 100 movies\nAPI description: get top x movie by id 'top46' :\nThe Cover image, Rank, Title, Thumbnail, Rating, Id, Year, Images, Description, Genre, Director, Writer and IMDb ID .",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The IMDb ID of the specific movie to fetch.",
+                "default": "top13"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

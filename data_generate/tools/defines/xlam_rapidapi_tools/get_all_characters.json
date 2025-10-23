@@ -1,0 +1,22 @@
+{
+    "name": "get_all_characters",
+    "description": "This is a sub-function API for tool riordanverse_api.\nTool description: An API for RiordanVerse\nAPI description: Fetches and returns a list of characters from the Riordanverse API with optional query parameters for limiting the results, skipping a number of characters, or searching for characters containing a specific substring.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of characters to return. Defaults to None."
+            },
+            "search": {
+                "type": "string",
+                "description": "A substring to search within character names. Defaults to None."
+            },
+            "skip": {
+                "type": "number",
+                "description": "The number of characters to skip from the start. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

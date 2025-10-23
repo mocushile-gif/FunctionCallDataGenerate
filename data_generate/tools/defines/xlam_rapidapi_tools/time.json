@@ -1,0 +1,17 @@
+{
+    "name": "time",
+    "description": "This is a sub-function API for tool pubnub_network.\nTool description: The PubNub Network makes Real-time Communications Simple  with an easy API. Two Functions: Send/Receive (Publish/Subscribe). We provide a web-scale API for businesses to build scalable Data Push communication apps on Mobile, Tablet and Web. Bidirectional JSON. Ask for commit access - via Twitter: @pubnub - via IRC: #pubnub on FreeNode\nAPI description: Retrieves the current time token from the PubNub Network.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "callback": {
+                "type": "string",
+                "description": "JSONP callback function name.",
+                "default": "0"
+            }
+        },
+        "required": [
+            "callback"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "mediainfo",
+    "description": "This is a sub-function API for tool instagram_v6.\nTool description: instagram api\nAPI description: Fetch media information from Instagram using the provided short code.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "short_code": {
+                "type": "string",
+                "description": "The short code of the Instagram media post.",
+                "default": "CA_ifcxMjFR"
+            }
+        },
+        "required": [
+            "short_code"
+        ]
+    }
+}

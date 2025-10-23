@@ -1,0 +1,39 @@
+{
+    "name": "video_search",
+    "description": "This is a sub-function API for tool quality_porn.\nTool description: JSON search API for best free porn videos and pornstars gathered from the most popular porn sites. Filter by terms, quality and specific types and preferences.\nAdult, NSFW, Porn, Nudes, Pornstars as JSON\nAPI description: Search for quality porn and get a provider-subdivided list of the best matching videos.\n\n### Examples\n\nSearch only HD videos that have been rated best with the search term \"amateur\".\n`/search?quality=hd&filter=rating&query=amateur'`\n\nSearch for \"amateur\" only. Filters and quality are optional.\n`/search?query=amateur'`\n\nSearch for \"amateur\" on page 2.\n`/search?query=amateur&page=2'`\n\nSearch for \"amateur\" and set a timeout for 5 seconds for each site request.\n`/search?query=amateur&timeout=5000`\n\nFilter only ",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "The search term to be used for finding videos.",
+                "default": "amateur"
+            },
+            "site": {
+                "type": "string",
+                "description": "The specific site to search for videos. Defaults to None."
+            },
+            "timeout": {
+                "type": "number",
+                "description": "Timeout duration in milliseconds for the request. Defaults to 5000.",
+                "default": 5000.0
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for pagination. Defaults to 1.",
+                "default": 1.0
+            },
+            "filter": {
+                "type": "string",
+                "description": "Filter criteria for the search results. Defaults to None."
+            },
+            "quality": {
+                "type": "string",
+                "description": "Minimum quality of the videos to be searched. Defaults to None."
+            }
+        },
+        "required": [
+            "query"
+        ]
+    }
+}

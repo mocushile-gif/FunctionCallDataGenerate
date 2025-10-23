@@ -1,0 +1,22 @@
+{
+    "name": "job_details",
+    "description": "This is a sub-function API for tool jsearch.\nTool description: Fast and Simple searches for jobs posted on LinkedIn, Indeed, Glassdoor, ZipRecruiter, Dice and others, all in a single API.\nAPI description: Fetch detailed information about a specific job using its Job Id. Optionally, include additional publisher details such as the website URL and favicon.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "job_id": {
+                "type": "string",
+                "description": "Job Id of the job for which to get details. Batching of up to 20 Job Ids is supported by separating multiple Job Ids by comma (,).\n\nNote that each Job Id in a batch request is counted as a request for quota calculation.",
+                "default": "fFunVwyb9l4AAAAAAAAAAA=="
+            },
+            "extended_publisher_details": {
+                "type": "boolean",
+                "description": "If set to True, includes additional publisher details such as the website URL and favicon. Defaults to None.",
+                "default": true
+            }
+        },
+        "required": [
+            "job_id"
+        ]
+    }
+}

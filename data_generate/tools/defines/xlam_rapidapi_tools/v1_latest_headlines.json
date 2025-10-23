@@ -1,0 +1,28 @@
+{
+    "name": "v1_latest_headlines",
+    "description": "This is a sub-function API for tool newscatcher.\nTool description: API to find news articles by any topic, country, language, website, or keyword\nAPI description: Fetches the latest 100 headlines based on specified language, topic, and/or country, and optionally includes media information.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lang": {
+                "type": "string",
+                "description": "Specifies the language of the search.  Allowed values are:\n`af`, `ar`, `bg`, `bn`, `ca`,`cn`, `cs`, `cy`, `da`, `de`, `el`, `en`, `es`, `et`, `fa`, `fi`, `fr`, `gu`, `he`, `hi`, `hr`, `hu`, `id`, `it`, `ja`, `kn`, `ko`, `lt`, `lv`, `mk`, `ml`, `mr`, `ne`, `nl`, `no`, `pa`, `pl`, `pt`, `ro`, `ru`, `sk`, `sl`, `so`, `sq`, `sv`, `sw`, `ta`, `te`, `th`, `tl`, `tr`,`tw`, `uk`, `ur`, `vi`. \n Specifying the language will make your search more relevant",
+                "default": "en"
+            },
+            "topic": {
+                "type": "string",
+                "description": "The topic to which you want to restrict the articles of your choice. This parameter is [experimental]. Accepted values are `news`, `sport`, `tech`, `world`, `finance`, `politics`, `business`, `economics`, `entertainment`,`beauty`,`travel`,`music`,`food`,`science`\n- `news` usually means a general news feed (main headlines of a website).\n> Important: this parameter is [experimental]. Not all news articles are assigned with a `topic`, therefore, we cannot guarantee that 100% of topics talking about technology "
+            },
+            "country": {
+                "type": "string",
+                "description": "The country to which you want to narrow your search. This parameter is [experimental]. We advise you to use it in conjunction with the `lang` parameter. Accepts any [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) codes"
+            },
+            "media": {
+                "type": "string",
+                "description": "Adds to the output of the call two more variables: `media` and `media_content`\n\nMedia - the main image published with an article \n\nmedia_content  - a comma-separated string of all images used in an article",
+                "default": "True"
+            }
+        },
+        "required": []
+    }
+}

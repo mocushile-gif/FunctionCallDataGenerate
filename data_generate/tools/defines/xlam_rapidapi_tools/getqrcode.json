@@ -1,0 +1,23 @@
+{
+    "name": "getqrcode",
+    "description": "This is a sub-function API for tool qr_code_generator_with_multiple_datatypes.\nTool description: Our QR code generator API allows you to generate QR codes for various types of data, including text, URLs, phone numbers, SMS messages, and email addresses. The API returns a QR code image in JPG format.\nAPI description: This API will return you an URL of the QR Code image that you can easily embed on to website or download it for your other needs.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "description": "The format of the QR code to generate. Valid options are 'url', 'text', 'telno', 'mailto', or 'smsto'.",
+                "default": "url"
+            },
+            "value": {
+                "type": "string",
+                "description": "The content to encode within the QR code. Example values are 'https://www.google.com' for 'url', 'Some text' for 'text', '9142545474' for 'telno', and '8542487542' for 'smsto'.",
+                "default": "https://www.google.com"
+            }
+        },
+        "required": [
+            "type",
+            "value"
+        ]
+    }
+}

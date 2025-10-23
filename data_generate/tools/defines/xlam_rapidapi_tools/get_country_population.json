@@ -1,0 +1,17 @@
+{
+    "name": "get_country_population",
+    "description": "This is a sub-function API for tool get_population.\nTool description: Get world population in realtime.  🌍\nAPI description: Fetch the population data for a given country using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "The name of the country for which to fetch the population data.",
+                "default": "Egypt"
+            }
+        },
+        "required": [
+            "country"
+        ]
+    }
+}

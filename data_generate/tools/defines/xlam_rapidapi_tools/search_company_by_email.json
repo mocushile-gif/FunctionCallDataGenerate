@@ -1,0 +1,17 @@
+{
+    "name": "search_company_by_email",
+    "description": "This is a sub-function API for tool b2bhint.\nTool description: B2BHint is a business tool that provides access to official registry data on companies and the people associated with them. With B2BHint, everyone can easily search and explore information on companies, making informed decisions and growing their business.\nAPI description: Search for a company by email will return a list of companies that match the selected email",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to search for associated companies.",
+                "default": "rsing@tesla.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_crime_rates_by_zip",
+    "description": "This is a sub-function API for tool crime_data_by_zipcode_api.\nTool description: The Crime Data By ZipCode API allows users to retrieve crime scores for a specific Zip Code in the US. It also provides additional information about crime rates and crime rates for nearby locations. \nAPI description: Just with the ZIP code to analyze, you will be receiving a JSON object with an Overall Crime Scoring, and also a breakdown of different crimes that are assessed on the zone. \n\nGet information like:\n\n- \"Overall Crime Grade\".\n- \"Violent Crime Grade\".\n- \"Property Crime Grade\".\n- \"Other Crime Grade\".\n- \"Violent Crime Rates\".\n- \"Property Crime Rates\".\n- \"Other Crime Rates\".\n- \"Crime Rates Nearby\".\n- \"Similar Population Crime Rates\".",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zip": {
+                "type": "number",
+                "description": "ZIP Code to retrieve crime data from.",
+                "default": 94109.0
+            }
+        },
+        "required": [
+            "zip"
+        ]
+    }
+}

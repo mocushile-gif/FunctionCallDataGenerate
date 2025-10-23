@@ -1,0 +1,17 @@
+{
+    "name": "get_clips",
+    "description": "This is a sub-function API for tool twitch_channel_clips.\nTool description: An API to get info about the latest 50 clips from a channel, including direct download links\nAPI description: Fetch the latest 50 clips of a specified Twitch channel.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the Twitch channel to fetch clips from.",
+                "default": "jakubloveshorror"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

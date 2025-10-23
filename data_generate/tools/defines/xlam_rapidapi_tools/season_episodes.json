@@ -1,0 +1,32 @@
+{
+    "name": "season_episodes",
+    "description": "This is a sub-function API for tool netflix_v2.\nTool description: Netflix data API provides details, stats and information of TV shows, movies, series, documentaries and more.\nAPI description: Fetch episodes for a given season from the Netflix RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ids": {
+                "type": "string",
+                "description": "Season IDs (separated by commas) for which episodes are to be fetched.",
+                "default": "80077209,80117715"
+            },
+            "lang": {
+                "type": "string",
+                "description": "Language code for the episodes. Defaults to 'en'.",
+                "default": "en"
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of episodes to return. Defaults to 25.",
+                "default": 25.0
+            },
+            "offset": {
+                "type": "number",
+                "description": "The offset for pagination. Defaults to 0.",
+                "default": 0.0
+            }
+        },
+        "required": [
+            "ids"
+        ]
+    }
+}

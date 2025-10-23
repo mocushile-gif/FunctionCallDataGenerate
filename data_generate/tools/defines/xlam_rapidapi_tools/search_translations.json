@@ -1,0 +1,42 @@
+{
+    "name": "search_translations",
+    "description": "This is a sub-function API for tool mymemory_translation_memory.\nTool description: Get a better translation! MyMemory is the world's largest Translation Memory that contains billions of words translated by professional translators. MyMemory will give you ModernMT machine translation  if a human translation is not available.\nAPI description: This API gets a list of translation from the translation memory ranked by quality and similarity (what we call match). MyMemory will check if a sentence has been already translated in the private TM specified. If we don't find it in the private TM of the translator, we search it in the public TMs (shared among all the translators). Again, if we don't have this translation we ask MT providers to generate it.  In order to get the best from MyMemory, it is highly recommended to use different keys for each tran",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "langpair": {
+                "type": "string",
+                "description": "The language pair. Two ISO-631 language codes, separated by |.\nMyMemory support over 80 languages but some combinations may contains no data. Nepali into Vietnamese?",
+                "default": "en|it"
+            },
+            "q": {
+                "type": "string",
+                "description": "the text you want to translate. Normally a sentence.",
+                "default": "Hello World!"
+            },
+            "onlyprivate": {
+                "type": "string",
+                "description": "If a key has been specified, only private matches will be returned. 0 (disabled: default) | 1 (enabled)",
+                "default": "0"
+            },
+            "mt": {
+                "type": "string",
+                "description": "Enables machine translation results. '1' (enabled) is the default, '0' disables it.",
+                "default": "1"
+            },
+            "de": {
+                "type": "string",
+                "description": "A valid email address, recommended for high volume usage or use with CAT tools. Defaults to 'a@b.c'.",
+                "default": "a@b.c"
+            },
+            "key": {
+                "type": "string",
+                "description": "API key to access private memories and customize API limits."
+            }
+        },
+        "required": [
+            "langpair",
+            "q"
+        ]
+    }
+}

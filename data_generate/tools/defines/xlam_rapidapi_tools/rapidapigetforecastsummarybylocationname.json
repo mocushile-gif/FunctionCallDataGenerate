@@ -1,0 +1,17 @@
+{
+    "name": "rapidapigetforecastsummarybylocationname",
+    "description": "This is a sub-function API for tool forecast.\nTool description: Get 16 days weather forecast data - worldwide - geographical coordinates...\nAPI description: Fetches the weather forecast summary for a given location name using the RapidAPI Forecast service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "locationname": {
+                "type": "string",
+                "description": "The name of the location for which to retrieve the forecast summary.",
+                "default": "Berlin"
+            }
+        },
+        "required": [
+            "locationname"
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "get_all",
+    "description": "This is a sub-function API for tool anime_db.\nTool description: Complete anime data. Ranking, synopsis, genre, search by title. Over 20k data updated everyday\nAPI description: Retrieves a list of anime based on the specified search, sort, type, and genre criteria from the given API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "string",
+                "description": "The page number to retrieve.",
+                "default": "1"
+            },
+            "size": {
+                "type": "string",
+                "description": "The number of items per page.",
+                "default": "10"
+            },
+            "types": {
+                "type": "string",
+                "description": "Comma-separated list of anime types."
+            },
+            "genres": {
+                "type": "string",
+                "description": "Comma-separated list of genres. Defaults to 'Fantasy,Drama'.",
+                "default": "Fantasy,Drama"
+            },
+            "sortby": {
+                "type": "string",
+                "description": "The parameter to sort by, either 'ranking' or 'title'. Defaults to 'ranking'.",
+                "default": "ranking"
+            },
+            "sortorder": {
+                "type": "string",
+                "description": "The sort order, either 'asc' or 'desc'. Defaults to 'asc'.",
+                "default": "asc"
+            },
+            "search": {
+                "type": "string",
+                "description": "The title or alternate title to search for. Search will ignore sorting. Defaults to 'Fullmetal'.",
+                "default": "Fullmetal"
+            }
+        },
+        "required": [
+            "page",
+            "size"
+        ]
+    }
+}

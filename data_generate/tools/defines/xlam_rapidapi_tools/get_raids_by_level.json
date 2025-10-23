@@ -1,0 +1,17 @@
+{
+    "name": "get_raids_by_level",
+    "description": "This is a sub-function API for tool lost_ark.\nTool description: An API to get information for the game Lost Ark\nAPI description: Fetches all guardian raids for a specified level.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "level": {
+                "type": "string",
+                "description": "The level of the guardian raids to retrieve information for.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "level"
+        ]
+    }
+}

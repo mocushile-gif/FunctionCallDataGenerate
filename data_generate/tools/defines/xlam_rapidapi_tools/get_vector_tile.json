@@ -1,0 +1,29 @@
+{
+    "name": "get_vector_tile",
+    "description": "This is a sub-function API for tool cartorapid.\nTool description: CartoRapid est une API de tuiles Raster et Vector couvrant en profondeur le territoire français. Usable with Leaflet and Maplibre\nAPI description: This endpoint returns Vector tiles as PBF. \nVector tilles are tiles that can be used with mapping libraries such as Maplibre.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "y": {
+                "type": "string",
+                "description": "The Y coordinate of the tile.",
+                "default": "1.pbf"
+            },
+            "z": {
+                "type": "number",
+                "description": "The zoom level of the tile.",
+                "default": 1.0
+            },
+            "x": {
+                "type": "number",
+                "description": "The X coordinate of the tile.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "y",
+            "z",
+            "x"
+        ]
+    }
+}

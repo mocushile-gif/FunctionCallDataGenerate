@@ -1,0 +1,17 @@
+{
+    "name": "find_favicon",
+    "description": "This is a sub-function API for tool favicon_finder.\nTool description: Parses favicons for a given URL\nAPI description: Find the favicon for a given URL using the RapidAPI favicon finder service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL for which to find the favicon.",
+                "default": "https://www.google.com/"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

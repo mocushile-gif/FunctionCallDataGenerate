@@ -1,0 +1,17 @@
+{
+    "name": "match_embed_link",
+    "description": "This is a sub-function API for tool football_live_stream_api.\nTool description: Live Football Streaming HD\nAPI description: Generates a live stream link for a given football match using the provided RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "matchid": {
+                "type": "number",
+                "description": "The unique identifier for the football match.",
+                "default": 1.0
+            }
+        },
+        "required": [
+            "matchid"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "symbols_get_option_expirations",
+    "description": "This is a sub-function API for tool seeking_alpha.\nTool description: Query for news, market moving, price quotes, chart, indices, analysis from investors and experts, etc...\nAPI description: Fetches the option expiration dates for a given symbol from the Seeking Alpha API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol to query for option expiration data.",
+                "default": "aapl"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

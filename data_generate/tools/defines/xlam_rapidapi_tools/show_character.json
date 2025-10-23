@@ -1,0 +1,17 @@
+{
+    "name": "show_character",
+    "description": "This is a sub-function API for tool marvel_vs_capcom_2.\nTool description: Get data about  characters from Marvel Vs Capcom 2 game.\nAPI description: Fetch details about a character and their traits from the Marvel vs. Capcom 2 API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the character to retrieve information about.",
+                "default": "Cabel"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

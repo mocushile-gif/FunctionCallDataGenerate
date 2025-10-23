@@ -1,0 +1,17 @@
+{
+    "name": "getbystock",
+    "description": "This is a sub-function API for tool earningsdata.\nTool description: Get upcoming and historic earnings data for stocks! Contains historical data from 2020-05.\nAPI description: Fetches earnings data for a given stock symbol using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which earnings data is to be retrieved.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

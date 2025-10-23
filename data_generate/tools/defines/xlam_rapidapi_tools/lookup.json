@@ -1,0 +1,22 @@
+{
+    "name": "lookup",
+    "description": "This is a sub-function API for tool people_lookup.\nTool description: People Lookup API helps you search for and find phone, email, linkedin and more information for people in the USA\nAPI description: Lookup people by name and optional US state using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name of the person to lookup.",
+                "default": "Warren Buffett"
+            },
+            "state": {
+                "type": "string",
+                "description": "The US state to narrow down the search. Defaults to 'NE'.",
+                "default": "NE"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

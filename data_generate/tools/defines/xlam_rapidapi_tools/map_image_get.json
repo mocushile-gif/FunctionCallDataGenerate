@@ -1,0 +1,45 @@
+{
+    "name": "map_image_get",
+    "description": "This is a sub-function API for tool navitime_maps.\nTool description: Get a JavaScript file or map as an image on web pages.\nAPI description: Fetches a static map image for a specified location with given parameters such as width, height, center, and zoom level.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "width": {
+                "type": "number",
+                "description": "Width of the map.\n(Minimum value: 1, Maximum value: 999)",
+                "default": 500.0
+            },
+            "center": {
+                "type": "string",
+                "description": "The center coordinates of the map (latitude,longitude).",
+                "default": "35.681236,139.767125"
+            },
+            "zoom": {
+                "type": "number",
+                "description": "The zoom level of the map. Must be between 6 and 19.",
+                "default": 15.0
+            },
+            "height": {
+                "type": "number",
+                "description": "Height of the map.\n(Minimum value: 1, Maximum value: 999)",
+                "default": 500.0
+            },
+            "datum": {
+                "type": "string",
+                "description": "Geodetic system of latitude and longitude.\n(wgs84: World Geodetic System (default), tokyo: Old Japan Geodetic System)",
+                "default": "wgs84"
+            },
+            "coord_unit": {
+                "type": "string",
+                "description": "The unit of latitude and longitude included in the output data.\n(degree: decimal system of degrees (default), millisec: milliseconds)",
+                "default": "degree"
+            }
+        },
+        "required": [
+            "width",
+            "center",
+            "zoom",
+            "height"
+        ]
+    }
+}

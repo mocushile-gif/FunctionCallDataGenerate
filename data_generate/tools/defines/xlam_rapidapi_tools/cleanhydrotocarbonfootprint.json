@@ -1,0 +1,23 @@
+{
+    "name": "cleanhydrotocarbonfootprint",
+    "description": "This is a sub-function API for tool carbonfootprint.\nTool description: Calculate the carbon footprint in various situations, such as travel and hydro usage.\nAPI description: Calculate the CO2 equivalent (CO2e) in kilograms from the consumption of clean hydro energy.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "energy": {
+                "type": "string",
+                "description": "The source of the clean energy. Can be 'Solar', 'Wind', 'HydroElectric', 'Biomass', 'Geothermal', 'Tidal' or 'OtherCleanEnergy'.",
+                "default": "Solar"
+            },
+            "consumption": {
+                "type": "string",
+                "description": "The amount of energy consumed in KWH..",
+                "default": "500"
+            }
+        },
+        "required": [
+            "energy",
+            "consumption"
+        ]
+    }
+}

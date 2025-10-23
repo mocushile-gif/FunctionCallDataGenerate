@@ -1,0 +1,21 @@
+{
+    "name": "get_news",
+    "description": "This is a sub-function API for tool news_network.\nTool description: Global network of news.\nAPI description: Return list of news by selected region and category.\nVisit our [demo site](https://core-api.net/news/news.html)",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "description": "The category of news to fetch."
+            },
+            "region": {
+                "type": "string",
+                "description": "ae: United Arab Emirates\nar: Argentina\nat: Austria\nau: Australia\nbe: Belgium\nbg: Bulgaria\nbr: Brazil\nca: Canada\nch: Switzerland\ncn: China \nco: Colombia\ncu: Cuba\ncz:\tCzech Republic\nde: Germany\neg: Egypt\nfr: France\ngb: United Kingdom\ngr: Greece\nhk: Hong Kong\nhu: Hungray\nid: Indonesia\nie: Ireland\nil: Israel\nin: India\nit: Italy\njp: Japan\nkr: South Korea\nlt: Lithuania\nlv: Latvia\nma: Morocco\nmx: Mexico\nmy: Malaysia\nng: Nigeria\nnl: Netherlands\nno: Norway\nnz: New Zealand\nph: Philippines\npl: Poland\npt: Portugal\nro: "
+            }
+        },
+        "required": [
+            "category",
+            "region"
+        ]
+    }
+}

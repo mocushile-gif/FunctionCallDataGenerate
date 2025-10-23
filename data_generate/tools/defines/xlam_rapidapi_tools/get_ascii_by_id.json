@@ -1,0 +1,17 @@
+{
+    "name": "get_ascii_by_id",
+    "description": "This is a sub-function API for tool img_to_ascii.\nTool description: Convert picture to ASCII image by URL or upload your own image.\nSet the specific size for the ASCII result.\nAPI description: Retrieves a previously generated ASCII image using its unique identifier.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The unique identifier of the ASCII image.",
+                "default": "2"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "bmi_imperial",
+    "description": "This is a sub-function API for tool health_calculator_api.\nTool description: Welcome to the Health Calculator API (HCA). This API provides endpoints for calculating A Body Shape Index (ABSI), Adjusted Body Weight (AjBW), Basal Energy Expenditure (BEE) and Total Energy Expenditure (TEE) , Body Adiposity Index (BAI), Body Frame Size Index (BFSI), Body Mass Index (BMI), Body Fat Percentage, Basal Metabolic Rate (BMR), Daily Caloric Needs (DCN), Daily Water Intake (DWI), Estimated Average Glucose(eAG), Estimated Energy Requirement (EER), The FFMI (Fat-Free Mass Index), Ta...\nAPI description: Calculates the Body Mass Index (BMI) based on the provided height and weight parameters in imperial units (inches and pounds).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "height": {
+                "type": "number",
+                "description": "The height in **inches**. Required",
+                "default": 65.0
+            },
+            "weight": {
+                "type": "number",
+                "description": "The weight in **pounds**. Required",
+                "default": 150.0
+            }
+        },
+        "required": [
+            "height",
+            "weight"
+        ]
+    }
+}

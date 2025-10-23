@@ -1,0 +1,23 @@
+{
+    "name": "nearest_metro_station",
+    "description": "This is a sub-function API for tool nearest_delhi_metro_station.\nTool description: \"Nearest Delhi Metro Station\" API is a web service that provides users with the nearest Delhi Metro station based on the latitude and longitude coordinates provided as input.\nAPI description: This endpoint is a **GET** method API that returns -\n\n- **Station name**\n- **Latitude** & **Longitude** of the nearest Delhi Metro station\n- **Google Maps direction**",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "long": {
+                "type": "string",
+                "description": "The longitude coordinate.",
+                "default": "77.2122"
+            },
+            "lat": {
+                "type": "string",
+                "description": "The latitude coordinate.",
+                "default": "28.5729"
+            }
+        },
+        "required": [
+            "long",
+            "lat"
+        ]
+    }
+}

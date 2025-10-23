@@ -1,0 +1,16 @@
+{
+    "name": "telegram_group_info",
+    "description": "This is a sub-function API for tool telegram_v2.\nTool description: Real-time  Telegram data API. Get messages and information directly from Telegram Channels/Groups.\nAPI description: The endpoint returns realtime information about  public Telegram Group\n\n- Title\n- Photo\n- Description\n- Members\n- On line Memebers",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "group": {
+                "type": "string",
+                "description": "The @username of the Telegram group for which information is being requested."
+            }
+        },
+        "required": [
+            "group"
+        ]
+    }
+}

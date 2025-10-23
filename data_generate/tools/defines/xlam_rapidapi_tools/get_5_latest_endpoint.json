@@ -1,0 +1,23 @@
+{
+    "name": "get_5_latest_endpoint",
+    "description": "This is a sub-function API for tool currenciesexchangerateapi.\nTool description: CurrenciesRatesAPI is a RESTful API that provides currency conversion and exchange rate information.This API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses.\nAPI description: Endpoint URL:/latest?symbols=EUR&base=usd\nHTTP Method: GET\nRequest Parameters:\n'symbols': \n'base': \nResponse: This endpoint returns the latest exchange rates for the specified currencies in JSON format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbols": {
+                "type": "string",
+                "description": "Comma-separated list of currency codes to fetch rates for.",
+                "default": "EUR"
+            },
+            "base": {
+                "type": "string",
+                "description": "The base currency code against which exchange rates are calculated.",
+                "default": "usd"
+            }
+        },
+        "required": [
+            "symbols",
+            "base"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "v1_vinlookup",
+    "description": "This is a sub-function API for tool vin_lookup_by_api_ninjas.\nTool description: Find vehicle information from Vehicle Identification Numbers. See more info at https://api-ninjas.com/api/vinlookup.\nAPI description: Retrieves key vehicle information including manufacturer, country of origin, and model year for a given VIN using the API Ninjas VIN Lookup API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "vin": {
+                "type": "string",
+                "description": "A valid Vehicle Identification Number (VIN), which must be a 17-character string.",
+                "default": "JH4KA7561PC008269"
+            }
+        },
+        "required": [
+            "vin"
+        ]
+    }
+}

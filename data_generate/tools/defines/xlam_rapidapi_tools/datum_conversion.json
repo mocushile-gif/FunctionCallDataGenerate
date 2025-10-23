@@ -1,0 +1,23 @@
+{
+    "name": "datum_conversion",
+    "description": "This is a sub-function API for tool navitime_geocoding.\nTool description: Return address informations including longitude/latitude and a postal code, by specifying keywords or a postal code. \nWe also provide Reverse geocoding function, which converts from longitude/latitude into address informations.\nAPI description: Converts latitude and longitude from one geodetic system to another using the Navitime Geocoding API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "coord": {
+                "type": "string",
+                "description": "Latitude and longitude before conversion.\nSupport millisecond and degree indication.",
+                "default": "35.624822,139.742121"
+            },
+            "after_datum": {
+                "type": "string",
+                "description": "The target geodetic system for conversion. Options are 'wgs84' for World Geodetic System (default) and 'tokyo' for Old Japan Geodetic System.",
+                "default": "wgs84"
+            }
+        },
+        "required": [
+            "coord",
+            "after_datum"
+        ]
+    }
+}

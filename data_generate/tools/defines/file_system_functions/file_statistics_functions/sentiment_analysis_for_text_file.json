@@ -1,0 +1,16 @@
+{
+    "name": "sentiment_analysis_for_text_file",
+    "description": "Reads the content of a text file and performs natural language processing tasks such as tokenization and sentiment analysis.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "file_path": {
+                "type": "string",
+                "description": "The path to the text file to be processed."
+            }
+        },
+        "required": [
+            "file_path"
+        ]
+    }
+}

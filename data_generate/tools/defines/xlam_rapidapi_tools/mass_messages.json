@@ -1,0 +1,53 @@
+{
+    "name": "mass_messages",
+    "description": "This is a sub-function API for tool onlyfans.\nTool description: apis for onlyfans\nAPI description: Used to get the last 100 mass messages\n\nMust hit the auth endpoint first!",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "timezone": {
+                "type": "string",
+                "description": "The timezone to use for the messages.",
+                "default": "America/Los_Angeles"
+            },
+            "useragent": {
+                "type": "string",
+                "description": "The user agent string identifying the client's browser."
+            },
+            "auth_id": {
+                "type": "string",
+                "description": "Authentication ID used for accessing the API.",
+                "default": "729369"
+            },
+            "signstart": {
+                "type": "string",
+                "description": "Start time for the signed request."
+            },
+            "signend": {
+                "type": "string",
+                "description": "End time for the signed request."
+            },
+            "sess": {
+                "type": "string",
+                "description": "Session identifier."
+            },
+            "xbc": {
+                "type": "string",
+                "description": "Another session-related identifier."
+            },
+            "apptoken": {
+                "type": "string",
+                "description": "Application token for API access."
+            }
+        },
+        "required": [
+            "timezone",
+            "useragent",
+            "auth_id",
+            "signstart",
+            "signend",
+            "sess",
+            "xbc",
+            "apptoken"
+        ]
+    }
+}

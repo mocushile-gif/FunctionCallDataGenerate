@@ -1,0 +1,29 @@
+{
+    "name": "phone_number_information",
+    "description": "This is a sub-function API for tool dimondevosint.\nTool description: It is an API for mobile phone number OSINT. If you abuse it, you will be immediately banned!\nAPI description: Fetches public information about a given phone number from a specified API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone": {
+                "type": "string",
+                "description": "The phone number for which public information is to be fetched.",
+                "default": "+79999999999"
+            },
+            "captchasid": {
+                "type": "string",
+                "description": "The captcha session ID to be included in the query, if available."
+            },
+            "vkhash": {
+                "type": "string",
+                "description": "The vkHash to be included in the query, if available."
+            },
+            "captcha": {
+                "type": "string",
+                "description": "The captcha response to be included in the query, if available."
+            }
+        },
+        "required": [
+            "phone"
+        ]
+    }
+}

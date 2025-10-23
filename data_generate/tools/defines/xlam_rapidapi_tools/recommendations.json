@@ -1,0 +1,24 @@
+{
+    "name": "recommendations",
+    "description": "This is a sub-function API for tool twelve_data.\nTool description: Financial data provided for developers, to enter the world markets. Instant access for real-time and historical data of stocks, forex, crypto, ETFs, indices, and more. Read more in [documentation](https://twelvedata.com/docs) and start [here](https://twelvedata.com/apikey).\nAPI description: This API endpoint returns the average of all analyst recommendations and classifies them as Strong Buy, Buy, Hold, or Sell. Also, it returns a recommendation score.\n\nAvailability: Mega plan\nData weighting: 100 API credits per symbol",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol to get recommendations for."
+            },
+            "exchange": {
+                "type": "string",
+                "description": "Filter recommendations by exchange name or mic code."
+            },
+            "country": {
+                "type": "string",
+                "description": "Filter recommendations by country name or alpha code."
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "trim_view",
+    "description": "This is a sub-function API for tool car_api.\nTool description: Search vehicles sold in the United States by year, make, model, trim, engine, body, mileage, VIN decoder and more.\nAPI description: Fetches and returns all data associated with a specific vehicle trim using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the vehicle trim to retrieve."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

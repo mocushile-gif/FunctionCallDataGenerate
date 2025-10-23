@@ -1,0 +1,15 @@
+{
+    "name": "get_by_origin",
+    "description": "This is a sub-function API for tool house_plants.\nTool description: This API provides a database of house plants, along with their description and information how to best take care of them (ideal temperature, light, etc.).\n\nAll proceeds go to charity (donated at the end of each month).\nAPI description: Fetches plants by their origin using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "origin": {
+                "type": "string",
+                "description": "The origin of the plants to retrieve. Default is 'Asia'.",
+                "default": "Asia"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "split_list",
+    "description": "Splits a list into chunks of a specified size. If the chunk size is larger than the list, the entire list is returned as one chunk. If the chunk size is less than or equal to 0, a ValueError is raised.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lst": {
+                "type": "array",
+                "items": {
+                    "type": ["string", "integer", "number", "boolean", "object", "null"]
+                },
+                "description": "The input list to be split."
+            },
+            "chunk_size": {
+                "type": "integer",
+                "description": "The size of each chunk. Must be greater than 0.",
+                "minimum": 1
+            }
+        },
+        "required": [
+            "lst",
+            "chunk_size"
+        ]
+    }
+}

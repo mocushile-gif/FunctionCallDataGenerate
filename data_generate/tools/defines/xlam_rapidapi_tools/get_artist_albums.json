@@ -1,0 +1,23 @@
+{
+    "name": "get_artist_albums",
+    "description": "This is a sub-function API for tool youtube_music_api_detailed.\nTool description: Detailed Youtube Music API. Lyrics, Trends, Albums, Artists, Songs, Users, Playlists, Songs etc.\nAPI description: Get information about an artist and their top releases (songs, albums, singles, videos, and related artists). The top lists contain pointers for getting the full list of releases",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "channel_id": {
+                "type": "string",
+                "description": "The unique identifier for the artist's channel.",
+                "default": "UCedvOgsKFzcK3hA5taf3KoQ"
+            },
+            "params": {
+                "type": "string",
+                "description": "Parameters required to fetch artist details, typically obtained from the `get_artist` function.",
+                "default": "6gPgAUdxVUJXcFlCQ3BNQkNpUjVkRjl3WVdkbFgzTnVZWEJ6YUc5MFgyMTFjMmxqWDNCaFoyVmZjbVZuYVc5dVlXd1NIMDEzUzBGTWVWcENhM2h2WVhkRFJFbFBZM2h6Vms1NlR6QlNVWE5wVW1jYVNnQUFaVzRBQVVaU0FBRkdVZ0FCQUVaRmJYVnphV05mWkdWMFlXbHNYMkZ5ZEdsemRBQUJBVU1BQUFFQUFBRUJBRlZETUhZMlJuTlJTRTVmUVRGR09EWmlSbkpZWDNwb2R3QUI4dHF6cWdvR1FBRklBRkFV"
+            }
+        },
+        "required": [
+            "channel_id",
+            "params"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "count_string_occurrences",
+    "description": "Count the occurrences of a specific string in each file and total occurrences in a directory.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "directory": {
+                "type": "string",
+                "description": "The directory to search in. Default to './'"
+            },
+            "search_string": {
+                "type": "string",
+                "description": "The string to count within files."
+            },
+            "file_extension": {
+                "type": "string",
+                "description": "The file extension to filter by (default is '.txt'). An empty string means all files.",
+                "default": ".txt"
+            }
+        },
+        "required": ["directory", "search_string"]
+    }
+}

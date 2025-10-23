@@ -1,0 +1,29 @@
+{
+    "name": "search",
+    "description": "This is a sub-function API for tool youtube.\nTool description: With the YouTube Data API, you can add various YouTube features to your app. Use the API for search, videos, playlists, channels and more.\nAPI description: Performs a search on YouTube using the specified parameters and returns the search results.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "hl": {
+                "type": "string",
+                "description": "The language code for the response (e.g., 'en' for English). Defaults to 'en'.",
+                "default": "en"
+            },
+            "gl": {
+                "type": "string",
+                "description": "The country code for the response (e.g., 'US' for the United States). Defaults to 'US'.",
+                "default": "US"
+            },
+            "cursor": {
+                "type": "string",
+                "description": "The cursor for pagination to continue fetching results. Defaults to None."
+            },
+            "q": {
+                "type": "string",
+                "description": "The search query term. Defaults to 'movie'.",
+                "default": "despacito"
+            }
+        },
+        "required": []
+    }
+}

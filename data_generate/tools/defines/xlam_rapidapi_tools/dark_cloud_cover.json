@@ -1,0 +1,15 @@
+{
+    "name": "dark_cloud_cover",
+    "description": "This is a sub-function API for tool barpatterns.\nTool description: Screener for stock candlestick patterns & indicator signals. \nScreening 21 candlestick patterns & 6 indicator signals (supertrend, macd, rsi)\nAPI description: This function retrieves a list of stocks showing the Dark Cloud Cover pattern signal from the specified page using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "page": {
+                "type": "number",
+                "description": "The page number to retrieve. Defaults to 1.",
+                "default": 1.0
+            }
+        },
+        "required": []
+    }
+}

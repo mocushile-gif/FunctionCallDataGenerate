@@ -1,0 +1,33 @@
+{
+    "name": "top_holders",
+    "description": "This is a sub-function API for tool rich_nft_api_metadata.\nTool description: Rich NFT API. Browse collections, tokens, metadata, holders, activities, transfers\nAPI description: Get top holders \n\n**Pagination example**:\n start=0&limit=20\n\n**Supported chain_id**: \neth, bsc, matic, avax, arb, op",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "chain_id": {
+                "type": "string",
+                "description": "",
+                "default": "eth"
+            },
+            "is_id": {
+                "type": "string",
+                "description": "The protocol ID for which to retrieve the top holders.",
+                "default": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb"
+            },
+            "limit": {
+                "type": "string",
+                "description": "The maximum number of top holders to retrieve. Defaults to '10'.",
+                "default": "20"
+            },
+            "start": {
+                "type": "string",
+                "description": "The starting index to retrieve the top holders. Defaults to '0'.",
+                "default": "0"
+            }
+        },
+        "required": [
+            "chain_id",
+            "is_id"
+        ]
+    }
+}

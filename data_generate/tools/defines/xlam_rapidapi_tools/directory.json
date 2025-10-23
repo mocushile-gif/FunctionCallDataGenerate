@@ -1,0 +1,17 @@
+{
+    "name": "directory",
+    "description": "This is a sub-function API for tool phone.\nTool description: Full set of cool Telephone validation functions with a coverage of more than a hundred different countries.  Phone Metropolis API can analyse, get location information and parse the content of a given phone number. [This API is under maintenance and is not working properly] \nAPI description: Retrieves all the Local Area Codes from a given country.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "description": "An ISO 2-letter country code or the name of the country in English.",
+                "default": "BR"
+            }
+        },
+        "required": [
+            "country"
+        ]
+    }
+}

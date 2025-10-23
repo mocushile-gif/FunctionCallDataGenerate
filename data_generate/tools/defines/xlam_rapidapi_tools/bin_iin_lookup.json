@@ -1,0 +1,17 @@
+{
+    "name": "bin_iin_lookup",
+    "description": "This is a sub-function API for tool bin_iin_lookup.\nTool description: \nAPI description: This API for Lookup, check, or search Issuer card information using card BIN.\nInput first 6 digits number of the Credit/Debit Card",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "bin": {
+                "type": "number",
+                "description": "The first 6 digits of the credit or debit card used to identify the card issuer.",
+                "default": 470886.0
+            }
+        },
+        "required": [
+            "bin"
+        ]
+    }
+}

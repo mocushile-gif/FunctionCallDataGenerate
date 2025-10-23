@@ -1,0 +1,17 @@
+{
+    "{'mailid': '45678'}": {
+        "error": "",
+        "response": {
+            "mail_id": "45678",
+            "subject": "Invoice Payment Reminder #2023-045678",
+            "sender": "accounts@vendor.com",
+            "receiver": "client@example.com",
+            "timestamp": "2023-10-15T14:30:45Z",
+            "body": "Dear Client,\n\nThis is a reminder for the pending payment of invoice 2023-045678. The due amount of $1,200.00 is payable by October 20, 2023.\n\nRegards,\nVendor Finance Team",
+            "attachments": [
+                "invoice_2023-045678.pdf"
+            ],
+            "status": "unread"
+        }
+    }
+}

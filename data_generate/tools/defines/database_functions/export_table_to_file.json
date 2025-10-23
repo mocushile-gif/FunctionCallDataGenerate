@@ -1,0 +1,38 @@
+{
+    "name": "export_table_to_file",
+    "description": "Export data from a SQLite table or join query to a CSV or Excel file.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "database_path": {
+          "type": "string",
+          "description": "The path to the database."
+        },
+        "from_clause": {
+          "type": "string",
+          "description": "The FROM clause, which can be a table name or a JOIN expression (e.g., 'table1 JOIN table2 ON ...')."
+        },
+        "columns": {
+          "oneOf": [
+            {
+              "type": "string",
+              "description": "A comma-separated string of columns to select (e.g., 'column1, column2')."
+            },
+            {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "A list of column names to select."
+            }
+          ],
+          "default": "*",
+          "description": "Columns to select from the table(s). Defaults to '*'."
+        },
+        "save_to_file": {
+          "type": "string",
+          "description": "Path to the output file where the results will be saved. Must end with '.csv', '.xlsx', '.json', or '.jsonl'."
+        }
+      },
+      "required": ["database_path", "from_clause", "save_to_file"]
+    }
+  }
+  

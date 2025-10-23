@@ -1,0 +1,14 @@
+{
+    "name": "primeira_liga_standings",
+    "description": "This is a sub-function API for tool primeira_liga_standings.\nTool description: Portuguese Primeira Liga Standings & Table\nAPI description: Fetches the standings for the Primeira Liga for a specified season.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "season": {
+                "type": "string",
+                "description": "The season for which the standings are to be fetched, e.g., '2022'. If not provided, the current season is assumed."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "bsa",
+    "description": "This is a sub-function API for tool clinicalmarkers.\nTool description: Easy calculation of clinical markers for medical applications.\nAPI description: Calculates the Body Surface Area (BSA) based on weight and height using an external API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "weightinkilograms": {
+                "type": "number",
+                "description": "The weight of the individual in kilograms."
+            },
+            "heightincentrimetres": {
+                "type": "number",
+                "description": "The height of the individual in centimeters."
+            }
+        },
+        "required": [
+            "weightinkilograms",
+            "heightincentrimetres"
+        ]
+    }
+}

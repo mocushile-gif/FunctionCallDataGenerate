@@ -1,0 +1,41 @@
+{
+    "{'itemid': 3256804591426248.0, 'currency': 'USD'}": {
+        "error": "",
+        "response": {
+            "product_id": 3256804591426248,
+            "title": "Wireless Bluetooth Earbuds with Charging Case",
+            "price": {
+                "currency": "USD",
+                "current": 29.99,
+                "original": 39.99,
+                "discount": "25% OFF"
+            },
+            "rating": 4.7,
+            "reviews": 1582,
+            "stock": 300,
+            "shipping": {
+                "free": true,
+                "estimated_days": "5-7 business days"
+            },
+            "features": [
+                "Noise Cancellation",
+                "Touch Control",
+                "IPX5 Water Resistance"
+            ],
+            "seller_info": {
+                "name": "TechGadgetsSupplies",
+                "response_rate": "98%",
+                "rating": 4.9
+            },
+            "specifications": {
+                "battery_life": "Up to 20h (with case)",
+                "compatibility": "iOS/Android",
+                "color_options": [
+                    "Black",
+                    "White",
+                    "Blue"
+                ]
+            }
+        }
+    }
+}

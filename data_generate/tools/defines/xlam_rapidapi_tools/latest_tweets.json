@@ -1,0 +1,25 @@
+{
+    "name": "latest_tweets",
+    "description": "This is a sub-function API for tool crypto_news_v3.\nTool description: Get the latest crypto news incl. sentiment analysis and keyword extraction\nAPI description: This endpoint provides the latest crypto news tweets incl. sentiment analysis ([textblob](https://textblob.readthedocs.io/en/dev/quickstart.html)) and keyword extraction ([Yake](http://yake.inesctec.pt/)). \n\nParameters:\n- **[OPTIONAL] last_n_hours**: Only tweets from the last *n* hours are provided (default: 12).\n- **[OPTIONAL] max_articles**: Maximum number of tweets in response (default:100, max:100)\n- **[OPTIONAL] top_n_keywords**: Number of keywords to extract form tweet (default:10)\n\nCurrently, we make",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "top_n_keywords": {
+                "type": "number",
+                "description": "The number of keywords to extract from each tweet. Default is 10.",
+                "default": 10.0
+            },
+            "max_tweets": {
+                "type": "number",
+                "description": "Maximum number of tweets in response (default:100, max:100)",
+                "default": 10.0
+            },
+            "last_n_hours": {
+                "type": "number",
+                "description": "Parameter to get crypto tweets for the last *n* hours (default: 12)",
+                "default": 4.0
+            }
+        },
+        "required": []
+    }
+}

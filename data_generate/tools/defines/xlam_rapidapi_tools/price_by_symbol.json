@@ -1,0 +1,17 @@
+{
+    "name": "price_by_symbol",
+    "description": "This is a sub-function API for tool get_live_stock_price_by_symbol.\nTool description: Get Live Stock Price By Symbol\nAPI description: Fetches the live price of a stock by its symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "input": {
+                "type": "string",
+                "description": "The stock symbol to query.",
+                "default": "AAPL"
+            }
+        },
+        "required": [
+            "input"
+        ]
+    }
+}

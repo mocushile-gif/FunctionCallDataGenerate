@@ -1,0 +1,22 @@
+{
+    "name": "get_train_live_status",
+    "description": "This is a sub-function API for tool irctc.\nTool description: An API with various functionalities for Indian railways IRCTC API. We are not affiliated with Indian railways IRCTC in any form, and this is not an official API, but all the results are real-time and accurate. You can get in touch with us at https://t.me/rapidapisupport. For payment related inquiries, APIs and customised plans.\nAPI description: This API will take train no and day of journey, and will return current status of train with other informations.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "trainno": {
+                "type": "string",
+                "description": "The train number whose live status is to be fetched.",
+                "default": "19038"
+            },
+            "startday": {
+                "type": "string",
+                "description": "Optional File\nstart day range from 0-4\n0 = Day 1\n1 = 1 Day Ago\n2 = 2 Day Ago\n3 = 3 Day Ago\n4 = 4 Day Ago",
+                "default": "1"
+            }
+        },
+        "required": [
+            "trainno"
+        ]
+    }
+}

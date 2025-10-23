@@ -1,0 +1,17 @@
+{
+    "name": "live_fantasy_score",
+    "description": "This is a sub-function API for tool fantasy_cricket.\nTool description: Most Accurate, Realtime, Fast and Reliable Fantasy Cricket API in the market. Any issues, queries, api integration, custom plan or to Create your own Fantasy Sports Application  contact us at support@techflinch.com \nAPI description: Real-time and Low-Latency Match Live Score API. Get the match score, Batting, bowling and fielding information for a specified match in real time\nAny issues, queries, api integration, custom plan or to **Create your own Fantasy Sports Application**  contact us at support@techflinch.com",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "matchid": {
+                "type": "string",
+                "description": "The identifier for the match to fetch live scores.",
+                "default": "1192"
+            }
+        },
+        "required": [
+            "matchid"
+        ]
+    }
+}

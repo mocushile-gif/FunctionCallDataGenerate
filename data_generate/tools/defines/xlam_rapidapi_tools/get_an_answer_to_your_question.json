@@ -1,0 +1,17 @@
+{
+    "name": "get_an_answer_to_your_question",
+    "description": "This is a sub-function API for tool islam_ai_api.\nTool description: Islam & AI API for Islamic ChatBot.\n\nThe Best AI for Islam! \nAPI description: Fetches an answer to an Islamic question using the Islam&AI bot from the provided API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "question": {
+                "type": "string",
+                "description": "The Islamic question to be answered.",
+                "default": "What is Islam?"
+            }
+        },
+        "required": [
+            "question"
+        ]
+    }
+}

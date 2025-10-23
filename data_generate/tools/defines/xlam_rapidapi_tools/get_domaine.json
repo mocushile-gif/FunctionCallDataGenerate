@@ -1,0 +1,23 @@
+{
+    "name": "get_domaine",
+    "description": "This is a sub-function API for tool domaine_nc.\nTool description: API REST pour interagir avec les noms de domaine, de connaitre leur date d'expiration.\nAPI description: Récupère les détails d'un domaine, cela permet de rechercher en mode API le contenu disponible en web sur [DOMAINE.nc](https://www.domaine.nc/whos).",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "ext": {
+                "type": "string",
+                "description": "Chaque extension obéit à ses propres règles d'enregistrement, avec des variantes en termes d'identification des titulaires, de présence locale ou de justificatifs à fournir.\n\nCe sont les extensions disponibles en Nouvelle-Calédonie, qui sont :\n\n- `nc` : extension générique\n- `asso.nc` : réservé aux associations\n- `nom.nc` : réservé aux particuliers qui désirerai deposer leur nom de famille \n",
+                "default": "NC"
+            },
+            "nom": {
+                "type": "string",
+                "description": "Nom de domaine, voir [quelques exemples](https://www.domaine.nc/whos?who=AA) sur le site web.",
+                "default": "1012"
+            }
+        },
+        "required": [
+            "ext",
+            "nom"
+        ]
+    }
+}

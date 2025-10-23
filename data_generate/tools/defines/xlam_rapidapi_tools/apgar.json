@@ -1,0 +1,36 @@
+{
+    "name": "apgar",
+    "description": "This is a sub-function API for tool clinicalmarkers.\nTool description: Easy calculation of clinical markers for medical applications.\nAPI description: Makes a request to the APGAR scoring API and returns the observation result in JSON format.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "respirationscore": {
+                "type": "string",
+                "description": "Score for the respiratory effort."
+            },
+            "skincolorscore": {
+                "type": "string",
+                "description": "Score for the baby's skin color."
+            },
+            "heartrateinbpm": {
+                "type": "number",
+                "description": "Heart rate of the baby in beats per minute."
+            },
+            "responsetoirritablestimuliscore": {
+                "type": "string",
+                "description": "Score for the baby's response to irritable stimuli."
+            },
+            "activityscore": {
+                "type": "string",
+                "description": "Score for the baby's muscle tone and activity."
+            }
+        },
+        "required": [
+            "respirationscore",
+            "skincolorscore",
+            "heartrateinbpm",
+            "responsetoirritablestimuliscore",
+            "activityscore"
+        ]
+    }
+}

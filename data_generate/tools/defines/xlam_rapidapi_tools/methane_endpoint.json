@@ -1,0 +1,14 @@
+{
+    "name": "methane_endpoint",
+    "description": "This is a sub-function API for tool atmosphere_methane_concentration.\nTool description: This API provides on a monthly basis, the amount of methane in the atmosphere from 1983 to the present. Expressed as a mole fraction in dry air, parts per million (ppm).\nAPI description: Fetches methane concentration data from the specified API endpoint using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "methane": {
+                "type": "string",
+                "description": "Optional parameter to specify a particular methane concentration. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

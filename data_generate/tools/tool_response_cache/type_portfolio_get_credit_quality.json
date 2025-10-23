@@ -1,0 +1,30 @@
+{
+    "{'securityid': 'F00000O2CG', 'type': 'etf'}": {
+        "error": "",
+        "response": "{'fundName': 'VanEck Fallen Angel HiYld Bd ETF', 'categoryName': 'High Yield Bond', 'indexName': 'Morningstar US HY Bd TR USD', 'fund': {'creditQualityDate': '2024-08-31T05:00:00.000', 'creditQualityAAA': '0.00000', 'creditQualityAA': '0.00000', 'creditQualityA': '0.00000', 'creditQualityBBB': '0.50005', 'creditQualityBB': '70.55706', 'creditQualityB': '19.23192', 'creditQualityBelowB': '6.66067', 'creditQualityNotRated': '3.05031'}, 'category': {'creditQualityDate': '2024-09-30T05:00:00.000', 'creditQualityAAA': '2.73815', 'creditQualityAA': '1.69933', 'creditQualityA': '0.91107', 'creditQualityBBB': '5.62307', 'creditQualityBB': '31.36538', 'creditQualityB': '33.39980', 'creditQualityBelowB': '21.98246', 'creditQualityNotRated': '2.28075'}, 'index': {'creditQualityDate': None, 'creditQualityAAA': None, 'creditQualityAA': None, 'creditQualityA': None, 'creditQualityBBB': None, 'creditQualityBB': None, 'creditQualityB': None, 'creditQualityBelowB': None, 'creditQualityNotRated': None}}"
+    },
+    "{'securityid': 'F000000X0V', 'type': 'fund'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'securityid': '[USER_INPUT_REQUIRED]', 'type': 'etf'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'securityid': 'IVV', 'type': 'etf'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'securityid': 'HYG', 'type': 'etf'}": {
+        "error": "",
+        "response": ""
+    },
+    "{'securityid': 'F00000O1AB', 'type': 'fund'}": {
+        "error": "",
+        "response": "{'fundName': 'Meritz Kor Chn Idx Lkd PF Deri 314(LQ)', 'categoryName': 'Other', 'indexName': None, 'fund': {'creditQualityDate': None, 'creditQualityAAA': None, 'creditQualityAA': None, 'creditQualityA': None, 'creditQualityBBB': None, 'creditQualityBB': None, 'creditQualityB': None, 'creditQualityBelowB': None, 'creditQualityNotRated': None}, 'category': {'creditQualityDate': '2025-03-31T05:00:00.000', 'creditQualityAAA': '100.00000', 'creditQualityAA': '0.00000', 'creditQualityA': '0.00000', 'creditQualityBBB': '0.00000', 'creditQualityBB': '0.00000', 'creditQualityB': '0.00000', 'creditQualityBelowB': '0.00000', 'creditQualityNotRated': '0.00000'}, 'index': {'creditQualityDate': None, 'creditQualityAAA': None, 'creditQualityAA': None, 'creditQualityA': None, 'creditQualityBBB': None, 'creditQualityBB': None, 'creditQualityB': None, 'creditQualityBelowB': None, 'creditQualityNotRated': None}}"
+    },
+    "{'securityid': '12345', 'type': 'etf'}": {
+        "error": "",
+        "response": ""
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "name": "shipping_id",
+    "description": "This is a sub-function API for tool aliexpress_unofficial.\nTool description: DEPRECATED. Will deleted after 2023-03-01\nAPI description: Fetches shipping information from the AliExpress Unofficial API for a given shipping ID and optional parameters such as count, locale, country, and currency.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The ID of the shipping information to fetch.",
+                "default": 4000886597329.0
+            },
+            "count": {
+                "type": "number",
+                "description": "The count of shipping records to fetch. Defaults to 1.",
+                "default": 1
+            },
+            "locale": {
+                "type": "string",
+                "description": "Locale for the shipping information. Defaults to None."
+            },
+            "country": {
+                "type": "string",
+                "description": "Country for the shipping information. Defaults to None."
+            },
+            "currency": {
+                "type": "string",
+                "description": "Currency for the shipping information. Defaults to None."
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

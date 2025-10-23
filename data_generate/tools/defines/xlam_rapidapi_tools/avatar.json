@@ -1,0 +1,50 @@
+{
+    "name": "avatar",
+    "description": "This is a sub-function API for tool initials_avatar.\nTool description: Generates initials avatar image from given name\nAPI description: Generates an avatar with the initials derived from the given name and various customization options.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The name from which to derive the initials. Default is 'john doe'.",
+                "default": "john doe"
+            },
+            "rounded": {
+                "type": "boolean",
+                "description": "If True, the avatar will be rounded. Default is None.",
+                "default": true
+            },
+            "uppercase": {
+                "type": "boolean",
+                "description": "If True, the initials will be in uppercase. Default is None.",
+                "default": true
+            },
+            "font_size": {
+                "type": "number",
+                "description": "The font size of the initials, ranging from 0 to 1. Default is 0.",
+                "default": 0.5
+            },
+            "length": {
+                "type": "number",
+                "description": "The number of initials to display. Default is 2.",
+                "default": 2.0
+            },
+            "size": {
+                "type": "number",
+                "description": "The font size of the initials, ranging from 0 to 1. Default is 0.",
+                "default": 128.0
+            },
+            "background": {
+                "type": "string",
+                "description": "The background color of the avatar in RRGGBB hex format. Default is '000000'.",
+                "default": "000000"
+            },
+            "color": {
+                "type": "string",
+                "description": "The color of the initials in RRGGBB hex format. Default is 'ffffff'.",
+                "default": "ffffff"
+            }
+        },
+        "required": []
+    }
+}

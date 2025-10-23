@@ -1,0 +1,35 @@
+{
+    "name": "movies",
+    "description": "This is a sub-function API for tool streamlinewatch_streaming_guide.\nTool description: StreamlineWatch's streaming guide APIs for Movies and Shows\nAPI description: Returns the basic metadata for all movies available for playback in a specific region. The results are ordered by popularity or alphabetical order. You may get additional information about each movie using its ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "Number of records to return per request. Optional, default is 5, and the maximum is 100.",
+                "default": 5.0
+            },
+            "sources": {
+                "type": "string",
+                "description": "Filter records by source. Multiple sources can be comma-separated. Optional, default is 'netflix,hulu'. Possible values include free, tv_everywhere, subscription, purchase, and specific sources such as netflix or hulu.",
+                "default": "netflix,hulu"
+            },
+            "region": {
+                "type": "string",
+                "description": "Filter results by region. Optional, default is 'US'. Possible values include 'US', 'FR'.",
+                "default": "US"
+            },
+            "offset": {
+                "type": "number",
+                "description": "Skips this number of records.\n*optional, default: 0*",
+                "default": 0.0
+            },
+            "sort": {
+                "type": "string",
+                "description": "Method to sort the records. Optional, default is 'popularity'. Possible values are 'alphabetical' and 'popularity'.",
+                "default": "popularity"
+            }
+        },
+        "required": []
+    }
+}

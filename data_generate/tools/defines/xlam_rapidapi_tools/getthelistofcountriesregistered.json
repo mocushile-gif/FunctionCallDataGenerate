@@ -1,0 +1,44 @@
+{
+    "name": "getthelistofcountriesregistered",
+    "description": "This is a sub-function API for tool sandbox_mktplace_eu_04_orders.\nTool description: sandbox.mktplace.eu - 04 orders\nAPI description: API Instructions: https://www.mktplace.eu/api-instructions-i-32.html\n\nSell on mktplace.eu: https://www.mktplace.eu/sell-on-mktplace-i-25.html",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "secret": {
+                "type": "string",
+                "description": "The secret key for authenticating the API request."
+            },
+            "content_type": {
+                "type": "string",
+                "description": "The content type of the API request.",
+                "default": "application/json"
+            },
+            "token": {
+                "type": "string",
+                "description": "The token for validating the API request."
+            },
+            "e_mail": {
+                "type": "string",
+                "description": "The email associated with the API account."
+            },
+            "cache_control": {
+                "type": "string",
+                "description": "The cache control settings for the API request.",
+                "default": "no-cache"
+            },
+            "action": {
+                "type": "string",
+                "description": "The specific action to be executed by the API.",
+                "default": "countries"
+            }
+        },
+        "required": [
+            "secret",
+            "content_type",
+            "token",
+            "e_mail",
+            "cache_control",
+            "action"
+        ]
+    }
+}

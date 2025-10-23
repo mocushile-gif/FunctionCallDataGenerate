@@ -1,0 +1,48 @@
+{
+    "{'country': 'United States', 'page': 0}": {
+        "error": "",
+        "response": [
+            {
+                "district_id": "NYC5",
+                "name": "Manhattan",
+                "city_id": "101",
+                "country": "United States",
+                "city_name": "New York City"
+            },
+            {
+                "district_id": "LA7",
+                "name": "Los Angeles County",
+                "city_id": "202",
+                "country": "United States",
+                "city_name": "Los Angeles"
+            },
+            {
+                "district_id": "CHI3",
+                "name": "Chicago Loop",
+                "city_id": "303",
+                "country": "United States",
+                "city_name": "Chicago"
+            }
+        ]
+    },
+    "{'country': 'US', 'name': 'Comfortable'}": {
+        "error": "",
+        "response": "{'result': []}"
+    },
+    "{'name': 'New York City', 'country': 'US'}": {
+        "error": "",
+        "response": "{'result': []}"
+    },
+    "{'name': 'New York', 'country': 'US'}": {
+        "error": "",
+        "response": "{'result': []}"
+    },
+    "{'name': 'Manhattan', 'country': 'US'}": {
+        "error": "",
+        "response": "{'result': []}"
+    },
+    "{'name': 'Manhattan, NY', 'country': 'US'}": {
+        "error": "",
+        "response": "{'result': []}"
+    }
+}

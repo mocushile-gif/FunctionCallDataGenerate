@@ -1,0 +1,17 @@
+{
+    "name": "phone_number",
+    "description": "This is a sub-function API for tool phone_and_email_validator_v2.\nTool description: Extremely Useful tool for Phone, Email, IP Address and Postal Code Validation\nAPI description: Validates a given phone number using the Phone and Email Validator API from RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "phone": {
+                "type": "string",
+                "description": "The phone number to be validated in E164 format (e.g., '19542567890' for USA).",
+                "default": "12345678900 for US"
+            }
+        },
+        "required": [
+            "phone"
+        ]
+    }
+}

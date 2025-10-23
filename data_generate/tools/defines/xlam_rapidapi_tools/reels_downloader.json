@@ -1,0 +1,17 @@
+{
+    "name": "reels_downloader",
+    "description": "This is a sub-function API for tool instagram_reels_and_post_downloader.\nTool description: Download instagram reels and post uing API\nAPI description: You only need to provide the link to your Instagram media, and our API will give you the results in Download links of reels and posts",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "link": {
+                "type": "string",
+                "description": "The URL of the Instagram media (reel or post) to be downloaded.",
+                "default": "https://www.instagram.com/reels/CsinDvAgoYA/"
+            }
+        },
+        "required": [
+            "link"
+        ]
+    }
+}

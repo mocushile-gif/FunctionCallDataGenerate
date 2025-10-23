@@ -1,0 +1,20 @@
+{
+    "name": "stays_properties_detail_photos",
+    "description": "This is a sub-function API for tool booking_com_v2.\nTool description: Real-time data, unofficial API Booking.com\nThis API helps to query rooms, price, facilities, policities.. from many hotels around the world to create a travel\nAPI description: Fetch detailed photos of a specific property from the stays/properties/detail/photos endpoint using the Booking.com RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "language_code": {
+                "type": "string",
+                "description": "The language code to use for the response. Default is 'en-us'.",
+                "default": "en-us"
+            },
+            "id_detail": {
+                "type": "string",
+                "description": "The ID of the property to fetch detail photos for. Default is 'cr/la-buena-vida-cabinas'.",
+                "default": "cr/la-buena-vida-cabinas"
+            }
+        },
+        "required": []
+    }
+}

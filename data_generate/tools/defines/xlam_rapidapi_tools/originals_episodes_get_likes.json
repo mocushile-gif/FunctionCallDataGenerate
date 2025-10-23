@@ -1,0 +1,28 @@
+{
+    "name": "originals_episodes_get_likes",
+    "description": "This is a sub-function API for tool webtoon.\nTool description: This API provides the largest webcomics data in the world to create a comic site/application such as webtoons.com\nAPI description: Retrieves the number of likes for a specific episode of an original series from Webtoon.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "titleno": {
+                "type": "number",
+                "description": "The value of titleNo field returned in .../originals/titles/list or .../originals/titles/list-by-rank endpoint",
+                "default": 2113.0
+            },
+            "episodeno": {
+                "type": "number",
+                "description": "The episode number of the specific episode, obtained from the Webtoon episodes list endpoint.",
+                "default": 1.0
+            },
+            "language": {
+                "type": "string",
+                "description": "The language code for the response. One of the following: 'en', 'zh-hant', 'de', 'fr', 'es', 'th', 'id'. Defaults to 'en'.",
+                "default": "en"
+            }
+        },
+        "required": [
+            "titleno",
+            "episodeno"
+        ]
+    }
+}

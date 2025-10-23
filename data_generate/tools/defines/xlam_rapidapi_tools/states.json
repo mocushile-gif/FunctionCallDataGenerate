@@ -1,0 +1,17 @@
+{
+    "name": "states",
+    "description": "This is a sub-function API for tool referential_db.\nTool description: Get global countries, states, and cities data. Filter and display results in multiple languages.\nAPI description: Fetches the list of states for a given country using the Referential DB API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "countrycode": {
+                "type": "string",
+                "description": "The ISO code of the country for which to get the states.",
+                "default": "US"
+            }
+        },
+        "required": [
+            "countrycode"
+        ]
+    }
+}

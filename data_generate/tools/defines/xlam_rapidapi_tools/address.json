@@ -1,0 +1,23 @@
+{
+    "name": "address",
+    "description": "This is a sub-function API for tool address_correction_and_geocoding.\nTool description: Postal Address Correction, Validation, Standardization and Geocoding\nAPI description: Sends a request to an address correction and geocoding API using the provided address lines and API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "addressline1": {
+                "type": "string",
+                "description": "The first line of the address.",
+                "default": "506 Fourth Avenue Unit 1"
+            },
+            "addressline2": {
+                "type": "string",
+                "description": "The second line of the address, typically including city, state, and zip code.",
+                "default": "Asbury Prk, NJ"
+            }
+        },
+        "required": [
+            "addressline1",
+            "addressline2"
+        ]
+    }
+}

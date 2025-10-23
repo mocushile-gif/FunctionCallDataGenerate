@@ -1,0 +1,33 @@
+{
+    "name": "trending_charts",
+    "description": "This is a sub-function API for tool youtube_v3_lite.\nTool description: Lite version of Youtube Data API v3. Get Youtube data without any Youtube api key\nAPI description: Fetches the trending videos chart for a specified region on YouTube.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "part": {
+                "type": "string",
+                "description": "The part parameter specifies a comma-separated list of one or more video resource properties that the API response will include.",
+                "default": "id,snippet"
+            },
+            "regioncode": {
+                "type": "string",
+                "description": "ISO 3166-2 country code of the region (e.g., 'US' for United States, 'UK' for United Kingdom, 'CA' for Canada, 'IN' for India).",
+                "default": "US"
+            },
+            "chart": {
+                "type": "string",
+                "description": "The chart parameter specifies the chart to retrieve (e.g., 'mostPopular').",
+                "default": "mostPopular"
+            },
+            "x_cachebypass": {
+                "type": "string",
+                "description": "The cache bypass value; must be '1' to bypass cache. Defaults to None."
+            }
+        },
+        "required": [
+            "part",
+            "regioncode",
+            "chart"
+        ]
+    }
+}

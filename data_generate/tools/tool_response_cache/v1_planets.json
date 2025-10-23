@@ -1,0 +1,38 @@
+{
+    "{}": {
+        "error": "",
+        "response": [
+            {
+                "name": "Mars",
+                "mass": 0.000338,
+                "radius": 0.0488,
+                "period": 687.0,
+                "semi_major_axis": 1.542,
+                "temperature": 210.0,
+                "distance_light_year": 3.7e-05,
+                "host_star_mass": 1.0,
+                "host_star_temperature": 6000.0
+            }
+        ]
+    },
+    "{'max_temperature': 300}": {
+        "error": "",
+        "response": "[{'name': 'Mars', 'mass': 0.000338, 'radius': 0.0488, 'period': 687.0, 'semi_major_axis': 1.542, 'temperature': 210.0, 'distance_light_year': 3.7e-05, 'host_star_mass': 1.0, 'host_star_temperature': 6000.0}]"
+    },
+    "{'max_distance_light_year': 100}": {
+        "error": "",
+        "response": "[{'name': 'Mars', 'mass': 0.000338, 'radius': 0.0488, 'period': 687.0, 'semi_major_axis': 1.542, 'temperature': 210.0, 'distance_light_year': 3.7e-05, 'host_star_mass': 1.0, 'host_star_temperature': 6000.0}]"
+    },
+    "{'max_distance_light_year': 10, 'max_temperature': 300}": {
+        "error": "",
+        "response": "[{'name': 'Mars', 'mass': 0.000338, 'radius': 0.0488, 'period': 687.0, 'semi_major_axis': 1.542, 'temperature': 210.0, 'distance_light_year': 3.7e-05, 'host_star_mass': 1.0, 'host_star_temperature': 6000.0}]"
+    },
+    "{'name': 'Jupiter'}": {
+        "error": "",
+        "response": "[{'name': 'Jupiter', 'mass': 1.0, 'radius': 1.0, 'period': 4331.0, 'semi_major_axis': 5.204, 'temperature': 165.0, 'distance_light_year': 8.8e-05, 'host_star_mass': 1.0, 'host_star_temperature': 6000.0}]"
+    },
+    "{'name': 'TOI-1231 b'}": {
+        "error": "",
+        "response": "[{'name': 'TOI-1231 b', 'mass': 0.0485, 'radius': 0.326, 'period': 24.245586, 'semi_major_axis': 0.1288, 'temperature': 330.0, 'distance_light_year': 89.68, 'host_star_mass': 0.485, 'host_star_temperature': 3553.0}]"
+    }
+}

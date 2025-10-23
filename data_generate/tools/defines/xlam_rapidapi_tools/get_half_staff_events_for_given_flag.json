@@ -1,0 +1,17 @@
+{
+    "name": "get_half_staff_events_for_given_flag",
+    "description": "This is a sub-function API for tool flag_status.\nTool description: US and state flag half-staff events in JSON format.\nAPI description: Fetches all half-staff events for a given flag code using the specified RapidAPI key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "string",
+                "description": "The flag code for which to retrieve half-staff events.",
+                "default": "NY"
+            }
+        },
+        "required": [
+            "code"
+        ]
+    }
+}

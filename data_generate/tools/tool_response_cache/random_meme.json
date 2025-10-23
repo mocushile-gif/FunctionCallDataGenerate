@@ -1,0 +1,21 @@
+{
+    "{'genre': 'science', 'type': 'hot'}": {
+        "error": "",
+        "response": {
+            "title": "E = mc\u00b2 or Something Like That",
+            "subreddit": "science_memes",
+            "upvotes": 2450,
+            "comments": 89,
+            "image_url": "https://example.com/science_hot_meme_123.jpg",
+            "description": "A scientist staring at a blackboard filled with equations, caption: 'I did the math... and then I had a snack.'"
+        }
+    },
+    "{'genre': 'lotr', 'type': 'top'}": {
+        "error": "",
+        "response": "{'title': 'Inbox Notifications lately', 'url': 'https://i.redd.it/yaj1n7c1ahcb1.jpg', 'type': 'top', 'genre': 'lotr'}"
+    },
+    "{'genre': 'science'}": {
+        "error": "",
+        "response": "{'title': 'Robot testers will be first to die when AI takes over.', 'url': 'https://v.redd.it/8ir6sn3hbjcb1', 'type': 'top', 'genre': 'science'}"
+    }
+}

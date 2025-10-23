@@ -1,0 +1,22 @@
+{
+    "name": "stock_splits",
+    "description": "This is a sub-function API for tool freedom_finance.\nTool description: Financial data for over 75,000 stocks on over 75 exchanges. Download conveniently formatted financial statements, dividends, end of day prices and more. Need higher usage, custom integration or additional features? Contact us for custom pricing.\nAPI description: Fetch the list of all stock splits for a given stock symbol.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The stock symbol for which to fetch stock splits.",
+                "default": "MSFT"
+            },
+            "orderby": {
+                "type": "string",
+                "description": "The order in which to sort the stock splits. Defaults to 'Ascending'.",
+                "default": "Ascending"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

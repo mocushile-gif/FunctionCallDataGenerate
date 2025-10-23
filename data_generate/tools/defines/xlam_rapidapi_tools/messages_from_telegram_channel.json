@@ -1,0 +1,21 @@
+{
+    "name": "messages_from_telegram_channel",
+    "description": "This is a sub-function API for tool telegram_v2.\nTool description: Real-time  Telegram data API. Get messages and information directly from Telegram Channels/Groups.\nAPI description: The endpoint returns last 10 messages  or specific id message from Telegram Channel. \nThe channel must be public.\n\n- Author\n- Photo\n- Message\n- Views \n- DateTime\n- ID",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "channel": {
+                "type": "string",
+                "description": "The @username of the public Telegram channel.",
+                "default": "telegram"
+            },
+            "idmessage": {
+                "type": "string",
+                "description": "The ID of a specific message to retrieve. If not provided, the function will return the last 10 messages."
+            }
+        },
+        "required": [
+            "channel"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "get_anime_by_id",
+    "description": "This is a sub-function API for tool anime_manga_and_novels_api.\nTool description: Get the complete data of 14k Novels, 1k animes and 1k mangas.\nwe updated our data daily\n\nAPI description: Retrieves detailed information about an anime given its unique identifier using the Toolbench RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "number",
+                "description": "The unique identifier of the anime.",
+                "default": 19.0
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

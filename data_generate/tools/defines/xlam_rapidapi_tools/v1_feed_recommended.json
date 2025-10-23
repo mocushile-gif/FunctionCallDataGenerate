@@ -1,0 +1,20 @@
+{
+    "name": "v1_feed_recommended",
+    "description": "This is a sub-function API for tool tokapi_mobile_version.\nTool description: Highly available tiktok **mobile** API. We are doing our best for make your life easy.Bigger API plans and **additional functionality** are available on request.  Feel free to contact us on Telegram: [https://t.me/somjik_tokapi](https://t.me/somjik_tokapi) #tiktok #tik #tok #tik-tok #video #music #user #feed #hashtag #challenge #trending #trend #comments #comment #image #photo #media #search #scrapper #grabber\nAPI description: Fetches the recommended feed from the RapidAPI Tokapi mobile version.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "pull_type": {
+                "type": "number",
+                "description": "The type of loading feed. Use 0 for initial loading, 2 to load more, and 8 to reload. Defaults to 0.",
+                "default": 0
+            },
+            "region": {
+                "type": "string",
+                "description": "The region code to fetch the feed for. Defaults to 'US'.",
+                "default": "US"
+            }
+        },
+        "required": []
+    }
+}

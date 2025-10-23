@@ -1,0 +1,26 @@
+{
+    "name": "countiessearchinboundingbox",
+    "description": "This is a sub-function API for tool mapreflex.\nTool description: US Zip Codes, Cities, States and Counties boundaries API, which provides info in common GeoJson format for instant integration with existing maps like Google, etc., or with your custom application.\nAPI description: Get Counties boundaries in provided bounding box (in GeoJSON format). For a quick view, copy and paste results: http://geojsonlint.com",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "northeast": {
+                "type": "number",
+                "description": "Coordinates of the northeast corner of the bounding box (e.g., '40.81,-73.41')."
+            },
+            "southwest": {
+                "type": "number",
+                "description": "Coordinates of the southwest corner of the bounding box (e.g., '40.62,-74.73')."
+            },
+            "intersect": {
+                "type": "boolean",
+                "description": "Whether to include areas that intersect with the bounding box. Default is None.",
+                "default": true
+            }
+        },
+        "required": [
+            "northeast",
+            "southwest"
+        ]
+    }
+}

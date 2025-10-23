@@ -1,0 +1,28 @@
+{
+    "name": "bmi",
+    "description": "This is a sub-function API for tool bmi_calculator_v2.\nTool description: Calculate and classify BMIs using imperial and metric units.\nAPI description: Calculates the Body Mass Index (BMI) using given weight and height, optionally specifying the measurement system.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "weight": {
+                "type": "number",
+                "description": "Weight of the individual.",
+                "default": 86.0
+            },
+            "height": {
+                "type": "number",
+                "description": "Height of the individual.",
+                "default": 184.0
+            },
+            "system": {
+                "type": "string",
+                "description": "Measurement system, either 'metric' (kg/m^2) or 'imperial' (lbs/in^2). Defaults to 'metric'.",
+                "default": "metric"
+            }
+        },
+        "required": [
+            "weight",
+            "height"
+        ]
+    }
+}

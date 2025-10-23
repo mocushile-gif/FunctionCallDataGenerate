@@ -1,0 +1,16 @@
+{
+    "name": "airports_by_keyword",
+    "description": "This is a sub-function API for tool carbonsutra.\nTool description: Carbon Emission Estimations for Organizations.\nAPI description: Fetches a list of airport names and their IATA codes that match the given keyword.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "keyword": {
+                "type": "string",
+                "description": "A search term to match against airport names and IATA codes."
+            }
+        },
+        "required": [
+            "keyword"
+        ]
+    }
+}

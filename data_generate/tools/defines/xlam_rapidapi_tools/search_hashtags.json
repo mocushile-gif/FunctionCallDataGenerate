@@ -1,0 +1,17 @@
+{
+    "name": "search_hashtags",
+    "description": "This is a sub-function API for tool instagram_v2.\nTool description: Instagram most needed endpoints\nAPI description: Search for Instagram hashtags by keyword using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "The keyword to search hashtags for.",
+                "default": "fitness"
+            }
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

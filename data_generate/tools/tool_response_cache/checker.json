@@ -1,0 +1,10 @@
+{
+    "{'url': 'https://example.com/image_with_sensitive_data.jpg'}": {
+        "error": "",
+        "response": {
+            "url": "https://example.com/image_with_sensitive_data.jpg",
+            "status_code": 200,
+            "message": "The URL is live and accessible. The web server is up and responding successfully."
+        }
+    }
+}

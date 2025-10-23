@@ -1,0 +1,14 @@
+{
+    "name": "search_by_weight",
+    "description": "This is a sub-function API for tool player_data.\nTool description: SSCB players\nAPI description: Performs a search for player data based on the given weight using the toolbench RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "input_weight": {
+                "type": "string",
+                "description": "The weight to search for. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "api_v1_beyblades",
+    "description": "This is a sub-function API for tool beyblade_api.\nTool description: A Beyblade API, providing access to information about various Beyblades, their product information, parts and other related data\nAPI description: Fetches a list of Beyblades from the API with optional offset and limit parameters.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "offset": {
+                "type": "number",
+                "description": "The number of Beyblades to skip."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of Beyblades to retrieve."
+            }
+        },
+        "required": []
+    }
+}

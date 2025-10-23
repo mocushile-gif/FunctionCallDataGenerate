@@ -1,0 +1,17 @@
+{
+    "name": "email_validate_regex",
+    "description": "This is a sub-function API for tool email_validator_v3.\nTool description: Email Validator\nAPI description: Validates an email address using the Email Validator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "The email address to be validated.",
+                "default": "test@gmail.com"
+            }
+        },
+        "required": [
+            "email"
+        ]
+    }
+}

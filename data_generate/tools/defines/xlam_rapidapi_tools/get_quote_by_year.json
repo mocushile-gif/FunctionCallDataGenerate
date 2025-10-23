@@ -1,0 +1,17 @@
+{
+    "name": "get_quote_by_year",
+    "description": "This is a sub-function API for tool movie_and_tv_shows_quotes.\nTool description: This API helps query for Famous Movies and TV shows quotes.\nAPI description: Fetches quotes from movies or TV shows for a given year.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "number",
+                "description": "The year for which to retrieve quotes.",
+                "default": 1939.0
+            }
+        },
+        "required": [
+            "year"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "get_chapter_by_bookname",
+    "description": "This is a sub-function API for tool bible_search.\nTool description: Retrieve chapters and verses from the Old Testament and New Testament of the KJV. This API does not include the false gnostic books of the bible called the Pauline and Petrine epistles.\nAPI description: Retrieves a specific chapter from a book in the Bible using the specified book name and chapter ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "bookname": {
+                "type": "string",
+                "description": "The name of the book in the Bible.",
+                "default": "John"
+            },
+            "chapterid": {
+                "type": "number",
+                "description": "The chapter number to retrieve from the specified book.",
+                "default": 3.0
+            }
+        },
+        "required": [
+            "bookname",
+            "chapterid"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "get_time_zones",
+    "description": "This is a sub-function API for tool world_country.\nTool description: More than 200+ countries, 5K states and 150K cities with various information.\nAPI description: Fetch a list of time zones based on certain search criteria.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The ID of the time zone to filter by. Defaults to None."
+            },
+            "keyword": {
+                "type": "string",
+                "description": "The keyword to search for in the time zones. Defaults to 'asia'.",
+                "default": "asia"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for pagination. Defaults to 1.",
+                "default": 1.0
+            },
+            "perpage": {
+                "type": "number",
+                "description": "The number of records per page for pagination. Defaults to 50.",
+                "default": 50.0
+            }
+        },
+        "required": []
+    }
+}

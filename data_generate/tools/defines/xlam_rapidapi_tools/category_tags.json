@@ -1,0 +1,17 @@
+{
+    "name": "category_tags",
+    "description": "This is a sub-function API for tool hashtag.\nTool description: Generate hashtags based on image, text and get the post count detail of that hashtag\nAPI description: Fetch a list of tags for a given category ID using the toolbench_rapidapi key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "is_id": {
+                "type": "string",
+                "description": "The category ID to fetch tags for.",
+                "default": "1"
+            }
+        },
+        "required": [
+            "is_id"
+        ]
+    }
+}

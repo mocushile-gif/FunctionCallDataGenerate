@@ -1,0 +1,30 @@
+{
+    "name": "cards",
+    "description": "This is a sub-function API for tool card_draw_simulator.\nTool description: Draw cards from a regular 52 playing cards deck with a variety of options.\nAPI description: This function draws multiple cards from a regular 52-card playing deck using the Card Draw Simulator API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "value": {
+                "type": "string",
+                "description": "The value of the card(s) to draw (e.g., 'A', '2', '3', ... 'K'). Defaults to 'all'.",
+                "default": "all"
+            },
+            "suit": {
+                "type": "string",
+                "description": "The suit of the card(s) to draw (e.g., '♠', '♣', '♥', '♦'). Defaults to '♠'.",
+                "default": "♠"
+            },
+            "back": {
+                "type": "string",
+                "description": "Indicates whether to draw the back of the card. Defaults to 'false'.",
+                "default": "false"
+            },
+            "pulls": {
+                "type": "string",
+                "description": "The number of cards to draw. Defaults to '10'.",
+                "default": "10"
+            }
+        },
+        "required": []
+    }
+}

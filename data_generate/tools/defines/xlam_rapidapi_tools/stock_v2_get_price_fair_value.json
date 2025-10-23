@@ -1,0 +1,17 @@
+{
+    "name": "stock_v2_get_price_fair_value",
+    "description": "This is a sub-function API for tool ms_finance.\nTool description: This API helps to query financial summary, stocks, quotes, movers, news, etc... to create a site/application such as morningstar.com\nAPI description: Fetches the price vs fair value data for a given stock.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "performanceid": {
+                "type": "string",
+                "description": "The performance ID of the stock. This value can be obtained from endpoints such as /auto-complete, /get-summary, or /get-movers.",
+                "default": "0P0000OQN8"
+            }
+        },
+        "required": [
+            "performanceid"
+        ]
+    }
+}

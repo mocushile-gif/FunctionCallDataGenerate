@@ -1,0 +1,17 @@
+{
+    "name": "health",
+    "description": "This is a sub-function API for tool google_news.\nTool description: Provide real-time news and articles sourced from Google News.\nAPI description: Fetches health-related news from Google News using the provided language region and API key.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "lr": {
+                "type": "string",
+                "description": "Language region for the news, e.g., 'en-US'.",
+                "default": "en-US"
+            }
+        },
+        "required": [
+            "lr"
+        ]
+    }
+}

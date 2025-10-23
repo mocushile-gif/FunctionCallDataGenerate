@@ -1,0 +1,54 @@
+{
+    "{'datestring': '2022-10-15'}": {
+        "error": "",
+        "response": {
+            "day": 213
+        }
+    },
+    "{'datestring': 'today'}": {
+        "error": "",
+        "response": {
+            "day": null
+        }
+    },
+    "{'datestring': '2021-12-01'}": {
+        "error": "",
+        "response": {
+            "day": 260
+        }
+    },
+    "{'datestring': '06-27'}": {
+        "error": "",
+        "response": {
+            "day": null
+        }
+    },
+    "{'datestring': '2021-03-30'}": {
+        "error": "",
+        "response": {
+            "day": 14
+        }
+    },
+    "{'datestring': 'March 17, 2021'}": {
+        "error": "",
+        "response": {
+            "day": null
+        }
+    },
+    "{'datestring': '2025-06-02'}": {
+        "error": "",
+        "response": "{'day': 79}"
+    },
+    "{'datestring': '2025-06-11'}": {
+        "error": "",
+        "response": "{'day': 88}"
+    },
+    "{'datestring': '2025-06-14'}": {
+        "error": "",
+        "response": "{'day': 91}"
+    },
+    "{'datestring': '2025-06-23'}": {
+        "error": "",
+        "response": "{'day': 100}"
+    }
+}

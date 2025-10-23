@@ -1,0 +1,36 @@
+{
+    "name": "rentalizer",
+    "description": "This is a sub-function API for tool airdna.\nTool description: API for Short-Term Rental Data Analytics | Vrbo & Airbnb Data | Rentalizer\nAPI description: Fetches rental property data for a given address from the AirDNA Rentalizer API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "address": {
+                "type": "string",
+                "description": "The address of the property for which rental data is required.",
+                "default": "458 19th St, Santa Monica, CA 90402"
+            },
+            "bathrooms": {
+                "type": "number",
+                "description": "The number of bathrooms in the property. Defaults to 2.",
+                "default": 2.0
+            },
+            "accommodates": {
+                "type": "string",
+                "description": "The number of people the property can accommodate. Defaults to '2'.",
+                "default": "2"
+            },
+            "bedrooms": {
+                "type": "number",
+                "description": "The number of bedrooms in the property. Defaults to 2.",
+                "default": 2.0
+            },
+            "currency": {
+                "type": "string",
+                "description": "The preferred currency for financial data."
+            }
+        },
+        "required": [
+            "address"
+        ]
+    }
+}

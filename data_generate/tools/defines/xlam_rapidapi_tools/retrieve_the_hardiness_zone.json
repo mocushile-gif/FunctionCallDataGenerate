@@ -1,0 +1,17 @@
+{
+    "name": "retrieve_the_hardiness_zone",
+    "description": "This is a sub-function API for tool plant_hardiness_zone.\nTool description: Retrieve the USDA Plant Hardiness Zone for a ZIP code\nAPI description: Pass a ZIP code in the endpoint path to return an object that includes the ZIP code and USDA Plant Hardiness Zone.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "zipcode": {
+                "type": "string",
+                "description": "The ZIP code for which to retrieve the hardiness zone.",
+                "default": "90210"
+            }
+        },
+        "required": [
+            "zipcode"
+        ]
+    }
+}

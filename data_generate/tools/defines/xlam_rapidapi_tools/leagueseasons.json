@@ -1,0 +1,17 @@
+{
+    "name": "leagueseasons",
+    "description": "This is a sub-function API for tool esportapi.\nTool description: ESportApi offers eSports results for League of Legends, Dota 2, Counter-Strike providing also eSports standings and tournament live scores.\nFor increased rates and more sports, please look at: https://rapidapi.com/fluis.lacasse/api/allsportsapi2/\nAPI description: Fetches the seasons of a specific E-Sports league for a given tournament ID using the RapidAPI service.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "tournamentid": {
+                "type": "number",
+                "description": "The unique ID of the tournament for which the league's seasons are to be retrieved.",
+                "default": 16151
+            }
+        },
+        "required": [
+            "tournamentid"
+        ]
+    }
+}

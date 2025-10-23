@@ -1,0 +1,156 @@
+{
+    "{'text': 'Milan'}": {
+        "error": "",
+        "response": "{'data': {'geolocation': [{'type': 'google', 'id': {'id': 'ChIJ53USP0nBhkcRjQ50xhPN_zw', 'type': 'political'}, 'name': {'text': 'Milan, Metropolitan City of Milan, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJDYMynm9QgUcRggAD8frHdwE', 'type': 'establishment'}, 'name': {'text': 'Milan Bergamo Airport (BGY), Via Aeroporto, Orio al Serio, Province of Bergamo, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJaQQgfHa0LBMRMDUPkw6bBwo', 'type': 'political'}, 'name': {'text': 'Milano Marittima, Province of Ravenna, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJOWJsUarIhkcRYNL_HukulK8', 'type': 'point_of_interest'}, 'name': {'text': 'Milan Linate Airport (LIN), Viale Forlanini, Segrate, Metropolitan City of Milan, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJQdEbdyzbmUcRdP9oQSUv__A', 'type': 'shopping_mall'}, 'name': {'text': 'Milaneo, Mail\u00e4nder Platz, Stuttgart, Germany'}}]}}"
+    },
+    "{'text': 'restaurants in Milan'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "geolocation": []
+            }
+        }
+    },
+    "{'text': 'business meetings in Milan'}": {
+        "error": "",
+        "response": {
+            "data": {
+                "geolocation": [
+                    {
+                        "type": "google",
+                        "id": {
+                            "id": "EkpNaWxhbiBTdWJ3YXkgUm9hZCwgUHJhYmhhdCBDb2xvbnksIFNhbnRhY3J1eiBFYXN0LCBNdW1iYWksIE1haGFyYXNodHJhLCBJTiIuKiwKFAoSCR3sgqmvyec7EdHvRQZV2IXPEhQKEglz-fg-qcnnOxEycgKseiuNyw",
+                            "type": "route"
+                        },
+                        "name": {
+                            "text": "Milan Subway Road, Prabhat Colony, Santacruz East, Mumbai, Maharashtra, IN"
+                        }
+                    },
+                    {
+                        "type": "google",
+                        "id": {
+                            "id": "ChIJHfwwZJdkaogR-0S8gDr6uaE",
+                            "type": "locality"
+                        },
+                        "name": {
+                            "text": "Milan, IN, USA"
+                        }
+                    },
+                    {
+                        "type": "google",
+                        "id": {
+                            "id": "ChIJ7aVcnz3-DDkRkkV6F2npQYA",
+                            "type": "sublocality_level_2"
+                        },
+                        "name": {
+                            "text": "Milan Vihar, Wazirabad, Delhi, IN"
+                        }
+                    },
+                    {
+                        "type": "google",
+                        "id": {
+                            "id": "ChIJ6amsJSLjYjkRJr80DnsvURs",
+                            "type": "sublocality_level_1"
+                        },
+                        "name": {
+                            "text": "Milan Heights, Indore, Madhya Pradesh, IN"
+                        }
+                    },
+                    {
+                        "type": "google",
+                        "id": {
+                            "id": "ChIJQxzhrO3-DDkRvGimVUnmJsY",
+                            "type": "sublocality_level_3"
+                        },
+                        "name": {
+                            "text": "Milan Garden, Sabhapur, Delhi, IN"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "{'text': 'Milan', 'latitude': 45.4642, 'longitude': 9.19}": {
+        "error": "",
+        "response": {
+            "data": {
+                "geolocation": [
+                    {
+                        "type": "google",
+                        "id": {
+                            "id": "ChIJ53USP0nBhkcRjQ50xhPN_zw",
+                            "type": "locality"
+                        },
+                        "name": {
+                            "text": "Milan, Metropolitan City of Milan, Italy"
+                        }
+                    },
+                    {
+                        "type": "google",
+                        "id": {
+                            "id": "ChIJaQQgfHa0LBMRMDUPkw6bBwo",
+                            "type": "locality"
+                        },
+                        "name": {
+                            "text": "Milano Marittima, Province of Ravenna, Italy"
+                        }
+                    },
+                    {
+                        "type": "google",
+                        "id": {
+                            "id": "ChIJt6eEfHVhhkcR_n7HoFcK8aM",
+                            "type": "airport"
+                        },
+                        "name": {
+                            "text": "Milan Malpensa Airport, Ferno, VA, Italy"
+                        }
+                    },
+                    {
+                        "type": "google",
+                        "id": {
+                            "id": "ChIJDYMynm9QgUcRggAD8frHdwE",
+                            "type": "airport"
+                        },
+                        "name": {
+                            "text": "Milan Bergamo Airport (BGY), Province of Bergamo, Italy"
+                        }
+                    },
+                    {
+                        "type": "google",
+                        "id": {
+                            "id": "ChIJlduiODLChkcRUH5mLgJ4BgM",
+                            "type": "administrative_area_level_2"
+                        },
+                        "name": {
+                            "text": "Milan, Italy"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "{'text': 'Shibuya', 'latitude': 35.6585, 'longitude': 139.7455}": {
+        "error": "",
+        "response": "{'data': {'geolocation': [{'type': 'google', 'id': {'id': 'ChIJ0Qgx67KMGGARd2ZbObLZHPE', 'type': 'geocode'}, 'name': {'text': 'Shibuya, Tokyo, Japan'}}, {'type': 'google', 'id': {'id': 'ChIJhxxszamMGGARcuAXpFunolU', 'type': 'establishment'}, 'name': {'text': 'SHIBUYA109, 2 Chome-29-1 Dogenzaka, Shibuya, Tokyo, Japan'}}]}}"
+    },
+    "{'text': 'Milan', 'latitude': 40.7128, 'longitude': -74.006}": {
+        "error": "",
+        "response": "{'data': {'geolocation': [{'type': 'google', 'id': {'id': 'ChIJ53USP0nBhkcRjQ50xhPN_zw', 'type': 'locality'}, 'name': {'text': 'Milan, Metropolitan City of Milan, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJDYMynm9QgUcRggAD8frHdwE', 'type': 'point_of_interest'}, 'name': {'text': 'Milan Bergamo Airport (BGY), Via Aeroporto, Orio al Serio, Province of Bergamo, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJaQQgfHa0LBMRMDUPkw6bBwo', 'type': 'locality'}, 'name': {'text': 'Milano Marittima, Province of Ravenna, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJOWJsUarIhkcRYNL_HukulK8', 'type': 'point_of_interest'}, 'name': {'text': 'Milan Linate Airport (LIN), Viale Forlanini, Segrate, Metropolitan City of Milan, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJQdEbdyzbmUcRdP9oQSUv__A', 'type': 'establishment'}, 'name': {'text': 'Milaneo, Mail\u00e4nder Platz, Stuttgart, Germany'}}]}}"
+    },
+    "{'text': 'Milan', 'latitude': 48.8566, 'longitude': 2.3522}": {
+        "error": "",
+        "response": "{'data': {'geolocation': [{'type': 'google', 'id': {'id': 'ChIJ53USP0nBhkcRjQ50xhPN_zw', 'type': 'political'}, 'name': {'text': 'Milan, Metropolitan City of Milan, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJDYMynm9QgUcRggAD8frHdwE', 'type': 'point_of_interest'}, 'name': {'text': 'Milan Bergamo Airport (BGY), Via Aeroporto, Orio al Serio, Province of Bergamo, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJaQQgfHa0LBMRMDUPkw6bBwo', 'type': 'political'}, 'name': {'text': 'Milano Marittima, Province of Ravenna, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJOWJsUarIhkcRYNL_HukulK8', 'type': 'establishment'}, 'name': {'text': 'Milan Linate Airport (LIN), Viale Forlanini, Segrate, Metropolitan City of Milan, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJQdEbdyzbmUcRdP9oQSUv__A', 'type': 'establishment'}, 'name': {'text': 'Milaneo, Mail\u00e4nder Platz, Stuttgart, Germany'}}]}}"
+    },
+    "{'text': 'Milan', 'latitude': 35.6762, 'longitude': 139.6503}": {
+        "error": "",
+        "response": "{'data': {'geolocation': [{'type': 'google', 'id': {'id': 'ChIJ53USP0nBhkcRjQ50xhPN_zw', 'type': 'locality'}, 'name': {'text': 'Milan, Metropolitan City of Milan, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJDYMynm9QgUcRggAD8frHdwE', 'type': 'establishment'}, 'name': {'text': 'Milan Bergamo Airport (BGY), Via Aeroporto, Orio al Serio, Province of Bergamo, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJaQQgfHa0LBMRMDUPkw6bBwo', 'type': 'locality'}, 'name': {'text': 'Milano Marittima, Province of Ravenna, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJOWJsUarIhkcRYNL_HukulK8', 'type': 'establishment'}, 'name': {'text': 'Milan Linate Airport (LIN), Viale Forlanini, Segrate, Metropolitan City of Milan, Italy'}}, {'type': 'google', 'id': {'id': 'ChIJQdEbdyzbmUcRdP9oQSUv__A', 'type': 'shopping_mall'}, 'name': {'text': 'Milaneo, Mail\u00e4nder Platz, Stuttgart, Germany'}}]}}"
+    },
+    "{'text': 'music venues Milan', 'latitude': 45.4642, 'longitude': 9.19}": {
+        "error": "",
+        "response": "{'data': {'geolocation': []}}"
+    },
+    "{'text': 'quiet restaurants Milan'}": {
+        "error": "",
+        "response": "{'data': {'geolocation': []}}"
+    }
+}

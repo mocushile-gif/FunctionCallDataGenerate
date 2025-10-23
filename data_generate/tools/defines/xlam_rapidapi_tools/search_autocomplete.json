@@ -1,0 +1,17 @@
+{
+    "name": "search_autocomplete",
+    "description": "This is a sub-function API for tool target_com_shopping_api.\nTool description: Realtime APIs support entire shopping flow on Target.com.\n(Free trial enabled)\n\nAPI description: Fetches product autocompletion suggestions based on a search keyword.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "q": {
+                "type": "string",
+                "description": "The search keyword for which to get autocompletion suggestions.",
+                "default": "tv"
+            }
+        },
+        "required": [
+            "q"
+        ]
+    }
+}

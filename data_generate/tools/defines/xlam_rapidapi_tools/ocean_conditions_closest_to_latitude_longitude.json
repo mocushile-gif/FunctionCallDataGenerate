@@ -1,0 +1,23 @@
+{
+    "name": "ocean_conditions_closest_to_latitude_longitude",
+    "description": "This is a sub-function API for tool wavebase.\nTool description: Wave, Weather and Tide Conditions for any spot on the Ocean Surface.\n\nXYZ Tiles for Global Wave Conditions\n\nhttps://wavebase.app\nAPI description: ​https://api.wavebase.app/v4/conditions/search/{latitude}/{longitude}\n\nSearch for current and predicted ocean conditions closest to a given latitude/longitude.\n\nReturned conditions include the closest point found, along with Waves, Tides and Weather conditions are the location.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "latitude": {
+                "type": "number",
+                "description": "The latitude coordinate of the location.",
+                "default": 52.8
+            },
+            "longitude": {
+                "type": "number",
+                "description": "The longitude coordinate of the location.",
+                "default": -4.07
+            }
+        },
+        "required": [
+            "latitude",
+            "longitude"
+        ]
+    }
+}

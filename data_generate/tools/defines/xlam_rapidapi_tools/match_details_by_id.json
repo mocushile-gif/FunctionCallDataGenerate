@@ -1,0 +1,17 @@
+{
+    "name": "match_details_by_id",
+    "description": "This is a sub-function API for tool serie_a.\nTool description: Serie a API! Here you can find all the info you need about the Serie A, the Italian football league among the best ones all over the world. You can ask for team statistics, players statistics and also for info about upcoming matches, also including live scores, live formations, live stats and much more. You can easily build your Serie A related portal or enhance your Ml/AI projects. \nAPI description: Via this endpoint, you can retrieve the match details given a certain Match Id. Match Ids can be obtained through the Matches List endpoint. You can also query for live matches and for matches played starting from 1990.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "match_id": {
+                "type": "string",
+                "description": "The unique identifier for a specific match.",
+                "default": "2022-34-INTROM"
+            }
+        },
+        "required": [
+            "match_id"
+        ]
+    }
+}

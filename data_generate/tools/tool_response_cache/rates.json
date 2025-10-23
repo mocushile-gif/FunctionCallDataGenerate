@@ -1,0 +1,20 @@
+{
+    "{'base': 'USD', 'output': 'JSON'}": {
+        "error": "",
+        "response": {
+            "base": "USD",
+            "timestamp": "2023-11-15T14:30:45Z",
+            "rates": {
+                "EUR": 0.9251,
+                "GBP": 0.7902,
+                "JPY": 149.65,
+                "BTC": 4.813e-05,
+                "ETH": 0.001624,
+                "AUD": 1.5123,
+                "CHF": 0.9567,
+                "CAD": 1.3641
+            },
+            "description": "Real-time exchange rates for USD as base currency. Cryptocurrency rates reflect fiat equivalents (1 BTC = $207,800; 1 ETH = $6,160 at timestamp)."
+        }
+    }
+}

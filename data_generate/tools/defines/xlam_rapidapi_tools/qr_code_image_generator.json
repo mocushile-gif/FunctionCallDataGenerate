@@ -1,0 +1,17 @@
+{
+    "name": "qr_code_image_generator",
+    "description": "This is a sub-function API for tool qr_code_generator_api_v6.\nTool description: QR code generator API is a tool that enables developers to generate QR codes within their applications.\nAPI description: A QR code generator API is a tool that enables developers to generate QR codes within their applications. QR codes are two-dimensional barcodes that can be scanned using a smartphone camera and decoded using QR code reader software. The API allows developers to easily integrate QR code generation functionality into their existing applications, such as mobile apps, web apps, and software.\n\nThis API can be used to generate QR codes for a variety of purposes, such as:\n\nContact information: Generate a QR code c",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL to be encoded in the QR code. Defaults to 'www.google.com'.",
+                "default": "https://rapidapi.com"
+            }
+        },
+        "required": [
+            "url"
+        ]
+    }
+}

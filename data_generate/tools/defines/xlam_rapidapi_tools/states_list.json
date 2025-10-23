@@ -1,0 +1,35 @@
+{
+    "name": "states_list",
+    "description": "This is a sub-function API for tool city_and_state_search_api.\nTool description: A easy-to-use API for search cities, states, and countries from around the world.\nAPI description: This endpoint returns a list of States .It returns basic information about each state, such as name, code, and country. You can also use this endpoint to retrieve a list of states filtered by various criteria such as country.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "country_id": {
+                "type": "string",
+                "description": "The ID of the country to filter states by."
+            },
+            "sortorder": {
+                "type": "string",
+                "description": "The order in which to sort the results. Can be 'asc' for ascending or 'desc' for descending."
+            },
+            "sortby": {
+                "type": "string",
+                "description": "The field by which to sort the results (e.g., 'name', 'code')."
+            },
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to retrieve."
+            },
+            "country_code": {
+                "type": "string",
+                "description": "The code of the country to filter states by. Defaults to 'IN'.",
+                "default": "IN"
+            },
+            "country_name": {
+                "type": "string",
+                "description": "The name of the country to filter states by."
+            }
+        },
+        "required": []
+    }
+}

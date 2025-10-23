@@ -1,0 +1,1324 @@
+{
+    "{}": {
+        "error": "",
+        "response": {
+            "lat": "37.81021N",
+            "lon": "122.42282W",
+            "elevation": 0,
+            "units": "us",
+            "statistics": {
+                "data": [
+                    {
+                        "day": "2023-07-02",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.1,
+                            "avg_max": 65.4,
+                            "record_min": 51.5,
+                            "record_max": 77.6
+                        },
+                        "wind": {
+                            "avg_speed": 9.0,
+                            "avg_angle": 262,
+                            "avg_dir": "W",
+                            "max_speed": 19.8,
+                            "max_gust": 34.1
+                        },
+                        "precipitation": {
+                            "avg": 0.01,
+                            "probability": 2
+                        }
+                    },
+                    {
+                        "day": "2023-07-03",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.1,
+                            "avg_max": 65.4,
+                            "record_min": 51.5,
+                            "record_max": 72.7
+                        },
+                        "wind": {
+                            "avg_speed": 9.1,
+                            "avg_angle": 262,
+                            "avg_dir": "W",
+                            "max_speed": 19.5,
+                            "max_gust": 34.2
+                        },
+                        "precipitation": {
+                            "avg": 0.001,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-04",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.1,
+                            "avg_max": 65.9,
+                            "record_min": 51.1,
+                            "record_max": 73.6
+                        },
+                        "wind": {
+                            "avg_speed": 9.2,
+                            "avg_angle": 262,
+                            "avg_dir": "W",
+                            "max_speed": 19.3,
+                            "max_gust": 33.2
+                        },
+                        "precipitation": {
+                            "avg": 0.002,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-05",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.1,
+                            "avg_max": 65.9,
+                            "record_min": 52.0,
+                            "record_max": 74.0
+                        },
+                        "wind": {
+                            "avg_speed": 9.2,
+                            "avg_angle": 260,
+                            "avg_dir": "W",
+                            "max_speed": 17.9,
+                            "max_gust": 29.4
+                        },
+                        "precipitation": {
+                            "avg": 0.002,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-06",
+                        "temperature": {
+                            "avg": 59.2,
+                            "avg_min": 54.7,
+                            "avg_max": 65.4,
+                            "record_min": 52.0,
+                            "record_max": 74.0
+                        },
+                        "wind": {
+                            "avg_speed": 9.2,
+                            "avg_angle": 260,
+                            "avg_dir": "W",
+                            "max_speed": 21.0,
+                            "max_gust": 34.9
+                        },
+                        "precipitation": {
+                            "avg": 0.002,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-07",
+                        "temperature": {
+                            "avg": 59.2,
+                            "avg_min": 54.7,
+                            "avg_max": 65.4,
+                            "record_min": 50.2,
+                            "record_max": 74.0
+                        },
+                        "wind": {
+                            "avg_speed": 9.1,
+                            "avg_angle": 263,
+                            "avg_dir": "W",
+                            "max_speed": 18.5,
+                            "max_gust": 34.7
+                        },
+                        "precipitation": {
+                            "avg": 0.002,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-08",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.1,
+                            "avg_max": 66.4,
+                            "record_min": 51.1,
+                            "record_max": 76.2
+                        },
+                        "wind": {
+                            "avg_speed": 9.0,
+                            "avg_angle": 262,
+                            "avg_dir": "W",
+                            "max_speed": 19.8,
+                            "max_gust": 35.3
+                        },
+                        "precipitation": {
+                            "avg": 0.002,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-09",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.1,
+                            "avg_max": 65.9,
+                            "record_min": 51.1,
+                            "record_max": 74.9
+                        },
+                        "wind": {
+                            "avg_speed": 8.8,
+                            "avg_angle": 260,
+                            "avg_dir": "W",
+                            "max_speed": 19.1,
+                            "max_gust": 34.0
+                        },
+                        "precipitation": {
+                            "avg": 0.003,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-10",
+                        "temperature": {
+                            "avg": 60.1,
+                            "avg_min": 55.6,
+                            "avg_max": 66.4,
+                            "record_min": 52.0,
+                            "record_max": 78.5
+                        },
+                        "wind": {
+                            "avg_speed": 8.7,
+                            "avg_angle": 262,
+                            "avg_dir": "W",
+                            "max_speed": 18.9,
+                            "max_gust": 32.5
+                        },
+                        "precipitation": {
+                            "avg": 0.003,
+                            "probability": 2
+                        }
+                    },
+                    {
+                        "day": "2023-07-11",
+                        "temperature": {
+                            "avg": 60.1,
+                            "avg_min": 55.6,
+                            "avg_max": 66.4,
+                            "record_min": 52.4,
+                            "record_max": 80.8
+                        },
+                        "wind": {
+                            "avg_speed": 8.9,
+                            "avg_angle": 259,
+                            "avg_dir": "W",
+                            "max_speed": 18.2,
+                            "max_gust": 32.1
+                        },
+                        "precipitation": {
+                            "avg": 0.002,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-12",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.6,
+                            "avg_max": 65.9,
+                            "record_min": 52.4,
+                            "record_max": 75.4
+                        },
+                        "wind": {
+                            "avg_speed": 8.7,
+                            "avg_angle": 260,
+                            "avg_dir": "W",
+                            "max_speed": 18.0,
+                            "max_gust": 29.2
+                        },
+                        "precipitation": {
+                            "avg": 0.002,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-13",
+                        "temperature": {
+                            "avg": 60.1,
+                            "avg_min": 55.6,
+                            "avg_max": 66.8,
+                            "record_min": 52.9,
+                            "record_max": 73.6
+                        },
+                        "wind": {
+                            "avg_speed": 8.4,
+                            "avg_angle": 262,
+                            "avg_dir": "W",
+                            "max_speed": 17.6,
+                            "max_gust": 28.7
+                        },
+                        "precipitation": {
+                            "avg": 0.003,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-14",
+                        "temperature": {
+                            "avg": 60.1,
+                            "avg_min": 55.6,
+                            "avg_max": 65.9,
+                            "record_min": 53.3,
+                            "record_max": 75.4
+                        },
+                        "wind": {
+                            "avg_speed": 8.6,
+                            "avg_angle": 260,
+                            "avg_dir": "W",
+                            "max_speed": 17.9,
+                            "max_gust": 29.7
+                        },
+                        "precipitation": {
+                            "avg": 0.002,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-15",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.6,
+                            "avg_max": 66.4,
+                            "record_min": 52.4,
+                            "record_max": 77.6
+                        },
+                        "wind": {
+                            "avg_speed": 8.6,
+                            "avg_angle": 255,
+                            "avg_dir": "WSW",
+                            "max_speed": 18.1,
+                            "max_gust": 32.0
+                        },
+                        "precipitation": {
+                            "avg": 0.002,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-16",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 56.0,
+                            "avg_max": 65.4,
+                            "record_min": 52.0,
+                            "record_max": 75.8
+                        },
+                        "wind": {
+                            "avg_speed": 9.1,
+                            "avg_angle": 255,
+                            "avg_dir": "WSW",
+                            "max_speed": 20.4,
+                            "max_gust": 33.9
+                        },
+                        "precipitation": {
+                            "avg": 0.003,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-17",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.6,
+                            "avg_max": 65.4,
+                            "record_min": 52.0,
+                            "record_max": 79.9
+                        },
+                        "wind": {
+                            "avg_speed": 8.9,
+                            "avg_angle": 257,
+                            "avg_dir": "WSW",
+                            "max_speed": 24.1,
+                            "max_gust": 39.0
+                        },
+                        "precipitation": {
+                            "avg": 0.003,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-18",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.6,
+                            "avg_max": 65.9,
+                            "record_min": 52.4,
+                            "record_max": 74.9
+                        },
+                        "wind": {
+                            "avg_speed": 8.4,
+                            "avg_angle": 256,
+                            "avg_dir": "WSW",
+                            "max_speed": 21.2,
+                            "max_gust": 36.0
+                        },
+                        "precipitation": {
+                            "avg": 0.003,
+                            "probability": 2
+                        }
+                    },
+                    {
+                        "day": "2023-07-19",
+                        "temperature": {
+                            "avg": 60.1,
+                            "avg_min": 56.0,
+                            "avg_max": 65.9,
+                            "record_min": 50.6,
+                            "record_max": 75.4
+                        },
+                        "wind": {
+                            "avg_speed": 8.2,
+                            "avg_angle": 258,
+                            "avg_dir": "WSW",
+                            "max_speed": 17.0,
+                            "max_gust": 30.4
+                        },
+                        "precipitation": {
+                            "avg": 0.01,
+                            "probability": 2
+                        }
+                    },
+                    {
+                        "day": "2023-07-20",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.6,
+                            "avg_max": 65.4,
+                            "record_min": 51.1,
+                            "record_max": 74.4
+                        },
+                        "wind": {
+                            "avg_speed": 8.6,
+                            "avg_angle": 258,
+                            "avg_dir": "WSW",
+                            "max_speed": 17.0,
+                            "max_gust": 30.1
+                        },
+                        "precipitation": {
+                            "avg": 0.004,
+                            "probability": 2
+                        }
+                    },
+                    {
+                        "day": "2023-07-21",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.6,
+                            "avg_max": 65.4,
+                            "record_min": 52.0,
+                            "record_max": 73.1
+                        },
+                        "wind": {
+                            "avg_speed": 8.4,
+                            "avg_angle": 256,
+                            "avg_dir": "WSW",
+                            "max_speed": 17.8,
+                            "max_gust": 29.3
+                        },
+                        "precipitation": {
+                            "avg": 0.003,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-22",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.6,
+                            "avg_max": 65.9,
+                            "record_min": 52.9,
+                            "record_max": 78.9
+                        },
+                        "wind": {
+                            "avg_speed": 8.3,
+                            "avg_angle": 255,
+                            "avg_dir": "WSW",
+                            "max_speed": 20.1,
+                            "max_gust": 33.5
+                        },
+                        "precipitation": {
+                            "avg": 0.004,
+                            "probability": 2
+                        }
+                    },
+                    {
+                        "day": "2023-07-23",
+                        "temperature": {
+                            "avg": 60.1,
+                            "avg_min": 56.0,
+                            "avg_max": 65.9,
+                            "record_min": 52.0,
+                            "record_max": 76.2
+                        },
+                        "wind": {
+                            "avg_speed": 8.0,
+                            "avg_angle": 256,
+                            "avg_dir": "WSW",
+                            "max_speed": 20.0,
+                            "max_gust": 33.5
+                        },
+                        "precipitation": {
+                            "avg": 0.004,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-24",
+                        "temperature": {
+                            "avg": 60.1,
+                            "avg_min": 56.0,
+                            "avg_max": 65.9,
+                            "record_min": 52.0,
+                            "record_max": 74.4
+                        },
+                        "wind": {
+                            "avg_speed": 8.1,
+                            "avg_angle": 256,
+                            "avg_dir": "WSW",
+                            "max_speed": 16.2,
+                            "max_gust": 26.8
+                        },
+                        "precipitation": {
+                            "avg": 0.002,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-25",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.6,
+                            "avg_max": 65.9,
+                            "record_min": 51.5,
+                            "record_max": 76.7
+                        },
+                        "wind": {
+                            "avg_speed": 8.3,
+                            "avg_angle": 256,
+                            "avg_dir": "WSW",
+                            "max_speed": 17.4,
+                            "max_gust": 28.9
+                        },
+                        "precipitation": {
+                            "avg": 0.002,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-26",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.6,
+                            "avg_max": 66.4,
+                            "record_min": 52.4,
+                            "record_max": 75.4
+                        },
+                        "wind": {
+                            "avg_speed": 8.0,
+                            "avg_angle": 253,
+                            "avg_dir": "WSW",
+                            "max_speed": 20.8,
+                            "max_gust": 32.0
+                        },
+                        "precipitation": {
+                            "avg": 0.003,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-27",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.1,
+                            "avg_max": 65.4,
+                            "record_min": 52.9,
+                            "record_max": 74.0
+                        },
+                        "wind": {
+                            "avg_speed": 7.9,
+                            "avg_angle": 253,
+                            "avg_dir": "WSW",
+                            "max_speed": 17.8,
+                            "max_gust": 31.0
+                        },
+                        "precipitation": {
+                            "avg": 0.003,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-28",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.6,
+                            "avg_max": 65.4,
+                            "record_min": 52.0,
+                            "record_max": 76.2
+                        },
+                        "wind": {
+                            "avg_speed": 8.1,
+                            "avg_angle": 254,
+                            "avg_dir": "WSW",
+                            "max_speed": 16.7,
+                            "max_gust": 28.2
+                        },
+                        "precipitation": {
+                            "avg": 0.003,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-29",
+                        "temperature": {
+                            "avg": 59.2,
+                            "avg_min": 55.6,
+                            "avg_max": 65.4,
+                            "record_min": 52.9,
+                            "record_max": 74.0
+                        },
+                        "wind": {
+                            "avg_speed": 8.4,
+                            "avg_angle": 256,
+                            "avg_dir": "WSW",
+                            "max_speed": 16.7,
+                            "max_gust": 29.4
+                        },
+                        "precipitation": {
+                            "avg": 0.004,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-30",
+                        "temperature": {
+                            "avg": 59.6,
+                            "avg_min": 55.6,
+                            "avg_max": 65.9,
+                            "record_min": 52.9,
+                            "record_max": 79.4
+                        },
+                        "wind": {
+                            "avg_speed": 8.1,
+                            "avg_angle": 256,
+                            "avg_dir": "WSW",
+                            "max_speed": 17.5,
+                            "max_gust": 30.7
+                        },
+                        "precipitation": {
+                            "avg": 0.003,
+                            "probability": 0
+                        }
+                    },
+                    {
+                        "day": "2023-07-31",
+                        "temperature": {
+                            "avg": 60.1,
+                            "avg_min": 56.0,
+                            "avg_max": 65.9,
+                            "record_min": 52.9,
+                            "record_max": 79.9
+                        },
+                        "wind": {
+                            "avg_speed": 8.2,
+                            "avg_angle": 258,
+                            "avg_dir": "WSW",
+                            "max_speed": 18.0,
+                            "max_gust": 30.7
+                        },
+                        "precipitation": {
+                            "avg": 0.003,
+                            "probability": 0
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "{'place_id': 'saint-louis-heights-5853603'}": {
+        "error": "",
+        "response": {
+            "detail": "Either place_id, or lat+lon must be specified"
+        }
+    },
+    "{'place_id': 'honolulu'}": {
+        "error": "",
+        "response": {
+            "detail": "Either place_id, or lat+lon must be specified"
+        }
+    },
+    "{'lat': 21.3069, 'lon': -157.833}": {
+        "error": "",
+        "response": {
+            "lat": "21.3069N",
+            "lon": "157.833W",
+            "elevation": 128,
+            "units": "us",
+            "statistics": {
+                "data": [
+                    {
+                        "day": "2023-08-24",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 75.4,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 17.0,
+                            "avg_angle": 72,
+                            "avg_dir": "ENE",
+                            "max_speed": 30.2,
+                            "max_gust": 42.8
+                        },
+                        "precipitation": {
+                            "avg": 0.09,
+                            "probability": 12
+                        }
+                    },
+                    {
+                        "day": "2023-08-25",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 74.9,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 17.2,
+                            "avg_angle": 72,
+                            "avg_dir": "ENE",
+                            "max_speed": 31.8,
+                            "max_gust": 45.9
+                        },
+                        "precipitation": {
+                            "avg": 0.03,
+                            "probability": 9
+                        }
+                    },
+                    {
+                        "day": "2023-08-26",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.6,
+                            "avg_max": 79.9,
+                            "record_min": 74.9,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 17.5,
+                            "avg_angle": 71,
+                            "avg_dir": "ENE",
+                            "max_speed": 28.0,
+                            "max_gust": 40.2
+                        },
+                        "precipitation": {
+                            "avg": 0.01,
+                            "probability": 7
+                        }
+                    },
+                    {
+                        "day": "2023-08-27",
+                        "temperature": {
+                            "avg": 78.1,
+                            "avg_min": 77.2,
+                            "avg_max": 79.4,
+                            "record_min": 74.9,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 17.5,
+                            "avg_angle": 66,
+                            "avg_dir": "ENE",
+                            "max_speed": 26.4,
+                            "max_gust": 38.6
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 14
+                        }
+                    },
+                    {
+                        "day": "2023-08-28",
+                        "temperature": {
+                            "avg": 78.1,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 74.9,
+                            "record_max": 83.4
+                        },
+                        "wind": {
+                            "avg_speed": 16.3,
+                            "avg_angle": 66,
+                            "avg_dir": "ENE",
+                            "max_speed": 25.9,
+                            "max_gust": 38.5
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 19
+                        }
+                    },
+                    {
+                        "day": "2023-08-29",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 75.4,
+                            "record_max": 83.9
+                        },
+                        "wind": {
+                            "avg_speed": 16.7,
+                            "avg_angle": 67,
+                            "avg_dir": "ENE",
+                            "max_speed": 24.0,
+                            "max_gust": 36.2
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 12
+                        }
+                    },
+                    {
+                        "day": "2023-08-30",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 75.4,
+                            "record_max": 83.0
+                        },
+                        "wind": {
+                            "avg_speed": 16.7,
+                            "avg_angle": 69,
+                            "avg_dir": "ENE",
+                            "max_speed": 25.5,
+                            "max_gust": 34.3
+                        },
+                        "precipitation": {
+                            "avg": 0.01,
+                            "probability": 7
+                        }
+                    },
+                    {
+                        "day": "2023-08-31",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 75.4,
+                            "record_max": 83.0
+                        },
+                        "wind": {
+                            "avg_speed": 17.1,
+                            "avg_angle": 70,
+                            "avg_dir": "ENE",
+                            "max_speed": 25.6,
+                            "max_gust": 37.7
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 17
+                        }
+                    },
+                    {
+                        "day": "2023-09-01",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.6,
+                            "avg_max": 79.9,
+                            "record_min": 75.4,
+                            "record_max": 83.9
+                        },
+                        "wind": {
+                            "avg_speed": 17.2,
+                            "avg_angle": 69,
+                            "avg_dir": "ENE",
+                            "max_speed": 28.8,
+                            "max_gust": 43.3
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 12
+                        }
+                    },
+                    {
+                        "day": "2023-09-02",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 74.9,
+                            "record_max": 84.4
+                        },
+                        "wind": {
+                            "avg_speed": 16.2,
+                            "avg_angle": 68,
+                            "avg_dir": "ENE",
+                            "max_speed": 26.2,
+                            "max_gust": 38.8
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 12
+                        }
+                    },
+                    {
+                        "day": "2023-09-03",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 74.4,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 16.1,
+                            "avg_angle": 71,
+                            "avg_dir": "ENE",
+                            "max_speed": 25.5,
+                            "max_gust": 37.5
+                        },
+                        "precipitation": {
+                            "avg": 0.03,
+                            "probability": 12
+                        }
+                    },
+                    {
+                        "day": "2023-09-04",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.6,
+                            "avg_max": 79.9,
+                            "record_min": 74.9,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 15.8,
+                            "avg_angle": 70,
+                            "avg_dir": "ENE",
+                            "max_speed": 26.3,
+                            "max_gust": 37.8
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 9
+                        }
+                    },
+                    {
+                        "day": "2023-09-05",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 74.0,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 16.4,
+                            "avg_angle": 67,
+                            "avg_dir": "ENE",
+                            "max_speed": 24.1,
+                            "max_gust": 34.7
+                        },
+                        "precipitation": {
+                            "avg": 0.03,
+                            "probability": 7
+                        }
+                    },
+                    {
+                        "day": "2023-09-06",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 74.0,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 15.9,
+                            "avg_angle": 68,
+                            "avg_dir": "ENE",
+                            "max_speed": 25.5,
+                            "max_gust": 38.0
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 14
+                        }
+                    },
+                    {
+                        "day": "2023-09-07",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 73.6,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 15.9,
+                            "avg_angle": 72,
+                            "avg_dir": "ENE",
+                            "max_speed": 25.6,
+                            "max_gust": 36.4
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 14
+                        }
+                    },
+                    {
+                        "day": "2023-09-08",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.6,
+                            "avg_max": 79.9,
+                            "record_min": 74.4,
+                            "record_max": 83.0
+                        },
+                        "wind": {
+                            "avg_speed": 16.6,
+                            "avg_angle": 68,
+                            "avg_dir": "ENE",
+                            "max_speed": 25.3,
+                            "max_gust": 37.3
+                        },
+                        "precipitation": {
+                            "avg": 0.01,
+                            "probability": 4
+                        }
+                    },
+                    {
+                        "day": "2023-09-09",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.6,
+                            "avg_max": 79.9,
+                            "record_min": 74.4,
+                            "record_max": 83.9
+                        },
+                        "wind": {
+                            "avg_speed": 16.2,
+                            "avg_angle": 70,
+                            "avg_dir": "ENE",
+                            "max_speed": 25.8,
+                            "max_gust": 38.2
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 12
+                        }
+                    },
+                    {
+                        "day": "2023-09-10",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.6,
+                            "avg_max": 79.9,
+                            "record_min": 75.4,
+                            "record_max": 83.9
+                        },
+                        "wind": {
+                            "avg_speed": 15.8,
+                            "avg_angle": 70,
+                            "avg_dir": "ENE",
+                            "max_speed": 28.5,
+                            "max_gust": 38.9
+                        },
+                        "precipitation": {
+                            "avg": 0.01,
+                            "probability": 7
+                        }
+                    },
+                    {
+                        "day": "2023-09-11",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 75.4,
+                            "record_max": 82.1
+                        },
+                        "wind": {
+                            "avg_speed": 15.4,
+                            "avg_angle": 72,
+                            "avg_dir": "ENE",
+                            "max_speed": 38.5,
+                            "max_gust": 49.1
+                        },
+                        "precipitation": {
+                            "avg": 0.03,
+                            "probability": 19
+                        }
+                    },
+                    {
+                        "day": "2023-09-12",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 75.4,
+                            "record_max": 83.0
+                        },
+                        "wind": {
+                            "avg_speed": 15.1,
+                            "avg_angle": 68,
+                            "avg_dir": "ENE",
+                            "max_speed": 37.8,
+                            "max_gust": 50.0
+                        },
+                        "precipitation": {
+                            "avg": 0.03,
+                            "probability": 26
+                        }
+                    },
+                    {
+                        "day": "2023-09-13",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 75.4,
+                            "record_max": 83.0
+                        },
+                        "wind": {
+                            "avg_speed": 14.8,
+                            "avg_angle": 71,
+                            "avg_dir": "ENE",
+                            "max_speed": 27.0,
+                            "max_gust": 34.6
+                        },
+                        "precipitation": {
+                            "avg": 0.04,
+                            "probability": 21
+                        }
+                    },
+                    {
+                        "day": "2023-09-14",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 75.4,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 15.0,
+                            "avg_angle": 67,
+                            "avg_dir": "ENE",
+                            "max_speed": 24.6,
+                            "max_gust": 34.0
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 12
+                        }
+                    },
+                    {
+                        "day": "2023-09-15",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 74.4,
+                            "record_max": 83.0
+                        },
+                        "wind": {
+                            "avg_speed": 14.8,
+                            "avg_angle": 72,
+                            "avg_dir": "ENE",
+                            "max_speed": 25.3,
+                            "max_gust": 36.0
+                        },
+                        "precipitation": {
+                            "avg": 0.03,
+                            "probability": 19
+                        }
+                    },
+                    {
+                        "day": "2023-09-16",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.6,
+                            "avg_max": 79.9,
+                            "record_min": 74.9,
+                            "record_max": 83.0
+                        },
+                        "wind": {
+                            "avg_speed": 16.2,
+                            "avg_angle": 69,
+                            "avg_dir": "ENE",
+                            "max_speed": 25.2,
+                            "max_gust": 37.2
+                        },
+                        "precipitation": {
+                            "avg": 0.03,
+                            "probability": 17
+                        }
+                    },
+                    {
+                        "day": "2023-09-17",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.6,
+                            "avg_max": 79.9,
+                            "record_min": 74.9,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 16.9,
+                            "avg_angle": 69,
+                            "avg_dir": "ENE",
+                            "max_speed": 24.8,
+                            "max_gust": 36.5
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 9
+                        }
+                    },
+                    {
+                        "day": "2023-09-18",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.6,
+                            "avg_max": 79.9,
+                            "record_min": 74.9,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 17.1,
+                            "avg_angle": 70,
+                            "avg_dir": "ENE",
+                            "max_speed": 25.4,
+                            "max_gust": 36.3
+                        },
+                        "precipitation": {
+                            "avg": 0.01,
+                            "probability": 7
+                        }
+                    },
+                    {
+                        "day": "2023-09-19",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 74.4,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 15.9,
+                            "avg_angle": 72,
+                            "avg_dir": "ENE",
+                            "max_speed": 25.3,
+                            "max_gust": 36.5
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 19
+                        }
+                    },
+                    {
+                        "day": "2023-09-20",
+                        "temperature": {
+                            "avg": 78.5,
+                            "avg_min": 77.2,
+                            "avg_max": 79.9,
+                            "record_min": 74.4,
+                            "record_max": 82.1
+                        },
+                        "wind": {
+                            "avg_speed": 15.0,
+                            "avg_angle": 67,
+                            "avg_dir": "ENE",
+                            "max_speed": 24.7,
+                            "max_gust": 35.0
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 17
+                        }
+                    },
+                    {
+                        "day": "2023-09-21",
+                        "temperature": {
+                            "avg": 78.1,
+                            "avg_min": 77.2,
+                            "avg_max": 79.4,
+                            "record_min": 74.0,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 14.4,
+                            "avg_angle": 73,
+                            "avg_dir": "ENE",
+                            "max_speed": 23.8,
+                            "max_gust": 34.7
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 14
+                        }
+                    },
+                    {
+                        "day": "2023-09-22",
+                        "temperature": {
+                            "avg": 78.1,
+                            "avg_min": 77.2,
+                            "avg_max": 79.4,
+                            "record_min": 74.0,
+                            "record_max": 82.6
+                        },
+                        "wind": {
+                            "avg_speed": 15.3,
+                            "avg_angle": 71,
+                            "avg_dir": "ENE",
+                            "max_speed": 24.2,
+                            "max_gust": 34.4
+                        },
+                        "precipitation": {
+                            "avg": 0.02,
+                            "probability": 17
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "{'lat': '37.7749', 'lon': '-122.4194'}": {
+        "error": "",
+        "response": "{'lat': '37.7749N', 'lon': '122.4194W', 'elevation': 89, 'units': 'us', 'statistics': {'data': [{'day': '2025-06-01', 'temperature': {'avg': 57.4, 'avg_min': 52.9, 'avg_max': 63.2, 'record_min': 49.7, 'record_max': 75.8}, 'wind': {'avg_speed': 8.9, 'avg_angle': 268, 'avg_dir': 'W', 'max_speed': 18.8, 'max_gust': 33.3}, 'precipitation': {'avg': 0.01, 'probability': 2}}, {'day': '2025-06-02', 'temperature': {'avg': 57.4, 'avg_min': 52.9, 'avg_max': 63.2, 'record_min': 49.3, 'record_max': 78.9}, 'wind': {'avg_speed': 9.9, 'avg_angle': 267, 'avg_dir': 'W', 'max_speed': 22.8, 'max_gust': 39.1}, 'precipitation': {'avg': 0.004, 'probability': 2}}, {'day': '2025-06-03', 'temperature': {'avg': 56.9, 'avg_min': 53.3, 'avg_max': 62.8, 'record_min': 48.8, 'record_max': 72.7}, 'wind': {'avg_speed': 9.7, 'avg_angle': 264, 'avg_dir': 'W', 'max_speed': 22.5, 'max_gust': 39.2}, 'precipitation': {'avg': 0.004, 'probability': 2}}, {'day': '2025-06-04', 'temperature': {'avg': 57.4, 'avg_min': 53.3, 'avg_max': 62.8, 'record_min': 48.4, 'record_max': 76.7}, 'wind': {'avg_speed': 9.6, 'avg_angle': 262, 'avg_dir': 'W', 'max_speed': 22.1, 'max_gust': 36.4}, 'precipitation': {'avg': 0.05, 'probability': 12}}, {'day': '2025-06-05', 'temperature': {'avg': 57.4, 'avg_min': 53.3, 'avg_max': 62.8, 'record_min': 48.8, 'record_max': 72.7}, 'wind': {'avg_speed': 10.3, 'avg_angle': 270, 'avg_dir': 'W', 'max_speed': 23.6, 'max_gust': 38.7}, 'precipitation': {'avg': 0.01, 'probability': 2}}, {'day': '2025-06-06'"
+    },
+    "{'lat': '35.6762N', 'lon': '139.6503E', 'units': 'metric'}": {
+        "error": "",
+        "response": "{'lat': '35.6762N', 'lon': '139.6503E', 'elevation': 42, 'units': 'metric', 'statistics': {'data': [{'day': '2025-06-02', 'temperature': {'avg': 20.8, 'avg_min': 18.0, 'avg_max': 24.5, 'record_min': 12.5, 'record_max': 29.2}, 'wind': {'avg_speed': 3.4, 'avg_angle': 161, 'avg_dir': 'SSE', 'max_speed': 10.0, 'max_gust': 15.1}, 'precipitation': {'avg': 3.3, 'probability': 36}}, {'day': '2025-06-03', 'temperature': {'avg': 21.0, 'avg_min': 18.0, 'avg_max': 24.5, 'record_min': 13.8, 'record_max': 28.0}, 'wind': {'avg_speed': 3.5, 'avg_angle': 155, 'avg_dir': 'SSE', 'max_speed': 13.2, 'max_gust': 22.9}, 'precipitation': {'avg': 4.2, 'probability': 31}}, {'day': '2025-06-04', 'temperature': {'avg': 21.0, 'avg_min': 17.8, 'avg_max': 25.2, 'record_min': 13.0, 'record_max': 29.2}, 'wind': {'avg_speed': 3.1, 'avg_angle': 142, 'avg_dir': 'SE', 'max_speed': 10.8, 'max_gust': 18.6}, 'precipitation': {'avg': 1.4, 'probability': 17}}, {'day': '2025-06-05', 'temperature': {'avg': 21.0, 'avg_min': 18.0, 'avg_max': 24.8, 'record_min': 13.8, 'record_max': 31.5}, 'wind': {'avg_speed': 3.1, 'avg_angle': 124, 'avg_dir': 'SE', 'max_speed': 11.4, 'max_gust': 16.8}, 'precipitation': {'avg': 3.4, 'probability': 34}}, {'day': '2025-06-06', 'temperature': {'avg': 21.0, 'avg_min': 18.2, 'avg_max': 24.5, 'record_min': 14.0, 'record_max': 31.8}, 'wind': {'avg_speed': 3.1, 'avg_angle': 108, 'avg_dir': 'ESE', 'max_speed': 10.0, 'max_gust': 16.7}, 'precipitation': {'avg': 5.2, 'probability': 39}}, {'day': '202"
+    },
+    "{'lat': '48.8566N', 'lon': '2.3522E', 'units': 'metric'}": {
+        "error": "",
+        "response": "{'lat': '48.8566N', 'lon': '2.3522E', 'elevation': 39, 'units': 'metric', 'statistics': {'data': [{'day': '2025-06-02', 'temperature': {'avg': 17.0, 'avg_min': 12.2, 'avg_max': 21.2, 'record_min': 6.0, 'record_max': 31.8}, 'wind': {'avg_speed': 3.4, 'avg_angle': 314, 'avg_dir': 'NW', 'max_speed': 9.1, 'max_gust': 19.9}, 'precipitation': {'avg': 2.3, 'probability': 43}}, {'day': '2025-06-03', 'temperature': {'avg': 16.5, 'avg_min': 12.0, 'avg_max': 20.5, 'record_min': 4.8, 'record_max': 27.5}, 'wind': {'avg_speed': 3.3, 'avg_angle': 294, 'avg_dir': 'WNW', 'max_speed': 8.6, 'max_gust': 17.4}, 'precipitation': {'avg': 3.5, 'probability': 56}}, {'day': '2025-06-04', 'temperature': {'avg': 16.2, 'avg_min': 11.5, 'avg_max': 20.5, 'record_min': 2.8, 'record_max': 29.2}, 'wind': {'avg_speed': 3.2, 'avg_angle': 328, 'avg_dir': 'NNW', 'max_speed': 10.4, 'max_gust': 21.5}, 'precipitation': {'avg': 3.0, 'probability': 51}}, {'day': '2025-06-05', 'temperature': {'avg': 16.5, 'avg_min': 11.8, 'avg_max': 20.8, 'record_min': 4.2, 'record_max': 32.0}, 'wind': {'avg_speed': 3.1, 'avg_angle': 308, 'avg_dir': 'NW', 'max_speed': 8.4, 'max_gust': 17.2}, 'precipitation': {'avg': 3.4, 'probability': 53}}, {'day': '2025-06-06', 'temperature': {'avg': 16.5, 'avg_min': 12.2, 'avg_max': 20.5, 'record_min': 7.2, 'record_max': 31.8}, 'wind': {'avg_speed': 3.5, 'avg_angle': 258, 'avg_dir': 'WSW', 'max_speed': 9.8, 'max_gust': 20.3}, 'precipitation': {'avg': 2.5, 'probability': 46}}, {'day': '2025-06-07', '"
+    },
+    "{'lat': '48.8566', 'lon': '2.3522', 'units': 'metric'}": {
+        "error": "",
+        "response": "{'lat': '48.8566N', 'lon': '2.3522E', 'elevation': 39, 'units': 'metric', 'statistics': {'data': [{'day': '2025-06-02', 'temperature': {'avg': 17.0, 'avg_min': 12.2, 'avg_max': 21.2, 'record_min': 6.0, 'record_max': 31.8}, 'wind': {'avg_speed': 3.4, 'avg_angle': 314, 'avg_dir': 'NW', 'max_speed': 9.1, 'max_gust': 19.9}, 'precipitation': {'avg': 2.3, 'probability': 43}}, {'day': '2025-06-03', 'temperature': {'avg': 16.5, 'avg_min': 12.0, 'avg_max': 20.5, 'record_min': 4.8, 'record_max': 27.5}, 'wind': {'avg_speed': 3.3, 'avg_angle': 294, 'avg_dir': 'WNW', 'max_speed': 8.6, 'max_gust': 17.4}, 'precipitation': {'avg': 3.5, 'probability': 56}}, {'day': '2025-06-04', 'temperature': {'avg': 16.2, 'avg_min': 11.5, 'avg_max': 20.5, 'record_min': 2.8, 'record_max': 29.2}, 'wind': {'avg_speed': 3.2, 'avg_angle': 328, 'avg_dir': 'NNW', 'max_speed': 10.4, 'max_gust': 21.5}, 'precipitation': {'avg': 3.0, 'probability': 51}}, {'day': '2025-06-05', 'temperature': {'avg': 16.5, 'avg_min': 11.8, 'avg_max': 20.8, 'record_min': 4.2, 'record_max': 32.0}, 'wind': {'avg_speed': 3.1, 'avg_angle': 308, 'avg_dir': 'NW', 'max_speed': 8.4, 'max_gust': 17.2}, 'precipitation': {'avg': 3.4, 'probability': 53}}, {'day': '2025-06-06', 'temperature': {'avg': 16.5, 'avg_min': 12.2, 'avg_max': 20.5, 'record_min': 7.2, 'record_max': 31.8}, 'wind': {'avg_speed': 3.5, 'avg_angle': 258, 'avg_dir': 'WSW', 'max_speed': 9.8, 'max_gust': 20.3}, 'precipitation': {'avg': 2.5, 'probability': 46}}, {'day': '2025-06-07', '"
+    },
+    "{'lat': '50.1117N', 'lon': '8.6785E', 'units': 'metric'}": {
+        "error": "",
+        "response": "{'lat': '50.1117N', 'lon': '8.6785E', 'elevation': 108, 'units': 'metric', 'statistics': {'data': [{'day': '2025-06-02', 'temperature': {'avg': 17.2, 'avg_min': 12.0, 'avg_max': 22.5, 'record_min': 6.2, 'record_max': 31.2}, 'wind': {'avg_speed': 2.8, 'avg_angle': 126, 'avg_dir': 'SE', 'max_speed': 7.4, 'max_gust': 15.5}, 'precipitation': {'avg': 2.4, 'probability': 36}}, {'day': '2025-06-03', 'temperature': {'avg': 17.2, 'avg_min': 12.5, 'avg_max': 21.8, 'record_min': 5.0, 'record_max': 31.0}, 'wind': {'avg_speed': 2.8, 'avg_angle': 264, 'avg_dir': 'W', 'max_speed': 7.6, 'max_gust': 16.1}, 'precipitation': {'avg': 2.6, 'probability': 43}}, {'day': '2025-06-04', 'temperature': {'avg': 16.8, 'avg_min': 12.0, 'avg_max': 21.0, 'record_min': 5.8, 'record_max': 31.8}, 'wind': {'avg_speed': 2.8, 'avg_angle': 278, 'avg_dir': 'W', 'max_speed': 7.0, 'max_gust': 16.6}, 'precipitation': {'avg': 4.0, 'probability': 53}}, {'day': '2025-06-05', 'temperature': {'avg': 16.8, 'avg_min': 12.0, 'avg_max': 21.5, 'record_min': 4.5, 'record_max': 33.2}, 'wind': {'avg_speed': 2.6, 'avg_angle': 275, 'avg_dir': 'W', 'max_speed': 8.5, 'max_gust': 20.4}, 'precipitation': {'avg': 2.2, 'probability': 36}}, {'day': '2025-06-06', 'temperature': {'avg': 17.0, 'avg_min': 12.2, 'avg_max': 21.5, 'record_min': 5.2, 'record_max': 31.5}, 'wind': {'avg_speed': 2.7, 'avg_angle': 223, 'avg_dir': 'SW', 'max_speed': 7.4, 'max_gust': 16.4}, 'precipitation': {'avg': 2.2, 'probability': 46}}, {'day': '2025-06-07', 'temper"
+    },
+    "{'lat': '50.11N', 'lon': '8.68E', 'units': 'metric'}": {
+        "error": "",
+        "response": "{'lat': '50.11N', 'lon': '8.68E', 'elevation': 103, 'units': 'metric', 'statistics': {'data': [{'day': '2025-06-02', 'temperature': {'avg': 17.2, 'avg_min': 12.0, 'avg_max': 22.5, 'record_min': 6.2, 'record_max': 31.2}, 'wind': {'avg_speed': 2.8, 'avg_angle': 126, 'avg_dir': 'SE', 'max_speed': 7.4, 'max_gust': 15.5}, 'precipitation': {'avg': 2.4, 'probability': 36}}, {'day': '2025-06-03', 'temperature': {'avg': 17.2, 'avg_min': 12.5, 'avg_max': 21.8, 'record_min': 5.0, 'record_max': 31.0}, 'wind': {'avg_speed': 2.8, 'avg_angle': 264, 'avg_dir': 'W', 'max_speed': 7.6, 'max_gust': 16.1}, 'precipitation': {'avg': 2.6, 'probability': 43}}, {'day': '2025-06-04', 'temperature': {'avg': 16.8, 'avg_min': 12.0, 'avg_max': 21.0, 'record_min': 5.8, 'record_max': 31.8}, 'wind': {'avg_speed': 2.8, 'avg_angle': 278, 'avg_dir': 'W', 'max_speed': 7.0, 'max_gust': 16.6}, 'precipitation': {'avg': 4.0, 'probability': 53}}, {'day': '2025-06-05', 'temperature': {'avg': 16.8, 'avg_min': 12.0, 'avg_max': 21.5, 'record_min': 4.5, 'record_max': 33.2}, 'wind': {'avg_speed': 2.6, 'avg_angle': 275, 'avg_dir': 'W', 'max_speed': 8.5, 'max_gust': 20.4}, 'precipitation': {'avg': 2.2, 'probability': 36}}, {'day': '2025-06-06', 'temperature': {'avg': 17.0, 'avg_min': 12.2, 'avg_max': 21.5, 'record_min': 5.2, 'record_max': 31.5}, 'wind': {'avg_speed': 2.7, 'avg_angle': 223, 'avg_dir': 'SW', 'max_speed': 7.4, 'max_gust': 16.4}, 'precipitation': {'avg': 2.2, 'probability': 46}}, {'day': '2025-06-07', 'temperatur"
+    }
+}

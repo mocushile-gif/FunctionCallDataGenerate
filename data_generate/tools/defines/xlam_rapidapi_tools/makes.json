@@ -1,0 +1,36 @@
+{
+    "name": "makes",
+    "description": "This is a sub-function API for tool car_api.\nTool description: Search vehicles sold in the United States by year, make, model, trim, engine, body, mileage, VIN decoder and more.\nAPI description: Fetches car makes from the RapidAPI service filtered by various query parameters such as limit, direction, sort, page, make, and year.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "limit": {
+                "type": "number",
+                "description": "The maximum number of results to return. Defaults to None."
+            },
+            "direction": {
+                "type": "string",
+                "description": "The order direction of results, either 'asc' for ascending or 'desc' for descending. Defaults to 'asc'.",
+                "default": "asc"
+            },
+            "sort": {
+                "type": "string",
+                "description": "The attribute by which to sort the results, such as 'id'. Defaults to 'id'.",
+                "default": "id"
+            },
+            "page": {
+                "type": "number",
+                "description": "The page number for paginated results. Defaults to None."
+            },
+            "make": {
+                "type": "string",
+                "description": "The name of the car make to filter results. Defaults to None."
+            },
+            "year": {
+                "type": "string",
+                "description": "The year of the car make to filter results. Defaults to None."
+            }
+        },
+        "required": []
+    }
+}

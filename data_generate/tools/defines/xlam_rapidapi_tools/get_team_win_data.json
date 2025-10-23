@@ -1,0 +1,17 @@
+{
+    "name": "get_team_win_data",
+    "description": "This is a sub-function API for tool nfl_team_stats_v2.\nTool description: NFL Team Stats is an API that always provides up-to-date stats for all NFL teams such as: Wins, Passing, Rushing and Recieving.\nAPI description: Provides a JSON Response containg a list of all teams' win/loss data. Parameters include a specific year.\n\nThe year parameter should be a year between these years: 1920 - current year.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "year": {
+                "type": "number",
+                "description": "The year for which to retrieve the win/loss data. Must be between 1920 and the current year.",
+                "default": 2020.0
+            }
+        },
+        "required": [
+            "year"
+        ]
+    }
+}

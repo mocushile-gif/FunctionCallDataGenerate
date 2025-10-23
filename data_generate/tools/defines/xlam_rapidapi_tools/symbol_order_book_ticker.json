@@ -1,0 +1,15 @@
+{
+    "name": "symbol_order_book_ticker",
+    "description": "This is a sub-function API for tool crypto_markets.\nTool description: Get all crypto markets data live\nAPI description: Fetches the order book ticker information for a specific cryptocurrency symbol using RapidAPI.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "The symbol for the cryptocurrency (e.g., 'BTCUSDT'). Defaults to 'BTCUSDT'. If not provided, bookTickers for all symbols will be returned in an array.",
+                "default": "BTCUSDT"
+            }
+        },
+        "required": []
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "calculate_recommended_daily_calorie_intake",
+    "description": "Calculates the recommended daily calorie intake and macronutrient distribution based on personal characteristics and fitness goals.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "weight_kg": {
+                "type": "number",
+                "description": "Body weight in kilograms."
+            },
+            "height_cm": {
+                "type": "number",
+                "description": "Height in centimeters."
+            },
+            "age": {
+                "type": "integer",
+                "description": "Age in years."
+            },
+            "sex": {
+                "type": "string",
+                "description": "Biological sex, either \"male\" or \"female\".",
+                "enum": ["male", "female"]
+            },
+            "activity_level": {
+                "type": "integer",
+                "description": "Activity level on a scale of 1 to 5 (1 = sedentary, 5 = extremely active)."
+            },
+            "goal": {
+                "type": "string",
+                "description": "Fitness goal, either \"lose\", \"maintain\", or \"gain\".",
+                "enum": ["lose", "maintain", "gain"]
+            }
+        },
+        "required": [
+            "weight_kg",
+            "height_cm",
+            "age",
+            "sex",
+            "activity_level",
+            "goal"
+        ]
+    }
+}

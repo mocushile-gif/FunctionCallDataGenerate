@@ -1,0 +1,16 @@
+{
+    "name": "news_get_details",
+    "description": "This is a sub-function API for tool fidelity_investments.\nTool description: Query for quote data, market movers, international markets,  sector performance, orders, chart, and news\nAPI description: This function retrieves detailed news information using the given resource ID.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "resid": {
+                "type": "string",
+                "description": "The value of resId field returned in .../news/list-top endpoint, such as : 202003011902RTRSNEWSCOMBINED_KBN20O2GM-OUSBS_1"
+            }
+        },
+        "required": [
+            "resid"
+        ]
+    }
+}

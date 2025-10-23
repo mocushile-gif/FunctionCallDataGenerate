@@ -1,0 +1,27 @@
+{
+    "name": "financial_balance_sheet",
+    "description": "This is a sub-function API for tool macrotrends_finance.\nTool description: Stocks API helps to query for the Financials Statement/Sheet that has over 10 years of finacial data.\nAPI description: Gives 10 years data of cash statement by the given ticker symbol.\n\nTo choose for a time format put a QUERY PARAMETER (freq) either \"A\" for annual or \"Q\" for quarterly\n\n(symbol) To choose what ticker symbol to see the company financials.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "Ticker symbol of the company to retrieve the financial balance sheet for.",
+                "default": "MSFT"
+            },
+            "formstyle": {
+                "type": "string",
+                "description": "Format style of the returned data ('dataframe' or other formats). Defaults to 'dataframe'.",
+                "default": "dataframe"
+            },
+            "freq": {
+                "type": "string",
+                "description": "Frequency of the data ('Q' for quarterly or 'A' for annual). Defaults to 'Q'.",
+                "default": "Q"
+            }
+        },
+        "required": [
+            "symbol"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "list_of_hotel_chains",
+    "description": "This is a sub-function API for tool booking_com.\nTool description: Find all hotels, view prices, photos of the hotels, reviews. Find car rental deals. **Site:** booking.com **Support**:  [tipsters@rapi.one](mailto:tipsters@rapi.one) / t.me/api_tipsters\nAPI description: Fetches a list of hotel chains from the Booking.com API.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "Hotel chain name to filter results by."
+            },
+            "chain_id": {
+                "type": "string",
+                "description": "Chain ID to filter results by."
+            }
+        },
+        "required": []
+    }
+}
